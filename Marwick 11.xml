@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_ms.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Marwick Codex 11</title>
+         </titleStmt>
+         <publicationStmt>
+            <authority>The Hill Museum &amp; Manuscript Library - The Ethiopia Study
+               Center</authority>
+            <availability>
+               <licence>
+                  <p>http://www.hmml.org/</p></licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <settlement><!--where is it--></settlement>
+                  <repository><!--repository name--></repository>
+                  <idno xml:id="EMIP00015" type="EMIP">EMIP Codex Number 15</idno>
+
+               </msIdentifier>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dimensions unit="mm">
+                              <height>125</height>
+                              <width>120</width>
+                              <depth>90</depth>
+                           </dimensions>
+                           <p>Folios ii + 219</p>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote scope="major">Written throughout in <term>very nice letters</term>, probably by <persName type="copyst">Anonymous Copyist</persName> who also worked on <ref target="manuscript2"/>. </handNote>
+                  </handDesc>
+                  <typeDesc>
+                     <p>Psalter</p>
+                  </typeDesc>
+               </physDesc>
+
+               <history>
+                  <origin>
+                     <origPlace><placeName type="country">Ethiopia</placeName></origPlace>
+                     <origDate notBefore-custom="1550" notAfter-custom="1900"
+                        datingMethod="http://en.wikipedia.org/wiki/Julian_calendar">late 16th, 19th
+                        centuries (composite)</origDate>
+                  </origin>
+                  <provenance type="found"> The Manuscript was found by <persName type="owner">Mario Rossi</persName> in a
+                     <placeName type="locus">Church...</placeName> and subsiquently both by <persName type="owner">John Smith</persName>, a collector
+                     <!--?--><placeName type="modern_region"/><placeName type="modernCountry"
+                        >Ethiopia</placeName></provenance>
+               </history>
+            </msDesc>
+
+         </sourceDesc>
+      </fileDesc>
+
+
+      <encodingDesc>
+         <p>Marked-up according to TEI P5</p>
+         <classDecl>
+            <taxonomy>
+               <category xml:id="representation">
+                  <catDesc>Digitized other representations</catDesc>
+               </category>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term>illuminated</term>
+            </keywords>
+         </textClass>
+
+         <langUsage>
+            <language ident="ge">Ge'ez</language>
+            <language ident="ar">Arabic</language>
+            <language ident="en">English</language>
+            <language ident="fr">French</language>
+            <language ident="de">German</language>
+            <language ident="he">Hebrew</language>
+            <language ident="it">Italian</language>
+            <language ident="la">Latin</language>
+            <language ident="sp">Spanish</language>
+         </langUsage>
+         <creation>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+            Forschungsumgebung</creation>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2016-01-30" who="Pietro Liuzzo"> Entered Data </change>
+
+      </revisionDesc>
+   </teiHeader>
+   <facsimile>
+      <graphic url="http://cdm.csbsju.edu/cdm/compoundobject/collection/SGD/id/41301/rec/1">
+         <desc>Manuscript</desc>
+      </graphic>
+      <graphic
+         url="https://tools.wmflabs.org/zoomviewer/iipsrv.fcgi/?iiif=cache/6b76c826f884e9935b7c0ccc28330862.tif/125,10,150,140/full/0/default.jpg">
+         <desc>part of Image of folio</desc>
+      </graphic>
+   </facsimile>
+   <text>
+      <body>
+         <div type="bibliography">
+            <bibl><ptr target="#EMIP00015"/></bibl><!--see zotero https://www.zotero.org/pietroliuzzo/items/collectionKey/ZCNUJUWZ/itemKey/E85NA3KV -->
+         </div>
+
+         <div type="transcription">
+
+            <div type="textpart" subtype="part" n="1" xml:id="part1">
+               <ab>
+                  <pb n="1"/><persName ref="people.xml#p45" type="a"><name nymRef="names.xml#Henok"
+                        >ዘሄኖክ</name></persName>
+                  <pb n="2"/>ወነሥኣ ፡ <persName ref="people.xml#p1" type="attested"><name
+                        nymRef="names.xml#Abram">አብራም</name></persName> ፡ ለ<persName
+                     ref="people.xml#p2"><name nymRef="names.xml#Sara">ሶራ</name></persName> ፡ ብእሲቱ ፡
+                     ወ<persName ref="people.xml#p3"><name nymRef="names.xml#Lot"
+                     >ሎጥ</name></persName>ሃ ፡ ወልደ ፡ እኁሁ ፡ ወኵሎ ፡ ንዋዮሙ ፡ ዘአጥረዩ ፡ በካራን ፡ ወወፅኡ ፡ ወሖሩ ፡
+                  ምድረ ፡ <placeName ref="mentionedplaces.xml#Canaan" nymRef="places.xml#Canaan"
+                     >ከናአን</placeName> ። </ab>
+            </div>
+         </div>
+
+         <div type="translation" xml:lang="en"><p>And Abram took Sarai his wife, and Lot his brother’s son, and all
+            their possessions that they had gathered, and the people that they had acquired in
+            Haran, and they set out to go to the land of Canaan. When they came to the land of
+            Canaan</p></div>
+
+         <div type="apparatus"/>
+
+         <div type="commentary" xml:lang="en">
+         <p><geogName type="river" nymRef="places.xml#Euphrates"
+               ref="http://pleiades.stoa.org/places/912849">Euphrates</geogName></p>
+         </div>
+      </body>
+   </text>
+</TEI>
