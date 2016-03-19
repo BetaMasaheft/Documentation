@@ -12,8 +12,18 @@
     </head>
     <body>
         <div>
-            <div id="map" style="width: 600px; height: 400px"></div>
-                <script src="js/map.js"></script>
+            <div id="map" style="width: 100%; height: 400px"></div>
+            <script type="text/javascript">
+                var mymap = L.map('map').setView([9.189, 40.496], 13);
+        		L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA', {
+			    maxZoom: 18,
+			    attribution: 'Map data <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://mapbox.com">Mapbox</a>',
+			    id: 'mapbox.streets'
+		        }).addTo(mymap);
+               L.marker([14.308833, 39.378683]).addTo(mymap).bindPopup("ˁAddäqaḥarsi Ṗaraqliṭos / AP").openPopup();
+            </script>
         </div>
     </body>
 </html>
