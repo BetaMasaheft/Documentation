@@ -9,7 +9,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template name="tags">
-        <dc:subject>
+        <!--<dc:subject>
             <xsl:choose>
                 <xsl:when test="./t:analytic/t:author">
                     <xsl:value-of
@@ -29,9 +29,9 @@
                     </xsl:choose>
                 </xsl:otherwise>
             </xsl:choose>
-        </dc:subject>
+        </dc:subject>-->
         
-        <xsl:if test="./t:ref[@type = 'quoted_in']">
+        <!--<xsl:if test="./t:ref[@type = 'quoted_in']">
             <xsl:choose>
                 <xsl:when test="contains(./t:ref[@type = 'quoted_in'], ';')">
                     <xsl:for-each select="tokenize(./t:ref[@type = 'quoted_in'], ';')"><dc:subject>
@@ -49,23 +49,33 @@
                     </dc:subject>	
                 </xsl:otherwise>
             </xsl:choose>
-        </xsl:if>
+        </xsl:if>-->
         
         <xsl:if test=".//t:textLang/t:lang[@style = 'tradition']">
             <xsl:choose>
                 <xsl:when test="contains(.//t:textLang/t:lang[@style = 'tradition'], ';')">
                     <xsl:for-each select="tokenize(.//t:textLang/t:lang[@style = 'tradition'], ';')"><dc:subject>
-                        <xsl:value-of select="concat('tradition:', normalize-space(.))"/>
+                        <xsl:value-of select="normalize-space(.)"/>
                     </dc:subject></xsl:for-each>
                 </xsl:when>
-                <xsl:when test="contains(./t:ref[@type = 'quoted_in'], ',')">
+                <xsl:when test="contains(.//t:textLang/t:lang[@style = 'tradition'], '.')">
+                    <xsl:for-each select="tokenize(.//t:textLang/t:lang[@style = 'tradition'], '.')"><dc:subject>
+                        <xsl:value-of select="normalize-space(.)"/>
+                    </dc:subject></xsl:for-each>
+                </xsl:when>
+                <xsl:when test="contains(.//t:textLang/t:lang[@style = 'tradition'], ':')">
+                    <xsl:for-each select="tokenize(.//t:textLang/t:lang[@style = 'tradition'], ':')"><dc:subject>
+                        <xsl:value-of select="normalize-space(.)"/>
+                    </dc:subject></xsl:for-each>
+                </xsl:when>
+                <xsl:when test="contains(.//t:textLang/t:lang[@style = 'tradition'], ',')">
                     <xsl:for-each select="tokenize(.//t:textLang/t:lang[@style = 'tradition'], ',')"><dc:subject>
-                        <xsl:value-of select="concat('tradition:', normalize-space(.))"/>
+                        <xsl:value-of select="normalize-space(.)"/>
                     </dc:subject></xsl:for-each>
                 </xsl:when>
                 <xsl:otherwise>
                     <dc:subject>
-                        <xsl:value-of select="concat('tradition:', .//t:textLang/t:lang[@style = 'tradition'])"/>
+                        <xsl:value-of select=".//t:textLang/t:lang[@style = 'tradition']"/>
                     </dc:subject>	
                 </xsl:otherwise>
             </xsl:choose>
@@ -73,7 +83,23 @@
         
         <xsl:if test=".//t:textLang/t:catchwords">
             <xsl:choose>
-                <xsl:when test="contains(., ';')">
+                <xsl:when test="contains(.//t:textLang/t:catchwords, ':')">
+                    <xsl:for-each select="tokenize(.//t:textLang/t:catchwords, ':')">
+                        <dc:subject>
+                            <xsl:value-of select="normalize-space(.)"/>
+                            
+                        </dc:subject>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:when test="contains(.//t:textLang/t:catchwords, '.')">
+                    <xsl:for-each select="tokenize(.//t:textLang/t:catchwords, '.')">
+                        <dc:subject>
+                            <xsl:value-of select="normalize-space(.)"/>
+                            
+                        </dc:subject>
+                    </xsl:for-each>
+                </xsl:when>
+                <xsl:when test="contains(.//t:textLang/t:catchwords, ';')">
                     <xsl:for-each select="tokenize(.//t:textLang/t:catchwords, ';')">
                         <dc:subject>
                             <xsl:value-of select="normalize-space(.)"/>
@@ -81,7 +107,7 @@
                         </dc:subject>
                     </xsl:for-each>
                 </xsl:when>
-                <xsl:when test="contains(., ',')">
+                <xsl:when test="contains(.//t:textLang/t:catchwords, ',')">
                     <xsl:for-each select="tokenize(.//t:textLang/t:catchwords, ',')">
                         <dc:subject>
                             <xsl:value-of select="normalize-space(.)"/>

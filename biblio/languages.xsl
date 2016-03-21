@@ -11,7 +11,7 @@
     
     <xsl:template name="languages">
         <z:language>
-            <xsl:value-of select=".//t:textLang/t:lang[@style = 'content']"/>
+            <xsl:value-of select="lower-case(.//t:textLang/t:lang[@style = 'content'])"/>
         </z:language>
     </xsl:template>
 </xsl:stylesheet>
