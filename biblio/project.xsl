@@ -6,17 +6,20 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vcard="http://nwalsh.com/rdf/vCard#"
 	xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" version="2.0">
 	<xsl:template name="project">
-		<bib:Manuscript>
+		<bib:Document>
 			
 			<xsl:call-template name="id"/>
 			
 			<z:itemType>
-				<xsl:text>manuscript</xsl:text>
+				<xsl:text>webpage</xsl:text>
 			</z:itemType>
 			<dc:title>
 				
 				<xsl:call-template name="monotitle"/>
 			</dc:title>
+			<xsl:if test=".//t:imprint/t:biblScope/t:abbr">
+				<z:shortTitle><xsl:value-of select=".//t:imprint/t:biblScope/t:abbr"/></z:shortTitle>
+			</xsl:if>
 			<xsl:if test=".//t:imprint"><xsl:call-template name="publisher"/></xsl:if>
 			<bib:authors>
 				<rdf:Seq>
@@ -53,6 +56,6 @@
 			
 			<!--notes-->
 			<xsl:call-template name="note"/>
-		</bib:Manuscript>
+		</bib:Document>
 	</xsl:template>
 </xsl:stylesheet>

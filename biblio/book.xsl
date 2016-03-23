@@ -55,6 +55,9 @@
 
 				<xsl:call-template name="monotitle"/>
 			</dc:title>
+			 <xsl:if test=".//t:imprint/t:biblScope/t:abbr">
+			 	<z:shortTitle><xsl:value-of select=".//t:imprint/t:biblScope/t:abbr"/></z:shortTitle>
+			 </xsl:if>
 			<!--volume-->
 			<prism:volume>
 				<xsl:value-of
@@ -65,6 +68,7 @@
 			<xsl:if test="t:title[@level = 'j']">
 				<xsl:call-template name="journalTitle"/>
 			</xsl:if>
+		
 
 			<!--date-->
 			<xsl:for-each select=".//t:imprint/t:date">

@@ -48,6 +48,9 @@
 				<xsl:call-template name="title"/>
 
 			</dc:title>
+			<xsl:if test=".//t:imprint/t:biblScope/t:abbr">
+				<z:shortTitle><xsl:value-of select=".//t:imprint/t:biblScope/t:abbr"/></z:shortTitle>
+			</xsl:if>
 			<xsl:call-template name="partOf"/>
 			<!--journaltitle-->
 			<xsl:if test="t:monogr/t:title[@level = 'j']">

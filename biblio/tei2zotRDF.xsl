@@ -41,7 +41,7 @@
 					<xsl:call-template name="book"/>
 				</xsl:when>
 
-				<xsl:when test="@type = 'Book-chapter'">
+				<xsl:when test="@type = 'Book_chapter'">
 					<xsl:call-template name="bookpart"/>
 				</xsl:when>
 
@@ -148,6 +148,7 @@
 
 	<xsl:include href="tags.xsl"/>
 	<xsl:include href="series.xsl"/>
+	<xsl:include href="seriesproc.xsl"/>
 	<xsl:include href="publisher.xsl"/>
 	<xsl:include href="partOf.xsl"/>
 	<xsl:include href="note.xsl"/>

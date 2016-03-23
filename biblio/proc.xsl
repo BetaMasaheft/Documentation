@@ -14,12 +14,7 @@
 				<xsl:text>conferencePaper</xsl:text>
 			</z:itemType>
 
-			<!--series-->
-
-
-			<xsl:if test=".//t:series">
-				<xsl:call-template name="series"/>
-			</xsl:if>
+				<xsl:call-template name="seriesproc"/>
 			<!--publisher-->
 			<xsl:if test=".//t:mprint"><xsl:call-template name="publisher"/></xsl:if>
 			<bib:authors>
@@ -46,7 +41,6 @@
 			<!--url-->
 			
 			<xsl:call-template name="url"/>
-			<xsl:call-template name="partOf"/>
 			<!--tags-->
 			
 			<xsl:call-template name="tags"/>
@@ -60,7 +54,7 @@
 				<xsl:call-template name="journalTitle"/>
 			</xsl:if>
 <!--series-->
-			<xsl:if test="t:title[@level = 's'][1]">
+			<xsl:if test="t:title[@level = 's']">
 				<xsl:call-template name="series"/>
 			</xsl:if>
 			

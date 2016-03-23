@@ -6,13 +6,15 @@
 	xmlns:dcterms="http://purl.org/dc/terms/" xmlns:vcard="http://nwalsh.com/rdf/vCard#"
 	xmlns:prism="http://prismstandard.org/namespaces/1.2/basic/" version="2.0">
 	<xsl:template name="bookpart">
-		<bib:bookSection>
+		<bib:BookSection>
 			<xsl:call-template name="id"/>
 
 			<z:itemType>
 				<xsl:text>bookSection</xsl:text>
 			</z:itemType>
 
+
+			<xsl:call-template name="partOf"/>
 			<!--series-->
 
 
@@ -54,6 +56,9 @@
 			<dc:title>
 				<xsl:call-template name="title"/>
 			</dc:title>
+			<xsl:if test=".//t:imprint/t:biblScope/t:abbr">
+				<z:shortTitle><xsl:value-of select=".//t:imprint/t:biblScope/t:abbr"/></z:shortTitle>
+			</xsl:if>
 			<!--language-->
 			<xsl:if test=".//t:textLang">
 				<xsl:call-template name="languages"/>
@@ -78,7 +83,7 @@
 			
 			<!--notes-->
 			<xsl:call-template name="note"/>
-		</bib:bookSection>
+		</bib:BookSection>
 	</xsl:template>
 
 

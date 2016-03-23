@@ -13,7 +13,7 @@
 			<z:itemType>
 				<xsl:text>encyclopediaArticle</xsl:text>
 			</z:itemType>
-			<xsl:call-template name="partOf"/>
+			<xsl:call-template name="seriesencycl"/>
 			<dc:title>
 				
 				<xsl:call-template name="title"/>
