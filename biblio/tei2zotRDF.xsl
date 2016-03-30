@@ -55,7 +55,7 @@
 
 				<xsl:when test="@type = 'Paper'">
 					<!--is this different from Journal Article and conference paper in structure?-->
-					<xsl:call-template name="paper"/>
+					<xsl:call-template name="bookpart"/>
 				</xsl:when>
 
 				<xsl:when test="@type = 'Encyclopaedia_entry'">
@@ -63,7 +63,7 @@
 				</xsl:when>
 
 				<xsl:when test="@type = 'Conference_paper'">
-					<xsl:call-template name="proc"/>
+					<xsl:call-template name="bookpart"/>
 				</xsl:when>
 
 
