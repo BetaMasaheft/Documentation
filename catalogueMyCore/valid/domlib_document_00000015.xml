@@ -32,14 +32,19 @@
                      <idno>C3-IV-359 (fol. 66v)</idno>
                   </altIdentifier>
                </msIdentifier>
+               
                <msContents>
-                  <msItemStruct>
+                  <msItem>
                      <locus from="1ra" to="182vb">1ra-182vb</locus>
                      <title type="Complete">I. Sinodos</title>
+                     <textLang mainLang="gez">Ge'ez</textLang>
                      <rubric>Numbers and incipit of canons;
                 incipit of prayers; incipit of texts; elements of the punctuation
                 signs.</rubric>
-                     <incipit>Fol. 1ra, l.1: በስመ፡ አብ፡ ወልድ፡ ወመልድ[sic]፡ ወመንፈስ፡ ቅዱስ፡ አሐዱ፡ አምላክ። ንቅድም፡ በረድኤተ፡ እግዚአብሔር፡ በሠናይ፡ ኅብረት፡ ወበጽሕፈተ፡ ሲኖዶስ፡ ዘአብው፡ ሐዋርያት፡ ቅዱሳን፡ ዘሠርዑ፡ ለአርትዖ፡ ቤተ፡ ክርስዲያን፡ ቅድስት። አሕብሮተ፡ ሲኖዶስ፡ ዘአበው፡ ሐዋርያት፡ ኅሩያን።<foreign xml:lang="en">Fol. 1ra, l.1 ( Index of the Statutes or Commandments of the Apostles): In the name of the Father, and the Son, and the Holy Spirit, one God. With the help of God, we begin with the good collection, with the writing of of Sinodos of fathers, the Apostles, which they established for the guidance of the holy Church. The gathering of the Sinodos of the fathers, the chosen Apostles.</foreign>
+                     <incipit>
+                        <locus from="1ra" n="1"/>
+                        በስመ፡ አብ፡ ወልድ፡ ወመልድ[sic]፡ ወመንፈስ፡ ቅዱስ፡ አሐዱ፡ አምላክ። ንቅድም፡ በረድኤተ፡ እግዚአብሔር፡ በሠናይ፡ ኅብረት፡ ወበጽሕፈተ፡ ሲኖዶስ፡ ዘአብው፡ ሐዋርያት፡ ቅዱሳን፡ ዘሠርዑ፡ ለአርትዖ፡ ቤተ፡ ክርስዲያን፡ ቅድስት። አሕብሮተ፡ ሲኖዶስ፡ ዘአበው፡ ሐዋርያት፡ ኅሩያን።
+                        <foreign xml:lang="en">Index of the Statutes or Commandments of the Apostles): In the name of the Father, and the Son, and the Holy Spirit, one God. With the help of God, we begin with the good collection, with the writing of of Sinodos of fathers, the Apostles, which they established for the guidance of the holy Church. The gathering of the Sinodos of the fathers, the chosen Apostles.</foreign>
                      </incipit>
                      <explicit>Fol. 182vb, l.25: ኦኤጲስ፡ ቆጶሳት፡ ወከመዝ፡ ሥርዑ፡ ወሐግጉ። ሥርዓተ፡ ንስሐ፡ ከመ፡ ኢይሙት፡ ኀጥእ፡ በኀጢአቱ። ሀብዎሙ፡ ንሥሐ፡ ለእለ፡ ይፈቅዱ፡ ይነስሑ። <foreign xml:lang="en">Fol. 182vb, l. 25 (</foreign>
                      </explicit>
@@ -139,13 +144,13 @@
                         </bibl>
                      </listBibl>
                      <note/>
-                  </msItemStruct>
-                  <msItem xml:id="msitem_I">
+                  </msItem>
+                  <msItem xml:id="i1">
                      <locus from="1ra" to="182vb">fols. 1ra-182vb</locus>
                      <title type="uniform" xml:lang="la">Sinodos </title>
                      <textLang mainLang="gez">Ge'ez</textLang>
                   </msItem>
-                  <msItem xml:id="msitem_I-1">
+                  <msItem xml:id="msitem_I-1" class="content">
                      <locus from="1ra" to="2vb">fols. 1ra-2vb</locus>
                      <title type="uniform" xml:lang="la">Index of the Statutes or Commandments (təˀəzazat) of the Apostles </title>
                      <textLang mainLang="gez">Ge'ez</textLang>
@@ -270,7 +275,7 @@
                      <title type="uniform" xml:lang="la">Exposition and admonition on the Way of Virtue and Perdition (also called How to Distinguish between God and Evil) </title>
                      <textLang mainLang="gez">Ge'ez</textLang>
                   </msItem>
-                  <msItem xml:id="msitem_I-26">
+                  <msItem xml:id="p1.2">
                      <locus from="150vb" to="155rb">fols. 150vb-155rb</locus>
                      <title type="uniform" xml:lang="la">Exposition and admonition on the Fear of God </title>
                      <textLang mainLang="gez">Ge'ez</textLang>
@@ -298,29 +303,32 @@
                   <msItem>
                      <title>Additiones 1-11; colophon.</title>
                   </msItem>
-                  <msItem>
+                  <msItem xml:id="coloph">
                      <colophon>
-                        <locus>Fol. 49rb, l.28</locus>በአስተሐምሞ፡ በትእዛዘ። እግዚአብሔር፡ ገበርክዎ፡ ለዝንቱ፡ ነገር ።Written in hand c, cp. also Additiones 1, 4, 8, 10, 12. The note is written
-                    over erased punctuation sign.</colophon>
+                        <locus from="49rb" n="28"/>በአስተሐምሞ፡ በትእዛዘ። እግዚአብሔር፡ ገበርክዎ፡ ለዝንቱ፡ ነገር ።</colophon>
+                     <note>Written in hand <ref target="#Hc" />, cp. also Additiones <ref target="#a1"/>, <ref target="#a4"/>, <ref target="#a8"/>, <ref target="#a10"/>, <ref target="#a12"/>. 
+                        The note is written over erased punctuation sign.</note>
                   </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <watermark>Watermark</watermark>
-                           <material xml:id="WMat01">Parchment</material>
+                           <watermark/>
+                           <material corresp="WMat01">Parchment</material>
+                           <objectType>Codex</objectType>
                         </support>
-                        <extent>Made of 183.0 folios,
-                                                of which 0.0
-                                                blank, in 25.0 quires. 
-                                                <dimensions type="outer">
-                              <height unit="cm">37.0</height>
-                              <width unit="cm">27.0</width>
-                              <depth unit="cm">11.5</depth>
+                        <extent>
+                           <measure unit="leaf">183</measure>
+                           <measure unit="leaf" type="blank">3</measure>
+                           <measure unit="quire">25</measure>
+                            <dimensions type="outer" unit="mm">
+                              <height>370</height>
+                              <width>270</width>
+                              <depth>115</depth>
                            </dimensions>
                         </extent>
-                        <foliation>I(2/2v) — II፩(8/fols. 3r-10v) —
+                        <collation>I(2/2v) — II፩(8/fols. 3r-10v) —
                 ፪III(8/fols. 11r-18v) — ፫IV(8/fols. 12r-26v) — ፬V(8/fols. 25r-34v) — ፭VI(8; s.l.: 3,
                 stub after 6; 6 stub after 3/fols. 35r-43v) — ፮VII(8; s.l.: 2, stub after 6; 7, stub
                 after 1/fols. 44r-50v) — ፯VIII(8/fols. 51r-58v) — ፰IX(8/fols. 59r-66v) — ፱X(8/fols.
@@ -332,7 +340,7 @@
                 ፳XXI(6; s.l.: 3, stub after 4; 4, stub after 3/fols. 157r-162v) — ፳፩XXII(4/fols.
                 163r-166v) — [፳፪]XXIII(8; s.l.: 3, stub after 5; 6, stub after 2/fols. 167r-174v) —
                 ፳፫XXIV(8; s.l.: 3, stub after 5; 6 stub after 2/fols. 175r-182v) — &lt;B(1; s.l.: 1,
-                stub after 1/fol. 183r-v)&gt;&#xD; Fol. 183 originates from a different Ms.</foliation>
+                stub after 1/fol. 183r-v)&gt;&#xD; Fol. 183 originates from a different Ms.</collation>
                         <condition>
                            <rs type="statPreserv" xml:id="St01">good</rs>Back board is broken and repaired with
                 a piece of another board and wire rings.&#xD; &#xD; Fols. 1-2 are crudely stitched
@@ -407,70 +415,25 @@
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote script="WS04">Ethiopic<rs type="ink">Black, red</rs>
-                        <name role="copyst"/>
-                        <date>Mid 15th - mid
-                15th-cent.</date>
+                     
+                     <handNote script="Ethiopic" xml:id="h1" corresp="#i1">
+                       <ab type="script"> 15th Century square script?</ab>
+                        <rs type="ink">Black, red</rs>
+                        <persName role="copyst" corresp="PRS1691Alib"/>
+                        <date>Mid 15th - mid 15th-cent.</date>
+                        <desc>Regular, by a well-trained hand</desc>
+                        <ab type="rubrication">Nomina Sacra</ab>
                      </handNote>
-                     <handNote>
-                        <p>Regular, by a well-trained
-                hand</p>
-                     </handNote>
+                     
                   </handDesc>
                   <decoDesc>
                      <decoNote type="miniature" xml:id="min_1">
-                        <p>
-                           <locus target="#1r">Fol. 1r: </locus>drawing of a cross; black ink.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_2">
-                        <p>
-                           <locus target="#70r">Fol. 70r: </locus>crude, recent drawing of a symbol; pencil.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_3">
-                        <p>
-                           <locus target="#79v">Fol. 79v: </locus>two crude, recent drawings of the same symbol as in fol. 70r; pencil.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_4">
-                        <p>
-                           <locus target="#80r">Fol. 80r: </locus>crude, recent drawing of the same symbol as in fol. 70r; pencil.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_5">
-                        <p>
-                           <locus target="#85r">Fol. 85r: </locus>crude, recent drawing of a cross; pencil.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_6">
-                        <p>
-                           <locus target="#85v">Fol. 85v: </locus>a drawing; pencil.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_7">
-                        <p>
-                           <locus target="#114v">Fol. 114v: </locus>a drawing; black ink.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_8">
-                        <p>
-                           <locus target="#126v">Fol. 126v: </locus>a drawing of a cross; black ink.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_9">
-                        <p>
-                           <locus target="#129v">Fol. 129v: </locus>recent, elaborated drawing of a cross; pencil.</p>
-                     </decoNote>
-                     <decoNote type="miniature" xml:id="min_10">
-                        <p>
-                           <locus target="#128r">Fol. 128r: </locus>drawing of a cross; pencil.</p>
-                     </decoNote>
-                     <decoNote type="frames" xml:id="frm_1">Ḥaräg 1-22: fols. 1r, 3r, 41r, 49v, 57v, 63r, 68v, 77v, 87r, 92r, 97r, 101v, 104r, 105v, 108v, 112v, 119r, 123v, 137r, 141r, 155v, 167r.</decoNote>
-                     <decoNote type="frames" xml:id="frm_2"/>
-                     <decoNote type="frames" xml:id="frm_3">
-                        <p>
-                           <locus target="#1r">Fol. 1r: </locus>wide, coloured (red and black), horizontal ornamental band over col. a-b, at the incipit of text I.-1), with three lateral extensions decorated with crosses, reaching the bottom of the text; the horizontal band extends to the top of the page(interlaces, crosses).</p>
-                     </decoNote>
-                     <decoNote type="frames" xml:id="frm_4">
-                        <p>
-                           <locus target="#3r">Fol. 3r: </locus>wide, coloured (red and black), horizontal ornamental band over col. a-b, at the incipit of text I.-2), with three lateral extensions decorated with crosses, reaching the bottom of the text; the horizontal band extends to the top of the page(interlaces, crosses).</p>
+                        <locus target="#1r"/>
+                        <desc>drawing of a cross; black ink.</desc>
                      </decoNote>
                      <decoNote type="frames" xml:id="frm_5">
-                        <p>
-                           <locus target="#41r">Fol. 41r: </locus>wide, coloured (red and black), horizontal ornamental band over col. a-b, at the incipit of text I.-3), with three lateral pendants reaching l.6 whose the central one decorated with a cross; the horizontal band extends to the top of the page(interlaces, crosses).</p>
+                        <locus target="#41r"/>
+                        <desc>wide, coloured (red and black), horizontal ornamental band over col. a-b, at the incipit of text I.-3), with three lateral pendants reaching l.6 whose the central one decorated with a cross; the horizontal band extends to the top of the page(interlaces, crosses).</desc>
                      </decoNote>
                      <decoNote type="frames" xml:id="frm_6">
                         <p>
@@ -552,9 +515,10 @@
                   <additions>
                      <list>
                         <item xml:id="addition_1">
-                           <locus>Fol. 40vb, l.30: Acquisition note.</locus>
-                           <q xml:lang="gez">Fol. 40vb, l.30: አጥረይክዋ፡ አነ፡ ገበረ፡ መድኅን፡ በመን{ፈ}ሰ፡ ጥበብ፡</q>
-                           <q xml:lang="en">[Fol. 40vb, l.30] I acquired it (this book), Gäbrä Mädḫən, through the spirit of wisdom.</q>
+                           Acquisition note.
+                           <locus target="#40vb" n="30"/>
+                           <q xml:lang="gez">አጥረይክዋ፡ አነ፡ ገበረ፡ መድኅን፡ በመን{ፈ}ሰ፡ ጥበብ፡</q>
+                           <q xml:lang="en">I acquired it (this book), Gäbrä Mädḫən, through the spirit of wisdom.</q>
                            <p/>
                         </item>
                         <item xml:id="addition_2">
@@ -645,12 +609,19 @@
                      </list>
                   </additions>
                   <bindingDesc>
-                     <p>Wooden boards (recently) covered with
-                reddish-brown tooled leather.&#xD; Four pairs of sewing stations.<rs type="original" xml:id="OB03">partly</rs>
-                        <material xml:id="BMat05">wood</material>
-                     </p>
-                     <p>Parchment guards (possibly of the same
-                origin as fol. 183) were used to sew together fols. 1-2.</p>
+                     <binding contemporary="false" xml:id="binding">
+                        <decoNote>Wooden boards (recently) covered with
+                reddish-brown tooled leather. </decoNote>
+                        <decoNote>Four pairs of sewing stations.</decoNote>
+                        <decoNote type="original"  xml:id="OB03">partly</decoNote>
+                        <decoNote type="bindingMaterial"><material xml:id="BMat05">wood</material></decoNote>
+                        <decoNote type="Endbands">
+                           <desc type="Headband"></desc>
+                           <desc type="Tailband"></desc>
+                        </decoNote>
+                     <decoNote type="Other">Parchment guards (possibly of the same
+                origin as <locus target="#183"/>) were used to sew together <locus from="1" to="2"/>.</decoNote>
+                     </binding>
                   </bindingDesc>
                </physDesc>
                <history>
@@ -724,25 +695,6 @@
          <change who="PietroLiuzzo" when="2016-03-10T17:51:23.806Z">transformed from mycore to TEI P5</change>
       </revisionDesc>
    </teiHeader>
-   <sourceDoc>
-      <surface>
-         <line>
-            <handShift new="#hand_a"/>fols. 1ra-182vb +
-                Additions nos. 8, 15.</line>
-         <line>
-            <handShift new="#hand_b"/>fol. 183ra-183vb.</line>
-         <line>
-            <handShift new="#hand_c"/>Additions nos. 1,
-                3, 4, 5, 9, 11, 13.</line>
-         <line>
-            <handShift new="#hand_d"/>Additions nos. 2, 7, 10.</line>
-         <line>
-            <handShift new="#hand_e"/>Additions
-                nos. 6, 14.</line>
-         <line>
-            <handShift new="#hand_f"/>Addition no. 12.</line>
-      </surface>
-   </sourceDoc>
    <text>
       <body>
          <ab/>
