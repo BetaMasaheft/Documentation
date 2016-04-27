@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESmr040"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäṣḥafä krәstәnna “Book of the Christening”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-04-29T08:53:18.871Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0042MәdräRubaSәllase"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>MR-040</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; incipit of Text I; directives to the ministers and their abbreviations; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+On the incipit page of Text I (fols. 3r), a few lines are rubricated (alternating with black lines).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus target="36v">Fol. 36v, l. 4</locus><span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4901;&#4637;&#4672;&#4725;&#4961; &#4704;&#4656;&#4619;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4636;&#4757;&#4962; &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4773;&#4757;&#4707;&#4961; &#4624;&#4648;&#4659;&#4961; &#4824;&#4768;&#4853;&#4961; &#4629;&#4843;&#4813;&#4961; &#4704;&#4824;&#4632;&#4753;&#4961; &#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4672;&#4658;&#4661;&#4961; &#4941;&#4645;&#4624;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4962; &#4808;&#4872;&#4704;&#4825;&#4610;</span> [lac.] <span style="font-size: large;">&#4776;&#4635;&#4609;&#4961; &#4845;&#4925;&#4624;&#4941;&#4961; &#4661;&#4638;&#4633;&#4961; &#4736;&#4704;&#4961; &#4819;&#4637;&#4848;&#4961; &#4808;&#4653;&#4677;&#4961; &#4704;&#4672;&#4616;&#4632;&#4961; &#4925;&#4853;&#4677;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4808;&#4920;&#4624;&#4936;&#4609;&#4754;&#4961; &#4739;&#4901;&#4773;&#4961; &#4824;&#4853;&#4757;&#4877;&#4621;&#4962;</span>The colophon states that the Ms. was owned by the church Däbrä Mikaʾel ʾƎnba Ḥarisay (Mikaʾel ʿAd Ḥǝyaw). It mentions also the commissioner, Fәśśәḥa Giyorgis, and the scribe, Zä-Dәngәl.</colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">37.0</measure> folios,
+                                                of which <measure unit="leaf" type="blank">3.0</measure> blank, in
+                                                <measure unit="quire">6.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">17.0</height>
+                              <width unit="cm">12.5</width>
+                              <depth unit="cm">2.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="1r" to="2v"/>
+                                 <locus from="3r" to="10v"/>A(2/fols. 1r-2v) - I(8/fols. 3r-10v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="11r" to="20v"/> II(10/fols. 11r-20v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="21r" to="30v"/> III(10/fols. 21r-30v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="31r" to="36v"/> IV(6/fols. 31r-36v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">1</dim>
+                                 <locus target="37r"/> B(1/fol. 37r-v).</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The sewing is broken.&#xD;
+The front leather board is missing.&#xD;
+Several fols. are damaged by rodents.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions unit="mm">
+                              <height>115</height>
+                              <width>90</width>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">20</dim>
+                              <dim type="bottom">25</dim>
+                              <dim type="right">15</dim>
+                              <dim type="left">6</dim>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <ab type="ruling"/>
+                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
+                           <ab type="pricking" subtype="pattern">
+Primary pricks are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pricks are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+The upper line is written above the ruling. </ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre but careful</ab>
+                        <seg type="ink">Black, vivid red.</seg>
+                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <date>FIrst half of the 19th century.</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/>
+                           <q xml:lang="gez"><span style="font-size: large;"><br /> </span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="e1">- Word ወለሰርሆ (?) is written in the upper margin in a secondary hand, between two black lines: fol. 32v.&#xD;
+- Crude recent notes in pencil written in the upper margin: fols. 16r, 17v, 21v.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two leather boards (the front board is missing).&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0042MәdräRubaSәllase">ʿAd Ḥǝyaw Qǝddus Mikaʾel</placeName>
+                     </origPlace>
+                     <origDate notBefore="1800" notAfter="1850">First half of the 19th cent.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Fәśśәḥa Giyorgis is mentioned as the commissioner in the colophon.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000"/>
+                  <!--copyst-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="RitualsAndRites"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gəˁəz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-13">registered</change>
+         <change who="SA" when="2013-04-29T08:53:18.871Z">created</change>
+         <change who="DN" when="2015-03-06T16:19:05.137Z">last edited</change>
+         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

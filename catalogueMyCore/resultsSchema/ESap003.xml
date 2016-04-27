@@ -1,0 +1,454 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESap003"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾArbaʿtu wängel “Four Gospels”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2011-02-22T14:09:07.209Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>AP-003</idno>
+                  <altIdentifier>
+                     <idno>C3-IV-6</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <locus from="170rb" to="218rb">170rb-218rb</locus>
+                     <title type="Complete.">V. Gospel of John</title>
+                     <rubric>Nomina sacra; incipits and headings of the texts, numbers and incipits of the chapter; elements of the punctuation signs; Ethiopic numerals; notes written in the margins; crux ansata.</rubric>
+                     <incipit><span style="font-size: medium"><span lang="EN-GB" style="line-height: 115%">Fol. 171ra, l. 1: </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4672;&#4851;&#4634;&#4609;&#4961; &#4675;&#4621;&#4961; &#4813;&#4773;&#4721;&#4961; &#4808;&#4813;&#4773;&#4721;&#4961; &#4675;&#4621;&#4961; &#4736;&#4704;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4813;&#4773;&#4721;&#4961; &#4808;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4813;&#4773;&#4721;&#4961; &#4675;&#4621;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">...</span></span><foreign xml:lang="en"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">Fol. 171ra, l.1: In the beginning was the Word, and the Word was with God, and the word was God...</span></span></foreign>
+                     </incipit>
+                     <explicit><span style="font-size: medium">Fol. 218rb, l.17: &#4808;&#4662;&#4704;&#4961; &#4720;&#4925;&#4629;&#4936;&#4961; &#4789;&#4617;&#4961; &#4704;&#4704;&#4961; &#4768;&#4624;&#4849;&#4961; &#4773;&#4632;&#4961; &#4770;&#4843;&#4877;&#4632;&#4654;&#4961; &#4819;&#4616;&#4637;&#4961; &#4901;&#4672;&#4961; &#4632;&#4920;&#4629;&#4941;&#4722;&#4609;&#4961; &#4824;&#4773;&#4637;&#4720;&#4925;&#4629;&#4936;&#4961; &#4768;&#4636;&#4757;&#4968;</span><foreign xml:lang="en"/>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl corresp="EMML_4224">EMML X, 78-79, Church of ʾƎndafäre Maryam Wärana Baso, Šäwa<date>(14th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_1930">EMML V, 414-415, Monastery of Ḥayq ʾƎsṭifanos, ʾAmbassäl<date>(14th/15th cent.)</date>
+                        </bibl>
+                        <bibl>BN eth. 35 (15th cent.), (ZotBNat 32-33, no. 35;)</bibl>
+                        <bibl>BritMus Orient. 510 (17th cent.), (WrBriMus 24-25, no 35)</bibl>
+                        <bibl corresp="EMML_3140">EMML VIII, 123, Church of Tärätär Gäbrǝʾel, Ḥär ʾÄmba, ʾAnkobär<date>(17th/18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2707">EMML VII, 108, Church of Täč Dänn Kidanä Mǝḥrät, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2714">EMML VII, 113, Church of Gäbiwoč Mädḫane ʾAläm, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                     </listBibl>
+                     <note><span style="font-size: small">Fol. 170rb: List of &#8220;Tituli&#8221; for the Gospel of John &#8211; 19 titles </span></note>
+                  </msItem>
+                  <msItem xml:id="ms_i2">
+                     <locus from="106ra" to="170ra">106ra-170ra</locus>
+                     <title type="Complete.">IV. Gospel of Luke</title>
+                     <rubric>Nomina sacra; incipits and headings of the texts, numbers and incipits of the chapter; elements of the punctuation signs; Ethiopic numerals; notes written in the margins; crux ansata.</rubric>
+                     <incipit><span style="font-size: medium"><span lang="EN-GB" style="line-height: 115%">Fol. 108ra, l.1: </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4773;&#4661;&#4632;&#4961; &#4709;&#4825;&#4739;&#4757;&#4961; &#4773;&#4616;&#4961; &#4768;&#4736;&#4825;&#4961; &#4808;&#4896;&#4753;&#4961; &#4845;&#4757;&#4877;&#4649;&#4961; &#4808;&#4845;&#4637;&#4608;&#4649;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4877;&#4709;&#4653;&#4961; &#4824;&#4768;&#4637;&#4753;&#4961; &#4704;&#4619;&#4821;&#4620;&#4752;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#8230;</span></span><foreign xml:lang="en"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">Fol. 108ra, l.1: Because many started to tell and instruct about things that occurred among us</span><span lang="EN-US" style="line-height: 115%">&#8230;</span></span></foreign>
+                     </incipit>
+                     <explicit><span style="font-size: medium">Fol. 170ra, l.14: &#4808;&#4720;&#4656;&#4813;&#4897;&#4961; &#4770;&#4840;&#4649;&#4659;&#4620;&#4637;&#4961; &#4704;&#4816;&#4706;&#4845;&#4961; &#4941;&#4645;&#4624;&#4961; &#4808;&#4752;&#4704;&#4649;&#4961; &#4708;&#4720;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4824;&#4621;&#4936;&#4961; &#4773;&#4757;&#4824;&#4961; &#4845;&#4707;&#4653;&#4781;&#4814;&#4961; &#4808;&#4845;&#4660;&#4709;&#4629;&#4814;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4968;</span><foreign xml:lang="en"/>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl corresp="EMML_4224">EMML X, 78-79, Church of ʾƎndafäre Maryam Wärana Baso, Šäwa<date>(14th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_1930">EMML V, 414-415, Monastery of Ḥayq ʾƎsṭifanos, ʾAmbassäl<date>(14th/15th cent.)</date>
+                        </bibl>
+                        <bibl>BN eth. 35 (15th cent.), (ZotBNat 32-33, no. 35;)</bibl>
+                        <bibl>BritMus Orient. 510 (17th cent.), (WrBriMus 24-25, no 35)</bibl>
+                        <bibl corresp="EMML_3140">EMML VIII, 123, Church of Tärätär Gäbrǝʾel, Ḥär ʾÄmba, ʾAnkobär<date>(17th/18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2707">EMML VII, 108, Church of Täč Dänn Kidanä Mǝḥrät, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2714">EMML VII, 113, Church of Gäbiwoč Mädḫane ʾAläm, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                     </listBibl>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="ms_i3">
+                     <locus from="68rb" to="106ra">68rb-106ra</locus>
+                     <title type="Complete.">III. Gospel of Mark</title>
+                     <rubric>Nomina sacra; incipits and headings of the texts, numbers and incipits of the chapter; elements of the punctuation signs; Ethiopic numerals; notes written in the margins; crux ansata.</rubric>
+                     <incipit><span style="font-size: medium">Fol. 70ra, l.1: &#4672;&#4851;&#4634;&#4609;&#4961; &#4616;&#4808;&#4757;&#4876;&#4621;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#8230;</span><foreign xml:lang="en"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">Fol. 70ra, l.1: Beginning of the Gospel of Jesus Christ, son of God...</span></span></foreign>
+                     </incipit>
+                     <explicit><span style="font-size: medium"><span lang="EN-GB" style="line-height: 115%">Fol. 105vb, l.19: </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4808;&#4930;&#4774;&#4633;&#4961; &#4773;&#4633;&#4757;&#4721;&#4961; &#4656;&#4707;&#4777;&#4961; &#4789;&#4621;&#4610;&#4961; &#4773;&#4757;&#4824;&#4961; &#4773;&#4877;&#4826; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">[</span><span lang="EN-GB" style="line-height: 115%">Fol. 106ra</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">]</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;&#4709;&#4628;&#4653;&#4961; &#4845;&#4648;&#4853;&#4773;&#4961; &#4808;&#4675;&#4622;&#4961; &#4843;&#4920;&#4757;&#4821;&#4961; &#4704;&#4720;&#4768;&#4637;&#4653;&#4961; &#4824;&#4845;&#4720;&#4617;&#4961; &#4768;&#4636;&#4757;&#4968;</span></span><foreign xml:lang="en"/>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl corresp="EMML_4224">EMML X, 78-79, Church of ʾƎndafäre Maryam Wärana Baso, Šäwa<date>(14th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_1930">EMML V, 414-415, Monastery of Ḥayq ʾƎsṭifanos, ʾAmbassäl<date>(14th/15th cent.)</date>
+                        </bibl>
+                        <bibl>BN eth. 35 (15th cent.), (ZotBNat 32-33, no. 35;)</bibl>
+                        <bibl>BritMus Orient. 510 (17th cent.), (WrBriMus 24-25, no 35)</bibl>
+                        <bibl corresp="EMML_3140">EMML VIII, 123, Church of Tärätär Gäbrǝʾel, Ḥär ʾÄmba, ʾAnkobär<date>(17th/18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2707">EMML VII, 108, Church of Täč Dänn Kidanä Mǝḥrät, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2714">EMML VII, 113, Church of Gäbiwoč Mädḫane ʾAläm, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                     </listBibl>
+                     <note><span style="font-size: small">Fols. 68rb-68vb: List of &#8220;Tituli&#8221; for the Gospel of Mark &#8211; 51 titles <br /> </span></note>
+                  </msItem>
+                  <msItem xml:id="ms_i4">
+                     <locus from="7va" to="68ra">7va-68ra</locus>
+                     <title type="Complete.">II. Gospel of Matthew</title>
+                     <rubric>Nomina sacra; incipits and headings of the texts, numbers and incipits of the chapter; elements of the punctuation signs; Ethiopic numerals; notes written in the margins; crux ansata.</rubric>
+                     <incipit><span style="font-size: medium"><span lang="EN-GB" style="line-height: 115%">Fol. 11ra, l.1: </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4632;&#4925;&#4624;&#4936;&#4961; &#4621;&#4848;&#4721;&#4961; &#4616;&#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4851;&#4810;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4637;</span><span style="line-height: 115%; font-family: Nyala">&#8230;</span></span><foreign xml:lang="en"><span style="font-size: small">Fol. 11ra, l.1: Book of the birth of Jesus Christ, son of David, son of Abraham... </span></foreign>
+                     </incipit>
+                     <explicit><span style="font-size: medium">Fol. 68ra, l.2: &#4808;&#4632;&#4613;&#4653;&#4814;&#4633;&#4961; &#4776;&#4632;&#4961; &#4845;&#4821;&#4672;&#4705;&#4961; &#4824;&#4768;&#4824;&#4829;&#4777;&#4781;&#4633;&#4961; &#4808;&#4755;&#4609;&#4961; &#4637;&#4661;&#4620;&#4781;&#4633;&#4961; &#4704;&#4789;&#4617;&#4961; &#4632;&#4811;&#4821;&#4621;&#4961; &#4773;&#4661;&#4776;&#4961; &#4741;&#4621;&#4672;&#4720;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4768;&#4636;&#4757;&#4968;</span><foreign xml:lang="en"/>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl corresp="EMML_4224">EMML X, 78-79, Church of ʾƎndafäre Maryam Wärana Baso, Šäwa<date>(14th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_1930">EMML V, 414-415, Monastery of Ḥayq ʾƎsṭifanos, ʾAmbassäl<date>(14th/15th cent.)</date>
+                        </bibl>
+                        <bibl>BN eth. 35 (15th cent.), (ZotBNat 32-33, no. 35;)</bibl>
+                        <bibl>BritMus Orient. 510 (17th cent.), (WrBriMus 24-25, no 35)</bibl>
+                        <bibl corresp="EMML_3140">EMML VIII, 123, Church of Tärätär Gäbrǝʾel, Ḥär ʾÄmba, ʾAnkobär<date>(17th/18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2707">EMML VII, 108, Church of Täč Dänn Kidanä Mǝḥrät, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2714">EMML VII, 113, Church of Gäbiwoč Mädḫane ʾAläm, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                     </listBibl>
+                     <note><span style="font-size: small"><span lang="EN-GB">Fols. 7va-8va: List of the &#8220;Tituli&#8221; for the Gospel of Matthew &#8211; 58 titles</span> </span></note>
+                  </msItem>
+                  <msItem xml:id="ms_i5">
+                     <locus from="2ra" to="7v">2ra-7v</locus>
+                     <title type="">I. Introduction</title>
+                     <rubric>Nomina sacra; incipits and headings of the texts, numbers and incipits of the chapter; elements of the punctuation signs; Ethiopic numerals; notes written in the margins; crux ansata.</rubric>
+                     <incipit><span style="font-size: medium"><span lang="EN-GB" style="line-height: 115%">Fol. 2ra, l.1: </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4877;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4923;&#4812;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4961; &#4640;&#4653;&#4819;&#4725;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4972;&#4675;&#4619;&#4725;&#4961; &#4773;&#4757;&#4824;&#4961; &#4845;&#4720;&#4617;&#4961; &#4648;&#4853;&#4772;&#4720;&#4961; &#4781;&#4621;&#4772;&#4721;&#4961; &#4707;&#4629;&#4722;&#4726;&#4633;&#4961; &#4920;&#4624;&#4937;&#4961; &#4773;&#4757;&#4776;&#4961; &#4808;&#4757;&#4876;&#4621;&#4961; &#4773;&#4637;&#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4781;&#4621;&#4772;&#4721;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">...</span></span><foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl corresp="EMML_4224">EMML X, 78-79, Church of ʾƎndafäre Maryam Wärana Baso, Šäwa<date>(14th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_3140">EMML VIII, 123, Church of Tärätär Gäbrǝʾel, Ḥär ʾÄmba, ʾAnkobär<date>(17th/18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2707">EMML VII, 108, Church of Täč Dänn Kidanä Mǝḥrät, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                        <bibl corresp="EMML_2714">EMML VII, 113, Church of Gäbiwoč Mädḫane ʾAläm, ʾAnkobär<date>(18th cent.)</date>
+                        </bibl>
+                     </listBibl>
+                     <note>Fols. 2ra-2va: The &#8220;Synopsis of Classes&#8221;</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">222.0</measure> folios,
+                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
+                                                <measure unit="quire">33.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">28.5</height>
+                              <width unit="cm">23.0</width>
+                              <depth unit="cm">8.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="1r" to="10v"/>I(10/fols. 1r-10v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="11r" to="16v"/> II(6/fols. 11r-16v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="17r" to="23v"/> III(8/fols. 17r-23v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="24r" to="31v"/> IV(8/fols. 24r-31v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="32r" to="39v"/> V(8/fols. 32r-39v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="40r" to="45v"/> VI(6/fols. 40r-45v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="46r" to="51v"/> VII(6/fols. 46r-51v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="52r" to="59v"/> VIII(8/fols. 52r-59v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="60r" to="65v"/> IX(6/fols. 60r-65v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="66r" to="69v"/> X(4/fols. 66r-69v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="70r" to="77v"/> XI(8/fols. 70r-77v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="78r" to="85v"/> XII(8/fols. 78r-85v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="86r" to="93v"/> XIII(8/fols. 86r-93v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="94r" to="101v"/> XIV(8/fols. 94r-101v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="102r" to="107v"/> XV(6/fols. 102r-107v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="108r" to="113v"/> XVI(6/fols. 108r-113v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="114r" to="121v"/> XVII(8/fols. 114r-121v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="122r" to="128v"/> XVIII(7/ s.l. 3, stub after 5/fols. 122r-128v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="129r" to="136v"/> XIX(8/fols. 129r-136v) </item>
+                              <item xml:id="q20">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="137r" to="144v"/> XX(8/fols. 137r-144v) </item>
+                              <item xml:id="q21">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="145r" to="152v"/> XXI(8/fols. 145r-152v) </item>
+                              <item xml:id="q22">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="153r" to="160v"/> XXII(8/fols. 153r-160v) </item>
+                              <item xml:id="q23">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="161r" to="168v"/> XXIII(8/fols. 161r-168v) </item>
+                              <item xml:id="q24">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="169r" to="170v"/> XXIV(2/fols. 169r-170v) </item>
+                              <item xml:id="q25">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="171r" to="178v"/> XXV(8/fols. 171r-178v) </item>
+                              <item xml:id="q26">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="179r" to="186v"/> XXVI(8/fols. 179r-186v) </item>
+                              <item xml:id="q27">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="187r" to="193v"/> XXVII(7/ s.l. 3, stub after 5/fols. 187r-193v) </item>
+                              <item xml:id="q28">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="194r" to="201v"/> XXIX(8/fols. 194r-201v) </item>
+                              <item xml:id="q29">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="202r" to="207v"/> XXX(6/fols. 202r-207v) </item>
+                              <item xml:id="q30">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="208r" to="215v"/> XXXI(8/fols. 208r-215v) </item>
+                              <item xml:id="q31">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="216r" to="219v"/> XXXII(4/fols. 216r-219v) </item>
+                              <item xml:id="q32">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="220r" to="222v"/> B(3/ s.l. 3, stub after 1/fols. 220r-222v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions unit="mm">
+                              <height>173</height>
+                              <width>151</width>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">52</dim>
+                              <dim type="bottom">60</dim>
+                              <dim type="right">61</dim>
+                              <dim type="left">15</dim>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <ab type="ruling">All data are for fol. 111r.</ab>
+                           <ab type="ruling"/>
+                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking" subtype="pattern">
+Primary pricks are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pricks are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+The upper line is written above the ruling.</ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom line is written above the ruling.</ab>
+                           <ab type="pricking" subtype="pattern">
+The ruling pattern is different for the canon tables.</ab>
+                           <ab type="CruxAnsata">
+                              <locus target=""/>
+                           </ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Careful, well-trained.</ab>
+                        <seg type="ink">Black; red.</seg>
+                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <date>Late 19th cent.</date>
+                     </handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 3v: Donation note, inventory of items donated by K&#601;fl&#228; Wa&#7717;&#601;d. <br /> </span></span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#00" n="#"><span style="font-size: small">Fol. 8va-8vb: Regulations of the church of <span lang="EN-US" style="line-height: 115%">&#7766;araqli&#7789;os, established in 1964.</span></span></locus>
+                           <q xml:lang="gez"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 8va, l.12:</span></span><span lang="EN-US" style="line-height: 115%; font-size: 12pt"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt">&#4982;&#4974;&#4961; &#4819;&#4961; &#4637;&#4961; &#4877;&#4757;&#4710;&#4725;&#4961; &#4979;&#4969;&#4961; &#4672;&#4757;&#4961; &#4840;&#4819;&#4632;&#4725;&#4961; &#4840;&#4808;&#4848;&#4677;&#4961; &#4768;&#4637;&#4739;&#4961; &#4616;&#4632;&#4709;&#4651;&#4613;&#4725;&#4755;&#4961; &#4616;&#4635;&#4653;&#4725;&#4813;&#4961; &#4661;&#4651;&#4961; &#4773;&#4757;&#4848;&#4961; &#4845;&#4808;&#4899;&#4961; &#4720;&#4672;&#4635;&#4909;&#4961; &#4773;&#4757;&#4848;&#4614;&#4757;&#4961; &#4970;&#4763;&#4961; &#4840;&#4632;&#4920;&#4622;&#4725;&#4961; &#4616;&#4840;&#4677;&#4753;&#4961; &#4776;&#4975;</span><span style="font-size: small"><span lang="AMH" style="line-height: 115%">[fol. 8vb]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt"> &#4672;&#4757;&#4961; &#4657;&#4754;&#4961; &#4836;&#4637;&#4654;&#4961; &#4840;&#4872;&#4707;&#4961; &#4768;&#4872;&#4824;&#4709;&#4961; &#4773;&#4675;&#4708;&#4725;&#4961; &#4840;&#4614;&#4753;&#4961; &#4768;&#4813;&#4632;&#4709;&#4651;&#4721;&#4961; &#4773;&#4757;&#4853;&#4961; &#4733;&#4621;&#4961; &#4840;&#4880;&#4848;&#4616;&#4961; &#4773;&#4757;&#4853;&#4961; &#4614;&#4752;&#4961; &#4776;&#4651;&#4657;&#4961; &#4773;&#4757;&#4853;&#4961; &#4840;&#4853;&#4653;&#4877;&#4961; &#4632;&#4709;&#4651;&#4613;&#4721;&#4961; &#4877;&#4757;&#4961; &#4773;&#4757;&#4848;&#4961; &#4901;&#4757;&#4721;&#4961; &#4621;&#4843;&#4704;&#4651;&#4961; &#4840;&#4880;&#4851;&#4616;&#4961; &#4773;&#4757;&#4848;&#4961; &#4614;&#4752;&#4961; &#4973;&#4709;&#4653;&#4961; &#4616;&#4768;&#4757;&#4853;&#4961; &#4620;&#4618;&#4725;&#4961; &#4845;&#4776;&#4939;&#4621;&#4961; &#4773;&#4675;&#4708;&#4725;&#4961; &#4877;&#4757;&#4961; &#4632;&#4624;&#4619;&#4961; &#4773;&#4757;&#4850;&#4961; &#4672;&#4648;&#4813;&#4961; &#4971;&#4763;&#4961; &#4784;&#4782;&#4758;&#4961; &#4840;&#4634;&#4782;&#4850;&#4725;&#4961; &#4635;&#4659;&#4961; &#4872;&#4704;&#4829;&#4961; &#4840;&#4634;&#4707;&#4619;&#4813;&#4961; &#4840;&#4752;&#4704;&#4648;&#4961; &#4616;&#4723;&#4710;&#4725;&#4961; &#4821;&#4675;&#4708;&#4725;&#4961; &#4845;&#4877;&#4707;&#4961; &#4872;&#4704;&#4829;&#4961; &#4877;&#4757;&#4961; &#4851;&#4632;&#4808;&#4825;&#4961; &#4971;&#4635;&#4853;&#4875;&#4961; &#4704;&#4632;&#4872;&#4704;&#4652;&#4843;&#4961; &#4845;&#4709;&#4619;&#4961; &#4608;&#4872;&#4653;&#4755;&#4961; &#4635;&#4741;&#4704;&#4653;&#4961; &#4720;&#4661;&#4635;&#4637;&#4722;&#4813;&#4961; &#4720;&#4877;&#4619;&#4811;&#4621;&#4961;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#00" n="#"><span style="font-size: small">Fol. 9ra-9rb: Regulations of the church of <span lang="EN-US" style="line-height: 115%">&#7766;araqli&#7789;os, established in 1934-35</span>.</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a4">
+                           <locus target="#00"><span style="font-size: small">Fols. 9va-10ra: Regulations concerning the g&#228;b&#228;z of the church of &#7766;araqli&#7789;os, established on an assembly in 1951.</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a5">
+                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 69ra-69rb: Record concerning the land of the church of &#7766;araqli&#7789;os</span> <span lang="EN-US" style="line-height: 115%">during the time of King M</span></span><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">&#601;</span></span>nil</span></span><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">&#601;</span></span>k II (r. 1889-1913), Metropolitan &#7766;e&#7789;ros (in office 1881-1917) and governor ras S&#601;b&#7717;at (1844-1914).</span></span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a6">
+                           <locus target="#00" n="#"><span style="font-size: small">Fol. 219ra-219rb: Record concerning a dispute, litigation, decision of the judges and reconciliation.</span></locus>
+                           <q xml:lang="gez"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 219ra l.1: </span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt">&#4840;&#4768;&#4726;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4752;&#4872;&#4648;&#4961; &#4936;&#4866;&#4961; &#4840;&#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4752;&#4872;&#4648;&#4961; &#4936;&#4866;&#4961; &#4768;&#4726;&#4961; &#4779;&#4613;&#4643;&#4845;&#4755;&#4961; &#4768;&#4726;&#4961; &#4872;&#4829;&#4624;&#4845;&#4962; &#4848;&#4638;&#4962; &#4840;&#4768;&#4726;&#4961; &#4608;&#4709;&#4721;&#4961; &#4752;&#4872;&#4648;&#4961; &#4936;&#4866;&#4961; &#4768;&#4726;&#4961; &#4720;&#4656;&#4635;&#4961; &#4773;&#4754;&#4613;&#4962; &#4720;&#4896;&#4621;&#4720;&#4813;&#4961; &#4753;&#4648;&#4813;&#4961; &#4658;&#4723;&#4648;&#4673;&#4961; &#4840;&#4768;&#4726;&#4961; &#4608;&#4709;&#4721;&#4961; &#4621;&#4870;&#4733;&#4961; &#4752;&#4677;&#4757;&#4672;&#4813;&#4961; &#4725;&#4813;&#4621;&#4851;&#4733;&#4961; &#4840;&#4720;&#4656;&#4848;&#4705;&#4961; &#4773;&#4757;&#4848;&#4614;&#4757;&#4961; &#4704;&#4848;&#4763;&#4961; &#4840;&#4768;&#4726;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4621;&#4870;&#4733;&#4961; &#4845;&#4781;&#4661;&#4657;&#4961; &#4704;&#4826;&#4613;&#4961; &#4938;&#4725;&#4961; &#4720;&#4656;&#4853;&#4704;&#4813;&#4961; &#4840;&#4779;&#4657;&#4704;&#4725;&#4961; &#4704;&#4848;&#4763;&#4961; &#4840;&#4656;&#4840;&#4633;&#4704;&#4725;&#4961; &#4704;&#4768;&#4665;&#4633;&#4653;&#4961; &#4768;&#4845;&#4757;&#4657;&#4704;&#4725;&#4961; &#4704;&#4632;&#4652;&#4725;&#4961; &#4704;&#4643;&#4653;&#4961; &#4773;&#4757;&#4848;&#4614;&#4757;&#4961; &#4707;&#4909;&#4675;&#4961; &#4845;&#4755;&#4899;&#4896;&#4649;&#4961; &#4877;&#4757;&#4961; &#4704;&#4941;&#4925;&#4637;&#4961; &#4704;&#4773;&#4621;&#4938;&#4725;&#4961; &#4768;&#4845;&#4779;&#4656;&#4657;&#4961; &#4704;&#4877;&#4829;&#4961; &#4704;&#4656;&#4632;&#4757;&#4843;&#4961; &#4768;&#4845;&#4779;&#4656;&#4657;&#4961; &#4848;&#4638;&#4961; &#4840;&#4768;&#4726;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4621;&#4870;&#4733;&#4961; &#4725;&#4813;&#4621;&#4851;&#4733;&#4813;&#4961; &#4752;&#4677;&#4872;&#4677;&#4813;&#4961; &#4840;&#4720;&#4656;&#4848;&#4705;&#4961; &#4773;&#4757;&#4848;&#4614;&#4757;&#4961; &#4710;&#4848;&#4763;&#4961; &#4840;&#4768;&#4726;&#4961; &#4608;&#4709;&#4721;&#4961; &#4621;&#4870;&#4733;&#4961; &#4845;&#4781;&#4656;&#4657;&#4961; &#4851;&#4638;&#4961; &#4840;&#4768;&#4726;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4755;&#4961; &#4840;&#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4621;&#4870;&#4733;&#4961; &#4840;&#4720;&#4752;&#4641;&#4704;&#4725;&#4961; &#4752;&#4872;&#4653;&#4961; &#4840;&#4768;&#4726;&#4961; &#4608;&#4709;&#4721;&#4961; &#4621;&#4870;&#4733;&#4961; &#4840;&#4720;&#4641;&#4704;&#4725;&#4961; &#4752;&#4872;&#4653;&#4961; &#4840;&#4768;&#4726;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4755;&#4961; &#4840;&#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4621;&#4870;&#4733;&#4961; &#4768;&#4848;-&#4641;&#4961; &#4848;&#4638;&#4961; &#4840;&#4608;&#4709;&#4721;&#4961; &#4621;&#4870;&#4733;&#4961; &#4840;&#4776;&#4656;&#4657;&#4961;</span><span style="font-size: small"><span lang="AMH" style="line-height: 115%">[fol. 219rb]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt"> &#4773;&#4757;&#4848;&#4614;&#4757;&#4961; &#4720;&#4656;&#4635;&#4961; &#4768;&#4845;&#4752;&#4641;&#4961; &#4621;&#4843;&#4877;&#4825;&#4961; &#4848;&#4638;&#4961; &#4840;&#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4755;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4840;&#4776;&#4656;&#4657;&#4961; &#4773;&#4757;&#4848;&#4614;&#4757;&#4961; &#4843;&#4720;&#4899;&#4619;&#4961; &#4768;&#4757;&#4848;&#4614;&#4757;&#4961; &#4773;&#4757;&#4866;&#4961; &#4620;&#4619;&#4961; &#4768;&#4843;&#4877;&#4829;&#4961; &#4725;&#4649;&#4941;&#4961; &#4840;&#4616;&#4961; -&#4641;&#4821;&#4961; &#4840;&#4616;&#4961; &#4720;&#4768;&#4651;&#4653;&#4672;&#4813;&#4961; &#4704;&#4669;&#4635;&#4877;&#4620;&#4961; &#4849;&#4765;&#4752;&#4725;&#4961; &#4877;&#4757;&#4961; &#4776;&#4720;&#4656;&#4635;&#4961; &#4669;&#4635;&#4877;&#4620;&#4961; &#4877;&#4757;&#4961; &#4624;&#4757;&#4723;&#4961; &#4848;&#4661;&#4723;&#4961; &#4768;&#4726;&#4961; &#4872;&#4709;&#4649;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4877;&#4851;&#4845;&#4961; &#4742;&#4931;&#4931;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4616;&#4675;&#4961; &#4669;&#4635;&#4877;&#4620;&#4961; &#4669;&#4675;&#4961; &#4739;&#4845;&#4617;&#4961; &#4840;&#4720;&#4656;&#4635;&#4961; &#4811;&#4661;&#4961; &#4845;&#4613;&#4848;&#4736;&#4961; &#4739;&#4880;&#4661;&#4961; &#4840;&#4779;&#4643;&#4845;&#4755;&#4961; &#4840;&#4872;&#4829;&#4624;&#4845;&#4961; &#4811;&#4661;&#4961; &#4781;&#4629;&#4669;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4848;&#4763;&#4961; &#4840;&#4848;&#4869;&#4961; &#4829;&#4635;&#4733;&#4961; &#4661;&#4841;&#4637;&#4961; &#4621;&#4869;&#4961; &#4872;&#4829;&#4624;&#4845;&#4961; &#4787;&#4651;&#4961;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="e1">- Unreadable stamps: fols. 9r, 10r, 69r. &#xD;
+- Record which was washed out: fol. 219rb.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered by reddish-brown leather; textile (red) inlays; lavish metal (gilded silver?) covers.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="metal"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
+                     </origPlace>
+                     <origDate notBefore="1850" notAfter="1900">Late 19th cent.(?) The Ms. is difficult for dating.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Kǝflä Waḥǝd is mentioned as the donor in Additio 1; the silver covers were commissioned by däğğazmač (?) Täsfa Zälläläw.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000"/>
+                  <!--copyst-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="NewTestament"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gəˁəz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-03">registered</change>
+         <change who="SA" when="2011-02-22T14:09:07.209Z">created</change>
+         <change who="MV" when="2015-05-04T08:29:17.262Z">last edited</change>
+         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

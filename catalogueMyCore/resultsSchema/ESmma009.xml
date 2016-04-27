@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESmma009"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾArbaʿtu wängel “Four Gospels”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2011-08-17T10:11:00.696Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0135MäʿagoDäbräMädḥanitʾAmanuʾel"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>MMA-009</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the donors and scribes; incipits of the chapters; chapter numbers; the word (abbreviated) mǝʿǝraf; elements of the punctuation signs, chapter dividers and numbers; on the incipit page of each Gospel, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>Fol. 138va, l. 6: <span style="font-size: large"><span unicode="" arial="" style="line-height: 115%">&#4773;</span><span unicode="" arial="" style="line-height: 115%">&#4619;</span><span unicode="" arial="" style="line-height: 115%">&#4757;&#4721;&#4961; &#4632;&#4925;&#4629;&#4941;&#4725;&#4961; &#4677;&#4849;&#4659;&#4725;&#4961; &#4720;&#4925;&#4629;&#4939;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4661;&#4941;&#4757;&#4752;&#4961; &#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4808;&#4621;&#4849;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4985;&#4975;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4808;&#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4808;&#4653;&#4739;&#4961; &#4656;&#4756;&#4961; &#4704;&#4656;&#4616;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4704;&#4637;&#4629;&#4648;&#4720;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">140.0</measure> folios,
+                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
+                                                <measure unit="quire">19.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">33.5</height>
+                              <width unit="cm">28.0</width>
+                              <depth unit="cm">7.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="10v"/> I፩(8/fols. 3r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="11r" to="18v"/> II፪(8/fols. 11r-18v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="19r" to="28v"/> III፫(8/fols. 19r-28v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="29r" to="34v"/> IV፬(8; s.l. 3, stub after 5; 6, stub after 2/fols. 29r-34v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="35r" to="43v"/> V፭(9; s.l. 3, stub after 6; 4, stub after 4; 7, stub after 2/fols. 35r-43v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="44r" to="49v"/> VI፮(6/fols. 44r-49v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="50r" to="57v"/> VII፯(8/fols. 50r-57v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="58r" to="65v"/> VIII፰(8/fols. 58r-65v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="66r" to="73v"/> IX፱(8/fols. 66r-73v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="74r" to="81v"/> X፲(8/fols. 74r-81v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="82r" to="89v"/> XI፲፩(8/fols. 82r-89v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="90r" to="97v"/> XII፲፪(8/fols. 90r-97v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="98r" to="105v"/> XIII፲፫(8/fols. 98r-105v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="106r" to="113v"/> XIV፲፬(8/fols. 106r-113v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="114r" to="121v"/> XV፲፭(8; s.l. 3, stub after 6; 6, stub after 3/fols. 114r-121v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="122r" to="129v"/> XVI፲፮(8/fols. 122r-129v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="130r" to="138v"/> XVII፲፯(9; s.l. 1, stub after 9/fols. 130r-138v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="139r" to="140v"/> B(2/fols. 139r-140v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions unit="mm">
+                              <height>240</height>
+                              <width>235</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">30</dim>
+                              <dim type="bottom">55</dim>
+                              <dim type="right">25</dim>
+                              <dim type="left">20</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <ab type="ruling">All data are for the second page of the first Gospel, recto side (fol. 12r).</ab>
+                           <ab type="ruling"/>
+                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking" subtype="pattern">
+Primary pricks are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pricks are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+The upper line is written above the ruling.</ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Careful.</ab>
+                        <seg type="ink">Black; red.</seg>
+                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <date>Late 19th cent.</date>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">- Fol. 3r, incipit page of the introduction: coloured (yellow, blue, red), horizontal band. Geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d2">- Fol. 11r, incipit page of the Gospel of Matthew: coloured (yellow, blue, red), horizontal band. Geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d3">- Fol. 50r, incipit page of the Gospel of Mark: coloured (yellow, blue, red), horizontal band. Geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d4">- Fol. 74r, incipit page of the Gospel of Luke: coloured (yellow, blue, red), horizontal band. Geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d5">- Fol. 110v, incipit page of the Gospel of John: coloured (yellow, blue, red), horizontal band. Geometric motifs.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span unicode="" style="line-height: 115%; font-size: 10pt">Fol. 49va: </span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4876;&#4723;&#4961; &#4768;&#4726;&#4961; &#4608;&#4880;&#4661;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; </span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">{</span><span style="line-height: 115%; font-size: 14pt">&#4824;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">}</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4632;&#4768;&#4880;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4653;&#4613;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4941;&#4673;&#4651;&#4754;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4962; &#4768;&#4653;&#4768;&#4840;&#4961; &#4645;&#4619;&#4660;&#4962; &#4808;&#4768;&#4705;&#4609;&#4961; &#4720;&#4661;&#4939;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">{</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4616;&#4720;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">}</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4773;&#4739;&#4810;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4755;&#4757;&#4843;&#4962; &#4808;&#4621;&#4848;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4808;&#4621;&#4848;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4720;&#4661;&#4939;&#4961; &#4770;&#4840;&#4657;&#4661;&#4962; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; &#4808;&#4621;&#4848;&#4961; &#4778;&#4654;&#4661;&#4962; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962; &#4819;&#4632;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4819;&#4632;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4962; &#4656;&#4704;&#4752;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4808;&#4616;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4962; &#4808;&#4768;&#4704;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4773;&#4635;&#4961; &#4773;&#4741;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4768;&#4611;&#4810;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4650;&#4635;&#4961; </span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">{</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4872;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">}</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4709;&#4648;&#4961; &#4923;&#4853;&#4675;&#4757;&#4962; &#4720;&#4781;&#4616;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4824;&#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4632;&#4661;&#4941;&#4757;&#4752;&#4961; &#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4704;&#4632;&#4811;&#4821;&#4616;&#4961; &#4637;&#4621;&#4781;&#4755;&#4609;&#4961; &#4973;&#4819;&#4632;&#4725;&#4961; &#4808;&#4661;&#4841;&#4632;&#4961; &#4608;&#4872;&#4649;&#4961; &#4848;&#4867;&#4829;&#4635;&#4733;&#4961; &#4768;&#4653;&#4768;&#4843;&#4962; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4825;&#4961; &#4632;&#4637;&#4629;&#4652;&#4961; &#4768;&#4709;&#4653;&#4611;&#4962; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4675;&#4616;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; &#4808;&#4920;&#4624;&#4941;&#4722;&#4609;&#4961; &#4720;&#4781;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4962; </span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span unicode="" style="line-height: 115%; font-size: 10pt">Fol. 138va, l. 13: {</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4757;&#4925;&#4629;&#4941;&#4961; &#4749;&#4621;&#4680;&#4961; &#4725;&#4813;&#4621;&#4853;&#4961; &#4824;&#4848;&#4674;&#4672;&#4961; &#4704;&#4768;&#4848;&#4755;&#4845;&#4962;</span><span unicode="" style="line-height: 115%; font-size: 10pt">}</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4704;&#4768;&#4848;&#4755;&#4845;&#4961; &#4781;&#4941;&#4619;&#4845;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4781;&#4941;&#4619;&#4845;&#4961; &#4704;&#4768;&#4848;&#4755;&#4845;&#4757;&#4961; &#4808;&#4616;&#4848;&#4962; &#4704;&#4768;&#4848;&#4755;&#4845;&#4961; &#4872;&#4854;&#4757;&#4961; &#4808;&#4616;&#4848;&#4962;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt"> &#4872;&#4854;&#4961; &#4704;&#4768;&#4848;&#4755;&#4845;&#4757;&#4961; &#4808;&#4616;&#4848;&#4962; &#4704;&#4768;&#4848;&#4755;&#4845;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4757;&#4961; </span><span unicode="" style="line-height: 115%; font-size: 10pt">{</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4773;&#4741;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4757;&#4961;</span><span unicode="" style="line-height: 115%; font-size: 10pt">}</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt"> &#160;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4808;&#4616;&#4848;&#4962; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4621;&#4848;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4757;&#4961; &#4941;&#4645;&#4624;&#4757;&#4961; &#4808;&#4616;&#4848;&#4962; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4704;&#4768;&#4848;&#4755;&#4845;&#4961; &#4656;&#4709;&#4752;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4624;&#4650;&#4720;&#4961; &#4808;&#4621;&#4848;&#4961; </span><span unicode="" style="line-height: 115%; font-size: 10pt">[fol. 138vb]</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4768;&#4637;&#4619;&#4781;&#4757;&#4961; &#4808;&#4616;&#4848;&#4733;&#4962; &#4808;&#4616;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4768;&#4925;&#4632;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4757;&#4961; &#4720;&#4661;&#4939;&#4961; &#4645;&#4619;&#4660;&#4757;&#4961; &#4941;&#4645;&#4736;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4757;&#4961; &#4645;&#4617;&#4661;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4757;&#4961; &#4635;&#4653;&#4843;&#4635;&#4810;&#4725;&#4757;&#4961; &#4808;&#4616;&#4848;&#4733;&#4962; &#4840;&#4632;&#4853;&#4741;&#4757;&#4961; &#4941;&#4878;&#4961; &#4938;&#4723;&#4813;&#4651;&#4650;&#4961; &#4632;&#4664;&#4667;&#4961; &#4808;&#4624;&#4657;&#4961; &#4779;&#4659;&#4962; &#4840;&#4808;&#4616;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4941;&#4878;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4811;&#4657;&#4961; &#4621;&#4869;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt"> &lt;...&gt;</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4962; &#4840;&#4808;&#4621;&#4848;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4941;&#4878;&#4961; &#4872;&#4827;&#4792;&#4765;&#4961; &#4811;&#4657;&#4961; &#4621;&#4869;&#4961; &#4768;&#4845;&#4848;&#4709;&#4709;&#4962; &#4840;&#4768;&#4925;&#4632;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4811;&#4661;&#4961; &#4624;&#4880;&#4661;&#4962; &#4840;&#4720;&#4661;&#4939;&#4961; &#4645;&#4619;&#4660;&#4961; &#4811;&#4661;&#4961; &#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4840;&#4808;&#4616;&#4720;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4811;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4962; &#4840;&#4645;&#4617;&#4661;&#4961; &#4811;&#4661;&#4961; </span><span unicode="" style="line-height: 115%; font-size: 10pt">{</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4707;&#4667;&#4961;</span><span unicode="" style="line-height: 115%; font-size: 10pt">}</span><span unicode="" arial="" style="line-height: 115%; font-size: 14pt">&#4720;&#4661;&#4939;&#4840;&#4961; &#4840;&#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4811;&#4661;&#4961; &#4768;&#4653;&#4768;&#4843;&#4962; &#4840;&#4635;&#4653;&#4843;&#4635;&#4810;&#4725;&#4961; &#4811;&#4661;&#4961; &#4707;&#4667;&#4961; &#4720;&#4661;&#4939;&#4845;&#4962;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with tooled reddish-brown leather; textile (red) inlays.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0135MäʿagoDäbräMädḥanitʾAmanuʾel">Mäʿago Däbrä Mädḥanit ʾAmanuʾel/ MMA</placeName>
+                     </origPlace>
+                     <origDate notBefore="1895" notAfter="1895">Säne 1887 E.C. (= June/July 1895 A.D.) (s. the colophon), during the time of ras Mängäša Yoḥannǝs, governor of Tǝgray 1889-1906, and däğğazmač ʾArʾaya. Mämḥǝre Abrǝha was the qes gäbäz of the church (s. Additio 1).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">According to Additio 1, geta ʾato Hagwäs (also numerous members of his family are mentioned).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000"/>
+                  <!--copyst-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="NewTestament"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gəˁəz</language>
+            <language ident="am" xml:id="Lan01">Amharic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-12-15">registered</change>
+         <change who="SA" when="2011-08-17T10:11:00.696Z">created</change>
+         <change who="VR" when="2015-05-26T10:26:48.663Z">last edited</change>
+         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>
