@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESdd037"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sǝnkǝssar “Synaxarion” (the second half of the year)</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2012-12-16T15:48:59.817Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>DD-037</idno>
+                  <altIdentifier>
+                     <idno>C3-IV-261 (fol. 3)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of donors and scribes; some lines in the incipit page, alternating with black lines; two initial lines of each section; elements of punctuation signs; elements of Ethiopic numerals; the word sälam (e.g., fols. 3rc, 8rb, 10rb).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>Fol. 164vc: <span style="font-size: medium;">&#4720;&#4936;&#4920;&#4632;&#5011; &#4632;&#4925;&#4624;&#4936;&#5011; &#4661;&#4757;&#4781;&#4659;&#4653;&#5011; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#5011; &#4704;&#4645;&#4637;&#4648;&#4721;&#5011; &#4773;&#4757;&#4824;&#5011; &#4845;&#4648;&#4853;&#4768;&#4752;&#5011; &#4704;&#4781;&#4610;&#4622;&#4721;&#4962; &#4661;&#4709;&#4624;&#4725;&#5011; &#4622;&#4721;&#4962; &#4773;&#4661;&#4632;&#5011; &#4720;&#4616;&#4819;&#4616;&#5011; &#4661;&#4633;&#5011; &#4616;&#4707;&#4629;&#4722;&#4721;&#4962; &#4704;&#4984;&#4987;&#5011;&#4969;&#4987;&#5011;&#4981;&#5011;&#4808;&#4972;&#5011; &#4819;&#4632;&#4720;&#5011; &#4637;&#4629;&#4648;&#4725;&#5011; &#4773;&#4757;&#4824;&#5011; &#4819;&#4704;&#4677;&#4724;&#5011; &#4978;&#4808;&#4976;&#4962; &#4632;&#4901;&#4677;&#4821;&#4610;&#5011; &#4978;&#4808;&#4970;&#5011; &#4901;&#4757;&#4725;&#4846;&#4757;&#5011; &#4972; &#4704;&#4659;&#4853;&#4659;&#4845;&#5011; &#4808;&#4653;&#4741;&#5011; &#4616;&#4928;&#4624;&#4845;&#5011; &#4874;&#4828;&#5011; &#4645;&#4653;&#4672;&#4721;&#4962; &#4616;&#4659;&#4709;&#4821;&#5011; &#4808;&#4648;&#4741;&#5011; &#4773;&#4637;&#4677;&#4853;&#4632;&#5011; &#4877;&#4709;&#4768;&#4721;&#5011; &#4773;&#4637;&#4975;&#4640;&#4653;&#4672;&#5011; &#4620;&#4618;&#4725;&#5011; &#4768;&#4632;&#4978;&#4808;&#4973;&#5011; &#4616;&#4840;&#4779;&#4722;&#4725;&#5011; &#4640;&#4653;&#4672;&#5011; &#4632;&#4819;&#4621;&#4725;&#5011; &#4616;&#4757;&#4873;&#4645;&#4752;&#5011; &#4939;&#4658;&#4616;&#4848;&#4661;&#5011; &#4704;&#4978;&#4808;&#4977;&#5011; &#4819;&#4632;&#4720;&#5011; &#4632;&#4757;&#4877;&#4645;&#4721;&#5011; &#4915;&#4915;&#4661;&#4610;&#5011; &#4768;&#4707;&#5011; &#4634;&#4779;&#4772;&#4621;&#5011; &#4808;&#4632;&#4637;&#4613;&#4653;&#4610;&#5011; &#4768;&#4707;&#5011; &#4824;&#4645;&#4619;&#4660;&#5011; &#4808;&#4672;&#4845;&#4656;&#5011; &#4872;&#4704;&#4829;&#4610;&#5011; &#4709;&#4773;&#4660;&#5011; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#5011; &#4808;&#4657;&#4723;&#4940;&#4614;&#4633;&#5011; &#4872;&#4709;&#4653;&#4772;&#4621;&#5011; &#4616;&#4824;&#4920;&#4624;&#4942;&#5011; &#4824;&#4808;&#4621;&#4848;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#5011; &#4616;&#4824;&#5011; &#4768;&#4757;&#4704;&#4710;&#5011; &#4808;&#4616;&#4824;&#4720;&#4653;&#4880;&#4638;&#5011; &#4808;&#4616;&#4824;&#4656;&#4637;&#4819;&#5011; &#4675;&#4619;&#4722;&#4609;&#5011; &#4845;&#4925;&#4624;&#4941;&#5011; &#4661;&#4638;&#4633;&#5011; &#4736;&#4704;&#5011; &#4819;&#4637;&#4848;&#5011; &#4808;&#4653;&#4677;&#5011; &#4704;&#4672;&#4616;&#4632;&#5011; &#4925;&#4853;&#4677;&#4962; &#4781;&#4653;&#4661;&#4726;&#4661;&#5011; &#4618;&#4677;&#5011; &#4768;&#4632;&#5011; &#4845;&#4632;&#4925;&#4773;&#5011; &#4704;&#4757;&#4901;&#4648;&#5011; &#4632;&#4707;&#4653;&#4677;&#4725;&#5011; &#4808;&#4853;&#4621;&#4677;&#4621;[&#4677;]&#5011; &#4808;&#4720;&#4941;&#4923;&#4636;&#4721;&#4754;&#5011; &#4782;&#4752;&#5011; &#4704;&#4821;&#4616;&#4720;&#5011; &#4640;&#4617;&#4661;&#5011; &#4704;&#4975;&#4656;&#4819;&#4725;&#4962;</span></colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">165.0</measure> folios,
+                                                of which <measure unit="leaf" type="blank">3.0</measure> blank, in
+                                                <measure unit="quire">20.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">39.5</height>
+                              <width unit="cm">34.5</width>
+                              <depth unit="cm">9.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="3r" to="12v"/> ፳፫I(10/fols. 3r-12v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="13r" to="20v"/> ፳፬II(8; s.l.: 3, stub after 5; 6, stub after 2/fols. 13r-20v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="21r" to="29v"/> ፳፭III(8; s.l.: 3, stub after 5; 6, stub after 2; 8, stub after 1/fols. 21r-29v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="30r" to="39v"/> ፳፮IV(10/fols. 30r-39v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="40r" to="49v"/> ፳፯V(10/fols. 40r-49v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="50r" to="57v"/> ፳፰VI(8; s.l.: 3, stub after 6; 6 stub after 3/fols. 50r-57v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="58r" to="65v"/> ፳፱VII(8/fols. 58r-65v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="66r" to="75v"/> ፴VIII(10/fols. 66r-75v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="76r" to="83v"/> ፴፩IX(8/fols. 76r-83v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="84r" to="91v"/> ፴፪X(8; s.l.: 2, stub after 6; 7, stub after 1/fols. 84r-91v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="92r" to="100v"/> ፴፫XI(9; s.l.: 8, stub after 1/fols. 92r-100v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="101r" to="108v"/> ፴፬XII(8/fols. 101r-108v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="109r" to="116v"/> ፴፭XIII(8/fols. 109r-116v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="117r" to="124v"/> ፴፮XIV(8/fols. 117r-124v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="125r" to="134v"/> [፴፯]XV(10; s.l.: 8, stub before 2; 9, stub after 1/fols.125r-134v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="135r" to="142v"/> ፴፰XVI(8/fols. 135r-142v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="143r" to="150v"/> [፴፱]XVII(8/fols. 143r-150v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="151r" to="158v"/> [፵]XVIII(8/fols. 151r-158v) </item>
+                              <item xml:id="q20">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="159r" to="165v"/> ፵፩XIX(7; s.l.: 4, stub before 2; 5, stub between 1 and 2; 6, stub after 1/fols. 159r-165v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">Fols. 11v, 112r are stained with wax.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions unit="mm">
+                              <height>279</height>
+                              <width>273</width>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">51</dim>
+                              <dim type="bottom">63</dim>
+                              <dim type="right">55</dim>
+                              <dim type="left">15</dim>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <ab type="ruling">All data for fol. 90r.</ab>
+                           <ab type="ruling"/>
+                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking" subtype="pattern">
+Primary pricks are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pricks are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+Structural pricks are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+The upper line is written above the ruling.</ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Fine</ab>
+                        <seg type="ink">Black, red (vivid scarlet)</seg>
+                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <date>Mid-17th century</date>
+                     </handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 2r:</span></span></span><span style="line-height: 115%; font-size: 12pt;"><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4632;&#4637;&#4648;&#4845;&#5011; &#4872;&#4709;&#4648;&#5011; &#4923;&#4853;&#4677;&#5011; &#4773;&#4675;&#4708;&#4725;&#4962; &#4827;&#4722;&#5011; &#4632;&#4925;&#4624;&#4941;&#5011; &#4824;&#4920;&#4624;&#4941;&#4811;&#5011; &#4656;&#4653;&#4920;&#5011; &#4634;&#4779;&#4772;&#4621;&#5011; &#4768;&#4636;&#4757;&#4916;&#5011; &#4632;&#4637;&#4613;&#4653;&#4752;&#5011; &#4824;&#4846;&#4624;&#4757;&#4661; &#4845;&#4707;&#4653;&#4781;&#5011; &#4768;&#4636;&#4757;&#5011; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span><br /> </span></q>
+                           <q xml:lang="en"><span style="line-height: 115%; font-size: 10pt;" unicode=""><span style="line-height: 115%; font-size: 10pt;" unicode="">Fol. 2r: M&#228;m&#601;r&#228;y G&#228;br&#228; &#7778;ad&#601;q is (head of) store. This book is written by S&#228;r&#7779;&#228; Michael &#704;Amen&#7767;e(?). May our teacher Z&#228;-Yo&#7717;ann&#601;s bless, Amen, so be it. </span><br /> </span></q>
+                           <p/>
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 3v:</span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4808;&#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4779;&#4821;&#4704;&#4961; &#4720;&#4829;&#4779;&#4648;&#4961; &#4821;&#4648;&#4941;&#4721;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4709;&#4773;&#4660;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4704;&#4648;&#4776;&#4720;&#4961; &#4768;&#4637;&#4619;&#4777;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4620;&#4752;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></span><span style="line-height: 115%; font-size: 12pt;"><br /> </span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#00" n="#"><span style="font-size: 10pt;" unicode="">Fol. 26r: Commemorative notice on &#398;&#7723;</span><span style="font-size: 10pt;">&#1241;t&#1235; Kr&#1241;stos</span></locus>
+                           <q xml:lang="gez"><span style="line-height: 115%; font-size: 12pt;"><span style="line-height: 115%; font-size: 12pt;"><span style="font-size: small;">Fol. 26r:</span> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4768;&#4821;&#4648;&#4936;&#4725;&#4961; &#4773;&#4741;&#4720;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4819;&#4632;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4640;&#4755;&#4845;&#4725;&#4961; &#4877;&#4821;&#4829;&#4961; &#4632;&#4941;&#4676;&#4650;&#4720;&#4961; &#4768;&#4739;&#4813;&#4961; &#4768;&#4637;&#4659;&#4616;&#4961; &#4940;&#4708;&#4757;&#4961; &#4720;&#4616;&#4768;&#4778;&#4720;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4920;&#4622;&#4723;&#4961; &#4808;&#4704;&#4648;&#4776;&#4723;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4941;&#4673;&#4651;&#4961; &#4709;&#4773;&#4660;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961;</span></span><br /> </span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a4">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 29rb:</span></span></span><span style="line-height: 115%; font-size: 12pt;"><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4824;&#4768;&#4925;&#4624;&#4941;&#4814;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4660;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4616;&#4824;&#4920;&#4624;&#4942;&#4961; &#4824;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4845;&#4781;&#4941;&#4622;&#4633;&#4961; &#4635;&#4741;&#4848;&#4648;&#4961; &#4813;&#4661;&#4720;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4637;&#4661;&#4616;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962; &#4808;&#4704;&#4617;&#4961; &#4622;&#4633;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4961;</span></span><br /> </span></q>
+                           <q xml:lang="en"><span style="line-height: 115%; font-size: 10pt;"><span style="line-height: 115%; font-size: 10pt;" unicode="">Fol. 29rb: </span><span style="line-height: 115%; font-size: 10pt;" unicode="">As to the commissioners G&#228;br&#704;el and </span><span style="line-height: 115%; font-size: 10pt;" unicode="">B&#1241;&#704;</span><span style="line-height: 115%; font-size: 10pt;" unicode="">&#1241;</span><span style="line-height: 115%; font-size: 10pt;" unicode="">se &#704;&#398;gzi&#704;ab&#7717;er, and to the scribe </span><span style="line-height: 115%; font-size: 10pt;">Z&#228;-Kr&#601;stos, may God reward them a place in the Kingdom of Heaven with the righteous and the martyrs, forever and ever Amen. You may recite for them Pater Noster. </span><br /> </span></q>
+                           <p/>
+                        </item>
+                        <item xml:id="a5">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="line-height: 115%; font-size: 12pt;"><span style="font-size: small;">Fol. 39v:</span> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4779;&#4821;&#4704;&#4961; &#4768;&#4821;&#4648;&#4936;&#4961; &#4768;&#4707;&#4961; &#4824;&#4768;&#4624;&#4849;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4632;&#4637;&#4613;&#4653;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4720;&#4875;&#4851;&#4618;&#4961; &#4725;&#4649;&#4941;&#4961; &#4824;&#4768;&#4661;&#4648;&#4928;&#4961; &#4781;&#4757;&#4936;&#4961; &#4776;&#4632;&#4961; &#4822;&#4941;&#4961; &#4616;&#4720;&#4808;&#4653;&#4814;&#4961; &#4920;&#4853;&#4941;&#4962; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4941;&#4673;&#4649;&#4961; &#4709;&#4773;&#4660;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a6">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 49v</span><span style="line-height: 115%;">c:</span></span><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4824;&#4920;&#4624;&#4942;&#4961; &#4640;&#4653;&#4928;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4645;&#4619;&#4660;&#4961; &#4741;&#4705;&#4648;&#4961; &#4845;&#4637;&#4624;&#4654;&#4633;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4845;&#4648;&#4658;&#4961; &#4635;&#4741;&#4848;&#4654;&#4633;&#4961; &#4637;&#4661;&#4616;&#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4725;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></q>
+                           <q xml:lang="en"><span style="line-height: 115%; font-size: 10pt;" unicode="">49vc: The scribe </span><span style="line-height: 115%; font-size: 10pt;">&#346;&#228;r&#7693;&#228; Mika&#704;el and the commissioner &#704;abun&#228; Z&#228;&#347;&#1241;llase, may God forgive them together in the kingdom of heaven and may He make their dwelling with the righteous and martyrs, Amen. </span></q>
+                           <p/>
+                        </item>
+                        <item xml:id="a7">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="line-height: 115%; font-size: 12pt;"><span style="font-size: small;">Fol. 55v:</span> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4779;&#4821;&#4704;&#4961; &#4720;&#4829;&#4779;&#4649;&#4961; &#4616;&#4768;&#4707;&#4961; &#4846;&#4624;&#4754;&#4961; &#4632;&#4752;&#4782;&#4661;&#4961; &#4725;&#4649;&#4941;&#4961; &#4632;&#4661;&#4720;&#4875;&#4853;&#4621;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4964; &#4813;&#4773;&#4721;&#4961; &#4768;&#4705;&#4614;&#4633;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4964; &#4808;&#4616;&#4768;&#4707;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4638;&#4768;&#4961; &#4824;&#4624;&#4845;&#4677;&#4962; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4620;&#4752;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a8">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 63r:</span></span><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4779;&#4821;&#4704;&#4961; &#4768;&#4821;&#4648;&#4937;&#4961; &#4768;&#4707;&#4961; &#4773;&#4661;&#4898;&#4939;&#4758;&#4661;&#4961; &#4808;&#4632;&#4653;&#4816;&#4720;&#4961; &#4768;&#4709;&#4961; &#4657;&#4721;&#4939;&#4752;&#4961; &#4637;&#4877;&#4707;&#4653;&#4961; &#4808;&#4877;&#4773;&#4829;&#4961; &#4725;&#4649;&#4939;&#4757;&#4961; &#4632;&#4661;&#4720;&#4875;&#4853;&#4619;&#4757;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4920;&#4622;&#4726;&#4633;&#4961; &#4808;&#4704;&#4648;&#4776;&#4726;&#4633;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4941;&#4673;&#4654;&#4633;&#4961; &#4709;&#4773;&#4660;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a9">
+                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt;" unicode="">Fol. 114r: Commemorative notice on &#704;abba T&#228;w&#228;ld&#228; M&#228;d&#7723;&#477;n, hermit and monk.</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a10">
+                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt;" unicode="">Fol. 120r: Commemorative notice on &#704;abun&#228; T&#228;rbinos.</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a11">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 134v:</span></span><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4779;&#4821;&#4704;&#4961; &#4768;&#4821;&#4648;&#4936;&#4725;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4781;&#4709;&#4651;&#4961; &#4757;&#4877;&#4645;&#4725;&#4961; &#4709;&#4773;&#4658;&#4720;&#4961; &#4757;&#4873;&#4645;&#4961; &#4755;&#4774;&#4853;&#4961; &#4824;&#4819;&#4672;&#4704;&#4725;&#4961; &#4637;&#4877;&#4707;&#4651;&#4720;&#4961; &#4632;&#4757;&#4936;&#4659;&#4812;&#4964; &#4808;&#4936;&#4920;&#4632;&#4725;&#4961; &#4789;&#4622;&#4961; &#4725;&#4649;&#4939;&#4720;&#4961; &#4808;&#4720;&#4875;&#4853;&#4622;&#4720;&#4961; &#4709;&#4825;&#4739;&#4961; &#4808;&#4936;&#4920;&#4632;&#4725;&#4961; &#4672;&#4758;&#4755;&#4961; &#4632;&#4752;&#4782;&#4659;&#4725;&#4961; &#4677;&#4853;&#4659;&#4725;&#4961; &#4704;&#4848;&#4709;&#4648;&#4961; &#4618;&#4707;&#4758;&#4661;&#4964; &#4824;&#4845;&#4773;&#4722;&#4961; &#4632;&#4675;&#4709;&#4648;&#4961; &#4768;&#4705;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4648;&#4853;&#4772;&#4720;&#4961; &#4725;&#4757;&#4709;&#4621;&#4755;&#4611;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4789;&#4621;&#4752;&#4961; &#4629;&#4829;&#4704;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a12">
+                           <locus target="#00"/>
+                           <q xml:lang="gez"><span style="line-height: 115%; font-size: 12pt;"><span style="font-size: small;">Fol. 148r:</span> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4779;</span><span style="line-height: 115%;">&#4821;</span><span style="line-height: 115%;">&#4704;</span><span style="line-height: 115%;">&#4961; &#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4768;&#4821;&#4648;&#4936;&#4961; &#4768;&#4707;&#4961; &#4824;&#4645;&#4619;&#4660;&#4961; &#4632;&#4637;&#4613;&#4653;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4632;&#4661;&#4720;&#4875;&#4853;&#4621;&#4961; &#4725;&#4649;&#4941;&#4961; &#4808;&#4821;&#4648;&#4941;&#4721;&#4754;&#4961; &#4782;&#4752;&#4961; &#4704;&#4872;&#4851;&#4632;&#4961; &#4811;&#4618;&#4961; &#4704;&#4773;&#4848;&#4961; &#4875;&#4619;&#4720;&#4961; &#4824;&#4813;&#4773;&#4721;&#4961; &#4768;&#4648;&#4634;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4808;&#4821;&#4644;&#4720;&#4961; &#4661;&#4637;&#4817;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4941;&#4673;&#4649;&#4961; &#4709;&#4773;&#4660;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4961;&#4653; &#4808;&#4637;&#4661;&#4616;&#4961; &#4789;&#4621;&#4752;&#4961; &#4629;&#4829;&#4704;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a13">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 149r:</span></span><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4779;&#4821;&#4704;&#4961; &#4704;&#4827;&#4722;&#4961; &#4821;&#4616;&#4725;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4704;&#4872;&#4851;&#4632;&#4961; &#4811;&#4618;&#4961; &#4853;&#4741;&#4648;&#4961; &#4720;&#4875;&#4848;&#4616;&#4961; &#4640;&#4755;&#4840;&#4961; &#4872;&#4853;&#4616;&#4961; &#4704;&#4776;&#4632;&#4961; &#4720;&#4637;&#4613;&#4648;&#4961; &#4773;&#4637;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4768;&#4705;&#4609;&#4961; &#4773;&#4661;&#4776;&#4961; &#4843;&#4752;&#4781;&#4649;&#4961; &#4768;&#4739;&#4810;&#4609;&#4961; &#4773;&#4637;&#4725;&#4649;&#4939;&#4722;&#4609;&#4962; &#4808;&#4725;&#4649;&#4939;&#4722;&#4609;&#4754;&#4961; &#4782;&#4752;&#4961; &#4845;&#4872;&#4709;&#4653;&#4961; &#4678;&#4709;&#4819;&#4961; &#4824;&#4624;&#4930;&#4757;&#4961; &#4781;&#4705;&#4848;&#4964; &#4819;&#4850;&#4961; &#4782;&#4752;&#4961; &#4845;&#4725;&#4672;&#4656;&#4941;&#4961; &#4704;&#4752;&#4848;&#4961; &#4773;&#4659;&#4725;&#4961; &#4824;&#4624;&#4930;&#4757;&#4961; &#4773;&#4661;&#4776;&#4961; &#4845;&#4928;&#4845;&#4773;&#4961; &#4808;&#4845;&#4808;&#4925;&#4773;&#4961; &#4821;&#4932;&#4961; &#4773;&#4637;&#4645;&#4875;&#4609;&#4964; &#4819;&#4850;&#4961; &#4782;&#4752;&#4961; &#4845;&#4776;&#4650;&#4961; &#4877;&#4704;&#4961; &#4632;&#4896;&#4752;&#4961; &#4678;&#4633;&#4961; &#4808;&#4845;&#4704;&#4813;&#4773;&#4961; &#4813;&#4661;&#4724;&#4721;&#4961; &#4773;&#4661;&#4776;&#4961; &#4845;&#4725;&#4620;&#4616;&#4845;&#4961; &#4635;&#4821;&#4656;&#4961; &#4645;&#4875;&#4609;&#4961; &#4773;&#4637;&#4709;&#4829;&#4739;&#4961; &#4811;&#4821;&#4845;&#4962; &#4819;&#4850;&#4961; &#4782;&#4752;&#4725;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4725;&#4725;&#4755;&#4872;&#4654;&#4961; &#4704;&#4675;&#4619;&#4961; &#4901;&#4817;&#4637;&#4961; &#4704;&#4813;&#4643;&#4900;&#4961; &#4645;&#4821;&#4619;&#4961; &#4773;&#4637;&#4829;&#4739;&#4961; &#4757;&#4925;&#4613;&#4755;&#4609;&#4961; &#4808;&#4768;&#4941;&#4677;&#4654;&#4721;&#4961; &#4778;&#4843;&#4611;&#4961; &#4755;&#4827;&#4826;&#4720;&#4964; &#4704;&#4874;&#4828;&#4961; &#4632;&#4776;&#4651;&#4962; &#4707;&#4629;&#4721;&#4961; &#4770;&#4920;&#4624;&#4941;&#4752;&#4961; &#4789;&#4622;&#4961; &#4872;&#4853;&#4617;&#4961; &#4776;&#4632;&#4961; &#4770;&#4755;&#4709;&#4829;&#4741;&#4961; &#4752;&#4872;&#4648;&#4961; &#4773;&#4661;&#4632;&#4961; &#4829;&#4757;&#4721;&#4961; &#4840;&#4819;&#4781;&#4616;&#4752;&#4961; &#4616;&#4656;&#4635;&#4821;&#4843;&#4757;&#4962; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4845;&#4637;&#4624;&#4648;&#4752;&#4961; &#4704;&#4920;&#4622;&#4721;&#4961; &#4616;&#4789;&#4621;&#4752;&#4961; &#4656;&#4635;&#4821;&#4843;&#4757;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a14">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="line-height: 115%; font-size: 12pt;">&#4752;&#4811;&#5011; &#4845;&#4709;&#4616;&#4778;&#5011; &#4677;&#4853;&#4632;&#5011; &#4773;&#4617;&#4964; &#4768;&#4773;&#4619;&#4936;&#5011; &#4843;&#4652;&#4853;&#5011; &#4635;&#4741;&#4620;&#4723;&#4810;&#4964;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a15">
+                           <locus target="#00" n="#">Fol. 165r: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer)</locus>
+                           <q xml:lang="gez"><span style="line-height: 115%; font-size: 12pt;"><span style="font-size: small;">Fol. 165r:</span> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4635;&#4741;&#4620;&#4720;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4768;&#4824;&#4778;&#4653;&#4840;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4768;&#4821;&#4619;&#4936;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4637;&#4773;&#4616;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4720;&#4920;&#4637;&#4849;&#4776;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4824;&#4621;&#4936;</span><span style="line-height: 115%;">&#4962;</span><span style="line-height: 115%;"> &#4616;&#4616;&#4768;&#4752;&#4709;&#4709;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4720;&#4808;&#4776;&#4941;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4824;&#4757;&#4852;&#4725;&#4840;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4632;&#4925;&#4624;&#4936;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4757;&#4720;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4648;&#4656;&#4845;&#4776;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4877;&#4826;&#4774;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4920;&#4650;&#4672;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4632;&#4704;&#4616;&#4725;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4813;&#4777;&#4936;</span><span style="line-height: 115%;">&#4962;</span><span style="line-height: 115%;"> &#4773;&#4637;&#4773;&#4616;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4768;&#4709;&#4817;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4709;&#4817;&#4619;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4720;&#4653;&#4936;</span><span style="line-height: 115%;">&#4962;</span><span style="line-height: 115%;"> &#4752;&#4706;&#4843;&#4725;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4677;&#4849;&#4659;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4808;&#4624;&#4811;&#4653;&#4843;&#4725;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4656;&#4707;&#4781;&#4843;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4656;&#4635;&#4821;&#4725;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4808;&#4923;&#4853;&#4675;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4808;&#4632;&#4619;&#4821;&#4781;&#4725;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4725;&#4873;&#4611;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4848;&#4755;&#4877;&#4621;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4819;&#4850;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4808;&#4632;&#4752;&#4782;&#4659;&#4725;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4740;&#4651;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4707;&#4653;&#4777;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4707;&#4653;&#4777;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4873;&#4707;&#4820;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4827;&#4722;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4632;&#4779;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4661;&#4776;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4768;&#4648;&#4875;&#4810;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4621;&#4610;&#4677;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4637;&#4757;&#4817;&#4661;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4629;&#4931;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4616;&#4824;&#4920;&#4624;&#4942;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4704;&#4781;&#4653;&#4723;&#4661;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4757;&#4824;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4845;&#4848;&#4653;&#4661;</span><span style="line-height: 115%;">&#4962;</span><span style="line-height: 115%;"> &#4616;&#4824;&#4768;&#4757;&#4704;&#4710;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4824;&#4720;&#4653;&#4880;&#4638;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4704;&#4621;&#4659;&#4757;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4624;&#4850;&#4661;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4704;&#4920;&#4622;&#4720;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4633;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4635;&#4653;&#4843;&#4637;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4819;&#4651;&#4674;&#4720;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4789;&#4617;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4773;&#4637;&#4707;&#4773;&#4661;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4741;&#4705;&#4648;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4845;&#4637;&#4624;&#4648;&#4752;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4770;&#4840;&#4657;&#4661;</span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;"> &#4781;&#4653;&#4661;&#4726;&#4661;</span><span style="line-height: 115%;">&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a16">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;"><span>Fol. 165v:</span></span><span style="font-size: 12pt;"> &#4632;&#4808;</span><span style="font-size: 12pt;">&#4853;&#4661;</span><span style="font-size: 12pt;">&#5011;</span><span style="font-size: 12pt;"> &#4824;&#4846;&#4624;&#4757;&#4661;</span><span style="font-size: 12pt;">&#5011;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a17">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: small;">Fol. 165v:</span><span style="font-size: 12pt;"> </span><span style="font-size: 12pt;">&#4781;&#4709;&#4653;</span><span style="font-size: 12pt;">&#5011;</span><span style="font-size: 12pt;"> &#4845;&#4773;&#4722;</span><span style="font-size: 12pt;">&#5011;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a18">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="line-height: 115%; font-size: 12pt;">&#4704;&#4925;&#4811;&#4820;</span><span style="line-height: 115%; font-size: 12pt;">&#5011;</span><span style="line-height: 115%; font-size: 12pt;"> &#4661;&#4632;&#4776;</span><span style="line-height: 115%; font-size: 12pt;">&#5011;</span><span style="line-height: 115%; font-size: 12pt;"> &#4656;&#4637;&#4843;&#4964;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="e1">- The title of the book and the internal number of monastic library (326) is written in black paint on fol. 1r. &#xD;
+- Pen trial on fol. 2r.&#xD;
+- Writing excersises on fols. 2r&#xD;
+- A full line is erased on fol 24ra.&#xD;
+- Sälam-hymn to St. Mary is written in the upper margin of the Ms. on fol. 30v.&#xD;
+- Parchment cuts crudely repaired on fol. 56.&#xD;
+- Tämälläs-sign on fol. 62rc indicating the place wherethe omission at the upper margin, belongs.&#xD;
+- Five lines are erased on fol. 74a and c.&#xD;
+- One line note on St. Lalibäla is written in the upper margin of fol. 86v.&#xD;
+- Tämälläs-sign on fol. 87ra indicating the place where the sälam-hymn on St. Lalibäla at the upper margin, belongs.&#xD;
+- Names of the scribes, Zä-Krǝstos and Śärḍä Mikaʾel, are written at the bottom of the Ms. on fols 3r, 30r. Other two unidentified names, Yämanä Krǝstos and Ṣägga Krǝstos are also given the same style like the scribes on fols. 50r, 101r.&#xD;
+- A correction made interlineally on fol. 143rc. &#xD;
+- A note on the inauguration of the church of Däbrä Dammo, annexed at the end of a column on fol. 143vc-144ra.&#xD;
+- Sälam-hymn to ʾabba Zӓ-Wäldä Maryam inserted at the tail of column a on fol. 149r. &#xD;
+- Pen trial notes, one mentioning Wednesday on fol. 165v.&#xD;
+- A note mentioning ʾabba Gäbrä Ṣadәq as the head of store house on fol. 165v.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with brown tooled leather, textile inlays.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two rows of endband stitches through the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
+                     </origPlace>
+                     <origDate notBefore="1651" notAfter="1651">On the 19th year of reign of King Fasilädäs (r. 1632-67) (s. colophon).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>The Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Three persons are mentioned throughout the Ms. as commissioners, Bәʾәse ʾƎgziʾabǝḥer (e.g., Additio 4; his death is mentioned in Additio 2), his son Gäbrʾel (e.g., Additio 4), and ʾabunä Zä-Śәllase (e.g., Additio 6; his death is mentioned in Additio 10).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000"/>
+                  <!--copyst-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Hagiography"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gəˁəz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-10-25">registered</change>
+         <change who="AA" when="2012-12-16T15:48:59.817Z">created</change>
+         <change who="MV" when="2015-02-02T10:03:29.866Z">last edited</change>
+         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

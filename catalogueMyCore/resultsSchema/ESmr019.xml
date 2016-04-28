@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESmr019"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäṣḥafä qǝddase “Missal”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2010-12-13T14:04:20.920Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0042MәdräRuba"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>MR-019</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>First words (sometimes first lines) of constituent texts; name of the Virgin Mary; names of the kings, metropolitan and bishop; most abbreviations; elements of the punctuation signs; some of the musical notation signs above the lines; elements of Ethiopic numerals. Initial parts of larger texts are written in alternating red and black lines (e.g., fols. 3r, 45r). The donor’s name is mostly written in violet ink.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">146.0</measure> folios,
+                                                in
+                                                <measure unit="quire">17.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">21.0</height>
+                              <width unit="cm">16.5</width>
+                              <depth unit="cm">6.7</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="10v"/> I(8/fols. 3r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="11r" to="20v"/> II(10/fols. 11r-20v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="21r" to="30v"/> III(10/fols. 21r-30v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="31r" to="40v"/> IV(10/fols. 31r-40v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="41r" to="50v"/> V(10/fols. 41r-50v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="51r" to="60v"/> VI(10/fols. 51r-60v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="61r" to="70v"/> VII(10/fols. 61r-70v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="71r" to="80v"/> VIII(10/fols. 71r-80v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="81r" to="90v"/> IX(10/fols. 81r-90v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="91r" to="98v"/> X(8/fols. 91r-98v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="99r" to="106v"/> XI(8/fols. 99r-106v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="107r" to="114v"/> XII(8/fols. 107r-114v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="115r" to="122v"/> XIII(8/fols. 115r-122v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="123r" to="130v"/> XIV(8/fols. 123r-130v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="131r" to="136v"/> XV(6/fols. 131r-136v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="137r" to="146v"/> &lt;XVI(10/fols. 137r-146v)&gt;.&#xD;
+&#xD;
+Quire XVI was probably added later.</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The leather is partly torn off from the wooden covers.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions unit="mm">
+                              <height>145</height>
+                              <width>120</width>
+                              <dim type="intercolumn">8</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">27</dim>
+                              <dim type="bottom">40</dim>
+                              <dim type="right">23</dim>
+                              <dim type="left">15</dim>
+                              <dim type="intercolumn">8</dim>
+                           </dimensions>
+                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <ab type="ruling">average number</ab>
+                           <ab type="pricking" subtype="pattern">Ruling and pricking are mostly visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pattern: 1D-1D-1D1D/0-0/0-0/B.</ab>
+                           <ab type="pricking" subtype="pattern">
+Primary pricks are partly visible (s. fol. 63r).</ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pricks are partly visible (s. fol. 56v).</ab>
+                           <ab type="pricking" subtype="pattern">
+The upper line is written above the ruling.</ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre. Quire XVI by different hand, more careful and regular.</ab>
+                        <seg type="ink">Black; red; violet.</seg>
+                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <date>Late 19th century.</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic">quires I-XV.  </handNote>
+                     <handNote xml:id="h3" script="Ethiopic">quire XVI.</handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="miniature" xml:id="d1">
+                        <locus target="#47v">Fol. 47v: </locus>
+                        <desc>Cross.</desc>
+                     </decoNote>
+                     <decoNote type="frame" xml:id="d2">Fol. 3r: elaborate ornamental frame (red, black) embracing the entire text; interlaces.</decoNote>
+                     <decoNote type="frame" xml:id="d3">Fol. 20ra (after l.11): narrow ornamental band.</decoNote>
+                     <decoNote type="frame" xml:id="d4">Fol. 81ra (after l.15): narrow ornamental band.</decoNote>
+                     <decoNote type="frame" xml:id="d5">Fol. 45r: ornamental band (red, black); anthropomorphic motifs.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#00" n="#"><span style="font-size: 10pt; line-height: 115%">Fol. 1r: Calendar notes.</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#00" n="#"><span style="font-size: 10pt; line-height: 115%">Fol. 2ra, l.1 &#8211; 2rb, l.4: Prayer (plea to God for the salvation of his servant Kidan&#228; Maryam).</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#00" n="#"><span style="font-size: 10pt; line-height: 115%">Fol. 2rb, l.5 &#8211; 2vb: &#704;Asmat-prayer.</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a4">
+                           <locus target="#00"><span style="font-size: 10pt; line-height: 115%">Fols. 144vb, l.4 &#8211; 146ra, l.4.: Poem in praise of the Virgin Mary.</span></locus>
+                           <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a5">
+                           <locus target="#00" n="#"/>
+                           <q xml:lang="gez"><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">Fol. 136vb, l. 4: &#4827;&#4722;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4824;&#4808;&#4608;&#4704;&#4725;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4616;&#4723;&#4710;&#4720;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4645;&#4619;&#4660;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4637;&#4853;&#4653;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4649;&#4707;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4776;&#4632;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4725;&#4777;&#4755;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4632;&#4853;&#4739;&#4754;&#4720;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4752;&#4941;&#4661;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4808;&#4645;&#4875;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4656;&#4635;&#4843;&#4725;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4808;&#4616;&#4720;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4645;&#4619;&#4660;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4819;&#4632;&#4720;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4824;&#4640;&#4648;&#4678;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4704;&#4645;&#4621;&#4899;&#4752;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4916;&#4901;&#4654;&#4661;&#4961;</span><span style="font-size: 14pt; line-height: 115%" sans-serif="" calibri=""> </span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></q>
+                           <q xml:lang="en"><span style="font-size: 10pt; line-height: 115%">Fol. 136vb, l. 4: This is the book which was donated to the tabot of the Trinity in M&#477;dr[&#228;] Ruba by W&#228;l&#228;tt&#228; &#346;&#477;llase, a maidservant of God so that it might be for her the salvation of the soul and body (and a guide) to the Kingdom of Heaven. He who steals it or erases (its text shall be excommunicated) by the authority of Peter and Paul.</span></q>
+                           <p/>
+                        </item>
+                        <item xml:id="e1">- Fols. 29v, 34r, 56r, 58v, 61r, 77v: Notes (corrections or additions to the main text?) are written in the upper margin.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Wooden boards covered with reddish-brown leather; textile inlays.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0042MәdräRuba">Mәdrä Ruba /MR</placeName>
+                     </origPlace>
+                     <origDate notBefore="1881" notAfter="1889">In a few cases (e.g., fol. 11ra, ll.5-7) ʾabba Ṗeṭros is mentioned as the metropolitan (1881-1917) and ʾabba Luqas as the bishop (1881-ca. 1901). On fol. 11ra, l.17 both Yoḥannǝs (1872-89) and Mǝnilǝk (1878-89 king of Šäwa; 1889-1913 emperor; here spelt Mǝnyǝlǝk, with the superscript last letter) are mentioned as kings.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Wälättä Śǝllase (s. Additio 5).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000"/>
+                  <!--copyst-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Missal"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gəˁəz</language>
+            <language ident="am" xml:id="Lan01">Amharic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-12">registered</change>
+         <change who="IF" when="2010-12-13T14:04:20.920Z">created</change>
+         <change who="EG" when="2015-02-20T11:51:10.410Z">last edited</change>
+         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

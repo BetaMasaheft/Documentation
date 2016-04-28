@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESeth008"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dǝrsanä Mikaʾel, Homiliary for the feasts of St. Michael</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2011-09-14T09:35:07.568Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0078ʿƎmbäytoTäkläHaymanot"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>ETH-008</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the donors; headings and incipits of the texts; on the incipit page (fols. 3r; 7r) several lines are rubricated (three groups of two lines each, alternating with black lines); elements of punctuation signs; chapter dividers; elements of Ethiopic numerals; elements of the quire marks.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">106.0</measure> folios,
+                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
+                                                <measure unit="quire">14.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">20.0</height>
+                              <width unit="cm">19.0</width>
+                              <depth unit="cm">5.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="10v"/> ፩I(8/fols. 3r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="11r" to="18v"/> ፪II(8/fols. 11r-18v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="19r" to="26v"/> ፫III(8/fols. 19r-26v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="27r" to="34v"/> ፬IV(8/fols. 27r-34v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="35r" to="42v"/> ፭V(8/fols. 35r-42v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="43r" to="50v"/> ፮VI(8/fols. 43r-50v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="51r" to="58v"/> ፯VII(8/fols. 51r-58v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="59r" to="66v"/> ፰VIII(8/fols. 59r-66v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="67r" to="74v"/> ፱IX(8/fols. 67r-74v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="75r" to="82v"/> ፲X(8/fols. 75r-82v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="83r" to="90v"/> ፲፩XI(8/fols. 83r-90v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="91r" to="98v"/> ፲፪XII(8/fols. 91r-98v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="99r" to="106v"/> ፩፫XIII(8/fols. 99r-106v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The spine is partly torn off; tailband and headband are missing. &#xD;
+The Ms. is slightly damaged by water (fols. 1r-53r).</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions unit="mm">
+                              <height>145</height>
+                              <width>145</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">15</dim>
+                              <dim type="bottom">33</dim>
+                              <dim type="right">20</dim>
+                              <dim type="left">14</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <ab type="ruling">All data for fol. 8r</ab>
+                           <ab type="ruling"/>
+                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking" subtype="pattern">
+Primary pricks are partly visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pricks are partly visible.</ab>
+                           <ab type="pricking" subtype="pattern">
+The upper line is written above the ruling.</ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre but careful.</ab>
+                        <seg type="ink">Black, red</seg>
+                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <date>Late 19th cent. (?)</date>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="miniature" xml:id="d1">
+                        <locus target="#106r">Fol. 106r: </locus>
+                        <desc>Angel or saint (?)</desc>
+                     </decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#00" n="#"><span style="font-size: 10pt; line-height: 115%">Fol. 2v: </span><span style="font-size: 10pt; line-height: 115%">Record concerning assignment of land (?).</span></locus>
+                           <q xml:lang="gez"><span style="font-size: 14pt; line-height: 115%; font-family: Nyala"><span style="font-size: small;"><span style="font-family: Arial;">Fol. 2v: </span></span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4723;&#4733;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4653;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4752;&#4809;&#4755;&#4843;&#4841;&#4652;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4634;&#4779;&#4772;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4909;&#4675;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4845;&#4616;&#4905;&#4669;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4970;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4877;&#4757;&#4925;&#4813;&#4907;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4809;&#4634;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4970;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4616;&#4704;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4781;&#4941;&#4781;&#4941;&#4843;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4821;&#4840;&#4661;&#4622;&#4877;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4635;&#4638;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4774;&#4634;&#4875;&#4809;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4723;&#4733;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4677;&#4651;&#4848;&#4765;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4848;&#4757;&#4704;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4970;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4677;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4638;&#4619;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4808;&#4653;&#4677;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4875;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4970;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4616;&#4845;&#4755;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4723;&#4733;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4656;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4899;&#4845;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4661;&#4776;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4622;&#4638;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4848;&#4757;&#4704;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4776;&#4755;&#4721;&#4654;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4808;&#4616;&#4722;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4632;&#4621;&#4781;&#4840;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4720;&#4757;&#4643;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4637;&#4880;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4710;&#4873;&#4649;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4707;&#4652;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4849;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4824;&#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4909;&#4675;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4824;&#4675;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4824;&#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4808;&#4653;&#4677;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4752;&#4809;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4808;&#4653;&#4677;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4637;&#4853;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4710;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4707;&#4629;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4865;&#4648;&#4809;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4848;&#4704;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4824;&#4811;&#4653;&#4843;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4677;&#4651;&#4653;&#4765;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4768;&#4939;&#4939;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#00" n="#"><span style="font-size: 10pt">Fol. 2v: Short record concerning tribute</span><span style="font-size: 10pt">s</span><span style="font-size: 10pt"> (?).</span></locus>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">Fol. 2v:</span></span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala"> </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4848;&#4677;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4782;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4925;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4848;&#4757;&#4824;&#4964;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4972;&#4925;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4920;&#4618;&#4707;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4972;&#4925;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4808;&#4757;&#4873;&#4834;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4971;&#4925;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4707;&#4811;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4925;&#4653;&#4624;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4825;&#4722;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4970;&#4925;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4763;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#00" n="#"><span style="font-size: 10pt; line-height: 115%">Fol. 2v: Short record concerning tribute (?).</span></locus>
+                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">Fol. 2v:</span></span><span style="line-height: 115%; font-family: Nyala;"> </span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4632;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4635;&#4724;&#4814;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4920;&#4707;&#4722;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4909;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4809;&#4611;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4970;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4637;&#4853;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4653;&#4779;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4635;&#4809;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4970;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4682;&#4654;&#4733;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4845;&#4635;&#4758;&#4962;</span></span></q>
+                           <q xml:lang="en">In Amharic.</q>
+                           <p/>
+                        </item>
+                        <item xml:id="a4">
+                           <locus target="#00" n="#"><span style="font-size: 10pt; line-height: 115%">Fol. 2v: Record concerning assignment of land (?).</span></locus>
+                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2v:</span></span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala"> </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4651;&#4651;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4755;&#4936;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4925;&#4653;&#4874;&#4920;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4733;&#4707;&#4608;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4653;&#4704;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4707;&#4629;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4637;&#4707;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4609;&#4648;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;&#4709;&#4661;&#4754;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4710;&#4723;&#4962;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4781;&#4768;&#4616;&#4675;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4616;&#4809;&#4852;&#4814;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4975;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4781;&#4664;&#4726;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4978;&#4971;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4640;&#4653;&#4930;&#4964;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4782;&#4710;&#4723;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4635;&#4635;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4853;&#4633;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4648;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4776;&#4653;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4875;&#4651;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4757;&#4939;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4781;&#4757;&#4937;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4707;&#4824;&#4725;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a5">
+                           <locus target="#00" n="#"><span style="font-size: 10pt; line-height: 115%">Fol. 105v: Donation note.</span></locus>
+                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 105v: </span></span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4611;&#4637;&#4659;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4987;&#4808;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4973;&#4987;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4632;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4616;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4978;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4987;&#4808;&#4976;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4987;</span><span style="line-height: 115%; font-family: Nyala;"> </span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">[</span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4632;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4637;&#4629;&#4648;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;"><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&#4725;</span>&#4961;</span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">] </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4986;&#4808;&#4970;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4632;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4637;&#4629;&#4648;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4632;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4846;&#4624;&#4757;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4808;&#4653;&#4736;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4875;&#4706;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4720;&#4659;&#4840;&#4896;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">[</span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4808;&#4653;&#4673;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;</span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">]</span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4608;&#4704;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4781;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4611;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4726;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4709;&#4773;&#4658;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4738;&#4649;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4645;&#4619;&#4660;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4768;&#4705;</span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&lt;&#8230;&gt;</span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4656;&#4939;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4634;&#4779;&#4772;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4773;&#4633;&#4961;&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4725;&#4757;&#4643;&#4772;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4848;&#4674;&#4673;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4674;&#4653;&#4678;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4923;&#4853;&#4675;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4653;&#4772;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4634;&#4779;&#4772;&#4621;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;"><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span></span></span><span style="line-height: 115%; font-family: Nyala;"> </span></span><span style="font-size: 14pt; line-height: 115%; font-family: Nyala">&lt;&#8230;&gt;</span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4704;&#4825;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4673;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4909;&#4675;&#4813;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4726;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4778;&#4851;&#4753;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4653;&#4768;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4851;&#4810;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4613;&#4757;&#4931;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4637;&#4848;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4624;&#4811;&#4653;&#4843;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4638;&#4875;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4846;&#4624;&#4757;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4853;&#4653;&#4659;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4634;&#4779;&#4772;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4608;&#4710;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4781;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4611;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4726;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4656;&#4648;&#4678;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4809;&#4873;&#4824;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4845;&#4777;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4656;&#4621;&#4896;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4912;&#4901;&#4654;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4915;&#4809;&#4622;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4636;&#4757;&#4962;</span></span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="e1">- Fol. 1r pen trial. &#xD;
+- Fols. 1v-2r: numerous marginal notes are washed out and unreadable. &#xD;
+- Fols. 106r-106v: pen trials.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with tooled brown leather; textile (brown) inlays. &#xD;
+Overback made of brown leather.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0078ʿƎmbäytoTäkläHaymanot">ʿƎmbäyto Täklä Haymanot / ETH</placeName>
+                     </origPlace>
+                     <origDate notBefore="1800" notAfter="1850">First half of the 19th century.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl/>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">According to Additio 1, the donor is ʾato Gäbrä Mädḫǝn. His wife Ḫirutä Śǝllase and other relatives are also mentioned.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000"/>
+                  <!--copyst-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Homily"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gəˁəz</language>
+            <language ident="am" xml:id="Lan01">Amharic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-11-19">registered</change>
+         <change who="DN" when="2011-09-14T09:35:07.568Z">created</change>
+         <change who="DN" when="2015-05-31T16:14:46.073Z">last edited</change>
+         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

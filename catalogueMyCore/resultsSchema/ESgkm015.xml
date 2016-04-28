@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESgkm015"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ṣalotä ʿǝṭan “Prayer of Incense”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-11-22T13:36:19.668Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0108MäḵodʿäDäbräGännätKidanäMǝḥrät"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>GKM-015</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the King; incipit of Text I; incipit of the prayers to be read; directives to the ministers; words yәbärkäwwo (fols. 5ra-6rb) and nәsәʾәläkä (fols. 18va-19va, 32rb-34ra); elements of the punctuation signs; elements of Ethiopic numerals. &#xD;
+On the incipit page of Text I (fol. 3r), a few lines are rubricated (alternating with black lines).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">35.0</measure> folios,
+                                                in
+                                                <measure unit="quire">6.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">18.5</height>
+                              <width unit="cm">14.0</width>
+                              <depth unit="cm">3.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2; s.l.: 1, stub after 1; 2, stub after 1/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="10v"/> I(8/fols. 3r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="11r" to="20v"/> II(10/fols. 11r-20v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="21r" to="26v"/> III(6/fols. 21r-26v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">5</dim>
+                                 <locus from="27r" to="31v"/> IV(5; s.l.: 3, stub after 3/fols. 27r-31v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="32r" to="35v"/> V(4/fols. 32r-35v)</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The front board attachment is damaged.&#xD;
+The sewing is damaged. Many fols. are worn.&#xD;
+Tears carefully amended on fols. 32, 34.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout>
+                           <dimensions unit="mm">
+                              <height>140</height>
+                              <width>110</width>
+                              <dim type="intercolumn">13</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">15</dim>
+                              <dim type="bottom">30</dim>
+                              <dim type="right">15</dim>
+                              <dim type="left">10</dim>
+                              <dim type="intercolumn">13</dim>
+                           </dimensions>
+                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <ab type="ruling"/>
+                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking" subtype="pattern">
+Primary pricks are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+Ruling pricks are visible. </ab>
+                           <ab type="pricking" subtype="pattern">
+The upper line is written above the ruling. </ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom line is written above the ruling.</ab>
+                           <ab type="pricking" subtype="pattern">
+The bottom ruling is sometimes left unfilled (e.g. fols. 9v, 19v).</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre, irregular.</ab>
+                        <seg type="ink">Black, red.</seg>
+                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <date>Second half of the 19th century.</date>
+                     </handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#00">Fols. 1va-2vb: Unidentified hymn in praise of God and other saints.</locus>
+                           <q xml:lang="gez">Fol. 1va: <span style="font-size: large;">&#4704;&#4824;&#4826;&#4768;&#4609;&#4961; &#4768;&#4653;&#4768;&#4843;&#4808;&#4961; &#4768;&#4637;&#4659;&#4621;&#4961; &#4845;&#4725;&#4768;&#4784;&#4725;&#4961; &#4808;&#4845;&#4660;&#4707;&#4629;&#4961; &#4661;&#4633;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span>&#8230;</q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#00" n="#">Fol. 31va: Note listing the names: King Yo&#7717;ann&#1241;s (r. 1872-89), Metropolitan &#704;Atnatewos (in tenure 1869-76), &#347;&#228;t&#228;tot (?) Giyorgis, priest (q&#228;sis) Fasil&#228;d&#228;s, and qes g&#228;b&#228;z Kidan&#228; Maryam.</locus>
+                           <q xml:lang="gez"><span style="font-size: small;">Fol. 31va:</span> <span style="font-size: large;">&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4915;&#4915;&#4661;&#4752;&#4961; &#4768;&#4725;&#4755;&#4961; &#4724;&#4814;&#4661;&#4961; &#4640;&#4720;&#4726;&#4725;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;<span style="font-size: small;">[sic]</span></span><span style="font-size: large;"><span style="font-size: small;"><span style="font-size: large;">&#4961;</span></span> &#4808;&#4616;&#4672;&#4658;<span style="font-size: small;">[</span>&#4661;<span style="font-size: small;">]</span>&#4626;&#4961; &#4939;&#4658;&#4616;&#4848;&#4661;&#4961; &#4808;&#4616;<span style="font-size: small;">{</span>&#4676;&#4661;<span style="font-size: small;">}</span>&#4961; &#4872;&#4704;&#4829;&#4626;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#00" n="#">Fol. 31va-vb: Ownership note.</locus>
+                           <q xml:lang="gez"><span style="font-size: small;">Fol. 31va:</span> <span style="font-size: large;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4640;&#4619;&#4660;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4941;&#4645;&#4624;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4808;&#4616;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4633;&#4961; &#4632;&#4653;&#4624;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961;</span> <span style="font-size: small;">[fol. 31vb]</span> <span style="font-size: large;">&#4616;&#4845;&#4789;&#4757;&#4962;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="a4">
+                           <locus target="#00" n="#">Fol. 31vb: Ownership note.</locus>
+                           <q xml:lang="gez"><span style="font-size: small;">Fol. 31vb</span>: <span style="font-size: large;">&#4616;&#4824;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4659;&#4840;&#4902;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4962; &#4808;&#4616;&#4848;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962;</span></q>
+                           <q xml:lang="en"/>
+                           <p/>
+                        </item>
+                        <item xml:id="e1">- Short note ገብረ፡ ጊዎርጊስ፡ ወለዲያቆንሒ written in the same hand that of Additio 2: fol. 1r.&#xD;
+- Doodles: fol. 35v.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head and one close to the tail.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0108MäḵodʿäDäbräGännätKidanäMǝḥrät">Mäḵodʿä Däbrä Gännät Kidanä Mǝḥrät  / GKM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1872" notAfter="1876">King Yoḥannǝs IV (r. 1872-89) is mentioned on fol. 15 and in Additio 2; Metropolitan ʾAtnatewos (in tenure 1869-76) is also mentioned in Additio 2 and on fol. 16r.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Gäbrä ʾƎgziʾabәḥer (s. Additio 4, the supplication formula on fol. 3r). Probably, the Ms. was previously owned by a certain Wäldä Śәllase (he and the members of his family Fәśśәḥa Giyorgis and Wälättä Mikaʾel are mentioned in Additio 3 and supplications on fols. 2vb, 35ra-rb). Another name, Gäbrä Giworgis, is mentioned on fol. 1r (s. Varia).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000"/>
+                  <!--copyst-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Liturgy"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gəˁəz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-12-04">registered</change>
+         <change who="SA" when="2013-11-22T13:36:19.668Z">created</change>
+         <change who="SA" when="2014-08-20T07:38:19.557Z">last edited</change>
+         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>
