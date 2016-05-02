@@ -16,7 +16,7 @@
         </xsl:variable>
         
         <xsl:for-each select="$file/t:TEI">
-           <!-- <xsl:variable name="topmargin" select="if (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='top'][1]/text()) then (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='top'][1]) else ('0') "/>
+            <xsl:variable name="topmargin" select="if (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='top'][1]/text()) then (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='top'][1]) else ('0') "/>
             <xsl:variable name="bottomargin" select="if (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='bottom'][1]/text()) then (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='bottom'][1]) else ('0')  "/>
             <xsl:variable name="rightmargin" select="if (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='rigth'][1]/text()) then (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='rigth'][1]) else ('0') "/>
             <xsl:variable name="leftmargin" select="if (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='left'][1]/text()) then (.//t:layoutDesc/t:layout/t:dimensions[@type='margin'][1]/t:dim[@type='left'][1]) else ('0') "/>
@@ -27,9 +27,9 @@
             <xsl:variable name="computedheight" select="number($heighText)+number($bottomargin)+number($topmargin)"/>
             <xsl:variable name="computedwidth" select="number($textwidth)+number($rightmargin)+number($leftmargin)"/>
             
-         - Ms--> <xsl:value-of select="@xml:id"/>, <xsl:value-of select=".//t:titleStmt/t:title"/><xsl:text>
+         - Ms <xsl:value-of select="@xml:id"/>, <xsl:value-of select=".//t:titleStmt/t:title"/><xsl:text>
             </xsl:text>
-          <!-- <xsl:choose> <xsl:when test="number($computedheight) > number($totalHeight)">  
+           <xsl:choose> <xsl:when test="number($computedheight) > number($totalHeight)">  
               *  has a sum of layout height of <xsl:value-of select="$computedheight"/>mm which is greater than the object height of <xsl:value-of select="$totalHeight"/>mm
                 
             </xsl:when> 
@@ -52,7 +52,7 @@
                 <xsl:if test="number($totalwidth) = 0">object width </xsl:if>
             </xsl:otherwise>
            
-           </xsl:choose>-->
+           </xsl:choose>
         </xsl:for-each>
     </xsl:template>
     
