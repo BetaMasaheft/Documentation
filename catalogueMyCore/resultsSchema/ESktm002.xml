@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0137KädiḥDäbräTäwaḥədoQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0137KTM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>KTM-002</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Several groups of lines on the incipit page of Texts I-1, I-4 and II; two initia
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">102.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">102.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.2</height>
                               <width unit="cm">22.7</width>
@@ -115,7 +113,7 @@ The spine cover was probably cut off to facilitate the resewing and later replac
 Holes or tears amended on fols. 23, 5, 57, 71, 83, 93, 98.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="26">
                            <dimensions unit="mm">
                               <height>205</height>
                               <width>182</width>
@@ -128,28 +126,34 @@ Holes or tears amended on fols. 23, 5, 57, 71, 83, 93, 98.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r.</ab>
+                           <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre. Hand b: mediocre.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 8va)</item>
+                           <item>
+                              <abbr>ለዓለመ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 37rb, 74ra)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 4ra-101vb (Text I).</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 101vb-102rb (Texts II and III).</handNote>
@@ -157,22 +161,19 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 1v: Protective prayer against wild animals.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span unicode="">Fol. 1v: </span></span><span style="font-size: large;">&#4920;&#4622;&#4725;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4632;&#4661;&#4720;&#4739;&#4853;&#4653;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4768;&#4709;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4808;&#4621;&#4853;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4808;&#4616;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4632;&#4661;&#4720;&#4961; &#4739;&#4853;&#4653;&#4961; &#4824;&#4843;&#4661;&#4720;&#4739;&#4853;&#4653;&#4961; &#4768;&#4651;&#4810;&#4725;&#4961; &#4824;&#4872;&#4851;&#4637;&#4961; &#4752;&#4637;&#4653;&#4961; &#4925;&#4941;&#4651;&#4635;&#4961; &#4768;&#4757;&#4704;&#4659;&#4961; &#4875;&#4635;&#4635;&#4961; &#4811;&#4621;&#4876;&#4961; &#4829;&#4875;&#4875;&#4635;&#4961; ...</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 1v: Protective prayer against wild animals.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span unicode="">Fol. 1v: </span></span><span style="font-size: large;">&#4920;&#4622;&#4725;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4632;&#4661;&#4720;&#4739;&#4853;&#4653;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4768;&#4709;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4808;&#4621;&#4853;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4808;&#4616;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4632;&#4661;&#4720;&#4961; &#4739;&#4853;&#4653;&#4961; &#4824;&#4843;&#4661;&#4720;&#4739;&#4853;&#4653;&#4961; &#4768;&#4651;&#4810;&#4725;&#4961; &#4824;&#4872;&#4851;&#4637;&#4961; &#4752;&#4637;&#4653;&#4961; &#4925;&#4941;&#4651;&#4635;&#4961; &#4768;&#4757;&#4704;&#4659;&#4961; &#4875;&#4635;&#4635;&#4961; &#4811;&#4621;&#4876;&#4961; &#4829;&#4875;&#4875;&#4635;&#4961; ...</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 102va: Donation note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 102va: </span><span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4659;&#4633;&#4772;&#4621;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4813;&#4617;&#4849;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4739;&#4810;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4850;&#4613;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4704;&#4978;&#4808;&#4973;&#4709;&#4649;&#4651;&#4720;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4757;&#4873;&#4645;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4872;&#4704;&#4825;&#4961; &#4781;&#4941;&#4616;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4704;&#4982;&#4987;&#4704;&#4973;&#4987;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4984;&#4808;&#4975;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962; </span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 102va: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 102va: </span><span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4659;&#4633;&#4772;&#4621;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4813;&#4617;&#4849;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4739;&#4810;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4850;&#4613;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4704;&#4978;&#4808;&#4973;&#4709;&#4649;&#4651;&#4720;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4757;&#4873;&#4645;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4872;&#4704;&#4825;&#4961; &#4781;&#4941;&#4616;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4704;&#4982;&#4987;&#4704;&#4973;&#4987;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4984;&#4808;&#4975;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962; </span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note, possibly written in hand b, states that Täwäldä Mädḫǝn donated the Ms. to the church of Maryam Kädih. He purchased it for 15 Bǝrr in 1877 year of mercy (= 1884/85 A.D.) during the reign of King Yoḥannǝs (= Yoḥannǝs IV, r. 1872-89) and the tenure of gäbäz Kǝflä Ḥawaryat. The other date mentioned (5500) is not clear. Several relatives of Täwäldä Mädḫǝn are mentioned.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 102vb: List of the feast of the Apostles.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 102vb: List of the feast of the Apostles.</span></p><q xml:lang="gez"><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fol. 102vb: </span><span style="font-size: large;">&#4757;&#4812;&#4901;&#4757;&#4961; &#4828;&#4755;&#4961; &#4704;&#4819;&#4622;&#4633;&#4961; &#4616;&#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#160;&#4768;&#4632;&#4961; &#4969;&#4616;&#4632;&#4661;&#4776;&#4648;&#4637;&#4961; &#4704;&#4653;&#4720;&#4622;&#4636;&#4814;&#4661;&#4961; &#4640;&#4648;&#4672;&#4961; &#4901;&#4677;&#4637;&#4725;&#4961; &#4768;&#4632;&#4961; &#4978;&#4808;&#4970;&#4635;&#4724;&#4814;&#4661;&#4961; &#4768;&#4632;&#4961; &#4979;&#4808;&#4970;&#4961; &#4617;&#4675;&#4661;&#4961; &#4648;&#4853;&#4773;&#4961; &#4640;&#4648;&#4672;&#4961; &#4741;&#4851;&#4653;&#4961; &#4768;&#4632;&#4961; &#4978;&#4808;&#4976;&#4961; &#4938;&#4621;&#4918;&#4661;&#4961; &#4640;&#4648;&#4672;&#4961; &#4723;&#4741;&#4643;&#4645;&#4961; &#4768;&#4632;&#4961; &#4972;&#4773;&#4757;&#4853;&#4653;&#4843;&#4661;&#4961; &#4640;&#4648;&#4672;&#4961; &#4901;&#4653;&#4961; &#4768;&#4632;&#4961; &#4972;&#4846;&#4624;&#4637;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4752;&#4880;&#4853;&#4883;&#4853;&#4962; &#4640;&#4648;&#4672;&#4961; &#4840;&#4779;&#4722;&#4725;&#4961; &#4768;&#4632;&#4961; &#4976;&#4621;&#4848;&#4720;&#4961; &#4656;&#4637;&#4822;&#4757;&#4961; &#4768;&#4632;&#4961; &#4978;&#4843;&#4821;&#4678;&#4709;&#4961; &#4808;&#4621;&#4848;&#4961; &#4773;&#4621;&#4941;&#4846;&#4661;&#4961; &#4640;&#4648;&#4672;&#4961; &#4632;&#4875;&#4706;&#4725;&#4961; &#4768;&#4632;&#4961; &#4976;&#4635;&#4725;&#4843;&#4661;&#4962; &#4640;&#4648;&#4672;&#4961; &#4635;&#4829;&#4843;<span style="font-size: small;">[sic]</span>&#4961; &#4768;&#4632;&#4961; &#4978;&#4808;&#4975;&#4961; &#4843;&#4821;&#4678;&#4709;&#4961; &#4808;&#4621;&#4848;&#4961; &#4824;&#4709;&#4852;&#4814;&#4661;&#4962; &#4768;&#4632;&#4961; &#4980;&#4609;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4648;&#4853;&#4773;&#4962; &#4640;&#4648;&#4672;&#4961; &#4877;&#4757;&#4710;&#4725;&#4961; &#4768;&#4632;&#4961; &#4979;&#4808;&#4974;&#4726;&#4635;&#4661;&#4962; &#4640;&#4648;&#4672;&#4961; &#4624;&#4637;&#4620;&#4961; &#4768;&#4632;&#4961; &#4970;&#4723;&#4852;&#4814;&#4661;&#4961; &#4768;&#4632;&#4961; &#4973;&#4916;&#4901;&#4654;&#4661;&#4961;&#160;&#4768;&#4632;&#4961; &#4978;&#4755;&#4725;&#4755;&#4772;&#4621;&#4961; &#4768;&#4632;&#4961; &#4978;&#4808;&#4976;&#4843;&#4821;&#4678;&#4709;&#4961; &#4773;&#4737;&#4737;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4962;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is partly illegible due to faded ink.</p>
                         </item>
                         <item xml:id="e1">- One line of text has been crossed out on fol. 100vb. &#xD;
 - Omissions are inserted interlineally: fols. 6vb, 52rb.&#xD;
@@ -198,7 +199,7 @@ Endbands are laced with a cord.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0137KädiḥDäbräTäwaḥədoQəddəstMaryam">Kädiḥ Däbrä Täwaḥədo Qəddəst Maryam / KTM</placeName>
+                        <placeName corresp="INS0137KTM">Kädiḥ Däbrä Täwaḥәdo Qәddәst Maryam / KTM</placeName>
                      </origPlace>
                      <origDate notBefore="1884" notAfter="1885">According to Additio 2, the Ms. was purchased in 1877 year of mercy (= 1884/85 A.D.) during the reign of King Yoḥannǝs IV (r. 1872-89).</origDate>
                   </origin>
@@ -240,10 +241,6 @@ Endbands are laced with a cord.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -265,7 +262,7 @@ Endbands are laced with a cord.</decoNote>
          <change who="DN" when="2010-12-17">registered</change>
          <change who="SH" when="2014-10-06T13:15:26.497Z">created</change>
          <change who="SH" when="2014-10-27T17:39:21.842Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

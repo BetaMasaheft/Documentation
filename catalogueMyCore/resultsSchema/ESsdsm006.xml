@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Gädlä Gäbrä Mänfäs Qǝddus “Vita of Gäbrä Mänfäs Qǝddus” / Täʾamrä Gäbrä Mänfäs Qǝddus “Miracles of Gäbrä Mänfäs Qǝddus” / Mälkǝʾa Gäbrä Mänfäs Qǝddus “Image of Gäbrä Mänfäs Qǝddus”</title>
-            <editor key="Ethio-Spare"/>
+            <editor key="Ethio-SPaRe"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
          <publicationStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0181SäwnäMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0181SDSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SDSM-006</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Several groups of lines on the incipit page of Text I and in the incipit of Text
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">118.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">118.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.8</height>
                               <width unit="cm">15.7</width>
@@ -120,7 +118,7 @@ Fols. 55, 56, 73 have been enlarged by sewing a piece of parchment onto them (at
 Tear amended on fol. 70.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>148</height>
                               <width>125</width>
@@ -133,30 +131,51 @@ Tear amended on fol. 70.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Some leaves have one (fols. 79v-80r, 83rv, 92r-93v, 100rv, 103r-104v, 107r-108v, 115rv) or two (fols. 60rv, 67rv, 87r-88v, 98r-99v) additional bottom ruled lines not used by the scribe.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid 19th – mid 20th cent. (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ዓለ፡ ዓ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 102rb)</item>
+                           <item>
+                              <abbr>ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 88vb)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 96vb</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አ(ሜን)፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 95vb, 101rb, 107ra, 108vb)</item>
+                           <item>
+                              <abbr>ዓለ፡ ዓ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 102rb)</item>
+                           <item>
+                              <abbr>ለዓለ፡ ዓ፡ አ(ሜን)፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 98vb, 105rb)</item>
+                           <item>
+                              <abbr>ለዓለ፡ ዓለ፡ አ(ሜን)፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 100vb, 108ra)</item>
+                           <item/>
+                           <item>
+                              <abbr>አ፡</abbr> for <expan>አሜን፡ </expan> (fols. 111va-112rb)</item>
+                           <item>
+                              <abbr>ሰ(ላ)፡</abbr> for <expan>ሰላም፡ </expan> (fols. 112va-115vb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -176,7 +195,7 @@ Quire XV is reinforced with a parchment guard, inserted into the centre fold.</d
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0181SäwnäMaryam">Säwnä Maryam / SDSM</placeName>
+                        <placeName corresp="INS0181SDSM">Säwnä Maryam / SDSM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1950">Mid-19th – mid-20th cent. (?)</origDate>
                   </origin>
@@ -218,10 +237,6 @@ Quire XV is reinforced with a parchment guard, inserted into the centre fold.</d
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -243,7 +258,7 @@ Quire XV is reinforced with a parchment guard, inserted into the centre fold.</d
          <change who="DN" when="2011-11-29">registered</change>
          <change who="SH" when="2015-04-20T10:38:55.605Z">created</change>
          <change who="SH" when="2015-05-05T16:39:59.112Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

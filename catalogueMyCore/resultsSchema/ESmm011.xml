@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0141MaryamMäkan"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0141MM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MM-011</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">147.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">147.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">33.0</height>
                               <width unit="cm">26.0</width>
@@ -73,7 +71,7 @@ The bottom right corner of the fols. is damaged by rodents. Many fols. are affec
 Some fols. are loosely held together by threads or cords (e.g., s. fols. 113v-114r).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="30">
                            <dimensions unit="mm">
                               <height>258</height>
                               <width>202</width>
@@ -86,19 +84,21 @@ Some fols. are loosely held together by threads or cords (e.g., s. fols. 113v-11
                               <dim type="left">13</dim>
                               <dim type="intercolumn">18</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 2r.</ab>
+                           <note>All data are for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -112,8 +112,11 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine</ab>
                         <seg type="ink">Black; red (vivid red; brilliant vermillion for the name of the commissioner).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid-15th to mid 16th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>አሜ፡</abbr> for <expan>አሜን፡ </expan> (fols. 27ra, 145vb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -137,10 +140,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 54va (below the text): Mention of the commissioner.</span></span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ;">Fol. 54va:</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4640;&#4653;&#4928;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4853;&#4757;&#4877;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4633;&#4753;</span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ;">[sic]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4829;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4632;&#4779;&#4757;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4640;&#4648;&#4675;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4936;&#4624;&#4675;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4813;&#4873;&#4824;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4773;&#4657;&#4648;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4845;&#4777;&#4757;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4771;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note, written in a secondary hand, mentions the name Śärḍä Dǝngǝl. A person with the same name (over erasure) is mentioned as the commissioner of the book in the note on fol. 7va.</p>
                         </item>
                         <item xml:id="e1">- Cues for the rubricator (numerals): e.g., fols. 19v, 20v, 21v, 22r, 26r, 64v, 65r, 66r, 75v, 78va, 79r, 85r.&#xD;
 - Corrections (words or letters) written interlineally: fols. 17vb, 57ra, 57rv, 58ra, 59va.&#xD;
@@ -165,7 +167,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0141MaryamMäkan">Maryam Mäkan/MM</placeName>
+                        <placeName corresp="INS0141MM">Maryam Mäkan/MM</placeName>
                      </origPlace>
                      <origDate notBefore="1450" notAfter="1550">Mid-15th - mid-16th cent. (?)</origDate>
                   </origin>
@@ -207,10 +209,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -231,7 +229,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-11-05">registered</change>
          <change who="VP" when="2014-05-09T16:45:17.518Z">created</change>
          <change who="DN" when="2015-02-18T18:00:59.914Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

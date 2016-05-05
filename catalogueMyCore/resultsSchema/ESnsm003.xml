@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0113NəḥbiQəddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0113NSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>NSM-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">145.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">145.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">28.0</width>
@@ -106,7 +104,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The bottom part of the Ms. is damaged by water; the inner bottom margin of many leaves is destroyed (but the text is complete; the text area is only slightly damaged).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>220</height>
                               <width>205</width>
@@ -119,27 +117,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/J.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible (s. fol. 115r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible (s. fol. 58r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular, by a well-trained hand.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 16th century.</date>
                      </handNote>
                   </handDesc>
@@ -152,52 +150,47 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 2r: Ownership or donation note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 2r: Ownership or donation note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Names of the owners/donors (possibly also other proper names) erased.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 2r: Record concerning a litigation about inheritance issues.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 2r: Record concerning a litigation about inheritance issues.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 2v:&#160;Transaction note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 2v:&#160;Transaction note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Dated 18 Ḫǝdar, 1942 year of mercy (= 27 November 1949 A.D.).
+Kahsay Wäldä Maryam mentioned in the text may be the same person as ʾato Kahsay in Additio 7.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 43v: Short prayers with &#704;asmat for different day times (?).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 43v: Short prayers with &#704;asmat for different day times (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is partly erased.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 67ra-vb: Excerpt from the &#7778;&#228;lot&#228; &#705;&#601;&#7789;an(?).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 67ra-vb: Excerpt from the &#7778;&#228;lot&#228; &#705;&#601;&#7789;an(?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a neat, careful secondary hand.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 143r:&#160;Transaction note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 143r:&#160;Transaction note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Dated 7 Säne 1937 year of mercy (= 14 June, 1945 A.D.). ʾAto Dästa Gäbrä ʾArägawi mentioned in the note is evidently the same person as the seller in Additio 8.</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 143v: Record concerning a litigation.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 143v: Record concerning a litigation.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a well trained hand in Amharic. Parts of the note have been erased. The note mentions a number of localities, including May ʾAbʿa, ʾAndel, Gǝlamo. 
+ʾAto Kahsay mentioned at the end of the text may be the same person as Kahsay Wäldä Maryam in Additio 3.</p>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 144v: Transaction note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 144v: Transaction note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Dated 29 Näḥase 1919 year of mercy (= 4 September 1927 A.D.).
+ʾAto Dästa Gäbrä ʾArägawi mentioned in the note is evidently the same person as the seller in Additio 6.</p>
                         </item>
                         <item xml:id="e1">- Writing exercise (fragment of the genealogy of Christ in Mt. 1): fol. 1r.&#xD;
 - Traces of stamps: fols. 3r, 5r, 36v, 84v, 85r, 110v.&#xD;
@@ -223,7 +216,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0113NəḥbiQəddusMikaʾel">Nəḥbi Qəddus Mikaʾel / NSM</placeName>
+                        <placeName corresp="INS0113NSM">Nәḥbi Qәddus Mikaʾel / NSM</placeName>
                      </origPlace>
                      <origDate notBefore="1563" notAfter="1597">King [Śärḍä] Dǝngǝl (1563-97) seems to have been mentioned in the supplication formula on fol. 44r, but the first part of the name is erased.</origDate>
                   </origin>
@@ -265,10 +258,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -290,7 +279,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-25">registered</change>
          <change who="IF" when="2011-08-18T09:48:14.634Z">created</change>
          <change who="DN" when="2015-11-16T10:37:39.075Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

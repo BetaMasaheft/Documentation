@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0099ʾAḥzäraMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0099DMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMA-013a</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ A few groups of lines on the incipit page of Text I (fol. 29r).</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">38.0</measure> folios,
-                                                in
-                                                <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">38.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">13.0</width>
@@ -91,7 +89,7 @@ Some fols. are misplaced, some are missing. Text I begins on fol. 29ra.&#xD;
 Fol. 29 is damaged, with the loss of text. The text on some fols. is abraded. The text on fol. 31r is illegible due to faded ink.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>132</height>
                               <width>88</width>
@@ -104,19 +102,21 @@ Fol. 29 is damaged, with the loss of text. The text on some fols. is abraded. Th
                               <dim type="left">10</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">Text I and Text II on fols. 12vb-16ra: all data for fol. 2r.</ab>
+                           <note>Text I and Text II on fols. 12vb-16ra: all data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="1" writtenLines="20">
                            <dimensions unit="mm">
                               <height>125</height>
                               <width>90</width>
@@ -129,28 +129,31 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">8</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Text II on fols. 20vb-28vb: all data for fol. 26r.</ab>
+                           <note>Text II on fols. 20vb-28vb: all data for fol. 26r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Poor, careless</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19 century</date>
+                        <list type="abbreviations">
+                           <item>ም፡/ምል፡/ምልጣ፡ for ምልጣን፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -169,7 +172,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0099ʾAḥzäraMaryam">ʾAḥzära  Maryam /DMA</placeName>
+                        <placeName corresp="INS0099DMA">ʾAḥzära  Maryam /DMA</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th century (?)</origDate>
                   </origin>
@@ -211,10 +214,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -235,7 +234,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-24">registered</change>
          <change who="MK" when="2014-10-16T10:17:51.653Z">created</change>
          <change who="DN" when="2014-12-17T16:36:44.067Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

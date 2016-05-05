@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0100DǝrbaDäbräʾAbunäYasay"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0100DAY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DAY-006</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">122.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">122.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.0</height>
                               <width unit="cm">24.0</width>
@@ -121,7 +119,7 @@ Fols. 27, 28, 29, 33, 34, 57-69 are mutilated.&#xD;
 Quire A has been sewn upside down.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>188</height>
                               <width>190</width>
@@ -134,30 +132,48 @@ Quire A has been sewn upside down.</condition>
                               <dim type="left">17</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">all data for fol. 4r</ab>
+                           <note>all data for fol. 4r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Ruled blank fols: 121r, 122r.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">find and regular.</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th century.</date>
+                        <persName role="scribe" corresp="PRS00000">ʿAsbä Dǝngǝl</persName>He is mentioned as the scribe in Additio 1.<date>18th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 20rb, 22va, 23ra)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 20va, 22va, 24va)</item>
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (fol. 20rb)</item>
+                           <item>
+                              <abbr>ፍ፡ ወን</abbr> for <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ ለዛቲ፡ ነፍስ፡ </expan> (fol. 28va-vb)</item>
+                           <item>
+                              <abbr>ፍ፡ ወን፡ ረ፡ ለ፡ በ፡</abbr> for <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 29vb, 30vb, 31ra)</item>
+                           <item>
+                              <abbr>ስ፡</abbr> for <expan>ስቡሕኒ፡ ውእቱ፡ ወልዑልኒ፡ ውእቱ፡ ለዓለም፡ </expan> (fols. 109vb, 110ra-rb)</item>
+                           <item>
+                              <abbr>ይት፡ ወይ፡ ስ፡ ለእ፡</abbr> for <expan>ይትአኰት፡ ወይሴባሕ፡ ስሙ፡ ለእግዚአብሔር፡ </expan> (fol. 113vb)</item>
+                           <item>
+                              <abbr>የአ፡ ወይ፡ እኵ፡ ወስ፡ ስ፡ እግ፡</abbr> for <expan>የአኵቱከ፡ ወይሴብሑከ፡ እኵት፡ ወስቡሕ፡ ስምከ፡ እግዚኦ፡ </expan> (e.g., fols. 113vb, 114ra, 114va)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -170,10 +186,10 @@ Ruled blank fols: 121r, 122r.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span unicode="" style="font-size:10.0pt;Arial">Fol. 121va: Donation note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 121va:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4757;&#4811;</span><span unicode="" style="line-height: 115%;">{</span><span style="line-height: 115%;">&#4841;</span><span unicode="" style="line-height: 115%;">}</span><span style="line-height: 115%;">&#4961; &#4757;&#4811;&#4840;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4757;&#4877;&#4645;&#4725;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4768;&#4635;&#4753;&#4772;&#4621;&#4961; &#4853;&#4653;&#4707;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4757;&#4873;&#4645;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4676;&#4656;&#4961; &#4872;&#4704;&#4825;&#4961; &#4941;&#4661;&#4624;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4616;&#4629;&#4845;&#4808;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4808;&#4843;&#4757;&#4709;&#4654;&#4633;&#4961; &#4813;&#4661;&#4720;&#4961; &#4656;&#4635;&#4843;&#4810;&#4725;&#4961; &#4624;&#4851;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span><span style="line-height: 115%;">&#4808;&#4920;&#4624;&#4938;&#4609;&#4961; &#4739;&#4901;&#4773;&#4961; &#4808;&#4768;&#4707;&#4658;&#4961; &#4819;&#4661;&#4704;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4704;&#4925;&#4619;&#4622;&#4725;&#4776;&#4961; &#4781;&#4853;&#4758;&#4961; &#4773;&#4638;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4925;&#4753;&#4821;&#4961; &#4808;&#4773;&#4638;&#4720;&#4961; &#4645;&#4875;&#4961; &#4824;&#4624;&#4882;&#4621;&#4961; &#4774;&#4768;&#4635;&#4753;&#4772;&#4621;&#4962;</span></span></q>
+                           <locus/><p><span unicode="" style="font-size:10.0pt;Arial">Fol. 121va: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 121va:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4757;&#4811;</span><span unicode="" style="line-height: 115%;">{</span><span style="line-height: 115%;">&#4841;</span><span unicode="" style="line-height: 115%;">}</span><span style="line-height: 115%;">&#4961; &#4757;&#4811;&#4840;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4757;&#4877;&#4645;&#4725;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4768;&#4635;&#4753;&#4772;&#4621;&#4961; &#4853;&#4653;&#4707;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4757;&#4873;&#4645;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4676;&#4656;&#4961; &#4872;&#4704;&#4825;&#4961; &#4941;&#4661;&#4624;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4616;&#4629;&#4845;&#4808;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4808;&#4843;&#4757;&#4709;&#4654;&#4633;&#4961; &#4813;&#4661;&#4720;&#4961; &#4656;&#4635;&#4843;&#4810;&#4725;&#4961; &#4624;&#4851;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span><span style="line-height: 115%;">&#4808;&#4920;&#4624;&#4938;&#4609;&#4961; &#4739;&#4901;&#4773;&#4961; &#4808;&#4768;&#4707;&#4658;&#4961; &#4819;&#4661;&#4704;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4704;&#4925;&#4619;&#4622;&#4725;&#4776;&#4961; &#4781;&#4853;&#4758;&#4961; &#4773;&#4638;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4925;&#4753;&#4821;&#4961; &#4808;&#4773;&#4638;&#4720;&#4961; &#4645;&#4875;&#4961; &#4824;&#4624;&#4882;&#4621;&#4961; &#4774;&#4768;&#4635;&#4753;&#4772;&#4621;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the same hand as the main text.
+It mentions the donors Nǝwayä Maryam and Nǝgǝśtä Maryam, King Täklä Giyorgis, qesä gäbäz Giyorgis and the scribe ʿAsbä Dǝngǝl.</p>
                         </item>
                         <item xml:id="e1">- Pen trial: fol. 2r.&#xD;
 - Minor notes: fols. 2v, 11v, 37v, 42r, 75v.&#xD;
@@ -200,7 +216,7 @@ The endband are laced with a cord.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0100DǝrbaDäbräʾAbunäYasay">Dǝrba Däbrä ʾAbunä Yasay  /DAY</placeName>
+                        <placeName corresp="INS0100DAY">Dǝrba Däbrä ʾAbunä Yasay  /DAY</placeName>
                      </origPlace>
                      <origDate notBefore="1779" notAfter="1800">King Täklä Giyorgis (r. 1779-1800, ruled for six distinct periods) (fols. 35va, 77vb, 110vb, 111ra) and Metropolitan Yosab (1770 -1803) (fols. 110va, 111ra, 112ra) are mentioned.</origDate>
                   </origin>
@@ -242,8 +258,7 @@ The endband are laced with a cord.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">ʿAsbä Dǝngǝl</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -266,7 +281,7 @@ The endband are laced with a cord.</decoNote>
          <change who="DN" when="2010-12-16">registered</change>
          <change who="AA" when="2013-11-07T10:36:21.421Z">created</change>
          <change who="EG" when="2014-07-25T09:49:09.037Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

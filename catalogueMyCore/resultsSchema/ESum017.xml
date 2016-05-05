@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0017ʿUraQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0017UM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>UM-017</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">133.0</measure> folios,
-                                                in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">133.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">22.5</width>
@@ -129,7 +127,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Leather cover is detached from the bottom part of the spine.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>190</height>
                               <width>175</width>
@@ -142,19 +140,21 @@ Leather cover is detached from the bottom part of the spine.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 8r.</ab>
+                           <note>All data for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height/>
                               <width/>
@@ -167,43 +167,48 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for. fol. 13r.</ab>
+                           <note>All data for. fol. 13r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>second half of the 20th century</date>
+                        <persName role="scribe" corresp="PRS00000">Sǝbbuḥ, märigeta (?)</persName>s. Additio 1.<date>second half of the 20th century</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>በእ፡ for በእንተ፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>እማ፡ for እማሬ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]-->Fol. 132r: Inventory of books and church utensils.<span lang="EN-US" style="line-height: 115%; font-family: ; font-size: 10pt"><br /> </span><span lang="EN-US" style="line-height: 115%; font-family: ; font-size: 10pt" unicode=""> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%"><br /> </span></span></q>
+                           <locus/><p><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]-->Fol. 132r: Inventory of books and church utensils.<span lang="EN-US" style="line-height: 115%; font-family: ; font-size: 10pt"><br /> </span><span lang="EN-US" style="line-height: 115%; font-family: ; font-size: 10pt" unicode=""> </span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%"><br /> </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Very recent, in pen.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><span style="line-height: 115%">Fol. 133r: R</span></span></span><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><span style="line-height: 115%">ecord concerning a manuscript transaction (?).</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ; font-size: 10pt"><br /> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 133r:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4773;&#4756;&#4961; &#4632;&#4650;&#4876;&#4723;&#4961;&#160;&#4661;&#4705;&#4629;&#4961; &#4720;&#4853;&#4619;&#4961; &#4768;&#4757;&#4853;&#4961; &#4633;&#4617;&#4961; &#4632;&#4829;&#4872;&#4709;&#4961; &#4824;&#4768;&#4920;&#4624;&#4936;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4819;&#4709;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773; ...</span></span></q>
+                           <locus/><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><span style="line-height: 115%">Fol. 133r: R</span></span></span><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><span style="line-height: 115%">ecord concerning a manuscript transaction (?).</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ; font-size: 10pt"><br /> </span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 133r:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4773;&#4756;&#4961; &#4632;&#4650;&#4876;&#4723;&#4961;&#160;&#4661;&#4705;&#4629;&#4961; &#4720;&#4853;&#4619;&#4961; &#4768;&#4757;&#4853;&#4961; &#4633;&#4617;&#4961; &#4632;&#4829;&#4872;&#4709;&#4961; &#4824;&#4768;&#4920;&#4624;&#4936;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4819;&#4709;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773; ...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Amharic in pen. The note contains the name of a scribe (?) märigeta Sǝbbuḥ, names of donors and the date Miyazya 1962.</p>
                         </item>
                         <item xml:id="e1">- Notes on the content: fols. 3v, 132v.&#xD;
 - Recent notes on the content in the upper margin: e.g., fols. 27r, 28r. etc.&#xD;
@@ -227,7 +232,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0017ʿUraQirqos">ʿUra Qirqos / UM</placeName>
+                        <placeName corresp="INS0017UM">ʿUra Qirqos / UM</placeName>
                      </origPlace>
                      <origDate notBefore="1970" notAfter="1970">The name of King Ḫaylä Śǝllase I (r. 1930-74) is mentioned in supplication formulas throughout the Ms. (e.g., fols. 29ra, 38vb, 98va, 98vb, 107va). The name of the Patriarch Basǝlwos (in tenure 1951-70) is mentioned on fol. 41vb. &#xD;
 The transaction note (Additio 2) is dated to 1970.</origDate>
@@ -270,8 +275,7 @@ The transaction note (Additio 2) is dated to 1970.</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Sǝbbuḥ, märigeta (?)</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -295,7 +299,7 @@ The transaction note (Additio 2) is dated to 1970.</origDate>
          <change who="DN" when="2010-04-28">registered</change>
          <change who="IF" when="2013-07-22T07:29:08.710Z">created</change>
          <change who="SH" when="2014-09-10T12:00:58.352Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

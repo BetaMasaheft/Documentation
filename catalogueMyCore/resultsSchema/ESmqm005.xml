@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0119DÃ¤brÃ¤MÃ¤Ë&#x81;arQÓ&#x99;ddÓ&#x99;stMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0119MQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MQM-005</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">180.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
-                                                <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">180.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">22.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.0</height>
                               <width unit="cm">21.5</width>
@@ -141,7 +139,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The Ms. is worn. Some fols. are heavily stained with dirt. Front cover is cracked and repaired; the spine cover is slightly damaged. Fol. 41 is slightly rumpled. Fol. 140 has been cut along the lower edge. A modern exercise paper book with prayers is placed between the last fols. of the Ms.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>160</height>
                               <width>165</width>
@@ -154,28 +152,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">17</dim>
                               <dim type="intercolumn">18</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible (s. fol. 127r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 97r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular</ab>
                         <seg type="ink">Black; red; reddish-brown.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Early 19th cent.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>ቅ፡ ቅ፡ ቅ፡ for ቅዱስ፡ ቅዱስ፡ ቅዱስ፡</item>
+                           <item>
+                              <abbr>ተሣ፡</abbr> for <expan>ተሣሀለነ፡ </expan> (s. fol. 13vb)</item>
+                           <item>
+                              <abbr>እግ፡ ተ፡</abbr> for <expan>እግዚኦ፡ ተሣሀለነ፡ </expan> (s. fol. 13vb)</item>
+                           <item>
+                              <abbr>እወ፡ እግ፡ አም፡ አኃ፡ ኵ፡ ዘይ፡ ለኵ፡ ዓለ፡ አ፡ ለኢ፡ ወመ፡ ኢየ፡ ክር፡</abbr> for <expan>እወ፡ እግዚኦ፡ አምላክነ፡ አኃዜ፡ ኵሉ፡ ዘይነግሥ፡ ለኵሉ፡ ዓለም፡ አቡሁ፡ ለእግዚእነ፡ ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ፡ </expan> (s. fol. 14rb)</item>
+                           <item>
+                              <abbr>አ፡ አ፡</abbr> for <expan>አሜን፡ አሜን፡ </expan> (s. fol. 169rb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3ra-29rb; 31va-179va.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 29va-30rb.</handNote>
@@ -183,16 +195,14 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span lang="EN-GB" style="line-height: 115%; font-family: " arial="" unicode="">Fols. 1va-2va: Excerpts from the Gospels (Mt. 5:1-18, Lk. 6:1-5).</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span lang="EN-GB" style="line-height: 115%; font-family: " arial="" unicode="">Fols. 1va-2va: Excerpts from the Gospels (Mt. 5:1-18, Lk. 6:1-5).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>At the beginning of the text (fol. 1va, l.1-6), an excerpt from the Gospel of John was begun and later crossed out (Jn. 10:1).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span lang="DE" style="line-height: 115%; font-family: " arial="" unicode="">Fol. 179va-vb: Unreadable note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span lang="DE" style="line-height: 115%; font-family: " arial="" unicode="">Fol. 179va-vb: Unreadable note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The greater part of the note has been erased. The legible fragment consists of several personal names (donation note?).</p>
                         </item>
                         <item xml:id="e1">- Rubrications in reddish-brown ink begin in fol. 161ra.&#xD;
 - The right upper corner of fol. 135 has been mended by sewing a strip of parchment. The corresponding text on both sides of the strip is written by a different hand, possibly identical with the hand of the exercise book (s. below).&#xD;
@@ -218,7 +228,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0119DÃ¤brÃ¤MÃ¤Ë&#x81;arQÓ&#x99;ddÓ&#x99;stMaryam">DÃ¤brÃ¤ MÃ¤Ë&#x81;ar QÓ&#x99;ddÓ&#x99;st Maryam / MQM</placeName>
+                        <placeName corresp="INS0119MQM">DÃ¤brÃ¤ MÃ¤Ë&#x81;ar QÓ&#x99;ddÓ&#x99;st Maryam / MQM</placeName>
                      </origPlace>
                      <origDate notBefore="1816" notAfter="1828">On fol. 63ra, Patriarch of Alexandria Ṗeṭros (in tenure 1809-52) and Metropolitan Qerǝllos (in tenure in 1816-28) are mentioned.</origDate>
                   </origin>
@@ -260,10 +270,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -285,7 +291,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-03">registered</change>
          <change who="IF" when="2012-08-25T11:29:48.367Z">created</change>
          <change who="SA" when="2014-09-08T12:43:17.134Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

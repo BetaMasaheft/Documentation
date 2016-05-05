@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0108GKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GKM-003</idno>
                </msIdentifier>
                <msContents>
@@ -58,9 +58,7 @@ The beginning of Text II on fols. 80vb l.6-82vb is not rubricated.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">195.0</measure> folios,
-                                                in
-                                                <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">195.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.5</height>
                               <width unit="cm">19.0</width>
@@ -162,7 +160,7 @@ Threads of the sewing of the 4th station are broken and are crudely repaired. &#
 Many fols. are damaged by water (in the inner margin).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>123</height>
                               <width>135</width>
@@ -175,28 +173,44 @@ Many fols. are damaged by water (in the inner margin).</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling">27 (for Zǝmmare, fols. 3ra-82vb); 22-23 (for Mäwaśǝʾt, Text III, Mǝʿraf, fols. 83ra-113vb, 114ra-vb, 115ra-194va)</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine, careful. Hand b: rather fine, careful. Hand c: fine, careful.</ab>
                         <seg type="ink">Black (brown Text III), red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 18th century.</date>
+                        <list type="abbreviations">
+                           <item>Some of the abbreviations used throughout the texts:</item>
+                           <item>መንፈ: for መንፈስ:</item>
+                           <item>ጽ፡/ጽዋ፡ for ጽዋዕ፡</item>
+                           <item>ም፡/ምል፡/ምልጣ: for ምልጣን፡</item>
+                           <item>ምቅና፡ for ምቅናይ፡</item>
+                           <item>ምድ፡/ምድጋም፡ for ምድጋም፡</item>
+                           <item>መስተብ፡ for መስተብቍዕ፡</item>
+                           <item>ቅን፡/ቅንዋ፡ for ቅንዋት፡</item>
+                           <item>እስ፡ for እስመ፡</item>
+                           <item>ዘኅ፡ for ዘኅብረት፡</item>
+                           <item>ም፡ for ምዕራፍ፡</item>
+                           <item>ምልዋ፡ for ምልዋት፡</item>
+                           <item>
+                              <abbr>In Text I repeated versicles are often written in an abbreviated form, e.g., እ stands</abbr> for <expan>the whole versicle እመኑ፡ በብርሃኑ፡ ለወልደ፡ እግዚአብሔር </expan> (fol. 5rab).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">Zǝmmare (fols. 3ra-82vb)</handNote>
                      <handNote xml:id="h3" script="Ethiopic">Mäwaśǝʾt (fols. 83ra-194va), very small letters</handNote>
@@ -214,14 +228,12 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fol. ar: Notes and an excerpt from M&#228;lk&#601;</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">a Maryam &#8220;Image of Mary&#8221;.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. ar: Notes and an excerpt from M&#228;lk&#601;</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">a Maryam &#8220;Image of Mary&#8221;.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is crudely written upside down (?) by Wäldä Mikaʾel.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 114vb:&#160;&#704;Asmat-prayer</span>.</locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 114vb:&#160;</span><span style="font-size: large;">&#4768;&#4781;&#4846;&#4661;&#4961; &#4768;&#4781;&#4846;&#4659;&#4810;&#4961; &#4920;&#4622;&#4961;</span><span style="line-height: 115%; font-size: 14pt">...</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 114vb:&#160;&#704;Asmat-prayer</span>.</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 114vb:&#160;</span><span style="font-size: large;">&#4768;&#4781;&#4846;&#4661;&#4961; &#4768;&#4781;&#4846;&#4659;&#4810;&#4961; &#4920;&#4622;&#4961;</span><span style="line-height: 115%; font-size: 14pt">...</span></p> <p></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -252,7 +264,7 @@ Quires XVIII and XIX are reinforced by parchment guards.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
+                        <placeName corresp="INS0108GKM">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
                      </origPlace>
                      <origDate notBefore="1770" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -294,10 +306,6 @@ Quires XVIII and XIX are reinforced by parchment guards.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -318,7 +326,7 @@ Quires XVIII and XIX are reinforced by parchment guards.</decoNote>
          <change who="DN" when="2010-06-02">registered</change>
          <change who="DN" when="2012-01-30T09:12:22.838Z">created</change>
          <change who="DN" when="2015-01-08T18:32:06.695Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

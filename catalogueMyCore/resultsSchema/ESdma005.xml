@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0099ʾAḥzäraMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0099DMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMA-005</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">114.0</measure> folios,
-                                                in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">114.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">25.0</width>
@@ -114,7 +112,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 A big rectangular hole has been skilfully amended on fol. 64.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>210</height>
                               <width>190</width>
@@ -127,28 +125,36 @@ A big rectangular hole has been skilfully amended on fol. 64.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th – early 20th century</date>
+                        <persName role="scribe" corresp="PRS00000">Kidanä Maryam</persName>Kidanä Maryam is mentioned as the scribe in the supplication on fol. 48rb.<date>Late 19th – early 20th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓ፡ ዓለ</abbr> for <expan>ለዓለመ፡ ዓለም </expan> (e.g., fol. 98ra)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለም</abbr> for <expan>ለዓለመ፡ ዓለም </expan> (e.g., fol. 104vb)</item>
+                           <item>
+                              <abbr>ለዓለ፡ ዓለም</abbr> for <expan>ለዓለመ፡ ዓለም </expan> (e.g., fol. 105va)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -168,7 +174,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0099ʾAḥzäraMaryam">ʾAḥzära  Maryam /DMA</placeName>
+                        <placeName corresp="INS0099DMA">ʾAḥzära  Maryam /DMA</placeName>
                      </origPlace>
                      <origDate notBefore="1870" notAfter="1930">End of the 19th - beginning of the 20th cent. (?)</origDate>
                   </origin>
@@ -210,8 +216,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Kidanä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -234,7 +239,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-24">registered</change>
          <change who="SH" when="2014-04-29T08:38:54.845Z">created</change>
          <change who="DN" when="2015-05-28T09:10:06.032Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

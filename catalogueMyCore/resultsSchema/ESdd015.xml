@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DäbräDammoʾAbunäʾArägawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-015</idno>
                   <altIdentifier>
                      <idno>C3-IV-241 (fol. 5r)</idno>
@@ -57,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">330.0</measure> folios,
-                                                in
-                                                <measure unit="quire">36.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">330.0</measure> folios, in <measure unit="quire">36.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">43.5</height>
                               <width unit="cm">40.0</width>
@@ -214,7 +212,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Holes are carefully amended on fols. 22, 63, 123, 187, 188, 262, 279.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="39">
                            <dimensions unit="mm">
                               <height>318</height>
                               <width>313</width>
@@ -227,31 +225,31 @@ Holes are carefully amended on fols. 22, 63, 123, 187, 188, 262, 279.</condition
                               <dim type="left">35</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 146r.</ab>
+                           <note>All data for fol. 146r.</note>
                            <ab type="ruling">Fol. 315v: 66 lines</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks (of slit-type) are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible (e.g., fols. 9r, 18r). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine but irregular; hand b: mediocre, careless, ill-trained; hand c: mediocre, careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -262,58 +260,49 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 2ra-rb: List of ingredients for preparing nug-oil (?).</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 2rab: </span><span style="font-size: large">&#4774;&#4709;&#4773;&#4658;&#4961; &#4896;&#4706;&#4709;&#4961; &#4768;&#4773;&#4637;&#4653;&#4961; &#4808;&#4616;&#4705;&#4961; &#4675;&#4616;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4845;&#4709;&#4621;&#4962; &#4885;&#4621;&#4637;&#4961; &#4658;&#4621;&#4961; &#4885;&#4621;&#4961; &#4709;&#4622;&#4961; &#4845;&#4872;&#4763;&#4621;&#4961; &#4789;&#4653;&#4830;&#4961; &#4658;&#4621;&#4961; &#4784;&#4961; &#4845;&#4872;&#4763;&#4621;&#4961; &#4773;&#4777;&#4621;&#4961; &#4658;&#4621;&#4961; &#4773;&#4961;&#4709;&#4622;&#4961; &#4845;&#4680;&#4840;&#4608;&#4621;&#4961; &#4768;&#4661;&#4720;&#4813;&#4616;&#4613;&#4961; &#4720;&#4632;&#4616;&#4776;&#4725;</span></div> <div style="text-align: justify; line-height: normal"><span style="font-size: small">[l. 6] </span><span style="font-size: large">&#4840;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4677;&#4709;&#4819;&#4961; &#4753;&#4877;&#4961; &#4632;&#4709;&#4651;&#4725;&#4961; &#4840;&#4634;&#4808;&#4899;&#4961; &#4704;&#4984;&#4961;&#4851;&#4638;&#4961; &#4974;&#4635;&#4853;&#4875;&#4752;&#4813;&#8230;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic, in a mediocre hand, the same as Additio 2. It is dated to 1864 A.M. (=1871/72 A.D.) when the king was Yoḥannǝs IV (r. 1872-89). Five initial lines contain an instruction on the usage of abbreviations for the units of measure: gwǝlm, kwǝrzo and ǝkkul (“half”). It is followed by a list of various ingredients and their quantity. In the end, it mentions four fathers in charge of the monastery administration.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 2rc:&#160;Record concerning tributes established by&#160;King Yo&#7717;ann&#601;s IV for D&#228;br&#228; Dammo (?). </span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 2r</span><span style="line-height: 115%">c</span><span style="line-height: 115%">: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4845;&#4792;&#4813;&#4961; &#4609;&#4617;&#4961; &#4978;&#4971;&#4961; &#4978;&#4972;&#4961; &#4978;&#4973;&#4961; &#4773;&#4843;&#4617;&#4961; &#4840;&#4634;&#4872;&#4765;&#4961; &#4704;&#4787;&#4621;&#4707;&#4961; &#4840;&#4634;&#4661;&#4936;&#4648;&#4813;&#4961; &#4752;&#4813;&#4961; &#4768;&#4661;&#4720;&#4813;&#4621;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic, in a mediocre hand, the same as Additio 1. It contains a list of items donated by King Yoḥannǝs IV (r. 1872-89) to the monastery. According to the instruction given at the beginning, some of the goods are measured in a unit called “kwalba” (also “kwälba”).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 2v ls.1-5: Donation note.</span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 2v (above): </span></span><span style="font-size: large"><span style="line-height: 115%">&#4808;&#4608;&#4704;&#4961; &#4824;&#4757;&#4720;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4624;&#4810;&#4961; &#4969;&#4961; &#4632;&#4784;&#4757;&#4757;&#4961; &#4824;&#4661;&#4633;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4824;&#4709;&#4628;&#4648;&#4961; &#4768;&#4877;&#4819;&#4826;&#4961; &#4808;&#4621;&#4848;&#4961; &#4808;&#4621;&#4849;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4653;&#4773;&#4656;&#4961; &#4632;&#4787;&#4757;&#4757;&#4725;&#4961; &#4616;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4961; &#4632;&#4653;&#4624;&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in a mediocre hand. It states that the Book of Ḥawi was donated by a governor (mäkwännǝn) Wäldä Gäbrǝʾel the son of the son (grandchild) of Mikaʾel (Mikaʾel “Sǝḥul”?, ca. 1691-1777) the chief governor of Däbrä Dammo.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 2v ls.5-13:<span style="color: black"> Inventory of the monastery's property. </span></span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 2v ls.5-13:</span><span style="font-size: 10pt"> </span><span style="font-size: large">&#4824;&#4720;&#4744;&#4616;&#4680;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4637;&#4629;&#4653;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4749;&#4621;&#4680;&#4961; &#4757;&#4811;&#4840;&#4961; &#4632;&#4677;&#4848;&#4661;&#8230;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic, in a mediocre hand and in a big script. It was drawn up during the tenure of mämḥǝr Gäbrä Mädḫǝn and comprises of paraphernalia, with their quantity, and the general number of books (for some books the titles are given).</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 2v l.5:</span><span style="line-height: 115%; color: black"> Inventories of the monastery's property.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 2v l.5:</span><span style="line-height: 115%; color: black"> Inventories of the monastery's property.</span></span></p><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 2va l.14-28:</span><span style="font-size: 10pt">&#160;</span><span style="font-size: large">&#4824;&#4720;&#4744;&#4616;&#4680;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4637;&#4629;&#4653;&#4752;&#4961;&#4632;&#4637;&#4629;&#4653;&#4961; &#4824;&#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4768;&#4877;&#4707;&#4829;&#4752;&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4720;&#4781;&#4616;&#4961; &#4645;&#4619;&#4660;&#8230;</span></div> <div style="line-height: normal"><span style="font-size: small">Fol. 2vb: </span><span style="font-size: large">&#4848;&#4877;&#4638;&#4961; &#4824;&#4720;&#4744;&#4616;&#4680;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4637;&#4629;&#4653;&#4752;&#4961; &#4632;&#4637;&#4629;&#4653;&#4961; &#4824;&#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4768;&#4877;&#4707;&#4829;&#4752;&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4677;... </span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The notes are written in the same mediocre hand. They were drawn up during the tenure of abbot (mämḥǝr) Zä-Yoḥannǝs. The inventories comprise of paraphernalia, with their quantity, and the general number of books housed in the monastery.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 2vc: Reconciliation note. </span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 2vc: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4819;&#4632;&#4720;&#4961; &#4637;&#4613;&#4648;&#4725;&#4961; &#4978;&#4808;&#4977;&#4987; &#4632;&#4726;&#4961; &#4978;&#4976;&#4961; &#4704;&#4757;&#4877;&#4645;&#4725;&#4961; &#4768;&#4661;&#4779;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4635;&#4741;&#4704;&#4653;</span></span><span style="line-height: 115%; font-size: 12pt">&#8230;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic, in a mediocre hand. It is dated to 1918 [A.M.] (= 1925/26 A.D.).</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 3r: Regulation concerning the office of the D&#228;br&#228; Dammo g&#228;b&#228;z.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 3r: Regulation concerning the office of the D&#228;br&#228; Dammo g&#228;b&#228;z.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 3r:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4840;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4645;&#4653;&#4819;&#4725;&#4961; &#4840;&#4872;&#4704;&#4829;&#4961; &#4657;&#4632;&#4721;&#4961; &#4971;&#4961; &#4819;&#4632;&#4725;&#4961; &#4752;&#4813;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic, in a mediocre hand and in a big script. It was drawn up during the tenure of abbot (mämḥǝr) Zä-Yoḥannǝs. It deals with the length of the office of the gäbäz, the possibility of its prolongation and the salary for the gäbäz.</p>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 4r: Scribe&#8217;s note on the quantity of skins and/or parchment for writing.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 4r: Scribe&#8217;s note on the quantity of skins and/or parchment for writing.</span></span></p><q xml:lang="gez"><div style="line-height: normal"><span style="font-size: small">Fol. 4r:</span><span style="font-size: 10pt"> </span><span style="font-size: large">&#4824;&#4632;&#4925;&#4768;&#4961; &#4685;&#4653;&#4704;&#4725;&#4961; &#4840;&#4768;&#4781;&#4621;&#4961; &#4981;&#4961; </span></div> <div style="line-height: normal"><span style="font-size: large">&#4709;&#4651;&#4755;&#4961; &#4978;&#4808;&#4976;&#4961; &#4776;&#4939;&#4674;&#4961; &#4824;&#4704;&#4925;&#4624;&#4961; &#4736;&#4708;&#4840;</span></div> <div style="line-height: normal"><span style="font-size: large">&#4848;&#4877;&#4638;&#4961; &#4971;&#5011;&#4979;&#4969;&#4961; &#4853;&#4633;&#4653;</span></div> <div style="line-height: normal"><span style="font-size: large"><span style="line-height: 115%">&#4980;&#4961; &#4709;&#4651;&#4755;&#4961; &#4848;&#4648;&#4656;&#4962; &#4978;&#4961; &#4616;&#4720;&#4768;&#4637;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;</span></span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic and in Gǝʾǝz, in the main hand, in a small script. The 2nd and the 3rd lines are crossed out. The note states that the number of delivered skins is 40. Ten skins are allocated for Täʾamrä ʾIyäsus.</p>
                         </item>
                         <item xml:id="a9">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 329v: Reconciliation note.</span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 329v:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4840;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4708;&#4725;&#4961; &#4840;&#4621;&#4869;&#4961; &#4611;&#4845;&#4617;&#4961; &#4621;&#4868;&#4961; &#4611;&#4850;&#4661;&#4961; &#4664;&#4675;&#4961; &#4720;&#4656;&#4635;...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic, in a mediocre hand. It is dated to 1927 year of mercy (=1934/35 A.D.) during the tenure of abbot Gäbrä Maryam. Three small ornaments are drawn above and below the note.</p>
                         </item>
                         <item xml:id="e1">- The title መፅሃፈ ሃዊ and the internal number of the monastic library (650) are written on fol. 1r. &#xD;
 - Tämälläs-signs, in the shape of two perpendicular lines and an asterisk, indicating the place where the omissions, written in the margins in the main and secondary hands, belong: fols. 6ra l.27, 7rb l.18, 10rb l.33, 14vb l.12, 64ra l.20, 65va l.19, 102rb l.5, 109rc l.31, 110vc l.9, 111rc l.15, 112vc l.6, 124ra l.8, 126vc l.6, 128vc l.9, 140vc l.4, 141rb l.4, 151rb l.3, 155rc l.23, 159ra l.28, 244vc l.29, 246ra l.38, 307rc l.37, 308ra l.33, 308rb l.38, 308vc l.37, 309rb l.29, 310rb l.19, 310vc l.34, 311rc l.11, 314va l.28.&#xD;
@@ -342,7 +331,7 @@ Three pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DäbräDammoʾAbunäʾArägawi">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
+                        <placeName corresp="INS0105DD">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1790">Wäldä Gäbrǝʾel, the donor of the Ms, lived from ca. 1757 to 1788.</origDate>
                   </origin>
@@ -384,10 +373,6 @@ Three pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -411,7 +396,7 @@ Three pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-23">registered</change>
          <change who="MK" when="2013-10-07T10:41:07.760Z">created</change>
          <change who="DN" when="2014-10-25T13:55:38.986Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

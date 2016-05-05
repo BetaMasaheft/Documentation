@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0192MänäwätQǝddusGiyorgis"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0192QGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QGM-003</idno>
                </msIdentifier>
                <msContents>
@@ -68,9 +68,7 @@ elements of Ethiopic numerals</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">83.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">0.0</measure> blank, in
-                                                <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">83.0</measure> folios, of which <measure unit="leaf" type="blank">0.0</measure> blank, in <measure unit="quire">12.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">28.0</height>
                               <width unit="cm">22.2</width>
@@ -103,7 +101,7 @@ Tears are carefully amended on fols. 17, 23, 70, 75, 83. &#xD;
 Fols. 2, 48 are mutilated (cut to half). Some of the fols. are of somewhat irregular shape, some are made out of two pieces of parchment.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="26">
                            <dimensions unit="mm">
                               <height>220</height>
                               <width>190</width>
@@ -116,21 +114,23 @@ Fols. 2, 48 are mutilated (cut to half). Some of the fols. are of somewhat irreg
                               <dim type="left">10</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 3r-48ra. All data are for fol. 25.</ab>
+                           <note>Fols. 3r-48ra. All data are for fol. 25.</note>
                            <ab type="ruling">varies from folio to folio; from 21 to 26.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 On may fols. (quires I-VI) the scribe did not use the bottom line.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="28">
                            <dimensions unit="mm">
                               <height>210</height>
                               <width>180</width>
@@ -143,28 +143,28 @@ On may fols. (quires I-VI) the scribe did not use the bottom line.</ab>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">14</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 49r-81ra. All data are for fol. 49r.</ab>
+                           <note>Fols. 49r-81ra. All data are for fol. 49r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: poor, irregular; hand b: regular</ab>
                         <seg type="ink">black; red (brilliant vermilion; dark vermilion)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Hand a: 18th cent. (?). Hand b: somewhat later time (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Täśfa Maryam</persName>Mentioned as the scribe on fols. 9rb, 9vb, 43va<date>Hand a: 18th cent. (?). Hand b: somewhat later time (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3ra-48ra (Text I, quires I-VI), possibly imitates an old script.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 49ra-81ra (Text II, VII-XI): bears some similarity to hand a, but is much more regular. It cannot be excluded that both parts were written by the same scribe.</handNote>
@@ -172,20 +172,17 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 48ra: Donation note.<br /> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 48ra: </span><span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4874;&#4846; &#4653;&#4874;&#4661;&#4961; &#4632;&#4752;&#4710;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4616;&#4661;&#4653;&#4840;&#4720;&#4961; &#4736;&#4898;&#4768;&#4725;&#4961; &#4808;&#4845;&#4707;&#4621;&#4630;&#4961; &#4773;&#4637;&#4789;&#4756;&#4756; &#4961;<span style="font-size: small;">[sic]</span> &#4752;&#4941;&#4661;&#4961; &#4824;&#4773;&#4659;&#4725;&#4962; &#4774;&#4768;&#4704;&#4813;&#4840;&#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4754;&#4961; &#4704;&#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4677;&#4622;&#4661;&#4961; &#4813;&#4873;&#4829;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; </span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 48ra: Donation note.<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 48ra: </span><span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4874;&#4846; &#4653;&#4874;&#4661;&#4961; &#4632;&#4752;&#4710;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4616;&#4661;&#4653;&#4840;&#4720;&#4961; &#4736;&#4898;&#4768;&#4725;&#4961; &#4808;&#4845;&#4707;&#4621;&#4630;&#4961; &#4773;&#4637;&#4789;&#4756;&#4756; &#4961;<span style="font-size: small;">[sic]</span> &#4752;&#4941;&#4661;&#4961; &#4824;&#4773;&#4659;&#4725;&#4962; &#4774;&#4768;&#4704;&#4813;&#4840;&#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4754;&#4961; &#4704;&#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4677;&#4622;&#4661;&#4961; &#4813;&#4873;&#4829;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; </span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written probably in hand a. The name of the donor is ʾabunä Gäbrä ʾIyäsus.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 81r: Unclear note with a list of names (?)<br /> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 81r: </span><span style="font-size: large;">&#4704;&#4848;&#4867;&#4829;&#4635;&#4733;&#4961; &#4624;&#4880;&#4661;&#4961; &#4704;&#4672;&#4765;&#4829;&#4635;&#4733;&#4961; &#4808;&#4621;&#4848;&#4961; &#4661;&#4619;&#4660;&#4961; <span style="font-size: small;">&lt;...&gt;</span> &#4840;&#4789;&#4626;&#4619;&#4961; &#4752;&#4872;&#4653;&#4961; &#4808;&#4851;&#4821;&#4961; &#4752;&#4872;&#4653;&#4961; &#4773;&#4757;&#4851;&#4961; &#4872;&#4709;&#4653;&#4628;&#4725; &#4840;&#4632;&#4897;&#4961; &#4609;&#4617; &#4739;&#4878;&#4661;&#4755;&#4961; &#4664;&#4616;&#4675;&#4961; &#4848;&#4661;&#4723;&#4961; &#4768;&#4757;&#4853;&#4961; &#4755;&#4669;&#4813;&#4962; &#4773;&#4635;&#4765;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4613;&#4848;&#4649;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4661;&#4757;&#4676;&#4962; &#4851;&#4763;&#4961; &#4848;&#4661;&#4723;&#4961; &#4840;&#4880;&#4848;&#4723;&#4961; &#4941;&#4661;&#4608;&#4961; &#4813;&#4723;&#4941;&#4961; &#4621;&#4869;&#4961;</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 81r: Unclear note with a list of names (?)<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 81r: </span><span style="font-size: large;">&#4704;&#4848;&#4867;&#4829;&#4635;&#4733;&#4961; &#4624;&#4880;&#4661;&#4961; &#4704;&#4672;&#4765;&#4829;&#4635;&#4733;&#4961; &#4808;&#4621;&#4848;&#4961; &#4661;&#4619;&#4660;&#4961; <span style="font-size: small;">&lt;...&gt;</span> &#4840;&#4789;&#4626;&#4619;&#4961; &#4752;&#4872;&#4653;&#4961; &#4808;&#4851;&#4821;&#4961; &#4752;&#4872;&#4653;&#4961; &#4773;&#4757;&#4851;&#4961; &#4872;&#4709;&#4653;&#4628;&#4725; &#4840;&#4632;&#4897;&#4961; &#4609;&#4617; &#4739;&#4878;&#4661;&#4755;&#4961; &#4664;&#4616;&#4675;&#4961; &#4848;&#4661;&#4723;&#4961; &#4768;&#4757;&#4853;&#4961; &#4755;&#4669;&#4813;&#4962; &#4773;&#4635;&#4765;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4613;&#4848;&#4649;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4661;&#4757;&#4676;&#4962; &#4851;&#4763;&#4961; &#4848;&#4661;&#4723;&#4961; &#4840;&#4880;&#4848;&#4723;&#4961; &#4941;&#4661;&#4608;&#4961; &#4813;&#4723;&#4941;&#4961; &#4621;&#4869;&#4961;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Amharic, in a secondary hand, partly blotted out and difficult to understand.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 81rb-va: Short hymn to Jesus Christ. </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 81rb-va: Short hymn to Jesus Christ. </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -221,7 +218,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0192MänäwätQǝddusGiyorgis">Mänäwät Qǝddus Giyorgis / QGM</placeName>
+                        <placeName corresp="INS0192QGM">Mänäwät Qǝddus Giyorgis / QGM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1850">Quires A and I-VI (hand a) might date to 18th century (?).&#xD;
 Quires quires VII-XI (hand b) might date to a somewhat later period; they were possibly commissioned by the donor of quires I-VI, Gäbrä ʾIyäsus.</origDate>
@@ -264,8 +261,7 @@ Quires quires VII-XI (hand b) might date to a somewhat later period; they were p
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Täśfa Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -289,7 +285,7 @@ Quires quires VII-XI (hand b) might date to a somewhat later period; they were p
          <change who="DN" when="2011-11-28">registered</change>
          <change who="DN" when="2015-04-21T16:43:15.586Z">created</change>
          <change who="DN" when="2015-05-29T16:13:13.925Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

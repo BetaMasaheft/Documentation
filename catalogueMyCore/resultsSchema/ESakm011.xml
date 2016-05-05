@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä ʾaśləṭi, Lectionary for the entire year / Mälkǝʾa fəlsätä “Image of Her Assumption”</title>
+            <title>Mäṣḥafä ʾaślәṭi, Lectionary for the entire year / Mälkǝʾa fәlsätä “Image of Her Assumption”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0103ʾAmbäsätKidanäMǝḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0103AKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AKM-011</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; incipit of Texts I-1 and II; titles of books to be read; initial lines of prayers to be read; directive to the ministers; the abbreviations yədi, bar ʾəgz (fols. 78r-79r); word “sälam” and its abbreviation in Text II; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; names of the donors; incipit of Texts I-1 and II; titles of books to be read; initial lines of prayers to be read; directive to the ministers; the abbreviations yәdi, bar ʾәgz (fols. 78r-79r); word “sälam” and its abbreviation in Text II; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
 On the incipit pages of Texts I-1 and II (fols. 2r, 80r), few lines are rubricated (alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -52,9 +52,7 @@ On the incipit pages of Texts I-1 and II (fols. 2r, 80r), few lines are rubricat
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">84.0</measure> folios,
-                                                in
-                                                <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">84.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.5</height>
                               <width unit="cm">16.0</width>
@@ -113,7 +111,7 @@ Some fols. are stained with water (esp. fols. 34-36, 82-84).&#xD;
 Holes and tears carefully amended in fols. 51, 84.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="24">
                            <dimensions unit="mm">
                               <height>155</height>
                               <width>120</width>
@@ -126,21 +124,23 @@ Holes and tears carefully amended in fols. 51, 84.</condition>
                               <dim type="left">8</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">Data for fol. 3r (quires I-III, XIII).</ab>
+                           <note>Data for fol. 3r (quires I-III, XIII).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="1" writtenLines="17">
                            <dimensions unit="mm">
                               <height>160</height>
                               <width>125</width>
@@ -153,28 +153,34 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Data for fol. 23r (quires IV-XI).</ab>
+                           <note>Data for fol. 23r (quires IV-XI).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/E. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: careful. Hand b: mediocre;</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Hand a: second half of the 19th century-first half of the 20th century. Hand b: 19th century;</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Giyorgis</persName>Gäbrä Giyorgis is mentioned as the scribe of Text I-1 and II on fol. 83rb and in Additio 1.<date>Hand a: second half of the 19th century-first half of the 20th century. Hand b: 19th century;</date>
+                        <list type="abbreviations">
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                           <item>ባር፡ እግዚ፡ for ባርከነ፡ እግዚእ፡</item>
+                           <item>ሰላ፡ for ሰላም፡</item>
+                           <item>ማር፡ for ማርያም፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 2r-21v, 80r-83v (quires I-III, XIII).</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 22r-79r (quires IV-XI).</handNote>
@@ -186,22 +192,19 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 20rb-20va: Donation note by the scribe.</locus>
-                           <q xml:lang="gez">Fol. 20rb: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4829;&#4840;&#4961; &#4704;&#4656;&#4619;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;{&#4704;}&#4920;&#4622;&#4721;&#4961; &#4616;</span>[fol. 20va] <span style="font-size: large;">&#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4661;&#4621;&#4898;&#4961; &#4824;&#4620;&#4618;&#4725;&#4961; &#4824;&#4845;&#4725;&#4752;&#4704;&#4709;&#4961; &#4773;&#4637;&#4656;&#4753;&#4845;&#4961; &#4773;&#4661;&#4776;&#4961; &#4672;&#4851;&#4634;&#4725;&#4961; &#4824;&#4920;&#4624;&#4942;&#4961; &#4739;&#4901;&#4773;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4808;&#4608;&#4710;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4739;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4739;&#4810;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4616;&#4819;&#4616;&#4961; &#4819;&#4616;&#4961; &#4768;&#4636;&#4757;&#4962;</span></q>
+                           <locus/><p>Fol. 20rb-20va: Donation note by the scribe.</p><q xml:lang="gez"><p>Fol. 20rb: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4829;&#4840;&#4961; &#4704;&#4656;&#4619;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;{&#4704;}&#4920;&#4622;&#4721;&#4961; &#4616;</span>[fol. 20va] <span style="font-size: large;">&#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4661;&#4621;&#4898;&#4961; &#4824;&#4620;&#4618;&#4725;&#4961; &#4824;&#4845;&#4725;&#4752;&#4704;&#4709;&#4961; &#4773;&#4637;&#4656;&#4753;&#4845;&#4961; &#4773;&#4661;&#4776;&#4961; &#4672;&#4851;&#4634;&#4725;&#4961; &#4824;&#4920;&#4624;&#4942;&#4961; &#4739;&#4901;&#4773;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4808;&#4608;&#4710;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4739;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4739;&#4810;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4616;&#4819;&#4616;&#4961; &#4819;&#4616;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions the title of the book, Mäṣḥafä ʾaslәṭi, and the name of the donor and scribe Gäbrä Giyorgis. The name of the tabot of the church to which he donated the Ms., Libanos, is also mentioned and probably refers to a church dedicated to Libanos. The names of his father, Wäldä Ḥawaryat, his mother, Wälättä Maryam, and his brothers and sisters are also mentioned.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 20vb: Exhortation by &#704;al&#228;qa &#704;Asfaw against omitting the names of donors of manuscript.</locus>
-                           <q xml:lang="gez">Fol. 20vb: <span style="font-size: large;">&#4661;&#4635;&#4729;&#4961; &#4768;&#4707;&#4726;&#4728;&#4961; &#4808;&#4757;&#4853;&#4638;&#4728;&#4961; &#4776;&#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4720;&#4872;&#4760;&#4961; &#4768;&#4661;&#4635;&#4725;&#4961; &#4616;&#4845;&#4752;&#4704;&#4709;&#4961; &#4632;&#4720;&#4813;&#4961; &#4773;&#4869;&#4877;&#4961; &#4739;&#4898;&#4768;&#4725;&#4961; &#4752;&#4813;&#4961; &#4637;&#4752;&#4813;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4632;&#4920;&#4808;&#4720;&#4961; &#4656;&#4813;&#4961; &#4661;&#4633;&#4961; &#4776;&#4621;&#4720;&#4896;&#4651;&#4961; &#4851;&#4877;&#4632;&#4763;&#4961; &#4616;&#4708;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4840;&#4634;&#4632;&#4920;&#4813;&#4725;&#4961; &#4840;&#4616;&#4637;&#4755;&#4961; &#4661;&#4616;&#4826;&#4613;&#4961; &#4752;&#4813;&#4961; &#4773;&#4757;&#4866;&#4961; &#4876;&#4723;&#4661;&#4961; &#4704;&#4741;&#4705;&#4821;&#4961; &#4840;&#4656;&#4897;&#4725;&#4637;&#4961; &#4843;&#4813;&#4675;&#4621;&#4961; &#4845;&#4708;&#4961; &#4768;&#4616;&#4675;&#4961; &#4768;&#4661;&#4939;&#4813;&#4962;</span></q>
+                           <locus/><p>Fol. 20vb: Exhortation by &#704;al&#228;qa &#704;Asfaw against omitting the names of donors of manuscript.</p><q xml:lang="gez"><p>Fol. 20vb: <span style="font-size: large;">&#4661;&#4635;&#4729;&#4961; &#4768;&#4707;&#4726;&#4728;&#4961; &#4808;&#4757;&#4853;&#4638;&#4728;&#4961; &#4776;&#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4720;&#4872;&#4760;&#4961; &#4768;&#4661;&#4635;&#4725;&#4961; &#4616;&#4845;&#4752;&#4704;&#4709;&#4961; &#4632;&#4720;&#4813;&#4961; &#4773;&#4869;&#4877;&#4961; &#4739;&#4898;&#4768;&#4725;&#4961; &#4752;&#4813;&#4961; &#4637;&#4752;&#4813;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4632;&#4920;&#4808;&#4720;&#4961; &#4656;&#4813;&#4961; &#4661;&#4633;&#4961; &#4776;&#4621;&#4720;&#4896;&#4651;&#4961; &#4851;&#4877;&#4632;&#4763;&#4961; &#4616;&#4708;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4840;&#4634;&#4632;&#4920;&#4813;&#4725;&#4961; &#4840;&#4616;&#4637;&#4755;&#4961; &#4661;&#4616;&#4826;&#4613;&#4961; &#4752;&#4813;&#4961; &#4773;&#4757;&#4866;&#4961; &#4876;&#4723;&#4661;&#4961; &#4704;&#4741;&#4705;&#4821;&#4961; &#4840;&#4656;&#4897;&#4725;&#4637;&#4961; &#4843;&#4813;&#4675;&#4621;&#4961; &#4845;&#4708;&#4961; &#4768;&#4616;&#4675;&#4961; &#4768;&#4661;&#4939;&#4813;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Written in hand a. ʾAläqa ʾAsfaw was a prominent local ecclesiastic in the first half of the 20th cent.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#">Fol. 77vb-78ra: Donation note.</locus>
-                           <q xml:lang="gez">Fol. 77vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4672;&#4658;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4622;&#4721;&#4754;&#4961; &#4808;&#4616;&#4768;&#4705;&#4609;&#4961; &#4672;&#4658;&#4661;&#4961; &#4768;&#4705;&#4752;&#4961; &#4725;&#4661;&#4709;&#4821;&#4720;&#4961; &#4675;&#4621;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4622;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;</span> [fol. 78ra] <span style="font-size: large;">&#4845;&#4777;&#4757;&#4962; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></q>
+                           <locus/><p>Fol. 77vb-78ra: Donation note.</p><q xml:lang="gez"><p>Fol. 77vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4672;&#4658;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4622;&#4721;&#4754;&#4961; &#4808;&#4616;&#4768;&#4705;&#4609;&#4961; &#4672;&#4658;&#4661;&#4961; &#4768;&#4705;&#4752;&#4961; &#4725;&#4661;&#4709;&#4821;&#4720;&#4961; &#4675;&#4621;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4622;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;</span> [fol. 78ra] <span style="font-size: large;">&#4845;&#4777;&#4757;&#4962; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions the name of the donor, Wäldä Ḥawaryat, his wife Wälättä Maryam, his father Tәsbәʿtä Qal and his mother Wälättä Mikaʾel. Wäldä Ḥawaryat and Wälättä Maryam are probably the same persons mentioned in Additio 1. The name of the tabot of the church to which he donated the Ms., Libanos, is also mentioned.</p>
                         </item>
                         <item xml:id="e1">- Title and current location of the Ms. መጽሐፈ፡ አስልጢ፡ ዘአንበሳት፡ crudely written in pen on fol. 1r.&#xD;
 - Doodles: fols. 1r, 84r.</item>
@@ -223,7 +226,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0103ʾAmbäsätKidanäMǝḥrät">ʾAmbäsät Kidanä Mǝḥrät  / AKM</placeName>
+                        <placeName corresp="INS0103AKM">ʾAmbäsät Kidanä Mǝḥrät  / AKM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">Text of quires IV-XI was copied during the 19th cent. &#xD;
 Quires I-III and XII date to a later period (first half of the 20th cent.?).</origDate>
@@ -267,8 +270,7 @@ Gäbrä Giyorgis is mentioned as the donor and the scribe of Text I-1 (s. Additi
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Giyorgis</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -291,7 +293,7 @@ Gäbrä Giyorgis is mentioned as the donor and the scribe of Text I-1 (s. Additi
          <change who="DN" when="2010-11-20">registered</change>
          <change who="SA" when="2013-10-01T15:17:16.624Z">created</change>
          <change who="DN" when="2014-12-02T16:31:55.627Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

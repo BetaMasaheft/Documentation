@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəṣṣawe, Lectionary for the entire year</title>
+            <title>Mäṣḥafä gәṣṣawe, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-039</idno>
                   <altIdentifier>
                      <idno>C3-IV-269 (fol. 3r)</idno>
@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Name of the donor; incipit of Text I-1; initial line or word śäräqä introducing the month; Ethiopic numeral of the day; words indicating the time of reading: bä-mäḥatəw, zä-nägh, qədmä wangel; titles of books to be read; incipit of Text I-2 and its sections; elements of the punctuation signs; elements of Ethiopic numerals; the directives to the ministers ʾəskä ḫabä yəbəl “let him say till”; names of months Mäskäräm, Ṭǝqǝmt, Näḥase and Ṗagwǝmen written in the upper margin (the others are in black).&#xD;
+                     <rubric>Name of the donor; incipit of Text I-1; initial line or word śäräqä introducing the month; Ethiopic numeral of the day; words indicating the time of reading: bä-mäḥatәw, zä-nägh, qәdmä wangel; titles of books to be read; incipit of Text I-2 and its sections; elements of the punctuation signs; elements of Ethiopic numerals; the directives to the ministers ʾәskä ḫabä yәbәl “let him say till”; names of months Mäskäräm, Ṭǝqǝmt, Näḥase and Ṗagwǝmen written in the upper margin (the others are in black).&#xD;
 On the incipit page of Texts I-1 and I-2, a few lines are rubricated (alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -58,9 +58,7 @@ On the incipit page of Texts I-1 and I-2, a few lines are rubricated (alternatin
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">137.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">137.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">24.3</width>
@@ -137,7 +135,7 @@ A loose bifolio (fols. 137a-137aa) of smaller size is included between fol. 137 
                         <condition key="good">The leather spine has been damaged. Holes carefully amended on fol. 82.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>185</height>
                               <width>190</width>
@@ -150,27 +148,27 @@ A loose bifolio (fols. 137a-137aa) of smaller size is included between fol. 137 
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, vivid red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century.</date>
                      </handNote>
                   </handDesc>
@@ -188,40 +186,34 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 111rb: Supplication for the commissioner.</locus>
-                           <q xml:lang="gez">Fol. 111rb: <span style="font-size: large;">&#4704;&#4648;&#4776;&#4720;&#4961; &#4773;&#4617;&#4961; &#4677;&#4849;&#4659;&#4757;&#4961; &#4840;&#4608;&#4616;&#4813;&#4961; &#4813;&#4661;&#4720;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4768;&#4632;&#4721;&#4961; &#4632;&#4624;&#4650;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4789;&#4622;&#4633;&#4961; &#4848;&#4674;&#4672;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4819;&#4706;&#4845;&#4961; &#4808;&#4757;&#4817;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></q>
+                           <locus/><p>Fol. 111rb: Supplication for the commissioner.</p><q xml:lang="gez"><p>Fol. 111rb: <span style="font-size: large;">&#4704;&#4648;&#4776;&#4720;&#4961; &#4773;&#4617;&#4961; &#4677;&#4849;&#4659;&#4757;&#4961; &#4840;&#4608;&#4616;&#4813;&#4961; &#4813;&#4661;&#4720;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4768;&#4632;&#4721;&#4961; &#4632;&#4624;&#4650;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4789;&#4622;&#4633;&#4961; &#4848;&#4674;&#4672;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4819;&#4706;&#4845;&#4961; &#4808;&#4757;&#4817;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written by the same hand as the main text. The name of the donor, Mäḥaritä Maryam, is mentioned.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 130r: Instruction concerning the order of readings at the liturgy.</locus>
-                           <q xml:lang="gez">Fol. 130r: <span style="font-size: large;">&#4824;&#4980;&#4973;&#4961; &#4877;&#4752;&#4841;&#4961; &#4808;&#4853;&#4741;&#4652;&#4609;&#4961; &#4920;&#4622;&#4720;&#4961; &#4971;&#4961; &#4808;&#4736;&#4704;&#4961; &#4707;&#4648;&#4777;&#4961; &#4813;&#4853;&#4741;&#4652;&#4609;&#4961; &#4632;&#4829;&#4633;&#4653;&#8230;</span></q>
+                           <locus/><p>Fol. 130r: Instruction concerning the order of readings at the liturgy.</p><q xml:lang="gez"><p>Fol. 130r: <span style="font-size: large;">&#4824;&#4980;&#4973;&#4961; &#4877;&#4752;&#4841;&#4961; &#4808;&#4853;&#4741;&#4652;&#4609;&#4961; &#4920;&#4622;&#4720;&#4961; &#4971;&#4961; &#4808;&#4736;&#4704;&#4961; &#4707;&#4648;&#4777;&#4961; &#4813;&#4853;&#4741;&#4652;&#4609;&#4961; &#4632;&#4829;&#4633;&#4653;&#8230;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the upper margin of fol. 130r.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#">Fol. 135rb: Supplication for the commissioner and the scribe.</locus>
-                           <q xml:lang="gez">Fol. 135rb: <span style="font-size: large;">&#4704;&#4648;&#4776;&#4720;&#4961; &#4773;&#4617;&#4961; &#4789;&#4622;&#4633;&#4961; &#4677;&#4849;&#4661;&#4757;&#4961; &#4920;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4723;&#4725;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4768;&#4632;&#4721;&#4961; &#4632;&#4624;&#4650;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4773;&#4925;&#4624;&#4936;&#4725;&#4961; &#4824;&#4757;&#4720;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4845;&#4848;&#4617;&#4961; &#4776;&#4632;&#4961; &#4725;&#4829;&#4781;&#4653;&#4811;&#4961; &#4704;&#4638;&#4725;&#4610;&#4961; &#4808;&#4704;&#4629;&#4845;&#4808;&#4725;&#4961; &#4618;&#4720;&#4754;&#4961; &#4616;&#4920;&#4624;&#4938;&#4609;&#4961; &#4661;&#4648;&#4841;&#4961; &#4808;&#4707;&#4653;&#4777;&#4754;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></q>
+                           <locus/><p>Fol. 135rb: Supplication for the commissioner and the scribe.</p><q xml:lang="gez"><p>Fol. 135rb: <span style="font-size: large;">&#4704;&#4648;&#4776;&#4720;&#4961; &#4773;&#4617;&#4961; &#4789;&#4622;&#4633;&#4961; &#4677;&#4849;&#4661;&#4757;&#4961; &#4920;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4723;&#4725;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4768;&#4632;&#4721;&#4961; &#4632;&#4624;&#4650;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4773;&#4925;&#4624;&#4936;&#4725;&#4961; &#4824;&#4757;&#4720;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4845;&#4848;&#4617;&#4961; &#4776;&#4632;&#4961; &#4725;&#4829;&#4781;&#4653;&#4811;&#4961; &#4704;&#4638;&#4725;&#4610;&#4961; &#4808;&#4704;&#4629;&#4845;&#4808;&#4725;&#4961; &#4618;&#4720;&#4754;&#4961; &#4616;&#4920;&#4624;&#4938;&#4609;&#4961; &#4661;&#4648;&#4841;&#4961; &#4808;&#4707;&#4653;&#4777;&#4754;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The name of the donor, Mäḥaritä Maryam (cp. Additio 1), is mentioned; the name of the scribe is not mentioned.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#">Fol. 135ra: Prayer for &#8220;loosening the water&#8221;.</locus>
-                           <q xml:lang="gez">Fol. 135ra: <span style="font-size: large;">&#4936;&#4722;&#4624;&#4961; &#4635;&#4845;&#4962; &#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4739;&#4828;&#4961; &#4789;&#4617; &#4808;&#4936;&#4899;&#4652;&#4961; &#4789;&#4617;&#4961; &#4877;&#4704;&#4653;&#4961; &#4773;&#4637;&#4736;&#4704;&#4961; &#4770;&#4608;&#4622;&#4961; &#4704;&#4901;&#4704;&#4709;&#4776;&#4961; &#4768;&#4635;&#4755;&#4810;&#4725;&#4961; &#4768;&#4757;&#4720;&#4961; &#4813;&#4773;&#4721;</span>&#8230;</q>
+                           <locus/><p>Fol. 135ra: Prayer for &#8220;loosening the water&#8221;.</p><q xml:lang="gez"><p>Fol. 135ra: <span style="font-size: large;">&#4936;&#4722;&#4624;&#4961; &#4635;&#4845;&#4962; &#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4739;&#4828;&#4961; &#4789;&#4617; &#4808;&#4936;&#4899;&#4652;&#4961; &#4789;&#4617;&#4961; &#4877;&#4704;&#4653;&#4961; &#4773;&#4637;&#4736;&#4704;&#4961; &#4770;&#4608;&#4622;&#4961; &#4704;&#4901;&#4704;&#4709;&#4776;&#4961; &#4768;&#4635;&#4755;&#4810;&#4725;&#4961; &#4768;&#4757;&#4720;&#4961; &#4813;&#4773;&#4721;</span>&#8230;</p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#">Fol. 136r: Calendar table with comments about the length of the days.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 136r: Calendar table with comments about the length of the days.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#">Fol. 137a-137aa: Protective text with talismanic drawing.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 137a-137aa: Protective text with talismanic drawing.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written on a loose bifolio (fols. 137a-137aa) of smaller size and included between fol. 137 and the back board.</p>
                         </item>
                         <item xml:id="e1">- Title of the Ms. and. internal number of the monastic library is written in fol. 1r.&#xD;
 - Sections of the text are separated by thin black lines.&#xD;
@@ -245,7 +237,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
+                        <placeName corresp="INS0105DD">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850">Second part of the 18th cent. and first part of the 19th cent.</origDate>
                   </origin>
@@ -287,10 +279,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -311,7 +299,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-25">registered</change>
          <change who="SA" when="2013-02-04T09:41:19.621Z">created</change>
          <change who="VP" when="2015-02-26T10:13:36.400Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

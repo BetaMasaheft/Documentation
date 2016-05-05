@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0053SäbäyaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0053SM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SM-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">117.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">117.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">26.0</height>
                               <width unit="cm">20.5</width>
@@ -107,7 +105,7 @@ The sewing is severely damaged and has been crudely repaired. &#xD;
 Tear amended on fol. 67.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="27">
                            <dimensions unit="mm">
                               <height>210</height>
                               <width>160</width>
@@ -120,23 +118,25 @@ Tear amended on fol. 67.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 7r.</ab>
+                           <note>All data are for fol. 7r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">
 fols. 2r-5v: ruling pattern is not visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 fols. 6r-116v: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -150,7 +150,6 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful, by well-trained hand.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Hand a: 15th century. Hand b: 18th or 19th cent. (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">quires II-XVI: no dashes below and above the numbers.</handNote>
@@ -164,10 +163,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00">Fols. 116vb-117r: Concluding supplication.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fols. 116vb-117r: Concluding supplication.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Ḫabtä Mikaʾel and other persons are mentiones. The short supplication is written in red.</p>
                         </item>
                         <item xml:id="e1">- The title ተአምረ፡ ማርያም is written on the front board with red modern paint.</item>
                      </list>
@@ -189,7 +187,7 @@ The first leaf (fol. 1) is used as pastdown, on the inner side of the front boar
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0053SäbäyaMaryam">Säbäya Maryam /SM</placeName>
+                        <placeName corresp="INS0053SM">Säbäya Maryam /SM</placeName>
                      </origPlace>
                      <origDate notBefore="1450" notAfter="1550">Mid or late 15th - first half of the 16th cent.&#xD;
 Quire I is of more recent time (18th or 19th cent.).</origDate>
@@ -232,10 +230,6 @@ Quire I is of more recent time (18th or 19th cent.).</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -256,7 +250,7 @@ Quire I is of more recent time (18th or 19th cent.).</origDate>
          <change who="DN" when="2010-05-14">registered</change>
          <change who="SA" when="2010-09-29T08:28:23.343Z">created</change>
          <change who="DN" when="2015-06-03T12:47:02.411Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

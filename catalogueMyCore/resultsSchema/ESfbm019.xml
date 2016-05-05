@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0071FäqadaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0071FBM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>FBM-019</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">58.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">3.0</measure> blank, in
-                                                <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">58.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">8.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">16.5</height>
                               <width unit="cm">22.5</width>
@@ -97,17 +95,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left"/>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data er for fol. 4r.</ab>
+                           <note>All data er for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B!.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 Thee upper line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">no</ab>
                         </layout>
                      </layoutDesc>
@@ -116,7 +116,6 @@ Thee upper line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>first half of the 20th century</date>
                      </handNote>
                   </handDesc>
@@ -142,7 +141,7 @@ The binding might previously belong to a different, older Ms.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0071FäqadaMaryam">Fäqada Maryam / FBM</placeName>
+                        <placeName corresp="INS0071FBM">Fäqada Maryam / FBM</placeName>
                      </origPlace>
                      <origDate notBefore="1900" notAfter="1950">First half of the 20th century</origDate>
                   </origin>
@@ -184,10 +183,6 @@ The binding might previously belong to a different, older Ms.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -208,7 +203,7 @@ The binding might previously belong to a different, older Ms.</decoNote>
          <change who="DN" when="2010-05-21">registered</change>
          <change who="SA" when="2010-09-28T14:16:16.890Z">created</change>
          <change who="SH" when="2014-10-14T08:35:18.222Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

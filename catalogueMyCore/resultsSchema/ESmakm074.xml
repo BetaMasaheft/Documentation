@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0174MayË&#x80;AnbÃ¤saKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0174MAKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MAKM-074</idno>
                   <altIdentifier>
                      <idno>C4-IV-78 (fol. 41r)</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">93.0</measure> folios,
-                                                in
-                                                <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">93.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">19.0</width>
@@ -123,7 +121,7 @@ The last two folios (fols. 92r-93v), originally of bigger size, are cut in the u
 Tear crudely amended on fol. 55.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="13">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>140</width>
@@ -136,28 +134,40 @@ Tear crudely amended on fol. 55.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 3r.</ab>
+                           <note>All data are for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, somewhat irregular</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰ፡/ ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (Text I-1, Text I-4 – Text I-14) .</item>
+                           <item>
+                              <abbr>ጊ፡/ ጊዮ፡</abbr> for <expan>ጊዮርጊስ፡ </expan> (Text I-5, I-6) .</item>
+                           <item>
+                              <abbr>ፋሲሊዳ፡</abbr> for <expan>ፋሲሊደስ፡ </expan> (Text I-9).</item>
+                           <item>
+                              <abbr>ገለው፡/ ገለውዴ፡</abbr> for <expan>ገለውዴዎስ፡ </expan> (Text I-10).</item>
+                           <item>
+                              <abbr>ዮሐን፡</abbr> for <expan>ዮሐንስ፡ </expan> (Text I-11, Text I-12).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -166,15 +176,13 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="text-align: justify; font-size: 10pt;">Fol. 85vb l.1: Ownership </span><span style="text-align: justify; font-size: 10pt;">note.</span></locus>
-                           <q xml:lang="gez">&#160;<span style="line-height: 14px; font-size: 10pt;">Fol. 85vb</span><span style="line-height: 14px; font-size: 10pt;">:&#160;</span><span style="line-height: 21px; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4676;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4645;&#4619;&#4660;&#4961; &#4643;&#4637;&#4651;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4829;&#4961; &#4845;&#4777;&#4757;&#4962;</span></q>
-                           <q xml:lang="en"><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 85vb:</span><span unicode="" style="line-height: 115%; font-size: 10pt;"> This book is of priest</span><span unicode="" style="line-height: 115%; font-size: 10pt;"> T&#228;sfa &#346;&#601;llase (of) &#346;amra. The one who stole it or the one who scratched (what is written in it), shall be excommunicated.&#160;</span></q>
+                           <locus/><p><span style="text-align: justify; font-size: 10pt;">Fol. 85vb l.1: Ownership </span><span style="text-align: justify; font-size: 10pt;">note.</span></p> <p></p><q xml:lang="gez"><p>&#160;<span style="line-height: 14px; font-size: 10pt;">Fol. 85vb</span><span style="line-height: 14px; font-size: 10pt;">:&#160;</span><span style="line-height: 21px; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4676;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4645;&#4619;&#4660;&#4961; &#4643;&#4637;&#4651;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4829;&#4961; &#4845;&#4777;&#4757;&#4962;</span></p></q>
+                           <q xml:lang="en"><p><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 85vb:</span><span unicode="" style="line-height: 115%; font-size: 10pt;"> This book is of priest</span><span unicode="" style="line-height: 115%; font-size: 10pt;"> T&#228;sfa &#346;&#601;llase (of) &#346;amra. The one who stole it or the one who scratched (what is written in it), shall be excommunicated.&#160;</span></p></q>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">&#160;<span style="text-align: justify; font-size: 10pt;">Fol. 93rb l.7: &#704;Asmat-prayer.</span></locus>
-                           <q xml:lang="gez"><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 93rb l.7: </span><span style="line-height: 115%; font-size: 14pt;">&#4704;</span><span style="line-height: 115%; font-size: 14pt;">&#4661;</span><span style="line-height: 115%; font-size: 14pt;">&#4632;</span><span style="line-height: 115%; font-size: 14pt;">&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4776;&#4621;&#4961; &#4720;&#4776;&#4621;&#4776;&#4621; &#4975;&#4874;&#4828;&#4961; &#4628;&#4868;&#4653;&#4868;&#4961; &#4975;&#4874;&#4828;&#4961; &#4873;&#4624;&#4868;&#4757;&#4961; &#4808;&#4873;&#4704;&#4653;&#4868;&#4757;&#4975;&#4874;&#4828;&#4961;</span><span unicode="" style="line-height: 115%; font-size: 14pt;">&#8230;</span></q>
-                           <q xml:lang="en">&#160;</q>
+                           <locus/><p>&#160;<span style="text-align: justify; font-size: 10pt;">Fol. 93rb l.7: &#704;Asmat-prayer.</span></p><q xml:lang="gez"><p><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 93rb l.7: </span><span style="line-height: 115%; font-size: 14pt;">&#4704;</span><span style="line-height: 115%; font-size: 14pt;">&#4661;</span><span style="line-height: 115%; font-size: 14pt;">&#4632;</span><span style="line-height: 115%; font-size: 14pt;">&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4776;&#4621;&#4961; &#4720;&#4776;&#4621;&#4776;&#4621; &#4975;&#4874;&#4828;&#4961; &#4628;&#4868;&#4653;&#4868;&#4961; &#4975;&#4874;&#4828;&#4961; &#4873;&#4624;&#4868;&#4757;&#4961; &#4808;&#4873;&#4704;&#4653;&#4868;&#4757;&#4975;&#4874;&#4828;&#4961;</span><span unicode="" style="line-height: 115%; font-size: 14pt;">&#8230;</span></p></q>
+                           <q xml:lang="en"><p>&#160;</p> <div style="text-align: left;"></div></q>
                            <p/>
                         </item>
                         <item xml:id="e1">- The title of Text I is crudely written on the front leather cover with yellow paint.&#xD;
@@ -202,7 +210,7 @@ Quires I, II, III are reinforced by parchment guards.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0174MayË&#x80;AnbÃ¤saKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t">May Ë&#x80;AnbÃ¤sa KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t / MAKM</placeName>
+                        <placeName corresp="INS0174MAKM">May Ë&#x80;AnbÃ¤sa KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t / MAKM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800"/>
                   </origin>
@@ -245,10 +253,6 @@ The donor´s name is washed out on fols. 62ra, 67ra 76ra, erased from fol. 75va.
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -270,7 +274,7 @@ The donor´s name is washed out on fols. 62ra, 67ra 76ra, erased from fol. 75va.
          <change who="DN" when="2011-11-03">registered</change>
          <change who="IR" when="2012-09-03T10:30:50.356Z">created</change>
          <change who="SH" when="2014-09-23T12:21:53.382Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

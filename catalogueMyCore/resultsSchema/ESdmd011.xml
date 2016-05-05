@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0129DǝblaYoḥannǝsMäṭmǝq"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0129DMD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMD-011</idno>
                </msIdentifier>
                <msContents>
@@ -55,9 +55,7 @@ A few groups of lines on the incipit page; incipit of sections (date of the feas
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">133.0</measure> folios,
-                                                in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">133.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">17.3</width>
@@ -137,7 +135,7 @@ Rubricated words and phrases are sometimes hardly legible or illegible due to fa
 Holes are carefully amended on fols. 8, 9, 45, 50, 64, 69, 95, 109, 110.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>155</height>
                               <width>130</width>
@@ -150,38 +148,50 @@ Holes are carefully amended on fols. 8, 9, 45, 50, 64, 69, 95, 109, 110.</condit
                               <dim type="left">9</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, careless, uneven</ab>
                         <seg type="ink">Black, red (light brilliant rose)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid 20th century</date>
+                        <list type="abbreviations">
+                           <item>ም፡/ምል፡/ምልጣ፡ for ምልጣን፡</item>
+                           <item>መዝ፡/መዝሙ፡ for መዝሙር፡</item>
+                           <item>ዋዜ፡ for ዋዜማ፡</item>
+                           <item>ዘአም፡ for ዘአምላኪየ፡</item>
+                           <item>እስመ፡/እስ፡/እስ፡ ለ፡ for እስመ፡ ለዓለም፡</item>
+                           <item>ቃለ፡/ቃለ፡ ዓ፡ for ቃለ፡ ዓዋዲ፡</item>
+                           <item>ሰላ፡ for ሰላም፡</item>
+                           <item>ይት፡/ይትባ፡/ይትባረ፡ for ይትባረክ፡</item>
+                           <item>ዕዝ፡ for ዕዝል፡</item>
+                           <item>ዓራ: for ዓራራይ፡</item>
+                           <item>ሃ፡ for ሃሌሉያ፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: large;"><span style="line-height: 115%;">&#4736;&#4851;&#4653;&#4961; &#4979;&#4970;&#4961;&#4672;&#4757;</span></span></q>
+                           <locus/><div style="line-height: normal;"><span style="font-size: small;">Fol. 130ra: Purchase note. </span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 130ra:</span><span style="font-size: large;"> &#4704;&#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4649;&#4939;&#4772;&#4621;&#4961; &#4877;&#4709;&#4829;&#4755;&#4961; &#4704;&#4768;&#4616;&#4675;&#4961; &#4808;&#4621;&#4848;</span><span style="font-size: 14pt;"><span style="font-size: small;">(?)</span></span><span style="font-size: large;">&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4720;&#4683;&#4899;&#4653;&#4752;&#4725;&#4961; &#4616;&#4813;&#4677;&#4654;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4632;&#4829;&#4633;&#4653;&#4961; &#4658;&#4872;&#4825;&#4961; &#4776;&#4633;&#4617;&#4961; &#4876;&#4723;&#4961; &#4621;&#4632;&#4757;&#4613;&#4961; &#4768;&#4635;&#4766;&#4729;&#4961; &#4768;&#4616;&#4675;&#4961; &#4848;&#4704;&#4656;&#4961; &#4872;&#4709;&#4648;&#4961; &#4661;&#4619;&#4660;&#4961; &#4676;&#4661;&#4961; &#4848;&#4661;&#4723;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4819;&#4707;&#4845;&#4961; &#4773;&#4754;&#4613;&#4961; &#4755;&#4728;&#4813;&#4961; &#4704;&#4826;&#4613;&#4961; &#4675;&#4621;&#4961; &#4824;&#4872;&#4840;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4845;&#4633;&#4725;&#4961; &#4709;&#4616;&#4813;&#4961; &#4720;&#4936;&#4651;&#4653;&#4632;&#4811;&#4621; </span></div> <p><span style="font-size: large;"><span style="line-height: 115%;">&#4736;&#4851;&#4653;&#4961; &#4979;&#4970;&#4961;&#4672;&#4757;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic, in a poor hand. It states that qes gäbez Gäbrä Rufaʾel and ʾaläqa Wäldä(?) Maryam bought the Ms. from Mulugeta Lǝmmänh for the church of Wǝqro Maryam. Then, the names of the witnesses, the traditional oath (in which King Ḫayle Śǝllase I is mentioned) and the date (22nd of Ḫǝdar) follow. Below the note, there are fingerprints of priest Gäbrä Rufaʾel and Mulugeta Lǝmmänh.</p>
                         </item>
                         <item xml:id="e1">-	Tämälläs-signs, in the shape of a cross, indicating the place where the omissions, written in the margins, belong: fols. 39ra l.19, 115vb l.9, 115vb l.10, 128ra l.19. &#xD;
 -	Omissions written interlineally or in the margins, in the main hand: fols. 45rb, 48rab, 49ra, 68va, 69vb, 79va, 80rb, 116rab. &#xD;
@@ -204,7 +214,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0129DǝblaYoḥannǝsMäṭmǝq">Dǝbla Yoḥannǝs Mäṭmǝq / DMD</placeName>
+                        <placeName corresp="INS0129DMD">Dǝbla Yoḥannǝs Mäṭmǝq / DMD</placeName>
                      </origPlace>
                      <origDate notBefore="1930" notAfter="1974">King Ḫayle Śǝllase I (r. 1930-1975) is mentioned in Additio 1.</origDate>
                   </origin>
@@ -246,10 +256,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -271,7 +277,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-09">registered</change>
          <change who="MK" when="2013-10-10T15:33:30.048Z">created</change>
          <change who="VR" when="2015-02-25T15:24:47.331Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

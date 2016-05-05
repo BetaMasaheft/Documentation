@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0171KoholoYoḥannǝsDäbräBetel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0171KY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>KY-005</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">168.0</measure> folios,
-                                                in
-                                                <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">168.0</measure> folios, in <measure unit="quire">23.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.0</height>
                               <width unit="cm">21.0</width>
@@ -154,7 +152,7 @@ Fols. 166 and 167 are misplaced; their proper places are between fols. 32 and 33
 Parchment guards in quire I originate from a different, older Ms. (15th cent.?).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>135</height>
                               <width>163</width>
@@ -167,30 +165,30 @@ Parchment guards in quire I originate from a different, older Ms. (15th cent.?).
                               <dim type="left">13</dim>
                               <dim type="intercolumn">13</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r.</ab>
+                           <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 66r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible (s. fol. 76r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">
 The ruling pattern is different for the Canon tables.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular, careful, by a well-trained hand.</ab>
                         <seg type="ink">Black; red; lilac; reddish-brown.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 18th – early 19th century.</date>
+                        <persName role="scribe" corresp="PRS00000">ʾAfä Krǝstos</persName>ʾAfä Krǝstos is mentioned as the scribe in Additio 6.<date>Late 18th – early 19th century.</date>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -202,40 +200,35 @@ The ruling pattern is different for the Canon tables.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 130r: Ownership note.</span></span></span></locus>
-                           <q xml:lang="gez">Fol. 130r:<span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4938;&#4720;&#4813;&#4651;&#4650;</span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4961; &#4808;&#4621;&#4849;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4845;&#4824;&#4654;&#4961; &#4757;&#4653;&#4768;&#4843;&#4962;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 130r: This is a book of fit&#228;wrari W&#228;ldu; his wife is w&#228;yz&#228;ro N&#601;r&#704;aya.</span></span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 130r: Ownership note.</span></span></span></p><q xml:lang="gez"><p>Fol. 130r:<span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4938;&#4720;&#4813;&#4651;&#4650;</span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4961; &#4808;&#4621;&#4849;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4845;&#4824;&#4654;&#4961; &#4757;&#4653;&#4768;&#4843;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 130r: This is a book of fit&#228;wrari W&#228;ldu; his wife is w&#228;yz&#228;ro N&#601;r&#704;aya.</span></span></span></p></q>
+                           <p>Crudely written. Some of the letters not clearly legible.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 130r: Ownership note.</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;"><span lang="EN-GB" style="line-height: 115%;">Fol. 130r:</span></span></span></span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4938;&#4720;&#4813;&#4651;&#4650;</span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4961; &#4720;&#4808;&#4621;&#4848;&#4632;&#4853;&#4613;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4824;&#4654;</span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4961; &#4757;&#4653;&#4768;&#4843;</span></span></q>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 130r: Ownership note.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;"><span lang="EN-GB" style="line-height: 115%;">Fol. 130r:</span></span></span></span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4938;&#4720;&#4813;&#4651;&#4650;</span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4961; &#4720;&#4808;&#4621;&#4848;&#4632;&#4853;&#4613;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4824;&#4654;</span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4961; &#4757;&#4653;&#4768;&#4843;</span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 130r: This is a book of fit&#228;wrari T&#228;w&#228;ld&#228; M&#228;d&#7723;&#601;n; his wife is w&#228;z&#228;ro N&#601;r&#704;aya.</span></span></span></p></q>
+                           <p>Crudely written in pen, in recent hand. Variation of Additio 1.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez">Fol. 130rb-va:<span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4677;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4784;&#4784;&#4622;&#4961; &#4848;&#4709;&#4648;&#4961; &#4708;&#4724;&#4621;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4781;&#4941;&#4616;&#4961; &#4874;&#4808;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4633;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4808;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4723;&#4710;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4928;&#4704;&#4616;&#4961; &#4846;&#4661;&#4899;&#4724;&#4814;&#4661;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4962; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;</span>[fol. 130va]<span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4808;&#4653;&#4874;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4875;&#4821;&#4829;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4824;&#4644;&#4902;&#4961; &#4808;&#4824;&#4720;&#4659;&#4840;&#4902;&#4961; &#4824;&#4773;&#4757;&#4704;&#4616;&#4961; &#4936;&#4675;&#4849;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4962; &#4616;&#4845;&#4777;&#4757;&#4962;</span></q>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 130rb-va: Donation note.</span></span></span></p><q xml:lang="gez"><p>Fol. 130rb-va:<span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4677;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4784;&#4784;&#4622;&#4961; &#4848;&#4709;&#4648;&#4961; &#4708;&#4724;&#4621;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4781;&#4941;&#4616;&#4961; &#4874;&#4808;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4633;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4808;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4723;&#4710;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4928;&#4704;&#4616;&#4961; &#4846;&#4661;&#4899;&#4724;&#4814;&#4661;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4962; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;</span>[fol. 130va]<span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4808;&#4653;&#4874;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4875;&#4821;&#4829;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4824;&#4644;&#4902;&#4961; &#4808;&#4824;&#4720;&#4659;&#4840;&#4902;&#4961; &#4824;&#4773;&#4757;&#4704;&#4616;&#4961; &#4936;&#4675;&#4849;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4962; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Beginning of the note crudely written in black ink (until ወአቡሁ፡), the rest is written in lilac ink, by a different hand.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 130v:&#160;&#704;Asmat-prayer (?).</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 130v:&#160;&#704;Asmat-prayer (?).</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Very crudely written in reddish-brown ink, possibly as a writing exercise. Not all letters legible.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 131va-vb: Ownership note extended by a traditional genealogy.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 131va-vb: Ownership note extended by a traditional genealogy.</span></span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 131va-vb:</span></span><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4673;&#4653;&#4707;&#4752;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4616;&#4709;&#4773;&#4658;&#4721;&#4961; &#4656;&#4704;&#4752;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4632;&#4637;&#4629;&#4649;&#4961; &#4677;&#4709;&#4819;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4813;&#4617;&#4852;&#4608;&#4961;<span style="font-size:12.0pt;&#10;line-height:115%;Arial Unicode MS&quot;;"> </span><span style="font-size: small;"><span style="line-height: 115%;">[sic]</span></span> &#4781;&#4941;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4637;&#4613;&#4653;&#4779;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4776;&#4755;&#4941;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4872;&#4852;&#4961; &#4635;&#4741;&#4848;&#4648;&#4961; &#4675;&#4621;&#4961; &#4656;&#4653;&#4928;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4925;&#4876;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4854;&#4677;&#4635;&#4961;&#160;&#4773;&#4741;&#4720;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4768;&#4825;&#4651;&#4962; &#4920;&#4704;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4617;&#4851;&#4754;&#4611;&#4961; &#4656;&#4704;&#4752;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4654;&#4961; &#4661;&#4758;&#4961; &#4768;&#4632;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4640;&#4653;&#4928;&#4961; &#4843;&#4821;&#4678;&#4709; &#4962;&#4621;&#4849;&#4725;&#4961; &#4709;&#4725;&#4808;&#4621;&#4853;&#4961; &#4645;&#4653;&#4873;&#4725;&#4757;&#4961; &#4645;&#4653;&#4873;&#4725;&#4757;&#4961; &#4709;&#4725;&#4808;&#4621;&#4853;&#4961; &#4768;&#4661;&#4755;&#4755;&#4757;&#4961; &#4840;&#4635;&#4758;&#4757;&#4962; &#4854;&#4677;&#4635;&#4961; &#4709;&#4725;&#4808;&#4621;&#4853;&#4961; &#4637;&#4821;&#4632;&#4752;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4638;&#4872;&#4657;&#4725;&#4961; &#4768;&#4632;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4709;&#4725;&#4808;&#4621;&#4853;&#4961; &#4936;&#4725;&#4617;&#4725;&#4757;&#4961; &#4661;&#4941;&#4651;&#4757;&#4961; &#4632;&#4653;&#4819;&#4726;&#4757;&#4961; &#4725;&#4773;&#4637;&#4653;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4757;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4757;&#4962; &#4706;&#4808;&#4621;&#4853;&#4961; &#4770;&#4657;&#4757;&#4961; </span><span style="font-size: small;"><span style="line-height: 115%;">[sic]</span></span><span style="line-height: 115%;"> &#4770;&#4843;&#4657;&#4961; &#4706;&#4808;&#4621;&#4853;&#4961; &#4768;&#4653;&#4779;&#4756;&#4814;&#4661;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that the Ms. belongs to Qwǝrbanä Dǝngǝl and his wife Säbänä Giyorgis. Other persons listed include their mämḥǝr Qǝbʿa Krǝstos and their children.
+The genealogical part of the note is written in Amharic and apparently includes two distinct fragments, written in the same hand as the ownership note, but with two different kinds of red ink. The genealogical fragment mentions Doqǝma, a person also mentioned in the ownership note.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 168rb: Ownership note.</span></span></span></locus>
-                           <q xml:lang="gez">Fol 168rb:<span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4661;&#4621;&#4899;&#4752;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4968; &#4808;&#4824;&#4920;&#4624;&#4938;&#4609;&#4754;&#4961; &#4768;&#4936;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4968; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4704;&#4739;&#4845;&#4621;&#4961; &#4824;&#4644;&#4902;&#4961; &#4808;&#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4824;&#4773;&#4757;&#4704;&#4616;&#4961; &#4936;&#4675;&#4849;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4829;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></q>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 168rb: Ownership note.</span></span></span></p><q xml:lang="gez"><p>Fol 168rb:<span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4661;&#4621;&#4899;&#4752;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4968; &#4808;&#4824;&#4920;&#4624;&#4938;&#4609;&#4754;&#4961; &#4768;&#4936;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4968; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4704;&#4739;&#4845;&#4621;&#4961; &#4824;&#4644;&#4902;&#4961; &#4808;&#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4824;&#4773;&#4757;&#4704;&#4616;&#4961; &#4936;&#4675;&#4849;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4829;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p></q>
+                           <q xml:lang="en"><p style="text-align: left;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 168rb: This is a book of S&#601;l&#7789;an&#228; Kr&#601;stos and of its scribe &#704;Af&#228; Kr&#601;stos, who acquired it for his money. He who steals it or erases (its text), he who removes it by force, he who sells it or buys it without permission shall be excommunicated like Arius by the authority of Peter and Paul.</span></span></span></p></q>
+                           <p>The two upper lines of the note are rubricated.</p>
                         </item>
                         <item xml:id="e1">- The title ወንጀል is crudely written on the boards.&#xD;
 - The title of each Gospel is written in the upper margin of the respective incipit page (or under the heading), the letters (black and red alternating) being inserted between the red and black dot asterisks.   &#xD;
@@ -260,7 +253,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0171KoholoYoḥannǝsDäbräBetel">Koholo Yoḥannǝs Däbrä Betel / KY</placeName>
+                        <placeName corresp="INS0171KY">Koholo Yoḥannǝs Däbrä Betel / KY</placeName>
                      </origPlace>
                      <origDate notBefore="1780" notAfter="1820">Parchment guards in quire I originate from a different, older Ms. (15th cent.?).</origDate>
                   </origin>
@@ -302,8 +295,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">ʾAfä Krǝstos</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -327,7 +319,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-02">registered</change>
          <change who="IF" when="2011-10-20T10:32:57.852Z">created</change>
          <change who="AA" when="2014-10-22T14:28:13.655Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

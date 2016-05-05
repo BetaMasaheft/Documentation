@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0163MaryamMayʾAbʾa"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0163BQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BQM-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">245.0</measure> folios,
-                                                in
-                                                <measure unit="quire">32.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">245.0</measure> folios, in <measure unit="quire">32.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">36.0</height>
                               <width unit="cm">29.5</width>
@@ -168,7 +166,7 @@ Some fols. are stained with dirt (fols. 2r, 2v, 3r, 3v, 4r, 70v, 71r).&#xD;
 Tear amended in fol. 186.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="28">
                            <dimensions unit="mm">
                               <height>250</height>
                               <width>232</width>
@@ -181,27 +179,27 @@ Tear amended in fol. 186.</condition>
                               <dim type="left">21</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 117r.</ab>
+                           <note>All data for fol. 117r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/J.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but regular</ab>
                         <seg type="ink">Black (dark-brown; change to black for a small portion on fol. 25vc), red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th – early 20th century.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -209,16 +207,15 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 46vab: Genealogies of (possibly related to the donors). </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 46va: [n.l.] </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4621;&#4899;&#4757;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4659;&#4633;&#4662;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4659;&#4633;&#4662;&#4757;&#4961; &#4725;&#4661;&#4939; &#4661;&#4619;&#4660;&#4961; &#4808;&#4616;&#4848;&#4961; &#4720;&#4661;&#4939;</span><span style="line-height: 115%;">&#4961; &#4661;&#4619;&#4660;&#4961; &#4829;&#4613;&#4616;&#4725;&#4961; &#4808;&#4616;&#4848;&#4961; &#4829;&#4629;&#4616;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4848;&#4733;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 46vab: Genealogies of (possibly related to the donors). </span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 46va: [n.l.] </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4621;&#4899;&#4757;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4659;&#4633;&#4662;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4659;&#4633;&#4662;&#4757;&#4961; &#4725;&#4661;&#4939; &#4661;&#4619;&#4660;&#4961; &#4808;&#4616;&#4848;&#4961; &#4720;&#4661;&#4939;</span><span style="line-height: 115%;">&#4961; &#4661;&#4619;&#4660;&#4961; &#4829;&#4613;&#4616;&#4725;&#4961; &#4808;&#4616;&#4848;&#4961; &#4829;&#4629;&#4616;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4848;&#4733;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Amharic, in a very crude hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="line-height: 115%;">Fol. 242vc:</span><span style="line-height: 115%;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;</span><span style="line-height: 115%;">&#4632;</span><span style="line-height: 115%;">&#4925;</span><span style="line-height: 115%;">&#4624;</span><span style="line-height: 115%;">&#4941;&#4961; &#4824;&#4635;&#4845;&#4961; &#4768;&#4709;&#4768;&#4961; </span><span style="line-height: 115%;">&#4824;&#4723;&#4710;&#4723;&#4961; </span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;">&#4616;</span>]</span></span><span style="line-height: 115%;">&#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4752;&#4811;&#4840;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4808;&#4704;&#4632;&#4661;&#4941;&#4757;&#4752;&#4961; &#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4808;&#4704;&#4632;&#4661;&#4941;&#4757;&#4752;&#4961; &#4651;&#4661; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4768;&#4877;&#4707;&#4829;&#4752;&#4961; &#4676;&#4656;&#4961; &#4872;&#4704;&#4829;&#4961; &#4808;&#4621;&#4848;&#4961; </span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4872;</span></span></span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4709;</span></span></span></span></span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4653;</span></span></span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4772;&#4621;</span></span></span></span>]</span></span><span style="line-height: 115%;">&#4961; &#4768;&#4726;&#4961; &#4757;&#4811;&#4840;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4909;&#4675;&#4813;&#4961; &#4676;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4678;</span></span>&#4961; &#4808;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962; &#4962;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fol. 242vc: Ownership note.</span></div><q xml:lang="gez"><p><span style="line-height: 115%;">Fol. 242vc:</span><span style="line-height: 115%;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;</span><span style="line-height: 115%;">&#4632;</span><span style="line-height: 115%;">&#4925;</span><span style="line-height: 115%;">&#4624;</span><span style="line-height: 115%;">&#4941;&#4961; &#4824;&#4635;&#4845;&#4961; &#4768;&#4709;&#4768;&#4961; </span><span style="line-height: 115%;">&#4824;&#4723;&#4710;&#4723;&#4961; </span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;">&#4616;</span>]</span></span><span style="line-height: 115%;">&#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4752;&#4811;&#4840;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4808;&#4704;&#4632;&#4661;&#4941;&#4757;&#4752;&#4961; &#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4808;&#4704;&#4632;&#4661;&#4941;&#4757;&#4752;&#4961; &#4651;&#4661; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4768;&#4877;&#4707;&#4829;&#4752;&#4961; &#4676;&#4656;&#4961; &#4872;&#4704;&#4829;&#4961; &#4808;&#4621;&#4848;&#4961; </span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4872;</span></span></span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4709;</span></span></span></span></span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4653;</span></span></span></span></span><span style="font-size: large;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4772;&#4621;</span></span></span></span>]</span></span><span style="line-height: 115%;">&#4961; &#4768;&#4726;&#4961; &#4757;&#4811;&#4840;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4909;&#4675;&#4813;&#4961; &#4676;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4678;</span></span>&#4961; &#4808;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962; &#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note tells that baḥǝr nägaš Zä-Wäldä Maryam bought the Ms. with the church money of Maryam May ʾAbʾa, in the time of ras Mängäša and ras Sǝbḥat.
+The names of other individuals are also mentioned, qes gäbäz Wäldä Gäbrǝʾel, ʾato Näwayä Maryam, and qes Täsfa Mikaʾel.</p>
                         </item>
                         <item xml:id="e1">- Omitted words or passages written interlineally: fols. 94va, 95rb, 104rb, 178ra.&#xD;
 - Immediate corrections are indicated by dashed above and below the  word to be caneled: fols. 57vc, 63rc, 85vb.&#xD;
@@ -247,7 +244,7 @@ Three pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0163MaryamMayʾAbʾa">Maryam May ʾAbʾa / BQM</placeName>
+                        <placeName corresp="INS0163BQM">Maryam May ʾAbʾa / BQM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1906">Second half of the 19th – early 20th cent.&#xD;
 Additio 3 states that the Ms. was bought during the time of ras Mängäša (Mängäša Yoḥannǝs, d. 1906) and ras Sǝbḥat (Sǝbḥat ʾArägawi, d. 1914; received the title of ras in 1892; s. EAE IV, 587-589).</origDate>
@@ -290,10 +287,6 @@ Additio 3 states that the Ms. was bought during the time of ras Mängäša (Män
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -314,7 +307,7 @@ Additio 3 states that the Ms. was bought during the time of ras Mängäša (Män
          <change who="DN" when="2011-05-19">registered</change>
          <change who="SD" when="2014-12-04T08:26:39.409Z">created</change>
          <change who="MV" when="2015-01-28T14:01:55.371Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

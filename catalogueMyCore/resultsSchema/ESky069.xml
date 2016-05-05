@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0171KoholoYoá¸¥annÇ&#x9d;sDÃ¤brÃ¤Betel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0171KY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>KY-069</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">86.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">14.0</measure> blank, in
-                                                <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">86.0</measure> folios, of which <measure unit="leaf" type="blank">14.0</measure> blank, in <measure unit="quire">12.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.2</height>
                               <width unit="cm">14.5</width>
@@ -106,7 +104,7 @@ Quire B is of smaller size.</item>
                         <condition key="good">Holes amended on fols. 1, 22, 27, 58, 72, 73, 85.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="15">
                            <dimensions unit="mm">
                               <height>108</height>
                               <width>110</width>
@@ -119,27 +117,27 @@ Quire B is of smaller size.</item>
                               <dim type="left">8</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red (luminous vivid vermilion and strong amaranth e.g., fol. 49v, 50r).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century.</date>
                      </handNote>
                   </handDesc>
@@ -168,10 +166,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 83ra-rb: Ownership note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 83ra-b:</span> <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4768;&#4773;&#4635;&#4848;&#4961; &#4637;&#4661;&#4898;&#4653;&#4961; &#4824;&#4624;&#4616;&#4675;&#4961; &#4720;&#4661;&#4939;&#4845;&#4961; &#4784;&#4784;&#4622;&#4961; &#4824;&#4813;&#4773;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4661;&#4619;&#4660;&#4961; {&#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4738;&#4649;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961;} &#4808;&#4768;&#4705;&#4609;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4778;&#4752;&#4961; &#4661;&#4619;&#4660;&#4961; &#4624;&#4709;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4739;&#4845;&#4616;&#4961; &#4661;&#4619;&#4660;&#4961; &#4768;&#4632;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4901;&#4704;&#4704;&#4961; &#4661;&#4619;&#4660;&#4961; &#4621;&#4629;&#4789;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4661;&#4637;&#4648;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4773;&#4613;&#4723;&#4961; &#4819;&#4632;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4808;&#4616;&#4723;&#4961; &#4808;&#4616;&#4720;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4808;&#4773;&#4609;&#4737;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;&#4961; &#4824;&#4813;&#4773;&#4721;&#4961; &#4739;&#4616;&#4675;&#4961; &#4768;&#4707;&#4845;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4608;&#4678;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4704;&#4739;&#4845;&#4621;&#4961; &#4824;&#4821;{&#4757;}&#4704;&#4616;&#4961; &#4936;&#4675;&#4848;&#4961; &#4773;&#4877;&#4826;&#4769;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;{&#4661;}&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4961; &#4808;&#4632;&#4677;&#4848;&#4621;&#4846;&#4661;&#4962;</span></q>
-                           <q xml:lang="en"><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 83ra-b:</span><span unicode="" style="line-height: 115%; font-size: 10pt;"> This book of </span><span style="line-height: 115%; font-size: 10pt;">&#704;A&#705;mad&#228; m&#477;s&#7789;ir is of &#7717;al&#228;qa T&#228;sfay&#228; [of] K<sup>w</sup>&#228;k<sup>w</sup>&#228;lo, who is G&#228;br&#228; S&#477;llase. {His wife is &#7722;irut&#228; S&#477;llase} and his father M&#228;zg&#228;b&#228; S&#477;llase, and his children Kin&#228; S&#477;llase, &#7716;abt&#228; S&#477;llase, &#7722;ayl&#228; S&#477;llase, &#704;Am&#228;t&#228; S&#477;llase, W&#228;l&#228;tt&#228; S&#477;llase, &#7788;&#477;b&#228;b&#228; S&#477;llase, L&#477;&#7717;k<sup>w</sup>&#477;t&#228; S&#477;llase, S&#477;mr&#228;t&#228; S&#477;llase, and his mother W&#228;l&#228;tt&#228; &#704;&#398;gzi&#704;, and her mother W&#228;l&#228;tt&#228; Maryam, and her sister &#705;Am&#228;t&#228; &#7778;&#477;yon, and her daughter W&#228;l&#228;tt&#228; B&#477;rhan, and his brother G&#228;br&#228; Giyorgis that is &#7723;al&#228;qa &#704;Abbay. May the one who stole it or erased it or took it by force without the permission of the owner be excommunicated by the authority of Peter and Paul like Arius and Macedonius. </span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;">Fol. 83ra-rb: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 83ra-b:</span> <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4768;&#4773;&#4635;&#4848;&#4961; &#4637;&#4661;&#4898;&#4653;&#4961; &#4824;&#4624;&#4616;&#4675;&#4961; &#4720;&#4661;&#4939;&#4845;&#4961; &#4784;&#4784;&#4622;&#4961; &#4824;&#4813;&#4773;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4661;&#4619;&#4660;&#4961; {&#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4738;&#4649;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961;} &#4808;&#4768;&#4705;&#4609;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4778;&#4752;&#4961; &#4661;&#4619;&#4660;&#4961; &#4624;&#4709;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4739;&#4845;&#4616;&#4961; &#4661;&#4619;&#4660;&#4961; &#4768;&#4632;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4901;&#4704;&#4704;&#4961; &#4661;&#4619;&#4660;&#4961; &#4621;&#4629;&#4789;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4661;&#4637;&#4648;&#4720;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4773;&#4613;&#4723;&#4961; &#4819;&#4632;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4808;&#4616;&#4723;&#4961; &#4808;&#4616;&#4720;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4808;&#4773;&#4609;&#4737;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;&#4961; &#4824;&#4813;&#4773;&#4721;&#4961; &#4739;&#4616;&#4675;&#4961; &#4768;&#4707;&#4845;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4608;&#4678;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4704;&#4739;&#4845;&#4621;&#4961; &#4824;&#4821;{&#4757;}&#4704;&#4616;&#4961; &#4936;&#4675;&#4848;&#4961; &#4773;&#4877;&#4826;&#4769;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;{&#4661;}&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4961; &#4808;&#4632;&#4677;&#4848;&#4621;&#4846;&#4661;&#4962;</span></p></q>
+                           <q xml:lang="en"><p><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 83ra-b:</span><span unicode="" style="line-height: 115%; font-size: 10pt;"> This book of </span><span style="line-height: 115%; font-size: 10pt;">&#704;A&#705;mad&#228; m&#477;s&#7789;ir is of &#7717;al&#228;qa T&#228;sfay&#228; [of] K<sup>w</sup>&#228;k<sup>w</sup>&#228;lo, who is G&#228;br&#228; S&#477;llase. {His wife is &#7722;irut&#228; S&#477;llase} and his father M&#228;zg&#228;b&#228; S&#477;llase, and his children Kin&#228; S&#477;llase, &#7716;abt&#228; S&#477;llase, &#7722;ayl&#228; S&#477;llase, &#704;Am&#228;t&#228; S&#477;llase, W&#228;l&#228;tt&#228; S&#477;llase, &#7788;&#477;b&#228;b&#228; S&#477;llase, L&#477;&#7717;k<sup>w</sup>&#477;t&#228; S&#477;llase, S&#477;mr&#228;t&#228; S&#477;llase, and his mother W&#228;l&#228;tt&#228; &#704;&#398;gzi&#704;, and her mother W&#228;l&#228;tt&#228; Maryam, and her sister &#705;Am&#228;t&#228; &#7778;&#477;yon, and her daughter W&#228;l&#228;tt&#228; B&#477;rhan, and his brother G&#228;br&#228; Giyorgis that is &#7723;al&#228;qa &#704;Abbay. May the one who stole it or erased it or took it by force without the permission of the owner be excommunicated by the authority of Peter and Paul like Arius and Macedonius. </span></p></q>
+                           <p>The note contains a tämäläs-sign, in the shape of two perpendicular lines, indicating where the omission, written above, belongs: fol. 83ra l.8.</p>
                         </item>
                         <item xml:id="e1">- Omitted letters, words and passages are written interlineally, in the main hand: fols. 6vb, 46rb, 57ra, 68vb, 80vb.&#xD;
 - Erasure of words: fols. 9va, 17va, 19rb, 24ra, 25vb, 43va, 44rb, 45vb, 46va, 47ra, 49va, 59ra, 60ra, 61ra, 66ra, 67vb.&#xD;
@@ -197,7 +194,7 @@ Fol. 83 has been attached later to the quire by means of chain of stitches.</dec
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0171KoholoYoá¸¥annÇ&#x9d;sDÃ¤brÃ¤Betel">Koholo Yoá¸¥annÇ&#x9d;s DÃ¤brÃ¤ Betel / KY</placeName>
+                        <placeName corresp="INS0171KY">Koholo Yoá¸¥annÇ&#x9d;s DÃ¤brÃ¤ Betel / KY</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900"/>
                   </origin>
@@ -239,10 +236,6 @@ Fol. 83 has been attached later to the quire by means of chain of stitches.</dec
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -259,7 +252,7 @@ Fol. 83 has been attached later to the quire by means of chain of stitches.</dec
          <change who="DN" when="2011-05-06">registered</change>
          <change who="AA" when="2013-01-08T11:09:43.869Z">created</change>
          <change who="MK" when="2014-10-01T14:06:21.490Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

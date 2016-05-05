@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dərsanä sänbätä krǝstiyan “Homily on the Sabbath of Christians” / Täʾamrä Qwǝrban “Miracles of the Eucharist”</title>
+            <title>Dәrsanä sänbätä krǝstiyan “Homily on the Sabbath of Christians” / Täʾamrä Qwǝrban “Miracles of the Eucharist”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0196WälwaloDäbräBǝrhanQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0196WQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>WQ-002</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">44.0</measure> folios,
-                                                in
-                                                <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">44.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.5</height>
                               <width unit="cm">13.0</width>
@@ -94,7 +92,7 @@ Some fols. are damaged (e.g. fol. 21).&#xD;
 The Ms. shows traces of intensive use.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>141</height>
                               <width>105</width>
@@ -107,32 +105,42 @@ The Ms. shows traces of intensive use.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">6</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r.</ab>
+                           <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The ruling has been done sometimes crudely (e.g., fols. 20r-v, 23r-v).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine.</ab>
                         <seg type="ink">Black, strong vermilion.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Mǝṣlalä ʾIyäsus</persName>Mǝṣlalä ʾIyäsus is mentioned as the scribe in the subscriptiones on fols. 24va and 40vb. He is said “beloved of blatta Kasa”.<date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አ</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 28va, 31va, 33ra, 37rb, 39ra)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 35vb)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜን፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 34vb, 36va, 37rb, 38vb-39ra)</item>
+                           <item>
+                              <abbr>ለዓለመ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 25va, 35va)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -143,10 +151,9 @@ The ruling has been done sometimes crudely (e.g., fols. 20r-v, 23r-v).</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 41ra-va: Genealogy; donation note.</span></locus>
-                           <q xml:lang="gez"><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fol. 41ra-va: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4776;&#4826;&#4613;&#4733;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4843;&#4920;&#4941;&#4747;&#4728;&#4813;&#4961; &#4621;&#4870;&#4728;&#4961; &#4704;&#4747;&#4619;&#4637;&#4961; &#4781;&#4939;&#4725;&#4961; &#4776;&#4768;&#4872;&#4760;&#4765;&#4961; &#4720;&#4648;&#4877;&#4824;&#4813;&#4961; &#4753;&#4648;&#4813;&#4961; &#4840;&#4720;&#4808;&#4616;&#4849;&#4961; &#4621;&#4870;&#4728;&#4961; &#4824;&#4632;</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">[&#8230;]</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4637;&#4961; &#4609;&#4617;&#4961; &#4896;&#4845;&#4635;&#4757;&#4961; &#4624;&#4651;&#4961; &#4768;&#4813;&#4901;&#4731;&#4725;&#4961; &#4768;&#4616;&#4609;: &#4709;&#4725;&#4808;&#4853;&#4961; &#4776;&#4621;&#4870;&#4728;&#4961; &#4875;&#4651;&#4961; &#4725;&#4672;&#4632;&#4901;&#4961; &#4768;&#4632;&#4723;&#4724;&#4757;&#4961; &#4773;&#4840;&#4896;&#4704;&#4672;&#4733;&#4961; &#4776;&#4621;&#4870;&#4733;&#4811;&#4961; &#4875;&#4651;&#4961; &#4840;&#4826;&#4613;&#4757;&#4961; &#4609;&#4617;&#4961; &#4840;&#4720;&#4680;&#4896;&#4648;&#4961; &#4808;&#4619;&#4869;&#4961; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4755;&#4728;&#4813;&#4962; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4637;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4637;&#4961; &#4819;&#4637;&#4854;&#4637;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4819;&#4637;&#4854;&#4637;&#4961; &#4768;&#4726;&#4961; &#4608;&#4878;&#4661;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4608;&#4878;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4637;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4637;&#4961; &#4709;&#4811;&#4621;&#4723;&#4769;&#4757;&#4961; &#4824;&#4653;&#4768;&#4725;&#4757;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:"> </span><span style="font-size:10.0pt;line-height:&#10;115%;font-family:">&#8230;</span></q>
+                           <locus/><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 41ra-va: Genealogy; donation note.</span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="IT" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fol. 41ra-va: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4776;&#4826;&#4613;&#4733;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4843;&#4920;&#4941;&#4747;&#4728;&#4813;&#4961; &#4621;&#4870;&#4728;&#4961; &#4704;&#4747;&#4619;&#4637;&#4961; &#4781;&#4939;&#4725;&#4961; &#4776;&#4768;&#4872;&#4760;&#4765;&#4961; &#4720;&#4648;&#4877;&#4824;&#4813;&#4961; &#4753;&#4648;&#4813;&#4961; &#4840;&#4720;&#4808;&#4616;&#4849;&#4961; &#4621;&#4870;&#4728;&#4961; &#4824;&#4632;</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">[&#8230;]</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4637;&#4961; &#4609;&#4617;&#4961; &#4896;&#4845;&#4635;&#4757;&#4961; &#4624;&#4651;&#4961; &#4768;&#4813;&#4901;&#4731;&#4725;&#4961; &#4768;&#4616;&#4609;: &#4709;&#4725;&#4808;&#4853;&#4961; &#4776;&#4621;&#4870;&#4728;&#4961; &#4875;&#4651;&#4961; &#4725;&#4672;&#4632;&#4901;&#4961; &#4768;&#4632;&#4723;&#4724;&#4757;&#4961; &#4773;&#4840;&#4896;&#4704;&#4672;&#4733;&#4961; &#4776;&#4621;&#4870;&#4733;&#4811;&#4961; &#4875;&#4651;&#4961; &#4840;&#4826;&#4613;&#4757;&#4961; &#4609;&#4617;&#4961; &#4840;&#4720;&#4680;&#4896;&#4648;&#4961; &#4808;&#4619;&#4869;&#4961; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4755;&#4728;&#4813;&#4962; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4637;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4637;&#4961; &#4819;&#4637;&#4854;&#4637;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4819;&#4637;&#4854;&#4637;&#4961; &#4768;&#4726;&#4961; &#4608;&#4878;&#4661;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4608;&#4878;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4637;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4637;&#4961; &#4709;&#4811;&#4621;&#4723;&#4769;&#4757;&#4961; &#4824;&#4653;&#4768;&#4725;&#4757;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:"> </span><span style="font-size:10.0pt;line-height:&#10;115%;font-family:">&#8230;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is possibly written in the main hand. The first part is written in Amharic and contains the following genealogy: ʾƎras Giyorgis, ʾƎras Zärʿat, ʿAmdom, ʾato Hagos, Gäbrä Mäsqäl, blatta Kasa, Bǝwaltaʾu (Gäbrä Mikaʾel Bǝwältaʾu is also mentioned in subscriptio on fol. 41ra). The second part is written in Gәʿәz and states that blatta Kasa donated this book to Qǝddus Qirqos ʾAd Subha.</p>
                         </item>
                         <item xml:id="e1">- Omitted letters or words inserted interlineally, fols. 13ra, 15rb, 22vb, 26vb, 34va, 36rb, 38ra.&#xD;
 - Corrections written over erasures: fol. 12ra. &#xD;
@@ -173,7 +180,7 @@ Fols. of quire V are reinforced by one-stitched repairs.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0196WälwaloDäbräBǝrhanQirqos">Wälwalo Däbrä Bǝrhan Qirqos / WQ</placeName>
+                        <placeName corresp="INS0196WQ">Wälwalo Däbrä Bǝrhan Qirqos / WQ</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -215,8 +222,7 @@ Fols. of quire V are reinforced by one-stitched repairs.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Mǝṣlalä ʾIyäsus</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -241,7 +247,7 @@ Fols. of quire V are reinforced by one-stitched repairs.</decoNote>
          <change who="DN" when="2011-11-30">registered</change>
          <change who="MV" when="2014-12-18T15:41:13.898Z">created</change>
          <change who="MV" when="2015-01-07T09:47:58.193Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

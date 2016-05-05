@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0093ʾAgamyoQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0093AGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AGM-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">67.0</measure> folios,
-                                                in
-                                                <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">67.0</measure> folios, in <measure unit="quire">8.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">20.0</width>
@@ -104,7 +102,7 @@ Fols. 1 and 3 were inserted sideways.&#xD;
 The text on fols. 53v-54r, 59v is barely legible due to faded ink.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>165</width>
@@ -117,32 +115,32 @@ The text on fols. 53v-54r, 59v is barely legible due to faded ink.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 35r.</ab>
+                           <note>All data are for fol. 35r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Occasionally the horizontal lines are of Type B (e.g., fols. 12rv-14r, 23r-24v).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of 19th century</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Muse</persName>Wäldä Muse is mentioned as the scribe in Additio 1.<date>Second half of 19th century</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -153,16 +151,14 @@ Occasionally the horizontal lines are of Type B (e.g., fols. 12rv-14r, 23r-24v).
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fol</span><span style="line-height: 115%">. 65va: Donation note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 65va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4720;&#4768;&#4637;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4875;&#4637;&#4846;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4633;&#4961; &#4616;&#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4962; &#4808;&#4621;&#4848;&#4961; &#4633;&#4660;&#4962; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721; &#4808;&#4616;&#4720;&#4961; &#4811;&#4613;&#4853;&#4961; &#4808;&#4848;&#4674;&#4678;&#4633;&#4961; &#4720;&#4645;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4621;&#4848;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4872;&#4704;&#4829;&#4754;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></q>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol</span><span style="line-height: 115%">. 65va: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 65va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4720;&#4768;&#4637;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4875;&#4637;&#4846;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4633;&#4961; &#4616;&#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4962; &#4808;&#4621;&#4848;&#4961; &#4633;&#4660;&#4962; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721; &#4808;&#4616;&#4720;&#4961; &#4811;&#4613;&#4853;&#4961; &#4808;&#4848;&#4674;&#4678;&#4633;&#4961; &#4720;&#4645;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4621;&#4848;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4872;&#4704;&#4829;&#4754;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note, written in the main hand, mentions the scribe Wäldä Muse, the commissioner Wäldä Mikaʾel and his family members as well as gäbäz Wäldä ʾAnanya.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 65va-vb: T&#228;&#704;amr&#228; &#347;&#601;llase &#8220;Miracle of the Trinity&#8221;, one incomplete (?) miracle.<br /> </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 65va-vb: T&#228;&#704;amr&#228; &#347;&#601;llase &#8220;Miracle of the Trinity&#8221;, one incomplete (?) miracle.<br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is barely legible at the end due to faded ink. The handwriting is very similar to that of the main hand and also might have been written by Wäldä Muse.</p>
                         </item>
                      </list>
                   </additions>
@@ -182,7 +178,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0093ʾAgamyoQǝddusMikaʾel">ʾAgamyo Qǝddus Mikaʾel / AGM</placeName>
+                        <placeName corresp="INS0093AGM">ʾAgamyo Qǝddus Mikaʾel / AGM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">The scribe Wäldä Muse was active in the second half of the 19th century; he was a contemporary of King Yoḥannǝs IV (r. 1872-89) and Metropolitan ʾAtnatewos (in tenure 1869-76) (cp. AGM-009, MR-004, MR-006, MR-007, MR-023, UM-023).</origDate>
                   </origin>
@@ -224,8 +220,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Muse</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -249,7 +244,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-17">registered</change>
          <change who="SH" when="2013-09-30T16:45:00.056Z">created</change>
          <change who="SH" when="2014-10-01T09:29:14.989Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

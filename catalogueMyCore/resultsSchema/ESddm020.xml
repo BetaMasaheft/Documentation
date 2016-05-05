@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0157DänderaDäbräMəḥrätMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0157DDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DDM-020</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fol. 3r), a few lines are rubricated (two red lin
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">104.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">104.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">15.5</height>
                               <width unit="cm">12.0</width>
@@ -111,7 +109,7 @@ On the incipit page of Text I (fol. 3r), a few lines are rubricated (two red lin
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>110</height>
                               <width>90</width>
@@ -124,41 +122,39 @@ On the incipit page of Text I (fol. 3r), a few lines are rubricated (two red lin
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for the second page of the Gospel, recto side (fol. 4r).</ab>
+                           <note>All data are for the second page of the Gospel, recto side (fol. 4r).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 19th cent.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 1ra-2vb, 104ra-104va: &#7778;alot&#228; n&#477;ss&#477;&#7717;a &#8220;Prayer of Penance&#8221;.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 1ra-2vb, 104ra-104va: &#7778;alot&#228; n&#477;ss&#477;&#7717;a &#8220;Prayer of Penance&#8221;.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Additio 1 mentions Metropolitan Krǝstodolu (in tenure 1720-1735) and King Dawit III (r. 1716-21), but the text is obviously a late addition written on the protective leaves of the Ms., and the scribe copied the names from the model manuscript.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00">Fols. 103v: List of religious feasts.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fols. 103v: List of religious feasts.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -181,7 +177,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0157DänderaDäbräMəḥrätMikaʾel">Dändera Däbrä Məḥrät Mikaʾel / DDM</placeName>
+                        <placeName corresp="INS0157DDM">Dändera Däbrä Mәḥrät Mikaʾel / DDM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of 19th cent. according to the palaeographic features of the handwriting (Text I and Text II). &#xD;
 Additio 1 mentions Metropolitan Krǝstodolu (in tenure 1720-1735) and King Dawit III (r. 1716-21), but the text is obviously a late addition written on the protective leaves of the Ms., and the scribe copied the names from the model manuscript.</origDate>
@@ -224,10 +220,6 @@ Additio 1 mentions Metropolitan Krǝstodolu (in tenure 1720-1735) and King Dawit
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -249,7 +241,7 @@ Additio 1 mentions Metropolitan Krǝstodolu (in tenure 1720-1735) and King Dawit
          <change who="DN" when="2011-05-18">registered</change>
          <change who="SA" when="2011-09-20T08:14:59.047Z">created</change>
          <change who="SA" when="2014-09-12T09:18:08.669Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

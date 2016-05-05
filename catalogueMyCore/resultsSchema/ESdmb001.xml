@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0131BÃ¤Ë&#x81;attiQÓ&#x99;ddusMikaË&#x80;el"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0131DMB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMB-001</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">85.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">85.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">20.0</width>
@@ -106,7 +104,7 @@ Many folios are stained with water.&#xD;
 Fols. 1, 2 are damaged; the outer margin of fol. 85 is cut.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>190</height>
                               <width>71</width>
@@ -119,39 +117,38 @@ Fols. 1, 2 are damaged; the outer margin of fol. 85 is cut.</condition>
                               <dim type="left">14</dim>
                               <dim type="intercolumn">16</dim>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Irregular.</ab>
                         <seg type="ink">Black, red (vivid vermilion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Śǝllase</persName>The scribe’s name Wäldä Śǝllase is mentioned in the supplication formula in fol. 78rb.<date>19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: medium;"><span style="line-height: 115%;"><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fol. 84v: </span></span></span><span style="font-size: medium;"><span style="line-height: 115%;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4920;&#4622;&#4720;&#4961; &#4704;&#4648;&#4853;&#4961; &#4637;&#4853;&#4637;&#4843;&#4661;&#4961; &#4971;&#4874;&#4828; &#8230;</span></span></span><span style="font-size: medium;"><span style="line-height: 115%;"><br /> </span></span></q>
-                           <q xml:lang="en"><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fol. 84v: Pray &#8220;B&#228;-s&#601;m&#228; &#704;Ab&#8220; recite &#8220;&#7779;&#228;lot&#228; b&#228;r&#228;d m&#601;d&#601;myas&#8221; three times &#8230; </span><br /> </span></q>
-                           <p/>
+                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span unicode="" style="font-size: 10pt"><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:TargetScreenSize>800x600</o:TargetScreenSize> </o:OfficeDocumentSettings> </xml><![endif]--></span><span unicode="" style="font-size: 10pt">Fol. 84v: Magic prayer against the destruction of harvest by hail.</span></div><q xml:lang="gez"><p><span style="font-size: medium;"><span style="line-height: 115%;"><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fol. 84v: </span></span></span><span style="font-size: medium;"><span style="line-height: 115%;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4920;&#4622;&#4720;&#4961; &#4704;&#4648;&#4853;&#4961; &#4637;&#4853;&#4637;&#4843;&#4661;&#4961; &#4971;&#4874;&#4828; &#8230;</span></span></span><span style="font-size: medium;"><span style="line-height: 115%;"><br /> </span></span></p></q>
+                           <q xml:lang="en"><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fol. 84v: Pray &#8220;B&#228;-s&#601;m&#228; &#704;Ab&#8220; recite &#8220;&#7779;&#228;lot&#228; b&#228;r&#228;d m&#601;d&#601;myas&#8221; three times &#8230; </span><br /> </span></p></q>
+                           <p>Crude written in violet ink, partly unreadable.</p>
                         </item>
                         <item xml:id="e1">- Writing exercises: fols. 1r, 1v, 2r, 2v.&#xD;
 - Pen trial in fol. 1v. &#xD;
@@ -174,7 +171,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0131BÃ¤Ë&#x81;attiQÓ&#x99;ddusMikaË&#x80;el">BÃ¤Ë&#x81;atti QÓ&#x99;ddus MikaË&#x80;el  / DMB</placeName>
+                        <placeName corresp="INS0131DMB">BÃ¤Ë&#x81;atti QÓ&#x99;ddus MikaË&#x80;el  / DMB</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850"/>
                   </origin>
@@ -216,8 +213,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Śǝllase</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -240,7 +236,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-10">registered</change>
          <change who="AA" when="2012-09-28T13:38:32.565Z">created</change>
          <change who="DN" when="2014-08-22T10:48:07.937Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

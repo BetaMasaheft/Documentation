@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0208BetMuḵaʿMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0208BMQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BMQM-005</idno>
                </msIdentifier>
                <msContents>
@@ -45,7 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <note/>
                   </msItem>
                   <msItem xml:id="coloph1">
-                     <colophon>Fol. 143ra: <span style="font-size: large;">&#4704;&#4829;&#4840;&#4961; &#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4941;&#4725;&#4629;&#4725;&#4961; &#4874;&#4828;&#4961; &#4978;&#4808;&#4969; &#4656;&#4819;&#4725;&#4961; &#4704;&#4821;&#4616;&#4720;&#4961; &#4648;&#4705;&#4821;&#4961; &#4768;&#4632;&#4961; &#4979;&#4808;&#4976;&#4961; &#4616;&#4808;&#4653;&#4739;&#4961; &#4779;&#4753;&#4757;&#4962; &#4808;&#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4776;&#4611;&#4618;&#4961; &#4808;&#4899;&#4754;&#4961; &#4808;&#4936;&#4923;&#4634;&#4961; &#4824;&#4768;&#4640;&#4621;&#4896;&#4752;&#4754;&#4961; &#4808;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4704;&#4851;&#4741;&#4755;&#4961; &#4808;&#4704;&#4656;&#4619;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span>The colophon states that the Ms. was finished on Wednesday the 28th of the month Kanun (the Arabic month?).</colophon>
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;">Fol. 143ra:</span> <span style="font-size: large;">&#4704;&#4829;&#4840;&#4961; &#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4941;&#4725;&#4629;&#4725;&#4961; &#4874;&#4828;&#4961; &#4978;&#4808;&#4969; &#4656;&#4819;&#4725;&#4961; &#4704;&#4821;&#4616;&#4720;&#4961; &#4648;&#4705;&#4821;&#4961; &#4768;&#4632;&#4961; &#4979;&#4808;&#4976;&#4961; &#4616;&#4808;&#4653;&#4739;&#4961; &#4779;&#4753;&#4757;&#4962; &#4808;&#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4776;&#4611;&#4618;&#4961; &#4808;&#4899;&#4754;&#4961; &#4808;&#4936;&#4923;&#4634;&#4961; &#4824;&#4768;&#4640;&#4621;&#4896;&#4752;&#4754;&#4961; &#4808;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4704;&#4851;&#4741;&#4755;&#4961; &#4808;&#4704;&#4656;&#4619;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span></p><foreign xml:lang="en"/>
+                        <note>The colophon states that the Ms. was finished on Wednesday the 28th of the month Kanun (the Arabic month?).</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -54,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">143.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">143.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">28.0</height>
                               <width unit="cm">23.0</width>
@@ -133,7 +134,7 @@ Quires VIII and IX are wrongly numbered.</item>
                         <condition key="good">The Ms. shows traces of intensive use: several fols. are stained with wax and dirt, on some (e.g. fol. 139-140) the text is hardly readable. The Ms. has been resewn. Holes or tears amended on fols. 24, 30, 38, 39, 72, 83, 116, 117.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>196</height>
                               <width>175</width>
@@ -146,42 +147,57 @@ Quires VIII and IX are wrongly numbered.</item>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data from fol. 66r.</ab>
+                           <note>All data from fol. 66r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe did not use the bottom ruled line on fol. 66va.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th - early 20th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Ḫaylä ʾIyäsus, ʾAfä Wärq (Gäbrä Śǝllase)</persName>Additio 1 mentions brothers rǝʾǝsä däbr Ḫaylä ʾIyäsus and märigeta ʾAfä Wärq whose baptismal name is Gäbrä Śǝllase as the scribes. However, it the presense of two hands cannot be immediately confirmed.<date>Late 19th - early 20th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሃ፡ሃ፡ሃ፡(ሃ፡)</abbr> for <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 10rab, 10vab, 11rab, 13rab)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 14vb, 15va)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 14vb, 15rb, 15va)</item>
+                           <item>
+                              <abbr>ይ፡ ሕ፡ / ይበ፡ ሕዝ፡ / ይ፡ ሕዝ፡</abbr> for <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 15rb, 15vb, 17va)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ ለዛቲ፡ ነፍስ፡ </expan> (e.g., fol. 36ra)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 41vab, 42rab)</item>
+                           <item>
+                              <abbr>ቡራ፡</abbr> for <expan>ቡራኬ፡ </expan> (e.g., fol. 101ra)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 143rb: Ownership note.</locus>
-                           <q xml:lang="gez">Fol. 143rb:&#160;<span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4708;&#4720;&#4961; &#4637;&#4787;&#4821;&#4961; <span style="font-size: small;">{</span>&#4853;&#4757;&#4877;&#4616;&#4725;<span style="font-size: small;">}</span></span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span> &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; <span style="font-size: small;">[vac.]</span>&#4704;&#4642;&#4632;&#4721;&#4961; </span><span style="font-size: small;">[</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">vac.]</span></span>&#4773;&#4961; &#4808;&#4920;&#4624;&#4941;&#4843;&#4754;&#4609;&#4961; &#4970;&#4768;&#4739;&#4813;&#4961; &#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4739;&#4845;&#4616;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4632;&#4650;&#4961; &#4876;&#4723;&#4961; &#4768;&#4936;&#4961; &#4808;&#4653;&#4677;&#4961; &#4824;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#8230;</span></q>
+                           <locus/><p>Fol. 143rb: Ownership note.</p><q xml:lang="gez"><p>Fol. 143rb:&#160;<span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4708;&#4720;&#4961; &#4637;&#4787;&#4821;&#4961; <span style="font-size: small;">{</span>&#4853;&#4757;&#4877;&#4616;&#4725;<span style="font-size: small;">}</span></span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span> &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; <span style="font-size: small;">[vac.]</span>&#4704;&#4642;&#4632;&#4721;&#4961; </span><span style="font-size: small;">[</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">vac.]</span></span>&#4773;&#4961; &#4808;&#4920;&#4624;&#4941;&#4843;&#4754;&#4609;&#4961; &#4970;&#4768;&#4739;&#4813;&#4961; &#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4739;&#4845;&#4616;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4632;&#4650;&#4961; &#4876;&#4723;&#4961; &#4768;&#4936;&#4961; &#4808;&#4653;&#4677;&#4961; &#4824;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#8230;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the main hand. It states that the book belongs to the church of Qǝddus Mikaʾel Bet Mukwaʿ Dǝngǝlät and mentions ʾabunä Gäbrä ʾƎgziʾabǝḥer as the commissioner and brothers rǝʾǝsä däbr Ḫaylä ʾIyäsus and märigeta ʾAfä Wärq whose baptismal name is Gäbrä Śǝllase as the scribes.</p>
                         </item>
                         <item xml:id="e1">- Erasures marked by thin lines: e.g., fols. 3rb, 31vb, 56ra, 76rb, 78ra.&#xD;
 - Corrections written over erasures: e.g., fols. 3ra, 7ra, 10ra, 11va, 17vb, 29va.&#xD;
@@ -206,7 +222,7 @@ The scribe did not use the bottom ruled line on fol. 66va.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0208BetMuḵaʿMikaʾel">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
+                        <placeName corresp="INS0208BMQM">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
                      </origPlace>
                      <origDate notBefore="1889" notAfter="1913">King Menilǝk (r. 1889-1913) is mentioned on fols. 34ra, 46ra. Metroppolitan ʾabba Ṗeṭros (in tenure 1881-1917) is mentioned on fol. 46ra.</origDate>
                   </origin>
@@ -249,8 +265,7 @@ The names of the donors have been erased: e.g., fols. 47va, 48rb, 55rab, 58vb, 6
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Ḫaylä ʾIyäsus, ʾAfä Wärq (Gäbrä Śǝllase)</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -273,7 +288,7 @@ The names of the donors have been erased: e.g., fols. 47va, 48rb, 55rab, 58vb, 6
          <change who="DN" when="2011-12-08">registered</change>
          <change who="VR" when="2015-04-27T12:37:02.782Z">created</change>
          <change who="DN" when="2015-05-28T16:07:17.052Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

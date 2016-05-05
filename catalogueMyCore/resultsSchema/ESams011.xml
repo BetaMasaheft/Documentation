@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä ʾasləṭi, Lectionary for the entire year</title>
+            <title>Mäṣḥafä ʾaslәṭi, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0225Ë&#x81;ArÃ¤bayQÉ&#x99;ddusMikaË&#x80;el"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0225AMS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMS-011</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipit of Text I and its sections; titles of books to be read; abbreviation of the directive yəbəl diyaqon, “the deacon says”; notes written in the upper margins; elements of the punctuation signs; elements of Ethiopic numbers.&#xD;
+                     <rubric>Nomina sacra; incipit of Text I and its sections; titles of books to be read; abbreviation of the directive yәbәl diyaqon, “the deacon says”; notes written in the upper margins; elements of the punctuation signs; elements of Ethiopic numbers.&#xD;
 On the incipit page of Texts I (fol. 5r) a few lines are rubricated (alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -52,9 +52,7 @@ On the incipit page of Texts I (fol. 5r) a few lines are rubricated (alternating
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">69.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">7.0</measure> blank, in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">69.0</measure> folios, of which <measure unit="leaf" type="blank">7.0</measure> blank, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">17.8</width>
@@ -106,17 +104,18 @@ On the incipit page of Texts I (fol. 5r) a few lines are rubricated (alternating
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, vivid red, reddish-brown.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century.</date>
+                        <list type="abbreviations">
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 69v: Purchase note.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 69v: Purchase note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written in Amharic with a blue pencil. The date 1937 A.M. (=1944/45 A.D.) is mentioned.</p>
                         </item>
                         <item xml:id="e1">- Hardly readable notes (pen trials?): fols. 68r, 69v.&#xD;
 - In fols. 21ra, three last lines of the column are not used.</item>
@@ -138,7 +137,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0225Ë&#x81;ArÃ¤bayQÉ&#x99;ddusMikaË&#x80;el">Ë&#x81;ArÃ¤bay QÉ&#x99;ddus MikaË&#x80;el / AMS</placeName>
+                        <placeName corresp="INS0225AMS">Ë&#x81;ArÃ¤bay QÉ&#x99;ddus MikaË&#x80;el / AMS</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. Additio 1 mentions 1937 A.M. (=1944/45 A.D.) as the purchase date of the Ms.</origDate>
                   </origin>
@@ -180,10 +179,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -205,7 +200,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2012-05-30">registered</change>
          <change who="SA" when="2013-02-08T13:53:07.130Z">created</change>
          <change who="DN" when="2015-01-28T13:56:08.713Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

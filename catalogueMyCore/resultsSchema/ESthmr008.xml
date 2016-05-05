@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0194MayRazaTÃ¤klÃ¤Haymanot"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0194THMR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>THMR-008</idno>
                </msIdentifier>
                <msContents>
@@ -61,9 +61,7 @@ Two initial lines of Text V; initial lines of sections; a few words (e.g., säla
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">167.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">5.0</measure> blank, in
-                                                <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">167.0</measure> folios, of which <measure unit="leaf" type="blank">5.0</measure> blank, in <measure unit="quire">21.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.5</height>
                               <width unit="cm">17.0</width>
@@ -154,7 +152,7 @@ The first and the last fols. of the codex are slightly damaged. &#xD;
 Numerous fols. are stained with water and wax.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>130</height>
                               <width>130</width>
@@ -167,28 +165,53 @@ Numerous fols. are stained with water and wax.</condition>
                               <dim type="left">13</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling">22-35 (Texts III, IV, V), 28 (Text X)</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful.</ab>
                         <seg type="ink">Black, red, vivid red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>From late 17th cent. to mid 18th cent.</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>The scribe of the Ms. is possibly Zä-Wäldä Maryam because of certain characteristic features of his handwriting (s. Handwriting; cp. TRM-017).<date>From late 17th cent. to mid 18th cent.</date>
+                        <list type="abbreviations">
+                           <item>Some of the abbreviations used throughout the text:</item>
+                           <item>ሠረ፡ for ሠረቀ፡</item>
+                           <item>እስ፡ for እስመ፡</item>
+                           <item>ሰ፤ ለ፤ቅ፡ for ሰአሊ፡ ለነ፡ ቅድስት፡</item>
+                           <item>ተፈ፡ for ተፈሥሒ፡</item>
+                           <item>ይ፡ ካህ፡ for ይቤ፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                           <item>ይ፡ ሕ፡ for ይቤ፡ ሕዝብ፡</item>
+                           <item>ም፡ for ምዕራፍ፡</item>
+                           <item>ዘ፡ for ዘኅብረት፡</item>
+                           <item>ስም፡ for ስምዓኒ፡</item>
+                           <item>ማ፡, ማኅ፡, ማኅሌ፡ for ማኅሌት፡</item>
+                           <item>ም፡, ምል፡, ምልጣ፡ for ምልጣን፡</item>
+                           <item>መስ፡, መስባ፡ for መስባክ፡</item>
+                           <item>መስተብ፡ for መስተብቍዕ፡</item>
+                           <item>ምቅና፡ for ምቅናይ፡</item>
+                           <item>መዝ፡, መዝሙ፡ for መዝሙር፡</item>
+                           <item>ይት፡, ይትባ፡ for ይትባረክ፡</item>
+                           <item>ሃ፡ for ሃሌሉያ፡</item>
+                           <item>ሰ፡, ሰላ፡ for ሰላም፡</item>
+                           <item>ወል፡ ሣ፡ ይ፡ ሰ፡ for ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡</item>
+                           <item>
+                              <abbr>Repeated versicles are often written in an abbreviated form, e.g., ር፤ዕ፤ለዮ stands</abbr> for <expan>ርእዩ፡ ዕበዩ፡ ለዮሐንስ፡ </expan> (fol. 40rb l.14).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">ሠ has got a double line in the middle, ል has got a long top end, አ and its derivations have a clear gap between the upper and the lower part. </handNote>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -211,22 +234,19 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 12ra: Purchase note.&#160;</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in red ink; the name of the buyer has been erased.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 160vb: List of biblical names.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 160vb: List of biblical names.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>It is partly a genealogy, partly a list of prophets. Probably written by the same hand as the main text, in ink.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div><span style="font-size: small"><span style="line-height: 115%">Fol. 167v: Prayer to God the Father.</span></span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written in ink, probably later than the main text; difficult to understand. The text in column a is blurred.</p>
                         </item>
                         <item xml:id="e1">- Text II contains some parts of Mǝʿǝraf, The Common of the Office.&#xD;
 - Pen trial with the signature of a scribe (not of the main scribe): fol. 1v.&#xD;
@@ -262,7 +282,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0194MayRazaTÃ¤klÃ¤Haymanot">May Raza TÃ¤klÃ¤ Haymanot / THMR</placeName>
+                        <placeName corresp="INS0194THMR">May Raza TÃ¤klÃ¤ Haymanot / THMR</placeName>
                      </origPlace>
                      <origDate notBefore="1682" notAfter="1755">The name of King ʾIyasu is mentioned in fols. 17va l.1, 7; 27rb l.15, 27va l.5, 28rb l.8. He might be either ʾIyasu I (r. 1682-1706) or ʾIyasu II (r. 1730-55). If the scribe is Zä-Wäldä Maryam, who lived around mid 18th cent., then the Ms. was produced in the reign of ʾIyasu II.</origDate>
                   </origin>
@@ -304,8 +324,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -328,7 +347,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-12-01">registered</change>
          <change who="MK" when="2012-03-22T09:04:05.118Z">created</change>
          <change who="DN" when="2014-09-17T11:55:04.397Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

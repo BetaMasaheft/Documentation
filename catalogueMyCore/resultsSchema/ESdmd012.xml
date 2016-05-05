@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Scriptural readings for the Night Hours / Rəʾəyä täʾamər, Vision of St. John the Evangelist about the Miracles of Mary / Mäṣḥafä gəṣṣəw, Lectionary for the entire year</title>
+            <title>Scriptural readings for the Night Hours / Rәʾәyä täʾamәr, Vision of St. John the Evangelist about the Miracles of Mary / Mäṣḥafä gәṣṣәw, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0129DÇ&#x9d;blaYoá¸¥annÇ&#x9d;sMÃ¤á¹­mÇ&#x9d;q"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0129DMD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMD-012</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; incipit of Text I and its sections; first two lines of Text II and its sections; first two lines of Text III-1; first two lines of Text III-2; titles of books to be read; directives to the ministers; the word barəkännä, “bless us” in Text I-2 (fols. 5rb-6ra); abbreviation of the directives yəbəl kahən, “the priest says”, yəbəl diyaqon, “the deacon says” and yəbəl ḥəzb, “the people say” in Text III-2 (fol. 83ra); elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; names of the donors; incipit of Text I and its sections; first two lines of Text II and its sections; first two lines of Text III-1; first two lines of Text III-2; titles of books to be read; directives to the ministers; the word barәkännä, “bless us” in Text I-2 (fols. 5rb-6ra); abbreviation of the directives yәbәl kahәn, “the priest says”, yәbәl diyaqon, “the deacon says” and yәbәl ḥәzb, “the people say” in Text III-2 (fol. 83ra); elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
 On the incipit page of Texts I, III-1 and III-2 (fols. 3r, 22va, 80vb) a few lines are rubricated (alternating with black lines). On fol. 103rb, a few lines are rubricated (alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -52,9 +52,7 @@ On the incipit page of Texts I, III-1 and III-2 (fols. 3r, 22va, 80vb) a few lin
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">116.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">3.0</measure> blank, in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">116.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">16.5</width>
@@ -115,7 +113,7 @@ On the incipit page of Texts I, III-1 and III-2 (fols. 3r, 22va, 80vb) a few lin
                         <condition key="good">Cuts carefully amended in fols. 30, 54.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>145</height>
                               <width>125</width>
@@ -128,37 +126,41 @@ On the incipit page of Texts I, III-1 and III-2 (fols. 3r, 22va, 80vb) a few lin
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, vivid red, reddish-brown.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of 20th century.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይብል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ for ይብል፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 116rb: Donation note.</locus>
-                           <q xml:lang="gez">Fol. 116rb: <span style="font-size: large;">&#4704;&#4978;&#4808;&#4977;&#4987;&#4808;&#4980;&#4961; &#4768;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4877;&#4925;&#4813;&#4961; &#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4611;&#4616;&#4675;&#4961; &#4720;&#4936;&#4650;&#4961; &#4611;&#4616;&#4675;&#4961; &#4877;&#4653;&#4635;&#4845;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4848;&#4709;&#4619;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4962; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4704;&#4645;&#4621;&#4899;&#4753;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4675;&#4616;&#4961; &#4978;&#4808;&#4970;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4962;</span></q>
+                           <locus/><p>Fol. 116rb: Donation note.</p><q xml:lang="gez"><p>Fol. 116rb: <span style="font-size: large;">&#4704;&#4978;&#4808;&#4977;&#4987;&#4808;&#4980;&#4961; &#4768;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4877;&#4925;&#4813;&#4961; &#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4611;&#4616;&#4675;&#4961; &#4720;&#4936;&#4650;&#4961; &#4611;&#4616;&#4675;&#4961; &#4877;&#4653;&#4635;&#4845;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4848;&#4709;&#4619;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4962; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4704;&#4645;&#4621;&#4899;&#4753;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4675;&#4616;&#4961; &#4978;&#4808;&#4970;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The names of the donors, haläqa Täfäri and haläqa Gәrmay, the date of the donation, 1930 A.M. (=1937/38 A.D.) and the name of the church which received the donation, Yoḥannǝs Mäṭmǝq Dǝbla, are mentioned.</p>
                         </item>
                         <item xml:id="e1">- Unreadable stamp: fol. 2v.&#xD;
 - Crude drawings of crosses in pencil: fols. 2r-2v.&#xD;
@@ -181,7 +183,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0129DÇ&#x9d;blaYoá¸¥annÇ&#x9d;sMÃ¤á¹­mÇ&#x9d;q">DÇ&#x9d;bla Yoá¸¥annÇ&#x9d;s MÃ¤á¹­mÇ&#x9d;q / DMD</placeName>
+                        <placeName corresp="INS0129DMD">DÇ&#x9d;bla Yoá¸¥annÇ&#x9d;s MÃ¤á¹­mÇ&#x9d;q / DMD</placeName>
                      </origPlace>
                      <origDate notBefore="1900" notAfter="1950">First half of the 20th cent.</origDate>
                   </origin>
@@ -218,13 +220,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">haläqa Täfäri and haläqa Gərmay (s. Additio 1). Names of other individuals are mentioned in the supplication formulas: Gäbrä Maryam (e.g. fols. 10ra, 43ra, 45va), ʾabunä Wäldä Mikaʾel (e.g. fols. 13ra, 91rb, 99rb), Wälättä Mädḫən (e.g. fols. 22va, 38vb, 55ra), Taʿəka Śəllase (e.g. fols. 25va, 29ra, 42vb), Wälättä Täklä Haymanot (e.g. fols. 32rb, 44ra, 69rb), Ḥabtä Mikaʾel (e.g. fols. 34va, 37rb, 57vb), ʾabunä Gäbrä Śəllase (fols. 22va, 92rb, 96vb), Gäbrä ʾƎgziʾabəḥer (fols. 31rb, 100ra), ʿAmätä ʿAbiyä ʾƎgziʾ (fols. 80vb, 98rb), Gäbrä Ḫəywät (fols. 93rb, 103va).</persName>
+                  <persName corresp="PRS0000">haläqa Täfäri and haläqa Gәrmay (s. Additio 1). Names of other individuals are mentioned in the supplication formulas: Gäbrä Maryam (e.g. fols. 10ra, 43ra, 45va), ʾabunä Wäldä Mikaʾel (e.g. fols. 13ra, 91rb, 99rb), Wälättä Mädḫәn (e.g. fols. 22va, 38vb, 55ra), Taʿәka Śәllase (e.g. fols. 25va, 29ra, 42vb), Wälättä Täklä Haymanot (e.g. fols. 32rb, 44ra, 69rb), Ḥabtä Mikaʾel (e.g. fols. 34va, 37rb, 57vb), ʾabunä Gäbrä Śәllase (fols. 22va, 92rb, 96vb), Gäbrä ʾƎgziʾabәḥer (fols. 31rb, 100ra), ʿAmätä ʿAbiyä ʾƎgziʾ (fols. 80vb, 98rb), Gäbrä Ḫәywät (fols. 93rb, 103va).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -247,7 +245,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-09">registered</change>
          <change who="SA" when="2013-02-06T14:52:49.683Z">created</change>
          <change who="SD" when="2014-09-24T13:33:25.604Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

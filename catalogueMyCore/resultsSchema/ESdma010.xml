@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0099ʾAḥzäraMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0099DMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMA-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">37.0</measure> folios,
-                                                in
-                                                <measure unit="quire">5.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">37.0</measure> folios, in <measure unit="quire">5.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.0</height>
                               <width unit="cm">14.5</width>
@@ -93,7 +91,7 @@ The Ms. was probably resewn.&#xD;
 The ink is faded on fols. 10r, 17v.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>150</height>
                               <width>115</width>
@@ -106,28 +104,28 @@ The ink is faded on fols. 10r, 17v.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 3r.</ab>
+                           <note>All data are for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th century</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä ʾƎgziʾabǝḥer</persName>Gäbrä ʾƎgziʾabǝḥer is mentioned as the scribe in a few supplications (fols. 7ra, 12ra). Furthermore, he is referred to as the husband of ʿAmätä Ṣǝyon (e.g., fols. 5va, 11ra, 24ra). The same scribe produced Ms. GKM-012.<date>Late 19th century</date>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -148,7 +146,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0099ʾAḥzäraMaryam">ʾAḥzära  Maryam /DMA</placeName>
+                        <placeName corresp="INS0099DMA">ʾAḥzära  Maryam /DMA</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent. (?)</origDate>
                   </origin>
@@ -190,8 +188,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä ʾƎgziʾabǝḥer</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -215,7 +212,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-24">registered</change>
          <change who="SH" when="2014-04-30T13:15:24.616Z">created</change>
          <change who="EG" when="2014-11-06T07:55:49.771Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

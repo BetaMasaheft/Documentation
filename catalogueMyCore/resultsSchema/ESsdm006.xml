@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0177SDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SDM-006</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipit of Text I; directives to the minister and their abbreviations; title of books to be read; the word ʾəgäle in fol. 6v; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; incipit of Text I; directives to the minister and their abbreviations; title of books to be read; the word ʾәgäle in fol. 6v; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
 On the incipit page of Text I (fol. 1r), few lines are rubricated (alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fol. 1r), few lines are rubricated (alternating w
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">55.0</measure> folios,
-                                                in
-                                                <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">55.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">10.0</width>
@@ -94,7 +92,7 @@ Some fols. are worn and stained with dirt (e.g. fols. 22-23).&#xD;
 Fols. 40r-45v (quire V) are of a smaller size.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="17">
                            <dimensions unit="mm">
                               <height>100</height>
                               <width>75</width>
@@ -107,21 +105,23 @@ Fols. 40r-45v (quire V) are of a smaller size.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r (fols. 1r-45r).</ab>
+                           <note>All data for fol. 2r (fols. 1r-45r).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="1" writtenLines="15">
                            <dimensions unit="mm">
                               <height>98</height>
                               <width>78</width>
@@ -134,30 +134,35 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 47r (fols. 46r-55r)</ab>
+                           <note>All data for fol. 47r (fols. 46r-55r)</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre; hand b: mediocre.</ab>
                         <seg type="ink">Black, reddish-brown</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይብል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 1r-45r.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 46r-55r.</handNote>
@@ -177,7 +182,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
+                        <placeName corresp="INS0177SDM">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?).&#xD;
 Quire VI was added later.</origDate>
@@ -220,10 +225,6 @@ Quire VI was added later.</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -244,7 +245,7 @@ Quire VI was added later.</origDate>
          <change who="DN" when="2011-05-16">registered</change>
          <change who="SA" when="2014-07-31T15:12:03.578Z">created</change>
          <change who="SH" when="2014-09-15T13:09:16.082Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

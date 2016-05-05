@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gädlä Gäbrä Mänfäs Qəddus "Vita of Gäbrä Mänfäs Qəddus" / Täʾamrä Gäbrä Mänfäs Qǝddus "Miracles of Gäbrä Mänfäs Qǝddus"</title>
+            <title>Gädlä Gäbrä Mänfäs Qәddus "Vita of Gäbrä Mänfäs Qәddus" / Täʾamrä Gäbrä Mänfäs Qǝddus "Miracles of Gäbrä Mänfäs Qǝddus"</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0113NÓ&#x99;á¸¥biQÓ&#x99;ddusMikaË&#x80;el"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0113NSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>NSM-005</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Omitted letters are written interlineally in red (e.g., fols. 39vb, 46rb, 50vb, 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">164.0</measure> folios,
-                                                in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">164.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.5</height>
                               <width unit="cm">20.0</width>
@@ -138,7 +136,7 @@ Omitted letters are written interlineally in red (e.g., fols. 39vb, 46rb, 50vb, 
                         <condition key="good">Holes and tears carefully amended on fols. 37, 100, 164.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="12">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>146</width>
@@ -151,34 +149,38 @@ Omitted letters are written interlineally in red (e.g., fols. 39vb, 46rb, 50vb, 
                               <dim type="left">15</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/J. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 (On some fols. 1A-1A-1A1A/0-0/0-0/G).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Fols. 23 and 28 have additional horizontal and vertical lines in the upper and outer margins.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Early 18th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (in Text I: e.g., fols. 1rb, 1vb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -192,28 +194,24 @@ Fols. 23 and 28 have additional horizontal and vertical lines in the upper and o
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00">Fols. 1ra-2ra:&#160;<span unicode="" style="line-height: 115%; font-size: 9pt">M&#228;lk&#601;&#704;a G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus "Image of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus", incomplete.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fols. 1ra-2ra:&#160;<span unicode="" style="line-height: 115%; font-size: 9pt">M&#228;lk&#601;&#704;a G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus "Image of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus", incomplete.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written in poor hand; the letters are very irregular and angular in shape.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 9pt">Fol. 127vb: Donation note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 9pt">Fol. 127vb: Donation note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Gäbrä ʾArägawi is mentioned as the purchaser and donor. Other persons mentioned are his father Mäzgäbä Śǝllase and a certain Wälättä Krǝstos. The note is crudely written in strong amaranth over another, erased note in black (in which the names partly remained). The handwriting is similar but not identical to the hand of GMG-017.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span unicode="" style="line-height: 115%; font-size: 9pt">Fol. 162vb: Record concerning the commemoration days of the donor's family members (?).</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span unicode="" style="line-height: 115%; font-size: 9pt">Fol. 162vb: Record concerning the commemoration days of the donor's family members (?).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>ʿAmdä Mikaʾel died on 22th Däqsyos (= Taḫśaś). The donor's (?) father died on 5th Yäkkatit and the mother on 8th Mizya[sic].</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00"><span style="line-height: 115%; font-size: 9pt">Fols. 163rb-164rb: Genealogy (from </span><span style="line-height: 115%; font-size: 9pt">&#381;</span><span style="line-height: 115%; font-size: 9pt">&#228;m&#228;l to </span><span style="line-height: 115%; font-size: 9pt">W&#477;ddase Maryam [n.l.] T&#228;klat</span><span style="line-height: 115%; font-size: 9pt">).</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 9pt">Fols. 163rb-164rb: Genealogy (from </span><span style="line-height: 115%; font-size: 9pt">&#381;</span><span style="line-height: 115%; font-size: 9pt">&#228;m&#228;l to </span><span style="line-height: 115%; font-size: 9pt">W&#477;ddase Maryam [n.l.] T&#228;klat</span><span style="line-height: 115%; font-size: 9pt">).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The genealogy is written in Amharic and Gәʿәz.</p>
                         </item>
                         <item xml:id="e1">- Corrections written over erased words and passages, in different hands: e.g., fols. 6vb, 8va, 9rb, 14ra, 22va, 67rb, 69ra, 71ra, 130ra.&#xD;
 - Erased notes: fols. 5v, 6r, 7v, 10r, 13v, 17v, 32r, 34r, 96r, 97v, 100ra, 101v, 102r, 105v, 107v, 131v, 132r, 153v, 154rv.&#xD;
@@ -239,7 +237,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0113NÓ&#x99;á¸¥biQÓ&#x99;ddusMikaË&#x80;el">NÓ&#x99;á¸¥bi QÓ&#x99;ddus MikaË&#x80;el / NSM</placeName>
+                        <placeName corresp="INS0113NSM">NÓ&#x99;á¸¥bi QÓ&#x99;ddus MikaË&#x80;el / NSM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1750">Early 18th cent. (?)</origDate>
                   </origin>
@@ -281,10 +279,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -306,7 +300,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-25">registered</change>
          <change who="SH" when="2013-03-12T12:34:17.566Z">created</change>
          <change who="MV" when="2015-05-28T12:52:48.773Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

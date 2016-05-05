@@ -30,7 +30,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INSNaN"/>
-                  <collection>Ethio-Spare</collection>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QQM-014</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">111.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">111.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">17.5</width>
@@ -131,7 +129,7 @@ Holes or tears amended on fols. 13, 64.&#xD;
 Some fols. are affected by water (at the end of the codex).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>175</height>
                               <width>140</width>
@@ -144,49 +142,50 @@ Some fols. are affected by water (at the end of the codex).</condition>
                               <dim type="left">13</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 49r.</ab>
+                           <note>All data are for fol. 49r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓለመ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 105va)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-weight: normal;">Fol. 109va: Protective prayer against "anxiety" (&#7716;&#477;mam&#228; d&#477;nga&#7693;e).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="font-weight: normal;">Fol. 109va: Protective prayer against "anxiety" (&#7716;&#477;mam&#228; d&#477;nga&#7693;e).</span></span></p><q xml:lang="gez"><div><span style="font-size: small;"><span style="font-weight: normal;">Fol. 109va: </span></span><span style="font-size: large;"><span style="font-weight: normal;">&#4920;&#4622;&#4725;&#4961;</span><span style="font-weight: normal;"> &#4704;&#4773;&#4757;&#4720;&#4961;</span><span style="font-weight: normal;"> &#4629;&#4635;&#4632;&#4961;</span><span style="font-weight: normal;"> &#4853;&#4757;&#4875;&#4924;&#4961; </span><span style="font-weight: normal;">&#4707;&#4653;&#4776;&#4754;&#4961;</span><span style="font-weight: normal;"> &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; </span><span style="font-weight: normal;">&#4653;&#4853;&#4768;&#4754;&#4961;</span><span style="font-weight: normal;"> &#4808;&#4768;&#4853;&#4741;&#4752;&#4754;&#4961;</span><span style="font-weight: normal;"> &#4773;&#4635;&#4773;&#4637;&#4672;&#4961;</span><span style="font-weight: normal;"> &#4637;&#4853;&#4653;&#4961; </span><span style="font-weight: normal;">&#4808;&#4720;&#4752;&#4672;&#4941;&#4961; </span><span style="font-weight: normal;">&#4808;&#4813;&#4877;&#4648;&#4720;&#4961;</span><span style="font-weight: normal;"> &#4773;&#4709;&#4757;&#4961;</span><span style="font-weight: normal;">...</span></span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the same hand as Additiones 2 and 3. The names of Wäldä Maryam and Kidanä Maryam are written over erasure.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-weight: normal;">Fol. 109vb: Protective prayer </span><span style="font-weight: normal;">against</span><span style="font-weight: normal;"> eye disease (&#7716;&#477;mam&#228; &#705;ayn).</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-weight: normal;">Fol. 109vb: </span></span><span style="font-size: large;"><span style="font-weight: normal;">&#4920;&#4622;&#4725;&#4961;</span><span style="font-weight: normal;"> &#4704;&#4773;&#4757;&#4720;&#4961;</span><span style="font-weight: normal;"> &#4629;&#4635;&#4632;&#4961; </span><span style="font-weight: normal;">&#4816;&#4845;&#4757;&#4961; </span><span style="font-weight: normal;">&#4840;&#4768;&#4624;&#4866;&#4637;&#4961; </span><span style="font-weight: normal;">&#4843;&#4672;&#4624;&#4866;&#4637;&#4961;</span><span style="font-weight: normal;"> &#4782;&#4781;&#4638;&#4661;&#4961;</span><span style="font-weight: normal;"> &#4773;&#4621;&#4757;&#4849;&#4661;&#4961;</span><span style="font-weight: normal;"> &#4773;&#4621;&#4677;&#4757;&#4726;&#4661;&#4961;</span><span style="font-weight: normal;"> &#4651;&#4768;&#4725;&#4961;</span><span style="font-weight: normal;"> &#4829;&#4757;&#4721;&#4961; </span><span style="font-weight: normal;">&#4768;&#4661;&#4635;&#4722;&#4776;&#4961;</span><span style="font-weight: normal;"> &#4768;&#4848;&#4741;&#4758;</span><span style="font-size: small;"><span style="font-weight: normal;">[sic]</span></span><span style="font-weight: normal;">&#4961;</span><span style="font-weight: normal;"> &#4616;&#4872;&#4709;&#4653;&#4776;&#4961; </span><span style="font-weight: normal;">&#4808;&#4621;&#4848;&#4961;</span><span style="font-weight: normal;"> &#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="font-weight: normal;"> ...</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-weight: normal;">Fol. 109vb: Protective prayer </span><span style="font-weight: normal;">against</span><span style="font-weight: normal;"> eye disease (&#7716;&#477;mam&#228; &#705;ayn).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-weight: normal;">Fol. 109vb: </span></span><span style="font-size: large;"><span style="font-weight: normal;">&#4920;&#4622;&#4725;&#4961;</span><span style="font-weight: normal;"> &#4704;&#4773;&#4757;&#4720;&#4961;</span><span style="font-weight: normal;"> &#4629;&#4635;&#4632;&#4961; </span><span style="font-weight: normal;">&#4816;&#4845;&#4757;&#4961; </span><span style="font-weight: normal;">&#4840;&#4768;&#4624;&#4866;&#4637;&#4961; </span><span style="font-weight: normal;">&#4843;&#4672;&#4624;&#4866;&#4637;&#4961;</span><span style="font-weight: normal;"> &#4782;&#4781;&#4638;&#4661;&#4961;</span><span style="font-weight: normal;"> &#4773;&#4621;&#4757;&#4849;&#4661;&#4961;</span><span style="font-weight: normal;"> &#4773;&#4621;&#4677;&#4757;&#4726;&#4661;&#4961;</span><span style="font-weight: normal;"> &#4651;&#4768;&#4725;&#4961;</span><span style="font-weight: normal;"> &#4829;&#4757;&#4721;&#4961; </span><span style="font-weight: normal;">&#4768;&#4661;&#4635;&#4722;&#4776;&#4961;</span><span style="font-weight: normal;"> &#4768;&#4848;&#4741;&#4758;</span><span style="font-size: small;"><span style="font-weight: normal;">[sic]</span></span><span style="font-weight: normal;">&#4961;</span><span style="font-weight: normal;"> &#4616;&#4872;&#4709;&#4653;&#4776;&#4961; </span><span style="font-weight: normal;">&#4808;&#4621;&#4848;&#4961;</span><span style="font-weight: normal;"> &#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="font-weight: normal;"> ...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the same hand as Additiones 1 and 3. The name of Wäldä Maryam is written over erasure.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-weight: normal;">Fol. 110ra: Protective prayer against the evil eye (&#7716;&#477;mam&#228; &#705;ayn&#228;t).</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-weight: normal;">Fol. 110ra:</span></span><span style="font-weight:normal;"> </span><span style="font-size: large;"><span style="font-weight: normal;">&#4704;</span></span><span style="font-size: large;"><span style="font-weight: normal;">&#4661;&#4632;&#4961;&#8221;&#8230; &#4768;&#4621;&#4779;&#4664;&#4821;&#4723;&#4961; &#4808;&#4779;&#4664;&#4821;&#4723;&#4961; &#4840;&#4768;&#4722;&#4866;&#4961; &#4768;&#4853;&#4741;&#4752;&#4754;&#4961; &#4773;&#4637;&#4710;&#4616;&#4853;&#4961; &#4616;&#4872;&#4709;&#4653;&#4776;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4629;&#4635;&#4632;&#4961; &#4819;&#4845;&#4752;&#4725;&#4961; </span><span style="font-weight: normal;">...</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-weight: normal;">Fol. 110ra: Protective prayer against the evil eye (&#7716;&#477;mam&#228; &#705;ayn&#228;t).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-weight: normal;">Fol. 110ra:</span></span><span style="font-weight:normal;"> </span><span style="font-size: large;"><span style="font-weight: normal;">&#4704;</span></span><span style="font-size: large;"><span style="font-weight: normal;">&#4661;&#4632;&#4961;&#8221;&#8230; &#4768;&#4621;&#4779;&#4664;&#4821;&#4723;&#4961; &#4808;&#4779;&#4664;&#4821;&#4723;&#4961; &#4840;&#4768;&#4722;&#4866;&#4961; &#4768;&#4853;&#4741;&#4752;&#4754;&#4961; &#4773;&#4637;&#4710;&#4616;&#4853;&#4961; &#4616;&#4872;&#4709;&#4653;&#4776;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4629;&#4635;&#4632;&#4961; &#4819;&#4845;&#4752;&#4725;&#4961; </span><span style="font-weight: normal;">...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Gǝʿǝz and Amharic, in the same hand as Additiones 2 and 3. The names of Wäldä Maryam and Gäbrä ʾƎgziʾabǝḥer are written over erasure.</p>
                         </item>
                         <item xml:id="e1">- Passages are written in a small script: fols. 31rb, 38rb.&#xD;
 - Corrections are written over erasures, in the main and in a secondary hand: e.g., fols. 4rb, 22vb, 47ra, 50ra, 50va, 57rb (several lines), 63rb, 72vb, 93rb.&#xD;
@@ -252,10 +251,6 @@ The bottom line is written above the ruling.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -277,7 +272,7 @@ The bottom line is written above the ruling.</ab>
          <change who="DN" when="2011-05-24">registered</change>
          <change who="SH" when="2014-05-26T13:04:52.482Z">created</change>
          <change who="SH" when="2014-11-05T11:57:03.783Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

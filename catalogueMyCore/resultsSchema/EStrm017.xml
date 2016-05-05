@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0179TahtayRuba"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0179TR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>TRM-017</idno>
                </msIdentifier>
                <msContents>
@@ -53,7 +53,9 @@ Sometimes only two or three initial letters of a word are rubricated.</rubric>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="164r">Fol. 164r</locus><span style="font-size: large;">&#4656;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4936;&#4899;&#4652;&#4961;<span style="font-size: small;"> [n.l.]</span> &#4636;&#4661; &#4808;&#4768;&#4656;&#4757;&#4843;&#4964; &#4616;&#4827;&#4722;&#4961; &#4632;&#4811;&#4645;&#4821;&#4725;&#4961; &#4616;&#4768;&#4936;&#4920;&#4632;&#4754;&#4843;&#4964; &#4845;&#4708;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4725;&#4637;&#4613;&#4653;&#4721;&#4961; &#4616;&#4773;&#4661;&#4898;&#4939;&#4758;&#4661;&#4961; &#4624;&#4811;&#4653;&#4843;&#4968; &#4824;&#4782;&#4752;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4704;&#4770;&#4725;&#4846;&#4917;&#4843;&#4968; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4633;&#4961; &#4808;&#4621;&#4848; &#4961; &#4768;&#4709;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4776;</span><span style="font-size: large;">&#4757;&#4843;&#4968;</span>The colophon is rhymed. The scribe Zä-Wäldä Maryam calls himself a disciple of ʾƎsṭifanos, the Ethiopian monk.</colophon>
+                        <locus target="164r">Fol. 164r</locus><p>Fol. 164r: <span style="font-size: large;">&#4656;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4936;&#4899;&#4652;&#4961;<span style="font-size: small;"> [n.l.]</span> &#4636;&#4661; &#4808;&#4768;&#4656;&#4757;&#4843;&#4964; &#4616;&#4827;&#4722;&#4961; &#4632;&#4811;&#4645;&#4821;&#4725;&#4961; &#4616;&#4768;&#4936;&#4920;&#4632;&#4754;&#4843;&#4964; &#4845;&#4708;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4725;&#4637;&#4613;&#4653;&#4721;&#4961; &#4616;&#4773;&#4661;&#4898;&#4939;&#4758;&#4661;&#4961; &#4624;&#4811;&#4653;&#4843;&#4968; &#4824;&#4782;&#4752;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4704;&#4770;&#4725;&#4846;&#4917;&#4843;&#4968; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4633;&#4961; &#4808;&#4621;&#4848; &#4961; &#4768;&#4709;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4776;</span><span style="font-size: large;">&#4757;&#4843;&#4968;</span></p> <p></p><foreign xml:lang="en"/>
+                        <note>The colophon is rhymed. The scribe Zä-Wäldä Maryam calls himself a disciple of ʾƎsṭifanos, the Ethiopian monk.</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -62,9 +64,7 @@ Sometimes only two or three initial letters of a word are rubricated.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">166.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">166.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">14.0</width>
@@ -153,7 +153,7 @@ Fol. 149 is originally trimmed in the upper part.&#xD;
 Holes are carefully amended on fols. 74, 165, 166.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="13">
                            <dimensions unit="mm">
                               <height>90</height>
                               <width>100</width>
@@ -166,28 +166,47 @@ Holes are carefully amended on fols. 74, 165, 166.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are clearly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine and careful. Hand b: rather fine, somewhat irregular</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 17th-mid 18th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>Zä-Wäldä Maryam (s. fol. 164r the colophon; he mentions himself only as the scribe of Text III).&#xD;
+It is uncertain whether he is the same or different scribe from Zä-Wäldä Maryam of Mss. QSM-001 and QSM-007. THMR-008 is also written in a similar hand.<date>Late 17th-mid 18th century.</date>
+                        <list type="abbreviations">
+                           <item>ማኅሌ፡ for ማኅሌት፡</item>
+                           <item>ም፡/ምል፡/ምልጣ፡ for ምልጣን፡</item>
+                           <item>ምቅ፡/ምቅና፡ for ምቅናይ፡</item>
+                           <item>መዝ፡/መዝሙ፡ for መዝሙር፡</item>
+                           <item>ምዕ፡/ምዕራ፡ for ምዕራፍ፡</item>
+                           <item>ዋዜ፡ for ዋዜማ፡</item>
+                           <item>ስብ፡/ስብሐ፡ for ስብሐተ፡ ነግህ፡</item>
+                           <item>እስ፡/እስ፡ ለ፡ for እስመ፡ ለዓለም፡</item>
+                           <item>ይት፡/ይትባ፡ for ይትባረክ፡</item>
+                           <item>ሃ፡ for ሃሌሉያ፡</item>
+                           <item>ኅብ፡ for ኅብስተ፡</item>
+                           <item>ዘ፡/ዘካ፡ for ዘካርያስ፡</item>
+                           <item>ካህ፡/ካ፡ for ካህን፡</item>
+                           <item>ይ፡ ካህ፡ for ይቤ፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                           <item>ይ፡ ሕ፡ for ይቤ፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic">fols. 2r-27r, 97r-164r: tending towards round shapes, with little distinction between thick and thin lines, distinct serifs; letter ል of a peculiar shape. Smaller letters than those of fols. 27v-96r.</handNote>
@@ -200,34 +219,29 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r-v: &#704;Asmat-prayer against demons (?).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r-v: &#704;Asmat-prayer against demons (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Gәʿәz, with some Amharic words, probably not much later than the main text. It mentions "ʾasmat of Gwǝdägwǝdi", apparently referring to the monastery Gundä Gunde. The handwriting is rather fine (slender letters with big loops) but slightly uneven (due to the lack of ruling). The hand is most probably the same as hand b. A portion of the text on the right side of fol. 1r is difficult to read.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 4r: &#704;Asmat-prayer against demons.</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the same hand as Additio 1, being possibly its continuation.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 164v: Purchase and donation note. </span></div><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 164v:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4722;&#4961;</span><span style="line-height: 115%;"> &#4632;&#4925;&#4611;&#4941;&#4961; &#4824;&#4808;&#4624;&#4707;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4720;&#4656;&#4840;&#4901;&#4811;&#4961; &#4704;&#4808;&#4653;&#4678;&#4633;&#4961; &#4824;&#4808;&#4624;&#4709;&#4811;&#4961; &#4616;&#4723;&#4710;&#4720;&#4925;&#4846;&#4757;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4936;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4757; </span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 164v: This book which </span><span style="line-height: 115%;">M&#228;zg&#228;b&#228; S&#477;llase, W&#228;l&#228;tt&#228; Haymanot and W&#228;l&#228;tt&#228; Giyorgis donated, they bought it with their money and they donated it to the tabot of &#7778;&#477;yon. May be excommunicated by the mouth of Peter and Paul whoever stole or erased it. </span></span></p></q>
+                           <p>The note is probably of the same age or slightly later than the main texts. It is written in a rather fine hand which resembles Hand b.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 164v: Calendaric note from Ba&#7717;r&#228; &#7717;assab.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 164v: Calendaric note from Ba&#7717;r&#228; &#7717;assab.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic, in a well trained hand.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fol.165v: Magic recipe. </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol.165v: Magic recipe. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a well trained hand.</p>
                         </item>
                         <item xml:id="e1">- Text I (in fols. 2r-8r) and Text III (fols. 162v l.12-164r) contain fragments of Mǝʿǝraf, The Common of the Office. &#xD;
 - Tämälläs signs indicate the place where the omissions, written in the margins, belong: &#xD;
@@ -257,7 +271,7 @@ Fols. 3, 57 and 58 are crudely attached to the quires.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0179TahtayRuba">Tahtay Ruba / TR</placeName>
+                        <placeName corresp="INS0179TR">Tahtay Ruba / TR</placeName>
                      </origPlace>
                      <origDate notBefore="1682" notAfter="1745">Patriarch of Alexandria John (Yoḥannǝs) (fol. 7v l.1) and King ʾIyasu (fol. 7v l.5) are mentioned in Text I. Hence, the book may be dated either to the time of Patriarch John XVI (1676-1718) and King ʾIyasu I (1682-1706) or to the time of John XVII (1727-45) and ʾIyasu II (1730-55). The latter dating is more probable since a scribe called Zä-Wäldä Maryam was active around mid-18th century.</origDate>
                   </origin>
@@ -299,8 +313,7 @@ Fols. 3, 57 and 58 are crudely attached to the quires.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -324,7 +337,7 @@ Fols. 3, 57 and 58 are crudely attached to the quires.</decoNote>
          <change who="DN" when="2011-11-22">registered</change>
          <change who="MK" when="2012-03-07T15:19:49.195Z">created</change>
          <change who="DN" when="2015-09-11T16:41:32.100Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

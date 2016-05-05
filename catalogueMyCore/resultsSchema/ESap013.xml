@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030ʿAddäqaḥarsiṖäraqliṭos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-013</idno>
                   <altIdentifier>
                      <idno>C3-IV-16 (fol. 9v)</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">18.0</measure> folios,
-                                                in
-                                                <measure unit="quire">4.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">18.0</measure> folios, in <measure unit="quire">4.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">15.5</height>
                               <width unit="cm">10.7</width>
@@ -85,7 +83,7 @@ The original sewing is missing, the fols. are held together with stitch repairs;
 Fol. 1 is damaged by rodents.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="15">
                            <dimensions unit="mm">
                               <height>105</height>
                               <width>75</width>
@@ -98,28 +96,31 @@ Fol. 1 is damaged by rodents.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>20th century.</date>
+                        <list type="abbreviations">
+                           <item>ይዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -137,9 +138,9 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030ʿAddäqaḥarsiṖäraqliṭos">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
                      </origPlace>
-                     <origDate notBefore="1929" notAfter="1954">Yəsḥaq, Bishop of Tǝgray (in tenure in 1929-54) is mentioned on fol. 6r.</origDate>
+                     <origDate notBefore="1929" notAfter="1954">Yәsḥaq, Bishop of Tǝgray (in tenure in 1929-54) is mentioned on fol. 6r.</origDate>
                   </origin>
                </history>
                <additional>
@@ -174,13 +175,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Täklä ʾƎgziʾ, Wälättä Mikaʾel and Gäbrä ʾƎgziʾabəḥer are mentioned in the supplication formula on fol. 15v.</persName>
+                  <persName corresp="PRS0000">Täklä ʾƎgziʾ, Wälättä Mikaʾel and Gäbrä ʾƎgziʾabәḥer are mentioned in the supplication formula on fol. 15v.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -203,7 +200,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-03">registered</change>
          <change who="SA" when="2014-01-17T16:40:40.935Z">created</change>
          <change who="EG" when="2014-08-01T11:36:41.676Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

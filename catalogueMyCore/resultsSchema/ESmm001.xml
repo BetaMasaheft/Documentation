@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾArbaʿtu wängel “Four Gospels”</title>
+            <title>ʾArbaˤtu wängel “Four Gospels”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0141MaryamMäkan"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0141MM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MM-001</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipits and headings of the texts; numbers and titles of the chapters and the word mǝʿǝraf; numbers of the “tituli”; parts of the Canon tables; elements of the punctuation signs and the Ethiopic numerals; names of the donors and the scribes; letters ወ and ደ in the genealogy of Christ (fols. 112vb-113vb).&#xD;
+                     <rubric>Nomina sacra; incipits and headings of the texts; numbers and titles of the chapters and the word mǝˤǝraf; numbers of the “tituli”; parts of the Canon tables; elements of the punctuation signs and the Ethiopic numerals; names of the donors and the scribes; letters ወ and ደ in the genealogy of Christ (fols. 112vb-113vb).&#xD;
 &#xD;
 On the incipit pages of Mäqdǝmä wängel and of each Gospel, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
                      <incipit>
@@ -53,9 +53,7 @@ On the incipit pages of Mäqdǝmä wängel and of each Gospel, a few lines are r
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">194.0</measure> folios,
-                                                in
-                                                <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">194.0</measure> folios, in <measure unit="quire">26.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">33.5</height>
                               <width unit="cm">31.0</width>
@@ -150,7 +148,7 @@ The back board has been repaired by means of a tissue strip lead through two hol
 The leather cover is for the most part missing.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="26">
                            <dimensions unit="mm">
                               <height>210</height>
                               <width>230</width>
@@ -163,46 +161,46 @@ The leather cover is for the most part missing.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">20</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for the second page of the first Gospel, recto side (fol. 17r).</ab>
+                           <note>All data are for the second page of the first Gospel, recto side (fol. 17r).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling patterns: 1A-1A-1A1A/0-0/0-0/C (Texts II-V).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are not visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 135r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">
 The ruling pattern is different for the Canon tables and the introduction.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular, careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of the 17th century/early 18th century</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wängel</persName>Zä-Wängel (s. fol. 16r); Zä-Mänfäs Qǝddus (s. fol. 193ra).<date>Second half of the 17th century/early 18th century</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;">Fol. 193ra: Ownership note.</span></span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;">Fol. 193ra: Ownership note.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="AMH" style="line-height: 115%;">Fol. 193ra: </span></span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; {&#4824;&#4848;&#4709;&#4648;&#4635;&#4653;&#4843;&#4637;&#4962; &#4632;&#4779;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span unicode="" style="line-height: 115%;">[sic]</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;">} &#4824;&#4632;&#4925;&#4768;&#4961; &#4773;&#4637;&#4608;&#4872;&#4648;&#4961; {&#4632;&#4779;&#4757;&#4961;} &#4637;&#4661;&#4616;&#4961; &#4768;&#4705;&#4752;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4768;&#4813;&#4933;&#4774;&#4961; &#4773;&#4637;&#4829;&#4757;&#4721;&#4961; &#4848;&#4709;&#4653;&#4961; &#4824;&#4608;&#4872;&#4648;&#4961; {&#4635;&#4653;&#4843;&#4637;&#4961;} &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 193ra: This (is the) book of D&#228;br&#228; Maryam M&#228;ka(n) which came from the country of&#160;Kaswa with &#704;abun&#228; M&#228;zg&#228;b&#228; &#346;&#601;llase. He who steals it or erases (its text) or takes it out of this church of the country of Maryam shall be excommunicated by the authority of Peter and Paul.</span></span></span></p></q>
+                           <p>Written in red ink; the hand appears to be the same as the one that executed rubrication. One name is washed out. 
+The names connected with the church of Mäkan Maryam were added in pencil later, replacing the name ካስዋ፡ (an alternative appellation of the monastery of Gundä Gunde) written originally. By substituting the name of Kaswa with the name of Mäkan the scribe created a contradiction in the note.
+ʾAbunä Mäzgäbä Śǝllase was the abbot of Gundä Gunde monastery in the second half of the 17th – beginning of the 18th cent.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;"><span lang="EN-GB" unicode="" style="line-height: 115%;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 193ra: <span lang="EN-GB" unicode="" style="line-height: 115%;">Inventory of books in possession of the church library.</span></span></span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic, written in pen.</p>
                         </item>
                         <item xml:id="e1">- Pen trials: fol. 2v.&#xD;
 - Crude notes: fols. 45r, 55v, 173v (in the upper margin).</item>
@@ -223,7 +221,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0141MaryamMäkan">Maryam Mäkan/MM</placeName>
+                        <placeName corresp="INS0141MM">Maryam Mäkan/MM</placeName>
                      </origPlace>
                      <origDate notBefore="1670" notAfter="1700">ʾAbunä Mäzgäbä Śǝllase, mentioned in Additio 1, flourished in late 17th – beginning of the 18th cent.</origDate>
                   </origin>
@@ -265,8 +263,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wängel</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -290,7 +287,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-11">registered</change>
          <change who="IF" when="2011-07-08T08:25:30.053Z">created</change>
          <change who="MK" when="2014-09-15T10:37:50.647Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

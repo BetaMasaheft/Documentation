@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0115GänaḥtiQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0115GMG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GMG-007</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">147.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">147.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.5</height>
                               <width unit="cm">19.0</width>
@@ -140,7 +138,7 @@ Additional fols. with illuminations have been inserted in a recent time: fols. 9
 A cut on fol. 60 has been carefully amended.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="22">
                            <dimensions unit="mm">
                               <height>187</height>
                               <width>150</width>
@@ -153,19 +151,21 @@ A cut on fol. 60 has been carefully amended.</condition>
                               <dim type="left">12</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Texts I-1, I-2, I-3: all data for fol. 9r.</ab>
+                           <note>Texts I-1, I-2, I-3: all data for fol. 9r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>185</height>
                               <width>150</width>
@@ -178,28 +178,51 @@ The bottom line is written above the ruling</ab>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Text I-4: all data for fol. 135r.</ab>
+                           <note>Text I-4: all data for fol. 135r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular</ab>
                         <seg type="ink">Black and red (vivid vermillion)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Mid-19th century</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä ʾIyäsus (?)</persName>The name of the scribe has been erased from the supplication on fol. 144a, but one part, Gäbrä, can still be discerned. The full name was possibly Gäbrä ʾIyäsus.<date>Mid-19th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>እ᎓/እስ᎓</abbr> for <expan>እስመ᎓ ለዓለም᎓ ምሕረቱ᎓ </expan> (Ps. 135, fols. 102v-103r).</item>
+                           <item>
+                              <abbr>ስቡ᎓</abbr> for <expan>ስቡሕኒ᎓ ውእቱ᎓ ወልዑልኒ᎓ ውእቱ᎓ ለዓለም᎓ </expan> (Canticle 10, fols. 118v-119v).</item>
+                           <item>Text I-4</item>
+                           <item>ሰ፡/ሰ፡ አ፡ ቅ for ሰአሊ፡ ለነ፡ ቅድስት፡</item>
+                           <item>Words or their abbreviations stand for the whole refrain.</item>
+                           <item>
+                              <abbr>ሠ፡/ሠረ፡</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fol. 131r-v)</item>
+                           <item>
+                              <abbr>እ᎓/እስ፡</abbr> for <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነ </expan> (fols. 132r-133r)</item>
+                           <item>
+                              <abbr>ኵ፡/ኵሉ፡</abbr> for <expan>ኵሉ፡ ትውልድ፡ ያስተበፅዑኪ፡ ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ </expan> (fols. 133v-134v).</item>
+                           <item>
+                              <abbr>ናዓ፡</abbr> for <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 135v-136v)</item>
+                           <item>
+                              <abbr>ለኪ፡</abbr> for <expan>ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እመ፡ ብርሃን፡ ናዓብየኪ፡ በስብሐት፡ ወበውዳሴ </expan> (fol. 137ra-vb)</item>
+                           <item>
+                              <abbr>ተ፡/ተፈ፡</abbr> for <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fols. 138va-139ra)</item>
+                           <item>
+                              <abbr>ወበ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 139va-140rb).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -213,46 +236,41 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 1va-2rb: Unidentified text.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 1va-2rb: Unidentified text.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is damaged by water and partly abraded; it is for the most part illegible.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 2va-3vb: M&#228;lk&#601;&#705;a &#704;Iy&#228;sus &#8220;Image of Jesus&#8221; (ChRep 199, no. 122), continuation of Additio 7.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 2va:</span></span><span style="line-height: 115%"> </span><span style="font-size: large"><span style="line-height: 115%">&#4656;&#4619;&#4637;&#4961; &#4616;&#4624;&#4684;&#4776;&#4961; &#4773;&#4757;&#4824;&#4710;&#4961; &#4621;&#4821;&#4621;&#4755;&#4961; &#4776;&#4632;&#4961; &#4872;&#4709;&#4653;&#4961; &#4853;&#4777;&#4637;&#4961; &#4824;&#4672;&#4752;&#4720;&#4961; &#4608;&#4709;&#4616;&#4961; &#4725;&#4629;&#4725;&#4755;&#4968; </span></span><span style="font-size: small"><span style="line-height: 115%">...</span></span></q>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 2va-3vb: M&#228;lk&#601;&#705;a &#704;Iy&#228;sus &#8220;Image of Jesus&#8221; (ChRep 199, no. 122), continuation of Additio 7.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 2va:</span></span><span style="line-height: 115%"> </span><span style="font-size: large"><span style="line-height: 115%">&#4656;&#4619;&#4637;&#4961; &#4616;&#4624;&#4684;&#4776;&#4961; &#4773;&#4757;&#4824;&#4710;&#4961; &#4621;&#4821;&#4621;&#4755;&#4961; &#4776;&#4632;&#4961; &#4872;&#4709;&#4653;&#4961; &#4853;&#4777;&#4637;&#4961; &#4824;&#4672;&#4752;&#4720;&#4961; &#4608;&#4709;&#4616;&#4961; &#4725;&#4629;&#4725;&#4755;&#4968; </span></span><span style="font-size: small"><span style="line-height: 115%">...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is written in a fine hand, in red and black ink. A curious way of sloping the top part of the letters ረ and ፈ.
+The incipit of the text is on fol. 144vb (Additio 8).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 4ra: &#704;Arke-hymn to angels.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 4ra: &#704;Arke-hymn to angels.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is carelessly written; it praises different angels for defence against evil demons, etc.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 110v:&#160;Ownership note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small">Fol. 110v: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;<span style="line-height: 115%">&#4621;</span>&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4968;</span></q>
+                           <locus/><p><span style="font-size: small">Fol. 110v:&#160;Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small">Fol. 110v: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;<span style="line-height: 115%">&#4621;</span>&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4968;</span></p> <p></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the main hand, in red. It states that the book belongs to Zä-Wäldä Maryam.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 128v: Protective prayer.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 128v: Protective prayer.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the lower part of the leaf, in a later hand, damaged by water. It invokes ʾasmat-names.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 129r:&#160;Ownership note.<br /> </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 129r:&#160;Ownership note.<br /> </span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small"><span style="line-height: 115%">Fol. 129r: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4632;</span><span style="line-height: 115%">&#4925;</span><span style="line-height: 115%">&#4624;&#4941;&#4961; &#4840;&#4664;&#4637;&#4961; &#4819;&#4875;&#4636;&#4961; &#4872;&#4709;&#4648;&#4961; &#4720;&#4781;&#4620;&#4961; &#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4824;&#4768;&#4925;&#4624;&#4936;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4824;&#4936;&#4624;&#4675;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in a later, careless hand, probably as a writing exercise. It states that the Ms. belongs to šum ʿagame Gäbrä Täkle (Gäbrä Täklä Haymanot). The same hand wrote Additio 5.</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00"><span style="font-size: small">Fols. 144vb-147rb: M&#228;lk&#601;&#705;a &#704;Iy&#228;sus &#8220;Image of Jesus&#8221; (ChRep 199, no. 122).</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fols. 144vb-147rb: M&#228;lk&#601;&#705;a &#704;Iy&#228;sus &#8220;Image of Jesus&#8221; (ChRep 199, no. 122).</span></p> <div></div><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small">Fol. 144vb: <span style="font-size: large">&#4656;&#4619;&#4637;&#4961; &#4616;&#4829;&#4781;&#4648;&#4961; &#4661;&#4637;&#4776;&#4961; &#4656;&#4632;&#4961; &#4632;&#4624;&#4619;&#4961; &#4824;&#4770;&#4845;&#4612;&#4657;&#4961; &#4824;&#4768;&#4757;&#4704;&#4648;&#4961; &#4677;&#4853;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4704;&#4768;&#4725;&#4654;&#4757;&#4657;&#4968; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4616;&#4851;&#4810;&#4725;&#4961; </span>...</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written by the same hand as Additio 1. It is the incipit for the text continuing in Additio 2. 
+At the end (fol. 147vb) the words ተመለስ፡ ለሐቌከ፡ እ ("return to: ለሐቌከ፡ እ") indicate exactly where the text is to be resumed;  ለሐቌከ፡ እ[ንዘቦ] are the beginning words of Additio 2 (on fol. 2va).</p>
                         </item>
                         <item xml:id="e1">-  The Pss. are divided into groups of ten separated by a line of alternating red and black dots. No separation between Pss. 10/11, 30/31, 150/151. &#xD;
 - Numerous directives on use of the Pss. for protective and medical purposes are written in the upper margin or at the end of the lines, in a fine secondary hand: fols. 5r, 6r, 6v, 7v, 8r, 8v, 9r, 11r, 11v, 12r, 12v, 13r, etc. &#xD;
@@ -285,7 +303,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0115GänaḥtiQəddəstMaryam">Gänaḥti Qəddəst Maryam / GMG</placeName>
+                        <placeName corresp="INS0115GMG">Gänaḥti Qәddәst Maryam / GMG</placeName>
                      </origPlace>
                      <origDate notBefore="1830" notAfter="1870"/>
                   </origin>
@@ -327,8 +345,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä ʾIyäsus (?)</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -352,7 +369,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-27">registered</change>
          <change who="SD" when="2013-09-24T09:58:27.426Z">created</change>
          <change who="SH" when="2015-04-16T17:03:54.432Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0111BetḤawaryat"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0111SSB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SSB-011</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">77.0</measure> folios,
-                                                in
-                                                <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">77.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">16.0</width>
@@ -106,7 +104,7 @@ The back board and most of the leather cover are missing.&#xD;
 The Ms. has been rebound. In some areas the sewing is crudely repaired with recent synthetic threads.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="15">
                            <dimensions unit="mm">
                               <height>100</height>
                               <width>120</width>
@@ -119,28 +117,46 @@ The Ms. has been rebound. In some areas the sewing is crudely repaired with rece
                               <dim type="left">10</dim>
                               <dim type="intercolumn">13</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks (of slit-type) are visible, located very close to the margin. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: rather fine, regular; hand b: mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>ም፡/ምል፡/ምልጣ፡ for ምልጣን፡</item>
+                           <item>ማኅ፡/ማኅሌ፡ for ማኅሌት፡</item>
+                           <item>መስተ፡ for መስተብቍዕ፡</item>
+                           <item>መዝ፡ for መዝሙር፡</item>
+                           <item>ሰላ፡ for ሰላም፡</item>
+                           <item>ስብ፡/ስብሐ፡ for ስብሐተ፡ ነግህ፡</item>
+                           <item>ቃለ፡ ዓ፡ for ቃለ፡ ዓዋዲ፡</item>
+                           <item>አራ፡ for አራራይ፡</item>
+                           <item>እስመ፡ for እስመ፡ ለዓለም፡</item>
+                           <item>ዋዜ፡ for ዋዜማ፡</item>
+                           <item>ዝ፡/ዝማ፡ for ዝማሬ፡</item>
+                           <item>ይት፡/ይትባ፡/ ይትባረ፡ for ይትባረክ፡</item>
+                           <item>ዕ፡/ዕዝ፡ for ዕዝል፡</item>
+                           <item>ግዕ፡ for ግዕዝ፡</item>
+                           <item>ማር፡/ማርያ፡ for ማርያም፡</item>
+                           <item>ወን፡ for ወንጌል፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">(fols. 1va-75rb), the letters are short and wide, tend to round shapes.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">(fols. 75va-77vb, rubrication, musical notation throughout the text, omissions and corrections over erasures), angular letters' shapes.</handNote>
@@ -148,10 +164,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal;"><span style="font-size: small;">Fol. 1ra: Excerpt from the Kidan-prayer in the incipit page of M&#601;&#705;&#601;raf, the Common of the Office. </span></div> <p></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The excerpt is most probably written in hand a.</p>
                         </item>
                         <item xml:id="e1">- Omitted words or passages are written within the lines, interlineally and in the margins, in hand b: fols. 5vb, 8ra, 46ra, 53rb, 53v, 54rb, 62vb, 67va, &#xD;
 - Tämälläs-signs, in the shape of a cross, indicating the place where the omissions, written in the margins in hand b, belong: 2va l.7, 11va l.8, 33rb l.5, 45rb l.3, &#xD;
@@ -179,7 +194,7 @@ The front wooden board has two additional holes (remains of fastwenings?).</deco
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0111BetḤawaryat">Bet Ḥawaryat / SSB</placeName>
+                        <placeName corresp="INS0111SSB">Bet Ḥawaryat / SSB</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -221,10 +236,6 @@ The front wooden board has two additional holes (remains of fastwenings?).</deco
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -245,7 +256,7 @@ The front wooden board has two additional holes (remains of fastwenings?).</deco
          <change who="DN" when="2010-11-29">registered</change>
          <change who="MK" when="2013-06-19T07:18:09.088Z">created</change>
          <change who="DN" when="2015-03-06T11:24:27.052Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

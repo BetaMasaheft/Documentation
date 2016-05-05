@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0034DäbräZäytQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0034DZ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DZ-005</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf"/> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf"/> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">10.0</height>
                               <width unit="cm">10.0</width>
@@ -71,7 +69,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>16th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -90,7 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0034DäbräZäytQəddəstMaryam">Däbrä Zäyt Qəddəst Maryam / DZ</placeName>
+                        <placeName corresp="INS0034DZ">Däbrä Zäyt Qәddәst Maryam / DZ</placeName>
                      </origPlace>
                      <origDate notBefore="1400" notAfter="1500">15th cent. (?)&#xD;
 The text has been added later (16th cent. ?)</origDate>
@@ -133,10 +130,6 @@ The text has been added later (16th cent. ?)</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -157,7 +150,7 @@ The text has been added later (16th cent. ?)</origDate>
          <change who="DN" when="2010-05-06">registered</change>
          <change who="SH" when="2014-01-13T12:17:05.988Z">created</change>
          <change who="SH" when="2014-05-14T16:20:43.874Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0281GwaḥtäratQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0281GSQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GSQ-012</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">122.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">122.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">25.5</width>
@@ -71,7 +69,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink"/>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century</date>
                      </handNote>
                   </handDesc>
@@ -92,7 +89,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0281GwaḥtäratQirqos">Gwaḥtärat Qirqos / GSQ</placeName>
+                        <placeName corresp="INS0281GSQ">Gwaḥtärat Qirqos / GSQ</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900"/>
                   </origin>
@@ -134,10 +131,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -158,7 +151,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2014-01-29">registered</change>
          <change who="DN" when="2015-06-05T11:22:25.998Z">created</change>
          <change who="DN" when="2015-06-05T11:29:03.319Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

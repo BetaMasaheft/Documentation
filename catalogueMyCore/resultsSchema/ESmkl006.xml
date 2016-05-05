@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0123LÃ¤qayKidanÃ¤MÓ&#x99;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0123MKL"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MKL-006</idno>
                </msIdentifier>
                <msContents>
@@ -61,9 +61,7 @@ two lines of the concluding formula for the month of Näḥase (fol. 173rabc, ls
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">181.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">11.0</measure> blank, in
-                                                <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">181.0</measure> folios, of which <measure unit="leaf" type="blank">11.0</measure> blank, in <measure unit="quire">23.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">35.0</height>
                               <width unit="cm">27.5</width>
@@ -178,7 +176,7 @@ Some quires and some folios are separated from the binding.&#xD;
 Many folios have stains (e.g., s. fols.: 1rv, 61rv, 66rv, 70r, 73rv, 87r, 103r, 104r, 143v, 144rv, 145r) and cuts carefully amended (e.g., s.: fols. 2, 3, 4, 21, 36, 38, 42, 48, 53, 80, 173).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="37">
                            <dimensions unit="mm">
                               <height>246</height>
                               <width>218</width>
@@ -191,24 +189,24 @@ Many folios have stains (e.g., s. fols.: 1rv, 61rv, 66rv, 70r, 73rv, 87r, 103r, 
                               <dim type="left">17</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 88r.</ab>
+                           <note>All data are for fol. 88r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible;</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="CruxAnsata">
-                              <locus target=""/>
-                           </ab>
+                        </layout>
+                        <layout>
+                           <ab type="CruxAnsata">no</ab>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -216,8 +214,11 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine and regular. Hand b: mediocre.</ab>
                         <seg type="ink">Black; red and pink (?)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th - first half of the 20th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (e.g.: fols. 12vc, l.24; 13rc, l.25; 154vc, l.5; 156rb, l.24; 173rc, l.5).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 7ra–75vc; 84ra–92va; 110rabc; 145rb–169rc.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 76ra–83rb; 92vb–109vc; 111va–145ra; 169va–178rc.</handNote>
@@ -225,10 +226,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span><span lang="EN-GB" arial="" sans-serif="">Fol. 178rb, ls. 13-14:&#160;Ownership&#160;note.</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%;">Fol. 178rb, l.13:</span></span><span lang="EN-GB" arial="" sans-serif="" style="font-size: 10pt; line-height: 115%;"> </span><span lang="EN-GB" style="font-size: 14pt; line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4848;&#4867;&#4733;&#4961; &#4779;&#4643;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;</span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%;">Fol. 178rb, l.13: This is the book of d&#228;&#287;&#287;a&#269; Ka&#347;a, the name of his father is S&#477;b&#7717;at.</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span><span lang="EN-GB" arial="" sans-serif="">Fol. 178rb, ls. 13-14:&#160;Ownership&#160;note.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%;">Fol. 178rb, l.13:</span></span><span lang="EN-GB" arial="" sans-serif="" style="font-size: 10pt; line-height: 115%;"> </span><span lang="EN-GB" style="font-size: 14pt; line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4848;&#4867;&#4733;&#4961; &#4779;&#4643;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;</span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%;">Fol. 178rb, l.13: This is the book of d&#228;&#287;&#287;a&#269; Ka&#347;a, the name of his father is S&#477;b&#7717;at.</span></span></p></q>
+                           <p>Unfinished; in pink ink (?)</p>
                         </item>
                         <item xml:id="e1">Quire marks are written in the upper margin (left side) of the first fol. of the quires:&#xD;
 fol. 7r: ፩ “1”;&#xD;
@@ -276,7 +276,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0123LÃ¤qayKidanÃ¤MÓ&#x99;á¸¥rÃ¤t">LÃ¤qay KidanÃ¤ MÓ&#x99;á¸¥rÃ¤t / MKL</placeName>
+                        <placeName corresp="INS0123MKL">LÃ¤qay KidanÃ¤ MÓ&#x99;á¸¥rÃ¤t / MKL</placeName>
                      </origPlace>
                      <origDate notBefore="1880" notAfter="1950">Late 19th - first half of the 20th cent.&#xD;
 Additio 1 mentions däğğač Kaśa, a son of ras Sǝbḥat ʾArägawi. Däğğač Kaśa was the governor of ʿAgamä in 1914-1918 and 1941-1948. Cp. Hagos Gäbrä Yoḥannǝs, “Political History of Tigray: Rivalry for power (1910-1935), PhD thesis, Addis Abäba University, 2003, 46.</origDate>
@@ -319,10 +319,6 @@ Additio 1 mentions däğğač Kaśa, a son of ras Sǝbḥat ʾArägawi. Däğğa
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -343,7 +339,7 @@ Additio 1 mentions däğğač Kaśa, a son of ras Sǝbḥat ʾArägawi. Däğğa
          <change who="DN" when="2010-12-06">registered</change>
          <change who="VP" when="2012-01-19T13:58:22.108Z">created</change>
          <change who="MV" when="2015-02-02T09:17:17.053Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

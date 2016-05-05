@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0095ʾAraʿroTäkläHaymanot"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0095ATH"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>ATH-002</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ In the incipit pages of Text I and III (fols. 4r, 172v), a few lines are rubrica
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">208.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
-                                                <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">208.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">22.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.0</height>
                               <width unit="cm">18.0</width>
@@ -154,7 +152,7 @@ The codex was originally composed of quires A(?)-XVIII and XXI; quires XIX-XX ("
                         <condition key="good">Hole carefully amended on fol. 194.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>110</height>
                               <width>125</width>
@@ -167,19 +165,21 @@ The codex was originally composed of quires A(?)-XVIII and XXI; quires XIX-XX ("
                               <dim type="left">12</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Quires I-XVII. All data for fol. 48r.</ab>
+                           <note>Quires I-XVII. All data for fol. 48r.</note>
                            <ab type="ruling">23</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>140</width>
@@ -192,19 +192,21 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Quires XVIII-XX. All data for fol. 113r.</ab>
+                           <note>Quires XVIII-XX. All data for fol. 113r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>110</height>
                               <width>120</width>
@@ -217,27 +219,27 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">13</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Quire XXI, all data for fol. 205r.</ab>
+                           <note>Quire XXI, all data for fol. 205r.</note>
                            <ab type="ruling">23</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful, by well trained hand (hand a); mediocre (hands b, c, d).</ab>
                         <seg type="ink">Black; red, reddish brown</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 17th cent. (quires XVIII-XX of the 19th cent.).</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 4ra-173vb (quires I-XVII)</handNote>
@@ -248,28 +250,25 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00">Fols. 2ra-3rb: M&#228;lk&#601;&#704;a &#7766;e&#7789;ros w&#228;-&#7766;awlos &#8220;Image of Peter and Paul&#8221;.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fols. 2ra-3rb: M&#228;lk&#601;&#704;a &#7766;e&#7789;ros w&#228;-&#7766;awlos &#8220;Image of Peter and Paul&#8221;.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written on the fly-leaves (quire A).
+Incomplete, cp. the edition of the text: TÄSFA GÄBRÄ ŚƎLLASE (ed.), Mälkǝʾa Ṗeṭros wä-Ṗawlos, Addis Abäba 1992 E.C.; cp. Ms. DMD-003</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00">Fols. 199va-200ra: Unidentified hymn (for&#160;T&#228;kl&#228; Haymanot?).</locus>
-                           <q xml:lang="gez">Fol. 199va: <span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin"> </span> <span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4619;</span>&#4637;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4616;<span style="line-height: 115%; font-family: Nyala;">&#4776;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4781;&#4616;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4624;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4637;&#4617;&#4768;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4638;&#4872;&#4661;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></q>
-                           <q xml:lang="en">Fol. 199va, l.1: I greet you, T&#228;kl&#228; Haymanot, our father full of grace...</q>
-                           <p/>
+                           <locus/><p>Fols. 199va-200ra: Unidentified hymn (for&#160;T&#228;kl&#228; Haymanot?).</p><q xml:lang="gez"><p>Fol. 199va: <span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin"> </span> <span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4619;</span>&#4637;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4616;<span style="line-height: 115%; font-family: Nyala;">&#4776;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4781;&#4616;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4624;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4637;&#4617;&#4768;&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4638;&#4872;&#4661;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></p></q>
+                           <q xml:lang="en"><p>Fol. 199va, l.1: I greet you, T&#228;kl&#228; Haymanot, our father full of grace...</p></q>
+                           <p>Incomplete; crudely written.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00">Fols. 207va-207vb: Unidentified hymn (for T&#228;kl&#228; Haymanot?).</locus>
-                           <q xml:lang="gez">Fol. 207va: <span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin"> <span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4619;</span>&#4637;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> </span>&#4616;&#4776;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4720;&#4781;&#4616;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4624;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4637;&#4617;&#4768;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4638;&#4872;&#4661;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt">&#8230;</span></q>
-                           <q xml:lang="en">Fol. 207va, l.3: I greet you, T&#228;kl&#228; Haymanot, our father full of grace...</q>
-                           <p/>
+                           <locus/><p>Fols. 207va-207vb: Unidentified hymn (for T&#228;kl&#228; Haymanot?).</p><q xml:lang="gez"><p>Fol. 207va: <span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin"> <span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4619;</span>&#4637;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> </span>&#4616;&#4776;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4720;&#4781;&#4616;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4624;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4637;&#4617;&#4768;&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4638;&#4872;&#4661;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt; mso-fareast-font-family: Calibri; mso-bidi-font-family: Nyala; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4961;</span><span style="line-height: 115%; font-family: ; font-size: 14pt">&#8230;</span></p> <p></p></q>
+                           <q xml:lang="en"><p>Fol. 207va, l.3: I greet you, T&#228;kl&#228; Haymanot, our father full of grace...</p></q>
+                           <p>Incomplete; crudely written.The same hymn as in Additio 2.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#">Fol. 208v: Note concerning a&#160;transaction&#160;(selling a&#160;house?).</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 208v: Note concerning a&#160;transaction&#160;(selling a&#160;house?).</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic; poorly legible.</p>
                         </item>
                         <item xml:id="e1">- Cues for the rubricator (the letter ማ for the name of Mary) in the margin: fols. 170vb, 171ra.</item>
                      </list>
@@ -291,7 +290,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0095ʾAraʿroTäkläHaymanot">ʾAraʿro Täklä Haymanot / ATH</placeName>
+                        <placeName corresp="INS0095ATH">ʾAraʿro Täklä Haymanot / ATH</placeName>
                      </origPlace>
                      <origDate notBefore="1650" notAfter="1700">Second half of the 17th cent; quires XVIII-XX (Miracles of Täklä Haymanot) probably of the 19th cent.</origDate>
                   </origin>
@@ -333,10 +332,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -357,7 +352,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-17">registered</change>
          <change who="SA" when="2012-01-03T11:01:08.912Z">created</change>
          <change who="DN" when="2015-07-15T11:08:50.097Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

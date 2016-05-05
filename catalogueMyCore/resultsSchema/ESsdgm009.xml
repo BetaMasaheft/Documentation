@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0204ṢäbälaDäbräGännätMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0204SDGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SDGM-009</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ Several groups of lines on the incipit page of Text I-1, alternating with black 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">54.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">54.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.8</height>
                               <width unit="cm">17.7</width>
@@ -78,7 +76,7 @@ Some leaves are held together by means of one-stitched repair (e.g., fols. 25-32
 Tears amended on fols. 36, 41.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>146</height>
                               <width>141</width>
@@ -91,32 +89,44 @@ Tears amended on fols. 36, 41.</condition>
                               <dim type="left">13</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 7r.</ab>
+                           <note>All data for fol. 7r.</note>
                            <ab type="ruling">Sometimes 17 (e.g., fol. 26vb).</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The ruling has been done sometimes crudely (e.g., fols. 38v).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre.</ab>
                         <seg type="ink">Black, strong red (reddish-brown on fols. 47va-49rb).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid-18th – mid-19th century (?).</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 22ra, 27va, 37vb)</item>
+                           <item>
+                              <abbr>ለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 15rb, 23ra, 28vb, 47vb)</item>
+                           <item>
+                              <abbr>ለዓለ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 17vb)</item>
+                           <item>
+                              <abbr>ለዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 17va, 30rb, 48va)</item>
+                           <item>
+                              <abbr>ለ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 14va).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -125,16 +135,14 @@ The ruling has been done sometimes crudely (e.g., fols. 38v).</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 51ra: donation note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 51ra: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4632;&#4925;&#4624;&#4941;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#8230; </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4678;&#4661;&#4683;&#4637;&#4961; &#4824;&#4808;&#4608;&#4704;&#4723;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4845;&#4777;&#4758;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#8230;</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4778;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961;</span></span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 51ra: donation note.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-US" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 51ra: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4632;&#4925;&#4624;&#4941;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#8230; </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4678;&#4661;&#4683;&#4637;&#4961; &#4824;&#4808;&#4608;&#4704;&#4723;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4845;&#4777;&#4758;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#8230;</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4778;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961;</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in red ink and is partly illegible due to faded ink. It states that ʾAmätä ʾIyäsus, whose name is written over an erased name, is the donor of the book.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 54rb: donation note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 54rb:</span></span><span lang="EN-GB" style="font-size:10.0pt;line-height: 115%;font-family:" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">ዝመጽሐፍ፡ ዘማርያም፡ ጸበላ፡ ዘወሀበታ፡ አመተ፡ ኢየሱስ፡ ዘሠረቆ፡ ወዘፈሐቆ፡ በሥ<span style="font-size: small;">[</span>ል<span style="font-size: small;">]</span>ጣነ፡ ጴጥሮስ፡ ወጳውሎስ፡ ውጉዘ፡ ለይኩን፡</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 54rb: donation note.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:" unicode=""></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 54rb:</span></span><span lang="EN-GB" style="font-size:10.0pt;line-height: 115%;font-family:" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">ዝመጽሐፍ፡ ዘማርያም፡ ጸበላ፡ ዘወሀበታ፡ አመተ፡ ኢየሱስ፡ ዘሠረቆ፡ ወዘፈሐቆ፡ በሥ<span style="font-size: small;">[</span>ል<span style="font-size: small;">]</span>ጣነ፡ ጴጥሮስ፡ ወጳውሎስ፡ ውጉዘ፡ ለይኩን፡</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that ʾAmätä ʾIyäsus donated this book to Maryam Ṣäbäla.</p>
                         </item>
                         <item xml:id="e1">- The abbreviated title ተ፡ ማ is written on fol. 1r with azure paint.&#xD;
 - Omitted letters inserted interlineally: e.g., fols. 3va, 13vb, 19va, 24rb, 39ra.&#xD;
@@ -164,7 +172,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0204ṢäbälaDäbräGännätMaryam">Ṣäbäla Däbrä Gännät Maryam / SDGM</placeName>
+                        <placeName corresp="INS0204SDGM">Ṣäbäla Däbrä Gännät Maryam / SDGM</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850">Mid-18th – mid-19th cent. (?)</origDate>
                   </origin>
@@ -207,10 +215,6 @@ Several names are written in a secondary hand in the supplication formulas: Gäb
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -232,7 +236,7 @@ Several names are written in a secondary hand in the supplication formulas: Gäb
          <change who="DN" when="2011-12-09">registered</change>
          <change who="MV" when="2015-05-28T09:05:45.551Z">created</change>
          <change who="MV" when="2015-05-29T10:41:36.666Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

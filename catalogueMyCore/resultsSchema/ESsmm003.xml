@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä ʾaśləṭi, Lectionary for the entire year</title>
+            <title>Mäṣḥafä ʾaślәṭi, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0054SÃ¤mazMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0054SMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SMM-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">73.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">73.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">20.0</width>
@@ -98,7 +96,7 @@ The sewing is damaged and repaired with synthetic threads (s. centrefolds of qui
 Tears are carefully amended in fols. 29, 49, 65.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>170</height>
                               <width>175</width>
@@ -111,53 +109,49 @@ Tears are carefully amended in fols. 29, 49, 65.</condition>
                               <dim type="left">14</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r.</ab>
+                           <note>All data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, vivid red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>The name of the scribe, Zä-Wäldä Maryam, is mentioned in Additio 1.<date>18th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 72ra, l.6: Scribe&#180;s note on completing the work.</locus>
-                           <q xml:lang="gez">Fol. 72ra, l.6: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4645;&#4621;&#4898;&#4961; &#4824;&#4808;&#4757;&#4876;&#4616;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4824;&#4915;&#4813;&#4622;&#4661;&#4961; &#4808;&#4624;&#4811;&#4653;&#4843;&#4961; &#4808;&#4877;&#4709;&#4653;&#4961; &#4704;&#4936;&#4675;&#4848;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4672;&#4658;&#4661;&#4961; &#4637;&#4741;&#4925;&#4757;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4616;&#4632;&#4677;&#4848;&#4656;&#4961; &#4656;&#4635;&#4829;&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4754;&#4961; &#4739;&#4901;&#4773;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4845;&#4925;&#4624;&#4941;&#4961; &#4661;&#4638;&#4633;&#4961; &#4736;&#4704;&#4961; &#4768;&#4637;&#4848;&#4961; &#4808;&#4653;&#4677;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></q>
+                           <locus/><p>Fol. 72ra, l.6: Scribe&#180;s note on completing the work.</p><q xml:lang="gez"><p>Fol. 72ra, l.6: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4645;&#4621;&#4898;&#4961; &#4824;&#4808;&#4757;&#4876;&#4616;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4824;&#4915;&#4813;&#4622;&#4661;&#4961; &#4808;&#4624;&#4811;&#4653;&#4843;&#4961; &#4808;&#4877;&#4709;&#4653;&#4961; &#4704;&#4936;&#4675;&#4848;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4672;&#4658;&#4661;&#4961; &#4637;&#4741;&#4925;&#4757;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4616;&#4632;&#4677;&#4848;&#4656;&#4961; &#4656;&#4635;&#4829;&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4754;&#4961; &#4739;&#4901;&#4773;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4845;&#4925;&#4624;&#4941;&#4961; &#4661;&#4638;&#4633;&#4961; &#4736;&#4704;&#4961; &#4768;&#4637;&#4848;&#4961; &#4808;&#4653;&#4677;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p> <p></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The title of the work, Mäṣḥafä ʾaślәṭi, is mentioned. The names of the commissioner, priest (qäsis) Mәḫṣәntä Maryam, and of the scribe, Zä-Wäldä Maryam, are also mentioned.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 72rb: Note on the benefactors of the church.</locus>
-                           <q xml:lang="gez">Fol. 72rb: <span style="font-size: large;">&#4824;&#4624;&#4752;&#4923;&#4961; &#4616;&#4632;&#4677;&#4848;&#4656;&#4961; &#4656;&#4635;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4819;&#4925;&#4936;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4704;&#4971;&#4961; &#4768;&#4637;&#4848;&#4961; &#4773;&#4709;&#4757;&#4962; &#4808;&#4824;&#4720;&#4776;&#4619;&#4961; &#4808;&#4845;&#4752;&#4961; &#4672;&#4658;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4616;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4672;&#4658;&#4661;&#4961; &#4637;&#4741;&#4933;&#4757;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4720;&#4768;&#4848;&#4811;&#4961; &#4941;&#4625;&#4672;&#4961; &#4845;&#4777;&#4757;&#4961; &#4773;&#4657;&#4648;&#4961; &#4808;&#4813;&#4873;&#4827;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4770;&#4725;&#4653;&#4661;&#4817;&#4752;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></q>
+                           <locus/><p>Fol. 72rb: Note on the benefactors of the church.</p><q xml:lang="gez"><p>Fol. 72rb: <span style="font-size: large;">&#4824;&#4624;&#4752;&#4923;&#4961; &#4616;&#4632;&#4677;&#4848;&#4656;&#4961; &#4656;&#4635;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4819;&#4925;&#4936;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4704;&#4971;&#4961; &#4768;&#4637;&#4848;&#4961; &#4773;&#4709;&#4757;&#4962; &#4808;&#4824;&#4720;&#4776;&#4619;&#4961; &#4808;&#4845;&#4752;&#4961; &#4672;&#4658;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4616;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4672;&#4658;&#4661;&#4961; &#4637;&#4741;&#4933;&#4757;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4720;&#4768;&#4848;&#4811;&#4961; &#4941;&#4625;&#4672;&#4961; &#4845;&#4777;&#4757;&#4961; &#4773;&#4657;&#4648;&#4961; &#4808;&#4813;&#4873;&#4827;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4770;&#4725;&#4653;&#4661;&#4817;&#4752;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the same hand as the main text. The note mentions the name of the builder of the church ʾabunä ʿAṣfä Dәngәl, the one who planted the grapevine priest (qäsis) Täklä Krәstos, and the commissioner of the Ms. qäsis Mәḫṣәntä Maryam.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#">Fol. 72rb, l.11-72va: Note on commemoration days of some saints and individuals.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 72rb, l.11-72va: Note on commemoration days of some saints and individuals.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the same hand as Additio 1. The note mentions both Ethiopian and non-Ethiopian saints, and also two benefectors referred to in Addition 2 (Täklä Krәstos, ʿAṣfä Dәngәl).</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#">Fol. 72ra, l.16: Record concerning a donation of clothes made by S&#1241;b&#7717;at &#704;Aragawi (ca. 1844-1914), governor of &#705;Agam&#228;.</locus>
-                           <q xml:lang="gez">Fol. 72ra, l.16: <span style="font-size: large;">&#4827;&#4722;&#4961; &#4972;&#4768;&#4621;&#4707;&#4661;&#4961; &#4824;&#4808;&#4608;&#4710;&#4633;&#4961; &#4616;&#4923;&#4853;&#4675;&#4757;&#4961; &#4824;&#4656;&#4635;&#4829;&#4961; &#4665;&#4637;&#4961; &#4768;&#4875;&#4636;&#4961; &#4661;&#4709;&#4624;&#4725;&#4962; &#4969;&#4969;&#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4754;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></q>
+                           <locus/><p>Fol. 72ra, l.16: Record concerning a donation of clothes made by S&#1241;b&#7717;at &#704;Aragawi (ca. 1844-1914), governor of &#705;Agam&#228;.</p><q xml:lang="gez"><p>Fol. 72ra, l.16: <span style="font-size: large;">&#4827;&#4722;&#4961; &#4972;&#4768;&#4621;&#4707;&#4661;&#4961; &#4824;&#4808;&#4608;&#4710;&#4633;&#4961; &#4616;&#4923;&#4853;&#4675;&#4757;&#4961; &#4824;&#4656;&#4635;&#4829;&#4961; &#4665;&#4637;&#4961; &#4768;&#4875;&#4636;&#4961; &#4661;&#4709;&#4624;&#4725;&#4962; &#4969;&#4969;&#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4754;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -180,10 +174,10 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0054SÃ¤mazMaryam">SÃ¤maz Maryam / SMM</placeName>
+                        <placeName corresp="INS0054SMM">SÃ¤maz Maryam / SMM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. &#xD;
-Additio 4 mentions Səbḥat ʾAragawi, governor of ʿAgamä (ca. 1844-1914).</origDate>
+Additio 4 mentions Sәbḥat ʾAragawi, governor of ʿAgamä (ca. 1844-1914).</origDate>
                   </origin>
                </history>
                <additional>
@@ -218,13 +212,12 @@ Additio 4 mentions Səbḥat ʾAragawi, governor of ʿAgamä (ca. 1844-1914).</o
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the commissioner, priest (qäsis) Məḫṣəntä Maryam, is mentioned in Additiones 1 and 2.</persName>
+                  <persName corresp="PRS0000">The name of the commissioner, priest (qäsis) Mәḫṣәntä Maryam, is mentioned in Additiones 1 and 2.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -247,7 +240,7 @@ Additio 4 mentions Səbḥat ʾAragawi, governor of ʿAgamä (ca. 1844-1914).</o
          <change who="DN" when="2010-05-15">registered</change>
          <change who="SA" when="2013-03-05T15:32:18.537Z">created</change>
          <change who="SH" when="2014-06-02T17:25:30.410Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

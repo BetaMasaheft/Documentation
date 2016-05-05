@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0121ḈähatMädḫaneʿAläm"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0121MAC"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MAC-002</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">135.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">135.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">33.4</height>
                               <width unit="cm">28.3</width>
@@ -139,7 +137,7 @@ Cuts repaired in fols. 55, 57, 58, 76, 77, 77, 80, 113a, 116.&#xD;
 A strip of parchment is carefully sewn in the margin of fols 76.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="34">
                            <dimensions unit="mm">
                               <height>245</height>
                               <width>240</width>
@@ -152,55 +150,65 @@ A strip of parchment is carefully sewn in the margin of fols 76.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 23r</ab>
+                           <note>All data are for fol. 23r</note>
                            <ab type="ruling">occasionally 33 (fol. 23r, 23v, 26r, 26v, 29r-30v).</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The last two rulings in fols. 26r-26v are left empty.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The last ruled line in fols. 29r-30v is left empty.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but careful, regular.</ab>
                         <seg type="ink">Black, red (vivid vermillion, deep vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 18th century.</date>
+                        <list type="abbreviations">
+                           <item>ይቤ᎓ መተር᎓/ ይቤ᎓ መተ᎓/ ይቤ᎓ መ᎓ for ይቤ᎓ መተርጕም᎓</item>
+                           <item>
+                              <abbr>ይሕ፡</abbr> for <expan>ይብል፡ ሕዝብ፡ </expan> (fol. 54vb-55rb)</item>
+                           <item>
+                              <abbr>ሕ፡</abbr> for <expan>ሕዝብ፡ </expan> (fol. 54vb-55rb)</item>
+                           <item>
+                              <abbr>ይካ፡</abbr> for <expan>ይብል፡ ካህን፡ </expan> (fol. 54vb-55rb)</item>
+                           <item>
+                              <abbr>ይዲ፡</abbr> for <expan>ይብል፡ ዲያቆን፡ </expan> (fol. 54vb-55rb)</item>
+                           <item>
+                              <abbr>እግዚ፡/ እግ፡</abbr> for <expan>እግዚኦ፡ ተሣሃለነ፡ </expan> (fol. 132va-133rb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;">Fols. 1va-1vb: M&#228;lk&#601;<span unicode="">&#704;</span>a Giyorgis (end part) (ChRep 200, no. 147).</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 1va-1vb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#8230;</span><span style="line-height: 115%;">&#4777;&#4753;&#4757;&#5011; &#4616;&#4813;&#4659;&#4900;&#5011; &#4709;&#4653;&#4725;&#5011; &#4824;&#4662;&#4653;&#5011; &#4720;&#4635;&#4613;&#4920;&#4757;&#4777;&#5011; &#4704;&#4661;&#4675;&#4845;&#4776;&#5011; &#4808;&#4704;&#4931;&#4635;&#4776;&#5011; &#4632;&#4757;&#4781;&#4653;&#5011; &#4773;&#4637;&#4752;&#5011; &#4632;&#4661;&#4872;&#4653;&#4725;&#5011; &#4629;&#4705;&#4821;&#5011; &#4808;&#4773;&#4635;&#4821;&#4872;&#4725;&#5011; &#4661;&#4813;&#4653;&#4962;</span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;">Fols. 1va-1vb: M&#228;lk&#601;<span unicode="">&#704;</span>a Giyorgis (end part) (ChRep 200, no. 147).</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 1va-1vb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#8230;</span><span style="line-height: 115%;">&#4777;&#4753;&#4757;&#5011; &#4616;&#4813;&#4659;&#4900;&#5011; &#4709;&#4653;&#4725;&#5011; &#4824;&#4662;&#4653;&#5011; &#4720;&#4635;&#4613;&#4920;&#4757;&#4777;&#5011; &#4704;&#4661;&#4675;&#4845;&#4776;&#5011; &#4808;&#4704;&#4931;&#4635;&#4776;&#5011; &#4632;&#4757;&#4781;&#4653;&#5011; &#4773;&#4637;&#4752;&#5011; &#4632;&#4661;&#4872;&#4653;&#4725;&#5011; &#4629;&#4705;&#4821;&#5011; &#4808;&#4773;&#4635;&#4821;&#4872;&#4725;&#5011; &#4661;&#4813;&#4653;&#4962;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The same hand as that of Additio 3.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1vb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS">&#160; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4722;&#5011; &#4632;&#4925;&#4624;&#4941;&#5011;</span><span style="line-height: 115%;">&lt;&#8230;&gt;</span><span style="line-height: 115%;">&#5011; </span><span style="line-height: 115%;">&#4824;&#4768;&#4901;&#4648;&#4843;&#5011; &#4704;&#4752;&#4811;&#4841;&#5011; &#4776;&#4632;&#5011; &#4720;&#4777;&#4758;&#5011; &#4632;&#4653;&#4608;&#5011; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#5011; &#4656;&#4635;&#4843;&#4725;&#5011; &#4824;&#4640;&#4648;&#4675;&#5011; &#4808;&#4824;&#4936;&#4624;&#4675;&#5011; &#4704;&#4645;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;"><span>Fol. 1vb: Purchase note.</span></span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1vb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS">&#160; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4722;&#5011; &#4632;&#4925;&#4624;&#4941;&#5011;</span><span style="line-height: 115%;">&lt;&#8230;&gt;</span><span style="line-height: 115%;">&#5011; </span><span style="line-height: 115%;">&#4824;&#4768;&#4901;&#4648;&#4843;&#5011; &#4704;&#4752;&#4811;&#4841;&#5011; &#4776;&#4632;&#5011; &#4720;&#4777;&#4758;&#5011; &#4632;&#4653;&#4608;&#5011; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#5011; &#4656;&#4635;&#4843;&#4725;&#5011; &#4824;&#4640;&#4648;&#4675;&#5011; &#4808;&#4824;&#4936;&#4624;&#4675;&#5011; &#4704;&#4645;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The purchaser's name has been erased. Most probably  it is written by the same hand as the one that added the donor's names in the supplication formulas.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 133vc-134vc:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4619;&#4637;&#5011; &#4616;&#4829;</span><span style="line-height: 115%;">&lt;&#8230;&gt;</span><span style="line-height: 115%;">&#5011; &#4661;&#4637;</span><span style="line-height: 115%;">&#4776;</span><span style="line-height: 115%;">&#5011; &#4824;&#4656;&#4620;&#4851;&#5011; &#4638;&#4872;&#4661;&#5011;</span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fols. 133vc-134vc: M&#228;lk&#601;&#704;a Giyorgis (initial part) (ChRep 200, no. 147).</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 133vc-134vc:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4619;&#4637;&#5011; &#4616;&#4829;</span><span style="line-height: 115%;">&lt;&#8230;&gt;</span><span style="line-height: 115%;">&#5011; &#4661;&#4637;</span><span style="line-height: 115%;">&#4776;</span><span style="line-height: 115%;">&#5011; &#4824;&#4656;&#4620;&#4851;&#5011; &#4638;&#4872;&#4661;&#5011;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The same hand as that of Additio 1.</p>
                         </item>
                         <item xml:id="e1">- Excerpts of hymns for the Good Friday (?) added in the upper margins of fols.  72v-73r, 77v-78r, 87r-88r, 90v-91r. &#xD;
 - Names of the feasts, title of the works indicating the readings are written in the upper margin of some fols.:  &#xD;
@@ -238,7 +246,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0121ḈähatMädḫaneʿAläm">Ḉähat Mädḫane ʿAläm / MAC</placeName>
+                        <placeName corresp="INS0121MAC">Ḉähat Mädḫane ʿAläm / MAC</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850"/>
                   </origin>
@@ -280,10 +288,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -304,7 +308,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-05">registered</change>
          <change who="IR" when="2013-05-07T15:27:14.401Z">created</change>
          <change who="DN" when="2014-09-09T14:06:13.476Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

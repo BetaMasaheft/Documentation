@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0212ʾƎndaḤawaryatṖeṭroswä-Ṗawlos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0212EHPP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>EHPP-013</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="115r">Fol. 115r</locus>
+                        <locus target="115r">Fol. 115r</locus><p>Fol. 115r:</p><foreign xml:lang="en"/>
+                        <note/>
                      </colophon>
                   </msItem>
                </msContents>
@@ -56,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">116.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">116.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">19.7</width>
@@ -69,7 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="deficient"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="30">
                            <dimensions unit="mm">
                               <height>160</height>
                               <width>143</width>
@@ -82,17 +81,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left"/>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling"/>
+                           <note/>
                            <ab type="ruling"/>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink"/>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th cent.</date>
+                        <persName role="scribe" corresp="PRS00000">Näṣṣärä ʾAb</persName>Näṣṣärä ʾAb is mentioned in the colophon as the scribe (he copied also Mss. MKL-021 and EHPP-004).<date>19th cent.</date>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -110,7 +109,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0212ʾƎndaḤawaryatṖeṭroswä-Ṗawlos">ʾƎnda Ḥawaryat Ṗeṭros wä-Ṗawlos / EHPP</placeName>
+                        <placeName corresp="INS0212EHPP">ʾƎnda Ḥawaryat Ṗeṭros wä-Ṗawlos / EHPP</placeName>
                      </origPlace>
                      <origDate notBefore="1872" notAfter="1889">The colophon mentions the reing of Yoḥannǝs (most probably Yoḥannǝs IV, r. 1872-89)</origDate>
                   </origin>
@@ -152,8 +151,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Näṣṣärä ʾAb</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -176,7 +174,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-11-23">registered</change>
          <change who="DN" when="2015-06-01T13:01:48.606Z">created</change>
          <change who="DN" when="2015-06-02T14:27:50.124Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

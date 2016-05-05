@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0039DäbräMaʿṣoQəddusYoḥannəs"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0039MY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MY-003</idno>
                </msIdentifier>
                <msContents>
@@ -54,9 +54,7 @@ Elements of the punctuation signs; Ethiopic numerals or their elements; elements
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">154.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">154.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">35.0</height>
                               <width unit="cm">28.7</width>
@@ -133,7 +131,7 @@ Fols. 141v-143v are worn and slightly affected by humidity in the upper edges of
 Fols.  28, 31, 106, 116 are of slightly irregular shape.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="34">
                            <dimensions unit="mm">
                               <height>260</height>
                               <width>230</width>
@@ -146,29 +144,29 @@ Fols.  28, 31, 106, 116 are of slightly irregular shape.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 107r.&#xD;
-The dimensions slightly alterate throught the Ms.</ab>
+                           <note>All data are for fol. 107r.&#xD;
+The dimensions slightly alterate throught the Ms.</note>
                            <ab type="ruling">In many fols. the number is 32 or 33</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling (sometimes also below, esp.  fols. 107r-114v).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling (sometimes also below, e.g., fols. 5v, 7v, 61v).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Fols. 71r-72v have an additional ruled line in the upper margin.</ab>
-                           <ab type="CruxAnsata">
-                              <locus target=""/>
-                           </ab>
+                        </layout>
+                        <layout>
+                           <ab type="CruxAnsata">no</ab>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -176,8 +174,17 @@ Fols. 71r-72v have an additional ruled line in the upper margin.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful</ab>
                         <seg type="ink">Black; red, vermillion (for the names of donors in the supplication formulas) and occasionally pink (?) (e.g., fol. 48r).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th - early 20th century räqiq script.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይዲ፡/ ይ፡ ዲ፡</abbr> for <expan>ይብል፡ ዲያቆን፡ </expan> (e.g., fols. 72vb l.10, 73rc l.26)</item>
+                           <item>
+                              <abbr>ይካ፡/ይ፡ ካ፡</abbr> for <expan>ይብል፡ ካህን፡ </expan> (e.g., fols. 72vb l.12, 73rc l.28)</item>
+                           <item>
+                              <abbr>ስ፨ ይ፡</abbr> for <expan>ስቡሕኒ፡ ውእቱ፡ ወልዑልኒ፡ ውእቱ፡ ለዓለም፨ ይባርክዎ፡ </expan> (esp. fol. 120rab)</item>
+                           <item>
+                              <abbr>አሜ፡</abbr> for <expan>አሜአ፡ </expan> (esp. 59vc l.32)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -186,16 +193,15 @@ Fols. 71r-72v have an additional ruled line in the upper margin.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 3v (above): Ownership or donation note (?).</span></locus>
-                           <q xml:lang="gez"><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:" unicode="">Fol. 3v (above): </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%;" unicode="">&lt;</span><span lang="EN-GB" style="line-height: 115%;" unicode="">...</span><span lang="AMH" style="line-height: 115%;" unicode="">&gt;</span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="" new="">&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4845;&#4961; </span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode="">&lt;</span><span lang="EN-GB" style="line-height: 115%;" times="" new="" unicode="">...</span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode="">&gt;</span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="" new="">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span></span><br /> <span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4757;&#4725;&#4633;&#4610;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4770;&#4723;&#4757;&#4725;&#4873;&#4961; &#4920;&#4621;&#4846;&#4961; &#4616;&#4616;&#4720;&#4661;&#4773;&#4621;&#4781;&#4637;&#4814;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4618;&#4677;&#4781;&#4633;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4776;&#4632;&#4961; &#4845;&#4725;&#4752;&#4704;&#4709;&#4961; &#4975;&#4874;&#4828;&#4843;&#4720;&#4961; &#4773;&#4661;&#4632;&#4961; &#4618;&#4677;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4608;&#4622;&#4961; &#4637;&#4661;&#4620;&#4781;&#4633;&#4962; </span><span lang="AMH" style="line-height: 115%;">&lt;</span><span lang="EN-GB" style="line-height: 115%;">...</span><span lang="AMH" style="line-height: 115%;">&gt;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;"><br /> </span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;">Fol. 3v (above): Ownership or donation note (?).</span></p><q xml:lang="gez"><p><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:" unicode="">Fol. 3v (above): </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%;" unicode="">&lt;</span><span lang="EN-GB" style="line-height: 115%;" unicode="">...</span><span lang="AMH" style="line-height: 115%;" unicode="">&gt;</span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="" new="">&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4845;&#4961; </span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode="">&lt;</span><span lang="EN-GB" style="line-height: 115%;" times="" new="" unicode="">...</span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode="">&gt;</span><span lang="AMH" style="line-height: 115%;" times="" new="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="" new="">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span></span><br /> <span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4757;&#4725;&#4633;&#4610;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4770;&#4723;&#4757;&#4725;&#4873;&#4961; &#4920;&#4621;&#4846;&#4961; &#4616;&#4616;&#4720;&#4661;&#4773;&#4621;&#4781;&#4637;&#4814;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4618;&#4677;&#4781;&#4633;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4776;&#4632;&#4961; &#4845;&#4725;&#4752;&#4704;&#4709;&#4961; &#4975;&#4874;&#4828;&#4843;&#4720;&#4961; &#4773;&#4661;&#4632;&#4961; &#4618;&#4677;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4608;&#4622;&#4961; &#4637;&#4661;&#4620;&#4781;&#4633;&#4962; </span><span lang="AMH" style="line-height: 115%;">&lt;</span><span lang="EN-GB" style="line-height: 115%;">...</span><span lang="AMH" style="line-height: 115%;">&gt;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;"><br /> </span></span></p></q>
+                           <p>The note, written in the main hand, has been for the most part erased, only a few words are legible.
+It is enclosed in frame of double thin black lines. Exhortation to the priests to pray for the donor or head of the church stands below (a few words at the end are erased).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span lang="EN-GB" style="font-size:10.0pt;&#10;font-family:" unicode="">Fol. 153va-vb: Donation note.</span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 153va: This book G&#477;br&#228; h&#477;mamat is of ras S&#477;b&#7717;at who donated it to the (church of) Q&#477;ddus Yo&#7717;ann&#477;s D&#228;br&#228; Ma&#705;&#7693;o, so that it might be for him the guide to the Kingdom of Heaven; and his baptismal name (is) Kidan&#228; Maryam, and the name of his mother W&#228;l&#228;tt&#228; &#346;&#477;llase and the name of his wife W&#228;l&#228;tt&#228; Maryam and the name of his children G&#228;br&#228; &#7716;&#477;yw&#228;t, W&#228;lda G&#228;br&#477;&#704;el, &#704;Ar&#704;aya&#160; &#346;&#477;llase. Oh God of (the church of) Yo&#7717;ann&#477;s protect his life and forgive his sins and submit his enemy and </span><span lang="EN-US" style="line-height: 115%;" unicode="">his </span><span lang="EN-GB" style="line-height: 115%;" unicode="">adversary under the feet of Your servant Kidan&#228; Maryam and protect all men of the church from the temptation of the body and of the soul. May the one who stole this book and</span><span lang="EN-GB" style="line-height: 115%;" unicode=""> </span><span lang="EN-US" style="line-height: 115%;" unicode="">erased it be excommunicated through the power of Peter and Paul.</span></span></q>
-                           <p/>
+                           <locus/><p><span lang="EN-GB" style="font-size:10.0pt;&#10;font-family:" unicode="">Fol. 153va-vb: Donation note.</span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 153va:</span></span><span style="font-size: medium;"><span lang="EN-GB" style="line-height: 115%;" unicode=""> </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4877;&#4709;&#4648;&#4961; &#4613;&#4635;&#4635;&#4725;&#4961; &#4824;&#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4848;&#4709;&#4648;&#4961; &#4635;&#4821;&#4934;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4776;&#4632;&#4961; &#4845;&#4789;&#4758;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4961; &#4632;&#4653;&#4624;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4661;&#4632;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4609;&#4754;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4656;&#4632;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4768;&#4653;&#4768;&#4843;&#4961; &#4645;&#4619;&#4660;&#4961; &#4774;&#4768;&#4637;&#4619;&#4776;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4821;&#4672;&#4709;&#4961; &#4629;&#4845;&#4808;&#4726;&#4961; &#4808;&#4645;&#4648;&#4845;&#4961; &#4624;&#4898;&#4768;&#4726;&#4961; &#4808;&#4768;&#4877;&#4653;&#4653;&#4961; &#4928;&#4654;&#4961; &#4808;&#4920;&#4619;&#4821;&#4726;&#4961; &#4723;&#4629;&#4720;&#4961; &#4773;&#4872;&#4650;&#4609;&#4961; &#4616;&#4872;&#4709;&#4653;&#4776;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4789;&#4622;&#4633;&#4961; &#4656;&#4709;&#4768;&#4961; &#4708;</span><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">[fol. 153vb]</span></span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4721;&#4961; &#4845;&#4821;&#4672;&#4710;&#4633;&#4961; &#4773;&#4632;&#4776;&#4651;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4968; &#4616;&#4829;&#4757;&#4721;&#4754;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4968;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 153va: This book G&#477;br&#228; h&#477;mamat is of ras S&#477;b&#7717;at who donated it to the (church of) Q&#477;ddus Yo&#7717;ann&#477;s D&#228;br&#228; Ma&#705;&#7693;o, so that it might be for him the guide to the Kingdom of Heaven; and his baptismal name (is) Kidan&#228; Maryam, and the name of his mother W&#228;l&#228;tt&#228; &#346;&#477;llase and the name of his wife W&#228;l&#228;tt&#228; Maryam and the name of his children G&#228;br&#228; &#7716;&#477;yw&#228;t, W&#228;lda G&#228;br&#477;&#704;el, &#704;Ar&#704;aya&#160; &#346;&#477;llase. Oh God of (the church of) Yo&#7717;ann&#477;s protect his life and forgive his sins and submit his enemy and </span><span lang="EN-US" style="line-height: 115%;" unicode="">his </span><span lang="EN-GB" style="line-height: 115%;" unicode="">adversary under the feet of Your servant Kidan&#228; Maryam and protect all men of the church from the temptation of the body and of the soul. May the one who stole this book and</span><span lang="EN-GB" style="line-height: 115%;" unicode=""> </span><span lang="EN-US" style="line-height: 115%;" unicode="">erased it be excommunicated through the power of Peter and Paul.</span></span></p> <p></p></q>
+                           <p>The note is written in black, in a different and more recent (?) hand.</p>
                         </item>
                         <item xml:id="e1">- Inventory of books (of the church?) on fol. 153vbc. The note is written in pencil in a crude recent hand. Other notes in green and blue pen follow it (fol. 153vc), probably written by a different hand. They are not easily readable.&#xD;
 - Stamps with the name of the donor (ras Sǝbḥat) on fols. 3v (under Additio 1) and 153vb.&#xD;
@@ -218,7 +224,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0039DäbräMaʿṣoQəddusYoḥannəs">Däbrä Maʿṣo Qəddus Yoḥannəs / MY</placeName>
+                        <placeName corresp="INS0039MY">Däbrä Maʿṣo Qәddus Yoḥannәs / MY</placeName>
                      </origPlace>
                      <origDate notBefore="1892" notAfter="1914">Sǝbḥat ʾArägawi received the title of ras from Mängäša Yoḥannǝs in 1892 (s. EAE IV, 587-589).</origDate>
                   </origin>
@@ -261,10 +267,6 @@ Names of other individuals are written in some supplication formulas: Gäbrä Ś
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -285,7 +287,7 @@ Names of other individuals are written in some supplication formulas: Gäbrä Ś
          <change who="DN" when="2010-05-10">registered</change>
          <change who="VP" when="2013-04-18T13:06:37.038Z">created</change>
          <change who="DN" when="2015-05-23T20:31:14.103Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0221QäqämaDäbräGännätQǝddǝst"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0221QDGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QDGM-010</idno>
                   <altIdentifier>
                      <idno>C2-IV-629 (fol. 61vb)</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">200.0</measure> folios,
-                                                in
-                                                <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">200.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.1</height>
                               <width unit="cm">16.2</width>
@@ -184,7 +182,7 @@ Many fols. are about to fall apart along the ruled lines. &#xD;
 Tears or holes amended on fols. 24, 105.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>115</height>
                               <width>125</width>
@@ -197,80 +195,75 @@ Tears or holes amended on fols. 24, 105.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">11</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 11r.</ab>
+                           <note>All data are for fol. 11r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful and regular</ab>
-                        <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Mid 17th - mid 18th century</date>
+                        <seg type="ink">Black, red</seg>The hand is very similar to that attested in Ms. Manchester, John Rylands University Library, no. 16 (StrJRyM 43-45 and pl. 3, Śǝrʿatä mǝnkwǝsǝnna, dated to ca. 1650)<date>Mid 17th - mid 18th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ምዕ፡</abbr> for <expan>ምዕራፍ፡ </expan> (throughout Text I)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2ra-rb: Excerpt from Missal</span><span style="line-height: 115%;">.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2ra-rb: Excerpt from Missal</span><span style="line-height: 115%;">.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Alexandrian Patriarch ʾabba Marqos and Metropolitan Krǝstodolu are mentioned. Since none of the Alexandrian Patriarchs named Mark was in office during the tenure of one of the three Metropolitan called Krǝstodolu it is difficult to identify the persons mentioned here (but cp. Additio 2).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 2va-5vb: Excerpt from Missal</span><span style="line-height: 115%;">.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 2va-5vb: Excerpt from Missal</span><span style="line-height: 115%;">.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The Alexandrian Patriarch Matthew IV (in tenure 1660-75) and Metropolitan Krǝstodolu II (in tenure 1664-71) are mentioned on fol. 3ra.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 14ra-18vb, 183r-v: Excerpt from a </span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">grammar of </span></span>G&#601;&#705;&#601;z (s&#228;was&#601;w). </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 14ra:</span></span><span style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4757;&#4812;&#4901;&#4757;&#4961; &#4704;&#4648;&#4853;&#4820;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4872;&#4707;&#4709;&#4961;... </span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 14ra-18vb, 183r-v: Excerpt from a </span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">grammar of </span></span>G&#601;&#705;&#601;z (s&#228;was&#601;w). </span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 14ra:</span></span><span style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4757;&#4812;&#4901;&#4757;&#4961; &#4704;&#4648;&#4853;&#4820;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4872;&#4707;&#4709;&#4961;... </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The excerpt is written in the bottom margin in Amharic and Gǝʿǝz; it is poorly legible.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va: Ownership note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span>...</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va: Ownership note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4757;&#4811;&#4841;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span>...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states Wäldä Giyorgis as the owner of this book who purchased it with his money. His name is also written on fol. 197rb.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#">Fol. 70r: Purchase note.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 70r: Purchase note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note, barely legible, is crudely written in the upper margin in a different hand than Additio 4 and mentions Qäsäla Giyorgis as buyer.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va: Excommunication against those who stole the book or erased its text.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va: Excommunication against those who stole the book or erased its text.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the main hand, in red ink.</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va-vb: &#704;Asmat-prayer for fertility (f&#477;ta&#7717; ma&#7717;&#7693;&#228;na l&#228;-&#704;am&#228;t&#477;k&#228;...).</span></span><span style="font-size: small;"><span style="line-height: 115%;"><br /> </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 69va: [...]</span><span style="font-size: large;">&#4872;&#4709;&#4653;&#4776;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4705;&#4649;&#4781;&#4961; &#4941;&#4621;&#4621;&#4637;&#4846;&#4661;&#4961; &#4661;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961; &#4811;&#4629;&#4853;&#4961; &#4789;&#4653;&#4789;&#4653;&#4843;&#4758; &#4661;&#4961; &#4661;&#4632;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4635;&#4629;&#4840;&#4810;&#4961; &#4898;&#4758;&#4661;&#4961; &#4808;&#4901;&#4677;&#4843;&#4758;&#4661;&#4961; &#4704;&#4624;&#4845;&#4616;&#4961; &#4829;&#4757;&#4721;&#4961; &#4768;&#4661;&#4635;&#4722;&#4776;&#4961; ...</span><span style="font-size: small;"><span style="line-height: 115%;"> </span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 69va-vb: &#704;Asmat-prayer for fertility (f&#477;ta&#7717; ma&#7717;&#7693;&#228;na l&#228;-&#704;am&#228;t&#477;k&#228;...).</span></span><span style="font-size: small;"><span style="line-height: 115%;"><br /> </span></span></p> <p></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 69va: [...]</span><span style="font-size: large;">&#4872;&#4709;&#4653;&#4776;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4705;&#4649;&#4781;&#4961; &#4941;&#4621;&#4621;&#4637;&#4846;&#4661;&#4961; &#4661;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961; &#4811;&#4629;&#4853;&#4961; &#4789;&#4653;&#4789;&#4653;&#4843;&#4758; &#4661;&#4961; &#4661;&#4632;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4635;&#4629;&#4840;&#4810;&#4961; &#4898;&#4758;&#4661;&#4961; &#4808;&#4901;&#4677;&#4843;&#4758;&#4661;&#4961; &#4704;&#4624;&#4845;&#4616;&#4961; &#4829;&#4757;&#4721;&#4961; &#4768;&#4661;&#4635;&#4722;&#4776;&#4961; ...</span><span style="font-size: small;"><span style="line-height: 115%;"> </span></span></p> <p><span style="font-size: small;"><span style="line-height: 115%;">[fol. 69vb]:</span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">.</span></span><span style="font-size: large;"><span style="line-height: 115%;">.. &#4829;&#4757;&#4721;&#4961; &#4768;&#4661;&#4635;&#4722;&#4776;&#4961; &#4941;&#4723;&#4629;&#4961; &#4635;&#4629;&#4928;&#4755;&#4961; &#4616;&#4768;&#4632;&#4725;&#4776;</span><span style="line-height: 115%;">...</span></span></p> <p><span style="font-size:9.0pt;line-height:115%;"><br /> </span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00"><span unicode="" style="font-size:9.0pt;line-height:&#10;115%;Arial">F</span><span style="font-size: small;"><span style="line-height: 115%;">ols. 197va-199vb: Excerpt from</span><span style="line-height: 115%;"> D&#477;gg</span><sup><span style="line-height: 115%;">w</span></sup><span style="line-height: 115%;">a.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span unicode="" style="font-size:9.0pt;line-height:&#10;115%;Arial">F</span><span style="font-size: small;"><span style="line-height: 115%;">ols. 197va-199vb: Excerpt from</span><span style="line-height: 115%;"> D&#477;gg</span><sup><span style="line-height: 115%;">w</span></sup><span style="line-height: 115%;">a.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The excerpt is for the most part written in a small script; the first word of each strophe is rubricated. The musical notation seems to be done in a secondary hand.</p>
                         </item>
                         <item xml:id="e1">- The guard of quire A leaf (folded lengthwise) contains an excerpt from Dǝggwa. &#xD;
 - Fol. 200 contains an excerpt from an unidentified text (Wǝddase ʾamlak, Missal?). &#xD;
@@ -302,7 +295,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0221QäqämaDäbräGännätQǝddǝst">Qäqäma Däbrä Gännät Qǝddǝst   / QDGM</placeName>
+                        <placeName corresp="INS0221QDGM">Qäqäma Däbrä Gännät Qǝddǝst   / QDGM</placeName>
                      </origPlace>
                      <origDate notBefore="1650" notAfter="1750">Mid 17th - mid 18th cent.</origDate>
                   </origin>
@@ -344,10 +337,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -369,7 +358,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2012-06-01">registered</change>
          <change who="SH" when="2013-11-27T12:34:10.125Z">created</change>
          <change who="DN" when="2015-02-03T10:44:36.626Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-048</idno>
                   <altIdentifier>
                      <idno>C3-IV-41</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">71.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">6.0</measure> blank, in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">71.0</measure> folios, of which <measure unit="leaf" type="blank">6.0</measure> blank, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.5</height>
                               <width unit="cm">20.5</width>
@@ -91,7 +89,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>180</height>
                               <width>150</width>
@@ -104,30 +102,30 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th - early 20th century</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Mikaʾel</persName>The scribe, Wäldä Mikaʾel, is mentioned in the supplication formulas on fols. 4rb, 11va, 27vb-28ra.<date>Late 19th - early 20th century</date>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -146,7 +144,7 @@ A rectangular piece of indigo textile is crudely sewn to the leather spine, head
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
                      </origPlace>
                      <origDate notBefore="1870" notAfter="1930">Late 19th - early 20th century</origDate>
                   </origin>
@@ -188,8 +186,7 @@ A rectangular piece of indigo textile is crudely sewn to the leather spine, head
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Mikaʾel</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -212,7 +209,7 @@ A rectangular piece of indigo textile is crudely sewn to the leather spine, head
          <change who="DN" when="2010-05-05">registered</change>
          <change who="VP" when="2011-09-19T12:49:53.002Z">created</change>
          <change who="DN" when="2014-08-07T10:50:38.771Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0097ʿAddiQolqwalGiyorgis"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0097AQG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AQG-015</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ A few lines (alternating with black lines) on the incipit page of Texts I-1 and 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">144.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">144.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">15.5</height>
                               <width unit="cm">15.0</width>
@@ -136,7 +134,7 @@ Some leaves are damaged, with portions of the text lost (e.g., fols. 104, 131, 1
 Holes carefully amended on fols. 12, 74.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="19">
                            <dimensions unit="mm">
                               <height>103</height>
                               <width>118</width>
@@ -149,19 +147,21 @@ Holes carefully amended on fols. 12, 74.</condition>
                               <dim type="left">14</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Texts I-1, I-2, I-3: all data for fol. 8r.</ab>
+                           <note>Texts I-1, I-2, I-3: all data for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>105</height>
                               <width>120</width>
@@ -174,28 +174,40 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Text I-4: all data for fol. 140r.</ab>
+                           <note>Text I-4: all data for fol. 140r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 18th - first half of the 19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>Text I-4</item>
+                           <item>
+                              <abbr>ሰ፡ ቅ፡ or ሰ፡</abbr> for <expan>ሰአሊ፡ </expan> (ለነ፡) ቅድስት፡</item>
+                           <item>Words or their abbreviations stand for the whole refrain:</item>
+                           <item>
+                              <abbr>ሠ፡</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fols. 138vb-139rb)</item>
+                           <item>
+                              <abbr>እ፡/እስ፡</abbr> for <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 139vb-141ra)</item>
+                           <item>
+                              <abbr>ኵ፡</abbr> for <expan>ኵሉ፡ ትውልድ፡ ያስተበፅዑኪ፡ ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ </expan> (fol. 142va-vb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -216,10 +228,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;">Fols. 143ra&#8211;144vb: Hymn in praise of various saints (?), </span><span style="font-size: small;">fragment.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fols. 143ra&#8211;144vb: Hymn in praise of various saints (?), </span><span style="font-size: small;">fragment.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is written on a bifolio originating from another, older Ms.(?) The text is partly illegible due to a water stain and faded ink.</p>
                         </item>
                         <item xml:id="e1">- The Pss. are divided into groups of ten separated by a line of alternating black and red dots.&#xD;
 - Omitted letters, words or lines written interlineally, in two different secondary hands: e.g., fols. 2v, 14v, 16r, 20v, 27r, 29v, 31r, 33v, 34v, 42v, 44r, 59v, 76v, 92v, 101r, 107r, 118v, 119r, 128v.&#xD;
@@ -242,7 +253,7 @@ One pair of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0097ʿAddiQolqwalGiyorgis">ʿAddi Qolqwal Giyorgis / AQG</placeName>
+                        <placeName corresp="INS0097AQG">ʿAddi Qolqwal Giyorgis / AQG</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850">Second half of the 18th - first half of the 19th cent.(?)</origDate>
                   </origin>
@@ -284,10 +295,6 @@ One pair of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -309,7 +316,7 @@ One pair of sewing stations.</decoNote>
          <change who="DN" when="2010-11-18">registered</change>
          <change who="IF" when="2011-05-31T14:10:10.860Z">created</change>
          <change who="MK" when="2014-09-08T10:31:21.681Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

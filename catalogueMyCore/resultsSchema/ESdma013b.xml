@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0099ʾAḥzäraMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0099DMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMA-013b</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">11.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">11.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">13.0</width>
@@ -69,7 +67,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="deficient">The leaves are damaged by rodents with the loss of text, held together by means of crude stitches made of recent synthetic thread.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>113</width>
@@ -82,21 +80,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">9</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r.</ab>
+                           <note>All data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The bottom ruled line was not used by the scribe on fols. 4r-5v, 7r-8v.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -107,7 +107,6 @@ The bottom ruled line was not used by the scribe on fols. 4r-5v, 7r-8v.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 15th cent. (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -124,7 +123,7 @@ The bottom ruled line was not used by the scribe on fols. 4r-5v, 7r-8v.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0099ʾAḥzäraMaryam">ʾAḥzära  Maryam /DMA</placeName>
+                        <placeName corresp="INS0099DMA">ʾAḥzära  Maryam /DMA</placeName>
                      </origPlace>
                      <origDate notBefore="1400" notAfter="1450">First half of the 15th cent. (?)</origDate>
                   </origin>
@@ -166,10 +165,6 @@ The bottom ruled line was not used by the scribe on fols. 4r-5v, 7r-8v.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -190,7 +185,7 @@ The bottom ruled line was not used by the scribe on fols. 4r-5v, 7r-8v.</ab>
          <change who="DN" when="2010-11-24">registered</change>
          <change who="MK" when="2014-12-01T17:38:34.014Z">created</change>
          <change who="DN" when="2014-12-18T16:11:34.915Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

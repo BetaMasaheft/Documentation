@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0144ḤarennätGäbäzäytiQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0144MHG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MHG-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">123.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">123.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">15.0</height>
                               <width unit="cm">8.5</width>
@@ -127,7 +125,7 @@ Outer margins of fols. 74r-101v are trimmed.&#xD;
 Text abraded on fol. 8v.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="19">
                            <dimensions unit="mm">
                               <height>105</height>
                               <width>60</width>
@@ -140,28 +138,46 @@ Text abraded on fol. 8v.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre; hand b: fine and careful, well-trained; hand c: fine hand d: fine; hand e: fine and careful.</ab>
                         <seg type="ink">Black, red (vivid scarlet, strong red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Giyorgis</persName>The scribe’s signature (hand e) mentiones Gäbrä Giyorgis as the scribe on fol. 121v.<date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (fol. 3r)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (fol. 5r)</item>
+                           <item>
+                              <abbr>ሰ፡ ለ፡/ሰ፡</abbr> for <expan>ሰላም፡ ለኪ፡ </expan> (e.g., fols. 8r, 54r, 57v)</item>
+                           <item>
+                              <abbr>ሰ፡</abbr> for <expan>ሰላም፡ ለክሙ፡ </expan> (fol. 60r)</item>
+                           <item>
+                              <abbr>ስ፡</abbr> for <expan>ስብሐት፡ ለክሙ፡ </expan> (fols. 60v, 61r)</item>
+                           <item>
+                              <abbr>ስ፡</abbr> for <expan>ስብሐት፡ ለከ፡ </expan> (e.g., fols. 63v, 64r, 66v)</item>
+                           <item>
+                              <abbr>በሰ፡ ሰ፡</abbr> for <expan>በሰጊድ፡ ሰላም፡ </expan> (e.g., fols. 70r, 71v, 72r)</item>
+                           <item>
+                              <abbr>መ፡</abbr> for <expan>መሐልኩ፡ ለኪ፡ </expan> (e.g., fols. 97v, 98r, 99r)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 2r-8v; regular</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 9r-47v; the handwriting remains regular throughout the Ms. and characterized by finely shaped, round and broadly spaced letters.</handNote>
@@ -172,34 +188,29 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r: Protective prayer.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r: Protective prayer.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 21v: Supplication and condemnation note. </span></span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"><span style="font-size: small;"><span style="line-height: 115%;"><br /> </span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 21v: Supplication and condemnation note. </span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;"><br /> </span></span></p></q>
+                           <p>The name of the donor has been erased.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22r: Supplication formula.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22r: Supplication formula.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in hand b. Names of the donors have been erased.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 122r-123r: Unidentified text.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 122r-123r: Unidentified text.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text contains many readings taken from the Psalms of David.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 123r: Protective prayer (&#7779;&#228;lot&#228; k&#228;roforon).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 123r: Protective prayer (&#7779;&#228;lot&#228; k&#228;roforon).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Names have been erased.</p>
                         </item>
                         <item xml:id="e1">- A recent note in Tǝgrǝñña, written in blue pen, mentioning the total number of fols. of the manuscript, 123 fols: fol. 1r.&#xD;
 - The scribe used compressed script on fol. 6r.&#xD;
@@ -225,7 +236,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0144ḤarennätGäbäzäytiQǝddǝstMaryam">Ḥarennät Gäbäzäyti Qǝddǝst Maryam / MHG</placeName>
+                        <placeName corresp="INS0144MHG">Ḥarennät Gäbäzäyti Qǝddǝst Maryam / MHG</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -267,8 +278,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Giyorgis</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -293,7 +303,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-20">registered</change>
          <change who="AA" when="2014-07-10T14:24:27.112Z">created</change>
          <change who="AA" when="2014-11-12T10:29:25.923Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

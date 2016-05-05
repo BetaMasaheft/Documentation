@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0110QiË&#x81;atDÃ¤brÃ¤á¹¢Ç&#x9d;yonQÇ&#x9d;ddÇ&#x9d;stMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0110QDS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QDS-004</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ The names Wälättä Mikaʾel (fol. 31va, 32vb, 71vb) and Wäldä ʾAbiyä ʾƎg
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">79.0</measure> folios,
-                                                in
-                                                <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">79.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">17.3</width>
@@ -99,7 +97,7 @@ The names Wälättä Mikaʾel (fol. 31va, 32vb, 71vb) and Wäldä ʾAbiyä ʾƎg
                         <condition key="good">Holes are carefully amended in fols. 32, 53, 63, 68, 72, 75, 79.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>162</height>
                               <width>130</width>
@@ -112,27 +110,27 @@ The names Wälättä Mikaʾel (fol. 31va, 32vb, 71vb) and Wäldä ʾAbiyä ʾƎg
                               <dim type="left">8</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful.</ab>
                         <seg type="ink">Black, red (vivid red, strong crimson)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -158,7 +156,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0110QiË&#x81;atDÃ¤brÃ¤á¹¢Ç&#x9d;yonQÇ&#x9d;ddÇ&#x9d;stMaryam">QiË&#x81;at DÃ¤brÃ¤ á¹¢Ç&#x9d;yon QÇ&#x9d;ddÇ&#x9d;st Maryam / QDS</placeName>
+                        <placeName corresp="INS0110QDS">QiË&#x81;at DÃ¤brÃ¤ á¹¢Ç&#x9d;yon QÇ&#x9d;ddÇ&#x9d;st Maryam / QDS</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -200,10 +198,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -224,7 +218,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-02">registered</change>
          <change who="MK" when="2012-08-20T14:37:43.658Z">created</change>
          <change who="MK" when="2014-10-14T14:25:07.356Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

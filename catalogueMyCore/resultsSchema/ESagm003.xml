@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ʾArbaʿtu wängel “Four Gospels”</title>
+            <title>ʾArbaˤtu wängel “Four Gospels”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0093ʾAgamyoQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0093AGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AGM-003</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipits and headings of the texts; postscripts to the Gospels of Mark, Luke and John; marginal notes repeating chapter titles or indicating Gospel readings for certain occasions; chi rho and crux ansata signs; elements of the punctuation signs; chapter numbers and the word mǝʿǝraf.&#xD;
+                     <rubric>Nomina sacra; incipits and headings of the texts; postscripts to the Gospels of Mark, Luke and John; marginal notes repeating chapter titles or indicating Gospel readings for certain occasions; chi rho and crux ansata signs; elements of the punctuation signs; chapter numbers and the word mǝˤǝraf.&#xD;
 &#xD;
 Incipits of the Gospel texts are written alternately in red and black lines (fols. 4r, 56r, 88r, 138r).</rubric>
                      <incipit>
@@ -53,9 +53,7 @@ Incipits of the Gospel texts are written alternately in red and black lines (fol
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">179.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">0.5</measure> blank, in
-                                                <measure unit="quire">27.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">179.0</measure> folios, of which <measure unit="leaf" type="blank">0.5</measure> blank, in <measure unit="quire">27.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">22.0</width>
@@ -155,7 +153,7 @@ Part of Text IV – the list of the “tituli” for the Gospel of John – has 
 Traces and turn-ins of a previous overback are preserved on the inner side of both boards.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>227</height>
                               <width>165</width>
@@ -168,19 +166,21 @@ Traces and turn-ins of a previous overback are preserved on the inner side of bo
                               <dim type="left">9</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 70r.</ab>
+                           <note>All data for fol. 70r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling is partly visible; pricking is visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling is partly visible; pricking is visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible (s. fol. 29r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible (s. fol. 20r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -191,7 +191,6 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 16th - early 17th century.</date>
                      </handNote>
                   </handDesc>
@@ -215,7 +214,7 @@ Some quires are reinforced by parchment guards (quires I, II, III, VI, etc.).</d
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0093ʾAgamyoQǝddusMikaʾel">ʾAgamyo Qǝddus Mikaʾel / AGM</placeName>
+                        <placeName corresp="INS0093AGM">ʾAgamyo Qǝddus Mikaʾel / AGM</placeName>
                      </origPlace>
                      <origDate notBefore="1570" notAfter="1630">Late 16th - early 17th century (?). Quire A originates from a different, more recent manuscript (18th cent.?), inserted sideways as protective leaf.</origDate>
                   </origin>
@@ -257,10 +256,6 @@ Some quires are reinforced by parchment guards (quires I, II, III, VI, etc.).</d
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -281,7 +276,7 @@ Some quires are reinforced by parchment guards (quires I, II, III, VI, etc.).</d
          <change who="DN" when="2010-11-17">registered</change>
          <change who="IF" when="2011-06-15T14:40:41.015Z">created</change>
          <change who="MV" when="2015-04-30T13:36:13.716Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

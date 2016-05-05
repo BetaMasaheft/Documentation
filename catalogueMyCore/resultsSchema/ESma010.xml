@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0145ʾAndelQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0145MA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MA-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">121.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">121.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">24.2</width>
@@ -119,7 +117,7 @@ The text on fol. 63 is difficult to read due to the low quality of the parchment
 Holes carefully amended in fols. 66, 95, 97, 102.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>194</height>
                               <width>190</width>
@@ -132,49 +130,48 @@ Holes carefully amended in fols. 66, 95, 97, 102.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 9r.</ab>
+                           <note>All data for fol. 9r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular.</ab>
                         <seg type="ink">Black, red (vivid scarlet; the names of the donor in brilliant vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th-early 20th cent.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 117ra-117va: T&#228;&#704;amrihomu l&#228;-&#704;ab w&#228;-w&#228;ld w&#228;-m&#228;nf&#228;s q&#477;ddus &#8220;Miracles of the Father and the Son and the Holy Spirit&#8221;: 1 miracle. </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 117ra: <span style="font-size: large;">&#4720;&#4768;&#4637;&#4650;&#4614;&#4633;&#4961; &#4616;&#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4643;&#4613;&#4622;&#4633;&#4964; &#4808;&#4637;&#4629;&#4648;&#4726;&#4633;&#4964; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4872;&#4709;&#4654;&#4633;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4962; &#4962; &#4704;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;</span>[sic]<span style="font-size: large;">&#4961; &#4768;&#4636;</span>[sic]</span><span style="font-size: large;">&#4968; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4662;&#4704;&#4961; &#4782;&#4758;&#4961; &#4616;&#4768;&#4851;&#4637;&#4961; &#4981;&#4925;&#4707;&#4629;&#4961; &#4752;&#4645;&#4773;&#4814;&#4961; &#4704;&#4640;&#4648;&#4872;&#4619;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4808;&#4768;&#4709;&#4925;&#4629;&#4814;&#4961; &#4872;&#4752;&#4720;&#4961; &#4720;&#4941;&#4645;&#4629;&#4725;&#4961; &#4808;&#4845;&#4708;&#4621;&#4814;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4624;&#4709;&#4755;&#4776;&#4961;</span></span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 117ra-117va: T&#228;&#704;amrihomu l&#228;-&#704;ab w&#228;-w&#228;ld w&#228;-m&#228;nf&#228;s q&#477;ddus &#8220;Miracles of the Father and the Son and the Holy Spirit&#8221;: 1 miracle. </span></span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 117ra: <span style="font-size: large;">&#4720;&#4768;&#4637;&#4650;&#4614;&#4633;&#4961; &#4616;&#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4643;&#4613;&#4622;&#4633;&#4964; &#4808;&#4637;&#4629;&#4648;&#4726;&#4633;&#4964; &#4840;&#4608;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4872;&#4709;&#4654;&#4633;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4962; &#4962; &#4704;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;</span>[sic]<span style="font-size: large;">&#4961; &#4768;&#4636;</span>[sic]</span><span style="font-size: large;">&#4968; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4662;&#4704;&#4961; &#4782;&#4758;&#4961; &#4616;&#4768;&#4851;&#4637;&#4961; &#4981;&#4925;&#4707;&#4629;&#4961; &#4752;&#4645;&#4773;&#4814;&#4961; &#4704;&#4640;&#4648;&#4872;&#4619;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4808;&#4768;&#4709;&#4925;&#4629;&#4814;&#4961; &#4872;&#4752;&#4720;&#4961; &#4720;&#4941;&#4645;&#4629;&#4725;&#4961; &#4808;&#4845;&#4708;&#4621;&#4814;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4624;&#4709;&#4755;&#4776;&#4961;</span></span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note has been written in the same hand as that of the names of the donors in the supplication formulas, and of Additio 2.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 117va: </span><span style="font-size: large;">&#4920;&#4876;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4653;&#4773;&#4656;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4920;&#4709;&#4624;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4741;&#4705;&#4648;&#4961; &#4845;&#4637;&#4624;&#4654;&#4633;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span><span style="font-size: small;"> <span style="line-height: 115%;">[fol. 117vb]</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4824;&#4709;&#4773;&#4658;&#4721;&#4961; &#4819;&#4632;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4824;&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4757;&#4852;&#4621;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4752;&#4811;&#4841;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4739;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4776;&#4757;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 117vab: Donation note. </span></div><q xml:lang="gez"><p><span style="font-size: small;">Fol. 117va: </span><span style="font-size: large;">&#4920;&#4876;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4653;&#4773;&#4656;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4920;&#4709;&#4624;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4741;&#4705;&#4648;&#4961; &#4845;&#4637;&#4624;&#4654;&#4633;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span><span style="font-size: small;"> <span style="line-height: 115%;">[fol. 117vb]</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4824;&#4709;&#4773;&#4658;&#4721;&#4961; &#4819;&#4632;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4824;&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4757;&#4852;&#4621;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4752;&#4811;&#4841;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4739;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4776;&#4757;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></span></span></p> <p><span style="font-size: small;"><br /> </span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note was written in the same hand as that of the names of the donors in the supplication formulas, and of Additio 1.
+It mentions many personal names (relatives?), and the donor Wäldä ʾIyäsus and his wife ʿAmätä Maryam. The Ms. Wäldä ʾIyäsus commissioned the Ms. and donated it to the church of Maryam ʾAndel.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 118r:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4978;&#4977;&#4987;&#4980;&#4970; &#4819;&#4961; &#4637;&#4961; &#4723;&#4613;&#4643;&#4645;&#4961; &#4975;&#4961; &#4672;&#4757;&#4961; &#4704;&#4704;&#4664;&#4845;&#4961; &#4779;&#4613;&#4643;&#4845;&#4961; &#4624;&#4880;&#4661;&#4961; &#4909;&#4675;&#4961; &#4851;&#4765;&#4752;&#4725;&#4961; &#4840;&#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4757;&#4852;&#4621;&#4961; &#4632;&#4619;&#4813;&#4961; &#4635;&#4613;&#4704;&#4653;&#4961; &#4720;&#4763;&#4755;&#4961; &#4648;&#4632;&#4763;&#4961; &#4707;&#4619;&#4707;&#4725;&#4961; &#4898;&#4656;&#4763;&#4637;&#4961; &#4672;&#4653;&#4710;&#4961; &#4840;&#4901;&#4757;&#4725;&#4961; &#4840;&#4678;&#4840;&#4961; &#4725;&#4779;&#4621;&#4961; &#4843;&#4707;&#4726;&#4731;&#4733;&#4757;&#4961; &#4845;&#4752;&#4872;&#4653;&#4755;&#4961; &#4757;&#4648;&#4875;&#4616;&#4757;&#4961; &#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4845;&#4633;&#4725;&#4961; &#4709;&#4616;&#4813;&#4961; &#4773;&#4843;&#4757;&#4851;&#4848;&#4728;&#4813;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fols. 118r-119r: Record concerning a dispute over rim-land rights. </span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 118r:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4978;&#4977;&#4987;&#4980;&#4970; &#4819;&#4961; &#4637;&#4961; &#4723;&#4613;&#4643;&#4645;&#4961; &#4975;&#4961; &#4672;&#4757;&#4961; &#4704;&#4704;&#4664;&#4845;&#4961; &#4779;&#4613;&#4643;&#4845;&#4961; &#4624;&#4880;&#4661;&#4961; &#4909;&#4675;&#4961; &#4851;&#4765;&#4752;&#4725;&#4961; &#4840;&#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4757;&#4852;&#4621;&#4961; &#4632;&#4619;&#4813;&#4961; &#4635;&#4613;&#4704;&#4653;&#4961; &#4720;&#4763;&#4755;&#4961; &#4648;&#4632;&#4763;&#4961; &#4707;&#4619;&#4707;&#4725;&#4961; &#4898;&#4656;&#4763;&#4637;&#4961; &#4672;&#4653;&#4710;&#4961; &#4840;&#4901;&#4757;&#4725;&#4961; &#4840;&#4678;&#4840;&#4961; &#4725;&#4779;&#4621;&#4961; &#4843;&#4707;&#4726;&#4731;&#4733;&#4757;&#4961; &#4845;&#4752;&#4872;&#4653;&#4755;&#4961; &#4757;&#4648;&#4875;&#4616;&#4757;&#4961; &#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4845;&#4633;&#4725;&#4961; &#4709;&#4616;&#4813;&#4961; &#4773;&#4843;&#4757;&#4851;&#4848;&#4728;&#4813;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic; the ink is partly faded. It refers to the dispute over rim-land rights between the community of ʾAndel Qǝddǝst Maryam and the surrounding villagers. The dispute was brought before district judge bašay Kahśay Ḥagos for mediation. He based his judgment on pre-existing laws, which are also listed in this note.
+The Extensive note was written on the 7th Taḫśaś 1932 year of mercy (= 3rd December 1939 A.D.).</p>
                         </item>
                         <item xml:id="e1">- Pen trials: fol. 1r.&#xD;
 - Scribbles, crude notes: fol. 77v.&#xD;
@@ -198,7 +195,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0145ʾAndelQǝddǝstMaryam">ʾAndel Qǝddǝst Maryam / MA</placeName>
+                        <placeName corresp="INS0145MA">ʾAndel Qǝddǝst Maryam / MA</placeName>
                      </origPlace>
                      <origDate notBefore="1880" notAfter="1939">Additio 3 mentions the date 7 Taḫśaś 1932 year of mercy (= 3 December 1939 A.D.).</origDate>
                   </origin>
@@ -240,10 +237,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -265,7 +258,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-23">registered</change>
          <change who="SD" when="2014-10-10T10:15:07.261Z">created</change>
          <change who="SD" when="2014-11-13T09:46:04.928Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

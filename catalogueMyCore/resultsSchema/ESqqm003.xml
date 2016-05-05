@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0159ʿAddiQiyaḥtoQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0159QQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QQM-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">119.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">119.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">32.0</height>
                               <width unit="cm">27.5</width>
@@ -124,7 +122,7 @@ Holes repaired on fols. 7, 26, 73, 100.&#xD;
 Fols. 1r-2v most probably coming from another Ms.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="34">
                            <dimensions unit="mm">
                               <height>289</height>
                               <width>228</width>
@@ -137,30 +135,38 @@ Fols. 1r-2v most probably coming from another Ms.</condition>
                               <dim type="left">18</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r</ab>
+                           <note>All data are for fol. 4r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre and irregular</ab>
                         <seg type="ink">Black (in many fols. faded); red (brilliant vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ኢየሱስ</abbr> for <expan>ኢየሱ </expan> (e.g., fols. 23rb, 46vb)</item>
+                           <item>
+                              <abbr>ስ፡</abbr> for <expan>ስቡሕኒ፡ ውእቱ፡ ወልዑልኒ፡ ውእቱ፡ ለዓለም፡ </expan> (in Text I-8, fol. 103va-c)</item>
+                           <item>
+                              <abbr>ኃ፡</abbr> for <expan>ኃጣውኢነ፡ </expan> (in Text I-8, fols. 106va-107rb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -174,10 +180,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fols. 71rb-71vb: Prayer of the blessing for the Good Friday.</span></span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fols. 71rb-71vb: Prayer of the blessing for the Good Friday.</span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fols. 71rb</span><span style="line-height: 115%; font-family: Nyala;">: </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4725;&#4709;&#4621;&#4961; &#4704;&#4971;&#4656;&#4819;&#4725;&#4961; &#4704;&#4819;&#4653;&#4709;&#4961; &#4661;&#4677;&#4616;&#4725;&#4961; &#4704;&#4828;&#4635;&#4961; &#4821;&#4829;&#4621;&#4961; &#4616;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4845;&#4848;&#4617;&#4961; &#4781;&#4709;&#4653;&#4961; &#4808;&#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4661;&#4874;&#4853;&#4961; &#4773;&#4661;&#4776;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962; &#4616;&#4768;&#4637;&#4619;&#4781;&#4961;</span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <p>More recent hand.</p>
                         </item>
                         <item xml:id="e1">- Cues for the rubricator (words and numerals): fols. 75v, 76r, 76v, 77v, 78r, 82v, 85r, 101v, 113r.&#xD;
 - Corrections (words or letters) written interlineally: e.g., fols. 42rc, 67va, 68rc, 69va, 75va, 77va, 77rc, 78rc, 79rb, 79vc, 87bv, 107vc, 109vc.&#xD;
@@ -203,7 +208,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0159ʿAddiQiyaḥtoQǝddǝstMaryam">ʿAddi Qiyaḥto Qǝddǝst Maryam / QQM</placeName>
+                        <placeName corresp="INS0159QQM">ʿAddi Qiyaḥto Qǝddǝst Maryam / QQM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -245,10 +250,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -270,7 +271,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-24">registered</change>
          <change who="VP" when="2014-04-08T16:22:16.882Z">created</change>
          <change who="VP" when="2015-01-23T10:51:50.809Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

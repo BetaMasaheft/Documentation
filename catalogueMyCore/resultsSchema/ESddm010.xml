@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Dǝrsanä Mikaʾel, Homiliary for the feasts of St. Michael</title>
-            <editor key="Ethio-Spare"/>
+            <editor key="Ethio-SPaRe"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
          <publicationStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0157DänderaDäbräMəḥrätMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0157DDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DDM-010</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Several groups of lines on the incipit page of Text I (alternating with black li
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">93.0</measure> folios,
-                                                in
-                                                <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">93.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.5</height>
                               <width unit="cm">19.3</width>
@@ -115,7 +113,7 @@ Some fols. are stained with water: fols. 1r-3v, 29ra-35rb.&#xD;
 Holes or tears amended on fols. 1, 45, 47, 49, 53, 70, 88.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>155</height>
                               <width>150</width>
@@ -128,38 +126,37 @@ Holes or tears amended on fols. 1, 45, 47, 49, 53, 70, 88.</condition>
                               <dim type="left">13</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 3r.</ab>
+                           <note>All data are for fol. 3r.</note>
                            <ab type="ruling">varies from 19 to 22 (ca. after fol. 50)</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, but careful.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä ʾIyäsus</persName>Wäldä ʾIyäsus is mentioned as the scribe in Additio 1.<date>19th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 93ra-rb: Donation note. </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 93ra: </span></span><span style="font-size: medium;"><span style="line-height: 115%;">&#4827;&#4722;</span></span><span style="font-size: medium;"><span style="line-height: 115%;"><span style="font-size: medium;"><span style="line-height: 115%;">&#4961;</span></span> &#4632;</span><span style="line-height: 115%;">&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4677;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4768;&#4632;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4773;&#4633;&#4754;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4773;&#4737;&#4737;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4848;&#4651;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4961; &#4616;&#4632;&#4853;&#4739;&#4754;&#4720;</span></span><span style="font-size: medium;"><span style="line-height: 115%;"><span style="font-size: medium;"><span style="line-height: 115%;">&#4961;</span></span> &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4741;&#4705;&#4648;&#4961; &#4845;&#4637;&#4624;&#4654;&#4633;&#4961; &#4637;&#4661;&#4616;&#4961; &#4920;&#4624;&#4938;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4962; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4629;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4622;&#4813;&#4661;&#4962; &#4768;&#4636;&#4757;&#4962; &#4808;&#4768;&#4636;&#4757;&#4962;</span></span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 93ra-rb: Donation note. </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 93ra: </span></span><span style="font-size: medium;"><span style="line-height: 115%;">&#4827;&#4722;</span></span><span style="font-size: medium;"><span style="line-height: 115%;"><span style="font-size: medium;"><span style="line-height: 115%;">&#4961;</span></span> &#4632;</span><span style="line-height: 115%;">&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4677;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4768;&#4632;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4773;&#4633;&#4754;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4773;&#4737;&#4737;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4848;&#4651;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4961; &#4616;&#4632;&#4853;&#4739;&#4754;&#4720;</span></span><span style="font-size: medium;"><span style="line-height: 115%;"><span style="font-size: medium;"><span style="line-height: 115%;">&#4961;</span></span> &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4741;&#4705;&#4648;&#4961; &#4845;&#4637;&#4624;&#4654;&#4633;&#4961; &#4637;&#4661;&#4616;&#4961; &#4920;&#4624;&#4938;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4962; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4629;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4622;&#4813;&#4661;&#4962; &#4768;&#4636;&#4757;&#4962; &#4808;&#4768;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in a hand which is similar, but possibly not identical with the main one. The name Mikaʾel Dändära is written over erasure.</p>
                         </item>
                         <item xml:id="e1">- The title ሚካኤል is written on the back board with modern paint. &#xD;
 - Corrections written over erasures: e.g., fols. 71rb, 73vb, 80vb. &#xD;
@@ -184,7 +181,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0157DänderaDäbräMəḥrätMikaʾel">Dändera Däbrä Məḥrät Mikaʾel / DDM</placeName>
+                        <placeName corresp="INS0157DDM">Dändera Däbrä Mәḥrät Mikaʾel / DDM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -226,8 +223,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä ʾIyäsus</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -250,7 +246,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-16">registered</change>
          <change who="SH" when="2014-12-09T08:11:01.274Z">created</change>
          <change who="DN" when="2015-01-19T20:22:23.042Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0178MärgaḥəyaQəddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0178QMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QMM-014</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Texts I-II (fols. 1r, 41r), a few lines are rubricated al
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">76.0</measure> folios,
-                                                in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">76.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">10.7</height>
                               <width unit="cm">8.5</width>
@@ -106,7 +104,7 @@ Mould is visible on fols. 70v and 71r.&#xD;
 A tear is carefully amended on fol. 75.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="8">
                            <dimensions unit="mm">
                               <height>70</height>
                               <width>70</width>
@@ -119,28 +117,34 @@ A tear is carefully amended on fol. 75.</condition>
                               <dim type="left">5</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r.</ab>
+                           <note>All data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century</date>
+                        <persName role="scribe" corresp="PRS00000">ʿAsratä Maryam</persName>ʿAsratä Maryam is mendioned as the scribe in the supplication formula, fol. 40v.<date>19th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>አ፡</abbr> for <expan>አምሕለከ፡ </expan> (fols. 5v-11r)</item>
+                           <item>
+                              <abbr>መ፡</abbr> for <expan>መሐልኩ፡ </expan> (fols. 34r-38v)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -163,7 +167,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0178MärgaḥəyaQəddusMikaʾel">Märgaḥəya Qəddus Mikaʾel / QMM</placeName>
+                        <placeName corresp="INS0178QMM">Märgaḥәya Qәddus Mikaʾel / QMM</placeName>
                      </origPlace>
                      <origDate notBefore="1820" notAfter="1850">ʿAsratä Maryam also wrote Mss GMS-010, datable to 1841-52, DMA-009 and DMD-007. Perhaps this Ms. belongs to one of his earlier productions.</origDate>
                   </origin>
@@ -205,8 +209,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">ʿAsratä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -229,7 +232,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-08">registered</change>
          <change who="SA" when="2014-10-24T12:54:31.568Z">created</change>
          <change who="MV" when="2015-03-23T11:03:51.845Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

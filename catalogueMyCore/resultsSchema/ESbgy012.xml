@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0161GolʿaDäbräBǝrhanYoḥannǝs"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0161BGY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BGY-012</idno>
                   <altIdentifier>
                      <idno>10-1 24/8/93 (fol. 1r)</idno>
@@ -55,9 +55,7 @@ On the incipit page of Texts I and IV (fols. 2r, 47r), few lines are rubricated 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">73.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">73.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.3</height>
                               <width unit="cm">13.5</width>
@@ -108,7 +106,7 @@ The board attachments are damaged.&#xD;
 The sewing is damaged and repaired.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>127</height>
                               <width>103</width>
@@ -121,37 +119,36 @@ The sewing is damaged and repaired.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">13</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r.</ab>
+                           <note>All data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but careful.</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00">Fols. 45va-46vb: Supplication for the donor ras S&#1241;b&#7717;at and the painter &#704;Amin&#228; &#346;&#1241;llase.</locus>
-                           <q xml:lang="gez">Fol. 45va: <span style="font-size: large;">&#4774;&#4768;&#4637;&#4619;&#4781;&#4961; &#4789;&#4617;&#4961; &#4941;&#4901;&#4648;&#4725;&#4962; &#4808;&#4773;&#4877;&#4826;&#4768;&#4961; &#4789;&#4617;&#4961; &#4819;&#4616;&#4635;&#4725;&#4962; &#4632;&#4853;&#4739;&#4756;&#4961; &#4819;&#4616;&#4637;&#4961; &#4757;&#4873;&#4640;&#4961; &#4656;&#4709;&#4624;&#4725;&#4962; &#4821;&#4672;&#4710;&#4633;&#4961; &#4616;&#4789;&#4622;&#4633;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4808;&#4850;&#4843;&#4678;&#4755;&#4725;&#4962; &#4768;&#4755;&#4873;&#4757;&#4661;&#4898;&#4661;&#4961; &#4808;&#4632;&#4824;&#4637;&#4651;&#4757;&#4961; &#4704;&#4776;&#4704;&#4654;&#4961; &#4808;&#4635;&#4741;&#4620;&#4725;&#4961; &#4616;&#4752;&#4872;&#4645;&#4725;&#4961; &#4808;&#4632;&#4787;&#4757;&#4757;&#4725;&#4961;</span> [fol. 45vb] <span style="font-size: large;">&#4616;&#4768;&#4821;&#4649;&#4877;&#4961; &#4808;&#4616;&#4629;&#4931;&#4755;&#4725;&#4961; &#4616;&#4848;&#4755;&#4877;&#4621;&#4961; &#4808;&#4632;&#4752;&#4782;&#4659;&#4725;&#4961; &#4616;&#4629;&#4829;&#4709;&#4961; &#4808;&#4616;&#4640;&#4651;&#4810;&#4725;&#4961; &#4808;&#4616;&#4640;&#4774;&#4620;&#4829;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4848;&#4709;&#4648;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4808;&#4705;&#4653;&#4725;&#4962; &#4768;&#4634;&#4752;&#4961; &#4645;&#4619;&#4660;&#4961; &#4709;&#4825;&#4739;&#4961; &#4739;&#4898;&#4768;&#4725;&#4962; &#4845;&#4634;&#4902;&#4961; &#4773;&#4637;&#4661;&#4629;&#4720;&#4725;&#4962; &#4808;&#4843;</span> [fol. 46ra] <span style="font-size: large;">&#4709;&#4774;&#4961; &#4813;&#4661;&#4720;&#4961; &#4770;&#4840;&#4649;&#4659;&#4620;&#4637;&#4961; &#4656;&#4635;&#4843;&#4810;&#4725;&#4962; &#4808;&#4616;&#4789;&#4622;&#4633;&#4961; &#4824;&#4808;&#4608;&#4705;&#4961; &#4768;&#4637;&#4739;&#4961; &#4808;&#4635;&#4741;&#4726;&#4720;&#4961; &#4821;&#4899;&#4752;&#4961; &#4808;&#4632;&#4757;&#4902;&#4619;&#4821;&#4720;&#4962; &#4632;&#4661;&#4672;&#4616;&#4961; &#4808;&#4632;&#4925;&#4629;&#4941;&#4725;&#4962; &#4616;&#4827;&#4722;&#4961; &#4848;&#4709;&#4653;&#4961; &#4621;&#4821;&#4621;&#4725;&#4962; &#4824;&#4768;&#4621;&#4819;&#4619;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4821;&#4672;&#4710;&#4633;&#4961; &#4773;&#4637;&#4821;&#4616;&#4725;&#4961; &#4773;&#4778;&#4725;&#4962;</span> [fol. 46rb] <span style="font-size: large;">&#4808;&#4773;&#4637;&#4656;&#4768;&#4723;&#4720;&#4961; &#4632;&#4757;&#4657;&#4725;&#4961; &#4808;&#4773;&#4637;&#4635;&#4649;&#4635;&#4757;&#4961; &#4768;&#4651;&#4810;&#4725;</span>&#8230;</q>
+                           <locus/><p>Fols. 45va-46vb: Supplication for the donor ras S&#1241;b&#7717;at and the painter &#704;Amin&#228; &#346;&#1241;llase.</p><q xml:lang="gez"><p>Fol. 45va: <span style="font-size: large;">&#4774;&#4768;&#4637;&#4619;&#4781;&#4961; &#4789;&#4617;&#4961; &#4941;&#4901;&#4648;&#4725;&#4962; &#4808;&#4773;&#4877;&#4826;&#4768;&#4961; &#4789;&#4617;&#4961; &#4819;&#4616;&#4635;&#4725;&#4962; &#4632;&#4853;&#4739;&#4756;&#4961; &#4819;&#4616;&#4637;&#4961; &#4757;&#4873;&#4640;&#4961; &#4656;&#4709;&#4624;&#4725;&#4962; &#4821;&#4672;&#4710;&#4633;&#4961; &#4616;&#4789;&#4622;&#4633;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4808;&#4850;&#4843;&#4678;&#4755;&#4725;&#4962; &#4768;&#4755;&#4873;&#4757;&#4661;&#4898;&#4661;&#4961; &#4808;&#4632;&#4824;&#4637;&#4651;&#4757;&#4961; &#4704;&#4776;&#4704;&#4654;&#4961; &#4808;&#4635;&#4741;&#4620;&#4725;&#4961; &#4616;&#4752;&#4872;&#4645;&#4725;&#4961; &#4808;&#4632;&#4787;&#4757;&#4757;&#4725;&#4961;</span> [fol. 45vb] <span style="font-size: large;">&#4616;&#4768;&#4821;&#4649;&#4877;&#4961; &#4808;&#4616;&#4629;&#4931;&#4755;&#4725;&#4961; &#4616;&#4848;&#4755;&#4877;&#4621;&#4961; &#4808;&#4632;&#4752;&#4782;&#4659;&#4725;&#4961; &#4616;&#4629;&#4829;&#4709;&#4961; &#4808;&#4616;&#4640;&#4651;&#4810;&#4725;&#4961; &#4808;&#4616;&#4640;&#4774;&#4620;&#4829;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4848;&#4709;&#4648;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4808;&#4705;&#4653;&#4725;&#4962; &#4768;&#4634;&#4752;&#4961; &#4645;&#4619;&#4660;&#4961; &#4709;&#4825;&#4739;&#4961; &#4739;&#4898;&#4768;&#4725;&#4962; &#4845;&#4634;&#4902;&#4961; &#4773;&#4637;&#4661;&#4629;&#4720;&#4725;&#4962; &#4808;&#4843;</span> [fol. 46ra] <span style="font-size: large;">&#4709;&#4774;&#4961; &#4813;&#4661;&#4720;&#4961; &#4770;&#4840;&#4649;&#4659;&#4620;&#4637;&#4961; &#4656;&#4635;&#4843;&#4810;&#4725;&#4962; &#4808;&#4616;&#4789;&#4622;&#4633;&#4961; &#4824;&#4808;&#4608;&#4705;&#4961; &#4768;&#4637;&#4739;&#4961; &#4808;&#4635;&#4741;&#4726;&#4720;&#4961; &#4821;&#4899;&#4752;&#4961; &#4808;&#4632;&#4757;&#4902;&#4619;&#4821;&#4720;&#4962; &#4632;&#4661;&#4672;&#4616;&#4961; &#4808;&#4632;&#4925;&#4629;&#4941;&#4725;&#4962; &#4616;&#4827;&#4722;&#4961; &#4848;&#4709;&#4653;&#4961; &#4621;&#4821;&#4621;&#4725;&#4962; &#4824;&#4768;&#4621;&#4819;&#4619;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4821;&#4672;&#4710;&#4633;&#4961; &#4773;&#4637;&#4821;&#4616;&#4725;&#4961; &#4773;&#4778;&#4725;&#4962;</span> [fol. 46rb] <span style="font-size: large;">&#4808;&#4773;&#4637;&#4656;&#4768;&#4723;&#4720;&#4961; &#4632;&#4757;&#4657;&#4725;&#4961; &#4808;&#4773;&#4637;&#4635;&#4649;&#4635;&#4757;&#4961; &#4768;&#4651;&#4810;&#4725;</span>&#8230;</p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions Ras Sǝbḥat (ras ʾSǝbḥat Arägawi, b. ca. 1844, d. 1914) as the donor of the book. Rubricated lines alternate with black lines.</p>
                         </item>
                         <item xml:id="e1">- The abbreviated title ታ፡ ዮ፡ and number (10-1, 24/8/93) are written on fol. 1r, in pen.&#xD;
 - Seal of the parish council of Golʿa Däbrä Bǝrhan Yoḥannǝs church: fols. 1v, 73v.&#xD;
@@ -176,7 +173,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0161GolʿaDäbräBǝrhanYoḥannǝs">Golʿa Däbrä Bǝrhan Yoḥannǝs/ BGY</placeName>
+                        <placeName corresp="INS0161BGY">Golʿa Däbrä Bǝrhan Yoḥannǝs/ BGY</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th century (?)</origDate>
                   </origin>
@@ -218,10 +215,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -243,7 +236,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-22">registered</change>
          <change who="SA" when="2014-10-09T09:20:10.515Z">created</change>
          <change who="SA" when="2014-10-20T10:23:54.126Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

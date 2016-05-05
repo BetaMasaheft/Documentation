@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0123LäqayKidanäMəḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0123MKL"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MKL-019</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">171.0</measure> folios,
-                                                in
-                                                <measure unit="quire">24.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">171.0</measure> folios, in <measure unit="quire">24.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">37.5</height>
                               <width unit="cm">30.0</width>
@@ -146,7 +144,7 @@ Some corners of the cover are detached. The leather cover on the bottom of the f
 Some folios are undersized: 61, 64, 67, 72, 97, 98, 103, 106, 164, 165, 169, 170. Fol. 170 is aditionally mutilated.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="38">
                            <dimensions unit="mm">
                               <height>265</height>
                               <width>237</width>
@@ -159,31 +157,31 @@ Some folios are undersized: 61, 64, 67, 72, 97, 98, 103, 106, 164, 165, 169, 170
                               <dim type="left">21</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 119r.</ab>
+                           <note>All data for fol. 119r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1E-1E-1E1E/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The scribe disregarded the ruling, e.g., in fols. 52v, 53r, 57v, 66r, 73v, 91rv.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular, compact.</ab>
                         <seg type="ink">Black, red (brilliant scarlet).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -197,22 +195,21 @@ The scribe disregarded the ruling, e.g., in fols. 52v, 53r, 57v, 66r, 73v, 91rv.
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal; margin-bottom: 0pt"><span style="font-size: small"><span unicode=""><span style="font-size: small"><span>Fol. 170ra: </span></span>Genealogy of G&#228;br&#228; Kr&#601;stos. <br /> </span></span></div><q xml:lang="gez"><div style="line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 170ra: </span><span style="font-size: large">&#4632;&#4925;&#4624;&#4936;&#4961; &#4621;&#4848;&#4725;&#4961; &#4645;&#4651;&#4629;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4773;&#4757;&#4877;&#4848;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4773;&#4757;&#4877;&#4848;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4840;&#4821;&#4706;&#4779;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4840;&#4821;&#4706;&#4779;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4709;&#4768;&#4635;&#4755;&#4810;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4709;&#4768;&#4635;&#4755;&#4810;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4725;&#4768;&#4652;&#4755;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4725;&#4768;&#4652;&#4755;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4781;&#4624;&#4848;&#4637;&#4962; &#4768;&#4781;&#4624;&#4848;&#4637;&#4961; &#4808;&#4616;&#4848;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4616;&#4724;&#4814;&#4853;&#4654;&#4661;&#4962; &#4724;&#4814;&#4853;&#4654;&#4661;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4813;&#4819;&#4619;&#4962; &#4768;&#4813;&#4819;&#4619;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4848;&#4876;&#4755;&#4962; &#4848;&#4876;&#4755;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4776;&#4622;&#4637;&#4962; &#4768;&#4776;&#4622;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4875;&#4853;&#4962; &#4875;&#4853;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4848;&#4757;&#4962; &#4848;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4776;&#4622;&#4637;&#4962; &#4768;&#4776;&#4622;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4781;&#4941;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4962; &#4781;&#4941;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4706;&#4638;&#4661;&#4962; &#4768;&#4706;&#4638;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4848;&#4962; &#4872;&#4848;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4656;&#4707;&#4651;&#4962; &#4656;&#4707;&#4651;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;</span><span style="font-size: large"><span style="font-size: large">&#4962;</span> &#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4725;&#4813;&#4621;&#4853;&#4962; &#4962;</span><span style="font-size: 12pt">&#160;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Additio 1 and 2 basically contain the same genealogy. Both are crudely written and partly illegible, from the comparison of both texts the genealogy was constructed.  
+The genealogy starts with well known political figures in the history of Tǝgray, ʾƎngǝda ʾƎgziʾ (s. "Ǝndärta" in EAE vol 2, 297) and Yäʿǝbikä ʾƎgziʾ (s. EAE vol. 5, in print), and ends with šum ʿagame Gäbrä Krǝstos, the owner of this Ms.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%" unicode="">Fol. 170rb: Genealogy of G&#228;br&#228; Kr&#601;stos.</span></span></locus>
-                           <q xml:lang="gez">Fol. 170rb: <span style="font-size: large">&#4632;&#4925;&#4624;&#4936;&#4961; &#4621;&#4848;&#4725;&#4961; &#4645;&#4651;&#4629;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4773;&#4757;&#4877;&#4848;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4773;&#4757;&#4877;&#4848;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4840;&#4821;&#4706;&#4779;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4840;&#4821;&#4706;&#4779;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4709;&#4768;&#4635;&#4755;&#4810;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4709;&#4768;&#4635;&#4755;&#4810;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4725;&#4768;&#4652;&#4755;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4725;&#4768;&#4652;&#4755;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4781;&#4624;&#4848;&#4637;&#4962; &#4768;&#4781;&#4624;&#4848;&#4637;&#4961; &#4808;&#4616;&#4848;</span><span style="font-size: large"><span style="font-size: large">&#4961; </span>&#4616;&#4724;&#4814;&#4853;&#4654;&#4661;&#4962; &#4724;&#4814;&#4853;&#4654;&#4661;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4813;&#4819;&#4619;&#4962; &#4768;&#4813;&#4819;&#4619;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4848;&#4876;&#4755;&#4962; &#4848;&#4876;&#4755;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4776;&#4622;&#4637;&#4962; &#4768;&#4776;&#4622;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4875;&#4853;&#4962; &#4875;&#4853;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4848;&#4757;&#4962; &#4848;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4776;&#4622;&#4637;&#4962; &#4768;&#4776;&#4622;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4781;&#4941;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4962; &#4781;&#4941;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4706;&#4638;&#4661;&#4962; &#4768;&#4706;&#4638;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4848;&#4962; &#4872;&#4848;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4656;&#4707;&#4651;&#4962; &#4656;&#4707;&#4651;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;</span><span style="font-size: large"><span style="font-size: large">&#4962;</span> &#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4725;&#4813;&#4621;&#4853;&#4962; &#4962;&#160;</span><span style="font-size: large">&#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;</span><span style="font-size: large"><span style="font-size: large">&#4962;</span> &#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4939;&#4658;&#4619;&#4854;&#4661;&#4962; &#4939;&#4658;&#4619;&#4854;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4962; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660; </span><span style="font-size: small">{&#8230;}</span></q>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%" unicode="">Fol. 170rb: Genealogy of G&#228;br&#228; Kr&#601;stos.</span></span></p><q xml:lang="gez"><p>Fol. 170rb: <span style="font-size: large">&#4632;&#4925;&#4624;&#4936;&#4961; &#4621;&#4848;&#4725;&#4961; &#4645;&#4651;&#4629;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4773;&#4757;&#4877;&#4848;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4773;&#4757;&#4877;&#4848;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4840;&#4821;&#4706;&#4779;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4840;&#4821;&#4706;&#4779;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4709;&#4768;&#4635;&#4755;&#4810;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4709;&#4768;&#4635;&#4755;&#4810;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4725;&#4768;&#4652;&#4755;&#4961; &#4773;&#4877;&#4826;&#4773;&#4962; &#4725;&#4768;&#4652;&#4755;&#4961; &#4773;&#4877;&#4826;&#4773;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4781;&#4624;&#4848;&#4637;&#4962; &#4768;&#4781;&#4624;&#4848;&#4637;&#4961; &#4808;&#4616;&#4848;</span><span style="font-size: large"><span style="font-size: large">&#4961; </span>&#4616;&#4724;&#4814;&#4853;&#4654;&#4661;&#4962; &#4724;&#4814;&#4853;&#4654;&#4661;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span> &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4813;&#4819;&#4619;&#4962; &#4768;&#4813;&#4819;&#4619;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4848;&#4876;&#4755;&#4962; &#4848;&#4876;&#4755;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4776;&#4622;&#4637;&#4962; &#4768;&#4776;&#4622;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4875;&#4853;&#4962; &#4875;&#4853;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4848;&#4757;&#4962; &#4848;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4776;&#4622;&#4637;&#4962; &#4768;&#4776;&#4622;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4781;&#4941;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4962; &#4781;&#4941;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4706;&#4638;&#4661;&#4962; &#4768;&#4706;&#4638;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4848;&#4962; &#4872;&#4848;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4656;&#4707;&#4651;&#4962; &#4656;&#4707;&#4651;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;</span><span style="font-size: large"><span style="font-size: large">&#4962;</span> &#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4725;&#4813;&#4621;&#4853;&#4962; &#4962;&#160;</span><span style="font-size: large">&#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;</span><span style="font-size: large"><span style="font-size: large">&#4962;</span> &#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4939;&#4658;&#4619;&#4854;&#4661;&#4962; &#4939;&#4658;&#4619;&#4854;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4962; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660; </span><span style="font-size: small">{&#8230;}</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Additio 1 and 2 basically contain the same genealogy. Both are crudely written and partly illegible, from the comparison of both texts the genealogy was constructed.  
+It is followed by a ownership note in Additio 3.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 170vb:</span></span><span style="font-size: large"><span style="line-height: 115%"> &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4665;&#4637;&#4961; &#4768;&#4875;&#4636;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4653;&#4821;&#4656;&#4961; &#4632;&#4659;&#4941;&#4757;&#4725;&#4961; &#4824;&#4819;&#4875;&#4636;&#4961; &#4824;&#4819;&#4853;&#4672;&#4672;&#4961; &#4928;&#4619;&#4821;&#4726;&#4961; &#4632;&#4720;&#4648;&#4961; &#4768;&#4653;&#4821;&#4656;&#4722;&#4614;&#4633;&#4961; &#4704;&#4656;&#4845;&#4941;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4819;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4829;&#4632;&#4720;&#4648;&#4961; &#4768;&#4653;&#4821;&#4661;&#4720;&#4961; &#4920;&#4619;&#4821;&#4721;&#4961; </span></span></q>
-                           <q xml:lang="en"><span style="font-size: small"><span style="line-height: 115%">Fol. 170vb: This is the book of </span><span style="line-height: 115%">&#353;um </span></span><span style="font-size: small"><span style="line-height: 115%"><span style="font-size: small"><span style="line-height: 115%">&#704;</span></span>agame G&#228;br&#228; Kr&#601;stos, head of the princes of &#705;Agame, who crushed his enemies, cut off their heads with a sword. This is &#704;Amd&#228; Mika&#704;el who cut of the heads of his enemies.</span></span></q>
-                           <p/>
+                           <locus/><div style="line-height: normal; margin-bottom: 0pt"><span style="font-size: small"><span style="font-size: small">Fol. 170vb</span>: Ownership note.</span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 170vb:</span></span><span style="font-size: large"><span style="line-height: 115%"> &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4665;&#4637;&#4961; &#4768;&#4875;&#4636;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4653;&#4821;&#4656;&#4961; &#4632;&#4659;&#4941;&#4757;&#4725;&#4961; &#4824;&#4819;&#4875;&#4636;&#4961; &#4824;&#4819;&#4853;&#4672;&#4672;&#4961; &#4928;&#4619;&#4821;&#4726;&#4961; &#4632;&#4720;&#4648;&#4961; &#4768;&#4653;&#4821;&#4656;&#4722;&#4614;&#4633;&#4961; &#4704;&#4656;&#4845;&#4941;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4819;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4829;&#4632;&#4720;&#4648;&#4961; &#4768;&#4653;&#4821;&#4661;&#4720;&#4961; &#4920;&#4619;&#4821;&#4721;&#4961; </span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 170vb: This is the book of </span><span style="line-height: 115%">&#353;um </span></span><span style="font-size: small"><span style="line-height: 115%"><span style="font-size: small"><span style="line-height: 115%">&#704;</span></span>agame G&#228;br&#228; Kr&#601;stos, head of the princes of &#705;Agame, who crushed his enemies, cut off their heads with a sword. This is &#704;Amd&#228; Mika&#704;el who cut of the heads of his enemies.</span></span></p></q>
+                           <p>According to Additio 1-2, ʾAmdä Mikaʾel was the son of Gäbrä Krǝstos.</p>
                         </item>
                         <item xml:id="e1">- Zä-ʾaqräbku maḫletä… “The song I am offering…”(concluding prayer)is written by a secondary hand on fol. 169vc.&#xD;
 - crude notes on fols. 1v, 170v, on the turn-in of the front board.</item>
@@ -235,7 +232,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0123LäqayKidanäMəḥrät">Läqay Kidanä Məḥrät / MKL</placeName>
+                        <placeName corresp="INS0123MKL">Läqay Kidanä Mәḥrät / MKL</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1870">On fol. 171ra is a drawing of “Turkish” soldiers, this can be an allusion to the Indian soldiers in the Napir expedition, thus from around 1868.</origDate>
                   </origin>
@@ -277,10 +274,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -301,7 +294,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-06">registered</change>
          <change who="SD" when="2013-04-12T12:47:41.274Z">created</change>
          <change who="MV" when="2015-02-04T11:11:48.971Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

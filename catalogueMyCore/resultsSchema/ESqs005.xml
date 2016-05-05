@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0198QälaqǝlMaryamṢǝyon"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0198QS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QS-005</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">307.0</measure> folios,
-                                                in
-                                                <measure unit="quire">28.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">307.0</measure> folios, in <measure unit="quire">28.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">32.2</height>
                               <width unit="cm">28.7</width>
@@ -188,7 +186,7 @@ Many folios are affected by humidity, especially in the upper part.&#xD;
 Holes or tears amended on fols. 16, 22.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>218</height>
                               <width>218</width>
@@ -201,30 +199,34 @@ Holes or tears amended on fols. 16, 22.</condition>
                               <dim type="left">23</dim>
                               <dim type="intercolumn">18</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for the second page of the first Gospel, recto side (fol. 10r).</ab>
+                           <note>All data are for the second page of the first Gospel, recto side (fol. 10r).</note>
                            <ab type="ruling">25/27 on fols. 2r-8v (quire I)</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular.</ab>
                         <seg type="ink">Black; red (vivid red).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 17th/early 18th century</date>
+                        <persName role="scribe" corresp="PRS00000">Ḫadära Krǝstos</persName>Ḫadära Krǝstos is mentioned as the scribe in the final supplication formula on fol. 307rb.<date>Late 17th/early 18th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ም፡/ምዕ፡</abbr> for <expan>ምዕራፍ፡ </expan> (fols. 79vb, 145ra, 187vb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -238,22 +240,21 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span lang="EN-US" unicode="" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fol. 3r (below the text): Note on commemoration days of some individuals (ras &#704;&#398;&#353;it and his brothers).</span></p><q xml:lang="gez"><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal; text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="font-family: ">Fol. 3r:</span></span><span lang="EN-US" unicode="" style="font-size:10.0pt;&#10;font-family:"> </span><span style="font-size: large;"><span lang="AMH" style="font-family: Nyala;">&#4808;&#4853;&#4961; &#4883;&#4621;&#4961; &#4768;&#4739;&#4813;&#4961; &#4974;&#4768;&#4709;&#4875;&#4653;&#4961; &#4768;&#4709;&#4629;&#4756;&#4961; &#4768;&#4725;&#4616;&#4843;&#4841;&#4961;</span></span><span style="font-size: large;"><span lang="AMH" style="font-family: Nyala;"> </span><span lang="EN-GB" style="font-family: Nyala;">&lt;&#8230;&gt;</span></span><span style="font-size: large;"><span style="font-size: small;"><span lang="EN-GB" style="font-family: Nyala;"> </span></span><span lang="AMH" style="font-family: Nyala;">&#4813;&#4873;&#4829;&#4961;</span></span></p> <p style="text-align: justify;"><span style="font-size: large;"> <span lang="AMH" style="font-family: Nyala;">&#4720;&#4829;&#4779;&#4653;&#4961;</span><span lang="AMH" style="font-family: Nyala;"> </span><span lang="AMH" style="font-family: Nyala;">&#4840;&#4651;&#4661;&#4961; &#4773;&#4666;&#4725;&#4961; &#4975;&#4768;&#4739;&#4813;&#4961; &#4768;&#4618;&#4961; &#4755;&#4877;&#4645;&#4961; &#4872;&#4853;&#4773;&#4618;&#4669;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4624;&#4937;&#4754;&#4961; &#4707;&#4845;&#4617;&#4621;&#4961; &lt;&#8230;&gt; &#4811;&#4661;&#4961; &#4840;&#4651;&#4661;&#4961; &#4768;&#4618;&#4961; &#4768;&#4726;&#4961; &#4720;&#4781;&#4617;&#4961; &#4840;&#4651;&#4661;&#4961; &#4872;&#4853;&#4773;&#4618;&#4661;&#4961; &#4661;&#4709;&#4724;&#4961; &#4840;&#4651;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4621;&#4849;&#4961; &#4808;&#4853;&#4961; &#4624;&#4756;&#4723;&#4961; &#4768;&#4637;&#4848;&#4961; &#4925;&#4846;&#4757;&#4961; &#4840;&#4665;&#4637;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4851;&#4752;&#4961; &#4840;&#4665;&#4637;&#4961; &#4624;&#4937;&#4754;&#4961; &#4808;&#4621;&#4849;&#4961; &#4840;&#4651;&#4661;&#4961; &#4755;&#4877;&#4645;&#4961; &#4624;&#4756;&#4723;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4848;&#4763;&#4961; &#4768;&#4726;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Amharic.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span lang="EN-US" unicode="" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fols. 106ra-rb (below the text): Record concerning a transaction. </span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fol. 106ra:</span></span><span lang="EN-US" unicode="" style="font-size:10.0pt;line-height:&#10;115%;font-family:"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4978;&#4977;&#4987;&#4980;&#4976;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4653;&#4737;&#4961; &#4632;&#4875;&#4706;&#4725;&#4961; &#4821;&#4616;&#4721;&#4961; &#4975;&#4672;&#4757;&#4961; &#4840;&#4768;&#4850;&#4961; &#4661;&#4705;&#4624;&#4961; &#4669;&#4635;&#4877;&#4622;&#4733;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4925;&#4846;&#4757;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The transaction took place between the people of ʾAddi Sǝbuḥ and Maryam Ṣǝyon.
+The date mentioned is 1938 year of mercy (= 1945/46 A.D.)
+Written in Amharic; “signed” with numerous finger prints.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-GB" style="font-family: ">Fol. 106rb (above Additio 2): &#160;Exhortation note (?)</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 106rb:</span></span><span lang="EN-GB" style="font-size:10.0pt;line-height:115%;&#10;font-family:" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4709;&#4653;&#4821;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4640;&#4755;&#4845;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4936;&#4720;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4941;&#4645;&#4624;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4704;&#4819;&#4617;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4677;&#4849;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4634;&#4779;&#4772;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4770;&#4725;&#4653;&#4653;</span><span style="font-size: small;"><span style="line-height: 115%; font-family: ">[sic]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4661;&#4769;&#4754;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4920;&#4622;&#4725;&#4781;&#4633;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4704;&#4656;&#4635;&#4843;&#4725;</span><span style="font-size: small;"><span style="line-height: 115%; font-family: ">[</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961;</span><span style="line-height: 115%; font-family: ">]</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Fǝśśǝḥa Giyorgis, whose name is mentioned in the note, related somehow to the feast of St. Michael, seems to be the one who wrote this exhortation.</p>
                         </item>
                         <item xml:id="e1">- Titles for  the “Canon tables”  (in Text I) are written in the upper margin:  ቀመር፡ ቀዳማዊ፡ on fol. 3r;  ቀመር፡ ኃምስ፡ on fol. 5r; ቀመር፡ ሣድስ፡,  ቀመር፡ ሳብዕ፡, ቀመር፡ ሳምን፡  on fol. 5v.&#xD;
 - The initial word of the “Synopsis of Classes” (in Text 1) is over the text, in the upper margin of fol. 7r.&#xD;
@@ -284,7 +285,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0198QälaqǝlMaryamṢǝyon">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
+                        <placeName corresp="INS0198QS">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
                      </origPlace>
                      <origDate notBefore="1682" notAfter="1705">King ʾIyasu, most probably King ʾIyasu I (r. 1682-1706), is mentioned in some supplication formulas (e.g., fols. 9r, 238vb, 307rb); but King Iyasu II cannot be ruled out (r. 1730-55).</origDate>
                   </origin>
@@ -326,8 +327,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Ḫadära Krǝstos</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -350,7 +350,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2012-12-02">registered</change>
          <change who="VP" when="2015-04-10T16:47:06.675Z">created</change>
          <change who="VP" when="2015-04-13T12:44:39.524Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

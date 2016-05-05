@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0135MäʿagoDäbräMädḥanitʾAmanuʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0135MMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MMA-011</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ A few groups of lines (alternating with black lines) in the incipit pages of Tex
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">110.0</measure> folios,
-                                                in
-                                                <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">110.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.5</height>
                               <width unit="cm">18.5</width>
@@ -119,7 +117,7 @@ Some fols. are damaged by water. (s., e.g., fols. 20-25, 81-90).&#xD;
 Tears carefully amended on fols. 82, 86.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>162</height>
                               <width>135</width>
@@ -132,39 +130,42 @@ Tears carefully amended on fols. 82, 86.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r.</ab>
+                           <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, red (vivid red, reddish-brown)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>First half of the 19th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Täklä Haymanot</persName>Priest (qäsis) Täklä Haymanot is mentioned as the scribe in Additio 1.<date>First half of the 19th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ጊዮር፡ or ጊዮርጊ፡</abbr> for <expan>ጊዮርጊስ፡ </expan> (e.g. fol. 37v)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 108vb: Donation note.</locus>
-                           <q xml:lang="gez">Fol. 108vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4819;&#4853;&#4624;&#4961; &#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4819;&#4884;&#4961; &#4824;&#4661;&#4638;&#4633;&#4961; &#4808;&#4621;&#4848;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4649;&#4939;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &lt;...&gt; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4616;&#4752;&#4941;&#4662;&#4633;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4808;&#4704;&#4675;&#4616;&#4961; &#4826;&#4768;&#4840;&#4754;&#4961; &#4768;&#4752;&#4961; &#4672;&#4658;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4920;&#4624;&#4938;&#4624;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4808;&#4872;&#4704;&#4829;&#4610;&#4961; &#4632;&#4637;&#4629;&#4652;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4962;</span></q>
+                           <locus/><p>Fol. 108vb: Donation note.</p><q xml:lang="gez"><p>Fol. 108vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4819;&#4853;&#4624;&#4961; &#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4819;&#4884;&#4961; &#4824;&#4661;&#4638;&#4633;&#4961; &#4808;&#4621;&#4848;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4649;&#4939;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &lt;...&gt; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4616;&#4752;&#4941;&#4662;&#4633;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4808;&#4704;&#4675;&#4616;&#4961; &#4826;&#4768;&#4840;&#4754;&#4961; &#4768;&#4752;&#4961; &#4672;&#4658;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4920;&#4624;&#4938;&#4624;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4808;&#4872;&#4704;&#4829;&#4610;&#4961; &#4632;&#4637;&#4629;&#4652;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions the names of the donors, Wäldä Haymanot, Wäldä Sämaʿәt, Wäldä Rufaʾel, Wäldä Ḥәywät and Gäbrä Giyorgis; the name of the church to which the Ms. was donated, Giyorgis Mäʿagwe, and the name of the scribe, qäsis Täklä Haymanot. The name of the gäbäz, Gäbrä Giyorgis, is also mentioned. The meaning of the word "ʿadḥa", mentioned at the beginning of the note, is not clear.</p>
                         </item>
                         <item xml:id="e1">- Corrections and omissions written in the margins: fols. 9r, 30r, 31r, 32r, 32v, 37r, 45r, 47v, 51r, 70r, 79r, 81r, 84v, 86v, 92v, 100r.&#xD;
 - Names of the donors and their relatives written in red in the upper margins: fols. 98v, 102v, 103r, 103v, 105v, 106v, 107r, 108v.&#xD;
@@ -192,7 +193,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0135MäʿagoDäbräMädḥanitʾAmanuʾel">Mäʿago Däbrä Mädḥanit ʾAmanuʾel/ MMA</placeName>
+                        <placeName corresp="INS0135MMA">Mäʿago Däbrä Mädḥanit ʾAmanuʾel/ MMA</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of the 19th cent.</origDate>
                   </origin>
@@ -229,13 +230,12 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Wäldä Haymanot, Wäldä Sämaʿət, Wäldä Rufaʾel, Wäldä Ḥəywät and Gäbrä Giyorgis (s. Additio 1).</persName>
+                  <persName corresp="PRS0000">Wäldä Haymanot, Wäldä Sämaʿәt, Wäldä Rufaʾel, Wäldä Ḥәywät and Gäbrä Giyorgis (s. Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Täklä Haymanot</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -259,7 +259,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-15">registered</change>
          <change who="SA" when="2014-03-31T14:30:56.949Z">created</change>
          <change who="SD" when="2014-12-03T10:37:25.530Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0107ʿAddigratBetMarya"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0107BMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BMA-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">105.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">105.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">32.0</height>
                               <width unit="cm">23.0</width>
@@ -122,17 +120,23 @@ Cuts repaired on fols. 89.</condition>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century?</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (fol. 27rb)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (fols. 27rb, 28va)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 80va, 81rb, 81va)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;">F</span><span style="line-height: 115%;">ol. 2ra-rc: Excerpt from a miracle of ʾabunä Täklä Haymanot.</span></span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: large;"><span style="line-height: 115%;"><br /> </span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></q>
-                           <p/>
+                           <locus/><p><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;">F</span><span style="line-height: 115%;">ol. 2ra-rc: Excerpt from a miracle of ʾabunä Täklä Haymanot.</span></span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></p><q xml:lang="gez"><p><span style="font-size: large;"><span style="line-height: 115%;"><br /> </span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></p></q>
+                           <p>Written in the same hand as that of the main text.</p>
                         </item>
                         <item xml:id="e1">- Crude copy of part of Ps. 1 and incipit of Text 1 (writing exercise?) on fol. 1v.&#xD;
 - Passage of text or note have been effaced on fols. 2rc, 101vb.&#xD;
@@ -161,7 +165,7 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0107ʿAddigratBetMarya">ʿAddigrat Bet Marya / BMA</placeName>
+                        <placeName corresp="INS0107BMA">ʿAddigrat Bet Marya / BMA</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900"/>
                   </origin>
@@ -203,10 +207,6 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -227,7 +227,7 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
          <change who="DN" when="2010-11-20">registered</change>
          <change who="AA" when="2013-08-23T12:47:53.159Z">created</change>
          <change who="EG" when="2014-07-23T12:52:14.174Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

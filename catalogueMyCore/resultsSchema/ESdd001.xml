@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DäbräDammoʾAbunäʾArägawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-001</idno>
                   <altIdentifier>
                      <idno>C3-IV-229 (fol. 3r)</idno>
@@ -57,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">123.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">123.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">32.0</height>
                               <width unit="cm">29.6</width>
@@ -122,7 +120,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The Ms. has probably been resewn.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>215</width>
@@ -135,27 +133,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">23</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 18r.</ab>
+                           <note>All data are for fol. 18r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre. Hand b: careful. Hand c: neat and well trained.</ab>
                         <seg type="ink">Black, red (hand a and c: strong red, hand b: vivid red).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Hand a: late 19th century (?). Hand b: 19th century (?). Hand c: mid 17th century.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3ra-15va, 105va-121va (Text I-1a). The script is characterized by right-sloping, angular letters with short hairlines.</handNote>
@@ -180,7 +178,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DäbräDammoʾAbunäʾArägawi">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
+                        <placeName corresp="INS0105DD">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1632" notAfter="1664">King Fasilädäs (r. 1632-67) is mentioned as the reigning monarch on fols. 68va, 69vb, 91va (Text I-1b). &#xD;
 Texts I-1a and I-2 have been written more recently (19th cent.?), some leaves might have originally been left blank for miniatures.</origDate>
@@ -224,10 +222,6 @@ Wäldä Krǝstos, ʾƎlleni and ʾƎsṭifanos are mentioned throughout Text II 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -248,7 +242,7 @@ Wäldä Krǝstos, ʾƎlleni and ʾƎsṭifanos are mentioned throughout Text II 
          <change who="DN" when="2010-11-22">registered</change>
          <change who="SH" when="2013-11-04T13:32:09.130Z">created</change>
          <change who="DN" when="2015-06-03T12:54:52.036Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

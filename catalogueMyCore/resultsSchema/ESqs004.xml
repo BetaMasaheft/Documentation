@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0198QälaqǝlMaryamṢǝyon"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0198QS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QS-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">125.0</measure> folios,
-                                                in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">125.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">26.2</height>
                               <width unit="cm">21.0</width>
@@ -121,7 +119,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Holes or tears amended on fols. 22, 27, 46, 56, 65, 86.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>180</height>
                               <width>180</width>
@@ -134,37 +132,50 @@ Holes or tears amended on fols. 22, 27, 46, 56, 65, 86.</condition>
                               <dim type="left">14</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data from fol. 47r.</ab>
+                           <note>All data from fol. 47r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script"/>
                         <seg type="ink">Black, red (vivid red (e.g., fol. 3rab), reddish-brown (e.g., fol. 87ra)).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th century (?).</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሃ፡ሃ፡ሃ፡(ሃ፡) / ሃሌ፡ ሉ</abbr> for <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 10vab, 11rab, 26vab)</item>
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 26vb, 27rb, 30rab)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 27rb, 30rab)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 26vb, 27rb, 30rab)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fol. 35vab)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ እግዚኦ፡ ለነፍሰ፡ ገብርከ፡ </expan> (e.g., fols. fols. 37rab, 38vab)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size:10.0pt;Arial" unicode="">Fol. 123vb: Donation note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 123vb: </span><span style="font-size: large;">&#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4925;&#4709;&#4611;&#4961; &#4808;&#4616;&#4819;&#4773;&#4635;&#4722;&#4609;&#4961; &#4808;&#4616;&#4720;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; </span></q>
+                           <locus/><p><span style="font-size:10.0pt;Arial" unicode="">Fol. 123vb: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 123vb: </span><span style="font-size: large;">&#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4925;&#4709;&#4611;&#4961; &#4808;&#4616;&#4819;&#4773;&#4635;&#4722;&#4609;&#4961; &#4808;&#4616;&#4720;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; </span></p> <p><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4704;&#4723;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4768;&#4853;&#4656;&#4705;&#4624;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4779;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that Wälättä Kidan donated the Ms. to Tabotä Ṣǝyon. The first part of the Additio seems to be part of a supplication formula in the main text, but the names are written in the same hand as Additio 1. It mentions Gäbrä Śǝllase, his son Gäbrä ʾAṣbǝha and his maids Wälättä Täklä Haymanot and Wälättä Kidan.</p>
                         </item>
                         <item xml:id="e1">- Fol. 125r: Crude drawing of a cross in recent purple ballpoint pen.&#xD;
 - qes ʾAbrǝḥa Täklä (perhaps the name of a later owner/donor) crudely written in a secondary hand on fol. 2r.&#xD;
@@ -190,7 +201,7 @@ The bottom line is written above the ruling.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0198QälaqǝlMaryamṢǝyon">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
+                        <placeName corresp="INS0198QS">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
                      </origPlace>
                      <origDate notBefore="1889" notAfter="1913">King Mǝnilǝk (r. 1889-1913) is mentioned on fol. 33ra.</origDate>
                   </origin>
@@ -232,10 +243,6 @@ The bottom line is written above the ruling.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -256,7 +263,7 @@ The bottom line is written above the ruling.</ab>
          <change who="DN" when="2011-12-02">registered</change>
          <change who="VR" when="2015-04-28T16:20:45.310Z">created</change>
          <change who="VR" when="2015-04-28T16:42:00.294Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

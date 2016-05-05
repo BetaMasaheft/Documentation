@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣalotä ʿǝṭan “Prayer of Incense”</title>
+            <title>Ṣalotä ˤǝṭan “Prayer of Incense”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0111BetḤawaryat"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0111SSB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SSB-012</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fol. 5r), a few lines are rubricated (alternating
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">66.0</measure> folios,
-                                                in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">66.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">11.5</width>
@@ -100,7 +98,7 @@ Some fols. are stained with dirt, esp. fols. 55-60.&#xD;
 Tears carefully amended on fols. 2, 3.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="15">
                            <dimensions unit="mm">
                               <height>95</height>
                               <width>88</width>
@@ -113,41 +111,40 @@ Tears carefully amended on fols. 2, 3.</condition>
                               <dim type="left">8</dim>
                               <dim type="intercolumn">6</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 On some fols. the scribe did not used the upper ruled line (e.g., fols. 16-17).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;">Fols. 63vb-64rb: Ownership note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fols. 63vb-64rb: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify;">Fol. 63vb: <span style="font-size: large;">&#4824;&#4768;&#4901;&#4648;&#4843;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;</span>[fol. 64ra]<span style="font-size: large;">&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4616;&#4768;&#4705;&#4840;&#4961; &#4781;&#4757;&#4936;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4768;&#4705;&#4840;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4644;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4644;&#4961; &#4961; &#4808;&#4616;&#4848;&#4961; &#4674;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;</span>[fol. 64rb]<span style="font-size: large;">&#4636;&#4757;&#4962; &#4840;&#4720;&#4872;&#4827;&#4733;&#4961; &#4972;&#4709;&#4653;&#4961;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Partly written in Amharic; partly rubricated. The names of the donors are mentioned as the owners of the Ms. The note mentions also that the Ms. was bought for 4 birr.</p>
                         </item>
                         <item xml:id="e1">- Pen trials or writing exercises (?): fols. 3r-v, 4r, 65v.</item>
                      </list>
@@ -168,9 +165,9 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0111BetḤawaryat">Bet Ḥawaryat / SSB</placeName>
+                        <placeName corresp="INS0111SSB">Bet Ḥawaryat / SSB</placeName>
                      </origPlace>
-                     <origDate notBefore="1889" notAfter="1913">King Mənilək II (r. 1889-1913) is mentioned on fols. 33rb and 38ra, Metropolitan Ṗeṭros (in tenure 1881-1917) on fols. 32va-vb and 34rb, and Patriarch of Alexandria Qerlos (in tenure 1874-1927) on fol. 32va.</origDate>
+                     <origDate notBefore="1889" notAfter="1913">King Mәnilәk II (r. 1889-1913) is mentioned on fols. 33rb and 38ra, Metropolitan Ṗeṭros (in tenure 1881-1917) on fols. 32va-vb and 34rb, and Patriarch of Alexandria Qerlos (in tenure 1874-1927) on fol. 32va.</origDate>
                   </origin>
                </history>
                <additional>
@@ -205,13 +202,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Kənfä Mikaʾel and Wälättä Səllaśe (s. Additio 1 and supplication formulas on fols. 41va, 46ra). Other individuals are mentioned in Additio 1, such as Gäbrä Maryam, Wäldä Maryam, Wäldä Gäbrəʾel, Gäbrä ʾƎgziʾabəḥer, Wälättä Maryam and Wälättä Giyorgis.</persName>
+                  <persName corresp="PRS0000">Kәnfä Mikaʾel and Wälättä Sәllaśe (s. Additio 1 and supplication formulas on fols. 41va, 46ra). Other individuals are mentioned in Additio 1, such as Gäbrä Maryam, Wäldä Maryam, Wäldä Gäbrәʾel, Gäbrä ʾƎgziʾabәḥer, Wälättä Maryam and Wälättä Giyorgis.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -235,7 +228,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-29">registered</change>
          <change who="SA" when="2013-12-03T10:39:41.522Z">created</change>
          <change who="MK" when="2014-09-09T12:53:47.207Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

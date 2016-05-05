@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0054SÃ¤mazMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0054SMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SMM-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">52.0</measure> folios,
-                                                in
-                                                <measure unit="quire">5.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">52.0</measure> folios, in <measure unit="quire">5.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.5</height>
                               <width unit="cm">12.0</width>
@@ -93,7 +91,7 @@ Hole in fol. 1.&#xD;
 Fols. stained with wax and water.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="18">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>85</width>
@@ -106,28 +104,35 @@ Fols. stained with wax and water.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/A </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are not visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular.</ab>
                         <seg type="ink">Black; reddish-brown; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of the 19th cent.</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Muse</persName>The handwriting is identical to that of Wäldä Muse (cp. also the ruling pattern and the ornamental bands). See Mss. MR-004, MR-009, MR-014b, MR-023, MR-016, AGM-009.<date>Second half of the 19th cent.</date>
+                        <list type="abbreviations">
+                           <item>ቅ for ቅዱስ</item>
+                           <item>ሰአ for ሰአል</item>
+                           <item>ሰ for ሰላም</item>
+                           <item>ይዲ for ይቤ፡ ዲያቆን</item>
+                           <item>ይሕ for ይቤ፡ ሕዝብ</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -137,16 +142,14 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 1v: Unclear note.</locus>
-                           <q xml:lang="gez">Fol. 1v: <span style="font-size: large;">&#4768;&#4707;&#4724;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4821;&#4672;&#4709;</span>&#8230;</q>
+                           <locus/><p>Fol. 1v: Unclear note.</p><q xml:lang="gez"><p>Fol. 1v: <span style="font-size: large;">&#4768;&#4707;&#4724;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4821;&#4672;&#4709;</span>&#8230;</p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>An appeal of Mäzgäbä Sǝllase who wrote the note, to "his father" Wäldä Maryam and Mäzgäbä Śәllase.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 2r: Unidentified prayer.</locus>
-                           <q xml:lang="gez">Fol. 2r: <span style="font-size: large;">&#4877;&#4752;&#4841;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4920;&#4813;&#4769;&#4961; &#4661;&#4638;&#4961; &#4637;&#4821;&#4632;&#4755;&#4757;</span><span style="font-size: small;">&#8230;</span></q>
+                           <locus/><p>Fol. 2r: Unidentified prayer.</p><q xml:lang="gez"><p>Fol. 2r: <span style="font-size: large;">&#4877;&#4752;&#4841;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4920;&#4813;&#4769;&#4961; &#4661;&#4638;&#4961; &#4637;&#4821;&#4632;&#4755;&#4757;</span><span style="font-size: small;">&#8230;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Probably written in the same hand as that of Additio 1.</p>
                         </item>
                         <item xml:id="e1">- Unclear short note in the upper margin, probably in the same hand as that of Additio 1, mentioning "7 righteous ones" (Ṣadǝqan): fol. 3r.&#xD;
 - Writing exercises: fols. 1-2.</item>
@@ -167,7 +170,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0054SÃ¤mazMaryam">SÃ¤maz Maryam / SMM</placeName>
+                        <placeName corresp="INS0054SMM">SÃ¤maz Maryam / SMM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of 19th cent.</origDate>
                   </origin>
@@ -209,8 +212,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Muse</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -234,7 +236,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-15">registered</change>
          <change who="SA" when="2013-01-14T09:12:37.432Z">created</change>
          <change who="SH" when="2014-06-02T14:18:58.787Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

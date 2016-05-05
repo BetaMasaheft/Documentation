@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0294ʾAmbaTähulaMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0294TGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>TGM-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf"/> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf"/> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm"/>
                               <width unit="cm"/>
@@ -71,7 +69,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script"/>
                         <seg type="ink"/>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date/>
                      </handNote>
                   </handDesc>
@@ -87,7 +84,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0294ʾAmbaTähulaMikaʾel">ʾAmba Tähula Mikaʾel / TGM</placeName>
+                        <placeName corresp="INS0294TGM">ʾAmba Tähula Mikaʾel / TGM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800"/>
                   </origin>
@@ -129,10 +126,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -153,7 +146,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2014-06-09">registered</change>
          <change who="DN" when="2015-06-05T12:17:02.920Z">created</change>
          <change who="DN" when="2015-12-15T17:16:25.958Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

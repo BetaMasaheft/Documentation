@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0110QiʿatDäbräṢǝyonQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0110QDS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QDS-012</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">81.0</measure> folios,
-                                                in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">81.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">12.3</width>
@@ -103,7 +101,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The spine cover has been damaged.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="16">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>75</width>
@@ -116,35 +114,42 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">18</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r</ab>
+                           <note>All data for fol. 5r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and regular, by a well-trained hand.</ab>
                         <seg type="ink">Black, red (vivid vermilion)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰ፡</abbr> for <expan>ሰላም፡ ለኪ፡ </expan> (e.g., fols. 1r, 175r)</item>
+                           <item>
+                              <abbr>ማ፡/ማር፡</abbr> for <expan>ማርያም</expan> (e.g., fols. 1v, 2v)</item>
+                           <item>
+                              <abbr>ም፡</abbr> for <expan>ምዕራፍ፡ </expan> (e.g., fols. 19v, 20r)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><br /> </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><br /> </span></p><q xml:lang="gez"><div><span style="font-size: small;">Fols. 74v: </span></div> <div><span style="font-size: large;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4778;&#4961; &#4824;&#4632;&#4819;&#4827;&#4961; &#4768;&#4937;&#4778;&#4961; &#4782;&#4621;&#4962;</span></div> <div><span style="font-size: large;">&#4773;&#4757;&#4720;&#4961; &#4725;&#4924;&#4757;&#4810;&#4961; &#4704;&#4872;&#4851;&#4637;&#4961; &#4808;&#4624;&#4677;&#4621;&#4962;</span></div> <div><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4621;&#4723;&#4961; &#4648;&#4850;&#4774;&#4725;&#4840;&#4961; &#4704;&#4813;&#4661;&#4720;&#4961; &#4672;&#4725;&#4621;&#4962;</span></span></div></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -172,7 +177,7 @@ Turn-ins are laced with cord.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0110QiʿatDäbräṢǝyonQǝddǝstMaryam">Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</placeName>
+                        <placeName corresp="INS0110QDS">Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850">Mid-18th – mid-19th cent. (?)</origDate>
                   </origin>
@@ -214,10 +219,6 @@ Turn-ins are laced with cord.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -238,7 +239,7 @@ Turn-ins are laced with cord.</decoNote>
          <change who="DN" when="2010-12-02">registered</change>
          <change who="AA" when="2014-10-16T17:30:22.404Z">created</change>
          <change who="DN" when="2014-11-07T09:41:22.497Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

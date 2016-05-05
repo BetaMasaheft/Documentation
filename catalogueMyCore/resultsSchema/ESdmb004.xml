@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0131BäʿattiQəddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0131DMB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMB-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">152.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">152.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">35.0</height>
                               <width unit="cm">26.5</width>
@@ -132,7 +130,7 @@ Fol. 145 is made of two pieces of parchment sewn together.&#xD;
 Cuts and tears are carefully amended in fols. 56, 69, 109, 112, 136.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="39">
                            <dimensions unit="mm">
                               <height>245</height>
                               <width>215</width>
@@ -145,37 +143,38 @@ Cuts and tears are carefully amended in fols. 56, 69, 109, 112, 136.</condition>
                               <dim type="left">13</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 95r.</ab>
+                           <note>All data for fol. 95r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but careful</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th- early 20th cent.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 94rc: Record concerning a litigation in the court over an alleged murder.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 94rc:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4704;&#4978;&#4808;&#4977;&#4987;&#4978;&#4808;&#4977; &#4819;&#4632;&#4720;&#4961;</span><span style="line-height: 115%;">&#4637;&#4629;&#4648;&#4725;&#4961; &#4874;&#4828;&#4813;&#4757;&#4961; &#4704;&#4651;&#4661;&#4961; &#4645;&#4841;&#4637;&#4961; &#4874;&#4828;&#4961; &#4752;&#4813;&#4961; &#4676;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; </span><span style="line-height: 115%;">&#4776;&#4659;&#4661;&#4778;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4768;&#4726;&#4961; &#4848;&#4661;&#4723;&#4961; &#4720;&#4776;&#4667;&#4669;&#4961; &#4773;&#4741;&#4725;&#4840;&#4757;&#4961; &#4872;&#4853;&#4621;&#4776;&#4621;&#4765;&#4961; &#4709;&#4616;&#4813;&#4961; </span><span style="line-height: 115%;">&#4776;&#4656;&#4657;&#4725;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;">&#4773;&#4756;&#4961; &#4768;&#4621;&#4872;&#4848;&#4621;&#4777;&#4637;&#4961; &#4709;&#4622;&#4961; &#4776;&#4656;&#4757;&#4656;&#4616;&#4725;&#4961; &#4872;&#4707;&#4961; &#4776;&#4848;&#4867;&#4829;&#4635;&#4733;&#4961; &#4848;&#4661;&#4723;&#4961;</span><span style="line-height: 115%;"> &#4733;</span><span style="line-height: 115%;">&#4784;</span><span style="line-height: 115%;">&#4725;&#4961; &#4672;&#4648;&#4705;&#4961; </span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 94rc: Record concerning a litigation in the court over an alleged murder.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 94rc:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4704;&#4978;&#4808;&#4977;&#4987;&#4978;&#4808;&#4977; &#4819;&#4632;&#4720;&#4961;</span><span style="line-height: 115%;">&#4637;&#4629;&#4648;&#4725;&#4961; &#4874;&#4828;&#4813;&#4757;&#4961; &#4704;&#4651;&#4661;&#4961; &#4645;&#4841;&#4637;&#4961; &#4874;&#4828;&#4961; &#4752;&#4813;&#4961; &#4676;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; </span><span style="line-height: 115%;">&#4776;&#4659;&#4661;&#4778;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4768;&#4726;&#4961; &#4848;&#4661;&#4723;&#4961; &#4720;&#4776;&#4667;&#4669;&#4961; &#4773;&#4741;&#4725;&#4840;&#4757;&#4961; &#4872;&#4853;&#4621;&#4776;&#4621;&#4765;&#4961; &#4709;&#4616;&#4813;&#4961; </span><span style="line-height: 115%;">&#4776;&#4656;&#4657;&#4725;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;">&#4773;&#4756;&#4961; &#4768;&#4621;&#4872;&#4848;&#4621;&#4777;&#4637;&#4961; &#4709;&#4622;&#4961; &#4776;&#4656;&#4757;&#4656;&#4616;&#4725;&#4961; &#4872;&#4707;&#4961; &#4776;&#4848;&#4867;&#4829;&#4635;&#4733;&#4961; &#4848;&#4661;&#4723;&#4961;</span><span style="line-height: 115%;"> &#4733;</span><span style="line-height: 115%;">&#4784;</span><span style="line-height: 115%;">&#4725;&#4961; &#4672;&#4648;&#4705;&#4961; </span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The record was written in Amharic in 1919 year of mercy (= 1926/27 A.D.) during the time of ras Sǝyyum Mängäša (govenor of Tǝgray in 1914-60).
+The priests Täklä Haymanot and Gäbrä Ṣadǝqan accuse ʾato Dästa to have murdered their sister, they went to the court of däǧǧazmač Dästa to settle the dispute. The judges were lǝğ Kidanu, šäqa Ḫǝdaru and Baḥǝta Sǝkus.
+Further in the note it is mentioned that they should swear an oath on Gundä Gunde (here written Gwǝngwǝnde) to prove their innocence.</p>
                         </item>
                         <item xml:id="e1">- Spacea for the rubricated name of the owner left unfilled throughout the Ms.&#xD;
 - An additional (or overlooked?) ʾarke-hymn is added to the 23rd Miyazya: fol. 42vc.&#xD;
@@ -203,7 +202,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0131BäʿattiQəddusMikaʾel">Bäʿatti Qəddus Mikaʾel  / DMB</placeName>
+                        <placeName corresp="INS0131DMB">Bäʿatti Qәddus Mikaʾel  / DMB</placeName>
                      </origPlace>
                      <origDate notBefore="1880" notAfter="1927">Late 19th - 1927.&#xD;
 Additio 1 was written in 1919 year of mercy (= 1926/27 A.D.).</origDate>
@@ -246,10 +245,6 @@ Additio 1 was written in 1919 year of mercy (= 1926/27 A.D.).</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -271,7 +266,7 @@ Additio 1 was written in 1919 year of mercy (= 1926/27 A.D.).</origDate>
          <change who="DN" when="2010-12-10">registered</change>
          <change who="SD" when="2014-10-09T13:24:49.325Z">created</change>
          <change who="MV" when="2015-02-04T08:59:53.047Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

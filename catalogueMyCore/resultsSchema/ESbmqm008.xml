@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0208BetMuḵaʿMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0208BMQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BMQM-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">188.0</measure> folios,
-                                                in
-                                                <measure unit="quire">24.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">188.0</measure> folios, in <measure unit="quire">24.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.3</height>
                               <width unit="cm">19.7</width>
@@ -143,7 +141,7 @@ Some fols. are repaired with a cotton thread, e.g., fols. 27, 109, 116.&#xD;
 Fols. 1-4 originate from a different Ms.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="19">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>160</width>
@@ -156,19 +154,21 @@ Fols. 1-4 originate from a different Ms.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Texts I-1, I-2, I-3: all data for fol. 9r.</ab>
+                           <note>Texts I-1, I-2, I-3: all data for fol. 9r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>150</width>
@@ -181,50 +181,67 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Texts I-4, I-5: all data for fol. 177r</ab>
+                           <note>Texts I-4, I-5: all data for fol. 177r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and regular.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>16th cent.</date>
+                        <list type="abbreviations">
+                           <item>Text I-4</item>
+                           <item>Words or their abbreviation stand for the whole refrain</item>
+                           <item>
+                              <abbr>ሠ፡/ሠረቀ፡</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fols. 173ra-173vb)</item>
+                           <item>
+                              <abbr>እ፡/እስ፡</abbr> for <expan>እስመ፡ በፈቃዱ፡ ... ወአድኅነነ </expan> (fols. 174ra-175rb)</item>
+                           <item>
+                              <abbr>ኵሉ፡/ኵሉ፡ ትውልድ፡</abbr> for <expan>ኵሉ፡ ትውልድ፡ ... ወላዲተ፡ አምላክ </expan> (fols. 175vb-177ra)</item>
+                           <item>
+                              <abbr>ናዓ፡/ናዓብየ፡/ናዓብየኪ፡</abbr> for <expan>ናዓብየኪ፡ ኵልነ፡ ... ላዕለ፡ ኵልነ </expan> (fols. 177vb-179rb)</item>
+                           <item>
+                              <abbr>ለኪ፡ ለበሕ፡</abbr> for <expan>ለኪ፡ ለበሕቲትኪ፡ ... ወበውዳሴ </expan> (fol.180ra)</item>
+                           <item>
+                              <abbr>ተፈ፡/ተፈሥሒ፡/ተፈሥሒ፡ ኦም</abbr> for <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ... እግዚአብሔር፡ ምስሌኪ </expan> (fols. 181ra-182ra)</item>
+                           <item>
+                              <abbr>ወበእን፡/ወበእንተዝ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ... ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 182va-183ra)</item>
+                           <item>Text I-5</item>
+                           <item>
+                              <abbr>ወበእንተ፡/ወበእንተዝ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ... ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 184va-187vb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">
-                           <q xml:lang="gez"><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 172v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4768;&#4925;&#4936;&#4653;&#4778;&#4961; &#4789;&#4622;&#4757;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&lt;&#8230;&gt; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4621;&#4678;&#4757;&#4961; &#4773;&#4661;&#4651;&#4961; &#4608;&#4872;&#4648;&#4961; &#4768;&#4853;&#4741;&#4758;&#4961; &#4629;&#4757;&#4925;&#4725;&#4961; &#4616;&#4752;&#4706;&#4845;&#4961; &#4773;&#4829;&#4651;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4677;&#4661;&#4651;&#4962;</span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><p><span lang="EN-US" unicode="" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fol. 172v: Protective prayer (?), unidentified.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 172v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4768;&#4925;&#4936;&#4653;&#4778;&#4961; &#4789;&#4622;&#4757;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&lt;&#8230;&gt; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4621;&#4678;&#4757;&#4961; &#4773;&#4661;&#4651;&#4961; &#4608;&#4872;&#4648;&#4961; &#4768;&#4853;&#4741;&#4758;&#4961; &#4629;&#4757;&#4925;&#4725;&#4961; &#4616;&#4752;&#4706;&#4845;&#4961; &#4773;&#4829;&#4651;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4677;&#4661;&#4651;&#4962;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
-                           </locus>
+                           <p>Written in a careful hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;">Fol. 188rb-188vb:</span> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4736;&#4845;&#4621;&#4778;&#4961; &#4720;&#4819;&#4813;&#4672;&#4961; &#4704;&#4653;&#4613;&#4704;&#4961; &#4819;&#4616;&#4637;&#4961; &#4656;&#4936;&#4752;&#4962; &#4773;&#4757;&#4720;&#4961; &#4619;&#4821;&#4616;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4638;&#4725;&#4961; &#4662;&#4704;&#4961; &#4768;&#4853;&#4637;&#4768;&#4961; &#4661;&#4621;&#4899;&#4752;&#4962; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4725;&#4843;&#4757;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4720;&#4651;&#4853;&#4773;&#4754;&#4961; &#4941;&#4897;&#4752;&#4962;</span></span></span> ...</q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 188rb-188vb: Supplication prayer.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;">Fol. 188rb-188vb:</span> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4736;&#4845;&#4621;&#4778;&#4961; &#4720;&#4819;&#4813;&#4672;&#4961; &#4704;&#4653;&#4613;&#4704;&#4961; &#4819;&#4616;&#4637;&#4961; &#4656;&#4936;&#4752;&#4962; &#4773;&#4757;&#4720;&#4961; &#4619;&#4821;&#4616;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4638;&#4725;&#4961; &#4662;&#4704;&#4961; &#4768;&#4853;&#4637;&#4768;&#4961; &#4661;&#4621;&#4899;&#4752;&#4962; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4725;&#4843;&#4757;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4720;&#4651;&#4853;&#4773;&#4754;&#4961; &#4941;&#4897;&#4752;&#4962;</span></span></span> ...</p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Partly illegible.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size:10.0pt;Arial" unicode="">Fol. 188v: Unclear note (protective text or recipe?).<br /> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 188v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4850;&#4754;&#4725;&#4961; &#4768;&#4755;&#4653;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&lt;&#8230;&gt; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4752;&#4941;&#4661;&#4843;&#4961; &#4704;&#4829;&#4757;&#4634;&#4661;&#4961; &#4616;&#4872;&#4709;&#4653;&#4781;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230;.</span></span></q>
+                           <locus/><p><span style="font-size:10.0pt;Arial" unicode="">Fol. 188v: Unclear note (protective text or recipe?).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 188v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4850;&#4754;&#4725;&#4961; &#4768;&#4755;&#4653;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&lt;&#8230;&gt; </span><span style="font-size: large;"><span style="line-height: 115%;">&#4752;&#4941;&#4661;&#4843;&#4961; &#4704;&#4829;&#4757;&#4634;&#4661;&#4961; &#4616;&#4872;&#4709;&#4653;&#4781;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230;.</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Partially illegible.</p>
                         </item>
                         <item xml:id="e1">- Fols. 1-4 are additional leaves originating from another manuscript used as end leaves and containing a Mälkǝʾa-Hymn to St. Mary.&#xD;
 - Minor notes: e.g., fols. 5r, 172r, 173r.&#xD;
@@ -252,7 +269,7 @@ The bottom line is written above the ruling.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0208BetMuḵaʿMikaʾel">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
+                        <placeName corresp="INS0208BMQM">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
                      </origPlace>
                      <origDate notBefore="1500" notAfter="1600"/>
                   </origin>
@@ -294,10 +311,6 @@ The bottom line is written above the ruling.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -318,7 +331,7 @@ The bottom line is written above the ruling.</ab>
          <change who="DN" when="2011-12-08">registered</change>
          <change who="VR" when="2014-11-10T17:59:47.305Z">created</change>
          <change who="SD" when="2014-11-26T11:39:59.395Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

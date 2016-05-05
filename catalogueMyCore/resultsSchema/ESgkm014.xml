@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0108GKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GKM-014</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Two groups of lines (alternating with black lines) on the incipit page of Texts 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">138.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">138.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.5</height>
                               <width unit="cm">12.3</width>
@@ -134,7 +132,7 @@ The Ms. is affected by humidity, some fols. have mould.&#xD;
 The headband is partly torn off.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="24">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>90</width>
@@ -147,19 +145,21 @@ The headband is partly torn off.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Texts I-1, I-2, I-3: all data for fol. 3r.</ab>
+                           <note>Texts I-1, I-2, I-3: all data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>125</height>
                               <width>85</width>
@@ -172,28 +172,51 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">5</dim>
                            </dimensions>
-                           <ab type="ruling">Texts I-4, I-5: all data are for fol. 123r.</ab>
+                           <note>Texts I-4, I-5: all data are for fol. 123r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, careless</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th cent.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ስ᎓</abbr> for <expan>ስቡሕኒ᎓ ውእቱ᎓ ወልዑልኒ᎓ ውእቱ᎓ ለዓለም᎓ </expan> (Canticle 10, fol. 111r-v)</item>
+                           <item>Text I-4</item>
+                           <item>ሰ፡ ቅድ for ሰአሊ፡ ለነ፡ ቅድስት</item>
+                           <item>Words or their abbreviations stand for the whole refrain.</item>
+                           <item>
+                              <abbr>ሠ፡</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fols.122ra-123ra)</item>
+                           <item>
+                              <abbr>እ᎓</abbr> for <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 123va-124va)</item>
+                           <item>
+                              <abbr>ኵ፡</abbr> for <expan>ኵሉ፡ ትውልድ፡ ያስተበፅዑኪ፡ ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ </expan> (fols. 125rb-126ra)</item>
+                           <item>
+                              <abbr>ናዓ፡</abbr> for <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 127va-128vb)</item>
+                           <item>
+                              <abbr>ለኪ፡</abbr> for <expan>ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እመ፡ ብርሃን፡ ናዓብየኪ፡ በስብሐት፡ ወበውዳሴ </expan> (fol. 128arb-vb)</item>
+                           <item>
+                              <abbr>ተ፡/ተፈ፡</abbr> for <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fols. 129va-130rb)</item>
+                           <item>
+                              <abbr>ወ፡/ወበ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 130vb-131ra)</item>
+                           <item>Text I-5</item>
+                           <item>ወ፤ ሣ፤ ይ፤ ሰ፤ ቅ፤ for ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -217,10 +240,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 136r: Donation note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 136r: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 136r: </span><span style="font-size: large">&#4829;&#4851;&#4810;&#4725;&#4961; &#4824;&#4808;&#4611;&#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4723;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4705;&#4611;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4661;&#4632;&#4961; &#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4925;&#4653;&#4624;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4675;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4677;&#4961; &#4872;&#4709;&#4648;&#4961; &#4778;&#4851;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that the Ms. was donated by Wälättä Mädḫәn. Her family members are also mentioned: her father Ḫaylä Maryam, her mother Wälättä Ṣәrḥa, her husband Gäbrä Mädḫәn and her children Wälättä Mikaʾel, Gäbrä Ṣadәq, Gäbrä Kidan and Gäbrä ʾArägawi.</p>
                         </item>
                         <item xml:id="e1">- Part of the line is often taken up: e.g., fols. 4r, 10r, 29v, 38v, 40r, 47v, 59v, 63v, 80r, 119r. &#xD;
 - Omitted letters, words, lines or passages written interlineally, in the main and in a secondary hand: fols. 18r, 53r, 62r, 63r, 70r, 74v, 97r, 98v, 101r, 103v, 104v, 111v, 113v, 114r.  &#xD;
@@ -245,7 +267,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
+                        <placeName corresp="INS0108GKM">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent. (?)</origDate>
                   </origin>
@@ -282,14 +304,10 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Additio 1 mentions Wälättä Mädḫən as the donor.&#xD;
+                  <persName corresp="PRS0000">Additio 1 mentions Wälättä Mädḫәn as the donor.&#xD;
 Her name is also crudely written in the supplication formulas, e.g., on fols. 21v, 64v, 79r, 103, 121v in the same hand as Additio 1.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -313,7 +331,7 @@ Her name is also crudely written in the supplication formulas, e.g., on fols. 21
          <change who="DN" when="2010-12-04">registered</change>
          <change who="SA" when="2012-07-02T14:53:05.009Z">created</change>
          <change who="MV" when="2015-05-28T15:08:28.668Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

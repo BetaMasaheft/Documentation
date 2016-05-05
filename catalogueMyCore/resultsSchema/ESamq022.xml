@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0065ʿAddigratQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0065"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMQ-022</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipits and headings of the texts; the word mǝʿǝraf, numbers and incipits of the chapters; elements of the punctuation signs; parts of the Canon tables (e.g., fols. 10r-10v, 13v-14r, etc.).</rubric>
+                     <rubric>Nomina sacra; incipits and headings of the texts; the word mǝˤǝraf, numbers and incipits of the chapters; elements of the punctuation signs; parts of the Canon tables (e.g., fols. 10r-10v, 13v-14r, etc.).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">197.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">5.0</measure> blank, in
-                                                <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">197.0</measure> folios, of which <measure unit="leaf" type="blank">5.0</measure> blank, in <measure unit="quire">26.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">33.0</height>
                               <width unit="cm">26.0</width>
@@ -150,7 +148,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>211</height>
                               <width>191</width>
@@ -163,27 +161,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">20</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 21r.</ab>
+                           <note>All data for fol. 21r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling;</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but careful.</ab>
                         <seg type="ink"/>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th - 20th cent. rounded broad script</date>
                      </handNote>
                   </handDesc>
@@ -210,7 +208,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0065ʿAddigratQirqos">ʿAddigrat Qirqos /</placeName>
+                        <placeName corresp="INS0065">ʿAddigrat Qirqos /</placeName>
                      </origPlace>
                      <origDate notBefore="1890" notAfter="1920">Late 19th - early 20th cent.</origDate>
                   </origin>
@@ -252,10 +250,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -276,7 +270,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-19">registered</change>
          <change who="SA" when="2011-02-09T11:52:25.981Z">created</change>
          <change who="DN" when="2015-05-03T17:09:56.891Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

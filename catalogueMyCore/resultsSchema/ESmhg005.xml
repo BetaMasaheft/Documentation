@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Mäṣḥafä tägänǝyo “Book of thanksgiving”</title>
-            <editor key="Ethio-Spare"/>
+            <editor key="Ethio-SPaRe"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
          <publicationStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0144ḤarennätGäbäzäytiQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0144MHG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MHG-005</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ A few lines in the incipit of Texts I-1 and I-2 (alternating with black lines); 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">39.0</measure> folios,
-                                                in
-                                                <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">39.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">19.5</height>
                               <width unit="cm">17.0</width>
@@ -93,7 +91,7 @@ Detached leaves (fols. 34-39) were collected and sewn together at the end of the
 The Ms. is badly affected by humidity, the ink is faded or smeared on most of the fols.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>152</height>
                               <width>135</width>
@@ -106,43 +104,42 @@ The Ms. is badly affected by humidity, the ink is faded or smeared on most of th
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B (the horizontal lines are sometimes of Type A, e.g., fols. 2r, 5r, 6rv, 19v).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling (sometimes written below the ruling: e.g., fols. 1rv, 4v, 5rv, 10rv, 14rv, 34rv, 38rv).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">
 The ruling has been done crudely, the ruling pattern are not regular.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Many leaves have an additional crudely ruled line at the bottom (e.g., fols. 2v, 21r-22r, 24v; several lines on fols. 2r, 5r).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Very crude, poor</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 39ra-rb: Protective prayer.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 39ra-rb: Protective prayer.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is crudely written in the main hand on unruled leaf, barely legible.</p>
                         </item>
                         <item xml:id="e1">- The title ድርሳነ: ሚካኤል is written on fol. 1r in pen.&#xD;
 - Crudely written, hardly legible text on fol. 1v, probably in the main hand.&#xD;
@@ -169,7 +166,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0144ḤarennätGäbäzäytiQǝddǝstMaryam">Ḥarennät Gäbäzäyti Qǝddǝst Maryam / MHG</placeName>
+                        <placeName corresp="INS0144MHG">Ḥarennät Gäbäzäyti Qǝddǝst Maryam / MHG</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -212,10 +209,6 @@ These names were either erased or overwritten (but are still readable) with that
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -236,7 +229,7 @@ These names were either erased or overwritten (but are still readable) with that
          <change who="DN" when="2011-05-20">registered</change>
          <change who="SH" when="2015-01-16T16:34:55.224Z">created</change>
          <change who="DN" when="2015-09-14T10:57:46.018Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

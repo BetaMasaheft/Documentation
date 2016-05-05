@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gädlä Mäzgäbä Śəllase “Vita of Mäzgäbä Śəllase” / Mälkəʾa Mäzgäbä Śəllase “Image of Mäzgäbä Śəllase” / Sälam-hymn for Mäzgäbä Śəllase /Mǝlṭan-hymn for Mäzgäbä Śəllase</title>
+            <title>Gädlä Mäzgäbä Śәllase “Vita of Mäzgäbä Śәllase” / Mälkәʾa Mäzgäbä Śәllase “Image of Mäzgäbä Śәllase” / Sälam-hymn for Mäzgäbä Śәllase /Mǝlṭan-hymn for Mäzgäbä Śәllase</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0179TaḥtayRubaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0179TRM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>TRM-023</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">82.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">82.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">19.0</height>
                               <width unit="cm">16.5</width>
@@ -64,7 +62,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2">
                            <dimensions unit="mm">
                               <height>115</height>
                               <width>115</width>
@@ -77,17 +75,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left"/>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling"/>
+                           <note/>
                            <ab type="ruling"/>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th cent. (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>Zä-Wäldä Maryam is mentioned as the scribe on fol. 74rb.<date>18th cent. (?)</date>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -104,7 +102,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0179TaḥtayRubaMaryam">Taḥtay Ruba Maryam / TRM</placeName>
+                        <placeName corresp="INS0179TRM">Taḥtay Ruba Maryam / TRM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1750">First half of the 18th century (?).</origDate>
                   </origin>
@@ -146,8 +144,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -170,7 +167,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <revisionDesc>
          <change who="DN" when="2011-11-22">registered</change>
          <change who="DN" when="2015-05-31T15:38:30.734Z">created</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

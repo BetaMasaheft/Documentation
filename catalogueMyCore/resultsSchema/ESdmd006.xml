@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0129DǝblaYoḥannǝsMäṭmǝq"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0129DMD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMD-006</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">71.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">71.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">26.0</height>
                               <width unit="cm">19.0</width>
@@ -76,7 +74,7 @@ The upper margin of fols. 1r-3v, 63r-71v is damaged by rodents; fols. 1r-2v are 
 Some fols. have tears along the vertical ruling lines.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>122</height>
                               <width>130</width>
@@ -89,27 +87,27 @@ Some fols. have tears along the vertical ruling lines.</condition>
                               <dim type="left">6</dim>
                               <dim type="intercolumn">44</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, careful, regular</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
                      </handNote>
                   </handDesc>
@@ -132,7 +130,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0129DǝblaYoḥannǝsMäṭmǝq">Dǝbla Yoḥannǝs Mäṭmǝq / DMD</placeName>
+                        <placeName corresp="INS0129DMD">Dǝbla Yoḥannǝs Mäṭmǝq / DMD</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -175,10 +173,6 @@ A name, ʾAmätä Ṣǝyon, has been retained in the supplication formula on fol
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -199,7 +193,7 @@ A name, ʾAmätä Ṣǝyon, has been retained in the supplication formula on fol
          <change who="DN" when="2010-12-09">registered</change>
          <change who="MK" when="2013-07-08T08:21:05.480Z">created</change>
          <change who="MK" when="2014-11-28T14:05:38.137Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

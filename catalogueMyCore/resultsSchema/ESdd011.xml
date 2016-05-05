@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DäbräDammoʾAbunäʾArägawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-011</idno>
                   <altIdentifier>
                      <idno>C3-IV-270 (fol. 7r)</idno>
@@ -57,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">165.0</measure> folios,
-                                                in
-                                                <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">165.0</measure> folios, in <measure unit="quire">21.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">25.3</width>
@@ -152,7 +150,7 @@ Fols. 1, 87 are mutilated.&#xD;
 Holes repaired: fols. 29, 38, 39, 40, 44, 90, 116.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>80</width>
@@ -165,19 +163,21 @@ Holes repaired: fols. 29, 38, 39, 40, 44, 90, 116.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 8r</ab>
+                           <note>All data for fol. 8r</note>
                            <ab type="ruling">Quires A, II-XX - 24;</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2">
                            <dimensions unit="mm">
                               <height>135</height>
                               <width>63</width>
@@ -190,27 +190,27 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r</ab>
+                           <note>All data for fol. 5r</note>
                            <ab type="ruling">Quire I-17</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine.   Hand b: fine and regular.  Hand c: mediocre, irregular.</ab>
                         <seg type="ink">Black, red (vivid vermilion)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 4r-6v.</handNote>
@@ -231,10 +231,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 146ra-rb: Acquisition note extended by statement of donation.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 146ra-rb: Acquisition note extended by statement of donation.</span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small"><span>Fol. 146ra-rb:</span></span><span style="font-size: 14pt"> </span><span style="font-size: large"><span>&#4827;&#4722;&#5011; &#4632;&#4925;&#4624;&#4941;&#5011; &#4824;&#4768;&#4707;&#5011; &#4640;&#4653;&#4928;&#5011; &#4768;&#4648;&#4875;&#4810;&#5011; &#4824;&#4768;&#4901;&#4648;&#4843;&#5011; &#4704;&#4757;&#4811;&#4841;&#5011; &#4776;&#4632;&#5011; &#4725;&#4777;&#4758;&#5011; &#4632;&#4653;&#4624;&#5011; &#4632;&#4757;&#4872;&#4616;&#5011; &#4840;&#4635;&#4757;&#5011;&#5011; </span></span><span style="font-size: large"><span>&#4808;&#4776;&#4632;&#5011; &#4843;&#4853;&#4741;&#4758;&#5011; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#5011; &#4773;&#4637;&#4821;&#4677;&#4941;&#4720;&#5011; &#4821;&#4621;&#4813;&#5011; &#4656;&#4845;&#4899;&#4757;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4808;&#4845;&#4848;&#4637;&#4654;&#5011; &#4637;&#4661;&#4616;&#5011; &#4768;&#4707;&#4877;&#4818;&#4609;&#5011; &#4705;&#4649;&#4779;&#4757;&#5011;&#5011;</span></span><span style="font-size: large"><span>&#4736;&#4704;&#5011; &#4720;&#4640;&#4653;&#4819;&#5011; &#4629;&#4877;&#5011; &#4808;&#4720;&#4776;&#4617;&#5011; &#4848;&#4707;&#4725;&#4653;&#5011; &#4824;&#4709;&#4653;&#4611;&#4757;&#5011;&#5011; &#4768;&#4636;&#4757;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4616;&#4827;&#4722;&#4754;&#5011; &#4632;&#4925;&#4624;&#4941;&#5011; &#4824;&#4640;&#4648;&#4675;&#5011; &#4808;&#4824;&#4936;&#4624;&#4675;&#5011; &#4808;&#4824;&#4720;&#4768;&#4872;&#4619;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4770;&#4725;&#4777;&#4758;&#5011; &#4632;&#4653;&#4624;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4653;&#4877;&#4704;&#5011; &#4872;&#4618;&#4619;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4808;&#4845;&#4777;&#4757;&#5011; &#4813;&#4849;&#4672;&#5011; &#4616;&#4936;&#4616;&#4872;&#5011; &#4773;&#4659;&#4725;&#5011; &#4635;&#4773;&#4776;&#4619;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4808;&#4770;&#4845;&#4653;&#4776;&#4709;&#5011; &#4824;&#4845;&#4648;&#4853;&#4774;&#5011; &#4704;&#4941;&#4921;&#4637;&#5011; &#4808;&#4776;&#4811;&#4619;&#5011; &#4768;&#4636;&#4757;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4851;&#4877;&#4632;&#4610;&#5011; &#4704;&#4768;&#4936;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4808;&#4704;&#4768;&#4937;&#4611;&#5011; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4808;&#4619;&#4850;&#4720;&#5011; &#4768;&#4637;&#4619;&#4781;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4808;&#4704;&#4768;&#4936;&#5011; &#4768;&#4709;&#5011; &#4808;&#4808;&#4621;&#4853;&#5011; &#4808;&#4632;&#4757;&#4936;&#4661;&#5011; &#4677;&#4849;&#4661;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#5011;&#5011;</span></span> <span style="font-size: large"><span>&#4704;&#4768;&#4936;&#5011; &#4826;&#4768;&#4840;&#5011; &#4739;&#4901;&#4773;&#5011; &#4808;&#4768;&#4707;&#4658;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#5011;&#5011;</span></span> <span style="font-size: large"><span style="line-height: 115%">&#4845;&#4708;&#5011; &#4768;&#4707;&#5011; &#4640;&#4653;&#4920;&#5011; &#4768;&#4648;&#4875;&#4810;&#5011;&#5011; &#4768;&#4752;&#4610;&#5011; &#4808;&#4608;&#4709;&#4777;&#5011; &#4616;&#4632;&#4677;&#4848;&#4656;&#5011; &#4768;&#4705;&#4840;&#5011; &#4768;&#4648;&#4875;&#4810;&#5011; &#4768;&#4757;&#4725;&#4633;&#4754;&#5011; &#4774;&#4768;&#4704;&#4813;&#4840;&#5011; &#4808;&#4768;&#4739;&#4813;&#4840;&#5011; &#4632;&#4752;&#4782;&#4659;&#4725;&#5011; &#4768;&#4773;&#4649;&#4877;&#5011; &#4808;&#4629;&#4931;&#4755;&#4725;&#5011; &#4824;&#4848;&#4709;&#4648;&#5011; &#4851;&#4638;&#5011;&#5011; &#4770;&#4725;&#4653;&#4661;&#4817;&#4754;&#5011; &#4969;&#4969;&#5011; &#4768;&#4705;&#4752;&#5011; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#5011; &#4675;&#4620;&#4757;&#5011; &#4877;&#4757;&#5011; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#5011; &#4845;&#4941;&#4723;&#4729;&#4629;&#5011; &#4768;&#4636;&#4757;&#5011;&#5011;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that ʾabba Śärḍä ʾArägawi bought the Ms. with his own money and donated it to Däbrä Dammo ʾAbunä ʾArägawi monastery. The biggest part of the note is rhymed. The ultimate words of the note are in Amharic.</p>
                         </item>
                         <item xml:id="e1">- The internal number of the monastic library, 324, is written in fol. 1r&#xD;
 - 82 different ʾarke-poems in the upper margin of many fols. summarizing the contents of the sections of Texts I and II. &#xD;
@@ -263,7 +262,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DäbräDammoʾAbunäʾArägawi">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
+                        <placeName corresp="INS0105DD">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?) Quire I (fols. 4-6) dates to a later time later (19th or 20th cent.).</origDate>
                   </origin>
@@ -305,10 +304,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -332,7 +327,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-22">registered</change>
          <change who="AA" when="2013-05-10T08:37:16.111Z">created</change>
          <change who="VP" when="2015-04-02T16:51:36.948Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

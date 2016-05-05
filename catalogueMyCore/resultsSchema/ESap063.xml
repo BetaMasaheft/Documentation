@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030Ë&#x81;AddÃ¤qaá¸¥arsiá¹&#x96;Ã¤raqliá¹­os"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-063</idno>
                   <altIdentifier>
                      <idno>C3-IV-20 (fol. 35ra)</idno>
@@ -55,9 +55,7 @@ Often only two or three initial letters of a word are rubricated.</rubric>
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf">67.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">9.0</measure> blank, in
-                                                <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">67.0</measure> folios, of which <measure unit="leaf" type="blank">9.0</measure> blank, in <measure unit="quire">8.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">19.5</height>
                               <width unit="cm">14.0</width>
@@ -116,7 +114,7 @@ A narrow parchment strip is stitched to fol. 67. &#xD;
 Holes are carefully amended on fols. 34, 65.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="30">
                            <dimensions unit="mm">
                               <height>145</height>
                               <width>110</width>
@@ -129,28 +127,44 @@ Holes are carefully amended on fols. 34, 65.</condition>
                               <dim type="left">7</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 5r.</ab>
+                           <note>All data are for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful, by a well-trained hand</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>Some of the abbreviations used throughout the text:</item>
+                           <item>ማ፡, ማኅ፡, ማኅሌ፡ for ማኅሌት፡</item>
+                           <item>ምል፡ for ምልጣን፡</item>
+                           <item>መስ፡ for መስባክ፡</item>
+                           <item>ምድ፡, ምድጋም፡ for ምድጋም፡</item>
+                           <item>ሰላ፡ for ሰላም፡</item>
+                           <item>ስብ፡, ስብሐ፡ for ስብሐተ፡ ነግህ፡</item>
+                           <item>አር፡ for አርያም፡</item>
+                           <item>እስ፡ for እስመ፡ ለዓለም፡</item>
+                           <item>ይት፡, ይትባ፡ for ይትባረክ፡</item>
+                           <item>ቅን፡, ቅንዋ፡ for ቅንዋት፡</item>
+                           <item>ቃ፤ ዓ፡ for ቃለ፡ ዓዋዲ፡</item>
+                           <item>
+                              <abbr>Repeated versicles of antiphons are written in an abbreviated form, e.g., ሑሩ፤ በጽ፤ ትር፤ ሠና stands</abbr> for <expan>ሑሩ፡ በጽድቅ፡ ትርከቡ፡ ሠናየ፡ </expan> (fol. 4ra l. 9).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -169,10 +183,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 65rb: Purchase note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 65rb:</span></span><span style="font-size: small"><span style="line-height: 115%"> </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4926;&#4632;&#4961; &#4853;&#4883;&#4961; &#4824;<span style="font-size: small;">[</span>&#4632;<span style="font-size: small;">]</span>&#4637;&#4652;&#4961; &#4781;&#4757;&#4936;&#4961; &#4778;&#4649;&#4709;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673; </span></span></q>
-                           <q xml:lang="en"><span style="font-size: small"><span style="line-height: 115%">Fol. 65rb: This </span><span style="line-height: 115%; color: black">&#7778;om&#228; d&#601;gg<sup>w</sup>a is of m&#228;mh&#601;re K&#601;nf&#228; Kirub which he bought it with his money.</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small">Fol. 65rb: Purchase note.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 65rb:</span></span><span style="font-size: small"><span style="line-height: 115%"> </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4926;&#4632;&#4961; &#4853;&#4883;&#4961; &#4824;<span style="font-size: small;">[</span>&#4632;<span style="font-size: small;">]</span>&#4637;&#4652;&#4961; &#4781;&#4757;&#4936;&#4961; &#4778;&#4649;&#4709;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673; </span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 65rb: This </span><span style="line-height: 115%; color: black">&#7778;om&#228; d&#601;gg<sup>w</sup>a is of m&#228;mh&#601;re K&#601;nf&#228; Kirub which he bought it with his money.</span></span></p></q>
+                           <p>Written by a well-trained hand.</p>
                         </item>
                         <item xml:id="e1">- Note on celebration of Maundy Thursday on fol. 59r (in the upper margin).&#xD;
 - An excerpt from the Gospel of Luke: fol. 60va (in the upper margin). &#xD;
@@ -198,7 +211,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030Ë&#x81;AddÃ¤qaá¸¥arsiá¹&#x96;Ã¤raqliá¹­os">Ë&#x81;AddÃ¤qaá¸¥arsi á¹&#x96;Ã¤raqliá¹­os / AP</placeName>
+                        <placeName corresp="INS0030AP">Ë&#x81;AddÃ¤qaá¸¥arsi á¹&#x96;Ã¤raqliá¹­os / AP</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -240,10 +253,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -264,7 +273,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-05">registered</change>
          <change who="MK" when="2013-01-22T11:27:15.825Z">created</change>
          <change who="MV" when="2015-03-05T09:31:25.342Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

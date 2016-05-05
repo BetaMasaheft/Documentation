@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-014</idno>
                   <altIdentifier>
                      <idno>C3-IV-257 (fol. 2)</idno>
@@ -41,7 +41,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>A few lines (1st, 3rd, 5th and occasionally 24th, 25th) in the incipit pages of Texts I-VIII; the word mǝʿǝraf, “chapter”, followed by an Ethiopic numeral; the initial line of some chapters of Texts II and III: wä-näbäbä ʾƎgziʾabǝḥer lä-Muse wä-yǝbelo, “And God spoke unto Moses and said to him”, (e.g., fols. 53rc, 58rab, 70rabc); elements of the punctuation signs and Ethiopic numerals.&#xD;
+                     <rubric>A few lines (1st, 3rd, 5th and occasionally 24th, 25th) in the incipit pages of Texts I-VIII; the word mǝˤǝraf, “chapter”, followed by an Ethiopic numeral; the initial line of some chapters of Texts II and III: wä-näbäbä ʾƎgziʾabǝḥer lä-Muse wä-yǝbelo, “And God spoke unto Moses and said to him”, (e.g., fols. 53rc, 58rab, 70rabc); elements of the punctuation signs and Ethiopic numerals.&#xD;
 Rubrication is not executed on fols. 14vb-18rb, 29rb-35ra, 150ra-159rc.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -58,9 +58,7 @@ Rubrication is not executed on fols. 14vb-18rb, 29rb-35ra, 150ra-159rc.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">165.0</measure> folios,
-                                                in
-                                                <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">165.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">40.0</height>
                               <width unit="cm">32.0</width>
@@ -169,7 +167,7 @@ Holes are carefully amended on fols. 75, 109, 174 and 175. The spine cover has b
 and carefully repaired.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="29">
                            <dimensions unit="mm">
                               <height>310</height>
                               <width>270</width>
@@ -182,49 +180,48 @@ and carefully repaired.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful</ab>
                         <seg type="ink">Black; red (vivid red, vivid rose).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 18th century (?)</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 191vab: Record concerning litigation over land holding.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 191vab: Record concerning litigation over land holding.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note, dated to 1923 year of mercy (=1930/31 A.D.), contains names of the judge, parties involved in the trial, witnesses and guarantors as well as the matter in dispute and the verdict. 
+It is written in Amharic, by a well-trained hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 192r-193v: Land grant issued by King M&#601;nil&#601;k II for ras M&#228;ng&#228;&#353;a Yo&#7717;ann&#601;s&#8217; children.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 192r-193v: Land grant issued by King M&#601;nil&#601;k II for ras M&#228;ng&#228;&#353;a Yo&#7717;ann&#601;s&#8217; children.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text runs as follows: 193r, 193v, 192r. The document, dated to 1889 years of mercy, gives a list of lands in various parts of Tǝgray (32 places) which King Mǝnilǝk II donated as gwǝlt and rǝst to ras Mängäša Yoḥannǝs’ two children after the battle of ʾAdwa (1896). In the beginning, it mentions the invasion of Italians and their defeat at ʿAdwa.
+It is written in Amharic, in a well-trained hand. There is a stamp of King Mǝnilǝk II on fol. 193r.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 194rv: Record concerning reconciliation.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 194rv: Record concerning reconciliation.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions involved parties and guarantors. It is written in Amharic, in a well-trained hand.</p>
                         </item>
                         <item xml:id="e1">- Title of the Ms. is written on the front cover.&#xD;
 - Internal number of the monastic library, 384, is written on fol. 1r.&#xD;
@@ -248,7 +245,7 @@ Three pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
+                        <placeName corresp="INS0105DD">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1800">Second half of the 18th cent. (?)</origDate>
                   </origin>
@@ -290,10 +287,6 @@ Three pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -315,7 +308,7 @@ Three pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-23">registered</change>
          <change who="MK" when="2013-01-29T08:27:17.835Z">created</change>
          <change who="SD" when="2014-09-16T14:34:51.350Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

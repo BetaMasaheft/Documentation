@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0054SämazMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0054SMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SMM-001</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus>Fols. 214rc</locus>The scribe's name has been encrypted in an alpha-numeric code (?). It is followed by the indication of his affiliation, ʾAmba Maryam (the last word is written in "negative" writing).</colophon>
+                        <locus>Fols. 214rc</locus><p>Fols. 214rc:</p><foreign xml:lang="en"/>
+                        <note>The scribe's name has been encrypted in an alpha-numeric code (?). It is followed by the indication of his affiliation, ʾAmba Maryam (the last word is written in "negative" writing).</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -55,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">216.0</measure> folios,
-                                                in
-                                                <measure unit="quire">27.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">216.0</measure> folios, in <measure unit="quire">27.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">35.5</height>
                               <width unit="cm">31.0</width>
@@ -154,7 +154,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Holes carefully amended on fols. 35, 52, 151, 154, 167, 177, 182, 201, 206.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="26">
                            <dimensions unit="mm">
                               <height>230</height>
                               <width>210</width>
@@ -167,30 +167,30 @@ Holes carefully amended on fols. 35, 52, 151, 154, 167, 177, 182, 201, 206.</con
                               <dim type="left">25</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, regular.</ab>
                         <seg type="ink">Black, red (sometimes vivid vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Maryam (of ʾAmba Maryam)</persName>Wäldä Maryam is mentioned as the scribe in a prayer on fol. 87rc (on fols. 112va, 165vc only the name). The name of the scribe ("of ʾAmba Maryam") appears to be mentioned in the colophon, but it is encrypted in an alpha-numeric code (?).<date>19th century.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -201,16 +201,15 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 4v: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#5011;</span><span style="line-height: 115%;"> &#4824;&#4723;&#4710;&#4720;&#5011; &#4925;&#4846;&#4757;&#5011; &#4824;&#4608;&#4872;&#4648;&#5011; &#4656;&#4635;&#4829;&#5011; &#4824;&#4813;&#4773;&#4721;&#5011; &#4885;&#4622;&#5011; &#4632;&#4624;&#4851;&#5011; &#4824;&#4808;&#4608;&#4707;&#5011; &#4773;&#4651;&#4661;&#5011; &#4768;&#4653;&#4768;&#4843;&#5011; &#4645;&#4619;&#4660;&#5011; &#4808;&#4621;&#4849;&#5011; &#4808;&#4941;&#4673;&#4649;&#5011; &#4616;&#4757;&#4873;&#4640;&#5011; &#4752;&#4872;&#4645;&#4725;&#5011; &#4846;&#4624;&#4757;&#4661;&#5011; &#4757;&#4873;&#4640;&#5011; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#5011; &#4776;&#4632;&#5011; &#4845;&#4777;&#4758;&#5011; &#4616;&#4632;&#4853;&#4739;&#4754;&#4720;&#5011; &#4752;&#4941;&#4661;&#5011; &#4808;&#4645;&#4875;&#5011; &#4768;&#4636;&#4757;&#5011; &#4808;&#4768;&#4636;&#4757;&#4962; &#4824;&#4656;&#4648;&#4678;&#5011; &#4808;&#4824;&#4936;&#4624;&#4678;&#5011; &#4704;&#4645;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#4962; </span></span></q>
-                           <q xml:lang="en"><span unicode="" style="font-size:10.0pt;Arial">Fol. 4v: This book of the church of &#7778;&#477;yon of the </span><span unicode="" style="font-size:10.0pt;Arial">country of S&#228;maz, which is Gw&#477;lo M&#228;&#7717;&#228;da, was donated by </span><span unicode="" style="font-size:10.0pt;Arial">&#704;Ar&#704;aya &#346;&#477;llase, a son and beloved one of </span><span unicode="" style="font-size:10.0pt;Arial">Yo&#7717;ann&#477;s</span><span unicode="" style="font-size:10.0pt;Arial"> the King of Kings of Ethiopia, so that it might be for him the salvation of the soul and the flesh. Amen. </span><span unicode="" style="font-size:10.0pt;Arial">May the one who stole and who erased (its text) be excommunicated by the authority of Peter and Paul.</span></q>
-                           <p/>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;"><span>Fol. 4v: Donation note.</span></span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 4v: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#5011;</span><span style="line-height: 115%;"> &#4824;&#4723;&#4710;&#4720;&#5011; &#4925;&#4846;&#4757;&#5011; &#4824;&#4608;&#4872;&#4648;&#5011; &#4656;&#4635;&#4829;&#5011; &#4824;&#4813;&#4773;&#4721;&#5011; &#4885;&#4622;&#5011; &#4632;&#4624;&#4851;&#5011; &#4824;&#4808;&#4608;&#4707;&#5011; &#4773;&#4651;&#4661;&#5011; &#4768;&#4653;&#4768;&#4843;&#5011; &#4645;&#4619;&#4660;&#5011; &#4808;&#4621;&#4849;&#5011; &#4808;&#4941;&#4673;&#4649;&#5011; &#4616;&#4757;&#4873;&#4640;&#5011; &#4752;&#4872;&#4645;&#4725;&#5011; &#4846;&#4624;&#4757;&#4661;&#5011; &#4757;&#4873;&#4640;&#5011; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#5011; &#4776;&#4632;&#5011; &#4845;&#4777;&#4758;&#5011; &#4616;&#4632;&#4853;&#4739;&#4754;&#4720;&#5011; &#4752;&#4941;&#4661;&#5011; &#4808;&#4645;&#4875;&#5011; &#4768;&#4636;&#4757;&#5011; &#4808;&#4768;&#4636;&#4757;&#4962; &#4824;&#4656;&#4648;&#4678;&#5011; &#4808;&#4824;&#4936;&#4624;&#4678;&#5011; &#4704;&#4645;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#5011; &#4813;&#4873;&#4824;&#5011; &#4616;&#4845;&#4777;&#4757;&#4962; </span></span></p></q>
+                           <q xml:lang="en"><p><span unicode="" style="font-size:10.0pt;Arial">Fol. 4v: This book of the church of &#7778;&#477;yon of the </span><span unicode="" style="font-size:10.0pt;Arial">country of S&#228;maz, which is Gw&#477;lo M&#228;&#7717;&#228;da, was donated by </span><span unicode="" style="font-size:10.0pt;Arial">&#704;Ar&#704;aya &#346;&#477;llase, a son and beloved one of </span><span unicode="" style="font-size:10.0pt;Arial">Yo&#7717;ann&#477;s</span><span unicode="" style="font-size:10.0pt;Arial"> the King of Kings of Ethiopia, so that it might be for him the salvation of the soul and the flesh. Amen. </span><span unicode="" style="font-size:10.0pt;Arial">May the one who stole and who erased (its text) be excommunicated by the authority of Peter and Paul.</span></p></q>
+                           <p>Written in red ink. The note dates to the time of ʾArʾaya Śǝllase (b.1869/70, d. 1888), a son of King Yoḥannǝs IV (r. 1872-89). The note named the nowadays church of Maryam, as the church of Ṣǝyon (s. also Additio 2).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 214v: Inventory of the items donated by different individuals to the church of S&#228;maz.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 214v: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4971;</span><span style="line-height: 115%;">&#4725;&#5011; &#4672;&#4634;&#4661;&#5011; &#4808;&#4653;&#4677;&#5011; &#4824;&#4710;&#5011; &#4971;&#4725;&#5011; &#4808;&#4653;&#4677;&#5011;</span><span style="line-height: 115%;"> &#4824;&#4710;&#5011; &#4704;&#4653;&#4758;&#4661;&#5011; &#4609;&#4616;&#4725;&#5011; &#4624;&#4653;&#5011; &#4704;&#4653;&#4758;&#4661;&#5011; &#4969;&#4877;&#4661;&#4619;&#5011;</span><span style="line-height: 115%;">&#4969;&#4632;&#4661;&#4672;&#4621;&#4962; &#4969; &#4637;&#4757;&#4923;&#4941;&#5011; &#4969;&#4661;&#4821;&#4621;&#5011; &#4637;&#4661;&#4616;&#5011; &#4941;&#4673;&#4653; &#4808;&#4621;&#4851;&#4962;</span><span style="line-height: 115%;">&#8230;</span>&#160;</span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 214v: 3 decorated tunics, 3 decorated mantels, two silk mantels, 1 panther (mantel), 1 cross; 1 carpet, 1 icon with Her beloved son&#8230;</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;">Fol. 214v: Inventory of the items donated by different individuals to the church of S&#228;maz.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 214v: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4971;</span><span style="line-height: 115%;">&#4725;&#5011; &#4672;&#4634;&#4661;&#5011; &#4808;&#4653;&#4677;&#5011; &#4824;&#4710;&#5011; &#4971;&#4725;&#5011; &#4808;&#4653;&#4677;&#5011;</span><span style="line-height: 115%;"> &#4824;&#4710;&#5011; &#4704;&#4653;&#4758;&#4661;&#5011; &#4609;&#4616;&#4725;&#5011; &#4624;&#4653;&#5011; &#4704;&#4653;&#4758;&#4661;&#5011; &#4969;&#4877;&#4661;&#4619;&#5011;</span><span style="line-height: 115%;">&#4969;&#4632;&#4661;&#4672;&#4621;&#4962; &#4969; &#4637;&#4757;&#4923;&#4941;&#5011; &#4969;&#4661;&#4821;&#4621;&#5011; &#4637;&#4661;&#4616;&#5011; &#4941;&#4673;&#4653; &#4808;&#4621;&#4851;&#4962;</span><span style="line-height: 115%;">&#8230;</span>&#160;</span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 214v: 3 decorated tunics, 3 decorated mantels, two silk mantels, 1 panther (mantel), 1 cross; 1 carpet, 1 icon with Her beloved son&#8230;</span></span></p></q>
+                           <p>The note is written in Gәʿәz, Amharic and Tǝgrǝñña. 
+The donors of the items are Rämḥa Śǝllase and ʾArʾaya Śǝllase; the name Yoḥannǝs Käma is mentioned in the note, but is not clear whether it refers to the name of the church or to a name of an individual; the keeper (gäbäz) is Wäldä Gäbrәʾel. The note named the nowadays church of Maryam, as the church of Ṣǝyon (s. also Additio 1).</p>
                         </item>
                         <item xml:id="e1">- The scribe did not use the bottom ruled line on fols. 5r-28v.&#xD;
 - Excerpts from hymns for the Good Friday (?) have benn added in the upper margin of in fols. 133rv, 134r, 140rv, 141r, 162rv, 175rv.&#xD;
@@ -241,7 +240,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0054SämazMaryam">Sämaz Maryam / SMM</placeName>
+                        <placeName corresp="INS0054SMM">Sämaz Maryam / SMM</placeName>
                      </origPlace>
                      <origDate notBefore="1872" notAfter="1888">According to the dates of ʾArʾaya Śǝllase (b.1869/70, d. 1888, EAE I, 314).</origDate>
                   </origin>
@@ -283,8 +282,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Maryam (of ʾAmba Maryam)</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -302,14 +300,14 @@ Two pairs of sewing stations.</decoNote>
             <language ident="it">Italiano</language>
             <language ident="gez" xml:id="Lan05">Gəˁəz</language>
             <language ident="am" xml:id="Lan01">Amharic</language>
-            <language ident="other" xml:id="Lan00">-other</language>
+            <language>Tǝgrǝñña</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-15">registered</change>
          <change who="IR" when="2013-04-22T10:06:30.192Z">created</change>
          <change who="DN" when="2014-08-27T16:39:48.424Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

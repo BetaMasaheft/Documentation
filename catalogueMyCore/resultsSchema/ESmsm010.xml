@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0050MänäbäytiṢəyonMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0050MSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MSM-010</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Incipits of some of the texts (e. g., fols. 1ra-rb, 106vb) are written alternate
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">177.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">177.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">23.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">19.8</height>
                               <width unit="cm">18.2</width>
@@ -143,7 +141,7 @@ Several text fragments have been misplaced: text from fol. 39vb is continued on 
 Fol. 46 is rumpled and has a hole. Fols. 66 and 67 are torn, part of the text on these folios is lost.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="15">
                            <dimensions unit="mm">
                               <height>135</height>
                               <width>135</width>
@@ -156,19 +154,21 @@ Fol. 46 is rumpled and has a hole. Fols. 66 and 67 are torn, part of the text on
                               <dim type="left">15</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">fols. 1ra-175vb (texts I-IV). All data are for fol. 170r.</ab>
+                           <note>fols. 1ra-175vb (texts I-IV). All data are for fol. 170r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>136</width>
@@ -181,18 +181,24 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">11</dim>
                            </dimensions>
-                           <ab type="ruling">fol. 176ra-vb (text V). All data are for fol. 176r.</ab>
+                           <note>fol. 176ra-vb (text V). All data are for fol. 176r.</note>
                            <ab type="ruling">average number; actual numbers vary from 18 to 20</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are not visible.</ab>
+                           <ab type="pricking">Pricking and ruling are not visible.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre but careful. Hand b: mediocre but careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date/>
+                        <list type="abbreviations">
+                           <item>(ይ)ካ፡ for ይበል፡ ካህን፡</item>
+                           <item>(ይ)ዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>(ይ)ሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>ቅ(ዱስ)፡ ቅ፡ ቅ፡ for ቅዱስ፡ ቅዱስ፡ ቅዱስ፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 1ra-172va</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 173ra-176vb</handNote>
@@ -203,27 +209,23 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">&#160;<span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS">Fol. 7vb: Ownership note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 7vb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; </span><span style="line-height: 115%;">&#4824;&#4808;&#4621;&#4848;&#4961; </span><span style="line-height: 115%;">&#4770;&#4840;&#4657;&#4961; </span><span style="line-height: 115%;">&#4824;&#4808;&#4608;&#4710;&#4961; </span><span style="line-height: 115%;">&#4616;&#4808;&#4621;&#4849;&#4961; </span><span style="line-height: 115%;">&#4768;&#4725;&#4755;&#4724;&#4814;&#4661;&#4961; </span><span style="line-height: 115%;">&#4808;&#4616;&#4773;&#4633;&#4961;</span><br /> </span></q>
-                           <q xml:lang="en"><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 7vb: This book belongs to W&#228;ld&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Iy&#228;su(s) who has given it to his son &#704;Atnatewos and to his mother W&#228;l&#228;tt&#228; Maryam.</span></span></q>
+                           <locus/><p>&#160;<span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS">Fol. 7vb: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 7vb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; </span><span style="line-height: 115%;">&#4824;&#4808;&#4621;&#4848;&#4961; </span><span style="line-height: 115%;">&#4770;&#4840;&#4657;&#4961; </span><span style="line-height: 115%;">&#4824;&#4808;&#4608;&#4710;&#4961; </span><span style="line-height: 115%;">&#4616;&#4808;&#4621;&#4849;&#4961; </span><span style="line-height: 115%;">&#4768;&#4725;&#4755;&#4724;&#4814;&#4661;&#4961; </span><span style="line-height: 115%;">&#4808;&#4616;&#4773;&#4633;&#4961;</span><br /> </span></p> <p><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4616;&#4720;&#4961;</span> <span style="line-height: 115%;">&#4635;&#4653;&#4843;&#4637;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 7vb: This book belongs to W&#228;ld&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Iy&#228;su(s) who has given it to his son &#704;Atnatewos and to his mother W&#228;l&#228;tt&#228; Maryam.</span></span></p></q>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 23v: Note on grain donations to the church.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 23v: Note on grain donations to the church.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. The note mentions ras Wäldä Śǝllase.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 25vb: Note on grain donations to the church.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 25vb: Note on grain donations to the church.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Incomplete. The note mentions ras Wäräňňa and nǝguś Yoḥannǝs.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#">&#160;<span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS">Fol. 172vb: Supplication for the owner of the Ms. and for his relatives.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 172vb:</span></span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4648;&#4776;&#4726;&#4633;&#4961;</span><span style="line-height: 115%;"> &#4616;&#4768;&#4704;&#4810;&#4752;&#4961;</span><span style="line-height: 115%;"> &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; </span><span style="line-height: 115%;">&#4840;&#4608;&#4617;&#4961;</span><span style="line-height: 115%;"> &#4637;&#4661;&#4616;&#4961;</span><span style="line-height: 115%;"> &#4941;&#4673;&#4654;&#4633;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4621;&#4848;&#4961;</span><span style="line-height: 115%;"> &#4770;&#4840;&#4657;&#4661;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4808;&#4621;&#4849;&#4961; </span><span style="line-height: 115%;">&#4768;&#4725;&#4755;&#4724;&#4814;&#4661;&#4961; </span><span style="line-height: 115%;">&#4808;&#4616;&#4773;&#4633;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%;"> &#4635;&#4653;&#4843;&#4637;&#4962;</span><span style="line-height: 115%;"> &#4824;&#4768;&#4757;&#4704;&#4709;&#4781;&#4811;&#4961;</span><span style="line-height: 115%;"> &#4616;&#4827;&#4722;&#4961;</span><span style="line-height: 115%;">&#4632;&#4925;&#4624;&#4941;&#4961; </span><span style="line-height: 115%;">&#4770;&#4725;&#4653;&#4661;&#4769;&#4752;&#4961; </span><span style="line-height: 115%;">&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%;"> &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 172vb: May the blessing of our fathers the Apostles be with their beloved </span><span style="line-height: 115%;">W&#228;ld&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Iy&#228;sus, and with his son &#704;Atnatewos, and with his mother W&#228;l&#228;tt&#228; Maryam. You who read this book, do not forget us; (recite for us) the Paternoster.</span></span></q>
+                           <locus/><p>&#160;<span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS">Fol. 172vb: Supplication for the owner of the Ms. and for his relatives.</span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 172vb:</span></span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4648;&#4776;&#4726;&#4633;&#4961;</span><span style="line-height: 115%;"> &#4616;&#4768;&#4704;&#4810;&#4752;&#4961;</span><span style="line-height: 115%;"> &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; </span><span style="line-height: 115%;">&#4840;&#4608;&#4617;&#4961;</span><span style="line-height: 115%;"> &#4637;&#4661;&#4616;&#4961;</span><span style="line-height: 115%;"> &#4941;&#4673;&#4654;&#4633;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4621;&#4848;&#4961;</span><span style="line-height: 115%;"> &#4770;&#4840;&#4657;&#4661;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4808;&#4621;&#4849;&#4961; </span><span style="line-height: 115%;">&#4768;&#4725;&#4755;&#4724;&#4814;&#4661;&#4961; </span><span style="line-height: 115%;">&#4808;&#4616;&#4773;&#4633;&#4961;</span><span style="line-height: 115%;"> &#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%;"> &#4635;&#4653;&#4843;&#4637;&#4962;</span><span style="line-height: 115%;"> &#4824;&#4768;&#4757;&#4704;&#4709;&#4781;&#4811;&#4961;</span><span style="line-height: 115%;"> &#4616;&#4827;&#4722;&#4961;</span><span style="line-height: 115%;">&#4632;&#4925;&#4624;&#4941;&#4961; </span><span style="line-height: 115%;">&#4770;&#4725;&#4653;&#4661;&#4769;&#4752;&#4961; </span><span style="line-height: 115%;">&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%;"> &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;">&#160;<span style="line-height: 115%;">Fol. 172vb: May the blessing of our fathers the Apostles be with their beloved </span><span style="line-height: 115%;">W&#228;ld&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Iy&#228;sus, and with his son &#704;Atnatewos, and with his mother W&#228;l&#228;tt&#228; Maryam. You who read this book, do not forget us; (recite for us) the Paternoster.</span></span></p></q>
                            <p/>
                         </item>
                         <item xml:id="e1">- Two apparently recent marginal notes: ዘደብረ ጽዮን ቅድስት ማርያም መጽሓፈ ቅዳሴ and ደብረ ጽዮን ቅድስት ማርያም ቤተ ክርስቲያን ዘብሄረ ነቢያት።: fol. 1r.&#xD;
@@ -253,7 +255,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0050MänäbäytiṢəyonMaryam">Mänäbäyti Ṣəyon Maryam/ MSM</placeName>
+                        <placeName corresp="INS0050MSM">Mänäbäyti Ṣәyon Maryam/ MSM</placeName>
                      </origPlace>
                      <origDate notBefore="1650" notAfter="1750">Mid-17th to mid-18th century (?).</origDate>
                   </origin>
@@ -295,10 +297,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -320,7 +318,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-08">registered</change>
          <change who="DN" when="2014-12-20T19:04:49.083Z">created</change>
          <change who="DN" when="2015-02-20T12:51:22.602Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

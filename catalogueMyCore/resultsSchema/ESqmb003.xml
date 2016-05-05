@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0133BäläsaQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0133QMB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QMB-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">100.0</measure> folios,
-                                                in
-                                                <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">100.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.5</height>
                               <width unit="cm">12.0</width>
@@ -112,7 +110,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The tailband is missing, the spine is partly torn along the edges of the boards.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>90</width>
@@ -125,69 +123,63 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">8</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are clearly visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular and careful</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt">Fol. 2v: Note concerning events in the lives (?) of Evangelists (Matthew, Mark, Luke and John).</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 2v: Note concerning events in the lives (?) of Evangelists (Matthew, Mark, Luke and John).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Hardly readable.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="line-height: 115%; font-size: 10pt">Fols. 98rb-99ra: Text concerning the value of common orthodox prayers.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fols. 98rb-99ra: Text concerning the value of common orthodox prayers.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt">Fol. 99ra: Note concerning dates of celebrating some feasts, with a&#160;small, crude&#160;calendaric table.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 99ra: Note concerning dates of celebrating some feasts, with a&#160;small, crude&#160;calendaric table.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Gǝʿǝz and Amharic.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt">Fol. 99va: Unidentified text.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 99va: Unidentified text.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Recent and hardly readable, written in pink.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt">Fol. 99vb: &#704;Asmat-prayer.<br /> </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 99vb: &#704;Asmat-prayer.<br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The title (?)  is written in the upper margin: “And you who have terrified the idols...”.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt">Fol. 100v:&#160;Protective prayer to God, a recipe for a certain medicine, and a short protective&#160;prayer&#160;mentioning St. Mary.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 100v:&#160;Protective prayer to God, a recipe for a certain medicine, and a short protective&#160;prayer&#160;mentioning St. Mary.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Gǝʿǝz and Amharic.</p>
                         </item>
                         <item xml:id="e1">- A chain of black dots and a red line, probably separating the text passages (?), on fols.: 21v, 23r, 41r, 41v, 42v, 49r, 50r, 53r, 61v, 62v, 63r, 64v, 67r, 71r, 72r, 73r, 77v, 87r, 93v.&#xD;
 - Crude drawing of a cross with an inscription above: zǝ-Mäsqäl zä-ʾAbba, fol. 1r.&#xD;
@@ -212,7 +204,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0133BäläsaQǝddusMikaʾel">Bäläsa Qǝddus Mikaʾel  / QMB</placeName>
+                        <placeName corresp="INS0133QMB">Bäläsa Qǝddus Mikaʾel  / QMB</placeName>
                      </origPlace>
                      <origDate notBefore="1851" notAfter="1900">Second half of the 19th century.</origDate>
                   </origin>
@@ -254,10 +246,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -279,7 +267,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="0201-12-13">registered</change>
          <change who="MK" when="2011-11-08T09:29:01.914Z">created</change>
          <change who="SA" when="2014-09-09T14:38:08.777Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

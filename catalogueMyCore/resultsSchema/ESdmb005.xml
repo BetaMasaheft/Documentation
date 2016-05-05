@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0131BäʿattiQəddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0131DMB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMB-005</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Several groups of lines on the incipit page of Text I (alternating with black li
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">122.0</measure> folios,
-                                                in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">122.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">17.3</width>
@@ -125,7 +123,7 @@ The leather cover is partly detached from both boards and damaged by water.&#xD;
 Holes or tears carefully amended on fols. 75, 766, 77.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>145</height>
                               <width>135</width>
@@ -138,41 +136,48 @@ Holes or tears carefully amended on fols. 75, 766, 77.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The column width is irregular on some fols. (e.g., fols. 45r, 79r, 104r-105v) due to ruling mistakes.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 39ra, 54rb)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አ(ሜን)፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 12ra, 16rb, 17vb, 21vb, 33vb, 37vb, 59va, 84va, 114va, 115rb, 116ra)</item>
+                           <item>
+                              <abbr>ለዓለ፡ ዓለ፡ አ(ሜን)፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 30rb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;">Fols. 119vb-120ra: Acquisition note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fols. 119vb-120ra: Acquisition note.</span></p><q xml:lang="gez"><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;"><span>Fol. 119vb: </span></span><span style="font-size: larger;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;<span>&#4621;&#4869;&#4961; &#4720;[&#4853;]&#4619;&#4961; &#4704;&#4819;&#4722;&#4961; &#4808;&#4661;&#4632;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4656;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4661;&#4632;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4677;&#4961; &#4808;&#4616;&#4720;&#4961; &#4872;&#4650;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4962; &#4808;&#4637;&#4661;&#4616;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4773;&#4633;&#4961; </span><span>...</span></span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note has been written in the main hand. It states that lǝğ Tä[d]la (of) Bäʿatti, whose baptismal name is Gäbrä Mädḫǝn, purchased this Ms. with his own money. The names of his family members are also mentioned: his wife Wälättä ʾIyäsus, his father Gäbrä Täklä Haymanot, his mother Wälättä Kidan and several names of his children. The note ends with an excommunication against those who stole the book or erased its text.</p>
                         </item>
                         <item xml:id="e1">- Omitted letters or words inserted interlineally: fols. 12va, 42ra, 53rb, 79ra, 87ra, 111ra; in red ink: fols. 32vb, 50vb, 62rb.&#xD;
 - Immediate correction is indicated by thin lines above and below the word on fol. 9vb.&#xD;
@@ -196,7 +201,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0131BäʿattiQəddusMikaʾel">Bäʿatti Qəddus Mikaʾel  / DMB</placeName>
+                        <placeName corresp="INS0131DMB">Bäʿatti Qәddus Mikaʾel  / DMB</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent. (?)</origDate>
                   </origin>
@@ -238,10 +243,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -263,7 +264,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-10">registered</change>
          <change who="SH" when="2014-11-11T12:48:02.733Z">created</change>
          <change who="SH" when="2014-12-18T14:16:26.196Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

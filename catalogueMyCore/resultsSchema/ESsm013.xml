@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0053SäbäyaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0053SM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SM-013</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">71.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">71.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.5</height>
                               <width unit="cm">17.5</width>
@@ -96,7 +94,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 The Ms. has been resewn. Many folios are damaged by water.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>150</height>
                               <width>150</width>
@@ -109,49 +107,48 @@ The Ms. has been resewn. Many folios are damaged by water.</condition>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">7</dim>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 On many folios, there are additional ruled lines (one-two), which the scribe did not use. They are: fols. 1ra – 34vb (one); fol. 35ra (two); fol. 35va (one); fol. 36ra – 38vb (two); fols. 39ra- 40vb (one); fols. 57ra – 65rb (two).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre.</ab>
                         <seg type="ink">Black, red and reddish brown.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span lang="EN-GB" arial="" sans-serif="" style="font-size: 10pt; line-height: 115%">Fol. 71ra: Purchase note.</span></locus>
-                           <q xml:lang="gez"><span lang="EN-GB" style="font-size: 14pt; font-family: Nyala">F</span><span style="font-size: large;"><span lang="EN-GB" style="font-family: Nyala;">ol. 71ra:&#160; </span><span lang="AMH" style="font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4707;&#4667;&#4961; &#4709;&#4649;&#4961; &#4808;&#4661;&#4632;&#4961; &#4776;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4824;&#4768;&#4901;&#4648;&#4843;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; [</span><span style="font-family: Nyala;">sic</span><span lang="AMH" style="font-family: Nyala;">] &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4824;&#4720;&#4656;&#4840;&#4899;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4757;&#4873;&#4640;&#4961; &#4925;&#4846;&#4757;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4824;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4768;&#4636;&#4757;&#4962; </span></span></q>
+                           <locus/><p><span lang="EN-GB" arial="" sans-serif="" style="font-size: 10pt; line-height: 115%">Fol. 71ra: Purchase note.</span></p><q xml:lang="gez"><p><span lang="EN-GB" style="font-size: 14pt; font-family: Nyala">F</span><span style="font-size: large;"><span lang="EN-GB" style="font-family: Nyala;">ol. 71ra:&#160; </span><span lang="AMH" style="font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4707;&#4667;&#4961; &#4709;&#4649;&#4961; &#4808;&#4661;&#4632;&#4961; &#4776;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4824;&#4768;&#4901;&#4648;&#4843;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; [</span><span style="font-family: Nyala;">sic</span><span lang="AMH" style="font-family: Nyala;">] &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4824;&#4720;&#4656;&#4840;&#4899;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4757;&#4873;&#4640;&#4961; &#4925;&#4846;&#4757;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4824;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4768;&#4636;&#4757;&#4962; </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The name of the buyer, bašša Bǝrru (whose baptismal name was Täwäldä Madḫǝn) and the names of members of his family are mentioned. The note is written in the same hand as Additio 2 and probably in the same hand as the main text.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 71rb: Donation note.</locus>
-                           <q xml:lang="gez"><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">F</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">ol. 71rb:</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> &#4632;&#4925;&#4624;&#4941;&#4961; </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;"><span style="font-size: large;"><span lang="AMH" style="font-family: Nyala;">&#4824;</span></span>&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4656;&#4704;&#4843;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4737;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4624;&#4709;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4720;&#4661;&#4939;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4962;</span></span></q>
+                           <locus/><p>Fol. 71rb: Donation note.</p><q xml:lang="gez"><p><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">F</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">ol. 71rb:</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> &#4632;&#4925;&#4624;&#4941;&#4961; </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;"><span style="font-size: large;"><span lang="AMH" style="font-family: Nyala;">&#4824;</span></span>&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4656;&#4704;&#4843;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4737;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4624;&#4709;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4720;&#4661;&#4939;&#4961; &#4661;&#4619;&#4660;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The name of the donor, Täwäldä Madḫǝn (s. Additio 1), and the names of members of his family are mentioned. The note is written in the same hand as Additio 1 and probably in the same hand as the main text.
+A passage written above Additio 2 (probably in red) has been erased.</p>
                         </item>
                         <item xml:id="e1">- The title of the work crudely written in blue ink, in the lower margin: fol. 1r.&#xD;
 - Small designs (protective drawings?): fols. 7va, 54ra.&#xD;
@@ -173,7 +170,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0053SäbäyaMaryam">Säbäya Maryam /SM</placeName>
+                        <placeName corresp="INS0053SM">Säbäya Maryam /SM</placeName>
                      </origPlace>
                      <origDate notBefore="1872" notAfter="1889">King Yoḥannǝs IV (r. 1872-89) is mentioned in Additio 1.</origDate>
                   </origin>
@@ -216,10 +213,6 @@ According to Additiones 1 and 2 the Ms. has been purchased and donated to the ch
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -240,7 +233,7 @@ According to Additiones 1 and 2 the Ms. has been purchased and donated to the ch
          <change who="DN" when="2010-05-14">registered</change>
          <change who="VP" when="2011-10-07T09:40:17.319Z">created</change>
          <change who="DN" when="2014-11-09T08:53:22.637Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

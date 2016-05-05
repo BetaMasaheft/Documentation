@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0113NÓ&#x99;á¸¥biQÓ&#x99;ddusMikaË&#x80;el"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0113NSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>NSM-008</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ In the incipit page of Text II (fols. 5r), a few lines are rubricated (alternati
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">110.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">5.0</measure> blank, in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">110.0</measure> folios, of which <measure unit="leaf" type="blank">5.0</measure> blank, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">26.0</height>
                               <width unit="cm">20.0</width>
@@ -114,7 +112,7 @@ In the incipit page of Text II (fols. 5r), a few lines are rubricated (alternati
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="25">
                            <dimensions unit="mm">
                               <height>205</height>
                               <width>185</width>
@@ -127,27 +125,27 @@ In the incipit page of Text II (fols. 5r), a few lines are rubricated (alternati
                               <dim type="left">15</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r.</ab>
+                           <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th cent.</date>
                      </handNote>
                   </handDesc>
@@ -157,10 +155,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 108r: Donation note.</locus>
-                           <q xml:lang="gez">Fol. 108r: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4624;&#4961; &#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4757;&#4613;&#4709;&#4961; &#4808;&#4616;&#4720;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4704;&#4757;&#4873;&#4661;&#4752;&#4961; &#4637;&#4757;&#4618;&#4781;</span>[sic]<span style="font-size: large">&#4961; &#4776;&#4632;&#4961; &#4845;&#4755;</span>[sic]<span style="font-size: large">&#4961; &#4632;&#4653;&#4629; &#4616;&#4632;&#4757;&#4877;&#4661;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4704;&#4981;&#4709;&#4653;&#4961; &#4840;&#4720;&#4872;&#4827;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4755;&#4961; &#4632;&#4853;&#4624;&#4754;&#4720;&#4961; &#4752;&#4709;&#4661;&#4961; &#4808;&#4661;&#4875;&#4961; &#4637;&#4621;&#4773;&#4720;&#4961; &#4920;&#4875;&#4961; &#4808;&#4877;&#4653;&#4635;&#4961; &#4773;&#4637;&#4632;&#4656;&#4872;&#4653;&#4720;&#4961; &#4768;<span style="font-size: small;">{</span>&#4653;<span style="font-size: small;">}</span>&#4812;&#4961; &#4632;&#4661;&#4900;&#4635;&#4961; &#4843;&#4853;&#4741;&#4755;&#4961; &#4773;&#4637;&#4961; &#4629;&#4635;&#4632;&#4961; &#4661;&#4875;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4725;&#4776;&#4961; &#4616;&#4808;&#4616;&#4720;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4808;&#4616;&#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4962;</span></q>
-                           <q xml:lang="en">Fol. 108r: This is the book which W&#228;l&#228;tt&#228; S&#228;ma&#705;t donated to the tabot of St. Michael of N&#601;h&#601;b, in the year of Luke,&#160; (when) our King is M&#1241;n&#1241;lik, so that it might be for her the guide to the Kingdom of Heaven. It was bought for 40 B&#601;rr so that it might be for her the solvation of soul and body, full of grace and majesty;&#160;it might save her from the deceits&#160; of Mastema, so that is might save her from the malady of flesh, for eternity might it be (?) for W&#228;l&#228;tt&#228; S&#228;ma&#705;t, for eternity. Amen, amen and amen.</q>
-                           <p/>
+                           <locus/><p>Fol. 108r: Donation note.</p><q xml:lang="gez"><p>Fol. 108r: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4624;&#4961; &#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4757;&#4613;&#4709;&#4961; &#4808;&#4616;&#4720;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4704;&#4757;&#4873;&#4661;&#4752;&#4961; &#4637;&#4757;&#4618;&#4781;</span>[sic]<span style="font-size: large">&#4961; &#4776;&#4632;&#4961; &#4845;&#4755;</span>[sic]<span style="font-size: large">&#4961; &#4632;&#4653;&#4629; &#4616;&#4632;&#4757;&#4877;&#4661;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4704;&#4981;&#4709;&#4653;&#4961; &#4840;&#4720;&#4872;&#4827;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4755;&#4961; &#4632;&#4853;&#4624;&#4754;&#4720;&#4961; &#4752;&#4709;&#4661;&#4961; &#4808;&#4661;&#4875;&#4961; &#4637;&#4621;&#4773;&#4720;&#4961; &#4920;&#4875;&#4961; &#4808;&#4877;&#4653;&#4635;&#4961; &#4773;&#4637;&#4632;&#4656;&#4872;&#4653;&#4720;&#4961; &#4768;<span style="font-size: small;">{</span>&#4653;<span style="font-size: small;">}</span>&#4812;&#4961; &#4632;&#4661;&#4900;&#4635;&#4961; &#4843;&#4853;&#4741;&#4755;&#4961; &#4773;&#4637;&#4961; &#4629;&#4635;&#4632;&#4961; &#4661;&#4875;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4725;&#4776;&#4961; &#4616;&#4808;&#4616;&#4720;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4808;&#4616;&#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4962;</span></p></q>
+                           <q xml:lang="en"><p>Fol. 108r: This is the book which W&#228;l&#228;tt&#228; S&#228;ma&#705;t donated to the tabot of St. Michael of N&#601;h&#601;b, in the year of Luke,&#160; (when) our King is M&#1241;n&#1241;lik, so that it might be for her the guide to the Kingdom of Heaven. It was bought for 40 B&#601;rr so that it might be for her the solvation of soul and body, full of grace and majesty;&#160;it might save her from the deceits&#160; of Mastema, so that is might save her from the malady of flesh, for eternity might it be (?) for W&#228;l&#228;tt&#228; S&#228;ma&#705;t, for eternity. Amen, amen and amen.</p></q>
+                           <p>Mention of King Mәnәlik (Mәnilәk) II (r. 1889-1913).</p>
                         </item>
                         <item xml:id="e1">- Crude notes in pencil: fols. 108r (summarizing Additio 1), 109v, 110v.</item>
                      </list>
@@ -182,9 +179,9 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0113NÓ&#x99;á¸¥biQÓ&#x99;ddusMikaË&#x80;el">NÓ&#x99;á¸¥bi QÓ&#x99;ddus MikaË&#x80;el / NSM</placeName>
+                        <placeName corresp="INS0113NSM">NÓ&#x99;á¸¥bi QÓ&#x99;ddus MikaË&#x80;el / NSM</placeName>
                      </origPlace>
-                     <origDate notBefore="1850" notAfter="1913">Second half of the 19th - early 20th cent.; the Ms. was bought and donated to the church during the time of King Mənilək II (1889-1913) (s. Additio 1, donation note fol. 108r).</origDate>
+                     <origDate notBefore="1850" notAfter="1913">Second half of the 19th - early 20th cent.; the Ms. was bought and donated to the church during the time of King Mәnilәk II (1889-1913) (s. Additio 1, donation note fol. 108r).</origDate>
                   </origin>
                </history>
                <additional>
@@ -219,13 +216,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Sämaʿt (s. Additio 1; s. also the supplication formulas on fols. 5ra, 39ra, 94va, 98vb, 107vb). Several other persons are mentioned in supplication formulas:  Dǝmḍä Mikaʾel (fols. 5ra, 26va, 56vb, 85ra, 92ra, 107vb), Gäbrä Mikaʾel (fols. 98vb, 101va), Wälättä Maryam (fols. 99ra, 101ra, 107vb), ʾƎḫətä Giyorgis (fol. 99vb, 107vb).</persName>
+                  <persName corresp="PRS0000">Wälättä Sämaʿt (s. Additio 1; s. also the supplication formulas on fols. 5ra, 39ra, 94va, 98vb, 107vb). Several other persons are mentioned in supplication formulas:  Dǝmḍä Mikaʾel (fols. 5ra, 26va, 56vb, 85ra, 92ra, 107vb), Gäbrä Mikaʾel (fols. 98vb, 101va), Wälättä Maryam (fols. 99ra, 101ra, 107vb), ʾƎḫәtä Giyorgis (fol. 99vb, 107vb).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -248,7 +241,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-25">registered</change>
          <change who="SA" when="2012-01-19T09:30:36.179Z">created</change>
          <change who="SH" when="2014-10-14T08:28:34.042Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

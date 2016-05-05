@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0113NÓ&#x99;á¸¥biQÓ&#x99;ddusMikaË&#x80;el"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0113NSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>NSM-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">125.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">0.0</measure> blank, in
-                                                <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">125.0</measure> folios, of which <measure unit="leaf" type="blank">0.0</measure> blank, in <measure unit="quire">13.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.7</height>
                               <width unit="cm">18.5</width>
@@ -124,7 +122,7 @@ Quires I-II were most probably added to the Ms. later (possibly taken out of oth
 Text I is incomplete.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>135</height>
                               <width>150</width>
@@ -137,30 +135,35 @@ Text I is incomplete.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 17r.</ab>
+                           <note>All data are for fol. 17r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible (s. fol. 13r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 64r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible (s. fols. 61v-62r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 17th - first half of the 18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ or ካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ or ሕ፡ or ሕዝ፡ for ይበል፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -174,22 +177,19 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 1ra-vb: Protective prayer (?).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 1ra-vb: Protective prayer (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Gǝʿǝz, with admixture of Amharic words. Very crudely written, but containing rubricated elements. The text aims at preventing wild beasts from inflicting damage to the property of a certain Wäldä Śǝllase (possibly identical with one of the persons mentioned in the supplication formulas.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">Fol. 12ra-rb: Donation note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fols. 12ra-rb:</span><span style="font-size: medium;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4704;&#4726; </span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">[sic]</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4757;&#4629;&#4709;&#4961; &#4808;&#4616;<span style="font-size: small;"><span style="font-family: Arial;">&lt;&#8230;&gt; </span></span>&#4845;&#4789;&#4755;&#4961; &#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4961; &#4969;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4683;&#4961; &#4616;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; </span></span><span style="font-size: medium;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">[fol. 12rb]</span></span></span><span style="font-size: medium;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"> &#4971;&#4987;&#4978;&#4808;&#4976;&#4962;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 12ra-rb: This is the book that was donated to Michael N&#477;&#7717;b by W&#228;l&#228;[tt&#228;] ... so that it might be for her the salvation of her soul and body. Do not forget, each one (of you recite for me) the Paternoster. Anyone who stole it or erased (what is written in it) shall be excommunicated by the word of the 318 (Orthodox Fathers of Nicaea).</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">Fol. 12ra-rb: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;">Fols. 12ra-rb:</span><span style="font-size: medium;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4704;&#4726; </span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">[sic]</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4757;&#4629;&#4709;&#4961; &#4808;&#4616;<span style="font-size: small;"><span style="font-family: Arial;">&lt;&#8230;&gt; </span></span>&#4845;&#4789;&#4755;&#4961; &#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4961; &#4969;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4683;&#4961; &#4616;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; </span></span><span style="font-size: medium;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">[fol. 12rb]</span></span></span><span style="font-size: medium;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"> &#4971;&#4987;&#4978;&#4808;&#4976;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 12ra-rb: This is the book that was donated to Michael N&#477;&#7717;b by W&#228;l&#228;[tt&#228;] ... so that it might be for her the salvation of her soul and body. Do not forget, each one (of you recite for me) the Paternoster. Anyone who stole it or erased (what is written in it) shall be excommunicated by the word of the 318 (Orthodox Fathers of Nicaea).</span></span></p></q>
+                           <p>Crudely written. The donor’s name has been partially erased.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="DE" unicode="" arial="" style="line-height: 115%;">Fol. 125rb: Ownership note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 125rb:</span>&#160;<span style="font-size: medium;"><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span style="font-size: small;"><span style="font-family: Arial;"><span lang="DE" style="line-height: 115%;">{</span></span></span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4824;&#4768;&#4705;&#4752;&#4961;</span><span style="font-family: Arial;"><span style="font-size: small;"><span lang="DE" style="line-height: 115%;">}</span><span lang="DE" style="line-height: 115%;"> &lt;&#8230;&gt; </span></span></span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4824;&#4768;&#4901;&#4648;&#4846;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4704;&#4757;&#4811;&#4841;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4845;&#4777;&#4758;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4616;&#4632;&#4853;&#4736;&#4754;&#4720;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4752;&#4941;&#4661;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4808;&#4645;&#4875;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4824;&#4640;&#4648;&#4678;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4813;&#4873;&#4824;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4616;&#4845;&#4777;&#4757;&#4962;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 125rb: This book belongs to </span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#704;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">abun&#228; &#8230; who acquired it with his own money. May it be for him the salvation of soul and body. He who steals it or erases (its text) shall be excommunicated.</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span lang="DE" unicode="" arial="" style="line-height: 115%;">Fol. 125rb: Ownership note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 125rb:</span>&#160;<span style="font-size: medium;"><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span style="font-size: small;"><span style="font-family: Arial;"><span lang="DE" style="line-height: 115%;">{</span></span></span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4824;&#4768;&#4705;&#4752;&#4961;</span><span style="font-family: Arial;"><span style="font-size: small;"><span lang="DE" style="line-height: 115%;">}</span><span lang="DE" style="line-height: 115%;"> &lt;&#8230;&gt; </span></span></span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4824;&#4768;&#4901;&#4648;&#4846;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4704;&#4757;&#4811;&#4841;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4845;&#4777;&#4758;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4616;&#4632;&#4853;&#4736;&#4754;&#4720;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4752;&#4941;&#4661;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4808;&#4645;&#4875;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4824;&#4640;&#4648;&#4678;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4813;&#4873;&#4824;&#4961;</span><span lang="DE" style="line-height: 115%; font-family: Nyala;"> </span><span lang="DE" style="line-height: 115%; font-family: Nyala;">&#4616;&#4845;&#4777;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 125rb: This book belongs to </span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#704;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">abun&#228; &#8230; who acquired it with his own money. May it be for him the salvation of soul and body. He who steals it or erases (its text) shall be excommunicated.</span></span></p></q>
+                           <p>The  owner’s name has been erased and replaced with another name written in red ink, which has later also been erased and replaced with the name of Wälättä Mäsqäl (possibly a later owner of the Ms.). The words ለገብርከ፡ ገብረ፡ ድንግል፡ “to Your servant Gäbrä Dǝngǝl”, of unclear connection with the text of the note, are added to the right.</p>
                         </item>
                         <item xml:id="e1">- Crude notes and pen trails: fol. 1v (letters written upside down), 2r, 27r, 27v, 28v, 31r, 51r, 90v, 114v, 115v, 125v, etc.&#xD;
 - The beginning of Śǝrʿatä qǝddase “Ordinary of the Mass” is crudely written out by two different hands: fol. 125va-vb.&#xD;
@@ -211,7 +211,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0113NÓ&#x99;á¸¥biQÓ&#x99;ddusMikaË&#x80;el">NÓ&#x99;á¸¥bi QÓ&#x99;ddus MikaË&#x80;el / NSM</placeName>
+                        <placeName corresp="INS0113NSM">NÓ&#x99;á¸¥bi QÓ&#x99;ddus MikaË&#x80;el / NSM</placeName>
                      </origPlace>
                      <origDate notBefore="1682" notAfter="1755">King ʾIyasu (I, r. 1682-1706, or II, r. 1723-1755?) is mentioned on fol. 44ra and elsewhere.</origDate>
                   </origin>
@@ -254,10 +254,6 @@ The supplication formulas mention Wäldä Śǝllase, Wälättä Śǝllase, Täkl
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -278,7 +274,7 @@ The supplication formulas mention Wäldä Śǝllase, Wälättä Śǝllase, Täkl
          <change who="DN" when="2010-11-25">registered</change>
          <change who="IF" when="2012-08-14T12:13:40.719Z">created</change>
          <change who="DN" when="2015-05-27T15:54:53.697Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

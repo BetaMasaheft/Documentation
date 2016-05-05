@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0212Ë&#x80;Endaá¸¤awaryatá¹&#x96;eá¹­roswÃ¤-á¹&#x96;awlos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0212EHPP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>EHPP-012</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; headings of the Gospels; the word məʿəraf, chapter numbers and the signs between them; usually, two lines on the incipit of each chapter; elements of the punctuation signs; Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; headings of the Gospels; the word mәʿәraf, chapter numbers and the signs between them; usually, two lines on the incipit of each chapter; elements of the punctuation signs; Ethiopic numerals.&#xD;
 Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits of the Evangelists' biographies; on the incipit pages of Text I, II, III, IV, IV, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -52,9 +52,7 @@ Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">137.0</measure> folios,
-                                                in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">137.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">32.0</height>
                               <width unit="cm">24.0</width>
@@ -126,7 +124,7 @@ Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>230</height>
                               <width>185</width>
@@ -139,61 +137,55 @@ Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits
                               <dim type="left">15</dim>
                               <dim type="intercolumn">11</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 100r.</ab>
+                           <note>All data for fol. 100r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
-                        <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of 19th century</date>
+                        <seg type="ink">Black; red.</seg>The hand seems to be the same as that of Dәrsanä Mikaʾel manuscripts of May ʾAbʾa Maryam (BQM-009) and Golʿa Yoḥannәs (BGY-013), cp. also AMM-007.<date>Second half of 19th century</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 11rb: Record concerning a reconciliation after litigation over land.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 11rb: Record concerning a reconciliation after litigation over land.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic, written in 1928 A.M. (= 1935/1936 A.D.).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 61va: Record concerning a reconciliation.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 61va: Record concerning a reconciliation.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic, written in the month of Naḥase 1921 A.M. (= 1929 A.D.); mentioning ras Gugsa.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#">Fol. 85va-vb: Record concerning decisions about tribute.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 85va-vb: Record concerning decisions about tribute.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic, written in the month of Ṭәrr 1930 A.M. (= 1937 A.D.); unreadable stamp.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#">Fol. 114ra: Record concerning a contract.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 114ra: Record concerning a contract.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic; written in Gәnbot 1936 A.M. (= 1944 AD).</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#">Fol. 137rb: Record concerning a decision made by the elders of the community.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 137rb: Record concerning a decision made by the elders of the community.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic; written in Ḥamle 1915 A.M. (= 1923 AD).</p>
                         </item>
                         <item xml:id="e1">- Fol. 8v: Crude note.&#xD;
 - Fol. 85v: Unclear stamp.</item>
@@ -215,7 +207,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0212Ë&#x80;Endaá¸¤awaryatá¹&#x96;eá¹­roswÃ¤-á¹&#x96;awlos">Ë&#x80;Enda á¸¤awaryat á¹&#x96;eá¹­ros wÃ¤-á¹&#x96;awlos / EHPP</placeName>
+                        <placeName corresp="INS0212EHPP">Ë&#x80;Enda á¸¤awaryat á¹&#x96;eá¹­ros wÃ¤-á¹&#x96;awlos / EHPP</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent.</origDate>
                   </origin>
@@ -257,10 +249,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -281,7 +269,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-11-23">registered</change>
          <change who="SA" when="2012-03-29T09:29:45.047Z">created</change>
          <change who="VP" when="2014-09-23T17:10:33.624Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

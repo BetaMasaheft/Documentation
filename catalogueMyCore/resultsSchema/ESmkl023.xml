@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0123LäqayKidanäMəḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0123MKL"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MKL-023</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">34.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">34.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">12.5</height>
                               <width unit="cm">12.5</width>
@@ -75,7 +73,7 @@ Fols. 33 and 34 are detached from the textblock and misplaced. &#xD;
 Fols. 1 and 2 (one bifolia) are of different size and may originate from a different codex.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>85</height>
                               <width>80</width>
@@ -88,27 +86,27 @@ Fols. 1 and 2 (one bifolia) are of different size and may originate from a diffe
                               <dim type="left">6</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 10r.</ab>
+                           <note>All data are for fol. 10r.</note>
                            <ab type="ruling">Number differs: from 15 (fol. 24r) to to 17 (fol. 12r).</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid-18th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -120,16 +118,14 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 9pt"><span style="line-height: 115%; font-size: 9pt">Fol. 1va: Unidentified text (on the Baptism of Christ in the Jordan River). <br /> <br /> </span><br /> </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 9pt"><span style="line-height: 115%; font-size: 9pt">Fol. 1va: Unidentified text (on the Baptism of Christ in the Jordan River). <br /> <br /> </span><br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written on a bifolia probably originating from a different codex.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 9pt">Fol. 2ra-b: Unidentified text (fragment from a lectionary?).</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="line-height: 115%; font-size: 9pt">Fol. 2ra-b: Unidentified text (fragment from a lectionary?).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written on a bifolia probably originating from a different codex.</p>
                         </item>
                         <item xml:id="e1">- A few corrections written over erasures: e.g., fols. 4ra, 5ra, 9rb.&#xD;
 - Erasures marked with thin parallel lines: e.g., fols. 3vb, 4rb, 12ra; without marking (by secondary hand?): e.g., fols. 6ra, 10vb, 11va, 20va.&#xD;
@@ -153,7 +149,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0123LäqayKidanäMəḥrät">Läqay Kidanä Məḥrät / MKL</placeName>
+                        <placeName corresp="INS0123MKL">Läqay Kidanä Mәḥrät / MKL</placeName>
                      </origPlace>
                      <origDate notBefore="1730" notAfter="1780">Around mid-18th cent. (?)</origDate>
                   </origin>
@@ -195,10 +191,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -219,7 +211,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-06">registered</change>
          <change who="SH" when="2013-06-11T12:40:14.647Z">created</change>
          <change who="DN" when="2014-11-28T17:12:33.762Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

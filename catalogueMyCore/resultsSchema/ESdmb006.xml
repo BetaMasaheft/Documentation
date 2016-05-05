@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0131BäʿattiQəddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0131DMB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMB-006</idno>
                </msIdentifier>
                <msContents>
@@ -45,7 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <note/>
                   </msItem>
                   <msItem xml:id="coloph1">
-                     <colophon><span style="line-height: 115%">Fol. 149rb:</span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4925;&#4626;&#4936;&#4961; &#4632;&#4925;&#4624;&#4942;&#4633;&#4961; &#4616;&#4978;&#4808;&#4970;&#4768;&#4653;&#4853;&#4773;&#4725;&#4961; &#4768;&#4752;&#4961; &#4739;&#4901;&#4773;&#4961; &#4808;&#4874;&#4873;&#4845;&#4961; &#4808;&#4621;&#4848;&#4961; &#4645;&#4619;&#4660;&#4961;&#4961;</span></span>The colophon mentions Wäldä Śǝllase as the scribe only for Text I.</colophon>
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small"><span style="line-height: 115%">Fol. 149rb:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4925;&#4626;&#4936;&#4961; &#4632;&#4925;&#4624;&#4942;&#4633;&#4961; &#4616;&#4978;&#4808;&#4970;&#4768;&#4653;&#4853;&#4773;&#4725;&#4961; &#4768;&#4752;&#4961; &#4739;&#4901;&#4773;&#4961; &#4808;&#4874;&#4873;&#4845;&#4961; &#4808;&#4621;&#4848;&#4961; &#4645;&#4619;&#4660;&#4961;&#4961;</span></span></p><foreign xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 149rb: May praise be to God who made me</span><span style="line-height: 115%"> </span><span style="line-height: 115%">finish the </span></span><span style="font-size: small"><span style="line-height: 115%">writing of the Book of the 12 Disciples. </span></span><span style="font-size: small"><span style="line-height: 115%"><span style="font-size: small"><span style="line-height: 115%">I am sinner and wicked </span><span style="line-height: 115%">W&#228;ld&#228; &#346;&#601;llase.</span></span> </span></span></p></foreign>
+                        <note>The colophon mentions Wäldä Śǝllase as the scribe only for Text I.</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -54,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">149.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">149.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">19.5</width>
@@ -139,7 +140,7 @@ Many fols. are stained with wax and dirt.&#xD;
 The codex is affected by water and humidity (esp. fols.128-149).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>155</height>
                               <width>76</width>
@@ -152,28 +153,40 @@ The codex is affected by water and humidity (esp. fols.128-149).</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">For Text I, all data for fol. 4r.</ab>
+                           <note>For Text I, all data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine, slightly irregular.   Hand b: mediocre.</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Hand a: 18th century(?) Hand b: 19th century(?)</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Śǝllase</persName>Wäldä Śǝllase is mentioned as the scribe only for Text II in fol. 128vb and the colophon.<date>Hand a: 18th century(?) Hand b: 19th century(?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (e.g., fols. 16ra, 18vb, 20va)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 40ra, 43va, 70va)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 43vb, 44ra, 53vb)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ </expan> (e.g., fols. 38vb, 39ra)</item>
+                           <item>
+                              <abbr>አ</abbr> for <expan>አሜን </expan> (e.g., fols. 110ra, 111rb, 112rb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3ra-127vb; the quality of handwriting changes (e.g., fol. 114r).</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 128ra-149rb; the handwriting appears uneven with broadly spaced and right-sloping letters. The scribe sometimes disregards the ruling line (e.g., 146v).</handNote>
@@ -196,7 +209,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0131BäʿattiQəddusMikaʾel">Bäʿatti Qəddus Mikaʾel  / DMB</placeName>
+                        <placeName corresp="INS0131DMB">Bäʿatti Qәddus Mikaʾel  / DMB</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">Quires XVI-XIX are of more recent time, dating probably to the 19th cent.</origDate>
                   </origin>
@@ -238,8 +251,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Śǝllase</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -262,7 +274,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-10">registered</change>
          <change who="AA" when="2013-08-28T14:31:40.677Z">created</change>
          <change who="MK" when="2015-06-02T15:21:02.897Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

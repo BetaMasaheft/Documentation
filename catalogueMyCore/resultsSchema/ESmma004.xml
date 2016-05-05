@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0135MÃ¤Ë&#x81;agoDÃ¤brÃ¤MÃ¤dá¸¥anitË&#x80;AmanuË&#x80;el"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0135MMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MMA-004</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ The names of the donors are rubricated in vivid crimson.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">80.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
-                                                <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">80.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">11.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">19.5</height>
                               <width unit="cm">15.5</width>
@@ -104,7 +102,7 @@ The sewing on the second pair of sewing stations is partly missing. &#xD;
 A hole is carefully amended in fol. 43.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>136</height>
                               <width>133</width>
@@ -117,29 +115,29 @@ A hole is carefully amended in fol. 43.</condition>
                               <dim type="left">7</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular, careful.</ab>
                         <seg type="ink">Black, red (strong red, vivid crimson)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th cent. (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -147,10 +145,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 79vb:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4824;&#4808;&#4608;&#4710;&#4961;</span><span style="line-height: 115%"> &#4616;&#4723;&#4710;&#4720;&#4961; </span><span style="line-height: 115%">&#4874;&#4846;&#4653;&#4874;&#4661;&#4961; </span><span style="line-height: 115%">&#4776;&#4632;&#4961;</span><span style="line-height: 115%"> &#4845;&#4777;&#4758;</span><span style="line-height: 115%">&#4961; </span><span style="line-height: 115%">&#4632;&#4653;&#4608;&#4961; </span><span style="line-height: 115%">&#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; </span><span style="line-height: 115%">&#4656;&#4635;&#4843;&#4725;&#4968; </span><span style="line-height: 115%">&#4704;&#4824;&#4632;&#4752;&#4961; </span><span style="line-height: 115%">&#4658;&#4632;&#4721;&#4961; </span><span style="line-height: 115%">&#4616;&#4720;&#4661;&#4939;&#4961; </span><span style="line-height: 115%">&#4634;&#4779;&#4779;&#4772;&#4621;</span><span style="font-size: small"><span style="line-height: 115%">[sic]</span></span><span style="line-height: 115%">&#4961; </span><span style="line-height: 115%">&#4616;&#4819;&#4616;&#4632;&#4961; </span><span style="line-height: 115%">&#4819;&#4616;&#4637;&#4962;</span><span style="line-height: 115%"> &#4768;&#4636;&#4757;&#4968;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small"><span style="line-height: 115%">Fol. 79vb: </span><span style="line-height: 115%">Who who donated it to the church of St. George so that it might be his guide to the Kingdom of Heaven. During the time of T&#228;sfa Mika</span><span style="line-height: 115%">&#704;</span><span style="line-height: 115%">el&#8217;s office. </span></span></q>
-                           <p/>
+                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 79vb: Donation note. </span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 79vb:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4824;&#4808;&#4608;&#4710;&#4961;</span><span style="line-height: 115%"> &#4616;&#4723;&#4710;&#4720;&#4961; </span><span style="line-height: 115%">&#4874;&#4846;&#4653;&#4874;&#4661;&#4961; </span><span style="line-height: 115%">&#4776;&#4632;&#4961;</span><span style="line-height: 115%"> &#4845;&#4777;&#4758;</span><span style="line-height: 115%">&#4961; </span><span style="line-height: 115%">&#4632;&#4653;&#4608;&#4961; </span><span style="line-height: 115%">&#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; </span><span style="line-height: 115%">&#4656;&#4635;&#4843;&#4725;&#4968; </span><span style="line-height: 115%">&#4704;&#4824;&#4632;&#4752;&#4961; </span><span style="line-height: 115%">&#4658;&#4632;&#4721;&#4961; </span><span style="line-height: 115%">&#4616;&#4720;&#4661;&#4939;&#4961; </span><span style="line-height: 115%">&#4634;&#4779;&#4779;&#4772;&#4621;</span><span style="font-size: small"><span style="line-height: 115%">[sic]</span></span><span style="line-height: 115%">&#4961; </span><span style="line-height: 115%">&#4616;&#4819;&#4616;&#4632;&#4961; </span><span style="line-height: 115%">&#4819;&#4616;&#4637;&#4962;</span><span style="line-height: 115%"> &#4768;&#4636;&#4757;&#4968;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 79vb: </span><span style="line-height: 115%">Who who donated it to the church of St. George so that it might be his guide to the Kingdom of Heaven. During the time of T&#228;sfa Mika</span><span style="line-height: 115%">&#704;</span><span style="line-height: 115%">el&#8217;s office. </span></span></p></q>
+                           <p>The donor is not mentioned, but it appears that the note refers to the name Wäldä Śǝllase mentioned in the concluding supplication. Besides, the note mentions Täsfa Mikaʾel, the head of St. George’s church. It is written in a secondary hand, the same which inserted the names of the donors in the supplication formulas.</p>
                         </item>
                         <item xml:id="e1">- Writing exercises, doodles: the front board, 2r, 66r, 67r, 79v, 80v.</item>
                      </list>
@@ -170,7 +167,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0135MÃ¤Ë&#x81;agoDÃ¤brÃ¤MÃ¤dá¸¥anitË&#x80;AmanuË&#x80;el">MÃ¤Ë&#x81;ago DÃ¤brÃ¤ MÃ¤dá¸¥anit Ë&#x80;AmanuË&#x80;el/ MMA</placeName>
+                        <placeName corresp="INS0135MMA">MÃ¤Ë&#x81;ago DÃ¤brÃ¤ MÃ¤dá¸¥anit Ë&#x80;AmanuË&#x80;el/ MMA</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1750">First half of the 18th cent. (?)</origDate>
                   </origin>
@@ -212,10 +209,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -238,7 +231,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-06-12">registered</change>
          <change who="MK" when="2012-09-10T13:29:22.397Z">created</change>
          <change who="DN" when="2014-09-07T11:40:24.997Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

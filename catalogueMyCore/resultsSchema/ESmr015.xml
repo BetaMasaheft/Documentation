@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0042MədräRuba"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0042MR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MR-015</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">73.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">73.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.5</height>
                               <width unit="cm">18.5</width>
@@ -94,7 +92,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>170</height>
                               <width>160</width>
@@ -107,37 +105,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 8r.</ab>
+                           <note>All data are for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th - early 20th century</date>
+                        <persName role="scribe" corresp="PRS00000">Täwäldä Ḥǝḍan and Gäbrä Śǝllase</persName>The scribe ʾaläqa Täwäldä Ḥǝḍan is mentioned in Additio 1 (the note adds also what can be his baptismal or his father's name Gäbrä Śǝllase).<date>Late 19th - early 20th century</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00">Fols. 70rb-va, 72rb: Note on commissioning of the writing, extended by the list of the commissioner's family members (?).</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fols. 70rb-va, 72rb: Note on commissioning of the writing, extended by the list of the commissioner's family members (?).</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions the commissioner, “the governor of Tǝgray” (tǝgre mäkwänni) Ḥagwäs (däğğazmač Ḥagwäs Täfäri), whose baptismal name is Zä-Wäldä Maryam.</p>
                         </item>
                         <item xml:id="e1">- Chains of black and red dots in some fols.</item>
                      </list>
@@ -159,7 +156,7 @@ Two pairs of chains of endband stitches through the spine cover.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MədräRuba">Mədrä Ruba /MR</placeName>
+                        <placeName corresp="INS0042MR">Mәdrä Ruba /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1870" notAfter="1920">Late 19th - early 20th century</origDate>
                   </origin>
@@ -201,8 +198,7 @@ Two pairs of chains of endband stitches through the spine cover.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Täwäldä Ḥǝḍan and Gäbrä Śǝllase</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -225,7 +221,7 @@ Two pairs of chains of endband stitches through the spine cover.</decoNote>
          <change who="DN" when="2010-05-11">registered</change>
          <change who="SA" when="2010-10-21T15:08:34.894Z">created</change>
          <change who="DN" when="2014-12-13T13:34:06.944Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

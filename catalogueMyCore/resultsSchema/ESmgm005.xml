@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0216MGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MGM-005</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page for each month (fols. 1r, 31v, 54r, 82r, 115v, 153v) a few l
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">179.0</measure> folios,
-                                                in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">179.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">33.6</height>
                               <width unit="cm">26.0</width>
@@ -144,7 +142,7 @@ The outer edge of some fols. is damaged (esp. fols. 1-4).&#xD;
 Tears carefully amended on fols. 8, 48, 69, 88, 128.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="42">
                            <dimensions unit="mm">
                               <height>268</height>
                               <width>223</width>
@@ -157,37 +155,36 @@ Tears carefully amended on fols. 8, 48, 69, 88, 128.</condition>
                               <dim type="left">8</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 117r.</ab>
+                           <note>All data for fol. 117r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 On many fols., the scribe does not follow the ruling (e.g., 165v, 169v).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 178vb-vc: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 178vb: </span><span style="font-size: large;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#4961; &#4635;&#4613;&#4620;&#4720;&#4961; &#4768;&#4824;&#4778;&#4653;&#4840;</span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span>&#8230;</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 178vb-vc: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 178vb: </span><span style="font-size: large;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#4961; &#4635;&#4613;&#4620;&#4720;&#4961; &#4768;&#4824;&#4778;&#4653;&#4840;</span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span>&#8230;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -211,7 +208,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
+                        <placeName corresp="INS0216MGM">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -253,10 +250,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -277,7 +270,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2012-05-19">registered</change>
          <change who="SA" when="2014-08-28T09:01:49.779Z">created</change>
          <change who="MV" when="2015-01-29T10:40:28.447Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

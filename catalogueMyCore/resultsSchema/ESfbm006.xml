@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0071FäqadaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0071FBM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>FBM-006</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; the name of King Mənilək II; a few lines in the incipit page, alternating with black lines; two initial lines of each section of the text; the quire mark in fol. 19r;  initial syllable of abbreviations (e.g., fols. 14ra, 15ra, 16ra); elements of the punctuation signs; Ethiopic numerals or their elements; some other words, e.g., wä-ʾǝmzǝ (fol. 16rb), qǝdmä (e.g., fols. 28ra, 42ra, 44va), kalǝʿ (fol. 47rb), dǝḫrä (e.g., fols. 63ra, 67rb, 70rb), sälam (fol. 76rb).</rubric>
+                     <rubric>Nomina sacra; the name of King Mәnilәk II; a few lines in the incipit page, alternating with black lines; two initial lines of each section of the text; the quire mark in fol. 19r;  initial syllable of abbreviations (e.g., fols. 14ra, 15ra, 16ra); elements of the punctuation signs; Ethiopic numerals or their elements; some other words, e.g., wä-ʾǝmzǝ (fol. 16rb), qǝdmä (e.g., fols. 28ra, 42ra, 44va), kalǝʿ (fol. 47rb), dǝḫrä (e.g., fols. 63ra, 67rb, 70rb), sälam (fol. 76rb).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">114.0</measure> folios,
-                                                in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">114.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.5</height>
                               <width unit="cm">21.5</width>
@@ -119,7 +117,7 @@ Fols. 14, 15, 21, 45, 46, 47, 52, 53, 91 are of smaller size.&#xD;
 Fol. 44 is mutilated.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>172</height>
                               <width>75</width>
@@ -132,43 +130,58 @@ Fol. 44 is mutilated.</condition>
                               <dim type="left">13</dim>
                               <dim type="intercolumn">18</dim>
                            </dimensions>
-                           <ab type="ruling">all data for fol. 4r</ab>
+                           <note>all data for fol. 4r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The bottom ruled line was not used by the scribe on fols. 7v, 8r, 9v.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>End of 19th and beginning of 20th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 14ra, 15rb, 49ra)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 14ra, 15ra, 16ra)</item>
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (e.g., fols. 15rb, 16ra, 30vb)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ በአፈ፡ </expan> (e.g., fols. 35vb, 36ra, 48rb)</item>
+                           <item>
+                              <abbr>ገብ፡ እገ፡</abbr> for <expan>ገብርከ፡ እገሌ፡ </expan> (e.g., fols. 17ra, 36vb, 45ra)</item>
+                           <item>
+                              <abbr>ተዘ፡ እ፡</abbr> for <expan>ተዘከር፡ እግዚኦ፡ </expan> (fols. 42vb, 43ra)</item>
+                           <item>
+                              <abbr>ወለ፡ ዓ፡ አ፡</abbr> for <expan>ወለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 45ra, 48vb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 113v: Ownership note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 113v:</span></span></span><span style="font-size:14.0pt;&#10;line-height:115%;Arial Unicode MS"><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4877;&#4757;</span><span style="line-height: 115%;">&#4824;</span><span style="line-height: 115%;">&#4725; &#4824;&#4848;&#4709;&#4648; &#4635;&#4653;&#4843;&#4637; </span><span style="line-height: 115%;">&#8230;</span></span><br /> </span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 113v:</span><span style="line-height: 115%;"> [This book of] funeral ritual is of D&#228;br&#228; Maryam ...</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;">Fol. 113v: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 113v:</span></span></span><span style="font-size:14.0pt;&#10;line-height:115%;Arial Unicode MS"><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4877;&#4757;</span><span style="line-height: 115%;">&#4824;</span><span style="line-height: 115%;">&#4725; &#4824;&#4848;&#4709;&#4648; &#4635;&#4653;&#4843;&#4637; </span><span style="line-height: 115%;">&#8230;</span></span><br /> </span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 113v:</span><span style="line-height: 115%;"> [This book of] funeral ritual is of D&#228;br&#228; Maryam ...</span></span></p></q>
+                           <p>A crude note by pen.</p>
                         </item>
                         <item xml:id="e1">- The scribe used compressed script on fols. 16rb, 41ra-42ra, 44rb, 61va-62va, 66rb-66vb, 67va, 68rb-68vb, 73rb-75rb, 75va, 77ra, 99vb, 102va, 103v.&#xD;
 - Crude note of the Gospel of John and the image of St. Mary, on fol. 2r.&#xD;
-- Notes in the upper margins, written in Gəʿəz and Amharic, referring to the content of the Ms. or providing directives: fols. 5r, 7r, 13v, 15v, 22r, 29v, 36v, 45r, 46v, 48r, 56r, 67v, 71r, 74v, 78r, 80v, 82r, 85r, 100r, 104r, 105r, 107r, 105v, 111r.&#xD;
+- Notes in the upper margins, written in Gәʿәz and Amharic, referring to the content of the Ms. or providing directives: fols. 5r, 7r, 13v, 15v, 22r, 29v, 36v, 45r, 46v, 48r, 56r, 67v, 71r, 74v, 78r, 80v, 82r, 85r, 100r, 104r, 105r, 107r, 105v, 111r.&#xD;
 - Minor notes in the margins: fols. 16r, 69v.&#xD;
 - Corrections written interlineally: fols. 5va, 6vb, 7rb, 28r, 61ra, 70rb, 102rb, 106ra.&#xD;
 - Tämälläs-sign indicating the place where the omission, written in the margin, belongs, in fol. 17va.&#xD;
@@ -191,9 +204,9 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0071FäqadaMaryam">Fäqada Maryam / FBM</placeName>
+                        <placeName corresp="INS0071FBM">Fäqada Maryam / FBM</placeName>
                      </origPlace>
-                     <origDate notBefore="1889" notAfter="1913">The name of King Mənilək II (r. 1889-1913) is mentioned in the supplication formulas (fols. 43ra, 45va).</origDate>
+                     <origDate notBefore="1889" notAfter="1913">The name of King Mәnilәk II (r. 1889-1913) is mentioned in the supplication formulas (fols. 43ra, 45va).</origDate>
                   </origin>
                </history>
                <additional>
@@ -233,10 +246,6 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -257,7 +266,7 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
          <change who="DN" when="2010-05-21">registered</change>
          <change who="AA" when="2013-08-15T10:04:10.597Z">created</change>
          <change who="AA" when="2014-03-26T12:09:12.579Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

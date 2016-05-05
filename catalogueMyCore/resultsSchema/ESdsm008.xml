@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣalotä ʿǝṭan “Prayer of Incense”</title>
+            <title>Ṣalotä ˤǝṭan “Prayer of Incense”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0165DäbräSahəlQəddusMikaʾelBetMäḵaʿ"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0165DSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DSM-008</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fol. 3r) a few lines are rubricated (alternating 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">66.0</measure> folios,
-                                                in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">66.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">15.5</height>
                               <width unit="cm">11.0</width>
@@ -99,7 +97,7 @@ Fols. 48-66 are damaged by rodents.&#xD;
 A tear is carefully amended in fol. 1.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="15">
                            <dimensions unit="mm">
                               <height>110</height>
                               <width>85</width>
@@ -112,45 +110,43 @@ A tear is carefully amended in fol. 1.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">5</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written below the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, but careful.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00">Fols. 1va-2vb: T&#228;&#704;amr&#228; &#704;Iy&#228;sus &#8220;Miracles of Jesus&#8221;: 1 miracles.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fols. 1va-2vb: T&#228;&#704;amr&#228; &#704;Iy&#228;sus &#8220;Miracles of Jesus&#8221;: 1 miracles.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 66vb: Purchase note.</locus>
-                           <q xml:lang="gez">Fol. 66vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">[</span></span>&#4643;</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">]</span></span>&#4840;&#4902;&#4961; &#4704;&#4978;&#4669;&#4621;&#4757;&#4877;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4757;&#4873;</span>&lt;<span style="font-size: large;">&#4645;&#4961; &#4739;</span>&gt;<span style="font-size: large;">&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4632;&#4661;&#4941;&#4757;&#4961; &#4651;&#4661;&#4961; &#4645;&#4841;</span>&lt;<span style="font-size: large;">&#4637;&#4961;</span>&gt; <span style="font-size: large;">&#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4707;&#4661;&#4621;&#4846;</span>&lt;<span style="font-size: large;">&#4661;&#4961;</span>&gt; <span style="font-size: large;">&#4981;</span>&lt;&#8230;&gt; <span style="font-size: large;">&#4840;&#4779;&#4722;&#4725;&#4961;</span> &lt;&#8230;&gt; <span style="font-size: large;">&#4768;&#4616;&#4675;&#4961; &#4648;&#4851;&#4961; </span>&lt;&#8230;&gt;</q>
+                           <locus/><p>Fol. 66vb: Purchase note.</p><q xml:lang="gez"><p>Fol. 66vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">[</span></span>&#4643;</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">]</span></span>&#4840;&#4902;&#4961; &#4704;&#4978;&#4669;&#4621;&#4757;&#4877;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4757;&#4873;</span>&lt;<span style="font-size: large;">&#4645;&#4961; &#4739;</span>&gt;<span style="font-size: large;">&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4632;&#4661;&#4941;&#4757;&#4961; &#4651;&#4661;&#4961; &#4645;&#4841;</span>&lt;<span style="font-size: large;">&#4637;&#4961;</span>&gt; <span style="font-size: large;">&#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4707;&#4661;&#4621;&#4846;</span>&lt;<span style="font-size: large;">&#4661;&#4961;</span>&gt; <span style="font-size: large;">&#4981;</span>&lt;&#8230;&gt; <span style="font-size: large;">&#4840;&#4779;&#4722;&#4725;&#4961;</span> &lt;&#8230;&gt; <span style="font-size: large;">&#4768;&#4616;&#4675;&#4961; &#4648;&#4851;&#4961; </span>&lt;&#8230;&gt;</p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Some words of the note have been erased. The note mentions that the Ms. was bought for 10 shillings (šәlәng) during the time of King Ḫaylä Śәllase I (1930-74), Metropolitan Basәlyos (in tenure in 1948-70) and ras Śәyyum Mängäša, (governor of Tәgray in 1947-60).</p>
                         </item>
                         <item xml:id="e1">- Crude notes written in pen: fols. 1r, 47v.&#xD;
 - Crude note written in pen in the upper margin: fols. 63v-64r, 65v-66r.</item>
@@ -171,9 +167,9 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0165DäbräSahəlQəddusMikaʾelBetMäḵaʿ">Däbrä Sahəl Qəddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
+                        <placeName corresp="INS0165DSM">Däbrä Sahәl Qәddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
                      </origPlace>
-                     <origDate notBefore="1800" notAfter="1900">19th cent. (?). Additio 2 mentions that the Ms. was bought during the time of King Ḫaylä Śəllase I (1930-74), Metropolitan Basəlyos (in tenure in 1948-70) and ras Śəyyum Mängäša, (governor of Təgray in 1947-60).</origDate>
+                     <origDate notBefore="1800" notAfter="1900">19th cent. (?). Additio 2 mentions that the Ms. was bought during the time of King Ḫaylä Śәllase I (1930-74), Metropolitan Basәlyos (in tenure in 1948-70) and ras Śәyyum Mängäša, (governor of Tәgray in 1947-60).</origDate>
                   </origin>
                </history>
                <additional>
@@ -208,13 +204,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Names of many individuals have been added in a secondary hand, in pink ink: Gäbrä Śəllase (fols. 7r, 11r, 20v, 30v, 40r), Wälättä Libanos (fols. 9r, 27v, 40r), Mäzgäbä Śəllase (fols. 12v, 53r, 61r), Wälättä Ṣadəqan (fols. 18r, 55r), ʿAmätä Śəllase (fol. 62r), Gäbrä Waḥəd (fol. 64r), ʾAmätä Krəstos (fol. 64v), Gäbrä ʾIyäsus (fol. 65r), ʾAmätä Yoḥannəs (fol. 66r).</persName>
+                  <persName corresp="PRS0000">Names of many individuals have been added in a secondary hand, in pink ink: Gäbrä Śәllase (fols. 7r, 11r, 20v, 30v, 40r), Wälättä Libanos (fols. 9r, 27v, 40r), Mäzgäbä Śәllase (fols. 12v, 53r, 61r), Wälättä Ṣadәqan (fols. 18r, 55r), ʿAmätä Śәllase (fol. 62r), Gäbrä Waḥәd (fol. 64r), ʾAmätä Krәstos (fol. 64v), Gäbrä ʾIyäsus (fol. 65r), ʾAmätä Yoḥannәs (fol. 66r).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -237,7 +229,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-14">registered</change>
          <change who="SA" when="2014-01-13T15:44:28.052Z">created</change>
          <change who="DN" when="2015-09-14T11:21:53.987Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gädlä Mäzgäbä Śəllase “Vita of Mäzgäbä Śəllase” / Mälkəʾa Mäzgäbä Śəllase “Image of Mäzgäbä Śəllase” / Sälam-hymn for Mäzgäbä Śəllase</title>
+            <title>Gädlä Mäzgäbä Śәllase “Vita of Mäzgäbä Śәllase” / Mälkәʾa Mäzgäbä Śәllase “Image of Mäzgäbä Śәllase” / Sälam-hymn for Mäzgäbä Śәllase</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0108GKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GKM-013</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ On the incipit pages of Texts I, II, III (fols. 2ra, 52rb, 54ra), a few lines ar
                            <watermark>Watermark</watermark>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">71.0</measure> folios,
-                                                in
-                                                <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">71.0</measure> folios, in <measure unit="quire">8.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">17.5</width>
@@ -100,7 +98,7 @@ On the incipit pages of Texts I, II, III (fols. 2ra, 52rb, 54ra), a few lines ar
 Cut carefully amended: fols. 5, 13, 66.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>118</height>
                               <width>120</width>
@@ -113,28 +111,31 @@ Cut carefully amended: fols. 5, 13, 66.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">18</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 8r.</ab>
+                           <note>All data for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are not visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Märḥa Ṣǝyon</persName>Märḥa Ṣǝyon is mentioned as the scribe in the concluding supplication, fol. 52ra.<date>18th century.</date>
+                        <list type="abbreviations">
+                           <item>ሰ or ሰላ for ሰላም.</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -158,7 +159,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
+                        <placeName corresp="INS0108GKM">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th century.</origDate>
                   </origin>
@@ -200,8 +201,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Märḥa Ṣǝyon</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -225,7 +225,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-04">registered</change>
          <change who="SA" when="2013-01-16T14:31:49.858Z">created</change>
          <change who="SA" when="2014-08-19T15:26:23.603Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

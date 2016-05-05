@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0039DäbräMaʿṣo"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0039MY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MY-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">144.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">144.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">21.0</width>
@@ -131,7 +129,7 @@ Fol. 13 is misplaced; it should be placed after fol. 19.</item>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="32">
                            <dimensions unit="mm">
                               <height>235</height>
                               <width>160</width>
@@ -144,21 +142,23 @@ Fol. 13 is misplaced; it should be placed after fol. 19.</item>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for the second page of the first Gospel, recto side (fol. 56r).</ab>
+                           <note>All data are for the second page of the first Gospel, recto side (fol. 56r).</note>
                            <ab type="ruling">31-32</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written below the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -168,80 +168,67 @@ The bottom line is written above the ruling.</ab>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, careful</ab>
-                        <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 14th - 15th century square script</date>
+                        <seg type="ink">Black; red.</seg>The same scribe wrote Mss. MY-001 and MY-002.<date>Late 14th - 15th century square script</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 2v: Record concerning the arrival of monk Z&#228;ban&#228; Kr&#1241;stos at D&#228;br&#228; Ma&#705;&#7779;o&#160; Yo&#7717;ann&#1241;s.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 2v: <span style="font-size: large;">&#4704;&#4773;&#4757;&#4720;&#4961;&#160;&#4941;&#4677;&#4649;&#4961;&#160;&#4616;&#4846;&#4624;&#4757;&#4661;&#4961;&#160;&#4632;&#4923;&#4773;&#4777;&#4961;&#160;&#4768;&#4752;&#4961;&#160;&#4824;&#4707;&#4752;&#4961;&#160;&#4781;&#4653;&#4661;&#4961;&#160;&#4726;&#4661;&#4961;&#160;&#4632;&#4752;&#4782;&#4661;&#4961;&#160;&#4624;&#4752;&#4961; </span>&lt;...&gt;</span><span style="font-size: large;">&#4961;&#160;&#4616;&#4708;&#4961;&#160;&#4720;&#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961;&#160;&#4770;&#4725;&#4653;&#4661;&#4817;&#4754;&#4961;&#160;&#4768;&#4705;&#4752;&#4961;&#160;&#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 2v: Record concerning the arrival of monk Z&#228;ban&#228; Kr&#1241;stos at D&#228;br&#228; Ma&#705;&#7779;o&#160; Yo&#7717;ann&#1241;s.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 2v: <span style="font-size: large;">&#4704;&#4773;&#4757;&#4720;&#4961;&#160;&#4941;&#4677;&#4649;&#4961;&#160;&#4616;&#4846;&#4624;&#4757;&#4661;&#4961;&#160;&#4632;&#4923;&#4773;&#4777;&#4961;&#160;&#4768;&#4752;&#4961;&#160;&#4824;&#4707;&#4752;&#4961;&#160;&#4781;&#4653;&#4661;&#4961;&#160;&#4726;&#4661;&#4961;&#160;&#4632;&#4752;&#4782;&#4661;&#4961;&#160;&#4624;&#4752;&#4961; </span>&lt;...&gt;</span><span style="font-size: large;">&#4961;&#160;&#4616;&#4708;&#4961;&#160;&#4720;&#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961;&#160;&#4770;&#4725;&#4653;&#4661;&#4817;&#4754;&#4961;&#160;&#4768;&#4705;&#4752;&#4961;&#160;&#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written by Zäbanä Krәstos, a 17th-century monk and scribe, lived during the time of Egyptian Patriarch Matthew and Ethiopian Metropolitan Krәstodulo (II) (in tenure 1664-71, d. 1675/76, s. EAE IV, 441b).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 3ra: Note mentioning King Z&#228;r&#704;a Ya&#705;qob, by scribe Yo&#7717;ann&#1241;s.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 3ra: Note mentioning King Z&#228;r&#704;a Ya&#705;qob, by scribe Yo&#7717;ann&#1241;s.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is the end of Additio 8. The beginning and the main body of the note is on another leaf, which was misplaced (after the conservation work, it returned on its place and is now fol. 3a).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 3rb: Note on commemoration days of some individuals.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 3rb: Note on commemoration days of some individuals.</span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small;">Fol. 3rb: </span><span style="font-size: large;">&#4704;&#4773;&#4757;&#4720;&#4961;&#160;&#4824;&#4776;&#4654;&#4633;&#4961;&#160;&#4616;&#4768;&#4704;&#4813;&#4840;&#4961; &#4704;&#4624;&#4616;&#4961;&#160;&#4634;&#4779;&#4772;&#4621;&#4961; </span><span style="font-size: large;">&#4824;&#4634;&#4779;&#4772;&#4621;&#4961;&#160;&#4616;&#4608;&#4709;&#4720;&#4961;&#160;&#4634;&#4779;&#4772;&#4621;&#4962;&#160;&#4720;&#4829;&#4779;&#4649;&#4961;&#160;&#4768;&#4632;&#4978;&#4808;&#4656;&#4753;&#4845;&#4961;&#160;&#4616;&#4608;&#4637;&#4620;&#4962;</span> <span style="font-size: large;">&#4808;&#4720;&#4781;&#4616;&#4961;&#160;&#4634;&#4779;&#4772;&#4621;&#4961;&#160;&#4808;&#4621;&#4961;&#160;&#4849;&#4961;&#160;&#4808;&#4720;&#4661;&#4939;&#4961;&#160;&#4874;&#4846;&#4653;&#4874;&#4661;&#4961;&#160;&#4776;&#4635;&#4614;&#4633;&#4961;&#160;&#4770;&#4720;&#4653;&#4661;&#4961;&#160;&#4773;&#4814;&#4633;&#4962;&#160;</span><span style="font-size: large;">&#4808;&#4624;&#4709;&#4720;&#4961;&#160;&#4770;&#4840;&#4657;&#4661;&#4754;&#4961;&#160;&#4720;&#4824;&#4776;&#4649;&#4961;&#160;&#4768;&#4632;&#4961;&#160;&#4608;&#4633;&#4657;&#4961;&#160;&#4616;&#4624;&#4637;&#4620;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the hand of Zäbanä Krәstos.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00"><span style="font-size: small;">Fols. 7v-8v, 9rb: Prayer F&#1241;t&#7717;at z&#228;-w&#228;ld "Absolution of the Son".</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fols. 7v-8v, 9rb:</span> <span style="font-size: large;">&#4941;&#4725;&#4624;&#4725;&#4961; &#4824;&#4808;&#4621;&#4853;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4774;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4853;&#4961; &#4811;&#4629;&#4853;&#4961; &#4675;&#4616;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4768;&#4709;&#4961; ...</span></q>
+                           <locus/><p><span style="font-size: small;">Fols. 7v-8v, 9rb: Prayer F&#1241;t&#7717;at z&#228;-w&#228;ld "Absolution of the Son".</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fols. 7v-8v, 9rb:</span> <span style="font-size: large;">&#4941;&#4725;&#4624;&#4725;&#4961; &#4824;&#4808;&#4621;&#4853;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4774;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4853;&#4961; &#4811;&#4629;&#4853;&#4961; &#4675;&#4616;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4768;&#4709;&#4961; ...</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the hand of Zäbanä Krәstos in the bottom margins, mentioning Egyptian Patriarch Matthew and Ethiopian Metropolitan Krәstodulo (II; 1664-71, d. 1675/76, s. EAE IV, 441b).</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 10rb: Historiographic note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 10rb: </span><span style="font-size: large;"></span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 10rb: Historiographic note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 10rb: </span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4704;&#4983;&#4987;&#4975;&#4978;&#4808;&#4974;&#4961; &#4768;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4704;&#4971;&#4987;&#4808;&#4974;&#4961; &#4768;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4632;&#4925;&#4768;&#4961; &#4653;&#4608;&#4709;&#4961; &#4616;&#4821;&#4616;&#4961; &#4789;&#4617;&#4961; &#4637;[&#4853;]&#4653;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the hand of Zäbanä Krәstos (s. Nosnitsin 2011). The note mentiones two dates. One is 6716 year of mercy, which is difficult to interpret (it might be meant "from the creation of the world", to correspond to 1224 A.D.). Another one is 316 year of mercy which corresponds to 1664 A.D. (cp. Additio 6 in Ms. UM-027).</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 10va: Note on commemoration days of &#704;&#398;ndalu and his relatives.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">10va:&#160;<span style="font-size: large;">&#4704;&#4768;&#4784;&#4724;&#4723;&#4961;&#160;&#4768;&#4709;&#4808;&#4808;&#4621;&#4853;&#4961;&#160;&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;&#160;&#4677;&#4849;&#4661;&#4961;&#160;&#4768;&#4752;&#4608;&#4709;&#4720;&#4632;&#4653;&#4843;&#4637;&#4961;&#160;&#4624;&#4901;&#4773;&#4961;&#160;&#4920;&#4736;&#4941;&#4777;&#4961;&#160;&#4616;&#4768;&#4705;&#4845;&#4962;&#160;&#4773;&#4757;&#4851;&#4617;&#4961; </span>{<span style="font-size: large;">&#4808;&#4616;&#4709;&#4773;&#4658;&#4721;&#4961;&#160;&#4828;&#4752;&#4961;&#160;&#4632;&#4653;&#4840;&#4637;&#4961;&#160;&#4720;&#4829;&#4776;&#4654;&#4633;&#4961;&#160;&#4637;&#4661;&#4616;&#4961;&#160;&#4709;&#4773;&#4658;&#4608;&#4961;&#160;&#4704;&#4768;&#4736;&#4849;&#4961;&#160;&#4821;&#4616;&#4725;</span>} </span><span style="font-size: large;">&#4720;&#4829;&#4776;&#4648;&#4961;&#160;&#4821;&#4648;&#4941;&#4721;&#4961;&#160;&#4773;&#4637;&#4979;&#4808;&#4972;&#160;&#4616;&#4632;&#4661;&#4776;&#4648;&#4637;&#4961;&#160;&#4808;&#4616;&#4824;&#4961;&#160;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4621;&#4849;&#4610;&#4961; &#4978;&#4808;&#4970;&#4961; &#4616;&#4629;&#4851;&#4653;&#4962; &#4821;&#4648;&#4941;&#4721;&#4962; &#4808;&#4616;&#4656;&#4632;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4610;&#4961; &#4979;&#4808;&#4969;&#4962; &#4616;&#4901;&#4677;&#4637;&#4725;&#4961; &#4821;&#4648;&#4941;&#4721;&#4610;&#4961; &#4808;&#4672;&#4720;&#4621;&#4814;&#4961;&#160;&#4773;&#4653;&#4709;&#4961;&#160;&#4768;&#4648;&#4821;&#4961;&#160;&#4808;&#4704;&#4920;&#4622;&#4726;&#4633;&#4961;&#160;&#4845;&#4637;&#4624;&#4648;&#4754;&#4962;&#160;&#4616;&#4736;&#4901;&#4773;&#4961;&#160;&#4608;&#4709;&#4720;&#4632;&#4653;&#4843;&#4637;&#4961;&#160;&#4616;&#4816;&#4616;&#4637;&#4961;&#160;&#4816;&#4616;&#4637;&#4961;&#160;&#4768;&#4636;&#4757;&#4962;</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 10va: Note on commemoration days of &#704;&#398;ndalu and his relatives.</span></p><q xml:lang="gez"><p><span style="font-size: small;">10va:&#160;<span style="font-size: large;">&#4704;&#4768;&#4784;&#4724;&#4723;&#4961;&#160;&#4768;&#4709;&#4808;&#4808;&#4621;&#4853;&#4961;&#160;&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;&#160;&#4677;&#4849;&#4661;&#4961;&#160;&#4768;&#4752;&#4608;&#4709;&#4720;&#4632;&#4653;&#4843;&#4637;&#4961;&#160;&#4624;&#4901;&#4773;&#4961;&#160;&#4920;&#4736;&#4941;&#4777;&#4961;&#160;&#4616;&#4768;&#4705;&#4845;&#4962;&#160;&#4773;&#4757;&#4851;&#4617;&#4961; </span>{<span style="font-size: large;">&#4808;&#4616;&#4709;&#4773;&#4658;&#4721;&#4961;&#160;&#4828;&#4752;&#4961;&#160;&#4632;&#4653;&#4840;&#4637;&#4961;&#160;&#4720;&#4829;&#4776;&#4654;&#4633;&#4961;&#160;&#4637;&#4661;&#4616;&#4961;&#160;&#4709;&#4773;&#4658;&#4608;&#4961;&#160;&#4704;&#4768;&#4736;&#4849;&#4961;&#160;&#4821;&#4616;&#4725;</span>} </span><span style="font-size: large;">&#4720;&#4829;&#4776;&#4648;&#4961;&#160;&#4821;&#4648;&#4941;&#4721;&#4961;&#160;&#4773;&#4637;&#4979;&#4808;&#4972;&#160;&#4616;&#4632;&#4661;&#4776;&#4648;&#4637;&#4961;&#160;&#4808;&#4616;&#4824;&#4961;&#160;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4621;&#4849;&#4610;&#4961; &#4978;&#4808;&#4970;&#4961; &#4616;&#4629;&#4851;&#4653;&#4962; &#4821;&#4648;&#4941;&#4721;&#4962; &#4808;&#4616;&#4656;&#4632;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4610;&#4961; &#4979;&#4808;&#4969;&#4962; &#4616;&#4901;&#4677;&#4637;&#4725;&#4961; &#4821;&#4648;&#4941;&#4721;&#4610;&#4961; &#4808;&#4672;&#4720;&#4621;&#4814;&#4961;&#160;&#4773;&#4653;&#4709;&#4961;&#160;&#4768;&#4648;&#4821;&#4961;&#160;&#4808;&#4704;&#4920;&#4622;&#4726;&#4633;&#4961;&#160;&#4845;&#4637;&#4624;&#4648;&#4754;&#4962;&#160;&#4616;&#4736;&#4901;&#4773;&#4961;&#160;&#4608;&#4709;&#4720;&#4632;&#4653;&#4843;&#4637;&#4961;&#160;&#4616;&#4816;&#4616;&#4637;&#4961;&#160;&#4816;&#4616;&#4637;&#4961;&#160;&#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written by Habtä Maryam (the hand is earlier than the hand of Zäbanä Krәstos).</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 10va-vb: Prayer, unidentified, possibly a later continuation of Additio 6.</span></locus>
-                           <q xml:lang="gez">Fol. 10va-vb: <span style="font-size: large;">&#4808;&#4821;&#4672;&#4708;&#4633;&#4961; &#4704;&#4611;&#4845;<span style="font-size: small;">{</span>&#4635;<span style="font-size: small;">}</span>&#4758;&#4725;&#4961; &#4653;&#4725;&#4821;&#4725;&#4961; &#4808;&#4843;&#4821;&#4653;&#4873;&#4961; &#4616;&#4776;&#4961; &#4661;&#4709;&#4608;&#4725;&#4961; &#4808;&#4776;&#4709;</span><span style="font-size: large;"><span style="font-size: large;">&#4653;</span>&#4961; &#4704;&#4789;&#4617;&#4961; &#4632;&#4811;&#4821;&#4616;&#4961; &#4629;&#4845;&#4808;&#4961; &#4726;&#4633;&#4961; ...</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 10va-vb: Prayer, unidentified, possibly a later continuation of Additio 6.</span></p><q xml:lang="gez"><p>Fol. 10va-vb: <span style="font-size: large;">&#4808;&#4821;&#4672;&#4708;&#4633;&#4961; &#4704;&#4611;&#4845;<span style="font-size: small;">{</span>&#4635;<span style="font-size: small;">}</span>&#4758;&#4725;&#4961; &#4653;&#4725;&#4821;&#4725;&#4961; &#4808;&#4843;&#4821;&#4653;&#4873;&#4961; &#4616;&#4776;&#4961; &#4661;&#4709;&#4608;&#4725;&#4961; &#4808;&#4776;&#4709;</span><span style="font-size: large;"><span style="font-size: large;">&#4653;</span>&#4961; &#4704;&#4789;&#4617;&#4961; &#4632;&#4811;&#4821;&#4616;&#4961; &#4629;&#4845;&#4808;&#4961; &#4726;&#4633;&#4961; ...</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the hand of Zäbanä Krәstos.</p>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 11r-v: Note commemorating Patriarch &#704;Astona "z&#228;-hag&#228;r&#228; Rome", who resided and died on D&#228;br&#228; Ma&#705;&#7779;o.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 11r-v: Note commemorating Patriarch &#704;Astona "z&#228;-hag&#228;r&#228; Rome", who resided and died on D&#228;br&#228; Ma&#705;&#7779;o.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written by the scribe Yoḥannәs (s. Additio 2), in the time of King Zärʾa Yaʿqob, on the order of Zä-ʾAmanuʾel.</p>
                         </item>
                         <item xml:id="a9">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 50rb: B&#228;&#704;&#601;nt&#228; &#7779;&#601;n&#705;a zatti m&#228;kan... "For the strengthening of this place..." (Litanic prayer).</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 50rb</span>: <span style="font-size: large;">&#4808;&#4845;&#4709;&#4621;&#4961; &#4779;&#4613;&#4757;&#4961; &#4824;&#4757;&#4720;&#4961; &#4661;&#4773;&#4616;&#4723;&#4725;&#4962; &#4704;&#4659;&#4633;&#4752;&#4961; &#4629;&#4635;&#4635;&#4725;&#4962; &#4704;&#4789;&#4617;&#4961; &#4656;&#4816;&#4723;&#4725;&#4961; &#4808;&#4843;&#4808;&#4645;&#4769;&#4961; &#4629;&#4829;&#4709;&#4961; &#4808;&#4845;&#4709;&#4617;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4720;&#4640;&#4611;&#4616;&#4752;&#4962; &#4920;&#4621;&#4841;&#4962; &#4704;&#4773;&#4757;&#4720;&#4961; &#4827;&#4722;&#4961; &#4925;&#4757;&#4816;&#4961; &#4632;&#4779;&#4757;&#4961;...</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 50rb: B&#228;&#704;&#601;nt&#228; &#7779;&#601;n&#705;a zatti m&#228;kan... "For the strengthening of this place..." (Litanic prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 50rb</span>: <span style="font-size: large;">&#4808;&#4845;&#4709;&#4621;&#4961; &#4779;&#4613;&#4757;&#4961; &#4824;&#4757;&#4720;&#4961; &#4661;&#4773;&#4616;&#4723;&#4725;&#4962; &#4704;&#4659;&#4633;&#4752;&#4961; &#4629;&#4635;&#4635;&#4725;&#4962; &#4704;&#4789;&#4617;&#4961; &#4656;&#4816;&#4723;&#4725;&#4961; &#4808;&#4843;&#4808;&#4645;&#4769;&#4961; &#4629;&#4829;&#4709;&#4961; &#4808;&#4845;&#4709;&#4617;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4720;&#4640;&#4611;&#4616;&#4752;&#4962; &#4920;&#4621;&#4841;&#4962; &#4704;&#4773;&#4757;&#4720;&#4961; &#4827;&#4722;&#4961; &#4925;&#4757;&#4816;&#4961; &#4632;&#4779;&#4757;&#4961;...</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the hand of the scribe Yoḥannәs (s. above).</p>
                         </item>
                         <item xml:id="a10">
-                           <locus target="#00"><span style="font-size: small;">Fols. 74rb-75vb: Land charters of D&#228;br&#228; Ma&#705;&#7779;o.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fols. 74rb-75vb: Land charters of D&#228;br&#228; Ma&#705;&#7779;o.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the hand of scribe Wäldä Muse (19th cent.).</p>
                         </item>
                         <item xml:id="a11">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 113v: Recent&#160; record concerning land possessions.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 113v:&#160; <span style="font-size: large;">&#4840;&#4653;&#4661;&#4725;&#4961;&#160; &#4752;&#4872;&#4653;&#4961;&#160; &#4629;&#4757;&#4931;&#4725;&#4757;&#4961;&#160; &#4824;&#4808;&#4621;&#4853;&#4757;&#4961;&#160; &#4768;&#4613;&#4811;&#4725;&#4961;&#160; &#4629;&#4757;&#4931;&#4725;&#4961;&#160; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4820;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4808;&#4621;&#4848;&#4634;&#4779;&#4820;&#4621;&#4961;</span>...</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 113v: Recent&#160; record concerning land possessions.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 113v:&#160; <span style="font-size: large;">&#4840;&#4653;&#4661;&#4725;&#4961;&#160; &#4752;&#4872;&#4653;&#4961;&#160; &#4629;&#4757;&#4931;&#4725;&#4757;&#4961;&#160; &#4824;&#4808;&#4621;&#4853;&#4757;&#4961;&#160; &#4768;&#4613;&#4811;&#4725;&#4961;&#160; &#4629;&#4757;&#4931;&#4725;&#4961;&#160; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4820;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4808;&#4621;&#4848;&#4634;&#4779;&#4820;&#4621;&#4961;</span>...</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Tǝgrǝñña.</p>
                         </item>
-                        <item xml:id="e1">- The name of Zäbanä Krəstos has been written interlineally, fol. 144vb.</item>
+                        <item xml:id="e1">- The name of Zäbanä Krәstos has been written interlineally, fol. 144vb.</item>
                      </list>
                   </additions>
                   <bindingDesc>
@@ -263,7 +250,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0039DäbräMaʿṣo">Däbrä Maʿṣo / MY</placeName>
+                        <placeName corresp="INS0039MY">Däbrä Maʿṣo / MY</placeName>
                      </origPlace>
                      <origDate notBefore="1382" notAfter="1412">From the time of King Dawit II (r. 1382-1412).&#xD;
 The name of King Zärʾa Yaʿqob (r. 1344-68) is mentioned in Additio 2 (fol. 3ra).</origDate>
@@ -308,10 +295,6 @@ The name of King Zärʾa Yaʿqob (r. 1344-68) is mentioned in Additio 2 (fol. 3r
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -332,7 +315,7 @@ The name of King Zärʾa Yaʿqob (r. 1344-68) is mentioned in Additio 2 (fol. 3r
          <change who="DN" when="2010-05-10">registered</change>
          <change who="SA" when="2011-03-02T11:01:54.890Z">created</change>
          <change who="DN" when="2015-09-11T17:41:01.730Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

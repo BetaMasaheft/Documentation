@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0064Ë&#x81;AddigratMÃ¤dá¸«aneË&#x81;AlÃ¤m"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0064AMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMM-006</idno>
                   <altIdentifier>
                      <idno>[AMM-005]</idno>
@@ -56,9 +56,7 @@ Names of other donors, added (later) in a secondary hand, are written in strong 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">108.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">108.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">17.5</width>
@@ -119,7 +117,7 @@ Many fols. are affected by humidity, occasionally blurred ink.&#xD;
 Holes or tears amended on fols. 88, 90, 91.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>180</height>
                               <width>135</width>
@@ -132,27 +130,27 @@ Holes or tears amended on fols. 88, 90, 91.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 2r.</ab>
+                           <note>All data are for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre and irregular</ab>
                         <seg type="ink">Black, red (brilliant scarlet, strong amaranth, strong vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid 18th - early 19th century</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">e.g., fols. 23v, 89rv, 92r, 100r), changes of the pen nib (slender or broad nib: e.g. fols. 32v against 33r, 83v against 84; within one column: e.g., fols. 29rb, 32ra, 37vb, 102ra), changes in letters' height, and varying spaces between the letters.</handNote>
@@ -172,7 +170,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0064Ë&#x81;AddigratMÃ¤dá¸«aneË&#x81;AlÃ¤m">Ë&#x81;Addigrat MÃ¤dá¸«ane Ë&#x81;AlÃ¤m / AMM</placeName>
+                        <placeName corresp="INS0064AMM">Ë&#x81;Addigrat MÃ¤dá¸«ane Ë&#x81;AlÃ¤m / AMM</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1831">Mid-18th - early 19th cent. (?)&#xD;
 Dagǝmawi Zä-Mänfäs Qǝddus might be identified with Ḫagos (d. 1831), the second son of däğğazmač Subagadis (1770-1831) whose baptismal name was Zä-Mänfäs Qǝddus. The identification is based on Additiones 1 and 2 in Ms. FBM-002.</origDate>
@@ -216,10 +214,6 @@ Their names were partly replaced with those of Dagǝmawi Zä-Mänfäs Qǝddus an
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -240,7 +234,7 @@ Their names were partly replaced with those of Dagǝmawi Zä-Mänfäs Qǝddus an
          <change who="DN" when="2010-05-20">registered</change>
          <change who="SH" when="2013-02-06T10:52:06.680Z">created</change>
          <change who="SH" when="2014-10-22T17:37:14.066Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

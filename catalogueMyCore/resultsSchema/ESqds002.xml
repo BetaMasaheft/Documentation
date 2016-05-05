@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0110QiʿatDäbräṢǝyonQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0110QDS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QDS-002</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">123.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">123.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">16.0</width>
@@ -128,7 +126,7 @@ Holes in fols. 20, 30, 40, 48, 50.&#xD;
 Holes amended in fols. 1, 2, 81.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>155</height>
                               <width>135</width>
@@ -141,51 +139,54 @@ Holes amended in fols. 1, 2, 81.</condition>
                               <dim type="left">5</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 3r.</ab>
+                           <note>All data are for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful. Smaller letters starting from fol. 120va.</ab>
                         <seg type="ink">Black, red (sometimes reddish-brown, e.g. fols. 79v, 80r)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>second half of 19th century</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>በእ፡ for በእንተ፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:RelyOnVML /> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]--><span style="font-size: small;"><span lang="EN-US">Fols. 1va-2vb:</span><span lang="EN-US"> </span><span lang="EN-GB">Supplications from the Daily Office (cp. MQ p. 295), chants from the Ordinary of the Mass (MQ, 1955 E.C., cp. pp. 49-50), partly unidentified.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 1va:</span> <span style="font-size: large;">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4770;&#4824;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4768;&#4637;&#4619;&#4781;&#4752;&#4961; &#4824;&#4725;&#4708;&#4622;&#4961; &#4616;&#4941;&#4673;&#4653;&#4776;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#8230;</span></q>
+                           <locus/><p><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:RelyOnVML /> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]--><span style="font-size: small;"><span lang="EN-US">Fols. 1va-2vb:</span><span lang="EN-US"> </span><span lang="EN-GB">Supplications from the Daily Office (cp. MQ p. 295), chants from the Ordinary of the Mass (MQ, 1955 E.C., cp. pp. 49-50), partly unidentified.</span></span></p> <p></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 1va:</span> <span style="font-size: large;">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4770;&#4824;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4768;&#4637;&#4619;&#4781;&#4752;&#4961; &#4824;&#4725;&#4708;&#4622;&#4961; &#4616;&#4941;&#4673;&#4653;&#4776;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#8230;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Chants from the Ordinary of the Mass (fols. 2rb-2vb) has been written in script of smaller size.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:RelyOnVML /> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]--><span lang="EN-US">Fol. 2vb: Heading of Text I mentioning the name of the donor in the supplication formula.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2vb:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4778;&#4851;&#4757;&#4961; </span><span style="line-height: 115%;">&#4824;&#4752;&#4877;&#4613;&#4961; </span><span style="line-height: 115%;">&#4829;&#4752;&#4872;&#4654;&#4633;&#4961; </span><span style="line-height: 115%;">&#4704;&#4768;&#4707;&#4810;&#4752;&#4961; </span><span style="line-height: 115%;">&#4624;&#4811;&#4653;&#4843;&#4725;&#4961; </span><span style="line-height: 115%;">&#4773;&#4637;&#4677;&#4853;&#4632;&#4961;</span><span style="line-height: 115%;"> &#4821;&#4653;&#4872;&#4721;&#4961;</span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></span></q>
+                           <locus/><p><span style="font-size: small;"><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:RelyOnVML /> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]--><span lang="EN-US">Fol. 2vb: Heading of Text I mentioning the name of the donor in the supplication formula.</span></span></p> <p><span style="font-size: small;"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2vb:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4778;&#4851;&#4757;&#4961; </span><span style="line-height: 115%;">&#4824;&#4752;&#4877;&#4613;&#4961; </span><span style="line-height: 115%;">&#4829;&#4752;&#4872;&#4654;&#4633;&#4961; </span><span style="line-height: 115%;">&#4704;&#4768;&#4707;&#4810;&#4752;&#4961; </span><span style="line-height: 115%;">&#4624;&#4811;&#4653;&#4843;&#4725;&#4961; </span><span style="line-height: 115%;">&#4773;&#4637;&#4677;&#4853;&#4632;&#4961;</span><span style="line-height: 115%;"> &#4821;&#4653;&#4872;&#4721;&#4961;</span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The heading written entirely in red ink has been added later.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00"><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:RelyOnVML /> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]--><span lang="AMH">Fol.122vb: Donation note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol.122vb:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4845;&#4824;&#4654;&#4961; &#4725;&#4709;&#4616;&#4925;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#8230;</span></span></q>
+                           <locus/><p><!--[if gte mso 9]><xml> <o:OfficeDocumentSettings> <o:RelyOnVML /> <o:AllowPNG /> </o:OfficeDocumentSettings> </xml><![endif]--><span lang="AMH">Fol.122vb: Donation note.</span></p> <p></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol.122vb:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4845;&#4824;&#4654;&#4961; &#4725;&#4709;&#4616;&#4925;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>wäyzäro Tǝbläṣ is mentioned as the donor, other family members are also mentioned.</p>
                         </item>
                         <item xml:id="e1">- Omitted passages have been written in small script in the upper margin: fols. 8r, 31r, 34v, 35r, 72v, 73r, 80v, 83v, 85v, 109v. &#xD;
 - Crude notes: fol. 1r.</item>
@@ -206,7 +207,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0110QiʿatDäbräṢǝyonQǝddǝstMaryam">Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</placeName>
+                        <placeName corresp="INS0110QDS">Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</placeName>
                      </origPlace>
                      <origDate notBefore="1872" notAfter="1876">King Yoḥannǝs IV (r. 1872-89) is mentioned on fols. 9ra, 33rb, 40va; Coptic Patriarch Demetrius (in tenure 1862-70) is mentioned on fols. 35va, 50ra, 50va; Metropolitan ʾAtnatewos (in tenure 1869-76) is mentioned on fols. 33vb, 35va, 40rb, 50ra, 50va, 80ra, 98va. &#xD;
 Fol. 123 originates from a different, older (late 15th or 16th century?) Ms.</origDate>
@@ -249,10 +250,6 @@ Fol. 123 originates from a different, older (late 15th or 16th century?) Ms.</or
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -273,7 +270,7 @@ Fol. 123 originates from a different, older (late 15th or 16th century?) Ms.</or
          <change who="DN" when="2010-12-02">registered</change>
          <change who="DE" when="2013-10-10T13:10:55.104Z">created</change>
          <change who="SD" when="2014-09-30T09:42:22.021Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

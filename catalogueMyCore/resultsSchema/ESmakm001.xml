@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0174MayʾAnbäsaKidanäMǝḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0174MAKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MAKM-001</idno>
                   <altIdentifier>
                      <idno>C4-IV-40</idno>
@@ -56,9 +56,7 @@ On the incipit page of each Gospel and of Text I, a few lines are rubricated (al
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">168.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">168.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.0</height>
                               <width unit="cm">28.5</width>
@@ -143,7 +141,7 @@ On the incipit page of each Gospel and of Text I, a few lines are rubricated (al
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>175</height>
                               <width>180</width>
@@ -156,87 +154,82 @@ On the incipit page of each Gospel and of Text I, a few lines are rubricated (al
                               <dim type="left">20</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 14r.</ab>
+                           <note>All data are for fol. 14r.</note>
                            <ab type="ruling">20 in some folios; 32 in Text I</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible (s. fol. 25r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible (s. fol. 33r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">
 The ruling pattern for the Canon tables (fols. 8r-12ra) is different.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and regular.</ab>
                         <seg type="ink">Black; red; violet.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Fol. 7va: Note on the composition of a chronicle (?) of King Yo&#7717;ann&#601;s IV (r. 1872-89).</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: "><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 7va:</span></span></span><span lang="EN-GB" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA"> </span><span lang="AMH" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA">&#4704;&#4661;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962; &#4755;&#4609;&#4961; &#4920;&#4624;&#4941;&#4752;&#4961; &#4828;&#4755;&#4961; &#4773;&#4648;&#4941;&#4721;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4632;&#4941;&#4672;&#4652;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4653;&#4721;&#4816;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962; &#4808;&#4782;&#4752;&#4961; &#4789;&#4617;&#4961; &#4632;&#4811;&#4821;&#4616;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4978;&#4808;&#4976;&#4961; &#4819;&#4632;&#4725;&#4961; {&#4808;&#4969;&#4961;} &#4808;&#4653;&#4741;&#4961; {&#4808;&#4704;&#4637;&#4661;&#4941;&#4755;&#4961; &#4972;&#4819;&#4632;&#4725;&#4962;} &#4808;&#4768;&#4773;&#4648;&#4936;&#4961; &#4768;&#4632;&#4961; &#4970;&#4961; &#4616;&#4632;&#4875;&#4706;&#4725;&#4961; &#4704;&#4978;&#4808;&#4976;&#4987;&#4808;&#4985;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4704;&#4821;&#4616;&#4720;&#4961; &#4773;&#4609;&#4853;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4962;</span></q>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Fol. 7va: Note on the composition of a chronicle (?) of King Yo&#7717;ann&#601;s IV (r. 1872-89).</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: "><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 7va:</span></span></span><span lang="EN-GB" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA"> </span><span lang="AMH" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA">&#4704;&#4661;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962; &#4755;&#4609;&#4961; &#4920;&#4624;&#4941;&#4752;&#4961; &#4828;&#4755;&#4961; &#4773;&#4648;&#4941;&#4721;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4632;&#4941;&#4672;&#4652;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4653;&#4721;&#4816;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962; &#4808;&#4782;&#4752;&#4961; &#4789;&#4617;&#4961; &#4632;&#4811;&#4821;&#4616;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4978;&#4808;&#4976;&#4961; &#4819;&#4632;&#4725;&#4961; {&#4808;&#4969;&#4961;} &#4808;&#4653;&#4741;&#4961; {&#4808;&#4704;&#4637;&#4661;&#4941;&#4755;&#4961; &#4972;&#4819;&#4632;&#4725;&#4962;} &#4808;&#4768;&#4773;&#4648;&#4936;&#4961; &#4768;&#4632;&#4961; &#4970;&#4961; &#4616;&#4632;&#4875;&#4706;&#4725;&#4961; &#4704;&#4978;&#4808;&#4976;&#4987;&#4808;&#4985;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4704;&#4821;&#4616;&#4720;&#4961; &#4773;&#4609;&#4853;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4962;</span></p></q>
+                           <q xml:lang="en"><div><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%; font-family: "><span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Fol. 7va: In the name of God. Behold, we have written a history of the repose of our King Yo&#7717;ann&#601;s, God loving and Orthodox King of Kings of Ethiopia. All the days of his reign have been eighteen years and one month (and in princedom four years). He reposed on M&#228;ggabit 2, 1880 year of mercy, on Sunday, in the year of Matthew the Evangelist.</span></span></span></div> <p></p></q>
+                           <p>The superscript words ወበምስፍና፡ ፬ዓመት። were added in a different hand (?), in pen.
+
+The date, 2 Mäggabit 1880 A.M. (= 10 March 1888 A.D.), does not coincide with the known historical date of the death of Emperor Yoḥannǝs (9 March 1889 A.D.). Furthermore, the actual day indicated in the note was not Sunday, but Saturday.
+
+The text of the note is followed by a series of Ethiopic numerals (writing exercise?), in a different hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%">Fol. 7vb: Extensive note on a land grant donated by Emperor M&#601;nil&#601;k II (r. 1889-1913) to d&#228;&#287;&#287;azma&#269; &#704;Abr&#601;ha of D&#228;rg&#228;&#704;a&#287;&#228;n.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%">Fol. 7vb: Extensive note on a land grant donated by Emperor M&#601;nil&#601;k II (r. 1889-1913) to d&#228;&#287;&#287;azma&#269; &#704;Abr&#601;ha of D&#228;rg&#228;&#704;a&#287;&#228;n.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Dated to 30 Näḥase 1897 A.M. (= 5 September 1905 A.D.).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%">Fol. 12ra: Note on the composition of a chronicle (?) of&#160;King Yo&#7717;ann&#601;s IV (1872-89).</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span lang="EN-GB">Fol. 12ra:</span></span><span lang="EN-GB" style="mso-ansi-language:EN-GB"> </span><span lang="AMH" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA">&#4720;&#4808;&#4901;&#4752;&#4961; &#4828;&#4755;&#4609;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4962; &#4632;&#4941;&#4672;&#4652;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4653;&#4721;&#4816;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962;</span></q>
-                           <q xml:lang="en"></q>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%">Fol. 12ra: Note on the composition of a chronicle (?) of&#160;King Yo&#7717;ann&#601;s IV (1872-89).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB">Fol. 12ra:</span></span><span lang="EN-GB" style="mso-ansi-language:EN-GB"> </span><span lang="AMH" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA">&#4720;&#4808;&#4901;&#4752;&#4961; &#4828;&#4755;&#4609;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4962; &#4632;&#4941;&#4672;&#4652;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4653;&#4721;&#4816;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962;</span></p></q>
+                           <q xml:lang="en"><p><span lang="EN-GB" style="mso-ansi-language:EN-GB">Fol. 12ra: A history of our King Yo</span><span lang="EN-GB" new="" times="" style="font-family:">&#7717;</span><span lang="EN-GB" calisto="" style="mso-bidi-font-family:&#10;">ann</span><span lang="EN-GB" new="" times="" style="font-family:">&#601;</span><span lang="EN-GB" calisto="" style="mso-bidi-font-family:">s, God </span><span lang="EN-GB" style="mso-ansi-language:EN-GB">loving and Orthodox King of Kings of Ethiopia, is begun.</span></p> <p></p></q>
                            <p/>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Fol. 55rb: Donation note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span lang="EN-GB">Fol. 55rb:</span></span><span lang="EN-GB" style="mso-ansi-language:EN-GB"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4808;&#4757;&#4876;&#4621;&#4961; &#4824;&#4808;&#4845;&#4824;&#4654;&#4961; &#4779;&#4659;&#4961; &#4824;&#4808;&#4739;&#4704;&#4723;&#4961; &#4616;&#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4635;&#4845;&#4961; &#4768;&#4757;&#4704;&#4659;&#4961; &#4824;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4723;&#4961; &#4738;&#4649;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4656;&#4845;&#4936;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4624;&#4755;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961;</span></span></q>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Fol. 55rb: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB">Fol. 55rb:</span></span><span lang="EN-GB" style="mso-ansi-language:EN-GB"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4808;&#4757;&#4876;&#4621;&#4961; &#4824;&#4808;&#4845;&#4824;&#4654;&#4961; &#4779;&#4659;&#4961; &#4824;&#4808;&#4739;&#4704;&#4723;&#4961; &#4616;&#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4635;&#4845;&#4961; &#4768;&#4757;&#4704;&#4659;&#4961; &#4824;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4723;&#4961; &#4738;&#4649;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4656;&#4845;&#4936;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4624;&#4755;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that wäyzäro Kasa donated the Gospel to the church of "Kidanä Mǝḥrät May ʾAnbäsa". Her baptismal name, Ḫirutä Śǝllase, is mentioned.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168ra: Note on assigning of land.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168ra: Note on assigning of land.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudley written in Amharic. The Place names include ʾAd Ḍägamay and ʾAd Gärʾaltay.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168ra-rb: Extensive note on bequeathing of inherited land property (r&#601;st).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168ra-rb: Extensive note on bequeathing of inherited land property (r&#601;st).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Crudely written in pen. Dated to 7 Mäskäräm (19)53 A.M. (= 17 September 1960 A.D.).</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168rb: Note on r&#601;st and g<sup>w</sup>&#601;lt land possessions.</span></span></locus>
-                           <q xml:lang="gez"><span lang="EN-GB" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA">Fol. 168rb: </span><span lang="AMH" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA">&#4755;&#4609;&#4961; &#4808;&#4896;&#4752;&#4961; &#4752;&#4872;&#4648;&#4961; &#4653;&#4661;&#4725;&#4961; &#4808;&#4873;&#4621;&#4725;&#4960; &#4840;&#4664;&#4792;&#4725;&#4961; &#4653;&#4661;&#4725;&#4961; &#4609;&#4616;&#4725;&#4961; &#4773;&#4865;&#4961; &#4616;&#4707;&#4616;&#4961; &#4653;&#4661;&#4725;&#4960; &#4768;&#4757;&#4849;&#4961; &#4773;&#4869;&#4961; &#4840;&#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4873;&#4621;&#4725;&#4960; &#4909;&#4677;&#4752;&#4721;&#4961; &#4840;&#4707;&#4621;&#4875;&#4851;&#4961; &#4872;&#4709;&#4649;&#4961; &#4752;&#4813;&#4968; &#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4659;&#4709;&#4821;&#4961; &#4768;&#4632;&#4720;&#4961; &#4819;&#4632;&#4720;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4968; &#4808;&#4621;&#4849;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4968; &#4704;&#4632;&#4637;&#4613;&#4653;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4704;&#4961; &#4637;&#4756;&#4725;&#4752;&#4725;&#4968; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4985;&#4808;&#4975;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4968; &#4632;&#4901;&#4677;&#4821;&#4961; &#4773;&#4757;&#4824;&#4961; &#4979;&#4808;&#4974;&#4968; &#4808;&#4773;&#4757;&#4824;&#4961; &#4768;&#4704;&#4677;&#4724;&#4961; &#4972;&#4968; &#4808;&#4768;&#4632;&#4961; &#4972;&#4616;&#4877;&#4757;&#4710;&#4725;&#4961; &#4632;&#4819;&#4621;&#4721;&#4968; &#4808;&#4672;&#4851;&#4634;&#4725;&#4961; &#4821;&#4616;&#4721;&#4968; &#4808;&#4752;&#4877;&#4613;&#4961; &#4656;&#4819;&#4721;&#4968;</span></q>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168rb: Note on r&#601;st and g<sup>w</sup>&#601;lt land possessions.</span></span></p><q xml:lang="gez"><p><span lang="EN-GB" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA">Fol. 168rb: </span><span lang="AMH" style="font-size: 14pt; line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA">&#4755;&#4609;&#4961; &#4808;&#4896;&#4752;&#4961; &#4752;&#4872;&#4648;&#4961; &#4653;&#4661;&#4725;&#4961; &#4808;&#4873;&#4621;&#4725;&#4960; &#4840;&#4664;&#4792;&#4725;&#4961; &#4653;&#4661;&#4725;&#4961; &#4609;&#4616;&#4725;&#4961; &#4773;&#4865;&#4961; &#4616;&#4707;&#4616;&#4961; &#4653;&#4661;&#4725;&#4960; &#4768;&#4757;&#4849;&#4961; &#4773;&#4869;&#4961; &#4840;&#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4873;&#4621;&#4725;&#4960; &#4909;&#4677;&#4752;&#4721;&#4961; &#4840;&#4707;&#4621;&#4875;&#4851;&#4961; &#4872;&#4709;&#4649;&#4961; &#4752;&#4813;&#4968; &#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4659;&#4709;&#4821;&#4961; &#4768;&#4632;&#4720;&#4961; &#4819;&#4632;&#4720;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4651;&#4661;&#4961; &#4632;&#4757;&#4872;&#4667;&#4968; &#4808;&#4621;&#4849;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4824;&#4770;&#4725;&#4846;&#4917;&#4843;&#4968; &#4704;&#4632;&#4637;&#4613;&#4653;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4704;&#4961; &#4637;&#4756;&#4725;&#4752;&#4725;&#4968; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4985;&#4808;&#4975;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4968; &#4632;&#4901;&#4677;&#4821;&#4961; &#4773;&#4757;&#4824;&#4961; &#4979;&#4808;&#4974;&#4968; &#4808;&#4773;&#4757;&#4824;&#4961; &#4768;&#4704;&#4677;&#4724;&#4961; &#4972;&#4968; &#4808;&#4768;&#4632;&#4961; &#4972;&#4616;&#4877;&#4757;&#4710;&#4725;&#4961; &#4632;&#4819;&#4621;&#4721;&#4968; &#4808;&#4672;&#4851;&#4634;&#4725;&#4961; &#4821;&#4616;&#4721;&#4968; &#4808;&#4752;&#4877;&#4613;&#4961; &#4656;&#4819;&#4721;&#4968;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Gǝʿǝz and Amharic, written in the same hand as the main body of the text, with three different kinds of ink: black, red (proper names) and violet (titles and designations of personal relationship). Dated to 4 Gǝnbot 1887 A.M. (= 11 May 1895 A.D.). The note mentions ras Mängäša(Yoḥannǝs), governor of Tǝgray in 1889-1906.</p>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode=""><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168va-vb: Note listing a number of persons apparently appointed to various offices.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode=""><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168va-vb: Note listing a number of persons apparently appointed to various offices.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Gǝʿǝz and Amharic. The note is divided into three parts, the beginning of the second part has been erased.</p>
                         </item>
                         <item xml:id="a9">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168vb: Note on a litigation.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 168vb: Note on a litigation.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic.</p>
                         </item>
                         <item xml:id="e1">- አጼ፡ ምኒልክ፡ written apparently by the same hand as Additio 2 on fol. 131rb.</item>
                      </list>
@@ -257,7 +250,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0174MayʾAnbäsaKidanäMǝḥrät">May ʾAnbäsa Kidanä Mǝḥrät / MAKM</placeName>
+                        <placeName corresp="INS0174MAKM">May ʾAnbäsa Kidanä Mǝḥrät / MAKM</placeName>
                      </origPlace>
                      <origDate notBefore="1890" notAfter="1895">Additio 7, dated to 1895 A.D., is executed in the same hand as the main text of the Ms.</origDate>
                   </origin>
@@ -300,10 +293,6 @@ The name of Fǝśśǝḥa Giyorgis is mentioned in supplication formulas on fols
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -325,7 +314,7 @@ The name of Fǝśśǝḥa Giyorgis is mentioned in supplication formulas on fols
          <change who="DN" when="2011-05-27">registered</change>
          <change who="IF" when="2011-10-26T07:51:52.438Z">created</change>
          <change who="SH" when="2014-09-15T16:03:32.843Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

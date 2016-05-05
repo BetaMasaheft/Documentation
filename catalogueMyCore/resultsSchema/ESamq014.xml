@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0065ʿAddigratQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0065"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMQ-014</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">123.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">123.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.3</height>
                               <width unit="cm">21.0</width>
@@ -123,7 +121,7 @@ Many fols. are misplaced in quires II-XII. &#xD;
 Holes or tears amended on fols. 11,19, 50, 59.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>160</height>
                               <width>153</width>
@@ -136,22 +134,24 @@ Holes or tears amended on fols. 11,19, 50, 59.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 10r.&#xD;
-Text area I: quires I-XII.</ab>
+                           <note>All data are for fol. 10r.&#xD;
+Text area I: quires I-XII.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary spricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe did not use the bottom ruled line on fol. 3vb-8vb, 33ra-vb.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>150</height>
                               <width>145</width>
@@ -164,29 +164,29 @@ The scribe did not use the bottom ruled line on fol. 3vb-8vb, 33ra-vb.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 95r.&#xD;
-Text area II: quires XIII-XVI.</ab>
+                           <note>All data are for fol. 95r.&#xD;
+Text area II: quires XIII-XVI.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary spricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: very irregular. Hand b: rather fine.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Hand a and b: 18th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>Zä-Wäldä Maryam (hand a) is mentioned as the scribe in fols. 56vb and 91vb.<date>Hand a and b: 18th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 1ra-91vb, 93ra-vb (quires I-XII), very irregularly formed letters. The involvement of more than one scribe cannot be excluded.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 92ra-vb, 94ra-123vb (quire XIII-XVI), slender, slightly right-sloping letters.</handNote>
@@ -206,7 +206,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0065ʿAddigratQirqos">ʿAddigrat Qirqos /</placeName>
+                        <placeName corresp="INS0065">ʿAddigrat Qirqos /</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">Quires XIII-XVI were added probably somewhat later.</origDate>
                   </origin>
@@ -248,8 +248,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -272,7 +271,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-19">registered</change>
          <change who="SA" when="2010-09-29T10:20:34.347Z">created</change>
          <change who="DN" when="2015-06-07T11:23:18.136Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Täʾamrä Maryam “Miracles of Mary”</title>
-            <editor key="Ethio-Spare"/>
+            <editor key="Ethio-SPaRe"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
          <publicationStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0216MGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MGM-006</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Several groups of lines on the incipit page of Text I (alternating with black li
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">135.0</measure> folios,
-                                                in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">135.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.3</height>
                               <width unit="cm">21.3</width>
@@ -132,7 +130,7 @@ Holes or tears carefully amended on fols. 1, 3, 47, 73, 84, 86, 87, 104, 130.&#x
 Fols. 1 and 3 are of different size and lighter colour.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>158</height>
                               <width>183</width>
@@ -145,27 +143,29 @@ Fols. 1 and 3 are of different size and lighter colour.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">Quires I-XV: all data for fol. 5r.</ab>
+                           <note>Quires I-XV: all data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling (sometimes below the ruling, e.g., fols. 30v, 34v).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The ruling has been done crudely.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Some leaves have one additional top ruled line not used by the scribe (fols. 4r-6v, 9r-10v, 12rv, 14rv, 19r-20v etc.).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Many leaves have one (fols. 15r-17r, 19rv, 28rv, 31r-32v, 35rv etc.), some two (fols. 29rv, 34rv etc.) additional bottom ruled line not used by the scribe.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>175</height>
                               <width>170</width>
@@ -178,34 +178,42 @@ Many leaves have one (fols. 15r-17r, 19rv, 28rv, 31r-32v, 35rv etc.), some two (
                               <dim type="left">10</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">Quires XVI-XVII: all data for fol. 120r.</ab>
+                           <note>Quires XVI-XVII: all data for fol. 120r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The ruling has been done crudely.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Some leaves have an additional bottom ruled line not used by the scribe (fols. 118r-119v, 120v-123r, 124r).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre. Hand b: poor, irregular.</ab>
                         <seg type="ink"/>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of the 19th century</date>
+                        <persName role="scribe" corresp="PRS00000">ʿAśratä Maryam</persName>ʿAśratä Maryam (hand a) is mentioned as the scribe in the concluding supplication on fol. 115vb.<date>Second half of the 19th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (fol. 8va-vb)</item>
+                           <item>
+                              <abbr>ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (fol. 9ra)</item>
+                           <item>
+                              <abbr>ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (fol. 9ra)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">the handwriting appears careful at the beginning and becomes more irregular from fol. 47r onwards (cp. fols. 3rb vs. 51rb), partly due to the poor ruling. </handNote>
                      <handNote xml:id="h3" script="Ethiopic">left-sloping letters.</handNote>
@@ -213,16 +221,14 @@ Some leaves have an additional bottom ruled line not used by the scribe (fols. 1
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 2ra-va: Excerpt from M&#228;&#7779;&#7717;af&#228; &#347;&#601;r&#705;at, Introductory rite of al-Mu&#705;allaqah.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 2ra-va: Excerpt from M&#228;&#7779;&#7717;af&#228; &#347;&#601;r&#705;at, Introductory rite of al-Mu&#705;allaqah.</span></p><q xml:lang="gez"><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fol. 2ra: </span><span style="font-size:12.0pt;">&#4808;&#4770;&#4845;&#4637;&#4656;&#4622;&#4961; </span><span style="font-size:12.0pt;">&#4616;&#4789;&#4617;&#4961;</span><span style="font-size:12.0pt;"> &#4781;&#4653;&#4661;&#4722;[&#4843;]&#4755;&#4810;&#4961;</span><span style="font-size:12.0pt;">&#160;&#4672;&#4618;&#4616;&#4961;</span><span style="font-size:12.0pt;">&#4656;&#4634;&#4819;&#4961;</span><span style="font-size:12.0pt;"> &#4720;&#4768;&#4637;&#4650;&#4611;&#4961; </span><span style="font-size:12.0pt;">&#4773;&#4877;&#4829;&#4773;&#4725;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;&#4661;&#4632;</span><span style="font-size:12.0pt;">&#4961;</span><span style="font-size:12.0pt;"> &#4819;&#4706;&#4845;&#4961;</span><span style="font-size:12.0pt;"> &#4808;&#4781;&#4705;&#4653;&#4961;</span><span style="font-size:12.0pt;"> &#4813;&#4773;&#4721;&#4962; </span><span style="font-size:12.0pt;Arial">&#8230;</span></div> <div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fol. 2va: </span><span style="font-size:12.0pt;">&#4827;&#4722;</span><span style="font-size:12.0pt;"><span style="font-size:12.0pt;">&#4961;</span> &#4632;&#4925;&#4624;&#4941;</span><span style="font-size:12.0pt;"><span style="font-size:12.0pt;">&#4961;</span> &#4616;&#4824;&#4768;&#4925;&#4624;&#4941;&#4811;</span><span style="font-size:12.0pt;"><span style="font-size:12.0pt;">&#4961;</span> &#4848;&#4674;&#4672;&#4961; &#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4962;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The excerpt is followed by a note on commissioning the writing in the same hand. It mentions the “children of ʾAmdä Mikaʾel” as commissioners. The initial two lines of the excerpt and the name of Mary are rubricated.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 116rb: Excommunication against those who stole the book or erased its text.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 116rb: </span><span style="font-size: medium;">&#4824;&#4936;&#4624;&#4678;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#8230; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4661;&#4653;&#4755;&#4845;&#4961; &#4813;&#4773;&#4721;&#4961; &#4824;&#4768;&#4621;&#4710;&#4961; &#4781;&#4653;&#4851;&#4853;&#4961;&#8230; </span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 116rb: Excommunication against those who stole the book or erased its text.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 116rb: </span><span style="font-size: medium;">&#4824;&#4936;&#4624;&#4678;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#8230; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4661;&#4653;&#4755;&#4845;&#4961; &#4813;&#4773;&#4721;&#4961; &#4824;&#4768;&#4621;&#4710;&#4961; &#4781;&#4653;&#4851;&#4853;&#4961;&#8230; </span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is followed by an exhortation.</p>
                         </item>
                         <item xml:id="e1">- Fol. 134 contains the beginning of Text I-1 written in the main hand, probably a production error. &#xD;
 - Omitted letters or words inserted interlineally: fols. 4rb, 6ra, 8rb, 26vb, 37va, 50va, 53rb, 58vb, 118rb, 119va, 121ra, 127va.&#xD;
@@ -248,7 +254,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
+                        <placeName corresp="INS0216MGM">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent. (?)</origDate>
                   </origin>
@@ -290,8 +296,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">ʿAśratä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -314,7 +319,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-19">registered</change>
          <change who="SH" when="2014-12-04T10:40:39.323Z">created</change>
          <change who="DN" when="2015-09-14T10:25:39.489Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

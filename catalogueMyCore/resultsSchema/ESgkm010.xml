@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0108MäḵodʿäDäbräGännätKidanäMǝḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0108GKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GKM-010</idno>
                </msIdentifier>
                <msContents>
@@ -45,7 +45,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <note/>
                   </msItem>
                   <msItem xml:id="coloph1">
-                     <colophon><span style="line-height: 115%;">Fol. 105vb:</span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;&#4920;&#4632;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;">&#160;</span><span style="line-height: 115%;">&#4925;&#4626;&#4936;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4632;&#4925;&#4624;&#4936;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4941;&#4725;&#4624;&#4725;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4704;&#4656;&#4619;&#4632;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4768;&#4636;&#4757;</span><span style="line-height: 115%;">&#4961;&#4961;</span></span></colophon>
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 105vb:</span></span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;&#4920;&#4632;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;">&#160;</span><span style="line-height: 115%;">&#4925;&#4626;&#4936;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4632;&#4925;&#4624;&#4936;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4941;&#4725;&#4624;&#4725;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4704;&#4656;&#4619;&#4632;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4768;&#4636;&#4757;</span><span style="line-height: 115%;">&#4961;&#4961;</span></span></p><foreign xml:lang="en"><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode=""><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial">Fol. 105vb: The writing of the Book of Absolution</span><span style="font-size:&#10;10.0pt;line-height:115%;Arial"> has been completed in the peace of God, Amen.</span></span></p></foreign>
+                        <note/>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -54,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">111.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">111.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.3</height>
                               <width unit="cm">22.7</width>
@@ -116,7 +117,7 @@ Many fols. are stained with wax and dirt.&#xD;
 Fol. 20v is stained with red liquid.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>164</height>
                               <width>174</width>
@@ -129,28 +130,42 @@ Fol. 20v is stained with red liquid.</condition>
                               <dim type="left">18</dim>
                               <dim type="intercolumn">14</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r</ab>
+                           <note>All data for fol. 2r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and regular</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (e.g., fols. 14va, 37vb, 38ra)</item>
+                           <item>
+                              <abbr>ሃ</abbr> for <expan>ሃሌ፡ ሉያ፡ </expan> (e.g., fols. 20ra, 21ra, 21va)</item>
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ </expan> (e.g., fol. 33vb, 34ra, 36ra)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 35rb, 37vb, 38ra)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 35rb, 37vb, 58rb)</item>
+                           <item>
+                              <abbr>እገ</abbr> for <expan>እገሌ </expan> (e.g., fols. 54ra, 55ra, 67va)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -169,7 +184,7 @@ Quire XIV is reinforced with parchment guard.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0108MäḵodʿäDäbräGännätKidanäMǝḥrät">Mäḵodʿä Däbrä Gännät Kidanä Mǝḥrät  / GKM</placeName>
+                        <placeName corresp="INS0108GKM">Mäḵodʿä Däbrä Gännät Kidanä Mǝḥrät  / GKM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th century (?)</origDate>
                   </origin>
@@ -211,10 +226,6 @@ Quire XIV is reinforced with parchment guard.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -235,7 +246,7 @@ Quire XIV is reinforced with parchment guard.</decoNote>
          <change who="DN" when="2010-12-04">registered</change>
          <change who="AA" when="2013-12-05T10:17:03.629Z">created</change>
          <change who="DN" when="2015-01-26T09:20:37.710Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

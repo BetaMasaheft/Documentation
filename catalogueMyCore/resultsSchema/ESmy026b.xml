@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mälkəʾa ṣadəqan [zä-Baräknaha] “Image of the Righteous Ones [of Baräknaha]”</title>
+            <title>Mälkәʾa ṣadәqan [zä-Baräknaha] “Image of the Righteous Ones [of Baräknaha]”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0039DäbräMaʿṣoQəddusYoḥannəs"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0039MY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MY-026b</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>The words sälam and Ṣadəqan (ʾo-Ṣadəqan) throughout the text and the word ʾamḫa on fol. 4v. Elements of the punctuation signs.</rubric>
+                     <rubric>The words sälam and Ṣadәqan (ʾo-Ṣadәqan) throughout the text and the word ʾamḫa on fol. 4v. Elements of the punctuation signs.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">6.0</measure> folios,
-                                                in
-                                                <measure unit="quire">1.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">6.0</measure> folios, in <measure unit="quire">1.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">11.2</height>
                               <width unit="cm">10.8</width>
@@ -72,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 The Ms. is worn and affected by humidity.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="14">
                            <dimensions unit="mm">
                               <height>80</height>
                               <width>86</width>
@@ -85,29 +83,29 @@ The Ms. is worn and affected by humidity.</condition>
                               <dim type="left">8</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 2r</ab>
+                           <note>All data are for fol. 2r</note>
                            <ab type="ruling">15 lines in fol. 2r; 14 in fol. 2v; 13 in fols. 3r-3v</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are partly visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C (?).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The scribe disregarded the ruling.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Several ruled lines (2-3) at the bottom were not used by the scribe.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Crude.</ab>
                         <seg type="ink">Black; red (vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
                      </handNote>
                   </handDesc>
@@ -125,7 +123,7 @@ Several ruled lines (2-3) at the bottom were not used by the scribe.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0039DäbräMaʿṣoQəddusYoḥannəs">Däbrä Maʿṣo Qəddus Yoḥannəs / MY</placeName>
+                        <placeName corresp="INS0039MY">Däbrä Maʿṣo Qәddus Yoḥannәs / MY</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -167,10 +165,6 @@ Several ruled lines (2-3) at the bottom were not used by the scribe.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -191,7 +185,7 @@ Several ruled lines (2-3) at the bottom were not used by the scribe.</ab>
          <change who="DN" when="2010-11-05">registered</change>
          <change who="VP" when="2014-01-10T10:23:52.539Z">created</change>
          <change who="DN" when="2014-12-12T18:19:20.492Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

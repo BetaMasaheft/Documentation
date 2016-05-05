@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0177SDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SDM-001</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; the word məʿəraf (“chapter”) and the numbers of the chapters; some paragraph beginnings; the short stichometry for the Gospel of Matthew written as separate line under the postscript (fol. 54va l.16); parts of the Canon tables; some extra notes, indicating the chapter titles;&#xD;
+                     <rubric>Nomina sacra; the word mәʿәraf (“chapter”) and the numbers of the chapters; some paragraph beginnings; the short stichometry for the Gospel of Matthew written as separate line under the postscript (fol. 54va l.16); parts of the Canon tables; some extra notes, indicating the chapter titles;&#xD;
 Ethiopic numerals indicating the “tituli”; elements of the punctuation signs; crux ansata (fol. 36v).&#xD;
 &#xD;
 Eight lines (in both columns), alternating with black lines, on the incipit page of the Gospels of Matthew (s. fol. 4r) and Mark (s. fol. 57r); nine lines (in both columns), alternating with black lines, on the incipit page of the Gospel of Luke (s. fol. 85r); 11 lines (in both columns), alternating with black lines, on the incipit page of the Gospel of John (fol. 128r); 1-3 lines in the incipits of all the chapters.</rubric>
@@ -54,9 +54,7 @@ Eight lines (in both columns), alternating with black lines, on the incipit page
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">157.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">157.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.0</height>
                               <width unit="cm">27.2</width>
@@ -133,7 +131,7 @@ Eight lines (in both columns), alternating with black lines, on the incipit page
                         <condition key="good">In quire XI, four fols. were probably cut at the right margin.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>208</height>
                               <width>208</width>
@@ -146,19 +144,21 @@ Eight lines (in both columns), alternating with black lines, on the incipit page
                               <dim type="left">17</dim>
                               <dim type="intercolumn">21</dim>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -169,7 +169,6 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 18th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols 4ra-93ra l.9.</handNote>
@@ -184,10 +183,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif="">Fol. 156v:&#160;Register&#160;of names of individuals, probably guarantors in a litigation or transaction procedure (?).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif="">Fol. 156v:&#160;Register&#160;of names of individuals, probably guarantors in a litigation or transaction procedure (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The black ink is faded.</p>
                         </item>
                         <item xml:id="e1">- Cues for the rubricator on some folios, between the columns or next to them.</item>
                      </list>
@@ -207,7 +205,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
+                        <placeName corresp="INS0177SDM">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1750">First half of the 18th cent. (?)</origDate>
                   </origin>
@@ -244,13 +242,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Several names are mentioned in the supplication formulas: Wäldä ʾƎgziʾabəḥer (fols. 4r, 57r, 85r), ʿAmdä Mikaʾel (fols: 43, 57r, 85r, 128r); Gäbrä ʾAmlaku (fol. 128r).</persName>
+                  <persName corresp="PRS0000">Several names are mentioned in the supplication formulas: Wäldä ʾƎgziʾabәḥer (fols. 4r, 57r, 85r), ʿAmdä Mikaʾel (fols: 43, 57r, 85r, 128r); Gäbrä ʾAmlaku (fol. 128r).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -273,7 +267,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-16">registered</change>
          <change who="VP" when="2011-10-25T10:49:51.658Z">created</change>
          <change who="SH" when="2014-09-15T12:22:48.515Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

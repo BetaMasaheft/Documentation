@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0108GKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GKM-009</idno>
                </msIdentifier>
                <msContents>
@@ -60,9 +60,7 @@ One or two lines in the last commemorative notice of each month are rubricated (
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">191.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">191.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">36.5</height>
                               <width unit="cm">31.0</width>
@@ -159,7 +157,7 @@ Some fols. are affected by humidity (e.g., fols. 10v, 16r, 54v, 55v, 61v, 99v, 1
 Holes or tears carefully amended on fols. 102, 120, 127.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="35">
                            <dimensions unit="mm">
                               <height>252</height>
                               <width>250</width>
@@ -172,27 +170,27 @@ Holes or tears carefully amended on fols. 102, 120, 127.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 87r.</ab>
+                           <note>All data for fol. 87r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and regular.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 17th - early 18th cent.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -200,16 +198,14 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small; ">Fol. 1r: Unidentified prayer (excerpt from Missal or Horologium?).<br /> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; " unicode="">Fol. 1r:</span>&#160;</span><span style="font-size: large; "> <span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4920;&#4622;&#4725;&#4961; &#4824;&#4975;&#4874;&#4828;&#4843;&#4725;&#4961; &#4662;&#4704;&#4961; &#4725;&#4709;&#4621;&#4961; &#4704;&#4661;&#4632;&#4961;''... &#4773;&#4661;&#4877;&#4853;&#4961; &#4637;&#4821;&#4648;&#4961; &#4773;&#4757;&#4824;&#4961; &#4725;&#4709;&#4621;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4632;&#4624;&#4648;&#4752;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4632;&#4624;&#4648;&#4752;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4707;&#4653;&#4776;&#4752;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4707;&#4653;&#4776;&#4752;&#4961; &#4768;&#4636;&#4757;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4725;&#4661;&#4877;&#4853;&#4962;...</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; ">Fol. 1r: Prayer of the seven hours. When you say: "In the name of the Father and the Son and the Holy Spirit, one God", I bow once, while you are saying: "O Lord, have compassion upon us. O Lord, have compassion upon us. O Lord, bless us. O Lord. Bless us, Amen. Hallelujah." You bow...</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small; ">Fol. 1r: Unidentified prayer (excerpt from Missal or Horologium?).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; " unicode="">Fol. 1r:</span>&#160;</span><span style="font-size: large; "> <span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4920;&#4622;&#4725;&#4961; &#4824;&#4975;&#4874;&#4828;&#4843;&#4725;&#4961; &#4662;&#4704;&#4961; &#4725;&#4709;&#4621;&#4961; &#4704;&#4661;&#4632;&#4961;''... &#4773;&#4661;&#4877;&#4853;&#4961; &#4637;&#4821;&#4648;&#4961; &#4773;&#4757;&#4824;&#4961; &#4725;&#4709;&#4621;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4632;&#4624;&#4648;&#4752;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4632;&#4624;&#4648;&#4752;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4707;&#4653;&#4776;&#4752;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4707;&#4653;&#4776;&#4752;&#4961; &#4768;&#4636;&#4757;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4725;&#4661;&#4877;&#4853;&#4962;...</span></span></p> <p></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; ">Fol. 1r: Prayer of the seven hours. When you say: "In the name of the Father and the Son and the Holy Spirit, one God", I bow once, while you are saying: "O Lord, have compassion upon us. O Lord, have compassion upon us. O Lord, bless us. O Lord. Bless us, Amen. Hallelujah." You bow...</span></span></p></q>
+                           <p>Incomplete; some passages are erased.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small; ">Fol. 1v: Acquisition note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; ">Fol. 1v:</span></span><span style="font-size: x-small"><span lang="EN-GB" style="line-height: 115%; font-family: "> </span></span><span style="font-size: large; "><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4768;&#4637;&#4923;&#4773;&#4781;&#4814;&#4961; &#4616;&#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4768;&#4752;&#4961; &#4770;&#4659;&#4845;&#4843;&#4661;&#4961; &#4648;&#4853;&#4768;&#4961; &#4635;&#4741;&#4704;&#4653;&#4961; &#4920;&#4754;&#4629;&#4840;&#4961; &#4852;&#4852;&#4961; </span></span><span style="font-size: large; "><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4709;&#4825;&#4739;&#4961; &#4632;&#4811;&#4821;&#4616;&#4961; &#4813;&#4661;&#4720;&#4961; &#4880;&#4757;&#4848;&#4653;&#4961; &#4704;&#4648;&#4739;&#4709;&#4961; &#4808;&#4704;&#4925;&#4637;&#4773;&#4961; &#4808;&#4709;&#4825;&#4739;&#4961; &#4720;&#4925;&#4755;&#4661;&#4962; &#4707;&#4629;&#4721;&#4961; &#4774;&#4768;&#4704;&#4813;&#4840;&#4961; &#4808;&#4768;&#4739;&#4813;&#4840;&#4961; &#4635;&#4741;&#4704;&#4653;&#4961; &#4707;&#4653;&#4777;&#4754;&#4961; &#4704;&#4704;&#4648;&#4776;&#4725;&#4961; &#4941;&#4925;&#4637;&#4725;&#4961; &#4808;&#4770;&#4725;&#4653;&#4661;&#4769;&#4754;&#4961; &#4704;&#4704;&#4920;&#4622;&#4725;&#4781;&#4633;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4736;&#4704;&#4961; &#4720;&#4752;&#4704;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4773;&#4757;&#4824;&#4961; &#4608;&#4622;&#4777;&#4961; &#4704;&#4629;&#4845;&#4808;&#4725;&#4961; &lt;...&gt; &#4808;&#4773;&#4637;&#4853;&#4741;&#4648;&#4610;&#4961; &#4638;&#4725;&#4777;&#4961; &#4768;&#4635;&#4741;&#4920;&#4757;&#4777;&#4961; &#4752;&#4941;&#4661;&#4840;&#4961; &#4813;&#4661;&#4720;&#4961; &#4773;&#4852;&#4781;&#4633;&#4964; &#4720;&#4824;&#4776;&#4649;&#4754;&#4961; &#4704;&#4941;&#4725;&#4624;&#4725;&#4961; &#4808;&#4704;&#4768;&#4757;&#4709;&#4710;&#4961; &#4851;&#4810;&#4725;&#4964; &#4808;&#4770;&#4725;&#4941;&#4621;&#4897;&#4754;&#4961; &#4773;&#4637;&#4752;&#4961; &#4633;&#4723;&#4757;&#4961; &#4704;&#4874;&#4828;&#4961; &#4920;&#4622;&#4723;&#4725;&#4961; &#4808;&#4661;&#4773;&#4616;&#4723;&#4725;&#4961; &#4704;&#4874;&#4828;&#4961; &#4821;&#4899;&#4757;&#4961; &#4808;&#4685;&#4653;&#4707;&#4757;&#4961; &#4789;&#4622;&#4961; &#4874;&#4828;&#4962; &#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4622;&#4961; &#4773;&#4632;&#4610;&#4961; &lt;...&gt;</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; "> </span><span style="font-size: large; "><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4808;&#4773;&#4632;&#4610;&#4961; &#4632;&#4784;&#4757;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4808;&#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; ">Fol. 1v: I, &#704;Isay&#477;yyas, disciple of the community, brought this book of </span><span lang="EN-US" style="line-height: 115%; ">Synaxarion for</span><span lang="EN-GB" style="line-height: 115%; "> Kidan&#228; M&#601;&#7717;r&#228;t D&#228;br&#228; G&#228;nn&#228;t after I have patiently waited many days (suffering of) hunger and thirst and great need at the gate in G</span><sup><span lang="EN-US" style="line-height: 115%; ">w</span></sup><span lang="EN-GB" style="line-height: 115%; ">&#228;nd&#228;r...</span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small; ">Fol. 1v: Acquisition note.</span></p><q xml:lang="gez"><p><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; ">Fol. 1v:</span></span><span style="font-size: x-small"><span lang="EN-GB" style="line-height: 115%; font-family: "> </span></span><span style="font-size: large; "><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4768;&#4637;&#4923;&#4773;&#4781;&#4814;&#4961; &#4616;&#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4768;&#4752;&#4961; &#4770;&#4659;&#4845;&#4843;&#4661;&#4961; &#4648;&#4853;&#4768;&#4961; &#4635;&#4741;&#4704;&#4653;&#4961; &#4920;&#4754;&#4629;&#4840;&#4961; &#4852;&#4852;&#4961; </span></span><span style="font-size: large; "><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4709;&#4825;&#4739;&#4961; &#4632;&#4811;&#4821;&#4616;&#4961; &#4813;&#4661;&#4720;&#4961; &#4880;&#4757;&#4848;&#4653;&#4961; &#4704;&#4648;&#4739;&#4709;&#4961; &#4808;&#4704;&#4925;&#4637;&#4773;&#4961; &#4808;&#4709;&#4825;&#4739;&#4961; &#4720;&#4925;&#4755;&#4661;&#4962; &#4707;&#4629;&#4721;&#4961; &#4774;&#4768;&#4704;&#4813;&#4840;&#4961; &#4808;&#4768;&#4739;&#4813;&#4840;&#4961; &#4635;&#4741;&#4704;&#4653;&#4961; &#4707;&#4653;&#4777;&#4754;&#4961; &#4704;&#4704;&#4648;&#4776;&#4725;&#4961; &#4941;&#4925;&#4637;&#4725;&#4961; &#4808;&#4770;&#4725;&#4653;&#4661;&#4769;&#4754;&#4961; &#4704;&#4704;&#4920;&#4622;&#4725;&#4781;&#4633;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4736;&#4704;&#4961; &#4720;&#4752;&#4704;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4773;&#4757;&#4824;&#4961; &#4608;&#4622;&#4777;&#4961; &#4704;&#4629;&#4845;&#4808;&#4725;&#4961; &lt;...&gt; &#4808;&#4773;&#4637;&#4853;&#4741;&#4648;&#4610;&#4961; &#4638;&#4725;&#4777;&#4961; &#4768;&#4635;&#4741;&#4920;&#4757;&#4777;&#4961; &#4752;&#4941;&#4661;&#4840;&#4961; &#4813;&#4661;&#4720;&#4961; &#4773;&#4852;&#4781;&#4633;&#4964; &#4720;&#4824;&#4776;&#4649;&#4754;&#4961; &#4704;&#4941;&#4725;&#4624;&#4725;&#4961; &#4808;&#4704;&#4768;&#4757;&#4709;&#4710;&#4961; &#4851;&#4810;&#4725;&#4964; &#4808;&#4770;&#4725;&#4941;&#4621;&#4897;&#4754;&#4961; &#4773;&#4637;&#4752;&#4961; &#4633;&#4723;&#4757;&#4961; &#4704;&#4874;&#4828;&#4961; &#4920;&#4622;&#4723;&#4725;&#4961; &#4808;&#4661;&#4773;&#4616;&#4723;&#4725;&#4961; &#4704;&#4874;&#4828;&#4961; &#4821;&#4899;&#4757;&#4961; &#4808;&#4685;&#4653;&#4707;&#4757;&#4961; &#4789;&#4622;&#4961; &#4874;&#4828;&#4962; &#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4622;&#4961; &#4773;&#4632;&#4610;&#4961; &lt;...&gt;</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; "> </span><span style="font-size: large; "><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; ">&#4808;&#4773;&#4632;&#4610;&#4961; &#4632;&#4784;&#4757;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4808;&#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small; "><span lang="EN-GB" style="line-height: 115%; ">Fol. 1v: I, &#704;Isay&#477;yyas, disciple of the community, brought this book of </span><span lang="EN-US" style="line-height: 115%; ">Synaxarion for</span><span lang="EN-GB" style="line-height: 115%; "> Kidan&#228; M&#601;&#7717;r&#228;t D&#228;br&#228; G&#228;nn&#228;t after I have patiently waited many days (suffering of) hunger and thirst and great need at the gate in G</span><sup><span lang="EN-US" style="line-height: 115%; ">w</span></sup><span lang="EN-GB" style="line-height: 115%; ">&#228;nd&#228;r...</span></span></p></q>
+                           <p>The note states that the Ms. was acquired in Gondär by ʾIsayǝyyas. This text is very similar to Additio 5 in Ms. GKM-011.</p>
                         </item>
                         <item xml:id="e1">- Numerous notes in the upper margin of fols., written probably in the same hand as the main text (some in a fine frame): notes on the calendar mentioning i.a. names of the Hebrew months  (e.g., ʾAylul in fol. 5vb); notes on astrology referring to the signs of Zodiac (e.g., Mizan, fol. 17vb, Ḥut in fol. 183ra); additional (?) ʿarke-hymns (fols. 88va, 89rb, 89va, 112vb); a note on the creation of the world (fol. 186va).&#xD;
 - Corrections over erased words and passages and interlineally, carefully written in a different hand (?): e.g., fols. 19vc, 25r, 26va, 35ra, 35vc, 46vc, 57va, 60va, 68rc, 72rc, 79vc, 98rc, 107rb, 108vc, 125rb, 148rb, 164ra.&#xD;
@@ -233,7 +229,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
+                        <placeName corresp="INS0108GKM">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
                      </origPlace>
                      <origDate notBefore="1682" notAfter="1716">The name of the donor Mäzmurä Dǝngǝl is mentioned in Ms. GKM-011 which can be dated to late 17th - early 18th cent.</origDate>
                   </origin>
@@ -275,10 +271,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -299,7 +291,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-04">registered</change>
          <change who="SH" when="2012-03-12T11:40:55.180Z">created</change>
          <change who="MV" when="2015-01-29T09:28:58.112Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DÃ¤brÃ¤Dammo"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-027</idno>
                   <altIdentifier>
                      <idno>C3-IV-244 (fol. 3r)</idno>
@@ -57,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">150.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">150.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">21.0</width>
@@ -138,7 +136,7 @@ Possibly, quire A originally consisted of two bilofios.</item>
                         <condition key="good">The back board is broken and carefully repaired with a leather cord.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>127</height>
                               <width>140</width>
@@ -151,31 +149,31 @@ Possibly, quire A originally consisted of two bilofios.</item>
                               <dim type="left">16</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 On fols. 3r-23v, 135v-149r, written lines do not exactly follow the ruling lines.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine; hand b: careful; hand c: fine and careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 18th century.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3r-23v, 135v-149r. Letters with pronounced serifs, slanted at somewhat different angles. </handNote>
@@ -188,10 +186,9 @@ On fols. 3r-23v, 135v-149r, written lines do not exactly follow the ruling lines
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 2r: Scribe's exhortation to the Lord.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small">Fol. 2r:</span> <span style="font-size: large">ለዛቲ፡ ብርዕየ፡ ዘወጠንክዋ፡ አሥምራ፡ እግዚኦ፡ ወአሠንያ፡ ወአፈጽመኒ፡ በዳህና፡ ወበሰላ<span style="font-size: small;">[</span></span><span style="font-size: large"><span style="font-size: small;"><span style="font-size: large">ም</span>]</span><br /> </span></q>
-                           <q xml:lang="en"><span style="font-size: small">This pen of mine which I have begun [to use], accept it o Lord and beautify it and help me finish it [my work] in wellness and peace.</span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small">Fol. 2r: Scribe's exhortation to the Lord.</span></p><q xml:lang="gez"><p><span style="font-size: small">Fol. 2r:</span> <span style="font-size: large">ለዛቲ፡ ብርዕየ፡ ዘወጠንክዋ፡ አሥምራ፡ እግዚኦ፡ ወአሠንያ፡ ወአፈጽመኒ፡ በዳህና፡ ወበሰላ<span style="font-size: small;">[</span></span><span style="font-size: large"><span style="font-size: small;"><span style="font-size: large">ም</span>]</span><br /> </span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small">This pen of mine which I have begun [to use], accept it o Lord and beautify it and help me finish it [my work] in wellness and peace.</span></p></q>
+                           <p>The note is written in hand a. The first and the last lines are rubricated.</p>
                         </item>
                         <item xml:id="e1">- The title of the work is written on the front board.&#xD;
 - Tämälläs-signs: fols. 3rb l.1, 6vb l.3. &#xD;
@@ -215,7 +212,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DÃ¤brÃ¤Dammo">DÃ¤brÃ¤ Dammo / DD</placeName>
+                        <placeName corresp="INS0105DD">DÃ¤brÃ¤ Dammo / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1800"/>
                   </origin>
@@ -257,10 +254,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -282,7 +275,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-24">registered</change>
          <change who="MK" when="2012-01-25T12:11:57.619Z">created</change>
          <change who="EG" when="2014-08-19T13:33:21.989Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

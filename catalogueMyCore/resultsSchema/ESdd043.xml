@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DäbräDammoʾAbunäʾArägawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-043</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">147.0</measure> folios,
-                                                in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">147.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.0</height>
                               <width unit="cm">19.0</width>
@@ -129,7 +127,7 @@ Fols. 1, 146 are damaged.&#xD;
 Piece of parchment cut out off fol. 98</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>135</height>
                               <width>140</width>
@@ -142,27 +140,27 @@ Piece of parchment cut out off fol. 98</condition>
                               <dim type="left">16</dim>
                               <dim type="intercolumn">16</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 8r.</ab>
+                           <note>All data for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 17th - early 18th century.</date>
                      </handNote>
                   </handDesc>
@@ -178,10 +176,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r: </span><span style="line-height: 115%;">[l.n.] </span><span style="font-size: large;"><span style="line-height: 115%;">&#4845;&#4812;&#4853;&#4661;&#4811;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4813;&#4661;&#4720;&#4961; &#4813;&#4659;</span><span style="line-height: 115%;">&#4900;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4632;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">[</span><span style="font-size: large;"><span style="line-height: 115%;">&#4757;</span><span style="line-height: 115%;">&#4902;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4619;</span></span></span></span><span style="line-height: 115%;">&#4821;&#4725;</span></span><span style="line-height: 115%;">]</span><span style="line-height: 115%;">&#160;</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4845;&#4709;&#4621;&#4811;&#4961; &#160;</span><span style="line-height: 115%;">&#4704;</span><span style="line-height: 115%;">&#4624;&#4778;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230; </span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fols. 1r-1v: Hymn to St. Mary (ChRep. no. 388).</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r: </span><span style="line-height: 115%;">[l.n.] </span><span style="font-size: large;"><span style="line-height: 115%;">&#4845;&#4812;&#4853;&#4661;&#4811;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4813;&#4661;&#4720;&#4961; &#4813;&#4659;</span><span style="line-height: 115%;">&#4900;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4632;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">[</span><span style="font-size: large;"><span style="line-height: 115%;">&#4757;</span><span style="line-height: 115%;">&#4902;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4619;</span></span></span></span><span style="line-height: 115%;">&#4821;&#4725;</span></span><span style="line-height: 115%;">]</span><span style="line-height: 115%;">&#160;</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4845;&#4709;&#4621;&#4811;&#4961; &#160;</span><span style="line-height: 115%;">&#4704;</span><span style="line-height: 115%;">&#4624;&#4778;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230; </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is partly abraded, illegible.</p>
                         </item>
                         <item xml:id="e1">- Pen trials, scribbles, drawings: fols. 1v, 2r, 3v, 4r, 127v, 146r, 147v.&#xD;
 - Small coloured design of the cross: fol. 3r (outer margin).&#xD;
@@ -204,7 +201,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DäbräDammoʾAbunäʾArägawi">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
+                        <placeName corresp="INS0105DD">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1650" notAfter="1750"/>
                   </origin>
@@ -246,10 +243,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -270,7 +263,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2014-05-30">registered</change>
          <change who="SD" when="2014-08-13T13:07:51.647Z">created</change>
          <change who="DN" when="2014-11-10T16:39:19.339Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

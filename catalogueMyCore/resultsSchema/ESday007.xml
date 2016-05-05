@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0100DǝrbaDäbräʾAbunäYasay"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0100DAY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DAY-007</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ elements of the punctuation signs; Ethiopic numerals or their elements.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">30.0</measure> folios,
-                                                in
-                                                <measure unit="quire">5.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">30.0</measure> folios, in <measure unit="quire">5.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">17.7</width>
@@ -87,7 +85,7 @@ Cut repaired on fol. 1.&#xD;
 Some leaves are stained with water (fols. 5v-6r, 7v, 11r, 30r).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>156</height>
                               <width>125</width>
@@ -100,31 +98,31 @@ Some leaves are stained with water (fols. 5v-6r, 7v, 11r, 30r).</condition>
                               <dim type="left">17</dim>
                               <dim type="intercolumn">23</dim>
                            </dimensions>
-                           <ab type="ruling"/>
+                           <note/>
                            <ab type="ruling">sometimes 19</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular</ab>
                         <seg type="ink">Black; red (reddish-brown in Additio 3).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Early 20th century</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -135,22 +133,22 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;"><span lang="EN-US">Fol. 1v: Message from </span><span lang="EN-GB">d</span><span lang="EN-US">&#228;</span><span lang="EN-GB">&#287;&#287;azma&#269; G&#228;br&#228; T&#228;kle</span><span lang="EN-GB"> </span><span lang="EN-US">to the community of</span><span lang="EN-US"> </span><span lang="EN-GB">D&#477;rba.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fol. 1v: </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;"><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala;">&#4840;&#4720;&#4619;&#4776;&#4961;</span> &#4776;<span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4848;</span>&#4867;&#4829;&#4635;&#4733;&#4961; &#4872;&#4709;&#4648;&#4961; &#4720;&#4781;&#4620;&#4961; &#4845;&#4853;&#4648;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&lt;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4661;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&gt;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961; &#4776;&#4635;&#4629;&#4704;&#4653;&#4961; &#4824;&#4853;&#4653;&#4707;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961;</span> <span lang="AMH" style="line-height: 115%; font-family: Nyala;"><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala;">&#4840;&#4830;&#4648;&#4704;&#4725;&#4961;</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note, in Amharic in a faded black ink, is copied upside down.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="font-family: ">Fol. 29vb: Unfinished note on the commissioner of the Ms.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span lang="EN-US" style="line-height: 115%;">Fol. 29vb:</span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: "> </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4848;&#4867;&#4829;&#4635;&#4733;&#4961; <span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala;">&#4873;&#4877;&#4659;&#4961;</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is incomplete; it is written in black ink by a crude secondary hand, the same as that of Additio 3. It mentions däğğazmač Gugsa as the commissioner of the book.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" style="font-family: ">Fol. 30ra-b: Donation note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="font-family: ">Fol. 30ra-b: Donation note.</span></span></p> <p></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fol. 30ra: </span></span><span style="font-size: small;"><span lang="AMH" style="line-height: 115%;">&lt;</span><span lang="EN-GB" style="line-height: 115%;">...&gt;</span></span><span style="font-size: large;"><span lang="EN-GB" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4608;&#4710;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4723;&#4710;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4843;&#4659;&#4845;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4853;&#4653;&#4707;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4848;&#4867;&#4829;&#4635;&#4733;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4873;&#4877;<span lang="AMH" style="line-height: 115%; font-family: Nyala;"><span lang="AMH" unicode="" arial="" style="line-height: 115%; font-family: Nyala;">&#4659;</span></span>&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4885;&#4773;&#4850;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4661;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4781;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4635;&#4808;&#4621;&#4848;</span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">[sic]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4768;&#4705;&#4609;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4923;&#4853;&#4677;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4768;&#4704;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4609;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4645;&#4619;&#4660;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4773;&#4633;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4608;&#4872;&#4649;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4885;&#4773;&#4850;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4725;&#4656;&#4632;&#4845;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4608;&#4757;&#4880;&#4851;&#4962;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4773;&#4637;&#4613;&#4840;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4896;&#4808;&#4635;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4632;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4678;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4757;&#4876;&#4619;&#4810;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4978;&#4987;&#4808;&#4977;&#4987;&#4808;&#4971;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">[fol. 30rb]</span></span><span lang="EN-GB" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4632;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4637;&#4629;&#4648;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4925;&#4612;&#4942;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4773;&#4757;&#4824;&#4961; &#4608;&#4622;&#4961; &#4704;&#4637;&#4853;&#4648;&#4961; &#4664;&#4811;&#4961; </span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">&lt;...&gt;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4936;&#4752;&#4811;&#4961; &#4608;&#4704;&#4961; &#4608;&#4757;&#4880;&#4851;&#4961; &#4808;&#4773;&#4637;&#4853;&#4648;&#4961; &#4638;&#4721;&#4961; &#4936;&#4752;&#4813;&#4811;&#4961; &#4848;&#4674;&#4673;&#4961; &#4608;&#4872;&#4648;&#4961; &#4925;&#4651;&#4821;&#4961; &#4824;&#4725;&#4656;&#4632;&#4845;&#4961; &#4853;&#4653;&#4707;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4920;&#4622;&#4721;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4843;&#4659;&#4845;&#4961; &#4840;&#4611;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4872;&#4709;&#4648;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4968; &#4968; &#4968;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in black and red (reddish-brown) ink by the same secondary hand as that of Additio 2.
+It states that the Ms. was donated to the church (tabot) of ʾabunä Yasay Dǝrba by däğğazmač Gugsa, whose baptismal name is Wäldä Maryam. Beside him some of his relatives are mentioned: his father Gäbrä Ṣadǝq, his grandfather (the father of his father) Wäldä Śǝllase. The name of his mother is missing. 
+Again, the note states that däğğazmač Gugsa, who came originally from ʾAgwǝʾdi, a place called Hangwäda, commissioned the writing of the Ms. in the year of mercy 1903 in time of Mark the Evangelist (= 1910 A.D.; cp. ChChron 172), while he was in the region of Šäwa; from there he sent the Ms. to Hangwäda and after he died his children sent it to Dǝrba.
+Some lines at the beginning of the note are erased.</p>
                         </item>
                         <item xml:id="e1">- Stamp (violet) in fol. 1v.&#xD;
 - Crude notes (by a recent hand and in pen) in the margins of fols. 3r, 13v, 15v, 20v, 21r, 26r, 30r.&#xD;
@@ -172,7 +170,7 @@ Two pairs of sawing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0100DǝrbaDäbräʾAbunäYasay">Dǝrba Däbrä ʾAbunä Yasay  /DAY</placeName>
+                        <placeName corresp="INS0100DAY">Dǝrba Däbrä ʾAbunä Yasay  /DAY</placeName>
                      </origPlace>
                      <origDate notBefore="1910" notAfter="1911">1903 A.M. (= 1910 A.D.)&#xD;
 The date 1903 A.M. and the time of Mark the Evangelist (= 1910 A.D., cp. ChChron 172) are mentioned in Additio 3 as the time when the Ms. was commissioned by däğğazmač Gugsa.</origDate>
@@ -215,10 +213,6 @@ The date 1903 A.M. and the time of Mark the Evangelist (= 1910 A.D., cp. ChChron
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -240,7 +234,7 @@ The date 1903 A.M. and the time of Mark the Evangelist (= 1910 A.D., cp. ChChron
          <change who="DN" when="2010-12-16">registered</change>
          <change who="VP" when="2013-05-31T16:27:40.110Z">created</change>
          <change who="EG" when="2014-07-25T09:52:35.951Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0042MədräRubaSəllase"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0042MR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MR-033b</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">64.0</measure> folios,
-                                                in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">64.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">18.5</width>
@@ -98,7 +96,7 @@ The board attachments have been crudely repaired by means of synthetic threads.&
 Holes or tears amended e.g., on fols. 10, 23, 26, 28, 32, 42, 50, 52.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>200</height>
                               <width>160</width>
@@ -111,28 +109,42 @@ Holes or tears amended e.g., on fols. 10, 23, 26, 28, 32, 42, 50, 52.</condition
                               <dim type="left">15</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre and irregular</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th cent.</date>
+                        <list type="abbreviations">
+                           <item>throughout Text I</item>
+                           <item>
+                              <abbr>ለ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 7ra)</item>
+                           <item>
+                              <abbr>ለ፡ ዓ፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 9va)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 21va, 57ra)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 17va)</item>
+                           <item>throughout Text II</item>
+                           <item>ሰላ፡ for ሰላም፡</item>
+                           <item>ሚካ፡ for ሚካኤል፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -157,7 +169,7 @@ Fol. 62 is reinforced by parchment guards.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MədräRubaSəllase">Mədrä Ruba Səllase /MR</placeName>
+                        <placeName corresp="INS0042MR">Mәdrä Ruba Sәllase /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent.</origDate>
                   </origin>
@@ -199,10 +211,6 @@ Fol. 62 is reinforced by parchment guards.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -224,7 +232,7 @@ Fol. 62 is reinforced by parchment guards.</decoNote>
          <change who="DN" when="2010-05-12">registered</change>
          <change who="SH" when="2013-07-23T16:05:13.158Z">created</change>
          <change who="SH" when="2014-10-28T15:01:30.419Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

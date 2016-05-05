@@ -29,21 +29,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0042MədräRuba"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0042MR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MR-032</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
                      <rubric>Nomina sacra; &#xD;
-the word məʿəraf;&#xD;
+the word mәʿәraf;&#xD;
 a few lines (in both columns) in the incipit page of each text, divided into two, three or four groups, alternating with black lines (2 lines in fol. 6r, 9 lines on fol. 44r, 5 lines on fol. 64r, 8 lines on fol. 101r); the Canon tables; &#xD;
 the incipits of the parts of the Introduction (fols. 6ra – 13va) and of the chapters of the Gospels;&#xD;
 the title of each Gospel; the chapters titles;&#xD;
 Ethiopic numerals of the “tituli”;&#xD;
 the horizontal dashes above and below Ethiopic numerals; &#xD;
 elements of the punctuation signs;&#xD;
-name of Wälättä Mädḫən, one of the donors(fol. 43vb, l.22); names of the church feasts in the upper margin of some fols. indicating the Gospel readings.</rubric>
+name of Wälättä Mädḫәn, one of the donors(fol. 43vb, l.22); names of the church feasts in the upper margin of some fols. indicating the Gospel readings.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -59,9 +59,7 @@ name of Wälättä Mädḫən, one of the donors(fol. 43vb, l.22); names of the 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">128.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">13.0</measure> blank, in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">128.0</measure> folios, of which <measure unit="leaf" type="blank">13.0</measure> blank, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">32.5</height>
                               <width unit="cm">26.5</width>
@@ -128,7 +126,7 @@ name of Wälättä Mädḫən, one of the donors(fol. 43vb, l.22); names of the 
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="28">
                            <dimensions unit="mm">
                               <height>220</height>
                               <width>180</width>
@@ -141,29 +139,29 @@ name of Wälättä Mädḫən, one of the donors(fol. 43vb, l.22); names of the 
                               <dim type="left">17</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for the second page of the first Gospel, recto side (fol. 17r).</ab>
+                           <note>All data are for the second page of the first Gospel, recto side (fol. 17r).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Poor</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 20th century.</date>
                      </handNote>
                   </handDesc>
@@ -180,20 +178,17 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 43vb, ls. 12-24: Note on commissioning of the writing extended by the donation statement.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 43vb, ls. 12-24: Note on commissioning of the writing extended by the donation statement.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note containt the date 1919, a year of Luke (= 1927 A.D.).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fol. 63ra l.18-63rb: Ownership note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fol. 63ra l.18-63rb: Ownership note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 100rb, ls. 16-24: Ownership note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 100rb, ls. 16-24: Ownership note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -216,7 +211,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MədräRuba">Mədrä Ruba /MR</placeName>
+                        <placeName corresp="INS0042MR">Mәdrä Ruba /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1900" notAfter="1927">Early 20th century.</origDate>
                   </origin>
@@ -253,13 +248,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">qes gäbäz Wäldä Gäbrʾel (s. fols.: 43vb, ls. 19-20; 63ra, l. 20; 100rb, l.21), ʾato Täkwəlu (s. fols.: 43vb, l.20; 63ra, l.21; 100rb, l.22), Wälättä Mädḫən (s. fols.: 43vb, ls. 12-13, 22; 63rb, l.1; 100rb, l.17), Wälättä Yoḥannəs (s. fols.: 43vb, ls. 15-16; 63rb, l.1; 100rb, l.19), Wälättä Giyorgis (s. fols.: 43vb, l. 16; 63rb, ls.1-2; 100rb, ls. 19-20), Wäldä Krəstos (s. fols.: 43vb, l.13; 63rb, l.2; 100rb, ls. 17-18), Gäbrä Krəstos (s. fols.: 43vb, l.14; 63rb, l.3; 100rb, l.18), Gäbrä Mäsqäl (s. fols.: 43vb, l.14; 63rb, l.3; 100rb, l.18), Wäldä Ḥawaryat (s. fols.:  43vb, ls. 14-15; 63rb,  l.4; 100rb, l.19).</persName>
+                  <persName corresp="PRS0000">qes gäbäz Wäldä Gäbrʾel (s. fols.: 43vb, ls. 19-20; 63ra, l. 20; 100rb, l.21), ʾato Täkwәlu (s. fols.: 43vb, l.20; 63ra, l.21; 100rb, l.22), Wälättä Mädḫәn (s. fols.: 43vb, ls. 12-13, 22; 63rb, l.1; 100rb, l.17), Wälättä Yoḥannәs (s. fols.: 43vb, ls. 15-16; 63rb, l.1; 100rb, l.19), Wälättä Giyorgis (s. fols.: 43vb, l. 16; 63rb, ls.1-2; 100rb, ls. 19-20), Wäldä Krәstos (s. fols.: 43vb, l.13; 63rb, l.2; 100rb, ls. 17-18), Gäbrä Krәstos (s. fols.: 43vb, l.14; 63rb, l.3; 100rb, l.18), Gäbrä Mäsqäl (s. fols.: 43vb, l.14; 63rb, l.3; 100rb, l.18), Wäldä Ḥawaryat (s. fols.:  43vb, ls. 14-15; 63rb,  l.4; 100rb, l.19).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -282,7 +273,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-12">registered</change>
          <change who="VP" when="2011-07-06T09:48:46.481Z">created</change>
          <change who="EG" when="2015-02-20T15:21:11.585Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0017ʿUraQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0017UQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>UM-007</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">145.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">145.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.0</height>
                               <width unit="cm">18.3</width>
@@ -101,7 +99,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The Ms. has been resewn.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>154</height>
                               <width>142</width>
@@ -114,28 +112,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 74r.</ab>
+                           <note>All data for fol. 74r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling is occasionally visible (s. fol. 92r); pricking is mostly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling is occasionally visible (s. fol. 92r); pricking is mostly visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are occasionally visible (s. fol. 87r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible (s. fol. 87r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th - early 20th centuries.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ or ይካ or ካ፡ for ይቤ፡ ካህን</item>
+                           <item>ይዲ፡ for ይቤ፡ ዲያቆን</item>
+                           <item>ይሕ፡ or ይሕ or ሕ፡ for ይቤ፡ ሕዝብ፡</item>
+                           <item>ጸል፡ for ጸልዩ፡</item>
+                           <item>ወካዕ፡ for ወካዕበ፡</item>
+                           <item>ቡራ፡ for ቡራኬ፡</item>
+                           <item>እማ፡ for እማሬ፡</item>
+                           <item>ተሣ፡ for እግዚኦ፡ ተሣሀለነ፡</item>
+                           <item>ጸሎፈት፡ for ጸሎተ፡ ፈትቶ፡</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓ፡ አ።</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን። </expan> (e.g., fol. 135vb l.8)</item>
+                           <item>
+                              <abbr>እግ፡ አም፡ አኃ፡ ኵ፡ ዘ፡ ለ፡ ዓ፡ አቡ፡ ለእ፡ ወ፡ ኢ፡ ክ። and similar variants</abbr> for <expan>እግዚአብሔር፡ አምላክነ፡ አኃዜ፡ ኵሉ፡ ዘለዓለም፡ አቡሁ፡ ለእግዚእነ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ። </expan> (e.g., fol. 12rb ll.18-20)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -152,9 +165,8 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: 10pt">Fol. 145r: </span><span style="font-size: 14pt; line-height: 115%"><span style="font-size: 14pt; line-height: 115%">&#4827;&#4722;&#4961; &#4677;&#4851;&#4660;&#4961; &#4824;&#4773;&#4609;&#4752;&#4961; </span><span style="font-size: 14pt; line-height: 115%">{</span><span style="font-size: 14pt; line-height: 115%">&#4709;&#4653;&#4611;&#4752;&#4961;</span><span style="font-size: 14pt; line-height: 115%">}</span><span style="font-size: 14pt; line-height: 115%"> &#4632;&#4661;&#4672;&#4621;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4778;&#4654;&#4661;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4768;&#4739;&#4810;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4824;&#4768;&#4901;&#4648;&#4843;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4704;&#4979;&#4808;&#4972;&#4961; &#4709;&#4653;&#4961; &#4808;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4817;&#4651;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4757;&#4873;&#4645;&#4961; &#4637;&#4754;&#4621;&#4781;&#4961; &#4808;&#4915;&#4915;&#4661;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4872;&#4704;&#4829;&#4961; &#4676;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4611;&#4675;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></q>
-                           <q xml:lang="en"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: 10pt">Fol. 145r: Donation note.</span></div><q xml:lang="gez"><p><span style="font-size: 10pt">Fol. 145r: </span><span style="font-size: 14pt; line-height: 115%"><span style="font-size: 14pt; line-height: 115%">&#4827;&#4722;&#4961; &#4677;&#4851;&#4660;&#4961; &#4824;&#4773;&#4609;&#4752;&#4961; </span><span style="font-size: 14pt; line-height: 115%">{</span><span style="font-size: 14pt; line-height: 115%">&#4709;&#4653;&#4611;&#4752;&#4961;</span><span style="font-size: 14pt; line-height: 115%">}</span><span style="font-size: 14pt; line-height: 115%"> &#4632;&#4661;&#4672;&#4621;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4778;&#4654;&#4661;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4768;&#4739;&#4810;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4824;&#4768;&#4901;&#4648;&#4843;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4704;&#4979;&#4808;&#4972;&#4961; &#4709;&#4653;&#4961; &#4808;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4817;&#4651;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4757;&#4873;&#4645;&#4961; &#4637;&#4754;&#4621;&#4781;&#4961; &#4808;&#4915;&#4915;&#4661;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4872;&#4704;&#4829;&#4961; &#4676;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4611;&#4675;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><div><span style="font-size: 10pt; line-height: 115%"><span style="font-size: 10pt; line-height: 115%">Fol. 145r: This Missal belongs to our brother </span><span style="font-size: 10pt; line-height: 115%">{</span><span style="font-size: 10pt; line-height: 115%">B</span><span style="font-size: 10pt; line-height: 115%">&#477;</span><span style="font-size: 10pt; line-height: 115%">rhan&#228;</span><span style="font-size: 10pt; line-height: 115%">}</span><span style="font-size: 10pt; line-height: 115%">&#160;M&#228;sq&#228;l; and his father (is)&#160;W&#228;ld&#228; Kiros and his mother W&#228;l&#228;tt&#228; Mika</span><span style="font-size: 10pt; line-height: 115%">&#704;</span><span style="font-size: 10pt; line-height: 115%">el and his brothers </span><span style="font-size: 10pt; line-height: 115%">&#704;abun&#228; T&#228;w&#228;ld&#228; M&#228;d</span><span style="font-size: 10pt; line-height: 115%">&#7723;&#477;</span><span style="font-size: 10pt; line-height: 115%">n, </span><span style="font-size: 10pt; line-height: 115%">&#704;abun&#228; G&#228;br&#228; M&#228;d</span><span style="font-size: 10pt; line-height: 115%">&#7723;&#477;</span><span style="font-size: 10pt; line-height: 115%">n, </span><span style="font-size: 10pt; line-height: 115%">&#704;abun&#228; G&#228;br&#228; </span><span style="font-size: 10pt; line-height: 115%">&#704;&#398;</span><span style="font-size: 10pt; line-height: 115%">gzi</span><span style="font-size: 10pt; line-height: 115%">&#704;</span><span style="font-size: 10pt; line-height: 115%">ab</span><span style="font-size: 10pt; line-height: 115%">&#477;&#7717;</span><span style="font-size: 10pt; line-height: 115%">er G&#228;br&#228; M&#228;sq&#228;l, he (B</span><span style="font-size: 10pt; line-height: 115%">&#477;</span><span style="font-size: 10pt; line-height: 115%">rhan&#228; M&#228;sq&#228;l) who acquired it through his own property for 24 B</span><span style="font-size: 10pt; line-height: 115%">&#477;</span><span style="font-size: 10pt; line-height: 115%">rr and donated it to the tabot of St. Qirqos of </span><span style="font-size: 10pt; line-height: 115%">&#705;</span><span style="font-size: 10pt; line-height: 115%">Ura, so that it may be his guide to the Kingdom of Heaven. In the reign of King M</span><span style="font-size: 10pt; line-height: 115%">&#477;</span><span style="font-size: 10pt; line-height: 115%">nil</span><span style="font-size: 10pt; line-height: 115%">&#477;</span><span style="font-size: 10pt; line-height: 115%">k, Metropolitan </span><span style="font-size: 10pt; line-height: 115%">&#7766;</span><span style="font-size: 10pt; line-height: 115%">e</span><span style="font-size: 10pt; line-height: 115%">&#7789;</span><span style="font-size: 10pt; line-height: 115%">ros and g&#228;b&#228;z (is)&#160;qes W&#228;ld&#228; Maryam. He who stole </span><span style="font-size: 10pt; line-height: 115%">(</span><span style="font-size: 10pt; line-height: 115%">this book</span><span style="font-size: 10pt; line-height: 115%">)</span><span style="font-size: 10pt; line-height: 115%"> or erased </span><span style="font-size: 10pt; line-height: 115%">(</span><span style="font-size: 10pt; line-height: 115%">its text</span><span style="font-size: 10pt; line-height: 115%">) will be excommunicated by the authority of Peter and Paul.</span></span></div></q>
                            <p/>
                         </item>
                         <item xml:id="e1">- The concluding sentences of the Anaphoras are sometimes not written out in full, with only the initial words standing for the whole sentence (e.g., fols. 69vb l.11; 88ra ls.21-22).&#xD;
@@ -179,7 +191,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0017ʿUraQirqos">ʿUra Qirqos / UQ</placeName>
+                        <placeName corresp="INS0017UQ">ʿUra Qirqos / UQ</placeName>
                      </origPlace>
                      <origDate notBefore="1889" notAfter="1913">King Mǝnilǝk II (r. 1889-1913) and Metropolitan Ṗeṭros (in tenure 1881-1917) are mentioned in Additio 1.</origDate>
                   </origin>
@@ -221,10 +233,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -245,7 +253,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-04-27">registered</change>
          <change who="IF" when="2010-12-11T13:21:21.685Z">created</change>
          <change who="SH" when="2014-06-10T09:44:26.602Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

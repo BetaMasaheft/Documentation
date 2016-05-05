@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0110QiʿatDäbräṢǝyonQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0110QDS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QDS-001</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus/>justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 148ra</span><span style="line-height: 115%">:</span><span style="line-height: 115%"> </span></span><span style="font-size: large"><span style="line-height: 115%">&#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4720;&#4768;&#4637;&#4650;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4704;&#4725;&#4661;&#4709;&#4773;&#4725;&#4964; &#4768;&#4632;&#4961; &#4768;&#4661;&#4720;&#4653;&#4768;&#4840;&#4961; &#4813;&#4661;&#4720;&#4961; &#4819;&#4616;&#4637;&#4961; &#4704;&#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4808;&#4840;&#4709;&#4661;&#4964; &#4824;&#4768;&#4773;&#4616;&#4814;&#4961; &#4672;&#4620;&#4637;&#4902;&#4661;&#4961; &#4773;&#4632;&#4637;&#4613;&#4649;&#4961; &#4618;&#4672;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; </span><span style="line-height: 115%">&#4808;&#4819;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;</span></span>The note is written in hand b. It might be also an embedded colophon (colophon of the work).</colophon>
+                        <locus/><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 148ra</span><span style="line-height: 115%">:</span><span style="line-height: 115%"> </span></span><span style="font-size: large"><span style="line-height: 115%">&#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4720;&#4768;&#4637;&#4650;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4704;&#4725;&#4661;&#4709;&#4773;&#4725;&#4964; &#4768;&#4632;&#4961; &#4768;&#4661;&#4720;&#4653;&#4768;&#4840;&#4961; &#4813;&#4661;&#4720;&#4961; &#4819;&#4616;&#4637;&#4961; &#4704;&#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4808;&#4840;&#4709;&#4661;&#4964; &#4824;&#4768;&#4773;&#4616;&#4814;&#4961; &#4672;&#4620;&#4637;&#4902;&#4661;&#4961; &#4773;&#4632;&#4637;&#4613;&#4649;&#4961; &#4618;&#4672;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; </span><span style="line-height: 115%">&#4808;&#4819;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;</span></span></p><foreign xml:lang="en"/>
+                        <note>The note is written in hand b. It might be also an embedded colophon (colophon of the work).</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -55,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">149.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">149.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">28.5</height>
                               <width unit="cm">21.0</width>
@@ -139,7 +139,7 @@ Some fols. are stained with wax. &#xD;
 Holes are carefully amended on fols. 1, 49, 70, 75, 114, 128, 134, 143.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>162</width>
@@ -152,19 +152,21 @@ Holes are carefully amended on fols. 1, 49, 70, 75, 114, 128, 134, 143.</conditi
                               <dim type="left">11</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 2r-3v: all data for fol. 2r.</ab>
+                           <note>Fols. 2r-3v: all data for fol. 2r.</note>
                            <ab type="ruling">25 lines in fols. 2r-3v</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>162</width>
@@ -177,17 +179,21 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 4r-149v: all data for fol. 5r.</ab>
+                           <note>Fols. 4r-149v: all data for fol. 5r.</note>
                            <ab type="ruling"/>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre; hand b: mediocre</ab>
                         <seg type="ink">Black, red (strong amaranth in fols. 2r-3v, 148v; vivid red in fols. 4r-148r)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Hand a: 19th century (?); hand b: 18th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Dǝngǝl</persName>The name of the original scribe has been erased from the concluding supplication formula on fol. 148ra and replaced with the name of ʾabba Gäbrä Dǝngǝl (who probably wrote Text I-1, hand a).<date>Hand a: 19th century (?); hand b: 18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ምዕራ:</abbr> for <expan>ምዕራፍ: </expan> (fols. 95ra, 143va)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 2r-3v (ʾabba Gäbrä Dǝngǝl): the letters are slightly right-sloping, tend to rectangular shapes, some with hairlines.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 4r-149v: the letters are slightly left-sloping, broad, round, some with hairlines.</handNote>
@@ -195,10 +201,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 148rb: Donation note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 148rb: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 148rb: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4770;&#4843;&#4657;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4674;&#4819;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758; &#4961; &#4632;&#4653;&#4613;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4656;&#4648;&#4678;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the same secondary hand which has written the names in the supplication formulas. It states that Wäldä ʾIyasu bought the book and donated it to the church of Maryam Qiʿat.</p>
                         </item>
                         <item xml:id="e1">-	The scribe wrote a few lines of Text I-1 in two columns in the upper margin: fol. 3v.  &#xD;
 - A note has been almost entirely erased, only the excommunication formula has been left intact:  fol. 148rb. &#xD;
@@ -223,7 +228,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0110QiʿatDäbräṢǝyonQǝddǝstMaryam">Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</placeName>
+                        <placeName corresp="INS0110QDS">Qiʿat Däbrä Ṣǝyon Qǝddǝst Maryam / QDS</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">Fols. 4ra-148ra: 18th cent. (?)&#xD;
 Fols. 2ra-3vb, 148v: 19th cent. (?)</origDate>
@@ -266,8 +271,7 @@ Fols. 2ra-3vb, 148v: 19th cent. (?)</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Dǝngǝl</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -290,7 +294,7 @@ Fols. 2ra-3vb, 148v: 19th cent. (?)</origDate>
          <change who="DN" when="2010-12-02">registered</change>
          <change who="MK" when="2013-12-04T12:38:12.312Z">created</change>
          <change who="DN" when="2015-01-27T18:27:02.925Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

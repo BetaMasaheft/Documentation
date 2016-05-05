@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0198QälaqǝlMaryamṢǝyon"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0198QS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QS-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">81.0</measure> folios,
-                                                in
-                                                <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">81.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">19.0</height>
                               <width unit="cm">13.0</width>
@@ -104,7 +102,7 @@ The structure of quire IX cannot be established with certainty.</item>
 Tear amended on fol. 79.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>137</height>
                               <width>104</width>
@@ -117,43 +115,50 @@ Tear amended on fol. 79.</condition>
                               <dim type="left">4</dim>
                               <dim type="intercolumn">5</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 7r.</ab>
+                           <note>All data for fol. 7r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe didn’t use the upper ruled line: e.g., fols. 3v, 4r, 5v, 6r-v, 7r-v, 8r-v, 9r-v, 10r.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe didn’t use the bottom ruled line on fol. 78r.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>ምድ፡ for ምድጋም፡</item>
+                           <item>ምቅ፡, ምቅና፡ for ምቅናይ፡</item>
+                           <item>ዕዝ፡ for ዕዝል፡</item>
+                           <item>ማር፡, ማርያ፡ for ማርያም፡</item>
+                           <item>ም፡ for ምልጣን፡</item>
+                           <item>ቅንዋ፡ for ቅንዋት፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span unicode="" style="font-size:10.0pt;Arial">Fols. 80v-81r: Praise of the virtues of </span><span unicode="" style="font-size:10.0pt;Arial">hal&#228;qa &#7716;agos </span><span unicode="" style="font-size:10.0pt;Arial">who saved the book from water, who is skilled in q&#477;ne-poems (?).<br /> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 80v: </span><span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4637;&#4773;&#4651;&#4941;&#4961; &#4773;&#4635;&#4840;&#4961; &#4752;&#4896;&#4709;&#4899;&#4709;&#4961; &#4824;&#4768;&#4853;&#4739;&#4758;&#4961; &#4611;&#4616;&#4675;&#4961; &#4624;&#4878;&#4661;&#4961; &#4635;&#4821;&#4637;&#4648;&#4961; &#4677;&#4756;&#4961; <span style="font-size: small;">[fol. 81] </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4824;&#4845;&#4936;&#4901;&#4653;&#4961; &#4677;&#4756;&#4961; &#4704;&#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4768;&#4621;&#4710;&#4961; &#4776;&#4635;&#4609;&#4961; &#4704;&#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4725;&#4873;&#4613;&#4961; &#4616;&#4920;&#4622;&#4725;&#4961; &#4808;&#4656;&#4813;&#4653;&#4961; &#4773;&#4637;&#4739;&#4898;&#4768;&#4725;&#4961; &#4768;&#4621;&#4710;&#4961; &#4824;&#4768;&#4925;&#4757;&#4768;&#4961; &#4901;&#4704;&#4704;&#4961; &#4704;&#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4776;&#4635;&#4609;&#4962; &#4768;&#4853;&#4741;&#4752;&#4754;&#4961; &#4616;&#4872;&#4709;</span></span></q>
+                           <locus/><p><span unicode="" style="font-size:10.0pt;Arial">Fols. 80v-81r: Praise of the virtues of </span><span unicode="" style="font-size:10.0pt;Arial">hal&#228;qa &#7716;agos </span><span unicode="" style="font-size:10.0pt;Arial">who saved the book from water, who is skilled in q&#477;ne-poems (?).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 80v: </span><span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4637;&#4773;&#4651;&#4941;&#4961; &#4773;&#4635;&#4840;&#4961; &#4752;&#4896;&#4709;&#4899;&#4709;&#4961; &#4824;&#4768;&#4853;&#4739;&#4758;&#4961; &#4611;&#4616;&#4675;&#4961; &#4624;&#4878;&#4661;&#4961; &#4635;&#4821;&#4637;&#4648;&#4961; &#4677;&#4756;&#4961; <span style="font-size: small;">[fol. 81] </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4824;&#4845;&#4936;&#4901;&#4653;&#4961; &#4677;&#4756;&#4961; &#4704;&#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4768;&#4621;&#4710;&#4961; &#4776;&#4635;&#4609;&#4961; &#4704;&#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4725;&#4873;&#4613;&#4961; &#4616;&#4920;&#4622;&#4725;&#4961; &#4808;&#4656;&#4813;&#4653;&#4961; &#4773;&#4637;&#4739;&#4898;&#4768;&#4725;&#4961; &#4768;&#4621;&#4710;&#4961; &#4824;&#4768;&#4925;&#4757;&#4768;&#4961; &#4901;&#4704;&#4704;&#4961; &#4704;&#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4776;&#4635;&#4609;&#4962; &#4768;&#4853;&#4741;&#4752;&#4754;&#4961; &#4616;&#4872;&#4709;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The crude note stops abruptly.</p>
                         </item>
                         <item xml:id="e1">- The title of the book is written on fols. 1r, 80v, 81v.&#xD;
 - Erasures: fol. 28ra.&#xD;
@@ -180,7 +185,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0198QälaqǝlMaryamṢǝyon">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
+                        <placeName corresp="INS0198QS">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -222,10 +227,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -246,7 +247,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-12-02">registered</change>
          <change who="VR" when="2015-04-14T10:02:05.469Z">created</change>
          <change who="DN" when="2015-06-01T11:05:34.148Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

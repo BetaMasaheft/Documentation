@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0177SDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SDM-002</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">98.0</measure> folios,
-                                                in
-                                                <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">98.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.0</height>
                               <width unit="cm">20.0</width>
@@ -109,7 +107,7 @@ Many fols. are stained with wax and water. &#xD;
 Holes are carefully amended on fols. 25, 40, 41, 49, 61.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="26">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>160</width>
@@ -122,37 +120,37 @@ Holes are carefully amended on fols. 25, 40, 41, 49, 61.</condition>
                               <dim type="left">16</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th century</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Maryam</persName>Wäldä Maryam is mentioned as the scribe in the concluding supplication formula on fol. 97vb.&#xD;
+His handwriting is similar to the scribe Wäldä Maryam who produced Ms. QMB-005.<date>Late 19th century</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="color: black; line-height: 115%;">Fols. 1va-4ra: &#704;&#398;s&#228;gg&#601;d l&#228;-m&#228;l&#228;kot&#601;k&#228;...&#8220;I worship Thy Godhead&#8230;&#8221;</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is written in the main hand. The words ʾǝsäggǝd lä-mäläkotǝkä “I worship Thy Godhead” are rubricated.</p>
                         </item>
                         <item xml:id="e1">- A note in Amharic ፺(?)፱ ነው፡ ብራናው, 99 näw bǝrannaw (“There are 99 bǝranna”): fol. 98r.&#xD;
 -	Omitted letters, words, lines or passages are written interlineally or in the margin: fols. 6ra, 6va, 7rb, 10va, 12r, 17r, 17va, 18v, 19ra, 23rb, 23va, 27vb, 29vb, 33rb, 33vb, 35rb, 35va, 38vb, 39ra, 48ra, 52rb, 53ra, 53vb, 55rb, 55va, 57rb, 57v, 60rb, 62vb, 64rb, 66ra, 70ra, 71rb, 77ra, 82ra, 84vb, 86va, 97rb.&#xD;
@@ -174,7 +172,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
+                        <placeName corresp="INS0177SDM">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
                      </origPlace>
                      <origDate notBefore="1870" notAfter="1900">Late 19th cent.</origDate>
                   </origin>
@@ -216,8 +214,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -240,7 +237,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-16">registered</change>
          <change who="MK" when="2014-06-02T09:38:48.906Z">created</change>
          <change who="MB" when="2015-04-21T19:32:46.630Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

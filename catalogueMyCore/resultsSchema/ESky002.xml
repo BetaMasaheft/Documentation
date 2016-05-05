@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0171KoholoYoḥannǝsDäbräBetel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0171KY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>KY-002</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">243.0</measure> folios,
-                                                in
-                                                <measure unit="quire">33.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">243.0</measure> folios, in <measure unit="quire">33.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">49.0</height>
                               <width unit="cm">35.0</width>
@@ -172,7 +170,7 @@ Fol. 1r is worn, part of the text almost illegible.&#xD;
 Fol. 42 is severely damaged, large part of the text is missing.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="34">
                            <dimensions unit="mm">
                               <height>420</height>
                               <width>240</width>
@@ -185,19 +183,21 @@ Fol. 42 is severely damaged, large part of the text is missing.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 21r.</ab>
+                           <note>All data for fol. 21r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are not visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 139v).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written below the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="ChiRho">
                               <locus target=""/>
                            </ab>
@@ -211,7 +211,6 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful, regular, by a well-trained hand.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>15th century.</date>
                      </handNote>
                   </handDesc>
@@ -226,40 +225,34 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 195vb: Note containing condemnation of possible violators of the property rights of the church.</span></span></span></p> <h2 class="tab hover"></h2><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 195vb:</span></span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4616;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4808;&#4616;&#4757;&#4811;&#4840;&#4961; &#4827;&#4722;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4773;&#4632;&#4610;&#4961; &#4632;&#4923;&#4629;&#4941;&#4722;&#4611;&#4961; &#4808;&#4773;&#4632;&#4610;&#4961; &#4658;&#4632;&#4720;&#4961; &#4637;&#4853;&#4651;&#4961; &#4776;&#4810;&#4758;&#4961; &#4704;&#4768;&#4616;&#4961; &#4875;&#4851;&#4961; &#4808;&#4770;&#4961; &#4661;&#4841;&#4632;&#4961; &#4872;&#4757;&#4708;&#4619;&#4961; &#4773;&#4632;&#4610;&#4961; &#4768;&#4813;&#4939;&#4648;&#4961; &#4808;&#4773;&#4632;&#4610;&#4961; &#4632;&#4784;&#4757;&#4757;&#4961; &#4704;&#4656;&#4845;&#4936;&#4961; &#4675;&#4622;&#4633;&#4961; &#4616;&#4978;&#4808;&#4970;&#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4808;&#4704;&#4768;&#4937;&#4840;&#4610;&#4961; &#4776;&#4632;&#4961; &#4770;&#4845;&#4626;&#4849;&#4961; &#4813;&#4873;&#4827;&#4752;&#4961; &#4616;&#4845;&#4777;&#4753;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in a hand much posterior to the main hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 243va: Supplication for the souls of the scribe and the commissioner of the Ms.</span></span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 243va:</span></span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(&#4824;&#4757;&#4720;&#4961;) &#4632;&#4925;&#4624;&#4936;&#4961; &#4616;&#4824;&#4920;&#4624;&#4936;&#4961; (&#4808;&#4616;)&#4824;&#4610;&#4961; &#4768;&#4925;&#4624;&#4936;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4845;&#4925;&#4624;&#4941;&#4961; &#4661;&#4638;&#4633;&#4961; &#4813;&#4661;&#4720;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961;</span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243va: He who has written this book and he who has let it be written &#8211; may God write their names into the book of life, for ever and ever. Amen.</span></span></span></p></q>
+                           <p>Written in the main hand.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243va: He who has written it and he who has let it be written, he who has read it and he who has interpreted it and he who has heard its words &#8211; may the King of Glory Himself write their names upon a pillar of light with a pen of gold, in Heavenly Jerusalem, and may He not delete their supplications from the book of life. May He count them together with the holy martyrs, and may He satiate them with the meal of life. May He give them to drink from the spring of life, and may He place upon their heads the helmets of salvation which would look like luminaries upon them. For in Your hands are the mercy and the spiritual gifts, o Lord, to You be praise from the mouth of Your poor people, for ever and ever. Amen, amen and amen.</span></span></span></q>
-                           <p/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;" unicode="">For. 243va: Supplication for the souls of the scribe and the commissioner of the Ms. and for all those who would read or interpret it or listen to its reading.</span></span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 243va:</span></span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4616;&#4824;&#4920;&#4624;&#4942;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4808;&#4616;&#4824;&#4768;&#4757;&#4704;&#4710;&#4961; &#4808;&#4616;&#4824;&#4720;&#4653;&#4880;&#4638;&#4961; &#4808;&#4616;&#4824;&#4656;&#4637;&#4816;&#4961; &#4675;&#4619;&#4722;&#4609;&#4961; &#4845;&#4925;&#4624;&#4941;&#4961; &#4661;&#4638;&#4633;&#4961; &#4736;&#4704;&#4961; &#4816;&#4637;&#4848;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4704;&#4672;&#4616;&#4632;&#4961; &#4808;&#4653;&#4677;&#4961; &#4704;&#4770;&#4840;&#4649;&#4659;&#4620;&#4637;&#4961; &#4773;&#4757;&#4720;&#4961; &#4704;&#4656;&#4635;&#4843;&#4725;&#4968; &#4808;&#4770;&#4845;&#4848;&#4637;&#4661;&#4661;&#4961; &#4645;&#4821;&#4616;&#4726;&#4633;&#4961; &#4773;&#4632;&#4925;&#4624;&#4936;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4629;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4845;&#4808;&#4725;&#4968; &#4808;&#4845;&#4848;&#4637;&#4654;&#4633;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4637;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4661;&#4616;&#4961; &#4677;&#4849;&#4659;&#4757;&#4961; &#4656;&#4635;&#4821;&#4725;&#4968; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4843;&#4925;&#4877;&#4710;&#4633;&#4961; &#4635;&#4773;&#4848;&#4961; &#4629;&#4845;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4725;&#4961; &#4808;&#4704;&#4648;&#4776;&#4725;&#4961; &#4616;&#4618;&#4609;&#4961; &#4757;&#4873;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4640;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4661;&#4709;&#4624;&#4725;&#4968;&#4808;&#4843;&#4653;&#4810;&#4846;&#4633;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4773;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4637;&#4752;&#4677;&#4816;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4843;&#4757;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4709;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4653;&#4961; &#4850;&#4704;&#4961; &#4653;&#4773;&#4662;&#4633;&#4961; &#4876;&#4651;&#4961; &#4632;&#4853;&#4736;&#4754;&#4725;&#4961; &#4773;&#4757;&#4720;&#4961; &#4723;&#4661;&#4720;&#4653;&#4770;&#4961; &#4704;&#4850;&#4708;&#4614;&#4633;&#4961; &#4776;&#4632;&#4961; &#4635;&#4741;&#4726;&#4725;&#4968; &#4773;&#4661;&#4632;&#4961; &#4813;&#4661;&#4720;&#4961; &#4773;&#4852;&#4776;&#4961; &#4637;&#4741;&#4648;&#4725;&#4961; &#4808;&#4608;&#4709;&#4725;&#4961; &#4632;&#4757;&#4936;&#4659;&#4810;&#4968; &#4773;&#4877;&#4826;&#4774;&#4961; &#4616;&#4776;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4773;&#4637;&#4768;&#4936;&#4961; &#4752;&#4851;&#4843;&#4757;&#4961; &#4629;&#4829;&#4709;&#4776;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4968;</span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243va: He who has written it and he who has let it be written, he who has read it and he who has interpreted it and he who has heard its words &#8211; may the King of Glory Himself write their names upon a pillar of light with a pen of gold, in Heavenly Jerusalem, and may He not delete their supplications from the book of life. May He count them together with the holy martyrs, and may He satiate them with the meal of life. May He give them to drink from the spring of life, and may He place upon their heads the helmets of salvation which would look like luminaries upon them. For in Your hands are the mercy and the spiritual gifts, o Lord, to You be praise from the mouth of Your poor people, for ever and ever. Amen, amen and amen.</span></span></span></p></q>
+                           <p>Written in the main hand.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 243va: Supplication of the scribe for the forgiveness of his sins.</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 243va:</span></span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4661;&#4648;&#4841;&#4961; &#4808;&#4707;&#4653;&#4777;&#4754;&#4961; &#4618;&#4720;&#4961; &#4616;&#4739;&#4901;&#4773;&#4961; &#4808;&#4616;&#4768;&#4707;&#4658;&#4962;</span></q>
-                           <q xml:lang="en"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243va: Forgive and bless me, a sinner and wrongdoer.</span></span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 243va: Supplication of the scribe for the forgiveness of his sins.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 243va:</span></span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4661;&#4648;&#4841;&#4961; &#4808;&#4707;&#4653;&#4777;&#4754;&#4961; &#4618;&#4720;&#4961; &#4616;&#4739;&#4901;&#4773;&#4961; &#4808;&#4616;&#4768;&#4707;&#4658;&#4962;</span></p></q>
+                           <q xml:lang="en"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243va: Forgive and bless me, a sinner and wrongdoer.</span></span></span></p></q>
+                           <p>Written in red ink, in the main hand.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243vb: Note containing the names of the scribes (?).</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 243vb:</span></span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4704;&#4768;&#4784;&#4724;&#4720;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4768;&#4709;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;&#4621;&#4853;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(...)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4752;&#4961; &#4774;&#4650;&#4720;&#4961; &#4704;&#4983;&#4808;&#4970;&#4961; &#4840;(&#8230;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4629;&#4648;&#4725;&#4961; &#4736;&#4706;&#4648;&#4752;&#4961; &#4941;&#4673;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(&#8230;)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4739;&#4813;&#4961; &#4704;&#4653;&#4720;&#4622;&#4636;&#4814;&#4661;&#4961; </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(&#8230;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4872;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4962;</span></q>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243vb: Note containing the names of the scribes (?).</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 243vb:</span></span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4704;&#4768;&#4784;&#4724;&#4720;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4768;&#4709;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;&#4621;&#4853;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(...)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4752;&#4961; &#4774;&#4650;&#4720;&#4961; &#4704;&#4983;&#4808;&#4970;&#4961; &#4840;(&#8230;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4629;&#4648;&#4725;&#4961; &#4736;&#4706;&#4648;&#4752;&#4961; &#4941;&#4673;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(&#8230;)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4739;&#4813;&#4961; &#4704;&#4653;&#4720;&#4622;&#4636;&#4814;&#4661;&#4961; </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">(&#8230;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4872;</span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">)</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 14pt;" arial="" unicode="">&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Partly illegible.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243vb: Extensive note.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 243vb: Extensive note.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Partly illegible. Contains condemnation of possible violators of the property rights of the church.</p>
                         </item>
                         <item xml:id="e1">- Rubricated chapter titles for Text VI, preceded by chapter numbers, in the main hand: fols. 196v, 197r, 197v, 198r, 198v, 199r, 199v, 200v, 201r, 201v, 202r, 203r, 203v, 204r, 204v, 205r, 205v, 206r, 206v, 207v.&#xD;
 - Final passages of some of the texts are written in compressed script: fols. 84vb, 158vb.&#xD;
@@ -282,7 +275,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0171KoholoYoḥannǝsDäbräBetel">Koholo Yoḥannǝs Däbrä Betel / KY</placeName>
+                        <placeName corresp="INS0171KY">Koholo Yoḥannǝs Däbrä Betel / KY</placeName>
                      </origPlace>
                      <origDate notBefore="1400" notAfter="1500">15th cent. (?)</origDate>
                   </origin>
@@ -324,10 +317,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -348,7 +337,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-02">registered</change>
          <change who="IF" when="2011-11-22T10:01:07.568Z">created</change>
          <change who="EG" when="2015-02-20T16:13:34.963Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

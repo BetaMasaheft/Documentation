@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0103ʾAmbäsätKidanäMǝḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0103AKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AKM-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">125.0</measure> folios,
-                                                in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">125.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.5</height>
                               <width unit="cm">20.5</width>
@@ -120,7 +118,7 @@ The Ms. has been resewn with a recent thread.&#xD;
 Holes repaired on fols. 16, 30, 76, 84, 85, 96, 99.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>150</height>
                               <width>165</width>
@@ -133,32 +131,46 @@ Holes repaired on fols. 16, 30, 76, 84, 85, 96, 99.</condition>
                               <dim type="left">14</dim>
                               <dim type="intercolumn">16</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The upper ruled line was not used by the scribe on fols. 1r, 121r.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine and careful; hand b: mediocre</ab>
                         <seg type="ink">Black, red (vivid red [hand a], strong red [hand b])</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ረስዮ፡ </expan> (e.g., fols. 12ra, 14vb, 15ra)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 13va, 16rb, 62va)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 13va, 16rb, 62vb)</item>
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (e.g., fols. 24vb, 25ra, 63rb)</item>
+                           <item>
+                              <abbr>አ፡</abbr> for <expan>አሜን፡ </expan> (fols. 100vb, 101ra, 102ra)</item>
+                           <item>
+                              <abbr>ን፤ እ፤ አ፤ ል፤</abbr> for <expan>ንስዕለከ፡ እግዚኦ፡ አበ፡ ልዑላን፡ </expan> (fols. 113ra, 113va)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 2ra-112vb; 121ra-122rb; round shapes, broadly spaced letters.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 112vb-120rb; 122va-125rb; angular letter shapes, hairlines, bifurcated extremities.</handNote>
@@ -166,10 +178,9 @@ The upper ruled line was not used by the scribe on fols. 1r, 121r.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span unicode="">Fol. 125v: Ownership note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span unicode="">Fol. 125v: Ownership note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fol. 125v: </span></span></span><span style="font-size: small"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4827;</span><span style="line-height: 115%">&#4722;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4877;&#4757;&#4824;&#4725;&#4961; </span></span></span></span><span style="line-height: 115%"><b><span style="line-height: 115%">&lt;...&gt;</span></b></span><span style="font-size: small"><span style="line-height: 115%"><span style="font-size: large"><b><span style="line-height: 115%"> </span></b><span style="line-height: 115%">&#4808;&#4653;&#4672;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4672;&#4845;&#4656;&#4961; &#4872;&#4704;&#4829;&#4610;&#4961; &#4672;&#4658;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4632;&#4784;&#4757;&#4757;&#4610;&#4961;<span style="line-height: 115%; font-size: 14pt"> </span></span></span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%"><span style="line-height: 115%">&#4808;&#4621;&#4848;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961;</span></span></span></span><span style="font-size: small"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%"> </span></span></span></span><span style="line-height: 115%"><span style="line-height: 115%">&#8230;</span></span><span style="font-size: small"><span style="line-height: 115%"><br /> </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions the church of ʾbunä Libanos as the owner of the Ms. Besides, the names of qäysä gäbäz Wäldä Krǝstos and mäkwännǝn ‘ruler’ Wäldä ʾAmlak are mentioned.</p>
                         </item>
                         <item xml:id="e1">- Corrections written interlineally: fols. 8ra, 49ra, 79va, 100ra, 117va, 118rb, 119rb.&#xD;
 - The word እገሌ, “so-and-so” and some other words in the section of Antiphons are marked by thin lines above and below throughout the Ms.&#xD;
@@ -193,7 +204,7 @@ Remains of the leather cover on the inner sides of both boards.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0103ʾAmbäsätKidanäMǝḥrät">ʾAmbäsät Kidanä Mǝḥrät  / AKM</placeName>
+                        <placeName corresp="INS0103AKM">ʾAmbäsät Kidanä Mǝḥrät  / AKM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">The name of King ʾIyasu (?) has been mentioned in one instance on fol. 49va, but erased.</origDate>
                   </origin>
@@ -235,10 +246,6 @@ Remains of the leather cover on the inner sides of both boards.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -259,7 +266,7 @@ Remains of the leather cover on the inner sides of both boards.</decoNote>
          <change who="DN" when="2010-11-20">registered</change>
          <change who="AA" when="2013-09-12T18:12:28.450Z">created</change>
          <change who="DN" when="2014-11-25T10:04:57.771Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

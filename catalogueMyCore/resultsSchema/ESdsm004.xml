@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0165DäbräSahəlQəddusMikaʾelBetMäḵaʿ"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0165DSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DSM-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ three groups of red lines alternating with black lines on the incipit page of Te
                      <note/>
                   </msItem>
                   <msItem xml:id="coloph1">
-                     <colophon>Fol. 100rb: <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4708;&#4720;&#4961; &#4632;&#4779;&#4821;&#4961; &#4776;&#4632;&#4961; &#4845;&#4653;&#4776;[&#4709;]&#4961; &#4768;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span>Written over the erased text, presumably of the original colophon, in a hand similar to that of the Text II.</colophon>
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;">Fol. 100rb:</span> <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4708;&#4720;&#4961; &#4632;&#4779;&#4821;&#4961; &#4776;&#4632;&#4961; &#4845;&#4653;&#4776;[&#4709;]&#4961; &#4768;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p><foreign xml:lang="en"><p><span style="font-size: small;">This is the book which he [W&#228;ld&#228; Mika&#704;el, mentioned in the preceding supplication formula] gave to Q&#601;ddus Mika&#704;el Bet&#228; M&#228;&#7733;a&#705; in order to find reward in the kingdom of heaven forever and ever. Amen.  </span></p></foreign>
+                        <note>Written over the erased text, presumably of the original colophon, in a hand similar to that of the Text II.</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -60,9 +63,7 @@ three groups of red lines alternating with black lines on the incipit page of Te
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">216.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">3.0</measure> blank, in
-                                                <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">216.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">26.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.5</height>
                               <width unit="cm">14.5</width>
@@ -116,7 +117,7 @@ Hand b: XXVI- XXIII-XXIV-XXV-XXII-XXI-XX-XIX-XVIII-XVII-XVI-XV-XIII-XIV-XII</ite
                         <condition key="deficient">The quires are rebound in the wrong order; many leaves are damaged with water, stained with dirt or worn out, on certain folios the text is difficult to read; tear amended on fol.78.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>137</height>
                               <width>140</width>
@@ -129,19 +130,21 @@ Hand b: XXVI- XXIII-XXIV-XXV-XXII-XXI-XX-XIX-XVIII-XVII-XVI-XV-XIII-XIV-XII</ite
                               <dim type="left">12</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 72r.</ab>
+                           <note>All data for fol. 72r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="20" writtenLines="15">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>143</width>
@@ -154,28 +157,32 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 212r.</ab>
+                           <note>All data for fol. 212r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">rather neat and careful</ab>
                         <seg type="ink">Black; red (light tangelo, moderate scarlet)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>mid. 17 cent. - second half 18 cent.</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Mikaʾel</persName>Mentioned in part 3) of Text I-2, on fol. 1rb (hand a).<date>mid. 17 cent. - second half 18 cent.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>አሜ፡</abbr> for <expan>አሜን፡ </expan> (fols. 61ra, 62ra)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 1r-90v</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 91r-216v</handNote>
@@ -186,28 +193,24 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 31v: A hymn to Jesus Christ.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 31v: </span><span style="font-size: large;">&#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4901;&#4817;&#4632;&#4961; &#4661;&#4637;&#4961; &#4616;&#4824;&#4845;&#4924;&#4813;&#4822;&#4962; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4741;&#4709;&#4661;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4616;&#4824;&#4845;&#4704;&#4621;&#4822;&#4962; ...</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 31v: A hymn to Jesus Christ.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 31v: </span><span style="font-size: large;">&#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4901;&#4817;&#4632;&#4961; &#4661;&#4637;&#4961; &#4616;&#4824;&#4845;&#4924;&#4813;&#4822;&#4962; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4741;&#4709;&#4661;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4616;&#4824;&#4845;&#4704;&#4621;&#4822;&#4962; ...</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the same hand as Text I.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 32v: A note on loan (<span style="font-size: large;">&#4811;&#4613;&#4661;</span>), mostly illegible.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 32v: A note on loan (<span style="font-size: large;">&#4811;&#4613;&#4661;</span>), mostly illegible.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a secondary hand.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00"><span style="font-size: small;">Fols. 4vb-5rb: Protective prayer against snow or hail (b&#228;r&#228;d).</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fols. 4vb-5rb: </span><span style="font-size: large;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4678;&#4614;&#4614;&#4780;&#4961; &#4678;&#4614;&#4614;&#4780;</span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span>...</span></q>
+                           <locus/><p><span style="font-size: small;">Fols. 4vb-5rb: Protective prayer against snow or hail (b&#228;r&#228;d).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fols. 4vb-5rb: </span><span style="font-size: large;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4678;&#4614;&#4614;&#4780;&#4961; &#4678;&#4614;&#4614;&#4780;</span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span>...</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a secondary hand.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 100v: </span><span style="font-size: small;">A prayer over a deceased (&#704;&#398;ndr&#601;yas ?), followed by a short hymn to George the Martyr. The title <span style="font-size: large;">&#4811;&#4828;&#4635;</span> is written on the upper margin.</span></locus>
-                           <q xml:lang="gez">Fol. 100v:<span style="font-size: large;">&#4811;&#4828;&#4635; &#4704;&#4972;&#4611;&#4620;&#4617;&#4843;&#4961; &#4808;&#4648;&#4849;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4773;&#4637;[&#4656;]&#4635;&#4845;&#4961; &#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4773;&#4757;&#4853;&#4653;&#4843;&#4661;&#4961; &#4739;&#4704;&#4961; &#4845;&#4924;&#4768;&#4753;&#4961; &#4768;&#4941;&#4651;&#4656;&#4961; &#4773;&#4659;&#4725;&#4962;... </span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 100v: </span><span style="font-size: small;">A prayer over a deceased (&#704;&#398;ndr&#601;yas ?), followed by a short hymn to George the Martyr. The title <span style="font-size: large;">&#4811;&#4828;&#4635;</span> is written on the upper margin.</span></p><q xml:lang="gez"><p>Fol. 100v:<span style="font-size: large;">&#4811;&#4828;&#4635; &#4704;&#4972;&#4611;&#4620;&#4617;&#4843;&#4961; &#4808;&#4648;&#4849;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4773;&#4637;[&#4656;]&#4635;&#4845;&#4961; &#4850;&#4704;&#4961; &#4637;&#4853;&#4653;&#4961; &#4773;&#4757;&#4853;&#4653;&#4843;&#4661;&#4961; &#4739;&#4704;&#4961; &#4845;&#4924;&#4768;&#4753;&#4961; &#4768;&#4941;&#4651;&#4656;&#4961; &#4773;&#4659;&#4725;&#4962;... </span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a secondary hand.</p>
                         </item>
                         <item xml:id="e1">- Scribbles: fols. 5v, 21r, 50r&#xD;
 - Omitted letters or words written interlineally, in the main hand: fols. 7ra, 15ra, 17ra, 21vb, 29ra, 29vb, 40ra, 46rb, 98rb&#xD;
@@ -232,7 +235,7 @@ Small holes are visible in the centre fold of the quires, one close to the head 
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0165DäbräSahəlQəddusMikaʾelBetMäḵaʿ">Däbrä Sahəl Qəddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
+                        <placeName corresp="INS0165DSM">Däbrä Sahәl Qәddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800"/>
                   </origin>
@@ -275,8 +278,7 @@ In the supplication formulas of Text II (e.g., fols. 98vb, 100rb (before the col
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Mikaʾel</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -299,7 +301,7 @@ In the supplication formulas of Text II (e.g., fols. 98vb, 100rb (before the col
          <change who="DN" when="2011-05-14">registered</change>
          <change who="MB" when="2014-12-09T19:27:00.805Z">created</change>
          <change who="DN" when="2015-02-02T19:55:01.647Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

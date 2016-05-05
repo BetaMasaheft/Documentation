@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-035</idno>
                   <altIdentifier>
                      <idno>C3-IV-28 (fol. 71r)</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">190.0</measure> folios,
-                                                in
-                                                <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">190.0</measure> folios, in <measure unit="quire">26.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.0</height>
                               <width unit="cm">19.0</width>
@@ -123,7 +121,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>157</height>
                               <width>150</width>
@@ -136,19 +134,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 5r-14v: all data are for fol. 6r.</ab>
+                           <note>Fols. 5r-14v: all data are for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/A.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>177</height>
                               <width>145</width>
@@ -161,30 +161,31 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 15r-188v: all data are for fol. 23r.</ab>
+                           <note>Fols. 15r-188v: all data are for fol. 23r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/A.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 fols. 15r-188v: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre. Hand b: fine and careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>First half of the 16th century (quires I and II of more recent time).</date>
+                        <persName role="scribe" corresp="PRS00000">Habtä ʾIyäsus, Wäldä Ḥawaryat Zä-Mikaʾel</persName>Habtä ʾIyäsus (the old hand b) wrote Texts I-4, I-5, II and III. His name is mentioned in the subscription, fol. 188rb. He was the scribe of Ms. AP-005.&#xD;
+Wäldä Ḥawaryat Zä-Mikaʾel (?), more recent scribe (hand a) wrote Texts I-1, I-2 and I-3: he is mentioned in the concluding supplication, fol. 14rb (on fol. 13va, he is mentioned but not as the scribe).<date>First half of the 16th century (quires I and II of more recent time).</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols.5ra-12va, more recent (17th cent.?)</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols.15ra-188rb</handNote>
@@ -192,8 +193,7 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 4r: Two transaction records.&#160;</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 4r: Two transaction records.&#160;</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -215,7 +215,7 @@ Fol. 1 was possibly used as pastedown.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
                      </origPlace>
                      <origDate notBefore="1500" notAfter="1550">First half of the 16th century; quires I and II of more recent time (17th-18th century?).</origDate>
                   </origin>
@@ -257,8 +257,7 @@ Fol. 1 was possibly used as pastedown.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Habtä ʾIyäsus, Wäldä Ḥawaryat Zä-Mikaʾel</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -282,7 +281,7 @@ Fol. 1 was possibly used as pastedown.</decoNote>
          <change who="DN" when="2010-05-04">registered</change>
          <change who="MK" when="2010-09-23T12:56:16.407Z">created</change>
          <change who="DN" when="2015-07-13T11:28:13.099Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

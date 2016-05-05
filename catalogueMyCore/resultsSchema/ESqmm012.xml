@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəṣṣəw, Lectionary for the week / Barəkännä ʾəgziʾo… “Bless us, O Lord…”</title>
+            <title>Mäṣḥafä gәṣṣәw, Lectionary for the week / Barәkännä ʾәgziʾo… “Bless us, O Lord…”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0178QəddusMikaʾelMärgaḥəya"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0178QMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QMM-012</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fols. 3r) and on fol. 32rb, a few lines are rubri
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">39.0</measure> folios,
-                                                in
-                                                <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">39.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">11.5</width>
@@ -92,7 +90,7 @@ The sewing has been repaired on the spine.&#xD;
 Some fols. are stained with water.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="15">
                            <dimensions unit="mm">
                               <height>113</height>
                               <width>90</width>
@@ -105,22 +103,24 @@ Some fols. are stained with water.</condition>
                               <dim type="left">7</dim>
                               <dim type="intercolumn">5</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 3r-37r.&#xD;
-All data for fol. 4r.</ab>
+                           <note>Fols. 3r-37r.&#xD;
+All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="1" writtenLines="15">
                            <dimensions unit="mm">
                               <height>113</height>
                               <width>93</width>
@@ -133,31 +133,35 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">5</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Fols. 37v-39r.&#xD;
-All data for fol. 38r.</ab>
+                           <note>Fols. 37v-39r.&#xD;
+All data for fol. 38r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, vivid red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይብል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -178,7 +182,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0178QəddusMikaʾelMärgaḥəya">Qəddus Mikaʾel  Märgaḥəya / QMM</placeName>
+                        <placeName corresp="INS0178QMM">Qәddus Mikaʾel  Märgaḥәya / QMM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent.(?)</origDate>
                   </origin>
@@ -220,10 +224,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -244,7 +244,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-08">registered</change>
          <change who="SA" when="2013-10-18T08:35:25.152Z">created</change>
          <change who="SH" when="2014-09-09T14:20:05.105Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

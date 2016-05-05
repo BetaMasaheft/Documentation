@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0208BetMuḵaʿMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0208BMQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BMQM-014</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">59.0</measure> folios,
-                                                in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">59.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">14.8</height>
                               <width unit="cm">10.4</width>
@@ -101,7 +99,7 @@ The ink is abraded on most of the fols.&#xD;
 Holes amended in fols. 48, 55.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="14">
                            <dimensions unit="mm">
                               <height>105</height>
                               <width>84</width>
@@ -114,19 +112,21 @@ Holes amended in fols. 48, 55.</condition>
                               <dim type="left">12</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">For fols. 1r-49v: all data for fol. 5r.</ab>
+                           <note>For fols. 1r-49v: all data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>108</height>
                               <width>80</width>
@@ -139,28 +139,36 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">5</dim>
                               <dim type="intercolumn">6</dim>
                            </dimensions>
-                           <ab type="ruling">For fols. 50r-59v: all data for fol. 54r.</ab>
+                           <note>For fols. 50r-59v: all data for fol. 54r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular.</ab>
                         <seg type="ink">Black, red (luminous vivid red; name of the owner in light brilliant vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid-18th – mid-19th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ብ</abbr> for <expan>ብሂል </expan> (fols. 6v, 7r).</item>
+                           <item>
+                              <abbr>ሀ፡/ኀ፡ እግ፡ በኃ፡ ዝን፡ አስ</abbr> for <expan>ሀበነ፡/ኀበነ እግዚአብሔር፡ በኃይለ፡ ዝንቱ፡ አስማቲከ </expan> (e.g., fols. 13r, 13v, 14r, 14v).</item>
+                           <item>
+                              <abbr>ኢየ፡ ክር፡</abbr> for <expan>ኢየሱስ፡ ክርስቶስ </expan> (e.g., fols. 46r, 47r).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -178,7 +186,7 @@ Three sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0208BetMuḵaʿMikaʾel">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
+                        <placeName corresp="INS0208BMQM">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850">Mid-18th – mid-19th cent.</origDate>
                   </origin>
@@ -220,10 +228,6 @@ Three sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -245,7 +249,7 @@ Three sewing stations.</decoNote>
          <change who="DN" when="2011-12-08">registered</change>
          <change who="SD" when="2014-11-26T13:49:05.793Z">created</change>
          <change who="SD" when="2014-12-01T11:00:28.165Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

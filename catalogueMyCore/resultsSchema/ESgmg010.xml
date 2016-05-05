@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0115GänaḥtiQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0115GMG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GMG-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">142.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">142.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">19.0</width>
@@ -132,7 +130,7 @@ The leather cover is partly missing. &#xD;
 Holes or tears amended on fols. 63, 83, 88, 127, 128, 129, 131, 142.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>162</height>
                               <width>150</width>
@@ -145,35 +143,40 @@ Holes or tears amended on fols. 63, 83, 88, 127, 128, 129, 131, 142.</condition>
                               <dim type="left">16</dim>
                               <dim type="intercolumn">13</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 5r.</ab>
+                           <note>All data are for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>second half of the 18th century</date>
+                        <persName role="scribe" corresp="PRS00000">ʾAṣmä Giyorgis</persName>ʾAṣmä Giyorgis is mentioned as the scribe in the supplication formula, fol. 138va (the name of his brother has been erased).<date>second half of the 18th century</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>በእ፡ for በእንተ፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 142ra: Prayer to God for salvation of the soul from Hell. </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1</span><span style="line-height: 115%;">42ra</span><span style="line-height: 115%;">:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4770;&#4723;&#4653;&#4773;&#4840;&#4754;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4872;&#4611;&#4752;&#4632;&#4961; &#4773;&#4659;&#4725;&#4961; &#4809;&#4769;&#4840;&#4961; &#4808;&#4770;&#4725;&#4704;&#4616;&#4754;&#4961; &#4609;&#4653;&#4961; &#4637;&#4661;&#4616;&#4961; &#4739;&#4901;&#4768;&#4757;&#4961; &#4752;&#4941;&#4661;&#4840;... </span></span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 142ra: Prayer to God for salvation of the soul from Hell. </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1</span><span style="line-height: 115%;">42ra</span><span style="line-height: 115%;">:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4770;&#4723;&#4653;&#4773;&#4840;&#4754;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4872;&#4611;&#4752;&#4632;&#4961; &#4773;&#4659;&#4725;&#4961; &#4809;&#4769;&#4840;&#4961; &#4808;&#4770;&#4725;&#4704;&#4616;&#4754;&#4961; &#4609;&#4653;&#4961; &#4637;&#4661;&#4616;&#4961; &#4739;&#4901;&#4768;&#4757;&#4961; &#4752;&#4941;&#4661;&#4840;... </span></span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -200,7 +203,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0115GänaḥtiQəddəstMaryam">Gänaḥti Qəddəst Maryam / GMG</placeName>
+                        <placeName corresp="INS0115GMG">Gänaḥti Qәddәst Maryam / GMG</placeName>
                      </origPlace>
                      <origDate notBefore="1749" notAfter="1761">King ʾIyoʾas (r. 1755-69) is mentioned on fols. 16rb, 16va, 42ra, 134 ra. Coptic Patriarch (liqä ṗaṗasat) Marqos (in tenure 1745-1769) and Metropolitan (ṗaṗas) Yoḥannǝs (d. 1761) are mentioned on fol. 54rb.</origDate>
                   </origin>
@@ -242,8 +245,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">ʾAṣmä Giyorgis</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -266,7 +268,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-27">registered</change>
          <change who="DE" when="2013-09-18T08:00:16.867Z">created</change>
          <change who="SH" when="2014-09-10T09:05:01.307Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0131BäʿattiQəddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0131DMB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMB-008</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Elements of the punctuation signs; Ethiopic numbers or their elements; elements 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">152.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">152.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">37.0</height>
                               <width unit="cm">32.0</width>
@@ -137,7 +135,7 @@ Some leaves are worn (e.g., fols. 10rv, 49r, 109v-113r, 140v-141r); many are sta
 Cuts repaired in several fols. (e.g., fols. 14, 17, 55, 98).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="33">
                            <dimensions unit="mm">
                               <height>310</height>
                               <width>270</width>
@@ -150,40 +148,46 @@ Cuts repaired in several fols. (e.g., fols. 14, 17, 55, 98).</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling">the number varies between 32 and 33</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible (e.g., s. fols. 47v-48r, 57v-58r). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 - One ruled line was not used by the scribe at the bottom of some fols. (e.g., fols. 44r, 65rv, 67rv).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 - Fols. 106rv and 109rv have an additional ruled line in the upper margin.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 - The ruling is not uniform and regular (the size of the columns and the space between the ruled lines); in some fols. the horizontal ruling has an oblique orientation  (s., e.g., fols. 77r-77v).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre; irregular.</ab>
                         <seg type="ink">Black; red (vermillion and vivid red).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>፳ኤል፡</abbr> for <expan>እስራኤል፡ </expan> (e.g., fol. 97rb ls. 5, 7, 9).</item>
+                           <item>
+                              <abbr>ኪራላ፡/ኪራ፡</abbr> for <expan>ኪራላይሶን፡ </expan> (fol. 140rc).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -192,10 +196,11 @@ The bottom line is written above the ruling. </ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fols. 150rc-150va: Purchase note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written both in Gǝʿǝz and in Amharic.
+The note states that the church Bäʿatti Qәddus Mikaʾel purchased the book (in the month of Mäggabit) from most probably such a Gäbrä Maryam. During the moment of the purchase witnesses from both sides, whose the names are given, were present.
+Gäbrä Maryam is also mentioned in some supplication formulas within the Text (e.g., fol. 6va-c).</p>
                         </item>
                         <item xml:id="e1">- Excerpts of hymns for the Good Friday (?) are written (in a faded black ink) in the upper margins, or interlineally, in fols. 83v, 89v-90r, 101v, 102r, 109r.&#xD;
 - Omitted words or letters are written interlineally: e.g., fols. 3rb, 4va, 6rc, 23rb, 31vb, 33ra, 37va, 118vc.&#xD;
@@ -223,7 +228,7 @@ The leather cover on the back and front boards is slightly damaged.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0131BäʿattiQəddusMikaʾel">Bäʿatti Qəddus Mikaʾel  / DMB</placeName>
+                        <placeName corresp="INS0131DMB">Bäʿatti Qәddus Mikaʾel  / DMB</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -260,14 +265,10 @@ The leather cover on the back and front boards is slightly damaged.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä Maryam is the name mentioned in Additio 1 as the one who most probably sold the Ms. to the church Bäʿatti Qəddus Mikaʾel.&#xD;
+                  <persName corresp="PRS0000">Gäbrä Maryam is the name mentioned in Additio 1 as the one who most probably sold the Ms. to the church Bäʿatti Qәddus Mikaʾel.&#xD;
 His name is also written in some supplication formulas within the text (e.g., fol. 6va-b).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -290,7 +291,7 @@ His name is also written in some supplication formulas within the text (e.g., fo
          <change who="DN" when="2010-12-10">registered</change>
          <change who="VP" when="2013-06-27T12:51:41.560Z">created</change>
          <change who="VP" when="2015-01-22T13:43:09.663Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

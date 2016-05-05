@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0111BetḤawaryat"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0111SSB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SSB-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">110.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">110.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">19.5</height>
                               <width unit="cm">12.5</width>
@@ -111,7 +109,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 The leather cover has been cut off from the spine.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="21">
                            <dimensions unit="mm">
                               <height>147</height>
                               <width>95</width>
@@ -124,19 +122,21 @@ The leather cover has been cut off from the spine.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Quire II: all data are for fol. 7r.</ab>
+                           <note>Quire II: all data are for fol. 7r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="1" writtenLines="20">
                            <dimensions unit="mm">
                               <height>118</height>
                               <width>78</width>
@@ -149,32 +149,31 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">12</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Quires I, III-XIII: all data are for fol. 16r.</ab>
+                           <note>Quires I, III-XIII: all data are for fol. 16r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe did not use the bottom ruled line on fols. 34v-36r, 39r-46r.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 Ruling of frame-type on fols. 101, 110.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre; hand b: fine and careful.</ab>
-                        <seg type="ink">Black, red (vivid scarlet, strong red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Hand a: 19th century; hand b: 18th century (?).</date>
+                        <seg type="ink">Black, red (vivid scarlet, strong red)</seg>Hand b resembles the hands in AADM-005, QDS-007, RQG-003.<date>Hand a: 19th century; hand b: 18th century (?).</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 6r-14v; irregularly formed, right-sloping letters with short hairlines.</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 15r-104v, 108r; neat and regular, with upright broadly spaced letters. The quality changes significantly to the very end of Text II-7 (fol. 104r-v).</handNote>
@@ -183,16 +182,14 @@ Ruling of frame-type on fols. 101, 110.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 2r-3r: &#704;&#398;s&#228;gg&#601;d l&#228;ki w&#228;-&#704;&#601;wedd&#601;s&#228;ki... </span><span style="line-height: 115%;">"I worship Thee..." </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 2r-3r: &#704;&#398;s&#228;gg&#601;d l&#228;ki w&#228;-&#704;&#601;wedd&#601;s&#228;ki... </span><span style="line-height: 115%;">"I worship Thee..." </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The hymn is written in a poor hand and appears in an uneven script.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%; font-size: 9pt;">Fols. 104v-107r:</span><span style="line-height: 115%; font-size: 9pt;"> Intr</span><span style="line-height: 115%; font-size: 9pt;">oductory exhortation and hymn.</span><br /> </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;"><br /> </span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%; font-size: 9pt;">Fols. 104v-107r:</span><span style="line-height: 115%; font-size: 9pt;"> Intr</span><span style="line-height: 115%; font-size: 9pt;">oductory exhortation and hymn.</span><br /> </span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><br /> </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The exhortation, written in hand a, includes the hymn: ʾO-ʾәgzǝʾtǝyä Maryam dǝngǝl bä-kǝlʾe wäladitä ʾamlak ... "O my Lady, Two-fold Virgin Mary, Godbearing ..." (fols. 106v-107r)</p>
                         </item>
                         <item xml:id="e1">- Remains of a modern pictures: fol. 4v.</item>
                      </list>
@@ -214,7 +211,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0111BetḤawaryat">Bet Ḥawaryat / SSB</placeName>
+                        <placeName corresp="INS0111SSB">Bet Ḥawaryat / SSB</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)&#xD;
 Quire II is of a more recent time (19th cent.).</origDate>
@@ -257,10 +254,6 @@ Quire II is of a more recent time (19th cent.).</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -283,7 +276,7 @@ Quire II is of a more recent time (19th cent.).</origDate>
          <change who="DN" when="2010-11-29">registered</change>
          <change who="SH" when="2013-12-03T11:43:29.922Z">created</change>
          <change who="DN" when="2014-10-05T21:05:14.300Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

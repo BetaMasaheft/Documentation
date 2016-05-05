@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0097ʿAddiQolqwalGiyorgis"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0097AQG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AQG-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">245.0</measure> folios,
-                                                in
-                                                <measure unit="quire">33.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">245.0</measure> folios, in <measure unit="quire">33.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">46.0</height>
                               <width unit="cm">34.0</width>
@@ -177,7 +175,7 @@ Some quires are repaired with stitches (e.g., XXVII, XXVIII). &#xD;
 Tears carefully amended on fols. 116, 118, 148.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="30">
                            <dimensions unit="mm">
                               <height>370</height>
                               <width>260</width>
@@ -190,21 +188,23 @@ Tears carefully amended on fols. 116, 118, 148.</condition>
                               <dim type="left">18</dim>
                               <dim type="intercolumn">18</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 11r.</ab>
+                           <note>All data for fol. 11r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are partly visible.</ab>
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -215,7 +215,6 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>17th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -223,10 +222,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">&#160;</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 195va: Note on commissioning of the writing.</span></div> <p>&#160;</p><q xml:lang="gez"><div style="text-align: left; line-height: normal;"><span style="font-size: 14pt"><span style="font-size: small">Fol. 195va: </span></span><span style="font-size: large">&#4829;&#4774;&#4650;&#4725;&#4961; &#4829;&#4768;&#4853;&#4961; &#4680;&#4621;&#4683;&#4621;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4768;&#4925;&#4624;&#4936;&#4961; &#4720;&#4661;&#4939;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4825;&#4961; </span><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4772;</span>&#4813;&#4661;&#4899;<span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-bidi-font-family: Arial; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-fareast-theme-font: minor-latin">&#4724;</span>&#4814;&#4661;</span><span style="font-size: large">&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span>&#8230;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a fine secondary hand. The note states that Ms. belongs to the church of ʾAdd Qwälqwal Qǝddus Giyorgis and mentions Täsfa Ḥawaryat as the commissioner of the Ms. and ʾEwosṭatiwos as the qes gäbäz.</p>
                         </item>
                         <item xml:id="e1">- A few upper lines are left empty in the incipit pages of all books, probably intended for receiving ornamental bands. &#xD;
 - Writing exercises: fols. 33r, 34r, 109r.</item>
@@ -245,7 +243,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0097ʿAddiQolqwalGiyorgis">ʿAddi Qolqwal Giyorgis / AQG</placeName>
+                        <placeName corresp="INS0097AQG">ʿAddi Qolqwal Giyorgis / AQG</placeName>
                      </origPlace>
                      <origDate notBefore="1600" notAfter="1700">17th cent. (?)</origDate>
                   </origin>
@@ -287,10 +285,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -311,7 +305,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-18">registered</change>
          <change who="MK" when="2013-04-29T09:52:54.734Z">created</change>
          <change who="DN" when="2014-11-10T10:11:17.326Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

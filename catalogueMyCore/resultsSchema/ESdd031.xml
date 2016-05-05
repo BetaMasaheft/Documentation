@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-031</idno>
                   <altIdentifier>
                      <idno>420; C3-IV-291 (fol. 5r)</idno>
@@ -57,9 +57,7 @@ Elements of punctuation signs; elements of Ethiopic numerals.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">210.0</measure> folios,
-                                                in
-                                                <measure unit="quire">28.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">210.0</measure> folios, in <measure unit="quire">28.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">16.6</height>
                               <width unit="cm">15.0</width>
@@ -161,7 +159,7 @@ Fol. 3 is of smaller in width.&#xD;
 A hole carefully amended on fol. 138.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="14">
                            <dimensions unit="mm">
                               <height>98</height>
                               <width>104</width>
@@ -174,27 +172,27 @@ A hole carefully amended on fol. 138.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: Fine and careful; Hand b: Fine and careful.</ab>
                         <seg type="ink">Black; red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Hand a: 1705-1715; Hand b: ?</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 5r-120v, 147ra-218vb; broadly-spaced, upright letters</handNote>
@@ -209,124 +207,104 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Parchment pastedown on the inner side of the bront board: Unidentified prayer.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Parchment pastedown on the inner side of the bront board: Unidentified prayer.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is hardly legible because the ink has faded away.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div><span style="font-size: small"><span style="line-height: 115%">Fol. 1ra: Protective prayer against snake bites.</span></span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, incomplete (?).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 1rb: Recipe for a medication.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 1rb: Recipe for a medication.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The name of the medication is erased; written by well-trained hand.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fols. 1v-2r (in black ink, above), 2v-3ra (below): Hymn to St. George.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fols. 1v-2r (in black ink, above), 2v-3ra (below): Hymn to St. George.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, in the same hand as Additiones 5-7, 12, 15. The same hymn is contained in SM-011 (fols. 163v-164r).</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 1v-2r (in reddish brown ink), 3v-4r (above) and 4rb, 5r (above, in reddish-brown ink): Hymn(s) to the Virgin Mary.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 1v-2r (in reddish brown ink), 3v-4r (above) and 4rb, 5r (above, in reddish-brown ink): Hymn(s) to the Virgin Mary.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, in the same hand as Additiones 4, 6, 7, 12, 15.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fols. 3r-v, 4ra: </span><span style="line-height: 115%; color: black">List of the church feasts.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fols. 3r-v, 4ra: </span><span style="line-height: 115%; color: black">List of the church feasts.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, by the same hand as additiones 4, 5, 7, 12, 15.</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 4v: Excerpt from </span><span style="line-height: 115%; color: black">M&#228;lk&#477;&#704;a G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus (&#8220;Image of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus&#8221;).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 4v: Excerpt from </span><span style="line-height: 115%; color: black">M&#228;lk&#477;&#704;a G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus (&#8220;Image of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus&#8221;).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written in black and reddish-brown ink, in the same hand as Additiones 4-6, 12, 15.</p>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 5v (in the lower margin): Excerpt from </span><span style="line-height: 115%; color: black">M&#228;lk&#477;&#704;a </span><span style="line-height: 115%; color: black">&#704;</span><span style="line-height: 115%; color: black">Edom (&#8220;Image of Paradise&#8221;).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 5v (in the lower margin): Excerpt from </span><span style="line-height: 115%; color: black">M&#228;lk&#477;&#704;a </span><span style="line-height: 115%; color: black">&#704;</span><span style="line-height: 115%; color: black">Edom (&#8220;Image of Paradise&#8221;).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a poor hand; some parts of the text are hardly legible because the ink has faded away.</p>
                         </item>
                         <item xml:id="a9">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 21va-30rb (in the lower margin): Unidentified hymn to the Virgin Mary. </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 21va-30rb (in the lower margin): Unidentified hymn to the Virgin Mary. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Some parts of the text are hardly legible because the ink has faded away; probably written in more than one hand.</p>
                         </item>
                         <item xml:id="a10">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 95vb:</span></span><span style="font-size: small"><span style="line-height: 115%"> </span></span><span style="font-size: large"><span style="line-height: 115%">&#4704;&#4829;&#4757;&#4721;&#4961; &#4824;&#4632;&#4757;&#4961; &#4632;&#4925;&#4769;&#4961; &#4970;&#4961; &#4915;&#4915;&#4659;&#4725;&#4961; &#4969;&#4961; &#4704;&#4848;&#4757;&#4779;&#4620;&#4961; &#4808;&#4969;&#4961; &#4704;&#4661;&#4755;&#4653;&#4961; &#4824;&#4632;&#4925;&#4768;&#4961;&#160;&#4704;&#4661;&#4755;&#4653;&#4961; &#4720;&#4656;&#4845;&#4632;&#160;</span></span></q>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 95vb: Note on the arrival of two unnamed metropolitans to Ethiopia.</span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 95vb:</span></span><span style="font-size: small"><span style="line-height: 115%"> </span></span><span style="font-size: large"><span style="line-height: 115%">&#4704;&#4829;&#4757;&#4721;&#4961; &#4824;&#4632;&#4757;&#4961; &#4632;&#4925;&#4769;&#4961; &#4970;&#4961; &#4915;&#4915;&#4659;&#4725;&#4961; &#4969;&#4961; &#4704;&#4848;&#4757;&#4779;&#4620;&#4961; &#4808;&#4969;&#4961; &#4704;&#4661;&#4755;&#4653;&#4961; &#4824;&#4632;&#4925;&#4768;&#4961;&#160;&#4704;&#4661;&#4755;&#4653;&#4961; &#4720;&#4656;&#4845;&#4632;&#160;</span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 95vb: In this year came two metropolitans, one by D&#228;nkale and one by S&#601;nnar. The one who came by S&#601;nnar was appointed. </span></span></p></q>
+                           <p>Carefully written in a good hand.</p>
                         </item>
                         <item xml:id="a11">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 120v-121ra: Register of lucky and unlucky days in each month of the year.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 120v-121ra: Register of lucky and unlucky days in each month of the year.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a mediocre hand.</p>
                         </item>
                         <item xml:id="a12">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 121ra-b, 121va: Protective prayers against abdominal pains, snake bites and the evil eye. </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 121ra-b, 121va: Protective prayers against abdominal pains, snake bites and the evil eye. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, in the same hand as Additiones 4-7, 15.</p>
                         </item>
                         <item xml:id="a13">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 219r-v: Unidentified text concerning the history of the Near and Middle East under the Turkish rule.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 219r-v: Unidentified text concerning the history of the Near and Middle East under the Turkish rule.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Carefully written. The text may be a piece from the second part of the “History of Wäldä ʿAmid” concerning the history of Islam.</p>
                         </item>
                         <item xml:id="a14">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 218v (below), 219r (below): Magic recipe and a protective prayer.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 218v (below), 219r (below): Magic recipe and a protective prayer.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written in Gǝʿǝz and Amharic.</p>
                         </item>
                         <item xml:id="a15">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="line-height: normal"><span style="font-size: small">Fols. 219va-b (below), 220ra: Excerpt from M&#228;lk&#601;&#704;a Giyorgis (&#8220;Image of Giyorgis&#8221;).</span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 219va:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4774;&#4961; &#4941;&#4897;&#4752;&#4961; &#4648;&#4853;&#4772;&#4725;&#4961; &#4773;&#4637;&#4649;&#4920;&#4720;&#4961; &#4752;&#4939;&#4661;&#4961; &#4808;&#4819;&#4813;&#4622;</span></span><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4961;</span></span>&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, in the same hand as Additiones 4-7, 12.</p>
                         </item>
                         <item xml:id="a16">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 220rb: Unidentified text about how Adam and Eve farmed the land. </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 220rb: Unidentified text about how Adam and Eve farmed the land. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a fine hand.</p>
                         </item>
                         <item xml:id="a17">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 220v (in the upper margin): Instruction on how to use the protective prayer.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 220v (in the upper margin): Instruction on how to use the protective prayer.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a fine hand.</p>
                         </item>
                         <item xml:id="a18">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 220v (below addition 16): Protective prayer.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 220v (below addition 16): Protective prayer.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a fine hand.</p>
                         </item>
                         <item xml:id="a19">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 220vb, 221ra-221va: Prayer against &#7717;&#601;mam&#228; w&#601;g</span><span style="line-height: 115%">&#704;</span><span style="line-height: 115%">at (rheumatism?). </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 220vb, 221ra-221va: Prayer against &#7717;&#601;mam&#228; w&#601;g</span><span style="line-height: 115%">&#704;</span><span style="line-height: 115%">at (rheumatism?). </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a fine hand.</p>
                         </item>
                         <item xml:id="a20">
-                           <locus target="#00"><span style="font-size: small"><span style="line-height: 115%">Fols. 221va: Three protective prayers.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 221va: Three protective prayers.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written in various hands.</p>
                         </item>
                         <item xml:id="e1">- Fol. 1r: The titles “Säʿatat”, “Tarik zä-Wäldä ʿAmid” and the local shelf mark of the Ms. “420” are written in black big letters, in Tǝgrǝñña. &#xD;
 - The closing part of Text I is written twice, in fols. 77 (by hand b) and 78 (by hand a). &#xD;
@@ -353,7 +331,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
+                        <placeName corresp="INS0105DD">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1705" notAfter="1715">The Ms. was possibly written around the year 1710 (s. Other details).</origDate>
                   </origin>
@@ -395,10 +373,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -416,14 +390,14 @@ Two pairs of sewing stations.</decoNote>
             <language ident="it">Italiano</language>
             <language ident="gez" xml:id="Lan05">Gəˁəz</language>
             <language ident="am" xml:id="Lan01">Amharic</language>
-            <language ident="other" xml:id="Lan00">-other</language>
+            <language>Tǝgrǝňňa</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-24">registered</change>
          <change who="MK" when="2013-01-14T15:04:46.405Z">created</change>
          <change who="DN" when="2014-08-27T18:17:17.015Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

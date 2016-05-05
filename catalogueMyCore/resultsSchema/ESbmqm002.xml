@@ -11,7 +11,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       <fileDesc>
          <titleStmt>
             <title>Täʾamrä Maryam “Miracles of Mary”</title>
-            <editor key="Ethio-Spare"/>
+            <editor key="Ethio-SPaRe"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
          <publicationStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0208BetMuḵaʿMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0208BMQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BMQM-002</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Several groups of lines on the incipit page of Text I-1, alternating with black 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">71.0</measure> folios,
-                                                in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">71.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.7</height>
                               <width unit="cm">18.8</width>
@@ -104,7 +102,7 @@ Fol. 1b might originate from a different codex, inserted sideways. &#xD;
 Holes or tears amended on fols. 12, 15, 20, 29, 30, 53.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>145</width>
@@ -117,41 +115,44 @@ Holes or tears amended on fols. 12, 15, 20, 29, 30, 53.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 (fols. 67-70: 1A-1A-1A1A/0-0/0-0/A)</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Fol. 67r-70ra have additional ruled lines at the bottom not used by the scribe.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black (partly very bleak), red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th cent. (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Kǝnfä Mikaʾel</persName>Kǝnfä Mikaʾel is mentioned as he scribe in the concluding formula on fol. 70ra.<date>19th cent. (?)</date>
+                        <list type="abbreviations">
+                           <item>Throughout the Ms.:</item>
+                           <item>ለዓ፡ ዓለ፡ አ(ሜን)፡ for ለዓለመ፡ ዓለም፡ አሜን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 70rb-vb: </span><span style="line-height: 115%;">T&#228;&#704;amr&#228; &#704;Iy&#228;sus &#8220;Miracles of Jesus&#8221;: 1 miracle, incomplete.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 70rb-vb: </span><span style="line-height: 115%;">T&#228;&#704;amr&#228; &#704;Iy&#228;sus &#8220;Miracles of Jesus&#8221;: 1 miracle, incomplete.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -176,7 +177,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0208BetMuḵaʿMikaʾel">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
+                        <placeName corresp="INS0208BMQM">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -218,8 +219,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Kǝnfä Mikaʾel</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -242,7 +242,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-12-08">registered</change>
          <change who="SH" when="2015-04-21T09:36:43.958Z">created</change>
          <change who="SH" when="2015-05-05T16:32:12.625Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0175ʾAbrǝqoMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0175QMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QMA-005</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">110.0</measure> folios,
-                                                in
-                                                <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">110.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">12.0</height>
                               <width unit="cm">5.5</width>
@@ -115,7 +113,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Two printed devotional pictures of foreign (French?) origin (the other side of the second shows the announcement of death of Louis-Casimir Faye, deseased in Paris, 11 October 1898).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="22">
                            <dimensions unit="mm">
                               <height>80</height>
                               <width>35</width>
@@ -128,28 +126,38 @@ Two printed devotional pictures of foreign (French?) origin (the other side of t
                               <dim type="left">5</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 8r.</ab>
+                           <note>All data for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th cent.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይቤ: ካህን </expan> (fols. 3v, 4v, 6v, 10r)</item>
+                           <item>
+                              <abbr>ይ: ሕ</abbr> for <expan>ይቤ፡ ሕዝብ </expan> (fols. 3v, 4v, 6v, 10r, 17v)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይቤ፡ ዲያቆን </expan> (fols. 17v)</item>
+                           <item>
+                              <abbr>ና፡ ከ፡ እ፡</abbr> for <expan>ናስተባቍዕ፡ ከመ፡ እግዚአብሔር። </expan> (fols. 11v, 12r, 12v, 13r, 13v, 14r, 14v)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -158,52 +166,46 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1v:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4678;&#4616;&#4680;&#4621;&#4961; &#4704;&#4664;&#4782;&#4782;&#4961; &#4777;&#4661;&#4961; &#4616;&#4810;&#4662;&#4961; &#4704;&#4901;&#4726;&#4961; &#4845;&#4849;&#4621;&#4961; &#4704;&#4971;&#4672;&#4757;&#4961; &#4845;&#4672;&#4648;&#4941;&#4961; &#4840;&#4829;&#4709;&#4961; &#4637;&#4653;&#4777;&#4829;&#4961; &#4709;&#4659;&#4755;&#4961; &#4677;&#4653;&#4941;&#4723;&#4728;&#4813;&#4961; &#4768;&#4616;&#4961; &#4808;&#4624;&#4961; &#4672;&#4901;&#4677;&#4896;&#4629;&#4961; &#4971;&#4672;&#4757;&#4961; &#4768;&#4853;&#4653;&#4678;&#4961; &#4848;&#4673;&#4656;&#4961; &#4704;&#4883;&#4725;&#4961; &#4808;&#4845;&#4961; &#4704;&#4896;&#4619;&#4961; &#4845;&#4896;&#4899;&#4961; &#4840;&#4848;&#4812;&#4961; &#4645;&#4875;&#4961; &#4752;&#4813;&#4962;</span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 1v-2r: Recipe against leprosy.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1v:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4678;&#4616;&#4680;&#4621;&#4961; &#4704;&#4664;&#4782;&#4782;&#4961; &#4777;&#4661;&#4961; &#4616;&#4810;&#4662;&#4961; &#4704;&#4901;&#4726;&#4961; &#4845;&#4849;&#4621;&#4961; &#4704;&#4971;&#4672;&#4757;&#4961; &#4845;&#4672;&#4648;&#4941;&#4961; &#4840;&#4829;&#4709;&#4961; &#4637;&#4653;&#4777;&#4829;&#4961; &#4709;&#4659;&#4755;&#4961; &#4677;&#4653;&#4941;&#4723;&#4728;&#4813;&#4961; &#4768;&#4616;&#4961; &#4808;&#4624;&#4961; &#4672;&#4901;&#4677;&#4896;&#4629;&#4961; &#4971;&#4672;&#4757;&#4961; &#4768;&#4853;&#4653;&#4678;&#4961; &#4848;&#4673;&#4656;&#4961; &#4704;&#4883;&#4725;&#4961; &#4808;&#4845;&#4961; &#4704;&#4896;&#4619;&#4961; &#4845;&#4896;&#4899;&#4961; &#4840;&#4848;&#4812;&#4961; &#4645;&#4875;&#4961; &#4752;&#4813;&#4962;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the same crude hand as Additio 8, in Amharic. 
+Recipe how to prepare a medicine against leprosy (yägäwe śǝga 'sickness of the skin').</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 2v: Protective prayer against wild animals and evil people. </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2v:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4833;&#4651;&#4833;&#4653;&#4962; &#4704;&#4656;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4840;&#4618;&#4845;&#4961; &#4833;&#4651;&#4635;&#4961; &#4819;&#4632;&#4720;&#4961; &#4833;&#4651;&#4833;&#4653;&#4961; &#4904;&#4678;&#4651;&#4757;&#4961; &#4768;&#4620;&#4961; &#4616;&#4781;&#4633;&#4961; &#4704;&#4808;&#4651;&#4707;&#4961; &#4704;&#4808;&#4651;&#4875;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span></span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 2v: Protective prayer against wild animals and evil people. </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2v:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4833;&#4651;&#4833;&#4653;&#4962; &#4704;&#4656;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4840;&#4618;&#4845;&#4961; &#4833;&#4651;&#4635;&#4961; &#4819;&#4632;&#4720;&#4961; &#4833;&#4651;&#4833;&#4653;&#4961; &#4904;&#4678;&#4651;&#4757;&#4961; &#4768;&#4620;&#4961; &#4616;&#4781;&#4633;&#4961; &#4704;&#4808;&#4651;&#4707;&#4961; &#4704;&#4808;&#4651;&#4875;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span></span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a crude hand.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 48r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4773;&#4741;&#4722;&#4781;&#4633;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4773;&#4616;&#4961; </span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span></span>&#4629;&#4827;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4768;&#4616;&#4632;&#4962; &#4848;&#4629;&#4651;&#4810;&#4843;&#4757;&#4961; &#4645;&#4619;&#4660;&#4961; &#4773;&#4616;&#4961; &#4752;&#4704;&#4653;&#4781;&#4633;&#4961; &#4677;&#4853;&#4632;&#4961; &#4813;&#4656;&#4720;&#4961; &#4621;&#4840;&#4961; &#4768;&#4829;&#4757;&#4633;</span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span>&#8230;</span><span style="line-height: 115%;">&#160;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 48r-49v: Excerpt from M&#228;lk&#601;&#705;a &#347;&#601;llase (ChRep 191, no. 20).</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 48r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4773;&#4741;&#4722;&#4781;&#4633;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4773;&#4616;&#4961; </span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span></span>&#4629;&#4827;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4768;&#4616;&#4632;&#4962; &#4848;&#4629;&#4651;&#4810;&#4843;&#4757;&#4961; &#4645;&#4619;&#4660;&#4961; &#4773;&#4616;&#4961; &#4752;&#4704;&#4653;&#4781;&#4633;&#4961; &#4677;&#4853;&#4632;&#4961; &#4813;&#4656;&#4720;&#4961; &#4621;&#4840;&#4961; &#4768;&#4829;&#4757;&#4633;</span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span>&#8230;</span><span style="line-height: 115%;">&#160;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a crude hand. The text starts with strophe 28 of the Mälkǝʿa śǝllase (ChRep 191, no. 20).</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 49v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4773;&#4660;&#4709;&#4629;&#4961; &#4920;&#4875;&#4778;&#4961; &#4773;&#4877;&#4826;&#4773;&#4725;&#4840;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;&#4853;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 49v: Excerpt from S&#228;&#705;atat z&#228;-lelit (?).</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 49v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4773;&#4660;&#4709;&#4629;&#4961; &#4920;&#4875;&#4778;&#4961; &#4773;&#4877;&#4826;&#4773;&#4725;&#4840;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;&#4853;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a crude hand.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 49v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4656;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; &#4901;&#4769;&#4632;&#4961; &#4656;&#4638;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 49v: Excerpt from M&#228;lk&#601;&#705;a Iy&#228;sus (?).</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 49v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4656;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; &#4901;&#4769;&#4632;&#4961; &#4656;&#4638;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a crude hand.</p>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 107v-108v: &#704;Asmat-prayer.</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is hardly legible due to faded ink.</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 110r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4768;&#4667;&#4706;&#4961; &#4768;&#4664;&#4709;&#4667;&#4706;&#4961; &#4659;&#4616;&#4961; &#4704;&#4629;&#4845;&#4813;&#4721;&#4961; &#4706;&#4638;&#4725;&#4962; &#4616;&#4704;&#4781;&#4721;&#4961; &#4773;&#4661;&#4778;&#4936;&#4648;&#4941;&#4653;&#4961; &#4768;&#4773;&#4925;&#4637;&#4721;&#4961; &#4770;&#4725;&#4621;&#4781;&#4941;&#4961; &#4808;&#4770;&#4723;&#4661;&#4616;&#4781;&#4941;&#4961; &#4770;&#4725;&#4757;&#4661;&#4781;&#4961; &#4808;&#4770;&#4723;&#4656;&#4752;&#4661;&#4781;&#4961; &#4768;&#4616;&#4613;&#4961; &#4675;&#4616;&#4961; &#4768;&#4709;&#4961; &#4808;&#4813;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;</span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 110r-10v: &#704;Asmat</span>-prayer</div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 110r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4768;&#4667;&#4706;&#4961; &#4768;&#4664;&#4709;&#4667;&#4706;&#4961; &#4659;&#4616;&#4961; &#4704;&#4629;&#4845;&#4813;&#4721;&#4961; &#4706;&#4638;&#4725;&#4962; &#4616;&#4704;&#4781;&#4721;&#4961; &#4773;&#4661;&#4778;&#4936;&#4648;&#4941;&#4653;&#4961; &#4768;&#4773;&#4925;&#4637;&#4721;&#4961; &#4770;&#4725;&#4621;&#4781;&#4941;&#4961; &#4808;&#4770;&#4723;&#4661;&#4616;&#4781;&#4941;&#4961; &#4770;&#4725;&#4757;&#4661;&#4781;&#4961; &#4808;&#4770;&#4723;&#4656;&#4752;&#4661;&#4781;&#4961; &#4768;&#4616;&#4613;&#4961; &#4675;&#4616;&#4961; &#4768;&#4709;&#4961; &#4808;&#4813;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a crude hand in Amharic.</p>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 110v:</span><span style="line-height: 115%;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4813;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4786;&#4653;&#4786;&#4653;&#4843;&#4758;&#4661;&#4961; &#4704;&#4661;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961; &#4941;&#4621;&#4941;&#4621;&#4843;&#4758;&#4661;&#4961; &#4704;&#4661;&#4632;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4636;&#4621;&#4846;&#4661;&#4961; &#4704;&#4829;&#4757;&#4721;&#4961; &#4661;&#4637;&#4776;&#4961; &#4808;&#4704;&#4829;&#4757;&#4721;&#4961; &#4768;&#4661;&#4635;&#4722;&#4776;&#4961; &#4773;&#4757;&#4877;&#4850;&#4741;&#4961; &#4621;&#4869;&#4961; &#4813;&#4648;&#4853;&#4961; &#4845;&#4704;&#4616;&#4776;&#4961; &#4768;&#4709;&#4961; &#4808;&#4813;&#4621;&#4853;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 110v: &#704;Asmat-prayer to help deliver the placenta without problems.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 110v:</span><span style="line-height: 115%;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4813;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4786;&#4653;&#4786;&#4653;&#4843;&#4758;&#4661;&#4961; &#4704;&#4661;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961; &#4941;&#4621;&#4941;&#4621;&#4843;&#4758;&#4661;&#4961; &#4704;&#4661;&#4632;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4636;&#4621;&#4846;&#4661;&#4961; &#4704;&#4829;&#4757;&#4721;&#4961; &#4661;&#4637;&#4776;&#4961; &#4808;&#4704;&#4829;&#4757;&#4721;&#4961; &#4768;&#4661;&#4635;&#4722;&#4776;&#4961; &#4773;&#4757;&#4877;&#4850;&#4741;&#4961; &#4621;&#4869;&#4961; &#4813;&#4648;&#4853;&#4961; &#4845;&#4704;&#4616;&#4776;&#4961; &#4768;&#4709;&#4961; &#4808;&#4813;&#4621;&#4853;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in the same hand as Additio 1.
+ʾAsmat-prayer to deliver the placenta (ǝngǝdiḫ lǝğ "afterbirth") without problems.</p>
                         </item>
                         <item xml:id="e1">- Crude notes and pen trials throughout the Ms.&#xD;
 - Pen trail: Fol. 1r: ሊተ፡ ተማኅፅኖ፡ ተማኅፀንኩ፡ በእግዚአብሔር፡ አብ፡ ብሁተ፡ ሥልጣን። ተማኅፀንኩ፡ በ[sic].&#xD;
@@ -230,7 +232,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0175ʾAbrǝqoMaryam">ʾAbrǝqo Maryam / QMA</placeName>
+                        <placeName corresp="INS0175QMA">ʾAbrǝqo Maryam / QMA</placeName>
                      </origPlace>
                      <origDate notBefore="1841" notAfter="1861">On fol. 12, Metropolitan ʾabunä Sälama (tenure 1841-68) and Patriarch Qerǝllos (Cyril IV, tenure 1854-61?) are mentioned.</origDate>
                   </origin>
@@ -272,10 +274,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -298,7 +296,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-18">registered</change>
          <change who="SD" when="2014-08-28T08:42:29.240Z">created</change>
          <change who="DN" when="2015-12-21T13:09:49.521Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

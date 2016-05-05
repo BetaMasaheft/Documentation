@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dǝrsan zä-qǝddus Yoḥannǝs wäldä Zäbdewos bä-ʾǝntä ʿǝbäya wä-kǝbra lä-Maryam “Homily by John the Son of Zebedee on the Greatness and Glory of Mary”</title>
+            <title>Dǝrsan zä-qǝddus Yoḥannǝs wäldä Zäbdewos bä-ʾǝntä ˤǝbäya wä-kǝbra lä-Maryam “Homily by John the Son of Zebedee on the Greatness and Glory of Mary”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0198QälaqǝlMaryamṢǝyon"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0198QS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QS-016</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">18.0</measure> folios,
-                                                in
-                                                <measure unit="quire">2.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">18.0</measure> folios, in <measure unit="quire">2.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.0</height>
                               <width unit="cm">14.0</width>
@@ -78,7 +76,7 @@ Many fols. are affected by humidity.&#xD;
 Fol. 1r, damaged in the upper part, probably was used as front cover, attached to the ms. in a second time.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>140</height>
                               <width>115</width>
@@ -91,30 +89,33 @@ Fol. 1r, damaged in the upper part, probably was used as front cover, attached t
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are party visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre; irregular.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Śǝllase</persName>Wäldä Śǝ[llase] is the name of the scribe mentioned in the supplication formula on fol. 2ra (partly erased).<date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>፪ሆሙ is used on fol. 7vb l.1.</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -132,7 +133,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0198QälaqǝlMaryamṢǝyon">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
+                        <placeName corresp="INS0198QS">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -174,8 +175,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Śǝllase</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -199,7 +199,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2012-12-02">registered</change>
          <change who="VP" when="2015-05-07T13:25:05.470Z">created</change>
          <change who="DN" when="2015-06-19T07:46:53.513Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

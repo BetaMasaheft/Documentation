@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0145ʾAndelQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0145MA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MA-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">158.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">12.0</measure> blank, in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">158.0</measure> folios, of which <measure unit="leaf" type="blank">12.0</measure> blank, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.0</height>
                               <width unit="cm">21.0</width>
@@ -132,7 +130,7 @@ Many fols. are stained with wax and dirt.	&#xD;
 Holes or tears amended on fols. 3, 22, 33, 71, 74, 111, 114, 119, 120, 131, 147, 158.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>188</height>
                               <width>167</width>
@@ -145,28 +143,34 @@ Holes or tears amended on fols. 3, 22, 33, 71, 74, 111, 114, 119, 120, 131, 147,
                               <dim type="left">13</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 5r.</ab>
+                           <note>All data are for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>late 19th-early 20th century</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>በእ፡ for በእንተ፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -186,7 +190,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0145ʾAndelQǝddǝstMaryam">ʾAndel Qǝddǝst Maryam / MA</placeName>
+                        <placeName corresp="INS0145MA">ʾAndel Qǝddǝst Maryam / MA</placeName>
                      </origPlace>
                      <origDate notBefore="1881" notAfter="1917">Patriarch Qerǝllos (in tenure 1874-1927) and Metropolitan Peṭros (in tenure 1881-1917) are mentioned throuhout the Ms., e.g. on fols. 34vb, 37va, 48vb, 49ra, 52vb, 58rb, 71ra, 71va, 105rb. The name of King Mikaʾel (1847/50-1918) is mentioned on fol. 48va.</origDate>
                   </origin>
@@ -228,10 +232,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -252,7 +252,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-23">registered</change>
          <change who="DE" when="2014-01-23T12:01:06.421Z">created</change>
          <change who="SH" when="2014-09-15T10:45:10.582Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030ʿAddäqaḥarsiṖäraqliṭos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-005</idno>
                   <altIdentifier>
                      <idno>C3-IV-4 (fol. 1r)</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">119.0</measure> folios,
-                                                in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">119.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.0</height>
                               <width unit="cm">24.0</width>
@@ -125,7 +123,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The leather overback is slightly damaged at the head and tail. Some fols. may be missing. Some quires may be missplaced. The biggest part of fol. 118 is cut off.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="30">
                            <dimensions unit="mm">
                               <height>220</height>
                               <width>190</width>
@@ -138,25 +136,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 5r.</ab>
+                           <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are mostly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 (above the ruling in fol. 103 and elsewhere).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe did not use the upper two lines on fol. 2r.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The bottom ruled line is not used on fols. 49v-50v.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -170,8 +170,7 @@ The bottom ruled line is not used on fols. 49v-50v.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, careful.</ab>
                         <seg type="ink">Black; red (reddish brown in fols. 15r, 38r, 40v, 45v, 90r and elsewhere)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>First half of the 16th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Habtä ʾIyäsus</persName>The scribe has mentioned his own name, Habtä ʾIyäsus, in a subscription (exhortation, fol. 118ra).<date>First half of the 16th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -197,7 +196,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030ʿAddäqaḥarsiṖäraqliṭos">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
                      </origPlace>
                      <origDate notBefore="1500" notAfter="1550"/>
                   </origin>
@@ -239,8 +238,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Habtä ʾIyäsus</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -263,7 +261,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-03">registered</change>
          <change who="DN" when="2013-05-25T18:44:28.876Z">created</change>
          <change who="DN" when="2015-05-30T14:29:18.900Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

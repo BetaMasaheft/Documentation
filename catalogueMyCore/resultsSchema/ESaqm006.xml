@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0091ʾAgärhǝseʾAbunäMamas"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0091AQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AQM-006</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <span style="line-height: 115%">Fol. </span><span style="line-height: 115%">94vb</span><span style="line-height: 115%">: </span><span style="font-size: large"><span style="line-height: 115%">&#4845;&#4725;&#4707;&#4648;&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4824;&#4757;&#4720;&#4961; </span><span style="line-height: 115%">&#4720;&#4768;&#4637;&#4648;&#4961;</span><span style="line-height: 115%"> &#4704;&#4848;&#4741;&#4755;&#4961; &#4808;&#4704;&#4656;&#4619;&#4637;&#4961; &#4768;&#4632;&#4961; </span><span style="line-height: 115%">&#4978;&#4808;</span><span style="line-height: 115%">&#4976;</span><span style="line-height: 115%">&#4616;</span><span style="line-height: 115%">&#4877;&#4757;</span><span style="line-height: 115%">&#4710;</span><span style="line-height: 115%">&#4725;&#4961; </span><span style="line-height: 115%">&#4978;&#4808;</span><span style="line-height: 115%">&#4971;&#4640;&#4653;</span><span style="line-height: 115%">&#4672;</span><span style="line-height: 115%">&#4961; &#4620;&#4618;&#4725;&#4961; &#4824;&#4632;&#4752;&#4961; &#4635;&#4653;&#4678;&#4661;&#4962; &#4704;</span><span style="line-height: 115%">&#4978;&#4987;&#4808;&#4977;&#4987;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962;</span></span>The writing was completed on the 13th of Gǝnbot in the year of mercy 1900 (= 21.05.1908 A.D).</colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small"><span style="line-height: 115%">Fol. </span><span style="line-height: 115%">94vb</span><span style="line-height: 115%">: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4845;&#4725;&#4707;&#4648;&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4824;&#4757;&#4720;&#4961; </span><span style="line-height: 115%">&#4720;&#4768;&#4637;&#4648;&#4961;</span><span style="line-height: 115%"> &#4704;&#4848;&#4741;&#4755;&#4961; &#4808;&#4704;&#4656;&#4619;&#4637;&#4961; &#4768;&#4632;&#4961; </span><span style="line-height: 115%">&#4978;&#4808;</span><span style="line-height: 115%">&#4976;</span><span style="line-height: 115%">&#4616;</span><span style="line-height: 115%">&#4877;&#4757;</span><span style="line-height: 115%">&#4710;</span><span style="line-height: 115%">&#4725;&#4961; </span><span style="line-height: 115%">&#4978;&#4808;</span><span style="line-height: 115%">&#4971;&#4640;&#4653;</span><span style="line-height: 115%">&#4672;</span><span style="line-height: 115%">&#4961; &#4620;&#4618;&#4725;&#4961; &#4824;&#4632;&#4752;&#4961; &#4635;&#4653;&#4678;&#4661;&#4962; &#4704;</span><span style="line-height: 115%">&#4978;&#4987;&#4808;&#4977;&#4987;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962;</span></span></p><foreign xml:lang="en"/>
+                        <note>The writing was completed on the 13th of Gǝnbot in the year of mercy 1900 (= 21.05.1908 A.D).</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -55,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">96.0</measure> folios,
-                                                in
-                                                <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">96.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">17.0</width>
@@ -114,7 +114,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">Holes or tears amended on fols. 40, 90.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>150</height>
                               <width>135</width>
@@ -127,53 +127,64 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe did not use the bottom ruled line on fols. 13r-15v, 18r-20v, 27r-28r.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre and irregular</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Early 20th century</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Giyorgis</persName>Gäbrä Giyorgis is mentioned as the scribe in the colophon and on fols. 88vb, 91rb, 93va.<date>Early 20th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>እሰ፡</abbr> for <expan>እሰግድ፡ </expan> (fols. 11rb-va)</item>
+                           <item>
+                              <abbr>ለ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 71rb)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 45rb, 61rb, 67va, 79vb)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አ(ሜን)፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 32rb, 35vb, 50ra, 76va)</item>
+                           <item>
+                              <abbr>ለዓለ፡ ዓ፡ አ(ሜን)፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 25vb, 37va)</item>
+                           <item>
+                              <abbr>ለዓለ፡ ዓለ፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 25va).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 95va: Donation note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 95va: Donation note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>According to the note, wäyzäro Kasa donated the Ms., written in careful hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 95va-vb: Poem on S&#477;m&#705;on and </span><span style="line-height: 115%" unicode="">&#704;Aqlesya</span><span style="line-height: 115%"> (parents of Gabr&#228; M&#228;nf&#228;s Q&#477;ddus). </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 95va:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4661;&#4637;&#4822;&#4757;&#4961; &#4808;&#4768;&#4677;&#4619;&#4658;&#4843;&#4961; &#4824;&#4752;&#4704;&#4649;&#4961; &#4704;&#4757;&#4610;&#4659;&#4961; &#4661;&#4617;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; </span></span><span style="font-size: small;"><span style="line-height: 115%;">[fol. 95vb]</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4752;&#4941;&#4625;&#4961; &#4704;&#4813;&#4661;&#4720;&#4961; &#4776;&#4653;&#4643;&#4962; &#4720;&#4808;&#4621;&#4848;&#4961; &#4773;&#4637;&#4756;&#4614;&#4633;&#4961; &#4672;&#4755;&#4840;&#4961; &#4768;&#4755;&#4709;&#4661;&#4725;&#4961; &#4983;&#4776;&#4632;&#4961; &#4768;&#4637;&#4619;&#4777;&#4961; &#4824;&#4845;&#4640;&#4650;&#4961; &#4768;&#4704;&#4643;&#4962;</span></span></q>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 95va-vb: Poem on S&#477;m&#705;on and </span><span style="line-height: 115%" unicode="">&#704;Aqlesya</span><span style="line-height: 115%"> (parents of Gabr&#228; M&#228;nf&#228;s Q&#477;ddus). </span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 95va:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4661;&#4637;&#4822;&#4757;&#4961; &#4808;&#4768;&#4677;&#4619;&#4658;&#4843;&#4961; &#4824;&#4752;&#4704;&#4649;&#4961; &#4704;&#4757;&#4610;&#4659;&#4961; &#4661;&#4617;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; </span></span><span style="font-size: small;"><span style="line-height: 115%;">[fol. 95vb]</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4752;&#4941;&#4625;&#4961; &#4704;&#4813;&#4661;&#4720;&#4961; &#4776;&#4653;&#4643;&#4962; &#4720;&#4808;&#4621;&#4848;&#4961; &#4773;&#4637;&#4756;&#4614;&#4633;&#4961; &#4672;&#4755;&#4840;&#4961; &#4768;&#4755;&#4709;&#4661;&#4725;&#4961; &#4983;&#4776;&#4632;&#4961; &#4768;&#4637;&#4619;&#4777;&#4961; &#4824;&#4845;&#4640;&#4650;&#4961; &#4768;&#4704;&#4643;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The poem is probably written in the main hand.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 96ra-rb: Excerpt from </span><span style="line-height: 115%;">a miracle of Mary about the </span><span style="line-height: 115%;">cannibal of Q&#601;m&#601;r (b&#228;la&#704;e s&#228;b&#704;).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 96ra-rb: Excerpt from </span><span style="line-height: 115%;">a miracle of Mary about the </span><span style="line-height: 115%;">cannibal of Q&#601;m&#601;r (b&#228;la&#704;e s&#228;b&#704;).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The excerpt is probably written in the main hand.</p>
                         </item>
                         <item xml:id="e1">- Tämälläs-signs (in the shape of +) indicating the place where the omissions, written interlineally (fol. 10va) or in the margins (fol. 5vb, 22ra), belong.&#xD;
 - Omitted letters are written interlineally: fol. 9ra, 35rb, 51rb, 64vb.&#xD;
@@ -197,7 +208,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0091ʾAgärhǝseʾAbunäMamas">ʾAgärhǝse ʾAbunä Mamas / AQM</placeName>
+                        <placeName corresp="INS0091AQM">ʾAgärhǝse ʾAbunä Mamas / AQM</placeName>
                      </origPlace>
                      <origDate notBefore="1908" notAfter="1908">The colophon states that the Ms. was written in 1900 A.M. (= 1908 A.D.).</origDate>
                   </origin>
@@ -240,8 +251,7 @@ According to Additio 1, the Ms. was donated by wäyzäro Kasa.</persName>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Giyorgis</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -265,7 +275,7 @@ According to Additio 1, the Ms. was donated by wäyzäro Kasa.</persName>
          <change who="DN" when="2010-11-16">registered</change>
          <change who="SH" when="2013-11-04T15:53:14.194Z">created</change>
          <change who="SH" when="2014-10-13T15:58:15.534Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

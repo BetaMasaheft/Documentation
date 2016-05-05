@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0129DÇ&#x9d;blaYoá¸¥annÇ&#x9d;sMÃ¤á¹­mÇ&#x9d;q"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0129DMD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMD-005</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On fol. 1r, the two upper lines of each column are rubricated.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">152.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">3.5</measure> blank, in
-                                                <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">152.0</measure> folios, of which <measure unit="leaf" type="blank">3.5</measure> blank, in <measure unit="quire">23.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.0</height>
                               <width unit="cm">20.5</width>
@@ -142,7 +140,7 @@ The structure of quires I-VIII and X-XI has been defined tentatively. Fols. 63 a
 Leather covering is for the most part lost, and preserved only on the inner faces of the boards. Original sewing is missing. Both boards are broken and repaired with leather cords.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>165</height>
                               <width>160</width>
@@ -155,55 +153,58 @@ Leather covering is for the most part lost, and preserved only on the inner face
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 2r.</ab>
+                           <note>All data are for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are not visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 70r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular, fluent, by well-trained hand.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 18th cent.</date>
+                        <list type="abbreviations">
+                           <item>ይ፡ ካ፡ or ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ or ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይ፡ ሕ፡ or ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>
+                              <abbr>ሕዝ፡</abbr> for <expan>(ይበል፡) ሕዝብ፡ </expan> (s. fol. 10ra)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%" arial="" unicode="">Fol. 63v: Donation note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: large"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">Fol. 63v: &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4808;&#4608;&#4704; </span><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4845;&#4821;&#4672;&#4710;&#4633;&#4961; &#4616;&#4768;&#4705;&#4609;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4720;&#4661;&#4939;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4872;&#4709;&#4649;&#4961; &#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></q>
-                           <q xml:lang="en"><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%">Fol. 63v: This is a book of </span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#705;</span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#398;quba &#346;&#477;llase who has donated it to (the church of) John </span><span lang="DE" unicode="" arial="" style="line-height: 115%">(the Baptist), who bought it for his own money. May [God&#8217;s] protection and blessing guard his father and his mother, T&#228;sfa Giyorgis [and] W&#228;l&#228;tt&#228; Maryam, and His servant </span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#705;</span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#398;quba &#346;&#477;llase for ever and ever. Amen.</span></span></q>
+                           <locus/><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%" arial="" unicode="">Fol. 63v: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: large"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">Fol. 63v: &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4808;&#4608;&#4704; </span><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4845;&#4821;&#4672;&#4710;&#4633;&#4961; &#4616;&#4768;&#4705;&#4609;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4720;&#4661;&#4939;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4872;&#4709;&#4649;&#4961; &#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%">Fol. 63v: This is a book of </span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#705;</span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#398;quba &#346;&#477;llase who has donated it to (the church of) John </span><span lang="DE" unicode="" arial="" style="line-height: 115%">(the Baptist), who bought it for his own money. May [God&#8217;s] protection and blessing guard his father and his mother, T&#228;sfa Giyorgis [and] W&#228;l&#228;tt&#228; Maryam, and His servant </span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#705;</span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#398;quba &#346;&#477;llase for ever and ever. Amen.</span></span></p></q>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%">Fols. 148va-149r: 1 Cor. 11:23-29.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%">Fols. 148va-149r: 1 Cor. 11:23-29.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written. Parts of the same text, in the same hand, are repeated in fol. 150v.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="DE" unicode="" arial="" style="line-height: 115%">Fol. 149v: Ownership note (?).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span lang="DE" unicode="" arial="" style="line-height: 115%">Fol. 149v: Ownership note (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, part of the text poorly visible. The name of John the Baptist (patron saint of the church) can be discerned.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 150v: Ownership note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">Fol. 150v: &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4848;&#4709;&#4648; </span><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4808;&#4640;&#4635;&#4821;&#4725;&#4962; &#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4656;&#4648;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></q>
-                           <q xml:lang="en"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 150v: This is a book of the church of John the Baptist and Martyr. He who erases [its text] and he who steals it shall be excommunicated by the authority of Peter and Paul.</span></q>
-                           <p/>
+                           <locus/><p><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 150v: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">Fol. 150v: &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4848;&#4709;&#4648; </span><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4808;&#4640;&#4635;&#4821;&#4725;&#4962; &#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4656;&#4648;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></p></q>
+                           <q xml:lang="en"><p><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 150v: This is a book of the church of John the Baptist and Martyr. He who erases [its text] and he who steals it shall be excommunicated by the authority of Peter and Paul.</span></p></q>
+                           <p>The beginning of a pen trial is adjoined to the end of note.</p>
                         </item>
                         <item xml:id="e1">- Round stamp is visible in the bottom right corner (the inner part of the stamp did not leave the imprint): fol. 1r.&#xD;
 - In the upper margin, notes marking beginning of important texts: fols. 28r, 33r, 34r, 38v.&#xD;
@@ -233,7 +234,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0129DÇ&#x9d;blaYoá¸¥annÇ&#x9d;sMÃ¤á¹­mÇ&#x9d;q">DÇ&#x9d;bla Yoá¸¥annÇ&#x9d;s MÃ¤á¹­mÇ&#x9d;q / DMD</placeName>
+                        <placeName corresp="INS0129DMD">DÇ&#x9d;bla Yoá¸¥annÇ&#x9d;s MÃ¤á¹­mÇ&#x9d;q / DMD</placeName>
                      </origPlace>
                      <origDate notBefore="1770" notAfter="1796">Yosef is mentioned as the Patriarch (fol. 69vb), and Yosab is mentioned as the Metropolitan (fols. 69vb, 70rb). Yosab (II) was Metropolitan of Ethiopia from ca. 1770 to 1803; Joseph was the lay name of John XVIII, Patriarch of Alexandria in 1769-96.</origDate>
                   </origin>
@@ -275,10 +276,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -299,7 +296,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-09">registered</change>
          <change who="IF" when="2012-06-23T10:28:26.046Z">created</change>
          <change who="SA" when="2014-11-29T18:45:02.569Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

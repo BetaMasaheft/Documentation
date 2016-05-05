@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäftəḥe śəray “Undoing of Charms”</title>
+            <title>Mäftәḥe śәray “Undoing of Charms”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0157DänderaDäbräMəḥrätMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0157DDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DDM-019</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">49.0</measure> folios,
-                                                in
-                                                <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">49.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">10.5</height>
                               <width unit="cm">7.5</width>
@@ -89,7 +87,7 @@ The structure of quire VI cannot be established with certainty, because fol. 43 
                         <condition key="intact">A few pages are stained with dirt.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="12">
                            <dimensions unit="mm">
                               <height>75</height>
                               <width>53</width>
@@ -102,28 +100,34 @@ The structure of quire VI cannot be established with certainty, because fol. 43 
                               <dim type="left">5</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Irregular</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>20th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (e.g., fols. 13r, 38v, 39r)</item>
+                           <item>
+                              <abbr>ለገ(ብ)፡</abbr> for <expan>ለገብርከ፡ </expan> (e.g., fols. 10v, 11v, 12r)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -133,10 +137,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial">Fol. 49v: Ownership note</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 49v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4720;</span><span style="line-height: 115%;">&#4624;&#4851;</span><span style="line-height: 115%;">&#4661;&#4725;&#4617;</span></span></span><span style="line-height: 115%;"> 24/12/96</span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"> &#4819;</span><span style="line-height: 115%;">/</span><span style="line-height: 115%;">&#4637; </span><span style="line-height: 115%;">&#4773;&#4826; &#4632;&#4933;&#4624;&#4941; &#4632;&#4941;&#4725;&#4612;&#4961; &#4661;&#4651;&#4845; &#4755;&#4845; &#4672;&#4666; &#4709;&#4653;&#4611;&#4752; &#4720;&#4661;&#4941;&#4845; &#4872;&#4709;&#4648;&#4725;&#4757;&#4659;&#4772;</span></span></span></q>
+                           <locus/><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial">Fol. 49v: Ownership note</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 49v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4720;</span><span style="line-height: 115%;">&#4624;&#4851;</span><span style="line-height: 115%;">&#4661;&#4725;&#4617;</span></span></span><span style="line-height: 115%;"> 24/12/96</span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"> &#4819;</span><span style="line-height: 115%;">/</span><span style="line-height: 115%;">&#4637; </span><span style="line-height: 115%;">&#4773;&#4826; &#4632;&#4933;&#4624;&#4941; &#4632;&#4941;&#4725;&#4612;&#4961; &#4661;&#4651;&#4845; &#4755;&#4845; &#4672;&#4666; &#4709;&#4653;&#4611;&#4752; &#4720;&#4661;&#4941;&#4845; &#4872;&#4709;&#4648;&#4725;&#4757;&#4659;&#4772;</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a crude secondary hand with red and blue ballpoint pen on cardboard, in Tǝgrǝñña. It states that the book belongs to qäšši Bǝrhanä Täsfǝy Gäbrä Tǝnśaʾe. The date 24/12/96 A.M. (= 2003/04 A.D.) is mentioned.</p>
                         </item>
                         <item xml:id="e1">- Erasures: fols. 31v, 36r.&#xD;
 - Omitted words or letters written interlineally: fols. 13v, 21r.&#xD;
@@ -162,7 +165,7 @@ Before the first and after the last quire a page of cardboard has been inserted.
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0157DänderaDäbräMəḥrätMikaʾel">Dändera Däbrä Məḥrät Mikaʾel / DDM</placeName>
+                        <placeName corresp="INS0157DDM">Dändera Däbrä Mәḥrät Mikaʾel / DDM</placeName>
                      </origPlace>
                      <origDate notBefore="1939" notAfter="1956">King Ḫaylä Śǝllase (r. 1930-1974) and Bishop ʾabba Yoḥannǝs (tenure 1939-56) are mentioned on fol. 15r.</origDate>
                   </origin>
@@ -204,10 +207,6 @@ Before the first and after the last quire a page of cardboard has been inserted.
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -223,14 +222,14 @@ Before the first and after the last quire a page of cardboard has been inserted.
             <language ident="en">Inglese</language>
             <language ident="it">Italiano</language>
             <language ident="gez" xml:id="Lan05">Gəˁəz</language>
-            <language ident="other" xml:id="Lan00">-other</language>
+            <language>Tǝgrǝñña</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-18">registered</change>
          <change who="VR" when="2015-03-11T15:08:55.962Z">created</change>
          <change who="VR" when="2015-04-13T15:53:45.858Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

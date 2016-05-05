@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0103ʾAmbäsätKidanäMǝḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0103AKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AKM-018</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ A few lines (2 or 4) on the incipit page of Texts I, II, and IV (alternating wit
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">54.0</measure> folios,
-                                                in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">54.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">4.5</width>
@@ -97,7 +95,7 @@ The sewing is damaged and repaired with synthetic threads.&#xD;
 Fols. 36-37 are of a smaller size.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>142</height>
                               <width>101</width>
@@ -110,34 +108,46 @@ Fols. 36-37 are of a smaller size.</condition>
                               <dim type="left">8</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data are fol. 4r.</ab>
+                           <note>All data are fol. 4r.</note>
                            <ab type="ruling">the number of lines varies from 17 to 19.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling (below in fols. 4r, 4v, 9r, 46r, 53v, 54v). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling (below in fols. 40r, 40vb).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The ruling is not uniform and regular and the scribe often disregarded it (s., e.g., fols. 46r, 47r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The bottom ruled line has not been used in fol. 41rb.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular</ab>
                         <seg type="ink">Black; red (brilliant vermillion; a few times also dark vermillion and vivid red).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 19th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሃሌ፡/ሃሌ፡ ሉ፡</abbr> for <expan>ሃሌ፡ ሉያ፡ in Text I </expan> (fols. 30va-31ra)</item>
+                           <item>
+                              <abbr>ይካ፡</abbr> for <expan>ይቤ፡ ካህን፡ in Text IV </expan> (fols. 47va-48ra)</item>
+                           <item>
+                              <abbr>ይዲ፡</abbr> for <expan>ይቤ፡ ዲያቆን፡ in Text IV </expan> (fols. 47rb-48ra)</item>
+                           <item>
+                              <abbr>ኦ፡</abbr> for <expan>ኦድንግል፡ in Text IV </expan> (fol. 49vb)</item>
+                           <item>
+                              <abbr>አ፡</abbr> for <expan>አብ፡ in Text IV </expan> (fol. 52ra-va)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -169,7 +179,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0103ʾAmbäsätKidanäMǝḥrät">ʾAmbäsät Kidanä Mǝḥrät  / AKM</placeName>
+                        <placeName corresp="INS0103AKM">ʾAmbäsät Kidanä Mǝḥrät  / AKM</placeName>
                      </origPlace>
                      <origDate notBefore="1929" notAfter="1936">In fol. 46va ʾabba Qerǝllos is mentioned as archbishop (ሊቀ፡ ጳጳሳት፡) and ʾabba Ṗeṭros as bishop (ጳጳስ፡). Qerǝllos VI (s. EAE IV, 291) was archbishop of Ethiopia between 1929 and 1937 and Ṗeṭros (s. EAE IV, 140) was bishop of Ethiopia between 1928 and 1936.</origDate>
                   </origin>
@@ -211,10 +221,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -236,7 +242,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-11">registered</change>
          <change who="VP" when="2013-08-14T13:54:12.773Z">created</change>
          <change who="VP" when="2015-01-23T11:04:38.816Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

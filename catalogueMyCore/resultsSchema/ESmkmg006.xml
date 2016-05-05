@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0237MÃ¤kaË&#x81;Ó&#x99;loMÃ¤kanÃ¤LÉ&#x99;Ë&#x81;ul"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0237MKMG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MKMG-006</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">179.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">8.0</measure> blank, in
-                                                <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">179.0</measure> folios, of which <measure unit="leaf" type="blank">8.0</measure> blank, in <measure unit="quire">26.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">20.5</width>
@@ -151,7 +149,7 @@ The inner corners of fols. 153-176 are damaged, some text is lost (s. other deta
 Cuts carefully amended on fols. 47, 51, 67, 90, 134, 160, 169.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>235</height>
                               <width>175</width>
@@ -164,27 +162,27 @@ Cuts carefully amended on fols. 47, 51, 67, 90, 134, 160, 169.</condition>
                               <dim type="left">5</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">all data are for fol. 5r.</ab>
+                           <note>all data are for fol. 5r.</note>
                            <ab type="ruling">(changing in the number of lines in few cases, e.g. fols. 8rb, 9ra-9rb, 88vb)</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine and careful. Hand b: irregular and uneven.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>16th century (at least hand a)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 4r-148rb l.15, 162ra-172vb l.7.</handNote>
@@ -197,16 +195,14 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 1r:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: medium"><span style="line-height: 115%">&#4768;</span><span style="font-size: large"><span style="line-height: 115%">&#4616;</span><span style="line-height: 115%">&#4675;&#4961; &#4925;&#4649;&#4845;&#4961; &#4776; </span></span><span style="line-height: 115%">&lt;&#8230;&gt;</span><span style="line-height: 115%"> </span><span style="font-size: large"><span style="line-height: 115%">&#4776;&#4720;&#4635;&#4961; &#4939;&#4726;&#4961; &#4978;&#4977;</span></span><span style="line-height: 115%">[</span><span style="font-size: large"><span style="line-height: 115%">&#4987;</span></span><span style="line-height: 115%">]</span><span style="line-height: 115%">&lt;&#8230;&gt;</span><span style="line-height: 115%">[</span><span style="font-size: large"><span style="line-height: 115%">&#4819;</span></span><span style="line-height: 115%">]</span><span style="font-size: large"><span style="line-height: 115%">&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962;</span></span></span></q>
+                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 1r: Unclear n<span unicode="">ote.</span></span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 1r:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: medium"><span style="line-height: 115%">&#4768;</span><span style="font-size: large"><span style="line-height: 115%">&#4616;</span><span style="line-height: 115%">&#4675;&#4961; &#4925;&#4649;&#4845;&#4961; &#4776; </span></span><span style="line-height: 115%">&lt;&#8230;&gt;</span><span style="line-height: 115%"> </span><span style="font-size: large"><span style="line-height: 115%">&#4776;&#4720;&#4635;&#4961; &#4939;&#4726;&#4961; &#4978;&#4977;</span></span><span style="line-height: 115%">[</span><span style="font-size: large"><span style="line-height: 115%">&#4987;</span></span><span style="line-height: 115%">]</span><span style="line-height: 115%">&lt;&#8230;&gt;</span><span style="line-height: 115%">[</span><span style="font-size: large"><span style="line-height: 115%">&#4819;</span></span><span style="line-height: 115%">]</span><span style="font-size: large"><span style="line-height: 115%">&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962;</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a recent hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 71r:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4872;&#4709;&#4648;<span style="line-height: 115%">&#4961;</span> &#4632;&#4853;&#4736;&#4757; &#4637;&#4643;&#4629;&#4961; &#4819;&#4845;&#4757;&#4961; &#4720;&#4661;&#4939;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4720;&#4896;&#4637;&#4672;&#4961; &#4632;&#4853;&#4736;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4853;&#4709;&#4621;&#4840;[</span><span style="line-height: 115%">&#4661;</span><span style="line-height: 115%">]</span><span style="line-height: 115%">&#4961; &#4808;&#4616;&#4848;&#4961; &#4661;&#4653;&#4880;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4709;&#4773;&#4848;</span></span><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4961; </span></span>&#4635;&#4653;&#4843;&#4637;&#4961; &#4757;&#4877;&#4645;&#4725;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4819;&#4637;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4808;&#4616;&#4848;&#4725;&#4961; &#4819;&#4637;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; </span><span style="font-size: small"><span style="line-height: 115%">&lt;&#8230;&gt; </span></span><span style="line-height: 115%">&#4840;&#4755;&#4672;&#4653; &#4653;&#4656;&#4704;&#4653;&#4961; &#4637;&#4853;&#4654;&#4633;&#4961; &#4773;&#4757;&#4704;&#4845;&#4726;&#4961; </span></span><span style="font-size: medium"><span style="line-height: 115%">&lt;&#8230;&gt;</span><span style="line-height: 115%">&#160;</span><span style="font-size: large"><span style="line-height: 115%">&#4824;&#4808;&#4709;&#4811;&#4961; &#4616;&#4632;&#4781;&#4819;&#4622;&#4961; &#4824;&#4624;&#4752;&#4933;&#4811;&#4961; &#4624;&#4928;&#4845;&#4961; &#4640;&#4653;&#4928;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4824;&#4880;&#4616;&#4961; &#4725;&#4811;&#4961; &#4624;&#4928;&#4845;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4773;&#4757;&#4704;&#4616;&#4961; &#4653;&#4645;&#4720;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4768;&#4621;&#4710;&#4961; &#4776;&#4621;&#4819;&#4961; &#4877;&#4709;&#4653;&#4961; &#4773;&#4757;&#4704;&#4616;&#4961; &#4781;&#4613;&#4752;&#4725;&#4961; &#4813;&#4873;&#4829;&#4961; &#4813;&#4773;&#4721;&#4961;&#160; </span></span><span style="line-height: 115%"><br /> </span></span></q>
-                           <q xml:lang="en"><span style="font-size: small"><span unicode="" style="line-height: 115%">Fol. 71r: G&#228;br&#228; M&#228;d&#7723;an M&#601;&#347;a&#7717; &#705;Ayn gave birth to T&#228;sfa Maryam (who) gave birth (to) T&#601;n&#347;a&#704;e Kr&#601;stos (who) gave birth (to) T&#228;&#7789;&#228;mq&#228; M&#228;d&#7723;an (who) gave birth (to) D&#601;blyos (who) gave birth (to) S&#601;rg<sup>w</sup>&#228; D&#601;ng&#601;l (who) gave birth (to) B&#601;&#704;d&#228; Maryam, the Queen Maryam &#705;Amd&#228; &#7716;awaryat gave birth to &#705;Amd&#228; &#7716;awaryat &lt;...&gt; ...</span></span></q>
-                           <p/>
+                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 71r<span unicode="">: Record including traditional genealogy and gw</span><span unicode=""><span style="line-height: 115%">&#601;</span>lt-land given to the church by King </span><span unicode="">&#346;&#228;r&#7693;&#228; D&#601;ng&#601;l, its founder (?).</span></span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 71r:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4872;&#4709;&#4648;<span style="line-height: 115%">&#4961;</span> &#4632;&#4853;&#4736;&#4757; &#4637;&#4643;&#4629;&#4961; &#4819;&#4845;&#4757;&#4961; &#4720;&#4661;&#4939;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4720;&#4896;&#4637;&#4672;&#4961; &#4632;&#4853;&#4736;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4853;&#4709;&#4621;&#4840;[</span><span style="line-height: 115%">&#4661;</span><span style="line-height: 115%">]</span><span style="line-height: 115%">&#4961; &#4808;&#4616;&#4848;&#4961; &#4661;&#4653;&#4880;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4709;&#4773;&#4848;</span></span><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4961; </span></span>&#4635;&#4653;&#4843;&#4637;&#4961; &#4757;&#4877;&#4645;&#4725;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4819;&#4637;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4808;&#4616;&#4848;&#4725;&#4961; &#4819;&#4637;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; </span><span style="font-size: small"><span style="line-height: 115%">&lt;&#8230;&gt; </span></span><span style="line-height: 115%">&#4840;&#4755;&#4672;&#4653; &#4653;&#4656;&#4704;&#4653;&#4961; &#4637;&#4853;&#4654;&#4633;&#4961; &#4773;&#4757;&#4704;&#4845;&#4726;&#4961; </span></span><span style="font-size: medium"><span style="line-height: 115%">&lt;&#8230;&gt;</span><span style="line-height: 115%">&#160;</span><span style="font-size: large"><span style="line-height: 115%">&#4824;&#4808;&#4709;&#4811;&#4961; &#4616;&#4632;&#4781;&#4819;&#4622;&#4961; &#4824;&#4624;&#4752;&#4933;&#4811;&#4961; &#4624;&#4928;&#4845;&#4961; &#4640;&#4653;&#4928;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4824;&#4880;&#4616;&#4961; &#4725;&#4811;&#4961; &#4624;&#4928;&#4845;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4773;&#4757;&#4704;&#4616;&#4961; &#4653;&#4645;&#4720;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4768;&#4621;&#4710;&#4961; &#4776;&#4621;&#4819;&#4961; &#4877;&#4709;&#4653;&#4961; &#4773;&#4757;&#4704;&#4616;&#4961; &#4781;&#4613;&#4752;&#4725;&#4961; &#4813;&#4873;&#4829;&#4961; &#4813;&#4773;&#4721;&#4961;&#160; </span></span><span style="line-height: 115%"><br /> </span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span unicode="" style="line-height: 115%">Fol. 71r: G&#228;br&#228; M&#228;d&#7723;an M&#601;&#347;a&#7717; &#705;Ayn gave birth to T&#228;sfa Maryam (who) gave birth (to) T&#601;n&#347;a&#704;e Kr&#601;stos (who) gave birth (to) T&#228;&#7789;&#228;mq&#228; M&#228;d&#7723;an (who) gave birth (to) D&#601;blyos (who) gave birth (to) S&#601;rg<sup>w</sup>&#228; D&#601;ng&#601;l (who) gave birth (to) B&#601;&#704;d&#228; Maryam, the Queen Maryam &#705;Amd&#228; &#7716;awaryat gave birth to &#705;Amd&#228; &#7716;awaryat &lt;...&gt; ...</span></span></p></q>
+                           <p>The note, crudely written and not quite clear, mentions King Śärḍä Dǝngǝl (r. 1563-97) and some churches around (?). A part of the text has been erased.</p>
                         </item>
                      </list>
                   </additions>
@@ -230,7 +226,7 @@ Two pairs of chains of endband stitches at the spine cover.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0237MÃ¤kaË&#x81;Ó&#x99;loMÃ¤kanÃ¤LÉ&#x99;Ë&#x81;ul">MÃ¤kaË&#x81;Ó&#x99;lo MÃ¤kanÃ¤ LÉ&#x99;Ë&#x81;ul / MKMG</placeName>
+                        <placeName corresp="INS0237MKMG">MÃ¤kaË&#x81;Ó&#x99;lo MÃ¤kanÃ¤ LÉ&#x99;Ë&#x81;ul / MKMG</placeName>
                      </origPlace>
                      <origDate notBefore="1563" notAfter="1597">King Śärḍä Dängǝl (r. 1563-97) is mentioned throughout the Ms. Fols. 1-2 (quire 1) with miniatures date to a much later time (20th century?)</origDate>
                   </origin>
@@ -272,10 +268,6 @@ Two pairs of chains of endband stitches at the spine cover.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -296,7 +288,7 @@ Two pairs of chains of endband stitches at the spine cover.</decoNote>
          <change who="DN" when="2011-11-16">registered</change>
          <change who="IR" when="2012-10-30T17:01:02.244Z">created</change>
          <change who="EG" when="2014-11-06T07:49:31.299Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

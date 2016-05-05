@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0042MÓ&#x99;drÃ¤Ruba"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0042MR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MR-021</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Two groups of lines (alternating with black lines) on the incipit page of Texts 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">191.0</measure> folios,
-                                                in
-                                                <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">191.0</measure> folios, in <measure unit="quire">21.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.7</height>
                               <width unit="cm">18.7</width>
@@ -150,7 +148,7 @@ The quire number ፲፱ (XIX) is not correct: according to the sequence of the q
 Holes carefully amended on fols. 43, 46, 91, 92, 104, 108, 174, 175, 176, 178.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="18">
                            <dimensions unit="mm">
                               <height>103</height>
                               <width>95</width>
@@ -163,19 +161,21 @@ Holes carefully amended on fols. 43, 46, 91, 92, 104, 108, 174, 175, 176, 178.</
                               <dim type="left">11</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Texts I-1, I-2, I-3: all data are for fol. 6r.</ab>
+                           <note>Texts I-1, I-2, I-3: all data are for fol. 6r.</note>
                            <ab type="ruling">The number of lines is regular.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>103</height>
                               <width>95</width>
@@ -188,28 +188,45 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">18</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">Texts I-4, I-5: all data for fol. 170r.</ab>
+                           <note>Texts I-4, I-5: all data for fol. 170r.</note>
                            <ab type="ruling">The number of lines is regular.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful and very fine.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>እስ᎓</abbr> for <expan>እስመ᎓ ለዓለም᎓ ምሕረቱ᎓ </expan> (Ps. 135, fols. 132v-133v)</item>
+                           <item>
+                              <abbr>ስቡ᎓</abbr> for <expan>ስቡሕኒ᎓ ውእቱ᎓ ወልዑልኒ᎓ ውእቱ᎓ ለዓለም᎓ </expan> (Canticle 10, fols. 155r-156r)</item>
+                           <item>Texts I-4 and and I-5:</item>
+                           <item>
+                              <abbr>ሰ:/ሰአ፡</abbr> for <expan>ሰአሊ፡ ለነ: ቅድስት </expan> (e.g., fols. 174ra l.12, 180rb l.3, 181ra l.10)</item>
+                           <item>
+                              <abbr>ቅድ፡</abbr> for <expan>ቅድስት፡ </expan> (e.g., fols. 180rb l.3, 181ra l.10)</item>
+                           <item>
+                              <abbr>ተፈሥ፡</abbr> for <expan>ተፈሥሒ፡ </expan> (e.g., fols. 179rb l.1, 180va l.15)</item>
+                           <item>
+                              <abbr>ወበእ፡</abbr> for <expan>ወበእንተዝ፡ </expan> (e.g., fol. 180va, l.15)</item>
+                           <item>
+                              <abbr>ወበእን፡</abbr> for <expan>ወበእንተዝ፡ </expan> (e.g., fol. 180va, l.5).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic">sometimes it is written also with a vertical stroke attached to the bottom of it (e.g., fols. 5r, l.3, 76v, l.6, 93r, l.11).</handNote>
@@ -262,28 +279,25 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p class="MsoNormal" style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span lang="EN-US" arial="" sans-serif="" style="font-size: 10pt;">Fols. 12v, 21v, 42v, </span><span lang="EN-GB" arial="" sans-serif="" style="font-size: 10pt;">51v, 58v, 69v, 82v, 92v, 98v, 112v, 144v</span><span lang="EN-US" arial="" sans-serif="" style="font-size: 10pt;">: Supplication for the soul of the donor and his wife (?).</span></p> <p style="text-align: justify;"></p><q xml:lang="gez"><p style="text-align: justify;"><span lang="EN-US" style="line-height: 115%; font-size: 10pt;" sans-serif="" arial="">Fols. 12v, 21v, 42v, </span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt;" sans-serif="" arial="">51v, 58v, 69v, 82v, 92v, 98v, 112v, 144v</span><span lang="EN-US" style="line-height: 115%; font-size: 10pt;" sans-serif="" arial="">: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4872;&#4709;&#4653;&#4776;&#4961;</span><span lang="AMH" style="line-height: 115%;" sans-serif="" arial=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4925;&#4846;&#4757;&#4961;</span><span lang="AMH" style="line-height: 115%;" sans-serif="" arial=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4637;&#4661;&#4616;&#4961;</span><span lang="AMH" style="line-height: 115%;" sans-serif="" arial=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4709;&#4821;&#4658;&#4721;&#4961;</span><span lang="AMH" style="line-height: 115%;" sans-serif="" arial=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%;" sans-serif="" arial=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4752;&#4757;&#4843;&#4961;</span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify;"><span lang="EN-US" arial="" sans-serif="" style="line-height: 115%; font-size: 10pt;">Fols. 12v, 21v, 42v, </span><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%; font-size: 10pt;">51v, 58v, 69v, 82v, 92v, 98v, 112v, 144v</span><span lang="EN-US" arial="" sans-serif="" style="line-height: 115%; font-size: 10pt;">: (Protect) Your servant G&#228;br&#228; &#7778;&#477;yon, with his wife W&#228;l&#228;tt&#228; &#704;An&#228;nya.</span></p></q>
+                           <p>Written in a recent hand, the same as that of Additiones 2 and 3. The same note is repeated throughout the Ms. with only minor variants in some of them:
+ብእሲቱ፡ instead of ብዕሲቱ፡ on fols. 69v, 82v, 112v; ገብርከ፡ instead of ለገብርከ፡ on fol. 51v.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span lang="EN-US" style="font-size: 10pt;" sans-serif="" arial="">Fol. 30v: Donation note.</span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span lang="EN-US" style="font-size: 10pt;" sans-serif="" arial="">Fol. 30v: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify;"><span lang="EN-US" style="line-height: 115%; font-size: 10pt;">Fol. 30v: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4851;&#4810;&#4725;&#4961; &#4872;&#4709;&#4648;&#4925;&#4846;&#4757;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4824;&#4808;&#4611;&#4709;&#4814;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4661;&#4619;&#4661;&#4840;&#4961; &#4637;&#4853;&#4653;&#4707;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4752;&#4757;&#4843;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; </span></span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt;">[<span style="font-size: large;">&#4773;</span>]</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4653;&#4877;&#4661;&#4961; &#4704;&#4978;&#4977;&#4987;</span></span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt;">[n.l.]</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4632;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4637;&#4613;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 10pt;">&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4704;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4635;&#4725;&#4846;&#4661;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4873;&#4757;&#4710;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> &#4704;&#4978;&#4970;&#4672;</span></span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt;">[</span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt;"><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4757;</span></span>]</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; font-size: 10pt;">&#4961;</span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif="" style="line-height: 115%;">Fol. 30v: This (is) the (book of) Psalter which G&#228;br&#228; &#7778;&#477;yon and his wife donated to the tabot of (the church of) S&#477;llas&#477;y&#228; </span><span lang="EN-US" arial="" sans-serif="" style="line-height: 115%;"><span lang="EN-US" style="line-height: 115%;">[sic] </span>M&#477;d&#477;r&#477;bba, together with his father, W&#228;ld&#228; &#704;An&#228;nya, and with [his mother], W&#228;l&#228;tt&#228; Girg&#477;s in 19</span><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%;">[n.l.] year of mercy, in the time of (the Evangelist) Matthew, on 12 G&#477;nbot ...</span></span></p></q>
+                           <p>Written in a recent hand, the same as that of Additiones 1 and 3. The date is not easily readable.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p style="text-align: justify;"><span lang="EN-GB" style="font-size: 10pt;" sans-serif="" arial="">Fol. 168v: Supplication.</span></p><q xml:lang="gez"><p style="text-align: justify;"><span lang="EN-GB" style="line-height: 115%; font-size: 10pt;" sans-serif="" arial="">Fol. 168v:</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; font-size: 10pt;"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4872;&#4709;&#4653;&#4776;&#4961; &#4872;&#4709;&#4648;&#4925;&#4846;&#4757;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4637;</span><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">[</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4661;</span><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4961; &#4709;&#4821;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4752;&#4757;&#4843;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4821;&#4672;&#4709;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4629;&#4845;&#4808;&#4726;&#4633;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4661;&#4648;&#4845;&#4961; &#4816;&#4898;&#4768;&#4726;&#4633;&#4961;</span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify;"><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%; font-size: 10pt;">Fol. 168v:</span><span lang="EN-GB" arial="" sans-serif="" style="line-height: 115%; font-size: 10pt;"> </span><span lang="EN-US" arial="" sans-serif="" style="line-height: 115%; font-size: 10pt;">May You protect the lives of Your servant G&#228;br&#228; &#7778;&#477;yon with his wife W&#228;l&#228;tt&#228; &#704;An&#228;nya, and forgive their sins.</span></p></q>
+                           <p>Written in the same recent hand as that of Additiones 1 and 2.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="AMH" style="line-height: 115%;">F</span><span lang="EN-US" style="line-height: 115%;">ols. 186vb-187rb: Note concerning a testament (?) made by hanet (y&#228;neta?) D&#228;br&#228; &#7778;&#477;yon.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Amharic. Recent and hardly readable hand, different from the previous additional notes. The date mentioned is 1943 A.M. (=1951 A.D.).</p>
                         </item>
                         <item xml:id="e1">- Chains of black and red nine dot asterisks with black lines above and below is at the end of most of the sections with a group of ten Psalms (esp. fols. 12v, 30v, 42v, 51v, 58v, 69v, 82v, 98v, 112v, 144v) in Text I (on fols. 21r, 92r, the chain is without lines).&#xD;
 - In Text V, immediate corrections are indicated by two thin black (sometimes red) lines, above and below the word (e.g., fols. 177ra l.10, 179rb l.1, 180rb ls.3 and 9).&#xD;
@@ -307,7 +321,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MÓ&#x99;drÃ¤Ruba">MÓ&#x99;drÃ¤ Ruba /MR</placeName>
+                        <placeName corresp="INS0042MR">MÓ&#x99;drÃ¤ Ruba /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th century (?)</origDate>
                   </origin>
@@ -349,10 +363,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -374,7 +384,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-12">registered</change>
          <change who="VP" when="2012-08-15T10:00:10.895Z">created</change>
          <change who="VP" when="2015-02-27T10:47:21.769Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DäbräDammo"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-036</idno>
                   <altIdentifier>
                      <idno>C3-IV-251 (fol. 7r)</idno>
@@ -57,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">178.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">178.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">21.0</width>
@@ -135,7 +133,7 @@ Probably, the fols. with Text I, in quires I and XVII, were initially intended f
 Holes amended on fols. 46 and 148.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>192</height>
                               <width>205</width>
@@ -148,19 +146,21 @@ Holes amended on fols. 46 and 148.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">20</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 7ra-142vb</ab>
+                           <note>Fols. 7ra-142vb</note>
                            <ab type="ruling">Fols. 2rv, 144ra-145vb: 36; fols. 146ra-147rb: 34; fols. 143rv, 147va-148ra: 40, 43.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>192</height>
                               <width>205</width>
@@ -173,27 +173,27 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 2rv, 144ra-145vb</ab>
+                           <note>Fols. 2rv, 144ra-145vb</note>
                            <ab type="ruling">Fols. 2rv, 144ra-145vb: 36; Fols. 146ra-147rb: 34; Fols. 143rv, 147va-148ra: 40, 43.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a:  fine and careful;  hand b: mediocre; hand c: mediocre.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 7ra-142vb.</handNote>
@@ -203,9 +203,8 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 142vb: Purchase note.</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 142vb:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span><span><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4773;&#4661;&#4725;&#4757;&#4939;</span></span></span></span><span style="font-size: large;"><span><span><span style="line-height: 115%;"><span style="font-size: large;"><span><span><span style="line-height: 115%;">&#4656;</span></span></span></span>&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4824;&#4720;&#4656;&#4840;&#4902;&#4961; &#4704;&#4808;&#4653;&#4673;<br /> </span></span></span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 142vb: </span>This is a book of &#704;&#398;st&#477;nfas[&#228;] Kr&#477;stos which he purchased with his own money.</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 142vb: Purchase note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 142vb:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span><span><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4773;&#4661;&#4725;&#4757;&#4939;</span></span></span></span><span style="font-size: large;"><span><span><span style="line-height: 115%;"><span style="font-size: large;"><span><span><span style="line-height: 115%;">&#4656;</span></span></span></span>&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4824;&#4720;&#4656;&#4840;&#4902;&#4961; &#4704;&#4808;&#4653;&#4673;<br /> </span></span></span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 142vb: </span>This is a book of &#704;&#398;st&#477;nfas[&#228;] Kr&#477;stos which he purchased with his own money.</span></span></p></q>
                            <p/>
                         </item>
                         <item xml:id="e1">- The title of the work, ኣረጋዊ: መንፈሳዊ, and the internal number of the monastic library, 296, are written on fol. 1r. &#xD;
@@ -231,7 +230,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DäbräDammo">Däbrä Dammo / DD</placeName>
+                        <placeName corresp="INS0105DD">Däbrä Dammo / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent.</origDate>
                   </origin>
@@ -273,10 +272,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -300,7 +295,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-25">registered</change>
          <change who="MK" when="2011-11-14T14:37:28.276Z">created</change>
          <change who="MK" when="2015-02-20T13:10:05.946Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

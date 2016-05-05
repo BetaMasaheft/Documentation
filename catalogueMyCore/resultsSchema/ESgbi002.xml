@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0117GwaḥgotʾIyäsus"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0117GBI"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GBI-002</idno>
                </msIdentifier>
                <msContents>
@@ -54,9 +54,7 @@ Notes in the margins; elements of the punctuation signs; elements of Ethiopic nu
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">140.0</measure> folios,
-                                                in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">140.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">40.0</height>
                               <width unit="cm">36.0</width>
@@ -130,7 +128,7 @@ Notes in the margins; elements of the punctuation signs; elements of Ethiopic nu
 The Ms. was probably resewn  with new synthetic threads.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="30">
                            <dimensions unit="mm">
                               <height>270</height>
                               <width>270</width>
@@ -143,28 +141,38 @@ The Ms. was probably resewn  with new synthetic threads.</condition>
                               <dim type="left">25</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.  </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling (in fol. 3r below it). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular, by a well-trained hand.</ab>
                         <seg type="ink">Black; red (brilliant vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 17th-first half of the 18th century</date>
+                        <persName role="scribe" corresp="PRS00000">Ṣǝge Dǝngǝl</persName>He is mentioned as the scribe in a subscriptio (fol. 137vb l.10). His name is written also in the bottom margin of fol. 3r and within the text divider on fol. 82va.<date>Late 17th-first half of the 18th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ኪ፡</abbr> for <expan>ኪርያላይሶን፡ in Text I-7 </expan> (fols. 72vc-73ra)</item>
+                           <item>
+                              <abbr>ና፡</abbr> for <expan>ናይናን፡ in Text I-7 </expan> (fols. 72vc-73ra)</item>
+                           <item>
+                              <abbr>ሰላ፡/ሰ፡</abbr> for <expan>ሰላም፡ in Additio 4 </expan> (fol. 139ra-rb)</item>
+                           <item>
+                              <abbr>ሰብ፡/ሰብሐ፡</abbr> for <expan>ሰብሐት፡ in Additio 5 </expan> (fols. 139rc-va)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -180,34 +188,29 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fols. 1v-2r, 138rc, 138va (in the bottom and upper margins), 139vb-140r: Record concerning land transaction (?). </span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fols. 1v:</span></span><span lang="EN-GB" style="font-size:10.0pt;line-height:115%;font-family:&#10;Nyala;mso-fareast-font-family:"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4632;&#4752;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4678;&#4661;&#4961; &#4707;&#4932;&#4961; &#4643;&#4613;&#4617;&#4961; &#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4704;&#4676;&#4661;&#4961; </span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">{</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4924;&#4961;</span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">}</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4704;&#4768;&#4932;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4704;&#4768;&#4675;&#4708;&#4961; &#4661;&#4819;&#4725;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4824;&#4632;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4768;&#4932;&#4961; &#4629;&#4829;&#4677;&#4843;&#4661;&#4961; &#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4704;&#4768;&#4616;&#4675;&#4961; &#4828;&#4755;&#4961; &#4676;&#4661;&#4768;&#4925;&#4752;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>These notes cover some fols. in quire A (fols. 1v-2r) and in quire B (138rc, 138va, 139vb-140r). They are written by several hands in Amharic (a few words also in Gǝʿǝz). The notes are erased completely on fol. 140r, partly on fol. 139vc (at the top) and in the column c of fol. 138rc.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fols. 138rb-138rc: Excerpt from a liturgical text. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 138va-vc: Record concerning tributes or land distribution (?).<br /> </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 138va-vc: Record concerning tributes or land distribution (?).<br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in Amharic.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: "><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fols. 139ra-rb: S&#228;lam-hymns to Mary.</span></span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The words sälam (and its abbreviation säla), the name of Mary and elements of the punctuation signs are rubricated.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fols. 139rc-139va: Hymns to God.<br /> </span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fols. 139rc-139va: Hymns to God.<br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The words ʾIyäsus and säbḥat (and its abbreviation säb/säbḥa), some initial words and elements of the punctuation signs are rubricated.</p>
                         </item>
                         <item xml:id="e1">- In the upper margin of fol. 3r a note mentions the original provenance of the Ms., which is the church of Mädḫane ʿAläm, (the church of Mäqdäla in Wällo; cp. EAE III, 763-65):&#xD;
 Gäbrä ḥǝmamat zä-Qǝddus Mädḫane ʿAläm.&#xD;
@@ -237,7 +240,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0117GwaḥgotʾIyäsus">Gwaḥgot ʾIyäsus / GBI</placeName>
+                        <placeName corresp="INS0117GBI">Gwaḥgot ʾIyäsus / GBI</placeName>
                      </origPlace>
                      <origDate notBefore="1682" notAfter="1755">1682-1706 or 1730-55.&#xD;
 King ʾIyasu, mentioned in the supplication formulas throughout the Ms. and in the subscriptio at the end of the text can be King ʾIyasu I (r. 1682-1706) or ʾIyasu II (r. 1730-55).</origDate>
@@ -281,8 +284,7 @@ It is not clear whether it is meant King ʾIyasu I (r. 1682-1706) or ʾIyasu II 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Ṣǝge Dǝngǝl</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -305,7 +307,7 @@ It is not clear whether it is meant King ʾIyasu I (r. 1682-1706) or ʾIyasu II 
          <change who="DN" when="2010-12-01">registered</change>
          <change who="VP" when="2013-07-05T16:25:46.090Z">created</change>
          <change who="DN" when="2016-01-08T08:27:51.760Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DäbräDammo"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-018</idno>
                   <altIdentifier>
                      <idno>C3-IV-254 (fol. 3r)</idno>
@@ -67,9 +67,7 @@ the first two lines of the concluding formula at the end of the entire text (fol
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">174.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">174.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">39.0</height>
                               <width unit="cm">36.5</width>
@@ -185,7 +183,7 @@ Cuts carefully amended on fols. 108, 47, 122, 123, 161. &#xD;
 Stains on fols. 1r-5v, 39v-40r, 109v-110r, 159v-160r. Little holes on fols. 16, 106, 116, 127.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="40">
                            <dimensions unit="mm">
                               <height>275</height>
                               <width>265</width>
@@ -198,26 +196,26 @@ Stains on fols. 1r-5v, 39v-40r, 109v-110r, 159v-160r. Little holes on fols. 16, 
                               <dim type="left">30</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling">The number of the lines to a folio is very irregular; it ranges from 37 to 43. On average the number is 40.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="CruxAnsata">
-                              <locus target=""/>
-                           </ab>
+                        </layout>
+                        <layout>
+                           <ab type="CruxAnsata">no</ab>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
@@ -225,8 +223,7 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>17th century (?).</date>
+                        <persName role="scribe" corresp="PRS00000">Silondis</persName>Silondis  seems to be the name of the scribe; a short invocation at the conclusion of entries for Miyazya (fol. 53rc) mentions "Silondis, the one who wrote it".<date>17th century (?).</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -246,7 +243,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DäbräDammo">Däbrä Dammo / DD</placeName>
+                        <placeName corresp="INS0105DD">Däbrä Dammo / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1600" notAfter="1700">17th century (?).</origDate>
                   </origin>
@@ -284,14 +281,13 @@ Two pairs of sewing stations.</decoNote>
             <listPerson>
                <person><!--donor-->
                   <persName corresp="PRS0000">ʿAqbä Mikaʾel is mentioned in the supplication formulas throughout the text; besides, in the conclusion of the entries for the month Miyazya, on fol. 53rc, an invocation mentions the scribe and "ʿAqbä Mikaʾel, the one who caused (the book) be written".&#xD;
-In some passages, his name is replaced with the names of Śəʿəlä Mikaʾel (esp. fol. 157rc, l.19) and Kənfä Mikaʾel (esp. fol. 171ra, l.6).&#xD;
+In some passages, his name is replaced with the names of Śәʿәlä Mikaʾel (esp. fol. 157rc, l.19) and Kәnfä Mikaʾel (esp. fol. 171ra, l.6).&#xD;
 Together  with ʿAqbä Mikaʾel, "his maid Wälättä Maryam" is also mentioned (e.g., fols. 40ra, l.16, 40va, l.9, 88ra, ls. 23-24).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Silondis</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -314,7 +310,7 @@ Together  with ʿAqbä Mikaʾel, "his maid Wälättä Maryam" is also mentioned 
          <change who="DN" when="2010-11-23">registered</change>
          <change who="VP" when="2011-11-17T13:38:55.957Z">created</change>
          <change who="EG" when="2015-01-07T20:49:46.488Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

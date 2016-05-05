@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0042MədräRuba"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0042MR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MR-007</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">96.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">96.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">11.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.0</height>
                               <width unit="cm">17.0</width>
@@ -105,7 +103,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">Some fols. are worn and covered with stains, some passages are hardly legible.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>160</height>
                               <width>140</width>
@@ -118,18 +116,26 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">13</dim>
                               <dim type="intercolumn">7</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 10r.</ab>
+                           <note>All data are for fol. 10r.</note>
                            <ab type="ruling">average number</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are mostly invisible.</ab>
+                           <ab type="pricking">Ruling and pricking are mostly invisible.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre; the same hand as MR-034.</ab>
                         <seg type="ink">Black; reddish-brown.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Muse</persName>ʾAbunä Wäldä Muse (s. Additio 1).<date>Late 19th century.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ or ካ፡ for ይቤ፡ ካህን</item>
+                           <item>ይዲ፡ for ይቤ፡ ዲያቆን</item>
+                           <item>ይሕ፡ or ሕ፡ for ይቤ፡ ሕዝብ፡</item>
+                           <item>ዕ፡ or ዕማ፡ for ዕማሬ፡</item>
+                           <item>ናስ፡ for ናስተበቊዕ፡</item>
+                           <item>በእ፡ or በእን፡ for በእንተ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -138,9 +144,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 95r: </span></span><span style="line-height: 115%; font-size: 14pt;">&#4829;&#4677;&#4851;&#4660;&#4961; &#4824;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4707;&#4821;&#4782;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843; </span><span style="line-height: 115%; font-size: 10pt;">[</span><span style="line-height: 115%; font-size: 10pt;">sic]</span><span style="line-height: 115%; font-size: 14pt;">&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4633;&#4660;&#4962; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></q>
-                           <q xml:lang="en"><span style="line-height: 115%; font-size: 10pt;">Fol. 95r: This Missal belongs to (the church of) Our Lady Mary in &#704;Aba&#705;ko and qes g&#228;b&#228;z is &#704;abun&#228; Kidan&#228; Marya[m], and its scribe is &#704;abun&#228; W&#228;ld&#228; Muse. He who steals (this book) or erases (its text) shall be excommunicated by the authority of Peter and Paul.</span></q>
+                           <locus/><div style="line-height: normal;"><span style="font-size: 10pt;">Fol. 95r:&#160;Ownership<span style="line-height: 115%; font-size: 10pt;"> note.</span></span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 95r: </span></span><span style="line-height: 115%; font-size: 14pt;">&#4829;&#4677;&#4851;&#4660;&#4961; &#4824;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4707;&#4821;&#4782;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843; </span><span style="line-height: 115%; font-size: 10pt;">[</span><span style="line-height: 115%; font-size: 10pt;">sic]</span><span style="line-height: 115%; font-size: 14pt;">&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4633;&#4660;&#4962; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></p></q>
+                           <q xml:lang="en"><p><span style="line-height: 115%; font-size: 10pt;">Fol. 95r: This Missal belongs to (the church of) Our Lady Mary in &#704;Aba&#705;ko and qes g&#228;b&#228;z is &#704;abun&#228; Kidan&#228; Marya[m], and its scribe is &#704;abun&#228; W&#228;ld&#228; Muse. He who steals (this book) or erases (its text) shall be excommunicated by the authority of Peter and Paul.</span></p></q>
                            <p/>
                         </item>
                         <item xml:id="e1">- Fol. 96r, 96v: Pen trials.</item>
@@ -161,7 +166,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MədräRuba">Mədrä Ruba /MR</placeName>
+                        <placeName corresp="INS0042MR">Mәdrä Ruba /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1869" notAfter="1870">On fol. 95ra, ll.7-10 and elsewhere Dimäṭros (Demetrius II, 1862-1870) is mentioned as the Patriarch of the Coptic Church and ʾAtnatewos (in tenure 1869-76) as the Metropolitan of Ethiopia.</origDate>
                   </origin>
@@ -203,8 +208,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Muse</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -227,7 +231,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-11">registered</change>
          <change who="IF" when="2010-12-14T15:35:05.207Z">created</change>
          <change who="MK" when="2014-08-26T11:57:09.167Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

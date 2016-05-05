@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gädlä Libanos “Vita of Libanos” /  Täʾamrä Libanos “Miracles of Libanos” / Mälkəʾa Libanos “Image of Libanos”</title>
+            <title>Gädlä Libanos “Vita of Libanos” /  Täʾamrä Libanos “Miracles of Libanos” / Mälkәʾa Libanos “Image of Libanos”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0216MGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MGM-012</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; name of the protagonist (both Libanos and Mäṭaʿ); in Text I, groups of lines on the incipit page of the prologue (fol. 3r) and on the incipit page of the proper account (fol. 17r), and the incipit of some subsections; in Text II, groups of lines on the incipit page, and incipit of each miracle; in Text III, groups of lines on the incipit page and the word sälam (and its abbreviation); elements of the punctuation signs, text dividers; elements of Ethiopic numerals.</rubric>
+                     <rubric>Nomina sacra; names of the donors; name of the protagonist (both Libanos and Mäṭaˤ); in Text I, groups of lines on the incipit page of the prologue (fol. 3r) and on the incipit page of the proper account (fol. 17r), and the incipit of some subsections; in Text II, groups of lines on the incipit page, and incipit of each miracle; in Text III, groups of lines on the incipit page and the word sälam (and its abbreviation); elements of the punctuation signs, text dividers; elements of Ethiopic numerals.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">59.0</measure> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">59.0</measure> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">19.0</width>
@@ -73,7 +71,7 @@ Many folios are affected by humidity: e.g., fols. 16r, 17r, 37r, 46r-59v.&#xD;
 Holes roughly amended on fols. 2, 5, 56, 57, 59.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>166</height>
                               <width>140</width>
@@ -86,19 +84,21 @@ Holes roughly amended on fols. 2, 5, 56, 57, 59.</condition>
                               <dim type="left">9</dim>
                               <dim type="intercolumn">13</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 2r.</ab>
+                           <note>All data are for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -112,8 +112,11 @@ The bottom line is written above the ruling.</ab>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre,  irregular</ab>
                         <seg type="ink">Black; red (brilliant vermillion and vivid vermillion for the names in the supplication formulas)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wäldä Gärima</persName>Zä-Wäldä Gärima is mentioned as the scribe on fols. 43vb and 52vb (here he is mentioned as ʾabba Wäldä Gärima).<date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (in Text III)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -138,7 +141,7 @@ The bottom line is written above the ruling.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
+                        <placeName corresp="INS0216MGM">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -180,8 +183,7 @@ The bottom line is written above the ruling.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wäldä Gärima</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -205,7 +207,7 @@ The bottom line is written above the ruling.</ab>
          <change who="DN" when="2010-05-19">registered</change>
          <change who="VP" when="2015-02-02T16:17:50.914Z">created</change>
          <change who="VP" when="2015-02-26T09:25:47.952Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

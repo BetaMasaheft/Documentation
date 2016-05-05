@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0196WälwaloDäbräBǝrhanQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0196WQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>WQ-001</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Elements of the punctuation signs; Ethiopic numerals or their elements; elements
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">188.0</measure> folios,
-                                                in
-                                                <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">188.0</measure> folios, in <measure unit="quire">23.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">39.3</height>
                               <width unit="cm">30.0</width>
@@ -145,7 +143,7 @@ Many leaves are affected by humidity.&#xD;
 Holes or tears amended on fols. 29, 32, 159, 181.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="27">
                            <dimensions unit="mm">
                               <height>306</height>
                               <width>260</width>
@@ -158,28 +156,44 @@ Holes or tears amended on fols. 29, 32, 159, 181.</condition>
                               <dim type="left">12</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are  for fol. 6r</ab>
+                           <note>All data are  for fol. 6r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular.</ab>
                         <seg type="ink">Black; red (brilliant vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይብል፡ ሕዝብ፡ </expan> (e.g., fols. 89v-90r)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይብል፡ ካህን፡ </expan> (e.g., fols. 89v-90r)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይብል፡ ዲያቆን፡ </expan> (e.g., fols. 89v-90r)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 116rc, 132va)</item>
+                           <item>
+                              <abbr>አ፡</abbr> for <expan>አሜን፡ </expan> (e.g., fols. 43ra, 129ra)</item>
+                           <item>
+                              <abbr>እግዚኦ᎓ ተ᎓/እግዚኦ᎓ ተሳ᎓</abbr> for <expan>እግዚኦ᎓ ተሣሃለነ᎓ </expan> (e.g., fols. 31v, 32r)</item>
+                           <item>
+                              <abbr>ስቡ፡</abbr> for <expan>ስቡሕኒ፡ ውእቱ፡ ወልዑልኒ፡ ውእቱ፡ ለዓለም፡ </expan> (esp. fols. 152rc-152vb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
@@ -189,10 +203,10 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fols. 185rc-187rb:</span><span lang="EN-US" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: ">S&#228;lam-hymns for Mary.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: ">Fol. 185rc (below the explicit of the text): </span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4778;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> &#160;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4632;&#4768;&#4827;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4768;&#4937;&#4778;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4773;&#4757;&#4720;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4725;&#4924;&#4757;&#4810;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4704;&#4872;&#4851;&#4637;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4608;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4677;&#4621;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: "> &#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note, with rubrications,  seems to have been written in the same hand as the main text.
+The same note is in Ms. BQM-005, on fols. 3ra-3vc, 176va-177vb.</p>
                         </item>
                         <item xml:id="e1">- Omitted words or letters written interlineally: e.g., fols. 20vc, 76vc, 78vc, 85rc,150va. &#xD;
 - Erasure: e.g., fol. 24rc.&#xD;
@@ -216,7 +230,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0196WälwaloDäbräBǝrhanQirqos">Wälwalo Däbrä Bǝrhan Qirqos / WQ</placeName>
+                        <placeName corresp="INS0196WQ">Wälwalo Däbrä Bǝrhan Qirqos / WQ</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -258,10 +272,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -283,7 +293,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-11-30">registered</change>
          <change who="VP" when="2015-03-19T16:06:32.754Z">created</change>
          <change who="VP" when="2015-04-13T12:39:18.243Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

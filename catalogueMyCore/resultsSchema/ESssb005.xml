@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0111Betá¸¤awaryat"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0111SSB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SSB-005</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ The text on fol. 5r is written alternately in red and black lines. On fol. 69va-
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">136.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.5</measure> blank, in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">136.0</measure> folios, of which <measure unit="leaf" type="blank">4.5</measure> blank, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.5</height>
                               <width unit="cm">23.0</width>
@@ -126,7 +124,7 @@ The text on fol. 5r is written alternately in red and black lines. On fol. 69va-
 Circular patch of parchment has been sewn on to the verso side to fill a hole in the leaf. On both sides the patch contains the text expected in these places: fol. 65vb.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>235</height>
                               <width>190</width>
@@ -139,28 +137,39 @@ Circular patch of parchment has been sewn on to the verso side to fill a hole in
                               <dim type="left">18</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling">32 in fols. 129-134</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 8r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible (s. fol. 82r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, fluent, regular, by trained hand.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Early 20th cent.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይዲ፡ or ዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ or ሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>ቡ፡ or ቡራ፡ for ቡራኬ፡</item>
+                           <item>እ፡ for እማሬ፡</item>
+                           <item>
+                              <abbr>አብ፡ ወወል፡ ወመ፡</abbr> for <expan>አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ </expan> (s. fol. 69va-vb)</item>
+                           <item>
+                              <abbr>አ፡ አ፡ አ፡</abbr> for <expan>አሜን፡ አሜን፡ አሜን፡ </expan> (s. fol. 119rb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -188,10 +197,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">Fol. 135v: Extensive note concerning administrative matters and income of the Bet &#7716;awaryat church.</span></span></span></p><q xml:lang="gez"><div style="margin: 0cm 0cm 10pt; text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 135v:</span><span style="font-size: 14pt;"> </span><span style="font-size: large;">&#4969;&#4977;&#4987;&#4979;&#4976;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4757;&#4873;&#4645;&#4752;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4915;&#4915;&#4661;&#4752;&#4961; &#4768;&#4707;&#4961; &#4845;&#4661;&#4624;&#4677;&#4961; &#4840;&#4708;&#4725;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4725;&#4781;&#4621;&#4961; &#4658;&#4720;&#4776;&#4621;&#4961; &#4840;&#4708;&#4725;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4656;&#4704;&#4779;&#4961; &#4873;&#4821;&#4873;&#4755;&#4961; &#4637;&#4821;&#4873;&#4635;&#4961; &#4643;&#4657;&#4661;&#4757;&#4961; &#4819;&#4850;&#4872;&#4850;&#4819;&#4961; &#4635;&#4845;&#4961; &#4624;&#4638;&#4961; &#4708;&#4725;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4672;&#4653;&#4704;&#4813;&#4961; &#4808;&#4848;&#4813;&#4961; &#4840;&#4635;&#4741;&#4704;&#4653;&#4961; &#4629;&#4877;&#4961; &#4840;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4658;&#4720;&#4776;&#4621;&#4961; &#4904;&#4811;&#4755;&#4961; &#4779;&#4613;&#4757;&#4961; &#4840;&#4708;&#4725;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4720;&#4664;&#4781;&#4942;&#4961; &#4616;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4845;&#4744;&#4755;&#4621;&#4961; &#4843;&#4616;&#4813;&#4961; &#4776;&#4779;&#4613;&#4757;&#4961; &#4720;&#4683;&#4899;&#4650;&#4961; &#4845;&#4877;&#4707;&#4961; &#4709;&#4616;&#4811;&#4621;&#4961; &#4840;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4768;&#4704;&#4621;&#4637;&#4961; &#4704;&#4872;&#4704;&#4829;&#4755;&#4961; &#4704;&#4720;&#4683;&#4899;&#4650;&#4961; &#4720;&#4656;&#4709;&#4661;&#4710;&#4961; &#4616;&#4757;&#4811;&#4840;&#4961; &#4677;&#4853;&#4659;&#4725;&#4961; &#4616;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4618;&#4614;&#4757;&#4961; &#4776;&#4773;&#4869;&#4961; &#4632;&#4757;&#4667;&#4961; &#4776;&#4632;&#4811;&#4733;&#4755;&#4961; &#4776;&#4680;&#4651;&#4706;&#4961; &#4840;&#4632;&#4899;&#4961; &#4709;&#4653;&#4755;&#4961; &#4776;&#4773;&#4613;&#4621;&#4961; &#4872;&#4704;&#4829;&#4961; &#4819;&#4645;&#4651;&#4721;&#4961; &#4618;&#4704;&#4619;&#4961; &#4720;&#4826;&#4613;&#4961; &#4840;&#4672;&#4648;&#4961; &#4616;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4618;&#4614;&#4757;&#4961; &#4840;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4720;&#4829;&#4779;&#4653;&#4637;&#4961; &#4609;&#4616;&#4725;&#4961; &#4773;&#4869;&#4961; &#4704;&#4904;&#4811;&#4961; &#4658;&#4662;&#4961; &#4704;&#4779;&#4613;&#4757;&#4961; &#4618;&#4614;&#4757;&#4961; &#4840;&#4635;&#4723;&#4961; &#4840;&#4708;&#4725; <span style="font-size: small;"><span style="font-family: Arial;">(sic)</span></span>&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4808;&#4901;&#4961; &#4872;&#4704;&#4829;&#4961; &#4618;&#4640;&#4651;&#4961; &#4877;&#4709;&#4829;&#4755;&#4813;&#4637;&#4961; &#4840;&#4624;&#4637;&#4620;&#4961; &#4645;&#4619;&#4660;&#4961; &#4773;&#4757;&#4848;&#4901;&#4757;&#4721;&#4961; &#4704;&#4821;&#4931;&#4961; &#4618;&#4827;&#4808;&#4653;&#4961; &#4845;&#4613;&#4961; &#4773;&#4757;&#4851;&#4845;&#4752;&#4672;&#4621;&#4961; &#4813;&#4873;&#4829;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4915;&#4813;&#4622;&#4661;&#4961; &#4808;&#4916;&#4901;&#4654;&#4661;&#4961; &#4872;&#4704;&#4825;&#4961; &#4676;&#4661;&#4961; &#4768;&#4661;&#4941;&#4624;&#4961; &#4704;&#4972;&#4672;&#4757;&#4961; &#4632;&#4645;&#4776;&#4648;&#4637;&#4961; &#4720;&#4923;&#4936;&#4961; &#4872;&#4704;&#4829;&#4637;&#4961; &#4704;&#4720;&#4683;&#4899;&#4650;&#4961; &#4811;&#4661;&#4961; &#4618;&#4680;&#4901;&#4653;&#4961; &#4840;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4872;&#4757;&#4824;&#4709;&#4961; &#4773;&#4757;&#4851;&#4843;&#4896;&#4939;&#4961;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. Dated to Mäskäräm 4, 1928 A.M. (= Sunday, September 15, 1935 A.D.). The note lists several place names, e. g., Mǝʿguma, ʿAddigädiʿa, May Ḥam(m)o. Crude note in Amharic is added below.</p>
                         </item>
                         <item xml:id="e1">- Texts IV-VII are written in smaller script.&#xD;
 Unfinished crude note (beginning of a letter?); poorly legible: fol. 2r.  &#xD;
@@ -215,7 +223,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0111Betá¸¤awaryat">Bet á¸¤awaryat / SSB</placeName>
+                        <placeName corresp="INS0111SSB">Bet á¸¤awaryat / SSB</placeName>
                      </origPlace>
                      <origDate notBefore="1930" notAfter="1935">Fols. 19rb, 46rb, etc.: Ḫaylä Śǝllase is mentioned as the reigning Emperor. Ḫaylä Śǝllase was Emperor of Ethiopia in 1930-74. Additio 1 is dated to Mäskäräm 4, 1928 A.M. (= Sunday, September 15, 1935 A.D.).</origDate>
                   </origin>
@@ -257,10 +265,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -282,7 +286,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-29">registered</change>
          <change who="IF" when="2012-08-15T05:16:35.249Z">created</change>
          <change who="MK" when="2014-09-09T09:03:10.714Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

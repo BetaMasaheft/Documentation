@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0039DäbräMaʿṣo"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0039MY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MY-010</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ The text on fol. 5r is written alternately in red and black lines.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">129.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">6.5</measure> blank, in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">129.0</measure> folios, of which <measure unit="leaf" type="blank">6.5</measure> blank, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">30.0</height>
                               <width unit="cm">23.5</width>
@@ -123,7 +121,7 @@ Decorated quire marks. Quires VI and VII are both numbered as ፯.</item>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="25">
                            <dimensions unit="mm">
                               <height>210</height>
                               <width>185</width>
@@ -136,28 +134,35 @@ Decorated quire marks. Quires VI and VII are both numbered as ፯.</item>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 99r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible (s. fol. 94r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular.</ab>
                         <seg type="ink">Black; red; rosy (names of donors).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 19th - beginning of the 20th cent.</date>
+                        <list type="abbreviations">
+                           <item>ይ፡ ካ፡ for ይቤ፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                           <item>ወ(ይ)፡ ሕ(ዝ)፡ for ወይቤ፡ ሕዝብ፡</item>
+                           <item>ሃ፡ ሃ፡ ሃ፡ (or ሃሌ፡ ሃ፡ ሃ፡) for threefold ሃሌ፡ ሉያ፡</item>
+                           <item>ፍ(ቱ)፡ ወ፡ ረ፡ for ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -166,10 +171,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div><span style="font-size: small;"><span style="line-height: 115%;">Fol. 127r: Purchase note.</span></span></div><q xml:lang="gez"><div><span style="font-size: small;">Fol. 127r: </span><span style="font-size: 14pt">፲፱፻፴፮፡ </span><span style="font-size: 14pt">ዓ፡</span><span style="font-size: 14pt"> ም፡</span><span style="font-size: 14pt"> ዝመጽሐፍ፡ </span><span style="font-size: 14pt">ዘደብረ፡</span><span style="font-size: 14pt"> ማእጾ፡ </span><span style="font-size: 14pt">ዘተሣየቱ፡ </span><span style="font-size: 14pt">በንዋዮሙ፡</span><span style="font-size: 14pt"> በ፸፪፡</span><span style="font-size: 14pt"> ብር፡</span><span style="font-size: 14pt"> ሰያጢ፡</span><span style="font-size: 14pt"> ፸፪፡ </span><span style="font-size: 14pt">ብር፡</span><span style="font-size: 14pt"> ደረሰኝ፡ </span><span style="font-size: 14pt">ወስጄ፡ </span><span style="font-size: 14pt">አሎ፡</span><span style="font-size: 14pt"> ቄስ፡</span><span style="font-size: 14pt"> አብርሃ፡</span><span style="font-size: 14pt"> ጥበበ፡</span><span style="font-size: 14pt"> ሥላሴ፡</span><span style="font-size: 14pt"> አደአሮ፡ </span><span style="font-size: 14pt">ቆቋህያ፡ </span><span style="font-size: 14pt">ዳኛ፡</span><span style="font-size: 14pt"> መምሬ፡ </span><span style="font-size: 14pt">ገብረ፡</span><span style="font-size: 14pt"> መድኅን፡</span><span style="font-size: 14pt"> አዲ፡</span><span style="font-size: 14pt"> ቀያህቶ፡ </span><span style="font-size: 14pt">አማኝ፡</span><span style="font-size: 14pt"> ባሻይ፡</span><span style="font-size: 14pt"> ገብረ፡</span><span style="font-size: 14pt"> ሚካኤል፡</span><span style="font-size: 14pt"> ወለ</span><span style="font-size: 10pt" roman="" serif="" times="" new="">[sic]</span><span style="font-size: 14pt">፡</span><span style="font-size: 14pt"> ማርያም፡</span><span style="font-size: 14pt"> አለቃ፡</span><span style="font-size: 14pt"> ግደደ፡</span><span style="font-size: 14pt"> ኪዳኑ፡</span><span style="font-size: 14pt"> መምሬ፡</span><span style="font-size: 14pt">ገብረ</span><span style="font-size: 14pt">፡ </span><span style="font-size: 14pt">ወልደ፡</span><span style="font-size: 14pt"> ሚካኤል፡ </span><span style="font-size: 14pt">መድኅን፡ </span><span style="font-size: 14pt">ኃይለ፡ </span><span style="font-size: 14pt">ሥላሴ፡</span><span style="font-size: 14pt">ይሙት፡</span></div> <div style="line-height: normal; margin-bottom: 0pt"><span style="font-size: 10pt" roman="" serif="" times="" new="">Around the left fingerprint: </span><span style="font-size: 14pt">ፊርማየ፡</span><span style="font-size: 14pt"> ቄስ፡ </span><span style="font-size: 14pt">አብርሃ፡ </span><span style="font-size: 14pt">ፊርማየ፡ </span><span style="font-size: 14pt">ምስ፡</span></div> <div><span style="line-height: 115%; font-size: 10pt" roman="" serif="" times="" new="">Around the right fingerprint: </span><span style="line-height: 115%; font-size: 14pt">ፊርማየ፡ </span><span style="line-height: 115%; font-size: 14pt">ቄስ፡ </span><span style="line-height: 115%; font-size: 14pt">ወልደ፡ </span><span style="line-height: 115%; font-size: 14pt">ወሚካኤል</span><span style="line-height: 115%; font-size: 10pt" roman="" serif="" times="" new="">[sic]</span><span style="line-height: 115%; font-size: 14pt">፡</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note written in a mixture of Gǝʿǝz and Amharic. The purchase of the book took place in 1937 A.D. (= 1943/44 A.D.).</p>
                         </item>
                         <item xml:id="e1">- Fols. 34v, 45v-46r, 64v-65r, 111r, 120v, 123v, 126r: Names of donors partially deleted, the names of Wälättä Mäsqäl, Wälättä Gäbrǝʾel, Gäbrä Ḥǝywät and ʾabunä Gäbrä Maryam clearly visible in several instances.&#xD;
 - Fols. 97vb, l.19 – 98vb, l.22: text written in (finer) compressed script, by the same hand.</item>
@@ -192,7 +196,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0039DäbräMaʿṣo">Däbrä Maʿṣo / MY</placeName>
+                        <placeName corresp="INS0039MY">Däbrä Maʿṣo / MY</placeName>
                      </origPlace>
                      <origDate notBefore="1880" notAfter="1920">Late 19th - beginning of the 20th cent.</origDate>
                   </origin>
@@ -234,10 +238,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -259,7 +259,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-10">registered</change>
          <change who="IF" when="2011-03-23T09:37:43.234Z">created</change>
          <change who="EG" when="2014-06-05T11:15:16.893Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

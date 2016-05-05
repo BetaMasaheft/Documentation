@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Tǝrgwame mälʾǝktä Ṗawlos ḫabä ʾayhud zä-Yoḥannəs ʾAfä Wärq "Commentary of John Chrysostom on the Epistle of Paul to the Hebrews"</title>
+            <title>Tǝrgwame mälʾǝktä Ṗawlos ḫabä ʾayhud zä-Yoḥannәs ʾAfä Wärq "Commentary of John Chrysostom on the Epistle of Paul to the Hebrews"</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0108GKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GKM-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">158.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">158.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">28.5</height>
                               <width unit="cm">26.0</width>
@@ -130,7 +128,7 @@ The sewing is slightly damaged at the beginning of the codex. &#xD;
 Holes and tears amended on fols. 53, 75, 141, 142.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="29">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>200</width>
@@ -143,32 +141,31 @@ Holes and tears amended on fols. 53, 75, 141, 142.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3.</ab>
+                           <note>All data for fol. 3.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Some fols. have a single marginal line (e.g., fols. 131r-132v, 153rv, 158rv).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful.</ab>
-                        <seg type="ink">Black, red (strong red).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th cent.</date>
+                        <seg type="ink">Black, red (strong red).</seg>The name of the scribe has been erased in the embedded colophon of the work (fol. 156vc).<date>18th cent.</date>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -177,16 +174,15 @@ Some fols. have a single marginal line (e.g., fols. 131r-132v, 153rv, 158rv).</a
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small"><span style="line-height: 115%">Fol. 156vc:</span></span><span style="font-size: larger"><span style="line-height: 115%"> </span><span style="font-size: medium"><span style="line-height: 115%">&#4749;&#4621;&#4680;&#4961; &#4632;&#4923;&#4629;&#4941;&#4725;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4632;&#4779;&#4752;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4653;&#4725;&#4961; &#4980;&#4808;&#4975;&#4962;</span></span></span></q>
-                           <q xml:lang="en"><span style="font-size: small"><span style="line-height: 115%">Fol. 156vc: The number of books of D&#228;br&#228; G&#228;nn&#228;t M&#228;kan&#228; Q&#477;dd&#477;st Kidan&#228; M&#477;&#7717;r&#228;t is 47.</span></span></q>
-                           <p/>
+                           <locus/><div style="line-height: 13pt; margin-bottom: 0pt"><span style="font-size: small">Fol. 156vc: Note on the number of books in possession of the church.</span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 156vc:</span></span><span style="font-size: larger"><span style="line-height: 115%"> </span><span style="font-size: medium"><span style="line-height: 115%">&#4749;&#4621;&#4680;&#4961; &#4632;&#4923;&#4629;&#4941;&#4725;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4632;&#4779;&#4752;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4653;&#4725;&#4961; &#4980;&#4808;&#4975;&#4962;</span></span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 156vc: The number of books of D&#228;br&#228; G&#228;nn&#228;t M&#228;kan&#228; Q&#477;dd&#477;st Kidan&#228; M&#477;&#7717;r&#228;t is 47.</span></span></p></q>
+                           <p>Written in a more recent hand.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fols. 157ra-158va: Homily on the Lord's Prayer, ascribed to John Chrysostom, incomplete. </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fols. 157ra-158va: Homily on the Lord's Prayer, ascribed to John Chrysostom, incomplete. </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is written in uneven, irregular script.
+Cp. BN Ms. éth. 157, no. 3 (ZotBNat 257-58).</p>
                         </item>
                         <item xml:id="e1">- Erasures marked with thin parallel lines: e.g., fols. 5rb, 15ra, 44vc, 73rb, 88rc.&#xD;
 - Corrections written over erasures: e.g., fols. 23rb, 26rb, 30vc, 32va, 96vb, 101rac, 111ra, 132vab (several lines).&#xD;
@@ -212,7 +208,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0108MÃ¤á¸µodË&#x81;Ã¤DÃ¤brÃ¤GÃ¤nnÃ¤tKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
+                        <placeName corresp="INS0108GKM">MÃ¤á¸µodË&#x81;Ã¤ DÃ¤brÃ¤ GÃ¤nnÃ¤t KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t  / GKM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -254,10 +250,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -278,7 +270,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-04-12">registered</change>
          <change who="SH" when="2012-09-18T12:07:48.417Z">created</change>
          <change who="SH" when="2014-10-22T15:50:20.141Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

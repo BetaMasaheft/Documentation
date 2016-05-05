@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0049QärsäbärMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0049QSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QSM-010</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ A few lines (alternating with black lines) and a group of lines on the incipit p
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">147.0</measure> folios,
-                                                in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">147.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.5</height>
                               <width unit="cm">17.5</width>
@@ -117,7 +115,7 @@ Some fols. are probably missing between quires IX and X.&#xD;
 On fols. 1r and 147v part of the text is illegible.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="16">
                            <dimensions unit="mm">
                               <height>125</height>
                               <width>130</width>
@@ -130,28 +128,33 @@ On fols. 1r and 147v part of the text is illegible.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r.</ab>
+                           <note>All data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are mostly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are mostly visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are not visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 40r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular</ab>
                         <seg type="ink">Black; red. On fols. 69-89ra, the ink is less dark than elsewhere.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Late 17th-early 18th century</date>
+                        <list type="abbreviations">
+                           <item>ይ፡ሕ፡ (or ይሕ፡) for ይቤ፡ ሕዝብ፡</item>
+                           <item>ይ፡ካ፡ (or ይካ፡) for ይቤ፡ ካህን፡</item>
+                           <item>ይ፡ዲ፡ (or ይዲ፡) for ይቤ፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">quires I-XIV, XVI-XIX (?).</handNote>
                      <handNote xml:id="h3" script="Ethiopic">quire XV (?).</handNote>
@@ -159,10 +162,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 115v:</span> <span style="line-height: 115%">Ownership note.</span></span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 115v:</span> <span style="line-height: 115%">Ownership note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 115v:</span></span><span style="font-size: medium"><span style="line-height: 115%"> </span></span><span style="font-size: large"><span style="line-height: 115%">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4672;&#4653;<span style="font-size: small">[</span>&#4752;<span style="font-size: small">]</span>&#4961; &#4656;&#4704;&#4653;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; <span style="font-size: small">[</span>&#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4672;&#4845;&#4656;&#4961; &#4872;&#4704;&#4829;&#4961; <span style="line-height: 115%">&#4768;</span>&#4705;&#4752;<span style="line-height: 115%">&#4961;</span><span style="font-size: small">]</span> &#4853;&#4637;&#4920;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4768;&#4705;&#4752;&#4961; <span style="font-size: small">[</span>&#4656;&#4619;<span style="font-size: small">]</span>&#4635;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4829;&#4961; </span><span style="font-size: small"><span style="line-height: 115%">{</span></span><span style="line-height: 115%">&#4845;&#4777;&#4757;</span><span style="font-size: small"><span style="line-height: 115%">}</span></span><span style="line-height: 115%">&#4961; &#4704;&#4768;&#4936;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; <span style="font-size: small">[n.l.]</span> &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 115v: This is a book of the church of St. Michael of Q&#228;r[n&#228;]s&#228;b&#228;r which was bought by W&#228;ld&#228; D&#477;ng&#477;l with his own money [and his wife W&#228;l&#228;tt&#228; &#7716;&#477;yw&#228;t, and q&#228;y&#477;s&#228; g&#228;b&#228;z &#8230;] D&#477;m&#7693;&#228; Mika&#704;e[l and by our bi]shop &#704;abun&#228; [S&#228;la]ma. He who steals [this book] or erases [its text] {shall be} excommunicated by the word of Peter &#8230; Amen.</span></span></p></q>
+                           <p>Written in red ink, partly unreadable; the note mentions the donors and ʾabunä Sälama (in tenure 1841-67).</p>
                         </item>
                         <item xml:id="e1">- Tämälläs-sign, in the shape of two perpendicular lines, indicating the place where the ommisions, written in the margin, in the main hand and in a secondary hand, belong: fols. 42vb l.16, 69vb l.2, 83va l.8, 93ra l.1, 97va l.11, 101ra l.1, 130rb l.8. &#xD;
 - Omitted letters, words, lines or passages are written  interlineally or in the margins, in the main hand and in a secondary hand: fols. 7r, 8r, 10vb, 11v, 12v, 13r, 13v, 19rb, 63r, 77rab, 80vb, 88r, 99v, 106r, 106v, 107ra, 116r, 117va, 121va, 127ra, 133ra, 134v, 135ra, 137r, 137v, 139ra, 140rb, 145rb, 145v. &#xD;
@@ -185,7 +187,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0049QärsäbärMikaʾel">Qärsäbär Mikaʾel / QSM</placeName>
+                        <placeName corresp="INS0049QSM">Qärsäbär Mikaʾel / QSM</placeName>
                      </origPlace>
                      <origDate notBefore="1689" notAfter="1716">Patriarch of Alexandria Yoḥannǝs and Metropolitan ʾabba Marqos are mentioned on fol. 123rb, most probably John XVI (1676–1718) and Marqos IV (1689-1716, cp. EAE III, 791) are meant. Besides, the hierarchs which held the offices in the same time were John XIV (1573–89) and Marqos II (1576-82/88, cp. EAE III, 790).</origDate>
                   </origin>
@@ -227,10 +229,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -251,7 +249,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-17">registered</change>
          <change who="IF" when="2010-11-30T10:48:25.010Z">created</change>
          <change who="EG" when="2014-11-06T07:38:29.010Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

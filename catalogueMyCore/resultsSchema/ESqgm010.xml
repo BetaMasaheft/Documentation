@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0192MänäwätQǝddusGiyorgis"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0192QGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QGM-010</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="189rc">Fol. 189rc</locus>The colophon is written in Amharic. It tells that the scribe is Wäldä Giyorgis (his baptismal name; his worldly mane is däbtära Fänta) of Säqwäṭa Gäbrǝʾel, who was brought up by Wag sǝyyum Bǝrru, and that the exemplar was the Synaxarion of Säqwäṭa Gäbrǝʾel.</colophon>
+                        <locus target="189rc">Fol. 189rc</locus><p>Fol. 189rc:</p><foreign xml:lang="en"><p>Fol. 189rc:</p></foreign>
+                        <note>The colophon is written in Amharic. It tells that the scribe is Wäldä Giyorgis (his baptismal name; his worldly mane is däbtära Fänta) of Säqwäṭa Gäbrǝʾel, who was brought up by Wag sǝyyum Bǝrru, and that the exemplar was the Synaxarion of Säqwäṭa Gäbrǝʾel.</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -55,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">192.0</measure> folios,
-                                                in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">192.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">40.5</height>
                               <width unit="cm">31.8</width>
@@ -141,7 +141,7 @@ The structure of the last quires (XVI, XVII, XVIII ?) cannot be established.</it
 Holes or tears amended, e.g., on fols. 1, 2, 23, 43, 47, 51, 57, 58, 78, 165.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="33">
                            <dimensions unit="mm">
                               <height>277</height>
                               <width>267</width>
@@ -154,37 +154,36 @@ Holes or tears amended, e.g., on fols. 1, 2, 23, 43, 47, 51, 57, 58, 78, 165.</c
                               <dim type="left">15</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 9r.</ab>
+                           <note>All data for fol. 9r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Crude, irregular.</ab>
                         <seg type="ink">Black (bleak), red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Giyorgis</persName>According to the colophon, the scribe is Wäldä Giyorgis (his baptismal name; his worldly mane is däbtära Fänta) of Säqwäṭa Gäbrǝʾel, who was brought up by Wag sǝyyum Bǝrru.<date>Late 19th century (?)</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fol. 189vb: Register of the donors' names.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fol. 189vb: Register of the donors' names.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>List of the names of the donors written in red and reddish-brown ink.</p>
                         </item>
                         <item xml:id="e1">- Two strips of parchment originating from another Ms. have been inserted between fols. 1 and 2.&#xD;
 - Fols. 190ra-191vc: Fragment of another Synaxarion for the month of Ṗagwǝmen serving as endleaves. The text is partly illegible on fols 191r-v.&#xD;
@@ -210,7 +209,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0192MänäwätQǝddusGiyorgis">Mänäwät Qǝddus Giyorgis / QGM</placeName>
+                        <placeName corresp="INS0192QGM">Mänäwät Qǝddus Giyorgis / QGM</placeName>
                      </origPlace>
                      <origDate notBefore="1889" notAfter="1974">King Mǝnilǝk (r. 1889-1913) is mentioned, e.g., on fols. 5rb, 7rbc, 7va, 8rc. King Ḫa[y]lä Śǝllase (r. 1930-74) is mentioned on fol. 4rc.</origDate>
                   </origin>
@@ -252,8 +251,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Giyorgis</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -277,7 +275,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-11-28">registered</change>
          <change who="VR" when="2015-05-27T16:01:06.891Z">created</change>
          <change who="DN" when="2015-06-17T17:06:42.771Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

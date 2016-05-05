@@ -29,14 +29,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-023</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
                      <rubric>Nomina sacra; name of the protagonist; names of the donors; groups of lines (alternating with black lines) in the incipit pages of Texts I-II;  incipits of sections/miracles; elements of the punctuation signs; elements of Ethiopic numbers.</rubric>
-                     <incipit><u>Test</u><foreign xml:lang="en"/>
+                     <incipit><p><u>Test</u></p><foreign xml:lang="en"/>
                      </incipit>
                      <explicit>
                         <foreign xml:lang="en"/>
@@ -50,9 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">68.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">3.0</measure> blank, in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">68.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">28.0</height>
                               <width unit="cm">20.5</width>
@@ -104,7 +102,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 20th century.</date>
                      </handNote>
                   </handDesc>
@@ -124,7 +121,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
                      </origPlace>
                      <origDate notBefore="1950" notAfter="2000">Second half of the 20th century.</origDate>
                   </origin>
@@ -166,10 +163,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -190,7 +183,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-04">registered</change>
          <change who="SA" when="2010-10-21T08:47:48.179Z">created</change>
          <change who="DN" when="2014-08-25T14:36:57.580Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

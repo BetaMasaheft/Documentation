@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəṣṣəw, Lectionary for the entire year</title>
+            <title>Mäṣḥafä gәṣṣәw, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0171KoholoYoá¸¥annÇ&#x9d;sDÃ¤brÃ¤Betel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0171KY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>KY-054</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipit of Texts I-1 and I-2 and their sections; names of the donors; directives to the ministers; abbreviations of the directives yəbəl kahən “the priest says”, yəbəl diyaqon “the deacon says”, yəbəl ḥəzb “the people say”; titles of books to be read; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; incipit of Texts I-1 and I-2 and their sections; names of the donors; directives to the ministers; abbreviations of the directives yәbәl kahәn “the priest says”, yәbәl diyaqon “the deacon says”, yәbәl ḥәzb “the people say”; titles of books to be read; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
 On the incipit pages of Text I-1 and 1-2 (fols. 2r, 26r), a few lines are rubricated (alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -53,9 +53,7 @@ On the incipit pages of Text I-1 and 1-2 (fols. 2r, 26r), a few lines are rubric
                            <watermark>Watermark</watermark>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">55.0</measure> folios,
-                                                in
-                                                <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">55.0</measure> folios, in <measure unit="quire">8.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.5</height>
                               <width unit="cm">13.5</width>
@@ -97,7 +95,7 @@ Many fols. are damaged by water (e.g., fols. 30-55).&#xD;
 Holes/tears carefully amended in fols. 22, 28, 32, 37, 38, 42.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>113</height>
                               <width>95</width>
@@ -110,28 +108,33 @@ Holes/tears carefully amended in fols. 22, 28, 32, 37, 38, 42.</condition>
                               <dim type="left">8</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, vivid red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይብል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ for ይብል፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -141,10 +144,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;">Fol. 25vb: Donation note.</span></span></locus>
-                           <q xml:lang="gez">Fol. 25vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4896;&#4726;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4808;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4708;&#4724;&#4621;&#4961; &#4782;&#4782;&#4622;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4768;&#4636;&#4757;&#4962;</span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;">Fol. 25vb: Donation note.</span></span></p><q xml:lang="gez"><p>Fol. 25vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4896;&#4726;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4808;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4708;&#4724;&#4621;&#4961; &#4782;&#4782;&#4622;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the main hand, in a small and thin script. It mentions the name of the donor, Wälättä Giyorgis, and of the church which received the Ms., Qǝddus Yoḥannǝs Däbrä Betel Koholo (here Kokolo).</p>
                         </item>
                         <item xml:id="e1">- The title of the work, ግፅው ባርከነ ዘሐዘ, is written (in Tǝgrǝñña) on both boards.&#xD;
 - Pen trial: fol. 55rb.&#xD;
@@ -166,7 +168,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0171KoholoYoá¸¥annÇ&#x9d;sDÃ¤brÃ¤Betel">Koholo Yoá¸¥annÇ&#x9d;s DÃ¤brÃ¤ Betel / KY</placeName>
+                        <placeName corresp="INS0171KY">Koholo Yoá¸¥annÇ&#x9d;s DÃ¤brÃ¤ Betel / KY</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of the 19th cent.</origDate>
                   </origin>
@@ -208,10 +210,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -226,14 +224,14 @@ Two pairs of sewing stations.</decoNote>
             <language ident="en">Inglese</language>
             <language ident="it">Italiano</language>
             <language ident="gez" xml:id="Lan05">Gəˁəz</language>
-            <language ident="other" xml:id="Lan00">-other</language>
+            <language>Tǝgrǝñña</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-04">registered</change>
          <change who="SA" when="2013-02-21T14:56:43.698Z">created</change>
          <change who="VP" when="2015-02-26T10:18:50.633Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

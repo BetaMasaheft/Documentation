@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä krəstənna “Book of the Christening”</title>
+            <title>Mäṣḥafä krәstәnna “Book of the Christening”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0208BetMuḵaʿMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0208BMQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BMQM-011</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipit of Text I; directives to the ministers and their abbreviations; initial words or title of the prayers; the word ʿəgäle (fol. 3v); elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; incipit of Text I; directives to the ministers and their abbreviations; initial words or title of the prayers; the word ʿәgäle (fol. 3v); elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
 On the incipit page of Text I (fol. 3r), few lines are rubricated alternating with black lines.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fol. 3r), few lines are rubricated alternating wi
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">39.0</measure> folios,
-                                                in
-                                                <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">39.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">11.7</width>
@@ -89,7 +87,7 @@ The sewing is slightly damaged.&#xD;
 Some fols. are worn and stained with dirt (esp. fols. 1-7).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="14">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>90</width>
@@ -102,21 +100,23 @@ Some fols. are worn and stained with dirt (esp. fols. 1-7).</condition>
                               <dim type="left">8</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r (quires I-III).</ab>
+                           <note>All data for fol. 4r (quires I-III).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="1" writtenLines="20">
                            <dimensions unit="mm">
                               <height>135</height>
                               <width>95</width>
@@ -129,40 +129,44 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">8</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 27r (quires IV-V).</ab>
+                           <note>All data for fol. 27r (quires IV-V).</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይብል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ for ይብል፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 38v: Ownership note.</locus>
-                           <q xml:lang="gez">Fol. 38v: <span style="font-size: large;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4708;&#4725;&#4961; &#4633;&#4779;&#4821;&#4961; &#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4962;</span></q>
+                           <locus/><p>Fol. 38v: Ownership note.</p><q xml:lang="gez"><p>Fol. 38v: <span style="font-size: large;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4708;&#4725;&#4961; &#4633;&#4779;&#4821;&#4961; &#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that the Ms. is owned by the church Bet Muḵaʿ Mikaʾel and that it was commissioned by Wäldä ʾAbrәha.</p>
                         </item>
                      </list>
                   </additions>
@@ -181,7 +185,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0208BetMuḵaʿMikaʾel">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
+                        <placeName corresp="INS0208BMQM">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -218,13 +222,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">The Ms. was commissioned by Wäldä ʾAbrəha (s. Additio 1).</persName>
+                  <persName corresp="PRS0000">The Ms. was commissioned by Wäldä ʾAbrәha (s. Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -247,7 +247,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-12-08">registered</change>
          <change who="SA" when="2014-11-17T14:28:59.252Z">created</change>
          <change who="DN" when="2014-12-16T16:05:07.337Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

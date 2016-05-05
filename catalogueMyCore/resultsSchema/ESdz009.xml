@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0034DäbräZäyt"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0034DZ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DZ-009</idno>
                </msIdentifier>
                <msContents>
@@ -60,9 +60,7 @@ Sometimes only two or three initial letters of a word are rubricated.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">107.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">107.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">24.5</height>
                               <width unit="cm">22.0</width>
@@ -130,7 +128,7 @@ The core of the Ms. seems to have been composed of quires I-IX (Dǝggwa), acquir
 Holes are carefully amended on fols. 39, 56, 73, 77.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="22">
                            <dimensions unit="mm">
                               <height>175</height>
                               <width>192</width>
@@ -143,25 +141,27 @@ Holes are carefully amended on fols. 39, 56, 73, 77.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Quires I-IX: all data for fol. 3r.</ab>
+                           <note>Quires I-IX: all data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Primary pricks are visible. </ab>
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="3" writtenLines="28">
                            <dimensions unit="mm">
                               <height>170</height>
                               <width>175</width>
@@ -174,30 +174,58 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">19</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Quires X-XII: all data for fol. 71r.</ab>
+                           <note>Quires X-XII: all data for fol. 71r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Quires I-IX: regular, fine. Quires X-XII: regular, fine</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Quires I-IX: early 19th century. Quires X-XII: early/mid 19th century</date>
+                        <list type="abbreviations">
+                           <item>ማ፡/ማኅ፡/ማኅሌ፡ for ማኅሌት፡</item>
+                           <item>ምል፡/ምልጣ፡ for ምልጣን፡</item>
+                           <item>ም፡ for ምስባክ፡</item>
+                           <item>መዝ፡/መዝሙ፡ for መዝሙር፡</item>
+                           <item>ምዕራ፡ for ምዕራፍ፡</item>
+                           <item>ሰላ፡ for ሰላም፡</item>
+                           <item>ስብ፡/ስብሐ፡ for ስብሐተ፡ ነግህ፡</item>
+                           <item>እስ፡/እስ፡ ለ፡ for እስመ፡ ለዓለም፡</item>
+                           <item>እግዚ፡/እግዚአ፡ ነግ፡ for እግዚአብሔር፡ ነግሠ፡</item>
+                           <item>ዘይእ፡ for ዘይእዜ፡</item>
+                           <item>ይት፡/ይትባ፡/ይትባረ፡ for ይትባረክ፡</item>
+                           <item>ቅንዋ፡ for ቅንዋት፡</item>
+                           <item>ቃለ፡ ዓ፡ for ቃለ፡ ዓዋዲ፡</item>
+                           <item>በከ፡ for በከመ፡</item>
+                           <item>ብፁ፡ for ብፁዕ፡</item>
+                           <item>ሃ፡ for ሃሌሉያ፡</item>
+                           <item>አራ፡/አራራ፡ for አራራይ፡</item>
+                           <item>ዕ፡/ዕዝ፡ for ዕዝል፡</item>
+                           <item>ግዕ፡ for ግዕዝ፡</item>
+                           <item>ካህ፡/ካ፡ for ካህን፡</item>
+                           <item>ይ፡ ካህ፡ for ይቤ፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                           <item>ይ፡ ሕ፡ for ይቤ ሕዝብ፡</item>
+                           <item>ሕዝ፡ for ሕዝብ፡</item>
+                           <item>
+                              <abbr>Repeated versicles are often written in an abbreviated form, e.g., በ stands for በጊዜሁ፡ ኀለፈ፡ ክረምት፡ በጊዜሁ፡ ቆመ፡ በረከት፡ (fol. 10rc l.7), አ፤ ለ፤ ሰ stands</abbr> for <expan>አስተምህር፡ ለነ፡ ሰአልናከ፡ </expan> (fol. 12ra l.7).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">quires I-IX</handNote>
                      <handNote xml:id="h3" script="Ethiopic">quires X-XII (?)</handNote>
@@ -240,10 +268,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 75ra: Donation note.</span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-size: small;">Fol. 75ra: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">Fol. 75ra:</span></span></span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4829;&#4757;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4720;&#4656;&#4840;&#4902;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4978;&#4709;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4736;&#4709;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4649;&#4939;&#4772;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4608;&#4709;&#4814;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4723;&#4710;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4848;&#4709;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4845;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4709;&#4653;&#4611;&#4757;&#4964;&#4964;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4736;&#4709;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4649;&#4939;&#4772;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4781;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4611;&#4845;&#4635;&#4758;&#4725;&#4961;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4845;&#4777;&#4758;&#4633;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4653;&#4611;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4813;&#4661;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4757;&#4877;&#4645;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4635;&#4843;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4819;&#4616;&#4632;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4616;&#4637;&#4961; &#4872;&#4705;&#4825;&#4637;<span style="font-family: Arial;"><span style="font-size: small;">[sic]</span></span>&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4676;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4781;&#4757;&#4936;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4653;&#4772;&#4621;</span></span></p></q>
+                           <q xml:lang="en"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;">Fol. 75a: This is the book which was bought (by) &#7722;abt&#228; Rufa&#704;el for 10 B&#601;rr; which &#7722;abt&#228; Rufa&#704;el (and) W&#228;l&#228;tt&#228; T&#228;kl&#228; Haymanot donated to the tabot of St. Mary of&#160;D&#228;br&#228; Z&#228;yt B&#601;rhan. May it be for them a guide to the Kingdom of Heaven, forever and ever. <span style="line-height: 115%;">And the g&#228;b&#228;z was priest K&#601;nf&#228; G&#228;br&#601;&#704;el.</span></span></div></q>
+                           <p>The note mentions the donors Ḫabtä Rufaʾel and Wälättä Täklä Haymanot as well as the gäbäz of Däbrä Zäyt Bǝrhan qes Kǝnfä Gäbrǝʾel.</p>
                         </item>
                         <item xml:id="e1">- Omitted passages are written in the upper margin, in hand a: fols. 6vc, 16r, 27rc, 31r, 35ra, 38vb, 58vc, 68rc.&#xD;
 - Omitted passages are written in the upper margin, in hand b: fols. 80va, 83va, 85va, 92va, 97rc, 100ra.&#xD;
@@ -269,7 +296,7 @@ The turn-ins have been laced with cords.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0034DäbräZäyt">Däbrä Zäyt / DZ</placeName>
+                        <placeName corresp="INS0034DZ">Däbrä Zäyt / DZ</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of the 19th cent.</origDate>
                   </origin>
@@ -311,10 +338,6 @@ The turn-ins have been laced with cords.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -335,7 +358,7 @@ The turn-ins have been laced with cords.</decoNote>
          <change who="DN" when="2010-06-05">registered</change>
          <change who="DN" when="2011-08-13T16:38:01.220Z">created</change>
          <change who="DN" when="2014-12-08T12:58:41.563Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -12,7 +12,7 @@
                 select="concat('ES', lower-case(substring-before(//signature[position() = 1], '-')), substring-after(//signature[position() = 1], '-'))"/>
 
         </xsl:variable>
-        <xsl:result-document href="../ScAthiop/catalogueMyCore/resultsSchema/{concat($msID ,'.xml')}" method="xml">
+        <xsl:result-document href="../resultsSchema/{concat($msID ,'.xml')}" method="xml">
 
             <xsl:processing-instruction name="xml-model">
     <xsl:text>href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
@@ -53,16 +53,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                 <msIdentifier>
                                     <xsl:variable name="institutionID"
                                         select="
-                                            concat(
-                                            'INS',
+                                            concat('INS',
                                             format-number(
                                             number(
-                                            substring-after(//locationlink/@xlink:href,
-                                            'domlib_institution_')
-                                            ),
-                                            '0000'),
-                                            replace(
-                                            substring-before(//locationlink/@xlink:title, '/'), ' ', ''))"/>
+                                            substring-after(//locationlink/@xlink:href, 'domlib_institution_')), '0000'),
+                                            if (contains(//locationlink/@xlink:title, '/'))
+                                            then
+                                                (replace(substring-after(//locationlink/@xlink:title, '/'), ' ', ''))
+                                            else
+                                                (substring(//locationlink/@xlink:title, 0, 5)))
+                                            "/>
 
 
                                     <!--further info might be retrived following link and reading xml doc-->
@@ -123,22 +123,22 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                             </rubric>
                                             <incipit>
                                                 <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./incipit, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                  select="normalize-space(./incipit)"
                                                   disable-output-escaping="yes"/>
                                                 <foreign xml:lang="en">
                                                   <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./itranslation, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                  select="normalize-space(./itranslation)"
                                                   disable-output-escaping="yes"/>
                                                 </foreign>
                                             </incipit>
                                             <explicit>
 
                                                 <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./explicit, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                  select="normalize-space(./explicit)"
                                                   disable-output-escaping="yes"/>
                                                 <foreign xml:lang="en">
                                                   <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./etranslation, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                  select="normalize-space(./etranslation)"
                                                   disable-output-escaping="yes"/>
                                                 </foreign>
                                             </explicit>
@@ -192,14 +192,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                     <xsl:for-each select="//colophon/col">
                                         <xsl:sort select="position()"/>
                                         <msItem xml:id="coloph{position()}">
-                                        <colophon>
-                                            <locus>
-                                                <xsl:variable name="locus">
+                                            <colophon>
+                                                <locus>
+                                                  <xsl:variable name="locus">
                                                   <xsl:value-of
                                                   select="normalize-space(substring-before(substring-after(., '&lt;p&gt;'), ':'))"
                                                   />
-                                                </xsl:variable>
-                                                <xsl:analyze-string select="$locus"
+                                                  </xsl:variable>
+                                                  <xsl:analyze-string select="$locus"
                                                   regex="(Fol\.\s)(\d+\w{{1,2}})">
                                                   <xsl:matching-substring>
 
@@ -209,15 +209,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   </xsl:attribute>
 
                                                   </xsl:matching-substring>
-                                                </xsl:analyze-string>
-                                                <xsl:value-of select="$locus"/>
-                                            </locus>
-                                            <xsl:value-of
-                                                select="normalize-space(substring-before(substring-after(., ':'), '&lt;/p&gt;'))"
-                                                disable-output-escaping="yes"/>
-                                            <xsl:value-of select="//colophon/det"/>
-                                        </colophon>
-                                    </msItem></xsl:for-each>
+                                                  </xsl:analyze-string>
+                                                  <xsl:value-of select="$locus"/>
+                                                </locus>
+                                                <xsl:value-of
+                                                  select="normalize-space(.)"
+                                                  disable-output-escaping="yes"/>
+                                                
+                                                <foreign xml:lang="en"><xsl:if test="following-sibling::tran"><xsl:value-of select="following-sibling::tran" disable-output-escaping="yes"/></xsl:if></foreign>
+                                                <note><xsl:value-of select="//colophon/det"/></note>
+                                            </colophon>
+                                        </msItem>
+                                    </xsl:for-each>
                                 </msContents>
 
                                 <physDesc>
@@ -239,10 +242,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   </xsl:attribute>
                                                 </material>
                                             </support>
-                                            <extent>Made of <measure unit="leaf"><xsl:value-of select="//folio"/></measure> folios,
-                                                <xsl:if test="//blankfolio">of which <measure unit="leaf" type="blank"><xsl:value-of
-                                                  select="//blankfolio"/></measure> blank, </xsl:if>in
-                                                <measure unit="quire"><xsl:value-of select="//quire"/></measure> quires. <!-- each of the above information has a note field, the name of which is not yet known, which would need to be added in the statement-->
+                                            <extent>Made of <measure unit="leaf"><xsl:value-of
+                                                  select="//folio"/></measure> folios, <xsl:if
+                                                  test="//blankfolio">of which <measure unit="leaf"
+                                                  type="blank"><xsl:value-of select="//blankfolio"
+                                                  /></measure> blank, </xsl:if>in <measure
+                                                  unit="quire"><xsl:value-of select="//quire"
+                                                  /></measure> quires. <!-- each of the above information has a note field, the name of which is not yet known, which would need to be added in the statement-->
                                                 <dimensions type="outer">
                                                   <height unit="cm">
                                                   <xsl:value-of select="normalize-space(//mheights)"
@@ -263,8 +269,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
 
                                             <xsl:if test="//squire">
                                                 <collation>
-                                                <list>
-                                                    <xsl:for-each select=" if(contains(//squire, '—')) then (tokenize(//squire, '—')) else (tokenize(//squire, '–'))">
+                                                  <list>
+                                                  <xsl:for-each
+                                                  select="
+                                                                if (contains(//squire, '—')) then
+                                                                    (tokenize(//squire, '—'))
+                                                                else
+                                                                    (tokenize(//squire, '–'))">
                                                   <xsl:sort order="ascending" select="position()"/>
                                                   <item xml:id="{concat('q',position())}">
                                                   <xsl:analyze-string select="."
@@ -301,8 +312,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   <xsl:value-of select="."/>
                                                   </item>
                                                   </xsl:for-each>
-                                                </list>
-                                            </collation></xsl:if>
+                                                  </list>
+                                                </collation>
+                                            </xsl:if>
 
                                             <condition>
                                                 <xsl:variable name="id" select="//catstate/@categid"/>
@@ -316,19 +328,21 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
 
                                         </supportDesc>
                                         <layoutDesc>
-                                            <layout>
-                                                <xsl:if test="./cl-nm">
-                                                    <xsl:attribute name="columns">
-                                                        <xsl:value-of select="./cl-nm"/>
-                                                    </xsl:attribute>
-                                                </xsl:if>
-                                                <xsl:if test="./ln-nm">
-                                                    <xsl:attribute name="writtenLines">
-                                                        <xsl:value-of select="./ln-nm"/>
-                                                    </xsl:attribute>
-                                                </xsl:if>
-                                                <xsl:for-each select="//taunit">
-                                                  
+
+
+
+                                            <xsl:for-each select="//taunit">
+                                                <layout>
+                                                  <xsl:if test="./cl-nm">
+                                                  <xsl:attribute name="columns">
+                                                  <xsl:value-of select="./cl-nm"/>
+                                                  </xsl:attribute>
+                                                  </xsl:if>
+                                                  <xsl:if test="./ln-nm">
+                                                  <xsl:attribute name="writtenLines">
+                                                  <xsl:value-of select="./ln-nm"/>
+                                                  </xsl:attribute>
+                                                  </xsl:if>
 
                                                   <dimensions unit="mm">
                                                   <height>
@@ -360,24 +374,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   <xsl:value-of select="./mr-col2 * 10"/>
                                                   </dim>
                                                   </dimensions>
-                                                  <ab type="ruling">
+
+                                                  <note>
                                                   <xsl:value-of select="./mr-info"/>
-                                                  </ab>
+                                                  </note>
                                                   <ab type="ruling">
                                                   <xsl:value-of select="./ln-info"/>
                                                   </ab>
                                                   <xsl:for-each
                                                   select="tokenize(./rl-info, '&#13;')">
-                                                  <ab type="pricking" subtype="pattern">
-                                                  <xsl:value-of select="."/>
+                                                  <ab><xsl:choose>
+                                                      <xsl:when test="contains(lower-case(.),'ruling') and contains(lower-case(.),'pattern')">
+                                                          <xsl:attribute name="type">ruling</xsl:attribute>
+                                                          <xsl:attribute name="subtype">patter</xsl:attribute>
+                                                          </xsl:when>
+                                                      
+                                                      <xsl:when test="contains(lower-case(.),'pricking') and contains(lower-case(.),'pattern')">
+                                                          <xsl:attribute name="type">pricking</xsl:attribute>
+                                                          <xsl:attribute name="subtype">patter</xsl:attribute>
+                                                      </xsl:when>
+                                                      
+                                                      <xsl:when test="contains(lower-case(.),'pricking') or contains(lower-case(.),'pricks')">
+                                                          <xsl:attribute name="type">pricking</xsl:attribute>
+                                                      </xsl:when>
+                                                      
+                                                      <xsl:when test="contains(lower-case(.),'ruling')">
+                                                          <xsl:attribute name="type">ruling</xsl:attribute>
+                                                      </xsl:when>
+                                                  </xsl:choose>
+                                                      <xsl:value-of select="."/>
                                                   </ab>
                                                   </xsl:for-each>
+                                                </layout>
+                                            </xsl:for-each>
 
-
-                                                </xsl:for-each>
-
+                                            <layout>
                                                 <xsl:if test="//ppunctuation">
-                                                    <xsl:for-each
+                                                  <xsl:for-each
                                                   select="tokenize(//ppunctuation, '&#13;')">
 
                                                   <!--                                                    punctuation does not reallz belong into layout, but as cruces it would go into the text
@@ -405,8 +438,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
 
 
 
-                                                </xsl:for-each>
-                                                <xsl:variable name="regularizeCount">
+                                                  </xsl:for-each>
+                                                  <xsl:variable name="regularizeCount">
                                                   <xsl:choose>
                                                   <xsl:when
                                                   test="contains(//ppunctuation, 'Executed') and contains(//ppunctuation, 'Usage')"
@@ -416,8 +449,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   >-1</xsl:when>
                                                   <xsl:otherwise>0</xsl:otherwise>
                                                   </xsl:choose>
-                                                </xsl:variable>
-                                                <ab type="punctuation">
+                                                  </xsl:variable>
+                                                  <ab type="punctuation">
 
                                                   <list>
                                                   <xsl:for-each
@@ -436,17 +469,20 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   </xsl:if>
                                                   </xsl:for-each>
                                                   </list>
-                                                </ab></xsl:if>
+                                                  </ab>
+                                                </xsl:if>
 
                                                 <!--in this case, because there are only references in the field, it can be made into a targeting locus. 
                                                     ATTENTION, THIS HAS NO MEANING if there isn't a text with the ids of the pages.
                                                     -->
                                                 <!--     cruces do not reallz belong into layout, but as punctuation it would go into the text-->
-                                                <xsl:if test="//pcruxansata != '' ">
+                                                <xsl:if test="//pcruxansata != ''">
                                                   <ab type="CruxAnsata">
                                                   <xsl:choose>
                                                   <xsl:when test="//pcruxansata = 'no'"
                                                   >no</xsl:when>
+                                                      <xsl:when test="//pcruxansata = 'none'"
+                                                          >no</xsl:when>
                                                   <xsl:otherwise>
                                                   <locus>
                                                   <xsl:attribute name="target">
@@ -464,7 +500,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   </ab>
                                                 </xsl:if>
 
-                                                <xsl:if test="//pchirhosigns != '' ">
+                                                <xsl:if test="//pchirhosigns != ''">
                                                   <ab type="ChiRho">
                                                   <xsl:choose>
                                                   <xsl:when test="//pchirhosigns = 'no'"
@@ -507,15 +543,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   </xsl:choose>
                                                   </ab>
                                                 </xsl:if>
-
                                             </layout>
+
                                         </layoutDesc>
                                     </objectDesc>
                                     <handDesc>
                                         <xsl:comment>ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND</xsl:comment>
                                         <xsl:variable name="matchid" select="//wsystem/@categid"/>
                                         <xsl:variable name="id"
-                                            select=" if ($matchid != '') then (document('controlledList.xml')//tr[@xml:id = 'WritingSystem']/option[@value = $matchid]) else ('Ethiopic')"/>
+                                            select="
+                                                if ($matchid != '') then
+                                                    (document('controlledList.xml')//tr[@xml:id = 'WritingSystem']/option[@value = $matchid])
+                                                else
+                                                    ('Ethiopic')"/>
 
                                         <handNote xml:id="h1" script="{$id}">
 
@@ -525,14 +565,27 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                             <seg type="ink">
                                                 <xsl:value-of select="//ink"/>
                                             </seg>
-                                            <persName role="scribe" corresp="PRS00000">
-                                                <xsl:comment>Only the name of the scribe should be here, with appropriate correspondence</xsl:comment>
-                                                <xsl:value-of select="//copyst"/>
-                                            </persName>
+                                            <xsl:for-each select="//nmcopyist">
+                                                <persName role="scribe" corresp="PRS00000">
+                                                  <xsl:value-of select="."/>
+                                                </persName>
+                                            </xsl:for-each>
+                                            <xsl:for-each select="//copyist">
+                                                <xsl:value-of select="."/>
+                                            </xsl:for-each>
                                             <date>
                                                 <xsl:value-of select="//ptypeofscript"/>
                                             </date>
-
+                                            <xsl:if test="//abbreviation"><list type="abbreviations">
+                                            <xsl:for-each select="tokenize(//abbreviation, '&#13;')">
+    
+                                                <item><xsl:analyze-string select="normalize-space(.)" regex="(.+)(\s)(for)(\s)(.+)(\()">
+            <xsl:matching-substring><abbr><xsl:value-of select="regex-group(1)"/></abbr> for <expan><xsl:value-of select="regex-group(5)"/></expan> (</xsl:matching-substring>
+            <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
+            
+        </xsl:analyze-string></item>
+   
+</xsl:for-each> </list></xsl:if>
                                         </handNote>
 
                                         <xsl:for-each select="tokenize(//pchangeofhand, '&#13;')">
@@ -613,7 +666,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                     <xsl:if test="//additionals">
                                         <additions>
                                             <xsl:comment>THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.</xsl:comment>
-                                            
+
                                             <list>
                                                 <xsl:for-each select="//additional">
                                                   <item>
@@ -625,10 +678,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   <xsl:attribute name="xml:id">
                                                   <xsl:value-of select="concat('a', position())"/>
                                                   </xsl:attribute>
-                                                  
-                                                  <locus>
 
-                                                 <!-- <xsl:analyze-string select="./cont"
+                                                  <locus/>
+
+                                                  <!-- <xsl:analyze-string select="./cont"
                                                       regex="(Fol\.\s)(\d{{1,3}}\w{{1,2}})(,\sl\.\s)?(\d{{1,3}})?(-\d{{1,3}})?">
                                                   <xsl:matching-substring>
                                                   <xsl:attribute name="target">
@@ -646,24 +699,24 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                      </xsl:analyze-string>-->
 
                                                   <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./cont, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                  select="normalize-space(./cont)"
                                                   disable-output-escaping="yes"/>
-                                                  </locus>
+                                                  
                                                   <q xml:lang="gez">
                                                   <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./add, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                  select="normalize-space(./add)"
                                                   disable-output-escaping="yes"/>
                                                   </q>
                                                   <!--language assumed-->
                                                   <q xml:lang="en">
                                                   <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./tran, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                  select="normalize-space(./tran)"
                                                   disable-output-escaping="yes"/>
                                                   </q>
                                                   <!--translation-->
                                                   <p>
                                                   <xsl:value-of
-                                                  select="substring-before(substring-after(./det, '&lt;p&gt;'), '&lt;/p&gt;')"
+                                                  select="./det"
                                                   disable-output-escaping="yes"/>
                                                   </p>
                                                   </item>
@@ -685,12 +738,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
 
                                         <xsl:variable name="id" select="//bnoriginal/@categid"/>
                                         <binding>
-                                            <xsl:if test="$id != '' ">
+                                            <xsl:if test="$id != ''">
                                                 <xsl:attribute name="contemporary">
-                                                <xsl:value-of
+                                                  <xsl:value-of
                                                   select="document('controlledList.xml')//tr[@xml:id = 'OriginalBinding']/option[@value = $id]"
-                                                />
-                                            </xsl:attribute>
+                                                  />
+                                                </xsl:attribute>
                                             </xsl:if>
 
                                             <decoNote xml:id="b1">
@@ -731,16 +784,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                         <origPlace>
                                             <xsl:variable name="institutionIDorig"
                                                 select="
-                                                    concat(
-                                                    'INS',
+                                                    concat('INS',
                                                     format-number(
                                                     number(
-                                                    substring-after(//locationlink/@xlink:href,
-                                                    'domlib_institution_')
-                                                    ),
-                                                    '0000'),
-                                                    replace(
-                                                    substring-before(//locationlink/@xlink:title, '/'), ' ', ''))"/>
+                                                    substring-after(//originlink/@xlink:href, 'domlib_institution_')), '0000'),
+                                                    if (contains(//originlink/@xlink:title, '/'))
+                                                    then
+                                                        (replace(substring-after(//originlink/@xlink:title, '/'), ' ', ''))
+                                                    else
+                                                        (substring(//originlink/@xlink:title, 0, 5)))"/>
 
                                             <placeName corresp="{$institutionIDorig}">
                                                 <xsl:value-of select="//originlink/@xlink:title"/>
@@ -849,11 +901,14 @@ Restoration :	none  rs[@type=restorations] in custodialHist
                                         Person/persName should only contain the person name, not all the paragraph.</xsl:comment>
 
                                 </person>
-                                <person>
-                                    <persName role="scribe" corresp="PRS00000"/>
-                                    <xsl:comment>copyst</xsl:comment>
+                                <xsl:for-each select="//nmcopyist">
+                                    <person>
+                                        <persName role="scribe" corresp="PRS00000">
+                                            <xsl:value-of select="."/>
+                                        </persName>
 
-                                </person>
+                                    </person>
+                                </xsl:for-each>
                                 <person>
                                     <persName corresp="PRS00000"/>
                                     <xsl:comment>other</xsl:comment>
@@ -861,39 +916,53 @@ Restoration :	none  rs[@type=restorations] in custodialHist
                                 </person>
                             </listPerson>
                         </particDesc>
-                        <xsl:if test="//subject"><textClass>
-                            <keywords>
-                                <xsl:for-each select="//subject">
-                                    <term>
-                                        <xsl:variable name="id" select="./@categid"/>
-                                        <xsl:attribute name="key">
-                                            <xsl:value-of
-                                                select="replace(document('controlledList.xml')//tr[@xml:id = 'subject']/option[@value = $id], ' ', '')"
-                                            />
-                                        </xsl:attribute>
-                                    </term>
-                                </xsl:for-each>
-                            </keywords>
-                        </textClass></xsl:if>
+                        <xsl:if test="//subject">
+                            <textClass>
+                                <keywords>
+                                    <xsl:for-each select="//subject">
+                                        <term>
+                                            <xsl:variable name="id" select="./@categid"/>
+                                            <xsl:attribute name="key">
+                                                <xsl:value-of
+                                                  select="replace(document('controlledList.xml')//tr[@xml:id = 'subject']/option[@value = $id], ' ', '')"
+                                                />
+                                            </xsl:attribute>
+                                        </term>
+                                    </xsl:for-each>
+                                </keywords>
+                            </textClass>
+                        </xsl:if>
                         <langUsage>
                             <language ident="en">Inglese</language>
                             <language ident="it">Italiano</language>
                             <xsl:for-each select="//language">
                                 <language>
-                                    <xsl:variable name="id" select="./@categid"/>
-                                    <xsl:attribute name="ident">
-                                        <xsl:value-of
-                                            select="document('controlledList.xml')//tr[@xml:id = 'language']/option[@value = $id]/@name"
-                                        />
-                                    </xsl:attribute>
-                                    <xsl:attribute name="xml:id">
-                                        <xsl:value-of
-                                            select="document('controlledList.xml')//tr[@xml:id = 'language']/option[@value = $id]/@value"
-                                        />
-                                    </xsl:attribute>
-                                    <xsl:value-of
-                                        select="document('controlledList.xml')//tr[@xml:id = 'language']/option[@value = $id]"
-                                    />
+                                    <xsl:variable name="id"
+                                        select="
+                                            if (./@categid != 'Lan00') then
+                                                (./@categid)
+                                            else
+                                                (./@other)"/>
+                                    <xsl:choose>
+                                        <xsl:when test="./@categid = 'Lan00'">
+                                            <xsl:value-of select="./@other"/>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <xsl:attribute name="ident">
+                                                <xsl:value-of
+                                                  select="document('controlledList.xml')//tr[@xml:id = 'language']/option[@value = $id]/@name"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:attribute name="xml:id">
+                                                <xsl:value-of
+                                                  select="document('controlledList.xml')//tr[@xml:id = 'language']/option[@value = $id]/@value"
+                                                />
+                                            </xsl:attribute>
+                                            <xsl:value-of
+                                                select="document('controlledList.xml')//tr[@xml:id = 'language']/option[@value = $id]"
+                                            />
+                                        </xsl:otherwise>
+                                    </xsl:choose>
                                 </language>
                             </xsl:for-each>
                         </langUsage>

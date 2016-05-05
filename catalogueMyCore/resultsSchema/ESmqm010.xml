@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gəbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0119DäbräMäʿarQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0119MQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MQM-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">150.0</measure> folios,
-                                                in
-                                                <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">150.0</measure> folios, in <measure unit="quire">21.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">40.5</height>
                               <width unit="cm">31.0</width>
@@ -131,7 +129,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">Cuts repaired on fols. 29, 30, 33, 57, 63, 70, 99, 105, 150, 151.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="30">
                            <dimensions unit="mm">
                               <height>290</height>
                               <width>255</width>
@@ -144,28 +142,37 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">18</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Good, regular.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Herenewos and Märḥa Ṣǝdǝq</persName>Herenewos and Märḥa Ṣǝdǝq are mentioned as the scribes in Additio 1; other names are written but erased.<date>19th century.</date>
+                        <list type="abbreviations">
+                           <item>ይሕ፡ for ይብል፡ ሕዝብ፡</item>
+                           <item>ይካ፡ for ይብል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                           <item>
+                              <abbr>ስቡሕኒ፡</abbr> for <expan>ስቡሕኒ፡ ውእቱ፡ ወልዑልኒ፡ ውእቱ፡ ለዓለም፡ </expan> (fols. 100vc-101ra)</item>
+                           <item>
+                              <abbr>ኦ፡</abbr> for <expan>ኦእግዚእነ፡ ወመድኃኒነ፡ ኢየሱስ፡ ክርስቶስ፡ ኄር፡ </expan> (fols. 107ra-107rc)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -176,10 +183,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;">Fols. 130va-vb: Ownership note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 130va-vb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4774;&#4755;&#4961; &#4635;&#4821;&#4934;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4981;&#4808;&#4971;&#4709;&#4653;&#4961; &#4704;&#4978;&#4808;&#4977;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4757;&#4705;&#4648;&#4961; &#4773;&#4853;&#4754;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;">Fols. 130va-vb: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 130va-vb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4774;&#4755;&#4961; &#4635;&#4821;&#4934;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4981;&#4808;&#4971;&#4709;&#4653;&#4961; &#4704;&#4978;&#4808;&#4977;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4757;&#4705;&#4648;&#4961; &#4773;&#4853;&#4754;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written by the same hand as that of the main text. Other names are mentioned, Gäbrä Rufaʾel Näbǝlä Mikaʾǝl, Gäbrä Mädḫǝn, Gäbrä ʾIyäsus along with the scribes' names, Herenewos and Märḥa Ṣǝdǝq. The last two lines are erased.</p>
                         </item>
                         <item xml:id="e1">- Excerpts from hymns for the Good Friday are added in the upper margin of fols. 73r, 73v, 78r, 78v).&#xD;
 - Spaces for rubricated words left unfilled, e.g., fols. 18vc, 86vb, 120vc.&#xD;
@@ -204,7 +210,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0119DäbräMäʿarQəddəstMaryam">Däbrä Mäʿar Qəddəst Maryam / MQM</placeName>
+                        <placeName corresp="INS0119MQM">Däbrä Mäʿar Qәddәst Maryam / MQM</placeName>
                      </origPlace>
                      <origDate notBefore="1872" notAfter="1889">King Yoḥannǝs IV (r. 1872-1889) is mentioned as the reigning monarch in a subscription in fol. 138rc, and in Additio 1.</origDate>
                   </origin>
@@ -246,8 +252,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Herenewos and Märḥa Ṣǝdǝq</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -270,7 +275,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-03">registered</change>
          <change who="IR" when="2013-07-10T16:05:22.075Z">created</change>
          <change who="VP" when="2015-02-26T11:16:48.403Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

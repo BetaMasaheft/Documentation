@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0161GolʿaDäbräBǝrhanYoḥannǝs"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0161BGY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BGY-003</idno>
                </msIdentifier>
                <msContents>
@@ -54,7 +54,9 @@ two lines in the middle of a section on fol. 65ra.</rubric>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="132rb">Fol. 132rb</locus><span style="font-size: large;"> &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4720;&#4925;&#4741;&#4936; &#4704;&#4984;&#4987;&#4961; &#4808;&#4970; &#4637;&#4773;&#4725;&#4961; &#4983;&#4808;&#4972; &#4824;&#4632;&#4757;&#4962; &#4704;&#4824;&#4632;&#4752;&#4961; &#4915;&#4915;&#4661;&#4752;&#4961; &#4770;&#4846;&#4661;&#4768;&#4709;&#4961; &#4808;&#4704;&#4757;&#4873;&#4645;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962;</span>The collophone states that the ms. was written in 7264 (since the creation of world; = 1772 A.D.), at the time of the Emperor Täklä Haymanot (II; r. 1769-77) and Metropolitan ʾIyosʾab (1770-1803).</colophon>
+                        <locus target="132rb">Fol. 132rb</locus><p>Fol. 132rb:<span style="font-size: large;"> &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4720;&#4925;&#4741;&#4936; &#4704;&#4984;&#4987;&#4961; &#4808;&#4970; &#4637;&#4773;&#4725;&#4961; &#4983;&#4808;&#4972; &#4824;&#4632;&#4757;&#4962; &#4704;&#4824;&#4632;&#4752;&#4961; &#4915;&#4915;&#4661;&#4752;&#4961; &#4770;&#4846;&#4661;&#4768;&#4709;&#4961; &#4808;&#4704;&#4757;&#4873;&#4645;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962;</span></p><foreign xml:lang="en"/>
+                        <note>The collophone states that the ms. was written in 7264 (since the creation of world; = 1772 A.D.), at the time of the Emperor Täklä Haymanot (II; r. 1769-77) and Metropolitan ʾIyosʾab (1770-1803).</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -63,9 +65,7 @@ two lines in the middle of a section on fol. 65ra.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">134.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">134.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.5</height>
                               <width unit="cm">26.0</width>
@@ -101,7 +101,7 @@ Fol. 30 is made of two pieces of parchment sewn together with a narrow strip of 
 The parchment of fols. 20, 23, 24, 25, 29, 34, 36, 37, 39, 41, 42, 48, 49, 108, 109, 111 is translucent, affecting the legibility of the text.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>190</height>
                               <width>200</width>
@@ -114,45 +114,47 @@ The parchment of fols. 20, 23, 24, 25, 29, 34, 36, 37, 39, 41, 42, 48, 49, 108, 
                               <dim type="left">10</dim>
                               <dim type="intercolumn">20</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 4r.</ab>
+                           <note>All data are for fol. 4r.</note>
                            <ab type="ruling">23 in the fol. 16ra; 20 in the fols. 132va-133vb, 19 in the fol. 134ra</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 (on the fols. 132v, 133r, 133v, 134r several upper lines appear irregular, and were not used by the scribe). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, but careful.</ab>
                         <seg type="ink">Black; red (brilliant vermillion, e.g., fol. 2ra; deep vermillion fol. 67rb)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid-18th - mid-19th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓ፡ ለመ ፡ ዓለ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ </expan> (fol. 5rb)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 1vb: Donation note.</locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 1vb:</span> <span style="font-size: large;">&#4829;&#4632;&#4925;&#4627;&#4941;&#4961; &#4824;&#4768;&#4632;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4720;&#4781;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4773;&#4635;&#4961; &#4632;&#4653;&#4819;&#4720;&#4961; <span style="font-size: small;">&lt;</span>&#4808;&#4757;<span style="font-size: small;">&gt;</span>&#4876;&#4621;&#4961; &#4808;&#4773;&#4741;&#4723;&#4961; &#4808;&#4616;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;<span style="font-size: small;">&lt;...&gt;</span> &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="font-size: small;">&lt;...&gt;</span><span style="font-size: large;"> &#4824;&#4653;&#4768;&#4961; &#4843;&#4821;&#4678;&#4709;&#4961; &#4619;&#4773;&#4776;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; <span style="font-size: small;">[</span>&#4872;&#4709;<span style="font-size: small;">]</span>&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4677;&#4849;&#4659;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4824;&#4757;&#4720;&#4961; &#4768;&#4627;&#4813;&#4840; &#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4961; &#4768;&#4705;</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">[</span><span style="font-size: large;">&#4752;</span></span></span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: large;">&#4961; &#4824;&#4704;</span></span><span style="font-size: small;">]</span></span>&#4656;&#4635;&#4843;&#4725;&#4961;</span></q>
+                           <locus/><p>Fol. 1vb: Donation note.</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 1vb:</span> <span style="font-size: large;">&#4829;&#4632;&#4925;&#4627;&#4941;&#4961; &#4824;&#4768;&#4632;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4720;&#4781;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4773;&#4635;&#4961; &#4632;&#4653;&#4819;&#4720;&#4961; <span style="font-size: small;">&lt;</span>&#4808;&#4757;<span style="font-size: small;">&gt;</span>&#4876;&#4621;&#4961; &#4808;&#4773;&#4741;&#4723;&#4961; &#4808;&#4616;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;<span style="font-size: small;">&lt;...&gt;</span> &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961;</span><span style="font-size: small;">&lt;...&gt;</span><span style="font-size: large;"> &#4824;&#4653;&#4768;&#4961; &#4843;&#4821;&#4678;&#4709;&#4961; &#4619;&#4773;&#4776;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; <span style="font-size: small;">[</span>&#4872;&#4709;<span style="font-size: small;">]</span>&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4677;&#4849;&#4659;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4611;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4824;&#4757;&#4720;&#4961; &#4768;&#4627;&#4813;&#4840; &#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4961; &#4768;&#4705;</span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: small;">[</span><span style="font-size: large;">&#4752;</span></span></span><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: large;"><span style="font-size: large;">&#4961; &#4824;&#4704;</span></span><span style="font-size: small;">]</span></span>&#4656;&#4635;&#4843;&#4725;&#4961;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note contains names of donors (ʾAmätä Ṣǝyon, Täklä Mikaʾel) and their numerous relatives. Most of these names are also inserted, in the same hand and in the same ink (dark vermillion) over erasures in the supplication formulas in the main text.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:PunctuationKerning /> <w:ValidateAgainstSchemas /> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:Compatibility> <w:BreakWrappedTables /> <w:SnapToGridInCell /> <w:ApplyBreakingRules /> <w:WrapTextWithPunct /> <w:UseAsianBreakRules /> <w:DontGrowAutofit /> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> </w:WordDocument> </xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" LatentStyleCount="156"> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 10]> <style> /* Style Definitions */ table.MsoNormalTable {mso-style-name:"Обычная таблица"; mso-tstyle-rowband-size:0; mso-tstyle-colband-size:0; mso-style-noshow:yes; mso-style-parent:""; mso-padding-alt:0cm 5.4pt 0cm 5.4pt; mso-para-margin:0cm; mso-para-margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:10.0pt; font-family:"Times New Roman"; mso-ansi-language:#0400; mso-fareast-language:#0400; mso-bidi-language:#0400;} </style> <![endif]--><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:" arial="" unicode="">Fol. 132rb: Donation note</span></locus>
-                           <q xml:lang="gez">Fol. 132rb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4632;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4773;&#4877;<span style="font-size: small;">[</span>&#4773;<span style="font-size: small;">]</span>&#4829;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4848;&#4674;&#4672;&#4961; &#4872;&#4827;&#4773;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4845;&#4632;&#4653;&#4608;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961;</span></q>
+                           <locus/><p><!--[if gte mso 9]><xml> <w:WordDocument> <w:View>Normal</w:View> <w:Zoom>0</w:Zoom> <w:PunctuationKerning /> <w:ValidateAgainstSchemas /> <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid> <w:IgnoreMixedContent>false</w:IgnoreMixedContent> <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText> <w:Compatibility> <w:BreakWrappedTables /> <w:SnapToGridInCell /> <w:ApplyBreakingRules /> <w:WrapTextWithPunct /> <w:UseAsianBreakRules /> <w:DontGrowAutofit /> </w:Compatibility> <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel> </w:WordDocument> </xml><![endif]--><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" LatentStyleCount="156"> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 10]> <style> /* Style Definitions */ table.MsoNormalTable {mso-style-name:"Обычная таблица"; mso-tstyle-rowband-size:0; mso-tstyle-colband-size:0; mso-style-noshow:yes; mso-style-parent:""; mso-padding-alt:0cm 5.4pt 0cm 5.4pt; mso-para-margin:0cm; mso-para-margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:10.0pt; font-family:"Times New Roman"; mso-ansi-language:#0400; mso-fareast-language:#0400; mso-bidi-language:#0400;} </style> <![endif]--><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:" arial="" unicode="">Fol. 132rb: Donation note</span></p><q xml:lang="gez"><p>Fol. 132rb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4632;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4773;&#4877;<span style="font-size: small;">[</span>&#4773;<span style="font-size: small;">]</span>&#4829;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4848;&#4674;&#4672;&#4961; &#4872;&#4827;&#4773;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4845;&#4632;&#4653;&#4608;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>ʾAmätä Ṣǝyon is mentioned as the donor to the church of St. Mary of Däqiqä Gäzaʾt (?). Additio 2 is written over erased text (original donation note?), in the same hand and ink as Additio 1.</p>
                         </item>
                         <item xml:id="e1">- Internal number of the ecclesiastic library has been crudely written on fol. 1r: ት ኢ 5No 24-8-93&#xD;
 - Omitted letters, words or passages written interlineally, in the same hand in the same ink (e.g., fols. 2ra, 2vb, 3rb, 6rv, 13vb, 16va, 19va, 54vb, 57vab, 80ra, 133rb) or in red ink (fol. 122rb) &#xD;
@@ -183,7 +185,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0161GolʿaDäbräBǝrhanYoḥannǝs">Golʿa Däbrä Bǝrhan Yoḥannǝs/ BGY</placeName>
+                        <placeName corresp="INS0161BGY">Golʿa Däbrä Bǝrhan Yoḥannǝs/ BGY</placeName>
                      </origPlace>
                      <origDate notBefore="1772" notAfter="1772">The colophon states that the Ms. was written in 7264 after the creation of the world (= 1772 A.D.), at the time of King Täklä Haymanot (II; r. 1769-77) and Metropolitan ʾIyosʾab (in tenure 1770-1803).</origDate>
                   </origin>
@@ -225,10 +227,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -249,7 +247,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-21">registered</change>
          <change who="DN" when="2014-10-02T12:24:58.177Z">created</change>
          <change who="DN" when="2014-10-25T14:47:43.219Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0141MaryamMäkan"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0141MM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MM-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">49.0</measure> folios,
-                                                in
-                                                <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">49.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">16.5</width>
@@ -92,7 +90,7 @@ The original sewing is for the most part missing (remains of the original thread
 Many fols. are worn and affected by water.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>146</height>
                               <width>130</width>
@@ -105,33 +103,33 @@ Many fols. are worn and affected by water.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is usually written below the ruling (fols. 10rv, 13r-34v, 36r-48r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The scribe disregarded the ruling in fols. 8rv, 9rv, 11r, 35v.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular</ab>
                         <seg type="ink">Black, red (strong red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 19th century (?)</date>
                      </handNote>
                   </handDesc>
@@ -142,10 +140,9 @@ The scribe disregarded the ruling in fols. 8rv, 9rv, 11r, 35v.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 1r: Praising prayer to the Trinity and St. Mary.</span></div><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4768;&#4709;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4808;&#4621;&#4853;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4632;&#4661;&#4672;&#4616;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In the note, groups of red lines alternate with groups of black lines. It is partly illegible because the ink has faded away.</p>
                         </item>
                         <item xml:id="e1">- Scribbles, writing exercises (part of Ethiopic syllabary), doodles: fols. 1v, 2rv, 4r, 11r, 13v, 14r, 30r, 34r, 48rv, 49rv.</item>
                      </list>
@@ -166,7 +163,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0141MaryamMäkan">Maryam Mäkan/MM</placeName>
+                        <placeName corresp="INS0141MM">Maryam Mäkan/MM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of the 19th cent. (?)</origDate>
                   </origin>
@@ -209,10 +206,6 @@ The names have been added in strong crimson ink in a secondary hand.</persName>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -234,7 +227,7 @@ The names have been added in strong crimson ink in a secondary hand.</persName>
          <change who="DN" when="2011-05-11">registered</change>
          <change who="MK" when="2013-10-30T15:45:31.743Z">created</change>
          <change who="MV" when="2015-05-28T12:50:55.028Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

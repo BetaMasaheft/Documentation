@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0108MäḵodʿäDäbräGännätKidanäMǝḥrät"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0108GKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GKM-007</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus/>According to the colophon the Ms. was written by Wäldä ʾArägawi who completed the work in the month of Ḫǝdar in 1913 year of mercy, in the year of John the Evangelist (= 1920 A.D.).</colophon>
+                        <locus/><div style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 72ra: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4845;&#4725;</span><span style="line-height: 115%;">&#4707;&#4648;</span><span style="line-height: 115%;">&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; </span><span style="line-height: 115%;">&#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4925;&#4626;&#4936;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4616;&#4739;&#4901;&#4773;&#4961; &#4872;&#4709;&#4649;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4978;&#4808;&#4977;&#4987;&#4978;&#4808;&#4971;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4808;&#4653;&#4736;&#4961; &#4741;&#4851;&#4653;&#4962;</span></span></div><foreign xml:lang="en"/>
+                        <note>According to the colophon the Ms. was written by Wäldä ʾArägawi who completed the work in the month of Ḫǝdar in 1913 year of mercy, in the year of John the Evangelist (= 1920 A.D.).</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -55,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">77.0</measure> folios,
-                                                in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">77.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">17.0</width>
@@ -113,7 +113,7 @@ A few words and passages are illegible due to smeared ink: fols. 4rb, 6vb, 7r, 1
 Holes are carefully amended in fols. 26, 56, 66, 72.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>143</height>
                               <width>134</width>
@@ -126,32 +126,36 @@ Holes are carefully amended in fols. 26, 56, 66, 72.</condition>
                               <dim type="left">7</dim>
                               <dim type="intercolumn">11</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling">The number of lines varies from fol. to fol. because frequently the scribe wanted to accomodate a bigger portion of the text.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 On numerous fols. the bottom line is written below the ruling: fols. 7v, 8r, 9v, 10r, 11rv, 12rv, 13r, 14r, 15ra, 16rb, 17r, 20rv, 25r, 25vb, 35ra, 43ra, 47r, 60v, 69v, 71r, 72ra.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The bottom ruled line was not used by the scribe on fols. 27v, 45v.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Early 20th century</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä ʾArägawi</persName>Wäldä ʾArägawi is mentioned as the scribe in the colophon (different from the scribe of SM-016).<date>Early 20th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (Text II)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -160,10 +164,9 @@ The bottom ruled line was not used by the scribe on fols. 27v, 45v.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"/>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fols. 1r-2v, 76rb-77v:&#160;Excerpt form &#704;Anq&#228;&#7779;&#228; n&#601;ss&#601;&#7717;a &#8220;The Gate of Penitence&#8221;.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 1v: </span><span style="font-size: large;">&#4757;&#4812;&#4901;&#4757;&#4961; &#4704;&#4648;&#4853;&#4772;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4757;&#4672;&#4920;&#4961; &#4757;&#4661;&#4624;&#4961; &#4824;&#4720;&#4672;&#4853;&#4624;&#4961; &#4773;&#4637;&#4985;&#4808;&#4969;&#4961; &#4632;&#4923;&#4629;&#4941;&#4725;&#8230;</span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is carelessly written in a poor hand. It beginns on fol. 1v and is incomplete (cf. Vat. Aeth. no. 156).</p>
                         </item>
                         <item xml:id="e1">- Tämälläs-signs, in the shape of a cross, indicating the place where the omissions written in the margins, in the main hand, belong: fols. 16vb l.4, 45va l.11.  &#xD;
 - Omitted words are written interlineally, in the main hand: fols. 17ra, 20rb, 49ra, 53vb.&#xD;
@@ -188,7 +191,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0108MäḵodʿäDäbräGännätKidanäMǝḥrät">Mäḵodʿä Däbrä Gännät Kidanä Mǝḥrät  / GKM</placeName>
+                        <placeName corresp="INS0108GKM">Mäḵodʿä Däbrä Gännät Kidanä Mǝḥrät  / GKM</placeName>
                      </origPlace>
                      <origDate notBefore="1920" notAfter="1920">According to the colophon the Ms. was completed in the month of Ḫǝdar in 1913 year of mercy (= 1920 A.D.).</origDate>
                   </origin>
@@ -230,8 +233,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä ʾArägawi</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -255,7 +257,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-04">registered</change>
          <change who="MK" when="2013-10-15T07:35:27.762Z">created</change>
          <change who="VP" when="2015-02-26T11:26:02.259Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0099ʾAḥzäraMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0099DMA"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DMA-009</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ Several groups of lines on the incipit page of Texts I-1 and I-2, alternating wi
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">72.0</measure> folios,
-                                                in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">72.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.0</height>
                               <width unit="cm">21.0</width>
@@ -102,7 +100,7 @@ Several groups of lines on the incipit page of Texts I-1 and I-2, alternating wi
 Fol. 72 is cut in half.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>190</height>
                               <width>168</width>
@@ -115,32 +113,47 @@ Fol. 72 is cut in half.</condition>
                               <dim type="left">14</dim>
                               <dim type="intercolumn">14</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Some fols. have additional ruled lines at the bottom (fols. 53rv, 60rv).</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine. Hand b: poor.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of the 19th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">ʿAśratä Maryam, Gäbrä Śǝllase</persName>ʿAśratä Maryam (hand a) is mentioned as the scribe in supplication formulas throughout Text I; possibly he is the scribe of DMD-007.&#xD;
+Gäbrä Śǝllase (hand b) is mentioned as the scribe in the supplication formula on fol. 71rb (Text III).<date>Second half of the 19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰ፡</abbr> for <expan>ሰላም፡ </expan> (fol. 6rb)</item>
+                           <item>
+                              <abbr>ለ፡ ዓ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 29rb)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 47vb, 67rb)</item>
+                           <item>
+                              <abbr>ለዓለ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 51rb, 54va)</item>
+                           <item>
+                              <abbr>ለዓለመ፡ ዓ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 19ra)</item>
+                           <item>
+                              <abbr>ለዓለመ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 45rb, 60ra, 64va)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3ra-70rb (Text I).</handNote>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -152,16 +165,14 @@ Some fols. have additional ruled lines at the bottom (fols. 53rv, 60rv).</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><span style="font-family: ;">Fols. 1v-2ra: </span><span style="font-family: ;">T&#228;&#704;amr&#228; &#704;Iy&#228;sus "Miracles of Jesus": 1 miracle.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: ;">Fols. 1v-2ra: </span><span style="font-family: ;">T&#228;&#704;amr&#228; &#704;Iy&#228;sus "Miracles of Jesus": 1 miracle.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The miracle is written probably, in hand b on unruled leaves. The initial line and nomina sacra are rubricated. Ḫaylä Maryam is mentioned in the supplication formula.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size: small;">Fols. 71vb-72ra: Directives for weekly service (?).<br /> </span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span lang="EN-GB" style="font-family: ;">Fol. 71vb l. 7:</span><span lang="EN-GB"> </span></span><span style="font-size: large;"><span lang="AMH" style="font-family: Nyala;">&#4840;&#4656;&#4638;&#4757;&#4961; &#4661;&#4653;&#4819;&#4720;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4618;&#4672;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4709;&#4621;&#4961; &#4616;&#4758;&#4741;&#4961; &#4624;&#4632;&#4649;&#4961; &#4704;&#4656;&#4874;&#4853;&#4961; &#4656;&#4709;&#4624;&#4725;&#4961; &#4840;&#4874;&#4723;&#4757;&#4961; &#4659;&#4843;&#4621;&#4677;&#4961; &#4720;&#4936;&#4645;&#4626;&#4961; &#4635;&#4961; &#4704;&#4621;&#4961; &#4808;&#4779;&#4821;&#4704;&#4961; &#4704;&#4621;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4645;&#4621;&#4660;&#4776;&#4961; &#4704;&#4621;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4961; &#4813;&#4853;&#4661;&#4725;&#4961; &#4808;&#4929;&#4821;&#4725;&#4961; &#4704;&#4621;&#4961; &#4632;&#4624;&#4648;&#4752;&#4961; &#4768;&#4709;&#4961; &#4773;&#4661;&#4776;&#4961; &#4941;&#4923;&#4636;&#4609;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4720;&#4936;&#4645;&#4626;&#4961; &#4774;&#4961; &#4704;&#4621;&#4961; &#4774;&#4653;&#4629;&#4653;&#4720;&#4961; &#4629;&#4618;&#4755;&#4961; &#4704;&#4621;&#4962; &#4632;&#4677;&#4853;&#4637;&#4961; &#4656;&#4637;&#4817;&#4961; &#4757;&#4752;&#4877;&#4648;&#4781;&#4633;&#4961; &#4773;&#4656;&#4877;&#4853;&#4961; &#4616;&#4778;&#4961; &#4970;&#4725;&#4961; &#4840;&#4632;&#4706;&#4723;&#4733;&#4757;&#4961; &#4720;&#4961; &#4969;&#4840;&#4634;&#4779;&#4772;&#4621;&#4961; &#4969;&#4840;&#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4840;&#4770;&#4840;&#4657;&#4661;&#4961; &#4720;&#4961; &#4973;&#4725;&#4961; &#4755;&#4728;&#4813;&#4961; </span><span style="font-family: Nyala;">...</span></span></q>
+                           <locus/><p><span style="font-size: small;">Fols. 71vb-72ra: Directives for weekly service (?).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="font-family: ;">Fol. 71vb l. 7:</span><span lang="EN-GB"> </span></span><span style="font-size: large;"><span lang="AMH" style="font-family: Nyala;">&#4840;&#4656;&#4638;&#4757;&#4961; &#4661;&#4653;&#4819;&#4720;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4618;&#4672;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4709;&#4621;&#4961; &#4616;&#4758;&#4741;&#4961; &#4624;&#4632;&#4649;&#4961; &#4704;&#4656;&#4874;&#4853;&#4961; &#4656;&#4709;&#4624;&#4725;&#4961; &#4840;&#4874;&#4723;&#4757;&#4961; &#4659;&#4843;&#4621;&#4677;&#4961; &#4720;&#4936;&#4645;&#4626;&#4961; &#4635;&#4961; &#4704;&#4621;&#4961; &#4808;&#4779;&#4821;&#4704;&#4961; &#4704;&#4621;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4645;&#4621;&#4660;&#4776;&#4961; &#4704;&#4621;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4708;&#4720;&#4961; &#4781;&#4653;&#4961; &#4813;&#4853;&#4661;&#4725;&#4961; &#4808;&#4929;&#4821;&#4725;&#4961; &#4704;&#4621;&#4961; &#4632;&#4624;&#4648;&#4752;&#4961; &#4768;&#4709;&#4961; &#4773;&#4661;&#4776;&#4961; &#4941;&#4923;&#4636;&#4609;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4720;&#4936;&#4645;&#4626;&#4961; &#4774;&#4961; &#4704;&#4621;&#4961; &#4774;&#4653;&#4629;&#4653;&#4720;&#4961; &#4629;&#4618;&#4755;&#4961; &#4704;&#4621;&#4962; &#4632;&#4677;&#4853;&#4637;&#4961; &#4656;&#4637;&#4817;&#4961; &#4757;&#4752;&#4877;&#4648;&#4781;&#4633;&#4961; &#4773;&#4656;&#4877;&#4853;&#4961; &#4616;&#4778;&#4961; &#4970;&#4725;&#4961; &#4840;&#4632;&#4706;&#4723;&#4733;&#4757;&#4961; &#4720;&#4961; &#4969;&#4840;&#4634;&#4779;&#4772;&#4621;&#4961; &#4969;&#4840;&#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4840;&#4770;&#4840;&#4657;&#4661;&#4961; &#4720;&#4961; &#4973;&#4725;&#4961; &#4755;&#4728;&#4813;&#4961; </span><span style="font-family: Nyala;">...</span></span></p> <p></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is written in Amharic and Gәʿәz, with many scribal errors, very crudely, right beneath Text III in hand b.</p>
                         </item>
                         <item xml:id="e1">- Däqiqä Ṣǝyon "Children of Zion" are mentioned together with the name of the donor in some supplication formulas throughout Text I-4 (fol. 12va, 18ra, 20rb etc.).&#xD;
 - Omitted words inserted interlineally: fols. 3ra, 3vb, 7ra, 15ra, 28ra, 41vb.&#xD;
@@ -188,7 +199,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0099ʾAḥzäraMaryam">ʾAḥzära  Maryam /DMA</placeName>
+                        <placeName corresp="INS0099DMA">ʾAḥzära  Maryam /DMA</placeName>
                      </origPlace>
                      <origDate notBefore="1830" notAfter="1860">ʿAśratä Maryam also wrote Ms. GMS-010 which is datable to 1841-52.</origDate>
                   </origin>
@@ -232,8 +243,7 @@ The name Ḫaylä Maryam is written in Additio 1, in hand b (fol. 2r).</persName
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">ʿAśratä Maryam, Gäbrä Śǝllase</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -259,7 +269,7 @@ The name Ḫaylä Maryam is written in Additio 1, in hand b (fol. 2r).</persName
          <change who="DN" when="2010-11-24">registered</change>
          <change who="SH" when="2014-10-13T14:17:19.255Z">created</change>
          <change who="DN" when="2015-02-18T10:19:20.354Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

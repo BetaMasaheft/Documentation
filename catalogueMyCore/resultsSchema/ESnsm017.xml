@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0113NəḥbiQəddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0113NSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>NSM-017</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">77.0</measure> folios,
-                                                in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">77.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.5</height>
                               <width unit="cm">15.0</width>
@@ -102,7 +100,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Holes or tears amended on fols. 1, 2, 29, 37, 69, 70.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>150</height>
                               <width>120</width>
@@ -115,34 +113,38 @@ Holes or tears amended on fols. 1, 2, 29, 37, 69, 70.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 19r.</ab>
+                           <note>All data for fol. 19r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe did not use the bottom line on fols. 8r, 8v, 9r, 9v.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The scribe disregarded the ruling on fols. 69v, 70r.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script"/>
                         <seg type="ink">Black, pink</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>20th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ገ፡ አጽባሃ፡</abbr> for <expan>ገብረ፡ አጽባሃ፡ </expan> (e.g., fols. 3rb, 45vb, 57rb, 57va)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -161,7 +163,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0113NəḥbiQəddusMikaʾel">Nəḥbi Qəddus Mikaʾel / NSM</placeName>
+                        <placeName corresp="INS0113NSM">Nәḥbi Qәddus Mikaʾel / NSM</placeName>
                      </origPlace>
                      <origDate notBefore="1900" notAfter="2000">20th cent. (?)</origDate>
                   </origin>
@@ -203,10 +205,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -227,7 +225,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-26">registered</change>
          <change who="VR" when="2015-05-18T15:08:48.606Z">created</change>
          <change who="VR" when="2015-06-03T18:46:14.537Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

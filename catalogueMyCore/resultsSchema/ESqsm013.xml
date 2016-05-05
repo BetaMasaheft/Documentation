@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0049QärsäbärMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0049QSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QSM-013</idno>
                </msIdentifier>
                <msContents>
@@ -57,9 +57,7 @@ Calendar notes concerning occasions for celebrating the given Anaphora (e.g., fo
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">126.0</measure> folios,
-                                                in
-                                                <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">126.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.5</height>
                               <width unit="cm">17.0</width>
@@ -128,7 +126,7 @@ Fol. 125 is loosely inserted between fols. 124v and 126r.</item>
                         <condition key="good">Holes are carefully amended on fols.: 9, 14, 21, 75, 77, 79, 93, 105.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>145</height>
                               <width>140</width>
@@ -141,28 +139,40 @@ Fol. 125 is loosely inserted between fols. 124v and 126r.</item>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r.</ab>
+                           <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are occasionally visible (s. fol. 57r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible (s. fol. 58r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful, regular</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century (?).</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä ʾEwosṭatewos</persName>Gäbrä ʾEwosṭatewos is mentioned as the scribe in the supplication, fol. 71ra.<date>19th century (?).</date>
+                        <list type="abbreviations">
+                           <item>ይ፡ሕ፡ (or ይሕ) for ይቤ፡ ሕዝብ፡</item>
+                           <item>ይ፡ሕ፡ (or ይሕ) for ይቤ፡ ሕዝብ፡</item>
+                           <item>ይ፡ካ፡ (or ይካ) for ይቤ፡ ካህን፡</item>
+                           <item>ይ፡ዲ፡ (or ይዲ) for ይቤ፡ ዲያቆን፡</item>
+                           <item>
+                              <abbr>ጸ፡</abbr> for <expan>ጸልዩ፡ </expan> (e.g., fol. 10vb, l.18; usually left unabbreviated)</item>
+                           <item>
+                              <abbr>በእን፡</abbr> for <expan>በእንተ፡ </expan> (e.g., fol. 33ra)</item>
+                           <item>
+                              <abbr>ቡራ፡</abbr> for <expan>ቡራኬ፡ </expan> (e.g., fol. 18va, l.2).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -175,22 +185,19 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 2r (upper margin):&#160; Ownership note.</span><span style="line-height: 115%; font-size: 10pt"><br /> </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 2r (upper margin):&#160; Ownership note.</span><span style="line-height: 115%; font-size: 10pt"><br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The very recent note is written in Tǝgrǝñña and Gǝʿǝz, in pen.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 123v: Ownership note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 123v: Ownership note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The very recent note is written in pen.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 123v:</span> D<span style="line-height: 115%">onation note.</span></span><span style="line-height: 115%; font-size: 10pt"><br /> </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 123v:</span> D<span style="line-height: 115%">onation note.</span></span><span style="line-height: 115%; font-size: 10pt"><br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The very recent note is written in pen.</p>
                         </item>
                         <item xml:id="e1">- Tämälläs-sign in the shape of a cross, indicating where the omissions, written in the upper margin, in the main hand, belong: fols. 61ra l.12, 118va l.3, 121rb l.8.&#xD;
 - Pen trial: fol. 5r. &#xD;
@@ -212,7 +219,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0049QärsäbärMikaʾel">Qärsäbär Mikaʾel / QSM</placeName>
+                        <placeName corresp="INS0049QSM">Qärsäbär Mikaʾel / QSM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half or late 19 century (?).</origDate>
                   </origin>
@@ -254,8 +261,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä ʾEwosṭatewos</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -272,14 +278,14 @@ Two pairs of sewing stations.</decoNote>
             <language ident="en">Inglese</language>
             <language ident="it">Italiano</language>
             <language ident="gez" xml:id="Lan05">Gəˁəz</language>
-            <language ident="other" xml:id="Lan00">-other</language>
+            <language>Tǝgrǝňňa</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-17">registered</change>
          <change who="IF" when="2010-11-19T11:07:06.472Z">created</change>
          <change who="DN" when="2014-08-27T16:52:51.551Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

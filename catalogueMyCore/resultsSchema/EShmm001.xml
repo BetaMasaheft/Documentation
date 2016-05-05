@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0200á¸¤angodaDÃ¤brÃ¤MÉ&#x99;á¸¥rÃ¤tQÉ&#x99;ddusMikaË&#x80;el"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0200HMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>HMM-001</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; the word məʿəraf and numbers of the chapters; incipit of Text I and of its subsections; incipit of Texts II, III, IV and V and of their chapters; incipit of the Biographies of the Evangelists; elements of the punctuation signs; elements of text dividers; Ethiopic numerals; on the incipit page of Texts I, II, III, IV, IV, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
+                     <rubric>Nomina sacra; the word mәʿәraf and numbers of the chapters; incipit of Text I and of its subsections; incipit of Texts II, III, IV and V and of their chapters; incipit of the Biographies of the Evangelists; elements of the punctuation signs; elements of text dividers; Ethiopic numerals; on the incipit page of Texts I, II, III, IV, IV, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">154.0</measure> folios,
-                                                in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">154.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">32.7</height>
                               <width unit="cm">29.5</width>
@@ -128,7 +126,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The tailband is missing.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="36">
                            <dimensions unit="mm">
                               <height>225</height>
                               <width>230</width>
@@ -141,21 +139,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">15</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Quire I: all data for fol. 6r.</ab>
+                           <note>Quire I: all data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A-1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="23">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>210</width>
@@ -168,57 +168,53 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">20</dim>
                            </dimensions>
-                           <ab type="ruling">Quires II-XVIII: all data for fol. 16r.</ab>
+                           <note>Quires II-XVIII: all data for fol. 16r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Very careful, by well-trained hand.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#8">Fol. 78vb, l. 8: Purchase note.</locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 78vb, l. 8:</span><span style="font-size: large;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4624;&#4757;&#4880;&#4851;&#4961; &#4824;&#4872;&#4829;&#4773;&#4811;&#4961; &#4768;&#4708;&#4726;&#4961; &#4768;&#4773;&#4851;&#4808;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4704;&#4824;&#4632;&#4758;&#4633;&#4961; &#4808;&#4624;&#4752;&#4929;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4610;&#4961; {&#4672;&#4658;&#4661;&#4961;} &#4819;&#4637;&#4848;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4741;&#4705;&#4648;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4704;&#4779;&#4939;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4840;&#4608;&#4710;&#4633;&#4961; &#4819;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4962; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4777;&#4757;&#4961; &#4824;&#4845;&#4708;&#4622;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4709;&#4961; &#4704;&#4656;&#4635;&#4845;&#4962;</span></q>
+                           <locus/><p>Fol. 78vb, l. 8: Purchase note.</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 78vb, l. 8:</span><span style="font-size: large;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4624;&#4757;&#4880;&#4851;&#4961; &#4824;&#4872;&#4829;&#4773;&#4811;&#4961; &#4768;&#4708;&#4726;&#4961; &#4768;&#4773;&#4851;&#4808;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4704;&#4824;&#4632;&#4758;&#4633;&#4961; &#4808;&#4624;&#4752;&#4929;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4610;&#4961; {&#4672;&#4658;&#4661;&#4961;} &#4819;&#4637;&#4848;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4741;&#4705;&#4648;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4704;&#4779;&#4939;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4840;&#4608;&#4710;&#4633;&#4961; &#4819;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4962; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4777;&#4757;&#4961; &#4824;&#4845;&#4708;&#4622;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4709;&#4961; &#4704;&#4656;&#4635;&#4845;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>King Bäkaffa (r. 1721-30) is mentioned, as well as the donor ʾabeto ʾAʾdawä Krәstos and the gäbaz of the church qäsis ʿAmdä Mäsqäl. Besides, the note refers to the fact that the manuscript was donated on occassion of the foundation (or re-establishment?) of the church.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 79ra-79rb: Record concerning a reconciliation process that took place in 1930 E.C.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 79ra-79rb: Record concerning a reconciliation process that took place in 1930 E.C.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic; written in 1930 E.C. (= 1937/38 A.D.).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#">Fol. 121va: Inventory of paraphernalia donated by &#704;abeto W&#228;ld&#228; &#346;&#1241;llase (?).</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 121va: Inventory of paraphernalia donated by &#704;abeto W&#228;ld&#228; &#346;&#1241;llase (?).</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Gәʿәz and Amharic; in the same hand as that of Additio 4.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#">Fol. 121vb: Inventory of the church properties.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 121vb: Inventory of the church properties.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic; possibly a continuation of Additio 3.</p>
                         </item>
                         <item xml:id="e1">- Fol. 152vb: Supplication formula crudely written in red.</item>
                      </list>
@@ -240,7 +236,7 @@ Overback made of reddish-brown tooled leather.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0200á¸¤angodaDÃ¤brÃ¤MÉ&#x99;á¸¥rÃ¤tQÉ&#x99;ddusMikaË&#x80;el">á¸¤angoda DÃ¤brÃ¤ MÉ&#x99;á¸¥rÃ¤t QÉ&#x99;ddus MikaË&#x80;el / HMM</placeName>
+                        <placeName corresp="INS0200HMM">á¸¤angoda DÃ¤brÃ¤ MÉ&#x99;á¸¥rÃ¤t QÉ&#x99;ddus MikaË&#x80;el / HMM</placeName>
                      </origPlace>
                      <origDate notBefore="1721" notAfter="1730">King  Bäkaffa (r. 1721-30) is mentioned in Additio 1. The miniatures were executed in a later period (19th cent.?).</origDate>
                   </origin>
@@ -277,13 +273,9 @@ Overback made of reddish-brown tooled leather.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Donated most probably by ʾabeto ʾAʾdawä Krəstos (s. Additio 1).</persName>
+                  <persName corresp="PRS0000">Donated most probably by ʾabeto ʾAʾdawä Krәstos (s. Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -306,7 +298,7 @@ Overback made of reddish-brown tooled leather.</decoNote>
          <change who="DN" when="2011-12-05">registered</change>
          <change who="SA" when="2012-03-27T14:24:19.545Z">created</change>
          <change who="VP" when="2014-09-24T09:46:01.134Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

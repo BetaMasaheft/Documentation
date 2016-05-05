@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030ʿAddäqaḥarsiṖäraqliṭos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-049a</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">12.0</measure> folios,
-                                                in
-                                                <measure unit="quire">1.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">12.0</measure> folios, in <measure unit="quire">1.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">15.8</width>
@@ -72,7 +70,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="deficient">The Ms. is without boards and unbound; the sewing in the centre fold is not visible.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>154</height>
                               <width>113</width>
@@ -85,33 +83,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">11</dim>
                               <dim type="intercolumn">9</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 77r</ab>
+                           <note>All data for fol. 77r</note>
                            <ab type="ruling">the number of lines changes: e.g., 22 in fol. 77r, 24 in fol. 76r and 26 in fol. 78r.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are not visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are not visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are not visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are not visible (except on fols. 73r and 84r). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written below the ruling (?). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The scribe disregarded the ruling: he doesn’t write on the ruled lines.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre.</ab>
                         <seg type="ink">Black; red (brilliant red).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 20th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -128,7 +126,7 @@ The scribe disregarded the ruling: he doesn’t write on the ruled lines.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030ʿAddäqaḥarsiṖäraqliṭos">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
                      </origPlace>
                      <origDate notBefore="1900" notAfter="1950">First half of the 20th cent. (?)</origDate>
                   </origin>
@@ -170,10 +168,6 @@ The scribe disregarded the ruling: he doesn’t write on the ruled lines.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -194,7 +188,7 @@ The scribe disregarded the ruling: he doesn’t write on the ruled lines.</ab>
          <change who="DN" when="2010-05-05">registered</change>
          <change who="VP" when="2014-02-27T10:03:17.114Z">created</change>
          <change who="EG" when="2014-08-06T13:32:40.341Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

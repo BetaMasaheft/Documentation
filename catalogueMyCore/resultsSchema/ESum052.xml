@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0017ʿUraQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0017UM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>UM-052</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ On fols. 1r-146v, 167, 256r-257v, 260 usually 3-4 lines of the incipits are rubr
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">263.0</measure> folios,
-                                                in
-                                                <measure unit="quire">37.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">263.0</measure> folios, in <measure unit="quire">37.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">12.5</height>
                               <width unit="cm">11.5</width>
@@ -217,7 +215,7 @@ Numerous folios are falling apart along rulings.&#xD;
 Tears carefully amended on fol. 102.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="10">
                            <dimensions unit="mm">
                               <height>88</height>
                               <width>107</width>
@@ -230,19 +228,21 @@ Tears carefully amended on fol. 102.</condition>
                               <dim type="left">7</dim>
                               <dim type="intercolumn">7</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 1r-146v, 167, 256r-257v, 260: all data for fol. 4r.</ab>
+                           <note>Fols. 1r-146v, 167, 256r-257v, 260: all data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are not visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="12">
                            <dimensions unit="mm">
                               <height>95</height>
                               <width>102</width>
@@ -255,27 +255,27 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">5</dim>
                               <dim type="intercolumn">9</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 147r-166v, 168r-255v, 258r-259v, 261r-263v: all data for fol. 255r.</ab>
+                           <note>Fols. 147r-166v, 168r-255v, 258r-259v, 261r-263v: all data for fol. 255r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and careful, in a well-trained hand.</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>16th century</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
@@ -298,7 +298,7 @@ Quire XII is reinforced by a parchment guard.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0017ʿUraQirqos">ʿUra Qirqos / UM</placeName>
+                        <placeName corresp="INS0017UM">ʿUra Qirqos / UM</placeName>
                      </origPlace>
                      <origDate notBefore="1650" notAfter="1720">Late 17th cent. &#xD;
 Tälawe Krǝstos is known as a contemporary of King ʾIyasu II (r. 1682-1706).</origDate>
@@ -341,10 +341,6 @@ Tälawe Krǝstos is known as a contemporary of King ʾIyasu II (r. 1682-1706).</
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -365,7 +361,7 @@ Tälawe Krǝstos is known as a contemporary of King ʾIyasu II (r. 1682-1706).</
          <change who="DN" when="2010-04-30">registered</change>
          <change who="MK" when="2012-07-11T09:51:40.180Z">created</change>
          <change who="MK" when="2014-09-16T10:55:37.841Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

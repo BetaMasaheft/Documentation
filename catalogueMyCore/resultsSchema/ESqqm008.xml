@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0159ʿAddiQiyaḥtoQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0159QQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QQM-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">83.0</measure> folios,
-                                                in
-                                                <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">83.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.5</height>
                               <width unit="cm">23.5</width>
@@ -102,7 +100,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Tear amended on fol. 70.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>222</height>
                               <width>180</width>
@@ -115,28 +113,33 @@ Tear amended on fol. 70.</condition>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling (on fol. 1r below the ruling).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, red (vivid red and strong red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>20th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä ʾAmlak</persName>Gäbrä ʾAmlak is mentioned as the scribe in a supplication on fol. 36rb and in the concluding supplication on fol. 80va-vb.<date>20th century (?)</date>
+                        <list type="abbreviations">
+                           <item>Throughout Text I-4</item>
+                           <item>ለዓ፡ ዓ፡ አ፡ for ለዓለመ፡ ዓለም፡ አሜን፡</item>
+                           <item>ለዓ፡ ዓለ፡ አ፡ for ለዓለመ፡ ዓለም፡ አሜን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -156,7 +159,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0159ʿAddiQiyaḥtoQǝddǝstMaryam">ʿAddi Qiyaḥto Qǝddǝst Maryam / QQM</placeName>
+                        <placeName corresp="INS0159QQM">ʿAddi Qiyaḥto Qǝddǝst Maryam / QQM</placeName>
                      </origPlace>
                      <origDate notBefore="1900" notAfter="2000">20th cent. (?)</origDate>
                   </origin>
@@ -198,8 +201,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä ʾAmlak</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -223,7 +225,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-24">registered</change>
          <change who="SH" when="2014-05-20T12:20:02.093Z">created</change>
          <change who="DN" when="2015-09-14T10:18:44.067Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

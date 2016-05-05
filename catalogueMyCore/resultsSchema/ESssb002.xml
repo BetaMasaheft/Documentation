@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0111BetḤawaryat"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0111SSB"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SSB-002</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ In the word haleluya (fol. 18ra) some strokes of the letters are rubricated.</ru
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">183.0</measure> folios,
-                                                in
-                                                <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">183.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">30.0</height>
                               <width unit="cm">20.5</width>
@@ -157,7 +155,7 @@ Some fols. are missing and many are misplaced.&#xD;
 Fols. 146-160 are damaged, with the loss of text.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="41">
                            <dimensions unit="mm">
                               <height>234</height>
                               <width>147</width>
@@ -170,23 +168,25 @@ Fols. 146-160 are damaged, with the loss of text.</condition>
                               <dim type="left">14</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 2r.</ab>
+                           <note>All data are for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written below the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 On some fols. (e.g., 14r, 146rv, 147v, 148v) the bottom ruled line is not used.</ab>
+                        </layout>
+                        <layout>
                            <ab type="CruxAnsata">
                               <locus target=""/>
                            </ab>
@@ -197,8 +197,11 @@ On some fols. (e.g., 14r, 146rv, 147v, 148v) the bottom ruled line is not used.<
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular, careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 15th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>Repeated versicles are often written in an abbreviated form, e.g., በ stands</abbr> for <expan>በሰንበት፡ ቦአ፡ ኢየሱስ፡ ምኵራቦሙ፡ ለአይሁድ </expan> (fol. 71rb l.14).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -213,10 +216,9 @@ On some fols. (e.g., 14r, 146rv, 147v, 148v) the bottom ruled line is not used.<
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fol.: 113v: Excerpt from </span><span style="color: black; line-height: 115%;">K&#601;&#347;t&#228;t z&#228;-&#704;aryam, The festive Office.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol.: 113v: Excerpt from </span><span style="color: black; line-height: 115%;">K&#601;&#347;t&#228;t z&#228;-&#704;aryam, The festive Office.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is crudely written in a secondary hand, the same as that of some omissions. Numerous words are contracted to one, two or three initial letters.</p>
                         </item>
                         <item xml:id="e1">- Marginal musical signs added in the same hand (from fol. 17r onwards).  &#xD;
 - An omitted passage is written in the margin, in the main hand: fol. 160va. &#xD;
@@ -238,7 +240,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0111BetḤawaryat">Bet Ḥawaryat / SSB</placeName>
+                        <placeName corresp="INS0111SSB">Bet Ḥawaryat / SSB</placeName>
                      </origPlace>
                      <origDate notBefore="1400" notAfter="1450">First half of the 15th cent.</origDate>
                   </origin>
@@ -280,10 +282,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -304,7 +302,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-29">registered</change>
          <change who="MK" when="2013-06-18T08:20:20.534Z">created</change>
          <change who="VP" when="2015-02-26T10:27:33.033Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

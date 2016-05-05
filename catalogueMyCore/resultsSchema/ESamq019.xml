@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0065ʿAddigratDäbräMänkəratQəddusQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0065AMQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMQ-019</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">131.0</measure> folios,
-                                                in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">131.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">20.0</height>
                               <width unit="cm">15.0</width>
@@ -121,7 +119,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Holes or tears amended on fols. 68, 71, 90, 113, 115, 120.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>129</height>
                               <width>103</width>
@@ -134,32 +132,38 @@ Holes or tears amended on fols. 68, 71, 90, 113, 115, 120.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The scribe did not use the bottom ruled line on fol. 7ra.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 70vb)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜን፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 72vb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -174,10 +178,9 @@ The scribe did not use the bottom ruled line on fol. 7ra.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;">Fols. 127va-128ra: &#704;Asmat-prayer.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 127va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961;</span><span style="line-height: 115%;"> &#4768;&#4709;&#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4725;&#4709;&#4621;&#4961; &#4704;&#4725;&#4625;&#4725;&#4961; &#4675;&#4621;&#4961; &#4773;&#4622;&#4757;&#4720;&#4961; &#4768;&#4661;&#4635;&#4720;&#4961; &#4819;&#4706;&#4843;&#4720;</span><span style="line-height: 115%;">... </span></span><span style="font-size: small;"><span style="line-height: 115%;">[fol. 127vb</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">]</span></span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">...</span></span></span></span><span style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4617;&#4961; &#4781;&#4705;&#4651;&#4757;&#4961; &#4768;&#4661;&#4635;&#4722;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4720;&#4648;&#4781;&#4705;&#4961; &#4704;&#4773;&#4848;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4618;&#4672;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4632;&#4877;&#4648;&#4652;&#4961; &#4928;&#4648;&#4961; &#4808;&#4920;&#4619;&#4821;&#4725;&#4962;</span><span style="line-height: 115%;">...</span></span></q>
+                           <locus/><p><span style="font-size: small;">Fols. 127va-128ra: &#704;Asmat-prayer.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 127va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961;</span><span style="line-height: 115%;"> &#4768;&#4709;&#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4725;&#4709;&#4621;&#4961; &#4704;&#4725;&#4625;&#4725;&#4961; &#4675;&#4621;&#4961; &#4773;&#4622;&#4757;&#4720;&#4961; &#4768;&#4661;&#4635;&#4720;&#4961; &#4819;&#4706;&#4843;&#4720;</span><span style="line-height: 115%;">... </span></span><span style="font-size: small;"><span style="line-height: 115%;">[fol. 127vb</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">]</span></span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">...</span></span></span></span><span style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4617;&#4961; &#4781;&#4705;&#4651;&#4757;&#4961; &#4768;&#4661;&#4635;&#4722;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4720;&#4648;&#4781;&#4705;&#4961; &#4704;&#4773;&#4848;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4618;&#4672;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4632;&#4877;&#4648;&#4652;&#4961; &#4928;&#4648;&#4961; &#4808;&#4920;&#4619;&#4821;&#4725;&#4962;</span><span style="line-height: 115%;">...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is written by the same hand as the main text.</p>
                         </item>
                         <item xml:id="e1">- Omissions inserted interlineally: e.g., fols. 7vb, 9rb, 44vb, 67ra. &#xD;
 - Corrections written over erasures: e.g., fols. 22rb, 46ra-b [several lines], 46va. &#xD;
@@ -201,7 +204,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0065ʿAddigratDäbräMänkəratQəddusQirqos">ʿAddigrat Däbrä Mänkərat Qəddus Qirqos / AMQ</placeName>
+                        <placeName corresp="INS0065AMQ">ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos / AMQ</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -243,10 +246,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -267,7 +266,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-19">registered</change>
          <change who="SH" when="2013-07-15T11:15:36.323Z">created</change>
          <change who="DN" when="2014-10-25T13:30:36.661Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä ʾaśləṭi, Lectionary for the entire year</title>
+            <title>Mäṣḥafä ʾaślәṭi, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0157DänderaDäbräMəḥrätMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0157DDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DDM-015</idno>
                </msIdentifier>
                <msContents>
@@ -47,7 +47,9 @@ On fols. 7r and 11r, few lines are rubricated alternating with black lines.</rub
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="21v">Fol. 21v</locus><span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4661;&#4637;&#4648;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4661;&#4618;&#4901;&#4961; &#4824;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4962; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4704;&#4978;&#4987;&#4808;&#4977;&#4987;&#4808;&#4978;&#4808;&#4969;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962; &#4704;&#4808;&#4653;&#4739;&#4961; &#4877;&#4757;&#4710;&#4725;&#4961; &#4704;&#4978;&#4974;&#4961; &#4632;&#4819;&#4621;&#4725;&#4961; &#4704;&#4979;&#4969;&#4961; &#4640;&#4653;&#4672;&#4961; &#4620;&#4618;&#4725;&#4962; &#4704;&#4768;&#4621;&#4710;&#4961; &#4874;&#4828;&#4961; &#4720;&#4808;&#4901;&#4755;&#4961; &#4808;&#4720;&#4936;&#4920;&#4632;&#4962;</span>The colophon states that the Ms. has been finished in Gənbot 16, 1911 year of mercy (= May 24, 1919 A.D.), in the time when there was no king in Ethiopia: bä-zämänä ʾalbo (nǝguś).</colophon>
+                        <locus target="21v">Fol. 21v</locus><p>Fol. 21v: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4661;&#4637;&#4648;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4661;&#4618;&#4901;&#4961; &#4824;&#4708;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4962; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4704;&#4978;&#4987;&#4808;&#4977;&#4987;&#4808;&#4978;&#4808;&#4969;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962; &#4704;&#4808;&#4653;&#4739;&#4961; &#4877;&#4757;&#4710;&#4725;&#4961; &#4704;&#4978;&#4974;&#4961; &#4632;&#4819;&#4621;&#4725;&#4961; &#4704;&#4979;&#4969;&#4961; &#4640;&#4653;&#4672;&#4961; &#4620;&#4618;&#4725;&#4962; &#4704;&#4768;&#4621;&#4710;&#4961; &#4874;&#4828;&#4961; &#4720;&#4808;&#4901;&#4755;&#4961; &#4808;&#4720;&#4936;&#4920;&#4632;&#4962;</span></p><foreign xml:lang="en"/>
+                        <note>The colophon states that the Ms. has been finished in Gәnbot 16, 1911 year of mercy (= May 24, 1919 A.D.), in the time when there was no king in Ethiopia: bä-zämänä ʾalbo (nǝguś).</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -56,9 +58,7 @@ On fols. 7r and 11r, few lines are rubricated alternating with black lines.</rub
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">28.0</measure> folios,
-                                                in
-                                                <measure unit="quire">5.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">28.0</measure> folios, in <measure unit="quire">5.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">13.7</height>
                               <width unit="cm">10.5</width>
@@ -92,7 +92,7 @@ Many fols. are damaged by water.&#xD;
 The red ink is mostly faded.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="13">
                            <dimensions unit="mm">
                               <height>90</height>
                               <width>80</width>
@@ -105,38 +105,40 @@ The red ink is mostly faded.</condition>
                               <dim type="left">5</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 2r.</ab>
+                           <note>All data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, very irregular</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 20th century</date>
+                        <list type="abbreviations">
+                           <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 25r: Unidentified prayer.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 25r: Unidentified prayer.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written, partly unintelligible.</p>
                         </item>
                         <item xml:id="e1">- Doodles and pen trials: fols. 22r, 23v, 25r, 25v, 26r, 27r, 28r, 28v.&#xD;
 - Smaller script is used for the bottom line on fols. 1r-6v</item>
@@ -157,9 +159,9 @@ Originally two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0157DänderaDäbräMəḥrätMikaʾel">Dändera Däbrä Məḥrät Mikaʾel / DDM</placeName>
+                        <placeName corresp="INS0157DDM">Dändera Däbrä Mәḥrät Mikaʾel / DDM</placeName>
                      </origPlace>
-                     <origDate notBefore="1919" notAfter="1919">The colophon tells that the Ms. has been completed in 16 Gənbot 1911 year of mercy (= 24 May 1919 A.D.).</origDate>
+                     <origDate notBefore="1919" notAfter="1919">The colophon tells that the Ms. has been completed in 16 Gәnbot 1911 year of mercy (= 24 May 1919 A.D.).</origDate>
                   </origin>
                </history>
                <additional>
@@ -194,13 +196,9 @@ Originally two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">The name of Wälättä Səllase (hardly readable) is inserted in the supplication formula on fol. 11r.</persName>
+                  <persName corresp="PRS0000">The name of Wälättä Sәllase (hardly readable) is inserted in the supplication formula on fol. 11r.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -223,7 +221,7 @@ Originally two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-05-16">registered</change>
          <change who="SA" when="2014-10-20T13:53:55.935Z">created</change>
          <change who="DN" when="2014-10-30T10:10:58.555Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0208BetMuḵaʿMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0208BMQM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>BMQM-010</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ Two lines on the incipit page of Text I, alternating with black lines; initial t
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">113.0</measure> folios,
-                                                in
-                                                <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">113.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">11.5</height>
                               <width unit="cm">10.7</width>
@@ -125,7 +123,7 @@ Text on some leaves is illegible: e.g., fols. 18ra, 20ra, 28r.&#xD;
 Tear amended on fol. 105r.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="12">
                            <dimensions unit="mm">
                               <height>78</height>
                               <width>80</width>
@@ -138,43 +136,57 @@ Tear amended on fol. 105r.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">9</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 8r.</ab>
+                           <note>All data for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine.</ab>
                         <seg type="ink">Black, red (strong vermilion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 17th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ካ፡/ይካ፡</abbr> for <expan>ይቤ፡ ካህን፡ </expan> (e.g., fols. 26rb, 57rb, 94vb)</item>
+                           <item>
+                              <abbr>ሕ፡/ይሕ፡</abbr> for <expan>ይቤ፡ ሕዝብ፡ </expan> (e.g., fols. 33rb, 39rb, 71ra)</item>
+                           <item>
+                              <abbr>ዲ፡/ይዲ፡</abbr> for <expan>ይቤ፡ ዲያቆን፡ </expan> (e.g., fols. 27ra, 57va, 80va)</item>
+                           <item>
+                              <abbr>ቅ፡ ቅ፡ ቅ፡</abbr> for <expan>ቅዱስ፡ ቅዱስ፡ ቅዱስ፡ </expan> (e.g., fols. 41vb, 80va)</item>
+                           <item>
+                              <abbr>ጸ፡/ጸል፡</abbr> for <expan>ጸልዩ፡ </expan> (e.g., fols. 6va, 108ra, 111ra)</item>
+                           <item>
+                              <abbr>እ፡</abbr> for <expan>እመቦ፡ </expan> (fols. 40vb, 41ra)</item>
+                           <item>
+                              <abbr>ን፡</abbr> for <expan>ንስእለከ፡ </expan> (e.g., fols. 107rb, 109rb).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 48ra: Ownership note (?).</span></locus>
-                           <q xml:lang="gez">&#160;<span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 48ra:</span></span><span lang="EN-GB" style="font-size:10.0pt;line-height:&#10;115%;font-family:"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4752;&#4757;&#4843;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4768;&#4632;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961;</span></span></q>
+                           <locus/><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 48ra: Ownership note (?).</span></p> <p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span lang="EN-GB" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 48ra:</span></span><span lang="EN-GB" style="font-size:10.0pt;line-height:&#10;115%;font-family:"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4752;&#4757;&#4843;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4768;&#4632;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in deep brown ink and mentions ʾabunä Wäldä ʾAnänya, possibly an owner of the book, and his servant Wälättä Śǝllase.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 113ra-vb: excerpt from M&#228;ft&#601;&#7717;e &#347;&#601;ray or &#704;asmat-prayer.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 113ra: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4632;&#4941;&#4829;&#4829;&#4961; &#4768;&#4941;&#4829;&#4829;&#4961; &#4632;&#4848;&#4757;&#4877;&#4829;&#4961; &#4768;&#4848;&#4757;&#4877;&#4829;&#4961; &#4768;&#4848;&#4757;&#4829;&#4829;&#4961; &#4704;&#4770;&#4843;&#4772;&#4621;&#4961; &#4661;&#4637;&#4776;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Arial, sans-serif;">&#8230;</span></span></q>
+                           <locus/><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 113ra-vb: excerpt from M&#228;ft&#601;&#7717;e &#347;&#601;ray or &#704;asmat-prayer.</span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:" unicode=""></span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 113ra: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4632;&#4941;&#4829;&#4829;&#4961; &#4768;&#4941;&#4829;&#4829;&#4961; &#4632;&#4848;&#4757;&#4877;&#4829;&#4961; &#4768;&#4848;&#4757;&#4877;&#4829;&#4961; &#4768;&#4848;&#4757;&#4829;&#4829;&#4961; &#4704;&#4770;&#4843;&#4772;&#4621;&#4961; &#4661;&#4637;&#4776;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Arial, sans-serif;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in greyish-brown ink. Text on fol. 113va is illegible.</p>
                         </item>
                         <item xml:id="e1">- Omitted letters or words inserted interlineally in small script: e.g., fols. 10rb, 49rb, 70ra, 107ra.&#xD;
 - Immediate correction indicated by thin red lines above and below the word: fol. 42ra.&#xD;
@@ -205,7 +217,7 @@ Fols. 108-113 are held together by a one-stitched repair.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0208BetMuḵaʿMikaʾel">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
+                        <placeName corresp="INS0208BMQM">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
                      </origPlace>
                      <origDate notBefore="1671" notAfter="1675">Second half of the 19th cent. (?)&#xD;
 ʾAbba Matewos is mentioned as the patriarch (liqä ṗaṗasǝnä) on fols. 36va and 56rb; ʾabba Sinoda is mentioned as the metropolitan (ṗaṗasǝnä) on fols. 36va, 55ra, 56rb; Yoḥannǝs is mentioned as the king on fol. 36va.&#xD;
@@ -249,10 +261,6 @@ They might be respectively patriarch Matthew IV (in tenure 1660-1675), metropoli
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -273,7 +281,7 @@ They might be respectively patriarch Matthew IV (in tenure 1660-1675), metropoli
          <change who="DN" when="2011-12-08">registered</change>
          <change who="MV" when="2015-05-07T12:42:00.784Z">created</change>
          <change who="DN" when="2015-07-10T12:35:32.324Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

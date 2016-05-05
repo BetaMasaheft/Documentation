@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0117GwaḥgotʾIyäsus"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0117GBI"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GBI-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">220.0</measure> folios,
-                                                in
-                                                <measure unit="quire">29.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">220.0</measure> folios, in <measure unit="quire">29.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">38.5</height>
                               <width unit="cm">34.0</width>
@@ -161,7 +159,7 @@ The Ms. is heavily affected by water: in the upper margin (fols. 8-26); in the b
 Some fols. are heavily twisted: 178, 179, 180, 181, 186-220.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="31">
                            <dimensions unit="mm">
                               <height>262</height>
                               <width>274</width>
@@ -174,49 +172,48 @@ Some fols. are heavily twisted: 178, 179, 180, 181, 186-220.</condition>
                               <dim type="left">23</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 137r.</ab>
+                           <note>All data for fol. 137r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine and regular.</ab>
                         <seg type="ink">Black and red (vivid vermillion).</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th cent.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1v: Crude unclear note.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1v: Crude unclear note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written note, barely legible due to dirt and water stains. 
+With an old way of writing the letter ፙ.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 4r-v: M&#228;lk&#601;&#705;a Rufa&#704;el "Image of Raphael" (ChRep 199, no. 131).</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 4r-v: M&#228;lk&#601;&#705;a Rufa&#704;el "Image of Raphael" (ChRep 199, no. 131).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a well trained hand, in red and black. The name of the scribe is Tewodosyos (s. fol. 4vc).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 219rb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4768;&#4635;&#4753;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4941;&#4672;&#4652;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4613;&#4628;&#4653;&#4961; &#4704;&#4632;&#4811;&#4821;&#4616;&#4961; &#4632;&#4637;&#4613;&#4651;&#4754;&#4752;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4704;&#4648;&#4776;&#4726;&#4633;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;</span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4661;</span><span style="font-size: small;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4620;&#4752;&#4961; &#4768;&#4636;&#4757;&#4962; &#4656;&#4619;&#4637;&#4961; &#4656;&#4619;&#4637;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4824;&#4720;&#4739;&#4653;&#4840;&#4961; &#4773;&#4637;&#4776;&#4653;&#4645;&#4968; &#4808;&#4656;&#4619;&#4637;&#4961; &#4616;&#4773;&#4617;&#4961; &#4632;&#4637;&#4653;&#4651;&#4752;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span><span style="font-size: small;"><span style="line-height: 115%;">...</span></span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 219rb: Donation note.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 219rb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4768;&#4635;&#4753;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4941;&#4672;&#4652;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4613;&#4628;&#4653;&#4961; &#4704;&#4632;&#4811;&#4821;&#4616;&#4961; &#4632;&#4637;&#4613;&#4651;&#4754;&#4752;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4704;&#4648;&#4776;&#4726;&#4633;&#4961; &#4840;&#4608;&#4617;&#4961; &#4637;</span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4661;</span><span style="font-size: small;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4620;&#4752;&#4961; &#4768;&#4636;&#4757;&#4962; &#4656;&#4619;&#4637;&#4961; &#4656;&#4619;&#4637;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4824;&#4720;&#4739;&#4653;&#4840;&#4961; &#4773;&#4637;&#4776;&#4653;&#4645;&#4968; &#4808;&#4656;&#4619;&#4637;&#4961; &#4616;&#4773;&#4617;&#4961; &#4632;&#4637;&#4653;&#4651;&#4752;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span><span style="font-size: small;"><span style="line-height: 115%;">...</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a fine, trained hand in red and black ink. Some parts are illegible. Possibly the same hand that wrote the name Yoḥannǝs in the supplication formulas throughout the Ms.  
+The note states that the Ms. was donated by King Yoḥannǝs IV to the church dedicated to ʾAmanuʾel, the abbots of the church are ʾabunä Wäldä Yoḥannǝs and ʾabunä Wäldä ʾIyäsus.</p>
                         </item>
                         <item xml:id="e1">-  A short ownership note (fol. 5r, upper margin) hints to the former owner, the church Mädḫane ʿAläm, which is the church at Mäqdäla founded by Tewodros II (r. 1855-68).&#xD;
 - The name Rufaʾel is written in “negative” writing, in fol. 219v, in “white” (colour of the parchment) writing on black ink background, by leaving blank the space for the letter (s. EAE III, 741).&#xD;
@@ -240,7 +237,7 @@ Three pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0117GwaḥgotʾIyäsus">Gwaḥgot ʾIyäsus / GBI</placeName>
+                        <placeName corresp="INS0117GBI">Gwaḥgot ʾIyäsus / GBI</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1730">King Bäkaffa (r. 1721-30) is mentioned throughout the Ms. However his name is always written over erasures (fols. 7vc, 8ra, 8vc, 9ra, 9vabc, 10ra); therefore the Ms. might antedate his rule.</origDate>
                   </origin>
@@ -282,10 +279,6 @@ Three pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -306,7 +299,7 @@ Three pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-01">registered</change>
          <change who="SD" when="2013-09-30T10:07:59.334Z">created</change>
          <change who="DN" when="2015-01-31T13:23:42.327Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0177SDM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SDM-003</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; two groups of lines on the incipit page of the text, alternating with black lines; two initial lines of each section of the text; name of Hebrew letter in Ps. 118 (fol. 32ra); abbreviations; elements of the punctuation signs; elements of Ethiopic numerals; some other words, e.g., ṣällǝyu (e.g., fols. 3vb, 4ra), nǝbäl (e.g., fols. 4rb, 5rb), halle luya (e.g., fols. 5vb, 6ra), qǝdmä wangel (e.g., fols. 33rb, 36rb), wä-ʾəmzə (e.g., fols. 33vb, 46vb), mǝʿǝraf (fol. 49vb).</rubric>
+                     <rubric>Nomina sacra; names of the donors; two groups of lines on the incipit page of the text, alternating with black lines; two initial lines of each section of the text; name of Hebrew letter in Ps. 118 (fol. 32ra); abbreviations; elements of the punctuation signs; elements of Ethiopic numerals; some other words, e.g., ṣällǝyu (e.g., fols. 3vb, 4ra), nǝbäl (e.g., fols. 4rb, 5rb), halle luya (e.g., fols. 5vb, 6ra), qǝdmä wangel (e.g., fols. 33rb, 36rb), wä-ʾәmzә (e.g., fols. 33vb, 46vb), mǝʿǝraf (fol. 49vb).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">130.0</measure> folios,
-                                                in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">130.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">23.5</height>
                               <width unit="cm">20.7</width>
@@ -131,7 +129,7 @@ Traces of an overback are preserved on the inner side of both boards.&#xD;
 Fols. 115-118 are of smaller size.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>156</height>
                               <width>164</width>
@@ -144,19 +142,21 @@ Fols. 115-118 are of smaller size.</condition>
                               <dim type="left">11</dim>
                               <dim type="intercolumn">20</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r</ab>
+                           <note>All data for fol. 4r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>162</height>
                               <width>157</width>
@@ -169,28 +169,40 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">12</dim>
                               <dim type="intercolumn">11</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 116r</ab>
+                           <note>All data for fol. 116r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: fine and careful, by well-trained hand; Hand b: Mediocre.</ab>
                         <seg type="ink">Black (bleak), red (vivid red, strong red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ወይ፡ ሕ፡</abbr> for <expan>ወይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 12rb, 74ra)</item>
+                           <item>
+                              <abbr>ፍ፡ / ፍ፡ ረ፡</abbr> for <expan>ፍቱሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 17vb, 18ra, 19rb)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 64ra, 73vb, 74ra)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 71vb, 73vb, 74ra)</item>
+                           <item>
+                              <abbr>ምል</abbr> for <expan>ምልጣን </expan> (e.g., fols. 110rb, 111rb, 112ra)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3ra-113vb (quires I-XIV); the handwriting remains uniform throughout the Ms. and is characterized by finely shaped and slightly right-sloping letters. It shows Gondarine influence. </handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 115ra-130vb (quires XV-XVII); rounded and small letters.</handNote>
@@ -198,16 +210,14 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 2rb: Excerpt from M&#601;&#705;&#601;raf, &#8220;Common of the Office&#8221;.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 2rb: Excerpt from M&#601;&#705;&#601;raf, &#8220;Common of the Office&#8221;.</span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2rb:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">ክርስቶስ፡ ክርስቶስ፡ ክርስቶስ፡ አንተ፡ ወልዱ፡ ለቡሩክ፡ ከሣቴ፡ ብርሃን፡ ተሠሃ<span style="font-size: small;">[</span>ለ<span style="font-size: small;">]</span>ነ። ጋዳ፡ ጋዳ፡ ጋዳ፡ ለአብ፡ ወወልድ፡</span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is excerpted specifically from the part called Sǝbḥatä nägh.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 113vb: Donation note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 113vb: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 113vb:</span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS"> </span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="line-height: 115%;">ዘአጽሐፎ፡ </span><span style="font-size: small;"><span style="line-height: 115%;">&lt;</span><span style="line-height: 115%;">…</span><span style="line-height: 115%;">&gt;</span></span><span style="line-height: 115%;"> በዘመነ፡ ንጉሥነ፡ </span><span style="font-size: small;"><span style="line-height: 115%;">&lt;</span><span style="line-height: 115%;">…</span><span style="line-height: 115%;">&gt;</span></span><span style="line-height: 115%;"> ለእመ፡ ነግሡ፡ <span style="font-size: small;">{</span>በ<span style="font-size: small;">}</span>፪ዓመት፡ ወ፭አውራኅ፡ ዓመተ፡ መንግሥት፡ ውእቱ፡ እግዚአብሔር፡ ይረሲ፡ ሎመ</span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="line-height: 115%;">፡</span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">[sic]</span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="line-height: 115%;"> ለመንግሥተ፡ ሰማያት፡ አሜን። ወአሜን።</span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><br /> </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in hand a. Name(s) of the donor(s) and the king have been erased.</p>
                         </item>
                         <item xml:id="e1">- Scribbles and doodles in the margins: fols. 33v, 36r, 49r.&#xD;
 - Small script is used on fols. 106rb-113vb.</item>
@@ -229,7 +239,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0177SoṭaDäbräSälamQǝddusMikaʾel">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
+                        <placeName corresp="INS0177SDM">Soṭa Däbrä Sälam Qǝddus Mikaʾel / SDM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent?&#xD;
 In Additio 1, the name of the king has been erased. The name of the king probably consisted of some 4-5 letters: ኢዮአሰ or ዮሰጦሰ.</origDate>
@@ -272,10 +282,6 @@ In Additio 1, the name of the king has been erased. The name of the king probabl
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -296,7 +302,7 @@ In Additio 1, the name of the king has been erased. The name of the king probabl
          <change who="DN" when="2011-05-16">registered</change>
          <change who="AA" when="2014-05-27T16:21:42.766Z">created</change>
          <change who="DN" when="2015-05-03T09:48:19.431Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

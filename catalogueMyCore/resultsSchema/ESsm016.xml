@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0053SäbäyaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0053SM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SM-016</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; names of King Ḫaylä Śəllase, Archbishop Basəlyos and Bishop Yoḥannəs; incipit of Text I and its sections; titles of books to be read; two initial lines of some readings in Text II; incipit of the sections of Text III; abbreviations of the directives to the ministers yəbəl kahən, “the priest says”, yəbəl diyaqon, “the deacon says” and yəbəl ḥəzb, “the people say” in Text III; elements of the punctuation signs; elements of Ethiopic numerals; elements of the quire marks; notes written in the upper margin.</rubric>
+                     <rubric>Nomina sacra; names of the donors; names of King Ḫaylä Śәllase, Archbishop Basәlyos and Bishop Yoḥannәs; incipit of Text I and its sections; titles of books to be read; two initial lines of some readings in Text II; incipit of the sections of Text III; abbreviations of the directives to the ministers yәbәl kahәn, “the priest says”, yәbәl diyaqon, “the deacon says” and yәbәl ḥәzb, “the people say” in Text III; elements of the punctuation signs; elements of Ethiopic numerals; elements of the quire marks; notes written in the upper margin.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">48.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">6.0</measure> blank, in
-                                                <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">48.0</measure> folios, of which <measure unit="leaf" type="blank">6.0</measure> blank, in <measure unit="quire">7.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">12.7</height>
                               <width unit="cm">9.7</width>
@@ -89,7 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="13">
                            <dimensions unit="mm">
                               <height>80</height>
                               <width>65</width>
@@ -102,28 +100,33 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre.</ab>
                         <seg type="ink">Black, vivid red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>20th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Wäldä ʾArägawi</persName>ʾabunä Wäldä ʾArägawi is mentioned as the scribe in Additio 1.<date>20th century.</date>
+                        <list type="abbreviations">
+                           <item>ይዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                           <item>ይካ፡ for ይቤ፡ ካህን፡</item>
+                           <item>ይሕ፡ for ይብል፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -132,12 +135,11 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 47r l. 11-13: Scribe&#180;s note on completing the work.</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p>Fol. 47r l. 11-13: Scribe&#180;s note on completing the work.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Rubricated, written in the same hand as the main text. The note mentions ʾabunä Wäldä ʾArägawi, which is most probably the scribe.</p>
                         </item>
-                        <item xml:id="e1">- Titles ʾAsləṭi and Säʿatat are written on the front and back boards.</item>
+                        <item xml:id="e1">- Titles ʾAslәṭi and Säʿatat are written on the front and back boards.</item>
                      </list>
                   </additions>
                   <bindingDesc>
@@ -155,9 +157,9 @@ One pair of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0053SäbäyaMaryam">Säbäya Maryam /SM</placeName>
+                        <placeName corresp="INS0053SM">Säbäya Maryam /SM</placeName>
                      </origPlace>
-                     <origDate notBefore="1956" notAfter="1970">King Ḫaylä Śəllase (r. 1930-74), Archbishop Basəlyos (1883-1970) and Yoḥannəs (1895-1991), Bishop of Təgray from 1956 to 1974, are mentioned in the supplications formuals throughout Text I-3 (s. fols. 25v, 27r, 28v, 33v, 45v).</origDate>
+                     <origDate notBefore="1956" notAfter="1970">King Ḫaylä Śәllase (r. 1930-74), Archbishop Basәlyos (1883-1970) and Yoḥannәs (1895-1991), Bishop of Tәgray from 1956 to 1974, are mentioned in the supplications formuals throughout Text I-3 (s. fols. 25v, 27r, 28v, 33v, 45v).</origDate>
                   </origin>
                </history>
                <additional>
@@ -192,13 +194,12 @@ One pair of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Gärima, Wälättä ʾƎgziʾ and Wälättä Tənsaʾe (s. supplication formulas on fols. 7v, 9r, 42v).</persName>
+                  <persName corresp="PRS0000">Wälättä Gärima, Wälättä ʾƎgziʾ and Wälättä Tәnsaʾe (s. supplication formulas on fols. 7v, 9r, 42v).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä ʾArägawi</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -221,7 +222,7 @@ One pair of sewing stations.</decoNote>
          <change who="DN" when="2010-05-14">registered</change>
          <change who="SA" when="2013-05-15T13:48:43.966Z">created</change>
          <change who="SH" when="2014-05-28T17:07:26.489Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

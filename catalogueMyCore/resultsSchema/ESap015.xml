@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AP-015</idno>
                   <altIdentifier>
                      <idno>C3-IV-9 (fol. 100r)</idno>
@@ -49,7 +49,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="185rc">Fol. 185rc</locus>Colophon.</colophon>
+                        <locus target="185rc">Fol. 185rc</locus><p>Fol. 185rc: Colophon.</p><foreign xml:lang="en"/>
+                        <note/>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -58,9 +60,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">186.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">3.0</measure> blank, in
-                                                <measure unit="quire">24.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">186.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">24.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">36.5</height>
                               <width unit="cm">28.0</width>
@@ -152,7 +152,7 @@ Fols. 2rv-3rv (quire A) and 186rv (quire XXIII) contain passages from another te
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="34">
                            <dimensions unit="mm">
                               <height>253</height>
                               <width>232</width>
@@ -165,28 +165,28 @@ Fols. 2rv-3rv (quire A) and 186rv (quire XXIII) contain passages from another te
                               <dim type="left">14</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of the 20th century</date>
+                        <persName role="scribe" corresp="PRS00000">Muse Gäbrä Maryam</persName>The colophon mentions märigeta Muse Gäbrä Maryam as the scribe.<date>Second half of the 20th century</date>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
@@ -205,7 +205,7 @@ two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0030ʿAddäqaḥarsiṖaraqliṭos">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗaraqliṭos / AP</placeName>
                      </origPlace>
                      <origDate notBefore="1975" notAfter="1976">1968 E.C. (=1975/76) according to the colophon.</origDate>
                   </origin>
@@ -247,8 +247,7 @@ two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Muse Gäbrä Maryam</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -271,7 +270,7 @@ two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-03">registered</change>
          <change who="VP" when="2010-10-26T13:16:54.759Z">created</change>
          <change who="MV" when="2015-01-28T11:26:40.192Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

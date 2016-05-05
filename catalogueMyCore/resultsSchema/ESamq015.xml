@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0065ʿAddigratDäbräMänkəratQəddusQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0065AMQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMQ-015</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; name of the donor; incipit of Text I-1; the two initial letters of the word ʾəsäggǝd in Text I-1; incipit of Text I-2 and its subsections; incipit of sections of Text I-3; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; name of the donor; incipit of Text I-1; the two initial letters of the word ʾәsäggǝd in Text I-1; incipit of Text I-2 and its subsections; incipit of sections of Text I-3; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
 On the incipit page of Text I-2, two lines are rubricated, alternating with black lines (s. fols. 4r).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -52,9 +52,7 @@ On the incipit page of Text I-2, two lines are rubricated, alternating with blac
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">99.0</measure> folios,
-                                                in
-                                                <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">99.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">30.0</height>
                               <width unit="cm">23.5</width>
@@ -111,7 +109,7 @@ Tear carefully amended in fol. 98.&#xD;
 Fols. 1, 2, 79 and 85 were originally of a smaller size but an extra piece of parchment were sewn on each of them.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="25">
                            <dimensions unit="mm">
                               <height>215</height>
                               <width>200</width>
@@ -124,29 +122,29 @@ Fols. 1, 2, 79 and 85 were originally of a smaller size but an extra piece of pa
                               <dim type="left">10</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: careful, well-trained. Hand b: careful.</ab>
                         <seg type="ink">Black, vivid red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Hand a: early 19th century; hand b: end of 19th century.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 4ra-98rb</handNote>
@@ -161,14 +159,12 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small">Fols. 98rb-98va: Unidentified hymn.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fols. 98rb-98va: Unidentified hymn.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 98vb: Ownership note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 98vb: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 98vb:</span> <span style="font-size: large">&#4829;&#4757;&#4721;&#4961; &#4720;&#4768;&#4637;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4768;&#4853;&#4961; &#4877;&#4651;&#4725;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4632;&#4961; &#4725;&#4789;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4768;&#4616;&#4637;</span>[sic]<span style="font-size: large">&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -193,7 +189,7 @@ Some quires are reinforced by parchment guards (s. quires II, VII, VIII, X, XII,
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0065ʿAddigratDäbräMänkəratQəddusQirqos">ʿAddigrat Däbrä Mänkərat Qəddus Qirqos / AMQ</placeName>
+                        <placeName corresp="INS0065AMQ">ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos / AMQ</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of 19th cent.&#xD;
 Text I-1 was written in a more recent time (the end of 19th cent.?).</origDate>
@@ -236,10 +232,6 @@ Text I-1 was written in a more recent time (the end of 19th cent.?).</origDate>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -260,7 +252,7 @@ Text I-1 was written in a more recent time (the end of 19th cent.?).</origDate>
          <change who="DN" when="2010-05-19">registered</change>
          <change who="SA" when="2013-05-03T10:12:23.971Z">created</change>
          <change who="DN" when="2015-05-03T17:13:30.982Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0017ʿUraQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0017UQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>UM-050</idno>
                   <altIdentifier>
                      <idno>C3-IV-81 (on the front board)</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf"/> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf"/> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm"/>
                               <width unit="cm"/>
@@ -74,7 +72,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script"/>
                         <seg type="ink"/>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date/>
                      </handNote>
                   </handDesc>
@@ -90,7 +87,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0017ʿUraQirqos">ʿUra Qirqos / UQ</placeName>
+                        <placeName corresp="INS0017UQ">ʿUra Qirqos / UQ</placeName>
                      </origPlace>
                      <origDate notBefore="1350" notAfter="1600"/>
                   </origin>
@@ -132,10 +129,6 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -158,7 +151,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <change who="DN" when="2010-04-30">registered</change>
          <change who="DN" when="2013-12-28T17:42:24.103Z">created</change>
          <change who="MV" when="2015-04-23T10:46:28.320Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

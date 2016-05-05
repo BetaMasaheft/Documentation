@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0165DäbräSahəlQəddusMikaʾelBetMäḵaʿ"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0165DSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DSM-005</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page for each month (fols. 2r, 38r, 67v, 104v, 141r, 190r, 221v) 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">228.0</measure> folios,
-                                                in
-                                                <measure unit="quire">30.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">228.0</measure> folios, in <measure unit="quire">30.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">39.0</height>
                               <width unit="cm">32.0</width>
@@ -162,7 +160,7 @@ Some fols. are damaged by water (esp. fols. 1-16, 210-228).&#xD;
 Tears carefully amended in fols. 23, 36, 118, 161, 165, 207.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="34">
                            <dimensions unit="mm">
                               <height>263</height>
                               <width>226</width>
@@ -175,37 +173,37 @@ Tears carefully amended in fols. 23, 36, 118, 161, 165, 207.</condition>
                               <dim type="left">13</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 64r.</ab>
+                           <note>All data for fol. 64r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black (bleak), red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Krәstos</persName>
                         <date>18th century (?).</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#">Fol. 228v: Ownership or donation note (?).</locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 228v:</span> <span style="font-size: large;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4708;&#4725;&#4961; &#4637;&#4779;&#4821;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;</span><span style="font-size: large;">&#4961;</span>&#8230;</q>
+                           <locus/><p>Fol. 228v: Ownership or donation note (?).</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 228v:</span> <span style="font-size: large;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4708;&#4725;&#4961; &#4637;&#4779;&#4821;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;</span><span style="font-size: large;">&#4961;</span>&#8230;</p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written possibly in the main hand (?), the note is for the most part erased: only the two initial lines are readable. The note states that the Ms. belongs to the church of Bet Mәḵaʿ; the name ʾIyasu also seems to be readable.</p>
                         </item>
                         <item xml:id="e1">- Numerous spaces for rubrication left unfilled: e.g., fols. 36r, 39v, 41v, 49r-56r.&#xD;
 - Lacuna or erased text: fol. 20va.&#xD;
@@ -230,7 +228,7 @@ Parchment guards reinforce quires A-I, II-III, IV-V, VI-VIII.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0165DäbräSahəlQəddusMikaʾelBetMäḵaʿ">Däbrä Sahəl Qəddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
+                        <placeName corresp="INS0165DSM">Däbrä Sahәl Qәddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -267,13 +265,12 @@ Parchment guards reinforce quires A-I, II-III, IV-V, VI-VIII.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Wäldä Krəstos is mentioned as the commissioner on fol. 227vb, and in the supplication formulas. Other individuals are mentioned in the supplication formulas: Täklä ʾƎgziʾənä (e.g., fols. 7vb, 39ra), ʾƎdä Krəstos (e.g., fols. 45ra, 68rc), ʾƎsṭifanos (e.g., fols. 56rb, 69va), ʾƎdna (e.g., fols. 82rb, 82va), ʾƎlleni (e.g., fols. 64ra, 83vb, 84rb), Ṣəge Gännät (fol. 38va), Ṣəge Dəngəl (fol. 80rb).</persName>
+                  <persName corresp="PRS0000">Wäldä Krәstos is mentioned as the commissioner on fol. 227vb, and in the supplication formulas. Other individuals are mentioned in the supplication formulas: Täklä ʾƎgziʾәnä (e.g., fols. 7vb, 39ra), ʾƎdä Krәstos (e.g., fols. 45ra, 68rc), ʾƎsṭifanos (e.g., fols. 56rb, 69va), ʾƎdna (e.g., fols. 82rb, 82va), ʾƎlleni (e.g., fols. 64ra, 83vb, 84rb), Ṣәge Gännät (fol. 38va), Ṣәge Dәngәl (fol. 80rb).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Wäldä Krәstos</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -296,7 +293,7 @@ Parchment guards reinforce quires A-I, II-III, IV-V, VI-VIII.</decoNote>
          <change who="DN" when="2011-05-14">registered</change>
          <change who="SA" when="2014-08-26T13:20:32.581Z">created</change>
          <change who="DN" when="2015-06-06T20:04:10.738Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

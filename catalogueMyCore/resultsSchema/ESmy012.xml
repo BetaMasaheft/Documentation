@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0039DäbräMaʿṣoQəddusYoḥannəs"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0039MY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MY-012</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ two or three lines of the texts on many folios; elements of chapter dividers; th
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">104.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">104.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.5</height>
                               <width unit="cm">21.5</width>
@@ -112,7 +110,7 @@ two or three lines of the texts on many folios; elements of chapter dividers; th
                         <condition key="good">Fols. 41-42 are slightly damaged by water.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="20">
                            <dimensions unit="mm">
                               <height>200</height>
                               <width>170</width>
@@ -125,39 +123,38 @@ two or three lines of the texts on many folios; elements of chapter dividers; th
                               <dim type="left">15</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful, well trained.</ab>
                         <seg type="ink">Black, red, violet</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid 20th century</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="line-height: 115%; font-size: 10pt">Fol. 104r: Donation note.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 104ra:</span> <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4664;&#4675;&#4961; &#4704;&#4840;&#4752;&#4961; &#4779;&#4613;&#4643;&#4845;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4768;&#4850;&#4961; &#4768;&#4845;&#4632;&#4819;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4814;&#4633;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4624;&#4811;&#4653;&#4843;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4925;&#4876;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4824;&#4720;&#4925;&#4624;&#4936;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4757;&#4873;&#4661;&#4752;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4618;&#4672;&#4961; &#4915;&#4915;&#4661;&#4752;&#4961; &#4707;&#4656;&#4621;&#4846;&#4661;&#4961; &#4704;&#4982;&#4987;&#4808;&#4973;&#4987;&#4982;&#4808;&#4972;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; &#4624;&#4637;&#4620;&#4961; &#4979;&#4971;&#4672;&#4757;&#4961; &#4982;&#4972;&#4961; &#4819;&#4961; &#4637;&#4961; &#4776;&#4664;&#4675;&#4961; &#4704;&#4840;&#4757;&#4961; &#4779;&#4613;&#4643;&#4845;&#4962; &#4840;&#4920;&#4624;&#4938;&#4961; &#4940;&#4653;&#4635;&#4961; &#4840;&#4632;&#4925;&#4624;&#4937;&#4961; &#4811;&#4875;&#4961; &#4824;&#4896;&#4765;&#4961; &#4707;&#4813;&#4757;&#4853;&#4961; &#4848;&#4653;&#4656;&#4763;&#4621;&#4961; &#4709;&#4840;&#4961; &#4704;&#4925;&#4629;&#4936;&#4724;&#4961; &#4940;&#4653;&#4635;&#4961; &#4768;&#4651;&#4875;&#4877;&#4899;&#4616;&#4609;&#4765;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4845;&#4633;&#4725;&#4962;</span></q>
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 104r: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 104ra:</span> <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4664;&#4675;&#4961; &#4704;&#4840;&#4752;&#4961; &#4779;&#4613;&#4643;&#4845;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4824;&#4808;&#4608;&#4709;&#4814;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4768;&#4850;&#4961; &#4768;&#4845;&#4632;&#4819;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4814;&#4633;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4624;&#4811;&#4653;&#4843;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4925;&#4876;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4824;&#4720;&#4925;&#4624;&#4936;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4757;&#4873;&#4661;&#4752;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4618;&#4672;&#4961; &#4915;&#4915;&#4661;&#4752;&#4961; &#4707;&#4656;&#4621;&#4846;&#4661;&#4961; &#4704;&#4982;&#4987;&#4808;&#4973;&#4987;&#4982;&#4808;&#4972;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4962; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; &#4624;&#4637;&#4620;&#4961; &#4979;&#4971;&#4672;&#4757;&#4961; &#4982;&#4972;&#4961; &#4819;&#4961; &#4637;&#4961; &#4776;&#4664;&#4675;&#4961; &#4704;&#4840;&#4757;&#4961; &#4779;&#4613;&#4643;&#4845;&#4962; &#4840;&#4920;&#4624;&#4938;&#4961; &#4940;&#4653;&#4635;&#4961; &#4840;&#4632;&#4925;&#4624;&#4937;&#4961; &#4811;&#4875;&#4961; &#4824;&#4896;&#4765;&#4961; &#4707;&#4813;&#4757;&#4853;&#4961; &#4848;&#4653;&#4656;&#4763;&#4621;&#4961; &#4709;&#4840;&#4961; &#4704;&#4925;&#4629;&#4936;&#4724;&#4961; &#4940;&#4653;&#4635;&#4961; &#4768;&#4651;&#4875;&#4877;&#4899;&#4616;&#4609;&#4765;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4845;&#4633;&#4725;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic. The donor šäqqa Bäyyänä Kahśay and his relatives are mentioned, as well as King Ḫaylä Śǝllase and Metropolitan Basǝlyos, the price of the book (nine pounds) and the date (5554 year of mercy and Ḥamle (19)54 E.C. = July-August 1962 A.D.)</p>
                         </item>
                         <item xml:id="e1">- A string of ʾasmat is included between sälam-hymn for the 12th of Miyazya  and Homily of John, Metropolitan of Ethiopia for the 12th of Gǝnbot on fol. 64va (missing in the standard edition of the work);&#xD;
 - In Additio 1, fol. 104r, the names of the donor and of his relatives are mentioned; &#xD;
@@ -181,7 +178,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0039DäbräMaʿṣoQəddusYoḥannəs">Däbrä Maʿṣo Qəddus Yoḥannəs / MY</placeName>
+                        <placeName corresp="INS0039MY">Däbrä Maʿṣo Qәddus Yoḥannәs / MY</placeName>
                      </origPlace>
                      <origDate notBefore="1962" notAfter="1962">The date is mentioned in Additio 1.</origDate>
                   </origin>
@@ -223,10 +220,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -247,7 +240,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-10">registered</change>
          <change who="MK" when="2011-10-04T12:27:34.905Z">created</change>
          <change who="SH" when="2014-10-14T08:07:56.681Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

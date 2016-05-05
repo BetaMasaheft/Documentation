@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0192MänäwätQǝddusGiyorgis"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0192QGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>QGM-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">137.0</measure> folios,
-                                                in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">137.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">26.0</width>
@@ -123,7 +121,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The Ms. shows traces of extensive use. Many fols. are stained with wax and dirt and/or affected by humidity. The Ms. has been resewn. The leather cover has been torn off; only the turn-ins are preserved on the inner side of the boards. Holes or cuts amended on fols. 2, 3, 6, 12, 97.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="24">
                            <dimensions unit="mm">
                               <height>235</height>
                               <width>210</width>
@@ -136,32 +134,44 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">17</dim>
                            </dimensions>
-                           <ab type="ruling">All data from fol. 73r.</ab>
+                           <note>All data from fol. 73r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The top line was not used by the scribe on fol. 78ra.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script"/>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>19th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Mikaʾel</persName>Gäbrä Mikaʾel is mentioned as the scribe in the supplication on fol. 91rb.<date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ይ፡ ሕ(ዝ)፡</abbr> for <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 29rb, 29va)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 29rb, 29va, 31va)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 29va, 31va)</item>
+                           <item>
+                              <abbr>ፍቱ፡</abbr> for <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ ለዛቲ፡ ነፍስ፡ </expan> (e.g., fol. 36rab)</item>
+                           <item>
+                              <abbr>ፍቱ፡ / ፍቱ፡ ወን(ጹሐ)፡ ረ(ስ)፡ ለዝ፡ በድ</abbr> for <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 41vab, 42rab)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -184,7 +194,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0192MänäwätQǝddusGiyorgis">Mänäwät Qǝddus Giyorgis / QGM</placeName>
+                        <placeName corresp="INS0192QGM">Mänäwät Qǝddus Giyorgis / QGM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -226,8 +236,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Mikaʾel</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -250,7 +259,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2011-11-28">registered</change>
          <change who="VR" when="2015-04-22T12:48:18.316Z">created</change>
          <change who="VR" when="2015-04-27T09:11:58.335Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

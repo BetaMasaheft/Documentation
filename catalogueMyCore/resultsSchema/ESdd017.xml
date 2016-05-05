@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DäbräDammoʾAbunäʾArägawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-017</idno>
                   <altIdentifier>
                      <idno>C3-IV-225 (fol. 2r)</idno>
@@ -52,7 +52,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus/>The colophon is written in a fine hand, dissimilar to any of the main hands a-e.</colophon>
+                        <locus/><div style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 183vb: </span></span><span style="font-size: large">&#4768;&#4784;&#4724;&#4720;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4720;&#4925;&#4629;&#4936;&#4725;&#4961; &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4773;&#4757;&#4720;&#4961; &#4845;&#4648;&#4853;&#4961; &#4768;&#4752;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4704;&#4781;&#4610;&#4622;&#4721;</span><span style="font-size: large"><span style="font-size: large">&#4961;</span>&#8230;</span></div><foreign xml:lang="en"/>
+                        <note>The colophon is written in a fine hand, dissimilar to any of the main hands a-e.</note>
+                     </colophon>
                   </msItem>
                </msContents>
                <physDesc>
@@ -61,9 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf">185.0</measure> folios,
-                                                in
-                                                <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">185.0</measure> folios, in <measure unit="quire">23.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">38.0</height>
                               <width unit="cm">33.0</width>
@@ -154,7 +154,7 @@ Fol. 72 is reinforced with a parchment strip (?).&#xD;
 Holes are amended on fols. 57, 132, 139, 155, 164.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="41">
                            <dimensions unit="mm">
                               <height>260</height>
                               <width>258</width>
@@ -167,32 +167,37 @@ Holes are amended on fols. 57, 132, 139, 155, 164.</condition>
                               <dim type="left">21</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 99r.</ab>
+                           <note>All data for fol. 99r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible (e.g., fols. 71, 91). </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hands a-e: fine, careful, well-trained</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th cent. (?)</date>
+                        <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam and four other scribes</persName>Five scribes were involved in the copying of the Ms. &#xD;
+Zä-Wäldä Maryam copied the sections for Mäskäräm and Ṭǝqǝmt (quires I-VII); his name is written in the bottom margin of fols. 2r and 58vb. &#xD;
+Bäʾǝdä Maryam copied the section for Ḫǝdar (quires VIII-X); his name is written in the bottom margin of fol. 59r (the same scribe possibly copied Ms. SM-003). &#xD;
+Zä-Maryam copied the section for Taḫśaś (quires XI-XIV); his name is written in the bottom margin of fol. 87r. &#xD;
+Tǝnsaʾe Krǝstos copied the section for Ṭǝrr (quires XV-XVII); his name is written in the bottom margin of fol. 120r.&#xD;
+Täsfa Mikaʾel copied the sections for Ṭǝrr and Yäkkatit (quires XVIII-XXII); his name is written in the bottom margin of fols. 144r, 158r, 183vb.<date>18th cent. (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                      <handNote xml:id="h3" script="Ethiopic">fols. 2ra-58vb </handNote>
@@ -204,28 +209,24 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 182vb, vc: </span></span><span style="font-size: small"><span style="line-height: 115%">Note on the origin of the names D&#228;br&#228; Halleluya and D&#228;br&#228; Dammo.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 182vb, vc: </span></span><span style="font-size: small"><span style="line-height: 115%">Note on the origin of the names D&#228;br&#228; Halleluya and D&#228;br&#228; Dammo.</span></span></p><q xml:lang="gez"><div style="text-align: justify"><span style="font-size: large"><br /> </span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in a crude hand, the note starts after the colophon, then continues after Additio 2. The content is the same as Additio 3, but it mentions King Täklä Giyorgis.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 183vc (above): Note on the size of the area occupied by the D&#228;br&#228; Dammo monastery.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 183vc (above): Note on the size of the area occupied by the D&#228;br&#228; Dammo monastery.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: small"><span style="line-height: 115%">Fol. 183vc(above): </span></span>&#4749;&#4621;&#4680;&#4961; &#4632;&#4896;&#4752;&#4961; &#4661;&#4941;&#4624;&#4961; &#4616;&#4848;&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#4776;&#4632;&#4829;&#4961; &#4813;&#4773;&#4721;&#4961; &#4773;&#4637;&#4773;&#4757;&#4877;&#4621;&#4875;&#4961; &#4773;&#4661;&#4776;&#4961; &#4925;&#4757;&#4936;&#4961; &#4637;&#4821;&#4651;&#4941;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in a mediocre hand, the same as Additio 3. It describes two dimensions, the height and the width, of the monastery. A note added below mentions the name of King Täklä Giyorgis and states that he began to reign in the year 1444 (?).</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small"><span style="line-height: 115%">Fol. 183vc (below): Note on the origin of the names D&#228;br&#228; Halleluya and D&#228;br&#228; Dammo.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 183vc (below): Note on the origin of the names D&#228;br&#228; Halleluya and D&#228;br&#228; Dammo.</span></span></p><q xml:lang="gez"><div><span style="font-size: small"><span style="line-height: 115%">Fol. 183vc: <span style="font-size: large"><span style="line-height: 115%">&#4773;&#4637;&#4961; &#4768;&#4632;&#4961; &#4819;&#4653;&#4872;&#4961; &#4768;&#4705;&#4752;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4632;&#4621;&#4821;&#4621;&#4720;&#4961; &#4827;&#4722;&#4961; &#4848;&#4709;&#4653;</span><span style="line-height: 115%">&#8230;</span></span></span></span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the same mediocre hand as Additio 2. The note is repeated on fol. 183vb (below), most probably as a writing exercise.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 184r: N&#228;g&#228;r&#228; w&#228;g&#704;, Note concerning customary law (?).</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 184r: N&#228;g&#228;r&#228; w&#228;g&#704;, Note concerning customary law (?).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is partly illegible.</p>
                         </item>
                         <item xml:id="e1">- The title of the work, ስንክሳር, is written on the outer face of the front board.&#xD;
 - The internal number of the monastic library (384) is written on fol. 1r. &#xD;
@@ -256,7 +257,7 @@ Quire XVI is reinforced by a parchment guard in the centrefold.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DäbräDammoʾAbunäʾArägawi">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
+                        <placeName corresp="INS0105DD">Däbrä Dammo ʾAbunä ʾArägawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -300,8 +301,7 @@ Bǝʾǝse ʾƎgziʾabǝḥer is mentioned in supplication formulas for Ṭǝqǝm
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam and four other scribes</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -324,7 +324,7 @@ Bǝʾǝse ʾƎgziʾabǝḥer is mentioned in supplication formulas for Ṭǝqǝm
          <change who="DN" when="2010-11-23">registered</change>
          <change who="MK" when="2013-07-31T16:44:26.719Z">created</change>
          <change who="MV" when="2015-02-04T10:44:19.190Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

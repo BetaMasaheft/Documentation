@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0053SäbäyaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0053SM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>SM-015</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">143.0</measure> folios,
-                                                in
-                                                <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">143.0</measure> folios, in <measure unit="quire">23.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">33.5</height>
                               <width unit="cm">26.5</width>
@@ -140,7 +138,7 @@ A piece of lacking parchment has been attached by means of leather stitches onto
 Holes are amended on fols. 6, 14, 25, 43, 45, 49, 54, 59, 62, 94, 95, 98, 121, 122, 130.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="30">
                            <dimensions unit="mm">
                               <height>250</height>
                               <width>220</width>
@@ -153,21 +151,23 @@ Holes are amended on fols. 6, 14, 25, 43, 45, 49, 54, 59, 62, 94, 95, 98, 121, 1
                               <dim type="left">10</dim>
                               <dim type="intercolumn">13</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written below the ruling on fols. 20, 26, 30, 31, 51, 59-63, 75, 139.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 The bottom ruled lined is not used on fols. 55, 57, 59-61v, 91-93, 99, 130r.</ab>
+                        </layout>
+                        <layout>
                            <ab type="coronis">
                               <locus target="#3r "/>
                            </ab>
@@ -178,8 +178,10 @@ The bottom ruled lined is not used on fols. 55, 57, 59-61v, 91-93, 99, 130r.</ab
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, vermilion</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>ምዕ፡, ምዕራ፡ for ምዕራፍ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -191,10 +193,9 @@ The bottom ruled lined is not used on fols. 55, 57, 59-61v, 91-93, 99, 130r.</ab
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 40r: Note on commissioning the writing. </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small">Fol. 40r: Note on commissioning the writing. </span></p><q xml:lang="gez"><div style="text-align: left;"><span style="font-size: small"><span style="line-height: 115%" arial="" sans-serif="">Fol. 40v: </span></span><span style="font-size: large"><span style="line-height: 115%" arial="" sans-serif="">&#4704;</span><span style="line-height: 115%">&#4824;&#4704;&#4758;&#4633;&#4961; &#4824;&#4768;&#4925;&#4624;&#4941;&#4811;&#4961; &#4616;&#4824;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4768;&#4705;&#4841;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4768;&#4705;&#4840;&#4961; &#4672;&#4658;&#4656;&#4961; &#4808;&#4621;&#4848;&#4961; &#4875;&#4709;&#4653;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4819;&#4656;&#4710;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4962;&#160;</span></span><span style="line-height: 115%; font-size: 10pt"><br /> </span></div></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the main hand, in red. It mentions as the commissioners priest (qäsis) Täsfa Mikaʾel and priest Wäldä Gabǝr.</p>
                         </item>
                         <item xml:id="e1">- An unfinished note on the land possession dated to 1919 year of mercy (= 1926/27 A.D.): fol. 2r.&#xD;
 - Lacuna: fol. 102vb.&#xD;
@@ -220,7 +221,7 @@ Turn-ins are laced with a cord.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0053SäbäyaMaryam">Säbäya Maryam /SM</placeName>
+                        <placeName corresp="INS0053SM">Säbäya Maryam /SM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -262,10 +263,6 @@ Turn-ins are laced with a cord.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -286,7 +283,7 @@ Turn-ins are laced with a cord.</decoNote>
          <change who="DN" when="2010-05-14">registered</change>
          <change who="SA" when="2011-02-24T15:34:56.931Z">created</change>
          <change who="EG" when="2015-02-20T15:17:36.481Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

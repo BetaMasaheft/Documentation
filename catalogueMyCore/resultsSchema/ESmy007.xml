@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0039DäbräMaʿṣo"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0039MY"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MY-007</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">110.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">6.0</measure> blank, in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">110.0</measure> folios, of which <measure unit="leaf" type="blank">6.0</measure> blank, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">29.5</height>
                               <width unit="cm">22.0</width>
@@ -115,7 +113,7 @@ A bifolio in the middle of quire A has been cut short. Quire XIV mistakenly numb
                         <condition key="good"/>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="26">
                            <dimensions unit="mm">
                               <height>235</height>
                               <width>175</width>
@@ -128,28 +126,38 @@ A bifolio in the middle of quire A has been cut short. Quire XIV mistakenly numb
                               <dim type="left">10</dim>
                               <dim type="intercolumn">12</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are mostly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are mostly visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are occasionally visible (s. fol. 8r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible (s. fol. 27r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but regular.</ab>
                         <seg type="ink">Black; crimson.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>20th century.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሃ፡ ሃ፡ ሃ፡</abbr> for <expan>ሃሌ፡ ሉያ፡ </expan> (three times; often written out in full, cp. fol. 14va, ls.5-6)</item>
+                           <item>ለ፡ ዓ፡ አ፡ for ለዓለመ፡ ዓለም፡ አሜን፡</item>
+                           <item>ለዓ(ለ)፡ ዓ፡ for ለዓለመ፡ ዓለም፡</item>
+                           <item>ይ፡ ካ፡ for ይቤ፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                           <item>
+                              <abbr>(ወ)ይ፡ ሕ፡</abbr> for <expan>(ወ)ይቤ፡ </expan> (or ይብሉ፡) ሕዝብ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -171,7 +179,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0039DäbräMaʿṣo">Däbrä Maʿṣo / MY</placeName>
+                        <placeName corresp="INS0039MY">Däbrä Maʿṣo / MY</placeName>
                      </origPlace>
                      <origDate notBefore="1920" notAfter="1970"/>
                   </origin>
@@ -213,10 +221,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -237,7 +241,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-10">registered</change>
          <change who="IF" when="2011-01-27T09:16:40.372Z">created</change>
          <change who="DN" when="2015-06-19T16:42:20.326Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

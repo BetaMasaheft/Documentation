@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0095ʾAraʿroTäkläHaymanot"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0095ATH"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>ATH-009</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ The incipit parts of many of the constituent texts are written alternately in re
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">222.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">7.0</measure> blank, in
-                                                <measure unit="quire">25.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">222.0</measure> folios, of which <measure unit="leaf" type="blank">7.0</measure> blank, in <measure unit="quire">25.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">17.7</height>
                               <width unit="cm">16.3</width>
@@ -166,7 +164,7 @@ Text on fols. 220v-221r is poorly visible, probably due to damage from humidity.
 Remnants of the former leather cover are preserved on the inner side of the front board. Spine cover is partly detached, held by means of crude stitches.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>150</height>
                               <width>136</width>
@@ -179,19 +177,21 @@ Remnants of the former leather cover are preserved on the inner side of the fron
                               <dim type="left">8</dim>
                               <dim type="intercolumn">11</dim>
                            </dimensions>
-                           <ab type="ruling">Text area I: fols. 3vb-8vb. All data are for fol. 5r.</ab>
+                           <note>Text area I: fols. 3vb-8vb. All data are for fol. 5r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="14">
                            <dimensions unit="mm">
                               <height>137</height>
                               <width>128</width>
@@ -204,28 +204,43 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">11</dim>
                               <dim type="intercolumn">11</dim>
                            </dimensions>
-                           <ab type="ruling">Text area II: fols. 9ra-221rb. All data are for fol. 215r.</ab>
+                           <note>Text area II: fols. 9ra-221rb. All data are for fol. 215r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: mediocre. Hand b: careful, by trained hand.</ab>
                         <seg type="ink">Black; red; purple.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century.</date>
+                        <list type="abbreviations">
+                           <item>ይ፡ ካ፡ or ካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ or ዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይ፡ ሕ፡ or ሕ(ዝ)፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>ቡራ፡ for ቡራኬ፡</item>
+                           <item>እማ፡ for እማሬ፡</item>
+                           <item>ቅ(ዱስ)፡ ቅ፡ ቅ፡ for ቅዱስ፡ ቅዱስ፡ ቅዱስ፡</item>
+                           <item>
+                              <abbr>እገ፡</abbr> for <expan>እገሌ፡ </expan> (s. fol. 23vb)</item>
+                           <item>ንስ፡ እግ፡ ወና፡ for ንስእለከ፡ እግዚኦ፡ ወናስተበቍዓከ፡</item>
+                           <item>
+                              <abbr>ይ(ት)፡ ወ(ይ)፡ ስ፡ ለ(እ)፡</abbr> for <expan>ይትአኰት፡ ወይሴባሕ፡ ስሙ፡ ለእግዚአብሔር፡ </expan> (s. fol. 7ra-rb)</item>
+                           <item>
+                              <abbr>የ፡ ወ፡ እ፡ ወ፡ ስ፡ እ፡</abbr> for <expan>የአኵቱከ፡ ወይሴብሑከ፡ እኵት፡ ወስቡሕ፡ ስምከ፡ እግዚኦ፡ </expan> (s. fol. 7va)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 3vb-8va, 219rb-221vb</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 9ra-219rb</handNote>
@@ -236,34 +251,29 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fol. 1va: Prayer for G&#228;br&#228; M&#228;d&#7723;&#601;n (?).</span></span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" arial="" unicode=""><br /> </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"><br /> </span></span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "><erasure></erasure></span></q>
-                           <q xml:lang="en"><span unicode="" arial="" style="line-height: 115%; font-family: "><erasure><span style="font-size: small;"><br /> </span><erasure></erasure></erasure></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fol. 1va: Prayer for G&#228;br&#228; M&#228;d&#7723;&#601;n (?).</span></span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" arial="" unicode=""><br /> </span></span></p><q xml:lang="gez"><p><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"><br /> </span></span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "><erasure></erasure></span></p></q>
+                           <q xml:lang="en"><p><span unicode="" arial="" style="line-height: 115%; font-family: "><erasure><span style="font-size: small;"><br /> </span><erasure></erasure></erasure></span></p></q>
+                           <p>Written in a crude hand; the text is partly abraded and poorly readable. Gäbrä Mädḫǝn is most probably the same person who is mentioned in the supplication formula on fol. 201va (here his name has been erased, another name has been written above it).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">&#160;</span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" arial="" unicode=""><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fol. 3va: Donation note.</span></span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 3va:</span></span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4659;&#4840;&#4896;&#4726;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4824;&#4808;&#4608;&#4704;&#4723;&#4961; &#4616;&#4778;&#4851;&#4752;&#4961;</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&lt;...&gt;</span></span></span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span></span><span style="font-size: large;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4610;&#4961; &#4676;&#4661;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4872;&#4704;&#4825;&#4961; &#4676;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961;</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&lt;...&gt; </span></span></q>
-                           <q xml:lang="en"><span style="font-size: small;"><span unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 3va: This book has been purchased by W&#228;l&#228;tt&#228; Kidan with her own money, which she donated to Kidan&#228; &#704;Iy&#228;sus</span></span><span unicode="" arial="" style="line-height: 115%; font-family: "><span style="font-size: small;">. The guarantor is priest Z&#228;-Mika&#704;el and the qes&#228; g&#228;b&#228;z is W&#228;ld&#228;... </span></span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small;">&#160;</span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" arial="" unicode=""><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fol. 3va: Donation note.</span></span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 3va:</span></span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4659;&#4840;&#4896;&#4726;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4824;&#4808;&#4608;&#4704;&#4723;&#4961; &#4616;&#4778;&#4851;&#4752;&#4961;</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;"><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&lt;...&gt;</span></span></span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span></span><span style="font-size: large;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4610;&#4961; &#4676;&#4661;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4872;&#4704;&#4825;&#4961; &#4676;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961;</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&lt;...&gt; </span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 3va: This book has been purchased by W&#228;l&#228;tt&#228; Kidan with her own money, which she donated to Kidan&#228; &#704;Iy&#228;sus</span></span><span unicode="" arial="" style="line-height: 115%; font-family: "><span style="font-size: small;">. The guarantor is priest Z&#228;-Mika&#704;el and the qes&#228; g&#228;b&#228;z is W&#228;ld&#228;... </span></span></p></q>
+                           <p>The note mentions a different institution as the donor, a church of (?)Kidanä ʾIyäsus.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">Fol. 8va-vb: List of feasts of the Apostles.</span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">Fol. 8va-vb: List of feasts of the Apostles.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">Fol. 219r (in the upper margin): Donation note (?).</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">Fol. 219r (in the upper margin): Donation note (?).</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in purple ink. Most of the text has been erased, only the end part of the note containing the excommunication formula is visible.</p>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">Fol. 219rb: Note on commissioning of the writing (?).</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">Fol. 219rb: Note on commissioning of the writing (?).</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is written in the main mand. The greater part of the text is lost (part of the folio has been torn off).</p>
                         </item>
                         <item xml:id="e1">- Crude notes (apparently writing exercises): fols. 1r, 1v, 2r.&#xD;
 - Pen trial, in red ink: fol. 36v.&#xD;
@@ -286,7 +296,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0095ʾAraʿroTäkläHaymanot">ʾAraʿro Täklä Haymanot / ATH</placeName>
+                        <placeName corresp="INS0095ATH">ʾAraʿro Täklä Haymanot / ATH</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1750">First half of the 18th century(?). Quire I (fols. 1r-8v) was added somewhat later, the text on fols. 219rb-221vb was written at the same time. On fols. 5vb-6ra, ʾabba Yosef is mentioned as the patriarch and ʾabba ʾIyosʾab as the metropolitan. Yosef was the birth name of John XVIII, Patriarch of Alexandria in 1769-96. Yosab II was Metropolitan of Ethiopia in 1770-1803.</origDate>
                   </origin>
@@ -328,10 +338,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -352,7 +358,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2014-01-23">registered</change>
          <change who="IF" when="2014-08-17T10:12:08.046Z">created</change>
          <change who="DN" when="2015-09-04T12:58:19.630Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

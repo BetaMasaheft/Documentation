@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0017ʿUraQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0017UM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>UM-046</idno>
                   <altIdentifier>
                      <idno>C3-IV-71 (fol. 1)</idno>
@@ -54,9 +54,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf"/> folios,
-                                                in
-                                                <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf"/> folios, in <measure unit="quire"/> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm"/>
                               <width unit="cm"/>
@@ -80,19 +78,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left"/>
                               <dim type="intercolumn"/>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">The upper line is written below the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">The upper line is written below the ruling.</ab>
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script"/>
                         <seg type="ink"/>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date/>
                      </handNote>
                   </handDesc>
@@ -108,7 +106,7 @@ The bottom line is written above the ruling.</ab>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0017ʿUraQirqos">ʿUra Qirqos / UM</placeName>
+                        <placeName corresp="INS0017UM">ʿUra Qirqos / UM</placeName>
                      </origPlace>
                      <origDate notBefore="1300" notAfter="1400"/>
                   </origin>
@@ -150,10 +148,6 @@ The bottom line is written above the ruling.</ab>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -175,7 +169,7 @@ The bottom line is written above the ruling.</ab>
          <change who="DN" when="2010-04-30">registered</change>
          <change who="DN" when="2014-05-22T11:33:56.746Z">created</change>
          <change who="DN" when="2015-09-11T17:10:17.870Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0125SiʿetQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0125GMS"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>GMS-005</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Text I-1 (fol. 3r), a few lines are rubricated, alternati
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">79.0</measure> folios,
-                                                in
-                                                <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">79.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">16.5</width>
@@ -104,7 +102,7 @@ The front board has two round holes, and the back board has one round hole, of e
 Tears carefully amended on fols. 2, 74.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="22">
                            <dimensions unit="mm">
                               <height>170</height>
                               <width>140</width>
@@ -117,43 +115,41 @@ Tears carefully amended on fols. 2, 74.</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre but careful.</ab>
                         <seg type="ink">Black, vivid red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>First half of the 19th century.</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Mikaʾel (?)</persName>The hand is very similar or identical to that of Gäbrä Mikaʾel (s. Ms. GMS-014).<date>First half of the 19th century.</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;">Fols. 1ra-2vb, 79ra-vb: M&#228;lk&#601;&#704;a m&#228;d&#7723;ane &#705;al&#228;m &#8220;Image of the Saviour of the World&#8221;.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fols. 1ra-2vb, 79ra-vb: M&#228;lk&#601;&#704;a m&#228;d&#7723;ane &#705;al&#228;m &#8220;Image of the Saviour of the World&#8221;.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The incipit of the text is on fol. 2vb, the explicit on fol. 79vb. Fols. 1r-2v were probably placed upside down when the binding was disturbed. The text on fol. 2v is partly abraded (possibly because the leaf had contact with the board), written in smaller script without rubrics.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">Fol. 79ra: Donation note.</locus>
-                           <q xml:lang="gez">Fol. 79ra: <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4720;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4624;&#4755;&#4961; &#4824;&#4808;&#4608;&#4709;&#4811;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4642;&#4820;&#4725;&#4961; &#4776;&#4632;&#4961; &#4725;&#4789;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4768;&#4636;&#4757;&#4962; &#4616;&#4827;&#4722;&#4754;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></q>
+                           <locus/><p>Fol. 79ra: Donation note.</p><q xml:lang="gez"><p>Fol. 79ra: <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4720;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4624;&#4755;&#4961; &#4824;&#4808;&#4608;&#4709;&#4811;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4642;&#4820;&#4725;&#4961; &#4776;&#4632;&#4961; &#4725;&#4789;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4768;&#4636;&#4757;&#4962; &#4616;&#4827;&#4722;&#4754;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note states that the Ms. was donated by Gäbrä Maryam and his wife Qәddәst Ḥanna to the church of Maryam Śiʿet.</p>
                         </item>
                      </list>
                   </additions>
@@ -172,7 +168,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0125SiʿetQəddəstMaryam">Siʿet Qəddəst Maryam / GMS</placeName>
+                        <placeName corresp="INS0125GMS">Siʿet Qәddәst Maryam / GMS</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of the 19th century (?).</origDate>
                   </origin>
@@ -209,13 +205,12 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä Maryam and his wife Qəddəst Ḥanna are mentioned as the donors in Additio 2.</persName>
+                  <persName corresp="PRS0000">Gäbrä Maryam and his wife Qәddәst Ḥanna are mentioned as the donors in Additio 2.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Mikaʾel (?)</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -238,7 +233,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-07">registered</change>
          <change who="SA" when="2014-04-04T12:08:49.707Z">created</change>
          <change who="MK" when="2014-09-08T12:17:48.154Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

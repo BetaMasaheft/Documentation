@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0050MänäbäytiṢəyonMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0050MSM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MSM-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">114.0</measure> folios,
-                                                in
-                                                <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">114.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.5</height>
                               <width unit="cm">22.0</width>
@@ -114,7 +112,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The Ms. shows traces of intensive use. Many fols. are stained with wax and dirt. The spine cover is missing and the leather cover on both boards has been damaged. Holes or tears amended on fols. 53, 72, 113.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="21">
                            <dimensions unit="mm">
                               <height>195</height>
                               <width>180</width>
@@ -127,38 +125,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data from fol. 7r.</ab>
+                           <note>All data from fol. 7r.</note>
                            <ab type="ruling">The number of lines varies between 21 and 25.</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A-1A/0-0/0-0/B.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Irregular</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>18th century (?)</date>
+                        <persName role="scribe" corresp="PRS00000">possibly ʾabunä Täsfa [Yonas]</persName>ʾabunä Täsfa [Yonas] (the second part of the name is barely legible) is mentioned as the scribe on fol. 10va.<date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ </expan> (e.g., fols. 33vab, 34rab)</item>
+                           <item>
+                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 34vb, 35ra)</item>
+                           <item>
+                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 37va, 57va)</item>
+                           <item>
+                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 37vab, 57va)</item>
+                           <item>
+                              <abbr>ተክለ፡ ሃይማ(ኖ)፡</abbr> for <expan>ተክለ፡ ሃይማኖት፡ </expan> (e.g., fols. 11va, 12rb)</item>
+                           <item>
+                              <abbr>ተክለ፡ ሚካኤ፡</abbr> for <expan>ተክለ፡ ሚካኤል፡ </expan> (e.g., fol. 13vb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol.1va: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4768;&#4779;&#4621;&#4961; &#4635;&#4819;&#4936;&#4896;&#4651;&#4729;&#4961; &#4661;&#4619;&#4660;&#4961; &#4661;&#4619;&#4660;&#4961; &#4661;&#4757;&#4725;&#4637;&#4755;&#4728;&#4813;&#4961; &#4768;&#4757;&#4853;&#4637;&#4961; &#4755;&#4728;&#4813;&#4961; &#4662;&#4661;&#4725;&#4961; &#4755;&#4728;&#4813;&#4961; &#4656;&#4661;&#4725;&#4752;&#4723;&#4728;&#4813;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></q>
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size:10.0pt;Arial" unicode="">Fol. 1va: Text about the Trinity (?)</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol.1va: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4768;&#4779;&#4621;&#4961; &#4635;&#4819;&#4936;&#4896;&#4651;&#4729;&#4961; &#4661;&#4619;&#4660;&#4961; &#4661;&#4619;&#4660;&#4961; &#4661;&#4757;&#4725;&#4637;&#4755;&#4728;&#4813;&#4961; &#4768;&#4757;&#4853;&#4637;&#4961; &#4755;&#4728;&#4813;&#4961; &#4662;&#4661;&#4725;&#4961; &#4755;&#4728;&#4813;&#4961; &#4656;&#4661;&#4725;&#4752;&#4723;&#4728;&#4813;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written in Amharic. The Trinity is mentioned.</p>
                         </item>
                         <item xml:id="e1">- Erasures: e.g., fols. 16va, 27ra, 87va.&#xD;
 - Omitted letters or words are written interlineally or in the margin: e.g., fols. 14ra, 25rb, 26vb, 27vb, 31va.&#xD;
@@ -185,7 +196,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0050MänäbäytiṢəyonMaryam">Mänäbäyti Ṣəyon Maryam/ MSM</placeName>
+                        <placeName corresp="INS0050MSM">Mänäbäyti Ṣәyon Maryam/ MSM</placeName>
                      </origPlace>
                      <origDate notBefore="1745" notAfter="1800">King Täklä Giyorgis (possibly Täklä Giyorgis I, r. 1779-1800 with interruptions; cf. EAE IV, 826) is mentioned on fol. 70ra. Patriarch ʾabba Marqos and Metropolitan ʾabba Yoḥannǝs are mentioned on fol. 69vb. Mark VII was the patriarch of Alexandria in 1745-69. Yoḥannǝs III was the metropolitan of Ethiopia in 1744-61 (cf. EAE V, 71).</origDate>
                   </origin>
@@ -227,8 +238,7 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">possibly ʾabunä Täsfa [Yonas]</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -252,7 +262,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-08">registered</change>
          <change who="VR" when="2015-03-05T11:28:48.389Z">created</change>
          <change who="VR" when="2015-05-19T12:41:36.570Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

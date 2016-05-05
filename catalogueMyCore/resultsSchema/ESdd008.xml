@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DD-008</idno>
                   <altIdentifier>
                      <idno>C3-IV-266 (fol. 2r)</idno>
@@ -57,9 +57,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">158.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">2.0</measure> blank, in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">158.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">34.6</height>
                               <width unit="cm">34.5</width>
@@ -134,7 +132,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <condition key="good">The spine cover is slightly torn off.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="30">
                            <dimensions unit="mm">
                               <height>244</height>
                               <width>75</width>
@@ -147,30 +145,40 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="left">20</dim>
                               <dim type="intercolumn">14</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r</ab>
+                           <note>All data for fol. 3r</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black, red (strong red)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ማርያ</abbr> for <expan>ማርያም </expan> (fols. 24vc, 148rb)</item>
+                           <item>
+                              <abbr>ፍካ</abbr> for <expan>ፍካሬ </expan> (fol. 143va)</item>
+                           <item>
+                              <abbr>ክፍ</abbr> for <expan>ክፍል </expan> (fol. 149va, 155ra)</item>
+                           <item>
+                              <abbr>ትእዛ</abbr> for <expan>ትእዛዝ </expan> (fol. 154rc)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">2r-44vb and 55vb-57vb</handNote>
                      <handNote xml:id="h3" script="Ethiopic">44vb-55vb</handNote>
@@ -178,10 +186,10 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size:10.0pt;Arial" unicode="">Fol. 157vc-158rc: A letter from Metropolitan Peter to the community of D&#228;br&#228; Dammo.</span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 157vc-158rc:</span></span><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4632;&#4621;&#4773;&#4781;&#4725;&#4961; &#4824;&#4936;&#4752;&#4811;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4618;&#4672;&#4961; &#4915;&#4915;&#4659;&#4725;&#4961; &#4824;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4872;&#4709;&#4649;&#4961; &#4808;&#4624;&#4811;&#4653;&#4843;&#4609;&#4961; &#4616;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4849;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4725;&#4709;&#4923;&#4629;&#4961; &#4736;&#4704;&#4961; &#4813;&#4617;&#4849;&#4840;<span style="font-size: small;">[sic]</span>&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4941;&#4673;&#4651;&#4757;&#4840;&#4961;</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4705;&#4649;&#4779;&#4757;&#4961; &#4808;&#4677;&#4849;&#4659;&#4757;&#4961; &#4635;&#4741;&#4704;&#4648;&#4961;</span><span style="line-height: 115%;">&#4848;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#8230;</span></span></q>
-                           <q xml:lang="en"><span unicode="" style="font-size:10.0pt;line-height:115%;Arial">Fol. 157vc-158rc: A letter sent by Peter, the metropolitan of the kingdom of Ethiopia, the servant and Apostle of Christ, the son of St. Luke the Apostle, may it reach to my beloved children, the blessed and the holy community of D&#228;br&#228; Damo &#8230; </span></q>
-                           <p/>
+                           <locus/><p><span style="font-size:10.0pt;Arial" unicode="">Fol. 157vc-158rc: A letter from Metropolitan Peter to the community of D&#228;br&#228; Dammo.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 157vc-158rc:</span></span><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4632;&#4621;&#4773;&#4781;&#4725;&#4961; &#4824;&#4936;&#4752;&#4811;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4618;&#4672;&#4961; &#4915;&#4915;&#4659;&#4725;&#4961; &#4824;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4770;&#4725;&#4846;&#4917;&#4843;&#4961; &#4872;&#4709;&#4649;&#4961; &#4808;&#4624;&#4811;&#4653;&#4843;&#4609;&#4961; &#4616;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4849;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4725;&#4709;&#4923;&#4629;&#4961; &#4736;&#4704;&#4961; &#4813;&#4617;&#4849;&#4840;<span style="font-size: small;">[sic]</span>&#4961;</span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4941;&#4673;&#4651;&#4757;&#4840;&#4961;</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4705;&#4649;&#4779;&#4757;&#4961; &#4808;&#4677;&#4849;&#4659;&#4757;&#4961; &#4635;&#4741;&#4704;&#4648;&#4961;</span><span style="line-height: 115%;">&#4848;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4709;&#4648;&#4961; &#4851;&#4638;&#4961; &#8230;</span></span></p></q>
+                           <q xml:lang="en"><p><span unicode="" style="font-size:10.0pt;line-height:115%;Arial">Fol. 157vc-158rc: A letter sent by Peter, the metropolitan of the kingdom of Ethiopia, the servant and Apostle of Christ, the son of St. Luke the Apostle, may it reach to my beloved children, the blessed and the holy community of D&#228;br&#228; Damo &#8230; </span></p></q>
+                           <p>The introduction in Gǝʿǝz and the main body in Amharic.
+The letter could be written by Ṗeṭros IV, who arrived in Ethiopia in 1881 during the reign of Yoḥannǝs IV.</p>
                         </item>
                         <item xml:id="e1">- The title of the Ms. and the internal number of the monastic library, 312, are written on fol. 1r.&#xD;
 - Corrections: fols. 18vc, 19ra, 113vb.&#xD;
@@ -204,7 +212,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0105DÃ¤brÃ¤DammoË&#x80;AbunÃ¤Ë&#x80;ArÃ¤gawi">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
+                        <placeName corresp="INS0105DD">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800"/>
                   </origin>
@@ -246,10 +254,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -270,7 +274,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-11-22">registered</change>
          <change who="AA" when="2013-01-25T10:14:30.531Z">created</change>
          <change who="SD" when="2014-09-16T14:33:47.446Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

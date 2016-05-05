@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0064Ë&#x81;AddigratMÃ¤dá¸«aneË&#x81;AlÃ¤m"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0064AMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMM-009</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">201.0</measure> folios,
-                                                in
-                                                <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">201.0</measure> folios, in <measure unit="quire">21.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">14.9</width>
@@ -154,7 +152,7 @@ Holes and tears amended on fols. 3, 15, 20, 21,101.&#xD;
 A rectangular piece is cut out of fol. 90r (at the right margin).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="1" writtenLines="18">
                            <dimensions unit="mm">
                               <height>105</height>
                               <width>115</width>
@@ -167,19 +165,21 @@ A rectangular piece is cut out of fol. 90r (at the right margin).</condition>
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Texts I-1, I-2, I-3: all data for fol. 4r.</ab>
+                           <note>Texts I-1, I-2, I-3: all data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>110</height>
                               <width>115</width>
@@ -192,28 +192,58 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">10</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Texts I-4, I-5: all data for fol. 179r.</ab>
+                           <note>Texts I-4, I-5: all data for fol. 179r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Early 18th cent. (?)</date>
+                        <list type="abbreviations">
+                           <item>Text I-4</item>
+                           <item>
+                              <abbr>ሰ:</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት: </expan> (e.g., fols. 178rb, 182ra, 186ra, 188ra, 193rab)</item>
+                           <item>
+                              <abbr>ሰ፡ ቅ:</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት:</expan> (e.g., fols. 179va, 180va, 183rb, 190rb)</item>
+                           <item>
+                              <abbr>ሰ፡ ለ፡ ቅ:</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት: </expan> (e.g., fols. 179rb, 193vb)</item>
+                           <item>Words or their abbreviations stand for the whole refrain.</item>
+                           <item>
+                              <abbr>ሠ፡/ሠረ</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fols. 178rb-179ra)</item>
+                           <item>
+                              <abbr>እ᎓/እስ፡/እስመ፡</abbr> for <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 179vb-181va)</item>
+                           <item>
+                              <abbr>ኵ፡</abbr> for <expan>ኵሉ፡ ትውልድ፡ ያስተበፅዑኪ፡ ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ </expan> (fols. 182rb-184ra)</item>
+                           <item>
+                              <abbr>ና፡</abbr> for <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 185va-187va)</item>
+                           <item>
+                              <abbr>ለ፡/ለኪ:</abbr> for <expan>ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እመ፡ ብርሃን፡ ናዓብየኪ፡ በስብሐት፡ ወበውዳሴ </expan> (fols. 188rb-188vb)</item>
+                           <item>
+                              <abbr>ተፈ:/ተፈሥሒ:</abbr> for <expan>ተፈሥሒ: ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fols. 190rb-191va)</item>
+                           <item>
+                              <abbr>ወ፡/ወበ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 192va-193rb)</item>
+                           <item>Text I-5</item>
+                           <item>
+                              <abbr>ወል፡ ሣ፡ ይ፡ ሰ:</abbr> for <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት: </expan> (fols. 194rb-199vb)</item>
+                           <item>The abbreviations stand for the whole refrain.</item>
+                           <item>
+                              <abbr>ወ፡/ወበ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 195rb-199vb).</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -224,10 +254,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 201ra: Excerpt from </span><span style="line-height: 115%;">M&#228;lk&#477;&#705;a</span><span style="line-height: 115%;"> w&#477;ddase (</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">z&#228;-S&#228;nb&#228;t</span></span></span></span>) "</span><span style="line-height: 115%;">Image of the Praise</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">" </span></span> (of Mary, reading for Saturday</span></span><span style="font-size: small;"><span style="line-height: 115%;">).</span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 201ra: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4656;&#4632;&#4845;&#4778;&#4961; &#4941;&#4677;&#4653;&#4720;&#4961; &#4774;&#4705;&#4653;&#4781;&#4725;&#4961; &#4773;&#4637;&#4768;&#4773;&#4753;&#4656;&#4961; &#4768;&#4757;&#4722;&#4961; &#4813;&#4773;&#4721;&#4961; &#4672;&#4632;&#4648;&#4961; &#4632;&#4853;&#4739;&#4754;&#4725;&#4961; &#4736;&#4851;&#4661;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4757;&#4877;&#4645;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4851;&#4810;&#4725;&#4961; &#4757;&#4873;&#4645;&#4964; &#4656;&#4964; &#4616;&#4632;&#4621;&#4781;&#4821;&#4778;&#4961; &#4813;&#4849;&#4661;&#4961; &#4616;&#4616;&#4969;&#4773;&#4661;&#4776;&#4961; &#4773;&#4877;&#4653;&#4961; &#4808;&#4653;&#4773;&#4661;&#4962; &#4720;&#4710;&#4725;&#4961; &#4768;&#4757;&#4722;&#4961; &#4824;&#4648;&#4656;&#4840;&#4778;&#4961; &#4723;&#4821;&#4776;&#4609;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4773;&#4661;&#4632;&#4961; &#4645;&#4875;&#4778;&#4961; &#4645;&#4875;&#4609;...</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 201ra: Excerpt from </span><span style="line-height: 115%;">M&#228;lk&#477;&#705;a</span><span style="line-height: 115%;"> w&#477;ddase (</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">z&#228;-S&#228;nb&#228;t</span></span></span></span>) "</span><span style="line-height: 115%;">Image of the Praise</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">" </span></span> (of Mary, reading for Saturday</span></span><span style="font-size: small;"><span style="line-height: 115%;">).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 201ra: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4656;&#4632;&#4845;&#4778;&#4961; &#4941;&#4677;&#4653;&#4720;&#4961; &#4774;&#4705;&#4653;&#4781;&#4725;&#4961; &#4773;&#4637;&#4768;&#4773;&#4753;&#4656;&#4961; &#4768;&#4757;&#4722;&#4961; &#4813;&#4773;&#4721;&#4961; &#4672;&#4632;&#4648;&#4961; &#4632;&#4853;&#4739;&#4754;&#4725;&#4961; &#4736;&#4851;&#4661;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4757;&#4877;&#4645;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4851;&#4810;&#4725;&#4961; &#4757;&#4873;&#4645;&#4964; &#4656;&#4964; &#4616;&#4632;&#4621;&#4781;&#4821;&#4778;&#4961; &#4813;&#4849;&#4661;&#4961; &#4616;&#4616;&#4969;&#4773;&#4661;&#4776;&#4961; &#4773;&#4877;&#4653;&#4961; &#4808;&#4653;&#4773;&#4661;&#4962; &#4720;&#4710;&#4725;&#4961; &#4768;&#4757;&#4722;&#4961; &#4824;&#4648;&#4656;&#4840;&#4778;&#4961; &#4723;&#4821;&#4776;&#4609;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4773;&#4661;&#4632;&#4961; &#4645;&#4875;&#4778;&#4961; &#4645;&#4875;&#4609;...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Cp. Mälkǝʿa wǝddase Maryam "Image of the Praise of Mary", cp. Mälkǝʾa gubaʾe, ʾAśmära 1948 E.C., p. 13.</p>
                         </item>
                         <item xml:id="e1">- The midpoint of the "Psalms of David" (in Ps. 77) is marked on fol. 78v.&#xD;
 - The scribe reduced the size of his handwriting to accommodate the end of the written line: throughout the Ms.: fols. 10v, 25r, 52v, 82r. &#xD;
@@ -261,7 +290,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0064Ë&#x81;AddigratMÃ¤dá¸«aneË&#x81;AlÃ¤m">Ë&#x81;Addigrat MÃ¤dá¸«ane Ë&#x81;AlÃ¤m / AMM</placeName>
+                        <placeName corresp="INS0064AMM">Ë&#x81;Addigrat MÃ¤dá¸«ane Ë&#x81;AlÃ¤m / AMM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1750">Early 18th cent.(?)</origDate>
                   </origin>
@@ -303,10 +332,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -328,7 +353,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-20">registered</change>
          <change who="SH" when="2013-02-13T16:47:24.430Z">created</change>
          <change who="SH" when="2014-10-22T17:46:27.282Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

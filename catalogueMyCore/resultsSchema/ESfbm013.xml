@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0071FäqadaMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0071FBM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>FBM-013</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ In the incipit page of Text I (fols. 3r), a few lines are rubricated (alternatin
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">121.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">121.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.8</height>
                               <width unit="cm">22.5</width>
@@ -121,7 +119,7 @@ Quires X-XIV are designated by the Arabic numerals, quire XI </item>
                         <condition key="good">The binding is slightly damaged: the spine is partly torn off; the endbands are to the most part torn off.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="25">
                            <dimensions unit="mm">
                               <height>190</height>
                               <width>185</width>
@@ -134,27 +132,27 @@ Quires X-XIV are designated by the Arabic numerals, quire XI </item>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">fol. 53r</ab>
+                           <note>fol. 53r</note>
                            <ab type="ruling">average number</ab>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 77r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible (s. fol. 75r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Poor; the loop of t- in the 7th order is not closed.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Second half of the 19th century.</date>
                      </handNote>
                   </handDesc>
@@ -183,7 +181,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0071FäqadaMaryam">Fäqada Maryam / FBM</placeName>
+                        <placeName corresp="INS0071FBM">Fäqada Maryam / FBM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th century.</origDate>
                   </origin>
@@ -225,10 +223,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -249,7 +243,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-21">registered</change>
          <change who="IF" when="2011-09-15T07:53:21.948Z">created</change>
          <change who="EG" when="2014-03-28T10:01:32.303Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

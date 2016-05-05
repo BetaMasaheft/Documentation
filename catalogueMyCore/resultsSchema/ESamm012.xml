@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0064ʿAddigratMädḫaneʿAläm"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0064AMM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>AMM-012</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ The incipit parts of most of the constituent texts are written alternately in re
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">132.0</measure> folios,
-                                                in
-                                                <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">132.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.5</height>
                               <width unit="cm">21.0</width>
@@ -122,7 +120,7 @@ The incipit parts of most of the constituent texts are written alternately in re
                         <condition key="good">Some leaves are heavily stained with dirt or rumpled. The lower inner edges of fols. 31 and 32 have been mended with patches of parchment sewn on to them.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="20">
                            <dimensions unit="mm">
                               <height>202</height>
                               <width>157</width>
@@ -135,28 +133,35 @@ The incipit parts of most of the constituent texts are written alternately in re
                               <dim type="left">12</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 129r.</ab>
+                           <note>All data are for fol. 129r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A-1A1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 80r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are mostly visible (s. fol. 70r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Regular, fluent</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Early 20th century</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>
+                              <abbr>ቡራ፡</abbr> for <expan>ቡራኬ፡ </expan> (occasionally)</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -168,10 +173,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 132rc: Donation note.</span></span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-size: small"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 132rc: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 132rc:</span></span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: ; font-size: 10pt"> </span><span style="font-size: large"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4824;&#4665;&#4637;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4768;&#4875;&#4636;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4779;&#4659;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4824;&#4808;&#4608;&#4710;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4616;&#4632;&#4853;&#4739;&#4756;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4819;&#4616;&#4637;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4768;&#4853;&#4877;&#4651;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4808;&#4661;&#4632;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4901;&#4637;&#4672;&#4721;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4768;&#4648;&#4875;&#4810;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4776;&#4632;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4845;&#4777;&#4758;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4632;&#4653;&#4608;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4656;&#4635;&#4843;&#4725;&#4962;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4824;&#4640;&#4648;&#4678;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4813;&#4873;&#4824;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4616;&#4845;&#4777;&#4757;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4704;&#4645;&#4621;&#4899;&#4752;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4916;&#4901;&#4654;&#4661;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4808;&#4704;&#4675;&#4616;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4632;&#4637;&#4629;&#4653;&#4752;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4778;&#4851;&#4752;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: ">&#4635;&#4653;&#4843;&#4637;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 132rc: This is a book of </span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">&#353;um </span><span lang="DE" unicode="" arial="" style="line-height: 115%; font-family: ">&#704;</span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Agame Kasa whose baptismal name is W&#228;ld&#228; </span><span lang="DE" unicode="" arial="" style="line-height: 115%; font-family: ">&#704;</span><span lang="DE" unicode="" arial="" style="line-height: 115%; font-family: ">Ar&#228;gawi,</span><span lang="DE" unicode="" arial="" style="line-height: 115%; font-family: "> </span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">who has donated it to the (church of) M&#228;d&#7723;ane </span><span lang="DE" unicode="" arial="" style="line-height: 115%; font-family: ">&#705;</span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Al&#228;m </span><span lang="DE" unicode="" arial="" style="line-height: 115%; font-family: ">&#704;</span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Add&#477;grat </span><span lang="DE" unicode="" arial="" style="line-height: 115%; font-family: ">so that it might be for him a guide to the Kingdom of Heaven. He who stole it or erased (its text) shall be excommunicated by the authority of Peter and Paul and by the word of our m&#228;mh&#477;r Kidan&#228; Maryam.</span></span></p></q>
+                           <p>he note is written in the main hand. Šum ʾAgame Kasa (a son of ras Sǝbḥat) is also mentioned in Additiones to Mss. AMM-008, AMQ-011, BGY-006, MKL-005, MKL-006. He was governor of ʾAgame in 1914-18, 1941-48. Cp. HAGOS GEBRE YOHANNES, “Political History of Tigray: Rivalry for power (1910-1935)”, PhD thesis, Addis Abäba University, 2003, 46.</p>
                         </item>
                         <item xml:id="e1">- The title of the work, ቅዳሤ፡, has been crudely inscribed in green ink on the front cover.&#xD;
 - Tämälläs-signs, in the shape of two perpendicular lines, indicating the place where the omissions written in the margins, in the main hand, belong: fols. 3vb l.2, 4rc l.15, 8rb l.9, 13va l.11, 41rc l.15, 42va l.19, 66ra l.4, 70rc l.12, 84vc l.2, 86va l.16, 95vc l.1, 102ra l.12, 104vb l.20, 105vc l.12, 112ra l.2, 114vc l.15, 117va l.13, 119va l.10, 126ra l.12.&#xD;
@@ -198,7 +202,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0064ʿAddigratMädḫaneʿAläm">ʿAddigrat Mädḫane ʿAläm / AMM</placeName>
+                        <placeName corresp="INS0064AMM">ʿAddigrat Mädḫane ʿAläm / AMM</placeName>
                      </origPlace>
                      <origDate notBefore="1914" notAfter="1918">Additio 1 mentions šum ʾAgame Kasa as the donor of the Ms. Šum ʾAgame Kasa was governor of ʾAgame in 1914-18, 1941-48. The absence of the name of the reigning monarch in the Ms. suggests that it was written during the earlier of the two terms of office.</origDate>
                   </origin>
@@ -240,10 +244,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -264,7 +264,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-20">registered</change>
          <change who="IF" when="2013-07-21T08:21:50.746Z">created</change>
          <change who="IF" when="2014-12-14T08:41:03.179Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

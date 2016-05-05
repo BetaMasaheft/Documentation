@@ -29,13 +29,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0017Ë&#x81;UraQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0017UQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>UM-034</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; the words məʿəraf, nägär and täʾamr; incipit of Text I-1; the word ʾəsäggəd in Text I-1; incipits of subsections of Texts I-2 and I-3; notes in the upper margins; elements of the punctuation signs; Ethiopic numerals; in the incipit page of Text I-1 lines are rubricated, alternating with black lines (s. fol. 2r).</rubric>
+                     <rubric>Nomina sacra; names of the donors; the words mәʿәraf, nägär and täʾamr; incipit of Text I-1; the word ʾәsäggәd in Text I-1; incipits of subsections of Texts I-2 and I-3; notes in the upper margins; elements of the punctuation signs; Ethiopic numerals; in the incipit page of Text I-1 lines are rubricated, alternating with black lines (s. fol. 2r).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">59.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
-                                                <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">59.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">9.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">19.0</width>
@@ -93,7 +91,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 Some fols. are of irregular size (trimmed).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>160</height>
                               <width>165</width>
@@ -106,27 +104,27 @@ Some fols. are of irregular size (trimmed).</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">15</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 3r (quires I-V).</ab>
+                           <note>All data for fol. 3r (quires I-V).</note>
                            <ab type="ruling">For quires VI-VII: 21</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern:1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, angular (hand a); careful (hand b).</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century.</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">quires I-V.</handNote>
@@ -135,9 +133,8 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small">Fol. 45rb: Donation note.</span></locus>
-                           <q xml:lang="gez"/>
-                           <q xml:lang="en"/>
+                           <locus/><p><span style="font-size: small">Fol. 45rb: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 45rb, l. 18: </span><span style="font-size: large">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4632;&#4925;&#4624;&#4941;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: small">[sic]</span></span>&#4961;<span style="font-size: xx-small"> </span>&#4824;&#4768;&#4925;&#4624;&#4941;&#4781;&#4811;&#4961; &#4768;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4616;&#4708;&#4720;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4704;&#4808;&#4653;&#4677;&#4840;</span><span style="font-size: large"><span style="font-size: small">[sic]</span></span><span style="font-size: large">&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4752;&#4754;&#4961; &#4768;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4936;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small">Fol. 45r: I had this book written, G&#228;br&#228; D&#601;ng&#601;l, for the Bet&#228; M&#228;sq&#228;l of W&#228;rq&#601;ya, so that it might be for me a reward in the Heavenly Kingdom. Anyone who stole it or erased (its) text, be excommunicated through the mouth of Peter and Paul.&#160;</span></p></q>
                            <p/>
                         </item>
                      </list>
@@ -158,7 +155,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0017Ë&#x81;UraQirqos">Ë&#x81;Ura Qirqos / UQ</placeName>
+                        <placeName corresp="INS0017UQ">Ë&#x81;Ura Qirqos / UQ</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1920">Quires I-V: late 19th century-early 20th century. &#xD;
 Quires VI-VII: early 20th century.</origDate>
@@ -196,13 +193,9 @@ Quires VI-VII: early 20th century.</origDate>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">For quires I-V, Gäbrä Dəngəl, Zärʾa Haymanot and Wälättä Bərhan (s. Additio 1 and the supplication formula in fol. 45rb). For quires VI and VII, Kəflä Maryam (s. the supplication formulas in fol. 47ra and elsewhere).</persName>
+                  <persName corresp="PRS0000">For quires I-V, Gäbrä Dәngәl, Zärʾa Haymanot and Wälättä Bәrhan (s. Additio 1 and the supplication formula in fol. 45rb). For quires VI and VII, Kәflä Maryam (s. the supplication formulas in fol. 47ra and elsewhere).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -225,7 +218,7 @@ Quires VI-VII: early 20th century.</origDate>
          <change who="DN" when="2010-04-29">registered</change>
          <change who="SA" when="2012-06-19T09:02:54.376Z">created</change>
          <change who="SH" when="2014-06-03T14:18:05.574Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

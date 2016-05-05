@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0144ḤarennätGäbäzäytiQǝddǝstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0144MHG"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MHG-015</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fol. 3r), two lines are rubricated (alternating w
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">35.0</measure> folios,
-                                                in
-                                                <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">35.0</measure> folios, in <measure unit="quire">8.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">18.0</height>
                               <width unit="cm">12.5</width>
@@ -101,7 +99,7 @@ Some fols. are stained with wax and dirt.&#xD;
 A tear is carefully amended on fol. 1.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="18">
                            <dimensions unit="mm">
                               <height>135</height>
                               <width>100</width>
@@ -114,43 +112,44 @@ A tear is carefully amended on fol. 1.</condition>
                               <dim type="left">15</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 4r.</ab>
+                           <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are partly visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>18th - mid-9th century (?)</date>
+                        <list type="abbreviations">
+                           <item>ይብ፡ ካህ፡ (fol. 4rb) or ይበ፡ ካ፡ (fol. 4vb) for ይብል፡ ካህን፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 34va: Ownership note.</span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;">Fol. 34va: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: left;">Fol. 34va: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4704;&#4830;&#4961; &#4808;&#4676;&#4656;&#4961; &#4872;&#4704;&#4829;&#4610;&#4961; &#4808;&#4621;&#4848;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4616;&#4824;&#4920;&#4624;&#4939;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4616;&#4824;&#4722;&#4961; &#4632;&#4925;&#4627;&#4941;&#4961; &#4608;&#4710;&#4633;&#4961; &#4819;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4770;&#4725;&#4653;&#4661;&#4769;&#4754;&#4961; &#4704;&#4920;&#4622;&#4725;&#4781;&#4633;&#4961; &#4969;&#4969;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions that the Ms. is in the possession of (the church of) Maryam Gäbäzo and that the qes gäbäz is Wäldä Ḥawaryat.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 34vb: Ownership note.</span></locus>
-                           <q xml:lang="gez">Fol. 34vb: <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4624;&#4652;&#4752;&#4725;&#4961; &#4808;&#4616;&#4896;&#4651;&#4826;&#4609;&#4754;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 34vb: Ownership note.</span></p><q xml:lang="gez"><p>Fol. 34vb: <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4624;&#4652;&#4752;&#4725;&#4961; &#4808;&#4616;&#4896;&#4651;&#4826;&#4609;&#4754;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note mentions that the Ms. belongs to the church Däbrä Maryam Ḥarennät and that the binder of the Ms. is Gäbrä Maryam. The word ṭärrazi corresponds to the Amharic word ṭärraž meaning “one who sews” (s. KaneDic2:2122).</p>
                         </item>
                         <item xml:id="e1">- The title መፅሐፋ፡ [sic] ጥምቀት፡ is crudely written in pen on fol. 1r.&#xD;
 - The title መፅሐፈ፡ ጥምቀት፡ is crudely written in pen on fol. 35v.&#xD;
@@ -173,7 +172,7 @@ The quires are reinforced by parchment guards.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0144ḤarennätGäbäzäytiQǝddǝstMaryam">Ḥarennät Gäbäzäyti Qǝddǝst Maryam / MHG</placeName>
+                        <placeName corresp="INS0144MHG">Ḥarennät Gäbäzäyti Qǝddǝst Maryam / MHG</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850">Mid-18th - mid-19th cent. (?)</origDate>
                   </origin>
@@ -215,10 +214,6 @@ The quires are reinforced by parchment guards.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -239,7 +234,7 @@ The quires are reinforced by parchment guards.</decoNote>
          <change who="DN" when="2011-05-20">registered</change>
          <change who="SA" when="2013-12-05T14:29:38.248Z">created</change>
          <change who="DN" when="2015-09-14T10:14:11.081Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

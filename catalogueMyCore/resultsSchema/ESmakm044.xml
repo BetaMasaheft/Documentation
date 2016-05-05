@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0174MayË&#x80;AnbÃ¤saKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0174MAKM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MAKM-044</idno>
                </msIdentifier>
                <msContents>
@@ -51,9 +51,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">132.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">4.0</measure> blank, in
-                                                <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">132.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">19.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">36.0</height>
                               <width unit="cm">30.5</width>
@@ -131,7 +129,7 @@ Holes or tears roughly amended on fols. 4, 9, 19, 33, 38, 48, 62, 77, 92, 103, 1
 Colour of the parchment and ink of quire I is different from the rest of the Ms.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="3" writtenLines="50">
                            <dimensions unit="mm">
                               <height>280</height>
                               <width>265</width>
@@ -144,15 +142,17 @@ Colour of the parchment and ink of quire I is different from the rest of the Ms.
                               <dim type="left">10</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Quire II: all data are for fol. 2r.</ab>
+                           <note>Quire II: all data are for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A1A1A/0-0/0-0/C</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="3" writtenLines="27">
                            <dimensions unit="mm">
                               <height>245</height>
                               <width>250</width>
@@ -165,40 +165,37 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">27</dim>
                               <dim type="intercolumn"/>
                            </dimensions>
-                           <ab type="ruling">Quires III-XVIII: all data are for fol. 8r.</ab>
+                           <note>Quires III-XVIII: all data are for fol. 8r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A1A1A/0-0/0-0/C</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Fine, regular.</ab>
-                        <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Second half of the 19th century (?)</date>
+                        <seg type="ink">Black; red.</seg>The name of the scribe, now unreadable, was mentioned in Additio 2.<date>Second half of the 19th century (?)</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic"/>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 63r: Note on the land charter issued by King Yo&#7717;ann&#601;s IV (r. 1872-89) to </span><span unicode="" style="line-height: 115%; font-size: 10pt;">May &#704;Anb&#228;sa.</span>&#160;</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 63r: Note on the land charter issued by King Yo&#7717;ann&#601;s IV (r. 1872-89) to </span><span unicode="" style="line-height: 115%; font-size: 10pt;">May &#704;Anb&#228;sa.</span>&#160;</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>In Amharic; the note concerns the gwǝlt to May ʾAnbäsa donated by King Yoḥannǝs IV (r. 1872-89).</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#">&#160;</locus>
-                           <q xml:lang="gez"/>
+                           <locus/><div style="text-align: left;"><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 131rc: Donation note (?)</span></div> <p>&#160;</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The note is effaced. The name of the donor Täklä Wängel and the name of his wife are still readable; the note contained also the name of the scribe, written in red ink, now unreadable.</p>
                         </item>
                         <item xml:id="e1">- Incomplete list of the items owned by the monastery, crudely written in blue pen: fol. 1v. &#xD;
 - The title ብስራተ፡ አብ፡ ትሩፍ፡ is carefully written in red ink on ol. 1v. &#xD;
@@ -222,7 +219,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0174MayË&#x80;AnbÃ¤saKidanÃ¤MÇ&#x9d;á¸¥rÃ¤t">May Ë&#x80;AnbÃ¤sa KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t / MAKM</placeName>
+                        <placeName corresp="INS0174MAKM">May Ë&#x80;AnbÃ¤sa KidanÃ¤ MÇ&#x9d;á¸¥rÃ¤t / MAKM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent. (?)&#xD;
 Additio 1, dated to the time of King Yoḥannǝs IV (r. 1872-89), is probably executed in the same hand as that of the main text.</origDate>
@@ -265,10 +262,6 @@ Additio 1, dated to the time of King Yoḥannǝs IV (r. 1872-89), is probably ex
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -290,7 +283,7 @@ Additio 1, dated to the time of King Yoḥannǝs IV (r. 1872-89), is probably ex
          <change who="DN" when="2011-11-02">registered</change>
          <change who="IF" when="2012-08-07T08:23:00.489Z">created</change>
          <change who="VR" when="2015-05-06T08:45:47.944Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

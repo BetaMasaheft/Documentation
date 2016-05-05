@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0017ʿUraQirqos"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0017UQ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>UM-020</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ In the incipit page of Texts I and II (fols. 2r, 107v), a few lines are rubricat
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">132.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">3.5</measure> blank, in
-                                                <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">132.0</measure> folios, of which <measure unit="leaf" type="blank">3.5</measure> blank, in <measure unit="quire">18.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">27.5</height>
                               <width unit="cm">25.0</width>
@@ -126,7 +124,7 @@ In the incipit page of Texts I and II (fols. 2r, 107v), a few lines are rubricat
                         <condition key="good">- Folio preceding fol. 1 has been cut short, only about half of the folio is preserved.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="26">
                            <dimensions unit="mm">
                               <height>191</height>
                               <width>168</width>
@@ -139,32 +137,32 @@ In the incipit page of Texts I and II (fols. 2r, 107v), a few lines are rubricat
                               <dim type="left">15</dim>
                               <dim type="intercolumn">13</dim>
                            </dimensions>
+                           <note/>
                            <ab type="ruling"/>
-                           <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are partly visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible (s. fol. 50r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 58r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The scribe did not strictly conform to the ruling lines.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black; red; scarlet.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
-                        <date>Late 19th – early 20th centuries</date>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä ʾƎgziʾabǝḥer</persName>Gäbrä ʾƎgziʾabǝḥer is mentioned as the scribe in the supplication formula on fol. 114vb. The same scribe wrote KAE-001 (hand b).<date>Late 19th – early 20th centuries</date>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 2ra-129vb (quires I-XVI)</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 130ra-131rb (quire XVII)</handNote>
@@ -172,16 +170,14 @@ The scribe did not strictly conform to the ruling lines.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 1r-1v</span><span unicode="" style="line-height: 115%;">-131v:</span><span lang="EN-US" unicode="" style="line-height: 115%;"> Inventory of books&#160;in the possession&#160;of the church library.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 1r-1v</span><span unicode="" style="line-height: 115%;">-131v:</span><span lang="EN-US" unicode="" style="line-height: 115%;"> Inventory of books&#160;in the possession&#160;of the church library.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Crudely written in a recent hand (in pen and pencil). The ordinal numbers of the books are given in Arabic numerals.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 107ra: Donation note.</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 107ra: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4624;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &lt;...&gt; &#4824;&#4808;&#4624;&#4709;&#4814;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;">&#160;&lt;...&gt;</span><span style="line-height: 115%; font-family: Nyala;"> <span lang="AMH">&#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></span></q>
-                           <q xml:lang="en"/>
-                           <p/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 107ra: Donation note.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 107ra: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4624;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &lt;...&gt; &#4824;&#4808;&#4624;&#4709;&#4814;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;">&#160;&lt;...&gt;</span><span style="line-height: 115%; font-family: Nyala;"> <span lang="AMH">&#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">[Fol. 107ra]: This book belongs to &#7717;al&#228;qa G&#228;br&#228;&#160;... who has donated it to &#704;abun&#228; ...&#160;so that it&#160;might be for him&#160;the guide to the Kingdom of Heaven. Anyone who stole it it or erased (its text)&#160;will be excommunicated by the authority of Peter and Paul.</span></span></span></p></q>
+                           <p>Part of the donor’s name and the name of the institution to which the Ms. was donated have been erased.</p>
                         </item>
                         <item xml:id="e1">- The scribe(s) did not pay much attention to the ruling lines.&#xD;
 - Fol. 0r, 0v. Crude notes and drawing of a cross.&#xD;
@@ -206,7 +202,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0017ʿUraQirqos">ʿUra Qirqos / UQ</placeName>
+                        <placeName corresp="INS0017UQ">ʿUra Qirqos / UQ</placeName>
                      </origPlace>
                      <origDate notBefore="1889" notAfter="1913">King Mǝnilǝk II (r. 1889-1913) is mentioned as the ruling monarch in a supplication (fol. 54vb).</origDate>
                   </origin>
@@ -249,8 +245,7 @@ It is not certain whether Gäbrä Maryam mentioned on fol. 120vb is the same per
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
+                  <persName role="scribe" corresp="PRS00000">Gäbrä ʾƎgziʾabǝḥer</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -273,7 +268,7 @@ It is not certain whether Gäbrä Maryam mentioned on fol. 120vb is the same per
          <change who="DN" when="2010-04-28">registered</change>
          <change who="IF" when="2011-09-29T10:06:17.293Z">created</change>
          <change who="MK" when="2014-10-09T16:33:45.499Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

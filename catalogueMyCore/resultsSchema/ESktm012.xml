@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0137KädiḥDäbräTäwaḥədoQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0137KTM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>KTM-012</idno>
                </msIdentifier>
                <msContents>
@@ -55,9 +55,7 @@ Elements of the Ethiopic numbers and of the punctuation signs.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">78.0</measure> folios,
-                                                in
-                                                <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">78.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">11.0</width>
@@ -108,7 +106,7 @@ Some fols. are affected by humidity or water (e.g., fol.  69v).&#xD;
 The front board shows traces of repair (two holes, one of them with metal wire, at the right edge).</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>106</height>
                               <width>86</width>
@@ -121,38 +119,42 @@ The front board shows traces of repair (two holes, one of them with metal wire, 
                               <dim type="left">7</dim>
                               <dim type="intercolumn">5</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 6r.</ab>
+                           <note>All data are for fol. 6r.</note>
                            <ab type="ruling">the number of the lines is irregular and changes between 14 and 19</ab>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The layout (number, setting and orientation of the ruled lines, space between them, width of the columns space) is not uniform; the scribe often disregarded the ruling (e.g., fol. 74v).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 One or two bottom lines have not been used by the scribe in fols. 5r, 5v, 8r, 19r, 20r, 22ra, 22ra, 23r, 23vb, 53r, 54r, 74r.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab>
 Fols. 41v, 42rv, 43rv, 44rv, 47rv, 48v, 54rv have an additional ruled line in the upper or bottom margins.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Mediocre, irregular.</ab>
                         <seg type="ink">Black; red (brilliant red in fols. 5ra-6vb; brilliant vermillion in fols. 7ra-76vb, a few times deep vermillion as in fol. 20ra)</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለ፡ ዓ፡ አ፡/ ለዓ፡ ዓ፡/ ለዓ፡ ዓ፡ አሜ፡/ ለ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g. fols. 30vb, 35va, 38vb, 53rb, 73rb).</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">the space between the letters, the sloping, of the number of the written and ruled lines, etc.</handNote>
                      <handNote xml:id="h3" script="Ethiopic"/>
@@ -162,16 +164,14 @@ Fols. 41v, 42rv, 43rv, 44rv, 47rv, 48v, 54rv have an additional ruled line in th
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fols. 1r-3r: Unidentified protective prayers (?).</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fols. 1r-3r: Unidentified protective prayers (?).</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The initial part (in fol. 1r) is not fully readable.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 77r: Calendaric note (?).</span></span></span><span lang="EN-US" unicode="" style="line-height: 115%; font-family: ; font-size: 10pt;"><br /> </span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 77r: Calendaric note (?).</span></span></span><span lang="EN-US" unicode="" style="line-height: 115%; font-family: ; font-size: 10pt;"><br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Written crudely (in a faded ink) in a recent hand.</p>
                         </item>
                         <item xml:id="e1">- In the text, the word ሰይጣን, or its plural ሰይጣናት, is written upside down (e.g., fols. 25vb ls. 15-16, 52vb l.5).&#xD;
 - Spaces for rubrication left unfilled: fols. 7va, 55va, 55vb.&#xD;
@@ -196,7 +196,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0137KädiḥDäbräTäwaḥədoQəddəstMaryam">Kädiḥ Däbrä Täwaḥədo Qəddəst Maryam / KTM</placeName>
+                        <placeName corresp="INS0137KTM">Kädiḥ Däbrä Täwaḥәdo Qәddәst Maryam / KTM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -238,10 +238,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -262,7 +258,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-12-17">registered</change>
          <change who="VP" when="2013-11-01T15:16:56.286Z">created</change>
          <change who="DN" when="2014-09-07T08:13:03.715Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

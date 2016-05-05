@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Ṣalotä ʿǝṭan “Prayer of Incense”</title>
+            <title>Ṣalotä ˤǝṭan “Prayer of Incense”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0034DäbräZäytQəddəstMaryam"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0034DZ"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>DZ-020</idno>
                </msIdentifier>
                <msContents>
@@ -52,9 +52,7 @@ On the incipit page of Text I (fol. 3r), a few lines are rubricated (alternating
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">39.0</measure> folios,
-                                                in
-                                                <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">39.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">16.8</height>
                               <width unit="cm">12.5</width>
@@ -96,7 +94,7 @@ The leaves of the last quire, with miniatures (fols. 38-39) are of a smaller siz
                         <condition key="good">Fols. 38-39 of the last quire (bifolio) originate from a different, older Ms. (15th cent.?) and has been sewn into the codex later. Holes carefully amended on fols. 19, 30.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>120</height>
                               <width>100</width>
@@ -109,29 +107,29 @@ The leaves of the last quire, with miniatures (fols. 38-39) are of a smaller siz
                               <dim type="left">8</dim>
                               <dim type="intercolumn">5</dim>
                            </dimensions>
-                           <ab type="ruling">All data for fol. 6r.</ab>
+                           <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Pricking and ruling are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Structural pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
                         <seg type="ink">Black, red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>First half of the 20th century.</date>
                      </handNote>
                   </handDesc>
@@ -151,7 +149,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0034DäbräZäytQəddəstMaryam">Däbrä Zäyt Qəddəst Maryam / DZ</placeName>
+                        <placeName corresp="INS0034DZ">Däbrä Zäyt Qәddәst Maryam / DZ</placeName>
                      </origPlace>
                      <origDate notBefore="1881" notAfter="1926">Metropolitan Matewos (in tenure in 1881-1926) is mentioned on fol. 19vb.</origDate>
                   </origin>
@@ -188,13 +186,9 @@ Two pairs of sewing stations.</decoNote>
          <particDesc>
             <listPerson>
                <person><!--donor-->
-                  <persName corresp="PRS0000">Kidanä Maryam and Wälättä Krəstos are mentioned in supplication formulas on fols. 21ra, 28rb, 36rb.</persName>
+                  <persName corresp="PRS0000">Kidanä Maryam and Wälättä Krәstos are mentioned in supplication formulas on fols. 21ra, 28rb, 36rb.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
-               <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -217,7 +211,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-07">registered</change>
          <change who="SA" when="2014-01-28T10:06:59.345Z">created</change>
          <change who="EG" when="2014-05-04T09:47:09.008Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

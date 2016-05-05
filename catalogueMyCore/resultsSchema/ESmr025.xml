@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0042MÓ&#x99;drÃ¤Ruba"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0042MR"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MR-025</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ In fol. 11r, the text is written alternately in red and black lines. Occasionall
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">142.0</measure> folios,
-                                                of which <measure unit="leaf" type="blank">1.0</measure> blank, in
-                                                <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">142.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">16.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">13.5</width>
@@ -129,7 +127,7 @@ Quire I, comprising Texts I and II written by different hands and usually absent
                         <condition key="deficient">The Ms. is worn. The end part of Text V-10 is missing. Boundaries between some of the quires are difficult to establish, as many leaves were later sewn together by means of additional crude threads. Back cover is missing.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="17">
                            <dimensions unit="mm">
                               <height>95</height>
                               <width>105</width>
@@ -142,28 +140,33 @@ Quire I, comprising Texts I and II written by different hands and usually absent
                               <dim type="left">8</dim>
                               <dim type="intercolumn">8</dim>
                            </dimensions>
-                           <ab type="ruling">All data are for fol. 30r.</ab>
+                           <note>All data are for fol. 30r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are partly visible (s. fol. 117r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are partly visible (s. fol. 56r).</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling.</ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Neat, regular, careful.</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>Mid-17th cent.</date>
+                        <list type="abbreviations">
+                           <item>ይ፡ካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይ፡ዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይ፡ሕ፡ for ይበል፡ ሕዝብ፡</item>
+                        </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
@@ -172,10 +175,9 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00"><span style="font-size: small"><span lang="DE" style="line-height: 115%" arial="" unicode="">Fols. 7ra-8ra: Prayer to God.</span></span><span style="font-size: medium"><span lang="DE" style="line-height: 115%" arial="" unicode=""><br /> </span></span></locus>
-                           <q xml:lang="gez"><span style="font-size: small;">Fol. 7ra: </span><span style="font-size: large">እገኒ፡ ለከ፡ እግዚአ <span style="font-size: small;">[sic]</span>፡ አምላኪየ፡ አኃዜ፡ ኵሉ፡ ዓለም፡ ዘትነብር፡ ዲበ፡ ሰረገላ፡ ኪሩቤል፡ ወሱራፌል፡...</span></q>
-                           <q xml:lang="en"><span style="font-size: small">Fol. 7ra: I praise Thee, Lord my God, the Keeper of the whole world, who sitst upon the chariot of Cherubim and Seraphim...</span></q>
-                           <p/>
+                           <locus/><p><span style="font-size: small"><span lang="DE" style="line-height: 115%" arial="" unicode="">Fols. 7ra-8ra: Prayer to God.</span></span><span style="font-size: medium"><span lang="DE" style="line-height: 115%" arial="" unicode=""><br /> </span></span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 7ra: </span><span style="font-size: large">እገኒ፡ ለከ፡ እግዚአ <span style="font-size: small;">[sic]</span>፡ አምላኪየ፡ አኃዜ፡ ኵሉ፡ ዓለም፡ ዘትነብር፡ ዲበ፡ ሰረገላ፡ ኪሩቤል፡ ወሱራፌል፡...</span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small">Fol. 7ra: I praise Thee, Lord my God, the Keeper of the whole world, who sitst upon the chariot of Cherubim and Seraphim...</span></p></q>
+                           <p>Crudely written in reddish-brown ink; the end part is hardly legible.</p>
                         </item>
                         <item xml:id="e1">- Fol. 1r: Crude notes, in black ink (writing exercise?).&#xD;
 - Fol. 2r: in the bottom margin. Crude notes.&#xD;
@@ -200,7 +202,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MÓ&#x99;drÃ¤Ruba">MÓ&#x99;drÃ¤ Ruba /MR</placeName>
+                        <placeName corresp="INS0042MR">MÓ&#x99;drÃ¤ Ruba /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1648" notAfter="1649">On fols. 17va, 28ra, 28rb, 52ra, Fasilädäs (r. 1632-67) is mentioned as the reigning King. Marqos is mentioned as the Patriarch and Yoḥannǝs as the Metropolitan on fol. 43vb. Marqos mentioned as the Patriarch and another Marqos as the Metropolitan on fol. 52rb. Mark VI was Patriarch of Alexandria in 1645-60; Marqos III was Metropolitan of Ethiopia from 1635 to ca. 1648; Yoḥannǝs was one of the two bishops that arrived in Ethiopia to succeed Marqos III, but was never officially proclaimed Metropolitan.</origDate>
                   </origin>
@@ -242,10 +244,6 @@ Two pairs of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -266,7 +264,7 @@ Two pairs of sewing stations.</decoNote>
          <change who="DN" when="2010-05-12">registered</change>
          <change who="IF" when="2012-05-09T06:26:10.995Z">created</change>
          <change who="EG" when="2014-04-14T14:33:16.947Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

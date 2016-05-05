@@ -29,8 +29,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
-                  <repository corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel"/>
-                  <collection>Ethio-Spare</collection>
+                  <repository corresp="INS0216MGM"/>
+                  <collection>Ethio-SPaRe</collection>
                   <idno>MGM-010</idno>
                </msIdentifier>
                <msContents>
@@ -53,9 +53,7 @@ A few groups of lines and a single line (alternating with a black line) on the i
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">157.0</measure> folios,
-                                                in
-                                                <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">157.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">13.7</width>
@@ -144,7 +142,7 @@ The edges of fols. 117, 136-137, 147-151 are damaged by rodents. &#xD;
 A hole is carefully amended on fol. 90.</condition>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>
+                        <layout columns="2" writtenLines="19">
                            <dimensions unit="mm">
                               <height>111</height>
                               <width>113</width>
@@ -157,19 +155,21 @@ A hole is carefully amended on fol. 90.</condition>
                               <dim type="left">6</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 1r-135v, 138ra-155rb: all data for fol. 2r.</ab>
+                           <note>Fols. 1r-135v, 138ra-155rb: all data for fol. 2r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout columns="2" writtenLines="15">
                            <dimensions unit="mm">
                               <height>88</height>
                               <width>110</width>
@@ -182,28 +182,60 @@ The bottom line is written above the ruling.</ab>
                               <dim type="left">5</dim>
                               <dim type="intercolumn">10</dim>
                            </dimensions>
-                           <ab type="ruling">Fols. 136r-137v: all data for fol. 137r.</ab>
+                           <note>Fols. 136r-137v: all data for fol. 137r.</note>
                            <ab type="ruling"/>
-                           <ab type="pricking" subtype="pattern">Ruling and pricking are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Primary pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The upper line is written above the ruling. </ab>
-                           <ab type="pricking" subtype="pattern">
+                           <ab type="ruling">
 The bottom line is written above the ruling.</ab>
                         </layout>
+                        <layout/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Hand a: poor, careless, irregular; hand b: mediocre, careless</ab>
                         <seg type="ink">Black, red</seg>
-                        <persName role="scribe" corresp="PRS00000"><!--Only the name of the scribe should be here, with appropriate correspondence--></persName>
                         <date>19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>Text I</item>
+                           <item>ሰ፡ for ሰአሊ፡ ለነ፡ ቅድስት</item>
+                           <item>Words or their abbreviations stand for the whole refrain:</item>
+                           <item>
+                              <abbr>ሠ፡</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fol. 1rb-vb)</item>
+                           <item>
+                              <abbr>እ᎓/እስ፡/እስመ፡</abbr> for <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 2ra-3ra)</item>
+                           <item>
+                              <abbr>ኵሉ፡</abbr> for <expan>ኵሉ፡ ትውልድ፡ ያስተበፅዑኪ፡ ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ </expan> (fols. 3rb-4rb)</item>
+                           <item>
+                              <abbr>ናዓ፡</abbr> for <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 4va-6ra)</item>
+                           <item>
+                              <abbr>ለኪ፡</abbr> for <expan>ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እመ፡ ብርሃን፡ ናዓብየኪ፡ በስብሐት፡ ወበውዳሴ </expan> (fol. 6ra)</item>
+                           <item>
+                              <abbr>ተፈ፡/ ተፈሥ፡</abbr> for <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fol. 7rb-vb)</item>
+                           <item>
+                              <abbr>ወበ፡/ወበእንተ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fol. 8ra-vb)</item>
+                           <item>Texts II-VII</item>
+                           <item>
+                              <abbr>ም፡/ምል፡/ ምልጣ፡</abbr> for <expan>ምልጣን፡ </expan> (e.g., fols. 81va, 82vb, 83rb)</item>
+                           <item>
+                              <abbr>ማኅሌ፡</abbr> for <expan>ማኅሌት፡ </expan> (e.g, fol. 131rb)</item>
+                           <item>
+                              <abbr>ስብ፡/ ስብሐ፡</abbr> for <expan>ስብሐተ፡ ነግህ፡ </expan> (e.g., fols. 83va, 99vb, 125rb)</item>
+                           <item>
+                              <abbr>እስመ፡/እስመ፡ ለ፡</abbr> for <expan>እስመ፡ ለዓለም፡ </expan> (e.g., fols. 91vb, 97vb, 115rb)</item>
+                           <item>
+                              <abbr>ሃ፡</abbr> for <expan>ሃሌሉያ፡ </expan> (e.g., fol. 104vb)</item>
+                           <item>
+                              <abbr>ይትባ፡/ይትባረ፡</abbr> for <expan>ይትባረክ፡ </expan> (e.g., fols. 73ra, 88ra, 89rb)</item>
+                        </list>
                      </handNote>
                      <handNote xml:id="h2" script="Ethiopic">fols. 1ra-135ra, 138ra-143ra, 144ra-155rb</handNote>
                      <handNote xml:id="h3" script="Ethiopic">fols. 136ra-137vb</handNote>
@@ -211,80 +243,67 @@ The bottom line is written above the ruling.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va (above): Protective prayer (?).</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va:</span><span lang="EN-US" style="line-height: 115%;" arial="" unicode=""> </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4661;&#4677;&#4621;&#4840;&#4661;&#4961; &#4672;&#4637;&#4961; &#4720;&#4648;&#4723;&#4821;&#4961; &#4824;&#4622;&#4637;&#4843;&#4661;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va (above): Protective prayer (?).</span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va:</span><span lang="EN-US" style="line-height: 115%;" arial="" unicode=""> </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4661;&#4677;&#4621;&#4840;&#4661;&#4961; &#4672;&#4637;&#4961; &#4720;&#4648;&#4723;&#4821;&#4961; &#4824;&#4622;&#4637;&#4843;&#4661;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a2">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va (below): &#704;Asmat-prayer.</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4939;&#4770;&#4961; &#4827;&#4770;&#4961; &#4624;&#4920;&#4961; &#4648;&#4706;&#4961; &#4624;&#4672;&#4781;&#4757;&#4961; &#4808;&#4648;&#4781;&#4778;&#4781;&#4757;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></q>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va (below): &#704;Asmat-prayer.</span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70va:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4939;&#4770;&#4961; &#4827;&#4770;&#4961; &#4624;&#4920;&#4961; &#4648;&#4706;&#4961; &#4624;&#4672;&#4781;&#4757;&#4961; &#4808;&#4648;&#4781;&#4778;&#4781;&#4757;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is followed by a few signs in angelic script.</p>
                         </item>
                         <item xml:id="a3">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70vb: Protective prayer against bleeding and against black slaves (barya &#7779;&#228;lliman).</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70vb:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4704;&#4661;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;">&#8221;</span><span lang="PT" style="line-height: 115%; font-family: ;">&#8230;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial; mso-ascii-font-family: Arial;">&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4621;&#4665;&#4757;&#4961; &#4624;&#4665;&#4665;&#4757;&#4961; &#4632;&#4653;&#4632;&#4648;&#4637;&#4961; &#4661;&#4752;&#4961; &#4776;&#4648;&#4637;</span><span style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70vb: Protective prayer against bleeding and against black slaves (barya &#7779;&#228;lliman).</span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 70vb:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4704;&#4661;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;">&#8221;</span><span lang="PT" style="line-height: 115%; font-family: ;">&#8230;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial; mso-ascii-font-family: Arial;">&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4621;&#4665;&#4757;&#4961; &#4624;&#4665;&#4665;&#4757;&#4961; &#4632;&#4653;&#4632;&#4648;&#4637;&#4961; &#4661;&#4752;&#4961; &#4776;&#4648;&#4637;</span><span style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is followed by a few signs in angelic script.</p>
                         </item>
                         <item xml:id="a4">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80va: Q&#601;ne-poem (?).</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80va: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4632;&#4808;&#4853;&#4661;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4768;&#4637;&#4619;&#4781;:: &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4811;&#4613;&#4853;: &#4704;&#4819;&#4845;&#4752;&#4961; &#4621;&#4635;&#4848;&#4961; &#4656;&#4709;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></q>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80va: Q&#601;ne-poem (?).</span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80va: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4632;&#4808;&#4853;&#4661;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4768;&#4637;&#4619;&#4781;:: &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4811;&#4613;&#4853;: &#4704;&#4819;&#4845;&#4752;&#4961; &#4621;&#4635;&#4848;&#4961; &#4656;&#4709;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a5">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80vb (above): Prayer to St. Mary.</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80vb: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4673;&#4961; &#4704;&#4624;&#4824;&#4757;&#4961; &#4824;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&lt;&#8230;&gt;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4941;&#4645;&#4624;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></q>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80vb (above): Prayer to St. Mary.</span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 80vb: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4673;&#4961; &#4704;&#4624;&#4824;&#4757;&#4961; &#4824;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&lt;&#8230;&gt;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4941;&#4645;&#4624;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                         <item xml:id="a6">
-                           <locus target="#00" n="#"><span style="font-size: small;">Fol. 135rb: Unidentified text. </span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 135rb: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4675;&#4616;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4678;&#4677;&#4628;&#4725;&#4961; &#4808;&#4621;&#4853;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">...</span></span></q>
+                           <locus/><p><span style="font-size: small;">Fol. 135rb: Unidentified text. </span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 135rb: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4675;&#4616;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4678;&#4677;&#4628;&#4725;&#4961; &#4808;&#4621;&#4853;&#4961;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is written within a frame.</p>
                         </item>
                         <item xml:id="a7">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 135v: &#704;Asmat-prayer.</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 135v:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4618;&#4661;&#4961; &#4768;&#4941;&#4618;&#4661;&#4961; &#4632;&#4618;&#4661;&#4961; &#4632;&#4616;&#4778;&#4661;&#4961; &#4824;&#4828;&#4622;...</span></span></q>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 135v: &#704;Asmat-prayer.</span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 135v:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4618;&#4661;&#4961; &#4768;&#4941;&#4618;&#4661;&#4961; &#4632;&#4618;&#4661;&#4961; &#4632;&#4616;&#4778;&#4661;&#4961; &#4824;&#4828;&#4622;...</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is followed by a drawing of the seal of Solomon.</p>
                         </item>
                         <item xml:id="a8">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143r: Protective prayer for&#160;binding the Satan. </span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143r:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4704;&#4661;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;">&#8221;</span><span lang="PT" style="line-height: 115%; font-family: ;">&#8230;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial; mso-ascii-font-family: Arial;">&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4920;&#4622;&#4725;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4635;&#4773;&#4656;&#4649;&#4961; &#4616;&#4773;&#4656;&#4845;&#4899;&#4757;</span><span style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#8230;</span></span></q>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143r: Protective prayer for&#160;binding the Satan. </span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143r:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4704;&#4661;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ;">&#8221;</span><span lang="PT" style="line-height: 115%; font-family: ;">&#8230;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: EN-US; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial; mso-ascii-font-family: Arial;">&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: ;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: AMH; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#4920;&#4622;&#4725;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4635;&#4773;&#4656;&#4649;&#4961; &#4616;&#4773;&#4656;&#4845;&#4899;&#4757;</span><span style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: Calibri; mso-ansi-language: DE; mso-fareast-language: EN-US; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is written in the same hand as Additio 10.</p>
                         </item>
                         <item xml:id="a9">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va, 157r-v: M&#228;lk&#477;&#704;a&#160;Yo&#7717;ann&#601;s &#8220;Image of John&#8221; (buried in Egypt, liq&#228; &#7767;a&#7767;as). </span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va: </span></span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode="">&lt;&#8230;&gt; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4632;&#4872;&#4850;&#4661;:<span style="mso-spacerun: yes;">&#160; </span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode="">&lt;&#8230;&gt;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4824;&#4720;&#4648;&#4656;&#4840;: </span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode="">&lt;&#8230;&gt;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4752;&#4941;&#4661;&#4781;&#4754;: &#4824;&#4773;&#4853;&#4961; &#4656;&#4677;&#4616;&#4672;&#4961; &#4656;&#4635;&#4840;:: &#4846;&#4624;&#4757;&#4661;: &#4778;&#4843;&#4776;: &#4773;&#4661;&#4632;&#4961; &#4845;&#4725;&#4773;&#4632;&#4757;: &#4621;&#4709;&#4840;:: &#4723;&#4757;&#4877;&#4936;&#4754;: &#4808;&#4723;&#4853;&#4741;&#4752;&#4754;:<span style="mso-spacerun: yes;">&#160;&#160; </span></span></span></q>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va, 157r-v: M&#228;lk&#477;&#704;a&#160;Yo&#7717;ann&#601;s &#8220;Image of John&#8221; (buried in Egypt, liq&#228; &#7767;a&#7767;as). </span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va: </span></span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode="">&lt;&#8230;&gt; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4632;&#4872;&#4850;&#4661;:<span style="mso-spacerun: yes;">&#160; </span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode="">&lt;&#8230;&gt;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4824;&#4720;&#4648;&#4656;&#4840;: </span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode="">&lt;&#8230;&gt;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode=""> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4752;&#4941;&#4661;&#4781;&#4754;: &#4824;&#4773;&#4853;&#4961; &#4656;&#4677;&#4616;&#4672;&#4961; &#4656;&#4635;&#4840;:: &#4846;&#4624;&#4757;&#4661;: &#4778;&#4843;&#4776;: &#4773;&#4661;&#4632;&#4961; &#4845;&#4725;&#4773;&#4632;&#4757;: &#4621;&#4709;&#4840;:: &#4723;&#4757;&#4877;&#4936;&#4754;: &#4808;&#4723;&#4853;&#4741;&#4752;&#4754;:<span style="mso-spacerun: yes;">&#160;&#160; </span></span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text begins on fol. 143va and ends on fol. 157vb. Some parts of the prayer are barely legible due to faded ink.</p>
                         </item>
                         <item xml:id="a10">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va-vb: Protective prayer against head and eye diseases (</span><span lang="EN-US" style="color: black; line-height: 115%;">&#7717;&#477;mam r&#704;&#601;s w&#228;-&#705;ayn).</span></span></span></locus>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4920;&#4622;&#4725;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4629;&#4635;&#4637;&#4961; &#4653;&#4773;&#4661;&#4961; &#4808;&#4819;&#4845;&#4757;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4923;&#4853;&#4677;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></q>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va-vb: Protective prayer against head and eye diseases (</span><span lang="EN-US" style="color: black; line-height: 115%;">&#7717;&#477;mam r&#704;&#601;s w&#228;-&#705;ayn).</span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 143va:</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode=""> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4621;&#4961; &#4920;&#4622;&#4725;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4629;&#4635;&#4637;&#4961; &#4653;&#4773;&#4661;&#4961; &#4808;&#4819;&#4845;&#4757;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4923;&#4853;&#4677;</span><span style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The prayer is written in the same hand as Additio 8.</p>
                         </item>
                         <item xml:id="a11">
-                           <locus target="#00" n="#"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 154v: Unidentified text.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 154v: Unidentified text.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>The text is barely legible due to faded ink.</p>
                         </item>
                         <item xml:id="a12">
-                           <locus target="#00" n="#"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 156r: </span><span style="line-height: 115%;" unicode="">Protective </span><span lang="EN-US" style="line-height: 115%;" unicode="">prayer.</span></span></span></locus>
-                           <q xml:lang="gez"/>
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 156r: </span><span style="line-height: 115%;" unicode="">Protective </span><span lang="EN-US" style="line-height: 115%;" unicode="">prayer.</span></span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 156r</span></span></span><span lang="EN-US" style="line-height: 115%; font-family: ;" unicode="">: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4661;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4632;&#4624;&#4650;&#4961; &#4704;&#4632;&#4661;&#4720;&#4643;&#4629;&#4621;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4629;&#4653;&#4845;&#4961; &#4618;&#4720;&#4961; &#4640;&#4755;&#4845;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">...</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;" arial="" unicode=""> </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p/>
+                           <p>Above the prayer there is a table with letters, probably drawn for protective purposes.</p>
                         </item>
                         <item xml:id="a13">
-                           <locus target="#00" n="#"/>
-                           <q xml:lang="gez"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 156r: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4723;&#4705;&#4781;&#4961; &#4757;&#4821;&#4706;&#4961; &#4632;&#4618;&#4899;&#4961; &#4741;&#4648;&#4877;&#4961; &#4652;&#4659;...</span></span></q>
+                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 156r: </span><span style="line-height: 115%;" unicode="">Protective </span><span lang="EN-US" style="line-height: 115%;" unicode="">prayer to God (using qalat). </span></span></span></p><q xml:lang="gez"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" unicode="">Fol. 156r: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4723;&#4705;&#4781;&#4961; &#4757;&#4821;&#4706;&#4961; &#4632;&#4618;&#4899;&#4961; &#4741;&#4648;&#4877;&#4961; &#4652;&#4659;...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -313,7 +332,7 @@ One pair of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0216MǝʾǝsarGwǝḥilaQǝddusMikaʾel">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
+                        <placeName corresp="INS0216MGM">Mǝʾǝsar Gwǝḥila Qǝddus Mikaʾel / MGM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -355,10 +374,6 @@ One pair of sewing stations.</decoNote>
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000"/>
-                  <!--copyst-->
-               </person>
-               <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
                </person>
@@ -380,7 +395,7 @@ One pair of sewing stations.</decoNote>
          <change who="DN" when="2012-05-19">registered</change>
          <change who="MK" when="2014-08-25T09:31:14.639Z">created</change>
          <change who="DN" when="2014-09-25T11:50:24.910Z">last edited</change>
-         <change who="PL" when="2016-04-27+02:00">transformed from mycore to TEI
+         <change who="PL" when="2016-05-05+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>
