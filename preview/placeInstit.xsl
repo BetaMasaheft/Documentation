@@ -13,7 +13,8 @@
         <section id="general">
             <p> </p>
             <p>Edited by <xsl:apply-templates
-                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/><xsl:if test="//t:publicationStmt/t:date">on
+                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
+                <xsl:if test="//t:publicationStmt/t:date">on
                     <xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
                     /></xsl:if></p>
@@ -50,8 +51,8 @@
             <p>
                 <xsl:apply-templates select="//t:ab[@type='history']"/>
             </p>
-            <h3>Tabots</h3>
-            <p><xsl:value-of select="//t:ab[@type='tabot']"/></p>
+            <xsl:if test="t:ab[@type='tabot']"><h3>Tabots</h3>
+            <p><xsl:apply-templates select="//t:ab[@type='tabot']"/></p></xsl:if>
             <h2>Bibliography</h2>
             <xsl:apply-templates select="//t:listBibl"/>
             

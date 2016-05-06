@@ -70,7 +70,8 @@
                 </xsl:if>
             </p>
             <p>Edited by <xsl:apply-templates
-                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/> <xsl:if test="//t:publicationStmt/t:date">on
+                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/> 
+                <xsl:if test="//t:publicationStmt/t:date">on
                     <xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
                     /></xsl:if></p>
