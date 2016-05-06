@@ -24,8 +24,9 @@
                             </xsl:choose>
                         </a>
                     </xsl:when>
-                    <xsl:otherwise>No record for Place <xsl:value-of select="@corresp"
-                    /></xsl:otherwise>
+                    <xsl:otherwise><b style="color:red;
+                        text-align:center;">No record for Place <xsl:value-of select="@corresp"
+                        />** = <xsl:value-of select="."/> **</b></xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
             <xsl:otherwise>

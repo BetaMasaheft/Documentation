@@ -24,7 +24,8 @@
                 <xsl:if test="@role"> (<xsl:value-of select="@role"/>)</xsl:if>
                 
             </xsl:when>
-            <xsl:otherwise> **No record for Person <xsl:value-of select="@corresp"/>** = <xsl:value-of select="."/> **</xsl:otherwise>
+            <xsl:otherwise> <b style="color:red;
+                text-align:center;">**No record for Person <xsl:value-of select="@corresp"/>** = <xsl:value-of select="."/> **</b></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 </xsl:stylesheet>
