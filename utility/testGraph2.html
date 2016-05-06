@@ -1,0 +1,117 @@
+<html>
+<head>
+  <title>Model relations Graph</title>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 100%;
+      height: 1000px;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+
+
+<div id="BetMesRelView"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+var nodes = new vis.DataSet([
+        {id:"urn:cts:greekLit:tlg2148.tlg001:16", label:"FGrHist 104 16"},
+        {id:"urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", label:"Aristophanes Pax 605 a-b"},
+        {id:"urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:30", label:"Plutarch, Pericles 30"},
+        {id:"urn:cts:greekLit:tlg0007.tlg015.perseus-grc1:7", label:"Plutarch, Alcibiades 7"},
+        {id:"urn:cts:greekLit:tlg0007.tlg007.perseus-grc1:12", label:"Plutarch, Solon 12"},
+        {id:"urn:cts:greekLit:tlg0004.tlg001.perseus-grc1:1.10", label:"Diogenes Laertius, Epimenides, VP 109"},
+        {id:"urn:cts:greekLit:tlg0566.tlg001:f67a", label:"Theopompus FGrHist 115 F67a"},
+      {id:"urn:cts:greekLit:tlg0583.tlg001:f121", label:"Filocorus FGrHist 328 F121"},
+      {id:"urn:cts:greekLit:tlg9010.tlg001:p1179", label:"Suda Π1179"},
+      {id:"urn:cts:greekLit:tlg9010.tlg001:d243", label:"Suda Δ243"},
+      {id:"urn:cts:greekLit:tlg9010.tlg001:e3511", label:"Suda Ε3511"},
+      {id:"urn:cts:greekLit:tlg9010.tlg001:ei319", label:"Suda ΕΙ319"},
+      {id:"urn:cts:greekLit:tlg5024.tlg001:5.387", label:"Walz V 387"},
+      {id:"urn:cts:greekLit:tlg0060.tlg001.perseus-grc3:12.40", label:"Diodorus 12.40"},
+      {id:1, label:"Kilon and Epimenides"},
+      {id:2, label:"Pericles and Alcybiades"},
+      {id:3, label:"Fidias, Pericles and Megara"},
+]);
+var edges = new vis.DataSet([ 
+        {from: "urn:cts:greekLit:tlg5024.tlg001:5.387", to: "urn:cts:greekLit:tlg2148.tlg001:16", label:"saws:isDirectCopyOf"},
+        {from: "urn:cts:greekLit:tlg2148.tlg001:16", to: 3, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:30", to: 3, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", to: 3, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:p1179", to: 3, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:d243", to: 2, label:"saws:P10i_contains"}, 
+        {from: "urn:cts:greekLit:tlg9010.tlg001:e3511", to: 2, label:"saws:P10i_contains"}, 
+        {from: "urn:cts:greekLit:tlg9010.tlg001:ei319", to: 2, label:"saws:P10i_contains"}, 
+        {from: "urn:cts:greekLit:tlg0007.tlg015.perseus-grc1:7", to: 2, label:"saws:P10i_contains"}, 
+        {from: "urn:cts:greekLit:tlg5024.tlg001:5.387", to: 1, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg5024.tlg001:5.387", to: 2, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg0060.tlg001.perseus-grc3:12.40", to: 3, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg0007.tlg007.perseus-grc1:12", to: 1, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg0004.tlg001.perseus-grc1:1.10", to: 1, label:"saws:P10i_contains"},
+        {from: "urn:cts:greekLit:tlg0004.tlg001.perseus-grc1:1.10", to: "urn:cts:greekLit:tlg0566.tlg001:f67a", label:"R15i_is_fragment_of"},
+        {from: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", to: "urn:cts:greekLit:tlg2148.tlg001:16", label:"saws:usedBy"},
+        {from: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", to: "urn:cts:greekLit:tlg0583.tlg001:f121", label:"saws:usedBy"},
+        {from: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", to: "urn:cts:greekLit:tlg0060.tlg001.perseus-grc3:12.40", label:"saws:usedBy"},
+        {from: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", to: "urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:30", label:"saws:usedBy"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:d243", to: "urn:cts:greekLit:tlg0007.tlg015.perseus-grc1:7", label:"saws:isBasedOn"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:e3511", to: "urn:cts:greekLit:tlg0007.tlg015.perseus-grc1:7", label:"saws:isBasedOn"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:ei319", to: "urn:cts:greekLit:tlg0007.tlg015.perseus-grc1:7", label:"saws:isBasedOn"},
+         {from: "urn:cts:greekLit:tlg9010.tlg001:d243", to: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", label:"saws:isBasedOn"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:e3511", to: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", label:"saws:isBasedOn"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:ei319", to: "urn:cts:greekLit:tlg0019.tlg005.perseus-grc1:605", label:"saws:isBasedOn"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:p1179", to: "urn:cts:greekLit:tlg0007.tlg012.perseus-grc1:30", label:"saws:isBasedOn"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:p1179", to: "urn:cts:greekLit:tlg9010.tlg001:ei319", label:"saws:isSequentiallySimilarto"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:p1179", to: "urn:cts:greekLit:tlg9010.tlg001:e3511", label:"saws:isSequentiallySimilarto"},
+        {from: "urn:cts:greekLit:tlg9010.tlg001:p1179", to: "urn:cts:greekLit:tlg9010.tlg001:d243", label:"saws:isSequentiallySimilarto"},
+        {from: "urn:cts:greekLit:tlg0007.tlg007.perseus-grc1:12", to: "urn:cts:greekLit:tlg0004.tlg001.perseus-grc1:1.10", label:"saws:isBasedOn"},
+]);
+
+
+
+  // create a network
+  var container = document.getElementById('BetMesRelView');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    layout:{
+        improvedLayout:true
+    },
+    edges: {
+        smooth: {
+            enabled: true,
+            type: "dynamic",
+        //   roundness: 0.7
+        },
+    },
+    physics: {
+        stabilization: {
+            enabled: false,
+            iterations: 10000, // maximum number of iteration to stabilize
+            updateInterval: 5,
+            onlyDynamicEdges: false,
+            fit: true
+        },
+    }
+  };
+  options={
+    layout:{
+        improvedLayout:true
+    },
+    physics: {
+        stabilization: {
+            enabled: false}
+    }
+    };
+  var network = new vis.Network(container, data, options);
+</script>
+
+</body>
+</html>

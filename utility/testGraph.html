@@ -1,0 +1,90 @@
+<html>
+<head>
+  <title>Model relations Graph</title>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.css" rel="stylesheet" type="text/css" />
+
+  <style type="text/css">
+    #mynetwork {
+      width: 100%;
+      height: 1000px;
+      border: 1px solid lightgray;
+    }
+  </style>
+</head>
+<body>
+
+
+<div id="BetMesTest"></div>
+
+<script type="text/javascript">
+  // create an array with nodes
+var nodes = new vis.DataSet([
+        {id:1, type:"work", label:"LIT1541Garaan"},
+        {id:2, type:"person", label:"PRS2585Bayyana"},
+        {id:3, type:"work", label:"LIT2073Nezeta"},
+        {id:4, type:"institution", label:"INS00100MadhaneAlam"},
+        {id:5, type:"person", label:"PRS1153Abdalla"},
+        {id:6, type:"place", label:"LOC1012AbbaCa"},
+        {id:7, type:"mss", label:"ES9999"},  
+        {id:8, type:"work", label:"LIT9999another"},
+        {id:9, type:"narrative", label:"NAR0000name"},
+]);
+var edges = new vis.DataSet([
+        {from: 1, to: 2, label:"saws:AttributedAuthor"},
+        {from: 2, to: 3, label:"saws:decorationAddedBy"},
+        {from: 1, to: 3, label:"saws:CLP46i_may_form_part_of"},
+        {from: 3, to: 4, label:"saws:P50_has_current_keeper"},
+        {from: 5, to: 6, label:"syriaca:born-at"},
+        {from: 4, to: 6, label:"saws:physicallyLocatedAt"},
+        {from: 5, to: 2, label:"snap:ChildOfSiblingOf"},
+        {from: 7, to: 1, label:"saws:contains"},
+        {from: 7, to: 8, label:"saws:contains"},
+        {from: 8, to: 9, label:"saws:isBasedOn"},
+        {from: 1, to: 9, label:"saws:isBasedOn"},
+]);
+
+
+
+  // create a network
+  var container = document.getElementById('BetMesTest');
+  var data = {
+    nodes: nodes,
+    edges: edges
+  };
+  var options = {
+    layout:{
+        improvedLayout:false
+    },
+    edges: {
+        smooth: {
+            enabled: false,
+            type: "dynamic",
+        //   roundness: 0.7
+        },
+    },
+    physics: {
+        stabilization: {
+            enabled: false,
+            iterations: 10000, // maximum number of iteration to stabilize
+            updateInterval: 5,
+            onlyDynamicEdges: false,
+            fit: true
+        },
+    }
+  };
+  options={
+    layout:{
+        improvedLayout:true
+    },
+    physics: {
+        stabilization: {
+            enabled: false}
+    }
+    };
+  var network = new vis.Network(container, data, options);
+</script>
+
+</body>
+</html>
