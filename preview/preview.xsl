@@ -134,7 +134,7 @@
                     
                     
                     <xsl:otherwise><p style="font-size: xx-large; color:red;
-                        text-align:center;">THIS FILE HAS NO TYPE! <br/>Please VALIDATE before attempting to Transform if you want to see something</p></xsl:otherwise>
+                        text-align:center;">THIS FILE HAS NO TYPE! <br/>Please VALIDATE agains <a href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng">the schema</a> before attempting to Transform if you want to see something</p></xsl:otherwise>
                 </xsl:choose>
             </body>
         </html>
