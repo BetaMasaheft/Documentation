@@ -29,7 +29,7 @@
                       </xsl:choose>
                   </xsl:variable>
                       <a href="{$url}">
-                        <xsl:value-of select="$zotero//t:author/t:surname"/>
+                          <xsl:value-of select="if ($zotero//t:author) then (if ($zotero//t:author/t:surname) then ($zotero//t:author/t:surname) else ($zotero//t:author)) else (if ($zotero//t:editor/t:surname) then ($zotero//t:editor/t:surname) else ($zotero//t:editor))"/>
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="$zotero//t:date"/>
                        <xsl:if test="t:citedRange"> <xsl:text>, </xsl:text>
@@ -63,7 +63,7 @@
                             </xsl:choose>
                         </xsl:variable>
                         <a href="{$url}">
-                        <xsl:value-of select="$zotero//t:author/t:surname"/>
+                            <xsl:value-of select="if ($zotero//t:author) then (if ($zotero//t:author/t:surname) then ($zotero//t:author/t:surname) else ($zotero//t:author)) else (if ($zotero//t:editor/t:surname) then ($zotero//t:editor/t:surname) else ($zotero//t:editor))"/>
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="$zotero//t:date"/>
                         <xsl:if test="t:citedRange"> <xsl:text>, </xsl:text>

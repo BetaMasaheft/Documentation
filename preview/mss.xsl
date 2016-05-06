@@ -69,10 +69,11 @@
                     </xsl:for-each>
                 </xsl:if>
             </p>
-            <p>Edited by <xsl:value-of
-                    select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/> on
+            <p>Edited by <xsl:apply-templates
+                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/> <xsl:if test="//t:publicationStmt/t:date">on
                     <xsl:value-of
-                    select="format-dateTime(//t:publicationStmt/t:date, '[D].[M].[Y]')"/></p>
+                        select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
+                    /></xsl:if></p>
         </section>
         <section id="description">
             <h2>General description</h2>
@@ -366,7 +367,11 @@
                 <p><xsl:value-of select="@script"/>: <xsl:value-of select="t:ab[@type = 'script']"
                     /></p>
                 <p>Ink: <xsl:value-of select="t:seg[@type = 'ink']"/></p>
-                <xsl:apply-templates/>
+                <ul>
+                    <xsl:for-each select="t:list[@type='abbreviations']/t:item"><li><xsl:value-of select="."/></li></xsl:for-each>
+                </ul>
+                <b>Scribe</b>
+                <xsl:apply-templates select="child::node() except (t:list|t:ab|t:seg)"/>
             </xsl:for-each>
             <h4>Punctuation</h4>
             <p>Executed: <xsl:value-of select="//t:ab[@subtype = 'Executed']"/></p>
@@ -445,9 +450,10 @@
                         <xsl:for-each select="t:q">
                             <p>
                                 <xsl:value-of select="concat('(', @xml:lang, ') ')"/>
-                                <xsl:value-of select="."/>
+                                <xsl:apply-templates select="."/>
                             </p>
                         </xsl:for-each>
+                        <p><xsl:value-of select="./text()"/></p>
                     </li>
                 </xsl:for-each>
             </ol>
@@ -506,32 +512,12 @@
                 </thead>
                 <xsl:apply-templates mode="reltable" select="//t:listBibl[@type = 'relations']"/>
             </table>
+            <xsl:apply-templates mode="graph" select="//t:listBibl[@type = 'relations']"/>
         </section>
         <footer id="footer">
             <h2>Authors</h2>
             <ul>
-                <xsl:for-each select="//t:change">
-                    <xsl:sort select="count(distinct-values(@who))"/>
-                    <li>
-                        <xsl:value-of select="@who"/>
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="."/>
-                        <xsl:text> </xsl:text>
-                        <xsl:variable name="date">
-                            <xsl:choose>
-                                <xsl:when test="contains(@when, 'T')">
-                                    <xsl:value-of select="substring-before(@when, 'T')"/>
-                                </xsl:when>
-                                <xsl:when test="contains(@when, '+')">
-                                    <xsl:value-of select="substring-before(@when, '+')"/>
-                                </xsl:when>
-                                
-                                <xsl:otherwise><xsl:value-of select="@when"/></xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:variable>
-                        <xsl:value-of select="format-date($date, '[D].[M].[Y]')"/>
-                    </li>
-                </xsl:for-each>
+                <xsl:apply-templates select="//t:revisionDesc"/>
             </ul>
         </footer>
     </xsl:template>

@@ -12,10 +12,11 @@
         </nav>
         <section id="general">
             <p> </p>
-            <p>Edited by <xsl:value-of
-                    select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/> on
+            <p>Edited by <xsl:apply-templates
+                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/><xsl:if test="//t:publicationStmt/t:date">on
                     <xsl:value-of
-                    select="format-dateTime(//t:publicationStmt/t:date, '[D].[M].[Y]')"/></p>
+                        select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
+                    /></xsl:if></p>
         </section>
         <section id="description">
             <xsl:if test="//t:place[@subtype='institution']"><p align="right" style="font-size:xx-large;">Institution</p></xsl:if>
@@ -49,7 +50,8 @@
             <p>
                 <xsl:apply-templates select="//t:ab[@type='history']"/>
             </p>
-            
+            <h3>Tabots</h3>
+            <p><xsl:value-of select="//t:ab[@type='tabot']"/></p>
             <h2>Bibliography</h2>
             <xsl:apply-templates select="//t:listBibl"/>
             
@@ -63,7 +65,7 @@
             <xsl:if test="matches(//t:geo/text(), '\d+')">
                 <div id="map" style="width: 100%; height: 400px"/>
                 <script type="text/javascript">
-                        var mymap = L.map('map').setView([9.189, 40.496], 13);
+                    var mymap = L.map('map').setView([<xsl:value-of select="substring-before(//t:geo, ' ')"/>, <xsl:value-of select="substring-after(//t:geo, ' ')"/>], 10);
                         L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoicGlldHJvbGl1enpvIiwiYSI6ImNpbDB6MjE0bDAwOGl4MW0wa2JvMDd0cHMifQ.wuV3-VuvmCzY69kWRf6CHA', {
                         maxZoom: 18,
                         attribution: 'Map data <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
@@ -71,35 +73,17 @@
                         'Imagery © <a href="http://mapbox.com">Mapbox</a>',
                         id: 'mapbox.streets'
                         }).addTo(mymap);
-                        L.marker([<xsl:value-of select="substring-before(//t:geo, ' ')"/>, <xsl:value-of select="substring-after(//t:geo, ' ')"/>]).addTo(mymap).bindPopup("<xsl:value-of select="//t:placeName[not(@type)]"/>").openPopup();
+                        L.marker([<xsl:value-of select="substring-before(//t:geo, ' ')"/>, <xsl:value-of select="substring-after(//t:geo, ' ')"/>]).addTo(mymap).bindPopup("<xsl:value-of select="//t:placeName[not(@type)]"/>, altitude: <xsl:value-of select="//t:height"/>m").openPopup();
                     </script>
             </xsl:if>
+        </section>
+        <section>
+            <xsl:apply-templates select="//t:listRelation" mode="graph"/>
         </section>
         <footer id="footer">
             <h2>Authors</h2>
             <ul>
-                <xsl:for-each select="//t:change">
-                    <xsl:sort select="count(distinct-values(@who))"/>
-                    <li>
-                        <xsl:value-of select="@who"/>
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="."/>
-                        <xsl:text> </xsl:text>
-                        <xsl:variable name="date">
-                            <xsl:choose>
-                                <xsl:when test="contains(@when, 'T')">
-                                    <xsl:value-of select="substring-before(@when, 'T')"/>
-                                </xsl:when>
-                                <xsl:when test="contains(@when, '+')">
-                                    <xsl:value-of select="substring-before(@when, '+')"/>
-                                </xsl:when>
-                                
-                                <xsl:otherwise><xsl:value-of select="@when"/></xsl:otherwise>
-                            </xsl:choose>
-                        </xsl:variable>
-                        <xsl:value-of select="format-date($date, '[D].[M].[Y]')"/>
-                    </li>
-                </xsl:for-each>
+                <xsl:apply-templates select="//t:revisionDesc"/>
             </ul>
         </footer>
     </xsl:template>

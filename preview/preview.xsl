@@ -6,7 +6,7 @@
     exclude-result-prefixes="xs" version="2.0">
     
     <xsl:output method="html" indent="yes"/>
-
+    
     <xsl:key name="decotype" match="//t:decoDesc//t:decoNote" use="@type"/>
     <xsl:key name="additiontype" match="//t:item[contains(@xml:id, 'a')]/t:desc" use="@type"/>
 
@@ -32,7 +32,7 @@
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.css" rel="stylesheet" type="text/css" />
                     
                     <style type="text/css">
-                        #mynetwork {
+                        #BetMesRelView {
                         width: 100%;
                         height: 1000px;
                         border: 1px solid lightgray;
@@ -106,7 +106,7 @@
             <body>
                 <header><h1>
                         <xsl:value-of
-                            select="concat(//t:titleStmt/t:title, //t:msIdentifier/t:idno)"/>
+                            select="//t:titleStmt/t:title[1]"/>
                     </h1></header>
                 <xsl:choose>
                     
@@ -133,7 +133,8 @@
                     </xsl:when>
                     
                     
-                    <xsl:otherwise><p style="font-size: xx-large;">THIS FILE HAS NO TYPE!</p></xsl:otherwise>
+                    <xsl:otherwise><p style="font-size: xx-large; color:red;
+                        text-align:center;">THIS FILE HAS NO TYPE! <br/>Please VALIDATE before attempting to Transform if you want to see something</p></xsl:otherwise>
                 </xsl:choose>
             </body>
         </html>
@@ -222,6 +223,10 @@
             <p>
                 <xsl:value-of select="t:colophon/text()"/>
             </p>
+            
+            <p>
+                <b>Translation <xsl:value-of select="t:colophon/t:foreign/@xml:lang"/>: </b><xsl:value-of select="t:colophon/t:foreign"/>
+            </p>
             <p>
                 <xsl:apply-templates select="descendant::t:note"/>
             </p>
@@ -252,6 +257,8 @@
     
     <xsl:include href="origin.xsl"/>
     <xsl:include href="repo.xsl"/>
+    <xsl:include href="editorKey.xsl"/>
+    <xsl:include href="change.xsl"/>
 
 
 

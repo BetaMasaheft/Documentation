@@ -26,11 +26,11 @@
                             </xsl:for-each>
                         </xsl:if>
                     </p>
-                    <p>Edited by <xsl:value-of
-                            select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/> on
+                    <p>Edited by <xsl:apply-templates
+                        select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/><xsl:if test="//t:publicationStmt/t:date">on
                             <xsl:value-of
-                            select="format-dateTime(//t:publicationStmt/t:date, '[D].[M].[Y]')"
-                        /></p></section>
+                                select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
+                            /></xsl:if></p></section>
         
         
                 <section  id="description">
@@ -60,10 +60,10 @@
             
         </section>     
         
-        
+        <xsl:if test="//t:listRelation">
         <section id="relations">
-            <xsl:apply-templates select="//t:listRelation"/>
-        </section>     
+            <xsl:apply-templates mode="graph" select="//t:listRelation"/>
+        </section>   </xsl:if>  
         
         
         <section id="bibliography">
@@ -75,28 +75,7 @@
         <footer id="footer">
                 <h2>Authors</h2>
                 <ul>
-                    <xsl:for-each select="//t:change">
-                        <xsl:sort select="count(distinct-values(@who))"/>
-                        <li>
-                            <xsl:value-of select="@who"/>
-                            <xsl:text> </xsl:text>
-                            <xsl:value-of select="."/>
-                            <xsl:text> </xsl:text>
-                            <xsl:variable name="date">
-                                <xsl:choose>
-                                    <xsl:when test="contains(@when, 'T')">
-                                        <xsl:value-of select="substring-before(@when, 'T')"/>
-                                    </xsl:when>
-                                    <xsl:when test="contains(@when, '+')">
-                                        <xsl:value-of select="substring-before(@when, '+')"/>
-                                    </xsl:when>
-                                    
-                                    <xsl:otherwise><xsl:value-of select="@when"/></xsl:otherwise>
-                                </xsl:choose>
-                            </xsl:variable>
-                            <xsl:value-of select="format-date($date, '[D].[M].[Y]')"/>
-                        </li>
-                    </xsl:for-each>
+                    <xsl:apply-templates select="//t:revisionDesc"/>
                 </ul></footer>
     </xsl:template>
 </xsl:stylesheet>
