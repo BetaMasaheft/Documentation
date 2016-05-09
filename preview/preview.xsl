@@ -259,6 +259,7 @@
     <xsl:include href="repo.xsl"/>
     <xsl:include href="editorKey.xsl"/>
     <xsl:include href="change.xsl"/>
+    <xsl:include href="date.xsl"/>
 
 
 

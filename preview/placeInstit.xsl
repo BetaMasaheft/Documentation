@@ -13,53 +13,81 @@
         <section id="general">
             <p> </p>
             <p>Edited by <xsl:apply-templates
-                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
-                <xsl:if test="//t:publicationStmt/t:date">on
-                    <xsl:value-of
+                    select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
+                <xsl:if test="//t:publicationStmt/t:date">on <xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
-                    /></xsl:if></p>
+                /></xsl:if></p>
         </section>
         <section id="description">
-            <xsl:if test="//t:place[@subtype='institution']"><p align="right" style="font-size:xx-large;">Institution</p></xsl:if>
-            
-            <xsl:if test="//t:place/@type"><h2>Type</h2>
-            <p>    <xsl:for-each select="//t:place/@type">
-                    <xsl:value-of select="."/>
-                </xsl:for-each>
-            </p></xsl:if>
-            
+            <xsl:if test="//t:place[@subtype = 'institution']">
+                <p align="right" style="font-size:xx-large;">Institution</p>
+            </xsl:if>
+
+            <xsl:if test="//t:place/@type">
+                <h2>Type</h2>
+                <p>
+                    <xsl:for-each select="//t:place/@type">
+                        <xsl:value-of select="."/>
+                    </xsl:for-each>
+                </p>
+            </xsl:if>
+
             <h2>Names</h2>
             <ul>
-                <xsl:for-each select="//t:placeName">
-                    <xsl:sort></xsl:sort>
-                   <li> <xsl:value-of select="."/>
-                    <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if></li>
+                <xsl:for-each select="//t:place/t:placeName">
+                    <xsl:sort/>
+                    <li>
+                        <xsl:value-of select="."/>
+                        <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
+                    </li>
                 </xsl:for-each>
             </ul>
             <h2>Adminstrative position</h2>
-            <p><xsl:value-of select="//t:settlement"/> <xsl:if test="//t:country"><xsl:text> is part of </xsl:text><xsl:if test="//t:region/text()"><xsl:value-of select="//t:region"/><xsl:text>, in </xsl:text></xsl:if><xsl:value-of select="//t:country"/></xsl:if>
+            <p>
+                <xsl:value-of select="//t:settlement"/>
+                <xsl:if test="//t:country">
+                    <xsl:text> is part of </xsl:text>
+                    <xsl:if test="//t:region">
+                        <xsl:apply-templates select="//t:region"/>
+                        <xsl:text>, in </xsl:text>
+                    </xsl:if>
+                    <xsl:apply-templates select="//t:country"/>
+                </xsl:if>
             </p>
-            
+
             <h2>Appellations</h2>
-            <p><p><xsl:apply-templates select="//t:ab[@type='appellations']"/></p></p>
-            
+            <p>
+                <p>
+                    <xsl:apply-templates select="//t:ab[@type = 'appellations']"/>
+                </p>
+            </p>
+
             <h2>History</h2>
             <h3>Foundation</h3>
-            <p><b>Date of foundation: </b><xsl:value-of select="//t:date[@type='foundation']"/></p>
-            <p><xsl:apply-templates select="//t:desc[@type='foundation']"/></p>
+            <p>
+                <b>Date of foundation: </b>
+                <xsl:value-of select="//t:date[@type = 'foundation']"/>
+            </p>
+            <p>
+                <xsl:apply-templates select="//t:desc[@type = 'foundation']"/>
+            </p>
             <h3>History</h3>
             <p>
-                <xsl:apply-templates select="//t:ab[@type='history']"/>
+                <xsl:apply-templates select="//t:ab[@type = 'history']"/>
             </p>
-            <xsl:if test="t:ab[@type='tabot']"><h3>Tabots</h3>
-            <p><xsl:apply-templates select="//t:ab[@type='tabot']"/></p></xsl:if>
+            <xsl:if test="//t:ab[@type = 'tabot']">
+                <h3>Tabots</h3>
+                <p>
+                    <xsl:apply-templates select="//t:ab[@type = 'tabot']"/>
+                </p>
+            </xsl:if>
             <h2>Bibliography</h2>
             <xsl:apply-templates select="//t:listBibl"/>
-            
+
             <h2>Other information</h2>
             <p>
-                <xsl:apply-templates select="//t:ab[@type='description']"/>
-            </p> 
+                <xsl:apply-templates select="//t:ab[@type = 'description']"/>
+            </p>
         </section>
 
         <section id="map">

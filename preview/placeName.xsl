@@ -5,7 +5,7 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="xs"
     version="2.0">
-    <xsl:template match="t:placeName">
+    <xsl:template match="t:placeName | t:region | t:country">
         <xsl:choose>
             <xsl:when test="contains(@corresp, 'LOC')">
                 <xsl:choose>

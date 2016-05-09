@@ -17,7 +17,8 @@
         <li>
             <xsl:choose>
                 <xsl:when test="@corresp">
-                    <a href="{@corresp}"><xsl:value-of select="."/> <xsl:value-of select="t:date"/></a>
+                    <a href="{@corresp}"><xsl:value-of select="."/> <xsl:value-of select="t:date"/>
+                        <xsl:apply-templates select="t:note"/></a>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:if test="//t:ptr">  <xsl:variable name="zotero"
@@ -37,6 +38,7 @@
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="t:citedRange"/></xsl:if>
                     </a></xsl:if>
+                    <xsl:apply-templates select="t:note"/>
                 </xsl:otherwise>
             </xsl:choose>
         </li>

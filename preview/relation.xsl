@@ -158,7 +158,7 @@
                         <xsl:choose>
                             <xsl:when test="starts-with($filename, 'INS') or starts-with($filename, 'PRS') or starts-with($filename, 'LOC') or starts-with($filename, 'LIT') or starts-with($filename, 'NAR')">
                                 
-                        <xsl:analyze-string select="." regex="((\w{{3}})(\d+))(\w+)">
+                                <xsl:analyze-string select="$filename" regex="((\w{{3}})(\d+))(\w+)">
                             <xsl:matching-substring><xsl:value-of select="regex-group(1)"/></xsl:matching-substring>
                             
                             <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
