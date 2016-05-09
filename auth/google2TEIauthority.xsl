@@ -26,7 +26,7 @@
                             <language ident="en">English</language>
                             <language ident="ar">Arabic</language>
                             <language ident="it">Italiano</language>
-                            <language ident="gez">Gəˁəz</language>
+                            <language ident="gez">Gǝʿǝz</language>
                         </langUsage>
                     </profileDesc>
                     <revisionDesc>
@@ -81,7 +81,7 @@
                                                   <language ident="en">English</language>
                                                   <language ident="ar">Arabic</language>
                                                   <language ident="it">Italiano</language>
-                                                  <language ident="gez">Gəˁəz</language>
+                                                  <language ident="gez">Gǝʿǝz</language>
                                                 </langUsage>
                                             </profileDesc>
                                             <revisionDesc>
