@@ -455,6 +455,7 @@
                             </p>
                         </xsl:for-each>
                         <p><xsl:value-of select="./text()"/></p>
+                        <p><xsl:apply-templates select="t:note"/></p>
                     </li>
                 </xsl:for-each>
             </ol>

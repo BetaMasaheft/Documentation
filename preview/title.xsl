@@ -6,42 +6,31 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:title">
-        <h3>
-            <xsl:if test="@xml:id">
-                <xsl:attribute name="id">
-                    <xsl:value-of select="@xml:id"/>
-                </xsl:attribute>
-            </xsl:if>
-            <a>
-                <xsl:if test="@corresp">
-                    <xsl:choose>
+       
+                    <xsl:choose><xsl:when test="@corresp"><xsl:choose>
                         <xsl:when test="document(concat('../../Works/', @corresp, '.xml'))//t:TEI">
                             <a href="../../Works/{@corresp}">
                                 <xsl:choose>
                                     <xsl:when test="text()">
-                                        <xsl:value-of select="."/>
+                                         <i><xsl:value-of select="."/></i>
                                     </xsl:when>
                                     <xsl:otherwise>
                                         
-                                        <xsl:value-of
+                                        <i><xsl:value-of
                                             select="document(concat('../../Works/', @corresp, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"
-                                        />
+                                        /></i>
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </a>
                         </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:message>No record for Work <xsl:value-of select="@corresp"
-                            /></xsl:message>
+                        <xsl:otherwise><b style="color:red;
+                                text-align:center;">**No record for Work <xsl:value-of select="@corresp"
+                                />** = <xsl:value-of select="."/> **</b>
                         </xsl:otherwise>
-                    </xsl:choose>
-                </xsl:if>
-                <xsl:if test="text()">
-                    <b>
-                        <xsl:value-of select="."/>
-                    </b>
-                </xsl:if>
-            </a>
-        </h3>
+                    </xsl:choose></xsl:when>
+                    <xsl:otherwise><i><xsl:value-of select="."/></i></xsl:otherwise></xsl:choose>
+               
+            
+        
     </xsl:template>
 </xsl:stylesheet>

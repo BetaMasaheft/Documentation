@@ -32,8 +32,40 @@
 
         <section id="description">
             <h2>Names</h2>
-            <xsl:for-each select="//t:person/t:persName">
-
+            <xsl:choose><xsl:when test="//t:personGrp">
+                <p align="right" style="font-size:xx-large;">Group</p>
+                <xsl:for-each select="//t:personGrp/t:persName">
+                    <xsl:sort/>
+                    <li>
+                        <xsl:if test="@xml:id">
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="@xml:id"/>
+                            </xsl:attribute>
+                        </xsl:if>
+                        <xsl:choose>
+                            <xsl:when test="@ref">
+                                <a href="{@ref}" target="_blank">
+                                    <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
+                                </a>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
+                        <xsl:if test="@corresp">
+                            <sup>
+                                <a href="{@corresp}">
+                                    <xsl:value-of select="@xml:lang"/>
+                                    <xsl:text> tr.</xsl:text>
+                                </a>
+                            </sup>
+                        </xsl:if>
+                    </li>
+                </xsl:for-each>
+            </xsl:when>
+            
+            <xsl:otherwise><xsl:for-each select="//t:person/t:persName">
                 <xsl:sort/>
                 <li>
                     <xsl:if test="@xml:id">
@@ -44,26 +76,27 @@
                     <xsl:choose>
                         <xsl:when test="@ref">
                             <a href="{@ref}" target="_blank">
-                                <xsl:value-of select="."/>
+                                <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
                             </a>
                         </xsl:when>
                         <xsl:otherwise>
-                            <xsl:value-of select="."/>
+                            <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
                         </xsl:otherwise>
                     </xsl:choose>
                     <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
                     <xsl:if test="@corresp">
                         <sup>
                             <a href="{@corresp}">
-                                <xsl:value-of select="@xml:lang"/>
+                                <xsl:value-of select="@xml:lang"/> 
                                 <xsl:text> tr.</xsl:text>
                             </a>
                         </sup>
                     </xsl:if>
                 </li>
-            </xsl:for-each>
-            <h2>Sex: <xsl:choose><xsl:when test="//t:person/@sex = 1"
-                        >Male</xsl:when><xsl:otherwise>Female</xsl:otherwise></xsl:choose></h2>
+            </xsl:for-each></xsl:otherwise></xsl:choose>
+            <xsl:if test="//t:person/@sex"> <h2>Sex: <xsl:choose><xsl:when test="//t:person/@sex = 1"
+                >Male</xsl:when><xsl:when test="//t:person/@sex = 2"
+                    >Female</xsl:when></xsl:choose></h2></xsl:if>
             <xsl:if test="//t:birth">
                 <h2>Birth: </h2>
                 <xsl:apply-templates select="//t:birth"/>
