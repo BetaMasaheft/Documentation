@@ -79,6 +79,9 @@
                 /></xsl:if></p>
         </section>
         <section id="description">
+            <xsl:if test="//t:date[@evidence='internal-date'] or //t:origDate[@evidence='internal-date']">
+                <p align="right" style="font-size:xx-large;">Dated</p>
+            </xsl:if>
             <h2>General description</h2>
             <h3>origin</h3>
             <p>
@@ -246,7 +249,7 @@
             <h3>layout</h3>
             <xsl:for-each select="//t:layout[t:dimensions]">
                 <xsl:sort select="position()"/>
-                <h4><xsl:value-of select="count(position())"/></h4>
+                <h4><xsl:value-of select="position()"/></h4>
                 
                 
                 <p>Number of columns : <xsl:value-of select="@columns"/></p>

@@ -1,0 +1,944 @@
+<html xmlns:t="http://www.tei-c.org/ns/1.0" xmlns="http://www.tei-c.org/ns/1.0">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html"></meta>
+      <meta charset="utf-8"></meta>
+      <title>Mäṣḥafä krǝstǝnna “Book of the Christening” / Mäṣḥafä ṭomar “Book of the Letter (from
+         Heaven)” / Śǝrʿatä fäws mänfäsawi “Order of Spiritual Medicine” / Mäṣḥafä qedär “Book
+         of the Jar”
+      </title><script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js" type="text/javascript"></script><script src="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js" type="text/javascript"></script><link href="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css" rel="stylesheet"></link>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"></link><script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js" type="text/javascript"></script><link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet"></link><style>
+                    sup { 
+                    vertical-align: super;
+                    font-size: smaller;
+                    }
+                    header {
+                    background-color:black;
+                    color:white;
+                    text-align:center;
+                    padding:5px; 
+                    }
+                    nav {
+                    line-height:20px;
+                    background-color:#eeeeee;
+                    width:20%;
+                    height: 500px;
+                    overflow : scroll;
+                    float:left;
+                    padding:5px; 
+                    }
+                    section {
+                    width:75%;
+                    padding:20px; 
+                    float:right;
+                    }
+                    footer {
+                    background-color:black;
+                    color:white;
+                    clear:both;
+                    padding:5px; 
+                    }
+                    table{
+                        border-collapse: separate;
+                        border-top: 3px
+                    }
+                    td{
+                        margin: 0;
+                        border: 3px;
+                        border-top-width: 0px;
+                        white-space: nowrap;
+                    }
+                    div.report{
+                        background-color: red;
+                    }
+                    div.collation{
+                    overflow-x: scroll;
+                        margin-left: 5em;
+                        overflow-y: visible;
+                        padding-bottom: 1px;
+                        padding-left: 5px;
+                    }
+                    .headcol{
+                        position: absolute;
+                        padding-left: 10px;
+                        width: 5em;
+                        left: 0;
+                        top: auto;
+                        border-right: 0px none black;
+                        border-top-width: 3px; /*only relevant for first row*/
+                        margin-top: -3px; /*compensate for top border*/
+                    }</style></head>
+   <body>
+      <header>
+         <h1>Mäṣḥafä krǝstǝnna “Book of the Christening” / Mäṣḥafä ṭomar “Book of the Letter (from
+            Heaven)” / Śǝrʿatä fäws mänfäsawi “Order of Spiritual Medicine” / Mäṣḥafä qedär “Book
+            of the Jar”
+         </h1>
+      </header>
+      <nav>
+         <ul> Navigate section 
+            <li><a href="#general">General</a></li>
+            <li><a href="#description">Description</a></li>
+            <li><a href="#physical">Physical desc</a></li>
+            <li><a href="#layout">Layout</a></li>
+            <li><a href="#contents">Contents</a></li>
+            <li><a href="#deco">Decoration</a></li>
+            <li><a href="#footer">Authors</a></li>
+         </ul>
+         <ul> Navigate by id 
+            <li><a href="#ms">msDesc</a></li>
+            <li><a href="#ms_i1">Content Item 1</a></li>
+            <li><a href="#ms_i2">Content Item 2</a></li>
+            <li><a href="#ms_i3">Content Item 3</a></li>
+            <li><a href="#ms_i4">Content Item 4</a></li>
+            <li><a href="#q1">Quire 1</a></li>
+            <li><a href="#q2">Quire 2</a></li>
+            <li><a href="#q3">Quire 3</a></li>
+            <li><a href="#q4">Quire 4</a></li>
+            <li><a href="#q5">Quire 5</a></li>
+            <li><a href="#q6">Quire 6</a></li>
+            <li><a href="#q7">Quire 7</a></li>
+            <li><a href="#q8">Quire 8</a></li>
+            <li><a href="#q9">Quire 9</a></li>
+            <li><a href="#q10">Quire 10</a></li>
+            <li><a href="#q11">Quire 11</a></li>
+            <li><a href="#h1">Hand
+                  1</a></li>
+            <li><a href="#h2">Hand
+                  2</a></li>
+            <li><a href="#h3">Hand
+                  3</a></li>
+            <li><a href="#h4">Hand
+                  4</a></li>
+            <li><a href="#d1">Decoration 1</a></li>
+            <li><a href="#d2">Decoration 2</a></li>
+            <li><a href="#d3">Decoration 3</a></li>
+            <li><a href="#d4">Decoration 4</a></li>
+            <li><a href="#d5">Decoration 5</a></li>
+            <li><a href="#d6">Decoration 6</a></li>
+            <li><a href="#a1">Addition 1</a></li>
+            <li><a href="#b1">Binding 1</a></li>
+            <li><a href="#b2">Binding 2</a></li>
+            <li><a href="#b3">Binding 3</a></li>
+            <li><a href="#b4">Binding 4</a></li>
+            <li><a href="#Lan05">Addition n05</a></li>
+         </ul>
+      </nav>
+      <section id="general">
+         <p><b>DZ-011</b></p>
+         <p>Edited by Dr. Denis Nosnitsin on 29.4.2011</p>
+      </section>
+      <section id="description">
+         <h2>General description</h2>
+         <h3>origin</h3>
+         <p>
+            
+            
+            <p><b>Current Location: </b>
+               <a href="../../Institutions/INS0034DZ">Däbrä Zäyt / DZ</a>
+               
+            </p>
+            
+            <p><b>Date: </b>1500-1600
+            </p>
+            <p>Quires I-VI can be dated to the 16th cent.; &#xD;
+               quires VII-IX are of uncertain date (19th century?); &#xD;
+               quires X-XI are recent (20th century?).
+            </p>
+            
+            
+         </p>
+         <h3>People</h3>
+         <p>
+            <b style="color:red;                 text-align:center;">**No record for Person PRS0000** = Commissioned by Täklä Maryam and Maḫdärä Qal (s. Additio 1). **</b>
+            
+            
+            <b style="color:red;                 text-align:center;">**No record for Person PRS00000** =  **</b>
+            
+            
+         </p>
+         <h3>State of preservation</h3>
+         <p><b>good</b></p>
+         <p> restorations :modern</p>
+         <h4>Condition</h4>
+         <p></p>
+         <h3>Number of texts: 4</h3>
+         <h3>Number of units: 1</h3>
+      </section>
+      <section id="physical">
+         <h2>Physical description</h2>
+         <p>Two wooden boards.&#xD;
+            Two pairs of sewing stations.
+         </p>
+         <h3>outer dimension</h3>
+         <p>H: 14.0 x W: 12.2 x D 5.0 cm. </p>
+         <p>(proportion: width/height: 0.8714
+            ) 
+         </p>
+         <h3>binding</h3>
+         <h4>endbands</h4>
+         <p>No</p>
+         <h4>headbands</h4>
+         <p>No</p>
+         <h4>tailbands</h4>
+         <p>No</p>
+         <h4>binding decoration</h4>
+         <p></p>
+         <h4> binding material</h4>
+         <p>wood</p>
+         <h4>original binding</h4>
+         <p>partly</p>
+         <h3>writing material</h3>
+         <p>parchment</p>
+         <h3>watermark</h3>
+         <p>No</p>
+         <h3>ink</h3>
+         <p>h1: Black; red.;</p>
+         <h4>extent</h4>
+         <p>Made of  84.0  folios, of which  3.5  blank, in  11.0  quires. 
+            
+            
+         </p>
+         <h3>foliation</h3>
+         <p></p>
+         <h3>collation</h3>
+         <div class="collation">
+            <table>
+               <tr>
+                  <td class="headcol">position</td>
+                  <td id="q1">1</td>
+                  <td id="q2">2</td>
+                  <td id="q3">3</td>
+                  <td id="q4">4</td>
+                  <td id="q5">5</td>
+                  <td id="q6">6</td>
+                  <td id="q7">7</td>
+                  <td id="q8">8</td>
+                  <td id="q9">9</td>
+                  <td id="q10">10</td>
+                  <td id="q11">11</td>
+               </tr>
+               <tr>
+                  <td class="headcol">leafs</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>10</td>
+                  <td>8</td>
+                  <td>8</td>
+                  <td>2</td>
+                  <td>10</td>
+                  <td>6</td>
+               </tr>
+               <tr>
+                  <td class="headcol">quires</td>
+                  <td>Fols. <a href="1r">1r</a>-<a href="8v">8v</a></td>
+                  <td>Fols. <a href="9r">9r</a>-<a href="16v">16v</a></td>
+                  <td>Fols. <a href="17r">17r</a>-<a href="24v">24v</a></td>
+                  <td>Fols. <a href="25r">25r</a>-<a href="32v">32v</a></td>
+                  <td>Fols. <a href="33r">33r</a>-<a href="40v">40v</a></td>
+                  <td><a href="10">Fol. </a>Fols. <a href="41r">41r</a>-<a href="50v">50v</a></td>
+                  <td>Fols. <a href="51r">51r</a>-<a href="58v">58v</a></td>
+                  <td>Fols. <a href="59r">59r</a>-<a href="66v">66v</a></td>
+                  <td>Fols. <a href="67r">67r</a>-<a href="68v">68v</a></td>
+                  <td><a href="10">Fol. </a>Fols. <a href="69r">69r</a>-<a href="78v">78v</a></td>
+                  <td>Fols. <a href="79r">79r</a>-<a href="84v">84v</a></td>
+               </tr>
+               <tr>
+                  <td class="headcol">description</td>
+                  <td>
+                     
+                     I(8/fols. 1r-8v) 
+                  </td>
+                  <td>
+                     
+                     II(8/fols. 9r-16v) 
+                  </td>
+                  <td>
+                     
+                     III(8/fols. 17r-24v) 
+                  </td>
+                  <td>
+                     
+                     IV(8/s. l.: 3, 6, stubs after 3, 6/fols. 25r-32v) 
+                  </td>
+                  <td>
+                     
+                     V(8/fols. 33r-40v) 
+                  </td>
+                  <td>
+                     
+                     
+                     VI(10/fols. 41r-50v) 
+                  </td>
+                  <td>
+                     
+                     ˂VII(8/fols. 51r-58v) 
+                  </td>
+                  <td>
+                     
+                     VIII(8/fols. 59r-66v) 
+                  </td>
+                  <td>
+                     
+                     IX(2/fols. 67r-68v)˃ 
+                  </td>
+                  <td>
+                     
+                     
+                     ˂X(10/fols. 69r-78v) 
+                  </td>
+                  <td>
+                     
+                     XI(6/fols. 79r-84v)˃.
+                  </td>
+               </tr>
+            </table>
+         </div>
+      </section>
+      <section id="layout">
+         <h3>layout</h3>
+         <h4>1</h4>
+         <p>Number of columns : 2</p>
+         <p>Number of lines : 14</p>
+         <table>
+            <tr>
+               <td>H</td>
+               <td>95</td>
+            </tr>
+            <tr>
+               <td>W</td>
+               <td>92</td>
+            </tr>
+            <tr>
+               <td>Intercolumn</td>
+               <td>10</td>
+            </tr>
+            <tr>
+               <td>Margins</td>
+               <td>Top: 13</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Bottom: 25</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Right: 23</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Left: 7</td>
+            </tr>
+         </table>
+         <p>All data for fol. 4r (fols. 3r-47r).All data for fol. 48r (fols. 47v-48r).All data for fol. 49r (fols. 48v-68r).All data for fol. 71r (fols. 70r-84v); Fols. of a smaller size (10x13.5).</p>
+         <div class="report">
+            <p>- Ms , Mäṣḥafä krǝstǝnna “Book of the Christening” / Mäṣḥafä ṭomar “Book of the Letter (from
+               Heaven)” / Śǝrʿatä fäws mänfäsawi “Order of Spiritual Medicine” / Mäṣḥafä qedär “Book
+               of the Jar”
+                looks ok for measures computed width is: 99mm, object width is: 122mm, computed height is: 133mm and object height is: 140mm. but the following values are
+               recognized as empty: right margin 
+            </p>
+         </div>
+         <h4>2</h4>
+         <p>Number of columns : 2</p>
+         <p>Number of lines : 17</p>
+         <table>
+            <tr>
+               <td>H</td>
+               <td>109</td>
+            </tr>
+            <tr>
+               <td>W</td>
+               <td>98</td>
+            </tr>
+            <tr>
+               <td>Intercolumn</td>
+               <td>8</td>
+            </tr>
+            <tr>
+               <td>Margins</td>
+               <td>Top: 6</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Bottom: 20</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Right: 18</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Left: 6</td>
+            </tr>
+         </table>
+         <p>All data for fol. 4r (fols. 3r-47r).All data for fol. 48r (fols. 47v-48r).All data for fol. 49r (fols. 48v-68r).All data for fol. 71r (fols. 70r-84v); Fols. of a smaller size (10x13.5).</p>
+         <div class="report">
+            <p>- Ms , Mäṣḥafä krǝstǝnna “Book of the Christening” / Mäṣḥafä ṭomar “Book of the Letter (from
+               Heaven)” / Śǝrʿatä fäws mänfäsawi “Order of Spiritual Medicine” / Mäṣḥafä qedär “Book
+               of the Jar”
+                looks ok for measures computed width is: 104mm, object width is: 122mm, computed height is: 135mm and object height is: 140mm. but the following values are
+               recognized as empty: right margin 
+            </p>
+         </div>
+         <h4>3</h4>
+         <p>Number of columns : 1</p>
+         <p>Number of lines : 17</p>
+         <table>
+            <tr>
+               <td>H</td>
+               <td>110</td>
+            </tr>
+            <tr>
+               <td>W</td>
+               <td>102</td>
+            </tr>
+            <tr>
+               <td>Intercolumn</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Margins</td>
+               <td>Top: 13</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Bottom: 20</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Right: 13</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Left: 7</td>
+            </tr>
+         </table>
+         <p>All data for fol. 4r (fols. 3r-47r).All data for fol. 48r (fols. 47v-48r).All data for fol. 49r (fols. 48v-68r).All data for fol. 71r (fols. 70r-84v); Fols. of a smaller size (10x13.5).</p>
+         <div class="report">
+            <p>- Ms , Mäṣḥafä krǝstǝnna “Book of the Christening” / Mäṣḥafä ṭomar “Book of the Letter (from
+               Heaven)” / Śǝrʿatä fäws mänfäsawi “Order of Spiritual Medicine” / Mäṣḥafä qedär “Book
+               of the Jar”
+                * has a
+               sum of layout height of 143mm
+               which is greater than the object height of 140mm 
+            </p>
+         </div>
+         <h4>4</h4>
+         <p>Number of columns : 2</p>
+         <p>Number of lines : 12</p>
+         <table>
+            <tr>
+               <td>H</td>
+               <td>103</td>
+            </tr>
+            <tr>
+               <td>W</td>
+               <td>82</td>
+            </tr>
+            <tr>
+               <td>Intercolumn</td>
+               <td></td>
+            </tr>
+            <tr>
+               <td>Margins</td>
+               <td>Top: 13</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Bottom: 19</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Right: 10</td>
+            </tr>
+            <tr>
+               <td></td>
+               <td>Left: 8</td>
+            </tr>
+         </table>
+         <p>All data for fol. 4r (fols. 3r-47r).All data for fol. 48r (fols. 47v-48r).All data for fol. 49r (fols. 48v-68r).All data for fol. 71r (fols. 70r-84v); Fols. of a smaller size (10x13.5).</p>
+         <div class="report">
+            <p>- Ms , Mäṣḥafä krǝstǝnna “Book of the Christening” / Mäṣḥafä ṭomar “Book of the Letter (from
+               Heaven)” / Śǝrʿatä fäws mänfäsawi “Order of Spiritual Medicine” / Mäṣḥafä qedär “Book
+               of the Jar”
+                looks ok for measures computed width is: 90mm, object width is: 122mm, computed height is: 135mm and object height is: 140mm. but the following values are
+               recognized as empty: right margin 
+            </p>
+         </div>
+         <h3>ruling</h3>
+         <ul>
+            <li></li>
+            <li>
+               Ruling patterns: 1A-1A-1A1A/0-0/0-0/C (fols. 3r-48v); 1A-1A/0-0/0-0/B (fols. 49r-68v);
+               1A-1A/0-0/0-0/C (fols. 70r-84v).
+            </li>
+            <li>
+               The upper line is written above the ruling.
+            </li>
+            <li>
+               The bottom line is written above the ruling.
+            </li>
+            <li></li>
+            <li>
+               Ruling patterns: 1A-1A-1A1A/0-0/0-0/C (fols. 3r-48v); 1A-1A/0-0/0-0/B (fols. 49r-68v);
+               1A-1A/0-0/0-0/C (fols. 70r-84v).
+            </li>
+            <li>
+               The upper line is written above the ruling.
+            </li>
+            <li>
+               The bottom line is written above the ruling.
+            </li>
+            <li></li>
+            <li>
+               Ruling patterns: 1A-1A-1A1A/0-0/0-0/C (fols. 3r-48v); 1A-1A/0-0/0-0/B (fols. 49r-68v);
+               1A-1A/0-0/0-0/C (fols. 70r-84v).
+            </li>
+            <li>
+               The upper line is written above the ruling.
+            </li>
+            <li>
+               The bottom line is written above the ruling.
+            </li>
+            <li></li>
+            <li>
+               Ruling patterns: 1A-1A-1A1A/0-0/0-0/C (fols. 3r-48v); 1A-1A/0-0/0-0/B (fols. 49r-68v);
+               1A-1A/0-0/0-0/C (fols. 70r-84v).
+            </li>
+            <li>
+               The upper line is written above the ruling.
+            </li>
+            <li>
+               The bottom line is written above the ruling.
+            </li>
+         </ul>
+         <h3>pricking</h3>
+         <ul>
+            <li>Ruling and pricking are partly visible.</li>
+            <li>
+               Primary pricks are partly visible (s. fol. 12r).
+            </li>
+            <li>
+               Ruling pricks are visible (s. fol. 82r).
+            </li>
+            <li>Ruling and pricking are partly visible.</li>
+            <li>
+               Primary pricks are partly visible (s. fol. 12r).
+            </li>
+            <li>
+               Ruling pricks are visible (s. fol. 82r).
+            </li>
+            <li>Ruling and pricking are partly visible.</li>
+            <li>
+               Primary pricks are partly visible (s. fol. 12r).
+            </li>
+            <li>
+               Ruling pricks are visible (s. fol. 82r).
+            </li>
+            <li>Ruling and pricking are partly visible.</li>
+            <li>
+               Primary pricks are partly visible (s. fol. 12r).
+            </li>
+            <li>
+               Ruling pricks are visible (s. fol. 82r).
+            </li>
+         </ul>
+         <h3>Palaeography</h3>
+         <h4 id="h1"> Hand 1</h4>
+         <p>Ethiopic: Hand a: fine, irregular; hand b: mediocre; hand c: mediocre.</p>
+         <p>Ink: Black; red.</p>
+         <h4>
+            Abbreviations
+            
+         </h4>
+         <ul>
+            <li>ይ፡ካ፡ for ይብል፡ ካህን፡</li>
+            <li>ይ፡ዲ፡ for ይብል፡ ዲያቆን፡</li>
+            <li>ይ፡ሕ፡ for ይብል፡ ሕዝብ፡</li>
+         </ul><b>Scribe</b>
+         
+         
+         16th century (hand a).
+         
+         
+         <h4 id="h2"> Hand 2</h4>
+         <p>Ethiopic: </p>
+         <p>Ink: </p><b>Scribe</b>thin, broadly spaced letters.  
+         <h4 id="h3"> Hand 3</h4>
+         <p>Ethiopic: </p>
+         <p>Ink: </p><b>Scribe</b>anqular letter shapes
+         <h4 id="h4"> Hand 4</h4>
+         <p>Ethiopic: </p>
+         <p>Ink: </p><b>Scribe</b><h4>Punctuation</h4>
+         <p>Executed: </p>
+         <p>Usage: </p>
+         <ul></ul>
+         <h4>crux</h4>
+         <p>No</p>
+         <h4>coronis</h4>
+         <p>No</p>
+         <h4>chirho</h4>
+         <p>No</p>
+      </section>
+      <section id="contents">
+         <h2>Description of content</h2>
+         <a href="../../Institutions/INS0034DZ">Däbrä Zäyt Qǝddǝst Maryam</a>
+         Ethio-SPaRe
+         
+         <h3>DZ-011, collection </h3><br></br>
+         
+         
+         <div id="ms_i1">
+            <a href="70r">70r-84v</a>
+            <i>IV. Mäṣḥafä qedär “Book of the Jar”</i>
+            
+            <p><b>Rubrication: </b>Nomina sacra; incipits or headings of texts; directives to the ministers; abbreviations;
+               names of the owners; dashes above and below the word እገሌ፡ (e.g., fol. 74r); elements
+               of the punctuation signs; elements of Ethiopic numerals.&#xD;
+               The upper parts of the text on fols. 3r, 47va and 70r are written alternately in red
+               and black lines.
+            </p>
+            
+            <p><b>Incipit: </b>Fol. 70r, l.1: በስመ፡“... ቀኖና፡ ዘአስተናበሩ፡ መምህራነ፡ ቤተ፡ ክርስቲያን፨ በእንተ፡ ዘክህደ፡ ሃይማኖቱ [sic]፡
+               አው፡ ዘአርኰሰ፡ ሥጋሁ፡ ምስለ፡ ዘኢምዕመን፡ ተባዕተ፡ ወአንስተ፡[Fol. 70r, l.1]: In the name of the Father, and the Son, and the Holy Spirit, One
+               God. The canon established by the teachers of the church regarding him who abandoned
+               his faith, or defiled his flesh with a non-believer, man or woman.
+               
+            </p>
+            
+            <p><b>Explicit: </b>Fol. 83r, l.7: መዝሙር፡ ዘ፲ዘ፳ወ፱፤ ዘ፶ወ፫፡ ዘ፶ወ፬፡ ዘ፰ወ፯፡ ዘ፸ወ፭፡ ዘ፻ወ፬፡ ዘ፻ወ፲፡ ዘ፻፳ወ፭፡ ዘ፻፳ወ፫፡ ወታነብብ፨
+               በስመ፡ አብ፤ በል፤ ወበል፤ እምዳዊት፡ እግዚአብሔር፡ ያበርህ፡ ከመ፡ ያፈቅር፡ ጐሥዓ፡ ተሣሃለኒ፡ አጽምዕ፡ አንሣዕኩ፡ ሶበ፡ አኮ፡
+               እምነቢያትሂ፡ እግዚኦ፡ አኃዜ፡ ኲሉ፡ ተዓብዮ፡ ነፍስየ፡ ጸሎት፡ ወድኅሬሁ፡ ሊጦን፡ ወይበል፡ ጸልዩ፡ ወ[ሕ]ዝብ፡ ይበሉ፡ እግዚኦ፡
+               ተሣሃለነ፡
+               [Fol. 83r, l.7]: Psalms 129, 53, 54, 67, 75, 104, 110, 125 and 123. Then read and
+               say “In the name of the Father”. And say from Psalter “The Lord is [my] light”…, and
+               from the Prophets – “Lord, Almighty, the elevation of my soul”. A prayer, and after
+               it – a litany. Then let him say: “Pray”, and the people shall say: “Lord, have mercy
+               on us”. 
+               &nbsp; 
+               Part of the explicit is unclear.
+               
+               
+            </p>
+            mss Bibliography
+            <ul>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>EMML no. 1203 (20th cent., Holy Trinity Cathedral, Addis Ababa),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 117b-155b: Ritual for Penitential Baptism [Maṣeḥafa qēder]
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(EMML IV, 168/5);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b></li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>EMML no. 1307 (17th/18th cent., IES, Addis Ababa),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 129b-131a: Ritual for Penitential Baptism [Maṣeḥafa qēder]
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(EMML IV, 320);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b></li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>EMML no. 1496 (14th-15th cent., IES, Addis Ababa),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 142a-145b: Ritual for Penitential Baptism [Maṣeḥafa qēder/qad(e)r]
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(EMML IV, 631);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b></li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>Orient. 694 (first half of the 18th cent.),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 75a-[97a]: Maṣḥafa Ḳēdr or “the Order of Absolution” ቀኖና፡ መጽሐፈ፡ ቄድር፡ ዘአንበሩ፡
+                  መምህራነ…
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(WrBriMus 270, 180a/3);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b></li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>Orient. 550 (early 18th cent.),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 82a-[84a]: “The Order of Purification of an Apostate” መጽሐፈ፡ ቄድር
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(WrBriMus 137, 93/5);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b></li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>Orient. 549 (later 18th cent.),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 62b-[65a]: “The Order of Purification of an Apostate” መጽሐፈ፡ ቄድር
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(WrBriMus 139, 95a/3);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b></li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>D’Abbadie 103 (18th cent.),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 28r –[51r]: Maṣḥafa qēder
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(CRAbb 167, 179);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b></li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>Ṭanāsee 20 = Kebrān 20 (early 18th cent.),
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>fols. 121ra-123rb: መጽሐፈ፡ ቄደር ʻBuch der Unreinheitʼ,
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>(HamTana I, 131/V).
+               </li>
+               
+            </ul>
+            
+            
+         </div>
+         
+         <div id="ms_i2">
+            <a href="61v">61v-67v</a>
+            <i>III. Śǝrʿatä fäws mänfäsawit “Order of Spiritual Medicine”</i>
+            
+            <p><b>Rubrication: </b>Nomina sacra; incipits or headings of texts; directives to the ministers; abbreviations;
+               names of the owners; dashes above and below the word እገሌ፡ (e.g., fol. 74r); elements
+               of the punctuation signs; elements of Ethiopic numerals.&#xD;
+               The upper parts of the text on fols. 3r, 47va and 70r are written alternately in red
+               and black lines.
+            </p>
+            
+            <p><b>Incipit: </b>Fol. 61v, l.13: በስመ፡ʺ …፡ሥርዓተ፡ ፈውስ፡ መንፈሳዊት፤ ወተግሣጽ፡ ዘይደሉ፡ ለካህናት፡ ወለዲያቆናት፡ ወለሕዝባውን [sic]፡
+               ወለሥርዓተ፡ ቍርባን፨ ናጤይቀክሙ፡ ወፈቀድነ፡ ከመ፡ ናስተጋብእ፡ ውስተ፡ ዝንቱ፡ መጽሐፍ፡ ከመ፡ ያንብባ፡ ወይግበር፡ ቦቱ፡ ዘይፈቅድ፡
+               መድኃኒተ፡ ነፍሱ፨Fol. 61v: In the name of the Father, the Son and the Holy Spirit, One God. The order
+               of spiritual medicine, and an admonition which is befitting to priests and deacons
+               and laypeople and to the order of the Eucharist. We explain to you that we wished
+               to collect in this book, so that he would read it and achieve through it it what is
+               required for the healing of his soul. 
+               
+            </p>
+            
+            <p><b>Explicit: </b>Fol. 67v, l.7: ወይደሉ፡ እንከ፡ ለካህናት፡ ከመ፡ ይንግሩ፡ ዘንተ፡ ወይምሀሩ፡ ለሕዝብ፡ ወከመ፡ ይርብሖሙ፡ ለነፍሶሙ፡ ወለዘይሰምዖሙ፨
+               በከመ፡ ይቤ፡ እግዚእነ፡ በወንጌል፡ ቅዱስ፨ ዘሰ፡ ይሜህር፡ ወይገብር፡ ከመዝ፡ ዓቢየ፡ ይሰመይ፡ በመንግሥተ፡ ሰማያት፡ ለዓለመ፡ ዓለም፤
+               አሜን፨ ወአሜ[ን]Fol. 67v: It therefore befits priests that they would speak this out and teach [this]
+               to the people and that they would be of benefit to themselves and to those who listen
+               to them. As our Lord says in the Holy Gospel: “Whosoever shall teach and do so, shall
+               be called great in the Kingdom of Heaven”, forever and ever. Amen and amen.
+               
+            </p>
+            
+            
+         </div>
+         
+         <div id="ms_i3">
+            <a href="47v">47v-61v</a>
+            <i>II. Mäṣḥafä ṭomar “Book of the Letter (from Heaven)”</i>
+            
+            <p><b>Rubrication: </b>Nomina sacra; incipits or headings of texts; directives to the ministers; abbreviations;
+               names of the owners; dashes above and below the word እገሌ፡ (e.g., fol. 74r); elements
+               of the punctuation signs; elements of Ethiopic numerals.&#xD;
+               The upper parts of the text on fols. 3r, 47va and 70r are written alternately in red
+               and black lines.
+            </p>
+            
+            <p><b>Incipit: </b>Fol. 47va, l.1: በስመ፡ʺ…፡ መጽሐፈ፡ ጦማር፡ ዘወረደት፡ እም፡ ሰማይ፡ ላዕለ፡ እደ፡ አትናቴዎስ፡ በእለተ፡ እኁድ፨ በረከተ፡
+               አምላኩ፡ የሀሉ፡ ምስለ፡ ግብሩ፡ መልክአ፡ ክርስቶስ፡ ወረደት፡ ዛቲ፡ መጽሐፈ፡ ጦማር፡ [በ]ሮምያ፡ በ፲፻ወ፶፡ ዓመት፡ እም፡ ዓመተ፡
+               እለ፡ እስክንድሮስ፡፨[Fol. 47va, l.1]: In the name of the Father, the Son and the Holy Spirit, One God.
+               The Book of the Letter that fell from heaven onto the hands of Athanasius, on Sunday.
+               May the grace of his God rest with His servant Mälkǝˀa Krǝstos. This Book of the Letter
+               fell down in Rome, in the 150th year of the years of Alexander.
+               
+            </p>
+            
+            <p><b>Explicit: </b>Fol. 61r, l.12: ወይኩን፡ እንከ፡ ዘትገብሩ፡ ቊርባነ፡ እኁድ፡ ሰንበት፡ ረቡዕ፡ ወዓርብ፡ ወቀዳሚት፡ ሰንበት፨ ወባሕቱ፡ በበዓላት፡
+               እሙራት፡ ወአጽዋም፡ ወ[ዘ]ኢታጽርዑ፡ ቊርባነ፨ ወአኃሥ፡ እምኲሉ፡ ዘአንበበ። ወሰምዓ፡ ዘንተ፡ መጽሐፈ፡ ከመ፡ ይበል፡ እግዚኦ፡ ስረይ፡
+               ሎቱ፡ ለገብርከ፡ተክለማርያም፡ ኃጢአቶ፡ ወአድኅኖ፡ እም፡ ኲሉ፡ ምንዳቤ፡ ሥጋ፤ ወህየንተ፡ ዝንቱ፡ መጽሐፍ፡ ዘአጽሐፈ፡ ኅብኦ፡ እም፡
+               ሀከከ፡ ሰብእ፤ በጽላሎትከ፨ ወክድኖ፡ እም፡ ባህለ፡ ልሳን፡ በመንጦላዕትከ፨ በምድር፡ ወበሰማያትሂ፡ አጽንሐ፡ አስበ፡ ህየተ[sic]፡
+               ፩፴ወ፷፻፨ ለገብርከ፡ መልክዓ፡ ክርስቶስ፡[Fol. 61r, l.12]: Let it be, therefore, that you celebrate the Eucharist on Sunday,
+               Wednesday, Friday and Saturday. However, on established holidays and during fasts
+               do not cancel the Eucharist. And I wish that anyone who reads and listens to this
+               book would say: “Oh Lord, forgive to Your servant Täklä Maryam his sins and save him
+               from all afflictions of flesh. And as a reward for this book that he let be written
+               conceal him from the commotion of people with Your shade and cover him from the evil
+               talk of the tongue with Your curtain. On earth and in heaven prepare a reward 130
+               and 6000 [times more] for Your servant Mälkǝˀa Krǝstos”.
+               
+            </p>
+            mss Bibliography
+            <ul>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>Ms. 344 (Or. 783) (1695 A.D.), fols. 205a ff. (WrBriMus 234);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>EMML no. 14 (early 20th cent.), fols. 197v-198r (EMML I, 16);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>EMML no. 1581 (18th cent.), fols. 113v-121r (EMML V, 73);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>EMML no. 2363 (1775-1809), fols. 227v-230r (EMML VI, 432);
+               </li>
+               
+               <li><b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report
+                     to fix it.</b>EMML no. 3445 (18th cent.), fols. 15r-21r (EMML VIII, 270).
+               </li>
+               
+            </ul>
+            
+            
+         </div>
+         
+         <div id="ms_i4">
+            <a href="3ra">3ra-47rb</a>
+            <i>I. Mäṣḥafä krǝstǝnna “Book of the Christening”</i>
+            
+            <p><b>Rubrication: </b>Nomina sacra; incipits or headings of texts; directives to the ministers; abbreviations;
+               names of the owners; dashes above and below the word እገሌ፡ (e.g., fol. 74r); elements
+               of the punctuation signs; elements of Ethiopic numerals.&#xD;
+               The upper parts of the text on fols. 3r, 47va and 70r are written alternately in red
+               and black lines.
+            </p>
+            
+            <p><b>Incipit: </b>Fol. 3ra, l.1: በስመ፡ʺ...፤ መጽሐፈ፡ ጥምቀት፡ ቅድስት፨ ዝንቱ፡ ጸሎት፡ ንብረተ፡ እድ፡ ላዕለ፡ እሙ፡ ለሕፃን፡ እምድኅረ፡
+               ነጽሐት፡ በዓርብዓ፡ ዕለት፡ ትበውእ፡ ቤተ፡ ክርስቲያን፨[Fol. 3r, l.1]: In the name of the Father, the Son and the Holy Spirit, One God. The
+               book of the Holy Baptism. This [is the] prayer of the laying of hands upon the mother
+               of the child. After she is purified on the fortieth day, she enters the church.
+               
+            </p>
+            
+            <p><b>Explicit: </b>Fol. 47rb, l.1: ተፈጸመ፡ ዘይደሉ፡ አንብቦተ፡ ላዕለ፡ እለ፡ ይጠመቁ፨ በረድኤተ፡ እግዚአብሔር፡ ሎቱ፡ ስብሐት፤ እስከ፡ ለዓለም፡
+               አሜን፨ ተተርጐመት፡ ዛቲ፡ መጽሐፍ፡ እምልሳነ፡ ቅብጢ፡ ወዓረቢ፡ ኀበ፡ ነገረ፡ ግዕዝ፨[Fol. 47rb, l.1]: The appropriate reading over those who are baptized is ended. With
+               the help of God, to Him be praise for ever. Amen. This book has been translated from
+               the Coptic and Arabic languages into the Gǝˁǝz tongue.
+               
+            </p>
+            
+            
+         </div>
+         
+         <h2>Additiones</h2>In this manuscript there are 
+         <ol>
+            <li id="a1">
+               <p>Fols. <a href=""></a>-<a href=""></a></p>
+               <p></p>
+               <p>(gez) Fol. 68r: ዝመጽሐፍ፡ ዘመልክዓ፡ ክርስቶስ፡ ወቀሳውስት፡ ገበዝ፡ ተክለ፡ ማርያም፡ ወማኅደረ፡ ቃል፡ ዘአጽሐፍዎ፡ በዘመኖሙ፡ ከመ፡
+                  ትኩኖሙ፡ መርሐ፡ በመንግሥተ፡ ሰማያት፡ ጸሎቱ፡ ወበረከቱ፡ የሀሉ፡ ምስለ፡ ፍቁሩ፡ ማኅደረ፡ ቃል፡ ወለኵሎሙ፡ ደቂቀ፡ ቤተ፡ ክርስቲያን፡
+                  ለዓለመ፡ ዓለም፡ አሜን።
+               </p>
+               <p>(en) Fol. 68r: This book belongs to Mälkǝˀa Krǝstos and to priests gäbäz Täklä Maryam and
+                  Maḫdärä Qal who let it be written in their time, so that it may be for them a guide
+                  to the Kingdom of Heaven. May His blessing and His benediction remain with His beloved
+                  Maḫdärä Qal and with all the children of the church forever and ever. Amen.
+               </p>
+               <p>
+                  
+                  
+                  
+                  
+                  Written in the same hand as Texts II and III.
+                  
+               </p>
+               <p></p>
+            </li>
+         </ol>
+         <h3>Extras</h3>
+         <ol></ol>
+      </section>
+      <section id="deco">
+         <h2>Decoration</h2>In this manuscript there are  6 frame.
+         <ol>
+            <li id="d1">frame: 1) Two chains of black and red dots (fol. 41va)</li>
+            <li id="d2">frame: 2) Chain of red dots (fol. 42rb)</li>
+            <li id="d3">frame: 3) Two chains of black and red dots with a cross-like asterisk between them (fol.
+               47ra)
+            </li>
+            <li id="d4">frame: 4) Row of nine dot asterisks (fol. 47rb)</li>
+            <li id="d5">frame: 5) Two chains of black and red dots (fol. 61v)</li>
+            <li id="d6">frame: 6) Chain of black and red dots interspersed with nine dot asterisks (fol. 67v)</li>
+         </ol>
+         <h2>Keywords</h2>
+         <ul>
+            <li>Liturgy</li>
+            <li>Apocrypha/Pseudoepigrapha</li>
+            <li>CanonLaw</li>
+         </ul>
+         <table>
+            <caption>Relations of this Entity with other entities</caption>
+            <thead>
+               <tr>
+                  <th>Subject</th>
+                  <th>Relation</th>
+                  <th>Object</th>
+               </tr>
+            </thead>
+         </table>
+      </section>
+      <footer id="footer">
+         <h2>Authors</h2>
+         <ul>
+            <li>Dr. Pietro Maria Liuzzo transformed from mycore to TEI
+               P5 5.5.2016
+            </li>
+            <li>SA last edited 22.10.2014</li>
+            <li>IF created 29.4.2011</li>
+            <li>Dr. Denis Nosnitsin registered 6.5.2010</li>
+         </ul>
+      </footer>
+   </body>
+</html>
