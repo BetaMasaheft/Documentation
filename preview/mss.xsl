@@ -74,7 +74,7 @@
             </p>
             <p>Edited by <xsl:apply-templates
                     select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
-                <xsl:if test="//t:publicationStmt/t:date">on <xsl:value-of
+                <xsl:if test="//t:publicationStmt/t:date"><xsl:text> on </xsl:text><xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
                 /></xsl:if></p>
         </section>
