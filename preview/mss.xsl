@@ -62,7 +62,10 @@
         </nav>
         <section id="general">
             <p>
+                <b><xsl:value-of select="//t:msIdentifier/t:idno"/></b>
+                
                 <xsl:if test="//t:msIdentifier/t:altIdentifier">
+                    <xsl:text>, </xsl:text>
                     <xsl:for-each select="//t:msIdentifier/t:altIdentifier">
                         <xsl:sort/>
                         <xsl:value-of select="concat(., ' ')"/>
@@ -70,11 +73,10 @@
                 </xsl:if>
             </p>
             <p>Edited by <xsl:apply-templates
-                select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/> 
-                <xsl:if test="//t:publicationStmt/t:date">on
-                    <xsl:value-of
+                    select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
+                <xsl:if test="//t:publicationStmt/t:date">on <xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
-                    /></xsl:if></p>
+                /></xsl:if></p>
         </section>
         <section id="description">
             <h2>General description</h2>
@@ -112,6 +114,14 @@
             <p>H: <xsl:value-of select="//t:extent/t:dimensions/t:height"/> x W: <xsl:value-of
                     select="//t:extent/t:dimensions/t:width"/> x D <xsl:value-of
                     select="//t:extent/t:dimensions/t:depth"/> cm. </p>
+            <p>(proportion: width/height: <xsl:value-of
+                    select="format-number(number(//t:extent/t:dimensions/t:width div //t:extent/t:dimensions/t:height), '#0.0###')"/>
+                ) </p>
+            <xsl:if test="//t:extent/t:note">
+                <p>
+                    <xsl:apply-templates select="//t:extent/t:note"/>
+                </p>
+            </xsl:if>
 
             <h3>binding</h3>
             <h4>endbands</h4>
@@ -135,16 +145,16 @@
                     <xsl:otherwise>No</xsl:otherwise>
                 </xsl:choose>
             </p>
-            <h3>decoration</h3>
+            <h4>binding decoration</h4>
             <p>
                 <xsl:value-of select="//t:binding/t:decoNote[@type = 'Other']"/>
             </p>
-            <h3>material</h3>
+            <h4> binding material</h4>
             <p>
                 <xsl:value-of
                     select="//t:binding/t:decoNote[@type = 'bindingMaterial']/t:material/@key"/>
             </p>
-            <h3>original binding</h3>
+            <h4>original binding</h4>
             <p>
                 <xsl:value-of select="//t:binding/@contemporary"/>
             </p>
@@ -152,14 +162,14 @@
             <p>
                 <xsl:value-of select="//t:support/t:material/@key"/>
             </p>
-            <h4>watermark</h4>
+            <h3>watermark</h3>
             <p>
                 <xsl:choose>
                     <xsl:when test="//t:support//t:watermark">Yes</xsl:when>
                     <xsl:otherwise>No</xsl:otherwise>
                 </xsl:choose>
             </p>
-            <h4>ink</h4>
+            <h3>ink</h3>
             <p>
                 <xsl:for-each select="//t:handNote[t:seg[@type = 'ink']]">
                     <xsl:value-of select="concat(@xml:id, ': ', t:seg, ';')"/>
@@ -169,10 +179,12 @@
             <p>
                 <xsl:value-of select="//t:extent/node()[not(self::t:dimensions)]"/>
             </p>
-            <h3>foliation</h3>
-            <p>
-                <xsl:apply-templates select="//t:foliation"/>
-            </p>
+            <xsl:if test="//t:foliation">
+                <h3>foliation</h3>
+                <p>
+                    <xsl:apply-templates select="//t:foliation"/>
+                </p>
+            </xsl:if>
 
             <h3>collation</h3>
             <xsl:if test="//t:collation">
@@ -226,122 +238,135 @@
 
         <section id="layout">
             <h3>layout</h3>
-            <table>
-                <tr>
-                    <td>H</td>
-                    <td>
-                        <xsl:value-of select="//t:layout/t:dimensions/t:height"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>W</td>
-                    <td>
-                        <xsl:value-of select="//t:layout/t:dimensions/t:width"/>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Intercolumn</td>
-                    <td>
-                        <xsl:value-of
-                            select="//t:layout/t:dimensions[not(@type = 'margin')]/t:dim[@type = 'intercolumn']"
-                        />
-                    </td>
-                </tr>
-                <tr>
-                    <td>Margins</td>
-                    <td>Top: <xsl:value-of
-                            select="//t:layout/t:dimensions[@type = 'margin']/t:dim[@type = 'top']"
-                        /></td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td>Bottom: <xsl:value-of
-                            select="//t:layout/t:dimensions[@type = 'margin']/t:dim[@type = 'bottom']"
-                        /></td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td>Right: <xsl:value-of
-                            select="//t:layout/t:dimensions[@type = 'margin']/t:dim[@type = 'right']"
-                        /></td>
-                </tr>
-                <tr>
-                    <td/>
-                    <td>Left: <xsl:value-of
-                            select="//t:layout/t:dimensions[@type = 'margin']/t:dim[@type = 'left']"
-                        /></td>
-                </tr>
-            </table>
-            <xsl:variable name="topmargin"
-                select="
-                    if (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'top'][1]/text()) then
-                        (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'top'][1])
-                    else
-                        ('0')"/>
-            <xsl:variable name="bottomargin"
-                select="
-                    if (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'bottom'][1]/text()) then
-                        (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'bottom'][1])
-                    else
-                        ('0')"/>
-            <xsl:variable name="rightmargin"
-                select="
-                    if (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'rigth'][1]/text()) then
-                        (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'rigth'][1])
-                    else
-                        ('0')"/>
-            <xsl:variable name="leftmargin"
-                select="
-                    if (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'left'][1]/text()) then
-                        (//t:layoutDesc/t:layout/t:dimensions[@type = 'margin'][1]/t:dim[@type = 'left'][1])
-                    else
-                        ('0')"/>
-            <xsl:variable name="textwidth"
-                select="//t:layoutDesc/t:layout/t:dimensions[not(@type)][1]/t:width[1]"/>
-            <xsl:variable name="heighText"
-                select="//t:layoutDesc/t:layout/t:dimensions[not(@type)][1]/t:height[1]"/>
-            <xsl:variable name="totalHeight"
-                select="
-                    if (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:height/text()) then
-                        (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:height * 10)
-                    else
-                        ('0')"/>
-            <xsl:variable name="totalwidth"
-                select="
-                    if (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:width/text()) then
-                        (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:width * 10)
-                    else
-                        ('0')"/>
-            <xsl:variable name="computedheight"
-                select="number($heighText) + number($bottomargin) + number($topmargin)"/>
-            <xsl:variable name="computedwidth"
-                select="number($textwidth) + number($rightmargin) + number($leftmargin)"/>
-            <div class="report">
-                <p>- Ms <xsl:value-of select="t:TEI/@xml:id"/>, <xsl:value-of
-                        select="//t:titleStmt/t:title"/><xsl:text>
+            <xsl:for-each select="//t:layout[t:dimensions]">
+                <xsl:sort select="position()"/>
+                <h4><xsl:value-of select="count(position())"/></h4>
+                
+                
+                <p>Number of columns : <xsl:value-of select="@columns"/></p>
+                
+                <p>Number of lines : <xsl:value-of select="@writtenLines"/></p>
+                
+                <table>
+                    <tr>
+                        <td>H</td>
+                        <td>
+                            <xsl:value-of select="t:dimensions/t:height"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>W</td>
+                        <td>
+                            <xsl:value-of select="t:dimensions/t:width"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Intercolumn</td>
+                        <td>
+                            <xsl:value-of
+                                select="t:dimensions[not(@type = 'margin')]/t:dim[@type = 'intercolumn']"
+                            />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Margins</td>
+                        <td>Top: <xsl:value-of
+                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'top']"
+                            /></td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td>Bottom: <xsl:value-of
+                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'bottom']"
+                            /></td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td>Right: <xsl:value-of
+                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'right']"
+                            /></td>
+                    </tr>
+                    <tr>
+                        <td/>
+                        <td>Left: <xsl:value-of
+                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'left']"
+                            /></td>
+                    </tr>
+                </table>
+                <xsl:if test="t:note"><p><xsl:apply-templates select="//t:layout/t:note"
+                        /></p></xsl:if> 
+                    <xsl:variable name="topmargin"
+                    select="
+                        if (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'top'][1]/text()) then
+                            (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'top'][1])
+                        else
+                            ('0')"/>
+                <xsl:variable name="bottomargin"
+                    select="
+                        if (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'bottom'][1]/text()) then
+                            (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'bottom'][1])
+                        else
+                            ('0')"/>
+                <xsl:variable name="rightmargin"
+                    select="
+                        if (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'rigth'][1]/text()) then
+                            (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'rigth'][1])
+                        else
+                            ('0')"/>
+                <xsl:variable name="leftmargin"
+                    select="
+                        if (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'left'][1]/text()) then
+                            (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'left'][1])
+                        else
+                            ('0')"/>
+                <xsl:variable name="textwidth"
+                    select="t:dimensions[not(@type)][1]/t:width[1]"/>
+                <xsl:variable name="heighText"
+                    select="t:dimensions[not(@type)][1]/t:height[1]"/>
+                <xsl:variable name="totalHeight"
+                    select="
+                        if (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:height/text()) then
+                            (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:height * 10)
+                        else
+                            ('0')"/>
+                <xsl:variable name="totalwidth"
+                    select="
+                        if (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:width/text()) then
+                            (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:width * 10)
+                        else
+                            ('0')"/>
+                <xsl:variable name="computedheight"
+                    select="number($heighText) + number($bottomargin) + number($topmargin)"/>
+                <xsl:variable name="computedwidth"
+                    select="number($textwidth) + number($rightmargin) + number($leftmargin)"/>
+                <div class="report">
+                    <p>- Ms <xsl:value-of select="t:TEI/@xml:id"/>, <xsl:value-of
+                            select="//t:titleStmt/t:title"/><xsl:text>
             </xsl:text>
-                    <xsl:choose>
-                        <xsl:when test="number($computedheight) > number($totalHeight)"> * has a sum
-                            of layout height of <xsl:value-of select="$computedheight"/>mm which is
-                            greater than the object height of <xsl:value-of select="$totalHeight"
-                            />mm </xsl:when>
-                        <xsl:when test="number($computedwidth) > number($totalwidth)"> * has a sum
-                            of layout width of <xsl:value-of select="$computedwidth"/>mm which is
-                            greater than the object width of <xsl:value-of select="$totalwidth"/>mm </xsl:when>
-                        <xsl:otherwise> looks ok for measures computed width is: <xsl:value-of
-                                select="$computedwidth"/>mm, object width is: <xsl:value-of
-                                select="$totalwidth"/>mm, computed height is: <xsl:value-of
-                                select="$computedheight"/>mm and object height is: <xsl:value-of
-                                select="$totalHeight"/>mm. but the following values are recognized
-                            as empty: <xsl:if test="number($topmargin) = 0">top margin </xsl:if>
-                            <xsl:if test="number($bottomargin) = 0">bottom margin </xsl:if>
-                            <xsl:if test="number($rightmargin) = 0">right margin </xsl:if>
-                            <xsl:if test="number($leftmargin) = 0">left margin </xsl:if>
-                            <xsl:if test="number($totalHeight) = 0">object height </xsl:if>
-                            <xsl:if test="number($totalwidth) = 0">object width </xsl:if>
-                        </xsl:otherwise>
-                    </xsl:choose></p>
-            </div>
+                        <xsl:choose>
+                            <xsl:when test="number($computedheight) > number($totalHeight)"> * has a
+                                sum of layout height of <xsl:value-of select="$computedheight"/>mm
+                                which is greater than the object height of <xsl:value-of
+                                    select="$totalHeight"/>mm </xsl:when>
+                            <xsl:when test="number($computedwidth) > number($totalwidth)"> * has a
+                                sum of layout width of <xsl:value-of select="$computedwidth"/>mm
+                                which is greater than the object width of <xsl:value-of
+                                    select="$totalwidth"/>mm </xsl:when>
+                            <xsl:otherwise> looks ok for measures computed width is: <xsl:value-of
+                                    select="$computedwidth"/>mm, object width is: <xsl:value-of
+                                    select="$totalwidth"/>mm, computed height is: <xsl:value-of
+                                    select="$computedheight"/>mm and object height is: <xsl:value-of
+                                    select="$totalHeight"/>mm. but the following values are
+                                recognized as empty: <xsl:if test="number($topmargin) = 0">top
+                                    margin </xsl:if>
+                                <xsl:if test="number($bottomargin) = 0">bottom margin </xsl:if>
+                                <xsl:if test="number($rightmargin) = 0">right margin </xsl:if>
+                                <xsl:if test="number($leftmargin) = 0">left margin </xsl:if>
+                                <xsl:if test="number($totalHeight) = 0">object height </xsl:if>
+                                <xsl:if test="number($totalwidth) = 0">object width </xsl:if>
+                            </xsl:otherwise>
+                        </xsl:choose></p>
+                </div></xsl:for-each>
             <h3>ruling</h3>
             <ul>
                 <xsl:for-each select="//t:ab[@type = 'ruling']">
@@ -368,11 +393,19 @@
                 <p><xsl:value-of select="@script"/>: <xsl:value-of select="t:ab[@type = 'script']"
                     /></p>
                 <p>Ink: <xsl:value-of select="t:seg[@type = 'ink']"/></p>
-                <ul>
-                    <xsl:for-each select="t:list[@type='abbreviations']/t:item"><li><xsl:value-of select="."/></li></xsl:for-each>
-                </ul>
+                <xsl:if test="t:list[@type = 'abbreviations']">
+                    <h4>
+                        Abbreviations
+                    </h4>
+                    <ul>
+                    <xsl:for-each select="t:list[@type = 'abbreviations']/t:item">
+                        <li>
+                            <xsl:apply-templates select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul></xsl:if>
                 <b>Scribe</b>
-                <xsl:apply-templates select="child::node() except (t:list|t:ab|t:seg)"/>
+                <xsl:apply-templates select="child::node() except (t:list | t:ab | t:seg)"/>
             </xsl:for-each>
             <h4>Punctuation</h4>
             <p>Executed: <xsl:value-of select="//t:ab[@subtype = 'Executed']"/></p>
@@ -454,8 +487,12 @@
                                 <xsl:apply-templates select="."/>
                             </p>
                         </xsl:for-each>
-                        <p><xsl:value-of select="./text()"/></p>
-                        <p><xsl:apply-templates select="t:note"/></p>
+                        <p>
+                            <xsl:value-of select="./text()"/>
+                        </p>
+                        <p>
+                            <xsl:apply-templates select="t:note"/>
+                        </p>
                     </li>
                 </xsl:for-each>
             </ol>

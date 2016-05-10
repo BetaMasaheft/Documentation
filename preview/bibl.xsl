@@ -16,6 +16,10 @@
     <xsl:template match="t:bibl[not(parent::t:listBibl[@type='relations'])]">
         <li>
             <xsl:choose>
+                <xsl:when test="not(@corresp) and not(t:ptr[@target])">
+                    <b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report to fix it.</b>
+                    <xsl:value-of select="."/>
+                </xsl:when>
                 <xsl:when test="@corresp">
                     <a href="{@corresp}"><xsl:value-of select="text()"/></a>
                         <xsl:if test="t:date"><xsl:apply-templates select="t:date"/></xsl:if>
