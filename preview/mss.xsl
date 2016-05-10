@@ -89,11 +89,17 @@
                 <xsl:apply-templates select="//t:listPerson/t:person"/>
             </p>
             <h3>State of preservation</h3>
+            <p>
+                <b><xsl:value-of select="//t:condition/@key"/></b>
+            </p>
+            
             <p><xsl:value-of select="//t:custEvent/@restorations"/> restorations :<xsl:value-of
                     select="//t:custEvent/@subtype"/></p>
             <h4>Condition</h4>
+          
             <p>
-                <xsl:value-of select="//t:condition"/>
+                
+                <xsl:apply-templates select="//t:condition"/>
             </p>
             <h3>Number of texts: <xsl:value-of select="count(//t:msItem[contains(@xml:id, 'i')])"
                 /></h3>
