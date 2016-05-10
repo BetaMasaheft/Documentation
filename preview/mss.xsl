@@ -123,8 +123,8 @@
             <p>H: <xsl:value-of select="//t:extent/t:dimensions/t:height"/> x W: <xsl:value-of
                     select="//t:extent/t:dimensions/t:width"/> x D <xsl:value-of
                     select="//t:extent/t:dimensions/t:depth"/> cm. </p>
-            <p>(proportion: width/height: <xsl:value-of
-                    select="format-number(number(//t:extent/t:dimensions/t:width div //t:extent/t:dimensions/t:height), '#0.0###')"/>
+            <p>(proportion height/width: <xsl:value-of
+                select="format-number(number(//t:extent/t:dimensions/t:height div //t:extent/t:dimensions/t:width), '#0.0###')"/>
                 ) </p>
             <xsl:if test="//t:extent/t:note">
                 <p>
@@ -302,7 +302,7 @@
                             /></td>
                     </tr>
                 </table>
-                <xsl:if test="t:note"><p><xsl:apply-templates select="//t:layout/t:note"
+                <xsl:if test="t:note"><p><xsl:apply-templates select="t:note"
                         /></p></xsl:if> 
                     <xsl:variable name="topmargin"
                     select="
@@ -382,6 +382,12 @@
                     <li>
                         <xsl:value-of select="."/>
                     </li>
+                </xsl:for-each>
+                
+                <xsl:for-each select="//t:ab[not(@type)]">
+                    <li>
+                           <b style="color:red;">THIS ab element IS WRONGLY ENCODED. Please check the schema error report to fix it.</b>
+                        </li>
                 </xsl:for-each>
             </ul>
             <h3>pricking</h3>
