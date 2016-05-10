@@ -387,6 +387,7 @@
                 <xsl:for-each select="//t:ab[not(@type)]">
                     <li>
                            <b style="color:red;">THIS ab element IS WRONGLY ENCODED. Please check the schema error report to fix it.</b>
+                        <xsl:value-of select="."/>
                         </li>
                 </xsl:for-each>
             </ul>
