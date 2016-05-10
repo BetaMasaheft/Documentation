@@ -97,24 +97,7 @@
             <xsl:if test="//t:person/@sex"> <h2>Sex: <xsl:choose><xsl:when test="//t:person/@sex = 1"
                 >Male</xsl:when><xsl:when test="//t:person/@sex = 2"
                     >Female</xsl:when></xsl:choose></h2></xsl:if>
-            <xsl:if test="//t:birth">
-                <h2>Birth: </h2>
-                <xsl:apply-templates select="//t:birth"/>
-                <xsl:if test="//t:birth/@evidence"> (<xsl:value-of select="//t:birth/@evidence"
-                    />)</xsl:if>
-            </xsl:if>
-            <xsl:if test="//t:death">
-                <h2>Death: </h2>
-                <xsl:apply-templates select="//t:death"/>
-                <xsl:if test="//t:death/@evidence"> (<xsl:value-of select="//t:death/@evidence"
-                    />)</xsl:if>
-            </xsl:if>
-            <xsl:if test="//t:floruit">
-                <h2>Floruit: </h2>
-                <xsl:apply-templates select="//t:floruit"/>
-                <xsl:if test="//t:floruit/@evidence"> (<xsl:value-of select="//t:floruit/@evidence"
-                    />)</xsl:if>
-            </xsl:if>
+            
             <xsl:if test="//t:occupation">
                 <h2>Occupation: </h2>
                 <xsl:apply-templates select="//t:occupation"/>
@@ -129,7 +112,27 @@
             </xsl:if>
         </section>
 
-        <section id="history"> </section>
+        <section id="history"> 
+        
+            <xsl:if test="//t:birth">
+                <h2>Birth: </h2>
+                <xsl:apply-templates select="//t:birth"/>
+                <xsl:if test="//t:birth/@evidence"> (<xsl:value-of select="//t:birth/@evidence"
+                />)</xsl:if>
+            </xsl:if>
+            <xsl:if test="//t:death">
+                <h2>Death: </h2>
+                <xsl:apply-templates select="//t:death"/>
+                <xsl:if test="//t:death/@evidence"> (<xsl:value-of select="//t:death/@evidence"
+                />)</xsl:if>
+            </xsl:if>
+            <xsl:if test="//t:floruit">
+                <h2>Floruit: </h2>
+                <xsl:apply-templates select="//t:floruit"/>
+                <xsl:if test="//t:floruit/@evidence"> (<xsl:value-of select="//t:floruit/@evidence"
+                />)</xsl:if>
+            </xsl:if>
+        </section>
 
         <xsl:if test="//t:listRelation">
             <section id="relations">

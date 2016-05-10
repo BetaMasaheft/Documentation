@@ -29,7 +29,8 @@
                         </xsl:otherwise>
                     </xsl:choose></xsl:when>
                     <xsl:otherwise><i><xsl:value-of select="."/></i></xsl:otherwise></xsl:choose>
-               
+        <xsl:if test="@evidence"> (<xsl:value-of select="@evidence"/>)</xsl:if>
+        <xsl:if test="@cert = 'low'">?</xsl:if>
             
         
     </xsl:template>

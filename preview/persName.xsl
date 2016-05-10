@@ -27,5 +27,7 @@
             <xsl:otherwise> <b style="color:red;
                 text-align:center;">**No record for Person <xsl:value-of select="@corresp"/>** = <xsl:value-of select="."/> **</b></xsl:otherwise>
         </xsl:choose>
+        <xsl:if test="@evidence"> (<xsl:value-of select="@evidence"/>)</xsl:if>
+        <xsl:if test="@cert = 'low'">?</xsl:if>
     </xsl:template>
 </xsl:stylesheet>

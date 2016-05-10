@@ -27,7 +27,7 @@
                 <h2>Type</h2>
                 <p>
                     <xsl:for-each select="//t:place/@type">
-                        <xsl:value-of select="."/>
+                        <xsl:value-of select="replace(.,' ',', ')"/>
                     </xsl:for-each>
                 </p>
             </xsl:if>
@@ -44,7 +44,17 @@
             </ul>
             <h2>Adminstrative position</h2>
             <p>
-                <xsl:value-of select="//t:settlement"/>
+                <xsl:apply-templates select="//t:settlement"/>
+            </p>
+            <p>
+                <xsl:choose>
+                    <xsl:when test="//t:placeName[@xml:lang = 'en'][@corresp = 'n1']">
+                        <xsl:value-of select="//t:placeName[@xml:lang = 'en'][@corresp = 'n1']"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:text> This settlement </xsl:text>
+                    </xsl:otherwise>
+                </xsl:choose>
                 <xsl:if test="//t:country">
                     <xsl:text> is part of </xsl:text>
                     <xsl:if test="//t:region">
@@ -55,12 +65,12 @@
                 </xsl:if>
             </p>
 
-            <h2>Appellations</h2>
+           <xsl:if test="//t:ab[@type ='appellations']"> <h2>Appellations</h2>
             <p>
                 <p>
                     <xsl:apply-templates select="//t:ab[@type = 'appellations']"/>
                 </p>
-            </p>
+            </p></xsl:if>
 
             <h2>History</h2>
             <h3>Foundation</h3>

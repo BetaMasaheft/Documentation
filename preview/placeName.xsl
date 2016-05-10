@@ -6,6 +6,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:placeName | t:region | t:country">
+      
         <xsl:choose>
             <xsl:when test="contains(@corresp, 'LOC')">
                 <xsl:choose>
@@ -16,7 +17,8 @@
                                     <xsl:value-of select="."/>
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    
+                                    <xsl:if test="@type = 'qušat'"><xsl:text>qušat </xsl:text></xsl:if>
+                                    <xsl:if test="@type = 'waradā'"><xsl:text>waradā </xsl:text></xsl:if>
                                     <xsl:value-of
                                         select="document(concat('../../Places/', @corresp, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
                                     />
@@ -39,6 +41,8 @@
                                     <xsl:value-of select="."/>
                                 </xsl:when>
                                 <xsl:otherwise>
+                                    <xsl:if test="@type = 'qušat'"><xsl:text>qušat </xsl:text></xsl:if>
+                                    <xsl:if test="@type = 'waradā'"><xsl:text>waradā </xsl:text></xsl:if>
                                     
                                     <xsl:value-of
                                         select="document(concat('../../Institutions/', @corresp, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
@@ -53,5 +57,12 @@
                 </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template match="t:settlement">
+ <xsl:apply-templates/>   
+        <xsl:if test="@when">
+            (information recorded on: <xsl:value-of select="@when"/>)
+        </xsl:if>
     </xsl:template>
 </xsl:stylesheet>

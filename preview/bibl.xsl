@@ -17,8 +17,9 @@
         <li>
             <xsl:choose>
                 <xsl:when test="@corresp">
-                    <a href="{@corresp}"><xsl:value-of select="."/> <xsl:value-of select="t:date"/>
-                        <xsl:apply-templates select="t:note"/></a>
+                    <a href="{@corresp}"><xsl:value-of select="text()"/></a>
+                        <xsl:if test="t:date"><xsl:apply-templates select="t:date"/></xsl:if>
+                        <xsl:if test="t:note"><xsl:apply-templates select="t:note"/></xsl:if>
                 </xsl:when>
                 <xsl:otherwise>
                   <xsl:if test="//t:ptr">  <xsl:variable name="zotero"
@@ -38,7 +39,7 @@
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="t:citedRange"/></xsl:if>
                     </a></xsl:if>
-                    <xsl:apply-templates select="t:note"/>
+                    <xsl:if test="t:note"><xsl:text> </xsl:text><xsl:apply-templates select="t:note"/></xsl:if>
                 </xsl:otherwise>
             </xsl:choose>
         </li>
@@ -52,7 +53,10 @@
     <xsl:template match="t:bibl" mode="intext">
             <xsl:choose>
                 <xsl:when test="@corresp">
-                    <a href="{@corresp}"><xsl:value-of select="."/> <xsl:value-of select="t:date"/></a>
+                    
+                    <a href="{@corresp}"><xsl:value-of select="text()"/></a>
+                    <xsl:if test="t:date"><xsl:apply-templates select="t:date"/></xsl:if>
+                    <xsl:if test="t:note"><xsl:apply-templates select="t:note"/></xsl:if>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:if test="//t:ptr"> 

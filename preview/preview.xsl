@@ -144,123 +144,35 @@
 
 
 
-    <xsl:template match="t:msItem">
-        <div>
-            <xsl:attribute name="id">
-                <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-
-    <xsl:template match="t:msPart">
-        <div>
-            <xsl:attribute name="id">
-                <xsl:value-of select="@xml:id"/>
-            </xsl:attribute>
-
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-
-
-    <xsl:template match="t:msContent">
-        <div id="contents">
-            <xsl:apply-templates/>
-        </div>
-    </xsl:template>
-
-    <xsl:template match="t:incipit">
-        <p>
-            <b>Incipit: </b>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
-
-    <xsl:template match="t:explicit">
-        <p>
-            <b>Explicit: </b>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
-    <xsl:template match="t:textLang">
-        <p>
-            <b>Language: </b>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
-    <xsl:template match="t:rubric">
-        <p>
-            <b>Rubrication: </b>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
-
-    <xsl:template match="t:idno">
-        <h3><xsl:value-of select="."/>, collection <xsl:value-of
-                select="following-sibling::t:collection"/></h3>
-        <br/>
-        <xsl:if test="following-sibling::t:altIdentifier">
-            <p>Other identiefiers: <xsl:for-each select="following-sibling::t:altidentifier/t:idno">
-                    <xsl:sort/>
-                    <xsl:value-of select="concat(., ' ')"/>
-                </xsl:for-each></p>
-        </xsl:if>
-    </xsl:template>
-
-
-
-    <xsl:template match="t:msItem[contains(@xml:id, 'coloph')]">
-        <h3>Colophon</h3>
-        <xsl:for-each select=".">
-            <p>
-                <xsl:apply-templates select="descendant::t:locus"/>
-            </p>
-            <p>
-                <xsl:value-of select="t:colophon/text()"/>
-            </p>
-            
-            <p>
-                <b>Translation <xsl:value-of select="t:colophon/t:foreign/@xml:lang"/>: </b><xsl:value-of select="t:colophon/t:foreign"/>
-            </p>
-            <p>
-                <xsl:apply-templates select="descendant::t:note"/>
-            </p>
-
-        </xsl:for-each>
-    </xsl:template>
-
-    
 
 
    
 
 
-
+<!--named structure templates-->
     <xsl:include href="mss.xsl"/>
-    <xsl:include href="placeInstit.xsl"/>
+    <xsl:include href="placeInstit.xsl"/> <!--includes leaflet javascript-->
     <xsl:include href="Person.xsl"/>
     <xsl:include href="Work.xsl"/>
     
     
+<!-- elements templates-->
     <xsl:include href="locus.xsl"/>
     <xsl:include href="bibl.xsl"/>
-    <xsl:include href="ref.xsl"/>
-    <xsl:include href="persName.xsl"/>
-    <xsl:include href="placeName.xsl"/>
-    <xsl:include href="title.xsl"/>
-    <xsl:include href="relation.xsl"/>
-    
     <xsl:include href="origin.xsl"/>
-    <xsl:include href="repo.xsl"/>
+    <xsl:include href="date.xsl"/>
     <xsl:include href="editorKey.xsl"/>
     <xsl:include href="change.xsl"/>
-    <xsl:include href="date.xsl"/>
-
+    <xsl:include href="msselements.xsl"/> <!--includes a series of small templates for elements in manuscript entities-->
+    
+<!--    elements with references-->
+    <xsl:include href="ref.xsl"/>
+    <xsl:include href="persName.xsl"/>
+    <xsl:include href="placeName.xsl"/><!-- includes also region, country and settlement-->
+    <xsl:include href="title.xsl"/>
+    <xsl:include href="repo.xsl"/>
+    <xsl:include href="relation.xsl"/> <!--produces also the javascript for graph-->
+    
 
 
 
