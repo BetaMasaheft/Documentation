@@ -90,20 +90,19 @@
                     }
                     div.collation{
                     overflow-x: scroll;
-                        margin-left: 5em;
-                        overflow-y: visible;
-                        padding-bottom: 1px;
-                        padding-left: 5px;
+                    margin-left: 5em;
+                    overflow-y: visible;
+                    padding-bottom: 1px;
+                    padding-left: 5px;
                     }
                     .headcol{
-                        position: absolute;
-                        padding-left: 10px;
-                        width: 5em;
-                        left: 0;
-                        top: auto;
-                        border-right: 0px none black;
-                        border-top-width: 3px; /*only relevant for first row*/
-                        margin-top: -3px; /*compensate for top border*/
+                    position: absolute;
+                    width: 5em;
+                    left: 300;
+                    top: auto;
+                    border-right: 0px none black;
+                    border-top-width: 3px; /*only relevant for first row*/
+                    margin-top: -3px; /*compensate for top border*/
                     }</style>
 
             </head>

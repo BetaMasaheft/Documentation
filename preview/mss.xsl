@@ -198,7 +198,12 @@
 
             <h3>collation</h3>
             <xsl:if test="//t:collation">
+                <p><xsl:if test="//t:signatures">
+                        <xsl:apply-templates select="//t:signatures"/>
+                    </xsl:if></p>
+                
                 <div class="collation">
+                    
                     <table>
                         <tr>
                             <td class="headcol">position</td>
