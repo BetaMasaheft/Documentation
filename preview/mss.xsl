@@ -90,9 +90,11 @@
                 <xsl:apply-templates select="//t:history"/>
             </p>
             <h3>People</h3>
-            <p>
-                <xsl:apply-templates select="//t:listPerson/t:person"/>
+            <xsl:for-each select="//t:listPerson/t:person">
+                <p>
+                <xsl:apply-templates/>
             </p>
+            </xsl:for-each>
             <h3>State of preservation</h3>
             <p>
                 <b><xsl:value-of select="//t:condition/@key"/></b>
