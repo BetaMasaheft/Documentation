@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-05-21</date>
+            <date>2012-05-21T06:20:09.966Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0071FBM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>FBM-011</idno>
                </msIdentifier>
                <msContents>
@@ -46,6 +46,11 @@ Text on fols. 1r, 24r, 32r, 81ra is written alternately in red and black lines. 
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Some of the short introductory texts are written in a single column, s. fols. 1r, 85v.</note>
+                     <note>Text III-7 (Anaphora of St. Basil of Caesarea) is preceded by a short fragment to be recited during Mass celebrated by a bishop (fol. 130va).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -53,7 +58,10 @@ Text on fols. 1r, 24r, 32r, 81ra is written alternately in red and black lines. 
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf">186.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">186.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">2.0</measure> blank
+                                                  184, 185r, 186v, in
+                                                  <measure unit="quire">17.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">20.2</height>
                               <width unit="cm">15.5</width>
@@ -153,7 +161,7 @@ Text on fols. 1r, 24r, 32r, 81ra is written alternately in red and black lines. 
                            <note>All data are for fol. 2r.</note>
                            <ab type="ruling">average number; actual numbers vary from 18 to 21</ab>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible (s. fol. 48r).</ab>
@@ -192,13 +200,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="DE" unicode="" arial="" style="line-height: 115%;">Fol. 183va-vb: Donation note.</span></span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="DE" style="line-height: 115%;">Fol. 183va:</span></span></span><span style="font-size: large;"><span lang="DE" style="line-height: 115%; font-family: Nyala;"> &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4611;&#4704;&#4726;&#4961; &#4808;&#4616;&#4720;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4616;&#4848;<span style="font-family: Arial;"><span style="font-size: small;">[fol. 183 vb]</span></span>&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4936;&#4675;&#4851;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4653;&#4739;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="DE" unicode="" arial="" style="line-height: 115%;"><locus target="#183va">Fol. 183va</locus>-vb: Donation note.</span></span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="DE" style="line-height: 115%;">Fol. 183va:</span></span></span><span style="font-size: large;"><span lang="DE" style="line-height: 115%; font-family: Nyala;"> &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4611;&#4704;&#4726;&#4961; &#4808;&#4616;&#4720;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4616;&#4848;<span style="font-family: Arial;"><span style="font-size: small;">[fol. 183 vb]</span></span>&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4936;&#4675;&#4851;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4653;&#4739;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 183va: This is a book which W&#228;l&#228;tt&#228; G&#228;br&#477;</span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#704;</span><span lang="DE" unicode="" arial="" style="line-height: 115%;">el has donated to the [fol. 183vb] church of Maryam (in) F&#228;qada so that it may be for her a guide in the Kingdom of Heaven. He who steals it or erases (its text) shall be excommunicated by the authority of Peter and Paul.</span></span></p></q>
                            <p>The letter ቃ in ወዘፈሐቃ፡ is written with a horizontal upper stroke characteristic of the letter for the spirantized ejective velar in Tǝgrǝñña.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">Fol. 185v. S&#477;fr&#228; s&#228;</span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#705;</span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">atat "Measuring of the Hour".</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;"><locus target="#185v">Fol. 185v</locus>. S&#477;fr&#228; s&#228;</span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#705;</span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">atat "Measuring of the Hour".</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Note on computus; the table shows interrelation between parts of the day (listed in the rightmost column) and months of the year (listed in the upper row). Cp. Sǝfrä säʿat in Ms. AP-001.</p>
                         </item>
@@ -209,7 +215,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (to the most part missing), textile inlays.&#xD;
 Two pairs of sewing stations.&#xD;
 Remains of two pairs of reinforcing stitches through the spine cover.</decoNote>
@@ -220,6 +226,7 @@ Remains of two pairs of reinforcing stitches through the spine cover.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -262,8 +269,8 @@ Remains of two pairs of reinforcing stitches through the spine cover.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Gäbrǝʾel (s. Additio 1 and Varia).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Gäbrǝʾel (s. Additio 1 and Varia).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -286,9 +293,9 @@ Remains of two pairs of reinforcing stitches through the spine cover.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-21">registered</change>
-         <change who="IF" when="2012-05-21">created</change>
-         <change who="DN" when="2014-08-27">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2012-05-21T06:20:09.966Z">created</change>
+         <change who="DN" when="2014-08-27T18:43:11.036Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

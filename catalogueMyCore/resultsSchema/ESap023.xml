@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2010-10-21</date>
+            <date>2010-10-21T08:47:48.179Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0030AP"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AP-023</idno>
                </msIdentifier>
                <msContents>
@@ -50,7 +50,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">68.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">68.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.0</measure> blank
+                                                  fols. 1rv, 2rv, 68rv., in
+                                                  <measure unit="quire">10.0</measure> quires (A+9). 
                                                 <dimensions type="outer">
                               <height unit="cm">28.0</height>
                               <width unit="cm">20.5</width>
@@ -106,7 +109,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered by reddish-brown tooled leather. &#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -115,6 +118,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -157,8 +161,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Ḥawaryat (s. fol. 6rb); Wälättä Maryam (s. fol. 15ra); Wälättä Śǝllase (s. fol. 15ra); Ḫaylä Maryam (s. fol. 18vb); ʾabunä Gäbrä Śǝllase (s. fol. 27vb); ʾAmätä Maryam (s. fol. 27vb); ʾArʾaya Śǝllase (s. fol. 38va); Gäbrä Ṣadǝq, Wälättä ʾƎgziʾ, Wäldä Gäbrǝʾel (s. fol. 67ra).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Ḥawaryat (s. fol. 6rb); Wälättä Maryam (s. fol. 15ra); Wälättä Śǝllase (s. fol. 15ra); Ḫaylä Maryam (s. fol. 18vb); ʾabunä Gäbrä Śǝllase (s. fol. 27vb); ʾAmätä Maryam (s. fol. 27vb); ʾArʾaya Śǝllase (s. fol. 38va); Gäbrä Ṣadǝq, Wälättä ʾƎgziʾ, Wäldä Gäbrǝʾel (s. fol. 67ra).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -181,9 +185,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-04">registered</change>
-         <change who="SA" when="2010-10-21">created</change>
-         <change who="DN" when="2014-08-25">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2010-10-21T08:47:48.179Z">created</change>
+         <change who="DN" when="2014-08-25T14:36:57.580Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

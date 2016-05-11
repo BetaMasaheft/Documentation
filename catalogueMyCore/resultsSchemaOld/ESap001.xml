@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESap001"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäṣḥafä qǝddase “Missal”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-05-24</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>AP-001</idno>
+                  <altIdentifier>
+                     <idno>C3-IV-13 (fol. 75r)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; first words (headings or parts of headings) of constituent texts; directives for the ministers; some of the musical notation signs above the lines; most of the abbreviations; elements of the punctuation signs and Ethiopic numerals.&#xD;
+&#xD;
+The incipit parts of texts I, II, III are written alternately in red and black lines (s. fols. 3r, 26r, 40ra).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">136.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">22.6</height>
+                              <width unit="cm">19.0</width>
+                              <depth unit="cm">6.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="10v"/> I(8/fols. 3r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="11r" to="18v"/> II(8; s. l.: 3, stub after 6; 6, stub after 3/fols. 11r-18v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="19r" to="26v"/> III(8/fols. 19r-26v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="27r" to="34v"/> IV(8/fols. 27r-34v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="35r" to="42v"/> V(8; s. l.: 3, stub after 5; 6, stub after 2/fols. 35r-42v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="43r" to="50v"/> VI(8/fols. 43r-50v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="51r" to="58v"/> VII(8/fols. 51r-58v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="59r" to="66v"/> VIII(8/fols. 59r-66v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="67r" to="74v"/> IX(8/fols. 67r-74v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="75r" to="82v"/> X(8/fols. 75r-82v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="83r" to="90v"/> XI(8/fols. 83r-90v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="91r" to="98v"/> XII(8/fols. 91r-98v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="99r" to="106v"/> XIII(8/fols. 99r-106v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="107r" to="114v"/> XIV(8/fols. 107r-114v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="115r" to="122v"/> XV(8/fols. 115r-122v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="123r" to="130v"/> XVI(8/fols. 123r-130v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="131r" to="134v"/> XVII(4/fols. 131r-134v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="135r" to="136v"/> XVIII(2/fols. 135r-136v)&#xD;
+&#xD;
+In quire XVIII, the stubs of two bifolios which have been cut short can be seen.</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">Some fols. at the end of the Ms. are missing. Text IV-13 is preserved up to the words በአሚነ፡ ዚአሁ፡ ለክርስቶስ፡ ንገኒ፡</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="3" writtenLines="20">
+                           <dimensions unit="mm">
+                              <height>150</height>
+                              <width>148</width>
+                              <dim type="intercolumn">7</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">26</dim>
+                              <dim type="bottom">47</dim>
+                              <dim type="right">28</dim>
+                              <dim type="left">8</dim>
+                              <dim type="intercolumn">7</dim>
+                           </dimensions>
+                           <note>All data are for fol. 133r.</note>
+                           <ab type="ruling">or 21</ab>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are partly visible (s. fol. 37r).</ab>
+                           <ab type="pricking">
+Ruling pricks are partly visible (s. fol. 37r).</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Careful</ab>
+                        <seg type="ink">Black; red; brown (names of the donor and his relatives in supplication formulas).</seg>
+                        <date>Second half of the 18th or first hald of the 19th century (?)</date>
+                        <list type="abbreviations">
+                           <item>ይ፡ ካ፡ or ካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይ፡ ዲ፡ or ዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይ፡ ሕ፡ or ሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>ቡ፡ for ቡራኬ፡</item>
+                           <item>እማ፡ for እማሬ፡</item>
+                           <item>በዝ፡ for በዝየ፡</item>
+                           <item>እግ፡ ተሣ፡ for እግዚኦ፡ ተሣሀለነ፡</item>
+                        </list>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="miniature" xml:id="d1">
+                        <locus target="#">fol. 2r: </locus>
+                        <desc>Ornamental bars.</desc>
+                     </decoNote>
+                     <decoNote type="miniature" xml:id="d2">
+                        <locus target="#">fol. 76v: </locus>
+                        <desc>Geometric pattern.</desc>
+                     </decoNote>
+                     <decoNote type="frame" xml:id="d3">- Fol. 26r: Wide coloured (red, white, black) ornamental band with two central and two lateral extensions reaching the bottom of the text, over the incipit of Text II.</decoNote>
+                     <decoNote type="frame" xml:id="d4">- Fol. 62rb: Narrow coloured (red, white, black) ornamental band with four ails at the corners, at the end of text III.</decoNote>
+                     <decoNote type="frame" xml:id="d5">- Fol. 74vc: Narrow coloured (red, white, black) ornamental band, at the end of Text IV-2.</decoNote>
+                     <decoNote type="frame" xml:id="d6">- Fol. 120va: Narrow coloured (red, white, black) ornamental band, at the end of Text IV-10.</decoNote>
+                     <decoNote type="frame" xml:id="d7">- Fol. 129ra: Narrow uncoloured (white, black) ornamental band, at the end of Text IV-11.</decoNote>
+                     <decoNote type="frame" xml:id="d8">- Fol. 132rc: Narrow coloured (red, white, black) ornamental band, at the end of Text IV-12.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p>&#160;<span lang="EN-GB" unicode="" arial="" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fol. 2r: Record concerning the income of the church.</span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>In Gǝʿǝz and Amharic.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="font-size: small;">&#160;<span lang="EN-US" style="line-height: 115%;" arial="" unicode="">Fol. 135va-vb: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 135va-vb: </span><span style="font-size: large;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4778;&#4851;&#4757;&#4961; &#4704;&#4824;&#4896;&#4765;&#4961; &#4709;&#4653;&#4961; &#4653;&#4961; &#4776;&#4749;&#4616;&#4725;&#4961; &#4667;&#4635;&#4961; &#4720;&#4643;&#4845;&#4902;&#4961; &#4808;&#4608;&#4710;&#4961; &#4616;&#4632;&#4677;&#4848;&#4656;&#4961; &#4912;&#4651;&#4677;&#4618;&#4902;&#4661;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4813;&#4661;&#4720;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4624;&#4851;&#4661;&#4968; &#4808;&#4776;&#4632;&#4961; &#4843;&#4757;&#4709;&#4654;&#4961; &#4637;&#4661;&#4616;&#4961; &#4768;&#4705;&#4609;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4773;&#4633;&#4961; &#4656;&#4704;&#4752;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4768;&#4661;&#4779;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4849;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4654;&#4661;&#4961; &#4637;&#4661;&#4616;&#4961; &#4629;&#4649;&#4843;&#4757;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4621;&#4704;&#4659;&#4752;&#4961; &#4877;&#4653;&#4635;&#4961; &#4808;&#4638;&#4872;&#4661;&#4968; &#4843;&#4853;&#4741;&#4758;&#4961; &#4843;&#4853;&#4741;&#4758;&#4961; &#4843;&#4853;&#4741;&#4758;&#4961; &#4709;&#4619;&#4729;&#4797;&#4961; &#4704;&#4874;&#4828;&#4961; &#4920;&#4622;&#4725;&#4961; &#4808;&#4677;&#4851;&#4660;&#4962; &#4969;&#4969;&#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4961; &#4773;&#4840;&#4961; &#4848;&#4872;&#4635;&#4729;&#4797;&#4961; &#4768;&#4725;&#4653;&#4657;&#4765;&#4961; &#4768;&#4757;&#4725;&#4633;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4808;&#4850;&#4843;&#4678;&#4755;&#4725;&#4962; </span></p></q>
+                           <q xml:lang="en"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" arial="" unicode="">Fol. 135va-vb: This is a book of W&#228;ld&#228; Kidan, he bought (it) for nine B&#477;rr and two &#353;&#228;mmas and donated to the sanctuary of </span><span lang="EN-US" style="line-height: 115%; font-family: 'Arial Unicode MS',sans-serif;">&#7766;&#228;raqli&#7789;os, so that it might be for him a guide to the new Kingdom of Heaven, and so that He might place him together with his father T&#228;w&#228;ld&#228; M&#228;d&#7723;&#477;n, and his mother S&#228;b&#228;n&#228; Giyorgis and his wife &#704;Askal&#228; Maryam, and his son W&#228;ld&#228; Maryam, G&#228;br&#228; &#704;Iy&#228;sus, T&#228;kl&#228; Libanos, G&#228;br&#228; Giyorgis, W&#228;l&#228;tt&#228; Libanos, W&#228;l&#228;tt&#228; Kiros, together with the select righteous who are clad in glory and grace. Saying: &#8220;May He save him, may He save him, may He save him!&#8221;, do not forget me, reciting, each of you, the Paternoster at the time of prayer and liturgy, oh you priests and deacons.</span></span></p></q>
+                           <p>In Gǝʿǝz and Amharic. The price has been written over an erasure the last letter of which is still visible.</p>
+                        </item>
+                        <item xml:id="a3">
+                           <locus/><p><span style="font-size: small;">&#160;<span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">Fol. 136ra-rc: Litanical prayer </span><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;"> to the Holy Cross.</span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>Possibly an extract from the Ordinary of the Mass. Musical notation signs are written above the lines.</p>
+                        </item>
+                        <item xml:id="a4">
+                           <locus/><p><span style="font-size: small;">&#160;<span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">Fol. 136v: S&#477;fr&#228; s&#228;</span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#705;</span><span lang="DE" unicode="" arial="" style="line-height: 115%;">at "Measuring of the Hours".</span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>Note on computus (?), about counting the time during the liturgy. In Amharic; cp. Sǝfrä säʿatat in Ms. FBM-011.</p>
+                        </item>
+                        <item xml:id="e1">- Short title of the book and crudely written notes (writing exercises): fol. 1r.&#xD;
+- Beginning of Jn. 1 (writing exercise?): fol. 1v.&#xD;
+- Ps. 110:10 (writing exercise?): fol. 2v. &#xD;
+- Notes, including pen trial, partly in Amharic: fol. 2r.&#xD;
+- Crude, very recent note in Tǝgrǝñña on the ownership of the Ms.: fol. 2v.&#xD;
+- Crude notes in the upper margin: fols. 88r, 89r, 90v, 93r, 94r, etc.&#xD;
+- Pen trials: fol. 135v.&#xD;
+- Unfinished note (?): fol. 136v.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
+                     </origPlace>
+                     <origDate notBefore="1750" notAfter="1850">Mid-18th - mid-19th century (?).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Wäldä Kidan (s. Additio 2, and supplication formulas in the main text). Additio 2 also mentions the donor’s father Täwäldä Mädḫǝn, his mother Säbänä Giyorgis and his wife ʾAskalä Maryam as well as other relatives.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Missal"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+            <language ident="am" xml:id="Lan01">Amharic</language>
+            <language>Tǝgrǝňňa</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-03">registered</change>
+         <change who="IF" when="2013-05-24">created</change>
+         <change who="IF" when="2015-01-09">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-11-28</date>
+            <date>2014-11-28T11:27:41.025Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0144MHG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MHG-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">198.0</measure> folios, in <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">198.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 3v, 198r, 198v, in
+                                                  <measure unit="quire">26.0</measure> quires (A+25). 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">25.5</width>
@@ -160,7 +163,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note/>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -181,34 +184,40 @@ The bottom line is written above the ruling.</ab>
                         <date>18th-19th cent.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ሃሌ፡/ሃ፡ያ፡</abbr> for <expan>ሃሌ፡ ሉያ፡ </expan> (e.g., fol. 14rab).</item>
+                              <abbr>ሃሌ፡/ሃ፡ያ፡</abbr> for
+                                                  <expan>ሃሌ፡ ሉያ፡ </expan> (e.g., fol. 14rab).</item>
                            <item>
-                              <abbr>እግ፡ መሐ፡</abbr> for <expan>እግዚኦ፡ መሐረነ፡ </expan> (e.g., fol. 27vab).</item>
+                              <abbr>እግ፡ መሐ፡</abbr> for
+                                                  <expan>እግዚኦ፡ መሐረነ፡ </expan> (e.g., fol. 27vab).</item>
                            <item>
-                              <abbr>ወይበ፡ ሕዝ፡/ይ: ሕ፡</abbr> for <expan>ወይበሉ፡ ሕዝብ፡ </expan> (e.g., fol. 33ra, 34rab).</item>
+                              <abbr>ወይበ፡ ሕዝ፡/ይ: ሕ፡</abbr> for
+                                                  <expan>ወይበሉ፡ ሕዝብ፡ </expan> (e.g., fol. 33ra, 34rab).</item>
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fol. 34rab).</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (e.g., fol. 34rab).</item>
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fol. 34rab).</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fol. 34rab).</item>
                            <item>
-                              <abbr>ሃ፡ ሃ፡ ሃ፡</abbr> for <expan>ሃሌ፡ ሉያ፤ ሃሌ፡ ሉያ፤ ሃሌ፡ ሉያ፤ </expan> (e.g., fol. 36vab).</item>
+                              <abbr>ሃ፡ ሃ፡ ሃ፡</abbr> for
+                                                  <expan>ሃሌ፡ ሉያ፤ ሃሌ፡ ሉያ፤ ሃሌ፡ ሉያ፤ </expan> (e.g., fol. 36vab).</item>
                            <item>
-                              <abbr>ተዘ(ከ)፡ እግ፡</abbr> for <expan>ተዘከር፡ እግዚኦ፡ </expan> (e.g., fol. 41ra).</item>
+                              <abbr>ተዘ(ከ)፡ እግ፡</abbr> for
+                                                  <expan>ተዘከር፡ እግዚኦ፡ </expan> (e.g., fol. 41ra).</item>
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ረስዮ፡ </expan> (e.g., fols. 43vab, 51rab).</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ረስዮ፡ </expan> (e.g., fols. 43vab, 51rab).</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Angular script; the size of the script slightly diminishes to the end of the manuscript.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fols. 2va-3ra: Excerpt from an unidentified apocalypse (?). </span></span><span lang="EN-US" unicode="" style="font-size:10.0pt;line-height:&#10;115%;font-family:"><br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 2v-3r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4851;&#4757;&#4772;&#4621;&#4961; &#4704;&#4969;&#4961;</span></span></span><span style="line-height: 115%;">&lt;&#8230;&gt;</span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4773;&#4632;&#4961; &#4782;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4656;&#4753;&#4845;&#4961; &#4781;&#4821;&#4808;&#4720;&#4961; &#4848;&#4637;&#4961; &#4845;&#4704;&#4829;&#4741;&#4961; &#4709;&#4773;&#4658;&#4725;&#4961; &#4848;&#4637;&#4961; &#4845;&#4813;&#4741;&#4829;&#4961; &#4776;&#4632;&#4961; &#4635;&#4845;&#4961; &#4752;&#4853;&#4961; &#4845;&#4776;&#4813;&#4757;&#4961; &#4632;&#4787;&#4757;&#4757;&#4725;&#4961; &#4819;&#4704;&#4845;&#4725;&#4961; &#4845;&#4632;&#4813;&#4721;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;"><locus target="#2va">Fols. 2va-3</locus>ra: Excerpt from an unidentified apocalypse (?). </span></span><span lang="EN-US" unicode="" style="font-size:10.0pt;line-height:&#10;115%;font-family:"><br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 2v-3r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4851;&#4757;&#4772;&#4621;&#4961; &#4704;&#4969;&#4961;</span></span></span><span style="line-height: 115%;">&lt;&#8230;&gt;</span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4773;&#4632;&#4961; &#4782;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4656;&#4753;&#4845;&#4961; &#4781;&#4821;&#4808;&#4720;&#4961; &#4848;&#4637;&#4961; &#4845;&#4704;&#4829;&#4741;&#4961; &#4709;&#4773;&#4658;&#4725;&#4961; &#4848;&#4637;&#4961; &#4845;&#4813;&#4741;&#4829;&#4961; &#4776;&#4632;&#4961; &#4635;&#4845;&#4961; &#4752;&#4853;&#4961; &#4845;&#4776;&#4813;&#4757;&#4961; &#4632;&#4787;&#4757;&#4757;&#4725;&#4961; &#4819;&#4704;&#4845;&#4725;&#4961; &#4845;&#4632;&#4813;&#4721;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The name of the scribe was erased; the second part of the name is still partially legible and can probably be read as Maryam.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;"><span unicode="">Fols. 197rb-va: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 197rb-va:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4629;&#4936;&#4961; &#4877;&#4757;&#4824;&#4725;&#4961; &#4824;&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4704;&#4824;&#4845;&#4725;&#4961; </span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4824;</span></span></span>&#4808;&#4608;&#4709;&#4811;&#4961; &#4768;&#4708;&#4726;&#4961;</span></span></span><span style="font-size: large;"><span style="line-height: 115%;">&#160;&#4608;&#4878;&#4661;&#4961; </span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961;<span style="font-size: large;"> <span style="line-height: 115%;">&#4770;&#4725;&#4653;&#4661;&#4817;&#4752;&#4961; &#4704;&#4920;&#4622;&#4725;&#4781;&#4633;&#4961; &#4969;&#4969; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962; &#4824;&#4637;&#4853;&#4648;&#4961; &#4819;&#4853;&#4961; &#4770;&#4616;&#4635;&#4961; &#4824;&#4808;&#4608;&#4709;&#4811;&#4961; &#4848;&#4869;&#4961; &#4768;&#4829;&#4635;&#4733;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4616;&#4827;&#4722;&#4961; &#4637;&#4853;&#4653;&#4961; &#4645;&#4617;&#4661;&#4961; &#4808;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4612;&#4848;&#4961; &#4808;&#4827;&#4720;&#4961; &#4819;&#4872;&#4619;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4912;&#4813;&#4622;&#4661;&#4961; &#4808;&#4971;&#4721;&#4961; &#4987;&#4961; &#4978;&#4808;&#4970;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4962;</span></span></span></span><span style="line-height: 115%;"> <br /> </span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><span unicode=""><locus target="#197rb">Fols. 197rb</locus>-va: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 197rb-va:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4629;&#4936;&#4961; &#4877;&#4757;&#4824;&#4725;&#4961; &#4824;&#4808;&#4608;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4704;&#4824;&#4845;&#4725;&#4961; </span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4824;</span></span></span>&#4808;&#4608;&#4709;&#4811;&#4961; &#4768;&#4708;&#4726;&#4961;</span></span></span><span style="font-size: large;"><span style="line-height: 115%;">&#160;&#4608;&#4878;&#4661;&#4961; </span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961;<span style="font-size: large;"> <span style="line-height: 115%;">&#4770;&#4725;&#4653;&#4661;&#4817;&#4752;&#4961; &#4704;&#4920;&#4622;&#4725;&#4781;&#4633;&#4961; &#4969;&#4969; &#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4962; &#4824;&#4637;&#4853;&#4648;&#4961; &#4819;&#4853;&#4961; &#4770;&#4616;&#4635;&#4961; &#4824;&#4808;&#4608;&#4709;&#4811;&#4961; &#4848;&#4869;&#4961; &#4768;&#4829;&#4635;&#4733;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4616;&#4827;&#4722;&#4961; &#4637;&#4853;&#4653;&#4961; &#4645;&#4617;&#4661;&#4961; &#4808;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4612;&#4848;&#4961; &#4808;&#4827;&#4720;&#4961; &#4819;&#4872;&#4619;&#4961; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4912;&#4813;&#4622;&#4661;&#4961; &#4808;&#4971;&#4721;&#4961; &#4987;&#4961; &#4978;&#4808;&#4970;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4962;</span></span></span></span><span style="line-height: 115%;"> <br /> </span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note has been written, in the main hand, in red ink. The note is not quite clear; it states that the Ms. was donated by ʾabeto Hagos to the church Maryam Gäbäzäyti. ʾAbeto Hagos (d. 1831, baptismal name Dǝgǝmawi Zä-Mänfäs Qǝddus) was a son of däğğazmač Säbagadis (baptismal name Zä-Mänfäs Qǝddus, s. EAE IV, 431; cf. Ms. FBM-002). The note mentions also a land donation to ʿAdd ʾIlama.</p>
                         </item>
@@ -234,6 +243,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark-brown leather cover (at least 1 tool was used: single line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -276,8 +286,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 2, the Ms. was donated by ʾabeto Hagos, most probably a son of däğğazmač Säbagadis Wäldu (s. EAE IV, 431, both died in 1831). The name Zä-Mänfäs Qǝddus (e.g., fols. 10va, 32rab, 32vab, 41rab, 50va) is mentioned in the supplication formulas, together with several other names: Gäbrä Ṣadǝq (e.g., fols. 10va, 32rab, 32vab, 41rab, 50va), Zä-Wäldä Maryam (fols. 10va, 32vab, 41ra, 50va), Täsfa Maryam (fols. 32vb, 41rb), Wälättä ʿAbiyä ʾƎgziʾ (fols. 50va, 54ra, 59ra), Wäldä Lǝʿul (fols. 60va, 67vb), Wälättä Ṣǝyon (fols. 59ra, 68va), Wäldä Ḥawaryat and Wäldä Krǝstos (fol. 66vb), Gäbrä Samuʾel (fols. 104vb, 110vb). However, the baptismal name of Hagos is Dagǝmawi Zä-Mänfäs Qǝddus.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 2, the Ms. was donated by ʾabeto Hagos, most probably a son of däğğazmač Säbagadis Wäldu (s. EAE IV, 431, both died in 1831). The name Zä-Mänfäs Qǝddus (e.g., fols. 10va, 32rab, 32vab, 41rab, 50va) is mentioned in the supplication formulas, together with several other names: Gäbrä Ṣadǝq (e.g., fols. 10va, 32rab, 32vab, 41rab, 50va), Zä-Wäldä Maryam (fols. 10va, 32vab, 41ra, 50va), Täsfa Maryam (fols. 32vb, 41rb), Wälättä ʿAbiyä ʾƎgziʾ (fols. 50va, 54ra, 59ra), Wäldä Lǝʿul (fols. 60va, 67vb), Wälättä Ṣǝyon (fols. 59ra, 68va), Wäldä Ḥawaryat and Wäldä Krǝstos (fol. 66vb), Gäbrä Samuʾel (fols. 104vb, 110vb). However, the baptismal name of Hagos is Dagǝmawi Zä-Mänfäs Qǝddus.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -300,9 +310,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-20">registered</change>
-         <change who="VR" when="2014-11-28">created</change>
-         <change who="VR" when="2015-04-23">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VR" when="2014-11-28T11:27:41.025Z">created</change>
+         <change who="VR" when="2015-04-23T10:34:18.871Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-10-16</date>
+            <date>2014-10-16T17:30:22.404Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0110QDS"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QDS-012</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I contains the embedded colophon (fol. 18v) which states that the book was translated from a Western/Occidental language and that Gäbrä Krǝstos was the translator:</note>
+                     <note>… ተርጎምክዋ፡ ለዛቲ፡ መጽሐፍ፡ አነ፡ ገብረ፡ ክርስቶስ፡ እምነገረ፡ አፍርንጊ፡ ኀበ፡ ነገረ፡ ኢትዮጵያ፡</note>
+                     <note/>
+                     <note>Text III is ascribed to ʾabba Giyorgis of Gasǝḉḉa. The traditional title is Ṣälot zä-ʾabba Giyorgis “Prayer of ʾabba Giyorgis”. The text is included in Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week” (s. Ethiopian Orthodox Church (ed.), Gәbrä ḥǝmamat, Addis Abäba 1942 A.M. [1949/50 A.D.], repr. 1972 A.M. [1979/50],<ref type="mss" corresp="ES471477">471-477</ref>). The beginning section of the prayer, ዘሌሊት (zä-lelit, “for the night hours”), is missing. Here, the text has been interrupted on the last fol. because of the lack of space, the rest having been added on the fly-leaves.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +58,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">81.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">81.0</measure> folios, in
+                                                  <measure unit="quire">10.0</measure> quires (9+A). 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">12.3</width>
@@ -117,7 +125,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 5r</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -138,18 +146,23 @@ The bottom line is written above the ruling.</ab>
                         <date>19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ሰ፡</abbr> for <expan>ሰላም፡ ለኪ፡ </expan> (e.g., fols. 1r, 175r)</item>
+                              <abbr>ሰ፡</abbr> for
+                                                  <expan>ሰላም፡ ለኪ፡ </expan> (e.g., fols. 1r, 175r)</item>
                            <item>
-                              <abbr>ማ፡/ማር፡</abbr> for <expan>ማርያም</expan> (e.g., fols. 1v, 2v)</item>
+                              <abbr>ማ፡/ማር፡</abbr> for
+                                                  <expan>ማርያም</expan> (e.g., fols. 1v, 2v)</item>
                            <item>
-                              <abbr>ም፡</abbr> for <expan>ምዕራፍ፡ </expan> (e.g., fols. 19v, 20r)</item>
+                              <abbr>ም፡</abbr> for
+                                                  <expan>ምዕራፍ፡ </expan> (e.g., fols. 19v, 20r)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><br /> </span></p><q xml:lang="gez"><div><span style="font-size: small;">Fols. 74v: </span></div> <div><span style="font-size: large;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4778;&#4961; &#4824;&#4632;&#4819;&#4827;&#4961; &#4768;&#4937;&#4778;&#4961; &#4782;&#4621;&#4962;</span></div> <div><span style="font-size: large;">&#4773;&#4757;&#4720;&#4961; &#4725;&#4924;&#4757;&#4810;&#4961; &#4704;&#4872;&#4851;&#4637;&#4961; &#4808;&#4624;&#4677;&#4621;&#4962;</span></div> <div><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4621;&#4723;&#4961; &#4648;&#4850;&#4774;&#4725;&#4840;&#4961; &#4704;&#4813;&#4661;&#4720;&#4961; &#4672;&#4725;&#4621;&#4962;</span></span></div></q>
+                           <locus target="#00"/>
+                           <desc><p><span style="font-size: small;"><br /> </span></p></desc>
+                           <q xml:lang="gez"><div><span style="font-size: small;">Fols. 74v: </span></div> <div><span style="font-size: large;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4778;&#4961; &#4824;&#4632;&#4819;&#4827;&#4961; &#4768;&#4937;&#4778;&#4961; &#4782;&#4621;&#4962;</span></div> <div><span style="font-size: large;">&#4773;&#4757;&#4720;&#4961; &#4725;&#4924;&#4757;&#4810;&#4961; &#4704;&#4872;&#4851;&#4637;&#4961; &#4808;&#4624;&#4677;&#4621;&#4962;</span></div> <div><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4621;&#4723;&#4961; &#4648;&#4850;&#4774;&#4725;&#4840;&#4961; &#4704;&#4813;&#4661;&#4720;&#4961; &#4672;&#4725;&#4621;&#4962;</span></span></div></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -161,7 +174,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (quarter cover).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -171,6 +184,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.&#xD;
 Turn-ins are laced with cord.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 2 tools were used: single line fillet, double line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -213,8 +227,8 @@ Turn-ins are laced with cord.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor has been erased from the supplication formulas and replaced with Täsfa Śǝllase (e.g., fols. 6v, 8v, 19v).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor has been erased from the supplication formulas and replaced with Täsfa Śǝllase (e.g., fols. 6v, 8v, 19v).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -237,9 +251,9 @@ Turn-ins are laced with cord.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-02">registered</change>
-         <change who="AA" when="2014-10-16">created</change>
-         <change who="DN" when="2014-11-07">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2014-10-16T17:30:22.404Z">created</change>
+         <change who="DN" when="2014-11-07T09:41:22.497Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-10-29</date>
+            <date>2014-10-29T12:17:18.059Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0163BQM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>BQM-009</idno>
                </msIdentifier>
                <msContents>
@@ -48,6 +48,10 @@ The rubrication is executed in different ink. The scribe of Text I has used crim
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The homily for the month Säne is followed by an ʾarke-hymn: ሰላም፡ ለአፎምያ፡ ዘሞዓቶ፡ ለመስቴማ። በዛቲ፡ ዕለት፡ በከመ፡ አዳማ፡ ሥዕለ፡ ሚካኤል፡ መልአከ፡ እንዘ፡ ታነብር፡ በፍጽማ። ውስተ፡ ዘለዓለም፡ ዕረፍት፡ አዕረፍት፡ እምጻማ። (fol. 76va).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -55,7 +59,10 @@ The rubrication is executed in different ink. The scribe of Text I has used crim
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">104.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">104.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fol. 1v., in
+                                                  <measure unit="quire">15.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">23.5</height>
                               <width unit="cm">17.0</width>
@@ -131,7 +138,7 @@ The rubrication is executed in different ink. The scribe of Text I has used crim
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -152,20 +159,23 @@ The bottom line is written above the ruling.</ab>
                         <persName role="scribe" corresp="PRS00000">Wäldä Śǝllase (?)</persName>The hand that wrote Text I (hand a) is very similar, possibly identical, to that of Wäldä Śǝllase (?) of Ms. BGY-013.<date>Mid 19th – first half of the 20th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለዓለ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 85ra)</item>
+                              <abbr>ለዓለ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 85ra)</item>
                            <item>
-                              <abbr>ለዓለ፡ ዓለ፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 67vb)</item>
+                              <abbr>ለዓለ፡ ዓለ፡ አሜ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 67vb)</item>
                            <item>
-                              <abbr>ለዓለም፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 84vb)</item>
+                              <abbr>ለዓለም፡ አሜ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 84vb)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">Text I (fols. 2ra-99rb). The handwriting appears sometimes irregular (cp. fols. 9r vs. 41r vs. 62r). </handNote>
-                     <handNote xml:id="h3" script="Ethiopic">Text II (fol. 99va-104rb).</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a, Wäldä Śǝllase (?): Text I (fols. 2ra-99rb). The handwriting appears sometimes irregular (cp. fols. 9r vs. 41r vs. 62r). <!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b: Text II (fol. 99va-104rb).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 99rb: Donation note.</span></p><q xml:lang="gez"><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"> <p><span style="font-size: small;">Fol. 99rb: </span><span style="font-size: larger;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4709;&#4619;&#4723;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4635;&#4840;&#4961; &#4768;&#4709;&#4768;&#4961; &#4824;&#4808;&#4611;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962;</span></p> </div></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#99rb">Fol. 99rb</locus>: Donation note.</span></p><q xml:lang="gez"><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"> <p><span style="font-size: small;">Fol. 99rb: </span><span style="font-size: larger;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4709;&#4619;&#4723;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4635;&#4840;&#4961; &#4768;&#4709;&#4768;&#4961; &#4824;&#4808;&#4611;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962;</span></p> </div></q>
                            <q xml:lang="en"><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;"><span>Fol. 99rb: This book is of blatta W&#228;ld&#228; Maryam (of) May &#704;Ab&#704;a who donated it to (the chruch of) Maryam so </span><span>that it might be for him a guide to the Kingdom of Heaven.</span></span></div></q>
                            <p/>
                         </item>
@@ -175,7 +185,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (partly missing).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -184,6 +194,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Remnants of two pairs of chains of endband stitches at the spine fold of the quires.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 5 tools were used: fourfold line fillet, triple circle, x-form, wave form, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -226,8 +237,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, the Ms. was donated by blatta Wäldä Maryam (of) May ʾAbʾa. His name and the name of his wife Wälättä ʾAnanya are mentioned in supplication formulas throughout Text I. The names of their children are written at the end of Text I.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms. was donated by blatta Wäldä Maryam (of) May ʾAbʾa. His name and the name of his wife Wälättä ʾAnanya are mentioned in supplication formulas throughout Text I. The names of their children are written at the end of Text I.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -254,9 +265,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-19">registered</change>
-         <change who="SH" when="2014-10-29">created</change>
-         <change who="SH" when="2015-01-14">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2014-10-29T12:17:18.059Z">created</change>
+         <change who="SH" when="2015-01-14T16:49:10.020Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

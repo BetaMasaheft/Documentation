@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-05-08</date>
+            <date>2014-05-08T10:30:00.555Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0144MHG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MHG-013</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">112.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">112.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1v, 2r, 111v, 112r, in
+                                                  <measure unit="quire">17.0</measure> quires (A+15+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">20.0</height>
                               <width unit="cm">15.5</width>
@@ -60,6 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>Quire marks are written in the upper margin: fols. 21r, 37r, 45r, 53r, 61r, 69r, 77r, 85r, 93r, 99r, 107r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -140,7 +146,7 @@ The red ink is faded and often barely legible.</condition>
                            <note>All data for fol. 7r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -160,22 +166,19 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red (vermillion).</seg>
                         <date>Late 19th – early 20th cent</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Strongly pronounced hairlines.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;">Fol. 2v: &#160;Short preaching about love.</span></div><q xml:lang="gez"/>
+                        <item xml:id="a1"><div style="line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><locus target="#2v">Fol. 2v</locus>: &#160;Short preaching about love.</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Almost illegible note. The ink is abraded.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;">Fols. 110vb-111rb: Donation note.</span></div><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 110vb-111rb: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4709;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span></span>&#4658;&#4721;&#4961; </span></span><span style="line-height: 115%;">[l.n.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4768;&#4705;&#4609;&#4961; &#4624;&#4616;&#4675;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">[l.n.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4773;&#4633;&#4961; </span></span><span style="line-height: 115%;">[l.n.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4608;&#4707;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4704;</span></span></span>&#4827;&#4843;&#4725;&#4961; &#4773;&#4661;&#4632;&#4961; &#4768;&#4925;&#4624;</span></span><span style="line-height: 115%;">[</span><span style="font-size: large;"><span style="line-height: 115%;">&#4942;&#4961;</span></span><span style="line-height: 115%;">]</span><span style="line-height: 115%;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4757;</span></span><span style="line-height: 115%;">[</span><span style="font-size: large;"><span style="line-height: 115%;">&#4811;</span></span><span style="line-height: 115%;">]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4841;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4725;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4808;&#4843;&#4709;&#4774;&#4961; &#4773;&#4877;&#4826;&#4768;&#4961; &#4661;&#4709;&#4624;&#4725;&#4968; &#4704;&#4877;&#4613;&#4848;&#4725;&#4961; &#4824;&#4773;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4757;</span></span></span>&#4704;&#4616;&#4961; &#4781;&#4621;&#4768;&#4725;&#4961; &#4736;&#4704;&#4961; &#4845;&#4676;&#4853;&#4657;&#4961; &#4740;&#4651;&#4757;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4968; &#4808;&#4736;&#4704;&#4961; &#4608;&#4616;&#4813;&#4961; &#4752;&#4706;&#4843;&#4725;&#4961; &#4808;&#4624;&#4811;&#4653;&#4843;&#4725;&#4962; &#4808;&#4736;&#4704;&#4961; &#4845;&#4725;&#4940;&#4645;&#4625;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4725;&#4962; &#4808;&#4736;&#4704;&#4961; &#4845;&#4725;&#4811;&#4752;&#4846;&#4961; &#4757;&#4921;&#4629;&#4757;</span></span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">sic</span><span style="line-height: 115%;">]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4629;&#4931;&#4755;&#4725;&#4962; &#4637;&#4661;&#4616;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4637;&#4629;&#4648;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4635;&#4821;&#4637;&#4757;&#4725;&#4961; &#4808;&#4840;</span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">&#4811;</span><span style="line-height: 115%;">]</span><span style="line-height: 115%;">&#4610;&#4725;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4968;</span></span></span></p></q>
+                        <item xml:id="a2"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><locus target="#110vb">Fols. 110vb-111</locus>rb: Donation note.</span></div><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fols. 110vb-111rb: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4709;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span></span>&#4658;&#4721;&#4961; </span></span><span style="line-height: 115%;">[l.n.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4768;&#4705;&#4609;&#4961; &#4624;&#4616;&#4675;&#4961;</span></span><span style="line-height: 115%;"> </span><span style="line-height: 115%;">[l.n.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4773;&#4633;&#4961; </span></span><span style="line-height: 115%;">[l.n.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4608;&#4707;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4704;</span></span></span>&#4827;&#4843;&#4725;&#4961; &#4773;&#4661;&#4632;&#4961; &#4768;&#4925;&#4624;</span></span><span style="line-height: 115%;">[</span><span style="font-size: large;"><span style="line-height: 115%;">&#4942;&#4961;</span></span><span style="line-height: 115%;">]</span><span style="line-height: 115%;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4757;</span></span><span style="line-height: 115%;">[</span><span style="font-size: large;"><span style="line-height: 115%;">&#4811;</span></span><span style="line-height: 115%;">]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4841;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4725;</span></span><span style="line-height: 115%;">[sic]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4808;&#4843;&#4709;&#4774;&#4961; &#4773;&#4877;&#4826;&#4768;&#4961; &#4661;&#4709;&#4624;&#4725;&#4968; &#4704;&#4877;&#4613;&#4848;&#4725;&#4961; &#4824;&#4773;</span></span></span><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4757;</span></span></span>&#4704;&#4616;&#4961; &#4781;&#4621;&#4768;&#4725;&#4961; &#4736;&#4704;&#4961; &#4845;&#4676;&#4853;&#4657;&#4961; &#4740;&#4651;&#4757;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4968; &#4808;&#4736;&#4704;&#4961; &#4608;&#4616;&#4813;&#4961; &#4752;&#4706;&#4843;&#4725;&#4961; &#4808;&#4624;&#4811;&#4653;&#4843;&#4725;&#4962; &#4808;&#4736;&#4704;&#4961; &#4845;&#4725;&#4940;&#4645;&#4625;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4725;&#4962; &#4808;&#4736;&#4704;&#4961; &#4845;&#4725;&#4811;&#4752;&#4846;&#4961; &#4757;&#4921;&#4629;&#4757;</span></span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">sic</span><span style="line-height: 115%;">]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4629;&#4931;&#4755;&#4725;&#4962; &#4637;&#4661;&#4616;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4637;&#4629;&#4648;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4635;&#4821;&#4637;&#4757;&#4725;&#4961; &#4808;&#4840;</span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">&#4811;</span><span style="line-height: 115%;">]</span><span style="line-height: 115%;">&#4610;&#4725;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4968;</span></span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in the main hand, but in a carless way, the note states that the Ms. was commissioned by priest (qes) Gäbrä ʾƎgziʾabǝḥer and donated the Ms. to Ḥarennät Gäbäzäyti Qǝddǝst Maryam. The names of his father and wife are illegible, due to the abraded red ink.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 111rb: Note on the commissioning of the Ms.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 111rb:</span></span><span style="line-height: 115%; font-size: 10pt;" unicode=""> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4624;&#4616;&#4675;&#4961; &#4808;&#4621;&#4853;&#4961; &#4768;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4875;&#4709;&#4653;&#4961; &#4808;&#4773;&#4633;&#4961; &#4923;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span lang="AMH" style="color: black; line-height: 115%; font-family: Nyala;">&#4851;</span></span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4920;&#4875;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4656;&#4648;&#4675;: &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#111rb">Fol. 111rb</locus>: Note on the commissioning of the Ms.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 111rb:</span></span><span style="line-height: 115%; font-size: 10pt;" unicode=""> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4624;&#4616;&#4675;&#4961; &#4808;&#4621;&#4853;&#4961; &#4768;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4875;&#4709;&#4653;&#4961; &#4808;&#4773;&#4633;&#4961; &#4923;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span lang="AMH" style="color: black; line-height: 115%; font-family: Nyala;">&#4851;</span></span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4920;&#4875;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4656;&#4648;&#4675;: &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in the main hand, but in a carless way, the note states that the Ms. was commissioned by priest (qes) Gäbrä ʾƎgziabǝḥer. Other family members are are Wäldä ʾAbiyä ʾƎgziʾ, Täsfa Mikaʾel, Wälättä Gabǝr, Ṣadalä Maryam, Ṣägga Śǝllase, Wälättä Śǝllase.</p>
                         </item>
@@ -195,6 +198,7 @@ Two sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Remains of the endbands visible on the spine.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 4 tools were used: double circle, single line fillet, x-form, double sine wave with dots).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -237,8 +241,8 @@ Two sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Priest (qes) Gäbrä ʾƎgziabǝḥer has commissioned the Ms. according to Additiones 2, 3. His name, and the name of his wife Märḥa Ṣǝyon, are inserted into the supplication formulas throughout the Ms. According to Additio 3 other family members are Wäldä ʾAbiyä ʾƎgziʾ, Täsfa Mikaʾel, Wälättä Gabǝr, Ṣadalä Maryam, Ṣägga Śǝllase, Wälättä Śǝllase.&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">Priest (qes) Gäbrä ʾƎgziabǝḥer has commissioned the Ms. according to Additiones 2, 3. His name, and the name of his wife Märḥa Ṣǝyon, are inserted into the supplication formulas throughout the Ms. According to Additio 3 other family members are Wäldä ʾAbiyä ʾƎgziʾ, Täsfa Mikaʾel, Wälättä Gabǝr, Ṣadalä Maryam, Ṣägga Śǝllase, Wälättä Śǝllase.&#xD;
 The name Gäbrä Śǝllase (fols. 7rb, 9vb) is inserted, in a secondary hand, into some of the supplication formulas.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -262,9 +266,9 @@ The name Gäbrä Śǝllase (fols. 7rb, 9vb) is inserted, in a secondary hand, in
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-20">registered</change>
-         <change who="SD" when="2014-05-08">created</change>
-         <change who="DN" when="2015-04-19">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SD" when="2014-05-08T10:30:00.555Z">created</change>
+         <change who="DN" when="2015-04-19T18:45:17.870Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

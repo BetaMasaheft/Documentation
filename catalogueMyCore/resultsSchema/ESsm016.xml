@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-05-15</date>
+            <date>2013-05-15T13:48:43.966Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0053SM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SM-016</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; names of King Ḫaylä Śǝllase, Archbishop Basǝlyos and Bishop Yoḥannǝs; incipit of Text I and its sections; titles of books to be read; two initial lines of some readings in Text II; incipit of the sections of Text III; abbreviations of the directives to the ministers yǝbǝl kahǝn, “the priest says”, yǝbǝl diyaqon, “the deacon says” and yǝbǝl ḥǝzb, “the people say” in Text III; elements of the punctuation signs; elements of Ethiopic numerals; elements of the quire marks; notes written in the upper margin.</rubric>
+                     <rubric>Nomina sacra; names of the donors; names of King Ḫaylä Śәllase, Archbishop Basәlyos and Bishop Yoḥannәs; incipit of Text I and its sections; titles of books to be read; two initial lines of some readings in Text II; incipit of the sections of Text III; abbreviations of the directives to the ministers yәbәl kahәn, “the priest says”, yәbәl diyaqon, “the deacon says” and yәbәl ḥәzb, “the people say” in Text III; elements of the punctuation signs; elements of Ethiopic numerals; elements of the quire marks; notes written in the upper margin.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Cp. Ms.<ref type="mss" corresp="ESmr006">MR-006</ref>.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">48.0</measure> folios, of which <measure unit="leaf" type="blank">6.0</measure> blank, in <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">48.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">6.0</measure> blank
+                                                  Fols. 1r-v, 2r-v, 3r-v, 4r-v, 47v, 48r-v, in
+                                                  <measure unit="quire">7.0</measure> quires (A+6). 
                                                 <dimensions type="outer">
                               <height unit="cm">12.7</height>
                               <width unit="cm">9.7</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written on the first folio of the quires.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">4</dim>
@@ -103,7 +112,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -134,16 +143,15 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 47r l. 11-13: Scribe&#180;s note on completing the work.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#47r">Fol. 47r</locus>l. 11-13: Scribe&#180;s note on completing the work.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Rubricated, written in the same hand as the main text. The note mentions ʾabunä Wäldä ʾArägawi, which is most probably the scribe.</p>
                         </item>
-                        <item xml:id="e1">- Titles ʾAslǝṭi and Säʿatat are written on the front and back boards.</item>
+                        <item xml:id="e1">- Titles ʾAslәṭi and Säʿatat are written on the front and back boards.</item>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards.&#xD;
 One pair of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -151,6 +159,7 @@ One pair of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, between the sewing stations.</decoNote>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -159,7 +168,7 @@ One pair of sewing stations.</decoNote>
                      <origPlace>
                         <placeName corresp="INS0053SM">Säbäya Maryam /SM</placeName>
                      </origPlace>
-                     <origDate notBefore="1956" notAfter="1970">King Ḫaylä Śǝllase (r. 1930-74), Archbishop Basǝlyos (1883-1970) and Yoḥannǝs (1895-1991), Bishop of Tǝgray from 1956 to 1974, are mentioned in the supplications formuals throughout Text I-3 (s. fols. 25v, 27r, 28v, 33v, 45v).</origDate>
+                     <origDate notBefore="1956" notAfter="1970">King Ḫaylä Śәllase (r. 1930-74), Archbishop Basәlyos (1883-1970) and Yoḥannәs (1895-1991), Bishop of Tәgray from 1956 to 1974, are mentioned in the supplications formuals throughout Text I-3 (s. fols. 25v, 27r, 28v, 33v, 45v).</origDate>
                   </origin>
                </history>
                <additional>
@@ -193,8 +202,8 @@ One pair of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Gärima, Wälättä ʾƎgziʾ and Wälättä Tǝnsaʾe (s. supplication formulas on fols. 7v, 9r, 42v).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Gärima, Wälättä ʾƎgziʾ and Wälättä Tәnsaʾe (s. supplication formulas on fols. 7v, 9r, 42v).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -220,9 +229,9 @@ One pair of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-14">registered</change>
-         <change who="SA" when="2013-05-15">created</change>
-         <change who="SH" when="2014-05-28">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-05-15T13:48:43.966Z">created</change>
+         <change who="SH" when="2014-05-28T17:07:26.489Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

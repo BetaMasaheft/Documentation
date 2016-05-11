@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESum015"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Sǝnkǝssar “Synaxarion” (the first half of the year)</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2010-09-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0017UQ"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>UM-015</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the donor; incipits of the commemoration notices; the word sälam; elements of the punctuation signs; elements of Ethiopic numerals. &#xD;
+On the first page opening the commemoration notices for a month, four groups of two lines are written in red ink. The concluding formula, at the end of some months: ተፈጸመ፡ ወርኃ፡….</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">173.0</measure> folios, of which <measure unit="leaf" type="blank">8.0</measure> blank, in <measure unit="quire">19.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">35.0</height>
+                              <width unit="cm">26.5</width>
+                              <depth unit="cm">7.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="1r" to="3v"/>A(3/fols. 1r-3v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="4r" to="13v"/> I(10/fols. 4r-13v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="14r" to="23v"/> II(10/fols. 14r-23v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="24r" to="31v"/> III(8/fols. 24r-31v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="32r" to="41v"/> IV(10/fols. 32r-41v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="42r" to="51v"/> V(10/fols. 42r-51v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="52r" to="61v"/> VI(10/fols. 52r-61v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="62r" to="71v"/> VII(10/fols. 62r-71v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="72r" to="82v"/> VIII(10/fols. 72r-82v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="83r" to="92v"/> IX(10/fols. 83r-92v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="93r" to="102v"/> X(10/fols. 93r-102v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">11</dim>
+                                 <locus target="11"/>
+                                 <locus from="103r" to="113v"/> XI(11/fols. 103r-113v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="114r" to="123v"/> XII(10/fols. 114r-123v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="124r" to="133v"/> XIII(10/fols. 124r-133v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="134r" to="143v"/> XIV(10/fols. 134r-143v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="144r" to="153v"/> XV(10/fols. 144r-153v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="154r" to="163v"/> XVI(10/fols. 154r-163v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="164r" to="170v"/> XVII(7/fols. 164r-170v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="171r" to="173v"/> B (3/fols. 171r-173v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="3" writtenLines="39">
+                           <dimensions unit="mm">
+                              <height>269</height>
+                              <width>226</width>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">29</dim>
+                              <dim type="bottom">52</dim>
+                              <dim type="right">25</dim>
+                              <dim type="left">14</dim>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <note>All data for fol. 98r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Poor</ab>
+                        <seg type="ink">Black; red.</seg>
+                        <date>late 20th century.</date>
+                     </handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p><span style="font-size: small;"><span lang="AMH" style="font-family: ">Fol. 170r</span><span lang="EN-GB" style="font-family: ">b</span><span lang="AMH" style="font-family: ">: </span><span lang="EN-US" style="font-family: ">Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; </span><span style="font-family: ">(concluding prayer).</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span lang="AMH" style="line-height: 115%; font-family: ">Fol. 170r</span><span style="line-height: 115%; font-family: ">b</span><span lang="AMH" style="line-height: 115%; font-family: ">: </span></span><span style="font-size: larger;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4635;&#4741;&#4620;&#4720;&#4961; </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4824;&#4778;&#4653;&#4840;&#5011;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span><!--[if gte mso 9]><xml> <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="true" DefSemiHidden="true" DefQFormat="false" DefPriority="99" LatentStyleCount="267"> <w:LsdException Locked="false" Priority="0" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Normal" /> <w:LsdException Locked="false" Priority="9" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="heading 1" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 2" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 3" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 4" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 5" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 6" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 7" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 8" /> <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 9" /> <w:LsdException Locked="false" Priority="39" Name="toc 1" /> <w:LsdException Locked="false" Priority="39" Name="toc 2" /> <w:LsdException Locked="false" Priority="39" Name="toc 3" /> <w:LsdException Locked="false" Priority="39" Name="toc 4" /> <w:LsdException Locked="false" Priority="39" Name="toc 5" /> <w:LsdException Locked="false" Priority="39" Name="toc 6" /> <w:LsdException Locked="false" Priority="39" Name="toc 7" /> <w:LsdException Locked="false" Priority="39" Name="toc 8" /> <w:LsdException Locked="false" Priority="39" Name="toc 9" /> <w:LsdException Locked="false" Priority="35" QFormat="true" Name="caption" /> <w:LsdException Locked="false" Priority="10" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Title" /> <w:LsdException Locked="false" Priority="1" Name="Default Paragraph Font" /> <w:LsdException Locked="false" Priority="11" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Subtitle" /> <w:LsdException Locked="false" Priority="22" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Strong" /> <w:LsdException Locked="false" Priority="20" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Emphasis" /> <w:LsdException Locked="false" Priority="59" SemiHidden="false" UnhideWhenUsed="false" Name="Table Grid" /> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Placeholder Text" /> <w:LsdException Locked="false" Priority="1" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="No Spacing" /> <w:LsdException Locked="false" Priority="60" SemiHidden="false" UnhideWhenUsed="false" Name="Light Shading" /> <w:LsdException Locked="false" Priority="61" SemiHidden="false" UnhideWhenUsed="false" Name="Light List" /> <w:LsdException Locked="false" Priority="62" SemiHidden="false" UnhideWhenUsed="false" Name="Light Grid" /> <w:LsdException Locked="false" Priority="63" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 1" /> <w:LsdException Locked="false" Priority="64" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 2" /> <w:LsdException Locked="false" Priority="65" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 1" /> <w:LsdException Locked="false" Priority="66" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 2" /> <w:LsdException Locked="false" Priority="67" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 1" /> <w:LsdException Locked="false" Priority="68" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 2" /> <w:LsdException Locked="false" Priority="69" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 3" /> <w:LsdException Locked="false" Priority="70" SemiHidden="false" UnhideWhenUsed="false" Name="Dark List" /> <w:LsdException Locked="false" Priority="71" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Shading" /> <w:LsdException Locked="false" Priority="72" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful List" /> <w:LsdException Locked="false" Priority="73" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Grid" /> <w:LsdException Locked="false" Priority="60" SemiHidden="false" UnhideWhenUsed="false" Name="Light Shading Accent 1" /> <w:LsdException Locked="false" Priority="61" SemiHidden="false" UnhideWhenUsed="false" Name="Light List Accent 1" /> <w:LsdException Locked="false" Priority="62" SemiHidden="false" UnhideWhenUsed="false" Name="Light Grid Accent 1" /> <w:LsdException Locked="false" Priority="63" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 1 Accent 1" /> <w:LsdException Locked="false" Priority="64" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 2 Accent 1" /> <w:LsdException Locked="false" Priority="65" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 1 Accent 1" /> <w:LsdException Locked="false" UnhideWhenUsed="false" Name="Revision" /> <w:LsdException Locked="false" Priority="34" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="List Paragraph" /> <w:LsdException Locked="false" Priority="29" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Quote" /> <w:LsdException Locked="false" Priority="30" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Intense Quote" /> <w:LsdException Locked="false" Priority="66" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 2 Accent 1" /> <w:LsdException Locked="false" Priority="67" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 1 Accent 1" /> <w:LsdException Locked="false" Priority="68" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 2 Accent 1" /> <w:LsdException Locked="false" Priority="69" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 3 Accent 1" /> <w:LsdException Locked="false" Priority="70" SemiHidden="false" UnhideWhenUsed="false" Name="Dark List Accent 1" /> <w:LsdException Locked="false" Priority="71" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Shading Accent 1" /> <w:LsdException Locked="false" Priority="72" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful List Accent 1" /> <w:LsdException Locked="false" Priority="73" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Grid Accent 1" /> <w:LsdException Locked="false" Priority="60" SemiHidden="false" UnhideWhenUsed="false" Name="Light Shading Accent 2" /> <w:LsdException Locked="false" Priority="61" SemiHidden="false" UnhideWhenUsed="false" Name="Light List Accent 2" /> <w:LsdException Locked="false" Priority="62" SemiHidden="false" UnhideWhenUsed="false" Name="Light Grid Accent 2" /> <w:LsdException Locked="false" Priority="63" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 1 Accent 2" /> <w:LsdException Locked="false" Priority="64" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 2 Accent 2" /> <w:LsdException Locked="false" Priority="65" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 1 Accent 2" /> <w:LsdException Locked="false" Priority="66" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 2 Accent 2" /> <w:LsdException Locked="false" Priority="67" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 1 Accent 2" /> <w:LsdException Locked="false" Priority="68" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 2 Accent 2" /> <w:LsdException Locked="false" Priority="69" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 3 Accent 2" /> <w:LsdException Locked="false" Priority="70" SemiHidden="false" UnhideWhenUsed="false" Name="Dark List Accent 2" /> <w:LsdException Locked="false" Priority="71" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Shading Accent 2" /> <w:LsdException Locked="false" Priority="72" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful List Accent 2" /> <w:LsdException Locked="false" Priority="73" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Grid Accent 2" /> <w:LsdException Locked="false" Priority="60" SemiHidden="false" UnhideWhenUsed="false" Name="Light Shading Accent 3" /> <w:LsdException Locked="false" Priority="61" SemiHidden="false" UnhideWhenUsed="false" Name="Light List Accent 3" /> <w:LsdException Locked="false" Priority="62" SemiHidden="false" UnhideWhenUsed="false" Name="Light Grid Accent 3" /> <w:LsdException Locked="false" Priority="63" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 1 Accent 3" /> <w:LsdException Locked="false" Priority="64" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 2 Accent 3" /> <w:LsdException Locked="false" Priority="65" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 1 Accent 3" /> <w:LsdException Locked="false" Priority="66" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 2 Accent 3" /> <w:LsdException Locked="false" Priority="67" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 1 Accent 3" /> <w:LsdException Locked="false" Priority="68" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 2 Accent 3" /> <w:LsdException Locked="false" Priority="69" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 3 Accent 3" /> <w:LsdException Locked="false" Priority="70" SemiHidden="false" UnhideWhenUsed="false" Name="Dark List Accent 3" /> <w:LsdException Locked="false" Priority="71" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Shading Accent 3" /> <w:LsdException Locked="false" Priority="72" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful List Accent 3" /> <w:LsdException Locked="false" Priority="73" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Grid Accent 3" /> <w:LsdException Locked="false" Priority="60" SemiHidden="false" UnhideWhenUsed="false" Name="Light Shading Accent 4" /> <w:LsdException Locked="false" Priority="61" SemiHidden="false" UnhideWhenUsed="false" Name="Light List Accent 4" /> <w:LsdException Locked="false" Priority="62" SemiHidden="false" UnhideWhenUsed="false" Name="Light Grid Accent 4" /> <w:LsdException Locked="false" Priority="63" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 1 Accent 4" /> <w:LsdException Locked="false" Priority="64" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 2 Accent 4" /> <w:LsdException Locked="false" Priority="65" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 1 Accent 4" /> <w:LsdException Locked="false" Priority="66" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 2 Accent 4" /> <w:LsdException Locked="false" Priority="67" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 1 Accent 4" /> <w:LsdException Locked="false" Priority="68" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 2 Accent 4" /> <w:LsdException Locked="false" Priority="69" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 3 Accent 4" /> <w:LsdException Locked="false" Priority="70" SemiHidden="false" UnhideWhenUsed="false" Name="Dark List Accent 4" /> <w:LsdException Locked="false" Priority="71" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Shading Accent 4" /> <w:LsdException Locked="false" Priority="72" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful List Accent 4" /> <w:LsdException Locked="false" Priority="73" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Grid Accent 4" /> <w:LsdException Locked="false" Priority="60" SemiHidden="false" UnhideWhenUsed="false" Name="Light Shading Accent 5" /> <w:LsdException Locked="false" Priority="61" SemiHidden="false" UnhideWhenUsed="false" Name="Light List Accent 5" /> <w:LsdException Locked="false" Priority="62" SemiHidden="false" UnhideWhenUsed="false" Name="Light Grid Accent 5" /> <w:LsdException Locked="false" Priority="63" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 1 Accent 5" /> <w:LsdException Locked="false" Priority="64" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 2 Accent 5" /> <w:LsdException Locked="false" Priority="65" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 1 Accent 5" /> <w:LsdException Locked="false" Priority="66" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 2 Accent 5" /> <w:LsdException Locked="false" Priority="67" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 1 Accent 5" /> <w:LsdException Locked="false" Priority="68" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 2 Accent 5" /> <w:LsdException Locked="false" Priority="69" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 3 Accent 5" /> <w:LsdException Locked="false" Priority="70" SemiHidden="false" UnhideWhenUsed="false" Name="Dark List Accent 5" /> <w:LsdException Locked="false" Priority="71" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Shading Accent 5" /> <w:LsdException Locked="false" Priority="72" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful List Accent 5" /> <w:LsdException Locked="false" Priority="73" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Grid Accent 5" /> <w:LsdException Locked="false" Priority="60" SemiHidden="false" UnhideWhenUsed="false" Name="Light Shading Accent 6" /> <w:LsdException Locked="false" Priority="61" SemiHidden="false" UnhideWhenUsed="false" Name="Light List Accent 6" /> <w:LsdException Locked="false" Priority="62" SemiHidden="false" UnhideWhenUsed="false" Name="Light Grid Accent 6" /> <w:LsdException Locked="false" Priority="63" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 1 Accent 6" /> <w:LsdException Locked="false" Priority="64" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Shading 2 Accent 6" /> <w:LsdException Locked="false" Priority="65" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 1 Accent 6" /> <w:LsdException Locked="false" Priority="66" SemiHidden="false" UnhideWhenUsed="false" Name="Medium List 2 Accent 6" /> <w:LsdException Locked="false" Priority="67" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 1 Accent 6" /> <w:LsdException Locked="false" Priority="68" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 2 Accent 6" /> <w:LsdException Locked="false" Priority="69" SemiHidden="false" UnhideWhenUsed="false" Name="Medium Grid 3 Accent 6" /> <w:LsdException Locked="false" Priority="70" SemiHidden="false" UnhideWhenUsed="false" Name="Dark List Accent 6" /> <w:LsdException Locked="false" Priority="71" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Shading Accent 6" /> <w:LsdException Locked="false" Priority="72" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful List Accent 6" /> <w:LsdException Locked="false" Priority="73" SemiHidden="false" UnhideWhenUsed="false" Name="Colorful Grid Accent 6" /> <w:LsdException Locked="false" Priority="19" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Subtle Emphasis" /> <w:LsdException Locked="false" Priority="21" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Intense Emphasis" /> <w:LsdException Locked="false" Priority="31" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Subtle Reference" /> <w:LsdException Locked="false" Priority="32" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Intense Reference" /> <w:LsdException Locked="false" Priority="33" SemiHidden="false" UnhideWhenUsed="false" QFormat="true" Name="Book Title" /> <w:LsdException Locked="false" Priority="37" Name="Bibliography" /> <w:LsdException Locked="false" Priority="39" QFormat="true" Name="TOC Heading" /> </w:LatentStyles> </xml><![endif]--><!--[if gte mso 10]> <style> /* Style Definitions */ table.MsoNormalTable {mso-style-name:"Normale Tabelle"; mso-tstyle-rowband-size:0; mso-tstyle-colband-size:0; mso-style-noshow:yes; mso-style-priority:99; mso-style-qformat:yes; mso-style-parent:""; mso-padding-alt:0cm 5.4pt 0cm 5.4pt; mso-para-margin:0cm; mso-para-margin-bottom:.0001pt; mso-pagination:widow-orphan; font-size:11.0pt; font-family:"Calibri","sans-serif"; mso-ascii-font-family:Calibri; mso-ascii-theme-font:minor-latin; mso-fareast-font-family:"Times New Roman"; mso-fareast-theme-font:minor-fareast; mso-hansi-font-family:Calibri; mso-hansi-theme-font:minor-latin; mso-bidi-font-family:"Times New Roman"; mso-bidi-theme-font:minor-bidi;} </style> <![endif]--></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in the same hand.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal" class="MsoNormal"><span style="font-size: small;"><span lang="EN-GB" style="font-family: ">F</span><span lang="AMH" style="font-family: ">ol. 170r</span><span lang="EN-GB" style="font-family: ">c: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: ">F</span><span lang="AMH" style="line-height: 115%; font-family: ">ol. 170r</span><span lang="EN-GB" style="line-height: 115%; font-family: ">c:</span></span><span style="font-size: larger;"><span lang="EN-GB" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4661;&#4757;&#4781;&#4659;&#4653;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4608;&#4710;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4611;&#4616;&#4675;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;</span><span style="font-size: small;"><span lang="AMH" style="line-height: 115%; font-family: ">[</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ">]</span></span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4962;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;</span><span style="font-size: small;"><span lang="AMH" style="line-height: 115%; font-family: ">[</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ">] </span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4624;&#4811;&#4653;&#4843;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4723;&#4710;&#4721;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4677;&#4849;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4674;&#4653;&#4678;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4723;&#4710;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4848;&#4709;&#4648;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4632;&#4661;&#4672;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4817;&#4651;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;</span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: ">[sic]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4873;&#4616;&#4635;&#4776;&#4851;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#8230;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4978;&#4808;&#4977;&#4987;&#4985;&#4808;&#4970;</span><span style="font-size: small;"><span lang="AMH" style="line-height: 115%; font-family: ">[?</span><span lang="EN-GB" style="line-height: 115%; font-family: ">]</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4819;&#4961; &#4637;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4677;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4849;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4661;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4676;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4872;&#4704;&#4829;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4672;&#4666;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;</span><span style="font-size: small;"><span lang="AMH" style="line-height: 115%; font-family: ">[</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: ">]</span><span lang="AMH" style="line-height: 115%; font-family: ">&#160; </span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: "> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note, written in the same hand, mentions haläqa Gäbrä Mädḫǝn Wäldä Ḥawaryat as the one who donated the Ms. to the tabot of Qǝddus Qirqos and of Däbrä Mäsqäl, in ʿUra Gulämakäda, in the year of mercy 1982, time of St. Mark the Evangelist (= 1989/90 A.D.). The gäbäz was qäši Wäldä Maryam Täsfa Mikaʾel.</p>
+                        </item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="no">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="leather"/>
+                           <material key="wood"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of endband stitches at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0017UQ">ʿUra Qirqos / UQ</placeName>
+                     </origPlace>
+                     <origDate notBefore="1970" notAfter="2000">Late 20th cent.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Additio 2 mentions haläqa Gäbrä Mädḫǝn Wäldä Ḥawaryat as the donor. His name and other names are written in a recent hand, in red pen, in the supplication formulas.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Hagiography"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-04-28">registered</change>
+         <change who="VP" when="2010-09-23">created</change>
+         <change who="MV" when="2015-02-02">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

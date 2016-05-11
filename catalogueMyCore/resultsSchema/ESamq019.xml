@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-15</date>
+            <date>2013-07-15T11:15:36.323Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0065AMQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AMQ-019</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The scribe interrupted on fol. 30va and started again on fol. 31ra probably leaving the space for the miniature.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">131.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">131.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols 1r-4v, 130v-131v., in
+                                                  <measure unit="quire">16.0</measure> quires ((A+15)). 
                                                 <dimensions type="outer">
                               <height unit="cm">20.0</height>
                               <width unit="cm">15.0</width>
@@ -135,7 +142,7 @@ Holes or tears amended on fols. 68, 71, 90, 113, 115, 120.</condition>
                            <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -160,25 +167,31 @@ The scribe did not use the bottom ruled line on fol. 7ra.</ab>
                         <date>19th century</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 70vb)</item>
+                              <abbr>ለ፡ ዓ፡ አ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 70vb)</item>
                            <item>
-                              <abbr>ለዓ፡ ዓለ፡ አሜን፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 72vb)</item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜን፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 72vb)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
-                     <handNote xml:id="h3" script="Ethiopic"/>
-                     <handNote xml:id="h4" script="Ethiopic"/>
-                     <handNote xml:id="h5" script="Ethiopic"/>
-                     <handNote xml:id="h6" script="Ethiopic"/>
-                     <handNote xml:id="h7" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting is characterized by a broad, rounded and upright (or slightly left-sloping) script with distinctive features:<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+-	many letters have hairlines, esp. at the top (e.g., ለ, ረ, ሰ, ት, ዕ)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h4" script="Ethiopic">
+-	some letters have forked elements (e.g., ኀ, ተ ) <!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h5" script="Ethiopic">
+-	the characters መ and ሠ in all vowel orders are often set on the baseline (e.g., fol. 18vb)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h6" script="Ethiopic">
+-	the letters እ and ለ are sometimes difficult to distinguish (e.g., fol. 19ra l. 14 against fol. 81vb l.5)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h7" script="Ethiopic">
+-	the vowel markers of ዮ and ድ are often attached at the very top of the letter's body (e.g., fols. 81vab, 110ra).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 5r (incipit page of Text I): coloured (red, blue and black) ornamental band; interlaces and floral motifs.</decoNote>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fols. 127va-128ra: &#704;Asmat-prayer.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 127va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961;</span><span style="line-height: 115%;"> &#4768;&#4709;&#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4725;&#4709;&#4621;&#4961; &#4704;&#4725;&#4625;&#4725;&#4961; &#4675;&#4621;&#4961; &#4773;&#4622;&#4757;&#4720;&#4961; &#4768;&#4661;&#4635;&#4720;&#4961; &#4819;&#4706;&#4843;&#4720;</span><span style="line-height: 115%;">... </span></span><span style="font-size: small;"><span style="line-height: 115%;">[fol. 127vb</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">]</span></span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">...</span></span></span></span><span style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4617;&#4961; &#4781;&#4705;&#4651;&#4757;&#4961; &#4768;&#4661;&#4635;&#4722;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4720;&#4648;&#4781;&#4705;&#4961; &#4704;&#4773;&#4848;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4618;&#4672;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4632;&#4877;&#4648;&#4652;&#4961; &#4928;&#4648;&#4961; &#4808;&#4920;&#4619;&#4821;&#4725;&#4962;</span><span style="line-height: 115%;">...</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#127va">Fols. 127va-128</locus>ra: &#704;Asmat-prayer.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 127va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961;</span><span style="line-height: 115%;"> &#4768;&#4709;&#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4725;&#4709;&#4621;&#4961; &#4704;&#4725;&#4625;&#4725;&#4961; &#4675;&#4621;&#4961; &#4773;&#4622;&#4757;&#4720;&#4961; &#4768;&#4661;&#4635;&#4720;&#4961; &#4819;&#4706;&#4843;&#4720;</span><span style="line-height: 115%;">... </span></span><span style="font-size: small;"><span style="line-height: 115%;">[fol. 127vb</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">]</span></span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">...</span></span></span></span><span style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4773;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4617;&#4961; &#4781;&#4705;&#4651;&#4757;&#4961; &#4768;&#4661;&#4635;&#4722;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4720;&#4648;&#4781;&#4705;&#4961; &#4704;&#4773;&#4848;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4618;&#4672;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4632;&#4877;&#4648;&#4652;&#4961; &#4928;&#4648;&#4961; &#4808;&#4920;&#4619;&#4821;&#4725;&#4962;</span><span style="line-height: 115%;">...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The prayer is written by the same hand as the main text.</p>
                         </item>
@@ -189,7 +202,7 @@ The scribe did not use the bottom ruled line on fol. 7ra.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards, covered with reddish brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -198,13 +211,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 4 tools were used: fourfold line fillet, triple circle, x-from, criss cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0065AMQ">ʿAddigrat Däbrä Mänkǝrat Qǝddus Qirqos / AMQ</placeName>
+                        <placeName corresp="INS0065AMQ">ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos / AMQ</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -240,8 +254,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The following names are written in red in a secondary hand at the end of Additio 1 as well as throughout the Ms.: Wäldä Yoḥannǝs, Gäbrä Mikaʾel, Ḫaylä Maryam, Wälättä Giyorgis, Wälättä Mädḫǝn, ʾAskalä Maryam.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The following names are written in red in a secondary hand at the end of Additio 1 as well as throughout the Ms.: Wäldä Yoḥannǝs, Gäbrä Mikaʾel, Ḫaylä Maryam, Wälättä Giyorgis, Wälättä Mädḫǝn, ʾAskalä Maryam.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -264,9 +278,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-19">registered</change>
-         <change who="SH" when="2013-07-15">created</change>
-         <change who="DN" when="2014-10-25">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-07-15T11:15:36.323Z">created</change>
+         <change who="DN" when="2014-10-25T13:30:36.661Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

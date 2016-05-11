@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-19</date>
+            <date>2013-07-19T10:50:56.541Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0105DD"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DD-034</idno>
                   <altIdentifier>
                      <idno>C3-IV-288 (fol. 2r)</idno>
@@ -52,6 +52,11 @@ A few lines (alternating with black lines) in the incipit page of Texts I-1, I-2
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Traditional interpretation of the Hebrew letters in Ps. 118 is missing.</note>
+                     <note>- Psalm 148 is interrupted on fol. 115r and continued on fol. 116r.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -59,7 +64,8 @@ A few lines (alternating with black lines) in the incipit page of Texts I-1, I-2
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">153.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">153.0</measure> folios, in
+                                                  <measure unit="quire">20.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">16.6</height>
                               <width unit="cm">15.0</width>
@@ -68,6 +74,9 @@ A few lines (alternating with black lines) in the incipit page of Texts I-1, I-2
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Undecorated quire marks are written in the left upper corner of fols. 18r, 26r, 42r, 50r, 58r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">10</dim>
@@ -157,7 +166,7 @@ Holes carefully amended on fols. 109, 110.</condition>
                            <note>Texts I-1, I-2, I-3: all data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -184,7 +193,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Texts I-4, I-5: all data are for fol. 140r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -205,30 +214,40 @@ The bottom line is written above the ruling.</ab>
                         <date>19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ስ፡/እ፡</abbr> for <expan>እስመ፡ ለዓለም፡ ምሕረቱ፡ </expan> (Ps. 145, fols. 107r-v)</item>
+                              <abbr>ስ፡/እ፡</abbr> for
+                                                  <expan>እስመ፡ ለዓለም፡ ምሕረቱ፡ </expan> (Ps. 145, fols. 107r-v)</item>
                            <item>
-                              <abbr>ስ፡</abbr> for <expan>ስቡሕኒ፡ ውእቱ፡ ወልዑልኒ፡ ውእቱ፡ ለዓለም፡ </expan> (Canticle 10, fols. 126r-v)</item>
+                              <abbr>ስ፡</abbr> for
+                                                  <expan>ስቡሕኒ፡ ውእቱ፡ ወልዑልኒ፡ ውእቱ፡ ለዓለም፡ </expan> (Canticle 10, fols. 126r-v)</item>
                            <item>Text I-4</item>
                            <item>ሰ፤ ቅ፤ for ሰአሊ፡ ለነ፡ ቅድስት</item>
                            <item>Words or their abbreviations stand for the whole refrain.</item>
                            <item>
-                              <abbr>ሠ፡/ሠረ፡</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fol. 138ra)</item>
+                              <abbr>ሠ፡/ሠረ፡</abbr> for
+                                                  <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fol. 138ra)</item>
                            <item>
-                              <abbr>እ᎓/እስ፡/እስመ፡</abbr> for <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 139ra-140ra)</item>
+                              <abbr>እ᎓/እስ፡/እስመ፡</abbr> for
+                                                  <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 139ra-140ra)</item>
                            <item>
-                              <abbr>ኵሉ፡</abbr> for <expan>ኵሉ፡ ትውልድ፡ ያስተበፅዑኪ፡ ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ </expan> (fols. 140vb-142ra)</item>
+                              <abbr>ኵሉ፡</abbr> for
+                                                  <expan>ኵሉ፡ ትውልድ፡ ያስተበፅዑኪ፡ ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ </expan> (fols. 140vb-142ra)</item>
                            <item>
-                              <abbr>ና፡/ናዓ:</abbr> for <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 143ra-144rb)</item>
+                              <abbr>ና፡/ናዓ:</abbr> for
+                                                  <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 143ra-144rb)</item>
                            <item>
-                              <abbr>ለኪ፡</abbr> for <expan>ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እመ፡ ብርሃን፡ ናዓብየኪ፡ በስብሐት፡ ወበውዳሴ </expan> (fol. 146vb)</item>
+                              <abbr>ለኪ፡</abbr> for
+                                                  <expan>ለኪ፡ ለበሕቲትኪ፡ ኦእግዝእትነ፡ ማርያም፡ ወላዲተ፡ አምላክ፡ እመ፡ ብርሃን፡ ናዓብየኪ፡ በስብሐት፡ ወበውዳሴ </expan> (fol. 146vb)</item>
                            <item>
-                              <abbr>ተ፡/ተፈ፡</abbr> for <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fols. 146rb-vb)</item>
+                              <abbr>ተ፡/ተፈ፡</abbr> for
+                                                  <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fols. 146rb-vb)</item>
                            <item>
-                              <abbr>ወ፡/ወበ፡/ወበእንተዝ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 147rb-148ra)</item>
+                              <abbr>ወ፡/ወበ፡/ወበእንተዝ፡</abbr> for
+                                                  <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 147rb-148ra)</item>
                            <item>Text I-5</item>
                            <item>ወ፡ ድ፤ ሣ፤ ይ፤ ሰ፤ ቅ or ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰዓሊ፡ ለነ፡ ቅድስት፡ (fols. 149vb, 150ra, 151ra)</item>
                            <item>
-                              <abbr>ወ፡/ወበ፡/ወበእንተዝ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 148va-152va)</item>
+                              <abbr>ወ፡/ወበ፡/ወበእንተዝ፡</abbr> for
+                                                  <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 148va-152va)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -237,34 +256,28 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%" unicode="">Fol. 1v: Ownership note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small">Fol. 1v:</span> <span style="font-size: large">&#4829;&#4632;&#4930;&#4611;&#4941;&#4961; &#4824;&#4635;&#4613;&#4704;&#4653;&#4961; &#4768;&#4757;&#4853;&#4752;&#4725;&#4961;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%" unicode=""><locus target="#1v">Fol. 1v</locus>: Ownership note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small">Fol. 1v:</span> <span style="font-size: large">&#4829;&#4632;&#4930;&#4611;&#4941;&#4961; &#4824;&#4635;&#4613;&#4704;&#4653;&#4961; &#4768;&#4757;&#4853;&#4752;&#4725;&#4961;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note mentions the “cenobitic community” as the owner. Below this note, another note mentions the scribe Ḍägga lä-ʾƎgziʾab(he)r (?).</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div><span style="font-size: small"><span style="line-height: 115%" unicode=""><span style="line-height: 115%">Fol. 115v (above): Excerpt from a prayer to St. Mary.</span></span><span style="line-height: 115%" unicode=""><br /> </span></span></div><q xml:lang="gez"/>
+                        <item xml:id="a2"><div><span style="font-size: small"><span style="line-height: 115%" unicode=""><span style="line-height: 115%"><locus target="#115v">Fol. 115v</locus>(above): Excerpt from a prayer to St. Mary.</span></span><span style="line-height: 115%" unicode=""><br /> </span></span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The text is partially rhymed.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 115v (below): A&#160;common prayer after the reading of Psalms of David.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#115v">Fol. 115v</locus>(below): A&#160;common prayer after the reading of Psalms of David.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is crudely written, in the same hand as Additio 4.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small">Fol. 117v: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 117v: </span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%">&#4829;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &lt;&#8230;&gt; </span><span style="line-height: 115%">&#4808;&#4616;&#4808;&#4621;&#4849;&#4961; &lt;&#8230;&gt; &#4824;&#4640;<span style="font-size: medium">[</span>&#4648;<span style="font-size: medium">]</span>&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;<span style="font-size: medium">{</span>&#4654;<span style="font-size: medium">}</span>&#4661;&#4961; &#4808;&#4915;&#4813;<span style="font-size: medium">[</span>&#4622;<span style="font-size: medium">]</span>&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4776;&#4632;&#4961; &#4768;&#4652;&#4814;&#4661;&#4961;&#4961;</span> </span></span></p></q>
+                        <item xml:id="a4"><p><span style="font-size: small"><locus target="#117v">Fol. 117v</locus>: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 117v: </span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%">&#4829;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &lt;&#8230;&gt; </span><span style="line-height: 115%">&#4808;&#4616;&#4808;&#4621;&#4849;&#4961; &lt;&#8230;&gt; &#4824;&#4640;<span style="font-size: medium">[</span>&#4648;<span style="font-size: medium">]</span>&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;<span style="font-size: medium">{</span>&#4654;<span style="font-size: medium">}</span>&#4661;&#4961; &#4808;&#4915;&#4813;<span style="font-size: medium">[</span>&#4622;<span style="font-size: medium">]</span>&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4776;&#4632;&#4961; &#4768;&#4652;&#4814;&#4661;&#4961;&#4961;</span> </span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the main hand.
 Names of the donor and his family members have been erased.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small">Fols. 136r-137v: Excerpt from a hymn to St. Mary.</span></p><q xml:lang="gez"><p><span style="font-size: small">Fols. 136r-137v:</span><span style="font-size: 12pt"> </span><span style="font-size: large">&#4789;&#4622;&#4633;&#4961; &#4656;&#4651;&#4810;&#4720;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; </span><span style="font-size: large"><span style="line-height: 115%">&#4845;</span></span><span style="font-size: large">&#4660;&#4709;&#4609;&#4778;&#4964;</span><span style="font-size: large"> &#4824;&#4773;&#4637;&#4677;&#4853;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4611;&#4622;&#4720;&#4778;&#4964;</span> <span style="font-size: large"><span style="line-height: 115%">&#4616;&#4635;&#4629;&#4848;&#4648;&#4961; &#4808;&#4621;&#4849;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4624;&#4648;&#4840;&#4778;&#4964; ...</span></span></p></q>
+                        <item xml:id="a5"><p><span style="font-size: small"><locus target="#136r">Fols. 136r-137</locus>v: Excerpt from a hymn to St. Mary.</span></p><q xml:lang="gez"><p><span style="font-size: small">Fols. 136r-137v:</span><span style="font-size: 12pt"> </span><span style="font-size: large">&#4789;&#4622;&#4633;&#4961; &#4656;&#4651;&#4810;&#4720;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; </span><span style="font-size: large"><span style="line-height: 115%">&#4845;</span></span><span style="font-size: large">&#4660;&#4709;&#4609;&#4778;&#4964;</span><span style="font-size: large"> &#4824;&#4773;&#4637;&#4677;&#4853;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4611;&#4622;&#4720;&#4778;&#4964;</span> <span style="font-size: large"><span style="line-height: 115%">&#4616;&#4635;&#4629;&#4848;&#4648;&#4961; &#4808;&#4621;&#4849;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4624;&#4648;&#4840;&#4778;&#4964; ...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written, in the same hand as Additio 2.</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span style="font-size: small"><span unicode="" style="line-height: 115%">Fol. 153r: Ownership note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 153r:</span></span><span style="line-height: 115%; font-size: 12pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4708;&#4726;&#4961; &#4845;&#4629;&#4848;&#4878;&#4961;</span></span></p></q>
+                        <item xml:id="a6"><p><span style="font-size: small"><span unicode="" style="line-height: 115%"><locus target="#153r">Fol. 153r</locus>: Ownership note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 153r:</span></span><span style="line-height: 115%; font-size: 12pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4708;&#4726;&#4961; &#4845;&#4629;&#4848;&#4878;&#4961;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 153r: This book is of</span><span style="line-height: 115%"> &#704;abeto Y&#601;&#7717;d&#228;go.</span></span></p></q>
                            <p>The note is very crudely written.</p>
                         </item>
@@ -331,8 +344,14 @@ Quires I-III, V, VI, VIII, IX-XI, XIII-XIX are reinforced by parchment guards.</
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The names of the original donor/owner and his family members have been erased from Additio 3.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The names of the original donor/owner and his family members have been erased from Additio 3.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Additio 5 mentions ʾabeto Yǝḥdägo as the owner.&#xD;
+Additio 1 mentions the “cenobitic community” as the owner.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -356,9 +375,9 @@ Quires I-III, V, VI, VIII, IX-XI, XIII-XIX are reinforced by parchment guards.</
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-25">registered</change>
-         <change who="AA" when="2013-07-19">created</change>
-         <change who="DN" when="2014-09-22">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-07-19T10:50:56.541Z">created</change>
+         <change who="DN" when="2014-09-22T08:41:44.608Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

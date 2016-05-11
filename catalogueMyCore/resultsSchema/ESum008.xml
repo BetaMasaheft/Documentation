@@ -3,118 +3,152 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ESum008" xml:lang="en" type="mss">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESum008"
+     xml:lang="en"
+     type="mss">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Gädlä Qirqos “Vita of Cyricus” / Täʾamrä Qirqos “Miracles of Cyricus” / Mälkǝʾa
-               Qirqos “Image of Cyricus” / Sälam-hymn for Cyricus</title>
+            <title>Gädlä Qirqos “Vita of Cyricus” / Täʾamrä Qirqos “Miracles of Cyricus” / Mälkәʾa Qirqos “Image of Cyricus” / Sälam-hymn for Cyricus</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
          <publicationStmt>
             <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
-            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
-               Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
             <pubPlace>Hamburg</pubPlace>
             <availability>
-               <licence target="http://creativecommons.org/licenses/by-sa/4.0/"> This file is
-                  licensed under the Creative Commons Attribution-ShareAlike 4.0. </licence>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2010-09-14</date>
+            <date>2010-09-14T12:51:53.942Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0017UQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>UM-008</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <locus from="" to="">42ra (l.7) – 42vb (l.14)</locus>
-                     <title type="yes">IV. Sälam-hymn for Cyricus</title>
-                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors.
-                        Groups of lines on the incipit page of Text I; two initial lines on the
-                        incipit page of Texts II and III; two initial lines of each miracle in Text
-                        II; incipit of each strophe in Text III.&#xD; Elements of the punctuation
-                        signs, elements of Ethiopic numerals.</rubric>
-                     <incipit><p style="text-align: left;"><span style="font-size: small;"><span
-                                 lang="EN-US" style="line-height: 115%;">Fol. 42ra, l.7:
-                              </span></span><span style="font-size: large;"><span lang="EN-US"
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961;
-                                 &#4674;&#4653;&#4678;&#4661;&#4961; &#4629;&#4931;&#4757;&#4962;
-                                 &#4632;&#4819;&#4853;&#4632;&#4961;
-                                 &#4632;&#4621;&#4781;&#4821;&#4961;
-                                 &#4808;&#4661;&#4757;</span><span
-                                 style="line-height: 115%; font-family: Nyala;">&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;">
-                                 <span lang="EN-US"
-                                    >&#4824;&#4770;&#4843;&#4941;&#4653;&#4624;&#4776;&#4961;
-                                    &#4725;&#4877;&#4653;&#4637;&#4720;&#4961;
-                                    &#4821;&#4621;&#4811;&#4757;</span></span><span
-                                 style="line-height: 115%; font-family: Nyala;">&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                              >&#8230;</span></span></p><foreign xml:lang="en"><p
-                              style="text-align: left;"><span style="font-size: small;"><span
-                                    lang="EN-US" style="line-height: 115%;" arial="" sans-serif=""
-                                    >Fol. 42ra, l.7: Salutation to you, infant Cyricus. </span><span
-                                    lang="EN-GB" style="line-height: 115%;" arial="" sans-serif=""
-                                    >Pleasing of image and beauty,&#160; whom the terror of the
-                                    heretics does not terrified. ...</span></span><span lang="EN-GB"
-                                 style="font-size: 10pt; line-height: 115%;" arial="" sans-serif=""
-                                 ><br/>
-                              </span></p></foreign>
+                     <locus from="4ra" to="22vb">4ra-22vb</locus>
+                     <title type="yes">I. Gädlä Qirqos "Vita of Cyricus"</title>
+                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors. Groups of lines on the incipit page of Text I; two initial lines on the incipit page of Texts II and III; two initial lines of each miracle in Text II; incipit of each strophe in Text III.&#xD;
+Elements of the punctuation signs, elements of Ethiopic numerals.</rubric>
+                     <incipit><p style="text-align: left;"><span style="line-height: 115%;">Fol.</span><span style="line-height: 115%;"> 4r: </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4709;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4808;&#4621;&#4853;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4677;&#4849;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4969;&#4768;&#4637;&#4619;&#4781;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4853;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4661;&#4637;&#4821;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> &#160;</span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4677;&#4849;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4674;&#4653;&#4678;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4773;&#4633;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4770;&#4840;&#4617;&#4899;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4779;&#4621;&#4768;&#4757;&#4754;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4988;&#4978;&#4987;&#4981;&#4808;&#4972;&#4656;&#4635;&#4821;&#4723;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> &#160;</span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4776;&#4616;&#4617;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4632;&#4811;&#4821;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4661;&#4781;&#4757;&#4853;&#4654;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4784;&#4757;&#4757;&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4782;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4661;&#4848;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4619;&#4821;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4789;&#4617;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> &#160;</span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4709;&#4843;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4782;&#4752;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4709;&#4773;&#4658;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4757;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4661;&#4635;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4770;&#4840;&#4617;&#4899;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> &#160;</span><span style="line-height: 115%; font-family: Nyala;">&#4936;&#4651;&#4610;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4637;&#4757;&#4773;&#4659;&#4968; ...</span></span></p><foreign xml:lang="en"><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 4r:</span><span style="line-height: 115%;"> In the name of the Father and of the Son and of the Holy Spirit, one God, the life and the martyrdom of St. Cyricus&#160; and of his mother Julitta and of other 11,034 martyrs who were crowned during the time when the governor (was) Alexander</span><span style="line-height: 115%;">. And there was the persecution against all the families of the Christians of Christ (all the churches) and there was a woman whose name (was) Julitta who feared God from her infancy. ...</span></span></p></foreign>
                      </incipit>
-                     <explicit><p style="text-align: left;"><span style="font-size: small;"><span
-                                 lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">Fol.
-                                 42rb, l. 6: </span></span><span lang="EN-US"
-                              style="font-size: 14pt; line-height: 115%; font-family: Nyala;"
-                                 >&#8230;<span style="font-size: large;">&#4656;&#4619;&#4961;
-                                 &#4616;&#4776;&#4961; &#4704;&#4616;&#4754;&#4961;
-                                 &#4674;&#4653;&#4678;&#4661;&#4961; &#4619;&#4773;&#4776;&#4961;
-                                 &#4635;&#4741;&#4928;&#4757;&#4725;&#4840;&#4961;
-                                 &#4829;&#4757;&#4721;&#4968;
-                                 &#4874;&#4828;&#4961;&#4672;&#4810;&#4638;&#4725;&#4840;&#4961;
-                                 &#4616;&#4616;&#4656;&#4819;&#4721;&#4968;
-                                 &#4677;&#4853;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961;
-                                 &#4808;&#4808;&#4619;&#4850;&#4721;&#4968; &#4656;&#4619;&#4961;
-                                 &#4616;&#4776;&#4961; &#4936;&#4616;&#4872;&#4961;
-                                 &#4656;&#4619;&#4637;&#4752;&#4961;
-                                 &#4674;&#4653;&#4678;&#4661;&#4961;
-                                 &#4824;&#4632;&#4896;&#4752;&#4829;&#4961;
-                                 &#4720;&#4776;&#4828;&#4968; &#4752;&#4819;&#4961;
-                                 &#4752;&#4819;&#4961; &#4824;&#4704;&#4704;&#4874;&#4828;&#4968;
-                                 &#4616;&#4705;&#4651;&#4780;&#4961;
-                                 &#4808;&#4616;&#4753;&#4827;&#4828;&#4968;
-                                 &#4773;&#4637;&#4629;&#4829;&#4709;&#4752;&#4961;
-                                 &#4723;&#4656;&#4661;&#4621;&#4961;
-                                 &#4773;&#4757;&#4707;&#4828;&#4968;</span></span></p><foreign
-                           xml:lang="en"><p style="text-align: left;"><span
-                                 style="font-size: small;"><span lang="EN-US" sans-serif="" arial=""
-                                    style="line-height: 115%;">Fol. 42rb, l. 6: Salutation to you.
-                                    Announce me, Cyricus, messanger (servant) of this my faith, time
-                                    of my staying each hour before the son and his
-                                    procreatress.&#160; Salutation to you, valley of our peace,
-                                    Cyricus who (are) so much as this river. Come, come, anytime,
-                                    for the blessing and for the confession, so that you might
-                                    remove the insanity from our people.</span></span></p></foreign>
+                     <explicit><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22va, l.6:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 14pt;">.</span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">..&#4808;&#4776;&#4635;&#4609;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4813;&#4773;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4637;&#4819;&#4618;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4784;&#4757;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4824;&#4824;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4845;&#4829;&#4653;&#4809;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4645;&#4875;&#4614;&#4633;&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4632;&#4619;&#4773;&#4781;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4840;&#4819;&#4677;&#4705;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4616;&#4843;&#4621;&#4843;&#4722;&#4614;&#4633;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4789;&#4617;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4632;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4978;&#4808;&#4973;&#4616;&#4640;&#4653;&#4672;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4901;&#4653;&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4608;&#4622;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4677;&#4849;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4674;&#4653;&#4678;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4840;&#4635;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4757;&#4704;&#4649;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4725;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4845;&#4672;&#4813;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4845;&#4720;&#4752;&#4709;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4773;&#4757;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4845;&#4872;&#4709;&#4649;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4736;&#4704;&#4961;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4757;&#4873;</span><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">[</span><span style="line-height: 115%;">fol. 22vb]</span></span></span><span style="line-height: 115%; font-family: Nyala;">&#4640;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4661;&#4709;&#4624;&#4725;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4781;&#4709;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4819;&#4616;&#4632;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4616;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4636;&#4757;&#4968;</span></span></p><foreign xml:lang="en"><div style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22va, l. 6: </span><span style="line-height: 115%;">... And again, that tyrant</span><span style="line-height: 115%;">, the governor ordered that they scatter their corpses. And the Angels of the Lord were protecting (all) their limbs, on the 15th of the month of &#7788;&#601;rr. And St. Cyricus stands on the right side of the throne of God, and he is always present and he intercedes for those who make (his commemoration day), in front of the Lord, King of the glory and honour. For eternity, amen.</span></span><span style="line-height: 115%; font-size: 10pt;"><br /> </span></div> <p></p></foreign>
                      </explicit>
                      <listBibl type="mss">
-                        <bibl>EMML no. 303 (20th cent., Church of St. Raphael, quarter of Guläle,
-                           ʾAddis ʾAbäba),</bibl>
-                        <bibl>fols. 108v-111r: “Greeting to St. Cyriacus [Salāmtā
-                           Za-Qirqos]”.</bibl>
-                        <bibl>(EMML II, 4).</bibl>
-                        <bibl>EMML no. 486 (late 19th or early 20th, Church of Qirqos, quarter of
-                           Boleʾ, ʾAddis ʾAbäba),</bibl>
-                        <bibl>fols. 59r-60v: “Greetings [salāmtāt] to St. Cyriacus and his mother
-                           Julitta [Iyaluṭṭa]”</bibl>
+                        <bibl>EMML no. 430 (1922/32), fols. 104r-112v: "Combat of St. Cyriacus [Gadla Qirqos]"</bibl>
+                        <bibl>(EMML II, 150; Church of the nativity, quarter of Lǝdäta, Addis Abäba).</bibl>
+                        <bibl>EMML no. 615 (1966),</bibl>
+                        <bibl>fols. 3r-42v: "Combat of St. Cyriacus [Gadla Qirqos]"</bibl>
+                        <bibl>(EMML II, 364; Church of St. Qirqos, quarter of Boleʾ, Addis Abäba).</bibl>
+                        <bibl>EMML no. 1934 (late 19th or early 20th cent.), fols. 29r-46r: "Martyrdom [gadl wa-semʿ] of Cyriacus and his Mother Julitta"</bibl>
+                        <bibl>(EMML V, 420; Monastery of Ḥayq Ǝsṭifanos, Ambassäl, Wallo).</bibl>
+                        <bibl>EMML no. 2514 (1382/88), fols. 126r-133r (in the "Gädlä Samaʿtat"): "Martyrdom of Cyriacus and his mother, Julitta" [Qirqos wa-emmu Iyyaluṭā]</bibl>
+                        <bibl>(EMML VII, 10; Church of Astit Kidana Mǝḥrät, Ankobärr, Shoa).</bibl>
+                        <bibl>EMML no. 3469 (19th cent.),</bibl>
+                        <bibl>fols. 2r-20r: "Martyrdom [Gadl wa-semʿ] of Cyriacus and his mother Julitta";</bibl>
+                        <bibl>fols. 42r-61v: "Martyrdom [Gadl wa-samāʿt] of Cyriacus and his mother Julitta";</bibl>
+                        <bibl>(EMML VIII, 283-284; Church of Šäwa Meda Qirqos, Gubbalafto, Yäğğu, Wallo).</bibl>
+                        <bibl>EMML no. 4816 (1951/2),</bibl>
+                        <bibl>fols. 15v-59r: "Text of the Martyrdom"</bibl>
+                        <bibl>(EMML X, 324; Church of Däse Mädḫane ʿAläm, Wallo).</bibl>
+                        <bibl>Éthiopien 134 (15th cent.),</bibl>
+                        <bibl>fol. 28: "Martyre de S. Cyr et sa mère Julitta et des onze mille trente-quatre autres martyrs qui suoffrirent du temps du Tribun Alexandre"</bibl>
+                        <bibl>(ZotBNat 202).</bibl>
+                        <bibl>Éthiopien 339 = Griaule 35 (1932),</bibl>
+                        <bibl>fols. 1ra-28vb: "Martyre de l'enfant Cyriaques (Qirqos) et sa mère Juliette (ʾIyalouṭâ)"</bibl>
+                        <bibl>(GrébGriaule II, 3-9).</bibl>
+                        <bibl>Orient. 686 (1755/69),</bibl>
+                        <bibl>fol. 128r (in "Acts of Saints and Martyrs"): "Quiricus, or Cyriacus, and Julitta, ቂርቆስ፡ ወእሙ፡ ኢየሉጣ፡ (16th of Ṭӗr)"</bibl>
+                        <bibl>(WrBriMus 167, no. 257).</bibl>
+                        <bibl>Orient. 687/688 (18th cent.),</bibl>
+                        <bibl>fol. 200r (in "Acts of Saints and Martyrs"): "Quiricus, or Cyriacus, and Julitta (15th of Ṭӗr)"</bibl>
+                        <bibl>(WrBriMus 169, no. 258).</bibl>
+                        <bibl>Orient. 692 (15th cent.),</bibl>
+                        <bibl>fol. 84r (in "Acts of Saints and Martyrs"): "Martyrdom of Quiricus, or Cyriacus, and Julitta, ቂርቆስ፡ ወእሙ፡ ኢየሉጣ፡ (15th of Ṭӗr)"</bibl>
+                        <bibl>(WrBriMus 165, no. 256).</bibl>
+                        <bibl>Orient. 720 (1775/76),</bibl>
+                        <bibl>fols. 1r-109v: "The acts of Quiricus, or Cyriacus, ቂርቆስ፡, and Julitta, ኢየሉጣ"</bibl>
+                        <bibl>(WrBriMus 194, no. 297)</bibl>
+                        <bibl>Ṭanasee 121 = Daga Ǝsṭifanos 10 (18th cent.),</bibl>
+                        <bibl>fols. 218r-227r ("Gädlä Samaʿtat"): "ቂርቆስ፡ und seine Mutter ኢየሉጣ፡"</bibl>
+                        <bibl>(SixTana III, 93, no. 10).</bibl>
+                        <bibl>Ṭanasee 177 = Daga Ǝsṭifanos 66 (14th/15th cent.),</bibl>
+                        <bibl>fols. 57ra-80vb "Vita und Zeugnis des hl. Kyriakos und seiner Mutter Julietta (äthiop.: Iyaluṭā)"</bibl>
+                        <bibl>(SixTana III, 235).</bibl>
+                     </listBibl>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="ms_i2">
+                     <locus from="23ra" to="37ra (l.12)">23ra-37ra (l.12)</locus>
+                     <title type="yes">II. Täʾamrä Qirqos “Miracles of Cyricus” (16 Miracles)</title>
+                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors. Groups of lines on the incipit page of Text I; two initial lines on the incipit page of Texts II and III; two initial lines of each miracle in Text II; incipit of each strophe in Text III.&#xD;
+Elements of the punctuation signs, elements of Ethiopic numerals.</rubric>
+                     <incipit><p style="text-align: justify;"><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">Fol. 23ra (Miracle 1):</span></span></span><span style="font-family: Arial;"><span style="line-height: 115%; font-size: 10pt;"> </span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961;</span><em><span style="line-height: 115%; font-family: Nyala;">&#8221;</span></em><span style="line-height: 115%; font-family: Nyala;">&#8230;&#4757;&#4812;&#4901;&#4757;&#4961; &#4704;&#4648;&#4853;&#4772;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4901;&#4757;&#4720;&#4961; &#4720;&#4768;&#4637;&#4650;&#4609;&#4961; &#4616;&#4709;&#4929;&#4821;&#4961; &#4635;&#4653;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4704;&#4656;&#4619;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#160;&#4768;&#4709;&#4961; &#4768;&#4636;&#4757;&#4968; &#4808;&#4608;&#4622;&#4961;&#4969;&#4757;&#4873;&#4645;&#4961; &#4923;&#4853;&#4677;&#4961; &#4808;&#4779;&#4613;&#4757;&#4961; &#4824;&#4661;&#4633;&#4961; &#4845;&#4637;&#4653;&#4624;&#4752;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#8230;</span></span></p><foreign xml:lang="en"><p style="text-align: left;"><span style="font-size: small;">Fol. 23r: In the name of the Father and of the Son and of the Holy Spirit, one God, we start, with the help of the Lord, the beginning of the miracles of blessed Mar Cyricus. With the peace of the Lord, Father, amen. And there was a King, righteous and priest, whose name was Y&#601;mr&#601;&#7717;ann&#228; Kr&#601;stos&#8230;</span></p> <p></p></foreign>
+                     </incipit>
+                     <explicit><p style="text-align: left;"><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">Fol.37ra, l.3</span><strong><span style="line-height: 115%;"> </span></strong><span style="line-height: 115%;">(Miracle 16):</span><strong><span style="line-height: 115%;"> </span></strong></span></span><span style="font-size: large;"><span style="font-family: Arial;"><span style="line-height: 115%;">&#8230;</span></span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4638;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4874;&#4828;&#4611;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4632;&#4757;&#4936;&#4678;&#4633;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4776;&#4841;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4632;&#4757;&#4936;&#4678;&#4633;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4936;&#4645;&#4625;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4633;&#4757;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4661;&#4709;&#4773;&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4920;&#4622;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4704;&#4648;&#4776;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4709;&#4853;&#4648;</span><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">[</span><span style="line-height: 115%;">sic</span><span style="line-height: 115%;">]</span></span></span><span style="line-height: 115%; font-family: Nyala;">&#4961;</span><span style="line-height: 115%; font-family: Nyala;">&#160;</span><span style="line-height: 115%; font-family: Nyala;">&#4649;&#4928;&#4721;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4637;&#4661;&#4616;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4941;&#4673;&#4651;&#4754;&#4609;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4846;&#4624;&#4757;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4923;&#4853;&#4675;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4624;&#4811;&#4653;&#4843;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4720;&#4808;&#4621;&#4848;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4819;&#4616;&#4632;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4819;&#4616;&#4637;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4636;&#4757;&#4968;</span></span></p> <p></p> <p></p><foreign xml:lang="en"><p style="text-align: left;"><span style="font-size: small;">Fol. 37ra: And he died immediately and half of them, of those men, wept and half of them rejoiced. His prayer and his blessing and the race of his running (be) with his beloved<span style="line-height: 115%;"> W&#228;ld&#228; Yo&#7717;ann&#601;s, W&#228;l&#228;tt&#228; &#7778;adqan, W&#228;ld&#228; Maryam, G&#228;br&#228; &#7716;awarya, T&#228;w&#228;ld&#228; M&#228;d&#7723;&#601;n, G&#228;br&#228; M&#228;d&#7723;&#601;n, for eternity, amen. ...</span></span><span style="font-size: larger;"><span style="line-height: 115%;"><br /> </span></span></p> <p></p></foreign>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl>EMML no. 303 (20th cent.),</bibl>
+                        <bibl>fols. 87v-108r: "Miracles of St. Cyriacus" [Taʿamra Qirqos]";</bibl>
+                        <bibl>(EMML II, 4; Church of St. Raphael, quarter of Guläle, Addis Abäba).</bibl>
+                        <bibl>EMML no. 615 (1966),</bibl>
+                        <bibl>fols. 43r-47r: "5 miracles of St. Cyriacus"</bibl>
+                        <bibl>(EMML II, 364; Church of Qirqos, quarter of Boleʾ, Addis Abäba).</bibl>
+                        <bibl>EMML no. 3469 (19th cent.),</bibl>
+                        <bibl>fols. 20r-26v: "Miracles of Cyriacus";</bibl>
+                        <bibl>fols. 62r-69v: "Nine miracles of Cyriacus"</bibl>
+                        <bibl>(EMML VIII, 283-284; Church of Šäwa Meda Qirqos, Gubbalafto, Yağğu, Wallo).</bibl>
+                        <bibl>EMML no. 4816 (1951/2),</bibl>
+                        <bibl>fols. 59r-63r: "Miracles of Cyriacus"</bibl>
+                        <bibl>(EMML X, 324; Church of Däse Mädḫane ʿAläm, Wallo).</bibl>
+                        <bibl>Éthiopien 339 = Griaule 35 (1932),</bibl>
+                        <bibl>fols. 28vb-33vb: "Quatre miracles de l´enfant Cyriaque (Qirqos)"</bibl>
+                        <bibl>(GrébGriaule II, 3-9).</bibl>
+                     </listBibl>
+                     <note><p><span style="font-size: small;"><span lang="EN-US">II-1) Fols. 23ra (l. 8) &#8211; 24rb (l. 11): St. Cyricus and King Y&#601;mr&#601;&#7717;ann&#228; Kr&#601;stos</span></span></p> <p style="text-align: justify; line-height: normal; margin-bottom: 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">(</span><span lang="FR">S. </span><span lang="EN-US">Gr</span><span lang="EN-US">&#233;baut</span><span lang="FR">,</span><span lang="FR"> &#8220;Un nouveau recueil des miracles de l`enfant Cyriaque&#8221;, Aethiopica 3, 1935, 33-36 // </span><span lang="EN-US">mss. </span><span lang="EN-US">EMML no. 4816, fol. 59v, EMML X, 324; &#201;thiopien 339, fols. 28vb-30rb, Gr&#233;bGriaule II, 4).</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-2) Fols. 24rb (l. 12) &#8211; 25ra (l. 19): St. Cyricus and St. George of Lydda.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-3) Fols. 25rb (l. 1) &#8211; 26va (l. 11): St. Cyricus and the blind man who loved the fighting and the quarrel.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-4) Fols. 26va (l. 12) &#8211; 27rb (l. 3): St. Cyricus and the infidel man.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-5) Fols. 27rb (l. 4) &#8211; 27vb (l. 17): St. Cyricus and the guardian of the church of St. Cyriacus, in the region of May</span><span lang="EN-US"> </span><span lang="EN-US">&#7692;a&#705;ada.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-6) Fols. 27vb (l. 18) &#8211; 28vb (l. 15): St. Cyricus and the farmer who wanted to repair the tie-hook (q&#228;raq&#601;ro) of the yoke.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-7) Fols. &#160;28vb (l. 16) &#8211; 30ra (l. 14): St. Cyricus and the evil man.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-8) Fols. 30ra (l. 15) &#8211; 31ra (l. 15): St. Cyricus and the faithful men of &#160;Q&#228;lma.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-9) Fols. 31ra (l. 16) &#8211; 31vb (l. 2): St. Cyricus and the adulteress.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-10) Fols. 31vb (l. 3) &#8211; 32rb (l. 7): St. Cyricus and the ruler who built other churches dedicated to him.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-11) Fols. 32rb (l. 8) &#8211; 33ra (l. 4): St. Cyricus, learned priests of his church and a hermit.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-12) Fols. 33ra (l. 5) &#8211; 33va (l. 17): St. Cyricus receiving his <i>kidan</i> on 15 &#160;&#7788;&#601;rr.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-13) Fols. 33va (l. 18) &#8211; 34rb (l. 19): St. Cyricus and the man of bad behavior.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-14) Fols. 34va (l. 1) &#8211; 35ra (l. 16): St. Cyricus and St. G&#228;br</span><span style="line-height: 115%;">&#601;</span><span lang="EN-US">&#704;el.</span></span></p> <p style="text-align: justify; line-height: normal; margin: 6pt 0cm 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-15) Fols. 35ra (l. 16) &#8211; 36ra (l. 8): St. Cyricus and the monk &#704;Elyas</span></span></p> <p style="text-align: justify; line-height: normal; margin-bottom: 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">(</span><span lang="FR">S. </span><span lang="EN-US">Gr</span><span lang="EN-US">&#233;baut</span><span lang="FR">,</span><span lang="FR"> &#8220;Un noveau recueil des miracles de l`enfant Cyriaque&#8221;, Aethiopica 3, 1935, 87-90</span><span lang="EN-US"> // </span><span lang="EN-US">mss. EMML no. 3469, fol. 22r, </span><span lang="EN-US">EMML VIII, 283; EMML no. 4816, fol. 62v, EMML X, 324; &#201;thiopien 339, fols. 32vb-33vb, Gr&#233;bGriaule II, 5).</span></span></p> <p style="text-align: justify; line-height: normal; margin-bottom: 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">II-16) Fols. 36ra (l. 9) &#8211; 37ra (l. 12): St. Cyricus and the thief who stole cloths and was punished.</span></span></p> <p><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">(</span><span lang="FR" style="line-height: 115%;">S.</span><span lang="EN-US" style="line-height: 115%;"> Gr</span><span lang="EN-US" style="line-height: 115%;">&#233;baut</span><span lang="FR" style="line-height: 115%;">,</span><span lang="FR" style="line-height: 115%;"> &#8220;Les miracles du saint enfant Cyriaque&#8221;, ROC 20 (1<ref type="mss" corresp="ES915191">915-191</ref>7),<ref type="mss" corresp="ES129132">129-132</ref>// ms.</span><span lang="EN-US" style="line-height: 115%;"> EMML no. 3469, fol. 25r, </span><span lang="EN-US" style="line-height: 115%;">EMML VIII, 283).</span></span></p></note>
+                  </msItem>
+                  <msItem xml:id="ms_i3">
+                     <locus from="" to="">37ra (l.14)–42ra (l.6)</locus>
+                     <title type="yes">III. Mälkәʾa Qirqos “Images of Cyricus” (42 strophes)</title>
+                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors. Groups of lines on the incipit page of Text I; two initial lines on the incipit page of Texts II and III; two initial lines of each miracle in Text II; incipit of each strophe in Text III.&#xD;
+Elements of the punctuation signs, elements of Ethiopic numerals.</rubric>
+                     <incipit><p style="text-align: justify;"><span style="font-size: small;">Fol. 37ra, l.14:</span><span style="font-size: small;"> </span><span style="line-height: 115%; font-family: Nyala; font-size: 10pt;"> </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4774;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4755;&#4829;&#4651;&#4810;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4720;&#4808;&#4776;&#4941;&#4776;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4629;&#4635;&#4632;&#4962;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4928;&#4624;&#4845;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4709;&#4649;&#4613;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4925;&#4849;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4661;&#4776;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4641;&#4651;&#4628;&#4609;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4925;&#4616;&#4632;&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4925;&#4624;&#4936;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4828;&#4755;&#4609;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4616;&#4674;&#4653;&#4678;&#4661;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4632;&#4757;&#4936;&#4659;&#4810;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4632;&#4621;&#4781;&#4817;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4656;&#4619;&#4632;&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4920;&#4624;&#4941;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4813;&#4661;&#4720;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4621;&#4709;&#4840;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4773;&#4757;&#4824;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4725;&#4872;&#4709;&#4653;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4672;&#4616;&#4632;&#4962;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4848;&#4632;&#4776;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4768;&#4637;&#4619;&#4779;&#4810;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4704;&#4632;&#4661;&#4672;&#4621;&#4961;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#4824;&#4824;&#4757;&#4632;&#4968; </span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p><foreign xml:lang="en"><p><span style="font-size: small;">Fol. 37ra, l.14: <span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">O Christ hermit, who have received the passion. Sun shining&#160; and brilliant&#160; so much so that His glory darkened. The book of the story of the spiritual Cyricus and of his image, salutation. Description in my hearth while you are making the color. Your divine blood which has rained by means of the Cross. &#8230;</span></span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span></p></foreign>
+                     </incipit>
+                     <explicit><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">Fol. 41vb, l.18:</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#8230;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4774;&#4768;&#4637;&#4619;&#4776;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4677;&#4849;&#4661;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4674;&#4653;&#4678;&#4661;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4824;&#4773;&#4633;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4770;&#4840;&#4617;&#4899;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4821;&#4672;&#4704;&#4752;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4768;&#4853;&#4741;&#4752;&#4752;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4640;&#4813;&#4648;&#4752;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4707;&#4621;&#4624;&#4752;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4773;&#4637;&#4789;&#4617;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4632;&#4752;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4637;</span></span><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"><span lang="EN-US" style="line-height: 115%;">[</span>fol. 42ra</span><span lang="EN-US" style="line-height: 115%;">]</span></span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4757;&#4659;&#4810;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4808;&#4773;&#4637;&#4821;&#4616;&#4725;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4773;&#4778;&#4725;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4616;&#4656;&#4709;&#4768;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4827;&#4722;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4632;&#4677;&#4848;&#4661;</span><span style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4968;</span><span sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4816;&#4706;&#4845;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4808;&#4757;&#4817;&#4661;</span><span style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4968;</span><span sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4808;&#4936;&#4853;&#4939;&#4848;&#4661;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4616;&#4941;&#4673;&#4651;&#4754;&#4776;</span><span style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4968;</span><span sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4846;&#4624;&#4757;&#4661;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4808;&#4709;&#4773;&#4658;&#4721;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4808;&#4616;&#4720;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4923;&#4853;&#4675;&#4757;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4808;&#4808;&#4621;&#4854;&#4633;&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4872;&#4709;</span><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4961;</span><span lang="EN-US" sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US" style="font-size: 12pt; line-height: 115%; font-family: Nyala;">&#4874;&#4846;&#4653;&#4874;&#4661;&#4962;</span></p><foreign xml:lang="en"><p style="text-align: justify;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" arial="" sans-serif="">Fol. 41vb, l.18: &#8230;O God of saint Cyricus and of his mother Julitta, protect us and save us, hide us and liberate us from every moment of temptation and from the daily vice, the persons of this important and small sanctuary, and especially your beloved ones, W&#228;ld&#228; Yo</span><span lang="EN-US" style="line-height: 115%;" arial="" sans-serif="">&#7717;</span><span lang="EN-US" style="line-height: 115%;" arial="" sans-serif="">ann&#477;s and his wife W&#228;l&#228;tt&#228; &#7778;ad&#477;qan and their son G&#228;br&#228; Giyorgis.</span></span></p></foreign>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl>EMML no. 486 (late 19th or early 20th, Church of Qirqos, quarter of Bole, ʾAddis ʾAbäba),</bibl>
+                        <bibl>fols. 49r-58v: “‘Imageʾ of St. Cyriacus [Malkeʾa Qirqos]”,</bibl>
                         <bibl>(EMML II, 215).</bibl>
-                        <bibl>EMML no. 3469 (19th cent., Church of Šäwa Meda Qirqos, Gubbalafto,
-                           Yäğğu, Wällo),</bibl>
+                     </listBibl>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="ms_i4">
+                     <locus from="" to="">42ra (l.7) – 42vb (l.14)</locus>
+                     <title type="yes">IV. Sälam-hymn for Cyricus</title>
+                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors. Groups of lines on the incipit page of Text I; two initial lines on the incipit page of Texts II and III; two initial lines of each miracle in Text II; incipit of each strophe in Text III.&#xD;
+Elements of the punctuation signs, elements of Ethiopic numerals.</rubric>
+                     <incipit><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fol. 42ra, l.7: </span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4629;&#4931;&#4757;&#4962; &#4632;&#4819;&#4853;&#4632;&#4961; &#4632;&#4621;&#4781;&#4821;&#4961; &#4808;&#4661;&#4757;</span><span style="line-height: 115%; font-family: Nyala;">&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> <span lang="EN-US">&#4824;&#4770;&#4843;&#4941;&#4653;&#4624;&#4776;&#4961; &#4725;&#4877;&#4653;&#4637;&#4720;&#4961; &#4821;&#4621;&#4811;&#4757;</span></span><span style="line-height: 115%; font-family: Nyala;">&#4968;</span><span style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p><foreign xml:lang="en"><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;" arial="" sans-serif="">Fol. 42ra, l.7: Salutation to you, infant Cyricus. </span><span lang="EN-GB" style="line-height: 115%;" arial="" sans-serif="">Pleasing of image and beauty,&#160; whom the terror of the heretics does not terrified. ...</span></span><span lang="EN-GB" style="font-size: 10pt; line-height: 115%;" arial="" sans-serif=""><br /> </span></p></foreign>
+                     </incipit>
+                     <explicit><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">Fol. 42rb, l. 6: </span></span><span lang="EN-US" style="font-size: 14pt; line-height: 115%; font-family: Nyala;">&#8230;<span style="font-size: large;">&#4656;&#4619;&#4961; &#4616;&#4776;&#4961; &#4704;&#4616;&#4754;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4619;&#4773;&#4776;&#4961; &#4635;&#4741;&#4928;&#4757;&#4725;&#4840;&#4961; &#4829;&#4757;&#4721;&#4968; &#4874;&#4828;&#4961;&#4672;&#4810;&#4638;&#4725;&#4840;&#4961; &#4616;&#4616;&#4656;&#4819;&#4721;&#4968; &#4677;&#4853;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961; &#4808;&#4808;&#4619;&#4850;&#4721;&#4968; &#4656;&#4619;&#4961; &#4616;&#4776;&#4961; &#4936;&#4616;&#4872;&#4961; &#4656;&#4619;&#4637;&#4752;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4824;&#4632;&#4896;&#4752;&#4829;&#4961; &#4720;&#4776;&#4828;&#4968; &#4752;&#4819;&#4961; &#4752;&#4819;&#4961; &#4824;&#4704;&#4704;&#4874;&#4828;&#4968; &#4616;&#4705;&#4651;&#4780;&#4961; &#4808;&#4616;&#4753;&#4827;&#4828;&#4968; &#4773;&#4637;&#4629;&#4829;&#4709;&#4752;&#4961; &#4723;&#4656;&#4661;&#4621;&#4961; &#4773;&#4757;&#4707;&#4828;&#4968;</span></span></p><foreign xml:lang="en"><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">Fol. 42rb, l. 6: Salutation to you. Announce me, Cyricus, messanger (servant) of this my faith, time of my staying each hour before the son and his procreatress.&#160; Salutation to you, valley of our peace, Cyricus who (are) so much as this river. Come, come, anytime, for the blessing and for the confession, so that you might remove the insanity from our people.</span></span></p></foreign>
+                     </explicit>
+                     <listBibl type="mss">
+                        <bibl>EMML no. 303 (20th cent., Church of St. Raphael, quarter of Guläle, ʾAddis ʾAbäba),</bibl>
+                        <bibl>fols. 108v-111r: “Greeting to St. Cyriacus [Salāmtā Za-Qirqos]”.</bibl>
+                        <bibl>(EMML II, 4).</bibl>
+                        <bibl>EMML no. 486 (late 19th or early 20th, Church of Qirqos, quarter of Boleʾ, ʾAddis ʾAbäba),</bibl>
+                        <bibl>fols. 59r-60v: “Greetings [salāmtāt] to St. Cyriacus and his mother Julitta [Iyaluṭṭa]”</bibl>
+                        <bibl>(EMML II, 215).</bibl>
+                        <bibl>EMML no. 3469 (19th cent., Church of Šäwa Meda Qirqos, Gubbalafto, Yäğğu, Wällo),</bibl>
                         <bibl>fols. 35v-36r: “Greeting [Salām] to Cyriacus”,</bibl>
                         <bibl>fol. 76r: “Greeting [Salām to Cyriacus]”</bibl>
                         <bibl>(EMML VIII, 284).</bibl>
@@ -130,872 +164,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </listBibl>
                      <note/>
                   </msItem>
-                  <msItem xml:id="ms_i2">
-                     <locus from="" to="">37ra (l.14)–42ra (l.6)</locus>
-                     <title type="yes">III. Mälkǝʾa Qirqos “Images of Cyricus” (42 strophes)</title>
-                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors.
-                        Groups of lines on the incipit page of Text I; two initial lines on the
-                        incipit page of Texts II and III; two initial lines of each miracle in Text
-                        II; incipit of each strophe in Text III.&#xD; Elements of the punctuation
-                        signs, elements of Ethiopic numerals.</rubric>
-                     <incipit><p style="text-align: justify;"><span style="font-size: small;">Fol.
-                              37ra, l.14:</span><span style="font-size: small;"> </span><span
-                              style="line-height: 115%; font-family: Nyala; font-size: 10pt;"
-                              > </span><span style="font-size: large;"><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4774;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4755;&#4829;&#4651;&#4810;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4824;&#4720;&#4808;&#4776;&#4941;&#4776;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4629;&#4635;&#4632;&#4962;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4928;&#4624;&#4845;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4709;&#4649;&#4613;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4925;&#4849;&#4621;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4661;&#4776;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4641;&#4651;&#4628;&#4609;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4925;&#4616;&#4632;&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4925;&#4624;&#4936;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4828;&#4755;&#4609;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4616;&#4674;&#4653;&#4678;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4757;&#4936;&#4659;&#4810;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4824;&#4632;&#4621;&#4781;&#4817;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4656;&#4619;&#4632;&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4920;&#4624;&#4941;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4813;&#4661;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4621;&#4709;&#4840;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4757;&#4824;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4725;&#4872;&#4709;&#4653;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4672;&#4616;&#4632;&#4962;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4848;&#4632;&#4776;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4637;&#4619;&#4779;&#4810;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4632;&#4661;&#4672;&#4621;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4824;&#4824;&#4757;&#4632;&#4968; </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                              >&#8230;</span></span></p><foreign xml:lang="en"><p><span
-                                 style="font-size: small;">Fol. 37ra, l.14: <span lang="EN-US"
-                                    sans-serif="" arial="" style="line-height: 115%;">O Christ
-                                    hermit, who have received the passion. Sun shining&#160; and
-                                    brilliant&#160; so much so that His glory darkened. The book of
-                                    the story of the spiritual Cyricus and of his image, salutation.
-                                    Description in my hearth while you are making the color. Your
-                                    divine blood which has rained by means of the Cross.
-                                    &#8230;</span></span><span lang="EN-US" sans-serif="" arial=""
-                                 style="line-height: 115%;"> </span></p></foreign>
-                     </incipit>
-                     <explicit><p style="text-align: justify;"><span style="font-size: small;"><span
-                                 lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">Fol.
-                                 41vb, l.18:</span><span lang="EN-US" sans-serif="" arial=""
-                                 style="line-height: 115%;"> </span></span><span
-                              style="font-size: large;"><span lang="EN-US"
-                                 style="line-height: 115%; font-family: Nyala;">&#8230;</span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4774;&#4768;&#4637;&#4619;&#4776;&#4961;</span><span
-                                 lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"
-                                 > </span><span lang="EN-US"
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4677;&#4849;&#4661;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4674;&#4653;&#4678;&#4661;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4824;&#4773;&#4633;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4770;&#4840;&#4617;&#4899;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4821;&#4672;&#4704;&#4752;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4768;&#4853;&#4741;&#4752;&#4752;&#4961;</span><span
-                                 lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"
-                                 > </span><span lang="EN-US"
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4640;&#4813;&#4648;&#4752;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4707;&#4621;&#4624;&#4752;&#4961;</span><span
-                                 lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"
-                                 > </span><span lang="EN-US"
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4637;&#4789;&#4617;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4824;&#4632;&#4752;&#4961;</span><span lang="EN-US"
-                                 sans-serif="" arial="" style="line-height: 115%;"> </span><span
-                                 lang="EN-US" style="line-height: 115%; font-family: Nyala;"
-                                 >&#4637;</span></span><span style="font-size: small;"><span
-                                 lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"
-                                    ><span lang="EN-US" style="line-height: 115%;">[</span>fol.
-                                 42ra</span><span lang="EN-US" style="line-height: 115%;"
-                              >]</span></span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4757;&#4659;&#4810;&#4961;</span><span lang="EN-US" sans-serif=""
-                              arial="" style="font-size: 12pt; line-height: 115%;"> </span><span
-                              lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4808;&#4773;&#4637;&#4821;&#4616;&#4725;&#4961;</span><span
-                              lang="EN-US" sans-serif="" arial=""
-                              style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4773;&#4778;&#4725;&#4961;</span><span lang="EN-US" sans-serif=""
-                              arial="" style="font-size: 12pt; line-height: 115%;"> </span><span
-                              lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4616;&#4656;&#4709;&#4768;&#4961;</span><span lang="EN-US"
-                              sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"
-                              > </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4827;&#4722;&#4961;</span><span lang="EN-US" sans-serif="" arial=""
-                              style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4632;&#4677;&#4848;&#4661;</span><span
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4968;</span><span sans-serif="" arial=""
-                              style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4816;&#4706;&#4845;&#4961;</span><span lang="EN-US" sans-serif=""
-                              arial="" style="font-size: 12pt; line-height: 115%;"> </span><span
-                              lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4808;&#4757;&#4817;&#4661;</span><span
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4968;</span><span sans-serif="" arial=""
-                              style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4808;&#4936;&#4853;&#4939;&#4848;&#4661;&#4961;</span><span
-                              lang="EN-US" sans-serif="" arial=""
-                              style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4616;&#4941;&#4673;&#4651;&#4754;&#4776;</span><span
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4968;</span><span sans-serif="" arial=""
-                              style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" sans-serif=""
-                              arial="" style="font-size: 12pt; line-height: 115%;"> </span><span
-                              lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4846;&#4624;&#4757;&#4661;&#4961;</span><span lang="EN-US"
-                              sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"
-                              > </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4808;&#4709;&#4773;&#4658;&#4721;&#4961;</span><span lang="EN-US"
-                              sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"
-                              > </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4808;&#4616;&#4720;&#4961;</span><span lang="EN-US" sans-serif=""
-                              arial="" style="font-size: 12pt; line-height: 115%;"> </span><span
-                              lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4923;&#4853;&#4675;&#4757;&#4961;</span><span lang="EN-US"
-                              sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"
-                              > </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4808;&#4808;&#4621;&#4854;&#4633;&#4961;</span><span lang="EN-US"
-                              sans-serif="" arial="" style="font-size: 12pt; line-height: 115%;"
-                              > </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4872;&#4709;</span><span style="font-size: small;"><span
-                                 lang="EN-US" sans-serif="" arial="" style="line-height: 115%;"
-                                 >[sic]</span></span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4961;</span><span lang="EN-US" sans-serif="" arial=""
-                              style="font-size: 12pt; line-height: 115%;"> </span><span lang="EN-US"
-                              style="font-size: 12pt; line-height: 115%; font-family: Nyala;"
-                              >&#4874;&#4846;&#4653;&#4874;&#4661;&#4962;</span></p><foreign
-                           xml:lang="en"><p style="text-align: justify;"><span
-                                 style="font-size: small;"><span lang="EN-US"
-                                    style="line-height: 115%;" arial="" sans-serif="">Fol. 41vb,
-                                    l.18: &#8230;O God of saint Cyricus and of his mother Julitta,
-                                    protect us and save us, hide us and liberate us from every
-                                    moment of temptation and from the daily vice, the persons of
-                                    this important and small sanctuary, and especially your beloved
-                                    ones, W&#228;ld&#228; Yo</span><span lang="EN-US"
-                                    style="line-height: 115%;" arial="" sans-serif=""
-                                    >&#7717;</span><span lang="EN-US" style="line-height: 115%;"
-                                    arial="" sans-serif="">ann&#477;s and his wife
-                                    W&#228;l&#228;tt&#228; &#7778;ad&#477;qan and their son
-                                    G&#228;br&#228; Giyorgis.</span></span></p></foreign>
-                     </explicit>
-                     <listBibl type="mss">
-                        <bibl>EMML no. 486 (late 19th or early 20th, Church of Qirqos, quarter of
-                           Bole, ʾAddis ʾAbäba),</bibl>
-                        <bibl>fols. 49r-58v: “‘Imageʾ of St. Cyriacus [Malkeʾa Qirqos]”,</bibl>
-                        <bibl>(EMML II, 215).</bibl>
-                     </listBibl>
-                     <note/>
-                  </msItem>
-                  <msItem xml:id="ms_i3">
-                     <locus from="23ra" to="37ra (l.12)">23ra-37ra (l.12)</locus>
-                     <title type="yes">II. Täʾamrä Qirqos “Miracles of Cyricus” (16
-                        Miracles)</title>
-                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors.
-                        Groups of lines on the incipit page of Text I; two initial lines on the
-                        incipit page of Texts II and III; two initial lines of each miracle in Text
-                        II; incipit of each strophe in Text III.&#xD; Elements of the punctuation
-                        signs, elements of Ethiopic numerals.</rubric>
-                     <incipit><p style="text-align: justify;"><span style="font-size: small;"><span
-                                 style="font-family: Arial;"><span style="line-height: 115%;">Fol.
-                                    23ra (Miracle 1):</span></span></span><span
-                              style="font-family: Arial;"><span
-                                 style="line-height: 115%; font-size: 10pt;"> </span></span><span
-                              style="font-size: large;"><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4661;&#4632;&#4961;</span><em><span
-                                    style="line-height: 115%; font-family: Nyala;"
-                                 >&#8221;</span></em><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#8230;&#4757;&#4812;&#4901;&#4757;&#4961;
-                                 &#4704;&#4648;&#4853;&#4772;&#4720;&#4961;
-                                 &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;
-                                 &#4901;&#4757;&#4720;&#4961;
-                                 &#4720;&#4768;&#4637;&#4650;&#4609;&#4961;
-                                 &#4616;&#4709;&#4929;&#4821;&#4961; &#4635;&#4653;&#4961;
-                                 &#4674;&#4653;&#4678;&#4661;&#4961;
-                                 &#4704;&#4656;&#4619;&#4632;&#4961;
-                                 &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;
-                                 &#160;&#4768;&#4709;&#4961; &#4768;&#4636;&#4757;&#4968;
-                                 &#4808;&#4608;&#4622;&#4961;&#4969;&#4757;&#4873;&#4645;&#4961;
-                                 &#4923;&#4853;&#4677;&#4961; &#4808;&#4779;&#4613;&#4757;&#4961;
-                                 &#4824;&#4661;&#4633;&#4961;
-                                 &#4845;&#4637;&#4653;&#4624;&#4752;&#4961;
-                                 &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;
-                           &#8230;</span></span></p><foreign xml:lang="en"><p
-                              style="text-align: left;"><span style="font-size: small;">Fol. 23r: In
-                                 the name of the Father and of the Son and of the Holy Spirit, one
-                                 God, we start, with the help of the Lord, the beginning of the
-                                 miracles of blessed Mar Cyricus. With the peace of the Lord,
-                                 Father, amen. And there was a King, righteous and priest, whose
-                                 name was Y&#601;mr&#601;&#7717;ann&#228;
-                              Kr&#601;stos&#8230;</span></p>
-                           <p/></foreign>
-                     </incipit>
-                     <explicit><p style="text-align: left;"><span
-                              style="font-size: small;"><span style="font-family: Arial;"><span
-                                    style="line-height: 115%;">Fol.37ra, l.3</span><strong><span
-                                       style="line-height: 115%;"> </span></strong><span
-                                    style="line-height: 115%;">(Miracle 16):</span><strong><span
-                                       style="line-height: 115%;"
-                              > </span></strong></span></span><span style="font-size: large;"><span
-                                 style="font-family: Arial;"><span style="line-height: 115%;"
-                                    >&#8230;</span></span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4638;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4874;&#4828;&#4611;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4632;&#4757;&#4936;&#4678;&#4633;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4776;&#4841;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4632;&#4757;&#4936;&#4678;&#4633;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4720;&#4936;&#4645;&#4625;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4633;&#4757;&#4721;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4661;&#4709;&#4773;&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4920;&#4622;&#4721;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4704;&#4648;&#4776;&#4721;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4709;&#4853;&#4648;</span><span style="font-size: small;"
-                                    ><span style="font-family: Arial;"><span
-                                       style="line-height: 115%;">[</span><span
-                                       style="line-height: 115%;">sic</span><span
-                                       style="line-height: 115%;">]</span></span></span><span
-                                 style="line-height: 115%; font-family: Nyala;">&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;">&#160;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4649;&#4928;&#4721;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4637;&#4661;&#4616;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4941;&#4673;&#4651;&#4754;&#4609;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4621;&#4848;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4846;&#4624;&#4757;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4616;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4923;&#4853;&#4675;&#4757;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4621;&#4848;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4635;&#4653;&#4843;&#4637;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4872;&#4709;&#4648;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4624;&#4811;&#4653;&#4843;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4720;&#4808;&#4621;&#4848;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4853;&#4741;&#4757;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4872;&#4709;&#4648;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4853;&#4741;&#4757;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4616;&#4819;&#4616;&#4632;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4819;&#4616;&#4637;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4636;&#4757;&#4968;</span></span></p>
-                        <p/>
-                        <p/><foreign xml:lang="en"><p style="text-align: left;"><span
-                                 style="font-size: small;">Fol. 37ra: And he died immediately and
-                                 half of them, of those men, wept and half of them rejoiced. His
-                                 prayer and his blessing and the race of his running (be) with his
-                                    beloved<span style="line-height: 115%;"> W&#228;ld&#228;
-                                    Yo&#7717;ann&#601;s, W&#228;l&#228;tt&#228; &#7778;adqan,
-                                    W&#228;ld&#228; Maryam, G&#228;br&#228; &#7716;awarya,
-                                    T&#228;w&#228;ld&#228; M&#228;d&#7723;&#601;n, G&#228;br&#228;
-                                    M&#228;d&#7723;&#601;n, for eternity, amen.
-                                 ...</span></span><span style="font-size: larger;"><span
-                                    style="line-height: 115%;"><br/>
-                                 </span></span></p>
-                           <p/></foreign>
-                     </explicit>
-                     <listBibl type="mss">
-                        <bibl>EMML no. 303 (20th cent.),</bibl>
-                        <bibl>fols. 87v-108r: "Miracles of St. Cyriacus" [Taʿamra Qirqos]";</bibl>
-                        <bibl>(EMML II, 4; Church of St. Raphael, quarter of Guläle, Addis
-                           Abäba).</bibl>
-                        <bibl>EMML no. 615 (1966),</bibl>
-                        <bibl>fols. 43r-47r: "5 miracles of St. Cyriacus"</bibl>
-                        <bibl>(EMML II, 364; Church of Qirqos, quarter of Boleʾ, Addis
-                           Abäba).</bibl>
-                        <bibl>EMML no. 3469 (19th cent.),</bibl>
-                        <bibl>fols. 20r-26v: "Miracles of Cyriacus";</bibl>
-                        <bibl>fols. 62r-69v: "Nine miracles of Cyriacus"</bibl>
-                        <bibl>(EMML VIII, 283-284; Church of Šäwa Meda Qirqos, Gubbalafto, Yağğu,
-                           Wallo).</bibl>
-                        <bibl>EMML no. 4816 (1951/2),</bibl>
-                        <bibl>fols. 59r-63r: "Miracles of Cyriacus"</bibl>
-                        <bibl>(EMML X, 324; Church of Däse Mädḫane ʿAläm, Wallo).</bibl>
-                        <bibl>Éthiopien 339 = Griaule 35 (1932),</bibl>
-                        <bibl>fols. 28vb-33vb: "Quatre miracles de l´enfant Cyriaque
-                           (Qirqos)"</bibl>
-                        <bibl>(GrébGriaule II, 3-9).</bibl>
-                     </listBibl>
-                     <note><span style="font-size: small;"><span lang="EN-US">II-1) Fols. 23ra (l.
-                              8) &#8211; 24rb (l. 11): St. Cyricus and King
-                              Y&#601;mr&#601;&#7717;ann&#228; Kr&#601;stos</span></span></note>
-                  </msItem>
-                  <msItem xml:id="ms_i4">
-                     <locus from="4ra" to="22vb">4ra-22vb</locus>
-                     <title type="yes">I. Gädlä Qirqos "Vita of Cyricus"</title>
-                     <rubric>The names of protagonists (Qirqos and ʾIyäluṭa); names of the donors.
-                        Groups of lines on the incipit page of Text I; two initial lines on the
-                        incipit page of Texts II and III; two initial lines of each miracle in Text
-                        II; incipit of each strophe in Text III.&#xD; Elements of the punctuation
-                        signs, elements of Ethiopic numerals.</rubric>
-                     <incipit><p style="text-align: left;"><span style="line-height: 115%;"
-                              >Fol.</span><span style="line-height: 115%;"> 4r: </span><span
-                              style="font-size: large;"><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4661;&#4632;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4709;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4808;&#4621;&#4853;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4632;&#4757;&#4936;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4677;&#4849;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4969;&#4768;&#4637;&#4619;&#4781;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4872;&#4853;&#4621;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4661;&#4637;&#4821;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> &#160;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4824;&#4677;&#4849;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4674;&#4653;&#4678;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4824;&#4773;&#4633;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4770;&#4840;&#4617;&#4899;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4824;&#4779;&#4621;&#4768;&#4757;&#4754;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4988;&#4978;&#4987;&#4981;&#4808;&#4972;&#4656;&#4635;&#4821;&#4723;&#4725;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4616;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> &#160;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4720;&#4776;&#4616;&#4617;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4632;&#4811;&#4821;&#4616;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4616;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4661;&#4781;&#4757;&#4853;&#4654;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4784;&#4757;&#4757;&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4782;&#4752;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4661;&#4848;&#4725;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4619;&#4821;&#4616;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4789;&#4617;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> &#160;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4709;&#4843;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4824;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4782;&#4752;&#4725;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4709;&#4773;&#4658;&#4725;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4757;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4661;&#4635;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4770;&#4840;&#4617;&#4899;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> &#160;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4936;&#4651;&#4610;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4637;&#4757;&#4773;&#4659;&#4968;
-                           ...</span></span></p><foreign xml:lang="en"><p style="text-align: left;"
-                                 ><span style="font-size: small;"><span style="line-height: 115%;"
-                                    >Fol. 4r:</span><span style="line-height: 115%;"> In the name of
-                                    the Father and of the Son and of the Holy Spirit, one God, the
-                                    life and the martyrdom of St. Cyricus&#160; and of his mother
-                                    Julitta and of other 11,034 martyrs who were crowned during the
-                                    time when the governor (was) Alexander</span><span
-                                    style="line-height: 115%;">. And there was the persecution
-                                    against all the families of the Christians of Christ (all the
-                                    churches) and there was a woman whose name (was) Julitta who
-                                    feared God from her infancy. ...</span></span></p></foreign>
-                     </incipit>
-                     <explicit><p style="text-align: left;"><span style="font-size: small;"><span
-                                 style="line-height: 115%;">Fol. 22va, l.6:</span></span><span
-                              style="line-height: 115%; font-size: 10pt;"> </span><span
-                              style="line-height: 115%; font-family: Nyala; font-size: 14pt;"
-                              >.</span><span style="font-size: large;"><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >..&#4808;&#4776;&#4635;&#4609;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4813;&#4773;&#4721;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4637;&#4819;&#4618;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4784;&#4757;&#4757;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4824;&#4824;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4845;&#4829;&#4653;&#4809;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4645;&#4875;&#4614;&#4633;&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4632;&#4619;&#4773;&#4781;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4840;&#4819;&#4677;&#4705;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4616;&#4843;&#4621;&#4843;&#4722;&#4614;&#4633;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4789;&#4617;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4632;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4978;&#4808;&#4973;&#4616;&#4640;&#4653;&#4672;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4901;&#4653;&#4968;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4608;&#4622;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4677;&#4849;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4674;&#4653;&#4678;&#4661;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4840;&#4635;&#4752;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4632;&#4757;&#4704;&#4649;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4725;&#4648;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4845;&#4672;&#4813;&#4637;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4845;&#4720;&#4752;&#4709;&#4621;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4704;&#4773;&#4757;&#4720;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4773;&#4616;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4845;&#4872;&#4709;&#4649;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4736;&#4704;&#4961;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4757;&#4873;</span><span style="font-size: small;"><span
-                                    style="font-family: Arial;"><span style="line-height: 115%;"
-                                       >[</span><span style="line-height: 115%;">fol.
-                                    22vb]</span></span></span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4640;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4661;&#4709;&#4624;&#4725;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4808;&#4781;&#4709;&#4653;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4616;&#4819;&#4616;&#4632;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4819;&#4616;&#4637;&#4961;</span><span
-                                 style="line-height: 115%; font-family: Nyala;"> </span><span
-                                 style="line-height: 115%; font-family: Nyala;"
-                                 >&#4768;&#4636;&#4757;&#4968;</span></span></p><foreign
-                           xml:lang="en"><div style="text-align: left;">
-                              <span style="font-size: small;">
-                                 <span style="line-height: 115%;">Fol. 22va, l. 6: </span>
-                                 <span style="line-height: 115%;">... And again, that tyrant</span>
-                                 <span style="line-height: 115%;">, the governor ordered that they
-                                    scatter their corpses. And the Angels of the Lord were
-                                    protecting (all) their limbs, on the 15th of the month of
-                                    &#7788;&#601;rr. And St. Cyricus stands on the right side of the
-                                    throne of God, and he is always present and he intercedes for
-                                    those who make (his commemoration day), in front of the Lord,
-                                    King of the glory and honour. For eternity, amen.</span>
-                              </span>
-                              <span style="line-height: 115%; font-size: 10pt;">
-                                 <br/>
-                              </span>
-                           </div>
-                           <p/></foreign>
-                     </explicit>
-                     <listBibl type="mss">
-                        <bibl>EMML no. 430 (1922/32), fols. 104r-112v: "Combat of St. Cyriacus
-                           [Gadla Qirqos]"</bibl>
-                        <bibl>(EMML II, 150; Church of the nativity, quarter of Lǝdäta, Addis
-                           Abäba).</bibl>
-                        <bibl>EMML no. 615 (1966),</bibl>
-                        <bibl>fols. 3r-42v: "Combat of St. Cyriacus [Gadla Qirqos]"</bibl>
-                        <bibl>(EMML II, 364; Church of St. Qirqos, quarter of Boleʾ, Addis
-                           Abäba).</bibl>
-                        <bibl>EMML no. 1934 (late 19th or early 20th cent.), fols. 29r-46r:
-                           "Martyrdom [gadl wa-semʿ] of Cyriacus and his Mother Julitta"</bibl>
-                        <bibl>(EMML V, 420; Monastery of Ḥayq Ǝsṭifanos, Ambassäl, Wallo).</bibl>
-                        <bibl>EMML no. 2514 (1382/88), fols. 126r-133r (in the "Gädlä Samaʿtat"):
-                           "Martyrdom of Cyriacus and his mother, Julitta" [Qirqos wa-emmu
-                           Iyyaluṭā]</bibl>
-                        <bibl>(EMML VII, 10; Church of Astit Kidana Mǝḥrät, Ankobärr, Shoa).</bibl>
-                        <bibl>EMML no. 3469 (19th cent.),</bibl>
-                        <bibl>fols. 2r-20r: "Martyrdom [Gadl wa-semʿ] of Cyriacus and his mother
-                           Julitta";</bibl>
-                        <bibl>fols. 42r-61v: "Martyrdom [Gadl wa-samāʿt] of Cyriacus and his mother
-                           Julitta";</bibl>
-                        <bibl>(EMML VIII, 283-284; Church of Šäwa Meda Qirqos, Gubbalafto, Yäğğu,
-                           Wallo).</bibl>
-                        <bibl>EMML no. 4816 (1951/2),</bibl>
-                        <bibl>fols. 15v-59r: "Text of the Martyrdom"</bibl>
-                        <bibl>(EMML X, 324; Church of Däse Mädḫane ʿAläm, Wallo).</bibl>
-                        <bibl>Éthiopien 134 (15th cent.),</bibl>
-                        <bibl>fol. 28: "Martyre de S. Cyr et sa mère Julitta et des onze mille
-                           trente-quatre autres martyrs qui suoffrirent du temps du Tribun
-                           Alexandre"</bibl>
-                        <bibl>(ZotBNat 202).</bibl>
-                        <bibl>Éthiopien 339 = Griaule 35 (1932),</bibl>
-                        <bibl>fols. 1ra-28vb: "Martyre de l'enfant Cyriaques (Qirqos) et sa mère
-                           Juliette (ʾIyalouṭâ)"</bibl>
-                        <bibl>(GrébGriaule II, 3-9).</bibl>
-                        <bibl>Orient. 686 (1755/69),</bibl>
-                        <bibl>fol. 128r (in "Acts of Saints and Martyrs"): "Quiricus, or Cyriacus,
-                           and Julitta, ቂርቆስ፡ ወእሙ፡ ኢየሉጣ፡ (16th of Ṭӗr)"</bibl>
-                        <bibl>(WrBriMus 167, no. 257).</bibl>
-                        <bibl>Orient. 687/688 (18th cent.),</bibl>
-                        <bibl>fol. 200r (in "Acts of Saints and Martyrs"): "Quiricus, or Cyriacus,
-                           and Julitta (15th of Ṭӗr)"</bibl>
-                        <bibl>(WrBriMus 169, no. 258).</bibl>
-                        <bibl>Orient. 692 (15th cent.),</bibl>
-                        <bibl>fol. 84r (in "Acts of Saints and Martyrs"): "Martyrdom of Quiricus, or
-                           Cyriacus, and Julitta, ቂርቆስ፡ ወእሙ፡ ኢየሉጣ፡ (15th of Ṭӗr)"</bibl>
-                        <bibl>(WrBriMus 165, no. 256).</bibl>
-                        <bibl>Orient. 720 (1775/76),</bibl>
-                        <bibl>fols. 1r-109v: "The acts of Quiricus, or Cyriacus, ቂርቆስ፡, and Julitta,
-                           ኢየሉጣ"</bibl>
-                        <bibl>(WrBriMus 194, no. 297)</bibl>
-                        <bibl>Ṭanasee 121 = Daga Ǝsṭifanos 10 (18th cent.),</bibl>
-                        <bibl>fols. 218r-227r ("Gädlä Samaʿtat"): "ቂርቆስ፡ und seine Mutter
-                           ኢየሉጣ፡"</bibl>
-                        <bibl>(SixTana III, 93, no. 10).</bibl>
-                        <bibl>Ṭanasee 177 = Daga Ǝsṭifanos 66 (14th/15th cent.),</bibl>
-                        <bibl>fols. 57ra-80vb "Vita und Zeugnis des hl. Kyriakos und seiner Mutter
-                           Julietta (äthiop.: Iyaluṭā)"</bibl>
-                        <bibl>(SixTana III, 235).</bibl>
-                     </listBibl>
-                     <note/>
-                  </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus/><p style="text-align: left;"><span style="font-size: small;"><span
-                                 style="line-height: 115%;">Fol. 22vb:</span></span><span
-                              style="line-height: 115%; font-size: 10pt;"> </span><span
-                              style="font-size: large;"><span style="line-height: 115%;"
-                                 >&#4808;&#4720;&#4936;&#4920;&#4632;&#4961; </span><span
-                                 style="line-height: 115%;">&#4704;&#4829;&#4840;&#4961;
-                                 </span><span style="line-height: 115%;">&#4872;&#4853;</span><span
-                                 style="line-height: 115%;">&#4621;</span><span
-                                 style="line-height: 115%;">&#4961; </span><span
-                                 style="line-height: 115%;">&#4808;&#4661;&#4637;&#4821;&#4961;
-                                 </span><span style="line-height: 115%;">&#4824;</span><span
-                                 style="line-height: 115%;">&#4677;&#4849;&#4661;&#4961;
-                                 </span><span style="line-height: 115%;"
-                                 >&#4674;&#4653;&#4678;&#4661;&#4961; </span><span
-                                 style="line-height: 115%;"
-                                 >&#4808;&#4824;&#4773;&#4633;&#4961;</span><span
-                                 style="line-height: 115%;">&#160;</span><span
-                                 style="line-height: 115%;">&#4677;&#4853;&#4661;&#4725;&#4961;
-                                 &#4770;&#4840;&#4617;&#4899;&#4961; &#4920;&#4622;&#4721;&#4961;
-                                 &#4808;&#4704;&#4648;&#4776;&#4721;&#4961;
-                                 &#4840;&#4611;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961;
-                                 &#4941;&#4673;&#4651;&#4754;&#4609;&#4961;
-                                 &#4808;&#4621;&#4848;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961;
-                                 &#4808;&#4709;&#4773;&#4658;&#4721;&#4961;
-                                 &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961;
-                                 &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;
-                                 &#4872;&#4709;&#4648;&#4961; &#4624;&#4811;&#4653;&#4843;&#4961;
-                                 &#4720;&#4808;&#4621;&#4848;&#4961;
-                                 &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961;
-                                 &#4632;&#4853;&#4741;&#4757;&#4961; &#4616;&#4819;&#4961;
-                                 &#4819;&#4962; &#4808;&#4616;&#4824;&#4920;&#4624;&#4942;&#4961;
-                                 &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961;
-                                 &#4616;&#4824;&#4768;&#4757;&#4704;&#4710;&#4961;
-                                 &#4808;&#4616;&#4824;&#4720;&#4653;&#4880;&#4638;&#4961;
-                                 &#4808;&#4616;&#4824;&#4656;&#4637;&#4822;&#4961;
-                                 &#4675;&#4619;&#4722;&#4609;&#4961; &#4741;&#4705;&#4648;&#4961;
-                                 &#4845;&#4637;&#4624;&#4654;&#4633;&#4961;
-                                 &#4616;&#4789;&#4622;&#4633;&#4961; &#4848;&#4674;&#4672;&#4961;
-                                 &#4827;&#4722;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961;
-                                 &#4808;&#4936;&#4853;&#4939;&#4848;&#4661;&#4961;
-                                 &#4616;&#4941;&#4673;&#4651;&#4754;&#4609;&#4961;
-                                 &#4872;&#4709;&#4648;&#4961;
-                                 &#4874;&#4846;&#4653;&#4874;&#4661;&#4961;
-                                 &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961;
-                                 &#4768;&#4636;&#4757;&#4968;</span></span></p><foreign
-                           xml:lang="en"><p style="text-align: left;"><span
-                                 style="font-size: small;"><span style="line-height: 115%;">Fol.
-                                    22vb: Herewith the life and the</span><span
-                                    style="line-height: 115%;"> martyrdom</span><span
-                                    style="line-height: 115%;"> of St. </span><span
-                                    style="line-height: 115%;">Cyricus </span><span
-                                    style="line-height: 115%;">and of his mother St. </span><span
-                                    style="line-height: 115%;">Julitta has been completed; may his
-                                    prayer and his blessing be with his beloved W&#228;ld&#228;
-                                    Yo&#7717;ann&#601;s and his wife W&#228;l&#228;tt&#228;
-                                    &#7778;adqan, W&#228;ld&#228; Maryam, G&#228;br&#228;
-                                    &#7716;awarya, T&#228;w&#228;ld&#228; M&#228;d&#7723;&#601;n,
-                                    G&#228;br&#228; M&#228;d&#7723;&#601;n, for eternity. And for
-                                    those who wrote it and for those who had it written, for those
-                                    who read it and for those who translated it and for who listened
-                                    it,&#160;its words, may he have mercy upon all of them,
-                                    togheter, children of this sanctuary, and especially upon
-                                    his&#160;beloved G&#228;br&#228; Giyorgis. For eternity,
-                                    amen.</span></span></p></foreign>
-                        <note>The date mentioned is the year of mercy 1969 (= 2 January 1976
-                           A.D.)</note>
+                        <locus target="22vb">&lt;p style="text-align: left;"&gt;&lt;span style="font-size: small;"&gt;&lt;span style="line-height: 115%;"&gt;Fol. 22vb:&lt;/span&gt;&lt;/span&gt;&lt;span style="line-height: 115%; font-size: 10pt;"&gt; &lt;/span&gt;&lt;span style="font-size: large;"&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4808;&amp;#4720;&amp;#4936;&amp;#4920;&amp;#4632;&amp;#4961; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4704;&amp;#4829;&amp;#4840;&amp;#4961; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4872;&amp;#4853;&lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4621;&lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4961; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4808;&amp;#4661;&amp;#4637;&amp;#4821;&amp;#4961; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4824;&lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4677;&amp;#4849;&amp;#4661;&amp;#4961; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4674;&amp;#4653;&amp;#4678;&amp;#4661;&amp;#4961; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4808;&amp;#4824;&amp;#4773;&amp;#4633;&amp;#4961;&lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#160;&lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4677;&amp;#4853;&amp;#4661;&amp;#4725;&amp;#4961; &amp;#4770;&amp;#4840;&amp;#4617;&amp;#4899;&amp;#4961; &amp;#4920;&amp;#4622;&amp;#4721;&amp;#4961; &amp;#4808;&amp;#4704;&amp;#4648;&amp;#4776;&amp;#4721;&amp;#4961; &amp;#4840;&amp;#4611;&amp;#4617;&amp;#4961; &amp;#4637;&amp;#4661;&amp;#4616;&amp;#4961; &amp;#4941;&amp;#4673;&amp;#4651;&amp;#4754;&amp;#4609;&amp;#4961; &amp;#4808;&amp;#4621;&amp;#4848;&amp;#4961; &amp;#4846;&amp;#4624;&amp;#4757;&amp;#4661;&amp;#4961; &amp;#4808;&amp;#4709;&amp;#4773;&amp;#4658;&amp;#4721;&amp;#4961; &amp;#4808;&amp;#4616;&amp;#4720;&amp;#4961; &amp;#4923;&amp;#4853;&amp;#4675;&amp;#4757;&amp;#4961; &amp;#4808;&amp;#4621;&amp;#4848;&amp;#4961; &amp;#4635;&amp;#4653;&amp;#4843;&amp;#4637;&amp;#4961; &amp;#4872;&amp;#4709;&amp;#4648;&amp;#4961; &amp;#4624;&amp;#4811;&amp;#4653;&amp;#4843;&amp;#4961; &amp;#4720;&amp;#4808;&amp;#4621;&amp;#4848;&amp;#4961; &amp;#4632;&amp;#4853;&amp;#4741;&amp;#4757;&amp;#4961; &amp;#4872;&amp;#4709;&amp;#4648;&amp;#4961; &amp;#4632;&amp;#4853;&amp;#4741;&amp;#4757;&amp;#4961; &amp;#4616;&amp;#4819;&amp;#4961; &amp;#4819;&amp;#4962; &amp;#4808;&amp;#4616;&amp;#4824;&amp;#4920;&amp;#4624;&amp;#4942;&amp;#4961; &amp;#4808;&amp;#4616;&amp;#4824;&amp;#4768;&amp;#4925;&amp;#4624;&amp;#4942;&amp;#4961; &amp;#4616;&amp;#4824;&amp;#4768;&amp;#4757;&amp;#4704;&amp;#4710;&amp;#4961; &amp;#4808;&amp;#4616;&amp;#4824;&amp;#4720;&amp;#4653;&amp;#4880;&amp;#4638;&amp;#4961; &amp;#4808;&amp;#4616;&amp;#4824;&amp;#4656;&amp;#4637;&amp;#4822;&amp;#4961; &amp;#4675;&amp;#4619;&amp;#4722;&amp;#4609;&amp;#4961; &amp;#4741;&amp;#4705;&amp;#4648;&amp;#4961; &amp;#4845;&amp;#4637;&amp;#4624;&amp;#4654;&amp;#4633;&amp;#4961; &amp;#4616;&amp;#4789;&amp;#4622;&amp;#4633;&amp;#4961; &amp;#4848;&amp;#4674;&amp;#4672;&amp;#4961; &amp;#4827;&amp;#4722;&amp;#4961; &amp;#4632;&amp;#4677;&amp;#4848;&amp;#4661;&amp;#4961; &amp;#4808;&amp;#4936;&amp;#4853;&amp;#4939;&amp;#4848;&amp;#4661;&amp;#4961; &amp;#4616;&amp;#4941;&amp;#4673;&amp;#4651;&amp;#4754;&amp;#4609;&amp;#4961; &amp;#4872;&amp;#4709;&amp;#4648;&amp;#4961; &amp;#4874;&amp;#4846;&amp;#4653;&amp;#4874;&amp;#4661;&amp;#4961; &amp;#4616;&amp;#4819;&amp;#4616;&amp;#4632;&amp;#4961; &amp;#4819;&amp;#4616;&amp;#4637;&amp;#4961; &amp;#4768;&amp;#4636;&amp;#4757;&amp;#4968;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</locus><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22vb:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4720;&#4936;&#4920;&#4632;&#4961; </span><span style="line-height: 115%;">&#4704;&#4829;&#4840;&#4961; </span><span style="line-height: 115%;">&#4872;&#4853;</span><span style="line-height: 115%;">&#4621;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4808;&#4661;&#4637;&#4821;&#4961; </span><span style="line-height: 115%;">&#4824;</span><span style="line-height: 115%;">&#4677;&#4849;&#4661;&#4961; </span><span style="line-height: 115%;">&#4674;&#4653;&#4678;&#4661;&#4961; </span><span style="line-height: 115%;">&#4808;&#4824;&#4773;&#4633;&#4961;</span><span style="line-height: 115%;">&#160;</span><span style="line-height: 115%;">&#4677;&#4853;&#4661;&#4725;&#4961; &#4770;&#4840;&#4617;&#4899;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4840;&#4611;&#4617;&#4961; &#4637;&#4661;&#4616;&#4961; &#4941;&#4673;&#4651;&#4754;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4624;&#4811;&#4653;&#4843;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4616;&#4819;&#4961; &#4819;&#4962; &#4808;&#4616;&#4824;&#4920;&#4624;&#4942;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4616;&#4824;&#4768;&#4757;&#4704;&#4710;&#4961; &#4808;&#4616;&#4824;&#4720;&#4653;&#4880;&#4638;&#4961; &#4808;&#4616;&#4824;&#4656;&#4637;&#4822;&#4961; &#4675;&#4619;&#4722;&#4609;&#4961; &#4741;&#4705;&#4648;&#4961; &#4845;&#4637;&#4624;&#4654;&#4633;&#4961; &#4616;&#4789;&#4622;&#4633;&#4961; &#4848;&#4674;&#4672;&#4961; &#4827;&#4722;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4808;&#4936;&#4853;&#4939;&#4848;&#4661;&#4961; &#4616;&#4941;&#4673;&#4651;&#4754;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4968;</span></span></p><foreign xml:lang="en"><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22vb: Herewith the life and the</span><span style="line-height: 115%;"> martyrdom</span><span style="line-height: 115%;"> of St. </span><span style="line-height: 115%;">Cyricus </span><span style="line-height: 115%;">and of his mother St. </span><span style="line-height: 115%;">Julitta has been completed; may his prayer and his blessing be with his beloved W&#228;ld&#228; Yo&#7717;ann&#601;s and his wife W&#228;l&#228;tt&#228; &#7778;adqan, W&#228;ld&#228; Maryam, G&#228;br&#228; &#7716;awarya, T&#228;w&#228;ld&#228; M&#228;d&#7723;&#601;n, G&#228;br&#228; M&#228;d&#7723;&#601;n, for eternity. And for those who wrote it and for those who had it written, for those who read it and for those who translated it and for who listened it,&#160;its words, may he have mercy upon all of them, togheter, children of this sanctuary, and especially upon his&#160;beloved G&#228;br&#228; Giyorgis. For eternity, amen.</span></span></p></foreign>
+                        <note>The date mentioned is the year of mercy 1969 (= 2 January 1976 A.D.)</note>
                      </colophon>
                   </msItem>
                   <msItem xml:id="coloph2">
                      <colophon>
-                        <locus/><p style="text-align: left;"><span style="font-size: small;"><span
-                                 style="line-height: 115%;">Fol. 42rb: </span></span><span
-                              style="font-size: large;"><span style="line-height: 115%;"
-                                 >&#4720;&#4936;&#4920;&#4632;&#4961; &#4829;&#4757;&#4721;&#4961;
-                                 &#4632;&#4925;&#4624;&#4941;&#4961; &#4768;&#4632;&#4961;
-                                 &#4979;&#4808;&#4975;&#4616;&#4723;&#4629;&#4643;&#4645;&#4961;
-                                 &#4704;&#4978;&#4808;&#4977;&#4987;&#4983;&#4808;&#4977;&#4819;&#4632;&#4720;&#4961;
-                                 &#4637;&#4629;&#4648;&#4725;&#4961;
-                                 &#4808;&#4768;&#4925;&#4624;&#4936;&#4726;&#4961;
-                                 &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961;
-                                 &#4709;&#4773;&#4658;&#4721;&#4961; &#4616;&#4768;&#4726;&#4961;
-                                 &#4704;&#4619;&#4845;&#4961; &#4709;&#4649;&#4961;
-                                 &#4704;&#4987;&#4709;&#4649;&#4653;&#4961;
-                                 &#4808;&#4808;&#4608;&#4704;&#4726;&#4961;
-                                 &#4616;&#4723;&#4710;&#4720;&#4961;
-                                 &#4674;&#4653;&#4678;&#4661;&#4961; &#4769;&#4651;&#4961;
-                                 &#4808;&#4920;&#4624;&#4938;&#4609;&#4754;&#4961;
-                                 &#4674;&#4661;&#4961; &#4848;&#4661;&#4723;&#4961; &#4872;&#4961;
-                                 &#4635;&#4653;&#4843;&#4637;&#4961; &#4621;&#4875;&#4725;&#4961;
-                                 &#4824;&#4640;&#4648;&#4677;&#4961;
-                                 &#4808;&#4824;&#4936;&#4624;&#4678;&#4961;
-                                 &#4813;&#4873;&#4824;&#4961;&#4845;&#4777;&#4757;&#4961;
-                                 &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4914;&#4901;&#4961;
-                                 &#4808;&#4915;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961;
-                                 &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961;
-                                 &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4961;
-                                 &#4616;&#4845;</span><span style="line-height: 115%;"
-                                 >&#4968;</span></span></p><foreign xml:lang="en"><p
-                              style="text-align: left;"><span style="font-size: small;"><span
-                                    style="line-height: 115%;">Fol. 42rb: This book is completed on
-                                    the 27th of the month of Ta&#7717;&#347;a&#347;, in the year of
-                                    mercy 1969; and </span><span style="line-height: 115%;"
-                                    >W&#228;l&#228;tt&#228; &#7778;adqan, the wife of &#704;ato
-                                    B&#228;lay B&#1241;rru, made it be written for 100 B&#1241;rr,
-                                    and gave it to the tabot of &#704;Ura Qirqos. And its scribe is
-                                    the priest <span style="line-height: 115%;">D&#228;sta
-                                       G&#228;br&#228; Maryam (from) L&#1241;gat.</span><span
-                                       style="color: red;">&#160;</span>May the one who stole it or
-                                    erased (the text) be excommunicated with the authority of Peter
-                                    and Paul. For eternity, amen and amen.&#160;</span><span
-                                    style="line-height: 115%;">Let it be, let it
-                              be.</span></span></p></foreign>
-                        <note>The date mentioned is the year of mercy 1969 (= 2 January 1976
-                           A.D.)</note>
+                        <locus target="42rb">&lt;p style="text-align: left;"&gt;&lt;span style="font-size: small;"&gt;&lt;span style="line-height: 115%;"&gt;Fol. 42rb: &lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: large;"&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4720;&amp;#4936;&amp;#4920;&amp;#4632;&amp;#4961; &amp;#4829;&amp;#4757;&amp;#4721;&amp;#4961; &amp;#4632;&amp;#4925;&amp;#4624;&amp;#4941;&amp;#4961; &amp;#4768;&amp;#4632;&amp;#4961; &amp;#4979;&amp;#4808;&amp;#4975;&amp;#4616;&amp;#4723;&amp;#4629;&amp;#4643;&amp;#4645;&amp;#4961; &amp;#4704;&amp;#4978;&amp;#4808;&amp;#4977;&amp;#4987;&amp;#4983;&amp;#4808;&amp;#4977;&amp;#4819;&amp;#4632;&amp;#4720;&amp;#4961; &amp;#4637;&amp;#4629;&amp;#4648;&amp;#4725;&amp;#4961; &amp;#4808;&amp;#4768;&amp;#4925;&amp;#4624;&amp;#4936;&amp;#4726;&amp;#4961; &amp;#4808;&amp;#4616;&amp;#4720;&amp;#4961; &amp;#4923;&amp;#4853;&amp;#4675;&amp;#4757;&amp;#4961; &amp;#4709;&amp;#4773;&amp;#4658;&amp;#4721;&amp;#4961; &amp;#4616;&amp;#4768;&amp;#4726;&amp;#4961; &amp;#4704;&amp;#4619;&amp;#4845;&amp;#4961; &amp;#4709;&amp;#4649;&amp;#4961; &amp;#4704;&amp;#4987;&amp;#4709;&amp;#4649;&amp;#4653;&amp;#4961; &amp;#4808;&amp;#4808;&amp;#4608;&amp;#4704;&amp;#4726;&amp;#4961; &amp;#4616;&amp;#4723;&amp;#4710;&amp;#4720;&amp;#4961; &amp;#4674;&amp;#4653;&amp;#4678;&amp;#4661;&amp;#4961; &amp;#4769;&amp;#4651;&amp;#4961; &amp;#4808;&amp;#4920;&amp;#4624;&amp;#4938;&amp;#4609;&amp;#4754;&amp;#4961; &amp;#4674;&amp;#4661;&amp;#4961; &amp;#4848;&amp;#4661;&amp;#4723;&amp;#4961; &amp;#4872;&amp;#4961; &amp;#4635;&amp;#4653;&amp;#4843;&amp;#4637;&amp;#4961; &amp;#4621;&amp;#4875;&amp;#4725;&amp;#4961; &amp;#4824;&amp;#4640;&amp;#4648;&amp;#4677;&amp;#4961; &amp;#4808;&amp;#4824;&amp;#4936;&amp;#4624;&amp;#4678;&amp;#4961; &amp;#4813;&amp;#4873;&amp;#4824;&amp;#4961;&amp;#4845;&amp;#4777;&amp;#4757;&amp;#4961; &amp;#4704;&amp;#4645;&amp;#4621;&amp;#4899;&amp;#4752;&amp;#4961; &amp;#4914;&amp;#4901;&amp;#4961; &amp;#4808;&amp;#4915;&amp;#4961; &amp;#4616;&amp;#4819;&amp;#4616;&amp;#4632;&amp;#4961; &amp;#4819;&amp;#4616;&amp;#4637;&amp;#4961; &amp;#4768;&amp;#4636;&amp;#4757;&amp;#4961; &amp;#4808;&amp;#4768;&amp;#4636;&amp;#4757;&amp;#4961; &amp;#4616;&amp;#4845;&amp;#4961; &amp;#4616;&amp;#4845;&lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4968;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</locus><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 42rb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4768;&#4632;&#4961; &#4979;&#4808;&#4975;&#4616;&#4723;&#4629;&#4643;&#4645;&#4961; &#4704;&#4978;&#4808;&#4977;&#4987;&#4983;&#4808;&#4977;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4808;&#4768;&#4925;&#4624;&#4936;&#4726;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4616;&#4768;&#4726;&#4961; &#4704;&#4619;&#4845;&#4961; &#4709;&#4649;&#4961; &#4704;&#4987;&#4709;&#4649;&#4653;&#4961; &#4808;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4769;&#4651;&#4961; &#4808;&#4920;&#4624;&#4938;&#4609;&#4754;&#4961; &#4674;&#4661;&#4961; &#4848;&#4661;&#4723;&#4961; &#4872;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4621;&#4875;&#4725;&#4961; &#4824;&#4640;&#4648;&#4677;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4914;&#4901;&#4961; &#4808;&#4915;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4961; &#4616;&#4845;</span><span style="line-height: 115%;">&#4968;</span></span></p><foreign xml:lang="en"><p style="text-align: left;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 42rb: This book is completed on the 27th of the month of Ta&#7717;&#347;a&#347;, in the year of mercy 1969; and </span><span style="line-height: 115%;">W&#228;l&#228;tt&#228; &#7778;adqan, the wife of &#704;ato B&#228;lay B&#1241;rru, made it be written for 100 B&#1241;rr, and gave it to the tabot of &#704;Ura Qirqos. And its scribe is the priest <span style="line-height: 115%;">D&#228;sta G&#228;br&#228; Maryam (from) L&#1241;gat.</span><span style="color: red;">&#160;</span>May the one who stole it or erased (the text) be excommunicated with the authority of Peter and Paul. For eternity, amen and amen.&#160;</span><span style="line-height: 115%;">Let it be, let it be.</span></span></p></foreign>
+                        <note>The date mentioned is the year of mercy 1969 (= 2 January 1976 A.D.)</note>
                      </colophon>
                   </msItem>
                </msContents>
@@ -1006,8 +184,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <material key="parchment"/>
                         </support>
                         <extent>Made of <measure unit="leaf">47.0</measure> folios, of which
-                              <measure unit="leaf" type="blank">7.0</measure> blank, in <measure
-                              unit="quire">7.0</measure> quires. <dimensions type="outer">
+                                                  <measure unit="leaf" type="blank">7.0</measure> blank
+                                                  fols. 1rv, 2rv, 3rv, 42v, 43rv, 44rv, 45rv., in
+                                                  <measure unit="quire">7.0</measure> quires (A + 5 + B). 
+                                                <dimensions type="outer">
                               <height unit="cm">22.7</height>
                               <width unit="cm">18.4</width>
                               <depth unit="cm">4.0</depth>
@@ -1015,6 +195,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire arks are written in the centre of the upper margin: fols. 12r: ፪, 20r: ፫, 28r: ፬, 36r: ፭.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">3</dim>
@@ -1030,16 +212,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                  <locus from="20r" to="27v"/> ፫III(8/fols. 20r-27v) </item>
                               <item xml:id="q5">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="28r" to="35v"/> ፬IV(8; s.l.: 3, stub after 6; 6, stub
-                                 after 3/fols. 28r-35v) </item>
+                                 <locus from="28r" to="35v"/> ፬IV(8; s.l.: 3, stub after 6;  6, stub after 3/fols. 28r-35v) </item>
                               <item xml:id="q6">
                                  <dim unit="leaf">8</dim>
-                                 <locus from="36r" to="43v"/> ፭V(8; s.l.: 3, stub after 6; 6, stub
-                                 after 3/fols. 36r-43v) </item>
+                                 <locus from="36r" to="43v"/> ፭V(8; s.l.: 3, stub after 6; 6, stub after 3/fols. 36r-43v) </item>
                               <item xml:id="q7">
                                  <dim unit="leaf">2</dim>
-                                 <locus from="44r" to="45v"/> B(2; s.l.: 1, stub after 1; 2, stub
-                                 before 1/fols. 44r-45v)</item>
+                                 <locus from="44r" to="45v"/> B(2; s.l.: 1, stub after 1; 2, stub before 1/fols. 44r-45v)</item>
                            </list>
                         </collation>
                         <condition key="good"/>
@@ -1059,78 +238,69 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               <dim type="intercolumn">14</dim>
                            </dimensions>
                            <note/>
-                           <ab type="ruling">On average, 19 lines; on different folios, from 18 to
-                              22 and 25 lines.</ab>
+                           <ab type="ruling">On average, 19 lines; on different folios, from 18 to 22 and 25 lines.</ab>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter"> Ruling pattern:
-                              1A-1A-1A1A/0-0/0-0/C.</ab>
-                           <ab type="pricking"> Primary pricks are visible.</ab>
-                           <ab type="pricking"> Ruling pricks are visible.</ab>
-                           <ab type="ruling"> The upper line is written above the ruling.</ab>
-                           <ab type="ruling"> The bottom line is written above the ruling.</ab>
+                           <ab type="ruling" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
                         </layout>
                         <layout>
                            <ab type="punctuation" subtype="Executed">more or less regularly;</ab>
                            <ab type="punctuation" subtype="Usage">not always logical.</ab>
                            <ab type="punctuation">
                               <list>
-                                 <item xml:id="div1"> Dividers:</item>
-                                 <item xml:id="div2"> I. Colon.</item>
-                                 <item xml:id="div3"> II. - Four dot asterisk (esp. fols.: 4ra,
-                                    l.18; 4rb, l.1; 14ra, l.1; 15ra, l.8; 23ra, l.18; 24va, l.6;
-                                    37ra, l.7; 37rb, l.10; 40ra, ls.14, 19; 41ra, l.16; 41va, ls.2,
-                                    3, 6, 13, 17, 19, 21; 41vb, l.12). </item>
-                                 <item xml:id="div4"> - Nine dot asterisk (used throughout the
-                                    text). </item>
-                                 <item xml:id="div5"> III. Chain of black and red dots (esp. s.: the
-                                    colophon, fol. 42rb; fol. 22vb, below the text).</item>
+                                 <item xml:id="div1">
+Dividers:</item>
+                                 <item xml:id="div2">
+I. Colon.</item>
+                                 <item xml:id="div3">
+II. - Four dot asterisk (esp. fols.: 4ra, l.18; 4rb, l.1; 14ra, l.1; 15ra, l.8; 23ra, l.18; 24va, l.6; 37ra, l.7; 37rb, l.10; 40ra, ls.14, 19; 41ra, l.16; 41va, ls.2, 3, 6, 13, 17, 19, 21; 41vb, l.12). </item>
+                                 <item xml:id="div4">
+    - Nine dot asterisk (used throughout the text). </item>
+                                 <item xml:id="div5">
+III. Chain of black and red dots (esp. s.: the colophon, fol. 42rb; fol.  22vb, below the text).</item>
                               </list>
                            </ab>
                            <ab type="CruxAnsata">no</ab>
                         </layout>
                      </layoutDesc>
                   </objectDesc>
-                  <handDesc>
-                     <!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful</ab>
                         <seg type="ink">Black; red.</seg>
-                        <persName role="scribe" corresp="PRS00000">Dästa Gäbrä Maryam of
-                           Lǝgat</persName>According to colophon 2, the scribe was priest (qes)
-                        Dästa Gäbrä Maryam of Lǝgat.<date>20th cent.</date>
+                        <persName role="scribe" corresp="PRS00000">Dästa Gäbrä Maryam of Lәgat</persName>According to colophon 2, the scribe was priest (qes) Dästa Gäbrä Maryam of Lәgat.<date>20th cent.</date>
                         <list type="abbreviations">
                            <item>Fol. 42ra ls. 11, 15, 19, and fol. 42rb ls. 1, 6, 10:</item>
                            <item>ሰላ፡ for ሰላም፡</item>
-                           <item>Colophon II, Fol. 42rb: ለዓ፡ ዓ for ለዓለመ፡ ዓለም፡፡ and other abbreviated
-                              names</item>
+                           <item>Colophon II, Fol. 42rb: ለዓ፡ ዓ for ለዓለመ፡ ዓለም፡፡ and other abbreviated names</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <decoDesc>
-                     <decoNote type="frame" xml:id="d1">- Fol. 4r: simple, coloured (red, white)
-                        ornamental band with two lateral and one central extensions reaching the
-                        bottom of the text; geometric motifs.</decoNote>
-                     <decoNote type="frame" xml:id="d2">- Fol. 23ra: two simple, coloured (red,
-                        white) ornamental bands separating Text I from Text II; geometric
-                        motifs.</decoNote>
-                     <decoNote type="frame" xml:id="d3">- Fol. 37ra: simple, coloured (red, white)
-                        ornamental band separating Text II from Text III; geometric
-                        motifs.</decoNote>
-                     <decoNote type="frame" xml:id="d4">- Fol. 42rb: simple, coloured (red, white)
-                        ornamental band, between the conclusion of Text IV and the colophon;
-                        geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d1">- Fol. 4r: simple, coloured (red, white) ornamental band with two lateral and one central extensions reaching the bottom of the text; geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d2">- Fol. 23ra: two simple, coloured (red, white) ornamental bands separating Text I from Text II; geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d3">- Fol. 37ra: simple, coloured (red, white) ornamental band separating Text II from Text III; geometric motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d4">- Fol. 42rb: simple, coloured (red, white) ornamental band, between the conclusion of Text IV and the colophon; geometric motifs.</decoNote>
                   </decoDesc>
                   <bindingDesc>
-                     <binding contemporary="yes">
-                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled
-                           leather. &#xD; Two pairs of sewing stations.</decoNote>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather. &#xD;
+Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
                            <material key="wood"/>
                            <material key="leather"/>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
-                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches
-                           at the spine cover.</decoNote>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 4 tools were used: triple line fillet, double circle, wave form, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -1139,8 +309,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      <origPlace>
                         <placeName corresp="INS0017UQ">ʿUra Qirqos / UQ</placeName>
                      </origPlace>
-                     <origDate notBefore="1976" notAfter="1976">27 Taḫśaś 1969 year of mercy (= 2
-                        January 1976 A.D.), s. colophon 2.</origDate>
+                     <origDate notBefore="1976" notAfter="1976">27 Taḫśaś 1969 year of mercy (= 2 January 1976 A.D.), s. colophon 2.</origDate>
                   </origin>
                </history>
                <additional>
@@ -1175,15 +344,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
          <particDesc>
             <listPerson>
                <person>
-                  <!--donor-->
-                  <persName corresp="PRS0000">Wäldä Yoḥannǝs, Wälättä Ṣadǝqan, Wäldä Maryam, Gäbrä
-                     Ḥawarya, Täwäldä Mädḫǝn, Gäbrä Mädḫǝn (colophon 1). Wälättä Ṣadǝqan according
-                     to colophon 2.</persName>
+                  <persName role="owner" corresp="PRS0000">Wäldä Yoḥannǝs, Wälättä Ṣadǝqan, Wäldä Maryam, Gäbrä Ḥawarya, Täwäldä Mädḫǝn, Gäbrä Mädḫǝn (colophon 1). Wälättä Ṣadǝqan according to colophon 2.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
-                  <persName role="scribe" corresp="PRS00000">Dästa Gäbrä Maryam of Lǝgat</persName>
+                  <persName role="scribe" corresp="PRS00000">Dästa Gäbrä Maryam of Lәgat</persName>
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -1204,9 +370,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-04-28">registered</change>
-         <change who="DN" when="2010-09-14">created</change>
-         <change who="DN" when="2015-05-29">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI P5</change>
+         <change who="DN" when="2010-09-14T12:51:53.942Z">created</change>
+         <change who="DN" when="2015-05-29T18:15:57.711Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
+                            P5</change>
       </revisionDesc>
    </teiHeader>
    <text>

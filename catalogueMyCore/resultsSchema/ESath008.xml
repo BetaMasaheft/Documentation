@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-03-17</date>
+            <date>2014-03-17T13:16:57.761Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0095ATH"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>ATH-008</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I-2 includes the hymns:</note>
+                     <note>- ʾO-ʾәgzǝʾtǝyä Maryam ʾǝmmu lä-ʾǝgziʾǝnä ʾIyäsus Krǝstos kähali ... "O my Lady Mary, Mother of our Lord Jesus Christ the Almighty ..." (fols. 7va-8ra) (cp. ChRep no. 373)</note>
+                     <note>- Sälam läki ʾo-ʾәgzǝʾtǝyä Maryam ʾǝmmä mädḫǝn wä-ʾǝmmä bǝrhan ... "Salutation to you, o my Lady, Virgin Mary, Mother of the Saviour and Mother of the Light ..." (fol. 8ra-va).</note>
+                     <note/>
+                     <note>The miracles of Mary (Texts I-4) are numbered. The miracles of Jesus (Text II-2) are erroneously numbered.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +59,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">69.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">69.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fol. 1r-2v, 22r, 23v, 44vb, 69r-v., in
+                                                  <measure unit="quire">11.0</measure> quires (A+10). 
                                                 <dimensions type="outer">
                               <height unit="cm">26.5</height>
                               <width unit="cm">19.2</width>
@@ -120,7 +131,7 @@ The Ms. was resewn. The sewing has been repaired with synthetic threads.</condit
                            <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -147,12 +158,14 @@ Some fols. have an additional crudely ruled line in the bottom margin (fols. 3rv
                         <persName role="scribe" corresp="PRS00000">Gäbrä Maryam</persName>Gäbrä Maryam is mentioned as the scribe in supplications on fols. 42vb, 66vb and in Additio 1.<date>First half of the 19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለዓ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 14ra, 25ra,25vb, 30vb)</item>
+                              <abbr>ለዓ፡ ዓለ፡ አ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 14ra, 25ra,25vb, 30vb)</item>
                            <item>
-                              <abbr>ለዓለመ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., e.g., fols. 14va, 29ra)</item>
+                              <abbr>ለዓለመ፡ ዓ፡ አ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., e.g., fols. 14va, 29ra)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">It is difficult to determine whether one or more scribes were involved in writing because the handwriting appears irregular throughout the Ms. Probably the text was written by one hand at several stages (see irregularities between fols. 16v-17r, 44v-45r).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 3r (incipit page of Text I-1): coloured (red, brown, black) ornamental band; geometric motifs.</decoNote>
@@ -163,8 +176,7 @@ Some fols. have an additional crudely ruled line in the bottom margin (fols. 3rv
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 21va: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 21va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4827;</span><span style="line-height: 115%">&#4722;&#4961; </span><span style="line-height: 115%">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span style="line-height: 115%"> &#4824;&#4808;&#4608;</span><span style="line-height: 115%">&#4709;</span><span style="line-height: 115%">&#4811;&#4961; &#4779;</span><span style="line-height: 115%">&#4613;</span><span style="line-height: 115%">&#4755;</span><span style="line-height: 115%">&#4722;&#4609;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961;&#160;&#4616;&#4768;&#4651;&#4773;&#4654;</span></span><span style="font-size: large"><span style="line-height: 115%">&#4961; &#4848;&#4674;&#4672;&#4961; &#4720;&#4661;&#4939;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4653;&#4773;&#4656;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962; &#4808;&#4768;&#4705;&#4614;&#4633;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; &#4808;&#4616;&#4920;&#4624;&#4938;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4770;&#4725;&#4653;&#4661;&#4773;&#4814;&#4633;&#4961; &#4704;&#4874;&#4828;&#4961; &#4920;&#4622;&#4725;&#4781;&#4633;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961;</span><span style="line-height: 115%"> ...</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#21va">Fol. 21va</locus>: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 21va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4827;</span><span style="line-height: 115%">&#4722;&#4961; </span><span style="line-height: 115%">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span style="line-height: 115%"> &#4824;&#4808;&#4608;</span><span style="line-height: 115%">&#4709;</span><span style="line-height: 115%">&#4811;&#4961; &#4779;</span><span style="line-height: 115%">&#4613;</span><span style="line-height: 115%">&#4755;</span><span style="line-height: 115%">&#4722;&#4609;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961;&#160;&#4616;&#4768;&#4651;&#4773;&#4654;</span></span><span style="font-size: large"><span style="line-height: 115%">&#4961; &#4848;&#4674;&#4672;&#4961; &#4720;&#4661;&#4939;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4653;&#4773;&#4656;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962; &#4808;&#4768;&#4705;&#4614;&#4633;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; &#4808;&#4616;&#4920;&#4624;&#4938;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4770;&#4725;&#4653;&#4661;&#4773;&#4814;&#4633;&#4961; &#4704;&#4874;&#4828;&#4961; &#4920;&#4622;&#4725;&#4781;&#4633;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962; &#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961;</span><span style="line-height: 115%"> ...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note, written in the main hand in red ink, states that the Ms. was commissioned and donated to the church of Mikaʾel ʾAraʾro by the priests Täsfa ʾIyäsus, Täklä Haymanot, Rǝʾǝsä Haymanot and "their father" Gäbrä Krǝstos. The note mentions also the name of the scribe Gäbrä Maryam.</p>
                         </item>
@@ -227,8 +239,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, the Ms. was commissioned and donated by the priests Täsfa ʾIyäsus, Täklä Haymanot and Rǝʾǝsä Haymanot. Their names are written in supplication formulas (but here the name of Täsfa Mikaʾel is written instead of Täsfa ʾIyäsus).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms. was commissioned and donated by the priests Täsfa ʾIyäsus, Täklä Haymanot and Rǝʾǝsä Haymanot. Their names are written in supplication formulas (but here the name of Täsfa Mikaʾel is written instead of Täsfa ʾIyäsus).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -255,9 +267,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2014-01-23">registered</change>
-         <change who="SH" when="2014-03-17">created</change>
-         <change who="SH" when="2014-10-06">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2014-03-17T13:16:57.761Z">created</change>
+         <change who="SH" when="2014-10-06T14:17:17.103Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

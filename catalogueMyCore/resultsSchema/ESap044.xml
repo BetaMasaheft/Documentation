@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2010-09-28</date>
+            <date>2010-09-28T09:00:49.451Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0030AP"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AP-044</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">117.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">117.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1rv, 2rv., in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">20.0</width>
@@ -127,7 +130,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are partly visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible.</ab>
@@ -155,18 +158,15 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 117ra: Supplication.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#117ra">Fol. 117ra</locus>: Supplication.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 117ra: Ownership note.</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#117ra">Fol. 117ra</locus>: Ownership note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a later hand.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p>Fol. 117rb: Donation note.</p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><locus target="#117rb">Fol. 117rb</locus>: Donation note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -174,7 +174,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered by reddish-brown tooled leather. &#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -225,8 +225,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additiones 2 a 4, the donor is ʾato Täwäldä Mädhǝn (cp. Additio 3).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additiones 2 a 4, the donor is ʾato Täwäldä Mädhǝn (cp. Additio 3).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -249,9 +249,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-05">registered</change>
-         <change who="SA" when="2010-09-28">created</change>
-         <change who="SH" when="2015-06-06">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2010-09-28T09:00:49.451Z">created</change>
+         <change who="SH" when="2015-06-06T14:55:11.816Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

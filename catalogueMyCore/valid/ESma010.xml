@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESma010"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Zena nägäromu lä-śǝllase “Story of the Trinity” / Täʾamrihomu lä-ʾab wä-wäld wä-mänfäs qǝddus “Miracles of the Father and the Son and the Holy Spirit</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2014-10-10T10:15:07.261Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0145MA"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>MA-010</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the donors; doxology (written in alternating red and black letters, e.g., fols. 6r, 7r, 9r, 9v, 10r); several lines or groups of lines on the incipit page of all Texts; a few lines in the incipit of every Miracle in Text II; elements of the punctuation signs; element of Ethiopic numerals.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The Homily for the month of Mäggabit is missing.</note>
+                     <note>In Text II, Miracles 60-65 (fols. 11<ref type="mss" corresp="ES4va116">4va-116</ref>va) are not numbered.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">121.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 3r, 3v, 4r, 4v, 119r, 119v, 120r, 120v, 121r, 121v., in
+                                                  <measure unit="quire">16.0</measure> quires (A+15). 
+                                                <dimensions type="outer">
+                              <height unit="cm">29.0</height>
+                              <width unit="cm">24.2</width>
+                              <depth unit="cm">6.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <signatures> Decorated <note>- Decorated quire marks in the middle of the upper margin: fols. 5r, 13r, 21r, 29r, 37r, 45r, 53r, 61r, 68r, 77r, 85r, 91r, 99r, 107r, 115r.</note>
+                           </signatures>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="1r" to="4v"/>A(4/fols. 1r-4v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="5r" to="12v"/> ፩I(8/fols. 5r-12v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="13r" to="20v"/> ፪II(8/fols. 13r-20v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="21r" to="28v"/> ፫III(8/fols. 21r-28v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="29r" to="36v"/> ፬IV(8/fols. 29r-36v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="37r" to="44v"/> ፭V(8/fols. 37r-44v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="45r" to="52v"/> ፮VI(8; s.l.: 2, stub after 6; 7, stub after 1/fols. 45r-52v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="53r" to="60v"/> ፯VII(8/fols. 53r-60v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="61r" to="68v"/> ፯VIII(8/fols. 61r-68v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="69r" to="76v"/> ፰IX(8; s.l.: 2, stub after 7; 7, stub after 2/fols. 69r-76v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="77r" to="84v"/> ፱X(8/fols. 77r-84v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="85r" to="90v"/> ፲XI(6/fols. 85r-90v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="91r" to="98v"/> ፲፩XII(8; s.l.: 2, stub after 6;7, stub after 1/fols. 91r-98v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="99r" to="106v"/> ፲፪XIII(8/fols. 99r-106v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="107r" to="114v"/> ፲፬XIV(8/fols. 107r-114v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="115r" to="121v"/> ፲፭XV(7; s.l.: 2, stub after 6/fols. 115r-121v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">A few fols. are of smaller size (e.g. fols. 40, 50).&#xD;
+A hole in fol. 51, minimal text loss.&#xD;
+The text on fol. 63 is difficult to read due to the low quality of the parchment.&#xD;
+Holes carefully amended in fols. 66, 95, 97, 102.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="20">
+                           <dimensions unit="mm">
+                              <height>194</height>
+                              <width>190</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">36</dim>
+                              <dim type="bottom">69</dim>
+                              <dim type="right">41</dim>
+                              <dim type="left">15</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 9r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre, irregular.</ab>
+                        <seg type="ink">Black, red (vivid scarlet; the names of the donor in brilliant vermillion).</seg>
+                        <date>Late 19th-early 20th cent.</date>
+                     </handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#117ra">Fols. 117ra-117</locus>va: Täˀamrihomu lä-ˀab wä-wäld wä-mänfäs qǝddus “Miracles of the Father and the Son and the Holy Spirit”: 1 miracle. <q xml:lang="gez">Fol. 117ra: ተአምሪሆሙ፡ ለአብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ሣህሎሙ፤ ወምሕረቶሙ፤ የሀሉ፡ ምስለ፡ ገብሮሙ፡ ወልደ፡ ኢየሱስ። ። በዓለመ፡ ዓለ[sic]፡ አሜ[sic]፨ ወሶበ፡ ኮኖ፡ ለአዳም፡ ፵ጽባሕ፡ ነሥእዎ፡ በሠረገላ፡ መንፈስ፡ ወአብጽሕዎ፡ ገነተ፡ ተፍሥሕት፡ ወይቤልዎ፡ ሥላሴ፡ ወሐብናከ፡…</q>
+                           <q xml:lang="en"/>
+                           The note has been written in the same hand as that of the names of the donors in the supplication formulas, and of Additio 2.
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#117va">Fol. 117va</locus>b: Donation note. <q xml:lang="gez">Fol. 117va: ጸጌ፡ ሃይማኖት፡ ርእሰ፡ ሃይማኖት፡ ገብረ፡ እግዚአብሔር፡ ተወልደ፡ መድኅን፡ ወልደ፡ አብርሃም፡ ገብረ፡ አረጋዊ፡ ወልደ፡ አጸብሐ፡ ወልደ፡ ማርያም፡ ዓመተ፡ ሥላሴ፡ ኅቡረ፡ ይምሐሮሙ፡ በመንግሥተ፡ ሰማያት፡ ለዓለመ፡ ዓለም፡ አሜን። [fol. 117vb] ዝመጽሐፍ፡ ዘወልደ፡ ኢየሱስ፡ ወዘብእሲቱ፡ ዓመተ፡ ማርያም። ዘወሀባ፡ ለማርያም፡ አንዴል፡ ዘአጽሐፎ፡ በነዋዩ፡ ዘሰረቆ፡ ወዘፈኃቆ፡ ውጉዘ፡ ይከን[sic]፡ በሥልጣነ፡ ጴጥሮስ፡ ወጳውሎስ።  </q>
+                           <q xml:lang="en"/>
+                           The note was written in the same hand as that of the names of the donors in the supplication formulas, and of Additio 1.
+It mentions many personal names (relatives?), and the donor Wäldä ʾIyäsus and his wife ʿAmätä Maryam. The Ms. Wäldä ʾIyäsus commissioned the Ms. and donated it to the church of Maryam ʾAndel.
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#118r">Fols. 118r-119</locus>r: Record concerning a dispute over rim-land rights. <q xml:lang="gez">Fol. 118r: ፲፱፻፴፪ ዓ፡ ም፡ ታህሣሥ፡ ፯፡ ቀን፡ በበሸይ፡ ካህሣይ፡ ሐጐስ፡ ጭቃ፡ ዳኝነት፡ የማርያም፡ አንዴል፡ መላው፡ ማህበር፡ ተኛና፡ ረመኛ፡ ባላባት፡ ጢሰኛም፡ ቀርቦ፡ የጥንት፡ የቆየ፡ ትካል፡ ያባቶቻችን፡ ይነገርና፡ ንረጋለን፡ መንግሥት፡ ይሙት፡ ብለው፡ እያንዳደቸው፡ …</q>
+                           <q xml:lang="en"/>
+                           The note is written in Amharic; the ink is partly faded. It refers to the dispute over rim-land rights between the community of ʾAndel Qǝddǝst Maryam and the surrounding villagers. The dispute was brought before district judge bašay Kahśay Ḥagos for mediation. He based his judgment on pre-existing laws, which are also listed in this note.
+The Extensive note was written on the 7th Taḫśaś 1932 year of mercy (= 3rd December 1939 A.D.).
+                        </item>
+                        <item xml:id="e1">- Pen trials: fol. 1r.&#xD;
+- Scribbles, crude notes: fol. 77v.&#xD;
+- Corrections or omitted passages are written in the margin: fols. 10v, 12r, 13r.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays. &#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 6 tools were used: cross hatching, triple line fillet, double circle, double crescent, interlaced line fillet, double asterisk).</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0145MA">ʾAndel Qǝddǝst Maryam / MA</placeName>
+                     </origPlace>
+                     <origDate notBefore="1880" notAfter="1939">Additio 3 mentions the date 7 Taḫśaś 1932 year of mercy (= 3 December 1939 A.D.).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unkown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wäldä ʾIyäsus (e.g., fols. 12rb, 14va, 16va, 25ra) and his wife ʿAmätä Maryam (e.g., fols. 12rb, 26ra, 28ra, 32rb) are mentioned in the supplication formulas. In Additio 2 they are mentioned as the donor of the manuscript.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Homily"/>
+               <term key="ChristianLiterature"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-05-23">registered</change>
+         <change who="SD" when="2014-10-10T10:15:07.261Z">created</change>
+         <change who="SD" when="2014-11-13T09:46:04.928Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

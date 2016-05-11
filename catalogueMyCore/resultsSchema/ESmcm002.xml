@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-03-13</date>
+            <date>2015-03-13T18:56:52.513Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0147MCM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MCM-002</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,13 @@ Several groups of lines on the incipit page of the text (alternating with black 
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Texts I-3 and I-8 include homilies unknown for the Dǝrsanä Mikaʾel (about ʾabunä Samuʾel and the plague and about John Chrysostom). The incipits read as follows:</note>
+                     <note>Fol. 15v: ድርሳን፡ ዘቅዱስ፡ ሚካኤል፡ ሊቀ፡ መላእክት፡ ዘይትነበብ፡ በወርኃ፡ ታኅሣሥ፡ ጸሎቱ፡ ወበረከቱ፡ ...</note>
+                     <note>ወበ፩እምዋዕል፡ ተፈነወ፡ ብድብድ፡ ውስተ፡ አሐቲ፡ ሀገር፡ ወእንዘ፡ የሐውሩ፡ ኀበ፡ ተፈነዉ። ገብሩ፡ ፍኖተ፡ መንገለ፡ በዓቱ፡ ለአቡነ፡ ሳሙኤል፡ ወሚካኤል፡ ይመርሆሙ፡ እስመ፡ ሌሊት፡ ውእቱ፡ አሜሀ። …</note>
+                     <note>Fol. 70r: በስመ፡”… ድርሳን፡ ዘቅዱስ፡ ሚካኤል፡ ሊቀ፡ መላእክት፡ ዘይትነበብ፡ በወርኃ፡ ግንቦት፡ አመ፲ወ፪በዛቲ፡ ዕለት፡ ፈነዎ፡ እግዚአብሔር፡ ለሚካኤል፡ ሊቀ፡ መላእክት፡ ኀበ፡ ዮሐንስ፡ አፈ፡ ወርቅ፡ ዝንቱ፡ አብ፡ ኮነ፡ እምሰብአ፡ ሀገር፡ አንጸኪያ፡ ወረደ፡ ላዕሌሁ፡ ጸጋ፡ እግዚአብሔር፡ ለቅዱስ፡ ዮሐንስ፡ ወደረሰ፡ ድርሳናተ፡ ወትግሣጸተ፡ ብዙኃተ፡ ወተርጐመ፡ መጻሕፍተ፡ ቤተ፡ ክርስቲያን፡ ወመጽሐፈ፡ ኦሪት፡ እንዘ፡ ዲያቆን፡ ውእቱ። …</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +59,8 @@ Several groups of lines on the incipit page of the text (alternating with black 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">112.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">112.0</measure> folios, in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">8.5</width>
@@ -61,6 +69,9 @@ Several groups of lines on the incipit page of the text (alternating with black 
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Undecorated quire marks are written in the left upper corner: fols. 19r: ፫, 27r: ፬, 35r: ፭, 43r: ፮, 51r: ፯, 59r: ፰, 67r: faded, 75r: faded, 83r: ፲፩, 91r: ፲፪, 99r: faded.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -132,7 +143,7 @@ Holes and tears amended on fols. 9, 38, 48.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-/0-0/0-0/C </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -158,13 +169,14 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 2r: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 2r</span><span style="font-size:9.0pt;Arial">: </span><span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4768;&#4853;&#4961; &#4872;&#4827;&#4961; &#4872;&#4709;&#4649;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4635;&#4845;&#4961; &#4904;&#4813;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4824;&#4720;&#4659;&#4840;&#4899;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4645;&#4961; &#4704;&#4637;&#4661;&#4941;&#4755;&#4961; &#4848;&#4869;&#4961; &#4768;&#4829;&#4635;&#4733;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4661;&#4633;&#4961; &#4768;&#4705;&#4609;&#4961; &#4872;&#4709;&#4649;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4661;&#4632;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4772;&#4621;&#4659;&#4708;&#4901;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; ...</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#2r">Fol. 2r</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 2r</span><span style="font-size:9.0pt;Arial">: </span><span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4768;&#4853;&#4961; &#4872;&#4827;&#4961; &#4872;&#4709;&#4649;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4635;&#4845;&#4961; &#4904;&#4813;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4824;&#4720;&#4659;&#4840;&#4899;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4757;&#4873;&#4645;&#4961; &#4704;&#4637;&#4661;&#4941;&#4755;&#4961; &#4848;&#4869;&#4961; &#4768;&#4829;&#4635;&#4733;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4661;&#4633;&#4961; &#4768;&#4705;&#4609;&#4961; &#4872;&#4709;&#4649;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4661;&#4632;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4772;&#4621;&#4659;&#4708;&#4901;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; ...</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note, written in similar hand as the main hand, states that the Ms. was purchased and donated by Wäldä Gäbrǝʾel during the time of King Yoḥannǝs IV (r. 1872-89) and däğğazmač Sǝbḥat (1844-1914). It mentions also names of the family members and is followed by another eased note.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol 112r-v: Kw&#477;llomu &#347;&#228;rawit&#228; m&#228;la&#704;&#477;kt m&#228;nf&#228;saw&#477;yan&#8230; &#8220;All hosts of the spiritual angels&#8230;&#8221; (Hymn to God).</span></p><q xml:lang="gez"/>
+                           <locus target="#00"/>
+                           <desc><p><span style="font-size: small;">Fol 112r-v: Kw&#477;llomu &#347;&#228;rawit&#228; m&#228;la&#704;&#477;kt m&#228;nf&#228;saw&#477;yan&#8230; &#8220;All hosts of the spiritual angels&#8230;&#8221; (Hymn to God).</span></p></desc>
+                           <q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The hymn is crudely written and partly illegible.</p>
                         </item>
@@ -228,8 +240,8 @@ According to Additio 1, the Ms. was donated during the reign of King Yoḥannǝs
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, the Ms, was donated by Wäldä Gäbrǝʾel. &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms, was donated by Wäldä Gäbrǝʾel. &#xD;
 The names of previous donors were erased throughout the Ms. and replaced with that of Wäldä Gäbrǝʾel and other names (at least three layers of ownership, e.g., fols. 15v, 24r, 25r, 32r, 84r, 86r).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -253,9 +265,9 @@ The names of previous donors were erased throughout the Ms. and replaced with th
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-24">registered</change>
-         <change who="SH" when="2015-03-13">created</change>
-         <change who="DN" when="2015-09-14">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2015-03-13T18:56:52.513Z">created</change>
+         <change who="DN" when="2015-09-14T11:06:11.866Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

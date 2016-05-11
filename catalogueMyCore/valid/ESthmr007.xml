@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESthmr007"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäṣḥafä qǝddase, Missal</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2015-05-19T17:45:36.532Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0194THMR"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>THMR-007</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; incipits and headings of the constituent texts; directives for the ministers; part of the musical notation signs above the lines; most of the abbreviations; elements of decorated quire numbers; elements of the punctuation signs and Ethiopic numbers.&#xD;
+&#xD;
+The incipit parts of many of the constituent texts are written alternately in red and black lines (s. fols. 5ra-rb, 72vb, 80vb, 87vb, etc.).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text IV is written in smaller script than the previous three texts.</note>
+                     <note>Spaces for the names of the reigning King and church dignitaries in the supplication formulas are either left blank or filled in with the word እገሌ፡.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">142.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">13.0</measure> blank
+                                                  1r, 1v, 2r, 2v, 3r, 3v, 4r, 4v, 140v, 141r, 141v, 142r, 142v, in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
+                                                <dimensions type="outer">
+                              <height unit="cm">23.2</height>
+                              <width unit="cm">17.2</width>
+                              <depth unit="cm">5.2</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <signatures> Decorated <note>- Decorated quire numbers are written in the left upper margin of fols. 15r, 25r, 35r, 45r, 55r, 65r, 75r(፰), 85r, 95r, 105r(፲፩), 113r, 123r(፲፫), 133r(፲፬). The numbers on most of these folios are not clearly visible.</note>
+                           </signatures>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="1r" to="4v"/>A(4/fols. 1r-4v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="5r" to="14v"/> I(10/fols. 5r-14v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="15r" to="24v"/> II(10/fols. 15r-24v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="25r" to="34v"/> III(10/fols. 25r-34v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="35r" to="44v"/> IV(10/fols. 35r-44v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="45r" to="54v"/> V(10/fols. 45r-54v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="55r" to="64v"/> VI(10/s. l.: 3, 8, stubs after 2, 7/fols. 55r-64v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="65r" to="74v"/> VII(10/fols. 65r-74v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="75r" to="84v"/> ፰VIII(10/fols. 75r-84v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="85r" to="94v"/> IX(10/fols. 85r-94v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="95r" to="104v"/> X(10/fols. 95r-104v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="105r" to="112v"/> ፲፩XI(8/s. l.: 3, 6, stubs after 3, 6/fols. 105r-112v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="113r" to="122v"/> XII(10/fols. 113r-122v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="123r" to="132v"/> ፲፫XIII(10/fols. 123r-132v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="133r" to="142v"/> ፲፬XIV(10/fols. 133r-142v)&#xD;
+&#xD;
+All the quires except quires A and I are numbered, but the numbers of most of them are not clearly visible.</item>
+                           </list>
+                        </collation>
+                        <condition key="good">Many leaves are heavily stained with dirt.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="20">
+                           <dimensions unit="mm">
+                              <height>167</height>
+                              <width>130</width>
+                              <dim type="intercolumn">7</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">21</dim>
+                              <dim type="bottom">42</dim>
+                              <dim type="right">25</dim>
+                              <dim type="left">8</dim>
+                              <dim type="intercolumn">7</dim>
+                           </dimensions>
+                           <note>All data are for fol. 131r.</note>
+                           <ab type="ruling">31 in text IV</ab>
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are mostly visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are mostly visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Careful, regular, by well-trained hand.</ab>
+                        <seg type="ink">Black; red.</seg>
+                        <date>18th century.</date>
+                        <list type="abbreviations">
+                           <item>ይካ፡ for ይበል፡ ካህን፡</item>
+                           <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
+                           <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
+                           <item>እማ፡ for እማሬ፡</item>
+                           <item>ቅዱ፡ ቅ፡ ቅ፡ for ቅዱስ፡ ቅዱስ፡ ቅዱስ፡</item>
+                           <item>አ፡ አ፡ አ፡ for አሜን፡ አሜን፡ አሜን፡</item>
+                           <item>ና፡ ከ፡ እ፡ for ናስተበቍዕ፡ ከመ፡ እግዚአብሔር፡</item>
+                           <item>ቅ፡ ቅ፡ እ፡ ጸ፡ ፍ፡ ም፡ ሰ፡ ወ፡ ቅ፡ ስ፡ for ቅዱስ፡ ቅዱስ፡ ቅዱስ፡ እግዚአብሔር፡ ጸባዖት፡ ፍጹም፡ ምሉእ፡ ሰማያተ፡ ወምድረ፡ ቅድሳተ፡ ስብሐቲከ፡</item>
+                           <item>እግዚ፡ ም፡ ኵ፡ for እግዚአብሔር፡ ምስለ፡ ኵልክሙ፡</item>
+                           <item>ም፡ መ፡ for ምስለ፡ መንፈስከ፡</item>
+                           <item>አልዕ፡ for አልዕሉ፡ አልባቢክሙ፡</item>
+                           <item>ብነ፡ ኀ፡ እግ፡ አም፡ for ብነ፡ ኀበ፡ እግዚአብሔር፡ አምላክነ፡</item>
+                           <item>አእኵ፡ ለአ፡ for አእኵትዎ፡ ለአምላክነ፡</item>
+                           <item>ርቱ፡ ይደ፡ for ርቱዕ፡ ይደሉ፡</item>
+                           <item>ጸሎ፡ ወንጌ፡ for ጸሎተ፡ ወንጌል፡</item>
+                           <item>አንብ፡ እድ፡ for አንብሮ፡ እድ፡</item>
+                        </list>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="miniature" xml:id="d1"/>
+                     <decoNote type="miniature" xml:id="d2"/>
+                     <decoNote type="frame" xml:id="d3">
+                        <locus target="#">Elaborated coloured (red, black) ornamental band with geometric, anthropomorphic and zoomorphic ornamentation motifs over col. a-b, at the incipit of text I, with one central and two lateral extensions reaching the bottom of the text field: </locus>
+                        <desc>fol. 5r.</desc>
+                     </decoNote>
+                     <decoNote type="frame" xml:id="d4">
+                        <locus target="#">Two lines of red and black dots with a row of nine dot asterisks between them: </locus>
+                        <desc>fol. 63r.</desc>
+                     </decoNote>
+                     <decoNote type="frame" xml:id="d5">
+                        <locus target="#">Two lines of red and black dots with a row of nine dot asterisks between them: </locus>
+                        <desc>fol. 140rb.</desc>
+                     </decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1"> <locus target="#59vb">Fol. 59vb</locus>: Scribe’s note on completing the writing.<q xml:lang="gez"> Fol. 59vb: ተፈጸመ፡ ሥርዓተ፡ ቅዳሴ፡ በሥምረተ፡ እግዚአብሔር፡ ልዑል፡ ወበማርያም፡ ድንግል፨ ወጣኔ፡ ዓለማት፡ ወፈጻሜ፡ አዝማናት፡ ሎቱ፡ ስብሐት፡ እስከ፡ ለዓለመ፡ ዓለም፡ አሜን፨</q>
+                           <q xml:lang="en"/>
+                           In rhymed form.
+                        </item>
+                        <item xml:id="a2"> <locus target="#133ra">Fol. 133ra</locus>: Scribe’s note on completing the writing.<q xml:lang="gez"> Fol. 133ra: ተፈጸመ፡ ፲ወ፬ቅዳሴ፡ በሰላመ፡ እግዚአብሔር፡ አብ፡ ሎቱ፡ ስብሐት፡ እስከ፡ ለዓለመ፡ ዓለም፡ አሜን፨</q>
+                           <q xml:lang="en"/>
+                           
+                        </item>
+                        <item xml:id="e1">- Crude notes (some of them apparently writing exercises): fols. 1r, 1v, 3v, 140v, 141v, 142v.&#xD;
+- Crude notes (some of them apparently captions to drawings): fols. 2v, 3r.&#xD;
+Pen trial, in black and red ink: fol. 3v.&#xD;
+- Crude notes in the upper margin, in green ink: fol. 12r.&#xD;
+- Wavy ornament between two horizontal lines, crudely drawn in the upper margin: fol. 12v.&#xD;
+- Crude rectangular frame in the upper margin: fol. 26v.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1">Two wooden boards.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Both boards are cracked and repaired by means of additional sewing stations.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0194THMR">May Raza Täklä Haymanot / THMR</placeName>
+                     </origPlace>
+                     <origDate notBefore="1700" notAfter="1800"/>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Zä-Wäldä Maryam (mentioned in supplication formulas on fols. 103va, 108ra, 113ra, etc.). In most instances the donor’s name has been (partly) erased.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Missal"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-12-01">registered</change>
+         <change who="DN" when="2015-05-19T17:45:36.532Z">created</change>
+         <change who="IF" when="2015-07-02T20:13:14.890Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

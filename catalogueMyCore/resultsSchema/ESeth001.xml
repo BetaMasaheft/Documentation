@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-03-06</date>
+            <date>2014-03-06T10:25:00.730Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0078ETH"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>ETH-001</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The second part of Text I-1 is introduced with the words mǝʿǝraf “chapter” and täʾamǝr “miracle” (s. fol. 7va).</note>
+                     <note>- Miracles of Text I-2 are introduced with the words mǝʿǝraf “chapter” and/or täʾamǝr “miracle”, or nägär “speech”.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">104.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">104.0</measure> folios, in
+                                                  <measure unit="quire">13.0</measure> quires (A+12). 
                                                 <dimensions type="outer">
                               <height unit="cm">23.5</height>
                               <width unit="cm">18.0</width>
@@ -60,6 +66,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">3</dim>
@@ -125,7 +132,7 @@ Tears are carefully amended on fols. 6, 7, 11, 15, 64, 72, 85.</condition>
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -148,15 +155,13 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 1ra-3vb: &#704;&#398;s&#228;gg&#601;d l&#228;-m&#228;l&#228;kot&#601;k&#228;... &#8220;I worship Thy Godhead&#8230;&#8221;</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#1ra">Fol. 1ra-3</locus>vb: &#704;&#398;s&#228;gg&#601;d l&#228;-m&#228;l&#228;kot&#601;k&#228;... &#8220;I worship Thy Godhead&#8230;&#8221;</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p>The incipit is on fol. 2ra. The name of the scribe, Täsfa Śǝllase, is mentioned on fol. 1rb.</p>
+                           <p>The incipit is on fol. 2ra. The name of the scribe, Täsfa Śәllase, is mentioned on fol. 1rb.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fols. 104ra: Donation note.</p><q xml:lang="gez"><p>Fol. 104ra: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;&#4961; &#4768;&#4705;&#4609;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4720;&#4781;&#4616;&#4961; &#4624;&#4845;&#4758;&#4725;</span> [sic]<span style="font-size: large;">&#4961; &#4928;&#4624;&#4845;&#4961; &#4773;&#4707;&#4845;&#4726;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;</span>{<span style="font-size: large;">&#4824;</span>}<span style="font-size: large;">&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4830;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></p></q>
+                        <item xml:id="a2"><p><locus target="#104ra">Fols. 104ra</locus>: Donation note.</p><q xml:lang="gez"><p>Fol. 104ra: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;&#4961; &#4768;&#4705;&#4609;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4720;&#4781;&#4616;&#4961; &#4624;&#4845;&#4758;&#4725;</span> [sic]<span style="font-size: large;">&#4961; &#4928;&#4624;&#4845;&#4961; &#4773;&#4707;&#4845;&#4726;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;</span>{<span style="font-size: large;">&#4824;</span>}<span style="font-size: large;">&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4830;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p>The note mentions Gäbrä Giworgis as the donor of the Ms. His father Täsfa Mikaʾel and his children Gäbrä Yoḥannǝs and ʾabunä Gäbrä Ḥǝywät are also mentioned. The Ms. was donated to the church Täklä Haymanot Ḍäḥay ʿƎmbäyto.</p>
+                           <p>The note mentions Gäbrä Giworgis as the donor of the Ms. His father Täsfa Mikaʾel and his children Gäbrä Yoḥannәs and ʾabunä Gäbrä Ḥәywät are also mentioned. The Ms. was donated to the church Täklä Haymanot Ḍäḥay ʿƎmbäyto.</p>
                         </item>
                         <item xml:id="e1">- Erased note on fol. 24v.&#xD;
 - Doodles and pen trials: fols. 17r, 104r, 104v.</item>
@@ -172,6 +177,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head, one close to the tail.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (7 tools were used: double circle, double line fillet, triple line fillet, cross hatching, criss-cross, x-form, waffles with dot).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -214,8 +220,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä Giworgis (s. Additio 2).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Gäbrä Giworgis (s. Additio 2).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -238,9 +244,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-19">registered</change>
-         <change who="SA" when="2014-03-06">created</change>
-         <change who="SA" when="2014-08-18">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2014-03-06T10:25:00.730Z">created</change>
+         <change who="SA" when="2014-08-18T13:25:51.166Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

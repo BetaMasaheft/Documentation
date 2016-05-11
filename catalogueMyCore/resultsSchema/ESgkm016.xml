@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-11-19</date>
+            <date>2013-11-19T16:49:48.597Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0108GKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GKM-016</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I-1 has been treated by the scribe as miracles 1-3. Thus, Text I-2) begins with miracle 4 and contains altogether 40 miracles.</note>
+                     <note>- Miracles 29 and 30 are arranged in the reverse order.</note>
+                     <note>- The Ethiopic number ፮ is identical with ፯ (hand b).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">78.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">78.0</measure> folios, in
+                                                  <measure unit="quire">11.0</measure> quires (10+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">22.0</height>
                               <width unit="cm">19.0</width>
@@ -134,7 +141,7 @@ Fols. 64 and 66 are placed in a reversed position.</condition>
                            <note>All data for fol. 9r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -154,29 +161,27 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red (vivid red)</seg>
                         <date>Second half of the 18th century - first half of the 19th century (?)</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
-                     <handNote xml:id="h3" script="Ethiopic">e.g. fols. 1r-v, 4va, 7ra-8ra, 9va-10rb, 10vb-11rb, 26vb-29va, 37ra, 39ra-54vb, 58ra-76rb: the handwriting is slightly right-sloping; the letters are wide and angular, some of them have serifs and/or hairlines. </handNote>
-                     <handNote xml:id="h4" script="Ethiopic">e.g. fols. 2ra, 4ra-rb, 5r-6v, 29vb-30rb, 33va-36vb, 55ra-57vb: the letters are usually upright, occasionally slightly left-sloping; they are wide and round, some of them have serifs and/or hairlines.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Two hands appear to alternate nearly from column to column.  <!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand a: e.g. fols. 1r-v, 4va, 7ra-8ra, 9va-10rb, 10vb-11rb, 26vb-29va, 37ra, 39ra-54vb, 58ra-76rb: the handwriting is slightly right-sloping; the letters are wide and angular, some of them have serifs and/or hairlines. <!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h4" script="Ethiopic">
+Hand b: e.g. fols. 2ra, 4ra-rb, 5r-6v, 29vb-30rb, 33va-36vb, 55ra-57vb: the letters are usually upright, occasionally slightly left-sloping; they are wide and round, some of them have serifs and/or hairlines.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 76vab (above): Donation note (?). </span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 76va:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4704;&#4648;&#4776;&#4721;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4845;&#4781;&#4941;&#4622;&#4633;&#4961; &#4616;&#4872;&#4709;&#4649;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4827;&#4722;&#4961; &#4632;&#4621;&#4773;&#4781;&#4725;&#4961; &#4725;&#4709;&#4931;&#4629;&#4961; &#4736;&#4704;&#4961; &#4848;&#4709;&#4648;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4824;&#4768;&#4925;&#4624;&#4937;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4776;&#4632;&#4961; &#4725;&#4789;&#4758;&#4961; &#4632;&#4853;&#4624;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;</span><span style="line-height: 115%">... </span></span><span style="font-size: small"><span style="line-height: 115%">[Fol. 76vb] </span></span><span style="font-size: large"><span style="line-height: 115%">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><div style="line-height: normal"><span style="font-size: small"><locus target="#76va">Fol. 76va</locus>b (above): Donation note (?). </span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 76va:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4704;&#4648;&#4776;&#4721;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4845;&#4781;&#4941;&#4622;&#4633;&#4961; &#4616;&#4872;&#4709;&#4649;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4827;&#4722;&#4961; &#4632;&#4621;&#4773;&#4781;&#4725;&#4961; &#4725;&#4709;&#4931;&#4629;&#4961; &#4736;&#4704;&#4961; &#4848;&#4709;&#4648;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4824;&#4768;&#4925;&#4624;&#4937;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4776;&#4632;&#4961; &#4725;&#4789;&#4758;&#4961; &#4632;&#4853;&#4624;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;</span><span style="line-height: 115%">... </span></span><span style="font-size: small"><span style="line-height: 115%">[Fol. 76vb] </span></span><span style="font-size: large"><span style="line-height: 115%">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written over an erased original donation or an ownership note. It states that ʾabunä Gäbrä ʾAmlak commissioned the Ms. and donated it to the church of Däbrä Qǝddǝst Kidanä Mǝḥrät of Däbrä Gännät.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 76vab (below): Excerpt from </span><span style="line-height: 115%; color: black">T&#228;&#704;amr&#228; Maryam &#8220;Miracles of Mary&#8221;.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%"><locus target="#76va">Fol. 76va</locus>b (below): Excerpt from </span><span style="line-height: 115%; color: black">T&#228;&#704;amr&#228; Maryam &#8220;Miracles of Mary&#8221;.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in the same hand as Additio 3. It contains a rubricated incipit of the miracle.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 77r-v: Three miracles from </span><span style="line-height: 115%; color: black">T&#228;&#704;amr&#228; Maryam &#8220;Miracles of Mary&#8221;.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#77r">Fol. 77r</locus>-v: Three miracles from </span><span style="line-height: 115%; color: black">T&#228;&#704;amr&#228; Maryam &#8220;Miracles of Mary&#8221;.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in the same hand as Additio 2. The supplication formulas and the incipit of the second miracle are rubricated.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 78v: Prayer to the Trinity and St. Mary. </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#78v">Fol. 78v</locus>: Prayer to the Trinity and St. Mary. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in red.</p>
                         </item>
@@ -197,6 +202,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Spine protection is made of a piece of textile. &#xD;
 Small holes are visible in the centre fold of some quires (III, IV, X), close to the head and tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -239,8 +245,8 @@ Small holes are visible in the centre fold of some quires (III, IV, X), close to
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The original donation or ownership note (?) has been erased in fol. 76va. &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The original donation or ownership note (?) has been erased in fol. 76va. &#xD;
 According to Additio 1 the donor is ʾabunä Gäbrä ʾAmlak. His name has been written (in deep vermillion) over the erased name(s) in the supplication formulas throughout the Ms.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -264,9 +270,9 @@ According to Additio 1 the donor is ʾabunä Gäbrä ʾAmlak. His name has been 
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-04">registered</change>
-         <change who="MK" when="2013-11-19">created</change>
-         <change who="SA" when="2014-08-20">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-11-19T16:49:48.597Z">created</change>
+         <change who="SA" when="2014-08-20T08:08:32.508Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

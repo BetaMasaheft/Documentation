@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-08-28</date>
+            <date>2012-08-28T10:45:09.242Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0174MAKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MAKM-008</idno>
                   <altIdentifier>
                      <idno>C4-IV-55 (fol. 132r)</idno>
@@ -54,7 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">234.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">31.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">234.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">1.0</measure> blank
+                                                  fols. 1r-1v., in
+                                                  <measure unit="quire">31.0</measure> quires (A+30). 
                                                 <dimensions type="outer">
                               <height unit="cm">28.0</height>
                               <width unit="cm">24.5</width>
@@ -183,7 +186,7 @@ Tear carefully amended on fol. 76.</condition>
                            <note>All data are for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -203,17 +206,15 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black; red; deep vermilion; strong vermilion.</seg>
                         <date>18th century (?)</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">Texts I  and II;</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a: Texts I  and II;<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>&#160;Fol. 233rb: Acquisition note.&#160;</p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span unicode="" style="line-height: 115%;">Fol. 233rb:</span></span><span unicode="" style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;</span><span style="line-height: 115%;">&#4632;</span><span style="line-height: 115%;">&#4925;</span><span style="line-height: 115%;">&#4624;</span><span style="line-height: 115%;">&#4941;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4824;&#4720;&#4781;&#4616;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4611;&#4845;&#4635;&#4758;&#4725;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4824;&#4768;&#4901;&#4648;&#4846;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4704;&#4757;&#4811;&#4841;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4824;&#4640;&#4648;&#4678;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4808;&#4824;&#4936;&#4624;&#4678;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4824;&#4773;&#4757;&#4704;&#4616;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4936;&#4675;&#4848;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4768;&#4704;&#4637;&#4756;&#4725;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4704;&#4645;&#4621;&#4899;&#4752;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4916;&#4901;&#4654;&#4661;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4808;&#4915;&#4813;&#4622;&#4661;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4813;&#4873;&#4829;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4616;&#4845;&#4777;&#4757;&#4962; &#4962; &#4962;</span></span></p></q>
+                        <item xml:id="a1"><p>&#160;<locus target="#233rb">Fol. 233rb</locus>: Acquisition note.&#160;</p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span unicode="" style="line-height: 115%;">Fol. 233rb:</span></span><span unicode="" style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;</span><span style="line-height: 115%;">&#4632;</span><span style="line-height: 115%;">&#4925;</span><span style="line-height: 115%;">&#4624;</span><span style="line-height: 115%;">&#4941;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4824;&#4720;&#4781;&#4616;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4611;&#4845;&#4635;&#4758;&#4725;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4824;&#4768;&#4901;&#4648;&#4846;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4704;&#4757;&#4811;&#4841;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4824;&#4640;&#4648;&#4678;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4808;&#4824;&#4936;&#4624;&#4678;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4824;&#4773;&#4757;&#4704;&#4616;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4936;&#4675;&#4848;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4768;&#4704;&#4637;&#4756;&#4725;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4704;&#4645;&#4621;&#4899;&#4752;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4916;&#4901;&#4654;&#4661;</span><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4808;&#4915;&#4813;&#4622;&#4661;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4813;&#4873;&#4829;</span><span style="line-height: 115%;">&#4961;</span><span style="line-height: 115%;"> &#4616;&#4845;&#4777;&#4757;&#4962; &#4962; &#4962;</span></span></p></q>
                            <q xml:lang="en"><p>&#160;<span unicode="" style="line-height: 115%; font-size: 10pt">F</span><span style="font-size: small;"><span unicode="" style="line-height: 115%;">ol. 233rb: </span><span unicode="" style="line-height: 115%;">This is the book of T&#228;kl&#228; Haymanot who acquired it with his own money. The one who stole (what is written in) it or the one who scratched it without the permission of the abbot shall be excomunicated by the authority of Peter and Paul.</span></span></p></q>
                            <p>The note is written in the same hand as the one that added the name of the donor Täklä Haymanot.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fols. 233va-234rb: Excerpt from &#704;Arganon&#228; w&#477;ddase &#8220;The Harp of Praise&#8221;.</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#233va">Fols. 233va-234</locus>rb: Excerpt from &#704;Arganon&#228; w&#477;ddase &#8220;The Harp of Praise&#8221;.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a different, less regular and skilled hand. Cp. the main text fols. 233va-234rb (the list of the saints mentioned is somewhat different from the standard version).</p>
                         </item>
@@ -224,7 +225,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (partly missing); textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -234,6 +235,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Four rows of small holes (two close to the head, and two close to the tail) are visible on the spine folds of the quires.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the remains of the reddish-brown leather cover (7 tools wereused: zig-zag; triple line fillet; double circle; x form; criss-cross; cross hatching, double line fillet with dots).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -276,8 +278,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The original name of the donor has been washed out and replaced with the name of Täklä Haymanot, written with a thin pen in a secondary hand (the same as Additio 1): fols. 2ra, 4va, 5va, 16rb, 39vb, 47va, 49va, 52ra, 57rb, 62rb, 78va, 88ra, 95rb, 96rb, 109rb, 113va, 233rb. Other names are written interlinearly in a different (more recent?) hand, in strong vermilion ink: Gäbrä Giyorgis (fols. 2ra, 3rb, 4va, 5va, 9ra, 9va, 233rb), Täklä ʾƎgziʾ (fols. 13ra, 16rb), Wälättä ʿAbiyä ʾƎgziʾ (fol. 21ra), Wäl(dä) Śǝllase (fol. 26vb), Gäbrä Mikaʾel (fol. 35va), Wäldä Gäbrʾel (fol. 39vb), Wälättä Gäbrǝʾel (fol. 47va), Wälättä Śǝllase (fol. 53vb), ʿAmdä Maryam (fol. 57rb), Wälättä ʾIyäsus (fol. 78va), Zämmädä Maryam (fol. 95rb), Gäbrä Mäsqäl (fol. 109 rb), ʾAqba Mikaʾel (fol. 155ra), Fǝqǝrtä Mikaʾel (fol. 233rb). Text III mentions ʾAsratä Maryam (fol. 234va).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The original name of the donor has been washed out and replaced with the name of Täklä Haymanot, written with a thin pen in a secondary hand (the same as Additio 1): fols. 2ra, 4va, 5va, 16rb, 39vb, 47va, 49va, 52ra, 57rb, 62rb, 78va, 88ra, 95rb, 96rb, 109rb, 113va, 233rb. Other names are written interlinearly in a different (more recent?) hand, in strong vermilion ink: Gäbrä Giyorgis (fols. 2ra, 3rb, 4va, 5va, 9ra, 9va, 233rb), Täklä ʾƎgziʾ (fols. 13ra, 16rb), Wälättä ʿAbiyä ʾƎgziʾ (fol. 21ra), Wäl(dä) Śǝllase (fol. 26vb), Gäbrä Mikaʾel (fol. 35va), Wäldä Gäbrʾel (fol. 39vb), Wälättä Gäbrǝʾel (fol. 47va), Wälättä Śǝllase (fol. 53vb), ʿAmdä Maryam (fol. 57rb), Wälättä ʾIyäsus (fol. 78va), Zämmädä Maryam (fol. 95rb), Gäbrä Mäsqäl (fol. 109 rb), ʾAqba Mikaʾel (fol. 155ra), Fǝqǝrtä Mikaʾel (fol. 233rb). Text III mentions ʾAsratä Maryam (fol. 234va).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -300,9 +302,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-27">registered</change>
-         <change who="IR" when="2012-08-28">created</change>
-         <change who="DN" when="2014-11-16">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IR" when="2012-08-28T10:45:09.242Z">created</change>
+         <change who="DN" when="2014-11-16T13:09:38.882Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

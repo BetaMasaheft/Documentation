@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-09-21</date>
+            <date>2014-09-21T15:28:24.561Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0099DMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMA-002</idno>
                </msIdentifier>
                <msContents>
@@ -47,7 +47,7 @@ The text on page 109r as well as the incipit parts of some texts (e. g., fols. 6
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 8ra:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4661;&#4709;&#4624;&#4725;&#4961;</span> <span style="line-height: 115%;">&#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span> &#160;<span style="line-height: 115%;">&#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961;</span> <span style="line-height: 115%;">&#4618;&#4720;&#4961; </span><span style="line-height: 115%;">&#4616;&#4739;&#4901;&#4773;&#4961;&#160; </span><span style="line-height: 115%;">&#4872;&#4709;&#4649;&#4968;&#160; &#4872;&#4709;&#4648;&#4961;&#160; &#4768;&#4853;&#4736;&#4754;&#4961; </span></span></p><foreign xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 8ra: Praise be to God who has enabled me to complete (the writing), me, His sinful servant. G&#228;br&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Ad&#7723;ani.</span></span></p></foreign>
+                        <locus target="8ra">&lt;p&gt;&lt;span style="font-size: small;"&gt;&lt;span style="line-height: 115%;"&gt;Fol. 8ra:&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: large;"&gt;&lt;span style="line-height: 115%;"&gt; &lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: large;"&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4661;&amp;#4709;&amp;#4624;&amp;#4725;&amp;#4961;&lt;/span&gt; &lt;span style="line-height: 115%;"&gt;&amp;#4616;&amp;#4773;&amp;#4877;&amp;#4826;&amp;#4768;&amp;#4709;&amp;#4628;&amp;#4653;&amp;#4961;&lt;/span&gt; &amp;#160;&lt;span style="line-height: 115%;"&gt;&amp;#4824;&amp;#4768;&amp;#4936;&amp;#4920;&amp;#4632;&amp;#4754;&amp;#4961;&lt;/span&gt; &lt;span style="line-height: 115%;"&gt;&amp;#4618;&amp;#4720;&amp;#4961; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4616;&amp;#4739;&amp;#4901;&amp;#4773;&amp;#4961;&amp;#160; &lt;/span&gt;&lt;span style="line-height: 115%;"&gt;&amp;#4872;&amp;#4709;&amp;#4649;&amp;#4968;&amp;#160; &amp;#4872;&amp;#4709;&amp;#4648;&amp;#4961;&amp;#160; &amp;#4768;&amp;#4853;&amp;#4736;&amp;#4754;&amp;#4961; &lt;/span&gt;&lt;/span&gt;&lt;/p&gt;</locus><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 8ra:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4661;&#4709;&#4624;&#4725;&#4961;</span> <span style="line-height: 115%;">&#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span> &#160;<span style="line-height: 115%;">&#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961;</span> <span style="line-height: 115%;">&#4618;&#4720;&#4961; </span><span style="line-height: 115%;">&#4616;&#4739;&#4901;&#4773;&#4961;&#160; </span><span style="line-height: 115%;">&#4872;&#4709;&#4649;&#4968;&#160; &#4872;&#4709;&#4648;&#4961;&#160; &#4768;&#4853;&#4736;&#4754;&#4961; </span></span></p><foreign xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 8ra: Praise be to God who has enabled me to complete (the writing), me, His sinful servant. G&#228;br&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Ad&#7723;ani.</span></span></p></foreign>
                         <note>The name Gäbrä ʾAdḫani was added in red, in a secondary hand, the same which added the second part of the name, ʾAdḫani, to the supplication formulas.</note>
                      </colophon>
                   </msItem>
@@ -58,7 +58,10 @@ The text on page 109r as well as the incipit parts of some texts (e. g., fols. 6
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">119.0</measure> folios, of which <measure unit="leaf" type="blank">3.5</measure> blank, in <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">119.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.5</measure> blank
+                                                  8rb-v, 119rv, in
+                                                  <measure unit="quire">13.0</measure> quires (12+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">19.0</height>
                               <width unit="cm">14.0</width>
@@ -67,6 +70,8 @@ The text on page 109r as well as the incipit parts of some texts (e. g., fols. 6
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks written in the upper left margin, partly erased: fols. 9r, 19r, 29r, 39r, 109r (the numeral written thrice, each decorated with a peculiar frame in form of four-pointed star).</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">8</dim>
@@ -142,7 +147,7 @@ The original order of the quires must have been: XII-XI-X-IX-VIII-VII-VI-V-IV-II
                            <note>All data for fol. 2r.</note>
                            <ab type="ruling">the number of lines varies from 20 to 22</ab>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are mostly visible.</ab>
@@ -170,21 +175,27 @@ The bottom line is written above the ruling.</ab>
                            <item>ቅ(ዱስ)፡ ቅ(ዱ)፡ ቅ(ዱ)፡ for ቅዱስ፡ ቅዱስ፡ ቅዱስ፡</item>
                            <item>ን፡ ወ፡ በ፡ for ንስእለከ፡ ወንብለከ፡ በእንተ፡</item>
                            <item>
-                              <abbr>እግዚኦ፡ ተሠ፡ or እግ፡</abbr> for <expan>እግዚኦ፡ ተሣሀለነ፡ </expan> (s. fols. 96vb, 98ra)</item>
+                              <abbr>እግዚኦ፡ ተሠ፡ or እግ፡</abbr> for
+                                                  <expan>እግዚኦ፡ ተሣሀለነ፡ </expan> (s. fols. 96vb, 98ra)</item>
                            <item>
-                              <abbr>ሰላ፡ ለኵ፡ or ሰላ፡</abbr> for <expan>ሰላም፡ ለኵልክሙ፡ </expan> (s. fols. 96vb, 98ra)</item>
+                              <abbr>ሰላ፡ ለኵ፡ or ሰላ፡</abbr> for
+                                                  <expan>ሰላም፡ ለኵልክሙ፡ </expan> (s. fols. 96vb, 98ra)</item>
                            <item>
-                              <abbr>ምስ፡</abbr> for <expan>ምስለ፡ መንፈስከ፡ </expan> (s. fol. 96vb)</item>
+                              <abbr>ምስ፡</abbr> for
+                                                  <expan>ምስለ፡ መንፈስከ፡ </expan> (s. fol. 96vb)</item>
                            <item>
-                              <abbr>ተን፡</abbr> for <expan>ተንሥኡ፡ </expan> (s. fol. 98ra)</item>
+                              <abbr>ተን፡</abbr> for
+                                                  <expan>ተንሥኡ፡ </expan> (s. fol. 98ra)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">cp. fols. 18v-19r, 28v-29r.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">It cannot be excluded that more than one scribe took part in writing: cp. fols. 18v-19r, 28v-29r.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus/><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS"><br /> </span></p><q xml:lang="gez"><p>&#160;<span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS">Fol. 8ra: </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4661;&#4709;&#4624;&#4725;&#4961;</span> <span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span> &#160;<span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961;</span> <span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4618;&#4720;&#4961; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4616;&#4739;&#4901;&#4773;&#4961;&#160; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4872;&#4709;&#4649;&#4968;&#160; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4872;&#4709;&#4648;&#4961;&#160; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4768;&#4853;&#4741;&#4754;&#4961; <br /> </span></p></q>
+                           <locus target="#00"/>
+                           <desc><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS"><br /> </span></p></desc>
+                           <q xml:lang="gez"><p>&#160;<span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS">Fol. 8ra: </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4661;&#4709;&#4624;&#4725;&#4961;</span> <span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;</span> &#160;<span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961;</span> <span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4618;&#4720;&#4961; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4616;&#4739;&#4901;&#4773;&#4961;&#160; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4872;&#4709;&#4649;&#4968;&#160; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4872;&#4709;&#4648;&#4961;&#160; </span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS">&#4768;&#4853;&#4741;&#4754;&#4961; <br /> </span></p></q>
                            <q xml:lang="en"><p>&#160;<span style="font-size:10.0pt;line-height:&#10;115%;Arial Unicode MS">[Fol. 8ra]: Praise be to God who has enabled me to complete (the writing), me, His sinful servant G&#228;br&#228; </span><span style="font-size:10.0pt;line-height:115%;Arial Unicode MS">&#704;</span><span style="font-size:10.0pt;line-height:115%;Arial Unicode MS">Ad&#7723;&#477;ni.</span></p></q>
                            <p/>
                         </item>
@@ -194,7 +205,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with dark brown leather, textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -204,6 +215,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Spine protection is made of a piece of a ruled parchment leaf.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the leather cover (at least 3 tools were used: triple line fillet, double circle, criss-cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -246,8 +258,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä ʾAdḫani is mentioned in the supplication formulas on fols. 14va, 19rb, 39ra, etc. (in most of the cases the first part of the name is written in the main hand, in black, and the second is added in red, in a secondary hand).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Gäbrä ʾAdḫani is mentioned in the supplication formulas on fols. 14va, 19rb, 39ra, etc. (in most of the cases the first part of the name is written in the main hand, in black, and the second is added in red, in a secondary hand).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -270,9 +282,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-24">registered</change>
-         <change who="IF" when="2014-09-21">created</change>
-         <change who="DN" when="2015-05-23">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2014-09-21T15:28:24.561Z">created</change>
+         <change who="DN" when="2015-05-23T18:44:01.358Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-09-22</date>
+            <date>2011-09-22T13:36:21.735Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0049QSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QSM-009</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">77.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">77.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r-2v, 75v-77v, in
+                                                  <measure unit="quire">14.0</measure> quires (A+13). 
                                                 <dimensions type="outer">
                               <height unit="cm">35.0</height>
                               <width unit="cm">27.0</width>
@@ -127,7 +130,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling">23 (e.g., fol. 4r), 24 (e.g., fol. 6r) 25 (e.g., fol. 34r), 30-31 (e.g., fol. 14r), 26 (e.g., 23r), 27 (25r) etc.</ab>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 38r).</ab>
@@ -147,7 +150,7 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red</seg>
                         <date>19th century</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Angular, broadly spaced letters, emphasized width, reduced regularity. The upper horizontal strokes of many letters (ወ, መ, ጥ, በ) are inclined to the right.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="miniature" xml:id="d1"/>
@@ -157,18 +160,15 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 74va: Directive concerning the liturgical use of the text.</span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small">Fol. 74va: </span><span style="font-size: large">&#4720;&#4768;&#4637;&#4649;&#4961; &#4658;&#4752;&#4704;&#4709;&#4961; &#4632;&#4864;&#4632;&#4653;&#4843;&#4961; &#4752;&#4819;&#4961; &#4739;&#4708;&#4840;&#4961; &#4704;&#4709;&#4829;&#4739;&#4961; &#4941;&#4645;&#4624;&#4961; &#4808;&#4739;&#4644;&#4725;&#4961; &#4709;&#4929;&#4821;&#4961; &#4720;&#4875;&#4848;&#4618;&#4961; &#4739;&#4843;&#4621;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4811;&#4818;&#4961; &#4824;&#4709;&#4628;&#4648;&#4961; &#4706;&#4649;&#4725;&#4961; &#4645;&#4675;&#4845;&#4776;&#4961; &#4824;&#4704;&#4725;&#4821;&#4877;&#4645;&#4725;&#4961; &#4632;&#4896;&#4752;&#4961; &#4975;&#4961; &#4819;&#4632;&#4725;&#4961; &#4813;&#4661;&#4720;&#4961; &#4709;&#4628;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4656;&#4848;&#4754;&#4961; &#4616;&#4704;&#4810;&#4821;&#4961; &#4773;&#4638;&#4725;&#4962; &#4704;&#4621;&#4962; &#4704;&#4941;&#4923;&#4636;&#4961; &#4720;&#4768;&#4637;&#4653;&#4962; &#4656;&#4619;&#4637;&#4961; &#4616;&#4608;&#4872;&#4649;&#4961; &#4808;&#4656;&#4619;&#4637;&#4961; &#4616;&#4848;&#4709;&#4649;&#4961; &#4808;&#4656;&#4619;&#4637;&#4961; &#4616;&#4632;&#4675;&#4709;&#4649;&#4961; &#4928;&#4819;&#4848;&#4961; &#4936;&#4648;&#4661;&#4961; &#4739;&#4704;&#4964; &#4678;&#4632;&#4961; &#4656;&#4784;&#4755;&#4961; &#4773;&#4877;&#4649;&#4961; &#4845;&#4661;&#4819;&#4632;&#4754;&#4961; &#4704;&#4776;&#4755;&#4941;&#4649;&#4961; &#4808;&#4845;&#4656;&#4848;&#4754;&#4961; &#4608;&#4872;&#4649;&#4961; &#4677;&#4849;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4768;&#4848;&#4632;&#4754;&#4961; &#4941;&#4677;&#4649;&#4962; &#4704;&#4621;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#74va">Fol. 74va</locus>: Directive concerning the liturgical use of the text.</span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small">Fol. 74va: </span><span style="font-size: large">&#4720;&#4768;&#4637;&#4649;&#4961; &#4658;&#4752;&#4704;&#4709;&#4961; &#4632;&#4864;&#4632;&#4653;&#4843;&#4961; &#4752;&#4819;&#4961; &#4739;&#4708;&#4840;&#4961; &#4704;&#4709;&#4829;&#4739;&#4961; &#4941;&#4645;&#4624;&#4961; &#4808;&#4739;&#4644;&#4725;&#4961; &#4709;&#4929;&#4821;&#4961; &#4720;&#4875;&#4848;&#4618;&#4961; &#4739;&#4843;&#4621;&#4961; &#4656;&#4635;&#4821;&#4725;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4811;&#4818;&#4961; &#4824;&#4709;&#4628;&#4648;&#4961; &#4706;&#4649;&#4725;&#4961; &#4645;&#4675;&#4845;&#4776;&#4961; &#4824;&#4704;&#4725;&#4821;&#4877;&#4645;&#4725;&#4961; &#4632;&#4896;&#4752;&#4961; &#4975;&#4961; &#4819;&#4632;&#4725;&#4961; &#4813;&#4661;&#4720;&#4961; &#4709;&#4628;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4656;&#4848;&#4754;&#4961; &#4616;&#4704;&#4810;&#4821;&#4961; &#4773;&#4638;&#4725;&#4962; &#4704;&#4621;&#4962; &#4704;&#4941;&#4923;&#4636;&#4961; &#4720;&#4768;&#4637;&#4653;&#4962; &#4656;&#4619;&#4637;&#4961; &#4616;&#4608;&#4872;&#4649;&#4961; &#4808;&#4656;&#4619;&#4637;&#4961; &#4616;&#4848;&#4709;&#4649;&#4961; &#4808;&#4656;&#4619;&#4637;&#4961; &#4616;&#4632;&#4675;&#4709;&#4649;&#4961; &#4928;&#4819;&#4848;&#4961; &#4936;&#4648;&#4661;&#4961; &#4739;&#4704;&#4964; &#4678;&#4632;&#4961; &#4656;&#4784;&#4755;&#4961; &#4773;&#4877;&#4649;&#4961; &#4845;&#4661;&#4819;&#4632;&#4754;&#4961; &#4704;&#4776;&#4755;&#4941;&#4649;&#4961; &#4808;&#4845;&#4656;&#4848;&#4754;&#4961; &#4608;&#4872;&#4649;&#4961; &#4677;&#4849;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4768;&#4848;&#4632;&#4754;&#4961; &#4941;&#4677;&#4649;&#4962; &#4704;&#4621;&#4962;</span></p></q>
                            <q xml:lang="en"><p style="text-align: left;"><span style="font-size: small">Fol. 74va: When you read the miracles say in the beginning, &#8220;Come to me with lots of joy and happiness, blessed spiritual fighter, powerful George, victorious martyr of the land of Birut. Your suffering persisted for 7 years; into the land of life drive me away from entering the death&#8221;. At the end of the miracle say, &#8220;Peace be to his country and peace be to his monastery, and peace be to his grave! At the place where the hoof of the white horse&#8217;s foot stood, may he kiss me with his lips, and may he send me to his country, St. George! His love is pleasant to me&#8221;.</span></p></q>
                            <p>In Amharic and Gǝʿǝz. The note explains what should be read before and after the Miracles of George.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small">Fol. 74vab: Donation note extended by a genealogy.</span></p><q xml:lang="gez"><p><span style="font-size: small">Fol. 74va-vb:</span> <span style="font-size: large">&#4720;&#4896;&#4637;&#4672;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4824;&#4813;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4941;&#4652;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4616;&#4824;&#4813;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4936;&#4757;&#4723;&#4961; &#4632;&#4653;&#4667;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4824;&#4813;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4872;&#4853;&#4621;&#4961; &#4616;&#4632;&#4677;&#4848;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4672;&#4653;&#4752;&#4961; &#4661;&#4704;&#4653;&#4962; &#4821;&#4685;&#4707;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4824;&#4653;&#4768; &#4640;&#4755;&#4845;&#8230;</span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><locus target="#74va">Fol. 74va</locus>b: Donation note extended by a genealogy.</span></p><q xml:lang="gez"><p><span style="font-size: small">Fol. 74va-vb:</span> <span style="font-size: large">&#4720;&#4896;&#4637;&#4672;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4824;&#4813;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4941;&#4652;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4616;&#4824;&#4813;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4851;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4936;&#4757;&#4723;&#4961; &#4632;&#4653;&#4667;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4824;&#4813;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4872;&#4853;&#4621;&#4961; &#4616;&#4632;&#4677;&#4848;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4672;&#4653;&#4752;&#4961; &#4661;&#4704;&#4653;&#4962; &#4821;&#4685;&#4707;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4824;&#4653;&#4768; &#4640;&#4755;&#4845;&#8230;</span></p></q>
                            <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: ">Fol. 74vab: T&#228;&#7789;&#228;mq&#228; M&#228;d&#7723;&#477;n and his sons, Z&#228;wd&#228; Giyorgis, G&#228;br&#228; Mika&#704;el, F&#477;re Maryam; and the sons of Z&#228;wd&#228; Giyorgis: M&#228;zg&#228;b&#228; &#346;&#477;llase, W&#228;l&#228;tt&#228; Kidan, W&#228;l&#228;tt&#228; Haymanot, W&#228;l&#228;tt&#228; &#7716;&#477;yw&#228;t, G&#228;br&#228; &#704;&#398;gzi&#704;ab&#7717;er, G&#228;br&#228; &#704;Ar&#228;gawi, W&#228;l&#228;tt&#228; &#7778;ad&#477;qan, F&#228;nta M&#228;r&#353;a. Z&#228;wd&#228; Giyorgis, who donated this Vita to the church of Mika&#704;el Q&#228;rn&#228; S&#477;b&#228;r. &#705;&#398;q<sup>w</sup>&#477;ba Kr&#477;stos, Z&#228;r&#704;a &#346;&#228;nnay...</span></span></p></q>
                            <p>The note lists the antecedents (?) of the donor, Zäwdä Giyorgis, starting from Täṭamqä Mädḫǝn (possibly the donor's father).</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode="">Fol. 75ra: Record concerning reconciliation (?).</span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small">Fol. 75:</span> <span style="font-size: large">&#4773;&#4660;&#4709;</span><span style="font-size: large">&#4961;</span><span style="font-size: large"><span style="font-size: small">[sic]</span> &#4920;&#4875;&#4778;&#4961; &#4774;&#4637;&#4621;&#4624;&#4720;&#4961; &#4920;&#4875;&#4961; &#4808;&#4773;</span><span style="font-size: large">&#4664;&#4635;&#4877;&#4620;&#4961;</span><span style="font-size: large"><span style="font-size: small">[sic]</span> &#4674;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4674;&#4661;&#4961; &#4824;&#4653;&#4768;&#4961; &#4705;&#4649;&#4781;&#4961; &#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4656;&#4808;&#4661;&#4721;&#4961; &#4672;&#4653;&#4752;&#4961; &#4656;&#4704;&#4653;&#4961; &#4664;&#4635;&#4877;&#4620;&#4961; &#4755;&#4728;&#4813;&#4961;&#8230;</span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: " unicode=""><locus target="#75ra">Fol. 75ra</locus>: Record concerning reconciliation (?).</span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small">Fol. 75:</span> <span style="font-size: large">&#4773;&#4660;&#4709;</span><span style="font-size: large">&#4961;</span><span style="font-size: large"><span style="font-size: small">[sic]</span> &#4920;&#4875;&#4778;&#4961; &#4774;&#4637;&#4621;&#4624;&#4720;&#4961; &#4920;&#4875;&#4961; &#4808;&#4773;</span><span style="font-size: large">&#4664;&#4635;&#4877;&#4620;&#4961;</span><span style="font-size: large"><span style="font-size: small">[sic]</span> &#4674;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4674;&#4661;&#4961; &#4824;&#4653;&#4768;&#4961; &#4705;&#4649;&#4781;&#4961; &#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4656;&#4808;&#4661;&#4721;&#4961; &#4672;&#4653;&#4752;&#4961; &#4656;&#4704;&#4653;&#4961; &#4664;&#4635;&#4877;&#4620;&#4961; &#4755;&#4728;&#4813;&#4961;&#8230;</span></p></q>
                            <q xml:lang="en"><p style="text-align: left;"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">Fol. 75ra: I glorify your grace, O full (?) of grace; and (I glorify) the elders, priest</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%">G&#228;br&#228;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="EN-GB" style="line-height: 115%">Mika&#704;el, priest Z&#228;r&#704;a Buruk, &#704;ato G&#228;br&#228; &#7716;&#477;yw&#228;t, (which) are three elders of Q&#228;rn&#228; S&#228;b&#228;r...</span></span></p></q>
                            <p>Written in a recent hand, in crude Amharic; the first line in Gǝʿǝz.</p>
                         </item>
@@ -189,6 +189,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Traces of endband stitches (holes) at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">A few designs such as a cross, cross hatching, fillets have been scored in both boards.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -231,11 +232,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -256,9 +252,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-17">registered</change>
-         <change who="IF" when="2011-09-22">created</change>
-         <change who="DN" when="2015-07-15">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2011-09-22T13:36:21.735Z">created</change>
+         <change who="DN" when="2015-07-15T08:57:30.114Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

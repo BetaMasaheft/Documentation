@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-09-29</date>
+            <date>2011-09-29T10:06:17.293Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0017UQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>UM-020</idno>
                </msIdentifier>
                <msContents>
@@ -46,6 +46,11 @@ In the incipit page of Texts I and II (fols. 2r, 107v), a few lines are rubricat
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The text of the Vita represents the later of the two sub-types of the Däbrä Libanos recension (close to the text published by E.A.W. BUDGE (ed., tr.), The Life and Miracles of Takla Hâymânôt in the Version of Dabra Lîbânôs..., London, 1906; cp. also the Miracles).</note>
+                     <note>Quire XVII apparently constitutes a separate production unit (fols. 13<ref type="mss" corresp="ES0ra131">0ra-131</ref>rb; Miracle of the resurrection of Bäṣälota Mäsqäl is usually a story included in the Vita).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -53,7 +58,10 @@ In the incipit page of Texts I and II (fols. 2r, 107v), a few lines are rubricat
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">132.0</measure> folios, of which <measure unit="leaf" type="blank">3.5</measure> blank, in <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">132.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.5</measure> blank
+                                                  1, 8v, 25v, 131v, 132, in
+                                                  <measure unit="quire">18.0</measure> quires (A+17). 
                                                 <dimensions type="outer">
                               <height unit="cm">27.5</height>
                               <width unit="cm">25.0</width>
@@ -62,6 +70,8 @@ In the incipit page of Texts I and II (fols. 2r, 107v), a few lines are rubricat
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Decorated quire marks (quires II-XI, XV-XVI).</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -140,7 +150,7 @@ In the incipit page of Texts I and II (fols. 2r, 107v), a few lines are rubricat
                            <note/>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are partly visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible (s. fol. 50r).</ab>
@@ -164,18 +174,17 @@ The scribe did not strictly conform to the ruling lines.</ab>
                         <seg type="ink">Black; red; scarlet.</seg>
                         <persName role="scribe" corresp="PRS00000">Gäbrä ʾƎgziʾabǝḥer</persName>Gäbrä ʾƎgziʾabǝḥer is mentioned as the scribe in the supplication formula on fol. 114vb. The same scribe wrote KAE-001 (hand b).<date>Late 19th – early 20th centuries</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">fols. 2ra-129vb (quires I-XVI)</handNote>
-                     <handNote xml:id="h3" script="Ethiopic">fols. 130ra-131rb (quire XVII)</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a: fols. 2ra-129vb (quires I-XVI)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b: fols. 130ra-131rb (quire XVII)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;">Fol. 1r-1v</span><span unicode="" style="line-height: 115%;">-131v:</span><span lang="EN-US" unicode="" style="line-height: 115%;"> Inventory of books&#160;in the possession&#160;of the church library.</span></span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-US" unicode="" style="line-height: 115%;"><locus target="#1r">Fol. 1r-1</locus>v</span><span unicode="" style="line-height: 115%;">-131v:</span><span lang="EN-US" unicode="" style="line-height: 115%;"> Inventory of books&#160;in the possession&#160;of the church library.</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Crudely written in a recent hand (in pen and pencil). The ordinal numbers of the books are given in Arabic numerals.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 107ra: Donation note.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 107ra: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4624;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &lt;...&gt; &#4824;&#4808;&#4624;&#4709;&#4814;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;">&#160;&lt;...&gt;</span><span style="line-height: 115%; font-family: Nyala;"> <span lang="AMH">&#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;"><locus target="#107ra">Fol. 107ra</locus>: Donation note.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="font-family: Arial;"><span lang="EN-GB" style="line-height: 115%;">Fol. 107ra: </span></span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4624;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &lt;...&gt; &#4824;&#4808;&#4624;&#4709;&#4814;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961;</span><span style="line-height: 115%; font-family: Nyala;">&#160;&lt;...&gt;</span><span style="line-height: 115%; font-family: Nyala;"> <span lang="AMH">&#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></span></p></q>
                            <q xml:lang="en"><p style="text-align: justify;"><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">[Fol. 107ra]: This book belongs to &#7717;al&#228;qa G&#228;br&#228;&#160;... who has donated it to &#704;abun&#228; ...&#160;so that it&#160;might be for him&#160;the guide to the Kingdom of Heaven. Anyone who stole it it or erased (its text)&#160;will be excommunicated by the authority of Peter and Paul.</span></span></span></p></q>
                            <p>Part of the donor’s name and the name of the institution to which the Ms. was donated have been erased.</p>
                         </item>
@@ -187,7 +196,7 @@ The scribe did not strictly conform to the ruling lines.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with bright red leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -238,8 +247,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ḥaläqa Gäbrä Nä&lt;...&gt;n; the second part of the name, added in a secondary hand (in reddish-brown ink), completely or partly erased (s. Additio 1 and the supplication formulas on fols. 107vb, 114vb). His wife Wälättä Mädḫǝn is also mentioned (s. fols. 107vb, 114vb).&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">ḥaläqa Gäbrä Nä&lt;...&gt;n; the second part of the name, added in a secondary hand (in reddish-brown ink), completely or partly erased (s. Additio 1 and the supplication formulas on fols. 107vb, 114vb). His wife Wälättä Mädḫǝn is also mentioned (s. fols. 107vb, 114vb).&#xD;
 It is not certain whether Gäbrä Maryam mentioned on fol. 120vb is the same person as the donor mentioned in Additio 1.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -266,9 +275,9 @@ It is not certain whether Gäbrä Maryam mentioned on fol. 120vb is the same per
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-04-28">registered</change>
-         <change who="IF" when="2011-09-29">created</change>
-         <change who="MK" when="2014-10-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2011-09-29T10:06:17.293Z">created</change>
+         <change who="MK" when="2014-10-09T16:33:45.499Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -47,21 +47,14 @@
                 <xsl:apply-templates select="//t:settlement"/>
             </p>
             <p>
-                <xsl:choose>
-                    <xsl:when test="//t:placeName[@xml:lang = 'en'][@corresp = 'n1']">
-                        <xsl:value-of select="//t:placeName[@xml:lang = 'en'][@corresp = 'n1']"/>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text> This settlement </xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-                <xsl:if test="//t:country">
-                    <xsl:text> is part of </xsl:text>
-                    <xsl:if test="//t:region">
-                        <xsl:apply-templates select="//t:region"/>
-                        <xsl:text>, in </xsl:text>
+                 <xsl:if test="//t:region">
+                         <xsl:text>Region: </xsl:text><xsl:apply-templates select="//t:region"/>
+                       
                     </xsl:if>
-                    <xsl:apply-templates select="//t:country"/>
+            </p>
+            <p>
+                <xsl:if test="//t:country">
+                    <xsl:text>Country: </xsl:text><xsl:apply-templates select="//t:country"/>
                 </xsl:if>
             </p>
 

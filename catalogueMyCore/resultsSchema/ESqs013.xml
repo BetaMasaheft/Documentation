@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-04-17</date>
+            <date>2012-04-17T15:22:20.241Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0198QS"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QS-013</idno>
                </msIdentifier>
                <msContents>
@@ -49,6 +49,10 @@ Several lines or groups of lines on the page opening the commemorative notices f
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>For the second half of the Sǝnkǝssar see Ms.<ref type="mss" corresp="ESqs008">QS-008</ref>.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -56,7 +60,8 @@ Several lines or groups of lines on the page opening the commemorative notices f
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">183.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">183.0</measure> folios, in
+                                                  <measure unit="quire">22.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">36.3</height>
                               <width unit="cm">31.0</width>
@@ -157,7 +162,7 @@ Holes and tears carefully amended on fols. 92, 103, 119, 141, 143, 150, 162, 174
                            <note>All data for fol. 118r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -177,22 +182,21 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red, crimson red.</seg>
                         <date>Second half of the 18th century.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
-                     <handNote xml:id="h3" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Black inks of different tones and pens with differently shaped nibs were used for writing (e.g., pen with a broad nib on fol. 75r; with a thin nib on fol. 147r). The handwriting, though not necessarily belonging to more than one scribe, shows some changes (also on one and the same fol. e.g., 116r, 139r), cp. slightly sloping letters with big loops (fol. 75r), and more widely spaced letters elsewhere.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+The handwriting is similar to that attested in Ms. QS-008. It is very similar though not identical to the hand of the Synaxarion from the church of ʿArbaʿtu Ǝnsäsa, ʿArabay, Tämben. The names of the original donors are crudely replaced with the name Zä-Mänfäs Qǝddus (most probably by hand that did the same in QS-008).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fols. 30vc, 55ra, 155vb: simple ornamental bands (red and black); geometric motifs.</decoNote>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 30vc: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fol. 30vc:</span></span><span style="font-size: large;"><span lang="EN-GB" style="line-height: 115%; font-family: ;"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#4961; &#4635;&#4741;&#4620;&#4720;&#4961; &#4768;&#4824;&#4778;&#4653;&#4840;&#4961; &#4768;&#4773;&#4619;&#4936;&#4961; &#4773;&#4637;&#4773;&#4616;&#4961; &#4720;&#4920;&#4637;&#4849;&#4776;&#4961; &#4824;&#4621;&#4936;&#4961; &#4616;&#4616;&#4768;&#4752;&#4709;&#4709;&#4961; &#4720;&#4808;&#4776;&#4941;&#4961; &#4824;&#4757;&#4850;&#4725;&#4840;&#4961; &#4632;&#4925;&#4624;&#4936; ...</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#30vc">Fol. 30vc</locus>: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fol. 30vc:</span></span><span style="font-size: large;"><span lang="EN-GB" style="line-height: 115%; font-family: ;"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#4961; &#4635;&#4741;&#4620;&#4720;&#4961; &#4768;&#4824;&#4778;&#4653;&#4840;&#4961; &#4768;&#4773;&#4619;&#4936;&#4961; &#4773;&#4637;&#4773;&#4616;&#4961; &#4720;&#4920;&#4637;&#4849;&#4776;&#4961; &#4824;&#4621;&#4936;&#4961; &#4616;&#4616;&#4768;&#4752;&#4709;&#4709;&#4961; &#4720;&#4808;&#4776;&#4941;&#4961; &#4824;&#4757;&#4850;&#4725;&#4840;&#4961; &#4632;&#4925;&#4624;&#4936; ...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Unfinished. Written in black and red ink.
 The text is repeated on fols. 181vc-182ra in ink (?), but is hardly legible due to faded ink. The very beginning is overwritten with a pen.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 181va: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 181va:</span><span style="font-size: large;"> &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4619;&#4821;&#4776;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &lt;...&gt; &#4808;&#4768;&#4705;&#4609;&#4961; &#4853;&#4705;&#4661;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4685;&#4755;&#4704;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4941;&#4645;&#4624;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4848;&#4674;&#4685;&#4961; &#4869;&#4653;&#4961; &#4808;&#4656;&#4757;&#4961; &#4843;&#4709;&#4624;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4656;&#4704;&#4752;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4739;&#4848;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4845;&#4637;&#4629;&#4654;&#4633;&#4961; &#4704;&#4920;&#4622;&#4720;&#4961; &#4789;&#4622;&#4633;&#4961; &#4920;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4725;&#4961; &#4704;&#4920;&#4622;&#4723;&#4961; &#4616;&#4773;&#4877;&#4826;&#4829;&#4773;&#4725;&#4752; <span style="font-size: small;">[sic]</span>&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4619;&#4850;&#4720;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4768;&#4636;&#4757;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4622;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4912;&#4813;&#4622;&#4661;&#4961; &#4813;&#4885;&#4829;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4961; &#4845;&#4777;&#4757;&#4962;</span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#181va">Fol. 181va</locus>: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 181va:</span><span style="font-size: large;"> &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4619;&#4821;&#4776;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &lt;...&gt; &#4808;&#4768;&#4705;&#4609;&#4961; &#4853;&#4705;&#4661;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4685;&#4755;&#4704;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4941;&#4645;&#4624;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4848;&#4674;&#4685;&#4961; &#4869;&#4653;&#4961; &#4808;&#4656;&#4757;&#4961; &#4843;&#4709;&#4624;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4656;&#4704;&#4752;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4739;&#4848;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4845;&#4637;&#4629;&#4654;&#4633;&#4961; &#4704;&#4920;&#4622;&#4720;&#4961; &#4789;&#4622;&#4633;&#4961; &#4920;&#4853;&#4675;&#4757;&#4961; &#4808;&#4656;&#4635;&#4821;&#4725;&#4961; &#4704;&#4920;&#4622;&#4723;&#4961; &#4616;&#4773;&#4877;&#4826;&#4829;&#4773;&#4725;&#4752; <span style="font-size: small;">[sic]</span>&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4619;&#4850;&#4720;&#4961; &#4768;&#4637;&#4619;&#4781;&#4961; &#4768;&#4636;&#4757;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4622;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4912;&#4813;&#4622;&#4661;&#4961; &#4813;&#4885;&#4829;&#4961; &#4776;&#4632;&#4961; &#4768;&#4653;&#4846;&#4661;&#4961; &#4845;&#4777;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;">Fol. 181va: This is the book of La&#705;&#477;k&#228; Maryam &lt;...&gt; and his father D&#477;bbus &#704;&#398;gzi&#704; and his mother W&#228;l&#228;tt&#228; Qw&#477;nab&#228;n and his wife F&#477;&#347;&#347;&#477;&#7717;a Maryam and his children &#286;&#477;r W&#228;s&#228;n, Yab&#7717;a &#704;&#398;gzi&#704;, S&#228;b&#228;n&#228; Giyorgis, &#7722;ad&#228;r&#228; Maryam. May the Lord have compassion on them with the prayer of all righteous and martyrs, through the prayer of our Lady Mary the Mother of God. Amen. The one who stole it or erased it or mistreated it shall be excommunicated like Arius.</span></p></q>
                            <p>Carelessly written.</p>
                         </item>
@@ -214,6 +218,8 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the older dark brown leather cover (at least 5 tools were used: x-form, double circle, dots, crescent, double line fillet, scored hatching).&#xD;
+Blind tooled ornament on the deep rose leather cover (at least 5 tools were used: triple line fillet, double circle, dice, small x, double crescent with eye),</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -257,8 +263,8 @@ The replacement of the name of the original donor with that of Zä-Mänfäs Qǝd
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor is Laʿǝkä Maryam, mentioned in supplication formulas throughout the Ms. and in Additio 1. His wife Fǝśśǝḥa Maryam (e.g., fols. 16vc, 36ra, 112rab, 156vc) as well as one of their children, Ğǝr Wäsän (e.g., fols. 46va, 49vb) are also mentioned in supplication formulas and in Additio 1.&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor is Laʿǝkä Maryam, mentioned in supplication formulas throughout the Ms. and in Additio 1. His wife Fǝśśǝḥa Maryam (e.g., fols. 16vc, 36ra, 112rab, 156vc) as well as one of their children, Ğǝr Wäsän (e.g., fols. 46va, 49vb) are also mentioned in supplication formulas and in Additio 1.&#xD;
 &#xD;
 From fol. 2r to 35rc the names of the original donors have been erased and mostly replaced with that of Zä-Mänfäs Qǝddus. Zä-Mänfäs Qǝddus is the baptismal name of däğğazmač Subagadis (1770-1831).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
@@ -283,9 +289,9 @@ From fol. 2r to 35rc the names of the original donors have been erased and mostl
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-12-02">registered</change>
-         <change who="SH" when="2012-04-17">created</change>
-         <change who="MV" when="2015-01-29">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2012-04-17T15:22:20.241Z">created</change>
+         <change who="MV" when="2015-01-29T17:08:50.089Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

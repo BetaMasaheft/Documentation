@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-05-27</date>
+            <date>2013-05-27T10:38:14.326Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0042MR"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MR-010</idno>
                </msIdentifier>
                <msContents>
@@ -52,7 +52,10 @@ On the incipit page of Text I (fol.3r), a few lines are rubricated (alternating 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">42.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">42.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-v, 2r-v, 40v, 41r-v, 42r-v., in
+                                                  <measure unit="quire">6.0</measure> quires (A+5). 
                                                 <dimensions type="outer">
                               <height unit="cm">15.5</height>
                               <width unit="cm">11.5</width>
@@ -107,7 +110,7 @@ Fols. 35, 36, 41 and 42 are of a smaller size.</item>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling patterns: </ab>
                            <ab>
 1A-1A/0-0/0-0/C: fols. 3r-6r.</ab>
@@ -138,7 +141,7 @@ The bottom line is written above the ruling.</ab>
                            <note>All data for fol. 8r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling patterns: </ab>
                            <ab>
 1A-1A/0-0/0-0/C: fols. 3r-6r.</ab>
@@ -176,17 +179,16 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 40rb: Donation note.</p><q xml:lang="gez"><p>Fol. 40rb: <span style="font-size: large;">ዛቲ፡ መጽሐፍ፡ ዘወሀባ፡ ገብረ፡ እግዚአብሔር፡ ምስለ፡ ብእሲቱ፡ ወለተ፡ ሥላሴ፡ ለታቦተ፡ አቡነ፡ ሊባኖስ፡ መስጥሕ፡ ከመ፡ ትኵኖሙ፡ መርሐ፡ ለመንግሥተ፡ ሰማያት፡ ዘሠረቃ፡ ወዘፈሐቋ፡ በሥልጣነ፡ ጴጥሮስ፡ ወጳውሎስ፡ ውጉዘ፡ ለይኩን።</span></p></q>
+                        <item xml:id="a1"><p><locus target="#40rb">Fol. 40rb</locus>: Donation note.</p><q xml:lang="gez"><p>Fol. 40rb: <span style="font-size: large;">ዛቲ፡ መጽሐፍ፡ ዘወሀባ፡ ገብረ፡ እግዚአብሔር፡ ምስለ፡ ብእሲቱ፡ ወለተ፡ ሥላሴ፡ ለታቦተ፡ አቡነ፡ ሊባኖስ፡ መስጥሕ፡ ከመ፡ ትኵኖሙ፡ መርሐ፡ ለመንግሥተ፡ ሰማያት፡ ዘሠረቃ፡ ወዘፈሐቋ፡ በሥልጣነ፡ ጴጥሮስ፡ ወጳውሎስ፡ ውጉዘ፡ ለይኩን።</span></p></q>
                            <q xml:lang="en"/>
-                           <p>Written by the same hand as that of the main text. The note mentions the names of the donor, Gäbrä ʾƎgziʾabǝḥer as well as his wife Wälättä Śǝllase. It reports also that the Ms. was donated to the church of Libanos of Mäsṭǝḥ.</p>
+                           <p>Written by the same hand as that of the main text. The note mentions the names of the donor, Gäbrä ʾƎgziʾabәḥer as well as his wife Wälättä Śәllase. It reports also that the Ms. was donated to the church of Libanos of Mäsṭǝḥ.</p>
                         </item>
                         <item xml:id="e1">- Crude notes and pen trials: fols. 1r, 1v, 41r, 41v.&#xD;
 - Unusual punctuation sign in the shape of chevrons, written in the margins (e.g. fol. 16r).</item>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (quarter cover).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -195,13 +197,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather overback (at least 2 blind tools were used: double circle, double line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MR">Mǝdrä Ruba Sǝllase /MR</placeName>
+                        <placeName corresp="INS0042MR">Mәdrä Ruba Sәllase /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1930" notAfter="1960">Middle of the 20th cent.</origDate>
                   </origin>
@@ -237,8 +240,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä ʾƎgziʾabǝḥer is mentioned as the donor in Additio 1; his wife Wälättä Śǝllase is also mentioned.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Gäbrä ʾƎgziʾabәḥer is mentioned as the donor in Additio 1; his wife Wälättä Śәllase is also mentioned.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -261,9 +264,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-11">registered</change>
-         <change who="SA" when="2013-05-27">created</change>
-         <change who="EG" when="2014-04-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-05-27T10:38:14.326Z">created</change>
+         <change who="EG" when="2014-04-09T09:06:04.910Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

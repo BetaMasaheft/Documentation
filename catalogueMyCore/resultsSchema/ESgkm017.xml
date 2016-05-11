@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-04-24</date>
+            <date>2013-04-24T08:30:15.381Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0108GKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GKM-017</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">66.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">66.0</measure> folios, in
+                                                  <measure unit="quire">10.0</measure> quires (8+A+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">14.0</width>
@@ -60,6 +61,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Decorated quire marks: fols. 27r, 35r, 43r, 51r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -115,7 +118,7 @@ Hole crudely repaired: fol. 66.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -136,9 +139,11 @@ The bottom line is written above the ruling.</ab>
                         <persName role="scribe" corresp="PRS00000">Gäbrä Maryam</persName>Gäbrä Maryam is mentioned as the scribe in the supplication formula (fol. 35vb).<date>19th century</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለዓለ/ለዓ᎓ ዓለ᎓ አሜ᎓/ ለዓለመ᎓ ዓ᎓ አሜ᎓/ ለዓለመ᎓ አ/ዓ᎓ አ᎓</abbr> for <expan>ለዓለመ᎓ ዓለም᎓ አሜን᎓ </expan> (fols. 30va, 43ra, 48vb, 50va)</item>
+                              <abbr>ለዓለ/ለዓ᎓ ዓለ᎓ አሜ᎓/ ለዓለመ᎓ ዓ᎓ አሜ᎓/ ለዓለመ᎓ አ/ዓ᎓ አ᎓</abbr> for
+                                                  <expan>ለዓለመ᎓ ዓለም᎓ አሜን᎓ </expan> (fols. 30va, 43ra, 48vb, 50va)</item>
                            <item>
-                              <abbr>ሰ/ሰላ᎓</abbr> for <expan>ሰላም᎓ </expan> (e.g., fol. 58ra, 60ra, 61va)</item>
+                              <abbr>ሰ/ሰላ᎓</abbr> for
+                                                  <expan>ሰላም᎓ </expan> (e.g., fol. 58ra, 60ra, 61va)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -147,8 +152,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span unicode="" style="line-height: 115%">Fol. 1r: Excerpt from the </span><span unicode="" style="line-height: 115%">Book of the Covenant of Mercy</span><span unicode="" style="line-height: 115%">.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><span unicode="" style="line-height: 115%"><locus target="#1r">Fol. 1r</locus>: Excerpt from the </span><span unicode="" style="line-height: 115%">Book of the Covenant of Mercy</span><span unicode="" style="line-height: 115%">.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The prayer is written in the main hand. 
 Cp. fol. 20ra-b.</p>
@@ -171,6 +175,7 @@ Two pairs of sewing stations.http://mycms.rrz.uni-hamburg.de/domlib/editor_form_
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover (at least 4 tools were used: single line fillet, double circle, cross hatching, criss-cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -213,8 +218,8 @@ Two pairs of sewing stations.http://mycms.rrz.uni-hamburg.de/domlib/editor_form_
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Different persons are mentioned in supplication formulas throughout the Ms.: Täwäldä Mädḫǝn (e.g., fol. 12va), Gäbrä ʾƎgziʾabǝḥer (e.g., fol. 22rb), Ṣǝllatä Muse (e.g., fol. 22rb), Wälättä Mädḫǝn (e.g., fol. 33vb), Wäldä Maryam (e.g., fol. 30va), Romḥa Sǝllase (e.g., fol. 35vb), Wälättä Ḥǝywät (e.g., fol. 35vb), ʾAmätä Mikaʾel (e.g., fol. 37vb), Wäldä Krǝstos (e.g., fol. 47rb).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Different persons are mentioned in supplication formulas throughout the Ms.: Täwäldä Mädḫǝn (e.g., fol. 12va), Gäbrä ʾƎgziʾabǝḥer (e.g., fol. 22rb), Ṣǝllatä Muse (e.g., fol. 22rb), Wälättä Mädḫǝn (e.g., fol. 33vb), Wäldä Maryam (e.g., fol. 30va), Romḥa Sǝllase (e.g., fol. 35vb), Wälättä Ḥǝywät (e.g., fol. 35vb), ʾAmätä Mikaʾel (e.g., fol. 37vb), Wäldä Krǝstos (e.g., fol. 47rb).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -241,9 +246,9 @@ Two pairs of sewing stations.http://mycms.rrz.uni-hamburg.de/domlib/editor_form_
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-04">registered</change>
-         <change who="AA" when="2013-04-24">created</change>
-         <change who="SA" when="2014-08-20">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-04-24T08:30:15.381Z">created</change>
+         <change who="SA" when="2014-08-20T08:14:36.714Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-03-22</date>
+            <date>2012-03-22T09:04:05.118Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0194THMR"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>THMR-008</idno>
                </msIdentifier>
                <msContents>
@@ -61,7 +61,10 @@ Two initial lines of Text V; initial lines of sections; a few words (e.g., säla
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">167.0</measure> folios, of which <measure unit="leaf" type="blank">5.0</measure> blank, in <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">167.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">5.0</measure> blank
+                                                  1r, 2v, 12v, 28v, 167r, in
+                                                  <measure unit="quire">21.0</measure> quires (A+20). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.5</height>
                               <width unit="cm">17.0</width>
@@ -168,7 +171,7 @@ Numerous fols. are stained with water and wax.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling">22-35 (Texts III, IV, V), 28 (Text X)</ab>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -210,12 +213,15 @@ The bottom line is written above the ruling.</ab>
                            <item>ሰ፡, ሰላ፡ for ሰላም፡</item>
                            <item>ወል፡ ሣ፡ ይ፡ ሰ፡ for ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡</item>
                            <item>
-                              <abbr>Repeated versicles are often written in an abbreviated form, e.g., ር፤ዕ፤ለዮ stands</abbr> for <expan>ርእዩ፡ ዕበዩ፡ ለዮሐንስ፡ </expan> (fol. 40rb l.14).</item>
+                              <abbr>Repeated versicles are often written in an abbreviated form, e.g., ር፤ዕ፤ለዮ stands</abbr> for
+                                                  <expan>ርእዩ፡ ዕበዩ፡ ለዮሐንስ፡ </expan> (fol. 40rb l.14).</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">ሠ has got a double line in the middle, ል has got a long top end, አ and its derivations have a clear gap between the upper and the lower part. </handNote>
-                     <handNote xml:id="h3" script="Ethiopic"/>
-                     <handNote xml:id="h4" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The hand of Text IX most likely belongs to Zä-Wäldä Maryam (cp. e.g., TRM-017, UM-041, Um-042). Features of his hand include: ሠ has got a double line in the middle, ል has got a long top end, አ and its derivations have a clear gap between the upper and the lower part. <!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h4" script="Ethiopic">
+A short 10-line passage in fol. 40va seems to be written by a different hand.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">-Fol. 21va: Tiny red band.</decoNote>
@@ -233,18 +239,15 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 12ra: Purchase note.&#160;</span></div><q xml:lang="gez"/>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#12ra">Fol. 12ra</locus>: Purchase note.&#160;</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in red ink; the name of the buyer has been erased.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 160vb: List of biblical names.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#160vb">Fol. 160vb</locus>: List of biblical names.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>It is partly a genealogy, partly a list of prophets. Probably written by the same hand as the main text, in ink.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><div><span style="font-size: small"><span style="line-height: 115%">Fol. 167v: Prayer to God the Father.</span></span></div><q xml:lang="gez"/>
+                        <item xml:id="a3"><div><span style="font-size: small"><span style="line-height: 115%"><locus target="#167v">Fol. 167v</locus>: Prayer to God the Father.</span></span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Crudely written in ink, probably later than the main text; difficult to understand. The text in column a is blurred.</p>
                         </item>
@@ -268,7 +271,7 @@ Tämälläs in the shape of ┴, by the same hand: fols. 60rb l.7, 61rb l.3, 68r
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (30% of the front and 60% of the back is left).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -318,13 +321,13 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the owner is erased (fol. 12ra, 16rb, 157ra, 160ra).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -345,9 +348,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-12-01">registered</change>
-         <change who="MK" when="2012-03-22">created</change>
-         <change who="DN" when="2014-09-17">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-03-22T09:04:05.118Z">created</change>
+         <change who="DN" when="2014-09-17T11:55:04.397Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-05-26</date>
+            <date>2015-05-26T09:43:46.198Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0194THMR"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>THMR-010</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Fols. 1, 2 are unruled.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">113.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">113.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 113v., in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">20.5</width>
@@ -128,7 +135,7 @@ Holes or tears amended on fols. 82, 94, 102, 112.</condition>
                            <note>Fols. 3ra-105vb. All data for fol. 7r.</note>
                            <ab type="ruling">The number of lines varies between 20-21</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -159,7 +166,7 @@ The bottom ruled line was not used, e.g., on fols. 13rb, 14r, 14v, 15v, 20r.</ab
                            <note>Fols. 106ra-113ra. All data for fol. 110r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -180,23 +187,32 @@ The bottom line is written above the ruling.</ab>
                         <date>18th century.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ወካዕ፡</abbr> for <expan>ወካዕበ፡ </expan> (e.g., fol. 11ra)</item>
+                              <abbr>ወካዕ፡</abbr> for
+                                                  <expan>ወካዕበ፡ </expan> (e.g., fol. 11ra)</item>
                            <item>
-                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 18rb, 20ra)</item>
+                              <abbr>ይ፡ ሕ፡</abbr> for
+                                                  <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 18rb, 20ra)</item>
                            <item>
-                              <abbr>ፍ፡/ፍቱ</abbr> for <expan>ፍቱሐ፡ </expan> (e.g., fols. 35vb, 36rab)</item>
+                              <abbr>ፍ፡/ፍቱ</abbr> for
+                                                  <expan>ፍቱሐ፡ </expan> (e.g., fols. 35vb, 36rab)</item>
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 37rb, 40ra)</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 37rb, 40ra)</item>
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 37rb, 40rab)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 37rb, 40rab)</item>
                            <item>
-                              <abbr>ሃ፡/ሃሌ፡</abbr> for <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 76vab, 77rab, 84rab)</item>
+                              <abbr>ሃ፡/ሃሌ፡</abbr> for
+                                                  <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 76vab, 77rab, 84rab)</item>
                            <item>
-                              <abbr>አሜ፡</abbr> for <expan>አሜን፡ </expan> (e.g., fols. 103rb, 103vab)</item>
+                              <abbr>አሜ፡</abbr> for
+                                                  <expan>አሜን፡ </expan> (e.g., fols. 103rb, 103vab)</item>
                            <item>
-                              <abbr>ንስ፡ እ(ግ)፡ አ(በ)፡ ል(ዑ)፡</abbr> for <expan>ንስእለከ፡ እግዚእ፡ አበ፡ ልዑል፡ </expan> (e.g., fols. 107vb, 108rab)</item>
+                              <abbr>ንስ፡ እ(ግ)፡ አ(በ)፡ ል(ዑ)፡</abbr> for
+                                                  <expan>ንስእለከ፡ እግዚእ፡ አበ፡ ልዑል፡ </expan> (e.g., fols. 107vb, 108rab)</item>
                            <item>
-                              <abbr>ምል</abbr> for <expan>ምልጣን </expan> (e.g., fols. 111vab, 112rab)</item>
+                              <abbr>ምል</abbr> for
+                                                  <expan>ምልጣን </expan> (e.g., fols. 111vab, 112rab)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -205,8 +221,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial">Fol. 113ra:</span><span unicode="" style="font-size:10.0pt;line-height:115%;Arial"> Purchase note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 113ra: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4659;&#4840;&#4901;&#4811;&#4961; &#4704;&#4658;&#4632;&#4721;&#4961; &#4616;&#4611;&#4709;&#4720;&#4961; &#4632;&#4757;&#4936;&#4661;&#4677;&#4849;&#4661;&#4961; &#4808;&#4808;&#4648;&#4848;&#4675;&#4621;&#4961; &#4704;&#4877;&#4709;&#4829;&#4752;&#4721;&#4961; &#4616;&#4824;&#4653;&#4819;&#4632;&#4661;&#4672;&#4621;&#4961; &#4672;&#4658;&#4661;&#4961; &#4824;&#4635;&#4613;&#4648;&#4779;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4619;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></span></p></q>
+                        <item xml:id="a1"><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"><locus target="#113ra">Fol. 113ra</locus>:</span><span unicode="" style="font-size:10.0pt;line-height:115%;Arial"> Purchase note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 113ra: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4720;&#4659;&#4840;&#4901;&#4811;&#4961; &#4704;&#4658;&#4632;&#4721;&#4961; &#4616;&#4611;&#4709;&#4720;&#4961; &#4632;&#4757;&#4936;&#4661;&#4677;&#4849;&#4661;&#4961; &#4808;&#4808;&#4648;&#4848;&#4675;&#4621;&#4961; &#4704;&#4877;&#4709;&#4829;&#4752;&#4721;&#4961; &#4616;&#4824;&#4653;&#4819;&#4632;&#4661;&#4672;&#4621;&#4961; &#4672;&#4658;&#4661;&#4961; &#4824;&#4635;&#4613;&#4648;&#4779;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4619;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4675;&#4616;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note states that the Ms. was bought during the tenure of Habtä Mänfäs Qǝddus and Wärädä Qal when priest Zärʿa Mäsqäl was the gäbäz.</p>
                         </item>
@@ -220,7 +235,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -230,6 +245,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible at the spine fold of the quires, close to the head and tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the leather cover (at least 5 tools were used: double line fillet, double circle, cross hatching, interlaced line fillet, small x).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -272,8 +288,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Zärʿa Mäsqäl is mentioned in the supplication formulas, e.g., on fols. 11va, 12rb, 13rb, 68vb, 69ra, 69va, 71rb, 71va. He is also mentioned as the gäbäz in Additio 1.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Zärʿa Mäsqäl is mentioned in the supplication formulas, e.g., on fols. 11va, 12rb, 13rb, 68vb, 69ra, 69va, 71rb, 71va. He is also mentioned as the gäbäz in Additio 1.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -296,9 +312,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-12-01">registered</change>
-         <change who="VR" when="2015-05-26">created</change>
-         <change who="DN" when="2015-06-02">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VR" when="2015-05-26T09:43:46.198Z">created</change>
+         <change who="DN" when="2015-06-02T14:08:06.929Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-09-07</date>
+            <date>2011-09-07T11:01:09.154Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0157DDM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DDM-001</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">146.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">146.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">2.0</measure> blank
+                                                  Fols. 1 and 146., in
+                                                  <measure unit="quire">19.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">34.0</height>
                               <width unit="cm">30.0</width>
@@ -60,6 +63,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">5</dim>
@@ -142,7 +146,7 @@ Tears and holes carefully amended on fols. 58, 61, 62, 69, 78, 145.</condition>
                            <note>All data are for the second page of the first Gospel, recto side (fol. 7r).</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -169,33 +173,27 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 5va: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 5va, l.1:</span> <span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4611;&#4961; &#4707;&#4661;&#4621;&#4846;&#4661;&#4961; &#4808;&#4661;&#4632;&#4961; &#4637;&#4723;&#4961; &#4725;&#4757;&#4641;&#4821;&#4961; &#4808;&#4661;&#4632;&#4961; &#4813;&#4617;&#4851;&#4961; &#4808;&#4621;&#4848;&#4961; &#4778;&#4851;&#4645;&#4821;&#4616;</span><span style="font-size: small;"><span style="line-height: 115%;" sans-serif="" arial="">[sic]</span></span><span style="font-size: large">&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720; &#4925;&#4846;&#4757;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#5va">Fol. 5va</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 5va, l.1:</span> <span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4611;&#4961; &#4707;&#4661;&#4621;&#4846;&#4661;&#4961; &#4808;&#4661;&#4632;&#4961; &#4637;&#4723;&#4961; &#4725;&#4757;&#4641;&#4821;&#4961; &#4808;&#4661;&#4632;&#4961; &#4813;&#4617;&#4851;&#4961; &#4808;&#4621;&#4848;&#4961; &#4778;&#4851;&#4645;&#4821;&#4616;</span><span style="font-size: small;"><span style="line-height: 115%;" sans-serif="" arial="">[sic]</span></span><span style="font-size: large">&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720; &#4925;&#4846;&#4757;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note states that the Ms. was donated by Wälättä Maryam.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fols. 5va-5vb, l. 9: Record concerning reconciliation of priest G&#228;br&#228; Giyorgis and priest G&#228;br&#228; <span style="line-height: 115%;" sans-serif="" arial="">M&#228;d&#7723;&#601;n.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#5va">Fols. 5va-5</locus>vb, l. 9: Record concerning reconciliation of priest G&#228;br&#228; Giyorgis and priest G&#228;br&#228; <span style="line-height: 115%;" sans-serif="" arial="">M&#228;d&#7723;&#601;n.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;">Fol. 5vb, l. 1: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 5vb, l.1:</span> <span style="font-size: large">&#4824;&#4808;&#4616;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4941;&#4652;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4852;&#4651;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4848;&#4674;&#4675;&#4961; &#4808;&#4616;&#4720;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4720;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4757;&#4961; &#4632;&#4653;&#4624;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962;</span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small;"><locus target="#5vb" n="#1">Fol. 5vb, l. 1</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 5vb, l.1:</span> <span style="font-size: large">&#4824;&#4808;&#4616;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4941;&#4652;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4852;&#4651;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4848;&#4674;&#4675;&#4961; &#4808;&#4616;&#4720;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4720;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4757;&#4961; &#4632;&#4653;&#4624;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note states that the Ms. was donated by Fǝre Maryam and her daughters Wälättä ʿAbiyä ʾƎgziʾ and Wälättä Gäbrǝʾel.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;">Fol. 5vb, l. 9: Donation note.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="font-size: small;"><locus target="#5vb" n="#9">Fol. 5vb, l. 9</locus>: Donation note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is a version of Additio 3.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small;">Fol. 112ra: Customary regulations of (the leneage of) Gilawazgi.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a5"><p><span style="font-size: small;"><locus target="#112ra">Fol. 112ra</locus>: Customary regulations of (the leneage of) Gilawazgi.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic, dated to 2 Mäskäräm 1924.</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span style="font-size: small;">Fol. 112rb: Record concerning the office of g&#228;b&#228;z.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a6"><p><span style="font-size: small;"><locus target="#112rb">Fol. 112rb</locus>: Record concerning the office of g&#228;b&#228;z.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic, written in blue ink; perhaps the continuation of Additio 5.</p>
                         </item>
@@ -203,7 +201,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered by tooled reddish-brown leather; textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -213,13 +211,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornaments on the leather cover (at least 5 tools were used: single circle, double line fillet, two types of interlaced fillet, cross-hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0157DDM">Dändera Däbrä Mǝḥrät Mikaʾel / DDM</placeName>
+                        <placeName corresp="INS0157DDM">Dändera Däbrä Mәḥrät Mikaʾel / DDM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">Second half of 19th cent.</origDate>
                   </origin>
@@ -255,8 +254,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The Ms. was donated to the church by Wälättä Maryam (s. Additio 1) and by Fǝre Maryam and her daughters Wälättä ʿAbiyä ʾƎgziʾ and Wälättä Gäbrǝʾel (s. Additio 3, fol. 5vb). &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The Ms. was donated to the church by Wälättä Maryam (s. Additio 1) and by Fǝre Maryam and her daughters Wälättä ʿAbiyä ʾƎgziʾ and Wälättä Gäbrǝʾel (s. Additio 3, fol. 5vb). &#xD;
 However, elsewhere it is said that the Ms. was commissioned by Kǝflä Maryam (the scribe?) and his wife ʾAmätä ʾAb Rǝgbä Dawit (s. supplication formulas in fols. 46ra and 111va, written by the same hand that of the main text).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -284,9 +283,9 @@ However, elsewhere it is said that the Ms. was commissioned by Kǝflä Maryam (t
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-16">registered</change>
-         <change who="SA" when="2011-09-07">created</change>
-         <change who="DN" when="2014-10-30">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2011-09-07T11:01:09.154Z">created</change>
+         <change who="DN" when="2014-10-30T10:18:48.684Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-10-30</date>
+            <date>2013-10-30T15:45:31.743Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0141MM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MM-003</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I is entitled Mäṣḥafä lä-täzkarä mädḫǝn (fol. 3ra l.3-5).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">49.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">49.0</measure> folios, in
+                                                  <measure unit="quire">7.0</measure> quires (A+6). 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">16.5</width>
@@ -106,7 +111,7 @@ Many fols. are worn and affected by water.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -139,8 +144,7 @@ The scribe disregarded the ruling in fols. 8rv, 9rv, 11r, 35v.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 1r: Praising prayer to the Trinity and St. Mary.</span></div><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4768;&#4709;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4808;&#4621;&#4853;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4632;&#4661;&#4672;&#4616;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: normal;"><span style="font-size: small;"><locus target="#1r">Fol. 1r</locus>: Praising prayer to the Trinity and St. Mary.</span></div><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1r: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4768;&#4709;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4808;&#4621;&#4853;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4632;&#4661;&#4672;&#4616;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>In the note, groups of red lines alternate with groups of black lines. It is partly illegible because the ink has faded away.</p>
                         </item>
@@ -157,6 +161,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Tears or small holes are visible in the centre fold of the quires, close to the head and tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 6 tools were used: single line fillet, double circle, small x, x-form, double crescent with eye, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -199,8 +204,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The donor is possibly Gäbrä Mikaʾel (or his family members) mentioned in the concluding supplication formula on fol. 48rb and in the supplication formulas throughout the Ms. (e.g., fols. 4va, 10rb, 22vb). His family members are mentioned in the concluding supplication formula on fol. 48rb. Elsewhere, Wälättä ʿAbiyä ʾƎgziʾ is mentioned (e.g., fols. 12va, 35vb, 39vb). &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The donor is possibly Gäbrä Mikaʾel (or his family members) mentioned in the concluding supplication formula on fol. 48rb and in the supplication formulas throughout the Ms. (e.g., fols. 4va, 10rb, 22vb). His family members are mentioned in the concluding supplication formula on fol. 48rb. Elsewhere, Wälättä ʿAbiyä ʾƎgziʾ is mentioned (e.g., fols. 12va, 35vb, 39vb). &#xD;
 The names have been added in strong crimson ink in a secondary hand.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -225,9 +230,9 @@ The names have been added in strong crimson ink in a secondary hand.</persName>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-11">registered</change>
-         <change who="MK" when="2013-10-30">created</change>
-         <change who="MV" when="2015-05-28">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-10-30T15:45:31.743Z">created</change>
+         <change who="MV" when="2015-05-28T12:50:55.028Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

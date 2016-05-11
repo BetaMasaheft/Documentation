@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-10-28</date>
+            <date>2011-10-28T08:05:57.261Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0171KY"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>KY-011</idno>
                </msIdentifier>
                <msContents>
@@ -47,6 +47,10 @@ Groups of lines on the incipit page of Text I-1; initial lines (alternating with
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Traditional interpretation of the Hebrew letters in Ps. 118 is missing.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -54,7 +58,8 @@ Groups of lines on the incipit page of Text I-1; initial lines (alternating with
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">175.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">175.0</measure> folios, in
+                                                  <measure unit="quire">19.0</measure> quires (A+18). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.0</height>
                               <width unit="cm">15.5</width>
@@ -160,7 +165,7 @@ The outer edge of many fols. is damaged by rodents (with the loss of text, fols.
                            <note>Texts I-1, I-2, I-3: all data are for fol. 16r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/J.</ab>
                            <ab type="pricking">
 Primary pricks are not visible.</ab>
@@ -187,7 +192,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Texts I-4, I-5: all data are for fol. 165r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -208,13 +213,17 @@ The bottom line is written above the ruling.</ab>
                         <date>Late 17th - early 18th century.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>እስ᎓</abbr> for <expan>እስመ᎓ ለዓለም᎓ ምሕረቱ᎓ </expan> (Ps. 135, fols. 130v-131r)</item>
+                              <abbr>እስ᎓</abbr> for
+                                                  <expan>እስመ᎓ ለዓለም᎓ ምሕረቱ᎓ </expan> (Ps. 135, fols. 130v-131r)</item>
                            <item>
-                              <abbr>ስ᎓</abbr> for <expan>ስቡሕኒ᎓ ውእቱ᎓ ወልዑልኒ᎓ ውእቱ᎓ ለዓለም᎓ </expan> (Canticle 10, fols. 152r-153r)</item>
+                              <abbr>ስ᎓</abbr> for
+                                                  <expan>ስቡሕኒ᎓ ውእቱ᎓ ወልዑልኒ᎓ ውእቱ᎓ ለዓለም᎓ </expan> (Canticle 10, fols. 152r-153r)</item>
                            <item>
-                              <abbr>ሰአሊ፡ ለነ፡ ቅድስት፡ “Pray</abbr> for <expan>us, the Holy One!“ is variously abbreviated as ሰ፡ (e. g., fol. 173vb), ሰ፡ ቅ፡ (e. g., fol. 173vb), also as ሰ፡ አ፡ </expan> (e. g., fol. 174ra).</item>
+                              <abbr>ሰአሊ፡ ለነ፡ ቅድስት፡ “Pray</abbr> for
+                                                  <expan>us, the Holy One!“ is variously abbreviated as ሰ፡ (e. g., fol. 173vb), ሰ፡ ቅ፡ (e. g., fol. 173vb), also as ሰ፡ አ፡ </expan> (e. g., fol. 174ra).</item>
                            <item>
-                              <abbr>In Text I-4, refrains</abbr> for <expan>each daily portion are usually abbreviated and rubricated </expan> (s. fols. 164r, 165v, etc.).</item>
+                              <abbr>In Text I-4, refrains</abbr> for
+                                                  <expan>each daily portion are usually abbreviated and rubricated </expan> (s. fols. 164r, 165v, etc.).</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -223,8 +232,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fols. 1v-2r: Hymn in praise of the Virgin Mary (incomplete?).</span></span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-family: Arial;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode=""><locus target="#1v">Fols. 1v-2</locus>r: Hymn in praise of the Virgin Mary (incomplete?).</span></span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Incomplete; crudely written. The prayer is difficult to read, since esp. fols. 1-2 are worn and damaged, with text partly abraided.</p>
                         </item>
@@ -237,7 +245,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (the front board is broken; the back board is missing) covered with reddish-brown tooled leather (mostly missing; only traces of the turn-ins remained on inner side of the front board).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -246,6 +254,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible on the spine fols of the quires, close to the head and tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown tooled leather (at least 1 tool was used: triple line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -288,11 +297,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -313,9 +317,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-02">registered</change>
-         <change who="IF" when="2011-10-28">created</change>
-         <change who="EG" when="2015-02-20">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2011-10-28T08:05:57.261Z">created</change>
+         <change who="EG" when="2015-02-20T15:36:41.459Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

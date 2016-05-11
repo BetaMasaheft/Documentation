@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESmakm025"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäṣḥafä ʾardǝʾǝt “Book of the Disciples” / Mälkǝʾa Gäbrä Mänfäs Qǝddus “Image of Gäbrä Mänfäs Qǝddus”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-12-06</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0174MAKM"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>MAKM-025</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; the name of the owners; the word sälam; several lines on the incipit page of Text I (fol. 4r); the incipit of the daily readings; the word bǝrsabaḥel on fol. 48va; elements of the punctuation signs; elements of Ethiopic numerals.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">62.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">16.5</height>
+                              <width unit="cm">11.0</width>
+                              <depth unit="cm">4.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="1r" to="3v"/>A(3; s.l.: 3, stub before 1/fols. 1r-3v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="4r" to="11v"/> I(8/fols. 4r-11v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="12r" to="19v"/> II(8/fols. 12r-19v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="20r" to="27v"/> III(8/fols. 20r-27v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="28r" to="33v"/> IV(6/fols. 28r-33v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="34r" to="41v"/> V(8/fols. 34r-41v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="42r" to="49v"/> VI(8/fols. 42r-49v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="50r" to="57v"/> VII(8/fols. 50r-57v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">5</dim>
+                                 <locus from="58r" to="62v"/> VIII(5; s.l.: 5, stub before 1/fols. 58r-62v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The Ms. shows signs of extensive use, the lower corners are stained with dirt.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="14">
+                           <dimensions unit="mm">
+                              <height>113</height>
+                              <width>83</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">16</dim>
+                              <dim type="bottom">27</dim>
+                              <dim type="right">15</dim>
+                              <dim type="left">8</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 8r.</note>
+                           <ab type="ruling">19 lines on fol. 58r, 58v</ab>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern:</ab>
+                           <ab>
+1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Fine and regular.</ab>
+                        <seg type="ink">Black; red (strong red).</seg>
+                        <persName role="scribe" corresp="PRS00000">Täklä Haymanot</persName>Täklä Hymannot is mentioned as the scribe on fols. 16rb, 54rb.&#xD;
+&#xD;
+Possibly the same scribe as in Mss. QDS-003, MAKM-060.<date>Late 19th - early 20th cent.</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>– ብ፡</abbr> for <expan>ብሂል፡ </expan> (fols. 10rb-11ra)</item>
+                           <item>
+                              <abbr>– ሀበ፡ እግ፡ በኃ፡ ዝ(ን)፡ አስ፡ ሃይ፡ ርት፡</abbr> for <expan>ሀበነ፡ እግዚኦ፡ በኃይለ፡ ዝንቱ፡ አስማቲከ፡ ሃይማኖተ፡ ርትዕተ፡ </expan> (fols. 18vb-23vb)</item>
+                           <item>
+                              <abbr>– አድ፡ እግ፡ አም፡ በኃ፡ ዝ(ን)፡ አስ፡</abbr> for <expan>አድኀነነ፡ እግዚኦ፡ አምላክነ፡ በኃይለ፡ ዝንቱ፡ አስማቲከ፡ </expan> (fols. 37va-40ra)</item>
+                           <item>
+                              <abbr>– እግዚኦ፡ አሜ፡</abbr> for <expan>እግዚአብሔር፡ አሜን፡ </expan> (fols. 43ra-44ra)</item>
+                           <item>
+                              <abbr>– ለዓለ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን </expan> (fol. 54rb)</item>
+                           <item>
+                              <abbr>– ሰ(ላ)፡</abbr> for <expan>ሰላም፡ </expan> (fols. 54vb-57va)</item>
+                           <item>
+                              <abbr>– (ገብ)፡ መን(ፈ)፡ ቅ(ዱ)፡</abbr> for <expan>ገብረ፡ መንፈስ፡ ቅዱስ </expan> (fols. 54vb-57va)</item>
+                        </list>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fol. 3r: Donation note</span><span unicode="" style="font-size:10.0pt;Arial">.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 3r:</span></span><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4627;&#4941;&#4961; &#4824;&#4768;&#4707;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4824;&#4808;&#4608;&#4707;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4635;&#4840;&#4961; </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4768;&#4757;&#4704;</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4659;</span></span>&#4961; &#4853;&#4709;&#4653;&#4961; &#4872;&#4752;&#4725;&#4961;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note states that Gäbrä Ḥǝywät donated the Ms. to the monastery of May ʾAnbäsa.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fols. 58vb-59r: Donation note.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 58vb:</span></span><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode=""> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4627;&#4941;&#4961; &#4824;&#4768;&#4707;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4824;&#4768;&#4901;&#4648;&#4841;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4968; &#4704;&#4978;&#4987;&#4979;&#4971;&#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4968; &#4808;&#4808;&#4608;&#4707;&#4961; &#4616;&#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4635;&#4840;&#4961; &#4768;&#4757;&#4704;&#4659;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4968;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note states that Gäbrä Ḥǝywät bought the Ms. with his money and donated it to the monastery of May ʾAnbäsa in the year 1930/31 A.D. (the date is misspelled, but can be resonctructed to the year of mercy 1923 = 1930/31 A.D.).</p>
+                        </item>
+                        <item xml:id="e1">- The title ʾArdǝʾǝt has been written in blue paint on the front board.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0174MAKM">May ʾAnbäsa Däbrä Gännät Kidanä Mǝḥrät / MAKM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1850" notAfter="1930">In Additio 2, the date 1923 year of mercy (= 1930/31 A.D.) is given as the date of donation.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>MS. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">In Additiones 1 and 2, ʾabunä Gäbrä Ḥǝywät is mentioned as the donor.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Täklä Haymanot</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Prayers"/>
+               <term key="Magic"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-05-28">registered</change>
+         <change who="SD" when="2013-12-06">created</change>
+         <change who="SH" when="2014-09-22">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

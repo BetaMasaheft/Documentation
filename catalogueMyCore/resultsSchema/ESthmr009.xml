@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-05-20</date>
+            <date>2015-05-20T15:58:27.780Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0194THMR"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>THMR-009</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Fols. 1, 2 are unruled.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">130.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">130.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 130r, 130v, in
+                                                  <measure unit="quire">14.0</measure> quires (A+13). 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">25.0</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Simple decorated quire marks written in the upper left corner of fols. 13r, 23r, 43r, 63r, 73r, 83r, 93r, 103r, 113r, 123r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -137,7 +146,7 @@ Holes or tears amended, e.g., on fols. 14, 23, 24, 44, 64, 65, 69.</condition>
                            <note>All data for fol. 18r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -158,17 +167,23 @@ The bottom line is written above the ruling.</ab>
                         <persName role="scribe" corresp="PRS00000">Ḫaylä ʾIyäsus</persName>Ḫaylä ʾIyäsus is mentioned as the scribe in Additio 1 and in the supplication formulas on fols. 33vb, 95rb, 129va.<date>Late 19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ሃ፡ሃ፡ሃ፡(ሃ፡)</abbr> for <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 9vab, 10rab)</item>
+                              <abbr>ሃ፡ሃ፡ሃ፡(ሃ፡)</abbr> for
+                                                  <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 9vab, 10rab)</item>
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 14ra, 15ra)</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 14ra, 15ra)</item>
                            <item>
-                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 14va, 15ra)</item>
+                              <abbr>ይ፡ ሕ፡</abbr> for
+                                                  <expan>ይበሉ፡ ሕዝብ፡ </expan> (e.g., fols. 14va, 15ra)</item>
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 15vb, 25vab)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 15vb, 25vab)</item>
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ እግዚኦ፡ ለዛቲ፡ ነፍስ፡ </expan> (e.g., fols. 32va)</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ እግዚኦ፡ ለዛቲ፡ ነፍስ፡ </expan> (e.g., fols. 32va)</item>
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 37vab, 38rab)</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 37vab, 38rab)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -177,8 +192,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial">Fol. 129vb: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 129vb: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4941;&#4725;&#4624;&#4725;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4768;&#4705;&#4611;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4773;&#4635;&#4961; &#4619;&#4613;&#4840;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4611;&#4961; &#4608;&#4709;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4877;&#4651;&#4961; &#4768;&#4829;&#4635;&#4733;&#4961; &#4808;&#4656;&#4757;&#4961; &#4808;&#4813;&#4617;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4851;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4962; &#4824;&#4768;&#4925;&#4624;&#4936;&#4726;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4808;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4723;&#4709;&#4653;&#4961; &#4773;&#4757;&#4720;&#4961; &#4725;&#4656;&#4632;&#4845;&#4961; &#4635;&#4845;&#4961; &#4651;&#4827;&#4962;</span></span><span style="line-height: 115%;"> &#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"><locus target="#129vb">Fol. 129vb</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 129vb: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4941;&#4725;&#4624;&#4725;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4768;&#4705;&#4611;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4773;&#4635;&#4961; &#4619;&#4613;&#4840;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4611;&#4961; &#4608;&#4709;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4877;&#4651;&#4961; &#4768;&#4829;&#4635;&#4733;&#4961; &#4808;&#4656;&#4757;&#4961; &#4808;&#4813;&#4617;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4851;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4962; &#4824;&#4768;&#4925;&#4624;&#4936;&#4726;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4808;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4723;&#4709;&#4653;&#4961; &#4773;&#4757;&#4720;&#4961; &#4725;&#4656;&#4632;&#4845;&#4961; &#4635;&#4845;&#4961; &#4651;&#4827;&#4962;</span></span><span style="line-height: 115%;"> &#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note states that Wälättä Mikaʾel donated the book to the church of Maryam Tabǝr (?) which is called May Raza. It also mentions her parents Wäldä Maryam and Lahǝyä Dǝngǝl, her husband gǝra ʾazmač Habtä Śǝllase and her children. The head of the monastery Ḫaylä ʾIyäsus is mentioned as the scribe.</p>
                         </item>
@@ -194,7 +208,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards covered with red leather; textile inlays. &#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -204,6 +218,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible on the spine fold of the quires close to the head and the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the leather cover (at least 7 tools were used: double line fillet, triple line fillet, double sine wave with dots, wave form, x-form, double circle, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -246,8 +261,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Mikaʾel according to Additio 1. She and her family members are also mentioned in the supplication formulas, often written in a secondary hand in reddish-brown ink: Habtä Śǝllase (e.g., fols. 16ra, 24ra, 24vb), Ḫaylä Maryam (fols. 16rb, 24rb, 24vb), Wäldä Maryam (fols. 23vb, 24va, 31ra), Wälättä Mikaʾel (fols. 24rab, 24vb, 50rb, 71vab), Wälättä Maryam (fols. 44rb, 90rb), Wälättä Tǝnśaʾe (fols. 65vb, 78vb), Wälättä Śǝllase (fols. 67vb, 78rb), Lahǝyä Dǝngǝl (fols. 77rb, 78rb, 82vb).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Mikaʾel according to Additio 1. She and her family members are also mentioned in the supplication formulas, often written in a secondary hand in reddish-brown ink: Habtä Śǝllase (e.g., fols. 16ra, 24ra, 24vb), Ḫaylä Maryam (fols. 16rb, 24rb, 24vb), Wäldä Maryam (fols. 23vb, 24va, 31ra), Wälättä Mikaʾel (fols. 24rab, 24vb, 50rb, 71vab), Wälättä Maryam (fols. 44rb, 90rb), Wälättä Tǝnśaʾe (fols. 65vb, 78vb), Wälättä Śǝllase (fols. 67vb, 78rb), Lahǝyä Dǝngǝl (fols. 77rb, 78rb, 82vb).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -273,9 +288,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-12-03">registered</change>
-         <change who="VR" when="2015-05-20">created</change>
-         <change who="DN" when="2015-06-04">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VR" when="2015-05-20T15:58:27.780Z">created</change>
+         <change who="DN" when="2015-06-04T12:28:52.720Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

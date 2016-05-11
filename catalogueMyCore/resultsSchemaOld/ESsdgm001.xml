@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESsdgm001"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾArbaʿtu wängel “Four Gospels”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2015-05-27</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0204SDGM"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>SDGM-001</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; parts of the Canon Tables, numbers of the “tituli”; elements of the punctuation signs, of the text dividers; elements of Ethiopic numerals.&#xD;
+Several groups of lines on the incipit page of Texts I, II, III, IV and V, alternating with black lines; incipit of subsections of Text I; incipit of the chapters and the postscripts of Texts II, III, IV and V.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 147v:</span><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;"> </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4635;&#4653;&#4843;&#4637;&#4961; &#4928;&#4704;&#4619;&#4961; &#4824;&#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4928;&#4704;&#4619;&#4961; &#4982;&#4709;&#4649;&#4653;&#4961; &#4720;&#4659;&#4840;&#4901;&#4811;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4872;&#4704;&#4829;&#4961; &#4676;&#4661;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4976;&#4672;&#4634;&#4661;&#4961; &#4972;&#4808;&#4653;&#4677;&#4961; &#4616;&#4637;&#4853;&#4962; &#4970;&#4901;&#4621;&#4941;&#4961; &#4970;&#4637;&#4757;&#4899;&#4941;&#4961; &#4616;&#4637;&#4853;&#4961; &#4840;&#4938;&#4720;&#4813;&#4651;&#4650;&#4961; &#4739;&#4878;&#4661;&#4961; &#4824;&#4808;&#4611;&#4707;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4920;&#4704;&#4619;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4853;&#4611;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962;</span></span></p><foreign xml:lang="en"/>
+                        <note>The colophon states that the book was written in the year of John, commissioned by gäbäz qes Täklä Giyorgis and donated by fitäwrari Ḫagas to Maryam Ṣäbäla.</note>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">149.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">31.0</height>
+                              <width unit="cm">25.3</width>
+                              <depth unit="cm">9.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="10v"/> I(8/fols. 3r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="11r" to="12v"/> II(2/fols. 11r-12v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="13r" to="20v"/> III(8/fols. 13r-20v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="21r" to="28v"/> ፪IV(8/fols. 21r-28v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="29r" to="36v"/> ፫V(8/fols. 29r-36v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="37r" to="44v"/> ፬VI(8/fols. 37r-44v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="45r" to="53v"/> ፭VII(9; s.l.: 4, stub after 6/fols. 45r-53v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="54r" to="61v"/> ፮VIII(8/fols. 54r-61v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="62r" to="71v"/> ፯IX(10; s.l.: 4, stub after 6; 7, stub after 3/fols. 62r-71v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="72r" to="79v"/> ፰X(8/fols. 72r-79v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="80r" to="87v"/> ፱XI(8/fols. 80r-87v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="88r" to="94v"/> ፲XII(7; s.l.: 2, stub after 6; 3, stub after 5; 6, stub after 2/fols. 88r-94v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="95r" to="102v"/>  ፲፩XIII(8/fols. 95r-102v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="103r" to="110v"/> ፲፪XIV(8/fols. 103r-110v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="111r" to="119v"/> ፲፫XV(9; s.l.: 8, stub after 1/fols. 111r-119v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="120r" to="129v"/> ፲፬XVI(10/fols. 120r-129v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="130r" to="137v"/> ፲፭XVII(8/fols. 130r-137v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="138r" to="147v"/> ፲፮XVIII(10; s.l.: 3, stub after 8; 8, stub after 3/fols. 138r-147v) </item>
+                              <item xml:id="q20">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="148r" to="149v"/> B(2/fols. 148r-149v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The leather cover is torn on the spine and along the lower corner in both boards.&#xD;
+A few leaves are slightly stained with water, esp. in the upper margin corners: e.g., fols. 36v, 133r, 148v.&#xD;
+Fol. 149 is mutilated.&#xD;
+Fol.131 has been enlarged by sewing a piece of parchment onto it.&#xD;
+Tears amended on e.g., fols. 7, 32, 70, 77, 95, 116.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="24">
+                           <dimensions unit="mm">
+                              <height>232</height>
+                              <width>207</width>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">27</dim>
+                              <dim type="bottom">51</dim>
+                              <dim type="right">32</dim>
+                              <dim type="left">14</dim>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <note>All data for fol. 17r.</note>
+                           <ab type="ruling">25 on some fols., e.g. 42v, 55r</ab>
+                           <ab type="pricking">Ruling and pricking are visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                           <ab>
+</ab>
+                           <ab>
+Some leaves have one or two additional bottom ruled lines not used by the scribe (e.g., fols. 45r, 46r, 48r).</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre but careful</ab>
+                        <seg type="ink">Black, red (vivid red, deep rose).</seg>
+                        <date>First third of the 20th century (?).</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ም/ምዕ፡</abbr> for <expan>ምዕራፍ፡ </expan> (e.g., fols. 22rb, 27vb, 39ra, 83va)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fol. 78ra).</item>
+                        </list>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">- Fol. 13r (incipit page of Text II): simple uncoloured ornamental band; crude interlaces.</decoNote>
+                     <decoNote type="frame" xml:id="d2">- Fol. 52v (incipit page of Text III): simple uncoloured ornamental band; crude interlaces.</decoNote>
+                     <decoNote type="frame" xml:id="d3">- Fol. 79r (incipit page of Text IV): simple uncoloured ornamental band; crude interlaces.</decoNote>
+                     <decoNote type="frame" xml:id="d4">- Fol. 118r (incipit page of Text V): simple uncoloured ornamental band; crude interlaces.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 1va: Record concerning reconciliation.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 1va:</span><span style="font-size: large;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4840;&#4768;&#4726;&#4961; &#4757;&#4873;&#4644;&#4961; &#4621;&#4869;&#4961; &#4877;&#4851;&#4848;&#4961; &#4768;&#4635;&#4729;&#4961; &#4632;&#4637;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">[<span style="font-size: large;">&#4613;</span>]</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4652;&#4961; &#4848;&#4661;&#4723;&#4961; &#4840;&#4768;&#4726;&#4961; &#4757;&#4873;&#4644;&#4961; &#4621;&#4869;&#4728;&#4961; &#4653;&#4721;&#4961; &#4633;&#4721;&#4961; &#4720;&#4672;&#4709;&#4616;&#4813;&#4961; &#4658;&#4723;&#4648;&#4673;&#4961; &#4720;&#4621;&#4869;&#4961; &#4632;&#4648;&#4659;&#4875;&#4651;&#4961; &#4704;&#4708;&#4725;&#4961;</span></span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in Amharic and mentions several individual, e.g., ʾato Nǝguśe, ʾato Gäbrä ʾƎgziʾ and others.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 1vb: Record concerning reconciliation.</span></span></p> <p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span lang="IT" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="IT" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 1vb:</span><span lang="IT" style="line-height: 115%; font-family: Nyala;"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4666;&#4635;&#4877;&#4620;&#4961; &#4661;&#4723;&#4648;&#4673;&#4961; &#4840;&#4931;&#4821;&#4848;&#4707;&#4961; &#4752;&#4872;&#4648;&#4961; &#4936;&#4869;&#4961; &#4709;&#4619;&#4723;&#4961; &#4768;&#4653;&#4768;&#4843;&#4961; &#4773;&#4755;&#4961; &#4768;&#4726;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4840;&#4736;&#4826;&#4651;&#4961; &#4752;&#4872;&#4648;&#4961; &#4941;&#4869;&#4961; &#4876;&#4723;&#4813;&#4961; &#4938;&#4723;&#4813;&#4651;&#4650;&#4961; &#4757;&#4873;&#4660;&#4961; &#4840;&#4669;&#4635;&#4877;&#4620;&#4961; &#4896;&#4677;&#4619;&#4845;&#4961; &#4632;&#4637;&#4652;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4650;&#4635;&#4961; &#4972;&#4721;&#4961; &#4669;&#4635;&#4877;&#4620;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in Amharic and mentions several individual, e.g., fitawrari Nǝguse, mäm(h)ǝre Wäldä Gärima, the conciliators mäm(h)ǝre Gäbrä Madḫǝn, ʾato Gäbray, ʾato ʾAbrǝḥa, and others.</p>
+                        </item>
+                        <item xml:id="a3">
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 2ra: </span></span><span style="font-size: small;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Record concerning reconciliation</span></span>.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:" unicode=""></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 2ra: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4621;&#4869;&#4621; &#4704;&#4653;&#4626;&#4961; &#4707;&#4653;&#4843;&#4817;&#4961; &#4851;&#4765;&#4752;&#4720;&#4961; &#4704;&#4632;&#4725;&#4776;&#4621;&#4961; &#4658;&#4776;&#4657;&#4961; &#4768;&#4726;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4704;&#4672;&#4621;&#4675;&#4618;&#4725;&#4961; &#4632;&#4725;&#4776;&#4621;&#4961; &#4616;&#4621;&#4869;&#4961; &#4720;&#4853;&#4619;&#4961; &#4848;&#4661;&#4723;&#4961; &#4704;&#4877;&#4651;&#4961; &#4936;&#4648;&#4661;&#4961; &#4658;&#4723;&#4648;&#4673;&#4961; &#4704;&#4669;&#4635;&#4877;&#4620;&#4961; &#4669;&#4635;&#4877;&#4622;&#4729;&#4961; &#4877;&#4757;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in Amharic; it is dated by 1924 year of mercy (= 1931/32 A.D.) and mentions several individuals, among whom ras Gugsa, perhaps Gugsa ʾArʾaya (1882-1933).</p>
+                        </item>
+                        <item xml:id="a4">
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 2rb: </span></span><span style="font-size: small;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Record concerning reconciliation</span></span> (?).</span></span></p> <p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span lang="EN-GB" unicode="" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 2rb: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4675;&#4757;&#4755;&#4961; &#4808;&#4845;&#4824;&#4654;&#4961; &#4768;&#4704;&#4651;&#4669;&#4961; &#4626;&#4851;&#4649;&#4961; &#4704;&#4632;&#4652;&#4725;&#4961; &#4720;&#4896;&#4621;&#4720;&#4813;&#4961; &#4768;&#4726;&#4961; &#4808;&#4616;&#4853;&#4637;&#4961; &#4709;&#4616;&#4813;&#4961; &#4781;&#4851;&#4811;&#4725;&#4961; &#4752;&#4704;&#4649;&#4961; &#4707;&#4669;&#4845;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4773;&#4755;&#4961; &#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4813;&#4752;&#4725;&#4961; &#4666;&#4670;&#4961; &#4632;&#4652;&#4725;&#4961; &#4725;&#4808;&#4616;&#4848;&#4616;&#4733;&#4961; &#4709;&#4616;&#4813;&#4961; &#4720;&#4936;&#4925;&#4632;&#4811;&#4621;&#4961; &#4704;&#4632;&#4637;&#4624;&#4653;&#4961; &#4709;&#4661;&#4651;&#4725;&#4961; &#4851;&#4765;&#4752;&#4725;&#4961; &#4704;&#4621;&#4817;&#4621;&#4961; &#4651;&#4661;&#4961; &#4873;&#4877;&#4659;&#4961;</span></span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in Amharic; it is dated by 1924 year of mercy (= 1931/32 A.D.) and mentions several individuals, among whom ras Gugsa, perhaps Gugsa ʾArʾaya (1882-1933).</p>
+                        </item>
+                        <item xml:id="a5">
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 2rb: Unclear note.</span></span></p> <p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span lang="AMH" unicode="" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 2rb: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4978;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4637;&#4843;&#4829;&#4843;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4978;&#4987;&#4808;&#4977;&#4987;&#4981;&#4970;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4768;&#4632;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4637;&#4613;&#4648;&#4725;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is crudely written in Amharic in blue pen and is barely legible. It was written on 10 Miyazya 1942 year of mercy (= 5 April 1950 A.D.).</p>
+                        </item>
+                        <item xml:id="a6">
+                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 8rb: </span></span><span style="font-size: small;"><span style="line-height: 115%; font-family: Arial, sans-serif;"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Record concerning reconciliation</span></span> (?).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 8rb: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4901;&#4677;&#4637;&#4722;&#4961; &#4974;&#4672;&#4757;&#4961; &#4981;&#4975;&#4819;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4773;&#4755;&#4961; &#4768;&#4726;&#4961; &#4808;&#4648;&#4656;&#4961; &#4709;&#4649;&#4961; &#4970;&#4755;&#4961; &#4808;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">[<span style="font-size: large;">&#4845;</span>]<span style="font-size: large;">&#4824;&#4654;&#4961; &#4720;&#4768;&#4637;&#4651;&#4725;&#4961; &#4709;&#4649;&#4961; &#4672;&#4653;&#4704;&#4813;&#4961;</span> </span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is crudely written in strong purple ink in Amharic. It is dated by 6 Ṭǝqǝmt 1947 year of mercy (= 3 October 1954 A.D.).</p>
+                        </item>
+                        <item xml:id="a7">
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 52ra: </span></span><span style="font-size: small;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Record concerning reconciliation</span></span>.</span></span></p> <p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span lang="EN-GB" unicode="" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 52ra: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4840;&#4768;&#4648;&#4755;&#4961; &#4840;&#4920;&#4768;&#4848;&#4707;&#4961; &#4656;&#4707;&#4733;&#4961; &#4669;&#4635;&#4877;&#4620;&#4961; &#4851;&#4763;&#4728;&#4813;&#4961; &#4877;&#4651;&#4829;&#4635;&#4733;&#4961; &#4739;&#4845;&#4617;&#4961; &#4843;&#4726;&#4961; &#4608;&#4880;&#4661;&#4961; &#4773;&#4755;&#4961; &#4843;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4611;&#4756;&#4723;&#4961; &#4768;&#4709;&#4653;&#4611;&#4961; &#4843;&#4726;&#4961; &#4778;&#4851;&#4753;&#4961; &#4773;&#4755;&#4961; &#4843;&#4726;&#4961; &#4656;&#4709;&#4630;&#4961; &#4667;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in Amharic and mentions several individuals, e.g., grazmač Ḫaylu, ʾato Hagwäs, ʾato Gäbrä Śǝllase, ʾato Kidanu, šaläqa Gäbrä Mäsqäl and others.</p>
+                        </item>
+                        <item xml:id="a8">
+                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 52ra-b: </span></span><span style="font-size: small;"><span style="font-family: Arial, sans-serif;"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Record concerning reconciliation</span></span>.</span></span></p> <p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span lang="EN-GB" unicode="" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 52ra:</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4977;&#4672;&#4757;&#4961; &#4877;&#4757;&#4710;&#4725;&#4961; &#4980;&#4977;&#4768;&#4632;&#4961; &#4776;&#4707;&#4669;&#4961; &#4872;&#4709;&#4648;&#4770;&#4840;&#4657;&#4661;&#4961; &#4720;&#4619;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">[<span style="font-size: large;">&#4845;</span>]<span style="font-size: large;">&#4808;&#4725;&#4961; &#4736;&#4849;&#4873;&#4961; &#4752;&#4872;&#4648;&#4961; &#4941;&#4869;&#4961; &#4872;&#4709;&#4648;&#4770;&#4840;</span>[<span style="font-size: large;">&#4657;&#4661;</span><span style="font-size: large;">&#4961;</span>] <span style="font-size: large;">&#4720;&#4619;&#4961;</span> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is crudely written in blue pen in Amharic. It is dated 9 Gǝnbot 1939 (= 4 May 1947 A.D.) and mentions several individuals, e.g., Gäbrä ʾIyäsus and Gäbrä Ḥǝw(y)ät.</p>
+                        </item>
+                        <item xml:id="a9">
+                           <locus/><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 148ra: </span><span style="font-family: Arial, sans-serif; font-size: 10pt;"><span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Record concerning reconciliation</span></span>.</span></p> <p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span lang="EN-GB" unicode="" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 148ra: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4978;&#4987;&#4980;&#4970;&#4768;&#4632;&#4720;&#4961; &#4637;&#4613;&#4648;&#4725;&#4961; &#4635;&#4829;&#4843;&#4961; &#4970;&#4672;&#4757;&#4961; &#4632;&#4653;&#4840;&#4725;&#4961; &#4848;&#4621;&#4675;&#4961; &#4843;&#4707;&#4724;&#4961; &#4923;&#4853;&#4677;&#4961; &#4616;&#4720;&#4709;&#4653;&#4611;&#4757;&#4961; &#4720;&#4808;&#4621;&#4868;&#4961; &#4653;&#4661;&#4720;&#4845;&#4961; &#4808;&#4621;&#4868;&#4961; &#4704;&#4667;&#4845;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4757;&#4661;&#4961; &#4720;&#4661;&#4939;&#4845;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is crudely written in Amharic and it is dated by 2 Miyazya 1932 year of mercy (= 28 March 1940 A.D.). It concludes with a fingerprint.</p>
+                        </item>
+                        <item xml:id="a10">
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 148v: List of guarantors (?).</span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>The note is written in Amharic and is partly illegible due to faded ink.</p>
+                        </item>
+                        <item xml:id="a11">
+                           <locus/><p style="margin-bottom: 0.0001pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-GB" style="font-family: Arial, sans-serif;">Fol. 149v: List of guarantors (?).</span></span><span lang="EN-GB" unicode="" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 149b:</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4840;&#4709;&#4653;&#4664;&#4961; &#4811;&#4741;&#4661;&#4961; &#4757;&#4667;&#4845;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4797;&#4616;&#4724;&#4961; &#4720;&#4896;&#4616;&#4621;&#4941;&#4811;&#4621;&#4961; &#4840;&#4632;&#4648;&#4659;&#4961; &#4811;&#4661;&#4961; &#4851;&#4661;&#4843;&#4961; &#4819;&#4845;&#4756;&#4962; &#4840;&#4808;</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">[<span style="font-size: large;">&#4757;</span>]<span style="font-size: large;">&#4853;&#4633;&#4961; &#4840;&#4624;&#4878;&#4661;&#4961; &#4811;&#4661;&#4961; &#4632;&#4648;&#4659;&#4961; &#4840;&#4720;&#4661;&#4939;&#4845;&#4961; &#4811;&#4661;&#4961; &#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4962; &#4840;&#4648;&#4851;&#4961; &#4811;&#4661;&#4961; &#4709;&#4649;&#4961; &#4720;&#4661;&#4939;&#4845;&#4962; &#4840;&#4768;&#4726;&#4961; &#4851;&#4661;&#4723;&#4961;</span> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in red ink in Amharic and lists a number of guarantors for several individuals.</p>
+                        </item>
+                        <item xml:id="e1">- Tämälläs-sign, in the shape of two perpendicular lines (┴), indicating the place where the omissions, written in the upper margin, belong: fols. 80ra, 124va.&#xD;
+- Omitted letters or words inserted interlineally in the main hand: e.g., fols. 20ra, 25rb, 49va, 76rb, 107vb, 139ra.&#xD;
+- Erasures: e.g., fols. 13rb, 21va, 40ra, 81ra, 105vb, 133va.&#xD;
+- Corrections written over erasures in the main hand: e.g., fols. 16ra, 19rb, 82rb, 114vb, 135rb.&#xD;
+- Immediate corrections indicated by series of dashes above and below the letter, the word or the sentence: e.g., fols. 16ra, 23va, 48va, 71vb, 96ra.&#xD;
+- Correction inserted interlineally in a secondary hand in violet ink: fol. 118ra.&#xD;
+- Lacunae (spaces for rubricated numbers left unfilled): e.g., fols. 86ra, 87ra.&#xD;
+- Pen trial on fol. 2ra.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of the endband stitches at the spine cover.&#xD;
+Small holes are partly visible on the spine fold of the quires, close to the tail of the codex.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0204SDGM">Ṣäbäla Däbrä Gännät Maryam / SDGM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1900" notAfter="1932">Additiones 3 and 4 have been written in 1924 year of mercy (= 1931/32 A.D.).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">The colophon mentions gäbäz qes Täklä Giyorgis as the commissioner and fitäwrari Ḫagos as the donor the book to Maryam Ṣäbäla.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="NewTestament"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+            <language ident="am" xml:id="Lan01">Amharic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-12-08">registered</change>
+         <change who="MV" when="2015-05-27">created</change>
+         <change who="DN" when="2015-06-10">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

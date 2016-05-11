@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä krǝstǝnna “Book of the Christening”</title>
+            <title>Mäṣḥafä krәstәnna “Book of the Christening”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-05-28</date>
+            <date>2013-05-28T14:28:37.416Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0103AKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AKM-005</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,10 @@ On the incipit page of Text I (fol. 2r), a few lines are rubricated (alternating
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I is called Mäṣḥafä ṭәmqät in the incipit (fol. 2r) and in Additio 1.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +56,10 @@ On the incipit page of Text I (fol. 2r), a few lines are rubricated (alternating
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">38.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">38.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r, 37v, 38r-v., in
+                                                  <measure unit="quire">6.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">11.2</width>
@@ -106,7 +113,7 @@ Fol. 1 has been composed of two pieces of parchment.</condition>
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: </ab>
                            <ab>
 1A-1A/0-0/0-0/C. </ab>
@@ -143,17 +150,16 @@ The bottom ruled line was not used by the scribe in fols. 11r, 18r, 28r, 30r, 32
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 1v: Donation note.</p><q xml:lang="gez"><p>Fol. 1v: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4901;&#4637;&#4672;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4768;&#4726;&#4961; &#4720;&#4635;&#4753;&#4961; &#4808;&#4661;&#4632;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4613;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4707;&#4629;&#4653;&#4840;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4848;&#4709;&#4648;&#4961; &#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4824;&#4768;&#4757;&#4704;&#4656;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4739;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><locus target="#1v">Fol. 1v</locus>: Donation note.</p><q xml:lang="gez"><p>Fol. 1v: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4901;&#4637;&#4672;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4768;&#4726;&#4961; &#4720;&#4635;&#4753;&#4961; &#4808;&#4661;&#4632;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4613;&#4757;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4707;&#4629;&#4653;&#4840;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4848;&#4709;&#4648;&#4961; &#4768;&#4705;&#4752;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4824;&#4768;&#4757;&#4704;&#4656;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4739;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p>Written in the main hand. The note mentions the donor, ʾato Tämanu and his baptismal name Gäbrä Mädhǝn. His father Baḥrǝyä Śǝllase is also mentioned. The note reports also that the Ms. was donated to the church of Däbrä ʾAbunä Libanos ʾAnbäsät.</p>
+                           <p>Written in the main hand. The note mentions the donor, ʾato Tämanu and his baptismal name Gäbrä Mädhәn. His father Baḥrәyä Śәllase is also mentioned. The note reports also that the Ms. was donated to the church of Däbrä ʾAbunä Libanos ʾAnbäsät.</p>
                         </item>
-                        <item xml:id="e1">- The word wä-zälǝfäni “and also perpetually” is written in the upper margin in fol. 37r.&#xD;
+                        <item xml:id="e1">- The word wä-zälәfäni “and also perpetually” is written in the upper margin in fol. 37r.&#xD;
 - Pen trials in pencil in fols. 37v, 38r.</item>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (the back board is broken).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -161,6 +167,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -203,8 +210,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ʾato Tämanu (baptismal name Gäbrä Mädhǝn) is mentioned as the donor in Additio 1. His father Baḥrǝyä Śǝllase is also mentioned.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ʾato Tämanu (baptismal name Gäbrä Mädhәn) is mentioned as the donor in Additio 1. His father Baḥrәyä Śәllase is also mentioned.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -227,9 +234,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-20">registered</change>
-         <change who="SA" when="2013-05-28">created</change>
-         <change who="AA" when="2014-06-11">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-05-28T14:28:37.416Z">created</change>
+         <change who="AA" when="2014-06-11T12:21:33.553Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

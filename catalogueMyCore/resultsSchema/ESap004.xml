@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-09</date>
+            <date>2013-07-09T08:08:27.295Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0030AP"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AP-004</idno>
                   <altIdentifier>
                      <idno>C3-IV-12 (fol. 61r)</idno>
@@ -54,7 +54,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">122.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">122.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  fols.: 1r-2v, 61vb, 124rb, 124v., in
+                                                  <measure unit="quire">17.0</measure> quires ((A+16)). 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">20.0</width>
@@ -138,7 +141,7 @@ Holes or tears amended on fols. 1, 19, 55, 82, 87, 111, 113.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -173,8 +176,7 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size:9.0pt;Arial" unicode="">Fol. 61va: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 61va:</span></span><span unicode="" style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4709;&#4616;&#4723;&#4961; &#4779;&#4613;&#4643;&#4845;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961;&#160;&#4824;&#4808;&#4608;&#4704;&#4961;&#160;&#4616;&#4632;&#4677;&#4848;&#4656;&#4961;&#160;&#4912;&#4651;&#4677;&#4618;&#4902;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size:9.0pt;Arial" unicode=""><locus target="#61va">Fol. 61va</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 61va:</span></span><span unicode="" style="font-size:9.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4709;&#4616;&#4723;&#4961; &#4779;&#4613;&#4643;&#4845;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961;&#160;&#4824;&#4808;&#4608;&#4704;&#4961;&#160;&#4616;&#4632;&#4677;&#4848;&#4656;&#4961;&#160;&#4912;&#4651;&#4677;&#4618;&#4902;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>According to the note, Gäbrä ʾArägawi donated the Ms. to the church. Also his family members are mentioned.</p>
                         </item>
@@ -185,7 +187,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.&#xD;
 Two pairs of chains of endband stitches (or their traces) through the spine cover.</decoNote>
@@ -195,6 +197,7 @@ Two pairs of chains of endband stitches (or their traces) through the spine cove
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 5 tools were used: single fillet, double circle, double sine wave, criss-cross, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -237,8 +240,8 @@ Two pairs of chains of endband stitches (or their traces) through the spine cove
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, Gäbrä ʾArägawi donated the Ms. to the church. He and his family members are mentioned in the supplication formulas throughout the Ms.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, Gäbrä ʾArägawi donated the Ms. to the church. He and his family members are mentioned in the supplication formulas throughout the Ms.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -264,9 +267,9 @@ Two pairs of chains of endband stitches (or their traces) through the spine cove
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-03">registered</change>
-         <change who="SH" when="2013-07-09">created</change>
-         <change who="EG" when="2014-08-01">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-07-09T08:08:27.295Z">created</change>
+         <change who="EG" when="2014-08-01T11:16:34.875Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

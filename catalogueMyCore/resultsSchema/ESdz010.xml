@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gǝbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-06-13</date>
+            <date>2013-06-13T15:04:35.209Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0034DZ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DZ-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">203.0</measure> folios, in <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">203.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 2v., in
+                                                  <measure unit="quire">26.0</measure> quires ((A+25)). 
                                                 <dimensions type="outer">
                               <height unit="cm">31.5</height>
                               <width unit="cm">26.5</width>
@@ -60,6 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Undecorated quire marks on fols. 3r, 11r, 17r, 27r, 35r, 44r, 52r; decorated quire marks on fols. 60r, 68r, 76r, 84r, 92r, 100r, 108r, 116r, 124r, 132r, 140r, 148r, 156r, 165r, 173r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -163,7 +168,7 @@ Fols. 110, 113 are cut at the bottom corner.</condition>
                            <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -187,26 +192,28 @@ The bottom line is written above the ruling.</ab>
                            <item>ይካ፡ for ይብል፡ ካህን፡</item>
                            <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
                            <item>
-                              <abbr>ናስ፡</abbr> for <expan>ናስተበቊዕከ፡ </expan> (Text I-7)</item>
+                              <abbr>ናስ፡</abbr> for
+                                                  <expan>ናስተበቊዕከ፡ </expan> (Text I-7)</item>
                            <item>
-                              <abbr>ሰ፡ ለ፡/ሰ፡</abbr> for <expan>ሰአሊ፡ ለነ፡ (ቅድስት፡ ?) </expan> (Additio 1)</item>
+                              <abbr>ሰ፡ ለ፡/ሰ፡</abbr> for
+                                                  <expan>ሰአሊ፡ ለነ፡ (ቅድስት፡ ?) </expan> (Additio 1)</item>
                            <item>
-                              <abbr>አ፡</abbr> for <expan>አወ፡ </expan> (Additio 2)</item>
+                              <abbr>አ፡</abbr> for
+                                                  <expan>አወ፡ </expan> (Additio 2)</item>
                            <item>
-                              <abbr>አ፡ ወወ፡ ወ፡</abbr> for <expan>አብ፡ ወወልድ፡ ወመንፈስ፡ ቅድስ፡ </expan> (Additio 2)</item>
+                              <abbr>አ፡ ወወ፡ ወ፡</abbr> for
+                                                  <expan>አብ፡ ወወልድ፡ ወመንፈስ፡ ቅድስ፡ </expan> (Additio 2)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting is characterized by letters of small size; the width of the letters is larger than their height.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 2r: Unidentified säläm-hymn for St. Mary (?).</span></p> <div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal"><span style="font-size: small;"> </span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2r: </span></span><span style="font-size: large;"><span style="line-height: 115%;">ርግብ፡ ሰላማዊት፡ ወንጽር፡ መንፈስዊት፡ ሰ፡ ለ፡ በሥምረተ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ሰ፡ ለ፡ እምትካት፡ የኀረየኪ፡ ሰ፡ ለ፡ በኵሉ፡ ጊዜ፡ ጽልዮተኪ፡ በጽሐ፡ ከመ፡ ኢይሙት፡ ገብርኪ፡</span><span style="line-height: 115%;">…</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#2r">Fol. 2r</locus>: Unidentified säläm-hymn for St. Mary (?).</span></p> <div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal"><span style="font-size: small;"> </span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2r: </span></span><span style="font-size: large;"><span style="line-height: 115%;">ርግብ፡ ሰላማዊት፡ ወንጽር፡ መንፈስዊት፡ ሰ፡ ለ፡ በሥምረተ፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ፡ ሰ፡ ለ፡ እምትካት፡ የኀረየኪ፡ ሰ፡ ለ፡ በኵሉ፡ ጊዜ፡ ጽልዮተኪ፡ በጽሐ፡ ከመ፡ ኢይሙት፡ ገብርኪ፡</span><span style="line-height: 115%;">…</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written by the same hand as that of Additio 2 (same as that of the main text?), in one column.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 204v: Unidentified text.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 204v:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">ኦእግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ወልድ፡ ዋህድ፡ ቃለ፡ እግዚአብሔር። አብ፡ ዘበተከ፡ እምኔነ፡ ኵሎ፡ ማዕሠ(ረ</span><span style="line-height: 115%;">)</span><span style="line-height: 115%;">፡ ኃጣውኢነ፡ በሕማማቲከ፡ መኅየዊት፡ ወመድኀኒት፡ ዘነፋሕከ፡ ላዕለ፡ ገጸ፡ አርዳኢከ፡ ቅዱሳን፡ ወላዕከኒከ፡ ንጹሐን፡ ወትቤሎሙ፡ ንሥኡ፡ መንፈስ፡ ቅዱስ፡ ሰእለ፡ ኃደግሙ፡ ለሰብእ፡ ኀጢአተ።</span><span style="line-height: 115%;">…</span><span style="line-height: 115%;"> </span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#204v">Fol. 204v</locus>: Unidentified text.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 204v:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">ኦእግዚእየ፡ ኢየሱስ፡ ክርስቶስ፡ ወልድ፡ ዋህድ፡ ቃለ፡ እግዚአብሔር። አብ፡ ዘበተከ፡ እምኔነ፡ ኵሎ፡ ማዕሠ(ረ</span><span style="line-height: 115%;">)</span><span style="line-height: 115%;">፡ ኃጣውኢነ፡ በሕማማቲከ፡ መኅየዊት፡ ወመድኀኒት፡ ዘነፋሕከ፡ ላዕለ፡ ገጸ፡ አርዳኢከ፡ ቅዱሳን፡ ወላዕከኒከ፡ ንጹሐን፡ ወትቤሎሙ፡ ንሥኡ፡ መንፈስ፡ ቅዱስ፡ ሰእለ፡ ኃደግሙ፡ ለሰብእ፡ ኀጢአተ።</span><span style="line-height: 115%;">…</span><span style="line-height: 115%;"> </span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Note on how Jesus broke the bounds of sins by means of His Passion, and how He blew upon the apostles and ministers faces the Holy Spirit, in order to redeem mankind from sins. The same hand as that of Additio 1 (the same as that of the main text?).</p>
                         </item>
@@ -223,7 +230,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
 Two pairs of sewing stations.&#xD;
 Two pairs of chains of endbands stitches through the spine cover.</decoNote>
@@ -234,6 +241,7 @@ Two pairs of chains of endbands stitches through the spine cover.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover and turn-ins (at least 5 tools were used: triple line fillet, double circle, double crescent, cross hatching, double sine wave with dots).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -276,11 +284,6 @@ Two pairs of chains of endbands stitches through the spine cover.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -300,9 +303,9 @@ Two pairs of chains of endbands stitches through the spine cover.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-06">registered</change>
-         <change who="IR" when="2013-06-13">created</change>
-         <change who="EG" when="2014-04-25">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IR" when="2013-06-13T15:04:35.209Z">created</change>
+         <change who="EG" when="2014-04-25T09:10:42.568Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

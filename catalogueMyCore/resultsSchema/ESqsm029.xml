@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-08-08</date>
+            <date>2012-08-08T14:32:17.223Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0049QSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QSM-029</idno>
                </msIdentifier>
                <msContents>
@@ -52,7 +52,8 @@ Two groups of lines on the incipit page.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">101.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">101.0</measure> folios, in
+                                                  <measure unit="quire">14.0</measure> quires (A+12+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.2</height>
                               <width unit="cm">13.0</width>
@@ -61,6 +62,8 @@ Two groups of lines on the incipit page.</rubric>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written in the middle of the upper margin of fols.: 21r, 29r, 39r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -129,7 +132,7 @@ Holes are carefully amended on fols. 2, 49.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -149,17 +152,15 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red (strong vermilion)</seg>
                         <persName role="scribe" corresp="PRS00000">Gäbrä ʾƎgziʾabǝḥer</persName>According to Additio 2, the Ms. was written by ʾabunä Gäbrä ʾƎgziʾabǝḥer.<date>19th century (?)</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Horizontal elements of letters are extended by hairlines.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 2v: Purchase note.</span></div><q xml:lang="gez"/>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#2v">Fol. 2v</locus>: Purchase note.</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in Amharic. The letters are blurred and hardly legible.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fols. 99vb-100r: Donation note.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 99vb-100r: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4845;&#4824;&#4654;&#4961; &#4779;&#4613;&#4659;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4611;&#4961; &#4704;&#4648;&#4776;&#4720;&#4961; &#4768;&#4709;&#4961; &#4661;&#4632;&#4961; &#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4773;&#4609;&#4611;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4768;&#4709;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; <span style="font-size: small"><span style="font-family: Arial">[fol.10ra]</span></span> &#4672;&#4653;&#4757;&#4961; &#4656;&#4704;&#4653;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4757;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4829;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4936;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962;</span> <span style="font-size: large"><span style="line-height: 115%">&#4632;&#4637;&#4652;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4773;&#4848;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4704;&#4648;</span></span><span style="line-height: 115%; font-size: 14pt">&#4961; </span><span style="font-size: large"><span style="line-height: 115%">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962;</span></span></div></q>
+                        <item xml:id="a2"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#99vb">Fols. 99vb-100</locus>r: Donation note.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 99vb-100r: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4845;&#4824;&#4654;&#4961; &#4779;&#4613;&#4659;&#4961; &#4661;&#4632;&#4961; &#4768;&#4705;&#4611;&#4961; &#4704;&#4648;&#4776;&#4720;&#4961; &#4768;&#4709;&#4961; &#4661;&#4632;&#4961; &#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4773;&#4609;&#4611;&#4961; &#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4768;&#4709;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; <span style="font-size: small"><span style="font-family: Arial">[fol.10ra]</span></span> &#4672;&#4653;&#4757;&#4961; &#4656;&#4704;&#4653;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4757;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4829;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4936;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962;</span> <span style="font-size: large"><span style="line-height: 115%">&#4632;&#4637;&#4652;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4773;&#4848;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4704;&#4648;</span></span><span style="line-height: 115%; font-size: 14pt">&#4961; </span><span style="font-size: large"><span style="line-height: 115%">&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962;</span></span></div></q>
                            <q xml:lang="en"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fols. 99vb-100r: This book is of w&#228;yz&#228;ro Kahsa and&#160;the name of her father (is)&#160;B&#228;r&#228;k&#228;t&#228; &#704;Ab, the name of her mother W&#228;l&#228;tt&#228; M&#228;d&#7723;&#601;n and her brother M&#228;ng&#601;&#347;t&#228; &#704;Ab, which she donated to the tabot of Mika&#704;el <span style="font-family: Arial">[fol. 10ra] </span>of Q&#228;rn S&#228;b&#228;r, so that it might be her guide to the Kingdom of Heavens; may be condemned by the mouth of Peter who stole it or erased it. </span><span style="font-size: small"><span style="line-height: 115%">M</span><span style="line-height: 115%">&#228;mre</span><span style="line-height: 115%">T&#228;kl&#228; Haymanot caused the book to be written by the hand of </span><span style="line-height: 115%">&#704;abun&#228; G&#228;br&#228; &#704;&#398;gzi</span><span style="line-height: 115%">&#704;</span><span style="line-height: 115%">ab&#601;&#7717;er.</span></span></div></q>
                            <p>The note mentions the donor wäyzäro Kahsa and members of her family. Also, it includes the name of the scribe ʾabunä Gäbrä ʾƎgziʾabǝḥer and mämre Täklä Haymanot, who commissioned the writing. Written in the same hand as the main text.</p>
                         </item>
@@ -168,7 +169,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with dark brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -177,6 +178,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endbands stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark brown leather cover (5 tools were used: fourfold line fillet, double circle, small x, braid, interlaced line fillet)</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -219,8 +221,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The donor is wäyzäro Kahsa mentioned in Additio 2. Wälättä Ṣadqan, most probably the baptismal name of wäyzäro Kahsa, is mentioned in the supplication formulas.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The donor is wäyzäro Kahsa mentioned in Additio 2. Wälättä Ṣadqan, most probably the baptismal name of wäyzäro Kahsa, is mentioned in the supplication formulas.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -247,9 +249,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-18">registered</change>
-         <change who="MK" when="2012-08-08">created</change>
-         <change who="DN" when="2014-06-24">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-08-08T14:32:17.223Z">created</change>
+         <change who="DN" when="2014-06-24T10:45:32.176Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

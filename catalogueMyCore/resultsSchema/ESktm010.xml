@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-10-31</date>
+            <date>2013-10-31T13:21:38.650Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0137KTM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>KTM-010</idno>
                </msIdentifier>
                <msContents>
@@ -46,6 +46,11 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Ps. 1 is preceded by a few lines from the Mäzmurä dǝngǝl “Psalter of the Virgin”: ነዓ፡ ኀቤየ፡ ንጉሠ፡ እስራኤል። በዓለ፡ መዝሙር፡ ሠናይ፡ ወጥዑመ፡ ቃል።...</note>
+                     <note>- Ps. 118 is not numbered.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -53,7 +58,10 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">152.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">152.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  3v, 4v, in
+                                                  <measure unit="quire">10.0</measure> quires (A+9). 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">12.5</width>
@@ -124,7 +132,7 @@ Tear careful amended on fol. 21r.</condition>
                            <note>Texts I-1, I-2, I-3: all data are for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -151,7 +159,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Texts I-4, I-5: all data are for fol. 138r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -178,23 +186,19 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p style="text-align: justify"><span style="font-size: small">Fol. 2r: List of the feasts dedicated to St. Mary.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 2r:</span> <span style="font-size: large">&#4741;&#4621;&#4680;&#4961; &#4704;&#4768;&#4619;&#4722;&#4611;&#4961; &#4616;&#4773;&#4877;&#4829;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;...</span></p></q>
+                        <item xml:id="a1"><p style="text-align: justify"><span style="font-size: small"><locus target="#2r">Fol. 2r</locus>: List of the feasts dedicated to St. Mary.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 2r:</span> <span style="font-size: large">&#4741;&#4621;&#4680;&#4961; &#4704;&#4768;&#4619;&#4722;&#4611;&#4961; &#4616;&#4773;&#4877;&#4829;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;...</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the same hand as Additiones 2 and 3.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small">Fol. 2r-v: List of the feasts dedicated to the Apostles.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 2r: </span><span style="font-size: large">&#4808;&#4779;&#4821;&#4704;&#4961; &#4773;&#4925;&#4629;&#4941;&#4961; &#4629;&#4621;&#4680;&#4961; &#4704;&#4819;&#4619;&#4722;&#4614;&#4633;&#4961; &#4616;&#4624;&#4811;&#4653;&#4843;&#4725;&#4961;&#8230;</span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><locus target="#2r">Fol. 2r</locus>-v: List of the feasts dedicated to the Apostles.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 2r: </span><span style="font-size: large">&#4808;&#4779;&#4821;&#4704;&#4961; &#4773;&#4925;&#4629;&#4941;&#4961; &#4629;&#4621;&#4680;&#4961; &#4704;&#4819;&#4619;&#4722;&#4614;&#4633;&#4961; &#4616;&#4624;&#4811;&#4653;&#4843;&#4725;&#4961;&#8230;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the same hand as Additiones 1 and 3.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p style="text-align: justify"><span style="font-size: small">Fol. 2v: Genealogy starting with a certain G&#228;br&#228; Kr&#1241;stos.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 2v: </span><span style="font-size: large">&#4629;&#4621;&#4680;&#4961; &#4725;&#4808;&#4621;&#4853;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;...</span></p></q>
+                        <item xml:id="a3"><p style="text-align: justify"><span style="font-size: small"><locus target="#2v">Fol. 2v</locus>: Genealogy starting with a certain G&#228;br&#228; Kr&#1241;stos.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 2v: </span><span style="font-size: large">&#4629;&#4621;&#4680;&#4961; &#4725;&#4808;&#4621;&#4853;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;...</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in Amharic, in the same hand as Additiones 1 and 2.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p style="text-align: justify"><span style="font-size: small">Fol. 152v: Genealogy of an unknown person starting from King Solomon of Israel and M&#1241;nil&#1241;k I.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p style="text-align: justify"><span style="font-size: small"><locus target="#152v">Fol. 152v</locus>: Genealogy of an unknown person starting from King Solomon of Israel and M&#1241;nil&#1241;k I.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in Amharic. The first name in the genealogy has been erased.</p>
                         </item>
@@ -211,7 +215,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -221,13 +225,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 6 tools were used: single line fillet, double line fillet, double circle, cross hatching, double sine wave with dots, criss-cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0137KTM">Kädiḥ Däbrä Täwaḥǝdo Qǝddǝst Maryam / KTM</placeName>
+                        <placeName corresp="INS0137KTM">Kädiḥ Däbrä Täwaḥәdo Qәddәst Maryam / KTM</placeName>
                      </origPlace>
                      <origDate notBefore="1900" notAfter="1950">First half of the 20th cent.</origDate>
                   </origin>
@@ -263,11 +268,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -288,9 +288,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-17">registered</change>
-         <change who="SA" when="2013-10-31">created</change>
-         <change who="MK" when="2014-07-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-10-31T13:21:38.650Z">created</change>
+         <change who="MK" when="2014-07-09T13:28:19.125Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

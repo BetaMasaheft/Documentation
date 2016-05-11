@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESmac006"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Pauline Epistles</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-06-25</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0121MAC"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>MAC-006</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>A few lines on the incipit pages of Texts I and III, three or two lines alternating with black lines on the incipit pages of all other texts (incipit of Text XIV is of different tone), incipits of sections, the word kǝfl "section" and partly section numbers; elements of the punctuation signs and of the text dividers; elements of Ethiopic numerals.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">156.0</measure> folios, in <measure unit="quire"/> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">23.6</height>
+                              <width unit="cm">20.0</width>
+                              <depth unit="cm">11.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">The quire structure cannot be identified due to the poor condition of the Ms.&#xD;
+The last two fols. originate from a different, older codex.</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">Both boards probably originate from a different codex (the back board is broken and crudely repaired). &#xD;
+The Ms. has been crudely resewn, the original sewing is missing.&#xD;
+Many fols. are missing, many are misplaced. &#xD;
+Many fols. are heavily damaged by water (partly with the loss of text).&#xD;
+Parchment guards reinforcing the first and last quires are made of parchment leaves originating from a different Ms.&#xD;
+Holes or tears amended on fols. 8v, 20, 52, 74, 85.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="18">
+                           <dimensions unit="mm">
+                              <height>158</height>
+                              <width>154</width>
+                              <dim type="intercolumn">14</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">30</dim>
+                              <dim type="bottom">48</dim>
+                              <dim type="right">33</dim>
+                              <dim type="left">13</dim>
+                              <dim type="intercolumn">14</dim>
+                           </dimensions>
+                           <note>All data are for fol. 3r.</note>
+                           <ab type="ruling">Number differs from 18 (fol. 3ra) to 22 (fols. 147ra).</ab>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are partly visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are partly visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre</ab>
+                        <seg type="ink">Black, red  (moderate crimson, vivid vermillion)</seg>
+                        <date>Second half of the 18th century</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p><span style="line-height: 115%; font-size: 9pt">Fol.154vb: Purchase note.&#160; </span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>The note is crudely written. The rubricated names of the buyer priest (qäsis) Wäldä Mikaʾel and that of his son Zärʾa Yoḥannǝs are barely legible.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="line-height: 115%; font-size: 9pt"><span style="line-height: 115%; font-size: 9pt">Fols. 155r-156v: Fragment of an older lectionary (containing, among others, readings from the Epistles).</span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>Written on leaves originating from an older (15th-cent.?) codex. In the margin of fol. 155rb the word bä-Ṭǝmqät is written in red indicating the reading for the feast of Baptism.</p>
+                        </item>
+                        <item xml:id="e1">- A few corrections are written over erasures: e.g., fols. 44rb, 55rab, 83ra, 98rab.&#xD;
+- Minor notes: fols. 114vb, 131ra.&#xD;
+- Scribbles: fols. 2r, 8r, 9r, 23r, 28v, 29r, 78r.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="no">
+                        <decoNote xml:id="b1">Two wooden boards (probably re-used, the back board broken and repaired).&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Holes and tears are visible on the spine fold of all quires, close to the head and the tail of the codex.&#xD;
+Some quires are reinforced with parchment guards.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0121MAC">Ḉähat Mädḫane ʿAläm / MAC</placeName>
+                     </origPlace>
+                     <origDate notBefore="1750" notAfter="1800">Second half of the 18th cent. (?)&#xD;
+Fols. 155-156 originate from a different, older (15th cent.?) codex.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="modern"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000"/>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="NewTestament"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-12-05">registered</change>
+         <change who="SH" when="2013-06-25">created</change>
+         <change who="EG" when="2014-11-06">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäftǝḥe śǝray “Undoing of Charms”</title>
+            <title>Mäftәḥe śәray “Undoing of Charms”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-10-17</date>
+            <date>2014-10-17T09:21:39.905Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0161BGY"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>BGY-014</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Mälkǝʾa Fanuʾel “Image of Fanuʾel” (fols. 39ra-40vb) (ChRep p.193, no.49)</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">49.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">49.0</measure> folios, in
+                                                  <measure unit="quire">7.0</measure> quires ((A+6)). 
                                                 <dimensions type="outer">
                               <height unit="cm">15.5</height>
                               <width unit="cm">11.0</width>
@@ -60,6 +65,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>Undecorated quire mark on fol. 27r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -106,7 +114,7 @@ The front board was possibly broken and repaired (hard to distinguish because of
                            <note>All data for fol. 7r.</note>
                            <ab type="ruling">14 on some fols.</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -126,7 +134,7 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red.</seg>
                         <date>Middle of 19th - first half of 20th cent.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The quality differs greatly throughout the Ms. It cannot be excluded that several hands participated in writing.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="miniature" xml:id="d1">
@@ -156,8 +164,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1</span></span><span style="font-size: small;">r-3r: Explanation of the "43 types of Prayer of Blessing" in the M&#228;&#7779;&#7717;afe q&#477;ddase (?).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4920;&#4622;&#4720;&#4961; &#4705;&#4651;&#4780;&#4961; &#4972;&#4808;&#4777;&#4617;&#4961; &#4853;&#4633;&#4653;&#4961; &#4981;&#4971;&#4808;&#4643;&#4899;&#4810;&#4961; &#4705;&#4651;&#4780;&#4961; &#4635;&#4616;&#4725;</span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span> </span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#1">Fol. 1</locus></span></span><span style="font-size: small;">r-3r: Explanation of the "43 types of Prayer of Blessing" in the M&#228;&#7779;&#7717;afe q&#477;ddase (?).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 1v: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4920;&#4622;&#4720;&#4961; &#4705;&#4651;&#4780;&#4961; &#4972;&#4808;&#4777;&#4617;&#4961; &#4853;&#4633;&#4653;&#4961; &#4981;&#4971;&#4808;&#4643;&#4899;&#4810;&#4961; &#4705;&#4651;&#4780;&#4961; &#4635;&#4616;&#4725;</span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961;</span></span></span> </span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Crudely written in a mix of Gǝʿǝz and Amharic.
 Fol. 1r is partly illegible.</p>
@@ -184,7 +191,7 @@ Fol. 1r is partly illegible.</p>
                         <placeName corresp="INS0161BGY">Golʿa Däbrä Bǝrhan Yoḥannǝs/ BGY</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1954">Mid-19th cent. - 1954&#xD;
-Yǝsḥaq, Bishop of Tǝgray (in tenure in 1929-54) is mentioned on fol. 46rb.</origDate>
+Yәsḥaq, Bishop of Tǝgray (in tenure in 1929-54) is mentioned on fol. 46rb.</origDate>
                   </origin>
                </history>
                <additional>
@@ -218,8 +225,8 @@ Yǝsḥaq, Bishop of Tǝgray (in tenure in 1929-54) is mentioned on fol. 46rb.</
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ʿAmdä Mikaʾel is mentioned in the supplication formulas (e.g., fols. 3vab, 4rb, 4vb, 5rb, 6rb, 7rb).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ʿAmdä Mikaʾel is mentioned in the supplication formulas (e.g., fols. 3vab, 4rb, 4vb, 5rb, 6rb, 7rb).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -243,9 +250,9 @@ Yǝsḥaq, Bishop of Tǝgray (in tenure in 1929-54) is mentioned on fol. 46rb.</
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-22">registered</change>
-         <change who="SD" when="2014-10-17">created</change>
-         <change who="DN" when="2015-02-02">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SD" when="2014-10-17T09:21:39.905Z">created</change>
+         <change who="DN" when="2015-02-02T15:26:04.920Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

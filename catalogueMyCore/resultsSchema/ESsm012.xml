@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-07-23</date>
+            <date>2012-07-23T13:25:19.753Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0053SM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SM-012</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I-4 contains musical notation.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">152.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">152.0</measure> folios, in
+                                                  <measure unit="quire">17.0</measure> quires (A+16). 
                                                 <dimensions type="outer">
                               <height unit="cm">19.0</height>
                               <width unit="cm">16.0</width>
@@ -154,7 +159,7 @@ Cuts and tears amended on fols. 5, 17, 21, 33, 38, 46, 80, 109, 145.</condition>
 All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -182,7 +187,7 @@ The bottom line is written above the ruling.</ab>
 All data for fol. 138r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: </ab>
                            <ab>
 Texts I-1), I-2), I-3): 1A-1A/0-0/0-0/C; </ab>
@@ -206,7 +211,7 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red</seg>
                         <date>18th century</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The vertical elements of the letters are thick. The foundations of the vertical strokes of የ and ደ (in some orders) are placed far to the right, and the strokes are left-slanted, contrasting with the most of the other signs which are right-sloping.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">- Fol. 40r (after Ps. 50): Coloured (red, black, white) ornamental band with geometric motifs.</decoNote>
@@ -216,57 +221,48 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 1v: Unidentified protective text, probably a protextive prayer against calumny.</span></p><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt">Fol. 1v: </span><span style="font-size: large"><span style="line-height: 115%">&#4773;&#4933;&#4653;&#4961; &#4616;&#4821;&#4853;&#4961; &#4704;&#4773;&#4853;&#4961; &#4875;&#4845;&#4757;&#4961; &#4808;&#4616;&#4638;&#4757;&#4961; &#4808;&#4773;&#4941;&#4616;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="line-height: 115%; font-size: 10pt"><locus target="#1v">Fol. 1v</locus>: Unidentified protective text, probably a protextive prayer against calumny.</span></p><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt">Fol. 1v: </span><span style="font-size: large"><span style="line-height: 115%">&#4773;&#4933;&#4653;&#4961; &#4616;&#4821;&#4853;&#4961; &#4704;&#4773;&#4853;&#4961; &#4875;&#4845;&#4757;&#4961; &#4808;&#4616;&#4638;&#4757;&#4961; &#4808;&#4773;&#4941;&#4616;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Some parts of the text are blurred and hardly readable.
 Written crudely in angular script, in the same hand as Additiones 2 and 5.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">Fol. 1v: Unidentified text.</span></div><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt">Fol. 1v: &lt;...&gt;</span><span style="font-size: large"><span style="line-height: 115%">&#4616;&#4632;&#4726;&#4961; &#4808;&#4624;&#4632;&#4632;&#4726;&#4961; &#4773;&#4808;&#4845;&#4661;: ...</span></span></p></q>
+                        <item xml:id="a2"><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt"><locus target="#1v">Fol. 1v</locus>: Unidentified text.</span></div><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt">Fol. 1v: &lt;...&gt;</span><span style="font-size: large"><span style="line-height: 115%">&#4616;&#4632;&#4726;&#4961; &#4808;&#4624;&#4632;&#4632;&#4726;&#4961; &#4773;&#4808;&#4845;&#4661;: ...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>In Gǝʿǝz and Amharic with numerous abbreviations. Written in the same hand as Additiones 1 and 5.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 2rab: Excerpt from&#160;Lk 1:26-38.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="line-height: 115%; font-size: 10pt"><locus target="#2ra">Fol. 2ra</locus>b: Excerpt from&#160;Lk 1:26-38.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a fine hand.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 2rb: </span><span style="line-height: 115%; font-size: 10pt">Litany to St. Mary.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="line-height: 115%; font-size: 10pt"><locus target="#2rb">Fol. 2rb</locus>: </span><span style="line-height: 115%; font-size: 10pt">Litany to St. Mary.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a fine hand.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">Fol. 2v: Protective text with an </span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">asmat-prayer.</span></div><q xml:lang="gez"/>
+                        <item xml:id="a5"><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt"><locus target="#2v">Fol. 2v</locus>: Protective text with an </span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">asmat-prayer.</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written crudely in angular script, in the same hand as Additiones 1 and 2.</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 3r: Ownership note.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a6"><p><span style="line-height: 115%; font-size: 10pt"><locus target="#3r">Fol. 3r</locus>: Ownership note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is for the most part rubbed out.
 Written in violet ink.</p>
                         </item>
-                        <item xml:id="a7">
-                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 151ra-151va l.5: Prayer to Christ containing supplications for blessing.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a7"><p><span style="line-height: 115%; font-size: 10pt"><locus target="#151ra">Fol. 151ra-151</locus>va l.5: Prayer to Christ containing supplications for blessing.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a fine hand.</p>
                         </item>
-                        <item xml:id="a8">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">Fols. 151va l. 8-19-152rb l.2: S&#228;lam-hymns for Mika</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el and </span><span style="font-size: 10pt">G</span><span style="font-size: 10pt">&#228;</span><span style="font-size: 10pt">br&#601;</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el </span><span style="font-size: 10pt">from the D&#601;rsan z&#228;-</span><span style="font-size: 10pt">s&#228;b&#705;atu</span><span style="font-size: 10pt"> liqan&#228; m&#228;la&#704;&#601;kt; s&#228;lam-hymns for Yo&#7717;ann&#601;s M&#228;&#7789;m&#601;q (John the Baptist), Giyorgis z&#228;-L&#601;dda (George of Lydda) and Kidan&#228; M&#601;&#7717;r&#228;t.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">S&#228;lam-hymn for Mika</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el (fol. 151va l. 8-15): </span><span style="font-size: large;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4632;&#4621;&#4768;&#4776;&#4961; &#4768;&#4853;&#4741;&#4758;&#4961; &#4616;&#4752;&#4851;&#4845;&#4961; &#4824;&#4725;&#4725;&#4772;&#4840;&#4758;...</span></div> <div style="text-align: justify; line-height: normal"></div> <div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">S&#228;lam-hymn for G&#228;br&#601;</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el (fol. 151va l.15-19): </span><span style="font-size: large;">(&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961;) &#4736;&#4704;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961;&#4720;&#4936;&#4755;&#4810;&#8230;</span></div> <div style="text-align: justify; line-height: normal"></div> <div style="margin: 0cm 0cm 10pt"><span style="line-height: 115%; font-size: 10pt">S&#228;lam-hymn for Yo&#7717;ann&#601;s M&#228;&#7789;m&#601;q (fol. 151va l. 20-b l.16):</span><span style="font-size: large;"><span style="line-height: 115%;"> (</span><span style="line-height: 115%;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961;) &#4808;&#4621;&#4848;&#4961; &#4779;&#4613;&#4757;&#4961; &#4808;&#4808;&#4621;&#4848;&#4961; &#4772;&#4621;&#4659;&#4708;&#4901;&#8230;</span></span></div> <div style="margin: 0cm 0cm 10pt"><span style="line-height: 115%; font-size: 10pt">S&#228;lam-hymn for Giyorgis z&#228;-L&#601;dda (fols. 151vb l. 16-152ra l.9):</span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4964; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4621;&#4851;&#4961; &#4632;&#4661;&#4720;&#4925;&#4821;&#4752;&#4961; &#4936;&#4648;&#4656;&#4961; &#4920;&#4819;&#4851;&#8230;</span></span></div> <div style="margin: 0cm 0cm 10pt"><span style="line-height: 115%; font-size: 10pt">S&#228;lam-hymn for Kidan&#228; M&#601;&#7717;r&#228;t (fol. 152ra l.9): </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4619;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4720;&#4661;&#4939;&#4840;&#4961; &#4824;&#4723;&#4920;&#4853;&#4674;&#8230;</span></span></div></q>
+                        <item xml:id="a8"><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt"><locus target="#151va">Fols. 151va</locus>l. 8-19-152rb l.2: S&#228;lam-hymns for Mika</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el and </span><span style="font-size: 10pt">G</span><span style="font-size: 10pt">&#228;</span><span style="font-size: 10pt">br&#601;</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el </span><span style="font-size: 10pt">from the D&#601;rsan z&#228;-</span><span style="font-size: 10pt">s&#228;b&#705;atu</span><span style="font-size: 10pt"> liqan&#228; m&#228;la&#704;&#601;kt; s&#228;lam-hymns for Yo&#7717;ann&#601;s M&#228;&#7789;m&#601;q (John the Baptist), Giyorgis z&#228;-L&#601;dda (George of Lydda) and Kidan&#228; M&#601;&#7717;r&#228;t.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">S&#228;lam-hymn for Mika</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el (fol. 151va l. 8-15): </span><span style="font-size: large;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4632;&#4621;&#4768;&#4776;&#4961; &#4768;&#4853;&#4741;&#4758;&#4961; &#4616;&#4752;&#4851;&#4845;&#4961; &#4824;&#4725;&#4725;&#4772;&#4840;&#4758;...</span></div> <div style="text-align: justify; line-height: normal"></div> <div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">S&#228;lam-hymn for G&#228;br&#601;</span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">el (fol. 151va l.15-19): </span><span style="font-size: large;">(&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961;) &#4736;&#4704;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961;&#4720;&#4936;&#4755;&#4810;&#8230;</span></div> <div style="text-align: justify; line-height: normal"></div> <div style="margin: 0cm 0cm 10pt"><span style="line-height: 115%; font-size: 10pt">S&#228;lam-hymn for Yo&#7717;ann&#601;s M&#228;&#7789;m&#601;q (fol. 151va l. 20-b l.16):</span><span style="font-size: large;"><span style="line-height: 115%;"> (</span><span style="line-height: 115%;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4776;&#4961;) &#4808;&#4621;&#4848;&#4961; &#4779;&#4613;&#4757;&#4961; &#4808;&#4808;&#4621;&#4848;&#4961; &#4772;&#4621;&#4659;&#4708;&#4901;&#8230;</span></span></div> <div style="margin: 0cm 0cm 10pt"><span style="line-height: 115%; font-size: 10pt">S&#228;lam-hymn for Giyorgis z&#228;-L&#601;dda (fols. 151vb l. 16-152ra l.9):</span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4964; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4621;&#4851;&#4961; &#4632;&#4661;&#4720;&#4925;&#4821;&#4752;&#4961; &#4936;&#4648;&#4656;&#4961; &#4920;&#4819;&#4851;&#8230;</span></span></div> <div style="margin: 0cm 0cm 10pt"><span style="line-height: 115%; font-size: 10pt">S&#228;lam-hymn for Kidan&#228; M&#601;&#7717;r&#228;t (fol. 152ra l.9): </span><span style="font-size: large;"><span style="line-height: 115%;">&#4656;&#4619;&#4961; &#4778;&#4851;&#4752;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4720;&#4661;&#4939;&#4840;&#4961; &#4824;&#4723;&#4920;&#4853;&#4674;&#8230;</span></span></div></q>
                            <q xml:lang="en"/>
                            <p>Sälam-hymns are written as a running text, in a fine hand.</p>
                         </item>
-                        <item xml:id="a9">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt">Fols. 151v (at the bottom), 152rab: Protective text with an </span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">asmat-prayer.</span></div><q xml:lang="gez"/>
+                        <item xml:id="a9"><div style="text-align: justify; line-height: normal"><span style="font-size: 10pt"><locus target="#151v">Fols. 151v</locus>(at the bottom), 152rab: Protective text with an </span><span style="font-size: 10pt">&#704;</span><span style="font-size: 10pt">asmat-prayer.</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written crudely in angular script, in the same hand as Additiones 1,2 and 5. The Trinitarian formula (at the beginning of the text) is rubricated.</p>
                         </item>
                         <item xml:id="e1">- The title of the Ms., ዳዊት, is written on the cover and on fol. 1r, at the bottom. &#xD;
 - The title of the Ms., መዝሙር, is written on the inner face of the front board.&#xD;
-- Some verses of Psalms and Canticles of the Prophets have commentaries, in Gǝʿǝz and Amharic, written on the right and left side or interlineally, e.g., fols. 6r, 7r, 11r, 121v. &#xD;
-- In Psalm 118, at the beginning of each strophe, there is a Gǝʿǝz commentary to the Hebrew letter.&#xD;
+- Some verses of Psalms and Canticles of the Prophets have commentaries, in Gәʿәz and Amharic, written on the right and left side or interlineally, e.g., fols. 6r, 7r, 11r, 121v. &#xD;
+- In Psalm 118, at the beginning of each strophe, there is a Gәʿәz commentary to the Hebrew letter.&#xD;
 - All commentaries are written by trained hand in small letters. &#xD;
 - There is a line of alternating red and black dots made (most often very crudely) after almost every group of 10 psalms, e.g., fols. 9r, 46r. &#xD;
 - The ultimate line of many Psalms is followed by a chain of black and red nine-dot-asterisks connected with 4-5 black and red parallel lines, e.g., fols. 46r, 65v, 78r, 89v, 93v, 101r. &#xD;
@@ -290,6 +286,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible on the spine folds of the quires, close to the head and tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover is worn (at least 3 tools are used: double line fillet, triple  line fillet and double circles).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -332,11 +329,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -359,9 +351,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-14">registered</change>
-         <change who="MK" when="2012-07-23">created</change>
-         <change who="DN" when="2014-08-27">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-07-23T13:25:19.753Z">created</change>
+         <change who="DN" when="2014-08-27T17:44:15.044Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

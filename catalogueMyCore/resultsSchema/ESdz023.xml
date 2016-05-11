@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-04-10</date>
+            <date>2013-04-10T18:55:29.070Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0034DZ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DZ-023</idno>
                </msIdentifier>
                <msContents>
@@ -46,6 +46,12 @@ The text on pages 3r and 66r is written alternately in red and black lines.</rub
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The Ms. is composite, consisting of two production units: 1) fols. 1r-66v (texts I-II), 2) fols. 67r-76v (text III).</note>
+                     <note>- Text I starts with the priest’s admonition Mi mäṭän... “How awesome...”. The excerpt from the "Book of the Testament" (30va-31rb) follows Text I without any separation, by rubrication or special heading.</note>
+                     <note>- Anaphora of the Apostles (Text II-2) is present in a significantly abridged version.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -53,7 +59,10 @@ The text on pages 3r and 66r is written alternately in red and black lines.</rub
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">76.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">76.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1rv, 2rv, 46vb, 66v, 76rv, in
+                                                  <measure unit="quire">12.0</measure> quires (A+11). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.7</height>
                               <width unit="cm">15.0</width>
@@ -123,7 +132,7 @@ The text on pages 3r and 66r is written alternately in red and black lines.</rub
                            <ab>Text area I:</ab>
                            <ab type="pricking">
 Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 50r).</ab>
@@ -137,7 +146,7 @@ The bottom line is written above the ruling.</ab>
 Text area II:</ab>
                            <ab type="pricking">
 Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible (s. fol. 75r).</ab>
@@ -168,7 +177,7 @@ The bottom line is written above the ruling.</ab>
                            <ab>Text area I:</ab>
                            <ab type="pricking">
 Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are mostly visible (s. fol. 50r).</ab>
@@ -182,7 +191,7 @@ The bottom line is written above the ruling.</ab>
 Text area II:</ab>
                            <ab type="pricking">
 Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible (s. fol. 75r).</ab>
@@ -208,12 +217,15 @@ The bottom line is written above the ruling.</ab>
                            <item>ይዲ፡ for ይበል፡ ዲያቆን፡</item>
                            <item>ይሕ፡ for ይበል፡ ሕዝብ፡</item>
                            <item>
-                              <abbr>በእ፡</abbr> for <expan>በእንተ፡ </expan> (e. g., fol. 11vab)</item>
+                              <abbr>በእ፡</abbr> for
+                                                  <expan>በእንተ፡ </expan> (e. g., fol. 11vab)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">fols. 3ra-46va; 59va-66rb (Texts I, II-1, 2, 3, 5).</handNote>
-                     <handNote xml:id="h3" script="Ethiopic">fols. 47ra-59va (Text II-4), of the same period as Hand a, smaller, broadly spaced letters.</handNote>
-                     <handNote xml:id="h4" script="Ethiopic">fols. 67r-75v (Text III).</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a: fols. 3ra-46va; 59va-66rb (Texts I, II-1, 2, 3, 5).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b: fols. 47ra-59va (Text II-4), of the same period as Hand a, smaller, broadly spaced letters.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h4" script="Ethiopic">
+Hand c: fols. 67r-75v (Text III).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="miniature" xml:id="d1">
@@ -231,8 +243,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" arial="" unicode="">Fol. 75v: Donation note.</span></span></p><q xml:lang="gez"><p><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 75v: </span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4827;&#4722;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4616;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4608;&#4704;&#4726;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4616;&#4723;&#4710;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4848;&#4709;&#4648;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4845;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4776;&#4632;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4845;&#4777;&#4755;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4653;&#4624;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4656;&#4635;&#4843;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4637;&#4661;&#4616;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4611;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4773;&#4660;&#4845;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4773;&#4635;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4757;&#4925;&#4624;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4853;&#4757;&#4877;&#4621;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4645;&#4619;&#4660;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4845;&#4659;&#4725;&#4942;&#4633;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4637;&#4661;&#4616;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4923;&#4853;&#4675;&#4757;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4656;&#4635;&#4821;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4704;&#4848;&#4709;&#4648;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4925;&#4846;&#4757;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4677;&#4853;&#4661;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4773;&#4757;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" arial="" unicode=""><locus target="#75v">Fol. 75v</locus>: Donation note.</span></span></p><q xml:lang="gez"><p><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 75v: </span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4827;&#4722;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4616;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4853;&#4741;&#4757;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4808;&#4608;&#4704;&#4726;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4616;&#4723;&#4710;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4848;&#4709;&#4648;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;&#4845;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4776;&#4632;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4845;&#4777;&#4755;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4632;&#4653;&#4624;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4656;&#4635;&#4843;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4637;&#4661;&#4616;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4768;&#4705;&#4611;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4773;&#4660;&#4845;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4773;&#4635;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4757;&#4925;&#4624;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4853;&#4757;&#4877;&#4621;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4872;&#4709;&#4648;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4645;&#4619;&#4660;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4845;&#4659;&#4725;&#4942;&#4633;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4637;&#4661;&#4616;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4923;&#4853;&#4675;&#4757;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4808;&#4656;&#4635;&#4821;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4704;&#4848;&#4709;&#4648;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4925;&#4846;&#4757;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4677;&#4853;&#4661;&#4725;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4773;&#4757;&#4720;&#4961;</span><span lang="EN-US" unicode="" arial="" style="line-height: 115%;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4704;&#4656;&#4635;&#4843;&#4725;&#4962;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">Fol. 75v: This is a book of W&#228;l&#228;tt&#228; M&#228;d&#7723;&#477;n which she has donated to the tabot of Mary at D&#228;br&#228; Z&#228;yt so that it might be for her a guide to the Kingdom of Heaven; together with her father W&#228;ld&#228; </span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#704;</span><span lang="DE" unicode="" arial="" style="line-height: 115%;">&#398;sey and her mother N&#477;&#7779;&#7717;a D&#477;ng&#477;l (and with) G&#228;br&#228; Giyorgis (and) W&#228;ld&#228; &#346;&#477;llase, may He count them with the righteous and martyrs in the holy mount of Zion which is in Heaven.</span></span></p></q>
                            <p/>
                         </item>
@@ -241,7 +252,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown leather (half cover).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -250,6 +261,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endbands stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 2 tools were used: triple line fillet, double sine wave with dots).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -293,8 +305,8 @@ Text III (quires X-XI) date to a later period (mid-20th century?).</origDate>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Mädḫǝn (s. Additio 1). The note also mentions the donor’s father Wäldä ʾƎsey and mother Nǝṣḥa Dǝngǝl as well as other relatives.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Mädḫǝn (s. Additio 1). The note also mentions the donor’s father Wäldä ʾƎsey and mother Nǝṣḥa Dǝngǝl as well as other relatives.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -317,9 +329,9 @@ Text III (quires X-XI) date to a later period (mid-20th century?).</origDate>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-07">registered</change>
-         <change who="DN" when="2013-04-10">created</change>
-         <change who="IF" when="2015-01-13">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="DN" when="2013-04-10T18:55:29.070Z">created</change>
+         <change who="IF" when="2015-01-13T15:41:13.811Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

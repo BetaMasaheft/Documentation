@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-06-19</date>
+            <date>2012-06-19T11:55:43.679Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0181SDSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SDSM-004</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The list of the “tituli” of the Gospel of Matthew is preceded by an unusually long introduction (fol. 6r).</note>
+                     <note>- The “tituli” of the Gospel of Matthew are not numbered.</note>
+                     <note>- The “tituli” are written ink in the upper or lower margins.</note>
+                     <note>- Some letters and at times entire words on fol. 1rv are faded or blurred.</note>
+                     <note>- Readings for particular occasions are separated from each with a black line occasionally ornamented at the ends (e.g., fol. 12rb l.6, 13ra l.7).</note>
+                     <note>- Quotation signs resemble the letter ነ with a “ring” (e.g., fols. 13va ls. 13-26, 23rb ls. 10-20).</note>
+                     <note>- There is a small red cross and a small black cross on the margins of some fols. (above the Chi-Ro sign). Their function has not been determined (e.g., fols. 32rb l.11, 32va l.36, 33rb l.1, 35va l.10).</note>
+                     <note>- Some “tituli” are written in tiny letters in black ink in the upper margin, at the very edge of pages. Perhaps they served the scribe to plan how to distribute the text. At times they are partly cut off (fols. 18rv, 19r, 27r, 28r, 29r, 33r, 37rv, 39r, 40v, 48r, 77r, 80ra, 101rb, 101vb, 102rab).</note>
+                     <note>- The numbering of the chapters of the Gospel of Matthew is faulty since the number 47 (fol. 31ra) is followed by 59 (fol. 31vb) and 51 (fol. 32ra).</note>
+                     <note>- The “tituli” in the Gospels of Luke and John are only occasionally numbered. Also, the Chi Ro sign in the Gospel of Mark, Luke and John is much less often used than in the Gospel of Matthew.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +64,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">139.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">139.0</measure> folios, in
+                                                  <measure unit="quire">22.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">39.0</height>
                               <width unit="cm">29.5</width>
@@ -60,6 +74,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Quire mark is written in the upper left corner of fol. 16r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">6</dim>
@@ -158,7 +175,7 @@ Holes carefully amended on fols. 19, 21, 26, 48, 61, 64, 65, 74, 76, 81, 82, 95,
                            <note>All data for fol. 11r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -168,7 +185,7 @@ Ruling pricks are visible. </ab>
 The upper line is written above the ruling. </ab>
                            <ab type="ruling">
 The bottom line is written above the ruling. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 The ruling pattern is different for the Canon tables.</ab>
                         </layout>
                         <layout/>
@@ -180,7 +197,7 @@ The ruling pattern is different for the Canon tables.</ab>
                         <seg type="ink">Black, red.</seg>
                         <date>First half of the 16th century.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Ethiopic numeral “6” looks like “compressed” numeral “7” (s., e.g., lists of the “tituli”), but the numerals have “rings”.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="miniature" xml:id="d1">
@@ -198,18 +215,15 @@ The ruling pattern is different for the Canon tables.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: 10pt;">Fol. 1vb:</span><span style="font-size: 10pt;"> Donation note.</span></div><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: 10pt;">Fol. 1vb:</span><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4637;&#4652;&#4720;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4824;&#4808;&#4611;&#4704;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4656;&#4813;&#4756;&#4961; </span><span style="font-size: medium;"><span style="line-height: 115%;">&#706;</span><span style="line-height: 115%;">&#8230;</span><span style="line-height: 115%;">&#707;</span></span><span style="line-height: 115%;">&#4961; &#4821;&#4685;&#4710;&#4845;&#4961; &#4808;&#4725;&#4925;&#4624;&#4942;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4637;&#4661;&#4620;&#4961; &#4848;&#4677;&#4673;&#4961; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4808;&#4845;&#4661;&#4624;&#4677;&#4961; &#4808;&#4654;&#4708;&#4621;&#4961; &#4808;&#4611;&#4709;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4808;&#4824;&#4720;&#4768;&#4872;&#4619;&#4962; &#4808;&#4611;&#4851;&#4961; &#4808;&#4824;&#4656;&#4648;&#4672;&#4961; &#4616;&#4827;&#4722;&#4961; &#4808;&#4757;&#4876;&#4621;&#4961; &#4808;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4704;&#4768;&#4936;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4912;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4808;&#4704;&#4971;&#4987;&#4978;&#4808;&#4976;&#4653;&#4721;&#4843;&#4752;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4813;&#4873;&#4827;&#4752;&#4961; &#4616;&#4845;&#4777;&#4753;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span></span></p></q>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: normal;"><span style="font-size: 10pt;"><locus target="#1vb">Fol. 1vb</locus>:</span><span style="font-size: 10pt;"> Donation note.</span></div><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: 10pt;">Fol. 1vb:</span><span style="line-height: 115%; font-size: 12pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4637;&#4652;&#4720;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4824;&#4808;&#4611;&#4704;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4656;&#4813;&#4756;&#4961; </span><span style="font-size: medium;"><span style="line-height: 115%;">&#706;</span><span style="line-height: 115%;">&#8230;</span><span style="line-height: 115%;">&#707;</span></span><span style="line-height: 115%;">&#4961; &#4821;&#4685;&#4710;&#4845;&#4961; &#4808;&#4725;&#4925;&#4624;&#4942;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4637;&#4661;&#4620;&#4961; &#4848;&#4677;&#4673;&#4961; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4808;&#4845;&#4661;&#4624;&#4677;&#4961; &#4808;&#4654;&#4708;&#4621;&#4961; &#4808;&#4611;&#4709;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4808;&#4824;&#4720;&#4768;&#4872;&#4619;&#4962; &#4808;&#4611;&#4851;&#4961; &#4808;&#4824;&#4656;&#4648;&#4672;&#4961; &#4616;&#4827;&#4722;&#4961; &#4808;&#4757;&#4876;&#4621;&#4961; &#4808;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4808;&#4704;&#4768;&#4936;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4912;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4808;&#4704;&#4971;&#4987;&#4978;&#4808;&#4976;&#4653;&#4721;&#4843;&#4752;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4813;&#4873;&#4827;&#4752;&#4961; &#4616;&#4845;&#4777;&#4753;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962; </span></span></p></q>
                            <q xml:lang="en"/>
-                           <p>The note is written in a crude hand. It mentions the donor of the Ms., &lt;...&lt; ʿƎqwǝboy (ʿƎqwǝbay?; the first part of the name is illegible).</p>
+                           <p>The note is written in a crude hand. It mentions the donor of the Ms., &lt;...&gt; ʿƎqwǝboy (ʿƎqwǝbay?; the first part of the name is illegible).</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 6vb: Protective prayer with &#704;asmat, or a list of (Muslim) names (?).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#6vb">Fol. 6vb</locus>: Protective prayer with &#704;asmat, or a list of (Muslim) names (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a crude hand.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="line-height: 115%; font-size: 10pt;">Fol. 41v: Note concerning a legal issue.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="line-height: 115%; font-size: 10pt;"><locus target="#41v">Fol. 41v</locus>: Note concerning a legal issue.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The recent extensive note (occupying originally more than half of the page), written in blue pen, has been effaced; only few remaining words can be discerned.</p>
                         </item>
@@ -227,6 +241,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of some quires, close to the head of the codex, e.g., in quires III, VI, IX.&#xD;
 Some quires are reinforced by parchment guards.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover (at least 4 tools were used: double line fillet, double circle, x-form, dot fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -269,8 +284,8 @@ Some quires are reinforced by parchment guards.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ʿƎqwǝboy (ʿƎqwǝbay?) s. Additio 1. The preceding word, possibly the first part of the name of the donor or owner, is illegible.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ʿƎqwǝboy (ʿƎqwǝbay?) s. Additio 1. The preceding word, possibly the first part of the name of the donor or owner, is illegible.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -293,9 +308,9 @@ Some quires are reinforced by parchment guards.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-11-29">registered</change>
-         <change who="MK" when="2012-06-19">created</change>
-         <change who="SH" when="2015-05-05">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-06-19T11:55:43.679Z">created</change>
+         <change who="SH" when="2015-05-05T17:13:30.456Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

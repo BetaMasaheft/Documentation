@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-08-07</date>
+            <date>2013-08-07T16:29:25.304Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0065AMQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AMQ-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">104.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">104.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 2r, 2v, in
+                                                  <measure unit="quire">12.0</measure> quires (11+A). 
                                                 <dimensions type="outer">
                               <height unit="cm">28.5</height>
                               <width unit="cm">23.0</width>
@@ -60,6 +63,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Quire marks: fols. 22r, 31r, 49r, 59r, 67r, 76r.&#xD;
+- Quire marks followed by the Ethiopic letter ጥ, may be an abbreviation for ጥራዝ “quire”: fols. 22r, 31r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -131,7 +138,7 @@ Fols. 39, 97, 98, 101 are mutilated.</condition>
                            <note>All data for fol. 4r</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -154,21 +161,29 @@ The bottom ruled line was not used by the scribe in fols. 48v, 55v, 59r.</ab>
                         <date>19th century (?) räqiq script.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>እግዚ፡ መ/መሐ፡</abbr> for <expan>እግዚኦ፡ መሐረነ፡ </expan> (fol. 11va-vb)</item>
+                              <abbr>እግዚ፡ መ/መሐ፡</abbr> for
+                                                  <expan>እግዚኦ፡ መሐረነ፡ </expan> (fol. 11va-vb)</item>
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ እግዚኦ፡ ለነፍሰ፡ ገብርከ፡ </expan> (e.g., fols. 21va, 22vb, 23ra)</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ እግዚኦ፡ ለነፍሰ፡ ገብርከ፡ </expan> (e.g., fols. 21va, 22vb, 23ra)</item>
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 22va, 85rb, 72ra)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 22va, 85rb, 72ra)</item>
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 22va, 85rb)</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 22va, 85rb)</item>
                            <item>
-                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (fols. 85rb, 72ra)</item>
+                              <abbr>ይ፡ ሕ፡</abbr> for
+                                                  <expan>ይበል፡ ሕዝብ፡ </expan> (fols. 85rb, 72ra)</item>
                            <item>
-                              <abbr>ተ/ተዘ፡</abbr> for <expan>ተዘከር፡ </expan> (fol. 29va-vb)</item>
+                              <abbr>ተ/ተዘ፡</abbr> for
+                                                  <expan>ተዘከር፡ </expan> (fol. 29va-vb)</item>
                            <item>
-                              <abbr>አ፡</abbr> for <expan>አሜን፡ </expan> (fols. 93v, 94r)</item>
+                              <abbr>አ፡</abbr> for
+                                                  <expan>አሜን፡ </expan> (fols. 93v, 94r)</item>
                            <item>
-                              <abbr>ንስ፤ እግ፤ ወና፤</abbr> for <expan>ንስዕለከ፡ እግዚኦ፡ ወናስተበቁዓከ፡ </expan> (e.g., fols. 101ra, 102ra)</item>
+                              <abbr>ንስ፤ እግ፤ ወና፤</abbr> for
+                                                  <expan>ንስዕለከ፡ እግዚኦ፡ ወናስተበቁዓከ፡ </expan> (e.g., fols. 101ra, 102ra)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -181,8 +196,7 @@ The bottom ruled line was not used by the scribe in fols. 48v, 55v, 59r.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span unicode="">Fol. 1va: Unidentified prayer.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 1va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4808;&#4656;</span><span style="line-height: 115%">&#4941;</span><span style="line-height: 115%">&#4624;</span><span style="line-height: 115%">&#4725;&#5011; &#4768;&#4773;&#4851;&#4810;&#4611;&#5011; &#4808;&#4768;&#4773;&#4875;&#4650;&#4611;&#5011; &#4808;&#4725;&#4708;&#5011; &#4774;&#4773;&#4877;&#4826;&#4773;&#4752;&#5011;&#160;&#4768;&#4637;&#4619;&#4776;&#5011; &#4773;&#4661;&#4651;&#4772;&#4621;&#5011;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><span unicode=""><locus target="#1va">Fol. 1va</locus>: Unidentified prayer.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 1va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4808;&#4656;</span><span style="line-height: 115%">&#4941;</span><span style="line-height: 115%">&#4624;</span><span style="line-height: 115%">&#4725;&#5011; &#4768;&#4773;&#4851;&#4810;&#4611;&#5011; &#4808;&#4768;&#4773;&#4875;&#4650;&#4611;&#5011; &#4808;&#4725;&#4708;&#5011; &#4774;&#4773;&#4877;&#4826;&#4773;&#4752;&#5011;&#160;&#4768;&#4637;&#4619;&#4776;&#5011; &#4773;&#4661;&#4651;&#4772;&#4621;&#5011;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small"><span unicode="" style="line-height: 115%"><br /> </span></span></p></q>
                            <p>The note has been written upside down (?)</p>
                         </item>
@@ -208,7 +222,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0065AMQ">ʿAddigrat Däbrä Mänkǝrat Qǝddus Qirqos / AMQ</placeName>
+                        <placeName corresp="INS0065AMQ">ʿAddigrat Däbrä Mänkәrat Qәddus Qirqos / AMQ</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900"/>
                   </origin>
@@ -244,8 +258,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Habtä Śǝllase (e.g., fols. 86va, 87ra, 89vb) and Wäldä Ḥǝwät (fols. 46va, 47rb) are mentioned in the supplication formulas.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -268,9 +282,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-19">registered</change>
-         <change who="AA" when="2013-08-07">created</change>
-         <change who="DN" when="2015-02-18">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-08-07T16:29:25.304Z">created</change>
+         <change who="DN" when="2015-02-18T17:54:38.777Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

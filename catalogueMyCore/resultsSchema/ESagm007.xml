@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-02-19</date>
+            <date>2013-02-19T09:57:15.613Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0093AGM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AGM-007</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,11 @@ A few lines on the incipit page of all texts and the sections of Text I-4.</rubr
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The following Pss. are numbered incorrectly: Pss. 46: ፵፭, 48: ፶፰, 49: ፶፱, 86: ፹፭, 92: ፺፩, 93: ፺፪, 110: ፻፳, 111:፻፳፩, 112: ፻፳፪.</note>
+                     <note>- Ps. 150 is numbered as ፻፵፲.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +57,8 @@ A few lines on the incipit page of all texts and the sections of Text I-4.</rubr
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">114.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">114.0</measure> folios, in
+                                                  <measure unit="quire">14.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">19.6</height>
                               <width unit="cm">12.5</width>
@@ -61,6 +67,8 @@ A few lines on the incipit page of all texts and the sections of Text I-4.</rubr
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Decorated quire marks in the left corner of the upper margin of fols. 10r, 18r, 26r, 34r, 42r, 50r, 58r, 66r, 74r, 82r, 90r, 98r, 106r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">9</dim>
@@ -129,7 +137,7 @@ Holes and tears amended on fols. 1, 10, 47, 49, 70, 88, 97.</condition>
                            <note>Texts: I-1, 1-2, 1-3: all data are for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -156,7 +164,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Texts I-4, I-5: all data are for fol. 103r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -177,35 +185,47 @@ The bottom line is written above the ruling.</ab>
                         <list type="abbreviations">
                            <item>Text I-4</item>
                            <item>
-                              <abbr>ሰ፡</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fols. 103vab, 104vb, 106ra, 109rb)</item>
+                              <abbr>ሰ፡</abbr> for
+                                                  <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fols. 103vab, 104vb, 106ra, 109rb)</item>
                            <item>
-                              <abbr>ሰ፡ ለ፡</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fol. 106va)</item>
+                              <abbr>ሰ፡ ለ፡</abbr> for
+                                                  <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fol. 106va)</item>
                            <item>
-                              <abbr>ሰ፡ ቅ፡</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fol. 107ra)</item>
+                              <abbr>ሰ፡ ቅ፡</abbr> for
+                                                  <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fol. 107ra)</item>
                            <item>
-                              <abbr>ሰ፡ ለ፡ ቅ፡</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fols. 102ra-109vb)</item>
+                              <abbr>ሰ፡ ለ፡ ቅ፡</abbr> for
+                                                  <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fols. 102ra-109vb)</item>
                            <item>Words or their abbreviations stand for the whole refrain:</item>
                            <item>
-                              <abbr>ሠረ፡</abbr> for <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fol. 102rb)</item>
+                              <abbr>ሠረ፡</abbr> for
+                                                  <expan>ሠረቀ፡ በሥጋ፡ እምድንግል፡ ዘእንበለ፡ ዘርአ፡ ብእሲ፡ ወአድኅነነ </expan> (fol. 102rb)</item>
                            <item>
-                              <abbr>እስ፡</abbr> for <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 103ra-104ra)</item>
+                              <abbr>እስ፡</abbr> for
+                                                  <expan>እስመ፡ በፈቃዱ፡ ወበሥምረቱ፡ አቡሁ፡ ወመንፈስ፡ ቅዱስ፡ መጽአ፡ ወአድኅነነ </expan> (fols. 103ra-104ra)</item>
                            <item>
-                              <abbr>ነዓ፡(ብ)</abbr> for <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 106ra-107ra)</item>
+                              <abbr>ነዓ፡(ብ)</abbr> for
+                                                  <expan>ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ። እስመ፡ ሣህልኪ፡ ይኵን፡ ላዕለ፡ ኵልነ </expan> (fols. 106ra-107ra)</item>
                            <item>
-                              <abbr>ተፈ፡</abbr> for <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fols. 108va-109ra)</item>
+                              <abbr>ተፈ፡</abbr> for
+                                                  <expan>ተፈሥሒ፡ ኦምልዕልተ፡ ጸጋ፡ ተፈሥሒ፡ እስመ፡ ረከብኪ፡ ሞገስ፡ ተፈሥሒ፡ እግዚአብሔር፡ ምስሌኪ </expan> (fols. 108va-109ra)</item>
                            <item>
-                              <abbr>ወበ፡</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fol. 109vab)</item>
+                              <abbr>ወበ፡</abbr> for
+                                                  <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fol. 109vab)</item>
                            <item>Text I-5</item>
                            <item>
-                              <abbr>ወ፡ ሣ፡ ይ፡ ሰ፡</abbr> for <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fols. 111ra-113ra)</item>
+                              <abbr>ወ፡ ሣ፡ ይ፡ ሰ፡</abbr> for
+                                                  <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fols. 111ra-113ra)</item>
                            <item>
-                              <abbr>ወል፡ ሣ፡ ይ፡ ሰ፡ ለ፡ ቅ፡</abbr> for <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fol. 110rb)</item>
+                              <abbr>ወል፡ ሣ፡ ይ፡ ሰ፡ ለ፡ ቅ፡</abbr> for
+                                                  <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fol. 110rb)</item>
                            <item>The abbreviations stand for the whole refrain:</item>
                            <item>
-                              <abbr>በእ፡(ን)</abbr> for <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 110vb-112vb)</item>
+                              <abbr>በእ፡(ን)</abbr> for
+                                                  <expan>ወበእንተዝ፡ ናዓብየኪ፡ ኵልነ፡ ኦእግዝእትነ፡ ወላዲተ፡ አምላክ፡ ንጽሕት፡ ኵሎ፡ ጊዜ፡ ንስእል፡ ወናንቀዓዱ፡ ከመ፡ ንርከብ፡ ሣህለ፡ በኀበ፡ መፍቀሬ፡ ሰብእ </expan> (fols. 110vb-112vb)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting is characterized by a fine, rounded and slanted script.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">- Fol. 2r (incipit page of Text I-1): frontispiece elaborate coloured (vivid red, vivid orange, strong amber, black) ornamental frame: wide horizontal band with two lateral pendants reaching the bottom of the page; interlaces, floral and anthropomorphic motifs.</decoNote>
@@ -218,18 +238,15 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fols. 101v, 114r: Protective prayer.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 101v:</span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%; font-size: 9pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4661;&#4632;&#4961;&#8221;</span><span style="line-height: 115%;">&#8230;&#4813;&#4925;&#4769;</span></span></span></span><span style="line-height: 115%;"><span style="line-height: 115%;">[n.l.]</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4768;&#4757;&#4720;&#4961; &#4819;&#4845;&#4752;&#4725;&#4961; &#4824;&#4645;&#4651;&#4845;&#4961; &#4808;&#4925;&#4619;&#4811;&#4876;&#4961; &#4824;&#4776;&#4632;&#4961; &#4808;&#4925;&#4768;&#4961; &#4846;&#4660;&#4941;&#4961; &#4704;&#4613;&#4621;&#4637;&#4961; &#4768;&#4632;&#4629;&#4664;&#4757;&#4961; &#4936;&#4720;&#4629;&#4664;&#4757;&#4961; &#4629;&#4664;&#4757;&#4961; &#4653;&#4710;&#4726;&#4961; &#4609;&#4651;..</span></span><span style="line-height: 115%; font-size: 9pt;">.</span><br /> </span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;"><locus target="#101v">Fols. 101v</locus>, 114r: Protective prayer.</span></span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 101v:</span></span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%; font-size: 9pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4661;&#4632;&#4961;&#8221;</span><span style="line-height: 115%;">&#8230;&#4813;&#4925;&#4769;</span></span></span></span><span style="line-height: 115%;"><span style="line-height: 115%;">[n.l.]</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4961; </span><span style="line-height: 115%;">&#4768;&#4757;&#4720;&#4961; &#4819;&#4845;&#4752;&#4725;&#4961; &#4824;&#4645;&#4651;&#4845;&#4961; &#4808;&#4925;&#4619;&#4811;&#4876;&#4961; &#4824;&#4776;&#4632;&#4961; &#4808;&#4925;&#4768;&#4961; &#4846;&#4660;&#4941;&#4961; &#4704;&#4613;&#4621;&#4637;&#4961; &#4768;&#4632;&#4629;&#4664;&#4757;&#4961; &#4936;&#4720;&#4629;&#4664;&#4757;&#4961; &#4629;&#4664;&#4757;&#4961; &#4653;&#4710;&#4726;&#4961; &#4609;&#4651;..</span></span><span style="line-height: 115%; font-size: 9pt;">.</span><br /> </span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The text begins on fol. 101v and continues on fol. 114r. Some parts of the text are hardly legible because of faded ink.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 113vb: Miracle of the Archangel Raphael.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 113vb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4768;&#4637;&#4650;&#4609;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4649;&#4939;&#4772;&#4621;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4840;&#4611;&#4617;&#4961; &#4637;&#4661;&#4620;&#4752;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4621;&#4768;&#4781;&#4961; &#4720;&#4813;&#4613;&#4710;&#4961; &#4645;&#4621;&#4899;&#4757;&#4961; &#4773;&#4637;&#4773;&#4877;&#4826;&#4773;&#4709;&#4628;&#4653;&#4961; &#4824;&#4770;&#4720;&#4813;&#4613;&#4710;&#4961; &#4616;&#4779;&#4621;&#4768;&#4754;&#4609;&#4962; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4941;&#4723;&#4629;&#4961; &#4635;&#4613;&#4928;&#4755;&#4720;&#4961; &#4632;&#4779;&#4755;&#4720;&#4961; &#4824;&#4656;&#4709;&#4773;&#4961; &#4808;&#4773;&#4757;&#4661;&#4659;...</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#113vb">Fol. 113vb</locus>: Miracle of the Archangel Raphael.</span></span></p><q xml:lang="gez"><p style="text-align: justify;"><span style="font-size: small;"><span style="line-height: 115%;">Fol. 113vb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4768;&#4637;&#4650;&#4609;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4649;&#4939;&#4772;&#4621;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4840;&#4611;&#4617;&#4961; &#4637;&#4661;&#4620;&#4752;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4632;&#4621;&#4768;&#4781;&#4961; &#4720;&#4813;&#4613;&#4710;&#4961; &#4645;&#4621;&#4899;&#4757;&#4961; &#4773;&#4637;&#4773;&#4877;&#4826;&#4773;&#4709;&#4628;&#4653;&#4961; &#4824;&#4770;&#4720;&#4813;&#4613;&#4710;&#4961; &#4616;&#4779;&#4621;&#4768;&#4754;&#4609;&#4962; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4941;&#4723;&#4629;&#4961; &#4635;&#4613;&#4928;&#4755;&#4720;&#4961; &#4632;&#4779;&#4755;&#4720;&#4961; &#4824;&#4656;&#4709;&#4773;&#4961; &#4808;&#4773;&#4757;&#4661;&#4659;...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The text is hardly legible because of faded ink.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 113vb: Calendaric note.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#113vb">Fol. 113vb</locus>: Calendaric note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The text is hardly legible because of faded ink.</p>
                         </item>
@@ -249,7 +266,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays (a mirror might have once been attached to the inner side of the front board).&#xD;
 Overback made of reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
@@ -260,6 +277,8 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Traces of two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover has faded. &#xD;
+Blind tooled ornament on the reddish-brown overback (at least one tool was used: triple line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -302,8 +321,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor has been erased from the concluding supplication on fol. 113va and replaced with that of Fǝśśǝḥa Ṣǝyon (?), in a secondary hand. &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor has been erased from the concluding supplication on fol. 113va and replaced with that of Fǝśśǝḥa Ṣǝyon (?), in a secondary hand. &#xD;
 In later supplications Gäbrä Mäsqäl is mentioned (e.g., fols. 49r, 55r).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -328,9 +347,9 @@ In later supplications Gäbrä Mäsqäl is mentioned (e.g., fols. 49r, 55r).</pe
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-17">registered</change>
-         <change who="SH" when="2013-02-19">created</change>
-         <change who="VP" when="2015-02-26">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-02-19T09:57:15.613Z">created</change>
+         <change who="VP" when="2015-02-26T10:18:07.742Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

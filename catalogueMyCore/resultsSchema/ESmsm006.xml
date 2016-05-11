@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-09-01</date>
+            <date>2011-09-01T10:28:12.594Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0050MSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MSM-006</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">203.0</measure> folios, in <measure unit="quire">24.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">203.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1, 203, in
+                                                  <measure unit="quire">24.0</measure> quires (A+22+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">28.0</height>
                               <width unit="cm">24.0</width>
@@ -60,6 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written twice on the first fol. of each quire, in the left corner of the upper and bottom margin.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">1</dim>
@@ -167,7 +172,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 14r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -177,7 +182,7 @@ Ruling pricks are visible.</ab>
 The upper line is written above the ruling.</ab>
                            <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 The ruling pattern is different for the canon tables.</ab>
                         </layout>
                         <layout/>
@@ -192,13 +197,11 @@ The ruling pattern is different for the canon tables.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 201vb: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 201vb l.</span><span style="font-size: small">11: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4824;&#4653;&#4768;&#4961; &#4705;&#4649;&#4781;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4829;&#4781;&#4648;&#4961; &#4773;&#4661;&#4776;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#201vb">Fol. 201vb</locus>: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 201vb l.</span><span style="font-size: small">11: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4824;&#4653;&#4768;&#4961; &#4705;&#4649;&#4781;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4829;&#4781;&#4648;&#4961; &#4773;&#4661;&#4776;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small">Fol. 202va: Excerpt from a liturgical text (an anaphora?).</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 202va l.1:</span><span style="font-size: large"> &#4773;&#4877;&#4829;&#4725;&#4840;&#4961; &#4773;&#4709;&#4616;&#4778;&#4961; &#4808;&#4773;&#4633;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4840;&#4961; &#4773;&#4709;&#4616;&#4778;&#4961; &#4675;&#4621;&#4961; &#4677;&#4849;&#4661;&#4961; &#4739;&#4848;&#4648;&#4961; &#4619;&#4821;&#4620;&#4778;&#4961; &#4632;&#4757;&#4704;&#4648;&#4961; &#4824;&#4778;&#4652;&#4708;&#4621;&#4961; &#4739;&#4848;&#4648;&#4961; &#4619;&#4821;&#4620;&#4778;&#4961; &#4824;&#4632;&#4757;&#4704;&#4649;&#4961; &#4819;&#4706;&#4845;&#4961; &#4813;&#4773;&#4721;&#4961; &#4843;&#4672;&#4853;&#4637;&#4961; &#4768;&#4773;&#4637;&#4654;&#4961; &#4773;&#4637;&#4736;&#4618;&#4755;&#4961; &#4656;&#4709;&#4773;&#4961; &#4632;&#4961; &#4824;&#4961; &#4877;&#4649;&#4637;&#4961; &#4773;&#4637;&#4872;&#4649;&#4637;&#4757;&#4961; &#4824;&#4632;&#4925;&#4768;&#4961; &#4813;&#4661;&#4720;&#4961; &#4819;&#4616;&#4637;&#4961; &#4824;&#4845;&#4661;&#4821;&#4622;&#4633;&#4961; {&#4616;}&#4629;&#4931;&#4755;&#4725;&#4961; &#4808;&#4845;&#4752;&#4877;&#4645;&#4961; &#4616;&#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4632;&#4961; &#4824;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4824;&#4770;&#4845;&#4736;&#4621;&#4677;&#4961; &#4808;&#4661;&#4757;&#4961; &#4824;&#4843;&#4920;&#4704;&#4653;&#4677;&#4961; &#4632;&#4961; &#4824;&#4961; &#4773;&#4661;&#4632;&#4961; &#4757;&#4873;&#4645;&#4961; &#4813;&#4773;&#4721;&#4961; &#4656;&#4776;&#4704;&#4961; &#4813;&#4661;&#4720;&#4878;&#4621;&#4962; &#4821;&#4872;&#4849;&#4961; &#4622;&#4721;&#4961; &#4656;&#4709;&#4768;&#4961; &#4656;&#4872;&#4621;&#4961; &#4632;&#4961; &#4824;&#4961; &#4773;&#4637;&#4877;&#4653;&#4635;&#4609;&#4961; &#4725;&#4653;&#4773;&#4853;&#4961; &#4637;&#4853;&#4653;&#4961; &#4828;&#4755;&#4810;&#4961; &#4661;&#4709;&#4629;&#4961; &#4824;&#4819;&#4616;&#4637;&#4961; &#4808;&#4821;&#4661;&#4776;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4757;&#4873;&#4645;&#4961; &#4813;&#4773;&#4721;&#4962; <br /> </span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><locus target="#202va">Fol. 202va</locus>: Excerpt from a liturgical text (an anaphora?).</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 202va l.1:</span><span style="font-size: large"> &#4773;&#4877;&#4829;&#4725;&#4840;&#4961; &#4773;&#4709;&#4616;&#4778;&#4961; &#4808;&#4773;&#4633;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4840;&#4961; &#4773;&#4709;&#4616;&#4778;&#4961; &#4675;&#4621;&#4961; &#4677;&#4849;&#4661;&#4961; &#4739;&#4848;&#4648;&#4961; &#4619;&#4821;&#4620;&#4778;&#4961; &#4632;&#4757;&#4704;&#4648;&#4961; &#4824;&#4778;&#4652;&#4708;&#4621;&#4961; &#4739;&#4848;&#4648;&#4961; &#4619;&#4821;&#4620;&#4778;&#4961; &#4824;&#4632;&#4757;&#4704;&#4649;&#4961; &#4819;&#4706;&#4845;&#4961; &#4813;&#4773;&#4721;&#4961; &#4843;&#4672;&#4853;&#4637;&#4961; &#4768;&#4773;&#4637;&#4654;&#4961; &#4773;&#4637;&#4736;&#4618;&#4755;&#4961; &#4656;&#4709;&#4773;&#4961; &#4632;&#4961; &#4824;&#4961; &#4877;&#4649;&#4637;&#4961; &#4773;&#4637;&#4872;&#4649;&#4637;&#4757;&#4961; &#4824;&#4632;&#4925;&#4768;&#4961; &#4813;&#4661;&#4720;&#4961; &#4819;&#4616;&#4637;&#4961; &#4824;&#4845;&#4661;&#4821;&#4622;&#4633;&#4961; {&#4616;}&#4629;&#4931;&#4755;&#4725;&#4961; &#4808;&#4845;&#4752;&#4877;&#4645;&#4961; &#4616;&#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4632;&#4961; &#4824;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4824;&#4770;&#4845;&#4736;&#4621;&#4677;&#4961; &#4808;&#4661;&#4757;&#4961; &#4824;&#4843;&#4920;&#4704;&#4653;&#4677;&#4961; &#4632;&#4961; &#4824;&#4961; &#4773;&#4661;&#4632;&#4961; &#4757;&#4873;&#4645;&#4961; &#4813;&#4773;&#4721;&#4961; &#4656;&#4776;&#4704;&#4961; &#4813;&#4661;&#4720;&#4878;&#4621;&#4962; &#4821;&#4872;&#4849;&#4961; &#4622;&#4721;&#4961; &#4656;&#4709;&#4768;&#4961; &#4656;&#4872;&#4621;&#4961; &#4632;&#4961; &#4824;&#4961; &#4773;&#4637;&#4877;&#4653;&#4635;&#4609;&#4961; &#4725;&#4653;&#4773;&#4853;&#4961; &#4637;&#4853;&#4653;&#4961; &#4828;&#4755;&#4810;&#4961; &#4661;&#4709;&#4629;&#4961; &#4824;&#4819;&#4616;&#4637;&#4961; &#4808;&#4821;&#4661;&#4776;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4757;&#4873;&#4645;&#4961; &#4813;&#4773;&#4721;&#4962; <br /> </span></p></q>
                            <q xml:lang="en"/>
                            <p>Crudely written.</p>
                         </item>
@@ -210,7 +213,7 @@ the upper margin of the incipit folio for each Gospel book, and in the first rec
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with tooled reddish-brown leather; textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -226,7 +229,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0050MSM">Mänäbäyti Ṣǝyon Maryam/ MSM</placeName>
+                        <placeName corresp="INS0050MSM">Mänäbäyti Ṣәyon Maryam/ MSM</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">Second half of the 18th cent.</origDate>
                   </origin>
@@ -262,8 +265,13 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Täklä Maryam is mentioned in the postscripts to the Gospels (fols. 62vb, 98va, 155rb and 201vb). Other persons are mentioned in the headings of the Gospels (Gäbrä Maryam, Kǝflä Maryam and Zärʾa Buruk), written in a different hand in reddish-brown ink, whereas the name of Täklä Maryam has been partly erased.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Täklä Maryam is mentioned in the postscripts to the Gospels (fols. 62vb, 98va, 155rb and 201vb). Other persons are mentioned in the headings of the Gospels (Gäbrä Maryam, Kǝflä Maryam and Zärʾa Buruk), written in a different hand in reddish-brown ink, whereas the name of Täklä Maryam has been partly erased.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Zärʾa Buruk (s. Additio 1). The Ms. might have been in the library of Mäqdäla Mädḫane ʿAläm.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -286,9 +294,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-08">registered</change>
-         <change who="SA" when="2011-09-01">created</change>
-         <change who="VR" when="2015-05-19">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2011-09-01T10:28:12.594Z">created</change>
+         <change who="VR" when="2015-05-19T12:53:17.821Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

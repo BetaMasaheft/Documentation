@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gǝbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-06-19</date>
+            <date>2013-06-19T12:20:49.728Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0099DMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMA-014</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; names of King Mǝnilǝk II (fol. 67rb) and King Bäkaffa (fol. 158vc); name of the scribe (fol. 173ra); incipits of the sections and subsections of the text; a few lines are rubricated alternating with black lines on fols. 5r, 18va, 19rc, 25ra, 51rc, 52vc, 55rc, 77r, 82rb, 93ra, 94vc, 99vb, 110rc, 112rb, 116va, 121rc, 126va, 140rb; titles of the Biblical books and other works; directives for the ministers or their abbreviations; names of Hebrew letters on fols. 122ra-122va (Lam. 3); the words nastäbäqqwǝʿakä (fols. 66vc-67rb, Text I-7), yǝbe mätärgwǝm (fol. 92ra, Text 1-8) ʾǝgziʾo täśähalännä (fol.  158vb-159va, Text I-9); elements of the quire marks in fols. 21r, 29r, 45r, 69r, 141r; elements of the punctuation signs; elements of the text dividers; elements of Ethiopic numerals.</rubric>
+                     <rubric>Nomina sacra; names of the donors; names of King Mәnilәk II (fol. 67rb) and King Bäkaffa (fol. 158vc); name of the scribe (fol. 173ra); incipits of the sections and subsections of the text; a few lines are rubricated alternating with black lines on fols. 5r, 18va, 19rc, 25ra, 51rc, 52vc, 55rc, 77r, 82rb, 93ra, 94vc, 99vb, 110rc, 112rb, 116va, 121rc, 126va, 140rb; titles of the Biblical books and other works; directives for the ministers or their abbreviations; names of Hebrew letters on fols. 122ra-122va (Lam. 3); the words nastäbäqqwǝʿakä (fols. 66vc-67rb, Text I-7), yǝbe mätärgwǝm (fol. 92ra, Text 1-8) ʾǝgziʾo täśähalännä (fol.  158vb-159va, Text I-9); elements of the quire marks in fols. 21r, 29r, 45r, 69r, 141r; elements of the punctuation signs; elements of the text dividers; elements of Ethiopic numerals.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">177.0</measure> folios, in <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">177.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 3r, 3v, 4r, 4v, 163v, 173v, 174r, 174v, 175r, 175v, 176v, 177r, 177v., in
+                                                  <measure unit="quire">23.0</measure> quires (A+21+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">37.0</height>
                               <width unit="cm">30.0</width>
@@ -60,6 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks in fols. 5r, 13r, 21r, 29r, 37r, 45r, 53r, 61r, 69r, 77r, 85r, 93r, 101r, 109r, 117r, 125r, 133r, 141r, 149r, 157r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">4</dim>
@@ -154,7 +159,7 @@ Hole carefully repaired on fol. 131.</condition>
                            <note>All data are for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -184,18 +189,15 @@ Additional ruled line on the top of fols. 173r, 173v.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 163ra: Incipit of Text I-12.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#163ra">Fol. 163ra</locus>: Incipit of Text I-12.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written probably in the same hand as that of Additio 2 (the same hand as that of the main text?) by mistake or as a writing excercise (?).</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 173ra: Inventory of the books and items of &#704;A&#7717;zara Maryam.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 173ra: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4749;&#4621;&#4680;&#4961; &#4632;&#4923;&#4629;&#4941;&#4725;&#4961; &#4824;&#4768;&#4613;&#4824;&#4652;&#4961; &#4970;&#4808;&#4757;&#4876;&#4621;&#4961; &#4969;&#4877;&#4709;&#4648;&#4961; &#4629;&#4635;&#4635;&#4725;&#4961; &#4970;&#4656;&#4757;&#4781;&#4659;&#4653;&#4961; &#4972;&#4720;&#4768;&#4637;&#4653;&#4961; &#4970;&#4720;&#4768;&#4637;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4969;&#4659;&#4810;&#4654;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#173ra">Fol. 173ra</locus>: Inventory of the books and items of &#704;A&#7717;zara Maryam.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 173ra: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4749;&#4621;&#4680;&#4961; &#4632;&#4923;&#4629;&#4941;&#4725;&#4961; &#4824;&#4768;&#4613;&#4824;&#4652;&#4961; &#4970;&#4808;&#4757;&#4876;&#4621;&#4961; &#4969;&#4877;&#4709;&#4648;&#4961; &#4629;&#4635;&#4635;&#4725;&#4961; &#4970;&#4656;&#4757;&#4781;&#4659;&#4653;&#4961; &#4972;&#4720;&#4768;&#4637;&#4653;&#4961; &#4970;&#4720;&#4768;&#4637;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4969;&#4659;&#4810;&#4654;&#4661;&#4961;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The inventory seems to have been written in two different hands (the same hand as that of the main text and that of Additio 1). The name of the church is spelled ʾAḥzare. An addition has been made in blue pen.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 176r: Record concerning reconciliation.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#176r">Fol. 176r</locus>: Record concerning reconciliation.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in Amharic. The note is about reconciliation and assignation of land.</p>
                         </item>
@@ -204,7 +206,7 @@ Additional ruled line on the top of fols. 173r, 173v.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -213,6 +215,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover and turn-ins (at least 7 tools are used: double circle, corni-form, triple line fillet, cross hatching, double sine wave with dots, small x, oblique rectangle).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -221,7 +224,7 @@ Two pairs of sewing stations.</decoNote>
                      <origPlace>
                         <placeName corresp="INS0099DMA">ʾAḥzära  Maryam /DMA</placeName>
                      </origPlace>
-                     <origDate notBefore="1889" notAfter="1913">King Mǝnilǝk II (r. 1889-1913) is mentioned in the supplication formula on fol. 67rb.&#xD;
+                     <origDate notBefore="1889" notAfter="1913">King Mәnilәk II (r. 1889-1913) is mentioned in the supplication formula on fol. 67rb.&#xD;
 King Bäkaffa (r. 1721-1730) is mentioned in the supplication formula on fol. 158vc.</origDate>
                   </origin>
                </history>
@@ -256,8 +259,8 @@ King Bäkaffa (r. 1721-1730) is mentioned in the supplication formula on fol. 15
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Muse, ʾabunä Wäldä ʾAnanya, ʾabunä ʾIyäʾab, Gäbrä ʾArägawi and Täklä Maryam are mentioned in the supplication formulas.  The name of ʾabunä Wäldä Libanos is added interlineally, in a recent hand in blue pen, in the supplication formulas on fols. 40rc, 104va, 120ra, 120vc, 150vc, 160ra.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Muse, ʾabunä Wäldä ʾAnanya, ʾabunä ʾIyäʾab, Gäbrä ʾArägawi and Täklä Maryam are mentioned in the supplication formulas.  The name of ʾabunä Wäldä Libanos is added interlineally, in a recent hand in blue pen, in the supplication formulas on fols. 40rc, 104va, 120ra, 120vc, 150vc, 160ra.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -284,9 +287,9 @@ King Bäkaffa (r. 1721-1730) is mentioned in the supplication formula on fol. 15
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-24">registered</change>
-         <change who="IR" when="2013-06-19">created</change>
-         <change who="DN" when="2014-12-08">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IR" when="2013-06-19T12:20:49.728Z">created</change>
+         <change who="DN" when="2014-12-08T11:53:45.012Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

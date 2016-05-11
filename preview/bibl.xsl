@@ -7,7 +7,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:listBibl[not(@type='relations')]">
-        <xsl:value-of select="concat(@type, ' Bibliography')"/>
+        <h4><xsl:value-of select="concat(@type, ' Bibliography')"/></h4>
         <ul>
             <xsl:apply-templates/>
         </ul>
@@ -21,7 +21,25 @@
                     <xsl:value-of select="."/>
                 </xsl:when>
                 <xsl:when test="@corresp">
-                    <a href="{@corresp}"><xsl:value-of select="text()"/></a>
+                    <a href="{@corresp}"><xsl:value-of select="@corresp"/>
+                        <xsl:variable name="filename"> 
+                            <xsl:choose>
+                                <xsl:when test="contains(@corresp, '#')">
+                                    <xsl:value-of select="substring-before(@corresp, '#')"/>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="@corresp"/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                        </xsl:variable>
+                        <xsl:if test="not(document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI)">
+                            <b
+                                style="color:red;
+                                text-align:center;"
+                                >**No record for <xsl:value-of select="$filename"
+                                />** = <xsl:value-of select="."/> **</b>
+                        </xsl:if>
+                    </a>
                         <xsl:if test="t:date"><xsl:apply-templates select="t:date"/></xsl:if>
                         <xsl:if test="t:note"><xsl:apply-templates select="t:note"/></xsl:if>
                 </xsl:when>

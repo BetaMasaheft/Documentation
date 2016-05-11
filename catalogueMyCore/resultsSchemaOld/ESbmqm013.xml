@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESbmqm013"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gädlä Täklä Haymanot “Vita of Täklä Haymanot” / Mälkǝʾa Täklä Haymanot “Image of Täklä Haymanot” / Täʾamrä Täklä Haymanot “Miracles of Täklä Haymanot”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2014-11-21</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0208BMQM"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>BMQM-013</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the protagonist; name of the scribe; name of the donor; incipit of Text I and of its subsections; incipit of subsections of Text III; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+On the incipit page of Text I (fol. 4r), few lines are rubricated, alternating with black lines.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">137.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">23.5</height>
+                              <width unit="cm">19.8</width>
+                              <depth unit="cm">9.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="1r" to="3v"/>A(3; s.l.: 2, stub after 1/fols. 1r-3v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="4r" to="10v"/> ፩I(7; s.l.: 5, stub after 2/fols. 4r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="11r" to="17v"/> ፪II(7; s.l.: 5, stub after 2/fols. 11r-17v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="18r" to="25v"/> ፫III(8/fols. 18r-25v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="26r" to="33v"/> IV(8; s.l.: 4, stub after 5; 5, stub after 4/fols. 26r-33v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="34r" to="42v"/> V(9; s.l.: 4, stub after 4/fols. 34r-42v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="43r" to="50v"/> VI(8/fols. 43r-50v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="51r" to="58v"/> ፯VII(8/fols. 51r-58v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="59r" to="66v"/> ፰VIII(8/fols. 59r-66v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="67r" to="72v"/> IX(6/fols. 67r-72v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="73r" to="80v"/> ፲X(8/fols. 73r-80v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="8+"/>
+                                 <locus from="81r" to="90v"/> ፲፩XI(8+2/fols. 81r-90v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="91r" to="98v"/> ፲፪XII(8/fols. 91r-98v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="99r" to="106v"/> ፲፫XIII(8/fols. 99r-106v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="107r" to="114v"/> ፲፬XIV(8/fols. 107r-114v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="115r" to="122v"/> ፲፭XV(8/fols. 115r-122v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="123r" to="130v"/> ፲፮XVI(8/fols. 123r-130v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">5</dim>
+                                 <locus from="131r" to="135v"/> XVII(5; s.l.: 3, stub after 2/fols. 131r-135v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="136r" to="137v"/>
+                                 <locus from="83" to="84"/> B(2/fols. 136r-137v)&#xD;
+&#xD;
+&#xD;
+Fols. 83-84 is an eccentric insertion.</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The front and back boards are broken and repaired.&#xD;
+The quires are loose, the original sewing is missing, crudely repaired with various threads.&#xD;
+Mold is visible on some fols. (e.g. fols. 2, 11, 12).&#xD;
+Some fols. are damaged by water (esp. fols. 131-137).&#xD;
+Tears carefully amended on fols. 55, 60, 65.&#xD;
+Fols. 69-70 are of smaller size.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="17">
+                           <dimensions unit="mm">
+                              <height>155</height>
+                              <width>155</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">30</dim>
+                              <dim type="bottom">50</dim>
+                              <dim type="right">30</dim>
+                              <dim type="left">13</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 5r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Fine, careful.</ab>
+                        <seg type="ink">Black, reddish-brown</seg>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Giyorgis</persName>Wäldä Giyorgis is mentioned as the scribe in Additio 1.<date>18th century (?).</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">- Fol. 130rb (incipit page of Text II): crude ornamental band, geometric motifs.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p>Fol. 130ra-130rb: Ownership note.</p><q xml:lang="gez"><p>Fol. 130ra: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4848;&#4872;&#4616;&#4725;&#4961;</span> [fol. 130rb]<span style="font-size: large;"> &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4920;&#4624;&#4942;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4848;&#4632;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;&#4941;&#4657;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4962;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The note is written in the main hand; it states that the Ms. was written for the the church of Dägälät Mikaʾel by the scribe Wäldä Giyorgis, commissioned by Dämä Krǝstos.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p>Fol. 134va-136rb: Unidentified text.</p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>Crudely written in a secondary hand. Spaces for rubrication are left empty.</p>
+                        </item>
+                        <item xml:id="e1">- Spaces for rubrication in Text II are left empty.&#xD;
+- Doodles: fols. 1r, 1v, 2r.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="partly">
+                        <decoNote xml:id="b1">Two wooden boards (both boards are broken and repaired).&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head and one close to the tail of the codex.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0208BMQM">Bet Muḵaʿ Mikaʾel / BMQM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1700" notAfter="1800">18th cent. (?) Dämä Krǝstos might be a ruler of Wag and Lasta, a contemporary of King Bäkaffa (r. 1721-30) and King ʾIyasu II (r. 1730-55).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="ancient"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">The Ms. was commissioned by Dämä Krǝstos (s. Additio 1).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Wäldä Giyorgis</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Hagiography"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-12-08">registered</change>
+         <change who="SA" when="2014-11-21">created</change>
+         <change who="DN" when="2015-09-03">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

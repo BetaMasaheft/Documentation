@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-01-30</date>
+            <date>2015-01-30T17:14:25.859Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0175QMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QMA-006</idno>
                </msIdentifier>
                <msContents>
@@ -46,6 +46,22 @@ Two lines of the incipit of Text I-1, alternating with black lines; the first wo
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I-2 comprises 31 strophes which are strophes 1-5, 7-31, 33 according to GrohHymn pp. 336-53.</note>
+                     <note/>
+                     <note>Text I-3, partly with interlineal musical notation, contains:</note>
+                     <note>- Ṣälotä [zä-yǝbǝl] ʾǝmqǝdmä [yanbǝbu] täʾamǝr ... “Prayer [recited] before [reading] the Miracles ..." (fols. 12va)</note>
+                     <note/>
+                     <note>Text I-4 includes the hymns:</note>
+                     <note>- ʾO-ʾәgzǝʾtǝyä qǝddǝst dǝngǝl Maryam wäladitä ʾamlak ... “O my Lady, Holy Virgin Mary, Godbearing ...” (fols. 14rb l.3-rb l.18)</note>
+                     <note>- ʾO-ʾәgzǝʾtǝyä qǝddǝst dǝngǝl Maryam Mariham ʾǝmmu lä-ʾIyäsus Krǝstos kähali ... "O my Lady, Holy Virgin Mary, Mother of Jesus Christ the Almighty ..." (fol. 14rb-va) (cp. ChRep no. 373)</note>
+                     <note>- Sälam läki ʾo-ʾәgzǝʾtǝyä qǝddǝst dǝngǝl Maryam ʾǝmmä mädḫǝn wä-ʾǝmmä bǝrhan ... "Salutation to you, o my Lady, Holy Virgin Mary, Mother of the Saviour and Mother of the Light ..." (fols. 14va-15rb).</note>
+                     <note/>
+                     <note>The miracles of Mary (Text I-6) are numbered. Text I-7 is followed by a short note which determines when the short hymn has to be read.</note>
+                     <note/>
+                     <note>The miracles of Jesus (Text II-2) are numbered. The scribe numbered the introduction as miracles 1 and 2. Text II is followed by a short hymn: ʾƎgziʾa sänbät wäld …, the incipit reads as follows, fol. 125rb: እግዚአ፡ ሰንበት፡ ወልድ፡ ሶበ፡ አርአየ፡ ነቢረ፡ ተአምር፡ በሰንበት፡ …</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -53,7 +69,10 @@ Two lines of the incipit of Text I-1, alternating with black lines; the first wo
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">135.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">135.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 2v-3v, 94v, 134v-135v., in
+                                                  <measure unit="quire">16.0</measure> quires (A+14+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">21.5</width>
@@ -62,6 +81,8 @@ Two lines of the incipit of Text I-1, alternating with black lines; the first wo
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks (rubrication has not been executed) are often written twice (partly faded), in the inner upper corner of the first and last folio of the quires on fols. 18v: ፩, 19r: ፪, 29r/38v: ፫, 39r/48v: ፬, 49r: ፭, 59r/68v: ፮, 69r/76v: ፯, 77r/84v: ፰, 85r/94v: ፱, 95r/104v: ፲, 105r/113v: ፲፩, 114r/123v: ፲፪, 124r/133v: ፲፫.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -146,7 +167,7 @@ Holes or tears amended on fols. 26, 41, 45, 78, 110, 112.</condition>
                            <note>Quire I: all data for fol. 5r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/A.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -173,7 +194,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Quires II-XIV: all data for fol. 10r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -197,28 +218,25 @@ Some fols. have one or two additional ruled lines at the bottom (fols. 21rv, 26r
                         <seg type="ink">Black, red (hand a: brilliant red, hand b: vivid red).</seg>
                         <persName role="scribe" corresp="PRS00000">Lǝʿulä Qal</persName>Lǝʿulä Qal (hand b) is mentioned as the scribe in the concluding supplication of Text I-6 on fol. 93vb.<date>19th century (?)</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">fols. 4ra-8ra (quire I); conspicuously right-sloping letters with long vowel markers.</handNote>
-                     <handNote xml:id="h3" script="Ethiopic">fols. 9ra-133va (quires II-XIV); broad, roundly shaped letters, thick vertical lines.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a: fols. 4ra-8ra (quire I); conspicuously right-sloping letters with long vowel markers.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b, Lǝʿulä Qal: fols. 9ra-133va (quires II-XIV); broad, roundly shaped letters, thick vertical lines.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span unicode="" style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 8rb: Note concerning the local ma&#7717;b&#228;r-association (?)</span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span unicode="" style="font-size:9.0pt;line-height:&#10;115%;Arial"><locus target="#8rb">Fol. 8rb</locus>: Note concerning the local ma&#7717;b&#228;r-association (?)</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fols. 125va: Excerpts &#160;from S&#228;&#705;atat z&#228;-lelit &#8220;Horologium for the Night&#8221; (MSLN p. 116).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 125va: </span><span style="font-size: small;">&#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4901;&#4817;&#4632;&#4961; &#4661;&#4637;&#4961; &#4616;&#4824;&#4845;&#4924;&#4813;&#4822;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4741;&#4709;&#4661;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4616;&#4824;&#4845;&#4704;&#4621;&#4822;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4925;&#4811;&#4819;&#4961; &#4632;&#4853;&#4739;&#4754;&#4725;&#4961; &#4616;&#4824;&#4845;&#4640;&#4813;&#4822;&#4961; &#4776;&#4632;&#4961; &#4845;&#4707;&#4653;&#4777;&#4752;&#4961; &#4845;&#4936;&#4753;&#4961; &#4768;&#4653;&#4851;&#4774;&#4961; &#4616;&#4920;&#4707;&#4770;&#4752;&#4961; &#4845;&#4925;&#4709;&#4774;&#4961; &#4808;&#4621;&#4723;&#4609;&#4961; &#4752;&#4642;&#4774;&#4962; </span></p> <div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal;text-autospace:none"><span style="font-size: small;">Fol. 125va:</span> <span style="font-size: small;">&#4768;&#4632;&#4961; &#4725;&#4632;&#4925;&#4773;&#4961; &#4616;&#4784;&#4757;&#4758;&#4961; &#4637;&#4661;&#4616;&#4961; &#4848;&#4632;&#4961; &#4872;&#4710;&#4961; &#4808;&#4768;&#4773;&#4875;&#4653;&#4962; &#4768;&#4635;&#4629;&#4928;&#4757;&#4777;&#4961; &#4752;&#4941;&#4661;&#4840;&#4961; &#4813;&#4661;&#4725;&#4961; &#4773;&#4852;&#4776;&#4961; &#4781;&#4705;&#4653;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4773;&#4877;&#4826;&#4768;&#4961;&#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4637;&#4853;&#4653;&#4962; &#4845;&#4725;&#4811;&#4672;&#4657;&#4961; &#4704;&#4773;&#4757;&#4722;&#4768;&#4840;&#4961; &#4725;&#4784;&#4653;&#4822;&#4725;&#4776;&#4961; &#4704;&#4704;&#4725;&#4653;&#4962; &#4808;&#4725;&#4640;&#4845;&#4902;&#4725;&#4776;&#4961; &#4776;&#4632;&#4961; &#4872;&#4709;&#4653;&#4961; &#4616;&#4741;&#4851;&#4901;&#4961; &#4709;&#4649;&#4653;&#4962; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4704;&#4621;&#4962;</span></div></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#125va">Fols. 125va</locus>: Excerpts &#160;from S&#228;&#705;atat z&#228;-lelit &#8220;Horologium for the Night&#8221; (MSLN p. 116).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 125va: </span><span style="font-size: small;">&#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4901;&#4817;&#4632;&#4961; &#4661;&#4637;&#4961; &#4616;&#4824;&#4845;&#4924;&#4813;&#4822;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4741;&#4709;&#4661;&#4720;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4616;&#4824;&#4845;&#4704;&#4621;&#4822;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4925;&#4811;&#4819;&#4961; &#4632;&#4853;&#4739;&#4754;&#4725;&#4961; &#4616;&#4824;&#4845;&#4640;&#4813;&#4822;&#4961; &#4776;&#4632;&#4961; &#4845;&#4707;&#4653;&#4777;&#4752;&#4961; &#4845;&#4936;&#4753;&#4961; &#4768;&#4653;&#4851;&#4774;&#4961; &#4616;&#4920;&#4707;&#4770;&#4752;&#4961; &#4845;&#4925;&#4709;&#4774;&#4961; &#4808;&#4621;&#4723;&#4609;&#4961; &#4752;&#4642;&#4774;&#4962; </span></p> <div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal;text-autospace:none"><span style="font-size: small;">Fol. 125va:</span> <span style="font-size: small;">&#4768;&#4632;&#4961; &#4725;&#4632;&#4925;&#4773;&#4961; &#4616;&#4784;&#4757;&#4758;&#4961; &#4637;&#4661;&#4616;&#4961; &#4848;&#4632;&#4961; &#4872;&#4710;&#4961; &#4808;&#4768;&#4773;&#4875;&#4653;&#4962; &#4768;&#4635;&#4629;&#4928;&#4757;&#4777;&#4961; &#4752;&#4941;&#4661;&#4840;&#4961; &#4813;&#4661;&#4725;&#4961; &#4773;&#4852;&#4776;&#4961; &#4781;&#4705;&#4653;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4773;&#4877;&#4826;&#4768;&#4961;&#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4637;&#4853;&#4653;&#4962; &#4845;&#4725;&#4811;&#4672;&#4657;&#4961; &#4704;&#4773;&#4757;&#4722;&#4768;&#4840;&#4961; &#4725;&#4784;&#4653;&#4822;&#4725;&#4776;&#4961; &#4704;&#4704;&#4725;&#4653;&#4962; &#4808;&#4725;&#4640;&#4845;&#4902;&#4725;&#4776;&#4961; &#4776;&#4632;&#4961; &#4872;&#4709;&#4653;&#4961; &#4616;&#4741;&#4851;&#4901;&#4961; &#4709;&#4649;&#4653;&#4962; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4704;&#4621;&#4962;</span></div></q>
                            <q xml:lang="en"/>
                            <p>Both excerpts are written in red, in the same secondary hand.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;">Fols. 125va-vb: T&#228;&#704;amr&#228; G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus "Miracles of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus": 1 miracle.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small;"><locus target="#125va">Fols. 125va</locus>-vb: T&#228;&#704;amr&#228; G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus "Miracles of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus": 1 miracle.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Two initial lines and the name of the protagonist are rubricated.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;">Fols. 134ra-rb: Note on commissioning the writing.</span></p><q xml:lang="gez"><p>Fol. 134ra: &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4632;&#4677;&#4848;&#4656;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4709;&#4653;&#4678;&#4961; &#4824;&#4768;&#4925;&#4624;&#4941;&#4811;&#4961; &#4704;&#4969;&#4961; &#4637;&#4781;&#4653;&#4961; &#4848;&#4674;&#4672;&#4961; &#4768;&#4709;&#4653;&#4678;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4724;&#4814;&#4853;&#4654;&#4661;&#4961; &#4808;&#4773;&#4637;&#4853;&#4741;&#4652;&#4609;&#4961; &#4672;&#4658;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4808;&#4608;&#4709;&#4811;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4824;&#4640;&#4648;&#4811;&#4961; &#4808;&#4824;&#4936;&#4624;&#4683;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4619;&#4961; &#4808;&#4824;&#4720;&#4883;&#4629;&#4616;&#4811;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</p> <p>&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4645;&#4653;&#4755;&#4845;&#4961; &#4813;&#4773;&#4721;&#4961; &#4824;&#4768;&#4621;&#4710;&#4961; &#4781;&#4653;&#4851;&#4853;&#4961; &#4773;&#4616;&#4961; &#4723;&#4752;&#4709;&#4705;&#4961; &#4672;&#4658;&#4661;&#4961; &#4768;&#4813;&#4961; &#4850;&#4843;&#4678;&#4757;&#4961; &#4770;&#4725;&#4653;&#4645;&#4817;&#4754;&#4961; &#4874;&#4828;&#4961; &#4920;&#4622;&#4725;&#4962;</p> <div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal">Fol. 134rb: &#4808;&#4779;&#4821;&#4704;&#4961; &#4773;&#4752;&#4877;&#4648;&#4781;&#4633;&#4961; &#4774;&#4768;&#4704;&#4813;&#4840;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4808;&#4768;&#4739;&#4813;&#4840;&#4961; &#4850;&#4843;&#4678;&#4755;&#4725;&#4961; &#4776;&#4632;&#4961; &#4770;&#4723;&#4925;&#4653;&#4817;&#4961; &#4768;&#4757;&#4704;&#4710;&#4720;&#4961; &#4829;&#4757;&#4721;&#4961;&#4632;&#4925;&#4624;&#4941;&#4961; &#4704;&#4704;&#4819;&#4619;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4704;&#4656;&#4757;&#4704;&#4725;&#4961; &#4808;&#4704;&#4704;&#4819;&#4619;&#4720;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4632;&#4961; &#4770;&#4725;&#4741;&#4880;&#4617;&#4961; &#4773;&#4637;&#4707;&#4648;&#4776;&#4723;&#4961; &#4616;&#4853;&#4757;&#4877;&#4621;&#4961; &#4757;&#4925;&#4629;&#4725;&#4962;</div></q>
+                        <item xml:id="a4"><p><span style="font-size: small;"><locus target="#134ra">Fols. 134ra</locus>-rb: Note on commissioning the writing.</span></p><q xml:lang="gez"><p>Fol. 134ra: &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4632;&#4677;&#4848;&#4656;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4709;&#4653;&#4678;&#4961; &#4824;&#4768;&#4925;&#4624;&#4941;&#4811;&#4961; &#4704;&#4969;&#4961; &#4637;&#4781;&#4653;&#4961; &#4848;&#4674;&#4672;&#4961; &#4768;&#4709;&#4653;&#4678;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4724;&#4814;&#4853;&#4654;&#4661;&#4961; &#4808;&#4773;&#4637;&#4853;&#4741;&#4652;&#4609;&#4961; &#4672;&#4658;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4808;&#4608;&#4709;&#4811;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4824;&#4640;&#4648;&#4811;&#4961; &#4808;&#4824;&#4936;&#4624;&#4683;&#4961; &#4808;&#4824;&#4720;&#4768;&#4872;&#4619;&#4961; &#4808;&#4824;&#4720;&#4883;&#4629;&#4616;&#4811;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</p> <p>&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4645;&#4653;&#4755;&#4845;&#4961; &#4813;&#4773;&#4721;&#4961; &#4824;&#4768;&#4621;&#4710;&#4961; &#4781;&#4653;&#4851;&#4853;&#4961; &#4773;&#4616;&#4961; &#4723;&#4752;&#4709;&#4705;&#4961; &#4672;&#4658;&#4661;&#4961; &#4768;&#4813;&#4961; &#4850;&#4843;&#4678;&#4757;&#4961; &#4770;&#4725;&#4653;&#4645;&#4817;&#4754;&#4961; &#4874;&#4828;&#4961; &#4920;&#4622;&#4725;&#4962;</p> <div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal">Fol. 134rb: &#4808;&#4779;&#4821;&#4704;&#4961; &#4773;&#4752;&#4877;&#4648;&#4781;&#4633;&#4961; &#4774;&#4768;&#4704;&#4813;&#4840;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4808;&#4768;&#4739;&#4813;&#4840;&#4961; &#4850;&#4843;&#4678;&#4755;&#4725;&#4961; &#4776;&#4632;&#4961; &#4770;&#4723;&#4925;&#4653;&#4817;&#4961; &#4768;&#4757;&#4704;&#4710;&#4720;&#4961; &#4829;&#4757;&#4721;&#4961;&#4632;&#4925;&#4624;&#4941;&#4961; &#4704;&#4704;&#4819;&#4619;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4704;&#4656;&#4757;&#4704;&#4725;&#4961; &#4808;&#4704;&#4704;&#4819;&#4619;&#4720;&#4961; &#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4776;&#4632;&#4961; &#4770;&#4725;&#4741;&#4880;&#4617;&#4961; &#4773;&#4637;&#4707;&#4648;&#4776;&#4723;&#4961; &#4616;&#4853;&#4757;&#4877;&#4621;&#4961; &#4757;&#4925;&#4629;&#4725;&#4962;</div></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the main hand. It states that the Ms. was commissioned by the community of ʾAbrǝqo during the tenure of qes gäbäz Tewodros and, after him, qäsis Täsfa Ṣǝyon. 
 The note is followed by an exhortation to read this Ms. on the feast days of God, on Sunday and on the feast days of St. Mary.</p>
@@ -241,6 +259,8 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Remains and traces (holes) of two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark brown leather cover is poorly visible (at least 6 tools were used: triple line fillet, double circle, small x, corni-from, double sine wave with dots, double crescent).&#xD;
+Blind tooled ornament on the reddish-brown overback (1 tool was used: single line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -283,8 +303,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 3, the Ms. was commissioned by community of ʾAbrǝqo during the tenure of qes gäbäz Tewodros and, after him, qäsis Täsfa Ṣǝyon. Both names are written in supplication formulas (fols. 12vb, 16rb, 20vb etc), in hand b. In addition, many other names are mentioned like Zä-ʾIyäsus (fols. 23vb, 25vb, 28ra etc.) and ʾAmdä Mikaʾel (fols. 26rb, 30vb, 37ra etc.); interlineally in a secondary hand: Fǝśśǝḥa Giyorgis and Täklä Giyorgis (fols. 12vb, 18rb, 32rb, 44ra etc.).&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 3, the Ms. was commissioned by community of ʾAbrǝqo during the tenure of qes gäbäz Tewodros and, after him, qäsis Täsfa Ṣǝyon. Both names are written in supplication formulas (fols. 12vb, 16rb, 20vb etc), in hand b. In addition, many other names are mentioned like Zä-ʾIyäsus (fols. 23vb, 25vb, 28ra etc.) and ʾAmdä Mikaʾel (fols. 26rb, 30vb, 37ra etc.); interlineally in a secondary hand: Fǝśśǝḥa Giyorgis and Täklä Giyorgis (fols. 12vb, 18rb, 32rb, 44ra etc.).&#xD;
 The nameof Tewodros Wäldä Giyorgis is written, not rubricated, in the supplication on fol. 4va, in hand a.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -312,9 +332,9 @@ The nameof Tewodros Wäldä Giyorgis is written, not rubricated, in the supplica
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-18">registered</change>
-         <change who="SH" when="2015-01-30">created</change>
-         <change who="SH" when="2015-02-03">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2015-01-30T17:14:25.859Z">created</change>
+         <change who="SH" when="2015-02-03T14:51:08.872Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

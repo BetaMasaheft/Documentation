@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-05-02</date>
+            <date>2013-05-02T13:58:48.191Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0108GKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GKM-018</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Pss. 42, 83, 101 are not numbered.</note>
+                     <note>- The following Pss. are numbered incorrectly: 43 (numbered 53), 85 (numbered 84), 89 (numbered 85), 90 (numbered 9), 109 (numbered 110).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">157.0</measure> folios, in <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">157.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r-v, 2v, 3v, 139v, 156r, 157v., in
+                                                  <measure unit="quire">21.0</measure> quires (A+19+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">17.5</height>
                               <width unit="cm">13.5</width>
@@ -153,7 +161,7 @@ Part of the covering is missing on the upper margin of the right board and on th
 All data are for fol. 5r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -187,7 +195,7 @@ The scribe frequently disregarded the ruling, e.g., fols. 35r, 62v, 72r, 72v, 10
 All data are for fol. 141r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -210,25 +218,35 @@ The bottom line is written above the ruling.</ab>
                         <date>19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>እ᎓ መ᎓</abbr> for <expan>እስመ᎓ ለዓለም᎓ ምሕረቱ᎓ </expan> (Ps. 135, fols. 108v-109v).</item>
+                              <abbr>እ᎓ መ᎓</abbr> for
+                                                  <expan>እስመ᎓ ለዓለም᎓ ምሕረቱ᎓ </expan> (Ps. 135, fols. 108v-109v).</item>
                            <item>
-                              <abbr>ስ᎓</abbr> for <expan>ስቡሕኒ᎓ ውእቱ᎓ ወልዑልኒ᎓ ውእቱ᎓ ለዓለም᎓ </expan> (Text I-2, fols. 126v-127r).</item>
+                              <abbr>ስ᎓</abbr> for
+                                                  <expan>ስቡሕኒ᎓ ውእቱ᎓ ወልዑልኒ᎓ ውእቱ᎓ ለዓለም᎓ </expan> (Text I-2, fols. 126v-127r).</item>
                            <item>
-                              <abbr>እ᎓</abbr> for <expan>እለ᎓ </expan> (Text I-4)</item>
+                              <abbr>እ᎓</abbr> for
+                                                  <expan>እለ᎓ </expan> (Text I-4)</item>
                            <item>
-                              <abbr>ኵ᎓</abbr> for <expan>ኵሉ᎓ </expan> (Text I-4)</item>
+                              <abbr>ኵ᎓</abbr> for
+                                                  <expan>ኵሉ᎓ </expan> (Text I-4)</item>
                            <item>
-                              <abbr>እስ᎓</abbr> for <expan>እስመ᎓ </expan> (Text I-4)</item>
+                              <abbr>እስ᎓</abbr> for
+                                                  <expan>እስመ᎓ </expan> (Text I-4)</item>
                            <item>
-                              <abbr>ነዓ᎓</abbr> for <expan>ነዓብይኪ᎓ </expan> (Text I-4)</item>
+                              <abbr>ነዓ᎓</abbr> for
+                                                  <expan>ነዓብይኪ᎓ </expan> (Text I-4)</item>
                            <item>
-                              <abbr>ለ᎓</abbr> for <expan>ለኪ᎓ </expan> (Text I-4)</item>
+                              <abbr>ለ᎓</abbr> for
+                                                  <expan>ለኪ᎓ </expan> (Text I-4)</item>
                            <item>
-                              <abbr>ተ᎓</abbr> for <expan>ተፈሥሒ᎓ </expan> (Text I-4)</item>
+                              <abbr>ተ᎓</abbr> for
+                                                  <expan>ተፈሥሒ᎓ </expan> (Text I-4)</item>
                            <item>
-                              <abbr>ወ(በ)᎓</abbr> for <expan>ወበእንተዝ᎓ </expan> (Text I-4)</item>
+                              <abbr>ወ(በ)᎓</abbr> for
+                                                  <expan>ወበእንተዝ᎓ </expan> (Text I-4)</item>
                            <item>
-                              <abbr>ወ᎓ ሣ᎓ ሰ᎓</abbr> for <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት </expan> (Text I-5).</item>
+                              <abbr>ወ᎓ ሣ᎓ ሰ᎓</abbr> for
+                                                  <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት </expan> (Text I-5).</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -242,33 +260,27 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 2r: List of St. Mary's body parts, extracted from M&#228;lk&#601;&#704;a Maryam.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2r:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4829;&#4781;&#4648;&#5011; &#4661;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4616;&#4661;&#4773;&#4653;&#4720;&#5011; &#4653;&#4773;&#4661;&#4778;&#5011; &#4616;&#4653;&#4773;&#4661;&#4778;&#5011; &#4616;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4616;&#4672;&#4651;&#4757;&#4709;&#4725;&#4778;&#5011; &#4616;&#4819;&#4821;&#4845;&#4757;&#4725;&#4778;&#5011; </span><span style="line-height: 115%;">&#4616;&#4768;&#4773;&#4827;&#4757;&#4778;&#5011; &#4616;&#4632;&#4619;&#4725;&#4629;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4616;&#4768;&#4773;&#4755;&#4941;&#4778;&#5011; &#4616;&#4776;&#4755;&#4941;&#4653;&#4778;&#5011; &#4616;&#4768;&#4937;&#4778;&#5011; &#4616;&#4768;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#2r">Fol. 2r</locus>: List of St. Mary's body parts, extracted from M&#228;lk&#601;&#704;a Maryam.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2r:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4616;&#4829;&#4781;&#4648;&#5011; &#4661;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4616;&#4661;&#4773;&#4653;&#4720;&#5011; &#4653;&#4773;&#4661;&#4778;&#5011; &#4616;&#4653;&#4773;&#4661;&#4778;&#5011; &#4616;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4616;&#4672;&#4651;&#4757;&#4709;&#4725;&#4778;&#5011; &#4616;&#4819;&#4821;&#4845;&#4757;&#4725;&#4778;&#5011; </span><span style="line-height: 115%;">&#4616;&#4768;&#4773;&#4827;&#4757;&#4778;&#5011; &#4616;&#4632;&#4619;&#4725;&#4629;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4616;&#4768;&#4773;&#4755;&#4941;&#4778;&#5011; &#4616;&#4776;&#4755;&#4941;&#4653;&#4778;&#5011; &#4616;&#4768;&#4937;&#4778;&#5011; &#4616;&#4768;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the same hand as Additio 2. It mentions St. Mary's body parts.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 3r (above): Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 3r </span><span style="line-height: 115%;">(above)</span><span style="line-height: 115%;">:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4851;&#4810;&#4725;&#5011; &#4824;&#4808;&#4624;&#4704;&#4726;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4778;&#4851;&#4752;&#5011; &#4637;&#4629;&#4648;&#4725;&#5011; &#4824;&#4848;&#4709;&#4648;&#5011; &#4872;&#4752;&#4725;&#5011; &#4776;&#4632;&#5011; &#4845;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#4755;&#5011; &#4632;&#4853;&#4739;&#4754;&#4720;&#5011; &#4752;&#4941;&#4661;&#5011; &#4808;&#4645;&#4875;&#5011; &#4808;&#4661;&#4632;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4901;&#4637;&#4672;&#4723;&#5011; &#4808;&#4616;&#4720;&#5011; &#4632;&#4853;&#4736;&#4757;&#5011; &#4808;&#4661;&#4632;&#5011; &#4768;&#4705;&#4611;&#5011; &#4845;&#4616;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4808;&#4661;&#4632;&#5011; &#4773;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4808;&#4616;&#4720;&#5011; &#4645;&#4653;&#4874;&#4725;&#5011; &#4808;&#4661;&#4632;&#5011; &#4773;&#4736;&#4723;&#5011; </span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#4616;&#4720;&#5011; &#4778;&#4851;&#4757;&#5011;&#160; </span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#3r">Fol. 3r</locus>(above): Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 3r </span><span style="line-height: 115%;">(above)</span><span style="line-height: 115%;">:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4851;&#4810;&#4725;&#5011; &#4824;&#4808;&#4624;&#4704;&#4726;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4778;&#4851;&#4752;&#5011; &#4637;&#4629;&#4648;&#4725;&#5011; &#4824;&#4848;&#4709;&#4648;&#5011; &#4872;&#4752;&#4725;&#5011; &#4776;&#4632;&#5011; &#4845;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#4755;&#5011; &#4632;&#4853;&#4739;&#4754;&#4720;&#5011; &#4752;&#4941;&#4661;&#5011; &#4808;&#4645;&#4875;&#5011; &#4808;&#4661;&#4632;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4901;&#4637;&#4672;&#4723;&#5011; &#4808;&#4616;&#4720;&#5011; &#4632;&#4853;&#4736;&#4757;&#5011; &#4808;&#4661;&#4632;&#5011; &#4768;&#4705;&#4611;&#5011; &#4845;&#4616;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4808;&#4661;&#4632;&#5011; &#4773;</span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#5011; &#4808;&#4616;&#4720;&#5011; &#4645;&#4653;&#4874;&#4725;&#5011; &#4808;&#4661;&#4632;&#5011; &#4773;&#4736;&#4723;&#5011; </span><span style="font-size: medium;"><span style="line-height: 115%;">&lt;&#8230;&gt;</span></span><span style="line-height: 115%;">&#4616;&#4720;&#5011; &#4778;&#4851;&#4757;&#5011;&#160; </span></span></p></q>
                            <q xml:lang="en"><p style="text-align: justify;"><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 3r (above): This Psalter (is) which she donated to the church of Kidan&#228; M&#601;&#7717;r&#228;t of D&#228;br&#228; G&#228;nn&#228;t so that &lt;&#8230;&gt; salvation for the soul and body, &lt;&#8230;&gt; baptismal name is </span><span unicode="" style="line-height: 115%;">W&#228;l&#228;tt&#228; M&#228;d&#7723;&#477;n and the name of her father is Y&#601;la Maryam, and the name of </span><span unicode="" style="line-height: 115%;">&lt;&#8230;&gt; is </span><span unicode="" style="line-height: 115%;">W&#228;l&#228;tt&#228; &#346;&#601;rgit, and the name of her sister is</span><span unicode="" style="line-height: 115%;"> (</span><span unicode="" style="line-height: 115%;">W&#228;l&#228;tt&#228;</span><span unicode="" style="line-height: 115%;">) Kidan.&#160; </span></span></p></q>
                            <p>The note is written in the same hand as Additio 1. It states that the Ms. was donated to the church Kidanä Mǝḥrät of Däbrä Gännät by Wälättä Mädḫǝn. her relatives are also mentioned: her father Yǝla Maryam, Wälättä Śǝrgit and her sister Wälättä Kidan.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;">Fol. 3r (below): Excerpt from Ps. 118. </span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 3r</span><span style="line-height: 115%;"> (below)</span><span style="line-height: 115%;">:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4845;&#5011; &#4709;&#4610;&#4621;&#5011; &#4829;&#4777;&#4653;&#5011; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962; &#4827;&#4845;&#5011; &#4720;&#4824;&#4776;&#4653;&#5011; &#4675;&#4621;&#4776;&#5011; &#4824;&#4768;&#4661;&#4936;&#4813;&#4782;&#5011; &#4616;&#4872;&#4709;&#4653;&#4776;&#4962;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a3"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><locus target="#3r">Fol. 3r</locus>(below): Excerpt from Ps. 118. </span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 3r</span><span style="line-height: 115%;"> (below)</span><span style="line-height: 115%;">:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4845;&#5011; &#4709;&#4610;&#4621;&#5011; &#4829;&#4777;&#4653;&#5011; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962; &#4827;&#4845;&#5011; &#4720;&#4824;&#4776;&#4653;&#5011; &#4675;&#4621;&#4776;&#5011; &#4824;&#4768;&#4661;&#4936;&#4813;&#4782;&#5011; &#4616;&#4872;&#4709;&#4653;&#4776;&#4962;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Crudely written. At the end of the note, after the black line, the scribe indicated in Amharic that the text contained in the note is a portion that has been omitted from its original place by mistake (a part of Ps. 118). The same omitted passage has been added, by the same hand, also on fols. of Ps. 118, cp. "Varia".</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;">Fols. 138v: Note on completing the work.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 138v:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;&#4920;&#4632;&#5011; &#4704;&#4656;&#4619;&#4632;&#5011; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962;</span></span></p></q>
+                        <item xml:id="a4"><p><span style="font-size: small;"><locus target="#138v">Fols. 138v</locus>: Note on completing the work.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 138v:</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;&#4920;&#4632;&#5011; &#4704;&#4656;&#4619;&#4632;&#5011; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is very crudely written under Ps. 150.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><span>Fols. 138v-139r: Excerpt from W&#601;ddase Maryam.</span></span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols.</span><span style="line-height: 115%;">138v-139r</span><span style="line-height: 115%;">:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4813;&#4851;&#4660;&#5011; &#4824;&#4656;&#4753;&#4845;&#5011; &#4936;&#4672;&#4821;&#4877;&#4826;<span style="font-size: small;">[sic]</span>&#5011;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a5"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><span><locus target="#138v">Fols. 138v-139</locus>r: Excerpt from W&#601;ddase Maryam.</span></span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fols.</span><span style="line-height: 115%;">138v-139r</span><span style="line-height: 115%;">:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4813;&#4851;&#4660;&#5011; &#4824;&#4656;&#4753;&#4845;&#5011; &#4936;&#4672;&#4821;&#4877;&#4826;<span style="font-size: small;">[sic]</span>&#5011;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The same verse is repeated thrice, with slight differences, once on fol. 138v and twice on fol. 139r.</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 156v: Excerpts from Ps. 1 and M&#228;lk&#601;</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">a Maryam.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a6"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#156v">Fol. 156v</locus>: Excerpts from Ps. 1 and M&#228;lk&#601;</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">a Maryam.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The ink is faded; some letters are reversed.</p>
                         </item>
@@ -298,6 +310,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">One pair of chains of endband stitches at the spine cover (tailband).</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 4 tools are used: triple line fillet, double circle, interlaced line fillet, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -340,8 +353,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 2, the Ms. was donated by Wälättä Mädḫǝn; other members of her family are mentioned: her father Yǝlä (?) Maryam, her mother Wälätta Śǝrgit, her sister Wälattä Kidan.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 2, the Ms. was donated by Wälättä Mädḫǝn; other members of her family are mentioned: her father Yǝlä (?) Maryam, her mother Wälätta Śǝrgit, her sister Wälattä Kidan.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -365,9 +378,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-04">registered</change>
-         <change who="IR" when="2013-05-02">created</change>
-         <change who="DN" when="2015-09-14">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IR" when="2013-05-02T13:58:48.191Z">created</change>
+         <change who="DN" when="2015-09-14T11:11:30.621Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

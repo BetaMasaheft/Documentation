@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-03-14</date>
+            <date>2013-03-14T09:54:08.976Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0100DAY"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DAY-002</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>A ruled line at the bottom was not used by the scribe, e.g., on fols. 16r, 30r, 83r.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">159.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">159.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2v, 3r, 3v, 4r, 159v, in
+                                                  <measure unit="quire">20.0</measure> quires (A+19). 
                                                 <dimensions type="outer">
                               <height unit="cm">35.2</height>
                               <width unit="cm">27.7</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks on fols. 13r, 21r, 29r, 37r, 45r, 53r, 61r, 69r, 77r, 85r, 93r, 103r, 114r, 122r, 130r, 138r, 146r, 154r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">4</dim>
@@ -145,7 +154,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>all data for fol. 6r</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -168,9 +177,11 @@ The bottom line is written above the ruling.</ab>
                         <date>First half of the 20th century.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ክ/ክፍ</abbr> for <expan>ክፍል </expan> (e.g., fols. 7vc, 9rb, 11ra)</item>
+                              <abbr>ክ/ክፍ</abbr> for
+                                                  <expan>ክፍል </expan> (e.g., fols. 7vc, 9rb, 11ra)</item>
                            <item>
-                              <abbr>ለዓ፥ዓ</abbr> for <expan>ለዓለመ ዓለም </expan> (e.g., fols. 18vc, 28vc, 29rc)</item>
+                              <abbr>ለዓ፥ዓ</abbr> for
+                                                  <expan>ለዓለመ ዓለም </expan> (e.g., fols. 18vc, 28vc, 29rc)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -179,18 +190,15 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span unicode="" style="font-size:10.0pt;line-height:115%;Arial">Fol. 4v: Excerpt from a q&#477;ne-poem (?).</span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span unicode="" style="font-size:10.0pt;line-height:115%;Arial"><locus target="#4v">Fol. 4v</locus>: Excerpt from a q&#477;ne-poem (?).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size:10.0pt;Arial" unicode="">Fol. 158va: Transaction note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 158va:</span></span><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4624;&#4637;&#4620;&#5011; &#4978;&#4969; &#4672;&#4757;&#5011; &#4981;&#4975; &#4819;&#4637;&#4629;[&#4648;]&#4725;&#5011; &#4845;&#4792;&#4813;&#4755;&#5011; &#4773;&#4756;&#5011; &#4872;&#4709;&#4648;&#5011; &#4770;&#4840;&#4657;&#4661;&#5011; &#4720;&#4808;&#4621;&#4848;&#5011; &#4632;&#4853;&#4741;&#4757;&#5011; &#4768;&#4872;&#4652;&#5011; &#4720;&#4880;&#4883;&#5011; &#4776;&#4720;&#4757;&#4708;&#4757;&#5011; &#4813;&#4661;&#4901;&#5011; &#4616;&#4768;&#4635;&#4753;&#4772;&#4621;&#5011; &#4853;&#4653;&#4707;&#5011; {&#4611;&#4845;&#4635;&#4758;&#4720; &#4768;&#4704;&#4813;}&#5011; &#4704;&#4971;&#4987;&#5011; &#4709;&#4653;&#5011; &#4669;&#4904;&#5011; &#4768;&#4616;&#4609;&#5011;</span><span style="line-height: 115%;"> &#8230; </span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size:10.0pt;Arial" unicode=""><locus target="#158va">Fol. 158va</locus>: Transaction note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 158va:</span></span><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4624;&#4637;&#4620;&#5011; &#4978;&#4969; &#4672;&#4757;&#5011; &#4981;&#4975; &#4819;&#4637;&#4629;[&#4648;]&#4725;&#5011; &#4845;&#4792;&#4813;&#4755;&#5011; &#4773;&#4756;&#5011; &#4872;&#4709;&#4648;&#5011; &#4770;&#4840;&#4657;&#4661;&#5011; &#4720;&#4808;&#4621;&#4848;&#5011; &#4632;&#4853;&#4741;&#4757;&#5011; &#4768;&#4872;&#4652;&#5011; &#4720;&#4880;&#4883;&#5011; &#4776;&#4720;&#4757;&#4708;&#4757;&#5011; &#4813;&#4661;&#4901;&#5011; &#4616;&#4768;&#4635;&#4753;&#4772;&#4621;&#5011; &#4853;&#4653;&#4707;&#5011; {&#4611;&#4845;&#4635;&#4758;&#4720; &#4768;&#4704;&#4813;}&#5011; &#4704;&#4971;&#4987;&#5011; &#4709;&#4653;&#5011; &#4669;&#4904;&#5011; &#4768;&#4616;&#4609;&#5011;</span><span style="line-height: 115%;"> &#8230; </span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;" unicode=""><span unicode="" style="line-height: 115%;">Fol. 158va: &#7716;amle 11, 47 year of mercy. Behold, I, G&#228;br&#228; </span></span><span style="line-height: 115%;" unicode=""><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;"><span style="line-height: 115%;">&#704;</span></span>Iy&#228;sus T&#228;w&#228;ld&#228; M&#228;d&#7723;&#477;n, from T&#228;g<sup>w</sup>&#228;g<sup>w</sup>a in T&#228;nben, has sold this </span><span style="line-height: 115%;">Haymanot&#228; &#704;ab&#228;w to </span><span unicode="" style="line-height: 115%;">D&#601;rba &#704;Amanu&#704;el for 300 B&#477;rr &#8230;</span></span></span><span style="font-size:10.0pt;line-height:115%;Arial" unicode=""><br /> </span></p></q>
                            <p/>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span unicode="" style="font-size:10.0pt;Arial">Fol. 158vb: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 158vb:</span></span></span><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4757;&#4721;&#5011; &#4632;&#4925;&#4624;&#4936;&#5011; &#4611;&#4845;&#4635;&#4758;&#4720;&#5011; &#4768;&#4704;&#4813;&#5011; &#4824;&#4848;&#4674;&#4672;&#5011; &#4853;&#4653;&#4707;&#5011; &#4824;&#4808;&#4608;&#4709;&#4814;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4768;&#4635;&#4753;&#4772;&#4621;&#5011; &#4853;&#4653;&#4707; </span><span style="line-height: 115%;">&#8230;</span></span><br /> </span></p></q>
+                        <item xml:id="a3"><p><span unicode="" style="font-size:10.0pt;Arial"><locus target="#158vb">Fol. 158vb</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 158vb:</span></span></span><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"><span style="font-size:12.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4757;&#4721;&#5011; &#4632;&#4925;&#4624;&#4936;&#5011; &#4611;&#4845;&#4635;&#4758;&#4720;&#5011; &#4768;&#4704;&#4813;&#5011; &#4824;&#4848;&#4674;&#4672;&#5011; &#4853;&#4653;&#4707;&#5011; &#4824;&#4808;&#4608;&#4709;&#4814;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4768;&#4635;&#4753;&#4772;&#4621;&#5011; &#4853;&#4653;&#4707; </span><span style="line-height: 115%;">&#8230;</span></span><br /> </span></p></q>
                            <q xml:lang="en"><p><span unicode="" style="font-size:10.0pt;line-height:115%;Arial"><span style="font-size:10.0pt;line-height:115%;Arial" unicode=""><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial">Fol. 158vb: This book of </span><span style="font-size:10.0pt;line-height:115%;Arial">Haymanot&#228; &#704;ab&#228;w is of the children of </span><span unicode="" style="font-size:10.0pt;line-height:115%;Arial">D&#601;rba who donated it to the tabot of D&#601;rba &#704;Amanu&#704;el &#8230;</span></span><br /> </span></p></q>
                            <p/>
                         </item>
@@ -205,7 +213,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with brown tooled leather; textile and leather inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -215,6 +223,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pair of chains of endband stitches at the spine cover. The endbands are laced with a cord.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover (at least 6 tools were used: straight triple line fillet, corni-form, double circle, x-form, romb form, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -257,8 +266,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Additio 3 mentions däqiqä Dǝrba “the children of Dǝrba” as the donors. The book was bought from Gäbrä ʾIyäsus Täwäldä Mädḫǝn of Tägwägwa Däbrä Nazret Qǝddus Yoḥannǝs (s. Additio 2).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Additio 3 mentions däqiqä Dǝrba “the children of Dǝrba” as the donors. The book was bought from Gäbrä ʾIyäsus Täwäldä Mädḫǝn of Tägwägwa Däbrä Nazret Qǝddus Yoḥannǝs (s. Additio 2).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -281,9 +290,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-16">registered</change>
-         <change who="AA" when="2013-03-14">created</change>
-         <change who="VP" when="2015-02-26">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-03-14T09:54:08.976Z">created</change>
+         <change who="VP" when="2015-02-26T10:19:19.379Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

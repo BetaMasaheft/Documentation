@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-07-19</date>
+            <date>2011-07-19T13:05:02.020Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0097AQG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AQG-013</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">98.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">98.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">1.0</measure> blank
+                                                  fol. 1, in
+                                                  <measure unit="quire">11.0</measure> quires (A+10). 
                                                 <dimensions type="outer">
                               <height unit="cm">17.0</height>
                               <width unit="cm">10.5</width>
@@ -60,6 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks written in the inner upper corner of the first leaf of each quire.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">10</dim>
@@ -122,7 +127,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -147,25 +152,22 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 97vb: S&#228;lam to St. Theodore Stratelates.</p><q xml:lang="gez"><p>Fol. 97vb, l.1: <span style="font-size: large;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4677;&#4851;&#4660;&#4961; &#4708;&#4725;&#4779;&#4961; &#4724;&#4814;&#4853;&#4654;&#4661;&#4961; &#4618;&#4672;&#4961; &#4640;&#4651;&#4810;&#4725;&#4961;</span> ...</p></q>
+                        <item xml:id="a1"><p><locus target="#97vb">Fol. 97vb</locus>: S&#228;lam to St. Theodore Stratelates.</p><q xml:lang="gez"><p>Fol. 97vb, l.1: <span style="font-size: large;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4677;&#4851;&#4660;&#4961; &#4708;&#4725;&#4779;&#4961; &#4724;&#4814;&#4853;&#4654;&#4661;&#4961; &#4618;&#4672;&#4961; &#4640;&#4651;&#4810;&#4725;&#4961;</span> ...</p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 98r: Calendaric note on fasting periods (crudely drawn table).</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#98r">Fol. 98r</locus>: Calendaric note on fasting periods (crudely drawn table).</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p>Fol. 98v: Magic prayer against the storm and hail.</p><q xml:lang="gez"><p style="text-align: left;">Fol. 98v, l.1: <span style="font-size: large;">&#4637;&#4853;&#4877;&#4637;&#4843;&#4661;&#4975;&#4874;&#4828;&#4961; &#4824;&#4845;&#4924;&#4813;&#4822;&#4961; &#4616;&#4632;&#4709;&#4648;&#4677;&#4961; &#4824;&#4845;&#4940;&#4753;&#4961; &#4704;&#4648;&#4854;&#4961; &#4616;&#4661;&#4643;&#4757;&#4961; &#4768;&#4877;&#4846;&#4661;&#4961; &#4632;&#4925;&#4768;&#4961; &#4634;&#4622;&#4661;&#4961; &#4824;&#4843;&#4680;&#4654;&#4654;&#4961; &#4808;&#4843;&#4653;&#4821;&#4854;&#4961; &#4808;&#4845;&#4632;&#4813;&#4822;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4704;&#4648;&#4853;&#4961; &#4808;&#4616;&#4739;&#4845;&#4616;&#4961; &#4752;&#4939;&#4659;&#4725;&#4961; &#4635;&#4843;&#4725;&#4961; &#4772;&#4621;&#4843;&#4661;&#4961; &#4824;&#4776;&#4632;&#4961; &#4616;&#4880;&#4632;&#4961; &#4656;&#4635;&#4840;&#4961; &#4776;&#4632;&#4961; &#4770;&#4845;&#4829;&#4757;&#4637;&#4961; &#4829;&#4755;&#4637;&#4961; &#4971;&#4768;&#4632;&#4720;&#4961; &#4808;&#4974;&#4720;&#4961; &#4768;&#4813;&#4651;&#4739;&#4961; &#4776;&#4635;&#4609;&#4961; &#4768;&#4752;&#4961; &#4608;&#4720;&#4637;&#4777;&#4779;&#4961; &#4808;&#4616;&#4880;&#4637;&#4777;&#4779;&#4961; &#4704;&#4613;&#4720;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4637;&#4653;&#4637;&#4653;</span>[<span style="font-size: large;">&#4817;</span>?]<span style="font-size: large;">&#4757;&#4961; &#4632;&#4901;&#4653;&#4725;&#4637;&#4961; &#4770;&#4723;&#4813;&#4653;&#4853;&#4961; &#4704;&#4648;&#4854;&#4961; &#4824;&#4773;&#4757;&#4704;&#4616;&#4961; &#4925;&#4649;&#4845;&#4961; &#4635;&#4845;&#4962;</span></p></q>
+                        <item xml:id="a3"><p><locus target="#98v">Fol. 98v</locus>: Magic prayer against the storm and hail.</p><q xml:lang="gez"><p style="text-align: left;">Fol. 98v, l.1: <span style="font-size: large;">&#4637;&#4853;&#4877;&#4637;&#4843;&#4661;&#4975;&#4874;&#4828;&#4961; &#4824;&#4845;&#4924;&#4813;&#4822;&#4961; &#4616;&#4632;&#4709;&#4648;&#4677;&#4961; &#4824;&#4845;&#4940;&#4753;&#4961; &#4704;&#4648;&#4854;&#4961; &#4616;&#4661;&#4643;&#4757;&#4961; &#4768;&#4877;&#4846;&#4661;&#4961; &#4632;&#4925;&#4768;&#4961; &#4634;&#4622;&#4661;&#4961; &#4824;&#4843;&#4680;&#4654;&#4654;&#4961; &#4808;&#4843;&#4653;&#4821;&#4854;&#4961; &#4808;&#4845;&#4632;&#4813;&#4822;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4704;&#4648;&#4853;&#4961; &#4808;&#4616;&#4739;&#4845;&#4616;&#4961; &#4752;&#4939;&#4659;&#4725;&#4961; &#4635;&#4843;&#4725;&#4961; &#4772;&#4621;&#4843;&#4661;&#4961; &#4824;&#4776;&#4632;&#4961; &#4616;&#4880;&#4632;&#4961; &#4656;&#4635;&#4840;&#4961; &#4776;&#4632;&#4961; &#4770;&#4845;&#4829;&#4757;&#4637;&#4961; &#4829;&#4755;&#4637;&#4961; &#4971;&#4768;&#4632;&#4720;&#4961; &#4808;&#4974;&#4720;&#4961; &#4768;&#4813;&#4651;&#4739;&#4961; &#4776;&#4635;&#4609;&#4961; &#4768;&#4752;&#4961; &#4608;&#4720;&#4637;&#4777;&#4779;&#4961; &#4808;&#4616;&#4880;&#4637;&#4777;&#4779;&#4961; &#4704;&#4613;&#4720;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4637;&#4653;&#4637;&#4653;</span>[<span style="font-size: large;">&#4817;</span>?]<span style="font-size: large;">&#4757;&#4961; &#4632;&#4901;&#4653;&#4725;&#4637;&#4961; &#4770;&#4723;&#4813;&#4653;&#4853;&#4961; &#4704;&#4648;&#4854;&#4961; &#4824;&#4773;&#4757;&#4704;&#4616;&#4961; &#4925;&#4649;&#4845;&#4961; &#4635;&#4845;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered by reddish-brown leather, crude uncoloured textile inlays.&#xD;
 Three sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -176,6 +178,7 @@ Three sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Edges of the leather turn-ins on the inner side of the boards are carefully sewn together. &#xD;
 Two chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled decoration of poor quality on the leather cover.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -218,11 +221,6 @@ Two chains of endband stitches at the spine cover.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -242,9 +240,9 @@ Two chains of endband stitches at the spine cover.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-18">registered</change>
-         <change who="SA" when="2011-07-19">created</change>
-         <change who="DN" when="2014-07-05">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2011-07-19T13:05:02.020Z">created</change>
+         <change who="DN" when="2014-07-05T14:11:47.140Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

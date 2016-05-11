@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-07-02</date>
+            <date>2011-07-02T11:19:39.693Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0108GKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GKM-005</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,12 @@ Incipits of Text I and of each of the four Gospels are written alternately in re
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- For details concerning the traditional introduction texts s. R.W. COWLEY, “New Testament Introduction in the Andemta Commentary Tradition”, Ostkirchliche Studien 26, 1977, 144-92; R. ZUURMOND, Novum Testamentum Aethiopice: the Synoptic Gospels, Part I: General Introduction, Part II: Edition of the Gospel of Mark, Stuttgart, 1989 (AeF 27), 6-36.</note>
+                     <note>- The titles of the Gospels and the following supplication formulas are written in two columns (not in one, as it is more usual).</note>
+                     <note>- The Ms. is the "Golden Gospel" of Mäḵodˤä gädam.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +58,10 @@ Incipits of Text I and of each of the four Gospels are written alternately in re
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">183.0</measure> folios, of which <measure unit="leaf" type="blank">3.5</measure> blank, in <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">183.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.5</measure> blank
+                                                  1, 2v, 94v, 95, 144v, in
+                                                  <measure unit="quire">20.0</measure> quires (A+19). 
                                                 <dimensions type="outer">
                               <height unit="cm">24.0</height>
                               <width unit="cm">22.0</width>
@@ -158,7 +167,7 @@ Incipits of Text I and of each of the four Gospels are written alternately in re
                            <note>All data are for the second page of the first Gospel, recto side (fol. 20r).</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible (s. fol. 64r).</ab>
@@ -168,7 +177,7 @@ Ruling pricks are mostly visible (s. fol. 92r).</ab>
 The upper line is written above the ruling.</ab>
                            <ab type="ruling">
 The bottom line is written above the ruling.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 The ruling pattern is different for the Canon tables and for the lists of tituli.</ab>
                         </layout>
                         <layout/>
@@ -183,33 +192,27 @@ The ruling pattern is different for the Canon tables and for the lists of tituli
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 2r: Note on the number of books in the monastic library followed by a hymn praising the Virgin Mary.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#2r">Fol. 2r</locus>: Note on the number of books in the monastic library followed by a hymn praising the Virgin Mary.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>37 books were in the library of the monastery at the time when the note was written.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 182va: Rhymed ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 182va:</span> <span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4757;&#4721;&#4961; &#4808;&#4757;&#4876;&#4621;&#4961; &#4824;&#4925;&#4653;&#4624;&#4961; &#4677;&#4853;&#4659;&#4725;&#4964; &#4776;&#4632;&#4961; &#4845;&#4829;&#4781;&#4653;&#4811;&#4961; &#4704;&#4874;&#4828;&#4961; &#4920;&#4622;&#4725;&#4961; &#4768;&#4635;&#4741;&#4928;&#4757;&#4777;&#4781;&#4633;&#4961; &#4725;&#4708;&#4961; &#4616;&#4635;&#4741;&#4704;&#4653;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4808;&#4616;&#4808;&#4621;&#4851;&#4961; &#4720;&#4653;&#4706;&#4758;&#4661;&#4962; &#4808;&#4616;&#4768;&#4705;&#4611;&#4961; &#4824;&#4632;&#4616;&#4782;&#4725;&#4961; &#4808;&#4616;&#4773;&#4635;&#4961; &#4768;&#4653;&#4768;&#4843;&#4961; &#4741;&#4650;&#4725;&#4968;</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#182va">Fol. 182va</locus>: Rhymed ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 182va:</span> <span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4757;&#4721;&#4961; &#4808;&#4757;&#4876;&#4621;&#4961; &#4824;&#4925;&#4653;&#4624;&#4961; &#4677;&#4853;&#4659;&#4725;&#4964; &#4776;&#4632;&#4961; &#4845;&#4829;&#4781;&#4653;&#4811;&#4961; &#4704;&#4874;&#4828;&#4961; &#4920;&#4622;&#4725;&#4961; &#4768;&#4635;&#4741;&#4928;&#4757;&#4777;&#4781;&#4633;&#4961; &#4725;&#4708;&#4961; &#4616;&#4635;&#4741;&#4704;&#4653;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4872;&#4752;&#4725;&#4961; &#4808;&#4616;&#4808;&#4621;&#4851;&#4961; &#4720;&#4653;&#4706;&#4758;&#4661;&#4962; &#4808;&#4616;&#4768;&#4705;&#4611;&#4961; &#4824;&#4632;&#4616;&#4782;&#4725;&#4961; &#4808;&#4616;&#4773;&#4635;&#4961; &#4768;&#4653;&#4768;&#4843;&#4961; &#4741;&#4650;&#4725;&#4968;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small"><span lang="EN-US" unicode="" style="line-height: 115%">Fol. 182va: This Gospel (book belongs) to the chamber of sacred things. That they remember it in the time of prayer, I supplicate you;&#160;you say to the community of D&#228;br&#228; G&#228;nn&#228;t, and its son T&#228;rbinos, and its father Z&#228;-M&#228;l&#228;kot, and its mother &#704;Ar&#704;aya &#7722;&#601;rit (?).</span></span></p></q>
                            <p>Written in the main hand.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fols. 182vb-183ra: Extensive note, for the most part erased.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;"><locus target="#182vb">Fols. 182vb-183</locus>ra: Extensive note, for the most part erased.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The greater part of the text (fol. 182vb) has been erased, although some letters are still visible. The legible paqssage contains the condemnation formula.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;">Fol. 183ra-rb: Donation note concerning land.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 183ra-rb:</span> <span style="font-size: large;">&#4824;&#4808;&#4608;&#4704;&#4725;&#4961; &#4624;&#4632;&#4621;&#4635;&#4616;&#4961; &#4808;&#4653;&#4677;&#4961; &#4872;&#4651;&#4741;&#4720;&#4961; &#4931;&#4821;&#4851;&#4961; &#4624;&#4632;&#4853;&#4961; &#4616;&#4768;&#4704;&#4961; &#4752;&#4941;&#4659;&#4961; &#4676;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;<span style="font-size: small;">&lt;...&gt;</span> &#4720;&#4829;&#4779;&#4651;&#4610;&#4961; &#4877;&#4704;&#4649;&#4961; &#4768;&#4632;&#4961; &#4980;&#4609;&#4961; &#4616;&#4901;&#4677;&#4637;&#4725;&#4961; &#4704;&#4874;&#4828;&#4961; &#4682;&#4653;&#4707;&#4757;&#4961; &#4770;&#4725;&#4653;&#4645;&#4817;&#4961; &#4661;&#4635;&#4961; &#4616;&#4819;&#4616;&#4637;&#4962;</span></p></q>
+                        <item xml:id="a4"><p><span style="font-size: small;"><locus target="#183ra">Fol. 183ra</locus>-rb: Donation note concerning land.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 183ra-rb:</span> <span style="font-size: large;">&#4824;&#4808;&#4608;&#4704;&#4725;&#4961; &#4624;&#4632;&#4621;&#4635;&#4616;&#4961; &#4808;&#4653;&#4677;&#4961; &#4872;&#4651;&#4741;&#4720;&#4961; &#4931;&#4821;&#4851;&#4961; &#4624;&#4632;&#4853;&#4961; &#4616;&#4768;&#4704;&#4961; &#4752;&#4941;&#4659;&#4961; &#4676;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;<span style="font-size: small;">&lt;...&gt;</span> &#4720;&#4829;&#4779;&#4651;&#4610;&#4961; &#4877;&#4704;&#4649;&#4961; &#4768;&#4632;&#4961; &#4980;&#4609;&#4961; &#4616;&#4901;&#4677;&#4637;&#4725;&#4961; &#4704;&#4874;&#4828;&#4961; &#4682;&#4653;&#4707;&#4757;&#4961; &#4770;&#4725;&#4653;&#4645;&#4817;&#4961; &#4661;&#4635;&#4961; &#4616;&#4819;&#4616;&#4637;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in the main hand, the beginning is missing. About half of the text has been erased.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 183rb: Note on commomoration days of some individuals.</span></span><span lang="EN-GB" style="line-height: 115%" unicode=""><br /> </span></p><q xml:lang="gez"/>
+                        <item xml:id="a5"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;" unicode=""><locus target="#183rb">Fol. 183rb</locus>: Note on commomoration days of some individuals.</span></span><span lang="EN-GB" style="line-height: 115%" unicode=""><br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the main hand. The note lists the dates on which the deceased ʾAkalä Krǝstos, Wäldä Krǝstos, Giyorgis and Ṗawlos are commemorated.</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;">Fol. 183v: Short note on the Gospels and Evangelists.</span></span><span lang="EN-GB" unicode="" style="line-height: 115%"><br /> </span></p><q xml:lang="gez"/>
+                        <item xml:id="a6"><p><span style="font-size: small;"><span lang="EN-GB" unicode="" style="line-height: 115%;"><locus target="#183v">Fol. 183v</locus>: Short note on the Gospels and Evangelists.</span></span><span lang="EN-GB" unicode="" style="line-height: 115%"><br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the main hand. The final part is unintelligible.</p>
                         </item>
@@ -219,7 +222,7 @@ The ruling pattern is different for the Canon tables and for the lists of tituli
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (both broken and repaired).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -227,6 +230,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Traces of two pairs of chains of endband stitches at the spine (small holes).</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -269,8 +273,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Priest Wäldä Krǝstos (s. Additio 3, ls.1-2; also mentioned in Additiones 4 and 5). In the supplicating formulas following the titles of the Gospels the first part of his name has been erased and replaced with Maḫtämä (Maḫtämä Krǝstos).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Priest Wäldä Krǝstos (s. Additio 3, ls.1-2; also mentioned in Additiones 4 and 5). In the supplicating formulas following the titles of the Gospels the first part of his name has been erased and replaced with Maḫtämä (Maḫtämä Krǝstos).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -293,9 +297,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-04">registered</change>
-         <change who="IF" when="2011-07-02">created</change>
-         <change who="DN" when="2014-09-01">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2011-07-02T11:19:39.693Z">created</change>
+         <change who="DN" when="2014-09-01T10:20:04.207Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

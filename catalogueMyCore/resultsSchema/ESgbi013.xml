@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-09-23</date>
+            <date>2013-09-23T12:16:26.251Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0117GBI"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GBI-013</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">72.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">72.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  2v, in
+                                                  <measure unit="quire">10.0</measure> quires (A+9). 
                                                 <dimensions type="outer">
                               <height unit="cm">24.5</height>
                               <width unit="cm">18.5</width>
@@ -114,7 +117,7 @@ Holes are carefully amended on fols. 1, 2, 64.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -134,27 +137,23 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red</seg>
                         <date>Late 19th century</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting tends to right-sloping. The letters are slender and narrowly spaced.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 71vb: Donation note. </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#71vb">Fol. 71vb</locus>: Donation note. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in a mediocre hand. The part containing the name of the original donor and the receiving institution has been erased.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 72ra-b: </span><span style="line-height: 115%">Donation note. </span></span></p><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 72ra:</span><span style="font-size: 10pt"> </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4770;&#4840;&#4657;&#4661;&#4961; &#4824;&#4645;&#4619;&#4660;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4649;&#4939;&#4772;&#4621; </span></div> <p></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#72ra">Fol. 72ra</locus>-b: </span><span style="line-height: 115%">Donation note. </span></span></p><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 72ra:</span><span style="font-size: 10pt"> </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4770;&#4840;&#4657;&#4661;&#4961; &#4824;&#4645;&#4619;&#4660;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4649;&#4939;&#4772;&#4621; </span></div> <p></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a poor hand, the same as Additio 3. It states that Zä-Śǝllase and his wife Wälättä Rufaʾel donated the Ms. to the church of ʾIyäsus.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small">Fol. 72ra-b: Ownership note extended by a record concerning the construction of&#160;a church. </span></p><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: large"><span style="font-size: small">Fol. 72ra-b:</span><span style="font-size: 10pt"> </span>&#4829;&#4757;&#4721;&#4961; &#4853;&#4653;&#4659;&#4757;&#4961; &#4824;&#4632;&#4853;&#4739;&#4756;&#4961; &#4819;&#4616;&#4637;&#4961; &#4808;&#4741;&#4757;&#4928;&#4720;&#4961; &#4708;&#4720;&#4961; &#4781;<span style="font-size: medium">{</span>&#4653;<span style="font-size: medium">}</span>&#4661;&#4722;&#4843;&#4753;&#4754;&#4961; &#4782;&#4752;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4986;&#4808;&#4972;&#4721;&#4961; &#4768;&#4632;<span style="font-size: medium">{</span>&#4720;<span style="font-size: medium">}</span>&#4961; &#4637;&#4629;&#4648;&#4725;&#4961;&#4824;&#4632;&#4753;&#4610;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4873;&#4641;&#4754;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4637;&#4754;&#4621;&#4781;&#4961; &#4632;&#4637;&#4629;&#4649;&#4754;&#4961; &#4632;&#4637;&#4613;&#4653;&#4961; <span style="line-height: 115%">&#4808;&#4621;&#4848;&#4961; &#4816;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4768;&#4936;&#4961; &#4632;&#4637;&#4629;&#4649;&#4754;&#4961; &#4768;&#4616;&#4675;&#4961; &#4768;&#4645;&#4651;&#4725;</span></span></div></q>
+                        <item xml:id="a3"><p><span style="font-size: small"><locus target="#72ra">Fol. 72ra</locus>-b: Ownership note extended by a record concerning the construction of&#160;a church. </span></p><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: large"><span style="font-size: small">Fol. 72ra-b:</span><span style="font-size: 10pt"> </span>&#4829;&#4757;&#4721;&#4961; &#4853;&#4653;&#4659;&#4757;&#4961; &#4824;&#4632;&#4853;&#4739;&#4756;&#4961; &#4819;&#4616;&#4637;&#4961; &#4808;&#4741;&#4757;&#4928;&#4720;&#4961; &#4708;&#4720;&#4961; &#4781;<span style="font-size: medium">{</span>&#4653;<span style="font-size: medium">}</span>&#4661;&#4722;&#4843;&#4753;&#4754;&#4961; &#4782;&#4752;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4986;&#4808;&#4972;&#4721;&#4961; &#4768;&#4632;<span style="font-size: medium">{</span>&#4720;<span style="font-size: medium">}</span>&#4961; &#4637;&#4629;&#4648;&#4725;&#4961;&#4824;&#4632;&#4753;&#4610;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4873;&#4641;&#4754;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4637;&#4754;&#4621;&#4781;&#4961; &#4632;&#4637;&#4629;&#4649;&#4754;&#4961; &#4632;&#4637;&#4613;&#4653;&#4961; <span style="line-height: 115%">&#4808;&#4621;&#4848;&#4961; &#4816;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4768;&#4936;&#4961; &#4632;&#4637;&#4629;&#4649;&#4754;&#4961; &#4768;&#4616;&#4675;&#4961; &#4768;&#4645;&#4651;&#4725;</span></span></div></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a poor hand, the same as Additio 2. It mentions that the donation of the Ms. and the construction of the church of the Saviour of the World (possibly in the vicinity of ʾIyäsus Gwaḥgot, s. D.NOSNITSIN, Churches and Monasteries of Tǝgray, Wiesbaden 2013, or in ʾAqaqi near Addis Ababa, s. GueCopMen, vol. 2, p. 524) took place in 1894 year of mercy (= 1901/02 A.D.), in the year of Mark the Evangelist, during the reign of King Mǝnilǝk II (r. 1889-1913), when the teacher was mämhǝr Wäldä ʿAbiyä ʾƎgziʿ and his assistant was ʾaläqa ʾAśrat.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><div style="line-height: normal"><span style="font-size: small">Fol. 72v: Record concerning the acquisition of land and the introduction of a new tabot.</span></div><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small"><span style="line-height: 115%">Fol. 72v:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4616;&#4632;&#4853;&#4739;&#4756;&#4961; &#4819;&#4616;&#4637;&#4961; &#4840;&#4720;&#4720;&#4779;&#4961; &#4632;&#4652;&#4725;&#4961; &#4972;&#4961; &#4752;&#4813;&#4961; &#4877;&#4651;</span><span style="font-size: medium"><span style="line-height: 115%">[</span></span><span style="line-height: 115%">&#4725;</span><span style="font-size: medium"><span style="line-height: 115%">]</span></span><span style="line-height: 115%">&#4961; &#4637;&#4664;&#4619;&#4961; &#4776;&#4768;&#4726;&#4961; &#4845;&#4648;&#4661;&#4961; &#4843;&#4616;&#4733;&#4961; &#4776;&#4768;&#4726;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4848;&#4638;&#4961; &#4843;&#4616;&#4733;&#4961; &#4848;&#4638;&#4961; &#4776;&#4768;&#4726;&#4961; &#4624;&#4880;&#4661;&#4961; &#4843;&#4616;&#4733;&#4961; &#4972;&#4961; &#4635;&#4616;&#4723;&#4733;&#4757;&#4961; &#4845;&#4741;&#4961; &#4752;&#4813;</span></span><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4961;</span></span>&#8230;</span></span></p></q>
+                        <item xml:id="a4"><div style="line-height: normal"><span style="font-size: small"><locus target="#72v">Fol. 72v</locus>: Record concerning the acquisition of land and the introduction of a new tabot.</span></div><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small"><span style="line-height: 115%">Fol. 72v:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4616;&#4632;&#4853;&#4739;&#4756;&#4961; &#4819;&#4616;&#4637;&#4961; &#4840;&#4720;&#4720;&#4779;&#4961; &#4632;&#4652;&#4725;&#4961; &#4972;&#4961; &#4752;&#4813;&#4961; &#4877;&#4651;</span><span style="font-size: medium"><span style="line-height: 115%">[</span></span><span style="line-height: 115%">&#4725;</span><span style="font-size: medium"><span style="line-height: 115%">]</span></span><span style="line-height: 115%">&#4961; &#4637;&#4664;&#4619;&#4961; &#4776;&#4768;&#4726;&#4961; &#4845;&#4648;&#4661;&#4961; &#4843;&#4616;&#4733;&#4961; &#4776;&#4768;&#4726;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4848;&#4638;&#4961; &#4843;&#4616;&#4733;&#4961; &#4848;&#4638;&#4961; &#4776;&#4768;&#4726;&#4961; &#4624;&#4880;&#4661;&#4961; &#4843;&#4616;&#4733;&#4961; &#4972;&#4961; &#4635;&#4616;&#4723;&#4733;&#4757;&#4961; &#4845;&#4741;&#4961; &#4752;&#4813;</span></span><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4961;</span></span>&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in Amharic, in a mediocre hand. It states that there are four plots of land with sorghum donated by four individuals (mentioned by name) for (the commemoration of ?) the Saviour of the World. One of the plots should be allocated as a salary for a deacon. Subsequently, it contains a directive which requires that if a new tabot is introduced, it should be dedicated to St George.</p>
                         </item>
@@ -175,6 +174,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centrefold of the quires.&#xD;
 The secondary textile cover is attached to the boards by means of recent synthetic threads.</decoNote>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -217,8 +217,8 @@ The secondary textile cover is attached to the boards by means of recent synthet
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor(s) was probably written in the erased part of Additio 1 and in the supplication formulas throughout the Ms. &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor(s) was probably written in the erased part of Additio 1 and in the supplication formulas throughout the Ms. &#xD;
 According to Additio 2, Zä-Śǝllase donated the Ms. to the church of ʾIyäsus (Gwaḥgot) in 1901/02. His name and the name of his wife Wälättä Rufaʾel are also written in the supplication formulas, over the erased name(s), in the same hand as Additio 2 (e.g., fols. 7ra, 32ra). Two other names, &lt;...&gt; Mikaʾel and his wife Ṣädalä Maryam, are added in some supplication formulas, in another secondary hand (e.g., fols. 25ra, 37va).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -244,9 +244,9 @@ According to Additio 2, Zä-Śǝllase donated the Ms. to the church of ʾIyäsus
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-01">registered</change>
-         <change who="MK" when="2013-09-23">created</change>
-         <change who="DN" when="2014-08-27">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-09-23T12:16:26.251Z">created</change>
+         <change who="DN" when="2014-08-27T18:12:48.072Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

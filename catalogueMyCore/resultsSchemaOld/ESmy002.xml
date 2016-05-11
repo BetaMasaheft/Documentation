@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESmy002"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dǝrsanat, Homiliary</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-05-01</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0039MY"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>MY-002</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Incipits of the homilies (a few lines until Text I-4, and occasionally thereafter, e.g., Text I-22; otherwise mostly three rubricated lines alterating with black lines); notes in the upper margin of the fols. indicating occasions for the reading; elements of the punctuation signs, throughout until Text I-4, and with interruptions thereafter; elements of the text dividers thereafter throughout the Ms.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">149.0</measure> folios, in <measure unit="quire">39.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">30.0</height>
+                              <width unit="cm">22.0</width>
+                              <depth unit="cm">10.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="1r" to="7v"/>I(9; s.l.: {1}, no stub; 3, no stub; 5, no stub; fols. 1r-7v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="8r" to="16v"/> II(8/ fols. 8r-16v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="17r" to="26v"/> III(10/ fols. 17r-26v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="27r" to="36v"/> IV(8/ fols. 27r-36v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="37r" to="44v"/> V(8/ fols. 37r-44v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">13</dim>
+                                 <locus target="13"/>
+                                 <locus from="45r" to="57v"/> VI(13/ fols. 45r-57v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">11</dim>
+                                 <locus target="11"/>
+                                 <locus from="58r" to="68v"/> VII(11/ fols. 58r-68v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">13</dim>
+                                 <locus target="13"/>
+                                 <locus from="69v" to="81v"/> VIII(13/ fols. 69v-81v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="82r" to="91v"/> IX(10/ fols. 82r-91v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">12</dim>
+                                 <locus target="12"/>
+                                 <locus from="92r" to="103v"/> X(12/ fols. 92r-103v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">11</dim>
+                                 <locus target="11"/>
+                                 <locus from="104r" to="114v"/> XI(11/ fols. 104r-114v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">11</dim>
+                                 <locus target="11"/>
+                                 <locus from="115v" to="124v"/> XII(11/ fols. 115v-124v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">13</dim>
+                                 <locus target="13"/>
+                                 <locus from="125r" to="137v"/> XIII(13/ fols. 125r-137v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">12</dim>
+                                 <locus target="12"/>
+                                 <locus from="138r" to="148v"/> XIV(12/ fols. 138r-148v).&#xD;
+&#xD;
+The structure of the quires is hardly discernible because of the condition of the Ms.</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The Ms. has been rebound; the threads of the sewing are broken; the original sewing is missing. The original order of the fols. is disturbed; the parts of the manuscript were probably put together in wrong order (perhaps as the result of repair). Fol. 126 should be between fols. 144 and 145. Many fols. are held together by stitch repairs, someitimes so tightly that the structure of the quires cannot be discerned.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="29">
+                           <dimensions unit="mm">
+                              <height>220</height>
+                              <width>140</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">25</dim>
+                              <dim type="bottom">50</dim>
+                              <dim type="right">45</dim>
+                              <dim type="left">10</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 4r (inner margin for fol. 9r)</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are partly visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are partly visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are partly visible (partly round, mostly slits).</ab>
+                           <ab type="ruling">
+The upper line is written below the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
+                           <ab type="CruxAnsata">
+                              <locus target=""/>
+                           </ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Fine, careful</ab>
+                        <seg type="ink">Black; red</seg>The same scribe wrote Mss. MY-001 and MY-008.<date>Late 14th - 15th century square script</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h3" script="Ethiopic">s. fols. 22ra, 44ra, 100vb, 111ra, 138ra etc.</handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p><span style="font-size: small;">Fol. 2r (upper margin): Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 2r:</span> <span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4635;&#4773;&#4926;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4813;&#4873;&#4829;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; </span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in the hand of the 17th-cent. Zäbanä Krǝstos (cp. Ms. MY-008).</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="font-size: small;">Fol. 147v: Unidentified prayer (?).</span></p><q xml:lang="gez"><div>Fol. 147ra:<span style="font-size: large"><span style="font-family: Nyala">&#160;</span><span lang="AMH" style="font-family: Nyala">&#4768;&#4757;&#4941;&#4925; &#4962; &#4616;&#4633;&#4660;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4752;&#4706;&#4845;&#4961; &#4704;&#4704;&#4629;&#4653;&#4961; &#4648;&#4848;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4770;&#4609;&#4961; &#4845;&#4773;&#4828;&#4754;&#4961; &#4653;&#4853;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4768;&#4752;&#4961; &#4776;&#4635;&#4609;&#4962; &#4704;&#4971;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4824;&#4808;&#4653;&#4677;&#4961; &#4616;&#4613;&#4637;&#4962; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4661;&#4709;&#4782;&#4961; &#4768;&#4632;&#4961; &#4872;&#4709;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4648;&#4961; &#4768;&#4654;&#4757;&#4961; &#4824;&#4637;&#4624;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4782;&#4961; &#4632;&#4736;&#4704;&#4653;&#4752;&#4961; &#4846;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4637;&#4707;&#4653;&#4782;&#4962; &#4704;&#4971;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4632;&#4853;&#4736;&#4756;&#4961; &#4629;&#4829;&#4709;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4704;&#4877;&#4709;&#4925;&#4961; &#4773;&#4637;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4877;&#4709;&#4648;&#4961; &#4877;&#4757;&#4939;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4621;&#4961; &#4773;&#4637;&#4752;&#4848;&#4773;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4725;&#4961; &#4662;&#4704;&#4961; &#4877;&#4821;&#4649;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala"><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4961;</span></span> &#4773;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4661;&#4648;&#4772;&#4621;&#4961; &#4637;&#4613;&#4616;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4752;&#4961; &#4936;&#4848;&#4971;&#4704;&#4643;&#4613;&#4621;&#4962; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4704;&#4971;&#4768;&#4632;&#4624;&#4633;&#4961; &#4629;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4829;&#4709;&#4961; &#4656;&#4768;&#4621;&#4854;&#4961; &#4709;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4653;&#4821;&#4961; &#4877;&#4757;&#4939;&#4616;&#4961; &#4808;&#4901;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4709;&#4819;&#4720;&#4961; &#4704;&#4872;&#4706;&#4653;&#4961; &#4632;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4853;&#4736;&#4754;&#4614;&#4633;&#4961; &#4736;&#4709;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4768;&#4752;&#4961; &#4773;&#4637;&#4752;&#4776;&#4653;&#4962;</span></span> <span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4704;&#4971;&#4704;&#4672;&#4616;&#4961; &#4632;&#4901;&#4677;&#4821;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4656;&#4635;&#4816;&#4961; &#4632;&#4811;&#4770;&#4961; &#4616;&#4770;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4843;&#4657;&#4962; &#4637;&#4613;&#4616;&#4752;&#4961; &#4824;&#4845;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4637;&#4961; &#4771;&#4757;&#4662;&#4656;&#4813;&#4962;&#4962; </span></span>[fol. 47rb] <span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4971;&#4616;&#4755;&#4768;&#4853;&#4961; &#4632;&#4656;&#4941;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4757;&#4961; &#4648;&#4848;&#4770;&#4609;&#4961; &#4768;&#4632;&#4961;&#160; &#4772;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4877;&#4622;&#4637;&#4961; &#4637;&#4613;&#4616;&#4752;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4672;&#4853;&#4656;&#4961; &#4824;&#4846;&#4637;&#4962; &#4704;&#4971;&#4704;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4648;&#4710;&#4651;&#4961; &#4629;&#4709;&#4653;&#4961; &#4813;&#4773;&#4721;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4768;&#4632;&#4961; &#4658;&#4656;&#4651;&#4961; &#4648;&#4850;&#4770;&#4611;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4616;&#4704;[&#4843;]&#4961; &#4637;&#4613;&#4616;&#4752;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4824;&#4846;&#4637;&#4961; &#4656;&#4632;&#4651;&#4968; &#4704;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4971;&#4616;&#4876;&#4853;&#4846;&#4757;&#4961; &#4920;&#4707;&#4770;&#4961;</span></span> <span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4704;&#4675;&#4616;&#4961; &#4672;&#4653;&#4757;&#4961; &#4771;&#4853;&#4736;&#4752;&#4752;&#4961; </span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4845;&#4773;&#4828;&#4961; &#4773;&#4637;&#4821;&#4621;&#4811;&#4757;&#4961; &#4704;</span></span><span style="font-size: large"><span lang="AMH" style="font-family: Nyala">&#4971;&#4979;&#4768;&#4613;&#4873;&#4653; &#4961; &#4920;&#4704;&#4772; &#4962;</span></span></div> <div></div> <p></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in an old hand, but different from that of the main text, with many mistakes or orthographical deviations, hardly understandable. The beginning is missing, the end has been washed out.</p>
+                        </item>
+                        <item xml:id="a3">
+                           <locus/><p><span style="font-size: small;">Fol. 147v: M&#228;lk&#601;&#704;a Maryam "Image of Mary", incomplete.</span></p><q xml:lang="gez"><p>Fol. 147v: <span style="font-size: large;"><span style="font-family: Arial;">&#4656;&#4619;&#4637;&#4961; &#4616;&#4778;&#4961; &#4632;&#4757;&#4704;&#4648;&#4961; {&#4925;&#4624;&#4845;}&#4961; &#4656;&#4635;&#4845;&#4961; &#4824;&#4776;&#4811;&#4781;&#4709;&#4725;&#4961;...</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>ChRep 196, no. 92.</p>
+                        </item>
+                        <item xml:id="a4">
+                           <locus/><p><span style="font-size: small;">Fol. 147ra: Short record concerning tributes for <span class="editorOutput">D&#228;br&#228; Ma&#705;&#7779;o Yo&#7717;ann&#1241;s.</span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>Written in an old, very crude hand, hardly understandable. Some words have been washed out.</p>
+                        </item>
+                        <item xml:id="a5">
+                           <locus/><p><span style="font-size: small;">Fol. 148v: Donation note.</span></p><q xml:lang="gez"><p>Fol. 148v: <span style="font-size: large">&#4704;&#4768;&#4784;&#4724;&#4720;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4768;&#4709;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4808;&#4808;&#4621;&#4853;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4808;&#4632;&#4757;&#4936;&#4661;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4677;&#4849;&#4661;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4824;&#4808;&#4608;&#4709;&#4777;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4827;&#4722;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4632;&#4925;&#4624;&#4941;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4768;&#4752;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4819;&#4672;&#4708;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4656;&#4816;&#4725;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4720;&#4656;&#4709;&#4776;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4632;&#4853;&#4741;&#4757;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4616;&#4848;&#4709;&#4648;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4635;&#4821;&#4926;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4616;&#4846;&#4624;&#4757;&#4661;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4824;&#4808;&#4611;&#4709;&#4777;</span><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span> &#4768;&#4936;&#4808;&#4653;&#4677;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4915;&#4813;<span style="font-size: small;">[</span>&#4622;</span><span style="font-size: small;"><span style="font-family: Arial;">]</span></span><span style="font-size: large">&#4661;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4635;&#4816;&#4896;&#4757;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4808;&#4657;&#4720;&#4845;&#4962; &#4662;&#4704;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4720;&#4616;&#4672;&#4629;&#4777;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4877;&#4637;&#4827;&#4609;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4616;&#4846;&#4627;&#4757;&#4661;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4937;&#4622;&#4720;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4709;&#4773;&#4658;&#4725;&#4840;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4824;&#4936;&#4848;&#4845;&#4777;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4768;&#4752;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4720;&#4656;&#4709;&#4776;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4632;&#4853;&#4741;&#4757;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4752;&#4645;&#4840;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4773;&#4824;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4816;&#4675;&#4708;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4656;&#4819;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4645;&#4841;&#4637;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4768;&#4705;&#4609;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4608;&#4622;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4704;&#4819;&#4621;&#4724;&#4721;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4768;&#4661;&#4637;&#4817;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4757;&#4873;&#4645;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4851;&#4810;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4621;&#4848;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4660;&#4939;&#4653;&#4819;&#4853;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4632;&#4784;&#4757;&#4757;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4768;&#4654;&#4754;&#4637;&#4661;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4635;&#4773;&#4776;&#4621;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4704;&#4629;&#4653;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4824;&#4768;&#4635;&#4753;&#4772;&#4621;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4824;&#4612;&#4848;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4824;&#4720;&#4768;&#4872;&#4616;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4824;&#4644;&#4896;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4824;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4720;&#4640;&#4840;&#4896;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4824;&#4616;&#4672;&#4624;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4824;&#4720;&#4616;&#4672;&#4624;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4616;&#4827;&#4722;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4632;&#4925;&#4624;&#4941;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4813;&#4873;&#4824;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4845;&#4777;&#4757;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4773;&#4632;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4672;&#4658;&#4661;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4773;&#4632;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4645;&#4841;&#4637;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4773;&#4632;&#4610;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4824;&#4782;&#4752;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4776;&#4810;&#4758;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4704;&#4768;&#4936;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4816;&#4640;&#4653;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4736;&#4637;&#4661;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4752;&#4706;&#4843;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4704;&#4768;&#4936;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4819;&#4640;&#4653;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4781;&#4621;&#4772;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4624;&#4811;&#4653;&#4843;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4704;&#4768;&#4936;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4656;&#4709;&#4819;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4781;&#4621;&#4772;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4768;&#4653;&#4853;&#4773;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4704;&#4768;&#4936;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4640;&#4616;&#4661;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4637;&#4773;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4819;&#4640;&#4653;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4656;&#4635;&#4757;&#4721;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4653;&#4721;&#4819;&#4752;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4611;&#4845;&#4635;&#4758;&#4725;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4704;&#4768;&#4936;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4768;&#4709;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4621;&#4853;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4632;&#4757;&#4936;&#4661;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4677;&#4849;&#4661;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4704;&#4768;&#4937;&#4608;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4616;&#4773;&#4877;&#4826;&#4773;&#4725;&#4752;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4635;&#4653;&#4843;&#4637;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4813;&#4873;&#4824;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4616;&#4845;&#4777;&#4757;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4808;&#4616;&#4773;&#4632;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4710;&#4824;&#4624;&#4776;&#4776;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4813;&#4873;&#4824;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4845;&#4777;&#4757;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4616;&#4819;&#4616;&#4632;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4819;&#4616;&#4637;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: large;"><span style="font-family: Arial;">&#4961;</span></span></span> &#4768;&#4636;&#4757;&#4962;</span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small">Fol. 148v: In praise of the Father and the Son and the Holy Spirit. The one who donated this book is I, &#705;aqabe s&#228;&#705;at T&#228;s&#228;bk&#228; M&#228;d&#7723;&#601;n. To Yo&#7717;ann&#601;s, to D&#228;br&#228; Ma&#705;&#7779;o what I donated is Chrisostomos and Paul (?) and censers and w&#228;sut&#228;y. When I borrowed the treasures (g&#601;mza) of Yo&#7717;ann&#601;s, I paid back with falot (?) of my wife, having taken (it), while I, T&#228;s&#228;bk&#228; M&#228;d&#7723;&#601;n, am the &#705;aqabe s&#228;&#705;at; and the &#347;&#601;yyum is his father Hallo &#704;&#398;gzi&#704;ab&#601;&#7717;er, and his wife is &#704;Asm&#601;&#705;u, and the king is Dawit a son of Sefar&#705;ad, and m&#228;k&#695;&#228;nn&#601;n is </span><span style="font-size: small"><span style="font-size: small">&#704;</span>Aron, and ma&#704;k&#228;l ba&#7717;r is Z&#228;-&#704;Amanu&#704;el. Anyone who plundered and robbed, who sold and bought, who lent and who borrowed this book shall be cursed, be it a priest or a &#347;&#601;yyum, be it who it may be, by the mouth of fifteen prophets and by the mouth of twelve apostles and by the mouth of seventy two disciples and by the mouth of three hundred eighteen orthodox (fathers), by the mouth of Father and Son and Holy Spirit and by the mouth of our Lady Mary shall be cursed, and if someone scrapes (it), shall be cursed for ever and ever. Amen.</span></p></q>
+                           <p/>
+                        </item>
+                        <item xml:id="e1">- Fol. 1r-v: Luke 6:36-7:7, a fragment of an old (pre-1350) Four Gospels manuscript. &#xD;
+- Crude writing excercises (?): fols. 2v-3r, 24r &#xD;
+- Very crude writing exercises or pen trials, in old hands: fol. 142v, fol. 146v: ወጥን፡ በሰናይ፡ ፈጽም፡ በጽድ[ቅ]; fol. 149r (in red ink).&#xD;
+- Crude writing exercise and attempt at drawing an ornamental band: fol. 149v.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="partly">
+                        <decoNote xml:id="b1">Two wooden boards.&#xD;
+Two sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Most of the quires are reinforced by parchment guards.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0039MY">Däbrä Maʿṣo Qǝddus Yoḥannǝs / MY</placeName>
+                     </origPlace>
+                     <origDate notBefore="1382" notAfter="1412">According to Additio 6, the Ms. was donated in the time of King Dawit II (r. ca. 1382-1412), mäkʷännǝn Aron, and maʾkäl baḥr Zä-ʾAmanuʾel.&#xD;
+Fol. 1 originates from an older (pre-1350?) Four Gospels book.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="ancient"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>- D.Nosnitsin, “The Manuscript Collection of Däbrä Ma‘so Qeddus Yohannes (Tigray, Ethiopia): a First Assessment”, Comparative Oriental Manuscript Studies Newsletter No. 1, January 2011, 24-27.&#xD;
+- D. Nosnitsin - M. Bulakh, "A Fragment of an Ancient Four Gospels Book (Lk 6:35–7:7): A Short Analysis", in: A. Bausi - A. Gori - G. Lusini (eds.), Linguistic, Oriental and Ethiopian Studies in Memory of Paolo Marrassini, Wiesbaden: Harrassowitz 2014, 551-581.&#xD;
+- M. Bulakh, "Ancient Ge'ez Orthography: Evaluation of the Fragment of Luke (Verses 6:37–6:43) in the Manuscript MY-002 from Däbrä Ma'so, Tegray", in: A. Bausi - A. Gori - G. Lusini (eds.), Linguistic, Oriental and Ethiopian Studies in Memory of Paolo Marrassini, Wiesbaden: Harrassowitz 2014, 177-212.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">According to Additio 6, the book was donated by ʿaqabe säʿat Täsäbkä Mädḫǝn, in the time of King Dawit II (r. ca. 1382-1412). His father is Hallo ʾƎgziʾabǝḥer, and his mother is ʾAsmǝʿu.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Homily"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-02">registered</change>
+         <change who="DN" when="2013-05-01">created</change>
+         <change who="DN" when="2015-05-16">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

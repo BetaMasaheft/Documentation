@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-04-29</date>
+            <date>2014-04-29T16:39:59.618Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0099DMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMA-007</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,23 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I-1 contains the hymns: Sälam läki ḫoḫǝtä mǝśraq ... "Salutation to you, Threshold of the East ..." (fol. 5va-vb).</note>
+                     <note/>
+                     <note>Text I-2 includes the hymns:</note>
+                     <note>- ʾO-ʾәgzǝʾtǝyä qǝddǝst dǝngǝl Maryam ʾǝmmu lä-ʾIyäsus Krǝstos kähali ... "O my Lady, Holy Virgin Mary, Mother of Jesus Christ the Almighty ..." (fol. 7rb-va) (cp. ChRep no. 373)</note>
+                     <note>- Sälam läki ʾo-ʾәgzǝʾtǝyä qǝddǝst dǝngǝl Maryam ʾǝmmä mädḫǝn wä-ʾǝmmä bǝrhan ... "Salutation to you, o my Lady, Holy Virgin Mary, Mother of the Saviour and Mother of the Light ..."(fols. 7va-8ra).</note>
+                     <note/>
+                     <note>The miracles of Mary (Text I-4) are numbered (numbers are written in the margins).</note>
+                     <note/>
+                     <note>Text I-5 comprises 12 strophes which are strophes 2-7, 22-23, 25, 28-29, 33 according to GrohHymn pp. 336-53 and one additional (fol. 27vab):</note>
+                     <note>ኢትኅድግኒ፡ ዓቂበ፡ ኵሎ፡ መዓልተ፡ ወሌሊተ።</note>
+                     <note>ኀበ፡ ወአልኩ፡ ፍና፡ ወኀበ፡ ኃደርኩ፡ ቤተ።</note>
+                     <note>ማርያም፡ ድንግል፡ ዘትመግቢ፡ ነፍሳተ፡</note>
+                     <note>በልብስ፡ ወበሲሳይ፡ ኢታርእዪኒ፡ ንዴተ።</note>
+                     <note>እስመ፡ ቍር፡ ወረኃብ፡ ያረስዕ፡ ጸሎተ።</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +68,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">90.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">90.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fol. 1r-2v., in
+                                                  <measure unit="quire">12.0</measure> quires (A+11). 
                                                 <dimensions type="outer">
                               <height unit="cm">28.5</height>
                               <width unit="cm">23.5</width>
@@ -60,6 +80,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Quire marks (some decorated) are written in the left upper corner: fols. 10v: ፩ (at the end of the quire) 11r: ፪, 19r: ፫, 27r: ፬, 35r: ፭, 43r: ፮, 51r: ፯, 60r: ፰, 68r: ፱, 76r: ፲, 84r: ፲፩.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -120,7 +142,7 @@ Holes or tears amended on fols. 62, 65.</condition>
                            <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -153,8 +175,7 @@ A few fols. have additional ruled line(s) at the bottom (fols. 61rv, 65rv-67rv).
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 89va-91vb: &#704;Anq&#228;&#7779;&#228; n&#601;ss&#601;&#7717;a "The Gate of Penitence".</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span>Fol. 89va:</span></span><span style="font-size:9.0pt;Arial"> </span><span style="font-size: large;">&#4704;&#4661;&#4632;&#4961;&#8221;&#8230;&#4632;&#4925;&#4624;&#4941;&#4961; &#4768;&#4757;&#4672;&#4920;&#4961; &#4757;&#4661;&#4624;&#4961; &#4824;&#4720;&#4672;&#4853;&#4624;&#4961; &#4773;&#4637;&#4985;&#4808;&#4969;&#4632;&#4925;&#4624;&#4941;&#4720;[sic]&#4961; &#4776;&#4632;&#4961; &#4739;&#4898;&#4768;&#4721;&#4961; &#4824;&#4845;&#4609;&#4709;&#4961; &#4672;&#4658;&#4661;&#4961; &#4926;&#4632;&#4961; &#4808;&#4920;&#4622;&#4720;&#4961; &#4808;&#4709;&#4649;&#4648;&#4961; &#4808;&#4656;&#4874;&#4848;&#4961; &#4616;&#4709;&#4773;&#4658;...</span></p> <p><span style="font-size: small;"><span style="line-height: 115%;">Explicit [fol. 91vb]:</span></span><span style="font-size:9.0pt;line-height:115%;Arial"> </span><span style="font-size: larger;"><span style="line-height: 115%;">...</span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;</span><span style="line-height: 115%;">&#4925;</span><span style="line-height: 115%;">&#4632;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4757;&#4672;&#4920;&#4961; &#4757;&#4661;&#4624;&#4961; &#4770;&#4845;&#4923;&#4773;&#4961; &#4773;&#4708;&#4720;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4773;&#4661;&#4632;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#89va">Fols. 89va-91</locus>vb: &#704;Anq&#228;&#7779;&#228; n&#601;ss&#601;&#7717;a "The Gate of Penitence".</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span>Fol. 89va:</span></span><span style="font-size:9.0pt;Arial"> </span><span style="font-size: large;">&#4704;&#4661;&#4632;&#4961;&#8221;&#8230;&#4632;&#4925;&#4624;&#4941;&#4961; &#4768;&#4757;&#4672;&#4920;&#4961; &#4757;&#4661;&#4624;&#4961; &#4824;&#4720;&#4672;&#4853;&#4624;&#4961; &#4773;&#4637;&#4985;&#4808;&#4969;&#4632;&#4925;&#4624;&#4941;&#4720;[sic]&#4961; &#4776;&#4632;&#4961; &#4739;&#4898;&#4768;&#4721;&#4961; &#4824;&#4845;&#4609;&#4709;&#4961; &#4672;&#4658;&#4661;&#4961; &#4926;&#4632;&#4961; &#4808;&#4920;&#4622;&#4720;&#4961; &#4808;&#4709;&#4649;&#4648;&#4961; &#4808;&#4656;&#4874;&#4848;&#4961; &#4616;&#4709;&#4773;&#4658;...</span></p> <p><span style="font-size: small;"><span style="line-height: 115%;">Explicit [fol. 91vb]:</span></span><span style="font-size:9.0pt;line-height:115%;Arial"> </span><span style="font-size: larger;"><span style="line-height: 115%;">...</span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;</span><span style="line-height: 115%;">&#4925;</span><span style="line-height: 115%;">&#4632;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4768;&#4757;&#4672;&#4920;&#4961; &#4757;&#4661;&#4624;&#4961; &#4770;&#4845;&#4923;&#4773;&#4961; &#4773;&#4708;&#4720;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4773;&#4661;&#4632;&#4961; &#4829;&#4757;&#4721;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Cf. Vat. Aeth. no. 156 and Ms. GKM-007 (Additio 1).
 A simple ornamental band (interlaces and crosses) is drawn on fol. 89v.</p>
@@ -167,7 +188,7 @@ A simple ornamental band (interlaces and crosses) is drawn on fol. 89v.</p>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with dark brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -176,6 +197,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Traces of two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark brown leather cover is poorly visible (at least 5 tools were used: single line fillet, double circle, interlaced line fillet, cross hatching, double sine wave with dots).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -218,8 +240,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Lǝbsä Qal and his relatives (wife: Wälättä Mädḫǝn, father: Täsfa Śǝllase, mother: Wälättä Gäbrä Mänfäs Qǝddus, daughter: Wälättä Täklä Haymanot) are mentioned in the supplication formulas throughout the Ms. The second part of the name of Lǝbsä Qal is often overwritten with Krǝstos.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Lǝbsä Qal and his relatives (wife: Wälättä Mädḫǝn, father: Täsfa Śǝllase, mother: Wälättä Gäbrä Mänfäs Qǝddus, daughter: Wälättä Täklä Haymanot) are mentioned in the supplication formulas throughout the Ms. The second part of the name of Lǝbsä Qal is often overwritten with Krǝstos.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -246,9 +268,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-24">registered</change>
-         <change who="SH" when="2014-04-29">created</change>
-         <change who="SH" when="2014-10-06">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2014-04-29T16:39:59.618Z">created</change>
+         <change who="SH" when="2014-10-06T15:32:38.859Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

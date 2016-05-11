@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-11-11</date>
+            <date>2013-11-11T14:35:21.305Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0144MHG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MHG-004</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; a few lines (alternating with black lines) of the incipit of Texts I-V; a few lines of the incipit of the “Synopsis of Classes” and the “Letter of Eusebius to Carpianus”; the heading of the texts; the word mǝʿǝraf “chapter” and the number of the chapters; the number and the “tituli” of the chapters; the title of the sections of Mäqdǝmä wangel; the word qämär “table” followed by a numeral on fol. 13ra; referrences to the tables in the “Letter of Eusebius to Carpianus” on fol. 15rb-va; numbers of the “tituli”; elements of the Canon tables; the postscripts and the notes containing the supposed language, place and date of origin of the Gospels; the legends of the miniatures; the Chi-rho signs; the qwǝm-signs; elements of the punctuation signs; the Ethiopic numerals or their elements.</rubric>
+                     <rubric>Nomina sacra; a few lines (alternating with black lines) of the incipit of Texts I-V; a few lines of the incipit of the “Synopsis of Classes” and the “Letter of Eusebius to Carpianus”; the heading of the texts; the word mәʿәraf “chapter” and the number of the chapters; the number and the “tituli” of the chapters; the title of the sections of Mäqdǝmä wangel; the word qämär “table” followed by a numeral on fol. 13ra; referrences to the tables in the “Letter of Eusebius to Carpianus” on fol. 15rb-va; numbers of the “tituli”; elements of the Canon tables; the postscripts and the notes containing the supposed language, place and date of origin of the Gospels; the legends of the miniatures; the Chi-rho signs; the qwǝm-signs; elements of the punctuation signs; the Ethiopic numerals or their elements.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -44,6 +44,29 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Details concerning types of postscripts included in the Gospels:</note>
+                     <note>I) Gospel of Matthew (fols. 21r-90ra)</note>
+                     <note>- Postscript containing stichometry (fol. 89vb)</note>
+                     <note>- Postscript containing the supposed language, place and date of origin (fol. 90ra)</note>
+                     <note>II) Gospel of Mark (fols. 9<ref type="mss" corresp="ES0rb126">0rb-126</ref>rb)</note>
+                     <note>- Postscript containing stichometry (fol. 126rb)</note>
+                     <note>- Postscript containing the supposed language, place and date of origin (fol. 126rb)</note>
+                     <note>III) Gospel of Luke (fols. 12<ref type="mss" corresp="ES6va211">6va-211</ref>va)</note>
+                     <note>- Postscript containing stichometry (fol. 211rb)</note>
+                     <note>- Postscript containing the supposed language, place and date of origin (fol. 211va)</note>
+                     <note>IV) Gospel of John (fols. 21<ref type="mss" corresp="ES1vb278">1vb-278</ref>rb)</note>
+                     <note>- Postscript containing stichometry (fol. 270rb)</note>
+                     <note>- Postscript containing the supposed language, place and date of origin (fol. 270rb-va)</note>
+                     <note>- Note on some of the 72 disciples and note on the Episcopal Sees of the four Evangelists (fols. 270vb, 278r)</note>
+                     <note/>
+                     <note>- Other signs used throughout the Ms.: zǝyyä-sign (fol. 26va l.16), qwǝm-sign (fol. 36rb l.20).</note>
+                     <note>- For the notes on some of the 72 disciples and the note on the Episcopal Sees of the four Evangelists s. R. ZUURMOND, Novum Testamentum Aethiopice: the Synoptic Gospels, Part I: General Introduction, Part II: Edition of the Gospel of Mark, Stuttgart, 1989 (AeF 27), p. 17.</note>
+                     <note>- The canon tables are distributed in 8 pages. The arches on fols. 20r and 20v have not been coloured.</note>
+                     <note>- The chapters are separated from each other with one blank line.</note>
+                     <note>- The numbers and “tituli” of the chapters are written in the upper margin, in red.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +74,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">279.0</measure> folios, in <measure unit="quire">38.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">279.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  16v, 24v,128v, 279v, in
+                                                  <measure unit="quire">38.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">24.5</height>
                               <width unit="cm">17.5</width>
@@ -206,7 +232,7 @@ Fol. 270 is misplaced, it should follow fol. 278.</condition>
                            <note>All data for fol. 73r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -233,15 +259,23 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red</seg>
                         <date>16th century (?)</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
-                     <handNote xml:id="h3" script="Ethiopic"/>
-                     <handNote xml:id="h4" script="Ethiopic">ዐ, ለ, መ)</handNote>
-                     <handNote xml:id="h5" script="Ethiopic"/>
-                     <handNote xml:id="h6" script="Ethiopic">it may be attached directly to the body of the letter, without the connecting line (e.g., fol. 79vb l.13) or it may be attached through a connecting line (e.g., fol. 79vb l. 18, 28)</handNote>
-                     <handNote xml:id="h7" script="Ethiopic">triangular, upwards oriented (e.g., fol. 13rb l. 5),</handNote>
-                     <handNote xml:id="h8" script="Ethiopic"/>
-                     <handNote xml:id="h9" script="Ethiopic"/>
-                     <handNote xml:id="h10" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Selected features of the script:<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+- tall, wide and broadly spaced letters<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h4" script="Ethiopic">
+- the body of several letters is triangular (e.g.: ዐ, ለ, መ)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h5" script="Ethiopic">
+- the loops of መ are not separated<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h6" script="Ethiopic">
+- the writing of the vowel marker of the seventh order of ሎ is unstable: it may be attached directly to the body of the letter, without the connecting line (e.g., fol. 79vb l.13) or it may be attached through a connecting line (e.g., fol. 79vb l. 18, 28)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h7" script="Ethiopic">
+- archaic form of ፩: triangular, upwards oriented (e.g., fol. 13rb l. 5),<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h8" script="Ethiopic">
+- archaic form of “four” (triangular, downwards oriented), (e.g., fol. 13rb l. )<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h9" script="Ethiopic">
+- archaic form of “two” (e.g., fol. 13rb l. 2, 4)<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h10" script="Ethiopic">
+- form of “six”፮, looking like “compressed”  numeral “seven”(e.g., fol. 13rb l.10).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 1r (incipit of the Introduction): elaborate coloured (red, yellow, green, blue) ornamental band with three lateral extensions reaching the bottom of the page; the horizontal band extends to the top of the page; geometric motifs, interlaces.</decoNote>
@@ -255,19 +289,16 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;">Fol. 14va-b: </span><span style="color: black; line-height: 150%;">Inventory of the church property.</span></span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 14va: </span><span style="font-size: large;">&#4757;&#4811;&#4840;&#4961; &#4677;&#4853;&#4659;&#4725;&#4961; &#4808;&#4632;&#4923;&#4629;&#4941;&#4725;&#4961; &#4824;&#4874;&#4848;&#4652;&#4961; &#4808;&#4824;&#4961; &#4936;&#4621;&#4936;&#4621;&#4961;&#160;&#8230;</span> <span style="font-size: small;"><span style="line-height: 115%;">[fol. 14vb] </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4720;&#4925;&#4629;&#4936;&#4725;&#4961; </span><span style="line-height: 115%;">&#4827;&#4722;&#4961; </span><span style="line-height: 115%;">&#4632;&#4925;&#4624;&#4941;&#4961; </span><span style="line-height: 115%;">&#4704;&#4632;&#4811;&#4821;&#4616;&#4961; </span><span style="line-height: 115%;">&#4846;&#4624;&#4757;&#4661;&#4961; </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4757;&#4876;&#4619;&#4810;&#4961; <span style="color: black;">&#4984;</span>&#4987;&#4979;&#4819;&#4632;&#4720;&#4961;</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4637;&#4741;&#4648;&#4725;&#4961; </span><span style="line-height: 115%;">&#4768;&#4632;&#4961; </span><span style="line-height: 115%;">&#4819;&#4657;&#4649;&#4961; </span><span style="line-height: 115%;">&#4808;&#4975;&#4616;&#4808;&#4653;&#4736;</span><span style="line-height: 115%;">&#4901;&#4653;&#4961; </span><span style="line-height: 115%;">&#4704;&#4824;&#4632;&#4752;&#4961; </span><span style="line-height: 115%;">&#4616;&#4720;&#4781;&#4616;&#4961; </span><span style="line-height: 115%;">&#4752;&#4709;&#4843;&#4725;&#4961; </span><span style="line-height: 115%;">&#4768;&#4709;&#4752;</span></span><span style="line-height: 115%; font-size: 10pt;">[sic]</span><span style="line-height: 115%; font-size: 14pt;">:</span><span style="line-height: 115%; font-size: 10pt;">&#160;&#160;</span></div></q>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;"><locus target="#14va">Fol. 14va</locus>-b: </span><span style="color: black; line-height: 150%;">Inventory of the church property.</span></span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 14va: </span><span style="font-size: large;">&#4757;&#4811;&#4840;&#4961; &#4677;&#4853;&#4659;&#4725;&#4961; &#4808;&#4632;&#4923;&#4629;&#4941;&#4725;&#4961; &#4824;&#4874;&#4848;&#4652;&#4961; &#4808;&#4824;&#4961; &#4936;&#4621;&#4936;&#4621;&#4961;&#160;&#8230;</span> <span style="font-size: small;"><span style="line-height: 115%;">[fol. 14vb] </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4720;&#4925;&#4629;&#4936;&#4725;&#4961; </span><span style="line-height: 115%;">&#4827;&#4722;&#4961; </span><span style="line-height: 115%;">&#4632;&#4925;&#4624;&#4941;&#4961; </span><span style="line-height: 115%;">&#4704;&#4632;&#4811;&#4821;&#4616;&#4961; </span><span style="line-height: 115%;">&#4846;&#4624;&#4757;&#4661;&#4961; </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4808;&#4757;&#4876;&#4619;&#4810;&#4961; <span style="color: black;">&#4984;</span>&#4987;&#4979;&#4819;&#4632;&#4720;&#4961;</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4637;&#4741;&#4648;&#4725;&#4961; </span><span style="line-height: 115%;">&#4768;&#4632;&#4961; </span><span style="line-height: 115%;">&#4819;&#4657;&#4649;&#4961; </span><span style="line-height: 115%;">&#4808;&#4975;&#4616;&#4808;&#4653;&#4736;</span><span style="line-height: 115%;">&#4901;&#4653;&#4961; </span><span style="line-height: 115%;">&#4704;&#4824;&#4632;&#4752;&#4961; </span><span style="line-height: 115%;">&#4616;&#4720;&#4781;&#4616;&#4961; </span><span style="line-height: 115%;">&#4752;&#4709;&#4843;&#4725;&#4961; </span><span style="line-height: 115%;">&#4768;&#4709;&#4752;</span></span><span style="line-height: 115%; font-size: 10pt;">[sic]</span><span style="line-height: 115%; font-size: 14pt;">:</span><span style="line-height: 115%; font-size: 10pt;">&#160;&#160;</span></div></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a mediocre hand, which is not very much posterior to that of the main text. The note mentions the date the year of mercy 7020 (= 1528 A.D.), 16 Ṭǝr, during the tenure of ʾabunä Täklä Näbiyat.
 It comprises of the list of paraphernalia, with their quantity, and the list of books (for some of them the title and the quantity are given).</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;">Fol. 14vb: </span><span style="line-height: 150%;">Q&#477;ne-poem.</span></span></div><q xml:lang="gez"><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;">Fol. 14vb:&#160;</span></span><span style="font-size: large;"><span style="line-height: 150%;">&#4829;&#4677;&#4756;&#4961; &#4824;&#4824;&#4635;&#4653;&#4843;&#4637;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4969; &#4829;&#4609;&#4653;&#4961; &#4821;&#4705;&#4840;&#4961; &#4621;&#4709;&#4961; &#4672;&#4723;&#4618;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4773;&#4757;&#4824;&#4961; &#4872;&#4845;&#4661;&#4961; &#4843;&#4620;&#4618;&#4961; &#4848;&#4704;&#4648;&#4961; &#4808;&#4616;&#4720;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4925;&#4846;&#4757;&#4961; &#4768;&#4632;&#4961; &#4819;&#4653;&#4872;&#4961; &#4773;&#4637;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4941;&#4758;&#4720;&#4961; &#4638;&#4768;&#4709;&#4961; &#4808;&#4770;&#4622;&#4941;&#4618;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4773;&#4757;&#4824;&#4961; &#4877;&#4817;&#4648;&#4961; &#4662;&#4704;&#4961; &#4845;&#4920;&#4618;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4736;&#4704;&#4961; &#4936;&#4899;&#4650;&#4609;&#4961; &#4629;&#4829;&#4677;&#4843;&#4661;&#4961; &#4773;&#4757;&#4824;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4770;&#4637;&#4757;&#4720;&#4754;&#4961; &#4845;&#4612;&#4618;&#4961; &#4720;&#4829;&#4779;&#4648;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4648;&#4656;&#4846;&#4961; &#4616;&#4789;&#4617;&#4961; &#4632;&#4624;&#4618;&#4962;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4824;&#4725;&#4620;&#4819;&#4618;&#4962; &#4707;&#4629;&#4721;&#4961; &#4845;&#4704;&#4621;&#4778;&#4961; &#4675;&#4616;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4936;&#4899;&#4650;&#4961; &#4776;&#4611;&#4618;&#4962; &#4704;&#4824;&#4707;&#4752;&#4961; &#4916;&#4901;&#4661;</span><span style="font-size: small;"><span style="line-height: 150%;">[sic]</span></span><span style="line-height: 150%;">&#4961; &#4808;&#4915;&#4813;&#4618;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4678;&#4634;&#4961; &#4808;&#4723;&#4757;&#4672;&#4621;&#4677;&#4618;&#4961; &#4773;&#4661;&#4776;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4877;&#4709;&#4653;&#4961; &#4845;&#4635;&#4661;&#4757;&#4961; &#4808;&#4845;&#4704;&#4618;&#4962;</span></span></div></q>
+                        <item xml:id="a2"><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;"><locus target="#14vb">Fol. 14vb</locus>: </span><span style="line-height: 150%;">Q&#477;ne-poem.</span></span></div><q xml:lang="gez"><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;">Fol. 14vb:&#160;</span></span><span style="font-size: large;"><span style="line-height: 150%;">&#4829;&#4677;&#4756;&#4961; &#4824;&#4824;&#4635;&#4653;&#4843;&#4637;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4969; &#4829;&#4609;&#4653;&#4961; &#4821;&#4705;&#4840;&#4961; &#4621;&#4709;&#4961; &#4672;&#4723;&#4618;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4773;&#4757;&#4824;&#4961; &#4872;&#4845;&#4661;&#4961; &#4843;&#4620;&#4618;&#4961; &#4848;&#4704;&#4648;&#4961; &#4808;&#4616;&#4720;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4925;&#4846;&#4757;&#4961; &#4768;&#4632;&#4961; &#4819;&#4653;&#4872;&#4961; &#4773;&#4637;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4941;&#4758;&#4720;&#4961; &#4638;&#4768;&#4709;&#4961; &#4808;&#4770;&#4622;&#4941;&#4618;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4773;&#4757;&#4824;&#4961; &#4877;&#4817;&#4648;&#4961; &#4662;&#4704;&#4961; &#4845;&#4920;&#4618;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4736;&#4704;&#4961; &#4936;&#4899;&#4650;&#4609;&#4961; &#4629;&#4829;&#4677;&#4843;&#4661;&#4961; &#4773;&#4757;&#4824;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4770;&#4637;&#4757;&#4720;&#4754;&#4961; &#4845;&#4612;&#4618;&#4961; &#4720;&#4829;&#4779;&#4648;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4648;&#4656;&#4846;&#4961; &#4616;&#4789;&#4617;&#4961; &#4632;&#4624;&#4618;&#4962;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4824;&#4725;&#4620;&#4819;&#4618;&#4962; &#4707;&#4629;&#4721;&#4961; &#4845;&#4704;&#4621;&#4778;&#4961; &#4675;&#4616;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4936;&#4899;&#4650;&#4961; &#4776;&#4611;&#4618;&#4962; &#4704;&#4824;&#4707;&#4752;&#4961; &#4916;&#4901;&#4661;</span><span style="font-size: small;"><span style="line-height: 150%;">[sic]</span></span><span style="line-height: 150%;">&#4961; &#4808;&#4915;&#4813;&#4618;&#4961;</span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 150%;">&#4678;&#4634;&#4961; &#4808;&#4723;&#4757;&#4672;&#4621;&#4677;&#4618;&#4961; &#4773;&#4661;&#4776;&#4961; </span></span></div> <div style="text-align: justify; line-height: 150%;"><span style="font-size: large;"><span style="line-height: 115%;">&#4877;&#4709;&#4653;&#4961; &#4845;&#4635;&#4661;&#4757;&#4961; &#4808;&#4845;&#4704;&#4618;&#4962;</span></span></div></q>
                            <q xml:lang="en"/>
                            <p>The qǝne-poem is written in a mediocre hand. Above and below the poem the name of the type of the qǝne-poem, ʿǝṭanä mogär, has been written in a secondary hand.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;">Fol. 270va: Ownership note.</span></span></div><q xml:lang="gez"><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;">Fol. 270va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4808;&#4757;&#4876;&#4621;&#4961; &#4824;&#4768;&#4707;&#4961; &#4704;&#4739;&#4845;</span><span style="font-size: medium;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4616;</span><span style="font-size: medium;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4961; </span><span style="font-size: medium;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4645;</span><span style="font-size: medium;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4617;&#4661;&#4961; &#4768;&#4705;&#4609;&#4961; &#4704;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4616;&#4768;&#4707;&#4961; &#4632;&#4653;&#4678;&#4652;&#4814;&#4661;</span></span></div></q>
+                        <item xml:id="a3"><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;"><locus target="#270va">Fol. 270va</locus>: Ownership note.</span></span></div><q xml:lang="gez"><div style="text-align: justify; line-height: 150%;"><span style="font-size: small;"><span style="line-height: 150%;">Fol. 270va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4808;&#4757;&#4876;&#4621;&#4961; &#4824;&#4768;&#4707;&#4961; &#4704;&#4739;&#4845;</span><span style="font-size: medium;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4616;</span><span style="font-size: medium;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4961; </span><span style="font-size: medium;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4645;</span><span style="font-size: medium;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4617;&#4661;&#4961; &#4768;&#4705;&#4609;&#4961; &#4704;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4616;&#4768;&#4707;&#4961; &#4632;&#4653;&#4678;&#4652;&#4814;&#4661;</span></span></div></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a mediocre hand, probably later than the main text, which resembles (or is identical) to the hand of Additio 3. The second line is partly illegible. It states that the Ms. belongs to ʾabba Bä-Ḫaylä Śǝllus (a probable reconstruction of the name), the spiritual father of ʾabba Märqorewos.</p>
                         </item>
@@ -292,6 +323,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Most of the quires are reinforced with parchment guards, attached to the quires by means of side-stitches.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark brown leather turn-ins (at least 1 tool was used: double line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -334,8 +366,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 3, at a certain time the Ms. belonged to ʾabba Bä-Ḫaylä Śǝllus.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -358,9 +390,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-20">registered</change>
-         <change who="MK" when="2013-11-11">created</change>
-         <change who="VR" when="2015-05-06">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-11-11T14:35:21.305Z">created</change>
+         <change who="VR" when="2015-05-06T09:10:10.561Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

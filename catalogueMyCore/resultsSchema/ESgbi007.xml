@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-06-17</date>
+            <date>2014-06-17T16:31:26.132Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0117GBI"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GBI-007</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,12 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- All miracles are correctly numbered.</note>
+                     <note>- Within the introduction (Text I-1) the scribe numbered three sections as miracles. Thus, the 1st miracle proper bears number 4 (fol. 14vb).</note>
+                     <note>- The miracles are introduced with the word täʾamǝr “miracle” and in one case with the word mǝʿǝraf “chapter”.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +58,10 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">91.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">91.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1rv, 3v, 4r, 87rv, 88v, 89rv, 90rv, 91rv, in
+                                                  <measure unit="quire">12.0</measure> quires (A+11). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.3</height>
                               <width unit="cm">15.5</width>
@@ -130,7 +139,7 @@ A hole carefully amended on fol. 52.</condition>
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -150,12 +159,11 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red</seg>
                         <date>18th cent. (?)</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Numeral ፮ “six” looks like compressed numeral ፯ “seven” (fols. 19vb, 41rb, 61ra).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%; color: black">Fols. 2ra-3rb: Unidentified canonical or hagiographic text (?). </span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 2ra: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4768;&#4813;&#4961; &#4773;&#4637;&#4824;&#4961; &#4704;&#4621;&#4819;&#4961; &#4770;&#4845;&#4677;&#4648;&#4709;&#4961; &#4819;&#4850;&#4961; &#4704;&#4845;&#4773;&#4725;&#4961; &#4821;&#4616;&#4725;&#4961; &#4808;&#4768;&#4925;&#4757;&#4817;&#4961; &#4773;&#4757;&#4776;&#4961; &#4920;&#4810;&#4632;&#4961; &#4648;&#4705;&#4816;&#4961; &#4808;&#4768;&#4653;&#4704; &#4808;&#4926;&#4632;&#4961; &#4981;&#4961; &#4704;&#4776;&#4632;&#4961; &#4845;&#4708;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4824;&#4845;&#4632;&#4661;&#4629;&#4961; &#4704;&#4648;&#4705;&#4821;&#4961; &#4808;&#4704;&#4819;&#4653;&#4709;</span></span><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4961;</span></span></span><span style="line-height: 115%">...</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%; color: black"><locus target="#2ra">Fols. 2ra-3</locus>rb: Unidentified canonical or hagiographic text (?). </span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 2ra: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4768;&#4813;&#4961; &#4773;&#4637;&#4824;&#4961; &#4704;&#4621;&#4819;&#4961; &#4770;&#4845;&#4677;&#4648;&#4709;&#4961; &#4819;&#4850;&#4961; &#4704;&#4845;&#4773;&#4725;&#4961; &#4821;&#4616;&#4725;&#4961; &#4808;&#4768;&#4925;&#4757;&#4817;&#4961; &#4773;&#4757;&#4776;&#4961; &#4920;&#4810;&#4632;&#4961; &#4648;&#4705;&#4816;&#4961; &#4808;&#4768;&#4653;&#4704; &#4808;&#4926;&#4632;&#4961; &#4981;&#4961; &#4704;&#4776;&#4632;&#4961; &#4845;&#4708;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4824;&#4845;&#4632;&#4661;&#4629;&#4961; &#4704;&#4648;&#4705;&#4821;&#4961; &#4808;&#4704;&#4819;&#4653;&#4709;</span></span><span style="font-size: large"><span style="line-height: 115%"><span style="font-size: large"><span style="line-height: 115%">&#4961;</span></span></span><span style="line-height: 115%">...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The fols. are a fragment of a different (more recent?) Ms. The explicit is on fol. 3rb. The text is written in a crude hand.</p>
                         </item>
@@ -173,6 +181,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head and one close to the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -215,8 +224,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wäldä Haymanot is mention in the supplication formulas (e.g., fols. 5ra, 17rb, 19vb, 26rb, 37ra, 70ra, 77vb, 83ra).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wäldä Haymanot is mention in the supplication formulas (e.g., fols. 5ra, 17rb, 19vb, 26rb, 37ra, 70ra, 77vb, 83ra).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -239,9 +248,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-01">registered</change>
-         <change who="MK" when="2014-06-17">created</change>
-         <change who="DN" when="2014-09-01">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2014-06-17T16:31:26.132Z">created</change>
+         <change who="DN" when="2014-09-01T16:01:28.776Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

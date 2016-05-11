@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-04-08</date>
+            <date>2015-04-08T09:20:08.318Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0131DMB"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMB-002</idno>
                </msIdentifier>
                <msContents>
@@ -53,7 +53,10 @@ Several groups of lines on the incipit page of Texts I-1 to I-14 (alternating wi
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">130.0</measure> folios, in <measure unit="quire">17.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">130.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1ar-1dr, 9r, 28v, 39rv, 49v, 54v, 69v, 76v, 81v, 95v, 108v, 116v, 126v-127v., in
+                                                  <measure unit="quire">17.0</measure> quires ((A+16)). 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">24.5</width>
@@ -62,6 +65,8 @@ Several groups of lines on the incipit page of Texts I-1 to I-14 (alternating wi
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written in the centre of the upper margin: fols. 18r: ፫, 26r: ፬, 34r: ፭, 42r: ፮, 58r: ፰, 66r: ፱, 74r: ፲, 90r: ፲፪, 98r: ፲፫, 106: ፲፬, 114: ፲፭, 122: ፲፮.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">4</dim>
@@ -136,7 +141,7 @@ Several groups of lines on the incipit page of Texts I-1 to I-14 (alternating wi
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling">16 (quires I-V) and 24 (quires VI-XVI)</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -157,7 +162,7 @@ The bottom line is written above the ruling.</ab>
                         <persName role="scribe" corresp="PRS00000">Mängäša Tämnet, ʾaläqa</persName>ʾAläqa Mängäša Tämnet is mentioned as the scribe in Additio 2.  &#xD;
 Whereas, Gäbrä Maryam (baptismal name of Mängäša Tämnet?) is mentioned as the scribe in the supplication on fol. 125va.<date/>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Careful.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 2r (incipit page of Text I-1): coloured (red, yellow, black) ornamental band with one central and two lateral pendants reaching the middle of the page; floral and geometric motifs, interlaces.</decoNote>
@@ -175,13 +180,11 @@ Whereas, Gäbrä Maryam (baptismal name of Mängäša Tämnet?) is mentioned as 
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fols. 125vb-126ra: Donation note.</span></p><q xml:lang="gez"><div style="margin-bottom: 0.0001pt; text-align: left; line-height: normal;"><span style="font-size: small;"><span unicode="">Fol. 125vb: </span><span style="font-size: large;">&#4829;&#4853;&#4653;&#4659;&#4757;&#4961; &#4824;&#4709;&#4628;&#4648;&#4961; &#4704;&#4819;&#4722;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4651;&#4661;&#4961; &#4656;&#4709;&#4624;&#4725;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961;&#160;&#4768;&#4653;&#4768;&#4843;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4645;&#4637;&#4648;&#4720;&#4961; &#4768;&#4709;&#4961; &#4656;&#4704;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4739;&#4648;&#4843;&#4961; &#4824;&#4843;&#4936;&#4677;&#4654;&#4961; &#4776;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4773;&#4633;&#4961; &#4845;&#4777;&#4758;&#4961; &#4637;&#4661;&#4616;&#4961; &#4848;&#4674;&#4673;&#4961; &#4616;&#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;&#4808;&#4616;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4773;&#4741;&#4721;&#4961; &#4928;&#4851;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4720;&#4776;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4774;&#4768;&#4637;&#4619;&#4776;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4821;&#4672;&#4709;&#4961; &#4629;&#4845;&#4808;&#4726;&#4633;&#4961; &#4808;&#4645;&#4648;&#4845;&#4961; &#4739;&#4898;&#4768;&#4726;&#4633;&#4962; &#4774;&#4773;&#4877;&#4826;&#4774;&#4961; &#4768;&#4821;&#4653;&#4941;&#4961; &#4752;&#4941;&#4659;&#4720;&#4961; &#4768;&#4877;&#4709;&#4653;&#4722;&#4776;&#4961; &#4808;&#4621;&#4848;&#4961; &#4621;&#4817;&#4621;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4720;&#4619;&#4810;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#8230;</span></span></div></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#125vb">Fols. 125vb-126</locus>ra: Donation note.</span></p><q xml:lang="gez"><div style="margin-bottom: 0.0001pt; text-align: left; line-height: normal;"><span style="font-size: small;"><span unicode="">Fol. 125vb: </span><span style="font-size: large;">&#4829;&#4853;&#4653;&#4659;&#4757;&#4961; &#4824;&#4709;&#4628;&#4648;&#4961; &#4704;&#4819;&#4722;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4651;&#4661;&#4961; &#4656;&#4709;&#4624;&#4725;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961;&#160;&#4768;&#4653;&#4768;&#4843;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4645;&#4637;&#4648;&#4720;&#4961; &#4768;&#4709;&#4961; &#4656;&#4704;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4739;&#4648;&#4843;&#4961; &#4824;&#4843;&#4936;&#4677;&#4654;&#4961; &#4776;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4773;&#4633;&#4961; &#4845;&#4777;&#4758;&#4961; &#4637;&#4661;&#4616;&#4961; &#4848;&#4674;&#4673;&#4961; &#4616;&#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;&#4808;&#4616;&#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4773;&#4741;&#4721;&#4961; &#4928;&#4851;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4720;&#4776;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4774;&#4768;&#4637;&#4619;&#4776;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4821;&#4672;&#4709;&#4961; &#4629;&#4845;&#4808;&#4726;&#4633;&#4961; &#4808;&#4645;&#4648;&#4845;&#4961; &#4739;&#4898;&#4768;&#4726;&#4633;&#4962; &#4774;&#4773;&#4877;&#4826;&#4774;&#4961; &#4768;&#4821;&#4653;&#4941;&#4961; &#4752;&#4941;&#4659;&#4720;&#4961; &#4768;&#4877;&#4709;&#4653;&#4722;&#4776;&#4961; &#4808;&#4621;&#4848;&#4961; &#4621;&#4817;&#4621;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4720;&#4619;&#4810;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#8230;</span></span></div></q>
                            <q xml:lang="en"/>
                            <p>The note, written in the main hand, states that ras Sǝbḥat, who is Kidanä Maryam, donated the Ms. It lists the names of his family members and entreats for the souls of former rulers: Wäldä Lǝʿul (d. 1767?), Zä-Mänfäs Qǝddus (= däğğazmač Subagadis, 1770-1831), Tälawi Krǝstos, Wäldä ʾArägawi, King of Kings Yoḥannǝs (IV ?, r. 1871-89), Wäldä Gäbrǝʾel, Täklä Giyorgis, Kidanä Maryam.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;">Fol. 126ra: Rhymed scribe&#8217;s note.</span><span style="font-size: small;"><br /> </span></div><q xml:lang="gez"><p><span style="font-size: small;">Fol. 126ra: </span><span style="font-size: large;">&#4616;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4925;&#4624;&#4941;&#4961; &#4824;&#4920;&#4624;&#4939;&#4961; &#4768;&#4616;&#4675;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4720;&#4637;&#4756;&#4720;&#4961; &#4621;&#4705;&#4961; &#4776;&#4632;&#4961; &#4845;&#4653;&#4776;&#4709;&#4962; &#4773;&#4637;&#4736;&#4704;&#4961; &#4773;&#4877;&#4826;&#4769;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4619;&#4852;&#4961; &#4709;&#4825;&#4741;&#4961; &#4901;&#4704;&#4709;&#4962; &#4773;&#4661;&#4632;&#4961; &#4782;&#4752;&#4961; &#4752;&#4851;&#4840;&#4961; &#4773;&#4637;&#4709;&#4825;&#4741;&#4961; &#4901;&#4704;&#4705;&#4961; &#4632;&#4781;&#4709;&#4709;&#4962; &#4808;&#4704;&#4813;&#4661;&#4720;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4658;&#4659;&#4841;&#4961; &#4616;&#4707;&#4619;&#4820;&#4961; &#4632;&#4819;&#4653;&#4961; &#4757;&#4613;&#4709;&#4962; &#4776;&#4632;&#4961; &#4710;&#4721;&#4961; &#4720;&#4640;&#4653;&#4819;&#4961; &#4616;&#4872;&#4707;&#4653;&#4961; &#4819;&#4661;&#4709;&#4962;</span></p></q>
+                        <item xml:id="a2"><div style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify;line-height:normal"><span style="font-size: small;"><locus target="#126ra">Fol. 126ra</locus>: Rhymed scribe&#8217;s note.</span><span style="font-size: small;"><br /> </span></div><q xml:lang="gez"><p><span style="font-size: small;">Fol. 126ra: </span><span style="font-size: large;">&#4616;&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4925;&#4624;&#4941;&#4961; &#4824;&#4920;&#4624;&#4939;&#4961; &#4768;&#4616;&#4675;&#4961; &#4632;&#4757;&#4872;&#4667;&#4961; &#4720;&#4637;&#4756;&#4720;&#4961; &#4621;&#4705;&#4961; &#4776;&#4632;&#4961; &#4845;&#4653;&#4776;&#4709;&#4962; &#4773;&#4637;&#4736;&#4704;&#4961; &#4773;&#4877;&#4826;&#4769;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4619;&#4852;&#4961; &#4709;&#4825;&#4741;&#4961; &#4901;&#4704;&#4709;&#4962; &#4773;&#4661;&#4632;&#4961; &#4782;&#4752;&#4961; &#4752;&#4851;&#4840;&#4961; &#4773;&#4637;&#4709;&#4825;&#4741;&#4961; &#4901;&#4704;&#4705;&#4961; &#4632;&#4781;&#4709;&#4709;&#4962; &#4808;&#4704;&#4813;&#4661;&#4720;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4658;&#4659;&#4841;&#4961; &#4616;&#4707;&#4619;&#4820;&#4961; &#4632;&#4819;&#4653;&#4961; &#4757;&#4613;&#4709;&#4962; &#4776;&#4632;&#4961; &#4710;&#4721;&#4961; &#4720;&#4640;&#4653;&#4819;&#4961; &#4616;&#4872;&#4707;&#4653;&#4961; &#4819;&#4661;&#4709;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>Rhymed note, written in the main hand, mentioning the name of scribe ʾaläqa Mängäša Tämnet and his lord ras Sǝbḥat.</p>
                         </item>
@@ -195,7 +198,7 @@ Whereas, Gäbrä Maryam (baptismal name of Mängäša Tämnet?) is mentioned as 
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (for the most part hidden under the secondary textile cover); textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -205,13 +208,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least one tool was used: triple line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0131DMB">Bäʿatti Qǝddus Mikaʾel  / DMB</placeName>
+                        <placeName corresp="INS0131DMB">Bäʿatti Qәddus Mikaʾel  / DMB</placeName>
                      </origPlace>
                      <origDate notBefore="1889" notAfter="1913">According to Additio 1, the Ms. was donated during the time of ras Sǝbḥat ʾArägawi (1844-1914). King Mǝnilǝk (r. 1889-1913) is mentioned as the reigning king on fol. 125rb.</origDate>
                   </origin>
@@ -247,8 +251,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, the Ms. was donated by ras Sǝbḥat ʾArägawi, with the baptismal name Kidanä Maryam (governor of Tǝgray with the title of ras in the years 1892-95 and 1908-14). His name and sometimes the names of his family members (e.g., his wife Wälättä Mädḫǝn on fol. 50ra, his sons Gäbrä Ḥǝywät and Wäldä Gäbrǝʾel on fol. 52va) are mentioned in supplication formulas.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms. was donated by ras Sǝbḥat ʾArägawi, with the baptismal name Kidanä Maryam (governor of Tǝgray with the title of ras in the years 1892-95 and 1908-14). His name and sometimes the names of his family members (e.g., his wife Wälättä Mädḫǝn on fol. 50ra, his sons Gäbrä Ḥәywät and Wäldä Gäbrǝʾel on fol. 52va) are mentioned in supplication formulas.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -274,9 +278,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-10">registered</change>
-         <change who="SH" when="2015-04-08">created</change>
-         <change who="SH" when="2015-04-16">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2015-04-08T09:20:08.318Z">created</change>
+         <change who="SH" when="2015-04-16T17:08:15.010Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-08</date>
+            <date>2013-07-08T10:36:26.600Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0099DMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMA-012</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf">60.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">60.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1v, 2rv, in
+                                                  <measure unit="quire">9.0</measure> quires (A+8). 
                                                 <dimensions type="outer">
                               <height unit="cm">24.0</height>
                               <width unit="cm">17.5</width>
@@ -111,7 +114,7 @@ Holes carefully amended on fols. 9, 16.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -132,17 +135,18 @@ The bottom line is written above the ruling.</ab>
                         <persName role="scribe" corresp="PRS00000">Täwäldä Mädḫǝn</persName>The scribe’s name, Täwäldä Mädḫǝn, is mentioned in the supplication formulas on fols. 3va, 41vb, 45ra, 51rb and in the concluding supplication formula on fol. 60rb.<date>Second half of the 20th century</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለዓ፡ ዓ, ለ፡ ዓ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ </expan> (e.g., fols. 39rb, 45rb, 47va, 48va, 50rb, 51rb, 55vb, 58ra)</item>
+                              <abbr>ለዓ፡ ዓ, ለ፡ ዓ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ </expan> (e.g., fols. 39rb, 45rb, 47va, 48va, 50rb, 51rb, 55vb, 58ra)</item>
                            <item>
-                              <abbr>አ፡</abbr> for <expan>አሜን፡ </expan> (e.g., fols. 55rb, 58ra)</item>
+                              <abbr>አ፡</abbr> for
+                                                  <expan>አሜን፡ </expan> (e.g., fols. 55rb, 58ra)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The 6th order vowel marker of ጵ is attached to the upper vertical stroke at the right side (fol. 13rb).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 60va: Unidentified prayer to Mary of Zion.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#60va">Fol. 60va</locus>: Unidentified prayer to Mary of Zion.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written by a very poor hand.</p>
                         </item>
@@ -161,6 +165,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two rows of small holes are visible on the spinefolds of the quires.</decoNote>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -203,8 +208,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Mikaʾel is mentioned in supplication formulas throughout the Ms. (e.g., fol. 3rb-va, 16vb, 45rb, 45ra, 47va, 48va, 53ra, 54va, 55vb, 58va). Also other names, most probably her family members, are mentioned in supplication formulas: Wälättä Tǝnsaʾe (fols. 37rb, 51rb, 53ra, 58va), Gäbrä Mädḫǝn (fol. 41va), Wälättä Muse (fols. 41va, 50rb, 60rb), Ḫaylä Śǝllase (fols. 50ra, 60rb), Täsfa Śǝllase (fols. 50rb, 57vb, 60rb), Nǝgǝśtä Maryam (fols. 51rb, 55rb), Bǝḍa Giyorgis (fol. 54va).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Mikaʾel is mentioned in supplication formulas throughout the Ms. (e.g., fol. 3rb-va, 16vb, 45rb, 45ra, 47va, 48va, 53ra, 54va, 55vb, 58va). Also other names, most probably her family members, are mentioned in supplication formulas: Wälättä Tǝnsaʾe (fols. 37rb, 51rb, 53ra, 58va), Gäbrä Mädḫǝn (fol. 41va), Wälättä Muse (fols. 41va, 50rb, 60rb), Ḫaylä Śǝllase (fols. 50ra, 60rb), Täsfa Śǝllase (fols. 50rb, 57vb, 60rb), Nǝgǝśtä Maryam (fols. 51rb, 55rb), Bǝḍa Giyorgis (fol. 54va).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -230,9 +235,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-24">registered</change>
-         <change who="MK" when="2013-07-08">created</change>
-         <change who="SA" when="2014-08-20">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-07-08T10:36:26.600Z">created</change>
+         <change who="SA" when="2014-08-20T09:44:19.716Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

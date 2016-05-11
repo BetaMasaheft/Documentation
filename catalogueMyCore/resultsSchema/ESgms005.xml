@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-04-04</date>
+            <date>2014-04-04T12:08:49.707Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0125GMS"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GMS-005</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,10 @@ On the incipit page of Text I-1 (fol. 3r), a few lines are rubricated, alternati
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Sections of the introduction were considered by the scribe as miracles (numbered as 3 miracles).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +56,8 @@ On the incipit page of Text I-1 (fol. 3r), a few lines are rubricated, alternati
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">79.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">79.0</measure> folios, in
+                                                  <measure unit="quire">10.0</measure> quires (A+9). 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">16.5</width>
@@ -118,7 +123,7 @@ Tears carefully amended on fols. 2, 74.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -141,15 +146,13 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fols. 1ra-2vb, 79ra-vb: M&#228;lk&#601;&#704;a m&#228;d&#7723;ane &#705;al&#228;m &#8220;Image of the Saviour of the World&#8221;.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#1ra">Fols. 1ra-2</locus>vb, 79ra-vb: M&#228;lk&#601;&#704;a m&#228;d&#7723;ane &#705;al&#228;m &#8220;Image of the Saviour of the World&#8221;.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The incipit of the text is on fol. 2vb, the explicit on fol. 79vb. Fols. 1r-2v were probably placed upside down when the binding was disturbed. The text on fol. 2v is partly abraded (possibly because the leaf had contact with the board), written in smaller script without rubrics.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 79ra: Donation note.</p><q xml:lang="gez"><p>Fol. 79ra: <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4720;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4624;&#4755;&#4961; &#4824;&#4808;&#4608;&#4709;&#4811;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4642;&#4820;&#4725;&#4961; &#4776;&#4632;&#4961; &#4725;&#4789;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4768;&#4636;&#4757;&#4962; &#4616;&#4827;&#4722;&#4754;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p></q>
+                        <item xml:id="a2"><p><locus target="#79ra">Fol. 79ra</locus>: Donation note.</p><q xml:lang="gez"><p>Fol. 79ra: <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4720;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4624;&#4755;&#4961; &#4824;&#4808;&#4608;&#4709;&#4811;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4642;&#4820;&#4725;&#4961; &#4776;&#4632;&#4961; &#4725;&#4789;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4962; &#4768;&#4636;&#4757;&#4962; &#4616;&#4827;&#4722;&#4754;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p>The note states that the Ms. was donated by Gäbrä Maryam and his wife Qǝddǝst Ḥanna to the church of Maryam Śiʿet.</p>
+                           <p>The note states that the Ms. was donated by Gäbrä Maryam and his wife Qәddәst Ḥanna to the church of Maryam Śiʿet.</p>
                         </item>
                      </list>
                   </additions>
@@ -162,13 +165,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head and one close to the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0125GMS">Siʿet Qǝddǝst Maryam / GMS</placeName>
+                        <placeName corresp="INS0125GMS">Siʿet Qәddәst Maryam / GMS</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1850">First half of the 19th century (?).</origDate>
                   </origin>
@@ -204,8 +208,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä Maryam and his wife Qǝddǝst Ḥanna are mentioned as the donors in Additio 2.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Gäbrä Maryam and his wife Qәddәst Ḥanna are mentioned as the donors in Additio 2.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -231,9 +235,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-07">registered</change>
-         <change who="SA" when="2014-04-04">created</change>
-         <change who="MK" when="2014-09-08">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2014-04-04T12:08:49.707Z">created</change>
+         <change who="MK" when="2014-09-08T12:17:48.154Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

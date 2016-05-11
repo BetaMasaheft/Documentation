@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-02-20</date>
+            <date>2014-02-20T13:56:36.595Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0097AQG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AQG-007</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Fol. 38 photographed twice because a part of the text was hidden by a stub.</note>
+                     <note>- Fol. numbered 55 was not photographed.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">106.0</measure> folios, in <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">106.0</measure> folios, in
+                                                  <measure unit="quire"/> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">39.0</height>
                               <width unit="cm">27.0</width>
@@ -89,7 +95,7 @@ Tear carefully amended on fol. 102.</condition>
                            <note>All data for fol. 12r. The size of the text area is not constant throughout the Ms.</note>
                            <ab type="ruling">The number of lines is not constant throughout the Ms.</ab>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -114,18 +120,15 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 1r-v: G&#228;dl&#228; s&#228;ma&#705;tat, Vitae of Saints and Martyrs, fragment (incipit page of the Vita of Hernewos).</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#1r">Fol. 1r</locus>-v: G&#228;dl&#228; s&#228;ma&#705;tat, Vitae of Saints and Martyrs, fragment (incipit page of the Vita of Hernewos).</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The leaf originates from the 15th-cent. manuscript AQG-005.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 19r-v: G&#228;dl&#228; s&#228;ma&#705;tat, Vitae of Saints and Martyrs, fragment.</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#19r">Fol. 19r</locus>-v: G&#228;dl&#228; s&#228;ma&#705;tat, Vitae of Saints and Martyrs, fragment.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p>The leaf originates from the 15th-cent. manuscript AQG-005. It contains the colophon mentioning 6955 year of mercy (= 1463 A.D.) as the date of completion of the writing, and ʾabunä Ṗeṭros as the commissioner. The colophon is preceded by an extensive (historiographic?) note (fol. 19r) mentioning Metropolitan Gäbrǝʾel (who arrived in Ethiopia in 1438 and died possibly in 1458, s. EAE II, 632).</p>
+                           <p>The leaf originates from the 15th-cent. manuscript AQG-005. It contains the colophon mentioning 6955 year of mercy (= 1463 A.D.) as the date of completion of the writing, and ʾabunä Ṗeṭros as the commissioner. The colophon is preceded by an extensive (historiographic?) note (fol. 19r) mentioning Metropolitan Gäbrәʾel (who arrived in Ethiopia in 1438 and died possibly in 1458, s. EAE II, 632).</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p>Fol. 106r-v: G&#228;dl&#228; s&#228;ma&#705;tat, Vitae of Saints and Martyrs, fragment.</p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><locus target="#106r">Fol. 106r</locus>-v: G&#228;dl&#228; s&#228;ma&#705;tat, Vitae of Saints and Martyrs, fragment.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The leaf originates from the 15th-cent. manuscript AQG-005.</p>
                         </item>
@@ -133,7 +136,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Both wooden boards and the threads of the binding are missing.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -141,6 +144,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -183,11 +187,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -207,9 +206,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-18">registered</change>
-         <change who="SA" when="2014-02-20">created</change>
-         <change who="DN" when="2015-09-11">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2014-02-20T13:56:36.595Z">created</change>
+         <change who="DN" when="2015-09-11T18:31:26.780Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä krǝstǝnna “Book of the Christening”</title>
+            <title>Mäṣḥafä krәstәnna “Book of the Christening”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-06-13</date>
+            <date>2013-06-13T13:42:45.820Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0133QMB"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QMB-006</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,10 @@ On the incipit page of Text I (fol. 3r), two lines are rubricated (alternating w
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I is called Mäṣḥafä ṭәmqät on the incipit (s. fol. 3ra).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +56,10 @@ On the incipit page of Text I (fol. 3r), two lines are rubricated (alternating w
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">32.0</measure> folios, in <measure unit="quire">5.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">32.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  fols. 1r-v, 2r-v, 32r-v., in
+                                                  <measure unit="quire">5.0</measure> quires (A+4). 
                                                 <dimensions type="outer">
                               <height unit="cm">15.2</height>
                               <width unit="cm">11.0</width>
@@ -99,7 +106,7 @@ Tear carefully amended on fol. 2.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -126,13 +133,11 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 1r: Ownership note.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#1r">Fol. 1r</locus>: Ownership note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Crudely written in pen by a recent hand.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 2r: List of priests&#180; names.</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#2r">Fol. 2r</locus>: List of priests&#180; names.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Crudely written in pen by a recent hand.</p>
                         </item>
@@ -147,6 +152,7 @@ Three sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head and one close to the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -189,8 +195,8 @@ Three sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The space for the rubricated name has been left unfilled on fol. 27ra.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The space for the rubricated name has been left unfilled on fol. 27ra.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -213,9 +219,9 @@ Three sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-13">registered</change>
-         <change who="SA" when="2013-06-13">created</change>
-         <change who="SA" when="2014-09-10">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-06-13T13:42:45.820Z">created</change>
+         <change who="SA" when="2014-09-10T09:08:53.583Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

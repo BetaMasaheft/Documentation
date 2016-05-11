@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-12-03</date>
+            <date>2013-12-03T10:39:41.522Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0111SSB"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SSB-012</idno>
                </msIdentifier>
                <msContents>
@@ -52,7 +52,10 @@ On the incipit page of Text I (fol. 5r), a few lines are rubricated (alternating
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">66.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">66.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-v, 2r-v, 3r-v, 4r-v, 64v, 65r-v, 66r-v, in
+                                                  <measure unit="quire">9.0</measure> quires (A+8). 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">11.5</width>
@@ -114,7 +117,7 @@ Tears carefully amended on fols. 2, 3.</condition>
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: </ab>
                            <ab>
 1A-1A-1A1A/0-0/0-0/C. </ab>
@@ -141,8 +144,7 @@ On some fols. the scribe did not used the upper ruled line (e.g., fols. 16-17).<
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fols. 63vb-64rb: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify;">Fol. 63vb: <span style="font-size: large;">&#4824;&#4768;&#4901;&#4648;&#4843;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;</span>[fol. 64ra]<span style="font-size: large;">&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4616;&#4768;&#4705;&#4840;&#4961; &#4781;&#4757;&#4936;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4768;&#4705;&#4840;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4644;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4644;&#4961; &#4961; &#4808;&#4616;&#4848;&#4961; &#4674;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;</span>[fol. 64rb]<span style="font-size: large;">&#4636;&#4757;&#4962; &#4840;&#4720;&#4872;&#4827;&#4733;&#4961; &#4972;&#4709;&#4653;&#4961;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#63vb">Fols. 63vb-64</locus>rb: Ownership note.</span></p><q xml:lang="gez"><p style="text-align: justify;">Fol. 63vb: <span style="font-size: large;">&#4824;&#4768;&#4901;&#4648;&#4843;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4752;</span>[fol. 64ra]<span style="font-size: large;">&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4616;&#4768;&#4705;&#4840;&#4961; &#4781;&#4757;&#4936;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4768;&#4705;&#4840;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4644;&#4961; &#4808;&#4616;&#4720;&#4961; &#4661;&#4619;&#4644;&#4961; &#4961; &#4808;&#4616;&#4848;&#4961; &#4674;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4814;&#4653;&#4874;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;</span>[fol. 64rb]<span style="font-size: large;">&#4636;&#4757;&#4962; &#4840;&#4720;&#4872;&#4827;&#4733;&#4961; &#4972;&#4709;&#4653;&#4961;</span></p></q>
                            <q xml:lang="en"/>
                            <p>Partly written in Amharic; partly rubricated. The names of the donors are mentioned as the owners of the Ms. The note mentions also that the Ms. was bought for 4 birr.</p>
                         </item>
@@ -150,7 +152,7 @@ On some fols. the scribe did not used the upper ruled line (e.g., fols. 16-17).<
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -159,6 +161,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 5 tools were used: double line fillet, triple line fillet, double circle, cross hatching, criss-cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -167,7 +170,7 @@ Two pairs of sewing stations.</decoNote>
                      <origPlace>
                         <placeName corresp="INS0111SSB">Bet Ḥawaryat / SSB</placeName>
                      </origPlace>
-                     <origDate notBefore="1889" notAfter="1913">King Mǝnilǝk II (r. 1889-1913) is mentioned on fols. 33rb and 38ra, Metropolitan Ṗeṭros (in tenure 1881-1917) on fols. 32va-vb and 34rb, and Patriarch of Alexandria Qerlos (in tenure 1874-1927) on fol. 32va.</origDate>
+                     <origDate notBefore="1889" notAfter="1913">King Mәnilәk II (r. 1889-1913) is mentioned on fols. 33rb and 38ra, Metropolitan Ṗeṭros (in tenure 1881-1917) on fols. 32va-vb and 34rb, and Patriarch of Alexandria Qerlos (in tenure 1874-1927) on fol. 32va.</origDate>
                   </origin>
                </history>
                <additional>
@@ -201,8 +204,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Kǝnfä Mikaʾel and Wälättä Sǝllaśe (s. Additio 1 and supplication formulas on fols. 41va, 46ra). Other individuals are mentioned in Additio 1, such as Gäbrä Maryam, Wäldä Maryam, Wäldä Gäbrǝʾel, Gäbrä ʾƎgziʾabǝḥer, Wälättä Maryam and Wälättä Giyorgis.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Kәnfä Mikaʾel and Wälättä Sәllaśe (s. Additio 1 and supplication formulas on fols. 41va, 46ra). Other individuals are mentioned in Additio 1, such as Gäbrä Maryam, Wäldä Maryam, Wäldä Gäbrәʾel, Gäbrä ʾƎgziʾabәḥer, Wälättä Maryam and Wälättä Giyorgis.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -226,9 +229,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-29">registered</change>
-         <change who="SA" when="2013-12-03">created</change>
-         <change who="MK" when="2014-09-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-12-03T10:39:41.522Z">created</change>
+         <change who="MK" when="2014-09-09T12:53:47.207Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

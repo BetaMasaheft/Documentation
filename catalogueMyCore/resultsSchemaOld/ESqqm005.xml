@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESqqm005"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gädlä ḥawaryat, Apocryphal Acts of the Apostles</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-01-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0159QQM"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>QQM-005</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; &#xD;
+a few lines in the incipit of each text, alternating with black lines; the first two lines, alternating with a black line, of the account proper of Text 1-16) and of an internal part of Text I-3 (fol. 15vb); Ethiopic numerals or their elements; elements of the punctuation signs.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">143.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">19.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">32.5</height>
+                              <width unit="cm">26.5</width>
+                              <depth unit="cm">9.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="1r" to="10v"/>I(10/fols. 1r-10v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">7</dim>
+                                 <locus target="11r"/>
+                                 <locus target="17v"/> II(7/fols. 11r - 17v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="18r"/>
+                                 <locus target="25v"/> III(8/fols. 18r - 25v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">6</dim>
+                                 <locus target="26r"/>
+                                 <locus target="31v"/> IV(6/fols. 26r - 31v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">9</dim>
+                                 <locus target="32r"/>
+                                 <locus target="40v"/> V(9/fols. 32r - 40v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">7</dim>
+                                 <locus target="41r"/>
+                                 <locus target="47v"/> VI(7/fols. 41r - 47v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="48r"/>
+                                 <locus target="55v"/> VII(8/fols. 48r - 55v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="56r"/>
+                                 <locus target="63v"/> VIII(8/fols. 56r - 63v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">7</dim>
+                                 <locus target="64r"/>
+                                 <locus target="70v"/> IX(7/fols. 64r - 70v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">9</dim>
+                                 <locus target="71r"/>
+                                 <locus target="79v"/> X(9/fols. 71r - 79v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="88r"/> XI(8/fols. 88r </item>
+                              <item xml:id="q12">
+                                 <locus target="87v"/> 87v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="88r"/> XII(8/fols. 88r </item>
+                              <item xml:id="q14">
+                                 <locus target="95v"/> 95v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="96r"/> XIII(8/fols. 96r </item>
+                              <item xml:id="q16">
+                                 <locus target="103v"/> 103v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="104r"/> XIV(8/fols. 104r </item>
+                              <item xml:id="q18">
+                                 <locus target="110v"/> 110v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">8</dim>
+                                 <locus target="111r"/> XV(8/fols. 111r </item>
+                              <item xml:id="q20">
+                                 <locus target="118v"/> 118v) </item>
+                              <item xml:id="q21">
+                                 <dim unit="leaf">6</dim>
+                                 <locus target="119r"/> XVI(6/fols. 119r </item>
+                              <item xml:id="q22">
+                                 <locus target="124v"/> 124v) </item>
+                              <item xml:id="q23">
+                                 <dim unit="leaf">3</dim>
+                                 <locus target="125r"/> XVII(3/fols. 125r </item>
+                              <item xml:id="q24">
+                                 <locus target="127v"/> 127v) </item>
+                              <item xml:id="q25">
+                                 <dim unit="leaf">7</dim>
+                                 <locus target="128r"/> XVIII(7/fols. 128r </item>
+                              <item xml:id="q26">
+                                 <locus target="134v"/> 134v) </item>
+                              <item xml:id="q27">
+                                 <dim unit="leaf">9</dim>
+                                 <locus target="135r"/> XIX(9/fols. 135r </item>
+                              <item xml:id="q28">
+                                 <locus target="143v"/>
+                                 <locus target="10"/> 143v).&#xD;
+&#xD;
+Fol. 1 is recent, attached to its counterpart (fol. 10) by means of a parchment guard.</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The Ms. was rebound. The original sewing of the quires is missing; most of the quires are reinforced with parchment guards, on the spinefolds or in the centrefols of the quires. &#xD;
+The majority of the leaves are affected by humidity at the upper and the bottom edges (esp. the last leaves).&#xD;
+Small holes are in several leaves; the last folio is cut at the bottom.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="25">
+                           <dimensions unit="mm">
+                              <height>264</height>
+                              <width>227</width>
+                              <dim type="intercolumn">18</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">36</dim>
+                              <dim type="bottom">63</dim>
+                              <dim type="right">30</dim>
+                              <dim type="left">12</dim>
+                              <dim type="intercolumn">18</dim>
+                           </dimensions>
+                           <note>All data for fol. 3r.</note>
+                           <ab type="ruling">the number of the lines ranges between 25 and 28.</ab>
+                           <ab type="pricking">Pricking and ruling are partly visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: </ab>
+                           <ab>
+1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are partly visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="pricking">
+Structural pricks are partly visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
+                           <ab type="CruxAnsata">
+                              <locus target=""/>
+                           </ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre</ab>
+                        <seg type="ink">Black; red (vermilion).</seg>
+                        <persName role="scribe" corresp="PRS00000">Zena Gäbrǝʾel</persName>Zena Gäbrǝʾel is mentioned as the scribe in Additio 2.&#xD;
+The handwriting is similar to that of Ms. ATH-001.<date>Mid- 15th to mid 16th century (?)</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h3" script="Ethiopic"/>
+                     <handNote xml:id="h4" script="Ethiopic"/>
+                     <handNote xml:id="h5" script="Ethiopic"/>
+                     <handNote xml:id="h6" script="Ethiopic"/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">Fol. 2r: narrow, simple, coloured (red and black) horizontal ornamental band at the bottom of the incipit page (added later?). Geometric motifs (interlaces and lines).</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p style="text-align: justify"><span style="font-size: small"><span style="font-family: Arial"><span lang="EN-US" unicode="" arial="" style="line-height: 115%"><span lang="EN-US" style="line-height: 115%">Fol. 1v:</span><span lang="EN-US" style="line-height: 115%"> Unidentified quotation (?)</span></span></span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="font-family: Arial"><span lang="EN-US" style="line-height: 115%">Fol. 1v (above):</span><span lang="EN-US" style="line-height: 115%"> </span></span></span><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4827;&#4768;&#4961;</span><span style="font-size: small;"><span style="font-family: Arial;"><span style="line-height: 115%;">[sic]</span></span></span><span style="line-height: 115%; font-family: Nyala"> </span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;"><span lang="AMH">&#4768;&#4757;&#4672;&#4925;&#4961; &#4923;</span></span><span style="line-height: 115%; font-family: Nyala;">[</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4853;</span><span style="line-height: 115%; font-family: Nyala;">]</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4675;&#4757;&#4961; &#4845;&#4704;&#4813;&#4821;&#4811;&#4961; &#4808;&#4739;&#4901;&#4768;&#4757;&#4961; &#4840;&#4624;&#4645;&#4645;&#4811;&#4961;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-family: Arial"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 1v (above):</span><span lang="EN-US" style="line-height: 115%"> &#160;</span><span lang="EN-US" style="line-height: 115%">The righteous ones enter this gate and the sinners are looking for it.</span></span></span></p></q>
+                           <p>Written in a recent secondary hand (in black and red).
+At the bottom and at the sides, the note is surrounded by a circle of red and black dots.
+The form of the letter የ in in the first order, as it appears in the verb የሐሥሥዋ፡, is peculiar;  the shaft which usually goes straight down from the left side of the body, starts here from the middle of it (perhaps influenced by the appearance of the letter in the main text)</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="font-size: small"><span lang="EN-US" unicode="">Fol. 143ra (ls.1-10): Note on the commissioner and s</span><span lang="EN-US">upplication prayer.</span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-family: Arial"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 143ra (ls.1-10</span><span lang="EN-US" style="line-height: 115%">):</span></span></span><span style="font-size: large"><span lang="EN-US" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4616;&#4827;&#4722;&#4961; &#4872;&#4853;&#4621;&#4961; &#4768;&#4925;&#4624;&#4939;&#4961; &#4608;&#4709;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4720;&#4768;&#4634;&#4758;&#4961; &#4819;&#4706;&#4840;&#4961; &#4720;&#4661;&#4939;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4920;&#4622;&#4723;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4618;&#4850;&#4720;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4961;</span></span><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala"><span style="font-size: large"><span style="font-family: Arial"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">[sic]</span></span></span></span> &#4768;&#4621;&#4939;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4776;&#4632;&#4961; &#4845;&#4757;&#4643;&#4773;&#4961; &#4704;&#4648;&#4776;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4659;&#4813;&#4621;&#4961; &#4808;&#4780;&#4939;&#4961; &#4808;&#4618;&#4720;&#4610;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4725;&#4777;&#4758;&#4961; &#4627;&#4872;&#4939;&#4961; &#4637;&#4661;&#4616;&#4961; &#4828;&#4755;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4824;&#4920;</span></span><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala"><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala"><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala"><span style="font-size: large"><span style="font-family: Arial"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">[</span></span></span></span></span></span>&#4624;</span></span></span></span><span style="font-family: Arial;"><span style="font-size: large;"><span lang="AMH" style="line-height: 115%;"><span style="font-size: large;"><span lang="AMH" style="line-height: 115%;"><span style="font-size: large;"><span lang="AMH" style="line-height: 115%;"><span style="font-size: large;"><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">]</span></span></span></span></span></span></span></span></span></span><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4939;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4616;&#4819;&#4616;</span><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">[</span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4961;</span><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">]</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala"> </span></span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962; &#4808;&#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 143ra (ls.1-10): The one who caused this Vita be written (is) Habt&#228; &#346;&#477;llase, having great hope in the prayer of Mary, the Mother of Alfa, so that he might take the blessing of Saul and "Stone". And for me, and for Zena G&#228;br&#477;&#704;el who wrote it (the book), she will be a protection. Forever and ever. Amen.</span></span></p></q>
+                           <p>Written in the main hand; the note mentions both the commissioner and the scribe. For Kefa (Jn. 1:43, 1 Cor. 1:12, 15:5), cp. DillmLex 876.</p>
+                        </item>
+                        <item xml:id="a3">
+                           <locus/><p style="text-align: left;"><span style="font-size: small"><span lang="EN-GB" unicode="">Fol. 143ra (l.12-20-rb): Excommunication for those who illegally took the book or brought it out of the church.</span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-family: Arial"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">Fol. 143ra (l.12-20-rb):</span></span></span><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4616;&#4827;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4722;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4872;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4853;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4824;&#4978;&#4808;&#4970;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;&#4653;&#4853;&#4773;&#4725;&#4962;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4773;&#4632;&#4610;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4824;&#4720;&#4611;&#4845;&#4848;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4773;&#4632;&#4610;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4824;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4813;&#4933;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4773;&#4632;&#4782;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4827;&#4722;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4773;&#4632;&#4610;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4672;&#4658;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4773;&#4632;&#4610;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4850;&#4843;&#4678;&#4757;&#4962;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4773;&#4632;&#4610;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4661;&#4841;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;&#4813;&#4872;&#4829;&#4777;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;&#4752;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4608;&#4709;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4661;&#4619;&#4660;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4672;&#4658;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4632;&#4752;&#4782;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4704;&#4824;&#4770;&#4845;&#4725;&#4936;&#4723;&#4629;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4635;&#4773;&#4656;&#4648;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4916;&#4901;&#4654;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;&#4821;&#4635;&#4848;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4637;&#4853;&#4653;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4704;&#4768;&#4936;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4752;&#4706;&#4843;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4624;&#4811;&#4653;&#4843;&#4725;&#4962;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4704;&#4768;&#4936;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4915;&#4915;&#4659;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4621;&#4659;&#4755;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4773;&#4659;&#4725;&#4962;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4704;&#4768;&#4936;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4634;&#4779;&#4772;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4872;&#4709;&#4653;&#4772;&#4621;&#4961;</span></span> <span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4778;&#4649;&#4708;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4704;&#4768;&#4937;&#4611;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4616;&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4619;&#4850;&#4720;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;&#4637;&#4619;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4781;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4845;&#4777;&#4757;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4773;&#4657;&#4648;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4704;&#4656;&#4635;&#4843;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4808;&#4704;&#4637;&#4853;&#4653;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4616;&#4819;&#4616;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">Fol. 143ra (l.12-20-rb): If this (book) of the Vitae of the twelve Apostles has been robbed or brought out of the place of Mary, be it by a priest or a deacon or a governor, I, Habt&#228; S&#477;llase, priest and monk, excommunicate (him) through the rope of Peter and Paul, pillars of the world, which will not be loosened, through the mouth of the Prophets and Apostles, the mouth of the metropolitan, tongues of the fire, through Michael and Gabriel and Kirubiel, the mouth of Mary, Mother of God. May it be tied in the heaven and on the earth. For eternity, amen.</span></span></p></q>
+                           <p>Written in the main hand.</p>
+                        </item>
+                        <item xml:id="e1">- A short note, partly unreadable: ዕቀባ፡ [sic?] ሥላሴ፡ ወሐይለ፡ ሥላሴ፡ ወከፍለ፡ [n.l.]ም፡  ፍቁራንየ፡  "ʿƎquba Śǝllase and Ḥaylä Śǝllase and Kǝflä ... (are) my beloved ones"</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="no">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays. &#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.&#xD;
+Most of the quires are reinforced by parchment guards.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0159QQM">Ë&#x81;Addi Qiyaá¸¥to QÉ&#x99;ddÉ&#x99;st Maryam / QQM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1450" notAfter="1550">Mid-15th to mid-16th century (?)</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="modern"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. Previously unknown</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Habtä Śǝllase is mentioned as the commissioner in Additio 2.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Zena Gäbrǝʾel</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Apocrypha/Pseudoepigrapha"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-05-24">registered</change>
+         <change who="VP" when="2013-01-03">created</change>
+         <change who="DN" when="2015-07-04">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

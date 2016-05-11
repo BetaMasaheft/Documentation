@@ -14,7 +14,6 @@
                         <xsl:choose>
                             <!--                            multiple entries-->
                             <xsl:when test="contains(@target, ' ')">
-                                <xsl:text>nos. </xsl:text>
                                 <xsl:for-each select="tokenize(@target, ' ')">
                                     <a href="{.}">
                                         <xsl:value-of select="."/>
@@ -23,7 +22,7 @@
                             </xsl:when>
                             <!-- one entry-->
                             <xsl:otherwise>
-                                <a href="{@target}">n. <xsl:value-of select="."/></a>
+                                <a href="{@target}"><xsl:value-of select="."/> (<xsl:value-of select="substring-after(@target,'#')"/>)</a>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>

@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESsm016"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Liturgical miscellanea</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-05-15</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0053SM"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>SM-016</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the donors; names of King Ḫaylä Śǝllase, Archbishop Basǝlyos and Bishop Yoḥannǝs; incipit of Text I and its sections; titles of books to be read; two initial lines of some readings in Text II; incipit of the sections of Text III; abbreviations of the directives to the ministers yǝbǝl kahǝn, “the priest says”, yǝbǝl diyaqon, “the deacon says” and yǝbǝl ḥǝzb, “the people say” in Text III; elements of the punctuation signs; elements of Ethiopic numerals; elements of the quire marks; notes written in the upper margin.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">48.0</measure> folios, of which <measure unit="leaf" type="blank">6.0</measure> blank, in <measure unit="quire">7.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">12.7</height>
+                              <width unit="cm">9.7</width>
+                              <depth unit="cm">4.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="1r" to="4v"/>A(4/fols. 1r-4v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="5r" to="12v"/> I(8/fols. 5r-12v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="13r" to="20v"/> ፪II(8/fols. 13r-20v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="21r" to="28v"/> ፫III(8/fols. 21r-28v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="29r" to="36v"/> ፬IV(8/fols. 29r-36v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="37r" to="44v"/> ፭V(8/fols. 37r-44v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="45r" to="48v"/> VI(4/fols. 45r-48v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="13">
+                           <dimensions unit="mm">
+                              <height>80</height>
+                              <width>65</width>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">20</dim>
+                              <dim type="bottom">25</dim>
+                              <dim type="right">20</dim>
+                              <dim type="left">10</dim>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <note>All data for fol. 6r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre.</ab>
+                        <seg type="ink">Black, vivid red.</seg>
+                        <persName role="scribe" corresp="PRS00000">Wäldä ʾArägawi</persName>ʾabunä Wäldä ʾArägawi is mentioned as the scribe in Additio 1.<date>20th century.</date>
+                        <list type="abbreviations">
+                           <item>ይዲ፡ for ይቤ፡ ዲያቆን፡</item>
+                           <item>ይካ፡ for ይቤ፡ ካህን፡</item>
+                           <item>ይሕ፡ for ይብል፡ ሕዝብ፡</item>
+                        </list>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">- Fol. 5r: Crude coloured (black, red) band.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p>Fol. 47r l. 11-13: Scribe&#180;s note on completing the work.</p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>Rubricated, written in the same hand as the main text. The note mentions ʾabunä Wäldä ʾArägawi, which is most probably the scribe.</p>
+                        </item>
+                        <item xml:id="e1">- Titles ʾAslǝṭi and Säʿatat are written on the front and back boards.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards.&#xD;
+One pair of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, between the sewing stations.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0053SM">Säbäya Maryam /SM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1956" notAfter="1970">King Ḫaylä Śǝllase (r. 1930-74), Archbishop Basǝlyos (1883-1970) and Yoḥannǝs (1895-1991), Bishop of Tǝgray from 1956 to 1974, are mentioned in the supplications formuals throughout Text I-3 (s. fols. 25v, 27r, 28v, 33v, 45v).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Wälättä Gärima, Wälättä ʾƎgziʾ and Wälättä Tǝnsaʾe (s. supplication formulas on fols. 7v, 9r, 42v).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Wäldä ʾArägawi</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Liturgy"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-14">registered</change>
+         <change who="SA" when="2013-05-15">created</change>
+         <change who="SH" when="2014-05-28">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

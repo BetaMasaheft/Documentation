@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-06-19</date>
+            <date>2012-06-19T09:02:54.376Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0017UQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>UM-034</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; names of the donors; the words mǝʿǝraf, nägär and täʾamr; incipit of Text I-1; the word ʾǝsäggǝd in Text I-1; incipits of subsections of Texts I-2 and I-3; notes in the upper margins; elements of the punctuation signs; Ethiopic numerals; in the incipit page of Text I-1 lines are rubricated, alternating with black lines (s. fol. 2r).</rubric>
+                     <rubric>Nomina sacra; names of the donors; the words mәʿәraf, nägär and täʾamr; incipit of Text I-1; the word ʾәsäggәd in Text I-1; incipits of subsections of Texts I-2 and I-3; notes in the upper margins; elements of the punctuation signs; Ethiopic numerals; in the incipit page of Text I-1 lines are rubricated, alternating with black lines (s. fol. 2r).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">59.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">59.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">1.0</measure> blank
+                                                  fol. 59., in
+                                                  <measure unit="quire">9.0</measure> quires (A+B+7). 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">19.0</width>
@@ -107,7 +110,7 @@ Some fols. are of irregular size (trimmed).</condition>
                            <note>All data for fol. 3r (quires I-V).</note>
                            <ab type="ruling">For quires VI-VII: 21</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern:1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -127,20 +130,20 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black; red.</seg>
                         <date>19th century.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">quires I-V.</handNote>
-                     <handNote xml:id="h3" script="Ethiopic">quires VI-VII.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a: quires I-V.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b: quires VI-VII.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 45rb: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 45rb, l. 18: </span><span style="font-size: large">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4632;&#4925;&#4624;&#4941;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: small">[sic]</span></span>&#4961;<span style="font-size: xx-small"> </span>&#4824;&#4768;&#4925;&#4624;&#4941;&#4781;&#4811;&#4961; &#4768;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4616;&#4708;&#4720;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4704;&#4808;&#4653;&#4677;&#4840;</span><span style="font-size: large"><span style="font-size: small">[sic]</span></span><span style="font-size: large">&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4752;&#4754;&#4961; &#4768;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4936;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#45rb">Fol. 45rb</locus>: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 45rb, l. 18: </span><span style="font-size: large">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4632;&#4925;&#4624;&#4941;</span><span style="font-size: large"><span style="font-size: large"><span style="font-size: small">[sic]</span></span>&#4961;<span style="font-size: xx-small"> </span>&#4824;&#4768;&#4925;&#4624;&#4941;&#4781;&#4811;&#4961; &#4768;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4616;&#4708;&#4720;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4704;&#4808;&#4653;&#4677;&#4840;</span><span style="font-size: large"><span style="font-size: small">[sic]</span></span><span style="font-size: large">&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4752;&#4754;&#4961; &#4768;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4962; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4768;&#4936;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></p></q>
                            <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small">Fol. 45r: I had this book written, G&#228;br&#228; D&#601;ng&#601;l, for the Bet&#228; M&#228;sq&#228;l of W&#228;rq&#601;ya, so that it might be for me a reward in the Heavenly Kingdom. Anyone who stole it or erased (its) text, be excommunicated through the mouth of Peter and Paul.&#160;</span></p></q>
                            <p/>
                         </item>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two boards (front board made of leather, back board made of wood).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -149,6 +152,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes or tears are visible on the spine folds of the quires, close to the head and tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -192,8 +196,8 @@ Quires VI-VII: early 20th century.</origDate>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">For quires I-V, Gäbrä Dǝngǝl, Zärʾa Haymanot and Wälättä Bǝrhan (s. Additio 1 and the supplication formula in fol. 45rb). For quires VI and VII, Kǝflä Maryam (s. the supplication formulas in fol. 47ra and elsewhere).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">For quires I-V, Gäbrä Dәngәl, Zärʾa Haymanot and Wälättä Bәrhan (s. Additio 1 and the supplication formula in fol. 45rb). For quires VI and VII, Kәflä Maryam (s. the supplication formulas in fol. 47ra and elsewhere).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -216,9 +220,9 @@ Quires VI-VII: early 20th century.</origDate>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-04-29">registered</change>
-         <change who="SA" when="2012-06-19">created</change>
-         <change who="SH" when="2014-06-03">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2012-06-19T09:02:54.376Z">created</change>
+         <change who="SH" when="2014-06-03T14:18:05.574Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

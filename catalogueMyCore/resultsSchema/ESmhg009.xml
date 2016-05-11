@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-02-27</date>
+            <date>2012-02-27T14:33:55.379Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0144MHG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MHG-009</idno>
                </msIdentifier>
                <msContents>
@@ -55,7 +55,10 @@ Names of sections sometimes followed by feast names and initial lines (e.g., waz
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">128.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">128.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1rv, 128v, in
+                                                  <measure unit="quire">16.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">19.0</height>
                               <width unit="cm">17.0</width>
@@ -138,7 +141,7 @@ A hole crudely amended in fol. 50.</condition>
                            <note/>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible (horizontal ruling not clearly visible on some fols., e.g., fols. 114-119).</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -179,8 +182,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 128r: Genealogy of the disciples of G&#477;rma L&#477;&#704;ul (?).</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 128r:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4848;</span><span style="line-height: 115%;">&#4677;&#4961; &#4824;&#4824;&#4961; &#4877;&#4653;&#4635;&#4621;&#4769;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4757;&#4849;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4923;&#4853;&#4673;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: normal;"><span style="font-size: small;"><locus target="#128r">Fol. 128r</locus>: Genealogy of the disciples of G&#477;rma L&#477;&#704;ul (?).</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 128r:</span></span><span style="line-height: 115%; font-size: 10pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4848;</span><span style="line-height: 115%;">&#4677;&#4961; &#4824;&#4824;&#4961; &#4877;&#4653;&#4635;&#4621;&#4769;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4768;&#4757;&#4849;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4923;&#4853;&#4673;</span><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 128r: Disciples (?) of G&#477;rma L&#477;</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">ul. </span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">(G&#477;rma L&#477;</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">ul)</span></span>&#160; begat </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Andu, (</span></span><span style="font-size: small;"><span style="line-height: 115%;"><span style="font-size: small;"><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Andu</span></span>) begat &#7778;ad&#601;qu&#8230;</span></span></p></q>
                            <p>The note is written in a very crude hand.</p>
                         </item>
@@ -192,7 +194,7 @@ Lack of rubricated text on fols. 72ra-77rb, 116ra-121rb, 123va-124rb and rubrica
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two leather boards.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -242,11 +244,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -266,9 +263,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-20">registered</change>
-         <change who="MK" when="2012-02-27">created</change>
-         <change who="MK" when="2014-09-15">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-02-27T14:33:55.379Z">created</change>
+         <change who="MK" when="2014-09-15T16:56:36.646Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

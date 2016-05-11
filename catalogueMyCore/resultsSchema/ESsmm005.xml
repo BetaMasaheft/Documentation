@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-05-17</date>
+            <date>2013-05-17T10:13:38.129Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0054SMM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SMM-005</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">28.0</measure> folios, in <measure unit="quire">5.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">28.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-v, 1ar-v, 27r., in
+                                                  <measure unit="quire">5.0</measure> quires (A+4). 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">12.0</width>
@@ -60,6 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Quire marks written on the first folio of the quires.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -98,7 +104,7 @@ The sewing is repaired with recent threads.</condition>
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are partly visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -126,13 +132,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 26va-vb: Scribe&#180;s note on completing the work.</p><q xml:lang="gez"><p>Fol. 26va l. 18: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4720;&#4781;&#4618;&#4621;&#4961; &#4704;&#4656;&#4619;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;</span> [fol. 26vb] <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4920;&#4622;&#4725;&#4961; &#4845;&#4821;&#4672;&#4710;&#4961; &#4808;&#4843;&#4853;&#4741;&#4758;&#4961; &#4773;&#4632;&#4776;&#4651;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><locus target="#26va">Fol. 26va</locus>-vb: Scribe&#180;s note on completing the work.</p><q xml:lang="gez"><p>Fol. 26va l. 18: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4720;&#4781;&#4618;&#4621;&#4961; &#4704;&#4656;&#4619;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;</span> [fol. 26vb] <span style="font-size: large;">&#4829;&#4757;&#4721;&#4961; &#4920;&#4622;&#4725;&#4961; &#4845;&#4821;&#4672;&#4710;&#4961; &#4808;&#4843;&#4853;&#4741;&#4758;&#4961; &#4773;&#4632;&#4776;&#4651;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 27v: Ownership note.</p><q xml:lang="gez"><p>Fol. 27v: <span style="font-size: large;">&#4829;&#4632;&#4933;&#4627;&#4941;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4656;&#4635;&#4829;&#4961; &#4632;&#4933;&#4627;&#4936;&#4961; &#4720;&#4781;&#4618;&#4621;&#4962;</span></p></q>
+                        <item xml:id="a2"><p><locus target="#27v">Fol. 27v</locus>: Ownership note.</p><q xml:lang="gez"><p>Fol. 27v: <span style="font-size: large;">&#4829;&#4632;&#4933;&#4627;&#4941;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4656;&#4635;&#4829;&#4961; &#4632;&#4933;&#4627;&#4936;&#4961; &#4720;&#4781;&#4618;&#4621;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -145,6 +149,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial"/>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, close to the head of the codex.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -187,11 +192,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -211,9 +211,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-15">registered</change>
-         <change who="SA" when="2013-05-17">created</change>
-         <change who="VP" when="2015-02-26">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-05-17T10:13:38.129Z">created</change>
+         <change who="VP" when="2015-02-26T10:26:08.732Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

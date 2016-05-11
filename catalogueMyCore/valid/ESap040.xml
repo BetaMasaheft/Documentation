@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESap040"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäṣḥafä ʾaślәṭi, Lectionary for the week / Barәkännä ʾәgziʾo… “Bless us, O Lord…”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2014-01-16T13:56:02.412Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>AP-040</idno>
+                  <altIdentifier>
+                     <idno>C3-IV-61 (fol. 12r)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the donors; incipit of Text I; titles of books to be read; initial line of the readings; the word barәkännä… “bless us…” in Text II; elements of the punctuation signs; elements of Ethiopic numerals. &#xD;
+On the incipit pages of Text I (fols.4r), a few lines are rubricated (alternating with black lines).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The work (Texts I-II) is called Mäṣḥafä ʾaslәṭ in the colophon (fol. 9ra).</note>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus target="39vb">Fol. 39vb: &lt;span style="font-size: large;"&gt;&amp;#4829;&amp;#4632;&amp;#4925;&amp;#4941;&lt;/span&gt;[sic]&lt;span style="font-size: large;"&gt;&amp;#4961; &amp;#4768;&amp;#4661;&amp;#4621;&amp;#4901;&amp;#4961; &amp;#4824;&amp;#4975;&amp;#4721;&amp;#4961; &amp;#4821;&amp;#4616;&amp;#4725;&amp;#4961; &amp;#4824;&amp;#4768;&amp;#4707;&amp;#4961; &amp;#4720;&amp;#4781;&amp;#4616;&amp;#4961; &amp;#4611;&amp;#4845;&amp;#4635;&amp;#4758;&amp;#4725;&amp;#4961; &amp;#4808;&amp;#4768;&amp;#4705;&amp;#4609;&amp;#4961; &amp;#4872;&amp;#4709;&amp;#4648;&amp;#4961; &amp;#4846;&amp;#4624;&amp;#4757;&amp;#4661;&amp;#4961; &amp;#4808;&amp;#4768;&amp;#4633;&amp;#4961; &amp;#4808;&amp;#4616;&amp;#4720;&amp;#4961; &amp;#4709;&amp;#4653;&amp;#4611;&amp;#4757;&amp;#4961; &amp;#4824;&amp;#4768;&amp;#4901;&amp;#4648;&amp;#4843;&amp;#4961; &amp;#4757;&amp;#4811;&amp;#4841;&lt;/span&gt;&lt;span style="font-size: large;"&gt;&lt;span style="font-size: small;"&gt;[sic]&lt;/span&gt;&amp;#4961; &amp;#4776;&amp;#4632;&amp;#4961; &amp;#4845;&amp;#4777;&amp;#4758;&amp;#4961; &amp;#4632;&amp;#4653;&amp;#4611;&amp;#4961; &amp;#4616;&amp;#4632;&amp;#4757;&amp;#4877;&amp;#4645;&amp;#4720;&amp;#4961; &amp;#4656;&amp;#4635;&amp;#4843;&amp;#4725;&amp;#4961; &amp;#4704;&amp;#4978;&amp;#4808;&amp;#4977;&amp;#4987;&amp;#4984;&amp;#4808;&amp;#4970;&amp;#4721;&amp;#4961; &amp;#4819;&amp;#4632;&amp;#4720;&amp;#4961; &amp;#4637;&amp;#4629;&amp;#4648;&amp;#4725;&amp;#4961; &amp;#4704;&amp;#4824;&amp;#4632;&amp;#4752;&amp;#4961; &amp;#4846;&amp;#4624;&amp;#4757;&amp;#4661;&amp;#4961; &amp;#4808;&amp;#4757;&amp;#4876;&amp;#4619;&amp;#4810;&amp;#4961; &amp;#4720;&amp;#4925;&amp;#4624;&amp;#4936;&amp;#4962;&lt;/span&gt;</locus>Fol. 39vb: ዝመጽፍ[sic]፡ አስልጥ፡ ዘ፯ቱ፡ ዕለት፡ ዘአባ፡ ተክለ፡ ሃይማኖት፡ ወአቡሁ፡ ገብረ፡ ዮሐንስ፡ ወአሙ፡ ወለተ፡ ብርሃን፡ ዘአጥረያ፡ ንዋዩ[sic]፡ ከመ፡ ይኩኖ፡ መርሃ፡ ለመንግሥተ፡ ሰማያት፡ በ፲ወ፱፻፸ወ፪ቱ፡ ዓመተ፡ ምሕረት፡ በዘመነ፡ ዮሐንስ፡ ወንጌላዊ፡ ተጽሐፈ።<foreign xml:lang="en"/>
+                        <note>The colophon mentions that the Ms. is in the possession of (but appareantly meaning: commissioned by) Täklä Haymanot,  was written in 1972 A.M. (= 1979-80 A.D.). The relatives of Täklä Haymanot(his father Yoḥannәs and his mother Wälättä Bәrhan) are also mentioned.</note>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">31.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-v, 2r-v, 30r-v, 31r-v., in
+                                                  <measure unit="quire">5.0</measure> quires (A+4). 
+                                                <dimensions type="outer">
+                              <height unit="cm">23.5</height>
+                              <width unit="cm">19.0</width>
+                              <depth unit="cm">3.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <signatures>
+                              <note>- Quire mark (fol. 20r).</note>
+                           </signatures>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="1r" to="3v"/>A(3; s.l.: 2, stub after 1/fols. 1r-3v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="4r" to="11v"/> I(8; s.l.: 2, stub after 7; 7, stub after 2/fols. 4r-11v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="12r" to="19v"/> II(8/fols. 12r-19v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="20r" to="27v"/> ፫III(8; s.l.: 3, stub after 5; 6, stub after 2/fols. 20r-27v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="28r" to="31v"/> IV(4/fols. 28r-31v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The front board is broken and repaired.&#xD;
+The sewing is repaired.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="19">
+                           <dimensions unit="mm">
+                              <height>160</height>
+                              <width>150</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">30</dim>
+                              <dim type="bottom">40</dim>
+                              <dim type="right">25</dim>
+                              <dim type="left">13</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 5r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="pricking">
+Structural pricks are visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre but careful.</ab>
+                        <seg type="ink">Black, red.</seg>
+                        <date>20th century.</date>
+                     </handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#3ra">Fol. 3ra-3</locus>vb: Extract from an unidentified text concerning the second coming of Christ.<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           
+                        </item>
+                        <item xml:id="e1">- Directive to the ministers written in the upper margin: fol. 10v.&#xD;
+- Crude notes written in pen: fols. 3va, 30v.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="partly">
+                        <decoNote xml:id="b1">Two wooden boards (the front board is broken and repaired).&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head, one close to the tail.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
+                     </origPlace>
+                     <origDate notBefore="1979" notAfter="1980">The colophon mentions the date 1972 A.M. (= 1979/80 A.D.).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="modern"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Täklä Haymanot according to the colophon; his father Gäbrä Yoḥannәs and his mother Wälättä Bәrhan are also mentioned.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Lectionary"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-04">registered</change>
+         <change who="SA" when="2014-01-16T13:56:02.412Z">created</change>
+         <change who="EG" when="2014-08-06T12:58:54.748Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-01</date>
+            <date>2013-07-01T09:57:56.660Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0171KY"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>KY-061</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Most of the texts are followed by the note on stichometry.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">152.0</measure> folios, in <measure unit="quire">20.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">152.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-3v, 20vb-22v, 98v, 151rb-152v., in
+                                                  <measure unit="quire">20.0</measure> quires ((A+19)). 
                                                 <dimensions type="outer">
                               <height unit="cm">27.5</height>
                               <width unit="cm">25.8</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Decorated quire marks: fols. 22r: ፩, 30r: ፪, 38r: ፫, 346r: ፬, 54r: ፭, 62r: ፮, 70r: ፯, 78r: ፰, 86r: ፱, 94r: ፲, 99r: ፲፫(!), 107r: ፲፬, 113r: ፲፭, 123r: ፲፫(!), 133r: ፲፬, 141r: ፲፯(!), 151r: ፲፰.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">3</dim>
@@ -148,7 +157,7 @@ Tears amended on fols. 12, 139.</condition>
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -168,17 +177,15 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red</seg>
                         <date>Second half of the 18th century</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting remains uniform throughout the Ms. with the exception of the rubricated passages on the incipit pages of Texts IV, V and VI which might have been written in a different hand.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 20va: Purchase note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 20va:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4624;&#4850;&#4659;&#4725;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4784;&#4782;&#4622;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4704;&#4789;&#4648;&#4961; &#4925;&#4846;&#4757;&#4961; &#4704;&#4757;&#4811;&#4840;&#4961; &#4846;&#4624;&#4757;&#4661;&#4962;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#20va">Fol. 20va</locus>: Purchase note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 20va:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4624;&#4850;&#4659;&#4725;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4784;&#4782;&#4622;&#4961; &#4824;&#4720;&#4643;&#4840;&#4902;&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4704;&#4789;&#4648;&#4961; &#4925;&#4846;&#4757;&#4961; &#4704;&#4757;&#4811;&#4840;&#4961; &#4846;&#4624;&#4757;&#4661;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note states that the Ms. of the church Qǝddus Yoḥannǝs Mäṭmǝq of Kwäkolo was purchased during the gäbäz-tenure of priest Bäkwǝrä Ṣǝyon with the church's money. It is written in an angular script, some letters appear in a forked shape (ተ, ን, ዝ), probably in the same hand that re-wrote (partly) the ownership note on fol. 4ra (upper margin, s. "owner").</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="line-height: 115%; font-size: 9pt;">Fol. 22r: O</span><span unicode="" style="line-height: 115%; font-size: 9pt;">wnership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22r: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4915;&#4813;&#4622;&#4661;&#4961; &#4824;&#4720;&#4661;&#4939;&#4661;&#4619;&#4660;&#4961; &#4808;&#4773;&#4633;&#4961; &#4941;&#4652;&#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4634;&#4779;&#4772;&#4621;&#4961; </span></span></p></q>
+                        <item xml:id="a2"><p><span style="line-height: 115%; font-size: 9pt;"><locus target="#22r">Fol. 22r</locus>: O</span><span unicode="" style="line-height: 115%; font-size: 9pt;">wnership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 22r: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4915;&#4813;&#4622;&#4661;&#4961; &#4824;&#4720;&#4661;&#4939;&#4661;&#4619;&#4660;&#4961; &#4808;&#4773;&#4633;&#4961; &#4941;&#4652;&#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4634;&#4779;&#4772;&#4621;&#4961; </span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written in the upper margin. It states Täsfa Śǝllase as an owner of the "Book of Paul" and mentions also the names of his mother Fǝre Maryam and his wife Wälättä Mikaʾel. 
 Similar notes in the same hand are written on fols. 62vb, 78rb, 98rab, 134rb (partly erased), 151ra (partly erased).
@@ -203,6 +210,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible on the spine fold of the quires, close to the head and the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (6 tools were used: double line fillet, double line fillet with dots, interlaced line fillet, double circle, double crescent, small x; scored cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -245,8 +253,10 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original owner (Wälättä &lt;...&gt;) has been erased from the concluding supplication of Text XXIII. &#xD;
+The handwritten note in English "New testament Pauline" in the upper margin of fol. 4rb (in black fountain pen) and the number 228 written upside down on fol. 3v indicate that the book was most probably taken as booty from Mäqdäla Mädḫane ʿAläm (founded by Tewodros II, r. 1855-68). Possibly the note ሐዲሳት፡ ዘቅዱስ፡ ዮሐንስ in the upper margin of fol. 4ra (s. Additio 1) was written over an (partly) erased ownership note of the church Mäqdäla Mädḫane ʿAläm.&#xD;
+According to Additio 2, Täsfa Śǝllase was previously (?) an owner of the Ms.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -269,9 +279,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-06">registered</change>
-         <change who="SH" when="2013-07-01">created</change>
-         <change who="SH" when="2014-10-20">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-07-01T09:57:56.660Z">created</change>
+         <change who="SH" when="2014-10-20T14:58:49.794Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

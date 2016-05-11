@@ -37,7 +37,7 @@
     <xsl:template match="t:origPlace">
         
         <p>
-            <b>Current Location: </b>
+            <b>Original Location: </b>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

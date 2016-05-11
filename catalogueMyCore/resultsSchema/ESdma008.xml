@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-01-04</date>
+            <date>2012-01-04T15:47:31.734Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0099DMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMA-008</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,10 @@ On the incipit pages of Texts II, III, IV (fols. 3r, 90v, 97r), a few lines are 
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The text of the Vita represents the first of the two sub-types of the Däbrä Libanos recension of the Gädlä Täklä Haymanot (close, but not identical to the published text of the Vita, s. E.A.W. BUDGE (ed., tr.), The Life and Miracles of Takla Hâymânôt in the Version of Dabra Lîbânôs..., London 1906).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +56,10 @@ On the incipit pages of Texts II, III, IV (fols. 3r, 90v, 97r), a few lines are 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">106.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">106.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.0</measure> blank
+                                                  fols. 1, 2, 106., in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
                                                 <dimensions type="outer">
                               <height unit="cm">28.5</height>
                               <width unit="cm">22.5</width>
@@ -61,6 +68,7 @@ On the incipit pages of Texts II, III, IV (fols. 3r, 90v, 97r), a few lines are 
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -128,7 +136,7 @@ On the incipit pages of Texts II, III, IV (fols. 3r, 90v, 97r), a few lines are 
                            <note/>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -157,8 +165,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 105vb: Donation note.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#105vb">Fol. 105vb</locus>: Donation note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -167,7 +174,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -176,6 +183,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (6 tools were used: double circle, triple line fillet,  cross hatching, wave form, interlaced line fillet, dice).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -218,8 +226,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Maryam (s. Additio 1); also her relatives are mentioned.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Maryam (s. Additio 1); also her relatives are mentioned.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -242,9 +250,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-24">registered</change>
-         <change who="SA" when="2012-01-04">created</change>
-         <change who="SH" when="2014-10-14">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2012-01-04T15:47:31.734Z">created</change>
+         <change who="SH" when="2014-10-14T08:21:04.691Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

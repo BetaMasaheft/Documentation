@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gǝbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-02</date>
+            <date>2013-07-02T08:10:10.452Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0113NSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>NSM-002</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">180.0</measure> folios, in <measure unit="quire">25.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">180.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  174v, 175r, 175v, 176r, 176v, 177r, 177v, 178r, 178v, 179r, 179v, 180r, 180v., in
+                                                  <measure unit="quire">25.0</measure> quires ((23+ B1 +B2)). 
                                                 <dimensions type="outer">
                               <height unit="cm">38.0</height>
                               <width unit="cm">29.0</width>
@@ -60,6 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire mark is written in the upper margins of fol. 1r.&#xD;
+- Undecorated quire marks are written in the bottom margin of the last fol. of some quires, fols. 8v, 16v, 24v, 32v, 40v, 48v, 56v, 107v, 123v, 131v, 139v, 147v, 155v. From fol. 107v the numeration is not regular.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">8</dim>
@@ -157,7 +163,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -181,9 +187,11 @@ The bottom line is written above the ruling.</ab>
                            <item>ይካ፡ for ይብል፡ ካህን፡</item>
                            <item>ይዲ፡ for ይብል፡ ዲያቆን፡</item>
                            <item>
-                              <abbr>ሰ፡</abbr> for <expan>ስቡኒ፡ ውእቱ፡ ወልዑልኒ፡ </expan> (fols. 133va-133vc)</item>
+                              <abbr>ሰ፡</abbr> for
+                                                  <expan>ስቡኒ፡ ውእቱ፡ ወልዑልኒ፡ </expan> (fols. 133va-133vc)</item>
                            <item>
-                              <abbr>ኦ፡</abbr> for <expan>ኦእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ </expan> (fols. 138vb-138vc)</item>
+                              <abbr>ኦ፡</abbr> for
+                                                  <expan>ኦእግዚእነ፡ ኢየሱስ፡ ክርስቶስ፡ </expan> (fols. 138vb-138vc)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -199,8 +207,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 163va: Donation note extended by the list of the donor&#180;s children and deceased relatives.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 163va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4757;&#4613;&#4709;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4661;&#4635;&#4720;&#4961; &#4848;&#4674;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4768;&#4653;&#4768;&#4843;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4645;&#4637;&#4648;&#4720;&#4961; &#4768;&#4709;&#4961; &#4656;&#4704;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="line-height: 115%;">...</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#163va">Fol. 163va</locus>: Donation note extended by the list of the donor&#180;s children and deceased relatives.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 163va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4757;&#4613;&#4709;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4829;&#4813;&#4773;&#4721;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4768;&#4661;&#4635;&#4720;&#4961; &#4848;&#4674;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4768;&#4653;&#4768;&#4843;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4824;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4645;&#4637;&#4648;&#4720;&#4961; &#4768;&#4709;&#4961; &#4656;&#4704;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span><span style="line-height: 115%;">...</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol.163va: This is the book of ras S&#601;b&#7717;at which he donated to (the church of) St. Michael N&#601;h&#601;b, and his baptismal name is Kidan&#228; Maryam and the names of his children (are) W&#228;ld&#228; G&#228;br&#601;</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">el, </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Ar</span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">aya &#346;&#601;llase, W&#228;ld&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Ar&#228;g&#228;wi, Z&#228;-M&#228;nf&#228;s Q&#601;ddus, &#346;&#601;mr&#228;t&#228; </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Ab, S&#228;b&#228;n&#228; Maryam...</span></span></p></q>
                            <p>A list of the donor´s relatives is given. The note is written in the same hand as that of the main text.</p>
                         </item>
@@ -210,7 +217,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (two separate pieces sewn together along the middle of the spine); textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -220,15 +227,16 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">One pairs of chains of endband stitches through the spine cover (headband).</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover and turn-ins (at least 5 tools are used: triple line fillet, double circle, cross hatching, x-form, criss-cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0113NSM">Nǝḥbi Qǝddus Mikaʾel / NSM</placeName>
+                        <placeName corresp="INS0113NSM">Nәḥbi Qәddus Mikaʾel / NSM</placeName>
                      </origPlace>
-                     <origDate notBefore="1889" notAfter="1913">King Mǝnilǝk II (r. 1889-1913) is mentioned in the supplication formula in fol. 65rc.</origDate>
+                     <origDate notBefore="1889" notAfter="1913">King Mәnilәk II (r. 1889-1913) is mentioned in the supplication formula in fol. 65rc.</origDate>
                   </origin>
                </history>
                <additional>
@@ -262,8 +270,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Kidanä Maryam, baptismal name of Ras Sǝbḥat (Arägawi? b. ca. 1844, d. 1914), is mentioned as the donor in Additio 1 and in the supplication formulas throughout the Ms. Other members of his family are mentioned in the colophon.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Kidanä Maryam, baptismal name of Ras Sǝbḥat (Arägawi? b. ca. 1844, d. 1914), is mentioned as the donor in Additio 1 and in the supplication formulas throughout the Ms. Other members of his family are mentioned in the colophon.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -289,9 +297,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-25">registered</change>
-         <change who="IR" when="2013-07-02">created</change>
-         <change who="SD" when="2014-09-10">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IR" when="2013-07-02T08:10:10.452Z">created</change>
+         <change who="SD" when="2014-09-10T08:54:55.578Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -35,6 +35,29 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="//t:sup">
+        <hi rend="apices"><xsl:apply-templates/></hi>
+    </xsl:template>
+    <xsl:template match="//t:em">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="//t:font">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="//t:meta">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="//t:style">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="//t:div[not(ancestor::t:body)]">
+        <xsl:apply-templates/>
+    </xsl:template>  
+  
     <xsl:template match="//t:p[ancestor::t:incipit or ancestor::t:explicit or ancestor::t:p or ancestor::t:colophon or ancestor::t:item[matches(@xml:id, 'a\d+')]]">
         <xsl:apply-templates/>
     </xsl:template>   

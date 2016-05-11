@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-01-29</date>
+            <date>2015-01-29T10:52:34.856Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0177SDM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SDM-003a</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">46.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">46.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  46r, 46v, in
+                                                  <measure unit="quire">6.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">12.0</width>
@@ -100,7 +103,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data from fol. 13r</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -120,7 +123,8 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red</seg>The name of the scribe is missing on fol. 28r (space for rubricated name left unfilled).<date/>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለዓ፡ ዓለ፡</abbr> for <expan>ለዓለመ፡ ዓለም </expan> (e.g. fol. 7r, 13v).</item>
+                              <abbr>ለዓ፡ ዓለ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም </expan> (e.g. fol. 7r, 13v).</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -129,8 +133,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fols. 45r-v: </span><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Donation note.<erased illegible="" word=""></erased></span></p><q xml:lang="gez"><p><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4624;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span></span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode=""><locus target="#45r">Fols. 45r</locus>-v: </span><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Donation note.<erased illegible="" word=""></erased></span></p><q xml:lang="gez"><p><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4709;&#4653;&#4624;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961;</span></span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the same hand as the main text. It mentions ʾabunä Wäldä ʾAbrǝha and his family and states that he donated the book to Tabotä Qǝddus Mikaʾel Śoṭa.</p>
                         </item>
@@ -146,7 +149,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards covered with the textile secondary cover. Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
                            <material key="wood"/>
@@ -196,8 +199,8 @@ The bottom line is written above the ruling.</ab>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1 the Ms. was donated by ʾabunä Wäldä ʾAbrǝha. He and his relatives are are also mentioned in the supplication formulas, e.g., fols. 4r, 13v, 16r, 18v, 20r, 21v, 25r, 28r, 29v, 31v, 36v.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1 the Ms. was donated by ʾabunä Wäldä ʾAbrǝha. He and his relatives are are also mentioned in the supplication formulas, e.g., fols. 4r, 13v, 16r, 18v, 20r, 21v, 25r, 28r, 29v, 31v, 36v.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -221,9 +224,9 @@ The bottom line is written above the ruling.</ab>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-18">registered</change>
-         <change who="VR" when="2015-01-29">created</change>
-         <change who="VR" when="2015-04-22">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VR" when="2015-01-29T10:52:34.856Z">created</change>
+         <change who="VR" when="2015-04-22T14:37:44.570Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

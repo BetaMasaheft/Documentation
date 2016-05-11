@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-08-29</date>
+            <date>2012-08-29T15:28:52.454Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0200HMM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>HMM-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">145.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">145.0</measure> folios, in
+                                                  <measure unit="quire">18.0</measure> quires (A+17). 
                                                 <dimensions type="outer">
                               <height unit="cm">15.5</height>
                               <width unit="cm">10.0</width>
@@ -60,6 +61,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Quire marks are written in the upper left margin of fols. 35r, 43r, 51r, 59r, 67r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">8</dim>
@@ -142,7 +145,7 @@ Cuts amended on fols. 75, 82.</condition>
                            <note>All data for fol. 4r</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling  are partly visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -170,13 +173,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 1v: Scribe&#8217;s entreat to God for help during the writing.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#1v">Fol. 1v</locus>: Scribe&#8217;s entreat to God for help during the writing.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small">Fol. 98v: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: medium"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">Fol. 98v: </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4829;&#4632;&#4925;&#4624;&#4941;&#5011;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala"> &#4824;&lt;...&gt;</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><locus target="#98v">Fol. 98v</locus>: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: medium"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">Fol. 98v: </span><span lang="AMH" style="line-height: 115%; font-family: Nyala">&#4829;&#4632;&#4925;&#4624;&#4941;&#5011;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala"> &#4824;&lt;...&gt;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small">Fol. 98v: This book is of &lt;&#8230;&gt; (144v)</span></p></q>
                            <p>- The note is written in the same hand as the main text. The personal name was scratched out but its second part might be ʾIyäsus.
 - An identical ownership note at the end of Text II, fol. 144r.</p>
@@ -194,7 +195,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with dark brown leather (quarter cover).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -203,6 +204,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark brown leather cover, poorly visible (2 tools were used: triple line fillet, double circle)</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -245,8 +247,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The Ms. was probably in private possession of an individual mentioned in Additio 2 (only the second part of his name, ʾIyäsus, can be guessed). The ownership right of the Ms. possibly passed to the church after the owner diseased.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -270,9 +272,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-12-05">registered</change>
-         <change who="AA" when="2012-08-29">created</change>
-         <change who="VP" when="2014-09-24">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2012-08-29T15:28:52.454Z">created</change>
+         <change who="VP" when="2014-09-24T09:57:49.808Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

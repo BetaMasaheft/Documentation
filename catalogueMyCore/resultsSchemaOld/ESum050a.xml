@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESum050a"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾArbaʿtu wängel “Four Gospels”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2011-10-18</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0017UQ"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>UM-050a</idno>
+                  <altIdentifier>
+                     <idno>C3-IV-81 (on the front board)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; numerals in the Letter of Eusebius to Carpianus; grids of the Canon tables; numerals in the list of the “tituli”; on the incipit page of the Gospel, four lines are rubricated alternating with black lines; numbers and titles of the chapters written in the upper margin of the fols.; punctuations signs or elements of the punctuation signs; crux ansata, coronis and Chi-Ro signs.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">42.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">6.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">29.0</height>
+                              <width unit="cm">19.5</width>
+                              <depth unit="cm">10.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="9v"/> I(8-1/s.l.: 1, 8 is cut/fols. 3r-9v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="10r" to="18v"/> II(8/fols. 10r-18v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="19r" to="26v"/> III(8/fols. 19r-26v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="27r" to="34v"/> IV(8/fols. 27r-34v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="35r" to="42v"/> V(8/fols. 35r-42v).</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">Ms. UM-50a is the fragment of a Four Gospel book, with the binding which embraces, apart from that, fragments of 10 different Mss. (described as UM-050). Threads of the sewing, spine and endbands are missing. Separate leaves and quires are loosely put between the boards. The edges of some leaves are worn and damaged.&#xD;
+The major part of the Gospel texts is missing. Some leaves are falling apart along the vertical ruling lines (s. fols. 4, 5, 9, 10, 26). Fol. 42 is falling apart along horizontal ruling lines; tears on fol. 17, 38, along the vertical outer ruling lines are repaired by crude stitches.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="27">
+                           <dimensions unit="mm">
+                              <height>220</height>
+                              <width>135</width>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">28</dim>
+                              <dim type="bottom">40</dim>
+                              <dim type="right">26</dim>
+                              <dim type="left">15</dim>
+                              <dim type="intercolumn">13</dim>
+                           </dimensions>
+                           <note>All data for fol. 13r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern:</ab>
+                           <ab>
+1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written below the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                           <ab type="pricking">
+Clearly visible unidentified pricks on fols. 21-27.</ab>
+                           <ab type="ruling" subtype="patter">
+The ruling pattern is different for the Canon tables.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Fine, careful.</ab>
+                        <seg type="ink">Black, red.</seg>
+                        <date>Late 14th - early 15th century.</date>
+                     </handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 2v: S&#228;lam-hymn to Qirqos.</span></p><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt">Fol. 2v: </span><span style="line-height: 115%; font-size: 14pt">&#4656;&#4619;&#4637;&#4961; &#4768;&#4709;&#4621;&#4961; &#4616;&#4674;&#4653;&#4678;&#4661;&#4961; &#4656;&#4707;&#4778;&#4609;&#4961; &#4616;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4621;&#4850;&#4609;&#4961; &#4704;&#4677;&#4725;&#4651;&#4725;&#4961; &#4656;&#4709;&#4817;&#4961; &#4789;&#4753;&#4757;&#4961; &#4819;&#4707;&#4619;&#4722;&#4609;&#4961; &#4616;&#4920;&#4845;&#4814;&#4961; &#4653;&#4773;&#4662;&#4961; &#4637;&#4661;&#4616;&#4961; &#4819;&#4752;&#4851;&#4609;&#4961; &#4704;&#4656;&#4648;&#4872;&#4619;&#4961; &#4824;&#4772;&#4621;&#4843;&#4661;&#4961; &#4720;&#4736;&#4709;&#4768;&#4961; &#4645;&#4875;&#4609;&#4962; &#4674;&#4653;&#4678;&#4661;&#4961;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The text is written upside down.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 4r: Admonition against grabbing the land of the church of Qirqos; reminding concerning the celebration of commemoration</span><span style="line-height: 115%; font-size: 10pt"> day of Qirqos.</span></p><q xml:lang="gez"><div style="line-height: normal; margin-bottom: 0pt"><span style="line-height: 115%; font-size: 10pt">Fol. 4r: </span><span style="font-size: 14pt">&#4808;&#4709;&#4773;&#4658;&#4726;&#4961; &#4704;&#4638;&#4725;&#4961; &#4773;&#4637;&#4757;&#4849;&#4849;&#4961; &#4773;&#4632;&#4656;&#4629;&#4757;&#4721;&#4961; &#4616;&#4845;&#4661;&#4653;&#4814;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4773;&#4661;&#4776;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;</span></div> <p><span style="line-height: 115%; font-size: 14pt">&#4672;&#4658;&#4661;&#4961; &#4824;&#4817;&#4651;&#4961; &#4808;&#4819;&#4675;&#4708;&#4961; &#4656;&#4819;&#4725;&#4961; &#4824;&#4677;&#4941;&#4653;&#4843;&#4961; &#4808;&#4707;&#4821;&#4616;&#4961; &#4653;&#4821;&#4661;&#4961; &#4817;&#4651;&#4961; &#4616;&#4845;&#4877;&#4704;&#4649;&#4961; &#4720;&#4829;&#4779;&#4649;&#4961; &#4616;&#4674;&#4653;&#4678;&#4661;&#4961; &#4704;&#4776;&#4632;&#4961; &#4845;&#4848;&#4617;&#4961; &#4808;&#4824;&#4720;&#4648;&#4936;&#4610;&#4961; &#4616;&#4845;&#4877;&#4704;&#4649;&#4961; &#4616;&#4621;&#4709;&#4661;&#4961; &#4808;&#4616;&#4632;&#4925;&#4624;&#4941;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The text is written in the bottom margin of the incipit page, probably in the main hand. The contents of the note, beginning from the words ወብእሲቱ፡ በሞት፡, is the same as in Additio 3. The note contains some misspellings.</p>
+                        </item>
+                        <item xml:id="a3">
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 4r: Admonition against grabbing the land of the church of Qirqos; reminding concerning the celebration of commemoration </span><span style="line-height: 115%; font-size: 10pt">day of Qirqos.</span></p><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt">Fol. 4r:&#160; </span><span style="font-size: 14pt">&#4773;&#4632;&#4710;&#4961; &#4824;&#4720;&#4811;&#4661;&#4768;&#4961; &#4824;&#4757;&#4720;&#4961; &#4637;&#4853;&#4648;&#4961; &#4773;&#4757;&#4824;&#4961; &#4845;&#4709;&#4621;&#4961;</span><span style="font-size: 14pt">&#4770;&#4782;&#4752;&#4961; &#4637;&#4853;&#4648;&#4961; &#4616;&#4674;&#4653;&#4678;&#4656;&#4961; &#4677;&#4853;&#4632;&#4961; &#4752;&#4872;&#4649;&#4961; &#4843;&#4621;&#4709;&#4661;&#4961; &#4923;&#4821;&#4851;&#4961; &#4656;&#4653;&#4941;&#4961; &#4773;&#4632;&#4710;&#4961; &#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4708;&#4726;&#4961; &#4704;&#4773;&#4659;&#4725;&#4961; &#4645;&#4875;&#4609;&#4961; &#4704;&#4632;&#4677;&#4656;&#4941;&#4725;&#4961; &#4813;&#4617;&#4849;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4704;&#4638;&#4725;&#4961; &#4773;&#4637;&#4757;&#4848;&#4849;&#4961; &#4808;&#4773;&#4637;&#4961; &#4656;&#4629;&#4757;&#4721;&#4961; &#4616;&#4845;&#4661;&#4653;&#4814;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4773;&#4661;&#4776;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961;</span></p> <p><span style="line-height: 115%; font-size: 14pt">&#4672;&#4658;&#4661;&#4961; &#4824;&#4817;&#4651;&#4961; &#4808;&#4819;&#4675;&#4708;&#4961; &#4656;&#4819;&#4725;&#4961; &#4824;&#4677;&#4941;&#4653;&#4843;&#4961; &#4808;&#4704;&#4819;&#4616;&#4961; &#4653;&#4821;&#4661;&#4961; &#4817;&#4651;&#4961; &#4616;&#4845;&#4877;&#4704;&#4649;&#4961; &#4720;&#4829;&#4779;&#4649;&#4961; &#4616;&#4674;&#4653;&#4678;&#4661;&#4961; &#4704;&#4776;&#4632;&#4961; &#4845;&#4848;&#4617;&#4961; &#4808;&#4824;&#4720;&#4648;&#4936;&#4610;&#4961; &#4616;&#4845;&#4877;&#4704;&#4649;&#4961; &#4616;&#4621;&#4709;&#4661;&#4961; &#4808;&#4616;&#4632;&#4925;&#4624;&#4941;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in the same hand as Additio 1.</p>
+                        </item>
+                        <item xml:id="a4">
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 5r: Warning and curse against the grabbing of the land of the church of Qirqos.</span></p><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt">Fol. 5r: </span><span style="font-size: 14pt">&#4978;&#4808;&#4970;&#4961; &#4872;&#4651;&#4613;&#4725;&#4961; &#4723;&#4710;&#4720;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4770;&#4725;&#4709;&#4621;&#4817;&#4961; &#4776;&#4632;&#4961; &#4770;&#4725;&#4725;&#4704;&#4621;&#4817;&#4961; &#4972;&#4616;&#4972;&#4961; </span><span style="font-size: 14pt">&#4808;&#4630;&#4653;&#4777;&#4961; &#4768;&#4757;&#4656;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4633;&#4961; &#4616;&#4674;&#4653;&#4678;&#4661;&#4961; &#4776;&#4632;&#4961; &#4773;&#4672;&#4853;&#4661;&#4961; &#4723;&#4710;&#4721;&#4961; &#4843;&#4877;&#4709;&#4768;&#4754;&#4961; &#4704;&#4656;&#4619;&#4637;&#4961; &#4768;&#4636;&#4757;</span></p> <p><span style="line-height: 115%; font-size: 14pt">&#4768;&#4752;&#4961; &#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632; &#4773;&#4777;&#4757;&#4961; &#4616;&#4773;&#4776; &#4826;&#4768;&#4609;&#4962;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in the same hand as Additiones 1 and 3.</p>
+                        </item>
+                        <item xml:id="a5">
+                           <locus/><p><span style="line-height: 115%; font-size: 10pt">Fol. 5r:</span><span style="line-height: 115%; font-size: 10pt"> N</span><span style="line-height: 115%; font-size: 10pt">ote </span><span style="line-height: 115%; font-size: 10pt">on </span><span style="line-height: 115%; font-size: 10pt">commemoration days of some individuals followed by a note concerning private affairs (?).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: x-small"><span style="line-height: 115%; font-size: 10pt">Fol. 5r:</span><span style="line-height: 115%; font-size: 10pt">&#160; </span></span><span style="font-size: 14pt">&#4768;&#4632;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4978;&#4808;&#4969;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4616;&#4901;&#4677;&#4637;&#4725;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4768;&#4707;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4781;&#4941;&#4616;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4768;&#4709;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4808;&#4768;&#4632; &#4970; &#4616;&#4877;&#4757;&#4710;&#4725;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4768;&#4707;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4872;&#4709;&#4648;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4853;&#4757;&#4877;&#4621;&#4962; &#4768;&#4632;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4978;&#4977;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4720;&#4781;&#4616;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4634;&#4779;&#4772;&#4621;</span><span style="font-size: 14pt"><span style="line-height: 115%; font-size: 14pt">&#4961;</span> &#4616;&#4877;&#4757;&#4710;&#4725;&#4962; &#4672;&#4658;&#4661;</span><span style="line-height: 115%; font-size: 14pt">&#4961;</span> <span style="line-height: 115%; font-size: 14pt">&#4768;&#4705;&#4840;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4768;&#4632;&#4961; &#4768;&#4634;&#4649;&#4961; &#4616;&#4632;&#4875;&#4706;&#4725;&#4962; &#4768;&#4632;&#4961; &#4979;&#4808;&#4975;&#4961; &#4616;&#4840;&#4779;&#4722;&#4725;&#4961; &#4781;&#4941;&#4616;&#4961; &#4634;&#4779;&#4772;&#4621;&#4962; &#4768;&#4632;&#4961; &#4973;&#4961; &#4616;&#4723;&#4629;&#4659;&#4661;&#4961; &#4816;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4962;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Both notes are written in the same hand.</p>
+                        </item>
+                        <item xml:id="e1">- Fol. 2v: Pen trials.&#xD;
+- Fol. 4r: Crudely written note in ink.&#xD;
+- The title of the chapter is written in the bottom margin: fol. 25r.&#xD;
+- Chapter titles are decorated.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards (the front board is cracked and repaired), half of the outer side and the entire inner side of the front board are covered with dark brown untooled leather (ca. 70%).</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Short parchment guards are sewn in the middle of quire I to strengthen the fold; parchment guards reinforce also quires A and II.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0017UQ">ʿUra Qirqos / UQ</placeName>
+                     </origPlace>
+                     <origDate notBefore="1380" notAfter="1430">Late 14th to early 15th cent.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="ancient"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000"/>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="NewTestament"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-04-30">registered</change>
+         <change who="MK" when="2011-10-18">created</change>
+         <change who="SH" when="2015-05-05">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

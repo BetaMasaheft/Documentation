@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESap006"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dǝrsanä Mikaʾel, Homiliary for the feasts of St. Michael / ʾAmäḥaḍḍǝnäkkǝmu ʾagaʾǝztǝyä ʾab wä-wäld wä-mänfäs qǝddus … “I entrust myself to you my lords, the Father and the Son and the Holy Spirit …”</title>
+            <editor key="Ethio-SPaRe"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2015-04-15</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>AP-006</idno>
+                  <altIdentifier>
+                     <idno>C3-IV-52 (fols. 35r)</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the protagonist and of other characters like Gäbrǝʾel (fols. 15ra, 31rab, 55rb); names of the donors (in most cases only the second component); other words like sänbät “Sabbath” on fol. 15va; elements of the punctuation signs and of the text dividers; elements of Ethiopic numerals.&#xD;
+&#xD;
+Several groups of lines on the incipit page of Texts I (alternating with black lines); two initial lines of subsections (miracles and commemorative notices), the first word in the incipit of subsections (hymns), i.e. sälam "salutation"; two initial lines in the incipit of Text II and of its sections; initial line in the incipit of Text III and first word of each stanza.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">66.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">27.0</height>
+                              <width unit="cm">22.0</width>
+                              <depth unit="cm">5.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="1r" to="3v"/>A(3; s.l.: 1, stub after 3/fols. 1r-3v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="4r" to="11v"/> I(8/fols. 4r-11v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="12r" to="19v"/> ፪II(8/fols. 12r-19v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="20r" to="26v"/> ፫III(7; s.l.: 4, stub before 5/fols. 20r-26v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="27r" to="34v"/> ፬IV(8/fols. 27r-34v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="35r" to="41v"/> ፭V(7; s.l.: 4, stub before 5/fols. 35r-41v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="42r" to="50v"/> ፮VI(9; s.l.: 2, stub after 8/fols. 42r-50v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="51r" to="56v"/>  ፯VII(6; s.l.: 2, stub after 5; 5, stub after 2/fols. 51r-56v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="57r" to="66v"/> VIII(10/fols. 57r-66v) &#xD;
+&#xD;
+The structure of quire VIII cannot be identified.</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The Ms. was resewn.&#xD;
+The leather cover has been cut off from the spine, probably to facilitate the resewing.&#xD;
+The back board has been split and skilfully repaired with leather cord.&#xD;
+Many fols. are affected by humidity, many with blurred ink.&#xD;
+Tears amended on fols. 3, 18, 22, 26, 49, 53, 55, 59.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="21">
+                           <dimensions unit="mm">
+                              <height>195</height>
+                              <width>175</width>
+                              <dim type="intercolumn">12</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">25</dim>
+                              <dim type="bottom">35</dim>
+                              <dim type="right">25</dim>
+                              <dim type="left">13</dim>
+                              <dim type="intercolumn">12</dim>
+                           </dimensions>
+                           <note>All data for fol. 6r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                           <ab>
+</ab>
+                           <ab>
+The scribe did not use the bottom ruled line on fols. 5r and 12r.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre</ab>
+                        <seg type="ink">Black, red</seg>
+                        <date>20th century</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ለዓ፡ ዓ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ </expan> (e.g., fols. 12ra, 32va)</item>
+                           <item>
+                              <abbr>ለዓ፡ ዓለ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ </expan> (e.g., fols. 13rb, 16va, 21rb, 63rb)</item>
+                        </list>
+                     </handNote>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding contemporary="partly">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (partly missing); textile inlays.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Remains of two pairs of chains of endband stitches at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
+                     </origPlace>
+                     <origDate notBefore="1900" notAfter="2000">20th cent. ?</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="modern"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Various persons are mentioned in the supplication formulas: Gäbrä Maryam, Täsfa Maryam, Wälättä Sämaʿt, Wälättä Krǝstos, Gäbrä Śǝllase, Gäbrä ʾƎgziʾabǝḥer, Gäbrä ʾArägawi, Wäldä Gärima (fols. 6va, 11va, 13rb etc.).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Homily"/>
+               <term key="Prayers"/>
+               <term key="Poetry"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-03">registered</change>
+         <change who="SH" when="2015-04-15">created</change>
+         <change who="SH" when="2015-05-05">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

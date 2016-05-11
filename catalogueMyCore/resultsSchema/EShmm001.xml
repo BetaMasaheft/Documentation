@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-03-27</date>
+            <date>2012-03-27T14:24:19.545Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0200HMM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>HMM-001</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; the word mǝʿǝraf and numbers of the chapters; incipit of Text I and of its subsections; incipit of Texts II, III, IV and V and of their chapters; incipit of the Biographies of the Evangelists; elements of the punctuation signs; elements of text dividers; Ethiopic numerals; on the incipit page of Texts I, II, III, IV, IV, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
+                     <rubric>Nomina sacra; the word mәʿәraf and numbers of the chapters; incipit of Text I and of its subsections; incipit of Texts II, III, IV and V and of their chapters; incipit of the Biographies of the Evangelists; elements of the punctuation signs; elements of text dividers; Ethiopic numerals; on the incipit page of Texts I, II, III, IV, IV, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
                      </incipit>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">154.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">154.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1, 2, 3, 4, 154., in
+                                                  <measure unit="quire">19.0</measure> quires (A+18). 
                                                 <dimensions type="outer">
                               <height unit="cm">32.7</height>
                               <width unit="cm">29.5</width>
@@ -142,7 +145,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>Quire I: all data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern:</ab>
                            <ab>
 1A-1A-1A1A-1A-1A/0-0/0-0/C.</ab>
@@ -171,7 +174,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Quires II-XVIII: all data for fol. 16r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern:</ab>
                            <ab>
 1A-1A-1A1A/0-0/0-0/C.</ab>
@@ -196,23 +199,19 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 78vb, l. 8: Purchase note.</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 78vb, l. 8:</span><span style="font-size: large;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4624;&#4757;&#4880;&#4851;&#4961; &#4824;&#4872;&#4829;&#4773;&#4811;&#4961; &#4768;&#4708;&#4726;&#4961; &#4768;&#4773;&#4851;&#4808;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4704;&#4824;&#4632;&#4758;&#4633;&#4961; &#4808;&#4624;&#4752;&#4929;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4610;&#4961; {&#4672;&#4658;&#4661;&#4961;} &#4819;&#4637;&#4848;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4741;&#4705;&#4648;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4704;&#4779;&#4939;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4840;&#4608;&#4710;&#4633;&#4961; &#4819;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4962; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4777;&#4757;&#4961; &#4824;&#4845;&#4708;&#4622;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4709;&#4961; &#4704;&#4656;&#4635;&#4845;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><locus target="#78vb" n="#8">Fol. 78vb, l. 8</locus>: Purchase note.</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 78vb, l. 8:</span><span style="font-size: large;"> &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4624;&#4757;&#4880;&#4851;&#4961; &#4824;&#4872;&#4829;&#4773;&#4811;&#4961; &#4768;&#4708;&#4726;&#4961; &#4768;&#4773;&#4851;&#4808;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4704;&#4824;&#4632;&#4758;&#4633;&#4961; &#4808;&#4624;&#4752;&#4929;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4610;&#4961; {&#4672;&#4658;&#4661;&#4961;} &#4819;&#4637;&#4848;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4741;&#4705;&#4648;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4704;&#4779;&#4939;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4840;&#4608;&#4710;&#4633;&#4961; &#4819;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4636;&#4757;&#4962; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4777;&#4757;&#4961; &#4824;&#4845;&#4708;&#4622;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4709;&#4961; &#4704;&#4656;&#4635;&#4845;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p>King Bäkaffa (r. 1721-30) is mentioned, as well as the donor ʾabeto ʾAʾdawä Krǝstos and the gäbaz of the church qäsis ʿAmdä Mäsqäl. Besides, the note refers to the fact that the manuscript was donated on occassion of the foundation (or re-establishment?) of the church.</p>
+                           <p>King Bäkaffa (r. 1721-30) is mentioned, as well as the donor ʾabeto ʾAʾdawä Krәstos and the gäbaz of the church qäsis ʿAmdä Mäsqäl. Besides, the note refers to the fact that the manuscript was donated on occassion of the foundation (or re-establishment?) of the church.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 79ra-79rb: Record concerning a reconciliation process that took place in 1930 E.C.</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#79ra">Fol. 79ra-79</locus>rb: Record concerning a reconciliation process that took place in 1930 E.C.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic; written in 1930 E.C. (= 1937/38 A.D.).</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p>Fol. 121va: Inventory of paraphernalia donated by &#704;abeto W&#228;ld&#228; &#346;&#1241;llase (?).</p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><locus target="#121va">Fol. 121va</locus>: Inventory of paraphernalia donated by &#704;abeto W&#228;ld&#228; &#346;&#1241;llase (?).</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p>In Gǝʿǝz and Amharic; in the same hand as that of Additio 4.</p>
+                           <p>In Gәʿәz and Amharic; in the same hand as that of Additio 4.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p>Fol. 121vb: Inventory of the church properties.</p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><locus target="#121vb">Fol. 121vb</locus>: Inventory of the church properties.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic; possibly a continuation of Additio 3.</p>
                         </item>
@@ -220,7 +219,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -272,8 +271,8 @@ Overback made of reddish-brown tooled leather.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Donated most probably by ʾabeto ʾAʾdawä Krǝstos (s. Additio 1).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Donated most probably by ʾabeto ʾAʾdawä Krәstos (s. Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -296,9 +295,9 @@ Overback made of reddish-brown tooled leather.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-12-05">registered</change>
-         <change who="SA" when="2012-03-27">created</change>
-         <change who="VP" when="2014-09-24">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2012-03-27T14:24:19.545Z">created</change>
+         <change who="VP" when="2014-09-24T09:46:01.134Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

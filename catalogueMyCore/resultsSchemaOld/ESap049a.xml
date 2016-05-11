@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESap049a"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mälkǝʾa sämaʿtatä Ṗäraqliṭos “Image of the Martyrs of Ṗäraqliṭos”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2014-02-27</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0030AP"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>AP-049a</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>The name of the protagonists sämaʿtatä Ṗäraqliṭos; a few lines alternating with black lines in the incipit page of the text; the word sälam; elements of the punctuation signs, of corrections and of decorations around the word hǝräy at the text margins.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">12.0</measure> folios, in <measure unit="quire">1.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">21.0</height>
+                              <width unit="cm">15.8</width>
+                              <depth unit="cm">0.7</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">12</dim>
+                                 <locus target="12"/>
+                                 <locus from="73r" to="84v"/>I(12/fols. 73r-84v).</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The Ms. is without boards and unbound; the sewing in the centre fold is not visible.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="24">
+                           <dimensions unit="mm">
+                              <height>154</height>
+                              <width>113</width>
+                              <dim type="intercolumn">9</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">18</dim>
+                              <dim type="bottom">36</dim>
+                              <dim type="right">22</dim>
+                              <dim type="left">11</dim>
+                              <dim type="intercolumn">9</dim>
+                           </dimensions>
+                           <note>All data for fol. 77r</note>
+                           <ab type="ruling">the number of lines changes: e.g., 22 in fol. 77r, 24 in fol. 76r and 26 in fol. 78r.</ab>
+                           <ab type="pricking">Pricking and ruling are not visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: </ab>
+                           <ab>
+1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are not visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are not visible (except on fols. 73r and 84r). </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written below the ruling (?). </ab>
+                           <ab>
+</ab>
+                           <ab type="ruling">
+The scribe disregarded the ruling: he doesn’t write on the ruled lines.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre.</ab>
+                        <seg type="ink">Black; red (brilliant red).</seg>
+                        <date>First half of the 20th century (?)</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                  </handDesc>
+                  <bindingDesc>
+                     <binding>
+                        <decoNote xml:id="b1">No boards. No sewing.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial"/>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0030AP">ʿAddäqaḥarsi Ṗäraqliṭos / AP</placeName>
+                     </origPlace>
+                     <origDate notBefore="1900" notAfter="1950">First half of the 20th cent. (?)</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000"/>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Homily"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-05-05">registered</change>
+         <change who="VP" when="2014-02-27">created</change>
+         <change who="EG" when="2014-08-06">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESgmg014"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gädlä Libanos “Vita of Libanos” / Täʾamrä Libanos “Miracles of Libanos” / Mälkǝʾa Libanos “Image of Libanos”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2012-02-23</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0115GMG"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>GMG-014</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the owners; name of the protagonist (both Libanos and Mäṭaˤ);&#xD;
+elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+Four lines, divided into 2 groups alternating with black lines, in the incipit folio of Text I;&#xD;
+incipit (two lines) of Text II; incipit of each miracle in Text II (one-two lines);&#xD;
+incipit (two lines) of Text III (fol. 60ra) and some passages; the word sälam.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">65.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">22.0</height>
+                              <width unit="cm">19.5</width>
+                              <depth unit="cm">4.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="1r" to="3v"/>A(3; s.l.: 1, 2, 3/fols. 1r-3v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="4r" to="11v"/> I(8/fols. 4r-11v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="12r" to="21v"/> II(10/fols. 12r-21v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="21r" to="26"/> III(6/fols. 21r-26) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="27r" to="36v"/> IV(10/fols. 27r-36v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="37r" to="42v"/> V(6/fols. 37r-42v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="43r" to="52v"/> VI (10/fols. 43r-52v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">2</dim>
+                                 <locus target="11"/>
+                                 <locus from="53r" to="63v"/>
+                                 <locus from="64r" to="65v"/> VII(11/fols. 53r-63v) - B(2/fols. 64r-65v).&#xD;
+&#xD;
+The structure of the quires cannot be established with certainity due to the condition of the Ms.</item>
+                           </list>
+                        </collation>
+                        <condition key="deficient">The binding is destroyed; the original sewing is missing; most of the leaves are held together by means of crude stitches. Fol. 1 and fols. 64-65 are of smaller size.&#xD;
+Fol. 63 is loose. &#xD;
+The text in fol. 7r is partly illegible, because of a stain.&#xD;
+Some folios are affected by water (fols. 52r–60r).&#xD;
+Fol. 38 is cut at the bottom.&#xD;
+Tear amended on fol. 17.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="20">
+                           <dimensions unit="mm">
+                              <height>138</height>
+                              <width>140</width>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">25</dim>
+                              <dim type="bottom">43</dim>
+                              <dim type="right">30</dim>
+                              <dim type="left">19</dim>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <note>All data are for fol. 5r.</note>
+                           <ab type="ruling">17 on fol. 18rv, 21 on fol. 22rv.</ab>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Hand a: mediocre. Hand b: mediocre.</ab>
+                        <seg type="ink">Black; red.</seg>The name of the scribe has been erased on fol. 59va.<date>18th century (?)</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (esp. fols. 61va, ls.10, 18, 60vb, l.20, 61ra, l.8).</item>
+                        </list>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic">fols. 4ra–62va (l.17)</handNote>
+                     <handNote xml:id="h3" script="Ethiopic">fols. 62ra (l.17)–63rb</handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fols. 2r-3r: Excerpts from Z&#477;mmare (?).</span></span></p><q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           <p>Black ink and rubrications in red (unreadable); written in recent hand.</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="font-size: small;"><span lang="EN-GB">Fol. 59vb, ls. 5-7: Exhortation </span><span lang="EN-GB"><span lang="EN-GB">to</span> celebrate the commemoration of the commissioner</span><span lang="EN-GB"> (?).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fol. 59vb, ls. 5-7:</span></span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4704;&#4637;&#4853;&#4648;&#4961; &#4873;&#4629;&#4925;&#4843;&#4961; &#4704;&#4656;&#4709;&#4768;&#4721;&#4961; &#4608;&#4872;&#4653;&#4961; &#4768;&#4709;&#4773;&#4617;&#4961; </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4704;&#4816;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4621;&#4840;&#4961; &#4877;&#4704;&#4649;&#4961; &#4720;&#4829;&#4779;&#4653;&#4840;&#4961; </span></span></p></q>
+                           <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%;">Fol. 59vb, ls. 5-7: (The people) in the land of Gu</span><span lang="EN-GB" style="line-height: 115%;">&#7717;</span><span lang="EN-GB" style="line-height: 115%;">&#7779;ya, in its seven districts, celebrate my feast, make my commemoration. </span></span><span lang="EN-GB" style="line-height: 115%; font-size: 10pt"><br /> </span></p></q>
+                           <p>Written in black and red ink.</p>
+                        </item>
+                        <item xml:id="a3">
+                           <locus/><p><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif="">Fol. 59vb, ls. 8-23: Purchase note.</span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%;">Fol. 59vb, ls. 8-23:</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 10pt"> </span><span style="font-size: large"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4829;&#4757;&#4721;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4824;&#4720;&#4643;&#4840;&#4902;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4704;&#4808;&#4653;&#4673;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4877;&#4653;&#4635;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4621;&#4817;&#4621;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4776;&#4632;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4845;&#4653;&#4776;&#4709;&#4961;</span><span lang="EN-US" style="line-height: 115%">&#160; </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4768;&#4661;&#4704;&#4961; </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4656;&#4635;&#4843;&#4725;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4637;&#4661;&#4616;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4768;&#4705;&#4609;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4632;&#4829;&#4872;&#4704;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4645;&#4619;&#4660;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4616;&#4773;&#4633;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4739;&#4848;&#4648;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4635;&#4653;&#4843;&#4637;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4616;&#4848;&#4674;&#4673;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4621;&#4848;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4778;&#4851;&#4757;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4720;&#4661;&#4939;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4634;&#4779;&#4772;&#4621;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4709;&#4773;&#4658;&#4721;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4616;&#4720;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4741;&#4705;&#4648;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4845;&#4637;&#4624;&#4654;&#4633;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4656;&#4635;&#4843;&#4725;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4616;&#4819;&#4616;&#4632;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4819;&#4616;&#4637;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4768;&#4636;&#4757;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4616;&#4829;&#4757;&#4721;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4632;&#4925;&#4624;&#4941;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4824;&#4640;&#4653;&#4675;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4824;&#4936;&#4624;&#4675;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4645;&#4621;&#4899;&#4752;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4916;&#4901;&#4654;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4808;&#4915;&#4813;&#4622;</span><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">[</span></span></span><span style="font-size: large"><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><span style="font-size: large"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4661;</span></span>]</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4813;&#4873;&#4824;&#4961;</span><span lang="EN-US" style="line-height: 115%"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4616;&#4845;&#4777;&#4757;&#4962;</span></span></p></q>
+                           <q xml:lang="en"><p style="text-align: left; line-height: normal; margin-bottom: 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US">Fol. 59vb, ls. 8-23: This (is) the book which G&#477;rma L&#477;&#740;ul bought with his own money so that he might find a reward in the Kingdom of Heaven together with his father M&#228;zg&#228;b&#228; &#346;&#477;llase. And for his mother &#7722;ad&#228;r&#228; Maryam, and for his children W&#228;ld&#228; Kidan, T&#228;sfa Mika&#704;el, and his wife W&#228;l&#228;tt&#228; Kr&#477;stos, may He have compassion, for all together, in the Kingdom of Heaven. Forever and ever. Amen.... </span></span></p></q>
+                           <p>The name of the person who bought the book is mentioned together with the names of his relatives.
+The last part of the note is affected by humidity, not easily readable.</p>
+                        </item>
+                        <item xml:id="e1">- Crude notes and doodles, in pen and/or in pencil, e.g., in fols.: 1rv, 2r, 2v, 3v, 4r, 17v, 22r, 23r, 27r, 29r, 65v.&#xD;
+- Rubricated names have been erased in the supplication formulas: fols. 51vb, l.19, 53rb, l.3, 54va, l.18, 55rb, l.9.&#xD;
+- The columns and some lines (esp. fol. 4ra) are encircled with pencil: fols. 4r-6v.&#xD;
+- Short recent note of a scribe (?) or writing exercise, fol. 63v: አባ፡ አባ፡ ሊባኖስ፡ መጣእ፡ ጸሐፊሁ፡ ገብረ፡ ጻድቅ፡ ሕድሩ፡ {አረጋዊ፡ ገናሕቲ፡} "ʾAbba ʾabba Libanos, Mäṭaʾ, the scribe (is) Gäbrä Ṣadǝq Ḥǝdru, ʾArägawi, Gänaḥti".</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="partly">
+                        <decoNote xml:id="b1">Two wooden boards (probably not original).&#xD;
+Two pairs of sewing stations (the threads of the sewing are missing).</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0115GMG">GÃ¤naá¸¥ti QÓ&#x99;ddÓ&#x99;st Maryam / GMG</placeName>
+                     </origPlace>
+                     <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000"/>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Hagiography"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-11-27">registered</change>
+         <change who="VP" when="2012-02-23">created</change>
+         <change who="VP" when="2015-01-29">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

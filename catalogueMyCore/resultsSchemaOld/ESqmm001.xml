@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESqmm001"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Dǝrsanä Mikaʾel, Homiliary for the feasts of St. Michael</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-12-03</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0178QMM"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>QMM-001</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the protagonist; names of the donor and his wife; groups of lines on the incipit page; a few lines of the incipit of all sections; incipit of subsections; elements of the punctuation signs and of the text dividers; elements of Ethiopic numerals.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;">F</span><span style="font-size: small;"><span style="line-height: 115%;">ol. 62va: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;</span><span style="line-height: 115%;">&#4853;&#4653;&#4659;&#4757;&#4961;</span><span style="line-height: 115%;"> &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4632;&#4653;&#4875;&#4613;&#4843;&#4961; &#4824;&#4808;&#4877;&#4653;&#4961; &#4613;&#4848;&#4853;&#4961; &#4824;&#4768;&#4925;&#4624;&#4654;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[sic]</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4768;&#4708;&#4726;&#4961; &#4808;&#4621;&#4848;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4808;&#4808;&#4608;&#4710;&#4961; &#4616;&#4632;&#4677;&#4848;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4608;&#4961; &#4925;&#4853;&#4677;&#4961; &#4637;&#4661;&#4616;&#4961; &#4920;</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4624;&#4938;&#4609;&#4961; </span><span style="line-height: 115%;">&#4872;&#4709;&#4648;&#4961; &#4811;&#4613;&#4853;&#4962; &#4808;&#4824;&#4720;&#4877;&#4611;&#4961; &#4616;&#4768;&#4933;&#4613;&#4942;&#4725;&#4961; &#4768;&#4704;&#4961; &#4632;&#4757;&#4936;&#4657;&#4961; &#4672;&#4658;&#4661;&#4961; &#4707;&#4845;&#4649;&#4961; &#4704;&#4824;&#4704;&#4752;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[sic]</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; </span></span><span style="font-size: small;"><span style="line-height: 115%;">[fol. 62vb] </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4872;&#4704;&#4648;&#4961; &#4923;&#4853;&#4677;&#4961; &#4808;&#4645;&#4846;&#4632;&#4961; &#4608;&#4872;&#4653;&#4961; &#4848;&#4869;&#4843;&#4733;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4824;&#4720;&#4808;&#4901;&#4757;&#4961; &#4704;&#4613;&#4851;&#4653;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4632;&#4875;&#4706;&#4725;&#4961;&#4704;&#4656;&#4619;&#4637;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4616;&#4779;&#4613;&#4755;&#4722;&#4611;&#4961; &#4616;&#4757;&#4817;&#4662;&#4633;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[sic]</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4808;&#4768;&#4706;&#4846;&#4633;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[sic]</span></span><span style="font-size: large;">&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961;</span></p> <p></p> <p></p><foreign xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;" unicode="">F<span style="line-height: 115%;">ol. 62va: </span>This </span><span style="line-height: 115%;">Homily</span><span style="line-height: 115%;" unicode=""> of St. Michael is of M&#228;rga&#7717;&#1241;ya of W&#228;g&#477;r H&#477;d&#228;d. The one who commissioned and donated it to the temple of St. Michael is &#704;abeto W&#228;ld&#228; &#7716;&#477;yw&#228;t so that it might be for him a guide to righteousness with the scribe G&#228;br&#228; Wah&#477;d. The one who watched over the writing is the father confessor priest q&#228;sis Bayru who is &#704;abun&#228; G&#228;br&#228; &#7716;&#477;yw&#228;t. In the time of qes g&#228;b&#228;z G&#228;br&#228; &#7778;ad&#477;q and the governor of the land </span></span><span style="line-height: 115%;"><span style="line-height: 115%;" unicode="">d&#228;&#287;&#287;&#601;ya&#269; &#7722;ayl&#228; Maryam. In the time of ras </span><span style="line-height: 115%;" unicode="">S&#477;b&#7717;at. It (the writing) has been begun in </span><span style="line-height: 115%;">&#7722;&#477;dar during the time of John and has been completed in M&#228;ggabit with the peace of God for its priests, their minors and elders.</span><span style="line-height: 115%;" unicode=""> For ever and ever.</span></span></span><span style="line-height: 115%;"><br />
+</span></p></foreign>
+                        <note/>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">63.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">25.5</height>
+                              <width unit="cm">18.2</width>
+                              <depth unit="cm">5.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="4v"/>A(2/fols. 1r-4v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="5r" to="10v"/> I(6/fols. 5r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="11r" to="14v"/> ፪II(4/fols. 11r-14v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="15r" to="20v"/>፫III(6/fols. 15r-20v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="21r" to="26v"/> ፬IV(6/fols. 21r-26v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="27r" to="32v"/> ፭V(6/fols. 27r-32v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="33r" to="38v"/> ፮VI(6/fols. 33r-38v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="39r" to="44v"/>  ፯VII(6/fols. 39r-44v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="45r" to="50v"/> ፰VIII(6/fols. 45r-50v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">5</dim>
+                                 <locus from="51r" to="55v"/> ፰IX(5; s.l.: 2, stub after 4/fols. 51r-55v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="56r" to="63v"/> ፱X(8/fols. 56r-63v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The Ms. is worn.&#xD;
+Red ink is faded on fols. 52v-55r.&#xD;
+Holes or tears amended on fols. 13, 32, 49.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="22">
+                           <dimensions unit="mm">
+                              <height>192</height>
+                              <width>155</width>
+                              <dim type="intercolumn">8</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">15</dim>
+                              <dim type="bottom">45</dim>
+                              <dim type="right">15</dim>
+                              <dim type="left">10</dim>
+                              <dim type="intercolumn">8</dim>
+                           </dimensions>
+                           <note>All data are for fol. 34r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Regular</ab>
+                        <seg type="ink">Black, red</seg>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Wahǝd</persName>Gäbrä Wahǝd is mentioned as the scribe in a supplication (fol. 61vb l.6) and in the colophon.&#xD;
+He wrote also Mss. DZ-019 and BQM-006.<date>Late 19th - beginning of the 20th century</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h3" script="Ethiopic"/>
+                     <handNote xml:id="h4" script="Ethiopic"/>
+                     <handNote xml:id="h5" script="Ethiopic"/>
+                     <handNote xml:id="h6" script="Ethiopic"/>
+                     <handNote xml:id="h7" script="Ethiopic"/>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">Fol. 5r (incipit page Text I-1): elaborate coloured (red, orange, brown, blue, white, black) ornamental band with one central and two lateral pendants reaching the bottom of the page; interlaces, floral and anthropomorphic motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d2">Fol. 15r (incipit page of Text I-3): elaborate coloured (red, orange, brown, white, black) ornamental band; interlaces and floral motifs.</decoNote>
+                     <decoNote type="frame" xml:id="d3"/>
+                     <decoNote type="frame" xml:id="d4">Coloured ornamental bands with different motifs are drawn at the beginning of the remaining monthly readings: fols. 19va, 24ra, 27ra, 31va, 37rb, 39vb, 49ra, 53ra, 55vb, 58rb.</decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches (or their remains) at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0178QMM">Märgaḥǝya Qǝddus Mikaʾel / QMM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1892" notAfter="1914">According to the colophon, the Ms. has been produced during the time of ras Sǝbḥat (ʾArägawi), governor of ʿAgamä with the title of ras in the years 1892-95 and 1908-14 (the local governor däğğyač (däğğač) Ḫaylä Maryam has not been identified so far).</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">According to the colophon, the Ms. was commissioned and donated by ʾabeto Wäldä Ḥǝywät (cp. AMQ-021). He and his wife, Wälättä Śǝllase, are mentioned also in the supplication formulas. The names of other family members are listed on fol. 14va and written interlineally throughout the Ms. in a secondary hand.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Wahǝd</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Homily"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-12-08">registered</change>
+         <change who="SH" when="2013-12-03">created</change>
+         <change who="VP" when="2015-02-27">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

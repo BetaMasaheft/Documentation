@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-08-09</date>
+            <date>2013-08-09T15:40:03.386Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0030AP"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AP-032</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">86.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">86.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1v, 85r, in
+                                                  <measure unit="quire">13.0</measure> quires (12+A). 
                                                 <dimensions type="outer">
                               <height unit="cm">29.5</height>
                               <width unit="cm">22.5</width>
@@ -60,6 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks: 3r, 11r, 19r, 27r, 35r, 42r, 57r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -126,7 +131,7 @@ Fols. 42, 43, 47, 69 are mutilated.</condition>
                            <note>all data for fol. 4r</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -147,26 +152,32 @@ The bottom line is written above the ruling.</ab>
                         <date>19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (fol. 10vb)</item>
+                              <abbr>ይ፡ ሕ፡</abbr> for
+                                                  <expan>ይበል፡ ሕዝብ፡ </expan> (fol. 10vb)</item>
                            <item>
-                              <abbr>ፍ፡ ረ፡ እ፡</abbr> for <expan>ፍቱሐ፡ ረስያ፡ እግዚኦ፡ </expan> (e.g., fols. 13ra, 14rb, 14va)</item>
+                              <abbr>ፍ፡ ረ፡ እ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ረስያ፡ እግዚኦ፡ </expan> (e.g., fols. 13ra, 14rb, 14va)</item>
                            <item>
-                              <abbr>ፍ፡ ረ፡ ለ፡ በ፡</abbr> for <expan>ፍቱሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (fol. 37ra )</item>
+                              <abbr>ፍ፡ ረ፡ ለ፡ በ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (fol. 37ra )</item>
                            <item>
-                              <abbr>ፍ፡ ረ፡ በበ፡</abbr> for <expan>ፍቱሐ፡ ረስያ፡ በበረከተ፡ </expan> (fol. 33rb-va)</item>
+                              <abbr>ፍ፡ ረ፡ በበ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ረስያ፡ በበረከተ፡ </expan> (fol. 33rb-va)</item>
                            <item>
-                              <abbr>ፍ፡ ረ፡ በ፡</abbr> for <expan>ፍቱሐ፡ ረስያ፡ በበረከተ፡ </expan> (e.g., fols. 35vb, 36ra)</item>
+                              <abbr>ፍ፡ ረ፡ በ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ረስያ፡ በበረከተ፡ </expan> (e.g., fols. 35vb, 36ra)</item>
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (fol. 72rb)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (fol. 72rb)</item>
                            <item>
-                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (fols. 37ra, 72rb)</item>
+                              <abbr>ይ፡ ሕ፡</abbr> for
+                                                  <expan>ይበል፡ ሕዝብ፡ </expan> (fols. 37ra, 72rb)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span unicode="">Fol. 82rb: </span><span>Note on commissioning of the writing.<br /> </span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 82rb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4768;&#4640;&#4653;&#4721;&#4961; &#4808;&#4656;&#4616;&#4661;&#4721;&#4961; &#4709;&#4653;&#4961; &#4720;&#4925;&#4629;&#4936;&#4725;&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;</span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">&#4704;</span><span style="line-height: 115%;">]</span><span style="line-height: 115%;">&#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4616;&#4768;&#4632;&#4725;&#4776;&#4961; &#4941;&#4652;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;&#4961;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span unicode=""><locus target="#82rb">Fol. 82rb</locus>: </span><span>Note on commissioning of the writing.<br /> </span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 82rb:</span></span><span style="font-size:14.0pt;line-height:&#10;115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4768;&#4640;&#4653;&#4721;&#4961; &#4808;&#4656;&#4616;&#4661;&#4721;&#4961; &#4709;&#4653;&#4961; &#4720;&#4925;&#4629;&#4936;&#4725;&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4768;&#4705;&#4752;&#4961; &#4824;</span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">&#4704;</span><span style="line-height: 115%;">]</span><span style="line-height: 115%;">&#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4616;&#4768;&#4632;&#4725;&#4776;&#4961; &#4941;&#4652;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;&#4961;</span></span></p></q>
                            <q xml:lang="en"><p><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;">Fol. 82rb: [This book] was made written for 30 B&#601;rr. The one who commissioned it with his money is </span><span style="line-height: 115%;">&#704;abun&#228; G&#228;br&#228; &#7716;&#601;yw&#228;t, so that </span><span style="line-height: 115%;">it might be for him a guide to the kingdom of heaven &#8230;</span></span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></p></q>
                            <p/>
                         </item>
@@ -182,7 +193,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with leather (for the most part hidden under the secondary textile cover) textile inlays. &#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -192,6 +203,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">NK</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -234,8 +246,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The first part (Kidanä) of the name of the original donor, Kidanä Maryam (preserved in two instances on fols. 50r and 79r), is erased throughout the supplication formulas (e.g., fols. 52vb, 65ra, 67vb). Three different names are inserted in the supplication formulas by a secondary hand: Gäbrä Ḥǝywät (e.g., fols. 21vb, 27va, 68va), ʿAmätä Ṣǝyon (e.g., 26rb, 44rb, 60ra), Wälättä Ṣǝyon (fol. 7va).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The first part (Kidanä) of the name of the original donor, Kidanä Maryam (preserved in two instances on fols. 50r and 79r), is erased throughout the supplication formulas (e.g., fols. 52vb, 65ra, 67vb). Three different names are inserted in the supplication formulas by a secondary hand: Gäbrä Ḥǝywät (e.g., fols. 21vb, 27va, 68va), ʿAmätä Ṣǝyon (e.g., 26rb, 44rb, 60ra), Wälättä Ṣǝyon (fol. 7va).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -258,9 +270,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-04">registered</change>
-         <change who="AA" when="2013-08-09">created</change>
-         <change who="EG" when="2014-08-04">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-08-09T15:40:03.386Z">created</change>
+         <change who="EG" when="2014-08-04T10:41:29.447Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

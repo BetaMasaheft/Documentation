@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-07-08</date>
+            <date>2014-07-08T12:42:58.048Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0177SDM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SDM-008</idno>
                </msIdentifier>
                <msContents>
@@ -46,9 +46,14 @@ On the incipit pages of Texts and their sections, the text is written alternatel
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I-5 ends with the subscriptio (fol. 48rb): ተፈጸመ፡ በሰላመ፡ እግዚአብሔር፡ አሜን፨</note>
+                     <note>Text I-12 ends with the subscriptio (fol. 104rb): ተፈጸመ፡ ሥርዓተ፡ ቅዳሴ፡ ዘ፲፡ ወ፪፡ ሊቃውንት፡ ጸሎቶሙ፡ ወበረከቶሙ፡ የሃሉ፡ ምስለ፡ ፍቁሮሙ፡ ለዓለመ፡ ዓለም፡ አሜን፨ The Anaphora of St. Cyril has been (apparently by mistake) called the Anaphora of the Twelve Elders.</note>
+                  </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus>&lt;span style="font-size</locus><p><span style="font-size: large;"><br /> </span></p><foreign xml:lang="en"/>
+                        <locus>&lt;p&gt;&lt;span style="font-size: large;"&gt;&lt;br /&gt; &lt;/span&gt;&lt;/p&gt;</locus><p><span style="font-size: large;"><br /> </span></p><foreign xml:lang="en"/>
                         <note/>
                      </colophon>
                   </msItem>
@@ -59,7 +64,10 @@ On the incipit pages of Texts and their sections, the text is written alternatel
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">122.0</measure> folios, of which <measure unit="leaf" type="blank">0.0</measure> blank, in <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">122.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">0.0</measure> blank
+                                                  , in
+                                                  <measure unit="quire">16.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">20.7</width>
@@ -143,7 +151,7 @@ Many leaves are worn, stained with dirt or wax or badly damaged by humidity; on 
                            <note>All data are for fol. 118r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are mostly visible.</ab>
@@ -172,8 +180,7 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Arial;">Fol. 122vb: Donation note (?).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode="">Fol. 122vb:</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> &lt;&#8230;&gt; </span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4808;&#4645;&#4875;&#4609;&#4968;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4824;&#4640;&#4648;&#4678;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4813;&#4873;&#4824;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4845;&#4777;&#4757;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4645;&#4621;&#4899;&#4752;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4916;&#4901;&#4654;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4768;&#4636;&#4757;&#4968;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4829;&#4824;&#4782;&#4752;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4824;&#4632;&#4752;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4642;&#4632;&#4721;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4616;</span></span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode="">&lt;&#8230;&gt;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: Arial;"><locus target="#122vb">Fol. 122vb</locus>: Donation note (?).</span></span></p><q xml:lang="gez"><p><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode="">Fol. 122vb:</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> &lt;&#8230;&gt; </span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4808;&#4645;&#4875;&#4609;&#4968;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4824;&#4640;&#4648;&#4678;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4808;&#4824;&#4936;&#4624;&#4678;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4813;&#4873;&#4824;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4845;&#4777;&#4757;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4645;&#4621;&#4899;&#4752;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4916;&#4901;&#4654;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4768;&#4636;&#4757;&#4968;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4829;&#4824;&#4782;&#4752;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4704;&#4824;&#4632;&#4752;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4642;&#4632;&#4721;&#4961;</span><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode=""> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;" arial="" unicode="">&#4616;</span></span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial;" arial="" unicode="">&lt;&#8230;&gt;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%; font-family: Arial;">Fol. 122vb: &lt;&#8230;&gt; and his body. He who stole it or erased its (text) shall be excommunicated by the authority of Peter and Paul, amen. This is what happened at the time of the governorship of &lt;&#8230;&gt;</span></span></p></q>
                            <p>The initial part of the note and the personal name at its end have been erased.</p>
                         </item>
@@ -181,7 +188,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (the front board is missing) covered with leather (for the most part missing).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -233,8 +240,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The names of the donors have been erased from all supplication formulas (s. fols. 4rb, 9vb, 23vb, etc.). Apparently, their names are Zärʾa Krǝstos and Gäbrä Kidan (still readable on fol. 48va).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The names of the donors have been erased from all supplication formulas (s. fols. 4rb, 9vb, 23vb, etc.). Apparently, their names are Zärʾa Krǝstos and Gäbrä Kidan (still readable on fol. 48va).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -257,9 +264,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-16">registered</change>
-         <change who="IF" when="2014-07-08">created</change>
-         <change who="DN" when="2015-06-24">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2014-07-08T12:42:58.048Z">created</change>
+         <change who="DN" when="2015-06-24T11:24:05.211Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

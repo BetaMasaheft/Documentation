@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-03-29</date>
+            <date>2012-03-29T09:29:45.047Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0212EHPP"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>EHPP-012</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; headings of the Gospels; the word mǝʿǝraf, chapter numbers and the signs between them; usually, two lines on the incipit of each chapter; elements of the punctuation signs; Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; headings of the Gospels; the word mәʿәraf, chapter numbers and the signs between them; usually, two lines on the incipit of each chapter; elements of the punctuation signs; Ethiopic numerals.&#xD;
 Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits of the Evangelists' biographies; on the incipit pages of Text I, II, III, IV, IV, a few lines are rubricated (in groups of two lines, alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -45,6 +45,11 @@ Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The list of the “tituli” for the Gospel of Mark and John are missing.</note>
+                     <note>The list of the “tituli” for the Gospel of Luke is misplaced.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +57,8 @@ Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">137.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">137.0</measure> folios, in
+                                                  <measure unit="quire">18.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">32.0</height>
                               <width unit="cm">24.0</width>
@@ -140,7 +146,7 @@ Incipit of Text I and of its subsections; incipits of Text II, III, IV; incipits
                            <note>All data for fol. 100r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern:1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -157,33 +163,28 @@ The bottom line is written above the ruling.</ab>
                   <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
                      <handNote xml:id="h1" script="Ethiopic">
                         <ab type="script">Careful.</ab>
-                        <seg type="ink">Black; red.</seg>The hand seems to be the same as that of Dǝrsanä Mikaʾel manuscripts of May ʾAbʾa Maryam (BQM-009) and Golʿa Yoḥannǝs (BGY-013), cp. also AMM-007.<date>Second half of 19th century</date>
+                        <seg type="ink">Black; red.</seg>The hand seems to be the same as that of Dәrsanä Mikaʾel manuscripts of May ʾAbʾa Maryam (BQM-009) and Golʿa Yoḥannәs (BGY-013), cp. also AMM-007.<date>Second half of 19th century</date>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 11rb: Record concerning a reconciliation after litigation over land.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#11rb">Fol. 11rb</locus>: Record concerning a reconciliation after litigation over land.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic, written in 1928 A.M. (= 1935/1936 A.D.).</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 61va: Record concerning a reconciliation.</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#61va">Fol. 61va</locus>: Record concerning a reconciliation.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic, written in the month of Naḥase 1921 A.M. (= 1929 A.D.); mentioning ras Gugsa.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p>Fol. 85va-vb: Record concerning decisions about tribute.</p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><locus target="#85va">Fol. 85va</locus>-vb: Record concerning decisions about tribute.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p>In Amharic, written in the month of Ṭǝrr 1930 A.M. (= 1937 A.D.); unreadable stamp.</p>
+                           <p>In Amharic, written in the month of Ṭәrr 1930 A.M. (= 1937 A.D.); unreadable stamp.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p>Fol. 114ra: Record concerning a contract.</p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><locus target="#114ra">Fol. 114ra</locus>: Record concerning a contract.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p>In Amharic; written in Gǝnbot 1936 A.M. (= 1944 AD).</p>
+                           <p>In Amharic; written in Gәnbot 1936 A.M. (= 1944 AD).</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p>Fol. 137rb: Record concerning a decision made by the elders of the community.</p><q xml:lang="gez"/>
+                        <item xml:id="a5"><p><locus target="#137rb">Fol. 137rb</locus>: Record concerning a decision made by the elders of the community.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic; written in Ḥamle 1915 A.M. (= 1923 AD).</p>
                         </item>
@@ -192,7 +193,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with tooled reddish-brown leather.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -243,11 +244,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -267,9 +263,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-11-23">registered</change>
-         <change who="SA" when="2012-03-29">created</change>
-         <change who="VP" when="2014-09-23">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2012-03-29T09:29:45.047Z">created</change>
+         <change who="VP" when="2014-09-23T17:10:33.624Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

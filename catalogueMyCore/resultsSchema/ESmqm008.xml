@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-01</date>
+            <date>2013-07-01T13:45:32.538Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0119MQM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MQM-008</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">100.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">100.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 2v, in
+                                                  <measure unit="quire">11.0</measure> quires (A+10). 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">19.5</width>
@@ -125,7 +128,7 @@ Some fols. are stained with ink and water.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -153,8 +156,7 @@ The bottom ruled line was not used by the scribe in fols. 3r-12v.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fols. 99vb-100ra: Note on bequething land&#160;to the church of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fols. 99vb-100ra:</span> <span style="font-size: large">&#4840;&#4707;&#4616;&#4961; &#4768;&#4872;&#4653;&#4961; &#4840;&#4752;&#4704;&#4648;&#4961; &#4872;&#4651;&#4613;&#4725;&#4961; &#4840;&#4909;&#4678;&#4733;&#4961; &#4938;&#4723;&#4813;&#4651;&#4650;&#4961; &#4706;&#4720;&#4813;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4845;&#4609;&#4757;&#4961; &#4709;&#4616;&#4813;&#4961; &#4656;&#4897;&#4725;&#4961; &#4704;&#4757;&#4705;&#4648;&#4961; &#4773;&#4853;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4962; &#4665;&#4632;&#4961; &#4752;&#4875;&#4650;&#4725;&#4961; &#4938;&#4723;&#4813;&#4651;&#4650;&#4961; &#4706;&#4720;&#4813;&#4961; &#4618;&#4672;&#4961; &#4779;&#4613;&#4755;&#4721;&#4961;&#160;<span style="font-size: small">&lt;...&gt;</span>&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4661;<span style="font-size: small">[sic]</span>&#4961; &#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4872;&#4651;&#4613;&#4725;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4824;&#4722;&#4813;&#4613;&#4704;&#4961; &#4704;&#4656;&#4619;&#4898;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;... </span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#99vb">Fols. 99vb-100</locus>ra: Note on bequething land&#160;to the church of G&#228;br&#228; M&#228;nf&#228;s Q&#601;ddus.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fols. 99vb-100ra:</span> <span style="font-size: large">&#4840;&#4707;&#4616;&#4961; &#4768;&#4872;&#4653;&#4961; &#4840;&#4752;&#4704;&#4648;&#4961; &#4872;&#4651;&#4613;&#4725;&#4961; &#4840;&#4909;&#4678;&#4733;&#4961; &#4938;&#4723;&#4813;&#4651;&#4650;&#4961; &#4706;&#4720;&#4813;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4845;&#4609;&#4757;&#4961; &#4709;&#4616;&#4813;&#4961; &#4656;&#4897;&#4725;&#4961; &#4704;&#4757;&#4705;&#4648;&#4961; &#4773;&#4853;&#4961; &#4720;&#4781;&#4616;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4962; &#4665;&#4632;&#4961; &#4752;&#4875;&#4650;&#4725;&#4961; &#4938;&#4723;&#4813;&#4651;&#4650;&#4961; &#4706;&#4720;&#4813;&#4961; &#4618;&#4672;&#4961; &#4779;&#4613;&#4755;&#4721;&#4961;&#160;<span style="font-size: small">&lt;...&gt;</span>&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4661;<span style="font-size: small">[sic]</span>&#4961; &#4824;&#4720;&#4768;&#4872;&#4622;&#4961; &#4616;&#4829;&#4757;&#4721;&#4961; &#4872;&#4651;&#4613;&#4725;&#4961; &#4824;&#4768;&#4705;&#4752;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4824;&#4722;&#4813;&#4613;&#4704;&#4961; &#4704;&#4656;&#4619;&#4898;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;... </span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in Amharic and Gǝʿǝz, by a mediocre hand. Nǝburä ʾǝd Täklä Giyorgis is mentioned.</p>
                         </item>
@@ -164,7 +166,7 @@ The bottom ruled line was not used by the scribe in fols. 3r-12v.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with brown tooled leather; textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -174,13 +176,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches (or their traces) at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover (at least 9 tools are used: fourfold line fillet, triple line fillet, double line fillet, double circle, small x, corni-from, criss cross, double sine wave with dots, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0119MQM">Däbrä Mäʿar Qǝddǝst Maryam / MQM</placeName>
+                        <placeName corresp="INS0119MQM">Däbrä Mäʿar Qәddәst Maryam / MQM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -216,8 +219,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name(s) of the original donor(s) has been erased in the concluding supplication formula in fol. 97ra and replaced with the following ones: Mälkǝʾa Śǝllase, ʾAwsabǝyos, Gäbrä ʾArägawi, Wäldä Giyorgis, ʾAqälesya, Wälättä Śǝllase.&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name(s) of the original donor(s) has been erased in the concluding supplication formula in fol. 97ra and replaced with the following ones: Mälkǝʾa Śǝllase, ʾAwsabǝyos, Gäbrä ʾArägawi, Wäldä Giyorgis, ʾAqälesya, Wälättä Śǝllase.&#xD;
 The same names are written in supplication formulas, over erased name(s) of the original donor(s), throughout the Ms.: ʾAqälesya (fols. 3vb, 77ra, 79ra, 81rab, 85ra, 87ra, 93ra, 96va), Mälkǝʾa Śǝllase (fols. 3vb, 79rb, 80rb, 85ra, 87rb, 92vb, 93vb), Wälättä Śǝllase (fols. 77ra, 85va), ʾAwsabǝyos (fols. 80rb, 82va, 85va, 91vb), Gäbrä ʾArägawi (fol. 82va), Wäldä Giyorgis (fols. 89rb, 89va, 91vb). &#xD;
 The names are written by a secondary hand and rubricated in strong scarlet.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
@@ -244,9 +247,9 @@ The names are written by a secondary hand and rubricated in strong scarlet.</per
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-03">registered</change>
-         <change who="MK" when="2013-07-01">created</change>
-         <change who="SH" when="2014-09-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-07-01T13:45:32.538Z">created</change>
+         <change who="SH" when="2014-09-09T16:29:20.881Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

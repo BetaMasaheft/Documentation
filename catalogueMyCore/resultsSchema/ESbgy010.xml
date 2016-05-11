@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-11-07</date>
+            <date>2014-11-07T22:50:35.351Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0161BGY"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>BGY-010</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The subsections for some months starts on verso-side: Gǝnbot on fol. 45va; Ḥamle on fol. 98v; Näḥase on fol. 135v.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">162.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">162.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">1.0</measure> blank
+                                                  1v, in
+                                                  <measure unit="quire">23.0</measure> quires (21+A+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">35.0</height>
                               <width unit="cm">28.0</width>
@@ -109,7 +116,7 @@ Two thirds of fol. 71 have been cut off.</condition>
                            <note>All data for fol. 75r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -130,19 +137,18 @@ The bottom line is written above the ruling.</ab>
                         <date>Mid-18 to mid-19 cent. (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (fols. 18ra, 34rb, 34vc, 57va etc.)</item>
+                              <abbr>ሰላ፡</abbr> for
+                                                  <expan>ሰላም፡ </expan> (fols. 18ra, 34rb, 34vc, 57va etc.)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 26vc: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 26vc:</span> <span style="font-size: large;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#5011; &#4635;&#4741;&#4620;&#4720;&#5011; &#4720;&#4824;&#4778;&#4653;&#4840;&#5011; &#4768;&#4821;&#4619;&#4936;&#4962; &#4773;&#4637;&#4773;&#4616;&#5011; &#4720;&#4920;&#4637;&#4849;&#4776;&#5011; &#4824;&#4621;&#4936;&#4962; &#4616;&#4616;&#4845;&#4725;&#4752;&#4704;&#4709;&#5011; &#4720;&#4808;&#4776;&#4941;&#5011; &#4824;&#4757;&#4852;&#4725;&#4840;&#5011; &#4632;&#4925;&#4624;&#4936;&#4962; &#4773;&#4757;&#4720;&#5011; &#4648;&#4656;&#4845;&#4776;&#5011; &#4773;&#4877;&#4826;&#4774;&#5011; &#4920;&#4650;&#4672;&#5011; &#4632;&#4704;&#4616;&#4725;&#5011; &#4813;&#4777;&#4936;&#4962; &#4773;&#4637;&#4773;&#4616;&#5011; &#4768;&#4709;&#4817;&#5011; &#4709;&#4817;&#4619;&#4757;&#5011; [&#4773;&#4637;&#4709;&#4821;&#4622;&#4633;&#5011;] &#4824;&#4720;&#4653;&#4936;&#4962; &#4752;&#4706;&#4843;&#4725;&#5011; &#4677;&#4849;&#4659;&#4757;&#5011; &#4808;&#4624;&#4811;&#4653;&#4843;&#4725;&#5011; &#4656;&#4707;&#4781;&#4843;&#4757;&#4962; &#4656;&#4635;&#4821;&#4725;&#5011; &#4808;&#4923;&#4853;&#4675;&#4757;&#5011; &#4808;&#4632;&#4619;&#4773;&#4781;&#4725;&#5011; &#4725;&#4873;&#4611;&#4757;&#4962; &#4848;&#4755;&#4877;&#4621;&#5011; &#4819;&#4850;&#5011; &#4808;&#4632;&#4752;&#4782;&#4659;&#4725;&#5011; &#4740;&#4651;&#4757;&#5011; &#4707;&#4653;&#4782;&#5011; &#4707;&#4653;&#4777;&#5011; &#4873;&#4707;&#4772;&#5011; &#4827;&#4722;&#5011; &#4632;&#4779;&#4757;&#4962; &#4773;&#4661;&#4776;&#5011; &#4768;&#4648;&#4875;&#4810;&#5011; &#4621;&#4626;&#4677;&#5011; &#4808;&#4757;&#4817;&#4661;&#5011; &#4629;&#4931;&#4757;&#4962; &#4616;&#4824;&#4920;&#4624;&#4942;&#5011; &#4704;&#4781;&#4653;&#4723;&#4661;&#5011; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#5011; &#4773;&#4757;&#4824;&#5011; &#4845;&#4848;&#4653;&#4661;&#4962; &#4616;&#4824;&#4768;&#4757;&#4704;&#4710;&#5011; &#4808;&#4616;&#4824;&#4720;&#4653;&#4880;&#4638;&#5011; &#4704;&#4621;&#4659;&#4757;&#5011; &#4624;&#4850;&#4661;&#4962; &#4808;&#4616;&#4824;&#4656;&#4637;&#4819;&#5011; &#4675;&#4622;&#5011; &#4704;&#4821;&#4829;&#4752;&#5011; &#4632;&#4757;&#4936;&#4661;&#4962; &#4704;&#4920;&#4622;&#4720;&#5011; &#4773;&#4633;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4819;&#4651;&#4674;&#4720;&#5011; &#4789;&#4617;&#5011; &#4773;&#4637;&#4707;&#4821;&#4661;&#4962; &#4741;&#4705;&#4648;&#5011; &#4845;&#4637;&#4624;&#4648;&#4752;&#5011; &#4770;&#4840;&#4657;&#4661;&#5011; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; </span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#26vc">Fol. 26vc</locus>: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 26vc:</span> <span style="font-size: large;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#5011; &#4635;&#4741;&#4620;&#4720;&#5011; &#4720;&#4824;&#4778;&#4653;&#4840;&#5011; &#4768;&#4821;&#4619;&#4936;&#4962; &#4773;&#4637;&#4773;&#4616;&#5011; &#4720;&#4920;&#4637;&#4849;&#4776;&#5011; &#4824;&#4621;&#4936;&#4962; &#4616;&#4616;&#4845;&#4725;&#4752;&#4704;&#4709;&#5011; &#4720;&#4808;&#4776;&#4941;&#5011; &#4824;&#4757;&#4852;&#4725;&#4840;&#5011; &#4632;&#4925;&#4624;&#4936;&#4962; &#4773;&#4757;&#4720;&#5011; &#4648;&#4656;&#4845;&#4776;&#5011; &#4773;&#4877;&#4826;&#4774;&#5011; &#4920;&#4650;&#4672;&#5011; &#4632;&#4704;&#4616;&#4725;&#5011; &#4813;&#4777;&#4936;&#4962; &#4773;&#4637;&#4773;&#4616;&#5011; &#4768;&#4709;&#4817;&#5011; &#4709;&#4817;&#4619;&#4757;&#5011; [&#4773;&#4637;&#4709;&#4821;&#4622;&#4633;&#5011;] &#4824;&#4720;&#4653;&#4936;&#4962; &#4752;&#4706;&#4843;&#4725;&#5011; &#4677;&#4849;&#4659;&#4757;&#5011; &#4808;&#4624;&#4811;&#4653;&#4843;&#4725;&#5011; &#4656;&#4707;&#4781;&#4843;&#4757;&#4962; &#4656;&#4635;&#4821;&#4725;&#5011; &#4808;&#4923;&#4853;&#4675;&#4757;&#5011; &#4808;&#4632;&#4619;&#4773;&#4781;&#4725;&#5011; &#4725;&#4873;&#4611;&#4757;&#4962; &#4848;&#4755;&#4877;&#4621;&#5011; &#4819;&#4850;&#5011; &#4808;&#4632;&#4752;&#4782;&#4659;&#4725;&#5011; &#4740;&#4651;&#4757;&#5011; &#4707;&#4653;&#4782;&#5011; &#4707;&#4653;&#4777;&#5011; &#4873;&#4707;&#4772;&#5011; &#4827;&#4722;&#5011; &#4632;&#4779;&#4757;&#4962; &#4773;&#4661;&#4776;&#5011; &#4768;&#4648;&#4875;&#4810;&#5011; &#4621;&#4626;&#4677;&#5011; &#4808;&#4757;&#4817;&#4661;&#5011; &#4629;&#4931;&#4757;&#4962; &#4616;&#4824;&#4920;&#4624;&#4942;&#5011; &#4704;&#4781;&#4653;&#4723;&#4661;&#5011; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#5011; &#4773;&#4757;&#4824;&#5011; &#4845;&#4848;&#4653;&#4661;&#4962; &#4616;&#4824;&#4768;&#4757;&#4704;&#4710;&#5011; &#4808;&#4616;&#4824;&#4720;&#4653;&#4880;&#4638;&#5011; &#4704;&#4621;&#4659;&#4757;&#5011; &#4624;&#4850;&#4661;&#4962; &#4808;&#4616;&#4824;&#4656;&#4637;&#4819;&#5011; &#4675;&#4622;&#5011; &#4704;&#4821;&#4829;&#4752;&#5011; &#4632;&#4757;&#4936;&#4661;&#4962; &#4704;&#4920;&#4622;&#4720;&#5011; &#4773;&#4633;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4819;&#4651;&#4674;&#4720;&#5011; &#4789;&#4617;&#5011; &#4773;&#4637;&#4707;&#4821;&#4661;&#4962; &#4741;&#4705;&#4648;&#5011; &#4845;&#4637;&#4624;&#4648;&#4752;&#5011; &#4770;&#4840;&#4657;&#4661;&#5011; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962; </span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in a careful secondary hand.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 162r: Beginning of a record concerning a litigation about land division between the community and &#704;ato G&#228;bri&#7717;ann&#601;s. </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 162r: </span><span style="font-size: large;">&#4840;&#4635;&#4613;&#4704;&#4653;&#4755;&#4966; &#4843;&#4726;&#4961; &#4872;&#4709;&#4650;&#4624;&#4757;&#4661;&#4966; &#4773;&#4653;&#4677;&#4966;</span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#162r">Fol. 162r</locus>: Beginning of a record concerning a litigation about land division between the community and &#704;ato G&#228;bri&#7717;ann&#601;s. </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 162r: </span><span style="font-size: large;">&#4840;&#4635;&#4613;&#4704;&#4653;&#4755;&#4966; &#4843;&#4726;&#4961; &#4872;&#4709;&#4650;&#4624;&#4757;&#4661;&#4966; &#4773;&#4653;&#4677;&#4966;</span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in Amharic; robably the same as in Additio 3 of Ms. BGY-001 (fols. 137vс-138ra)</p>
                         </item>
@@ -167,6 +173,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial"/>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">The manuscript was probably resewn (leather cover is removed so that the holes for threads are left open)</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the leather cover (at least 6 tools were used: double circle, double crescent, double sine wave with dots, waffles, criss-cross, hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -209,8 +216,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor has been erased from the supplications formulas. On some fols. (2ra, 25rc, 45rc, 79vb, etc.) the name of Zärʾa Ḥawaryat appears, written in a secondary hand, in black ink, over the erased name. On some fols., this name itself has been blotted out (fol. 19ra, 68rb, 70vc). The same name also appears on fol. 71v.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor has been erased from the supplications formulas. On some fols. (2ra, 25rc, 45rc, 79vb, etc.) the name of Zärʾa Ḥawaryat appears, written in a secondary hand, in black ink, over the erased name. On some fols., this name itself has been blotted out (fol. 19ra, 68rb, 70vc). The same name also appears on fol. 71v.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -233,9 +240,9 @@ Two pairs of sewing stations.</decoNote>
          </langUsage>
       </profileDesc>
       <revisionDesc>
-         <change who="MB" when="2014-11-07">created</change>
-         <change who="DN" when="2015-01-28">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MB" when="2014-11-07T22:50:35.351Z">created</change>
+         <change who="DN" when="2015-01-28T17:01:10.254Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

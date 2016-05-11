@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-11-22</date>
+            <date>2013-11-22T16:10:56.137Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0034DZ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DZ-006</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The majority of the strophes are numbered.</note>
+                     <note>The ʾarke-hymns in Additiones I and VI are written by the same hand as the main text; it is not clear whether they were included to correct or complete the main text.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">67.0</measure> folios, in <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">67.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  67r, in
+                                                  <measure unit="quire"/> quires (Impossible to determine.). 
                                                 <dimensions type="outer">
                               <height unit="cm">14.0</height>
                               <width unit="cm">13.0</width>
@@ -95,7 +103,7 @@ Fols. 44, 66, 67 are originated from two different older Mss.</condition>
                            <note>All data for fol. 2r</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -128,33 +136,27 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 5r (margin): ʾArke-hymn.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#5r">Fols. 5r</locus>(margin): ʾArke-hymn.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the same hand as the main text.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 37rb: Unidentified note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 37rb:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">ሀ፩</span><span style="font-size: small;"><span style="line-height: 115%;">{</span></span><span style="line-height: 115%;">ተ</span><span style="font-size: small;"><span style="line-height: 115%;">}</span></span><span style="line-height: 115%;">ወሰኩ፡ ለ፪</span><span style="font-size: small;"><span style="line-height: 115%;">{</span></span><span style="line-height: 115%;">ተ</span><span style="font-size: small;"><span style="line-height: 115%;">}</span></span><span style="line-height: 115%;">ሳኩ፡ ሐ፫ወሰኩ፡ መ፬ወሰኩ፡</span></span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#37rb">Fol. 37rb</locus>: Unidentified note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 37rb:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">ሀ፩</span><span style="font-size: small;"><span style="line-height: 115%;">{</span></span><span style="line-height: 115%;">ተ</span><span style="font-size: small;"><span style="line-height: 115%;">}</span></span><span style="line-height: 115%;">ወሰኩ፡ ለ፪</span><span style="font-size: small;"><span style="line-height: 115%;">{</span></span><span style="line-height: 115%;">ተ</span><span style="font-size: small;"><span style="line-height: 115%;">}</span></span><span style="line-height: 115%;">ሳኩ፡ ሐ፫ወሰኩ፡ መ፬ወሰኩ፡</span></span><span style="font-size:14.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in a crude hand.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;">Fol. 37va-vb: Protective prayer against thieves and robbers.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 37va-vb:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> <span style="font-size: small;">…</span> </span><span style="font-size: large;"><span style="line-height: 115%;">ዘሐተ</span><span style="line-height: 115%;">ምከ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ለረዓይተ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ሰብእ</span><span style="line-height: 115%;">፡ ከማሁ፡ </span><span style="line-height: 115%;">ሕትሞሙ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ለሌባ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ወለቀመኛ</span><span style="line-height: 115%;">፡</span><span unicode="" style="line-height: 115%;"> </span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;">[sic]</span></span></span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><span unicode="" style="font-size:10.0pt; line-height:115%;Arial"> </span> </span></span><span style="line-height: 115%;">ለሠራቂ</span><span style="line-height: 115%;">፡</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small;"><locus target="#37va">Fol. 37va</locus>-vb: Protective prayer against thieves and robbers.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 37va-vb:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> <span style="font-size: small;">…</span> </span><span style="font-size: large;"><span style="line-height: 115%;">ዘሐተ</span><span style="line-height: 115%;">ምከ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ለረዓይተ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ሰብእ</span><span style="line-height: 115%;">፡ ከማሁ፡ </span><span style="line-height: 115%;">ሕትሞሙ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ለሌባ</span><span style="line-height: 115%;">፡</span><span style="line-height: 115%;"> ወለቀመኛ</span><span style="line-height: 115%;">፡</span><span unicode="" style="line-height: 115%;"> </span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;">[sic]</span></span></span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><span unicode="" style="font-size:10.0pt; line-height:115%;Arial"> </span> </span></span><span style="line-height: 115%;">ለሠራቂ</span><span style="line-height: 115%;">፡</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in a crude hand.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;">Fol. 37vb: ʾAsmat-prayer and directives how to use it.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 37vb:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">መሊስ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> መላሊስ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;">…</span><span style="line-height: 115%;"> በኃይለ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> ዝንቱ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> አስማቲከ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> እስሮ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ለእገሌ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ድግም</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> በ፭ፀፀር</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ፩በምሥራቅ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span> </span><span style="line-height: 115%;">፩በምዕራብ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
+                        <item xml:id="a4"><p><span style="font-size: small;"><locus target="#37vb">Fol. 37vb</locus>: ʾAsmat-prayer and directives how to use it.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 37vb:</span></span><span style="font-size:14.0pt;line-height: 115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">መሊስ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> መላሊስ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;">…</span><span style="line-height: 115%;"> በኃይለ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> ዝንቱ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> አስማቲከ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> እስሮ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ለእገሌ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ድግም</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> በ፭ፀፀር</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ፩በምሥራቅ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span> </span><span style="line-height: 115%;">፩በምዕራብ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in a crude hand.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p>Fol. 41vb: <span style="line-height: 115%;">Note concerning divination ("The Mirror of Solomon"?)</span>.</p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 41vb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">መጽሔተ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span> </span><span style="line-height: 115%;">ሰሎሞን</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ስምከ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> ወእምከ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span></span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
+                        <item xml:id="a5"><p><locus target="#41vb">Fol. 41vb</locus>: <span style="line-height: 115%;">Note concerning divination ("The Mirror of Solomon"?)</span>.</p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 41vb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">መጽሔተ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span> </span><span style="line-height: 115%;">ሰሎሞን</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span><span style="line-height: 115%;"> ስምከ</span></span><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span><span style="font-size: large;"><span style="line-height: 115%;"> ወእምከ</span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="font-size: large;"><span style="line-height: 115%;">፡</span></span></span></span><span style="font-size: small;"><span style="line-height: 115%;">…</span></span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fols. 51v-54v <span style="font-size:10.0pt;line-height:115%;Arial" unicode="">(margins)</span>: 15 ʾarke-hymns.</span></span><span style="font-size: small;"><br /> </span></p><q xml:lang="gez"/>
+                        <item xml:id="a6"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#51v">Fols. 51v-54</locus>v <span style="font-size:10.0pt;line-height:115%;Arial" unicode="">(margins)</span>: 15 ʾarke-hymns.</span></span><span style="font-size: small;"><br /> </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the same hand as the main text.</p>
                         </item>
@@ -166,7 +168,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards (part of the front board is missing and the back board is broken).&#xD;
 One pair of sewing stations (?)&#xD;
 Parchment guards are visible on fols. 45r, 49v.</decoNote>
@@ -175,13 +177,14 @@ Parchment guards are visible on fols. 45r, 49v.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0034DZ">Däbrä Zäyt Qǝddǝst Maryam / DZ</placeName>
+                        <placeName corresp="INS0034DZ">Däbrä Zäyt Qәddәst Maryam / DZ</placeName>
                      </origPlace>
                      <origDate notBefore="1650" notAfter="1750"/>
                   </origin>
@@ -217,8 +220,8 @@ Parchment guards are visible on fols. 45r, 49v.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name Kǝflä ʾIyäsus is mentioned in the supplication formula in fol. 54vb. The names ʾAmdä Mikaʾel and Gäbrä Täklä Haymanot are mentioned in the bifolio originated from a different Ms. (fol. 66v).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name Kǝflä ʾIyäsus is mentioned in the supplication formula in fol. 54vb. The names ʾAmdä Mikaʾel and Gäbrä Täklä Haymanot are mentioned in the bifolio originated from a different Ms. (fol. 66v).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -242,9 +245,9 @@ Parchment guards are visible on fols. 45r, 49v.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-06">registered</change>
-         <change who="AA" when="2013-11-22">created</change>
-         <change who="EG" when="2014-04-25">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-11-22T16:10:56.137Z">created</change>
+         <change who="EG" when="2014-04-25T08:50:11.654Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

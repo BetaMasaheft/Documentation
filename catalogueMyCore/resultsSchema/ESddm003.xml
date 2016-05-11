@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-03-17</date>
+            <date>2015-03-17T13:49:15.435Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0157DDM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DDM-003</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Fols. 174 and 175 are unruled.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">175.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">175.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1v, 2r, 2v, 174r, 174v, 175r, 175v, in
+                                                  <measure unit="quire">22.0</measure> quires (A+21). 
                                                 <dimensions type="outer">
                               <height unit="cm">36.0</height>
                               <width unit="cm">27.5</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Simply decorated quire marks are written four times in the upper margin of fols. 3r, 13r, 21r, 30r, 38r, 46r, 54r, 62r, 70r, 78r, 86r, 94r, 102r, 110r, 118r, 126r, 134r, 150r, 158r, 166r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -151,7 +160,7 @@ Holes or tears amended e.g., on fols. 1, 12, 18, 19, 22, 25, 52, 171.</condition
                            <note>All data for fol. 8r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -172,15 +181,15 @@ The bottom line is written above the ruling.</ab>
                         <date>19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ሰላ፡</abbr> for <expan>ሰላም፡ </expan> (e.g., fols. 14vb, 15ra, 19vbc)</item>
+                              <abbr>ሰላ፡</abbr> for
+                                                  <expan>ሰላም፡ </expan> (e.g., fols. 14vb, 15ra, 19vbc)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The quality of handwriting varies throughout the Ms. Perhaps different hands were involved in the copying process.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial">Fol. 171vc: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 171vc: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4852;&#4651;&#4961;&#160;&#4768;&#4813;&#4933;&#4821;&#4961; &#4928;&#4654;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4752;&#4661;&#4768;</span><span style="line-height: 115%;">&#4961; &#4704;&#4608;&#4845;&#4621;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></span></p></q>
+                        <item xml:id="a1"><p><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"><locus target="#171vc">Fol. 171vc</locus>: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fol. 171vc: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4852;&#4651;&#4961;&#160;&#4768;&#4813;&#4933;&#4821;&#4961; &#4928;&#4654;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4808;&#4824;&#4752;&#4661;&#4768;</span><span style="line-height: 115%;">&#4961; &#4704;&#4608;&#4845;&#4621;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in a crude hand in red ink. The note states that the book belongs to the church of Qǝddus Mikaʾel Dändera.</p>
                         </item>
@@ -203,13 +212,14 @@ The bottom line is written above the ruling.</ab>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover. The green endband stitches at the head of the codex are probably more recent.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 6 tools were used: triple line fillet, double circle, criss-cross, interlaced line fillet, interlaced crescent, cross hatching).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0157DDM">Dändera Däbrä Mǝḥrät Mikaʾel / DDM</placeName>
+                        <placeName corresp="INS0157DDM">Dändera Däbrä Mәḥrät Mikaʾel / DDM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -245,8 +255,8 @@ The bottom line is written above the ruling.</ab>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Several individuals are mentioned in the supplication formulas. Their names are added in the same crude recent hand as Additio 1: Gäbrä Maryam, e.g., on fols. 3rc, 22rc, 22vb, 35rb, Gäbrä Mädḫǝn on fol. 6vc, Gäbrä Krǝstos, e.g., on fols. 62vb, 116vb, 145ra.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Several individuals are mentioned in the supplication formulas. Their names are added in the same crude recent hand as Additio 1: Gäbrä Maryam, e.g., on fols. 3rc, 22rc, 22vb, 35rb, Gäbrä Mädḫǝn on fol. 6vc, Gäbrä Krǝstos, e.g., on fols. 62vb, 116vb, 145ra.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -269,9 +279,9 @@ The bottom line is written above the ruling.</ab>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-16">registered</change>
-         <change who="VR" when="2015-03-17">created</change>
-         <change who="VR" when="2015-04-13">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VR" when="2015-03-17T13:49:15.435Z">created</change>
+         <change who="VR" when="2015-04-13T09:31:13.357Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

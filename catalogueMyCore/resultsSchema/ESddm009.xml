@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-03-09</date>
+            <date>2015-03-09T10:13:16.222Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0157DDM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DDM-009</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">107.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">107.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 3r, 3v, 106v, 107r, 107v, 108r, 108v., in
+                                                  <measure unit="quire">12.0</measure> quires (A + 10 + B). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.0</height>
                               <width unit="cm">15.5</width>
@@ -132,7 +135,7 @@ Tears amended on some leaves: e.g., fols. 1, 12, 32, 39, 46.</condition>
                            <note>All data for fol. 50r.</note>
                            <ab type="ruling">The number varies from 23 to 30.</ab>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -185,27 +188,23 @@ The scribe did not use the last ruled line on fol. 31ra; he left some ruled line
                            <item>የካ፡ for የካቲት፡</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting deteriorates towards the end (e.g., fol. 106ra-b).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>&#160;<span style="font-size: small;"><span style="font-family: Arial, sans-serif;">Fol. 4r: Purchase note.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-US" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 4r:</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4978;&#4977;&#4980;&#4972;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4624;&#4637;&#4620;&#4961; &#4980;&#4672;&#4757;&#4961; &#4773;&#4756;&#4961; &#4768;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4645;&#4619;&#4660;&#4961; &#4632;&#4829;&#4633;&#4653;&#4961; &#4704;&#4981;&#4973;&#4961; &#4661;&#4904;&#4961; &#4768;&#4622;&#4749;&#4961; &#4616;&#4672;&#4760;&#4829;&#4635;&#4733;&#4961; &#4840;&#4821;&#4709;&#4841;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4845;&#4633;&#4725;&#4961; &#4709;&#4649;&#4637;&#4961; &#4981;&#4973;&#4961; &#4848;&#4648;&#4656;&#4765;&#4961; &#4773;&#4756;&#4961; &#4768;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:Nyala;mso-fareast-font-family:&#10;Calibri;mso-bidi-font-family:Arial;mso-ansi-language:AMH;mso-fareast-language:&#10;EN-US;mso-bidi-language:AR-SA"> </span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p>&#160;<span style="font-size: small;"><span style="font-family: Arial, sans-serif;"><locus target="#4r">Fol. 4r</locus>: Purchase note.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-US" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 4r:</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4978;&#4977;&#4980;&#4972;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4624;&#4637;&#4620;&#4961; &#4980;&#4672;&#4757;&#4961; &#4773;&#4756;&#4961; &#4768;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4645;&#4619;&#4660;&#4961; &#4632;&#4829;&#4633;&#4653;&#4961; &#4704;&#4981;&#4973;&#4961; &#4661;&#4904;&#4961; &#4768;&#4622;&#4749;&#4961; &#4616;&#4672;&#4760;&#4829;&#4635;&#4733;&#4961; &#4840;&#4821;&#4709;&#4841;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4739;&#4845;&#4616;&#4961; &#4645;&#4619;&#4660;&#4961; &#4845;&#4633;&#4725;&#4961; &#4709;&#4649;&#4637;&#4961; &#4981;&#4973;&#4961; &#4848;&#4648;&#4656;&#4765;&#4961; &#4773;&#4756;&#4961; &#4768;&#4616;&#4675;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:Nyala;mso-fareast-font-family:&#10;Calibri;mso-bidi-font-family:Arial;mso-ansi-language:AMH;mso-fareast-language:&#10;EN-US;mso-bidi-language:AR-SA"> </span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in Amharic and is dated 30 Ḥamle 1934 year of Mercy (= 6th August 1942). It states that ʾaläqa Gäbrä Maryam Wäldä Śǝllase sold this book to qäňňazmač Yäʿbǝyyo Täsfa Mikaʾel for 45 birr. It also mentions ʾaläqa Kahǝsay ʾAbrǝha as guarantor of the book. The fingerprints of the seller, the buyer and the guarantor are placed at the end of the note.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif; line-height: 115%; text-align: justify;">Fol. 4v: Donation note.</span></span></p> <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify"><span lang="EN-US" style="font-size:10.0pt;line-height:115%;font-family:&#10;"></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 4v:</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4829;&#4633;&#4653;&#4961; &#4824;&#4672;&#4760;&#4829;&#4635;&#4733;&#4961; &#4840;&#4821;&#4709;&#4846;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4852;&#4651;&#4961;</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif; line-height: 115%; text-align: justify;"><locus target="#4v">Fol. 4v</locus>: Donation note.</span></span></p> <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify"><span lang="EN-US" style="font-size:10.0pt;line-height:115%;font-family:&#10;"></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 4v:</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:"> </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4829;&#4632;&#4829;&#4633;&#4653;&#4961; &#4824;&#4672;&#4760;&#4829;&#4635;&#4733;&#4961; &#4840;&#4821;&#4709;&#4846;&#4961; &#4720;&#4661;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4848;&#4757;&#4852;&#4651;&#4961;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note states that qäňňazmač Yäʿbǝyyo Täsfa Mikaʾel donated this book to the church of Qǝddus Mikaʾel Dändera. The ink is partly faded away.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p>&#160;<span style="font-size: small;"><span style="font-family: Arial, sans-serif; line-height: 115%; text-align: justify;">Fol. 5r: Ownership note.</span></span></p> <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify"><span lang="EN-US" style="font-size:10.0pt;line-height:115%;font-family:&#10;"></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 5r:</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4632;&#4829;&#4633;&#4653;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4672;&#4760;&#4829;&#4635;&#4733;&#4961; &#4840;&#4821;&#4709;&#4840;&#4846;&#4961;</span></span></p></q>
+                        <item xml:id="a3"><p>&#160;<span style="font-size: small;"><span style="font-family: Arial, sans-serif; line-height: 115%; text-align: justify;"><locus target="#5r">Fol. 5r</locus>: Ownership note.</span></span></p> <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify"><span lang="EN-US" style="font-size:10.0pt;line-height:115%;font-family:&#10;"></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 5r:</span></span><span style="font-size: large;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala;">&#4824;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4757;&#4721;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4632;&#4829;&#4633;&#4653;&#4961; </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4672;&#4760;&#4829;&#4635;&#4733;&#4961; &#4840;&#4821;&#4709;&#4840;&#4846;&#4961;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written in pencil in the upper margin of the folio. It states that the book belongs to qäňňazmač Yäʿbǝyyo.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif; line-height: 115%; text-align: justify;">Fol. 94r: Prayer.</span></span></p> <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify"><span lang="EN-US" style="font-size:10.0pt;line-height:115%;font-family:&#10;"></span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 94r: </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4704;&#4657;&#4651;&#4940;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4780;&#4649;&#4708;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4840;&#4819;&#4653;&#4941;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4843;&#4776;&#4653;&#4638;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4704;&#4819;&#4632;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4773;&#4637;&#4677;&#4853;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4819;&#4616;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4608;&#4622;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4736;&#4845;&#4616;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4621;&#4817;&#4616;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4845;&#4780;&#4621;&#4621;&#4814;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4709;&#4624;&#4725;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:"> </span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">&#8230;</span></span></p></q>
+                        <item xml:id="a4"><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif; line-height: 115%; text-align: justify;"><locus target="#94r">Fol. 94r</locus>: Prayer.</span></span></p> <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:&#10;justify"><span lang="EN-US" style="font-size:10.0pt;line-height:115%;font-family:&#10;"></span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 94r: </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4704;&#4657;&#4651;&#4940;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4780;&#4649;&#4708;&#4621;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4840;&#4819;&#4653;&#4941;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4808;&#4843;&#4776;&#4653;&#4638;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4704;&#4819;&#4632;&#4725;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4824;&#4773;&#4637;&#4677;&#4853;&#4632;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4819;&#4616;&#4637;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4608;&#4622;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4736;&#4845;&#4616;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4621;&#4817;&#4616;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4845;&#4780;&#4621;&#4621;&#4814;&#4961;</span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4709;&#4624;&#4725;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:"> </span><span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written in pencil.</p>
                         </item>
@@ -221,7 +220,7 @@ The scribe did not use the last ruled line on fol. 31ra; he left some ruled line
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (the front board broken and repaired). Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
                            <material key="wood"/>
@@ -234,7 +233,7 @@ The scribe did not use the last ruled line on fol. 31ra; he left some ruled line
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0157DDM">Dändera Däbrä Mǝḥrät Mikaʾel / DDM</placeName>
+                        <placeName corresp="INS0157DDM">Dändera Däbrä Mәḥrät Mikaʾel / DDM</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1850">Mid-18th – mid-19th cent. (?)</origDate>
                   </origin>
@@ -270,8 +269,8 @@ The scribe did not use the last ruled line on fol. 31ra; he left some ruled line
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Additio 2 mentions qäňňazmač Yäʿbǝyyo Täsfa Mikaʾel as the donor of the book to the church of Qǝddus Mikaʾel Dändera.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Additio 2 mentions qäňňazmač Yäʿbǝyyo Täsfa Mikaʾel as the donor of the book to the church of Qǝddus Mikaʾel Dändera.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -295,9 +294,9 @@ The scribe did not use the last ruled line on fol. 31ra; he left some ruled line
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-16">registered</change>
-         <change who="MV" when="2015-03-09">created</change>
-         <change who="MV" when="2015-03-26">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MV" when="2015-03-09T10:13:16.222Z">created</change>
+         <change who="MV" when="2015-03-26T14:44:51.770Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

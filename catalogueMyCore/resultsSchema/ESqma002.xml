@@ -24,19 +24,19 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-01-11</date>
+            <date>2012-01-11T14:50:49.875Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0175QMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QMA-002</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
                      <rubric>Nomina sacra; &#xD;
-the word mǝʿǝraf (“chapter”) and the numbers of the chapters;&#xD;
+the word mәʿәraf (“chapter”) and the numbers of the chapters;&#xD;
 some lines of the incipit page of each Gospels, divided into several groups, alternating with black lines: 7 lines in fol. 10r, 9 lines in fol. 42r, 8 lines in fol. 62r, 8 lines in fol. 96r;&#xD;
 the incipit (2-3 lines) of all the chapters; &#xD;
 some paragraph beginnings;&#xD;
@@ -53,6 +53,17 @@ elements of the punctuation signs.</rubric>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Concerning the introduction, the contents and the postscript of the Gospels, cp. R. ZUURMOND, Novum Testamentum Aethiopice: the Synoptic Gospels, Part I: General Introduction, Part II: Edition of the Gospel of Mark, Stuttgart 1989 (AeF 27), 1-31; concerning the “Stichometry”, specifically cp. ivi, 25-26.</note>
+                     <note>The lists of the “Tituli” for the Gospels of Mark, Luke and John are missing.</note>
+                     <note>The list of the “Tituli” for the Gospels of Matthew contains 65 titles whose only the first two ones are numbered by Ethiopic numbers.</note>
+                     <note>Each Gospel is introduced by headings which include a blessing (s. in fols. 10r [ls. 1-2], 42r [ls. 1-3], 62r [ls. 1-3], 96r [ls. 1-4]).</note>
+                     <note>The short postscript and the stichometry for the Gospel of Matthew are together separated from the main text by a sequence of nine dot asterisks followed by two chains of red and black dots; two chains of red and black dots separate also the stichometry for the Gospel of John.</note>
+                     <note/>
+                     <note>In fols. 1, 2 and 9, the ruling has not been finished.</note>
+                     <note>The fols. 92, 93, 99, 102 are in a smaller size.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -60,7 +71,10 @@ elements of the punctuation signs.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">121.0</measure> folios, of which <measure unit="leaf" type="blank">11.0</measure> blank, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">121.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">11.0</measure> blank
+                                                  fols. 1r, 2rv, 3rv, 4rv, 5rv, 9rv, 41rv, 60v, 61rv, 95rv, 121rv, in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
                                                 <dimensions type="outer">
                               <height unit="cm">34.5</height>
                               <width unit="cm">24.0</width>
@@ -69,6 +83,9 @@ elements of the punctuation signs.</rubric>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Fol. 10r: Decorated quire mark is written in the upper margin of the leaf:&#xD;
+፩ “1” (ornamented by four red and black nine dot asterisks).</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">7</dim>
@@ -143,7 +160,7 @@ Holes in fols. 30, 81, 82, 95, 100, 101, 110.</condition>
                            <note>All data for fol. 11r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are partly visible.</ab>
@@ -165,32 +182,27 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black; red.</seg>
                         <date>Second half of the 19th century.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">none<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 1v: Record concerning the reconciliation between <span style="line-height: 115%; font-size: 10pt">q&#228;&#241;&#477;zmat (sic for q&#228;&#241;&#241;azma&#269;)</span> S&#477;b&#7717;atu and the clergy of the church of G&#228;br&#477;&#704;el (Q&#477;ddus G&#228;br&#477;&#704;el &#7716;awa&#7779;i).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><locus target="#1v">Fol. 1v</locus>: Record concerning the reconciliation between <span style="line-height: 115%; font-size: 10pt">q&#228;&#241;&#477;zmat (sic for q&#228;&#241;&#241;azma&#269;)</span> S&#477;b&#7717;atu and the clergy of the church of G&#228;br&#477;&#704;el (Q&#477;ddus G&#228;br&#477;&#704;el &#7716;awa&#7779;i).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic. Black ink.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%" sans-serif="" arial="">Fols. 3ra-3vb: Directives for the clergy and readings for Passion Week.<br /> </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%" sans-serif="" arial=""><locus target="#3ra">Fols. 3ra-3</locus>vb: Directives for the clergy and readings for Passion Week.<br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Black ink and rubrications in red.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span lang="EN-GB" sans-serif="" arial="">Fol. 8vb: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span><span lang="EN-GB" style="line-height: 115%">Fol. 8vb:</span></span></span><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4709;&#4653;&#4678;&#4961; &#4824;&#4808;&#4608;&#4707;&#4961; &#4739;&#4616;&#4675;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4768;&#4632;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4768;&#4632;&#4720;&#4961; &#4872;&#4650;&#4635;&#4961; &#4872;&#4709;&#4648;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961;</span></span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small"><span lang="EN-GB" sans-serif="" arial=""><locus target="#8vb">Fol. 8vb</locus>: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span><span lang="EN-GB" style="line-height: 115%">Fol. 8vb:</span></span></span><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4768;&#4709;&#4653;&#4678;&#4961; &#4824;&#4808;&#4608;&#4707;&#4961; &#4739;&#4616;&#4675;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4768;&#4632;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4848;&#4674;&#4673;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4872;&#4709;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4872;&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4768;&#4632;&#4720;&#4961; &#4872;&#4650;&#4635;&#4961; &#4872;&#4709;&#4648;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4845;&#4777;&#4758;&#4633;&#4961; &#4632;&#4653;&#4608;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961;</span></span></p></q>
                            <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">Fol. 8vb: This is the book of the tabot of Maryam &#704;Abr&#477;qo which &#7723;al&#228;qa &#7722;ayl&#228; Maryam donated; and his wife (is) &#704;Am&#228;t&#228; Maryam, his children&#160; (are) G&#228;br&#228; M&#228;d&#7723;&#477;n, G&#228;br&#228; Maryam, G&#228;br&#228; &#346;&#477;llase, W&#228;l&#228;tt&#228; Mika&#704;el, G&#228;br&#228; &#704;Ar&#228;gawi, G&#228;br&#228; &#704;&#398;gzi&#704;ab</span></span><span lang="EN-US" style="line-height: 115%; font-size: 10pt">&#477;</span><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%">&#7717;er, G&#228;br&#228; Mika&#704;el, G&#228;br&#228; &#704;Iy&#228;sus, &#704;Am&#228;t&#228; G&#228;rima, G&#228;br&#228; T&#228;kl&#228; Haymanot,&#160; (so that) it might be for them the guide to the kingdom of Heaven. </span></span></p></q>
                            <p>Black ink and rubrications in red.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%" sans-serif="" arial="">Fol. 8vab: Note concerning the use of the land of </span><span lang="EN-GB" style="line-height: 115%" sans-serif="" arial="">&#704;Abr&#477;qo Q&#477;dd&#477;st Maryam.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%" sans-serif="" arial=""><locus target="#8va">Fol. 8va</locus>b: Note concerning the use of the land of </span><span lang="EN-GB" style="line-height: 115%" sans-serif="" arial="">&#704;Abr&#477;qo Q&#477;dd&#477;st Maryam.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note mentions the date 1916 E.C. (= 1923/24 A.D.); written in Amharic, in blue pen.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%">Fol. 9rab: List of names of individuals.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a5"><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%"><locus target="#9ra">Fol. 9ra</locus>b: List of names of individuals.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In Amharic. Black ink.
 Written during the time of King Menelik II (1889-1913).</p>
@@ -250,8 +262,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ḫaläqa Ḫaylä Maryam, according to Additio  3 (s. fol. 8vb, ls. 1-9). His name is also mentioned in the heading of each Gospel, together with the name of his wife, ʾAmätä Maryam (s. also Additio 3, and the heading of Gospels of Mark, Luke and John). Names of other individuals, mentioned as the children of the donor, are in Additio 3: Gäbrä Mädḫǝn, Gäbrä Maryam, Gäbrä Śǝllase, Wälättä Mikaʾel, Gäbrä ʾArägawi, Gäbrä ʾƎgziʾabǝḥer, Gäbrä Mikaʾel, Gäbrä ʾIyäsus, ʾAmätä Gärima, Gäbrä Täklä Haymanot.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ḫaläqa Ḫaylä Maryam, according to Additio  3 (s. fol. 8vb, ls. 1-9). His name is also mentioned in the heading of each Gospel, together with the name of his wife, ʾAmätä Maryam (s. also Additio 3, and the heading of Gospels of Mark, Luke and John). Names of other individuals, mentioned as the children of the donor, are in Additio 3: Gäbrä Mädḫǝn, Gäbrä Maryam, Gäbrä Śǝllase, Wälättä Mikaʾel, Gäbrä ʾArägawi, Gäbrä ʾƎgziʾabǝḥer, Gäbrä Mikaʾel, Gäbrä ʾIyäsus, ʾAmätä Gärima, Gäbrä Täklä Haymanot.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -274,9 +286,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-18">registered</change>
-         <change who="VP" when="2012-01-11">created</change>
-         <change who="DN" when="2015-09-14">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VP" when="2012-01-11T14:50:49.875Z">created</change>
+         <change who="DN" when="2015-09-14T11:07:27.758Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

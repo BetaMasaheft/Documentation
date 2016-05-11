@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä krǝstǝnna “Book of the Christening”</title>
+            <title>Mäṣḥafä krәstәnna “Book of the Christening”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-05-16</date>
+            <date>2013-05-16T15:41:08.799Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0049QSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QSM-031</idno>
                </msIdentifier>
                <msContents>
@@ -45,9 +45,13 @@ On the incipit page of Text I (fols. 5r), a few groups of lines are rubricated (
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I is called Mäṣḥafä ṭәmqät in the incipit (s. fol. 5ra).</note>
+                  </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small">Fol. 41va l.1:</span> <span style="font-size: large">&#4720;&#4936;&#4920;&#4632;&#4961; &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4704;&#4978;&#4987;&#4808;&#4977;&#4987;&#4979;&#4975;&#4961; &#4819; </span><span style="font-size: small">[fol. 41vb l.1] </span><span style="font-size: large">&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4845;&#4725;&#4707;&#4648;&#4776;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4704;&#4851;&#4741;&#4755;&#4961; &#4808;&#4704;&#4656;&#4619;&#4637;&#4962;</span></p><foreign xml:lang="en"/>
+                        <locus target="41va">&lt;p&gt;&lt;span style="font-size: small"&gt;Fol. 41va l.1:&lt;/span&gt; &lt;span style="font-size: large"&gt;&amp;#4720;&amp;#4936;&amp;#4920;&amp;#4632;&amp;#4961; &amp;#4829;&amp;#4632;&amp;#4925;&amp;#4624;&amp;#4941;&amp;#4961; &amp;#4704;&amp;#4978;&amp;#4987;&amp;#4808;&amp;#4977;&amp;#4987;&amp;#4979;&amp;#4975;&amp;#4961; &amp;#4819; &lt;/span&gt;&lt;span style="font-size: small"&gt;[fol. 41vb l.1] &lt;/span&gt;&lt;span style="font-size: large"&gt;&amp;#4632;&amp;#4720;&amp;#4961; &amp;#4637;&amp;#4629;&amp;#4648;&amp;#4725;&amp;#4961; &amp;#4845;&amp;#4725;&amp;#4707;&amp;#4648;&amp;#4776;&amp;#4961; &amp;#4773;&amp;#4877;&amp;#4826;&amp;#4768;&amp;#4709;&amp;#4628;&amp;#4653;&amp;#4961; &amp;#4824;&amp;#4768;&amp;#4936;&amp;#4920;&amp;#4632;&amp;#4754;&amp;#4961; &amp;#4704;&amp;#4851;&amp;#4741;&amp;#4755;&amp;#4961; &amp;#4808;&amp;#4704;&amp;#4656;&amp;#4619;&amp;#4637;&amp;#4962;&lt;/span&gt;&lt;/p&gt;</locus><p><span style="font-size: small">Fol. 41va l.1:</span> <span style="font-size: large">&#4720;&#4936;&#4920;&#4632;&#4961; &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4704;&#4978;&#4987;&#4808;&#4977;&#4987;&#4979;&#4975;&#4961; &#4819; </span><span style="font-size: small">[fol. 41vb l.1] </span><span style="font-size: large">&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4845;&#4725;&#4707;&#4648;&#4776;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4704;&#4851;&#4741;&#4755;&#4961; &#4808;&#4704;&#4656;&#4619;&#4637;&#4962;</span></p><foreign xml:lang="en"/>
                         <note>The note mentions the date 1927 A.M. (= 1934/35 A.D.) as the time of completing the work.</note>
                      </colophon>
                   </msItem>
@@ -58,7 +62,10 @@ On the incipit page of Text I (fols. 5r), a few groups of lines are rubricated (
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">42.0</measure> folios, of which <measure unit="leaf" type="blank">5.0</measure> blank, in <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">42.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">5.0</measure> blank
+                                                  1rv, 2rv, 3rv, 4rv, 42rv, in
+                                                  <measure unit="quire">6.0</measure> quires (A+5). 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">12.8</width>
@@ -67,6 +74,8 @@ On the incipit page of Text I (fols. 5r), a few groups of lines are rubricated (
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written in the middle of of the upper margin of the quire: fols. 19r, 27r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">4</dim>
@@ -109,7 +118,7 @@ Tears carefully amended on fols. 1, 2.</condition>
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -138,8 +147,7 @@ The bottom ruled line has not been used by the scribe on fols. 13v-16r, 17v.</ab
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fols. 41va l. 4: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 41va l.4: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4674;&#4658;&#4661;</span> <span style="font-size: small">[sic]</span><span style="font-size: large">&#4961; &#4872;&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4808;&#4611;&#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4672;&#4653;&#4752;&#4961; &#4656;&#4704;&#4653;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4755;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4845;&#4725;&#4962;</span><span style="font-size: small"><span style="font-family: Arial">[</span>fol. 41vb l.6] </span><span style="font-size: large">&#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; <span style="font-size: medium">{</span>&#4808;&#4915;&#4813;&#4622;&#4661;<span style="font-size: medium">}</span>&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#41va">Fols. 41va</locus>l. 4: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 41va l.4: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4674;&#4658;&#4661;</span> <span style="font-size: small">[sic]</span><span style="font-size: large">&#4961; &#4872;&#4709;&#4648;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4808;&#4611;&#4704;&#4726;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4672;&#4653;&#4752;&#4961; &#4656;&#4704;&#4653;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4755;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4845;&#4725;&#4962;</span><span style="font-size: small"><span style="font-family: Arial">[</span>fol. 41vb l.6] </span><span style="font-size: large">&#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; <span style="font-size: medium">{</span>&#4808;&#4915;&#4813;&#4622;&#4661;<span style="font-size: medium">}</span>&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a secondary hand. It mentions the donor Wälättä Giyorgis, her father Gäbrä ʾIyäsus and her mother Wälättä Maryam.</p>
                         </item>
@@ -155,6 +163,7 @@ One pair of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -197,8 +206,8 @@ One pair of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Giyorgis is mentioned as the donor in Additio 1; her father Gäbrä ʾIyäsus and her mother Wälättä Maryam are also mentioned.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Giyorgis is mentioned as the donor in Additio 1; her father Gäbrä ʾIyäsus and her mother Wälättä Maryam are also mentioned.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -221,9 +230,9 @@ One pair of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-18">registered</change>
-         <change who="SA" when="2013-05-16">created</change>
-         <change who="DN" when="2014-06-24">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-05-16T15:41:08.799Z">created</change>
+         <change who="DN" when="2014-06-24T10:59:36.331Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

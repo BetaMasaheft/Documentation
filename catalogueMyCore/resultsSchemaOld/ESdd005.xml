@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESdd005"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Fǝtḥa nägäśt “Justice of the Kings”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-03-20</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0105DD"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>DD-005</idno>
+                  <altIdentifier>
+                     <idno>C3-IV-247 (fol. 5r), 278</idno>
+                  </altIdentifier>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the donor; incipit of the text and of its sections; incipit of the articles; abbreviations referring to other works; words mǝʿǝraf “chapter” and kǝfǝl “section”; numbers in the introduction; numbers in the table of contents; numbers of the articles; numbers in the articles; Ethiopic numerals; elements of the punctuation signs. &#xD;
+In fols. 5r, 8vc, 56ra, a few lines are rubricated (alternating with black lines).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus target="146rc">Fol. 146rc, l. 21</locus><p>Fol. 146rc, l. 21: <span style="font-size: large;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4941;&#4725;&#4629;&#4961; &#4632;&#4757;&#4936;&#4659;&#4810;&#4961; &#4941;&#4725;&#4629;&#4961; &#4645;&#4875;&#4810;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4757;&#4873;&#4645;&#4752;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4773;&#4757;&#4824;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4617;&#4675;&#4661;&#4961; &#4808;&#4773;&#4757;&#4824;&#4961; &#4768;&#4704;&#4677;&#4724;&#4961; &#4978;&#4973;&#4961; &#4808;&#4773;&#4757;&#4824;&#4961; &#4632;&#4755;&#4677;&#4821;&#4961; &#4978;&#4973;&#4961; &#4704;&#4978;&#4987;&#4808;&#4986;&#4987;&#4808;&#4975;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4704;&#4821;&#4616;&#4720;&#4961; &#4819;&#4653;&#4709;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p><foreign xml:lang="en"/>
+                        <note>The colophon mentions the date 1907 A.M. (=1914/15 A.D.) and nǝguś Mikaʾel ʾAli (1847/50-1918), ruler of Tǝgray and Wällo, crowned as king in 1914 A.D.</note>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key=""/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">146.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">30.4</height>
+                              <width unit="cm">25.5</width>
+                              <depth unit="cm">7.6</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="1r" to="4v"/>A(4/fols. 1r-4v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="5r" to="14v"/> ፩I(10/fols. 5r-14v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="15r" to="24v"/> ፪II(10/fols. 15r-24v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="25r" to="34v"/> ፫III(10/fols. 25r-34v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="35r" to="44v"/> ፬IV(10/fols. 35r-44v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="45r" to="52v"/> ፭V(8/fols. 45r-52v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="53r" to="60v"/> ፮VI(8/fols. 53r-60v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="61r" to="68v"/> ፯VII(8/fols. 61r-68v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="69r" to="76v"/> VIII(8/fols. 69r-76v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="77r" to="83v"/> IX(7; s.l. 2, stub after 6/fols. 77r-83v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="84r" to="91v"/> X(8/fols. 84r-91v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="92r" to="98v"/> XI(7; s.l. 2, stub after 6/fols. 92r-98v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="99r" to="106v"/> XII(8/fols. 99r-106v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="107r" to="114v"/> XIII(8/fols. 107r-114v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="115r" to="124v"/> XIV(10; s.l. 4, stub after 6; 7, stub after 3/fols. 115r-124v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="125r" to="132v"/> XV(8/fols. 125r-132v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="133r" to="138v"/> XVI(6/fols. 133r-138v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="139r" to="146v"/> XVII(8/fols. 139r-146v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good">Tears and holes carefully amended on fols. 3, 7, 11, 15, 23, 30, 31, 35, 40, 43, 45, 55, 66, 68, 72, 89, 117, 118, 121, 124.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="3" writtenLines="30">
+                           <dimensions unit="mm">
+                              <height>230</height>
+                              <width>220</width>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">35</dim>
+                              <dim type="bottom">53</dim>
+                              <dim type="right">33</dim>
+                              <dim type="left">15</dim>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <note>All data for fol. 6r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Careful.</ab>
+                        <seg type="ink">Black, vivid red.</seg>
+                        <date>First half of 20th century.</date>
+                        <list type="abbreviations">
+                           <item>Abbreviations referring to other works:</item>
+                           <item>ጀ፡ for ወንጌል፡</item>
+                           <item>ዕብ፡ for መልእክተ፡ ጳውሎስ፡ ለዕብራውያን፡</item>
+                           <item>ጤት፡ for መልእክተ፡ ጳውሎስ፡ ለጢሞቴዎስ፡</item>
+                           <item>ትአ፡ for ኦሪት፡ ቀዳማዊ፡</item>
+                           <item>ትቤ፡ for ኦሪት፡ ዳግማዊ፡</item>
+                           <item>ትጋ፡ for ኦሪት፡ ሣልስ፡</item>
+                           <item>ትዳ፡ for ኦሪት፡ ራብዕ፡</item>
+                           <item>ትሔ፡ for ኦሪት፡ ኃምስ፡</item>
+                           <item>ረስጠአ፡ for ቀሌምንጦስ፡ ቀዳማዊ፡</item>
+                           <item>ረስጠብ፡ for ቀሌምንጦስ፡ ዳግማዊ፡</item>
+                           <item>ረስጠጅ፡ for ቀሌምንጦስ፡ ሣልስ፡</item>
+                           <item>ድስቅ፡ for ዲድስቅልያ፡</item>
+                           <item>ጴጥ፡ for መልእክተ፡ ጴጥሮስ፡</item>
+                           <item>ቀጠግ፡ for ቀኖና፡ በቅርጣግና፡</item>
+                           <item>ግንር፡ for ቀኖና፡ በግንግራ፡</item>
+                           <item>ጾክ፡ for ቀኖና፡ በአንጾኪያ፡</item>
+                           <item>ኒቅ፡ for ቀኖና፡ በኒቅያ፡</item>
+                           <item>ኒቅያ፡ for መለካውያን፡ ቀኖና፡ በኒቅያ፡</item>
+                           <item>ዶቅ፡ for ቀኖና፡ በሎዶቅያ፡</item>
+                           <item>ስድቅ፡ for ቀኖና፡ በስርድቅያ፡</item>
+                           <item>በደስ፡ for ፲ወ፪ቱ፡ ቀኖና፡ ዘአብሉዲስ፡</item>
+                           <item>በስ፡ for ፲ወ፫ቱ፡ ቀኖና፡ ዘባስልዮስ፡</item>
+                           <item>ጠስ፡ for ቀኖና፡ ዘነገሥት፡ ተጥላሳት፡</item>
+                           <item>መክ፡ for ቀኖና፡ ዘነገሥት፡ ዳግም፡</item>
+                           <item>መጅ፡ for ቀኖና፡ ዘነገሥት፡ ሣልስ፡</item>
+                           <item>መግ፡ for ቀኖና፡ ዘነገሥት፡ ራብዕ፡</item>
+                           <item>ደ፡ for ትእምርት፡ ዘዲዮናስዮስ፡</item>
+                           <item>ግር፡ for ትእምርት፡ ዘጎርጎርዮስ፡</item>
+                           <item>ክርስጣ፡ for ትእምርት፡ ዘክርስቶዶሉ፡</item>
+                           <item>ጢም፡ for ትእምርት፡ ዘጢሞቴዎስ፡</item>
+                        </list>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">Fol. 110va: narrow coloured (black, red) ornamental band.</decoNote>
+                     <decoNote type="frame" xml:id="d2">Fol. 121rc: narrow uncoloured ornamental band; geometric motifs.</decoNote>
+                  </decoDesc>
+                  <bindingDesc>
+                     <binding contemporary="partly">
+                        <decoNote xml:id="b1">Two wooden boards (the front board is broken). &#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0105DD">DÃ¤brÃ¤ Dammo Ë&#x80;AbunÃ¤ Ë&#x80;ArÃ¤gawi / DD</placeName>
+                     </origPlace>
+                     <origDate notBefore="1914" notAfter="1915">The colophon mentions the date 1907 A.M. (=1914/15 A.D.) and nǝguś Mikaʾel ʾAli (1847/50-1918), ruler of Tǝgray and Wällo, crowned as king in 1914 A.D.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Wäldä ʿAbiyä ʾƎgziʾ (s. supplication formulas on fols. 5ra, 58vc).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="ChristianLiterature"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+            <language ident="am" xml:id="Lan01">Amharic</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-11-22">registered</change>
+         <change who="SA" when="2013-03-20">created</change>
+         <change who="VP" when="2015-02-27">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

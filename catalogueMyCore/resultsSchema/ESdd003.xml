@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-10-22</date>
+            <date>2013-10-22T15:52:31.678Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0105DD"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DD-003</idno>
                   <altIdentifier>
                      <idno>C3-IV-245 (fol. 3r)</idno>
@@ -58,7 +58,10 @@ Often only the initial letters of words are rubricated.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">202.0</measure> folios, in <measure unit="quire">24.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">202.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  141vc, in
+                                                  <measure unit="quire">24.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">31.0</height>
                               <width unit="cm">27.0</width>
@@ -67,6 +70,8 @@ Often only the initial letters of words are rubricated.</rubric>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Decorated quire marks are written in the upper left margin of the first fol. of the quire: fols. 9r, 17r, 25r, 33r, 41r, 49r, 57r, 65r, 73r, 81r, 89r, 97r, 105r, 115r, 125r, 133r, 141r, 149r, 157r, 165r, 175r, 185r, 195r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">8</dim>
@@ -177,7 +182,7 @@ Holes are carefully amended on fols. 2, 5, 18, 19, 21, 22, 26, 29, 32, 37, 43, 5
 Primary pricks are visible. </ab>
                            <ab type="pricking">
 Ruling pricks are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="ruling">
 The upper line is written above the ruling. </ab>
@@ -208,7 +213,8 @@ The bottom line is written above the ruling.</ab>
                            <item>ሃ፡ for ሃሌሉያ፡</item>
                            <item/>
                            <item>
-                              <abbr>Repeated versicles are often written in an abbreviated form, e.g., ወ፤ ዕ፤ ዮ፤ ፍ፤ ወ፡ stands</abbr> for <expan>ወትቤ፡ ዕሌኒ፡ ዮም፡ ፍሥሐ፡ ወሰላም </expan> (fol. 15ra l.21).</item>
+                              <abbr>Repeated versicles are often written in an abbreviated form, e.g., ወ፤ ዕ፤ ዮ፤ ፍ፤ ወ፡ stands</abbr> for
+                                                  <expan>ወትቤ፡ ዕሌኒ፡ ዮም፡ ፍሥሐ፡ ወሰላም </expan> (fol. 15ra l.21).</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -221,13 +227,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 1r: Ownership note extended by the names of the heads of D&#228;br&#228; Dammo .</span></div><q xml:lang="gez"><div style="line-height: normal"><span style="font-size: small">Fol. 1r:</span><span style="font-size: 10pt"> </span><span style="font-size: large">&#4829;&#4853;&#4883;&#4961; &#4824;&#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;</span><span style="font-size: large">&#4883;&#4616;&#4961; &#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4768;&#4706;&#4660;&#4634;&#4964; &#4808;&#4768;&#4634;&#4828;&#4620;&#4781;&#4961; &#4773;</span><span style="font-size: large">&#4883;&#4616;&#4961; &#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4781;&#4709;&#4648;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4653;&#4773;&#4656;&#4961; </span><span style="font-size: large">&#4848;&#4709;&#4653;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; </span><span style="font-size: large">&#4661;&#4808;&#4877;&#4848;&#4845;&#4961; &#4845;&#4737;&#4683;&#4961; &#4840;&#4757;&#4613;&#4928;&#4961; &#4939;&#4941;&#4757;&#4961; &#4776;&#4637;&#4720;&#4961; &#4658;&#4757;&#4827;&#4621;</span></div></q>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#1r">Fol. 1r</locus>: Ownership note extended by the names of the heads of D&#228;br&#228; Dammo .</span></div><q xml:lang="gez"><div style="line-height: normal"><span style="font-size: small">Fol. 1r:</span><span style="font-size: 10pt"> </span><span style="font-size: large">&#4829;&#4853;&#4883;&#4961; &#4824;&#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4773;</span><span style="font-size: large">&#4883;&#4616;&#4961; &#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4768;&#4706;&#4660;&#4634;&#4964; &#4808;&#4768;&#4634;&#4828;&#4620;&#4781;&#4961; &#4773;</span><span style="font-size: large">&#4883;&#4616;&#4961; &#4653;&#4773;&#4656;&#4961; &#4848;&#4709;&#4653;&#4961; &#4781;&#4709;&#4648;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4653;&#4773;&#4656;&#4961; </span><span style="font-size: large">&#4848;&#4709;&#4653;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; </span><span style="font-size: large">&#4661;&#4808;&#4877;&#4848;&#4845;&#4961; &#4845;&#4737;&#4683;&#4961; &#4840;&#4757;&#4613;&#4928;&#4961; &#4939;&#4941;&#4757;&#4961; &#4776;&#4637;&#4720;&#4961; &#4658;&#4757;&#4827;&#4621;</span></div></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the main hand. It states that the Ms. belongs to rǝʾǝsä däbr (the nead of the monastery) Wäldä Maryam and mentions his predecessors. The meaning of the final part of the note is unclear.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 202rc: Scribe&#8217;s signature. </span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 202rc:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4845;&#4725;&#4707;&#4648;&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4829;&#4757;&#4720;&#4961; &#4925;&#4629;&#4941;&#4720;&#4961; &#4618;&#4720;&#4961; &#4616;&#4739;&#4901;&#4773;&#4961; &#4878;&#4665;&#4961; &#4824;&#4720;&#4656;&#4632;&#4845;&#4776;&#4961; &#4704;&#4920;&#4875;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621; </span><span style="font-size: small"><span style="line-height: 115%">&lt;...</span><span style="line-height: 115%">&gt;</span></span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#202rc">Fol. 202rc</locus>: Scribe&#8217;s signature. </span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 202rc:</span></span><span style="line-height: 115%; font-size: 10pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4845;&#4725;&#4707;&#4648;&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4829;&#4757;&#4720;&#4961; &#4925;&#4629;&#4941;&#4720;&#4961; &#4618;&#4720;&#4961; &#4616;&#4739;&#4901;&#4773;&#4961; &#4878;&#4665;&#4961; &#4824;&#4720;&#4656;&#4632;&#4845;&#4776;&#4961; &#4704;&#4920;&#4875;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4653;&#4772;&#4621; </span><span style="font-size: small"><span style="line-height: 115%">&lt;...</span><span style="line-height: 115%">&gt;</span></span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The scribe mentions his name, Gošu, and his baptismal name Wäldä Gäbrǝʾel.</p>
                         </item>
@@ -252,6 +256,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Remains of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark brown leather (at least 9 tools were used: double line fillet, triple line fillet, double circle, triple circle, small x, corni-form, cross hatching, x-form, triple sine wave).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -294,13 +299,13 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName role="scribe" corresp="PRS00000">Gošu (Wäldä Gäbrǝʾel)</persName>
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms. belongs to rǝʾǝsä däbr (the head of the monastery) Wäldä Maryam.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -321,9 +326,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-22">registered</change>
-         <change who="MK" when="2013-10-22">created</change>
-         <change who="VP" when="2015-02-27">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-10-22T15:52:31.678Z">created</change>
+         <change who="VP" when="2015-02-27T10:55:01.539Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

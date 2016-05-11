@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESthmr001"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gädlä Täklä Haymanot “Vita of Täklä Haymanot” / Mäṣḥafä lǝdätu lä-ʾabunä Täklä Haymanot “Book of the Genealogy of ʾabunä Täklä Haymanot”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2012-02-29T15:14:08.244Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0194THRM"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>THMR-001</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the protagonist; the letter "tä" written in the margin to the left from the name Täklä Haymanot; incipit of Text I and its subsections (fols. 3r, 111vb, 120vb, 123rb); incipit of Text II (fol. 124ra); elements of the punctuation signs; elements of Ethiopic numerals; quire marks.&#xD;
+In the incipit page of Text I (fols. 3r), a few lines are rubricated (alternating with black lines)</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The text of the Vita represents the first of the two sub-types of the Däbrä Libanos recension of the Gädlä Täklä Haymanot (close, but not identical to the published text of the Vita, s. E.A.W. BUDGE (ed., tr.), The Life and Miracles of Takla Hâymânôt in the Version of Dabra Lîbânôs..., London 1906).</note>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus target="126rb">&lt;span style="font-size: small;"&gt;Fol. 126rb:&lt;/span&gt; &lt;span style="font-size: large;"&gt;&amp;#4829;&amp;#4757;&amp;#4721;&amp;#4961; &amp;#4632;&amp;#4925;&amp;#4624;&amp;#4941;&amp;#4961; &amp;#4824;&amp;#4708;&amp;#4720;&amp;#4961; &amp;#4781;&amp;#4653;&amp;#4661;&amp;#4722;&amp;#4843;&amp;#4757;&amp;#4961; &amp;#4824;&amp;#4635;&amp;#4653;&amp;#4843;&amp;#4637;&amp;#4961; &amp;#4723;&amp;#4710;&amp;#4653;&amp;#4961; &amp;#4824;&amp;#4768;&amp;#4925;&amp;#4624;&amp;#4942;&amp;#4961; {&amp;#4709;&amp;#4773;&amp;#4848;&amp;#4635;&amp;#4653;&amp;#4843;&amp;#4637;&amp;#4961;} &amp;#4637;&amp;#4961; &amp;#4808;&amp;#4672;&amp;#4845;&amp;#4656;&amp;#4961; &amp;#4872;&amp;#4704;&amp;#4829;&amp;#4961; &amp;#4704;&amp;#4725;&amp;#4648;&amp;#4961; &amp;#4808;&amp;#4757;&amp;#4876;&amp;#4621;&amp;#4961; &amp;#4808;&amp;#4920;&amp;#4624;&amp;#4938;&amp;#4609;&amp;#4754;&amp;#4961; &amp;#4808;&amp;#4621;&amp;#4848;&amp;#4961; &amp;#4624;&amp;#4811;&amp;#4653;&amp;#4843;&amp;#4725;&amp;#4962; &amp;#4768;&amp;#4632;&amp;#4961; &amp;#4978;&amp;#4973;&amp;#4961; &amp;#4819;&amp;#4632;&amp;#4720;&amp;#4961; &amp;#4632;&amp;#4757;&amp;#4877;&amp;#4645;&amp;#4721;&amp;#4961; &amp;#4616;&amp;#4846;&amp;#4624;&amp;#4757;&amp;#4661;&amp;#4961; &amp;#4704;&amp;#4971;&amp;#4987;&amp;#4980;&amp;#4972;&amp;#4819;&amp;#4632;&amp;#4720;&amp;#4961; &amp;#4637;&amp;#4629;&amp;#4648;&amp;#4725;&amp;#4961; &amp;#4720;&amp;#4925;&amp;#4629;&amp;#4936;&amp;#4962; &amp;#4768;&amp;#4632;&amp;#4961; &amp;#4877;&amp;#4653;&amp;#4637;&amp;#4725;&amp;#4961; &amp;#4821;&amp;#4616;&amp;#4725;&amp;#4961; &amp;#4941;&amp;#4921;&amp;#4632;&amp;#4961; &amp;#4661;&amp;#4709;&amp;#4773;&amp;#4755;&amp;#4961; &amp;#4773;&amp;#4877;&amp;#4826; &lt;/span&gt;&lt;span style="font-size: small;"&gt;[fol. 126va] &lt;/span&gt;&lt;span style="font-size: large;"&gt;&amp;#4768;&amp;#4709;&amp;#4628;&amp;#4653;&amp;#4961; &amp;#4845;&amp;#4821;&amp;#4672;&amp;#4704;&amp;#4752;&amp;#4961; &amp;#4773;&amp;#4632;&amp;#4757;&amp;#4657;&amp;#4725;&amp;#4961; &amp;#4768;&amp;#4636;&amp;#4757;&amp;#4961; &amp;#4808;&amp;#4768;&amp;#4636;&amp;#4757;&amp;#4962;&lt;/span&gt;</locus>Fol. 126rb: ዝንቱ፡ መጽሐፍ፡ ዘቤተ፡ ክርስቲያን፡ ዘማርያም፡ ታቦር፡ ዘአጽሐፎ፡ {ብእደማርያም፡} ም፡ ወቀይሰ፡ ገበዝ፡ በትረ፡ ወንጌል፡ ወጸሐፊሁኒ፡ ወልደ፡ ሐዋርያት። አመ፡ ፲፭፡ ዓመተ፡ መንግሥቱ፡ ለዮሐንስ፡ በ፫፻፴፬ዓመተ፡ ምሕረት፡ ተጽሕፈ። አመ፡ ግርምት፡ ዕለት፡ ፍጹመ፡ ስብእና፡ እግዚ [fol. 126va] አብሔር፡ ይዕቀበነ፡ እመንሱት፡ አሜን፡ ወአሜን።<foreign xml:lang="en"/>
+                        <note>The original commissioner or donor, priest (qes) gäbäz Bäträ Wängel, and the scribe Wäldä Ḥawaryat are mentioned. The name Bәʾәdä [sic for Bäʾәdä] Maryam is written over an erasure in pen in a different, recent hand. The referred date is 334 year of mercy (= 1682 A.D.), the 15th year of the reign of King Yoḥannәs I (r. 1667-1682). The church name mentioned here is Maryam Tabor.</note>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">134.0</measure> folios, in
+                                                  <measure unit="quire">17.0</measure> quires (A+15+B). 
+                                                <dimensions type="outer">
+                              <height unit="cm">19.2</height>
+                              <width unit="cm">20.2</width>
+                              <depth unit="cm">7.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <signatures> Decorated <note>Decorated quire marks.</note>
+                           </signatures>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2; s.l. 1, stub after2; 2, stub after 2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="3r" to="12v"/> I፩ (10/fols. 3r-12v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="13r" to="20v"/> II፪ (8/fols. 13r-20v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="21r" to="30v"/> III፫ (10; s.l. 4, stub after 6; 7, stub after 3/fols. 21r-30v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="31r" to="40v"/> IV፬ (10; s.l. 4, stub after 6; 7, stub after 3/fols. 31r-40v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="41r" to="50v"/> V፭ (10/fols. 41r-50v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="51r" to="60v"/> VI፮ (10/fols. 51r-60v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="61r" to="70v"/> VII፯ (10/fols. 61r-70v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="71r" to="80v"/> VIII፰ (10/fols. 71r-80v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="81r" to="88v"/> IX፱ (8; s.l. 3, stub after 5; 6, stub after 2/fols. 81r-88v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="89r" to="96v"/> X፲ (8/fols. 89r-96v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="97r" to="104v"/> XI፲፩ (8/fols. 97r-104v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="105r" to="112v"/> XII፲፪ (8/fols. 105r-112v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="113r" to="120v"/> XIII፲፫ (8/fols. 113r-120v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="121r" to="129v"/> XIV፲፬ (9; s.l. 6, stub after 3/fols. 121r-129v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="130r" to="132v"/> XV(3; s.l. 1, stub after 3; 2, stub after 2; 3, stub after 1/fols. 130r-132v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="133r" to="134v"/> B(2/fols. 133r-134v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="20">
+                           <dimensions unit="mm">
+                              <height>145</height>
+                              <width>165</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">10</dim>
+                              <dim type="bottom">35</dim>
+                              <dim type="right">25</dim>
+                              <dim type="left">25</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 4r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre.</ab>
+                        <seg type="ink">Black; red.</seg>
+                        <persName role="scribe" corresp="PRS00000">Wäldä Ḥawaryat</persName>The colophon mentiones Wäldä Ḥawaryat as the scribe.<date>17th cent.</date>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">- Fol. 19vb: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d2">- Fol. 31vb: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d3">- Fol. 40vb: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d4">- Fol. 49rb: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d5">- Fol. 60ra: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d6">- Fol. 75ra: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d7">- Fol. 84rb: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d8">- Fol. 92vb: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d9">- Fol. 106va: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                     <decoNote type="frame" xml:id="d10">- Fol. 115ra: Crude and narrow horizontal ornamental band, in pencil.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#1v">Fol. 1v</locus>: Protective prayer (?).<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#1v">Fol. 1v-2</locus>r: Protective prayer against the rain and the hail.<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#126va" n="#3">Fol. 126va, l. 3</locus>: Record concerning land donation to the church.<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           The note mentions ʾato Gäbrä Dәngәl, qes gäbäz Zä-Rufaʾel.
+                        </item>
+                        <item xml:id="a4">
+                           <locus target="#126va" n="#8">Fol. 126va, l. 8</locus>: Note on genealogy mentioning at least one of the donors.<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           One of the individual, Bäträ Wängel, is mentioned in the colophon.
+                        </item>
+                        <item xml:id="e1">- Cues for the rubricator written in the margins, in red and black (e.g., the letter ተ for the name Täklä Haymanot).</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1">Two wooden boards (broken and repaired) covered with reddish-brown leather (quarter cover).&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Remains and traces of endband stitches at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0194THRM">May Raza TÃ¤klÃ¤ Haymanot / THRM</placeName>
+                     </origPlace>
+                     <origDate notBefore="1682" notAfter="1682">The colophon refers to the date 334 year of mercy (= 1682 A.D.) and to the 15th year of the reign of King Yoḥannәs I (r. 1667-1682), which is 1682 A.D.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Bäträ Wängel (s. the colophon) appears to be the original donor or commissioner; the name of another person, Bәʾәdä [sic for Bäʾәdä] Maryam, is written over an erasure in pen, in a recent hand.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Wäldä Ḥawaryat</persName>
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The colophon mentions Maryam Tabor as the church to which the Ms. was donated.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Hagiography"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-12-01">registered</change>
+         <change who="SA" when="2012-02-29T15:14:08.244Z">created</change>
+         <change who="DN" when="2015-07-31T15:56:18.476Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

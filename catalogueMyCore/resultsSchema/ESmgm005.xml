@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-08-28</date>
+            <date>2014-08-28T09:01:49.779Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0216MGM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MGM-005</idno>
                </msIdentifier>
                <msContents>
@@ -52,7 +52,8 @@ On the incipit page for each month (fols. 1r, 31v, 54r, 82r, 115v, 153v) a few l
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">179.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">179.0</measure> folios, in
+                                                  <measure unit="quire">18.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">33.6</height>
                               <width unit="cm">26.0</width>
@@ -158,7 +159,7 @@ Tears carefully amended on fols. 8, 48, 69, 88, 128.</condition>
                            <note>All data for fol. 117r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -183,8 +184,7 @@ On many fols., the scribe does not follow the ruling (e.g., 165v, 169v).</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 178vb-vc: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 178vb: </span><span style="font-size: large;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#4961; &#4635;&#4613;&#4620;&#4720;&#4961; &#4768;&#4824;&#4778;&#4653;&#4840;</span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span>&#8230;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#178vb">Fol. 178vb</locus>-vc: Z&#228;-&#704;aqr&#228;bku ma&#7723;let&#228;&#8230; &#8220;The song I am offering&#8230;&#8221; (concluding prayer).</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 178vb: </span><span style="font-size: large;">&#4824;&#4768;&#4677;&#4648;&#4709;&#4777;&#4961; &#4635;&#4613;&#4620;&#4720;&#4961; &#4768;&#4824;&#4778;&#4653;&#4840;</span><span style="font-size: large;"><span style="font-size: large;">&#4961;</span>&#8230;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -192,7 +192,7 @@ On many fols., the scribe does not follow the ruling (e.g., 165v, 169v).</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather cover; recent secondary textile cover on the front board.&#xD;
 Overback made of reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
@@ -202,6 +202,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 7 tools were used: double line fillet, criss-cross, double crescent, double circle, x-form, cross-hatching, wave form).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -244,8 +245,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Täklä Haymanot is mentioned in the supplication formulas.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Täklä Haymanot is mentioned in the supplication formulas.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -268,9 +269,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2012-05-19">registered</change>
-         <change who="SA" when="2014-08-28">created</change>
-         <change who="MV" when="2015-01-29">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2014-08-28T09:01:49.779Z">created</change>
+         <change who="MV" when="2015-01-29T10:40:28.447Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

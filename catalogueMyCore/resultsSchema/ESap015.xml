@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2010-10-26</date>
+            <date>2010-10-26T13:16:54.759Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0030AP"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AP-015</idno>
                   <altIdentifier>
                      <idno>C3-IV-9 (fol. 100r)</idno>
@@ -49,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="185rc">Fol. 185rc</locus><p>Fol. 185rc: Colophon.</p><foreign xml:lang="en"/>
+                        <locus target="185rc">&lt;p&gt;Fol. 185rc: Colophon.&lt;/p&gt;</locus><p>Fol. 185rc: Colophon.</p><foreign xml:lang="en"/>
                         <note/>
                      </colophon>
                   </msItem>
@@ -60,7 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">186.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">24.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">186.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.0</measure> blank
+                                                  1rv, 4rv, 185v, in
+                                                  <measure unit="quire">24.0</measure> quires (A + 23). 
                                                 <dimensions type="outer">
                               <height unit="cm">36.5</height>
                               <width unit="cm">28.0</width>
@@ -168,7 +171,7 @@ Fols. 2rv-3rv (quire A) and 186rv (quire XXIII) contain passages from another te
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -241,11 +244,6 @@ two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName role="scribe" corresp="PRS00000">Muse Gäbrä Maryam</persName>
                </person>
@@ -268,9 +266,9 @@ two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-03">registered</change>
-         <change who="VP" when="2010-10-26">created</change>
-         <change who="MV" when="2015-01-28">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VP" when="2010-10-26T13:16:54.759Z">created</change>
+         <change who="MV" when="2015-01-28T11:26:40.192Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

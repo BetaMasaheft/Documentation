@@ -61,8 +61,8 @@
                 </xsl:for-each></ul>
         </nav>
         <section id="general">
-            <p>
-                <b><xsl:value-of select="//t:msIdentifier/t:idno"/></b>
+            
+                <!--<b><xsl:value-of select="//t:msIdentifier/t:idno"/></b>
                 
                 <xsl:if test="//t:msIdentifier/t:altIdentifier">
                     <xsl:text>, </xsl:text>
@@ -71,7 +71,9 @@
                         <xsl:value-of select="concat(., ' ')"/>
                     </xsl:for-each>
                 </xsl:if>
-            </p>
+                -->
+                <xsl:apply-templates select="//t:msIdentifier"/>
+            
             <p>Edited by <xsl:apply-templates
                     select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
                 <xsl:if test="//t:publicationStmt/t:date"><xsl:text> on </xsl:text><xsl:value-of
@@ -118,11 +120,10 @@
             <p>
                 <xsl:value-of select="//t:binding/t:decoNote[position() = 1]"/>
             </p>
-            <h3>outer dimension</h3>
+            <h3>Outer dimension</h3>
 
             <p>H: <xsl:value-of select="//t:extent/t:dimensions/t:height"/> x W: <xsl:value-of
-                    select="//t:extent/t:dimensions/t:width"/> x D <xsl:value-of
-                    select="//t:extent/t:dimensions/t:depth"/> cm. </p>
+                select="//t:extent/t:dimensions/t:width"/><xsl:if test="//t:extent/t:dimensions/t:depth"> x D <xsl:value-of select="//t:extent/t:dimensions/t:depth"/> </xsl:if><xsl:text> </xsl:text><xsl:value-of select="//t:extent/t:dimensions/@unit"/>. </p>
             <p>(proportion height/width: <xsl:value-of
                 select="format-number(number(//t:extent/t:dimensions/t:height div //t:extent/t:dimensions/t:width), '#0.0###')"/>
                 ) </p>
@@ -186,7 +187,7 @@
             </p>
             <h4>extent</h4>
             <p>
-                <xsl:value-of select="//t:extent/node()[not(self::t:dimensions)]"/>
+                <xsl:apply-templates select="//t:extent/node()[not(self::t:dimensions)]"/>
             </p>
             <xsl:if test="//t:foliation">
                 <h3>foliation</h3>
@@ -376,29 +377,36 @@
                             </xsl:otherwise>
                         </xsl:choose></p>
                 </div></xsl:for-each>
+            <xsl:if test="//t:ab[@type = 'ruling']"> 
+                
             <h3>ruling</h3>
             <ul>
                 <xsl:for-each select="//t:ab[@type = 'ruling']">
                     <li>
-                        <xsl:value-of select="."/>
+                        <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"/><xsl:text>) </xsl:text></xsl:if><xsl:value-of select="."/>
                     </li>
                 </xsl:for-each>
-                
-                <xsl:for-each select="//t:ab[not(@type)]">
-                    <li>
-                           <b style="color:red;">THIS ab element IS WRONGLY ENCODED. Please check the schema error report to fix it.</b>
-                        <xsl:value-of select="."/>
-                        </li>
-                </xsl:for-each>
+               
             </ul>
-            <h3>pricking</h3>
+            </xsl:if>
+            <xsl:if test="//t:ab[@type = 'pricking']"> 
+                <h3>pricking</h3>
             <ul>
                 <xsl:for-each select="//t:ab[@type = 'pricking']">
                     <li>
-                        <xsl:value-of select="."/>
+                        <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"/><xsl:text>) </xsl:text></xsl:if><xsl:value-of select="."/>
                     </li>
                 </xsl:for-each>
-            </ul>
+            </ul></xsl:if>
+            
+<xsl:if test="//t:layout//t:ab[not(@type)]">
+    <h3 style="color:red;">ab without type</h3>
+    <ul>            <xsl:for-each select="//t:ab[not(@type)]">
+                <li>
+                    <b style="color:red;">THIS ab element does not have a required type.</b>
+                    <xsl:value-of select="."/>
+                </li>
+            </xsl:for-each></ul></xsl:if>
             <h3>Palaeography</h3>
             <xsl:for-each select="//t:handNote">
                 <h4>
@@ -465,7 +473,6 @@
 
         <section id="contents">
             <h2>Description of content</h2>
-            <xsl:apply-templates select="//t:msIdentifier"/>
             <xsl:apply-templates select="//t:msContents"/>
             <h2>Additiones</h2>
             <xsl:text>In this manuscript there are </xsl:text>
@@ -483,7 +490,11 @@
                     <xsl:otherwise>.</xsl:otherwise>
                 </xsl:choose>
             </xsl:for-each>
-            <ol>
+            <xsl:if test="//t:additions/t:note">
+                <p>
+                    <xsl:apply-templates select="//t:additions/t:note"/>
+            </p>
+            </xsl:if><ol>
                 <xsl:for-each select="//t:item[contains(@xml:id, 'a')]">
                     <li>
                         <xsl:attribute name="id">

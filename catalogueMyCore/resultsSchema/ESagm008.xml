@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-02-26</date>
+            <date>2013-02-26T09:48:44.355Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0093AGM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AGM-008</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The numbering of Pss. (in a secondary hand?) is irregular and partly incorrect: e.g., Ps. 22: ፲፫, 23: ፲፬, 33: ፳፬, 110: ፻፳ etc., 118: ፻፲፯.</note>
+                     <note>- Some Pss. are numbered in a later hand in pen: e.g., fols. 10r-19r.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">153.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">153.0</measure> folios, in
+                                                  <measure unit="quire">19.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">19.5</height>
                               <width unit="cm">17.5</width>
@@ -143,7 +149,7 @@ Holes and tears amended on fols. 17-19, 23, 25, 53, 57, 97, 111, 118.</condition
                            <note>Texts I-1, I-2, I-3: all data are for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -170,7 +176,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Texts I-4, I-5: all data are for fol. 143r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -192,30 +198,40 @@ The bottom line is written above the ruling.</ab>
                         <list type="abbreviations">
                            <item>Text I-4:</item>
                            <item>
-                              <abbr>ሠ፡</abbr> for <expan>ሠረቀ፡ </expan> (fols. 141va-142ra)</item>
+                              <abbr>ሠ፡</abbr> for
+                                                  <expan>ሠረቀ፡ </expan> (fols. 141va-142ra)</item>
                            <item>
-                              <abbr>እስ፡</abbr> for <expan>እስመ፡ </expan> (fols. 142va-143va)</item>
+                              <abbr>እስ፡</abbr> for
+                                                  <expan>እስመ፡ </expan> (fols. 142va-143va)</item>
                            <item>
-                              <abbr>ኵ፡</abbr> for <expan>ኵሉ፡ </expan> (fol. 144ra-144vb)</item>
+                              <abbr>ኵ፡</abbr> for
+                                                  <expan>ኵሉ፡ </expan> (fol. 144ra-144vb)</item>
                            <item>
-                              <abbr>ናዓ፡(ብ)</abbr> for <expan>ናዓብየኪ፡ </expan> (fols. 145va-146va)</item>
+                              <abbr>ናዓ፡(ብ)</abbr> for
+                                                  <expan>ናዓብየኪ፡ </expan> (fols. 145va-146va)</item>
                            <item>
-                              <abbr>ለባ፡</abbr> for <expan>ለባሕቲትኪ፡ </expan> (fol. 147rab)</item>
+                              <abbr>ለባ፡</abbr> for
+                                                  <expan>ለባሕቲትኪ፡ </expan> (fol. 147rab)</item>
                            <item>
-                              <abbr>ተ፡(ፈ)</abbr> for <expan>ተፈሥሒ፡ </expan> (fol. 148ra-148va)</item>
+                              <abbr>ተ፡(ፈ)</abbr> for
+                                                  <expan>ተፈሥሒ፡ </expan> (fol. 148ra-148va)</item>
                            <item>
-                              <abbr>ወ፡(በ)</abbr> for <expan>ወበእንተዝ፡ </expan> (fols. 148vb-149rb)</item>
+                              <abbr>ወ፡(በ)</abbr> for
+                                                  <expan>ወበእንተዝ፡ </expan> (fols. 148vb-149rb)</item>
                            <item>
-                              <abbr>ሰ፡ ቅ፡</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fols. 142ra-149rb)</item>
+                              <abbr>ሰ፡ ቅ፡</abbr> for
+                                                  <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fols. 142ra-149rb)</item>
                            <item>
-                              <abbr>ሰ፡ ቅድ፡</abbr> for <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fols. 142vb, 143rab)</item>
+                              <abbr>ሰ፡ ቅድ፡</abbr> for
+                                                  <expan>ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (e.g., fols. 142vb, 143rab)</item>
                            <item>Text I-5:</item>
                            <item>ወበ፡(እን)for ወበእንተዝ፡ (fols. 150rb-152vb)</item>
                            <item>
-                              <abbr>(ወል)፡ ሣ፡ ይ(ክ)፡ ሰ፡ ቅ፡</abbr> for <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fols. 150vb-152vb)</item>
+                              <abbr>(ወል)፡ ሣ፡ ይ(ክ)፡ ሰ፡ ቅ፡</abbr> for
+                                                  <expan>ወልድኪ፡ ሣህሎ፡ ይክፍለነ፡ ሰአሊ፡ ለነ፡ ቅድስት፡ </expan> (fols. 150vb-152vb)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Numeral ፲ has the rare form with the ring (e.g., fols. 9r, 149vb).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 25v (explicit page of Ps. 30): coloured (red and black) ornamental band; geometric motifs.</decoNote>
@@ -228,8 +244,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 153rb: Monastic genealogy (from St. Anthony to </span><span style="line-height: 115%">&#704;&#398;wos&#7789;atewos</span><span style="line-height: 115%">).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%"><locus target="#153rb">Fol. 153rb</locus>: Monastic genealogy (from St. Anthony to </span><span style="line-height: 115%">&#704;&#398;wos&#7789;atewos</span><span style="line-height: 115%">).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the main hand or in a very similar hand.</p>
                         </item>
@@ -245,7 +260,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards (re-used; the back board is broken).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -295,11 +310,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -320,9 +330,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-17">registered</change>
-         <change who="SH" when="2013-02-26">created</change>
-         <change who="EG" when="2014-11-06">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-02-26T09:48:44.355Z">created</change>
+         <change who="EG" when="2014-11-06T08:05:23.398Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

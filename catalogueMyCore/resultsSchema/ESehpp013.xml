@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-06-01</date>
+            <date>2015-06-01T13:01:48.606Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0212EHPP"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>EHPP-013</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="115r">Fol. 115r</locus><p>Fol. 115r:</p><foreign xml:lang="en"/>
+                        <locus target="115r">&lt;p&gt;Fol. 115r:&lt;/p&gt;</locus><p>Fol. 115r:</p><foreign xml:lang="en"/>
                         <note/>
                      </colophon>
                   </msItem>
@@ -57,7 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">116.0</measure> folios, in <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">116.0</measure> folios, in
+                                                  <measure unit="quire"/> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">19.7</width>
@@ -95,7 +96,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </handNote>
                   </handDesc>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two woodern boards covered with reddish-brown tooled leather (for the most part missing).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -145,11 +146,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName role="scribe" corresp="PRS00000">Näṣṣärä ʾAb</persName>
                </person>
@@ -172,9 +168,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-11-23">registered</change>
-         <change who="DN" when="2015-06-01">created</change>
-         <change who="DN" when="2015-06-02">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="DN" when="2015-06-01T13:01:48.606Z">created</change>
+         <change who="DN" when="2015-06-02T14:27:50.124Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

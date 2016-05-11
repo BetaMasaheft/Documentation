@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-02-20</date>
+            <date>2012-02-20T14:37:01.396Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0174MAKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MAKM-083</idno>
                   <altIdentifier>
                      <idno>C4-IV-39 (fol. 173v)</idno>
@@ -48,6 +48,10 @@ The names of the donors are rubricated with strong vermilion.</rubric>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The parts of Text I (from I-1 to I-6) are divided into sections distinguished by means of rubrication of the first two lines and dividers. In contrast, in Ms.<ref type="mss" corresp="ESdd023">DD-023</ref>the sections are called mǝʾǝraf.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -55,7 +59,10 @@ The names of the donors are rubricated with strong vermilion.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">255.0</measure> folios, in <measure unit="quire">26.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">255.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1rv, 255v, in
+                                                  <measure unit="quire">26.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">30.0</height>
                               <width unit="cm">26.0</width>
@@ -64,6 +71,8 @@ The names of the donors are rubricated with strong vermilion.</rubric>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written in the upper margin: fols. 12r, 22r, 32r, 42r, 52r, 62r, 73r, 83r, 93r, 103r, 113r, 123r, 133r, 143r, 153r, 163r, 173r, 183r, 193r, 201r, 211r, 219r, 229r, 239r, 249r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">11</dim>
@@ -199,7 +208,7 @@ The spine shows concave distortion.</condition>
                            <note>Text I (fols. 2r-131vb): all data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -226,7 +235,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Text II (fols. 132r-255r): all data for fol. 134r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -246,35 +255,30 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red, strong vermilion.</seg>
                         <date>18th century (?)</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Text II seems to be written in the same hand but with slightly bigger letters; angular.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 255ra: Coloured (black and red) ornamental band; geometric motifs.</decoNote>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 193vb: Supplication prayer to St. Mary.&#160;&#160;</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#193vb">Fol. 193vb</locus>: Supplication prayer to St. Mary.&#160;&#160;</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The prayer is written on behalf of Ḥenok in the same hand as the corrections for Text I.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="text-align: justify; line-height: normal;"><span style="font-size: small;">Fol. 194r: Short supplication prayer to St. Mary.</span></div><q xml:lang="gez"/>
+                        <item xml:id="a2"><div style="text-align: justify; line-height: normal;"><span style="font-size: small;"><locus target="#194r">Fol. 194r</locus>: Short supplication prayer to St. Mary.</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Probably written in the same hand as Texts I, II.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="line-height: 115%; font-size: 10pt;">Fol. 216rb: Supplication prayer to St. Mary.&#160;&#160;</span></p><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt;">&#160;</span></p></q>
+                        <item xml:id="a3"><p><span style="line-height: 115%; font-size: 10pt;"><locus target="#216rb">Fol. 216rb</locus>: Supplication prayer to St. Mary.&#160;&#160;</span></p><q xml:lang="gez"><p><span style="line-height: 115%; font-size: 10pt;">&#160;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The prayer is written on behalf of Ḥenok in the same hand as that of the corrections for Text I.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 234ra: Supplication prayer to St. Mary.&#160;&#160;</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#234ra">Fol. 234ra</locus>: Supplication prayer to St. Mary.&#160;&#160;</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The prayer is written on behalf of Ḥenok in the same hand as that of the  corrections for Text I.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><div style="line-height: normal;"><span style="font-size: small;">Fol. 244rb: Supplication prayer to St. Mary.&#160;&#160;</span></div><q xml:lang="gez"/>
+                        <item xml:id="a5"><div style="line-height: normal;"><span style="font-size: small;"><locus target="#244rb">Fol. 244rb</locus>: Supplication prayer to St. Mary.&#160;&#160;</span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The prayer is written on behalf of Ḥenok in the same hand as that of the corrections for Text I.</p>
                         </item>
@@ -337,8 +341,13 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The names of original donors (?) have been erased. Names of three individuals, Henok, Milkiyas, Wälättä Gäbrä Mänfäs Qǝddus are written over erasures in a secondary hand, in red, fols. 8rb, 9vab, 15vb, 17ra, 17vb, 19rb, 20rb, 21vab, 28rb, 28va, 29ra, 30rab, 33rb, 35vb, 36rb, 37vab, 39vab, 42va, 43rab, 43vb, 45rab, 49rb, etc.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The names of original donors (?) have been erased. Names of three individuals, Henok, Milkiyas, Wälättä Gäbrä Mänfäs Qǝddus are written over erasures in a secondary hand, in red, fols. 8rb, 9vab, 15vb, 17ra, 17vb, 19rb, 20rb, 21vab, 28rb, 28va, 29ra, 30rab, 33rb, 35vb, 36rb, 37vab, 39vab, 42va, 43rab, 43vb, 45rab, 49rb, etc.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original owner, the church of Mäqdäla Mädḫane ʿAläm, is written in the upper margin of fol. 2r.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -362,9 +371,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-11-04">registered</change>
-         <change who="MK" when="2012-02-20">created</change>
-         <change who="MK" when="2014-09-16">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-02-20T14:37:01.396Z">created</change>
+         <change who="MK" when="2014-09-16T11:36:18.609Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

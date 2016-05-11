@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäftǝḥe śǝray “Undoing of Charms”</title>
+            <title>Mäftәḥe śәray “Undoing of Charms”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-10-22</date>
+            <date>2013-10-22T13:35:34.032Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0111SSB"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SSB-014</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">57.0</measure> folios, in <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">57.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  57v, in
+                                                  <measure unit="quire"/> quires (unknown). 
                                                 <dimensions type="outer">
                               <height unit="cm">10.0</height>
                               <width unit="cm">9.0</width>
@@ -86,7 +89,7 @@ Some fols. may be missing, some are misplaced (fol. 49).</condition>
                            <note>All data for fol. 2r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -135,8 +138,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;">Fol. 57r: Protective prayer.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 57r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961; </span><span style="line-height: 115%;">&#4768;&#4709;&#4961; </span><span style="line-height: 115%;">&#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4975;&#4813;&#4755;&#4772;&#4621;&#4961; &#4975; &#4632;</span></span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">n.l</span><span style="line-height: 115%;">.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4654;&#4840;&#4772;&#4621;&#4961;&#4961; &#4975;&#4768;&#4635;&#4753;&#4772;&#4621;&#4961; &#4635;</span></span><span style="line-height: 115%;">[n.l.]&#8230;</span></span></p></q>
+                        <item xml:id="a1"><div style="line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><locus target="#57r">Fol. 57r</locus>: Protective prayer.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 57r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961; </span><span style="line-height: 115%;">&#4768;&#4709;&#4961; </span><span style="line-height: 115%;">&#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4975;&#4813;&#4755;&#4772;&#4621;&#4961; &#4975; &#4632;</span></span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">n.l</span><span style="line-height: 115%;">.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4654;&#4840;&#4772;&#4621;&#4961;&#4961; &#4975;&#4768;&#4635;&#4753;&#4772;&#4621;&#4961; &#4635;</span></span><span style="line-height: 115%;">[n.l.]&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in a secondary hand with some distinctive features: round small letter, big forked serifs of vowel marker in ዝ, distinctive curvy hook in vowel marker of letters ቅ and ት.</p>
                         </item>
@@ -195,8 +197,8 @@ One pair of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original owner, most probably Täklä Haymanot (s. fol.  42r), has been erased throughout the Ms. and replaced with Gäbrä Ḥǝywät (fol. 3v) and Täsfa Mikaʾel (fol. 24v).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -220,9 +222,9 @@ One pair of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-29">registered</change>
-         <change who="SD" when="2013-10-22">created</change>
-         <change who="DN" when="2015-05-29">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SD" when="2013-10-22T13:35:34.032Z">created</change>
+         <change who="DN" when="2015-05-29T15:27:58.567Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

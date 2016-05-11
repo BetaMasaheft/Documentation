@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Dǝrsanä sänbätä krǝstiyan “Homily on the Sabbath of Christians” / Täʾamrä Qwǝrban “Miracles of the Eucharist”</title>
+            <title>Dәrsanä sänbätä krǝstiyan “Homily on the Sabbath of Christians” / Täʾamrä Qwǝrban “Miracles of the Eucharist”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-12-18</date>
+            <date>2014-12-18T15:41:13.898Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0196WQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>WQ-002</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,12 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I concludes with a subscriptio (fol. 24va).</note>
+                     <note>Text II concludes with three subscriptiones (fols. 40vb-41ra).</note>
+                     <note>Miracles are not numbered.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +57,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">44.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">44.0</measure> folios, in
+                                                  <measure unit="quire">7.0</measure> quires (A + 5 + B). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.5</height>
                               <width unit="cm">13.0</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written in the upper margin of fols. 11r: ፪, 18v: ፪, 19r: ፫, 25r: ፬, 33r: ፭.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -108,7 +117,7 @@ The Ms. shows traces of intensive use.</condition>
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -133,16 +142,20 @@ The ruling has been done sometimes crudely (e.g., fols. 20r-v, 23r-v).</ab>
                         <persName role="scribe" corresp="PRS00000">Mǝṣlalä ʾIyäsus</persName>Mǝṣlalä ʾIyäsus is mentioned as the scribe in the subscriptiones on fols. 24va and 40vb. He is said “beloved of blatta Kasa”.<date>18th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለዓ፡ ዓለ፡ አ</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 28va, 31va, 33ra, 37rb, 39ra)</item>
+                              <abbr>ለዓ፡ ዓለ፡ አ</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 28va, 31va, 33ra, 37rb, 39ra)</item>
                            <item>
-                              <abbr>ለዓ፡ ዓለ፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 35vb)</item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fol. 35vb)</item>
                            <item>
-                              <abbr>ለዓ፡ ዓለ፡ አሜን፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 34vb, 36va, 37rb, 38vb-39ra)</item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜን፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 34vb, 36va, 37rb, 38vb-39ra)</item>
                            <item>
-                              <abbr>ለዓለመ፡ ዓለ፡ አ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 25va, 35va)</item>
+                              <abbr>ለዓለመ፡ ዓለ፡ አ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (fols. 25va, 35va)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Right-sloping on fol. 13ra-b.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">- Fol. 3r (incipit page of Text I): coloured (red, black) ornamental band; crosses, interlaces, wings; two lateral pendants reaching the bottom of the page.</decoNote>
@@ -150,10 +163,9 @@ The ruling has been done sometimes crudely (e.g., fols. 20r-v, 23r-v).</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fol. 41ra-va: Genealogy; donation note.</span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="IT" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fol. 41ra-va: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4776;&#4826;&#4613;&#4733;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4843;&#4920;&#4941;&#4747;&#4728;&#4813;&#4961; &#4621;&#4870;&#4728;&#4961; &#4704;&#4747;&#4619;&#4637;&#4961; &#4781;&#4939;&#4725;&#4961; &#4776;&#4768;&#4872;&#4760;&#4765;&#4961; &#4720;&#4648;&#4877;&#4824;&#4813;&#4961; &#4753;&#4648;&#4813;&#4961; &#4840;&#4720;&#4808;&#4616;&#4849;&#4961; &#4621;&#4870;&#4728;&#4961; &#4824;&#4632;</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">[&#8230;]</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4637;&#4961; &#4609;&#4617;&#4961; &#4896;&#4845;&#4635;&#4757;&#4961; &#4624;&#4651;&#4961; &#4768;&#4813;&#4901;&#4731;&#4725;&#4961; &#4768;&#4616;&#4609;: &#4709;&#4725;&#4808;&#4853;&#4961; &#4776;&#4621;&#4870;&#4728;&#4961; &#4875;&#4651;&#4961; &#4725;&#4672;&#4632;&#4901;&#4961; &#4768;&#4632;&#4723;&#4724;&#4757;&#4961; &#4773;&#4840;&#4896;&#4704;&#4672;&#4733;&#4961; &#4776;&#4621;&#4870;&#4733;&#4811;&#4961; &#4875;&#4651;&#4961; &#4840;&#4826;&#4613;&#4757;&#4961; &#4609;&#4617;&#4961; &#4840;&#4720;&#4680;&#4896;&#4648;&#4961; &#4808;&#4619;&#4869;&#4961; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4755;&#4728;&#4813;&#4962; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4637;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4637;&#4961; &#4819;&#4637;&#4854;&#4637;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4819;&#4637;&#4854;&#4637;&#4961; &#4768;&#4726;&#4961; &#4608;&#4878;&#4661;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4608;&#4878;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4637;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4637;&#4961; &#4709;&#4811;&#4621;&#4723;&#4769;&#4757;&#4961; &#4824;&#4653;&#4768;&#4725;&#4757;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:"> </span><span style="font-size:10.0pt;line-height:&#10;115%;font-family:">&#8230;</span></p></q>
+                        <item xml:id="a1"><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;"><locus target="#41ra">Fol. 41ra</locus>-va: Genealogy; donation note.</span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="IT" style="font-size:10.0pt;font-family:"></span></p><q xml:lang="gez"><p><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fol. 41ra-va: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4776;&#4826;&#4613;&#4733;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4843;&#4920;&#4941;&#4747;&#4728;&#4813;&#4961; &#4621;&#4870;&#4728;&#4961; &#4704;&#4747;&#4619;&#4637;&#4961; &#4781;&#4939;&#4725;&#4961; &#4776;&#4768;&#4872;&#4760;&#4765;&#4961; &#4720;&#4648;&#4877;&#4824;&#4813;&#4961; &#4753;&#4648;&#4813;&#4961; &#4840;&#4720;&#4808;&#4616;&#4849;&#4961; &#4621;&#4870;&#4728;&#4961; &#4824;&#4632;</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">[&#8230;]</span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4637;&#4961; &#4609;&#4617;&#4961; &#4896;&#4845;&#4635;&#4757;&#4961; &#4624;&#4651;&#4961; &#4768;&#4813;&#4901;&#4731;&#4725;&#4961; &#4768;&#4616;&#4609;: &#4709;&#4725;&#4808;&#4853;&#4961; &#4776;&#4621;&#4870;&#4728;&#4961; &#4875;&#4651;&#4961; &#4725;&#4672;&#4632;&#4901;&#4961; &#4768;&#4632;&#4723;&#4724;&#4757;&#4961; &#4773;&#4840;&#4896;&#4704;&#4672;&#4733;&#4961; &#4776;&#4621;&#4870;&#4733;&#4811;&#4961; &#4875;&#4651;&#4961; &#4840;&#4826;&#4613;&#4757;&#4961; &#4609;&#4617;&#4961; &#4840;&#4720;&#4680;&#4896;&#4648;&#4961; &#4808;&#4619;&#4869;&#4961; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4755;&#4728;&#4813;&#4962; &#4773;&#4651;&#4661;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4637;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4773;&#4651;&#4661;&#4961; &#4824;&#4653;&#4819;&#4725;&#4637;&#4961; &#4819;&#4637;&#4854;&#4637;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4819;&#4637;&#4854;&#4637;&#4961; &#4768;&#4726;&#4961; &#4608;&#4878;&#4661;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4608;&#4878;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4661;&#4672;&#4621;&#4637;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4757;&#4961; &#4845;&#4808;&#4621;&#4851;&#4617;&#4961; &#4709;&#4619;&#4723;&#4961; &#4779;&#4659;&#4637;&#4961; &#4709;&#4811;&#4621;&#4723;&#4769;&#4757;&#4961; &#4824;&#4653;&#4768;&#4725;&#4757;&#4961;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:"> </span><span style="font-size:10.0pt;line-height:&#10;115%;font-family:">&#8230;</span></p></q>
                            <q xml:lang="en"/>
-                           <p>The note is possibly written in the main hand. The first part is written in Amharic and contains the following genealogy: ʾƎras Giyorgis, ʾƎras Zärʿat, ʿAmdom, ʾato Hagos, Gäbrä Mäsqäl, blatta Kasa, Bǝwaltaʾu (Gäbrä Mikaʾel Bǝwältaʾu is also mentioned in subscriptio on fol. 41ra). The second part is written in Gǝʿǝz and states that blatta Kasa donated this book to Qǝddus Qirqos ʾAd Subha.</p>
+                           <p>The note is possibly written in the main hand. The first part is written in Amharic and contains the following genealogy: ʾƎras Giyorgis, ʾƎras Zärʿat, ʿAmdom, ʾato Hagos, Gäbrä Mäsqäl, blatta Kasa, Bǝwaltaʾu (Gäbrä Mikaʾel Bǝwältaʾu is also mentioned in subscriptio on fol. 41ra). The second part is written in Gәʿәz and states that blatta Kasa donated this book to Qǝddus Qirqos ʾAd Subha.</p>
                         </item>
                         <item xml:id="e1">- Omitted letters or words inserted interlineally, fols. 13ra, 15rb, 22vb, 26vb, 34va, 36rb, 38ra.&#xD;
 - Corrections written over erasures: fol. 12ra. &#xD;
@@ -216,8 +228,8 @@ Fols. of quire V are reinforced by one-stitched repairs.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wäldä Śǝllase is mentioned as the donor in Additio 1. His name is also written in the supplication formulas (e.g., fols. 3r, 29vb, 34vb, 40vb). He is said blatta Kasa on fol. 40vb. His father Zä-Wäldä Maryam Gäbrä Mäsqäl and his mother Wälätta Muse are mentioned in the subscriptiones on fols. 24va and 40vb.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wäldä Śǝllase is mentioned as the donor in Additio 1. His name is also written in the supplication formulas (e.g., fols. 3r, 29vb, 34vb, 40vb). He is said blatta Kasa on fol. 40vb. His father Zä-Wäldä Maryam Gäbrä Mäsqäl and his mother Wälätta Muse are mentioned in the subscriptiones on fols. 24va and 40vb.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -245,9 +257,9 @@ Fols. of quire V are reinforced by one-stitched repairs.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-11-30">registered</change>
-         <change who="MV" when="2014-12-18">created</change>
-         <change who="MV" when="2015-01-07">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MV" when="2014-12-18T15:41:13.898Z">created</change>
+         <change who="MV" when="2015-01-07T09:47:58.193Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

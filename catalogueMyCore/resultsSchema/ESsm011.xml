@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-07-06</date>
+            <date>2012-07-06T15:47:44.329Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0053SM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SM-011</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,11 @@ The names of the donors in fol. 148rb are rubricated in crimson.</rubric>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The traditional titles of the Psalms are missing.</note>
+                     <note>The titles present in the Ms. correspond to those in the Hebrew Bible. The titles of many Pss. are preceded by the word ፍጻሜ („completion“, „end“), perhaps referring to the ending of the previous psalm.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +57,8 @@ The names of the donors in fol. 148rb are rubricated in crimson.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">164.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">164.0</measure> folios, in
+                                                  <measure unit="quire">22.0</measure> quires (A+20+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">18.3</height>
                               <width unit="cm">17.0</width>
@@ -158,7 +164,7 @@ A tear carefully amended at the bottom of fol. 150.</condition>
 All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C</ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -186,7 +192,7 @@ The bottom line is written above the ruling.</ab>
 All data for fol. 149r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -206,67 +212,56 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red, crimson</seg>
                         <date>18th century</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Text II in fols. 147bv-dr is written in a recent, poorly-trained hand.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 1r-v: Mälkǝʾa Gäbrä Krǝstos “Image of Gäbrä Krǝstos”, incomplete.<br /> </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#1r">Fol. 1r</locus>-v: Mälkǝʾa Gäbrä Krǝstos “Image of Gäbrä Krǝstos”, incomplete.<br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The text corresponds to the second part of Mälkǝʾa Gäbrä Krǝstos (pp. 40-42 from the words ሰላም፡ ለከ፡ ሰላማዊ፡ መናኔ) which is included in the edition Gädlä Gäbrä Krǝstos (in Gǝʿǝz and Amharic), Addis Abäba 1958 A.M. 
 Written crudely in black ink.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 1v (the bottom margin): Historiographic note. </span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 1v (the bottom margin): </span></span><span style="font-size: medium"><span style="line-height: 115%">አመ፡ ይጸብኡ፡ ምስለ፡ ሐፄ፡ አድማስ፡ ወተዝካሮ…</span></span></p></q>
+                        <item xml:id="a2"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#1v">Fol. 1v</locus>(the bottom margin): Historiographic note. </span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 1v (the bottom margin): </span></span><span style="font-size: medium"><span style="line-height: 115%">አመ፡ ይጸብኡ፡ ምስለ፡ ሐፄ፡ አድማስ፡ ወተዝካሮ…</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Half of the note is effaced. Perhaps the note refers to the struggle between king Minas (ʾAdmas Sägäd) and his nephew Täzkarä Dǝngǝl (Täzkaro) in 1560/61. At the end, there is number ፶ወ፯.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 2r: Ownership note.</span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 2r:</span></span><span style="font-size: medium"><span style="line-height: 115%"> </span><span style="line-height: 115%">ዛቲ፡ መጽሐፍ፡ ዘወልደ፡ ዓቢይ፡ እግዚእ፡ ትኩኖ፡ መርሖ፡ ለመንግሥተ፡ ሰማያት፡ ወለብእሲቱ</span></span></p></q>
+                        <item xml:id="a3"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#2r">Fol. 2r</locus>: Ownership note.</span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 2r:</span></span><span style="font-size: medium"><span style="line-height: 115%"> </span><span style="line-height: 115%">ዛቲ፡ መጽሐፍ፡ ዘወልደ፡ ዓቢይ፡ እግዚእ፡ ትኩኖ፡ መርሖ፡ ለመንግሥተ፡ ሰማያት፡ ወለብእሲቱ</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small">Fol. 2r: This is the book of Wäldä ʿAbiyä ʾƎgziʾ; may it be the guide to the Heavenly Kingdom, for him and for his wife.</span></p></q>
                            <p>The note is crudely written.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 148r: Ownership note.</span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 148r: </span></span><span style="font-size: medium"><span style="line-height: 115%">ዝዳዊት፡ ዘቄስ፡ ገበረ፡ ማርያም፡ ወብእሲቱ፡ ወለተ፡ ማርያም</span></span></p></q>
+                        <item xml:id="a4"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#148r">Fol. 148r</locus>: Ownership note.</span></div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 148r: </span></span><span style="font-size: medium"><span style="line-height: 115%">ዝዳዊት፡ ዘቄስ፡ ገበረ፡ ማርያም፡ ወብእሲቱ፡ ወለተ፡ ማርያም</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 148r: This is a Psalter of priest Gäbrä Maryam and his wife Wälättä Maryam. </span></span></p></q>
                            <p>The note is crudely written crudely in black ink, the word ማርያም is rubricated.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 148r: Supplication prayer to Mary for the donor and his family.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a5"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#148r">Fol. 148r</locus>: Supplication prayer to Mary for the donor and his family.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>At the end of the prayer the baptismal names of the donor and members of his family are mentioned: Wäldä ʿAbiyä ʾƎgziʾ, Gäbrä Kidan, Wäldä Śǝllase, Wälättä Maryam, Täklä Giyorgis, Wälättä Muse, Wälättä Giyorgis.
 Written in black ink; the majority of the baptismal names are rubricated.</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 158rb: Ownership note. </span></div><q xml:lang="gez"/>
+                        <item xml:id="a6"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#158rb">Fol. 158rb</locus>: Ownership note. </span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note contains the baptismal names of the owner and members of his family: Wäldä ʿAbiyä ʾƎgziʾ, Wäldä Śǝllase, Gäbrä Maryam, Gäbrä Kidan.</p>
                         </item>
-                        <item xml:id="a7">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 162vb (above): </span><span style="line-height: 115%; color: black">ʾAsmat-prayer</span><span style="line-height: 115%">.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a7"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#162vb">Fol. 162vb</locus>(above): </span><span style="line-height: 115%; color: black">ʾAsmat-prayer</span><span style="line-height: 115%">.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is carefully written.</p>
                         </item>
-                        <item xml:id="a8">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 162vb (below): </span><span style="line-height: 115%; color: black">Magic recipe. </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a8"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#162vb">Fol. 162vb</locus>(below): </span><span style="line-height: 115%; color: black">Magic recipe. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in black ink, in Amharic.</p>
                         </item>
-                        <item xml:id="a9">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 163r: The Vita of St. Roch (Roqo) followed by an </span><span style="line-height: 115%; color: black">ʾasmat-prayer.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a9"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#163r">Fol. 163r</locus>: The Vita of St. Roch (Roqo) followed by an </span><span style="line-height: 115%; color: black">ʾasmat-prayer.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The Vita of St. Roch (commemorated on 26 Miyazya) is identical to the one included in the edited Synaxarion (Mäṣḥafä Sǝnkǝssar. Kä-mäggabit ǝskä ṗagʷǝmen, Addis Abäba 1993 EC). Saint Roch was given a covenant from Christ that those asking for his intercession will be spared from "pest" (ḥǝmamä bǝdbǝd). Сp. V. PLATONOV, Efiopskie rukopisi v sobranijah Sankt Peterburga, St. Petersburg 1996, 21, no. 13 - Ef. 41 (a Synaxarion notice for 23 Miyazya, St. Roqo/Roch); GrébGriaule II, 74, Éthiopien 259 - Griale 55.
 The Vita is followed by an ʾasmat-prayer for an individual called Wäldä Śǝllase. The supplicant asks for saving him from barya, fera, nǝdad (l. 11) and waba (l. 20). 
 Written in ink by a trained hand. The last six lines of the text are blurred but they are readable. 
 In the upper margin, there are two captions, the one on the left being effaced.</p>
                         </item>
-                        <item xml:id="a10">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fols. 163v-164r: Hymn to St. George.</span></div> <div style="text-align: justify; line-height: normal"> </div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 163v: </span></span><span style="font-size: medium"><span style="line-height: 115%">&#4768;&#4676;&#4653;&#4709;&#4616;&#4776;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4875;&#4851;&#4961; &#4616;&#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4782;&#4776;&#4704;&#4961; &#4621;&#4851;&#4962; &#4624;&#4620;&#4617;&#4843;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
+                        <item xml:id="a10"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#163v">Fols. 163v-164</locus>r: Hymn to St. George.</span></div> <div style="text-align: justify; line-height: normal"> </div><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 163v: </span></span><span style="font-size: medium"><span style="line-height: 115%">&#4768;&#4676;&#4653;&#4709;&#4616;&#4776;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4808;&#4875;&#4851;&#4961; &#4616;&#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4782;&#4776;&#4704;&#4961; &#4621;&#4851;&#4962; &#4624;&#4620;&#4617;&#4843;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in angular script by a trained hand. The last 3 lines of the text in fol. 163v and the last 6 lines in fol. 164r are effaced.</p>
                         </item>
-                        <item xml:id="a11">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small"><span style="color: black">Fol. 147r: Supplication note. </span></span></div><q xml:lang="gez"/>
+                        <item xml:id="a11"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><span style="color: black"><locus target="#147r">Fol. 147r</locus>: Supplication note. </span></span></div><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>In the note, which follows the register of the feasts of the 12 Apostles, qes Bärḥe entreats for commemorating him. It is written in Amharic, in a poor hand.</p>
                         </item>
@@ -282,7 +277,7 @@ In the upper margin, there are two captions, the one on the left being effaced.<
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with brown tooled leather. &#xD;
 Overback made of tooled leather of somewhat different colour which is torn off and partly missing at the back board.  &#xD;
 Two pairs of sewing stations.</decoNote>
@@ -293,6 +288,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.&#xD;
 A parchment guard has been inserted in the centrefold of quire XX.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover (at least 5 tools are used: single line fillet, single circle, corni-form, x-form, criss-cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -336,8 +332,9 @@ If the note in Additio 2 concerns King Minas (ʾAdmas Sägäd) and if it was wri
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Priest Gäbrä Maryam and his wife Wälättä Maryam are mentioned as the owners in Additio 4.&#xD;
+Wäldä ʿAbiyä ʾƎgziʾ is mentioned as the owner in Additio 3 and together with Gäbrä Kidan, Wäldä Śǝllase, Wälättä Maryam, Täklä Giyorgis, Wälättä Muse, Wälättä Giyorgis in a prayer in Additio 5.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -362,9 +359,9 @@ If the note in Additio 2 concerns King Minas (ʾAdmas Sägäd) and if it was wri
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-14">registered</change>
-         <change who="MK" when="2012-07-06">created</change>
-         <change who="SD" when="2014-09-10">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-07-06T15:47:44.329Z">created</change>
+         <change who="SD" when="2014-09-10T13:28:35.060Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

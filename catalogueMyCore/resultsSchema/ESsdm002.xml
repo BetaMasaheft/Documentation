@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-06-02</date>
+            <date>2014-06-02T09:38:48.906Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0177SDM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SDM-002</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,13 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The second part of Text I-1 is introduced with the word mǝʿǝraf “chapter”.</note>
+                     <note>- The scribe included in numbering the miracles, the sections of Text I-2.</note>
+                     <note>- The miracles are introduced with words täʾamǝr “miracle”, nägär “speech” or mǝʿǝraf “chapter”. A few miracles have no particular introductory word.</note>
+                     <note>- The first part of Text I-3 is regarded as a part of Text I-2 (with the title täʾamǝr "miracle" and with the number 72)</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +59,10 @@ A few groups of lines (alternating with black lines) on the incipit page of Text
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">98.0</measure> folios, in <measure unit="quire">11.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">98.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 3v, 4rv, 98rv, 99rv, in
+                                                  <measure unit="quire">11.0</measure> quires (A+10). 
                                                 <dimensions type="outer">
                               <height unit="cm">27.0</height>
                               <width unit="cm">20.0</width>
@@ -123,7 +133,7 @@ Holes are carefully amended on fols. 25, 40, 41, 49, 61.</condition>
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -147,8 +157,7 @@ His handwriting is similar to the scribe Wäldä Maryam who produced Ms. QMB-005
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p style="text-align: justify;"><span style="font-size: small;"><span style="color: black; line-height: 115%;">Fols. 1va-4ra: &#704;&#398;s&#228;gg&#601;d l&#228;-m&#228;l&#228;kot&#601;k&#228;...&#8220;I worship Thy Godhead&#8230;&#8221;</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p style="text-align: justify;"><span style="font-size: small;"><span style="color: black; line-height: 115%;"><locus target="#1va">Fols. 1va-4</locus>ra: &#704;&#398;s&#228;gg&#601;d l&#228;-m&#228;l&#228;kot&#601;k&#228;...&#8220;I worship Thy Godhead&#8230;&#8221;</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The prayer is written in the main hand. The words ʾǝsäggǝd lä-mäläkotǝkä “I worship Thy Godhead” are rubricated.</p>
                         </item>
@@ -166,6 +175,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, close to the head the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">A crude design of the cross has been scored on both boards.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -208,11 +218,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName role="scribe" corresp="PRS00000">Wäldä Maryam</persName>
                </person>
@@ -235,9 +240,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-16">registered</change>
-         <change who="MK" when="2014-06-02">created</change>
-         <change who="MB" when="2015-04-21">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2014-06-02T09:38:48.906Z">created</change>
+         <change who="MB" when="2015-04-21T19:32:46.630Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

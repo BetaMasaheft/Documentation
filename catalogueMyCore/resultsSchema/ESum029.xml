@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2010-07-28</date>
+            <date>2010-07-28T12:48:17.822Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0017UQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>UM-029</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I-1 includes the hymns:</note>
+                     <note>- ʾO-ʾәgzǝʾtǝyä qǝddǝst dǝngǝl bä-kǝlʾe Maryam wäladitä ʾamlak ... "O my Lady, Holy Two-fold Virgin Mary, Godbearing ..."(fols. 7vb-8ra)</note>
+                     <note>- Sälam läki ʾo-ʾәgzǝʾtǝyä Maryam ʾǝmmu lä bǝrhan wä-ʾǝmmä mädḫǝn ... "Salutation to you, o my Lady Mary, Mother of the Light and Mother of the Saviour ..." (fol. 8ra-rb).</note>
+                     <note/>
+                     <note>The miracles (Text I-4) are not numbered.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +59,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">88.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">88.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  fol. 1rv, 85v-86r, 87v-88v, in
+                                                  <measure unit="quire">10.0</measure> quires (A+8+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">29.0</height>
                               <width unit="cm">23.5</width>
@@ -60,6 +71,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Undecorated quire marks are written in the left upper margin, in the main hand: fols. 15r: ፪, 25r: ፫, 35r: ፬, 45r: ፭, 55r:፮, 65r: ፰, 75r: ፯.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">4</dim>
@@ -122,7 +136,7 @@ Cut carefully repaired on fol. 64.</condition>
                            <note>All data are for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern:</ab>
                            <ab>
 fols. 1r-4v: 1A-1A-1A1A/0-0/0-0/B!.</ab>
@@ -169,31 +183,27 @@ Three nine dot red and black asterisks (e.g. fol. 16r); Two nine dot red and bla
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fols. 2ra-4vb: Excerpts from the Gospels and two miracles of Mary.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#2ra">Fols. 2ra-4</locus>vb: Excerpts from the Gospels and two miracles of Mary.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The names of Täwäldä Mädḫǝn, Wälättä Mädḫǝn and Täklä Haymanot are written in the supplication formulas.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 85ra: Donation note.</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 85ra: </span><span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4674;&#4653;&#4678;&#4661;&#4961; &#4822;&#4651;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;{&#4875;}&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4633;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961;</span></p></q>
+                        <item xml:id="a2"><p><locus target="#85ra">Fol. 85ra</locus>: Donation note.</p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 85ra: </span><span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4674;&#4653;&#4678;&#4661;&#4961; &#4822;&#4651;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;{&#4875;}&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4633;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961;</span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in the same hand as Additio 1.
 Above this note, a very similar donation note (including a Dǝrsanä Mikaʾel) is written in the same hand.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p>Fol. 85ra: Genealogy of the family of ba&#7717;r n&#228;ga&#347;i T&#228;w&#228;ld&#228; M&#228;d&#7723;&#601;n.</p><q xml:lang="gez"><p>Fol. 85ra: <span style="font-size: large;">&#4829;&#4720;&#4813;&#4621;&#4853;&#4961; &#4704;&#4616;&#4811;&#4845;&#4961; &#4736;&#4848;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4736;&#4848;&#4648; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4651;&#4873;&#4820;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4651;&#4873;&#4820;&#4621;&#4961; &#4824;&#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4616;&#4961; &#4824;&#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4768;&#4757;&#4851;&#4725;&#4961; &#4808;&#4616;&#4848;&#4961; &#4768;&#4757;&#4851;&#4725;&#4961; &#4873;&#4817;&#4619;&#4845;&#4961; &#4808;&#4616;&#4848;&#4961; &#4873;&#4817;&#4619;&#4845;&#4961; &#4768;&#4848;&#4757;&#4843;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4768;&#4848;&#4757;&#4843;&#4661;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4880;&#4845;&#4723;&#4755;&#4961; &#4880;&#4665;&#4961; &#4768;&#4636;&#4724;&#4961; &#4808;&#4616;&#4720;&#4961; &#4757;&#4873;&#4645;&#4961; &#4971;&#4721;&#4961; &#4808;&#4616;&#4848;&#4961; &#4808;&#4773;&#4638;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4677;&#4616;&#4661;&#4843;&#4961;&#4962; &#4848;&#4674;&#4673;&#4961; &#4616;&#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4824;&#4813;&#4848;&#4961; &#4720;&#4656;&#4635;&#4961; &#4776;&#4704;&#4848;&#4813;&#4961; &#4709;&#4650;&#4721;&#4961; &#4616;&#4637;&#4616;&#4637;&#4961; &#4768;&#4704;&#4651;&#4669;&#4961; &#4813;&#4708;&#4961; &#4975; &#4808;&#4616;&#4848;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4808;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4768;&#4707;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962; &#4620;&#4618;&#4725;&#4755;&#4961; &#4632;&#4819;&#4621;&#4725;&#4961; &#4752;&#4723;&#4741;&#4643;&#4645;&#4961; &#4821;&#4649;&#4845;&#4961; &#4752;&#4813;&#4962;</span></p></q>
+                        <item xml:id="a3"><p><locus target="#85ra">Fol. 85ra</locus>: Genealogy of the family of ba&#7717;r n&#228;ga&#347;i T&#228;w&#228;ld&#228; M&#228;d&#7723;&#601;n.</p><q xml:lang="gez"><p>Fol. 85ra: <span style="font-size: large;">&#4829;&#4720;&#4813;&#4621;&#4853;&#4961; &#4704;&#4616;&#4811;&#4845;&#4961; &#4736;&#4848;&#4648;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4736;&#4848;&#4648; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4808;&#4616;&#4848;&#4961; &#4768;&#4709;&#4653;&#4611;&#4637;&#4961; &#4651;&#4873;&#4820;&#4621;&#4961; &#4808;&#4616;&#4848;&#4961; &#4651;&#4873;&#4820;&#4621;&#4961; &#4824;&#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4616;&#4961; &#4824;&#4618;&#4707;&#4758;&#4661;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4768;&#4757;&#4851;&#4725;&#4961; &#4808;&#4616;&#4848;&#4961; &#4768;&#4757;&#4851;&#4725;&#4961; &#4873;&#4817;&#4619;&#4845;&#4961; &#4808;&#4616;&#4848;&#4961; &#4873;&#4817;&#4619;&#4845;&#4961; &#4768;&#4848;&#4757;&#4843;&#4661;&#4961; &#4808;&#4616;&#4848;&#4961; &#4768;&#4848;&#4757;&#4843;&#4661;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4880;&#4845;&#4723;&#4755;&#4961; &#4880;&#4665;&#4961; &#4768;&#4636;&#4724;&#4961; &#4808;&#4616;&#4720;&#4961; &#4757;&#4873;&#4645;&#4961; &#4971;&#4721;&#4961; &#4808;&#4616;&#4848;&#4961; &#4808;&#4773;&#4638;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4677;&#4616;&#4661;&#4843;&#4961;&#4962; &#4848;&#4674;&#4673;&#4961; &#4616;&#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4824;&#4813;&#4848;&#4961; &#4720;&#4656;&#4635;&#4961; &#4776;&#4704;&#4848;&#4813;&#4961; &#4709;&#4650;&#4721;&#4961; &#4616;&#4637;&#4616;&#4637;&#4961; &#4768;&#4704;&#4651;&#4669;&#4961; &#4813;&#4708;&#4961; &#4975; &#4808;&#4616;&#4848;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4808;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4768;&#4707;&#4961; &#4916;&#4901;&#4654;&#4661;&#4962; &#4620;&#4618;&#4725;&#4755;&#4961; &#4632;&#4819;&#4621;&#4725;&#4961; &#4752;&#4723;&#4741;&#4643;&#4645;&#4961; &#4821;&#4649;&#4845;&#4961; &#4752;&#4813;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in the same hand as Additiones 1 and 2.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p>Fol. 85rb: Record concerning the "addition" (t&#228;wsak) for the clergy at the feasts.</p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><locus target="#85rb">Fol. 85rb</locus>: Record concerning the "addition" (t&#228;wsak) for the clergy at the feasts.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the same hand as Additiones 1-3.</p>
                         </item>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (spine is missing); textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -203,6 +213,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible on the spine folds of the quires, close to the head and the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 6 tools were used: double line fillet, interlaced line fillet, double line fillet with dots, double circle, cross hatching, criss-cross).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -245,8 +256,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additiones 1-3, the donor is baḥr nägaśi Täwäldä Mädḫǝn. His name and the name of his wife Wälättä Mädḫǝn and his daughter Wälättä Yoḥannǝs has been added to the supplication formulas, in the same hand as that of Additiones 1-4.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additiones 1-3, the donor is baḥr nägaśi Täwäldä Mädḫǝn. His name and the name of his wife Wälättä Mädḫǝn and his daughter Wälättä Yoḥannǝs has been added to the supplication formulas, in the same hand as that of Additiones 1-4.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -270,9 +281,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-04-29">registered</change>
-         <change who="DN" when="2010-07-28">created</change>
-         <change who="DN" when="2015-01-10">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="DN" when="2010-07-28T12:48:17.822Z">created</change>
+         <change who="DN" when="2015-01-10T11:59:04.636Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

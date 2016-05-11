@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-02-05</date>
+            <date>2015-02-05T08:39:21.298Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0017UM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>UM-053</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text III concludes with a supplication for the owner and his maid (fol. 62r).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">63.0</measure> folios, in <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">63.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  2v, 3r, 3v., in
+                                                  <measure unit="quire">8.0</measure> quires (A + 7). 
                                                 <dimensions type="outer">
                               <height unit="cm">11.0</height>
                               <width unit="cm">8.0</width>
@@ -113,7 +120,7 @@ Cut amended on fol. 46.</condition>
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling">15 lines on fols. 40r-62r (quires V-VII)</ab>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -134,22 +141,26 @@ The bottom line is written above the ruling.</ab>
                         <date>Mid-18th – mid-19th century.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>አ፡</abbr> for <expan>አምሕለከ፡ </expan> (fols. 42r-v, 43r-v, 44r-v, 45r)</item>
+                              <abbr>አ፡</abbr> for
+                                                  <expan>አምሕለከ፡ </expan> (fols. 42r-v, 43r-v, 44r-v, 45r)</item>
                            <item>
-                              <abbr>አም፡</abbr> for <expan>አምሕለከ፡ </expan> (fols. 42v, 43r )</item>
+                              <abbr>አም፡</abbr> for
+                                                  <expan>አምሕለከ፡ </expan> (fols. 42v, 43r )</item>
                            <item>
-                              <abbr>ኦ፡</abbr> for <expan>ኦወልድየ፡ </expan> (fol. 42v, 43r, 44r)</item>
+                              <abbr>ኦ፡</abbr> for
+                                                  <expan>ኦወልድየ፡ </expan> (fol. 42v, 43r, 44r)</item>
                            <item>
-                              <abbr>ኦወ፡</abbr> for <expan>ኦወልድየ፡ </expan> (fol. 42v, 43r)</item>
+                              <abbr>ኦወ፡</abbr> for
+                                                  <expan>ኦወልድየ፡ </expan> (fol. 42v, 43r)</item>
                            <item>
-                              <abbr>መ፡</abbr> for <expan>መሐልኩ፡ </expan> (fols. 57v, 58r-v, 59r-v, 60r-v)</item>
+                              <abbr>መ፡</abbr> for
+                                                  <expan>መሐልኩ፡ </expan> (fols. 57v, 58r-v, 59r-v, 60r-v)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>&#160;<span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">Fols. 62v: Condemnation for those who steal the book.</span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 62v</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4616;&#4824;&#4936;&#4624;&#4683;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4771;&#4709;&#4961; &#4808;&#4808;<span style="font-size: small;">[</span>&#4621;<span style="font-size: small;">]</span>&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span></span></p></q>
+                        <item xml:id="a1"><p>&#160;<span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:"><locus target="#62v">Fols. 62v</locus>: Condemnation for those who steal the book.</span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-US" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 62v</span></span><span lang="EN-US" style="font-size:10.0pt;line-height:&#10;115%;font-family:">: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4616;&#4824;&#4656;&#4648;&#4675;&#4961; &#4808;&#4616;&#4824;&#4936;&#4624;&#4683;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4771;&#4709;&#4961; &#4808;&#4808;<span style="font-size: small;">[</span>&#4621;<span style="font-size: small;">]</span>&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4872;&#4709;&#4648;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written in red (crimson) pen and mentions Gäbrä Krǝstos.</p>
                         </item>
@@ -164,7 +175,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards.&#xD;
 One pair of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial"/>
@@ -212,8 +223,9 @@ One pair of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the former owner has been erased in the supplication formulas on fols. 38v, 39r, 62r, and replaced in a secondary hand with the name of Gäbrä Krǝstos. Gäbrä Krǝstos is also mentioned in Additio 1.&#xD;
+Currently in private possession of qäšši ʿUqubay Mägäbo.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -237,9 +249,9 @@ One pair of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2014-06-07">registered</change>
-         <change who="MV" when="2015-02-05">created</change>
-         <change who="MV" when="2015-03-23">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MV" when="2015-02-05T08:39:21.298Z">created</change>
+         <change who="MV" when="2015-03-23T11:00:31.107Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

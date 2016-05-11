@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2010-09-29</date>
+            <date>2010-09-29T12:55:51.934Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0065"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AMQ-009</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">112.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">112.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  95v-96v, 112r-v, in
+                                                  <measure unit="quire">14.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">19.5</width>
@@ -127,7 +130,7 @@ The sewing has been crudely repaired with recent threads.</condition>
                            <note>Fols. 1r-8r (quire I). All data for fol. 8r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -154,7 +157,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Fols. 9r-79v, 97r-112v (quires II-X, XIII-XIV). All data for fol. 51r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -181,7 +184,7 @@ The bottom line is written above the ruling.</ab>
                            <note>Fols. 80r-96v (quires XI-XII). All data for for. 88r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -200,10 +203,13 @@ The bottom line is written above the ruling.</ab>
                         <ab type="script">Mediocre</ab>
                         <seg type="ink">Black; red.</seg>The name of the scribe (hand b) was mentioned in Additio 1 and later erased; it was possibly Gäbrä Giyorgis, or Kǝflä or Täklä Giyorgis etc.<date>Hand b: 18th cent. (?) rounded broad script; hand a, hand c: 19th cent. räqiq scripts.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
-                     <handNote xml:id="h3" script="Ethiopic">mediocre, poorly executed.</handNote>
-                     <handNote xml:id="h4" script="Ethiopic">upright or nearly left-sloping, with thick vertical strokes, the size of the letters in quires XIII-XIV seems to be slightly smaller. </handNote>
-                     <handNote xml:id="h5" script="Ethiopic">mediocre, at some places poorly executed (somewhat similar to hand a), with many discontinuities; some letters have hairlines, bifurcated extremities.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">At least three hand seems to be discernible:<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand a (quire I): mediocre, poorly executed.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h4" script="Ethiopic">
+Hand b (quires II-X, XIII-XIV): upright or nearly left-sloping, with thick vertical strokes, the size of the letters in quires XIII-XIV seems to be slightly smaller. <!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h5" script="Ethiopic">
+Hand c (quire XI-XII): mediocre, at some places poorly executed (somewhat similar to hand a), with many discontinuities; some letters have hairlines, bifurcated extremities.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="miniature" xml:id="d1">
@@ -214,13 +220,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 77v: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 77v:</span>&#160; <span style="font-size: large;">{&#4616;&#4829;&#4757;&#4721;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4632;&#4925;&#4624;&#4941;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4824;&#4720;&#4659;&#4840;&#4902;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4704;&#4757;&#4811;&#4841;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4632;&#4621;&#4776;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4924;&#4852;&#4677;<span style="line-height: 115%; font-family: Nyala;">&#4961;<span style="font-family: Arial;">}</span> </span>&#4808;&#4824;&#4632;&#4925;&#4811;&#4726;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4616;&#4677;&#4849;&#4661;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> {&#4674;&#4653;&#4678;&#4661;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4768;&#4853;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4877;&#4651;&#4725;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4637;&#4661;&#4616;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4848;&#4674;&#4673;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4808;}&#4637;&#4661;&#4616;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4752;&#4941;&#4657;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4629;&#4705;&#4648;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4845;&#4637;&#4624;&#4654;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4770;&#4725;&#4653;&#4661;&#4769;&#4754;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4768;&#4705;&#4752;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4968; &#4968; &#4968; &#4808;&#4920;&#4624;&#4938;&#4609;&#4754; </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961; &lt;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.&gt; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942; &lt;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.&gt;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span></span></p> <p></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#77v">Fol. 77v</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 77v:</span>&#160; <span style="font-size: large;">{&#4616;&#4829;&#4757;&#4721;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4632;&#4925;&#4624;&#4941;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4824;&#4720;&#4659;&#4840;&#4902;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4704;&#4757;&#4811;&#4841;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4632;&#4621;&#4776;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4924;&#4852;&#4677;<span style="line-height: 115%; font-family: Nyala;">&#4961;<span style="font-family: Arial;">}</span> </span>&#4808;&#4824;&#4632;&#4925;&#4811;&#4726;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4616;&#4677;&#4849;&#4661;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> {&#4674;&#4653;&#4678;&#4661;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4768;&#4853;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4877;&#4651;&#4725;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4637;&#4661;&#4616;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4848;&#4674;&#4673;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4808;}&#4637;&#4661;&#4616;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4752;&#4941;&#4657;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4629;&#4705;&#4648;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4845;&#4637;&#4624;&#4654;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4770;&#4725;&#4653;&#4661;&#4769;&#4754;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4768;&#4705;&#4752;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4968; &#4968; &#4968; &#4808;&#4920;&#4624;&#4938;&#4609;&#4754; </span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961; &lt;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.&gt; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942; &lt;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.&gt;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span></span></p> <p></p></q>
                            <q xml:lang="en"/>
                            <p>Originally, the note was written in hand b, but some parts were erased, and the note was modified in hand c. The name of the original commissioner (Wäldä Krǝstos?) has also been erased, that of Mälkä Ṣedek has been inserted over the erasure.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 94r: Hymn to St. Mary (?), unidentified, incomplete. </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 94r:&#160;&#160; </span><span style="font-size: large;">&#4656;&#4619;&#4637;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4616;&#4778;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4653;&#4877;&#4709;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4656;&#4635;&#4843;&#4810;&#4725;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4808;&#4757;&#4661;&#4653;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4632;&#4757;&#4936;&#4659;&#4810;&#4725;<span style="line-height: 115%; font-family: Nyala;">&#4962;&#160;&#4616;&#4778;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;&#160;&#4661;&#4637;&#4648;&#4720;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;&#160;&#4768;&#4709;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;&#160;&#4808;&#4808;&#4621;&#4853;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#94r">Fol. 94r</locus>: Hymn to St. Mary (?), unidentified, incomplete. </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 94r:&#160;&#160; </span><span style="font-size: large;">&#4656;&#4619;&#4637;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4616;&#4778;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4653;&#4877;&#4709;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4656;&#4635;&#4843;&#4810;&#4725;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4808;&#4757;&#4661;&#4653;<span style="line-height: 115%; font-family: Nyala;">&#4961;</span> &#4632;&#4757;&#4936;&#4659;&#4810;&#4725;<span style="line-height: 115%; font-family: Nyala;">&#4962;&#160;&#4616;&#4778;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;&#160;&#4661;&#4637;&#4648;&#4720;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;&#160;&#4768;&#4709;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;&#160;&#4808;&#4808;&#4621;&#4853;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">&#4961;</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span><span style="font-size: large;"><span style="line-height: 115%; font-family: Nyala;">.</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>Written carelessly, in hand c (but in the black ink of different tone), with many lacunae.</p>
                         </item>
@@ -232,7 +236,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (the back board is missing).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -240,6 +244,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">none</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -282,8 +287,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The names of the original donor or commissioner have been erased from the supplication formulas and Additio 1, but one name is partly discernible, possibly as Wäldä Krǝstos (fols. 60r, 108r), the name of Wälättä Kidan is mentioned on fol. 75r, 77va. &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The names of the original donor or commissioner have been erased from the supplication formulas and Additio 1, but one name is partly discernible, possibly as Wäldä Krǝstos (fols. 60r, 108r), the name of Wälättä Kidan is mentioned on fol. 75r, 77va. &#xD;
 Another individual, Mälkä Ṣedek, is mentioned as the donor in Additio 1 (hand c) and in the supplication formulas (e.g., fols. 8vb (hand a) with his father Täklä Giyorgis, further in many cases the name is inserted over erasure, s. fols. 14r, 17r and 18r, 18vb-19ra, etc., 111r, etc.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -308,9 +313,9 @@ Another individual, Mälkä Ṣedek, is mentioned as the donor in Additio 1 (han
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-19">registered</change>
-         <change who="SA" when="2010-09-29">created</change>
-         <change who="DN" when="2015-02-18">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2010-09-29T12:55:51.934Z">created</change>
+         <change who="DN" when="2015-02-18T18:59:52.934Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

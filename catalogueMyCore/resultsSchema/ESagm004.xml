@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-09-30</date>
+            <date>2013-09-30T16:45:00.056Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0093AGM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AGM-004</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,15 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Most of the miracles of all texts are numbered.</note>
+                     <note/>
+                     <note>Text I-2 includes the hymns:</note>
+                     <note>- ʾO-ʾәgzǝʾtǝyä qǝddǝst wä-dǝngǝlt bä-kǝlʾe Maryam ... "O my Lady, Holy and Two-fold Virgin Mary ..." (fol. 8ra l.24-8rb l.15)</note>
+                     <note>- ʾO-ʾәgzǝʾtǝyä Maryam ʾǝmmu lä-ʾIyäsus Krǝstos kähali ... "O my Lady Mary, Mother of Jesus Christ the Almighty ..." (fol. 8rb l.15-8va l.8) (cp. ChRep no. 373)</note>
+                     <note>- Sälam läki ʾo-ʾәgzǝʾtǝyä Maryam ʾǝmmä mädḫǝn wä-ʾǝmmä bǝrhan ... "Salutation to you, o my Lady Mary, Mother of the Saviour and Mother of the Light ..." (fols. 8va l.9-9ra).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +60,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">67.0</measure> folios, in <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">67.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-3v, 66v-67v., in
+                                                  <measure unit="quire">8.0</measure> quires ((A+7)). 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">20.0</width>
@@ -118,7 +130,7 @@ The text on fols. 53v-54r, 59v is barely legible due to faded ink.</condition>
                            <note>All data are for fol. 35r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -142,7 +154,7 @@ Occasionally the horizontal lines are of Type B (e.g., fols. 12rv-14r, 23r-24v).
                         <seg type="ink">Black, red</seg>
                         <persName role="scribe" corresp="PRS00000">Wäldä Muse</persName>Wäldä Muse is mentioned as the scribe in Additio 1.<date>Second half of 19th century</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting appears hastily executed with irregularly slanted letters of angular shape. Some letters have forked hook vowel markers (e.g., ብ, ት, ን, ዝ, ገ). The vowel marker of እ is notably long.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 4ra-rb (incipit page of Text I-1): simple coloured (vivid red, black) ornamental bands; interlaces.</decoNote>
@@ -151,12 +163,13 @@ Occasionally the horizontal lines are of Type B (e.g., fols. 12rv-14r, 23r-24v).
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol</span><span style="line-height: 115%">. 65va: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 65va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4720;&#4768;&#4637;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4875;&#4637;&#4846;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4633;&#4961; &#4616;&#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4962; &#4808;&#4621;&#4848;&#4961; &#4633;&#4660;&#4962; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721; &#4808;&#4616;&#4720;&#4961; &#4811;&#4613;&#4853;&#4961; &#4808;&#4848;&#4674;&#4678;&#4633;&#4961; &#4720;&#4645;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4621;&#4848;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4872;&#4704;&#4829;&#4754;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                           <locus target="#00"/>
+                           <desc><p><span style="font-size: small"><span style="line-height: 115%">Fol</span><span style="line-height: 115%">. 65va: Donation note.</span></span></p></desc>
+                           <q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 65va: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4720;&#4768;&#4637;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4768;&#4875;&#4637;&#4846;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4776;&#4632;&#4961; &#4845;&#4789;&#4758;&#4633;&#4961; &#4616;&#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4808;&#4920;&#4624;&#4938;&#4611;&#4962; &#4808;&#4621;&#4848;&#4961; &#4633;&#4660;&#4962; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721; &#4808;&#4616;&#4720;&#4961; &#4811;&#4613;&#4853;&#4961; &#4808;&#4848;&#4674;&#4678;&#4633;&#4961; &#4720;&#4645;&#4939;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4819;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4621;&#4848;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4872;&#4704;&#4829;&#4754;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4755;&#4757;&#4843;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note, written in the main hand, mentions the scribe Wäldä Muse, the commissioner Wäldä Mikaʾel and his family members as well as gäbäz Wäldä ʾAnanya.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 65va-vb: T&#228;&#704;amr&#228; &#347;&#601;llase &#8220;Miracle of the Trinity&#8221;, one incomplete (?) miracle.<br /> </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#65va">Fol. 65va</locus>-vb: T&#228;&#704;amr&#228; &#347;&#601;llase &#8220;Miracle of the Trinity&#8221;, one incomplete (?) miracle.<br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The text is barely legible at the end due to faded ink. The handwriting is very similar to that of the main hand and also might have been written by Wäldä Muse.</p>
                         </item>
@@ -172,6 +185,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible on the spine fold of the quires, close to the head and the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 2 tools were used: double line fillet, double circle).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -214,8 +228,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, Wäldä Mikaʾel and his wife Wälättä Wahǝd commissioned the Ms. The note contains also the names of their children. All names are written in supplication formulas.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, Wäldä Mikaʾel and his wife Wälättä Wahǝd commissioned the Ms. The note contains also the names of their children. All names are written in supplication formulas.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -242,9 +256,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-17">registered</change>
-         <change who="SH" when="2013-09-30">created</change>
-         <change who="SH" when="2014-10-01">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-09-30T16:45:00.056Z">created</change>
+         <change who="SH" when="2014-10-01T09:29:14.989Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

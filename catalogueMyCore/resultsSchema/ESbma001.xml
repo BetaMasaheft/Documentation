@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-08-15</date>
+            <date>2013-08-15T10:29:30.758Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0107BMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>BMA-001</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">131.0</measure> folios, of which <measure unit="leaf" type="blank">5.0</measure> blank, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">131.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">5.0</measure> blank
+                                                  Fols. 1r, 1va, 56vb, 131r, 131v., in
+                                                  <measure unit="quire">15.0</measure> quires ((A+14)). 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">18.0</width>
@@ -144,7 +147,7 @@ Holes or tears amended on fols. 22, 36, 48, 104, 110, 129.</condition>
                            <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -174,7 +177,7 @@ The bottom line is written above the ruling.</ab>
                            <item>ካዕ፡ for ካዕበ፡</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting remains fairly uniform throughout the Ms. and is characterized by finely shape, slender and rather upright letters. Occasionally it becomes notably right-sloping (e.g., fols. 78v-86r).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 3r (incipit page of Text I): elaborate coloured (vivid red, black) ornamental frame; interlaces and anthropomorphic motifs.</decoNote>
@@ -182,18 +185,15 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size:9.0pt;Arial">Fols. 1vb-2rb: Excerpt from &#7778;&#228;lot&#228; &#705;&#477;&#7789;an &#8220;Prayer of the Incense" (SEtan 116-120). </span></div><q xml:lang="gez"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 1vb:</span><span style="font-size:10.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961;&#8221;</span><span style="line-height: 115%;">&#8230;&#4704;&#4824;</span><span style="line-height: 115%;">&#4961; &#4757;</span><span style="line-height: 115%;">&#4828;&#4776;</span><span style="line-height: 115%;">&#4653;&#4961; &#4704;&#4824;&#4961; &#4608;&#4622;&#4752;&#4961; &#4768;&#4632;&#4720;&#4961; &#4637;&#4613;&#4648;&#4725;&#4961; &#4640;&#4648;&#4672;&#4961; &#4620;&#4618;&#4725;&#4961; &#4808;&#4632;&#4819;&#4621;&#4725;&#4961; &#4808;&#4843;&#4821;&#4653;&#4877;&#4961; &#4821;&#4899;&#4752;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4971;&#4874;&#4828;&#4962; &#4829;&#4961; &#4821;&#4899;&#4757;&#4961; &#4845;&#4821;&#4653;&#4877;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4649;&#4939;&#4772;&#4621;&#4961; &#4657;&#4653;&#4843;&#4621;</span><span style="line-height: 115%;">...</span></span></p></q>
+                        <item xml:id="a1"><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size:9.0pt;Arial"><locus target="#1vb">Fols. 1vb-2</locus>rb: Excerpt from &#7778;&#228;lot&#228; &#705;&#477;&#7789;an &#8220;Prayer of the Incense" (SEtan 116-120). </span></div><q xml:lang="gez"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 1vb:</span><span style="font-size:10.0pt;line-height:115%;Arial Unicode MS"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961;&#8221;</span><span style="line-height: 115%;">&#8230;&#4704;&#4824;</span><span style="line-height: 115%;">&#4961; &#4757;</span><span style="line-height: 115%;">&#4828;&#4776;</span><span style="line-height: 115%;">&#4653;&#4961; &#4704;&#4824;&#4961; &#4608;&#4622;&#4752;&#4961; &#4768;&#4632;&#4720;&#4961; &#4637;&#4613;&#4648;&#4725;&#4961; &#4640;&#4648;&#4672;&#4961; &#4620;&#4618;&#4725;&#4961; &#4808;&#4632;&#4819;&#4621;&#4725;&#4961; &#4808;&#4843;&#4821;&#4653;&#4877;&#4961; &#4821;&#4899;&#4752;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4808;&#4621;&#4853;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4971;&#4874;&#4828;&#4962; &#4829;&#4961; &#4821;&#4899;&#4757;&#4961; &#4845;&#4821;&#4653;&#4877;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4661;&#4632;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4649;&#4939;&#4772;&#4621;&#4961; &#4657;&#4653;&#4843;&#4621;</span><span style="line-height: 115%;">...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a poor hand.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span lang="EN-US" style="font-size:9.0pt;font-family:">Fol. 2va: Excerpt from a hymn for St. George. </span></p><q xml:lang="gez"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 2va:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4704;&#4608;&#4782;</span></span><span style="font-size:10.0pt;line-height:115%;Arial Unicode MS">[?]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4704;&#4608;&#4782;</span></span><span style="font-size:10.0pt;&#10;line-height:115%;Arial Unicode MS">[?]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4971;&#4704;&#4621;&#4961; &#4808;&#4652;&#4827;&#4961; &#4736;&#4843;&#4621;&#4961; &#4776;&#4632;&#4961; &#4768;&#4757;&#4704;&#4659;&#4961; &#4773;&#4637;&#4776;&#4632;&#4961; &#4720;&#4752;&#4939;&#4608;&#4961; &#4672;&#4653;&#4752;&#4961; &#4770;&#4846;&#4708;&#4621;&#4961; &#4768;&#4757;&#4678;&#4961; &#4824;&#4632;&#4768;&#4827;&#4961; &#4672;&#4725;&#4621;&#4962;</span><span style="line-height: 115%;">&#4936;&#4648;&#4661;&#4776;&#4961; &#4845;&#4708;&#4621;</span><span style="line-height: 115%;">...</span></span></p></q>
+                        <item xml:id="a2"><p><span lang="EN-US" style="font-size:9.0pt;font-family:"><locus target="#2va">Fol. 2va</locus>: Excerpt from a hymn for St. George. </span></p><q xml:lang="gez"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 2va:</span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4704;&#4608;&#4782;</span></span><span style="font-size:10.0pt;line-height:115%;Arial Unicode MS">[?]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4704;&#4608;&#4782;</span></span><span style="font-size:10.0pt;&#10;line-height:115%;Arial Unicode MS">[?]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4961; &#4971;&#4704;&#4621;&#4961; &#4808;&#4652;&#4827;&#4961; &#4736;&#4843;&#4621;&#4961; &#4776;&#4632;&#4961; &#4768;&#4757;&#4704;&#4659;&#4961; &#4773;&#4637;&#4776;&#4632;&#4961; &#4720;&#4752;&#4939;&#4608;&#4961; &#4672;&#4653;&#4752;&#4961; &#4770;&#4846;&#4708;&#4621;&#4961; &#4768;&#4757;&#4678;&#4961; &#4824;&#4632;&#4768;&#4827;&#4961; &#4672;&#4725;&#4621;&#4962;</span><span style="line-height: 115%;">&#4936;&#4648;&#4661;&#4776;&#4961; &#4845;&#4708;&#4621;</span><span style="line-height: 115%;">...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span lang="EN-US" style="font-size:9.0pt;font-family:">Fol. 2vb: Excerpt from the </span><span lang="EN-GB" style="font-size:9.0pt;font-family:">Daily Office prayers and litanies.</span></p><q xml:lang="gez"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 2vb: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4845;</span><span style="line-height: 115%;">&#4704;</span><span style="line-height: 115%;">&#4621;&#4969; &#4779;&#4613;&#4757;&#4961;&#4824;&#4824;&#4808;&#4725;&#4653;&#4961; &#4704;&#4969;&#4845;&#4725;&#4961; &#4725;&#4940;&#4643;&#4629;&#4961; &#4621;&#4709;&#4778;&#4961; &#4774;&#4853;&#4757;&#4877;&#4621;</span><span style="line-height: 115%;">...</span></span></p></q>
+                        <item xml:id="a3"><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span lang="EN-US" style="font-size:9.0pt;font-family:"><locus target="#2vb">Fol. 2vb</locus>: Excerpt from the </span><span lang="EN-GB" style="font-size:9.0pt;font-family:">Daily Office prayers and litanies.</span></p><q xml:lang="gez"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 2vb: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4845;</span><span style="line-height: 115%;">&#4704;</span><span style="line-height: 115%;">&#4621;&#4969; &#4779;&#4613;&#4757;&#4961;&#4824;&#4824;&#4808;&#4725;&#4653;&#4961; &#4704;&#4969;&#4845;&#4725;&#4961; &#4725;&#4940;&#4643;&#4629;&#4961; &#4621;&#4709;&#4778;&#4961; &#4774;&#4853;&#4757;&#4877;&#4621;</span><span style="line-height: 115%;">...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is partly written in red.</p>
                         </item>
@@ -256,8 +256,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor Zä-Wäldä Maryam has been erased throughout the Ms. and has been retained only on fol. 44vb. &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor Zä-Wäldä Maryam has been erased throughout the Ms. and has been retained only on fol. 44vb. &#xD;
 According to Additio 4, the Ms. was donated by Täklä Maryam Wäldä Śǝllase on behalf of the commemoration of different persons. The names of Ḫabtä Śǝllase and Gäbrä Mädḫǝn were added to the supplication formulas throughout the Ms. by the same hand as Additio 4.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -281,9 +281,9 @@ According to Additio 4, the Ms. was donated by Täklä Maryam Wäldä Śǝllase 
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-20">registered</change>
-         <change who="IF" when="2013-08-15">created</change>
-         <change who="VP" when="2015-02-26">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2013-08-15T10:29:30.758Z">created</change>
+         <change who="VP" when="2015-02-26T11:21:09.054Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

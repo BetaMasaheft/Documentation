@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gǝbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-08</date>
+            <date>2013-07-08T13:12:41.050Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0133QMB"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QMB-001</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The work ends with a subscription mentioning the scribe´s name, the name of the commissioner and the date of writing (fol. 176vc).</note>
+                     <note>- On fol. 162vb, the Homily by Cyriacus of Behnesa [Laḥa Maryam “Lamentation of Mary”] (in Text I-9) ends with a note mentioning Abunä Sälama Käśate Bǝrhan as the one who have made the book written (translating?).</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">177.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">177.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 2ar, 2av, 87v, 177r, 177v., in
+                                                  <measure unit="quire">22.0</measure> quires ((A+21)). 
                                                 <dimensions type="outer">
                               <height unit="cm">32.2</height>
                               <width unit="cm">28.5</width>
@@ -60,6 +68,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks are written (sometimes repeated twice or thrice) in the upper margin of fols. 3r, 33r, 41r, 48r, 62r, 68r, 74r; undecorated quire marks are written in the upper margin of fols. 98r, 106r, 116r, 126r, 142r, 150r, 160r, 168r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">3</dim>
@@ -156,7 +166,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data are for fol. 4r.</note>
                            <ab type="ruling">30-33 starting from ca. fol. 118</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -176,26 +186,24 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red, fuchsia.</seg>
                         <persName role="scribe" corresp="PRS00000">Laʾǝkä Maryam</persName>Laʾǝkä Maryam is mentioned as the scribe (of text on fols. 88r-176v) in the supplication formulas on fols. 132vb, 150vb, 162vc and in a subscription on fol. 168rc. The name of the scribe of text fols. 3r-87v (cp. Additio 2) is not indicated.<date>19th century.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">fols. 1r-87v</handNote>
-                     <handNote xml:id="h3" script="Ethiopic">fols. 88r-176v.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a: fols. 1r-87v<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b: fols. 88r-176v.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 3r: Crude coloured ornamental band (geometrical motifs) in deep violet and fuchsia (by the same hand which added names in the supplication formulas throughout the Ms. and Additiones 1, 3).</decoNote>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 3r: Note on the content of the codex.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 3r: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4813;&#4773;&#4721;&#4961; &#4752;&#4872;&#4648;&#4961; &#4629;&#4635;&#4635;&#4722;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4813;&#4773;&#4721;&#4961;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#3r">Fol. 3r</locus>: Note on the content of the codex.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 3r: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4813;&#4773;&#4721;&#4961; &#4752;&#4872;&#4648;&#4961; &#4629;&#4635;&#4635;&#4722;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#4813;&#4773;&#4721;&#4961;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written by the same hand as the one which added the names in the supplication formulas throughout the Ms., the ornamental band on fol. 3r and Additio 2.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small">Fol. 87v: Scribe's rhymed note on the completing of the work, extended with a supplication for &#704;abun&#228; &#705;Ar&#704;aya &#346;&#601;llase. </span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 87v:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4845;&#4725;&#4707;&#4648;&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4637;&#4619;&#4777;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4962; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4773;&#4757;&#4704;&#4616;&#4961; &#4848;&#4812;&#4961; &#4824;&#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4808;&#4845;&#4821;&#4672;&#4704;&#4752;&#4961; &#4616;&#4789;&#4621;&#4752;&#4961; &#4773;&#4632;&#4776;&#4651;&#4609;&#4961; &#4616;&#4850;&#4843;&#4709;&#4622;&#4661;&#4962; &#4808;&#4936;&#4853;&#4939;&#4848;&#4656;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4768;&#4653;&#4819;&#4843;&#4961; &#4645;&#4619;&#4660;&#4961;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><locus target="#87v">Fol. 87v</locus>: Scribe's rhymed note on the completing of the work, extended with a supplication for &#704;abun&#228; &#705;Ar&#704;aya &#346;&#601;llase. </span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 87v:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4845;&#4725;&#4707;&#4648;&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4768;&#4637;&#4619;&#4777;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4962; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4773;&#4757;&#4704;&#4616;&#4961; &#4848;&#4812;&#4961; &#4824;&#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4962; &#4808;&#4845;&#4821;&#4672;&#4704;&#4752;&#4961; &#4616;&#4789;&#4621;&#4752;&#4961; &#4773;&#4632;&#4776;&#4651;&#4609;&#4961; &#4616;&#4850;&#4843;&#4709;&#4622;&#4661;&#4962; &#4808;&#4936;&#4853;&#4939;&#4848;&#4656;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4768;&#4653;&#4819;&#4843;&#4961; &#4645;&#4619;&#4660;&#4961;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written by the same hand as that of the main text, partly rubricated.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small">Fol. 176v (below): Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 176v (below):</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4627;&#4757;&#4723;&#4961; &#4624;&#4880;&#4661;&#4961; &#4611;&#4941;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4986;&#4808;&#4971;&#4721;&#4961; &#4768;&#4632;&#4720;&#4961; &#4632;&#4629;&#4648;&#4725;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4704;&#4616;&#4659;&#4961; &#4824;&#4720;&#4624;&#4757;&#4928;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4661;&#4625;&#4621;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4629;&#4757;&#4961; &#4808;&#4768;&#4705;&#4737;&#4961; &#4736;&#4709;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4629;&#4757;&#4961;</span><span style="line-height: 115%">...</span></span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small"><locus target="#176v">Fol. 176v</locus>(below): Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 176v (below):</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4627;&#4757;&#4723;&#4961; &#4624;&#4880;&#4661;&#4961; &#4611;&#4941;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4978;&#4987;&#4808;&#4976;&#4987;&#4986;&#4808;&#4971;&#4721;&#4961; &#4768;&#4632;&#4720;&#4961; &#4632;&#4629;&#4648;&#4725;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4704;&#4616;&#4659;&#4961; &#4824;&#4720;&#4624;&#4757;&#4928;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4661;&#4625;&#4621;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4629;&#4757;&#4961; &#4808;&#4768;&#4705;&#4737;&#4961; &#4736;&#4709;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4813;&#4617;&#4849;&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4629;&#4757;&#4961;</span><span style="line-height: 115%">...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note mentions Ḥagwäs Haftä (Habtä) Mikaʾel whose baptismal name is Täwäldä Mädḫǝn, as the commissioner and the donor of the book, in 1893 A.M. (=1900/01 A.D.), and that the church of Bäläsa was built during the rule of Sǝḥul Mikaʾel (the 18th-cent. governor of Tǝgray, 1691-1777). Other members of his family are mentioned. The note is written by the same hand as that of the one who added the names in the supplication formulas throughout the Ms., the ornamental band in fol. 3r and Additio 1.</p>
                         </item>
@@ -206,7 +214,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; remains of textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -217,6 +225,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">One pair of chains of endband stitches at the spine cover.&#xD;
 Small holes are visible in the centrefold of the quires close to the tail.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover and turn-ins (at least 5 tools are used: double line fillet, double line fillet with dots, double circle, cross hatching, x-form).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -259,8 +268,8 @@ Small holes are visible in the centrefold of the quires close to the tail.</deco
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Ḥagwäs Haftä (Habtä) Mikaʾel whose baptismal name is Täwäldä Mädḫǝn (s. Additio 3).&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">Ḥagwäs Haftä (Habtä) Mikaʾel whose baptismal name is Täwäldä Mädḫǝn (s. Additio 3).&#xD;
 Gäbrä Mädḫǝn is mentioned in the supplication formulas on fols. 132vb, 156vc, 168rb, 176vc (in the supplication formulas on fol. 126rb, as the commissioner of the book, and on fol. 150vb, along with ʾabunä ʿArʾaya Śǝllase).&#xD;
 Other names are added, by a secondary hand, in the unfilled spaces left for rubrication throughout the Ms. and in Additio 2: Gäbrä Yoḥannǝs (fol. 5rc), ʾAbba Kiros (fol. 7va), Täklä ʾAb (fol. 20rb), ʾAmätä Ṣadqan (fols. 50rc, 152rc, 168vb), Gäbrä Mädḥǝn (fol. 89rb) (same as the main text?), Mäzgäbä Śǝllase (fols. 96vb, 162vc), Gäbrä Ṣadqan (fol. 162vc), Täwäldä Mädḫǝn (fols. 118ra, 162vc), Ḫabtä Mikaʾel (118vc), Gäbrä Kidan (fol. 119vc), Wälättä ʾIyäsus (fols. 132vb, 156vc, 157va, 168rb, 176vc), Wälättä Ṣǝyon (fols. 150vb, 162vc, 176vc).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
@@ -288,9 +297,9 @@ Other names are added, by a secondary hand, in the unfilled spaces left for rubr
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-13">registered</change>
-         <change who="IR" when="2013-07-08">created</change>
-         <change who="SA" when="2014-09-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IR" when="2013-07-08T13:12:41.050Z">created</change>
+         <change who="SA" when="2014-09-09T14:30:48.658Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

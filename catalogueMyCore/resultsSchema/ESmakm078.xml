@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-06-18</date>
+            <date>2013-06-18T09:17:41.795Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0174MAKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MAKM-078</idno>
                   <altIdentifier>
                      <idno>C4-IV-49 (fol. 82r)</idno>
@@ -47,6 +47,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Texts VI-XIV are followed by the note on stichometry.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -54,7 +58,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">204.0</measure> folios, in <measure unit="quire">21.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">204.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1v, 109vb, 159vb, 204r-v., in
+                                                  <measure unit="quire">21.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">21.0</width>
@@ -170,7 +177,7 @@ Holes or tears amended on fols. 54, 65, 66, 157.</condition>
                            <note>All data are for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -194,27 +201,26 @@ Fol. 23 has an additional ruled line in the outer margin.</ab>
                         <seg type="ink">Black, red</seg>
                         <date>Mid 17th - early 18th century</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting remains fairly uniform throughout the Ms. and is characterized by finely shaped, broadly spaced, slender and upright letters. Occasionally it tends to right sloping letters (e.g., fol. 78v).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size:9.0pt;Arial">Fol. 109va: Purchase note</span><span style="font-size:9.0pt;Arial" unicode="">.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size:9.0pt;Arial"><locus target="#109va">Fol. 109va</locus>: Purchase note</span><span style="font-size:9.0pt;Arial" unicode="">.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in small script. The name of the buyer has been erased.</p>
                         </item>
                         <item xml:id="a2">
-                           <locus/><p><span style="font-size:9.0pt;Arial"><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol.181r-v: Unidentified text referring to St. John and the Revelation of John (Text XXIII), incomplete.</span><br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 181ra:</span><span style="font-size:9.0pt;Arial" unicode=""> </span><span style="font-size: large;">&#4824;&#4920;&#4624;&#4936;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4616;&#4656;&#4709;&#4817;&#4961; &#4768;&#4709;&#4843;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4782;&#4752;&#4961; &#4971;&#4877;&#4709;&#4653;&#4961; &#4969;<span style="font-size: small;">(?)</span>&#4704;&#4773;&#4757;&#4720;&#4961; &#4824;&#4739;&#4848;&#4873;&#4961; &#4824;&#4632;&#4608;&#4654;&#4633;&#4961; &#4677;&#4853;&#4632;&#4961; &#4808;&#4779;&#4621;&#4773;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4824;&#4845;&#4776;&#4813;&#4757;&#4961; &#4773;&#4637;&#4901;&#4757;&#4725;&#4961; &#4824;&#4653;&#4773;&#4840;&#4961; &#4773;&#4661;&#4776;&#4961; &#4637;&#4925;&#4768;&#4721;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4962; &#4808;&#4643;&#4621;&#4661;&#4961; &#4645;&#4653;&#4819;&#4720;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4824;&#4653;&#4773;&#4840;&#4961; &#4776;&#4632;&#4961; &#4843;&#4653;&#4770;&#4961; &#4616;&#4672;&#4659;&#4813;&#4661;&#4725;&#4961; &#4808;&#4616;&#4850;&#4843;&#4678;&#4755;&#4725;&#4962; &#4808;&#4925;&#4629;&#4936;&#4721;&#4754;&#4961; &#4773;&#4637;&#4853;&#4741;&#4648;&#4961; &#4821;&#4653;&#4872;&#4721;&#4961; &#4704;&#4977;&#4819;&#4632;&#4725;&#4961; &#4710;&#4773;&#4616;&#4961; &#4845;&#4708;&#4617;&#4961; &#4704;&#4969;&#4819;&#4632;&#4725;&#4961; &#4808;&#4710;&#4773;&#4616;&#4961; &#4845;&#4708;&#4617;&#4961; &#4704;&#4970;&#4819;&#4632;&#4725;&#4961; &#4808;&#4782;&#4752;&#4961; &#4662;&#4704;&#4961; &#4720;&#4779;&#4936;&#4617;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4819;&#4616;&#4632;&#4961; &#4776;&#4632;&#4961; &#4845;&#4637;&#4608;&#4649;&#4961; &#4704;&#4925;&#4624;&#4726;&#4961; &#4773;&#4661;&#4843;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4962; &#4808;&#4845;&#4773;&#4722;&#4961; &#4632;&#4781;&#4936;&#4621;&#4720;&#4961; &#4843;&#4652;&#4725;&#4962; &#4843;&#4652;&#4725;&#4961; &#4808;&#4616;&#4854;&#4961; &#4616;&#4845;&#4629;&#4843;&#4757;&#4961; &#4808;&#4845;&#4629;&#4843;&#4757;&#4961; &#4808;&#4616;&#4854;&#4961; &#4616;&#4772;&#4814;&#4725;&#4651;&#4661;&#4661;&#4961; &#4824;&#4813;&#4773;&#4721;&#4961; &#4773;&#4661;&#4843;&#4961; &#4808;&#4656;&#4632;&#4843;&#4961; &#4616;&#4608;&#4872;&#4649;&#4961; &#4826;&#4768;&#4609;&#4961; &#4773;&#4661;&#4843;&#4962; &#4808;&#4808;&#4616;&#4848;</span><span style="font-size: large;"><span style="font-size: large;">&#4961; </span>&#4975;&#4848;&#4674;&#4672;...</span></p></q>
+                           <locus target="#00"/>
+                           <desc><p><span style="font-size:9.0pt;Arial"><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol.181r-v: Unidentified text referring to St. John and the Revelation of John (Text XXIII), incomplete.</span><br /> </span></p></desc>
+                           <q xml:lang="gez"><p><span style="font-size: small;">Fol. 181ra:</span><span style="font-size:9.0pt;Arial" unicode=""> </span><span style="font-size: large;">&#4824;&#4920;&#4624;&#4936;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4616;&#4656;&#4709;&#4817;&#4961; &#4768;&#4709;&#4843;&#4720;&#4961; &#4781;&#4653;&#4661;&#4722;&#4843;&#4757;&#4961; &#4782;&#4752;&#4961; &#4971;&#4877;&#4709;&#4653;&#4961; &#4969;<span style="font-size: small;">(?)</span>&#4704;&#4773;&#4757;&#4720;&#4961; &#4824;&#4739;&#4848;&#4873;&#4961; &#4824;&#4632;&#4608;&#4654;&#4633;&#4961; &#4677;&#4853;&#4632;&#4961; &#4808;&#4779;&#4621;&#4773;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4824;&#4845;&#4776;&#4813;&#4757;&#4961; &#4773;&#4637;&#4901;&#4757;&#4725;&#4961; &#4824;&#4653;&#4773;&#4840;&#4961; &#4773;&#4661;&#4776;&#4961; &#4637;&#4925;&#4768;&#4721;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4962; &#4808;&#4643;&#4621;&#4661;&#4961; &#4645;&#4653;&#4819;&#4720;&#4961; &#4632;&#4619;&#4773;&#4781;&#4725;&#4961; &#4824;&#4653;&#4773;&#4840;&#4961; &#4776;&#4632;&#4961; &#4843;&#4653;&#4770;&#4961; &#4616;&#4672;&#4659;&#4813;&#4661;&#4725;&#4961; &#4808;&#4616;&#4850;&#4843;&#4678;&#4755;&#4725;&#4962; &#4808;&#4925;&#4629;&#4936;&#4721;&#4754;&#4961; &#4773;&#4637;&#4853;&#4741;&#4648;&#4961; &#4821;&#4653;&#4872;&#4721;&#4961; &#4704;&#4977;&#4819;&#4632;&#4725;&#4961; &#4710;&#4773;&#4616;&#4961; &#4845;&#4708;&#4617;&#4961; &#4704;&#4969;&#4819;&#4632;&#4725;&#4961; &#4808;&#4710;&#4773;&#4616;&#4961; &#4845;&#4708;&#4617;&#4961; &#4704;&#4970;&#4819;&#4632;&#4725;&#4961; &#4808;&#4782;&#4752;&#4961; &#4662;&#4704;&#4961; &#4720;&#4779;&#4936;&#4617;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4819;&#4616;&#4632;&#4961; &#4776;&#4632;&#4961; &#4845;&#4637;&#4608;&#4649;&#4961; &#4704;&#4925;&#4624;&#4726;&#4961; &#4773;&#4661;&#4843;&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4962; &#4808;&#4845;&#4773;&#4722;&#4961; &#4632;&#4781;&#4936;&#4621;&#4720;&#4961; &#4843;&#4652;&#4725;&#4962; &#4843;&#4652;&#4725;&#4961; &#4808;&#4616;&#4854;&#4961; &#4616;&#4845;&#4629;&#4843;&#4757;&#4961; &#4808;&#4845;&#4629;&#4843;&#4757;&#4961; &#4808;&#4616;&#4854;&#4961; &#4616;&#4772;&#4814;&#4725;&#4651;&#4661;&#4661;&#4961; &#4824;&#4813;&#4773;&#4721;&#4961; &#4773;&#4661;&#4843;&#4961; &#4808;&#4656;&#4632;&#4843;&#4961; &#4616;&#4608;&#4872;&#4649;&#4961; &#4826;&#4768;&#4609;&#4961; &#4773;&#4661;&#4843;&#4962; &#4808;&#4808;&#4616;&#4848;</span><span style="font-size: large;"><span style="font-size: large;">&#4961; </span>&#4975;&#4848;&#4674;&#4672;...</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a poor hand in small script characterized by long "hairlines".</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 203vb: Note on commissioning of the writing. </span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial"><locus target="#203vb">Fol. 203vb</locus>: Note on commissioning of the writing. </span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note was probably written in the same hand as the main text. The name of the commissioner has been erased (as in fol. 44vb?) and replaced with that of Wälättä Maryam, inserted in a secondary hand (the same as Additio 4).</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 203vb: Donation note.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial"><locus target="#203vb">Fol. 203vb</locus>: Donation note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>According to the note, Wäldä Gäbrǝʾel donated the Ms. to Kidanä Mǝḥrät zä-May ʾAnbäsa. In addition, Fǝśśǝḥa Ṣǝyon is mentioned.</p>
                         </item>
@@ -233,7 +239,7 @@ Fol. 23 has an additional ruled line in the outer margin.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
 Overback made of reddish-brown tooled leather.&#xD;
 Two pairs of sewing stations.</decoNote>
@@ -244,6 +250,8 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover is poorly visible (at least 5 tools were used: triple line fillet, double circle, corni-form, double crescent, double sine wave with dots).&#xD;
+Blind tooled ornament on the reddish-brown overback (3 tools are used: double line fillet, double circle, x-form).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -286,8 +294,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">In Additio 3, the name of the original commissioner has been erased. According to Additio 4, Wäldä Gäbrǝʾel (and his wife Wälättä Maryam) at some point donated the Ms. to Kidanä Mǝḥrät May ʾAnbäsa.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">In Additio 3, the name of the original commissioner has been erased. According to Additio 4, Wäldä Gäbrǝʾel (and his wife Wälättä Maryam) at some point donated the Ms. to Kidanä Mǝḥrät May ʾAnbäsa.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -310,9 +318,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-04">registered</change>
-         <change who="SH" when="2013-06-18">created</change>
-         <change who="SH" when="2014-09-23">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-06-18T09:17:41.795Z">created</change>
+         <change who="SH" when="2014-09-23T16:37:48.201Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-02-06</date>
+            <date>2015-02-06T14:50:20.905Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0161BGY"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>BGY-011</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Fols. 1 and 2 are unruled.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">122.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">122.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 121v, 122r, 122v, in
+                                                  <measure unit="quire">16.0</measure> quires (A+15). 
                                                 <dimensions type="outer">
                               <height unit="cm">30.0</height>
                               <width unit="cm">22.5</width>
@@ -129,7 +136,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 23r</note>
                            <ab type="ruling">The number of lines varies from 18 to 24 lines.</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -150,23 +157,27 @@ The bottom line is written above the ruling.</ab>
                         <date>First half of the 20th century.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 24ra, 26vab)</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 24ra, 26vab)</item>
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 24rab, 26vb)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 24rab, 26vb)</item>
                            <item>
-                              <abbr>ሃ፡ሃ፡ሃ፡</abbr> for <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 27rb, 27vab)</item>
+                              <abbr>ሃ፡ሃ፡ሃ፡</abbr> for
+                                                  <expan>ሃሌ፡ ሉያ </expan> (e.g., fols. 27rb, 27vab)</item>
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ እግዚኦ፡ </expan> (e.g., fols. 33vb)</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍትሕተ፡ ወንጽሕተ፡ ረስያ፡ እግዚኦ፡ </expan> (e.g., fols. 33vb)</item>
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 35rab)</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 35rab)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">Some vowel markers and left and right pointing elements have forked shapes.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode="">Fol. 121rb: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 121rb:<span style="font-size: large;"> <span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4880;&#4621;&#4768;&#4962; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4808;&#4845;&#4824;&#4654;&#4961; &#4901;&#4649;&#4752;&#4669;&#4961; &#4768;&#4661;&#4872;&#4854;&#4637;&#4961; &#4768;&#4648;&#4827;&#4961; &#4808;&#4845;&#4789;&#4755;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4661;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4768;&#4661;&#4872;&#4854;&#4637;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4808;&#4808;&#4616;&#4723;&#4961; &#4704;&#4616;&#4896;&#4733;&#4961; &#4808;&#4845;&#4781;&#4941;&#4622;&#4633;&#4961; &#4768;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4632;&#4661;&#4941;&#4755;&#4961; &#4669;&#4637;&#4961; &#4768;&#4875;&#4636;&#4961; &#4779;&#4643;&#4961; &#4808;&#4616;&#4915;&#4915;&#4661;&#4755;&#4961; &#4768;&#4705;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></span><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"><br /> </span></p></q>
+                        <item xml:id="a1"><p><span style="font-size:10.0pt;line-height:&#10;115%;Arial" unicode=""><locus target="#121rb">Fol. 121rb</locus>: Donation note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 121rb:<span style="font-size: large;"> <span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4880;&#4621;&#4768;&#4962; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4808;&#4845;&#4824;&#4654;&#4961; &#4901;&#4649;&#4752;&#4669;&#4961; &#4768;&#4661;&#4872;&#4854;&#4637;&#4961; &#4768;&#4648;&#4827;&#4961; &#4808;&#4845;&#4789;&#4755;&#4961; &#4632;&#4653;&#4611;&#4961; &#4616;&#4632;&#4757;&#4877;&#4661;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4768;&#4661;&#4872;&#4854;&#4637;&#4961; &#4808;&#4773;&#4635;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4661;&#4672;&#4621;&#4961; &#4808;&#4808;&#4616;&#4723;&#4961; &#4704;&#4616;&#4896;&#4733;&#4961; &#4808;&#4845;&#4781;&#4941;&#4622;&#4633;&#4961; &#4768;&#4661;&#4704;&#4961; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4824;&#4720;&#4925;&#4629;&#4936;&#4961; &#4704;&#4632;&#4661;&#4941;&#4755;&#4961; &#4669;&#4637;&#4961; &#4768;&#4875;&#4636;&#4961; &#4779;&#4643;&#4961; &#4808;&#4616;&#4915;&#4915;&#4661;&#4755;&#4961; &#4768;&#4705;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961;</span></span><span style="line-height: 115%;">&#8230;</span></span></span><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"><br /> </span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in red ink, in the main hand. The note states that wäyzäro Ṭǝrunäš ʾAsgädäm ʾAräza donated the Ms. to Qǝddus Yoḥannǝs Golʿa during the rule of šum ʾagame Kaśa and the tenure of Metropolitan ʾabunä Ṗeṭros. The note also mentions her parents and daughter.</p>
                         </item>
@@ -178,7 +189,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather. Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
                            <material key="leather"/>
@@ -187,6 +198,7 @@ The bottom line is written above the ruling.</ab>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover with (recent?) green thread.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the leather cover (at least 6 tools were used: criss-cross, triple line fillet, double circle, triple crescent, double line fillet, x-form).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -229,8 +241,8 @@ The bottom line is written above the ruling.</ab>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Addition 1 mentions wayzäro Ṭǝrunäš ʾAsgädom ʾAräza as the donor. The name of her mother Wälättä Mäsqäl is added interlineally on fols. 37rb, 49ra, 61va, 98va, together with the names of other individuals: Ḫaylä Maryam (e.g., fols. 30ra, 35ra, 47rb, 48ra), Wälättä ʾEwosṭatewos (e.g., fols. 32rb, 34rb, 39rb, 46rb), Wälättä Mǝḥrät (fols. 44rb, 62rb, 88ra, 100rb).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Addition 1 mentions wayzäro Ṭǝrunäš ʾAsgädom ʾAräza as the donor. The name of her mother Wälättä Mäsqäl is added interlineally on fols. 37rb, 49ra, 61va, 98va, together with the names of other individuals: Ḫaylä Maryam (e.g., fols. 30ra, 35ra, 47rb, 48ra), Wälättä ʾEwosṭatewos (e.g., fols. 32rb, 34rb, 39rb, 46rb), Wälättä Mǝḥrät (fols. 44rb, 62rb, 88ra, 100rb).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -253,9 +265,9 @@ The bottom line is written above the ruling.</ab>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-22">registered</change>
-         <change who="VR" when="2015-02-06">created</change>
-         <change who="VR" when="2015-04-22">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VR" when="2015-02-06T14:50:20.905Z">created</change>
+         <change who="VR" when="2015-04-22T14:30:51.372Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

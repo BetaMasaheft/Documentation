@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-04-30</date>
+            <date>2013-04-30T12:49:46.625Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0108GKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GKM-002</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The miracles of Texts I and II are numbered.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">95.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">95.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 4r, 6v, 7r, 8v, 10r, in
+                                                  <measure unit="quire">12.0</measure> quires (11+A). 
                                                 <dimensions type="outer">
                               <height unit="cm">21.8</height>
                               <width unit="cm">18.0</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Decorated quire marks: fols. 13r, 21r, 29r, 37r, 45r, 53r, 61r, 69r, 77r, 85r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">12</dim>
@@ -123,7 +132,7 @@ Holes repaired: e.g., fols. 17, 24, 33, 46, 61, 63.</condition>
                            <note>All data for fol. 14r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -144,11 +153,14 @@ The bottom line is written above the ruling.</ab>
                         <persName role="scribe" corresp="PRS00000">Gäbrä Wahǝd</persName>Gäbrä Wahǝd is mentioned as the scribe in the supplication formula (fol. 87rb).<date>19th century</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ይካ᎓</abbr> for <expan>ይበል᎓ ካህን </expan> (e.g., fols. 89va, 90rb)</item>
+                              <abbr>ይካ᎓</abbr> for
+                                                  <expan>ይበል᎓ ካህን </expan> (e.g., fols. 89va, 90rb)</item>
                            <item>
-                              <abbr>ይዲ᎓</abbr> for <expan>ይበል᎓ ዲያቆን </expan> (e.g., fols. 88va, 89ra, 90ra)</item>
+                              <abbr>ይዲ᎓</abbr> for
+                                                  <expan>ይበል᎓ ዲያቆን </expan> (e.g., fols. 88va, 89ra, 90ra)</item>
                            <item>
-                              <abbr>ይሕ᎓</abbr> for <expan>ይበል᎓ ሕዝብ </expan> (e.g., fols. 89ra)</item>
+                              <abbr>ይሕ᎓</abbr> for
+                                                  <expan>ይበል᎓ ሕዝብ </expan> (e.g., fols. 89ra)</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -164,24 +176,20 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span>Fol. 12ra-vb: Excerpt from the hymn &#704;&#398;s&#228;gg&#601;d l&#228;-m&#228;l&#228;kot&#601;k&#228; ...</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fol. 12ra-vb:</span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%; font-size: 12pt"> </span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%">&#4704;</span><span style="line-height: 115%">&#4661;&#4632;" ... &#4773;</span><span style="line-height: 115%">&#4656;</span><span style="line-height: 115%">&#4877;&#4853;&#5011; &#4616;&#4632;&#4616;&#4782;&#4725;&#4776; ...</span></span></span><span style="font-size: large"><span style="line-height: 115%"><br /> </span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><span><locus target="#12ra">Fol. 12ra</locus>-vb: Excerpt from the hymn &#704;&#398;s&#228;gg&#601;d l&#228;-m&#228;l&#228;kot&#601;k&#228; ...</span></span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fol. 12ra-vb:</span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%; font-size: 12pt"> </span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%">&#4704;</span><span style="line-height: 115%">&#4661;&#4632;" ... &#4773;</span><span style="line-height: 115%">&#4656;</span><span style="line-height: 115%">&#4877;&#4853;&#5011; &#4616;&#4632;&#4616;&#4782;&#4725;&#4776; ...</span></span></span><span style="font-size: large"><span style="line-height: 115%"><br /> </span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 12ra-vb: In the name of the father &#8230; I worship Thy Godhead &#8230;</span></span></p></q>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span unicode="" style="line-height: 115%">Fol. 94r: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fol. 94r:</span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%; font-size: 12pt"> </span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%">&#4829;&#4632;&#4933;&#4624;&#4941;&#5011; &#4824;&#4808;&#4608;&#4707;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4778;&#4851;&#4752;&#5011; &#4637;&#4613;&#4648;&#4725;&#5011; &#4768;&#4705;&#4752;&#5011; &#4872;&#4648;&#4632;&#4661;&#4672;&#4621;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4778;&#4851;&#4752;&#5011; &#4637;&#4613;&#4648;&#4725;&#5011; &#4776;&#4632;&#5011; &#4845;&#4777;&#4758;&#5011; &#4632;&#4653;&#4608;&#5011; &#4616;&#4632;&#4757;&#4877;&#4661;&#4720;&#5011; &#4656;&#4635;&#4843;&#4725;&#5011; &#4632;&#4656;&#4616;</span><span style="font-size: small"><span style="line-height: 115%">[</span><span style="line-height: 115%">sic]</span></span><span style="line-height: 115%">&#5011; &#4773;&#4613;&#4721;&#5011; &#4808;&#4616;&#4720;&#5011; &#160;&#4778;&#4851;&#4757;&#5011; &#4808;&#4616;&#4720;&#5011; &#4808;&#4616;&#4720;</span><span style="font-size: small"><span style="line-height: 115%">[sic]</span></span><span style="line-height: 115%">&#5011; &#4661;&#4619;&#4660;&#5011; &#4824;&#4656;&#4648;&#4678;&#5011; &#4808;&#4824;&#4936;&#4608;&#4678;&#5011; &#4704;&#4661;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#5011;&#5011; &#4843;&#4853;&#4613;&#4758;&#5011; &#4813;&#4661;&#4720;&#5011; &#4608;&#4676;&#5011; &#4656;&#4752;&#4757;&#5011; </span></span></span><span style="font-size: large"><span style="line-height: 115%"><br /> </span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><span unicode="" style="line-height: 115%"><locus target="#94r">Fol. 94r</locus>: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fol. 94r:</span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%; font-size: 12pt"> </span></span></span><span style="font-size: large"><span style="line-height: 115%"><span style="line-height: 115%">&#4829;&#4632;&#4933;&#4624;&#4941;&#5011; &#4824;&#4808;&#4608;&#4707;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4778;&#4851;&#4752;&#5011; &#4637;&#4613;&#4648;&#4725;&#5011; &#4768;&#4705;&#4752;&#5011; &#4872;&#4648;&#4632;&#4661;&#4672;&#4621;&#5011; &#4616;&#4723;&#4710;&#4720;&#5011; &#4778;&#4851;&#4752;&#5011; &#4637;&#4613;&#4648;&#4725;&#5011; &#4776;&#4632;&#5011; &#4845;&#4777;&#4758;&#5011; &#4632;&#4653;&#4608;&#5011; &#4616;&#4632;&#4757;&#4877;&#4661;&#4720;&#5011; &#4656;&#4635;&#4843;&#4725;&#5011; &#4632;&#4656;&#4616;</span><span style="font-size: small"><span style="line-height: 115%">[</span><span style="line-height: 115%">sic]</span></span><span style="line-height: 115%">&#5011; &#4773;&#4613;&#4721;&#5011; &#4808;&#4616;&#4720;&#5011; &#160;&#4778;&#4851;&#4757;&#5011; &#4808;&#4616;&#4720;&#5011; &#4808;&#4616;&#4720;</span><span style="font-size: small"><span style="line-height: 115%">[sic]</span></span><span style="line-height: 115%">&#5011; &#4661;&#4619;&#4660;&#5011; &#4824;&#4656;&#4648;&#4678;&#5011; &#4808;&#4824;&#4936;&#4608;&#4678;&#5011; &#4704;&#4661;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#5011;&#5011; &#4843;&#4853;&#4613;&#4758;&#5011; &#4813;&#4661;&#4720;&#5011; &#4608;&#4676;&#5011; &#4656;&#4752;&#4757;&#5011; </span></span></span><span style="font-size: large"><span style="line-height: 115%"><br /> </span></span></p></q>
                            <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fol. 94r: This book is which </span></span></span><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%"><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">&#704;abun&#228; G&#228;r&#228;m&#228;sq&#228;l donated to </span></span></span>the tabot of Kidan&#228; M&#477;hr&#228;t so that it might be for him the guide to the Kingdom of Heaven, with his sisters W&#228;l&#228;tt&#228; Kidan, W&#228;l&#228;tt&#228; S&#477;llase &#8230;</span></span></span><span style="font-size: small"><span style="line-height: 115%"><br /> </span></span></p></q>
                            <p>Crudly written.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%">Fol. 94v: Miracle of the Trinity worked &#8220;in the land of Ram&#8221;.</span></span></span><span style="font-size: small"><span style="line-height: 115%"><br /> </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small"><span style="line-height: 115%"><span style="line-height: 115%"><locus target="#94v">Fol. 94v</locus>: Miracle of the Trinity worked &#8220;in the land of Ram&#8221;.</span></span></span><span style="font-size: small"><span style="line-height: 115%"><br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a recent hand in vivid violet ink.
 Gäbrä Täklä Haymanot is mentioned in the supplication formula.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%"><span unicode="" style="line-height: 115%">Fol. 95r: Ownership note.</span><br /> </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="font-size: small"><span style="line-height: 115%"><span unicode="" style="line-height: 115%"><locus target="#95r">Fol. 95r</locus>: Ownership note.</span><br /> </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"><p><span unicode="" style="line-height: 115%; font-size: 10pt"><br /> </span></p></q>
                            <p>The note is crudely written in pencil by Yǝhdägo, the son of Gäbrä Mäsqäl who is the donor of the Ms.</p>
                         </item>
@@ -194,7 +202,7 @@ Gäbrä Täklä Haymanot is mentioned in the supplication formula.</p>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish brown tooled leather (the spine cover is missing).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -204,6 +212,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires.&#xD;
 Traces of the endband stitches.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish brown leather cover (at least 4 tools were used: double circle, double crescent, cross hatching, triple line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -246,8 +255,8 @@ Traces of the endband stitches.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ʾabunä Gärä (Gäbrä) Mäsqäl is mentioned in Additiones 2 and 4 as well as in the supplication formulas throughout the Ms.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ʾabunä Gärä (Gäbrä) Mäsqäl is mentioned in Additiones 2 and 4 as well as in the supplication formulas throughout the Ms.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -275,9 +284,9 @@ Traces of the endband stitches.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-04">registered</change>
-         <change who="AA" when="2013-04-30">created</change>
-         <change who="SA" when="2014-08-20">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-04-30T12:49:46.625Z">created</change>
+         <change who="SA" when="2014-08-20T09:18:16.657Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

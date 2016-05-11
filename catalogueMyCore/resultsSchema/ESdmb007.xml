@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-10-25</date>
+            <date>2011-10-25T10:16:38.286Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0131DMB"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMB-007</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; the word mǝʿǝraf (“chapter”) and the chapter numbers; two lines on the incipit page (fol. 3r) of the Introduction; some lines on the incipit page of each Gospel, divided into several groups, alternating with black lines: 6 lines for the Gospels of Matthew and John, 4 lines for the Gospel of Luke and 7 lines for the Gospel of Mark; 1-3 lines in the incipit of all the chapters; some paragraph beginnings (1-3 lines) and some other passages; incipit (one line) of some minor texts within the Introduction and the Postscript;&#xD;
+                     <rubric>Nomina sacra; the word mәʿәraf (“chapter”) and the chapter numbers; two lines on the incipit page (fol. 3r) of the Introduction; some lines on the incipit page of each Gospel, divided into several groups, alternating with black lines: 6 lines for the Gospels of Matthew and John, 4 lines for the Gospel of Luke and 7 lines for the Gospel of Mark; 1-3 lines in the incipit of all the chapters; some paragraph beginnings (1-3 lines) and some other passages; incipit (one line) of some minor texts within the Introduction and the Postscript;&#xD;
 parts of the Canon tables; Ethiopic numerals indicating the “tituli”; elements of the punctuation signs.</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -45,6 +45,14 @@ parts of the Canon tables; Ethiopic numerals indicating the “tituli”; elemen
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Concerning the introduction, the contents and the postscript of the Gospels, cp. R. ZUURMOND, Novum Testamentum Aethiopice: the Synoptic Gospels, Part I: General Introduction, Part II: Edition of the Gospel of Mark, Stuttgart 1989 (AeF 27), 1-31.</note>
+                     <note>The lists of the “Tituli” for the Gospels of Matthew and Luke are missing.</note>
+                     <note>The Gospels of Mark, Luke and John are introduced by “Opening Lines” which include a blessing (s. in fols. 53rab, 78rab, 114ra [ls. 1-6]). In the Gospels of Mark and of Luke these lines are separated from the main text by a sequence of nine dot asterisks.</note>
+                     <note>Concerning the “Opening Lines”, cp. R. ZUURMOND, Novum Testamentum Aethiopice: the Synoptic Gospels, Part I: General Introduction, (AeF 27), 23-24.</note>
+                     <note>The postscripts for all the Gospels include a note on their date of origin.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +60,10 @@ parts of the Canon tables; Ethiopic numerals indicating the “tituli”; elemen
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">147.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">147.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.0</measure> blank
+                                                  fols. 1rv, 2rv, 147v, in
+                                                  <measure unit="quire">22.0</measure> quires (A + 21). 
                                                 <dimensions type="outer">
                               <height unit="cm">26.0</height>
                               <width unit="cm">21.0</width>
@@ -110,7 +121,7 @@ parts of the Canon tables; Ethiopic numerals indicating the “tituli”; elemen
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling">25/28</ab>
                            <ab type="pricking">Pricking and ruling are visible; </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: </ab>
                            <ab>
 1A-1A-1A1A/0-0/0-0/C; </ab>
@@ -133,11 +144,14 @@ The bottom line is written above the ruling.</ab>
                         <date>Late 19th - early 20th century</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ማርያ፡</abbr> for <expan>ማርያም፡ </expan> (esp. fol. 11va [l.19])</item>
+                              <abbr>ማርያ፡</abbr> for
+                                                  <expan>ማርያም፡ </expan> (esp. fol. 11va [l.19])</item>
                            <item>
-                              <abbr>ምዕ፡</abbr> for <expan>ምዕራፍ፡ </expan> (e.g.: fols. 14va [l.22], 71va [l.9])</item>
+                              <abbr>ምዕ፡</abbr> for
+                                                  <expan>ምዕራፍ፡ </expan> (e.g.: fols. 14va [l.22], 71va [l.9])</item>
                            <item>
-                              <abbr>ም፡</abbr> for <expan>ምዕራፍ፡ </expan> (e.g.: fols. 19va [l.3], 58rb [l.3])</item>
+                              <abbr>ም፡</abbr> for
+                                                  <expan>ምዕራፍ፡ </expan> (e.g.: fols. 19va [l.3], 58rb [l.3])</item>
                         </list>
                      </handNote>
                   </handDesc>
@@ -146,33 +160,27 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif="">Fol. 2r: Donation note.</span></span></p><q xml:lang="gez"><p><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">Fol. 2r: </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4704;&#4768;&#4722;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4720;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4637;&#4661;&#4616;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4661;&#4637;&#4822;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4617;&#4849;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4624;&#4635;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4741;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4622;&#4661;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4704;&#4768;&#4936;&#4961; &#4768;&#4709;&#4961; &#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4770;&#4725;&#4653;&#4661;&#4817;&#4754;&#4961; &#4768;&#4704;&#4813;&#4840;&#4961; &#4808;&#4768;&#4739;&#4813;&#4840;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4808;&#4850;&#4843;&#4678;&#4755;&#4725;&#4961; &#4720;&#4925;&#4629;&#4936;&#4961; &#4808;&#4720;&#4872;&#4827;&#4961; &#4808;&#4704;&#4632;&#4752;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4808;&#4757;&#4873;&#4645;&#4752;&#4961; &#4637;&#4757;&#4621;&#4781;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4704;&#4768;&#4853;&#4961; &#4877;&#4651;&#4725;&#4961; &#4872;&#4704;&#4843;&#4961;<span>&#160; </span>&#4851;&#4763;&#4610;&#4961; &#4632;&#4637;&#4613;&#4653;&#4961; &#4720;&#4781;&#4616;&#4961; &#4624;&#4845;&#4635;&#4758;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4768;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4637;&#4840;&#4757;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4616;&#4845;&#4757;&#4961; &#4616;&#4845;&#4757;&#4961;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif=""><locus target="#2r">Fol. 2r</locus>: Donation note.</span></span></p><q xml:lang="gez"><p><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">Fol. 2r: </span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4808;&#4624;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4704;&#4768;&#4722;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4720;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4752;&#4941;&#4661;&#4961; &#4808;&#4645;&#4875;&#4961; &#4637;&#4661;&#4616;&#4961; &#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4661;&#4637;&#4822;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4768;&#4705;&#4611;&#4961; &#4768;&#4637;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4617;&#4849;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4632;&#4829;&#4872;&#4704;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4768;&#4632;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4624;&#4635;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4706;&#4840;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4741;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4616;&#4720;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4622;&#4661;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4704;&#4768;&#4936;&#4961; &#4768;&#4709;&#4961; &#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4770;&#4725;&#4653;&#4661;&#4817;&#4754;&#4961; &#4768;&#4704;&#4813;&#4840;&#4961; &#4808;&#4768;&#4739;&#4813;&#4840;&#4961; &#4779;&#4613;&#4755;&#4725;&#4961; &#4808;&#4850;&#4843;&#4678;&#4755;&#4725;&#4961; &#4720;&#4925;&#4629;&#4936;&#4961; &#4808;&#4720;&#4872;&#4827;&#4961; &#4808;&#4704;&#4632;&#4752;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4808;&#4757;&#4873;&#4645;&#4752;&#4961; &#4637;&#4757;&#4621;&#4781;</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4704;&#4768;&#4853;&#4961; &#4877;&#4651;&#4725;&#4961; &#4872;&#4704;&#4843;&#4961;<span>&#160; </span>&#4851;&#4763;&#4610;&#4961; &#4632;&#4637;&#4613;&#4653;&#4961; &#4720;&#4781;&#4616;&#4961; &#4624;&#4845;&#4635;&#4758;&#4725;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4768;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4961; &#4808;&#4768;&#4637;&#4840;&#4757;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%; font-size: 10pt;">[sic]</span><span lang="EN-US" style="line-height: 115%; font-family: Nyala; font-size: 12pt;">&#4961; &#4616;&#4845;&#4757;&#4961; &#4616;&#4845;&#4757;&#4961;</span></p></q>
                            <q xml:lang="en"><p class="MsoNormal" style="text-align: left; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="">Fol. 2r: This is the book of G&#228;br&#228; &#704;</span><span lang="EN-US" sans-serif="" arial="">&#398;</span><span lang="EN-US" sans-serif="" arial="">gzi&#704;ab&#477;&#7717;er which he donated to the tabot of (the church of) Mika&#704;el B&#228;&#704;atti, so that it might be for him the salvation of the soul and the body, together with his father W&#228;ld&#228; S</span><span lang="EN-US" sans-serif="" arial="">&#601;</span><span lang="EN-US" sans-serif="" arial="">m</span><span lang="EN-US" sans-serif="" arial="">&#601;</span><span lang="EN-US" sans-serif="" arial="">&#705;on and his wife W&#228;l&#228;tt&#228; Mika&#704;el and her father &#705;Amd&#228; Mika&#704;el, his children M&#228;zg&#228;b&#228; &#346;</span><span lang="EN-US" sans-serif="" arial="">&#601;</span><span lang="EN-US" sans-serif="" arial="">llase, W&#228;lda Yo&#7717;ann</span><span lang="EN-US" sans-serif="" arial="">&#601;</span><span lang="EN-US" sans-serif="" arial="">s and T&#228;kl&#228; Haymanot, W&#228;l&#228;tt&#228; Yo&#7717;ann</span><span lang="EN-US" sans-serif="" arial="">&#601;</span><span lang="EN-US" sans-serif="" arial="">s, W&#228;l&#228;tt&#228; Giyorgis, &#704;Am&#228;t&#228; &#704;Iy&#228;sus, W&#228;l&#228;tt&#228; &#704;Abiy&#228; &#704;</span><span lang="EN-US" sans-serif="" arial="">&#398;</span><span lang="EN-US" sans-serif="" arial="">gzi&#704; and&#160; his mother-in law W&#228;l&#228;tt&#228; &#704;Abiy&#228; &#704;</span><span lang="EN-US" sans-serif="" arial="">&#398;</span><span lang="EN-US" sans-serif="" arial="">gzi&#704;, and his sisters W&#228;l&#228;tt&#228; &#7778;ad</span><span lang="EN-US" sans-serif="" arial="">&#601;</span><span lang="EN-US" sans-serif="" arial="">qan, W&#228;l&#228;tt&#228; M&#228;d&#7723;</span><span lang="EN-US" sans-serif="" arial="">&#601;</span><span lang="EN-US" sans-serif="" arial="">n.</span> <span lang="EN-US" sans-serif="" arial="">May the one who stole it (the book) and erased it be excommunicated by</span><span lang="EN-US" sans-serif="" arial=""> the power of Peter and Paul, through the mouth of the Father, Son and Holy Spirit. May you, my fathers and my brothers, priests and deacons<i>, </i>not forget (to pray) for my sake! </span></span></p> <p class="MsoNormal" style="text-align: left; line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">(The book) was written and bought in the year of the Evangelist Mark and the king M</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">&#601;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">n</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">i</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">l</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">&#601;</span><span lang="EN-US" sans-serif="" arial="" style="line-height: 115%;">k and our metropolitan &#7766;e&#7789;ros,&#160;at the market in &#705;Addigrat; the judge (was) m&#228;mh&#1241;r T&#228;kl&#228; &#7716;aymanot. Forever and ever. Amen and Amen. So be&#160; it, so be it.&#160; </span></span></p> <p></p></q>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span lang="EN-US" sans-serif="" arial="" style="font-size: 10pt;">Fol. 52vb: Donation note.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span lang="EN-US" sans-serif="" arial="" style="font-size: 10pt;"><locus target="#52vb">Fol. 52vb</locus>: Donation note.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is an abridged version of the note in fol. 2r: it states that the manuscript was initially property of Gäbrä ʾƎgziʾabǝḥer who donated it to the tabot of the church of Mikaʾel Bäʾatti. It repeats the same names of the relatives of the donor.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p style="text-align: left; line-height: normal; margin-bottom: 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif="">Fol. 77va-vb: Record concerning reconciliation between &#7689;</span><span lang="EN-US" arial="" sans-serif="">&#601;</span><span lang="EN-US" arial="" sans-serif="">qa (</span><span lang="EN-US" arial="" sans-serif="">&#353;</span><span lang="EN-US" arial="" sans-serif="">ums) and the community of B&#228;&#704;atti.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p style="text-align: left; line-height: normal; margin-bottom: 0pt;" class="MsoNormal"><span style="font-size: small;"><span lang="EN-US" arial="" sans-serif=""><locus target="#77va">Fol. 77va</locus>-vb: Record concerning reconciliation between &#7689;</span><span lang="EN-US" arial="" sans-serif="">&#601;</span><span lang="EN-US" arial="" sans-serif="">qa (</span><span lang="EN-US" arial="" sans-serif="">&#353;</span><span lang="EN-US" arial="" sans-serif="">ums) and the community of B&#228;&#704;atti.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note mentions the date 1922 E.C. (= 1929/30 A.D.).</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="">Fol. 113va-vb: Record</span><span lang="EN-US" sans-serif="" arial=""> concerning heritage (?).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial=""><locus target="#113va">Fol. 113va</locus>-vb: Record</span><span lang="EN-US" sans-serif="" arial=""> concerning heritage (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note mentions the date 1951 E.C. (1958/59 A.D.), 8th of Mäskäräm.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial="">Fol. 146va-vb: Record concerning the purchase of a house. </span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a5"><p><span style="font-size: small;"><span lang="EN-US" sans-serif="" arial=""><locus target="#146va">Fol. 146va</locus>-vb: Record concerning the purchase of a house. </span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note mentions the date 1914 E.C. (= 1921/22 A.D.).</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span style="font-size: small;"><span lang="EN-US">Fol. 147r: Record concerning the purchase of a house.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a6"><p><span style="font-size: small;"><span lang="EN-US"><locus target="#147r">Fol. 147r</locus>: Record concerning the purchase of a house.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note mentions the date 1922 E.C. (1929/30 A.D.), 16th Mäggabit.</p>
                         </item>
@@ -197,7 +205,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0131DMB">Bäʿatti Qǝddus Mikaʾel  / DMB</placeName>
+                        <placeName corresp="INS0131DMB">Bäʿatti Qәddus Mikaʾel  / DMB</placeName>
                      </origPlace>
                      <origDate notBefore="1889" notAfter="1913">Additio 1 mentions King Mǝnilǝk (r. 1889-1913) and Metropolitan Ṗeṭros (in tenure 1881-1917).&#xD;
 Additio 1 refers to the year of Mark the Evangelist. This means that the Ms. could have been written in years 1889/90, 1897/98, 1905/6 or 1912/13(cp. ChChron 219).</origDate>
@@ -234,8 +242,8 @@ Additio 1 refers to the year of Mark the Evangelist. This means that the Ms. cou
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä ʾƎgziʾabǝḥer, according to Additione 1 and 2.&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">Gäbrä ʾƎgziʾabǝḥer, according to Additione 1 and 2.&#xD;
 Besides, Additio 1 and 2 mentions names of other individuals (probably his relatives): Wäldä Sǝmʿon, Wälättä Mikaʾel, ʿAmdä Mikaʾel, Mäzgäbä Śǝllase, Wälda Yoḥannǝs, Täklä Haymanot, Wälättä Yoḥannǝs, Wälättä Giyorgis, ʾAmätä ʾIyäsus, Wälättä ʾAbiyä ʾƎgziʾ, Wälättä ʾAbiyä ʾƎgziʾ, Wälättä Ṣadǝqan, Wälättä Mädḫǝn.&#xD;
 Some of these names are also mentioned in the supplication formulas, at the end of several sub-sections (s., e.g., fols. 7va, 16va), added in a different hand.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
@@ -260,9 +268,9 @@ Some of these names are also mentioned in the supplication formulas, at the end 
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-10">registered</change>
-         <change who="VP" when="2011-10-25">created</change>
-         <change who="MV" when="2015-05-04">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="VP" when="2011-10-25T10:16:38.286Z">created</change>
+         <change who="MV" when="2015-05-04T07:53:08.205Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

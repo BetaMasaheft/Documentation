@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESqma002"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>ʾArbaʿtu wängel “Four Gospels”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2012-01-11T14:50:49.875Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0175QMA"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>QMA-002</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; &#xD;
+the word mәʿәraf (“chapter”) and the numbers of the chapters;&#xD;
+some lines of the incipit page of each Gospels, divided into several groups, alternating with black lines: 7 lines in fol. 10r, 9 lines in fol. 42r, 8 lines in fol. 62r, 8 lines in fol. 96r;&#xD;
+the incipit (2-3 lines) of all the chapters; &#xD;
+some paragraph beginnings;&#xD;
+parts of Canon tables;&#xD;
+the stichometry for the Gospel of Matthew (fol. 40ra, l.20);&#xD;
+some extras notes at the top of the leaves;&#xD;
+Ethiopic numbers indicating the “Tituli” (s. esp. in fol. 40v, ls. 1, 2);&#xD;
+elements of the punctuation signs.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Concerning the introduction, the contents and the postscript of the Gospels, cp. R. ZUURMOND, Novum Testamentum Aethiopice: the Synoptic Gospels, Part I: General Introduction, Part II: Edition of the Gospel of Mark, Stuttgart 1989 (AeF 27), 1-31; concerning the “Stichometry”, specifically cp. ivi, 25-26.</note>
+                     <note>The lists of the “Tituli” for the Gospels of Mark, Luke and John are missing.</note>
+                     <note>The list of the “Tituli” for the Gospels of Matthew contains 65 titles whose only the first two ones are numbered by Ethiopic numbers.</note>
+                     <note>Each Gospel is introduced by headings which include a blessing (s. in fols. 10r [ls. 1-2], 42r [ls. 1-3], 62r [ls. 1-3], 96r [ls. 1-4]).</note>
+                     <note>The short postscript and the stichometry for the Gospel of Matthew are together separated from the main text by a sequence of nine dot asterisks followed by two chains of red and black dots; two chains of red and black dots separate also the stichometry for the Gospel of John.</note>
+                     <note/>
+                     <note>In fols. 1, 2 and 9, the ruling has not been finished.</note>
+                     <note>The fols. 92, 93, 99, 102 are in a smaller size.</note>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">121.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">11.0</measure> blank
+                                                  fols. 1r, 2rv, 3rv, 4rv, 5rv, 9rv, 41rv, 60v, 61rv, 95rv, 121rv, in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
+                                                <dimensions type="outer">
+                              <height unit="cm">34.5</height>
+                              <width unit="cm">24.0</width>
+                              <depth unit="cm">7.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <signatures> Decorated <note>Fol. 10r: Decorated quire mark is written in the upper margin of the leaf:&#xD;
+፩ “1” (ornamented by four red and black nine dot asterisks).</note>
+                           </signatures>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="1r" to="2v"/>
+                                 <locus from="3r" to="9v"/>A (2/fols. 1r-2v) - I (7; s.l.: 7, stub before 1/fols. 3r-9v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="10r" to="19v"/> ፩II (10/fols. 10r-19v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="20r" to="29v"/> III (10/fols. 20r-29v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="30r" to="38v"/> IV (10; s.l.: 6, stub after 3/fols. 30r-38v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="39r" to="41v"/> V (3; s.l.: 3, stub before 1/fols. 39r-41v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="42r" to="51v"/> VI (10/fols. 42r-51v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="52r" to="61v"/> VII (10/fols. 52r-61v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="62r" to="71v"/> VIII (10/fols. 62r-71v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="72r" to="80v"/> IX (10/fols. 72r-80v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="81r" to="89v"/> X (9; s.l.: 1, stub after 9/fols. 81r-89v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="90r" to="95v"/> XI (6; s.l.: 1, stub after 6; 5, stub after 2/fols. 90r-95v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="96r" to="105v"/> XII (10/fols. 96r-105v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="106r" to="114v"/> XIII (9; s.l.: 1, stub after 9/fols. 106r-114v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="115r" to="121v"/> XIV (7; s.l.: 1, stub after 7/fols. 115r-121v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">Cut carefully amended in fols. 55, 61, 71, 85, 89, 110.&#xD;
+Holes in fols. 30, 81, 82, 95, 100, 101, 110.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="31">
+                           <dimensions unit="mm">
+                              <height>238</height>
+                              <width>193</width>
+                              <dim type="intercolumn">35</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">35</dim>
+                              <dim type="bottom">72</dim>
+                              <dim type="right">34</dim>
+                              <dim type="left">13</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 11r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="pattern">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are partly visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are partly visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout>
+                           <ab type="CruxAnsata">no</ab>
+                        </layout>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Regular, careful.</ab>
+                        <seg type="ink">Black; red.</seg>
+                        <date>Second half of the 19th century.</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic">none<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#1v">Fol. 1v</locus>: Record concerning the reconciliation between qäñǝzmat (sic for qäññazmač) Sǝbḥatu and the clergy of the church of Gäbrǝˀel (Qǝddus Gäbrǝˀel Ḥawaṣi).<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           In Amharic. Black ink.
+                        </item>
+                        <item xml:id="a2">
+                           <locus target="#3ra">Fols. 3ra-3</locus>vb: Directives for the clergy and readings for Passion Week. <q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           Black ink and rubrications in red.
+                        </item>
+                        <item xml:id="a3">
+                           <locus target="#8vb">Fol. 8vb</locus>: Donation note.<q xml:lang="gez">Fol. 8vb: ዝመጽሐፍ፡ ዘታቦተ፡ ማርያም፡ አብርቆ፡ ዘወሀባ፡ ኃለቃ፡ ኃይለ፡ ማርያም፡ ወብእሲቱ፡ አመተ፡ ማርያም፡ ወደቂቁ፡ ገብረ፡ መድኅን፡ ገብረ፡ ማርያም፡ ገብረ፡ ሥላሴ፡ ወለተ፡ ሚካኤል፡ ገብረ፡ አረጋዊ፡ ገብረ፡ እግዚአብሔር፡ ገብረ፡ ሚካኤል፡ ገብረ፡ ኢየሱስ፡ አመተ፡ ገሪማ፡ ገብረ፡ ተክለ፡ ሃይማኖት፡ ይኩኖሙ፡ መርሀ፡ ለመንግሥተ፡ ሰማያት፡</q>
+                           <q xml:lang="en">Fol. 8vb: This is the book of the tabot of Maryam ˀAbrǝqo which ḫaläqa Ḫaylä Maryam donated; and his wife (is) ˀAmätä Maryam, his children  (are) Gäbrä Mädḫǝn, Gäbrä Maryam, Gäbrä Śǝllase, Wälättä Mikaˀel, Gäbrä ˀArägawi, Gäbrä ˀƎgziˀabǝḥer, Gäbrä Mikaˀel, Gäbrä ˀIyäsus, ˀAmätä Gärima, Gäbrä Täklä Haymanot,  (so that) it might be for them the guide to the kingdom of Heaven. </q>
+                           Black ink and rubrications in red.
+                        </item>
+                        <item xml:id="a4">
+                           <locus target="#8va">Fol. 8va</locus>b: Note concerning the use of the land of ˀAbrǝqo Qǝddǝst Maryam.<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           The note mentions the date 1916 E.C. (= 1923/24 A.D.); written in Amharic, in blue pen.
+                        </item>
+                        <item xml:id="a5">
+                           <locus target="#9ra">Fol. 9ra</locus>b: List of names of individuals.<q xml:lang="gez"/>
+                           <q xml:lang="en"/>
+                           In Amharic. Black ink.
+Written during the time of King Menelik II (1889-1913).
+                        </item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="partly">
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays. &#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="leather"/>
+                           <material key="wood"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0175QMA">ʾAbrǝqo Maryam / QMA</placeName>
+                     </origPlace>
+                     <origDate notBefore="1850" notAfter="1900">The time of King Mǝnǝlik II (r. 1889-1913) is mentioned in Additio 5 (s. fol. 9rab); this suggests that the main text has been written before this period.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ḫaläqa Ḫaylä Maryam, according to Additio  3 (s. fol. 8vb, ls. 1-9). His name is also mentioned in the heading of each Gospel, together with the name of his wife, ʾAmätä Maryam (s. also Additio 3, and the heading of Gospels of Mark, Luke and John). Names of other individuals, mentioned as the children of the donor, are in Additio 3: Gäbrä Mädḫǝn, Gäbrä Maryam, Gäbrä Śǝllase, Wälättä Mikaʾel, Gäbrä ʾArägawi, Gäbrä ʾƎgziʾabǝḥer, Gäbrä Mikaʾel, Gäbrä ʾIyäsus, ʾAmätä Gärima, Gäbrä Täklä Haymanot.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="NewTestament"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-05-18">registered</change>
+         <change who="VP" when="2012-01-11T14:50:49.875Z">created</change>
+         <change who="DN" when="2015-09-14T11:07:27.758Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

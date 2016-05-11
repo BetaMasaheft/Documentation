@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-09-26</date>
+            <date>2011-09-26T09:42:25.328Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0049QSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QSM-024</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The introduction (Text I-1) is usually part of the homily for Ḫǝdar.</note>
+                     <note>The miracles are numbered.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">127.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">127.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  3v, 13r, 23r, 39r, 45r, 68v, 73r, 74v, 76v, 81r, 83r, 85r, 105r, 106v, 107r, 108v, 113r, 114v, 119r, 121r, 122v, in
+                                                  <measure unit="quire">19.0</measure> quires (A+18). 
                                                 <dimensions type="outer">
                               <height unit="cm">26.5</height>
                               <width unit="cm">25.0</width>
@@ -60,6 +68,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>-  An undecorated quire mark is written in the left upper corner of fol. 16r: ፪ (second leaf of the quire).</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">4</dim>
@@ -146,7 +157,7 @@ Holes or tears (carefully) amended on fols. 49, 95.</condition>
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/B.</ab>
                            <ab type="pricking">
 Primary pricks are visible</ab>
@@ -174,30 +185,28 @@ Leaves containing the minatures are unruled.</ab>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Commemorative notices and &#704;arke-hymns.</span></span></p><q xml:lang="gez"><div>Fols. 1ra-2rb: Commemorative notice for the 12th of &#7722;&#477;dar and &#704;arke-hymn.</div> <div>Fol. 4va-vb: Commemorative notice for the 12th of Ta&#7723;&#347;a&#347;.</div> <div>Fol. 14va-vb: Commemorative notice for the 12th of &#7788;&#477;rr and &#704;arke-hymn.</div> <div>Fol. 24va-vb: Commemorative notice for the 12th of Y&#228;kkatit and &#704;arke-hymn.</div> <div>Fol. 26va-vb: Commemorative notice for the 12th of M&#228;ggabit and &#704;arke-hymn.</div> <div>Fol. 40va-vb: Commemorative notice for the 12th of &#7716;amle.</div> <div>Fol. 46va-vb: Commemorative notice for Miyazya and &#704;arke-hymn.</div> <div>Fol. 63ra-rb: Commemorative notice for the 12th of G&#477;nbot and &#704;arke-hymn.</div> <div>Fols. 66va-67rb: Commemorative notice for the 12th of S&#228;ne.</div> <div>Fol. 86va-vb: Commemorative notice for the 12th of N&#228;&#7717;ase and &#704;arke-hymn.</div> <div>Fol. 100va-vb: Commemorative notice for the 12th of M&#228;sk&#228;r&#228;m.</div> <div>Fol. 120va-vb: Commemorative notice for the 12th of &#7788;&#477;q&#477;mt.</div> <div>Fols. 1ra-2rb: Commemorative notice for the 12th of &#7722;&#477;dar and &#704;arke-hymn.</div> <div>Fol. 4va-vb: Commemorative notice for the 12th of Ta&#7723;&#347;a&#347;.</div> <div>Fol. 14va-vb: Commemorative notice for the 12th of &#7788;&#477;rr and &#704;arke-hymn.</div> <div>Fol. 24va-vb: Commemorative notice for the 12th of Y&#228;kkatit and &#704;arke-hymn.</div> <div>Fol. 26va-vb: Commemorative notice for the 12th of M&#228;ggabit and &#704;arke-hymn.</div> <div>Fol. 40va-vb: Commemorative notice for the 12th of &#7716;amle.</div> <div>Fol. 46va-vb: Commemorative notice for Miyazya and &#704;arke-hymn.</div> <div>Fol. 63ra-rb: Commemorative notice for the 12th of G&#477;nbot and &#704;arke-hymn.</div> <div>Fols. 66va-67rb: Commemorative notice for the 12th of S&#228;ne.</div> <div>Fol. 86va-vb: Commemorative notice for the 12th of N&#228;&#7717;ase and &#704;arke-hymn.</div> <div>Fol. 100va-vb: Commemorative notice for the 12th of M&#228;sk&#228;r&#228;m.</div> <div>Fol. 120va-vb: Commemorative notice for the 12th of &#7788;&#477;q&#477;mt.</div></q>
+                           <locus target="#00"/>
+                           <desc><p><span style="font-size: small;"><span style="line-height: 115%;">Commemorative notices and &#704;arke-hymns.</span></span></p></desc>
+                           <q xml:lang="gez"><div>Fols. 1ra-2rb: Commemorative notice for the 12th of &#7722;&#477;dar and &#704;arke-hymn.</div> <div>Fol. 4va-vb: Commemorative notice for the 12th of Ta&#7723;&#347;a&#347;.</div> <div>Fol. 14va-vb: Commemorative notice for the 12th of &#7788;&#477;rr and &#704;arke-hymn.</div> <div>Fol. 24va-vb: Commemorative notice for the 12th of Y&#228;kkatit and &#704;arke-hymn.</div> <div>Fol. 26va-vb: Commemorative notice for the 12th of M&#228;ggabit and &#704;arke-hymn.</div> <div>Fol. 40va-vb: Commemorative notice for the 12th of &#7716;amle.</div> <div>Fol. 46va-vb: Commemorative notice for Miyazya and &#704;arke-hymn.</div> <div>Fol. 63ra-rb: Commemorative notice for the 12th of G&#477;nbot and &#704;arke-hymn.</div> <div>Fols. 66va-67rb: Commemorative notice for the 12th of S&#228;ne.</div> <div>Fol. 86va-vb: Commemorative notice for the 12th of N&#228;&#7717;ase and &#704;arke-hymn.</div> <div>Fol. 100va-vb: Commemorative notice for the 12th of M&#228;sk&#228;r&#228;m.</div> <div>Fol. 120va-vb: Commemorative notice for the 12th of &#7788;&#477;q&#477;mt.</div> <div>Fols. 1ra-2rb: Commemorative notice for the 12th of &#7722;&#477;dar and &#704;arke-hymn.</div> <div>Fol. 4va-vb: Commemorative notice for the 12th of Ta&#7723;&#347;a&#347;.</div> <div>Fol. 14va-vb: Commemorative notice for the 12th of &#7788;&#477;rr and &#704;arke-hymn.</div> <div>Fol. 24va-vb: Commemorative notice for the 12th of Y&#228;kkatit and &#704;arke-hymn.</div> <div>Fol. 26va-vb: Commemorative notice for the 12th of M&#228;ggabit and &#704;arke-hymn.</div> <div>Fol. 40va-vb: Commemorative notice for the 12th of &#7716;amle.</div> <div>Fol. 46va-vb: Commemorative notice for Miyazya and &#704;arke-hymn.</div> <div>Fol. 63ra-rb: Commemorative notice for the 12th of G&#477;nbot and &#704;arke-hymn.</div> <div>Fols. 66va-67rb: Commemorative notice for the 12th of S&#228;ne.</div> <div>Fol. 86va-vb: Commemorative notice for the 12th of N&#228;&#7717;ase and &#704;arke-hymn.</div> <div>Fol. 100va-vb: Commemorative notice for the 12th of M&#228;sk&#228;r&#228;m.</div> <div>Fol. 120va-vb: Commemorative notice for the 12th of &#7788;&#477;q&#477;mt.</div></q>
                            <q xml:lang="en"/>
                            <p>Quire A as well as blank folios after or before the miniatures were used to add the missing commemorative notices and hymns. 
 The commemorative notice for Ḫǝdar includes a part of the homily for Taḫśaś (from fol. 2rb l. 12 onwards).
 Sǝbḥat lä-ʾAb is mentioned in the supplication formulas of all commemorative notices.
 The same hand added the name of Sǝbḥat lä-ʾAb to the supplication formulas throughout the Ms.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">Fol. 84r: Supplication for the painter.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 84r:</span><span style="font-size:9.0pt;Arial"> </span><span style="font-size: large;">&#4720;&#4635;&#4736;&#4928;&#4757;&#4777;&#4961; &#4768;&#4752;&#4961; &#4704;&#4709;&#4653;&#4781;&#4633;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small;"><locus target="#84r">Fol. 84r</locus>: Supplication for the painter.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 84r:</span><span style="font-size:9.0pt;Arial"> </span><span style="font-size: large;">&#4720;&#4635;&#4736;&#4928;&#4757;&#4777;&#4961; &#4768;&#4752;&#4961; &#4704;&#4709;&#4653;&#4781;&#4633;&#4961; &#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;">Fol. 84r: I, W&#228;ld&#228; Maryam, appeal for your protection on my knees.</span></p></q>
                            <p/>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 127va-vb: Acquisition note.</span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small">Fols. 127va-vb:</span><span style="font-size: 14pt"> </span><span style="font-size: large">&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4845;&#4777;&#4758;&#4961; &#4648;&#4853;&#4772;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4962; &#4808;&#4845;&#4920;&#4624;&#4941;&#4961; &#4768;&#4661;&#4635;&#4722;&#4614;&#4633;&#4961; &#4704;&#4736;&#4704;&#4961; &#4819;&#4637;&#4848;&#4961; &#4808;&#4653;&#4677;&#4961; &#4704;&#4672;&#4616;&#4632;&#4961; &#4848;&#4633;&#4961; &#4776;&#4768;&#4877;&#4709;&#4653;&#4722;&#4609;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4768;&#4709;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4611;&#4845;&#4635;&#4758;&#4720;&#4961; &#4768;&#4709;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4755;&#4725;&#4755;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4848;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4848;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4632;&#4653;&#4678;&#4652;&#4814;&#4661;&#4962; <span style="line-height: 115%">&#4808;&#4616;&#4709;&#4773;&#4658;&#4721;&#4961; &#4738;&#4649;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4813;&#4617;&#4848;&#4961; &#4637;&#4661;&#4616;&#4961; &#4808;&#4619;&#4850;&#4843;&#4754;&#4611;&#4961; &#4932;&#4811;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4773;&#4635;&#4754;&#4961; &#4928;&#4848;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4819;&#4928;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4848;&#4757;&#4962;</span></span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#127va">Fol. 127va</locus>-vb: Acquisition note.</span></span></p><q xml:lang="gez"><p style="text-align: left;"><span style="font-size: small">Fols. 127va-vb:</span><span style="font-size: 14pt"> </span><span style="font-size: large">&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4845;&#4777;&#4758;&#4961; &#4648;&#4853;&#4772;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4768;&#4901;&#4648;&#4846;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4962; &#4808;&#4845;&#4920;&#4624;&#4941;&#4961; &#4768;&#4661;&#4635;&#4722;&#4614;&#4633;&#4961; &#4704;&#4736;&#4704;&#4961; &#4819;&#4637;&#4848;&#4961; &#4808;&#4653;&#4677;&#4961; &#4704;&#4672;&#4616;&#4632;&#4961; &#4848;&#4633;&#4961; &#4776;&#4768;&#4877;&#4709;&#4653;&#4722;&#4609;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4768;&#4709;&#4961; &#4808;&#4621;&#4848;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4611;&#4845;&#4635;&#4758;&#4720;&#4961; &#4768;&#4709;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4621;&#4848;&#4961; &#4725;&#4757;&#4643;&#4772;&#4961; &#4755;&#4725;&#4755;&#4772;&#4621;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4848;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4768;&#4848;&#4637;&#4961; &#4808;&#4621;&#4848;&#4961; &#4632;&#4653;&#4678;&#4652;&#4814;&#4661;&#4962; <span style="line-height: 115%">&#4808;&#4616;&#4709;&#4773;&#4658;&#4721;&#4961; &#4738;&#4649;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4813;&#4617;&#4848;&#4961; &#4637;&#4661;&#4616;&#4961; &#4808;&#4619;&#4850;&#4843;&#4754;&#4611;&#4961; &#4932;&#4811;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4773;&#4635;&#4754;&#4961; &#4928;&#4848;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4819;&#4928;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4778;&#4848;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note states that Wäldä Mikaʾel is the commissioner, and lists names of the members of his family. In addition, several names including Sǝbḥat lä-ʾAb are written on fol. 2rb, in the same hand.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 127vb: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 127vb</span></span><span style="line-height: 115%; font-size: 10pt">:</span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4616;&#4829;&#4853;&#4653;&#4659;&#4757;&#4961; &#4808;&#4608;&#4710;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4672;&#4653;&#4656;&#4961; &#4704;&#4653;&#4961; &#4824;&#4720;&#4656;&#4840;&#4902;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4739;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4640;&#4635;&#4843;&#4725;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962; &#4637;&#4661;&#4616;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4962; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></p></q>
+                        <item xml:id="a4"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#127vb">Fol. 127vb</locus>: Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 127vb</span></span><span style="line-height: 115%; font-size: 10pt">:</span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4616;&#4829;&#4853;&#4653;&#4659;&#4757;&#4961; &#4808;&#4608;&#4710;&#4961; &#4651;&#4661;&#4961; &#4661;&#4709;&#4624;&#4725;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4672;&#4653;&#4656;&#4961; &#4704;&#4653;&#4961; &#4824;&#4720;&#4656;&#4840;&#4902;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4758;&#4961; &#4632;&#4653;&#4739;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4640;&#4635;&#4843;&#4725;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4819;&#4616;&#4637;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962; &#4637;&#4661;&#4616;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4808;&#4621;&#4848;&#4961; &#4872;&#4709;&#4648;&#4961; &#4629;&#4845;&#4808;&#4725;&#4961; &#4824;&#4656;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4962; &#4704;&#4661;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note, written in a recent hand, mentions ras Sǝbḥat (1844-1914) as the donor.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small;">Fol. 127v (bottom margin): Note on healing a blind man.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 127v:</span><span style="font-size:9.0pt;Arial" unicode=""> </span><span style="font-size: large;">&#4773;&#4813;&#4653;&#4961; &#4840;&#4773;&#4757;&#4848;&#4936;&#4808;&#4661;&#4961; &#4872;&#4709;&#4652;&#4961; &#4853;&#4813;&#4845;&#4961; &#4773;&#4757;&#4848;&#4936;&#4808;[&#4661;]&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4637;&#4661;&#4616;&#4961; &#4941;&#4673;&#4653;&#4961; &#4808;&#4621;&#4851;&#4961; ...</span></p></q>
+                        <item xml:id="a5"><p><span style="font-size: small;"><locus target="#127v">Fol. 127v</locus>(bottom margin): Note on healing a blind man.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 127v:</span><span style="font-size:9.0pt;Arial" unicode=""> </span><span style="font-size: large;">&#4773;&#4813;&#4653;&#4961; &#4840;&#4773;&#4757;&#4848;&#4936;&#4808;&#4661;&#4961; &#4872;&#4709;&#4652;&#4961; &#4853;&#4813;&#4845;&#4961; &#4773;&#4757;&#4848;&#4936;&#4808;[&#4661;]&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4872;&#4709;&#4653;&#4772;&#4621;&#4961; &#4637;&#4661;&#4616;&#4961; &#4941;&#4673;&#4653;&#4961; &#4808;&#4621;&#4851;&#4961; ...</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note, in Amharic, is probably written in the main hand. It might refer to a miniature contained in this Ms.</p>
                         </item>
@@ -217,6 +226,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible on the spine fold of the quires, one close to the head and one close tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 9 tools were used: double line fillet, double circle, cross hatching, hatching, corni form, small x, x-form, swirl, wave form).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -259,8 +269,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of ʿAmdä Mikaʾel is written in the supplication formulas in the main hand. In many cases (esp. at the beginning of the text) his name has been erased and replaced with that of Sǝbḥat Lä-ʾAb. This name is also mentioned in the commemorative notices which were added on blank folios at a later stage (s. Additio 1). &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of ʿAmdä Mikaʾel is written in the supplication formulas in the main hand. In many cases (esp. at the beginning of the text) his name has been erased and replaced with that of Sǝbḥat Lä-ʾAb. This name is also mentioned in the commemorative notices which were added on blank folios at a later stage (s. Additio 1). &#xD;
 According to Additio 3, Wäldä Mikaʾel commissioned the writing. This note includes also the name of Sǝbḥat Lä-ʾAb. &#xD;
 According to the more recent Additio 4, the Ms. was purchased and donated to the church by ras Sǝbḥat ʾArägawi (1844-1914).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
@@ -289,9 +299,9 @@ According to the more recent Additio 4, the Ms. was purchased and donated to the
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-18">registered</change>
-         <change who="DN" when="2011-09-26">created</change>
-         <change who="DN" when="2015-04-22">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="DN" when="2011-09-26T09:42:25.328Z">created</change>
+         <change who="DN" when="2015-04-22T18:40:36.765Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

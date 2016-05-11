@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESssb014"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mäftǝḥe śǝray “Undoing of Charms”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2013-10-22</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0111SSB"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>SSB-014</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the (original) owner (erased); four lines alternating with black lines on the incipit page (fol. 1r); one or two lines on the incipit of each prayer; elements of the punctuation signs; elements of Ethiopic numerals.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">57.0</measure> folios, in <measure unit="quire"/> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">10.0</height>
+                              <width unit="cm">9.0</width>
+                              <depth unit="cm">3.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">The quire structure cannot be exactly established due to the condition of the Ms.</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The sewing is damaged and repaired with modern thread. &#xD;
+The Ms. is affected by humidity in the upper corners.&#xD;
+The bottom corners are dirty and show signs of intensive use; some fols. are worn out.&#xD;
+Some fols. may be missing, some are misplaced (fol. 49).</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="1" writtenLines="8">
+                           <dimensions unit="mm">
+                              <height>60</height>
+                              <width>58</width>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">15</dim>
+                              <dim type="bottom">30</dim>
+                              <dim type="right">19</dim>
+                              <dim type="left">11</dim>
+                              <dim type="intercolumn"/>
+                           </dimensions>
+                           <note>All data for fol. 2r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Ruling and pricking are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Very fine, regular.</ab>
+                        <seg type="ink">Black and red (vivid vermillion).</seg>
+                        <date>Late 17th early 18th century.</date>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="miniature" xml:id="d1">
+                        <locus target="#3v">Fol. 3v: </locus>
+                        <desc>Anthropomorphic motif (eyes) included in text divider.</desc>
+                     </decoNote>
+                     <decoNote type="miniature" xml:id="d2">
+                        <locus target="#4r">Fol. 4r: </locus>
+                        <desc>“Seal of Solomon”.</desc>
+                     </decoNote>
+                     <decoNote type="miniature" xml:id="d3">
+                        <locus target="#12v">Fol. 12v: </locus>
+                        <desc>“Seal of Solomon”.</desc>
+                     </decoNote>
+                     <decoNote type="miniature" xml:id="d4">
+                        <locus target="#43v">Fol. 43v: </locus>
+                        <desc>Geometric motifs, grid design.</desc>
+                     </decoNote>
+                     <decoNote type="miniature" xml:id="d5">
+                        <locus target="#56r">Fol. 56r: </locus>
+                        <desc>Angelic script.</desc>
+                     </decoNote>
+                     <decoNote type="miniature" xml:id="d6">
+                        <locus target="#56v">Fol. 56v: </locus>
+                        <desc>Geometric motifs</desc>
+                     </decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><div style="line-height: normal; margin-bottom: 0pt;"><span style="font-size: small;">Fol. 57r: Protective prayer.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 57r: </span><span style="font-size: large;"><span style="line-height: 115%;">&#4704;&#4661;&#4632;&#4961; </span><span style="line-height: 115%;">&#4768;&#4709;&#4961; </span><span style="line-height: 115%;">&#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4975;&#4813;&#4755;&#4772;&#4621;&#4961; &#4975; &#4632;</span></span><span style="line-height: 115%;">[</span><span style="line-height: 115%;">n.l</span><span style="line-height: 115%;">.]</span><span style="font-size: large;"><span style="line-height: 115%;">&#4654;&#4840;&#4772;&#4621;&#4961;&#4961; &#4975;&#4768;&#4635;&#4753;&#4772;&#4621;&#4961; &#4635;</span></span><span style="line-height: 115%;">[n.l.]&#8230;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in a secondary hand with some distinctive features: round small letter, big forked serifs of vowel marker in ዝ, distinctive curvy hook in vowel marker of letters ቅ and ት.</p>
+                        </item>
+                        <item xml:id="e1">- Minor notes (partly erased): fols. 6r, 13v, 14r, 55v, 56r, 56v.&#xD;
+- Interlinear correction: fol. 34r.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <decoNote xml:id="b1">Two leather boards.&#xD;
+One pair of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Some quires are reinforced with small parchment guards.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0111SSB">Bet Ḥawaryat / SSB</placeName>
+                     </origPlace>
+                     <origDate notBefore="1650" notAfter="1750"/>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="modern"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000"/>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Magic"/>
+               <term key="Medicine"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-11-29">registered</change>
+         <change who="SD" when="2013-10-22">created</change>
+         <change who="DN" when="2015-05-29">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

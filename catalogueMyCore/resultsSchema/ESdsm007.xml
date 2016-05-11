@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-04-13</date>
+            <date>2015-04-13T09:28:38.304Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0165DSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DSM-007</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text II was written later by hand b as a continuation of Text I. The text is incomplete.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">167.0</measure> folios, in <measure unit="quire">18.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">167.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  164r, 165v, 166v., in
+                                                  <measure unit="quire">18.0</measure> quires (17 + B). 
                                                 <dimensions type="outer">
                               <height unit="cm">24.5</height>
                               <width unit="cm">21.0</width>
@@ -60,6 +67,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Undecorated quire marks are written in the left upper margin of fols. 21r: ፫, 31r: ፬, 41r: ፭, 51r: ፮, 60ar: ፯, 70r: ፰, 80r: ፱, 90r: ፲, 100r: ፲፩, 110r: ፲፪, 120r: ፲፫, 128r: ፲፬, 138r: ፲፭, 146r: ፲፮.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">10</dim>
@@ -155,7 +165,7 @@ Tears amended on many leaves: e.g., fols. 61, 89, 103, 107.</condition>
                            <note>All data for fol. 46r.</note>
                            <ab type="ruling">Sometimes 21 (e.g., fols. 91r, 97r, 98v, 163va) or 22 (fol. 163r).</ab>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -182,40 +192,53 @@ Fol. 164v has one additional ruled line not used by the scribe.</ab>
                         <date>19th century (?)</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ </expan> (e.g., fols. 14rb, 16rb)</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ </expan> (e.g., fols. 14rb, 16rb)</item>
                            <item>
-                              <abbr>ይ፡ ዲ(ያ)፡</abbr> for <expan>ይቤ፡ ዲያቆን፡ </expan> (e.g., fols. 25rb, 42vb, 56rb, 76va, 129vb)</item>
+                              <abbr>ይ፡ ዲ(ያ)፡</abbr> for
+                                                  <expan>ይቤ፡ ዲያቆን፡ </expan> (e.g., fols. 25rb, 42vb, 56rb, 76va, 129vb)</item>
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይቤ፡ ካህን፡ </expan> (e.g., fols. 26vb, 45vb, 51va, 77ra, 143ra)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይቤ፡ ካህን፡ </expan> (e.g., fols. 26vb, 45vb, 51va, 77ra, 143ra)</item>
                            <item>
-                              <abbr>(ይ፡) ሕ</abbr> for <expan>ይቤ፡ ሕዝብ፡ </expan> (e.g., fols. 80va, 142va, 145ra)</item>
+                              <abbr>(ይ፡) ሕ</abbr> for
+                                                  <expan>ይቤ፡ ሕዝብ፡ </expan> (e.g., fols. 80va, 142va, 145ra)</item>
                            <item>
-                              <abbr>ብ፡</abbr> for <expan>ብጹዕ፡ </expan> (fol. 26vb)</item>
+                              <abbr>ብ፡</abbr> for
+                                                  <expan>ብጹዕ፡ </expan> (fol. 26vb)</item>
                            <item>
-                              <abbr>ን፡ እ፡ ወ፡</abbr> for <expan>ንስእለከ፡ እግዚኦ፡ ወናስተበቍዓከ፡ </expan> (e.g., fols. 35vb, 36va)</item>
+                              <abbr>ን፡ እ፡ ወ፡</abbr> for
+                                                  <expan>ንስእለከ፡ እግዚኦ፡ ወናስተበቍዓከ፡ </expan> (e.g., fols. 35vb, 36va)</item>
                            <item>
-                              <abbr>ይትአ፡/ወይ፡ ስ፡ ለእ፡</abbr> for <expan>ይትአኰት፡ ወይሴባሕ፡ ስብሐተ፡ ለእግዚአብሔር፡ </expan> (fol. 37rb)</item>
+                              <abbr>ይትአ፡/ወይ፡ ስ፡ ለእ፡</abbr> for
+                                                  <expan>ይትአኰት፡ ወይሴባሕ፡ ስብሐተ፡ ለእግዚአብሔር፡ </expan> (fol. 37rb)</item>
                            <item>
-                              <abbr>ይ፡ ወ፡ ስ፡ ለ፡</abbr> for <expan>ይትአኰት፡ ወይሴባሕ፡ ስብሐተ፡ ለእግዚአብሔር፡ </expan> (fol. 37va)</item>
+                              <abbr>ይ፡ ወ፡ ስ፡ ለ፡</abbr> for
+                                                  <expan>ይትአኰት፡ ወይሴባሕ፡ ስብሐተ፡ ለእግዚአብሔር፡ </expan> (fol. 37va)</item>
                            <item>
-                              <abbr>ይአ፡/ይአኰ፡</abbr> for <expan>ይአኰቱከ፡ </expan> (e.g., fols. 37vb, 38rb)</item>
+                              <abbr>ይአ፡/ይአኰ፡</abbr> for
+                                                  <expan>ይአኰቱከ፡ </expan> (e.g., fols. 37vb, 38rb)</item>
                            <item>
-                              <abbr>ሃ፡</abbr> for <expan>ሃሌ፡ ሉያ፡ </expan> (e.g., fols. 40vb, 55va, 62rb, 127va, 133vb, 134va, 138ra)</item>
+                              <abbr>ሃ፡</abbr> for
+                                                  <expan>ሃሌ፡ ሉያ፡ </expan> (e.g., fols. 40vb, 55va, 62rb, 127va, 133vb, 134va, 138ra)</item>
                            <item>
-                              <abbr>ትብ፡</abbr> for <expan>ትብል፡ </expan> (e.g., fols. 40vb, 41ra)</item>
+                              <abbr>ትብ፡</abbr> for
+                                                  <expan>ትብል፡ </expan> (e.g., fols. 40vb, 41ra)</item>
                            <item>
-                              <abbr>ወ፡/ወት፡/ወትብ፡</abbr> for <expan>ወትብል፡ </expan> (e.g., fols. 46va, 55rb, 59va, 77ra, 136ra)</item>
+                              <abbr>ወ፡/ወት፡/ወትብ፡</abbr> for
+                                                  <expan>ወትብል፡ </expan> (e.g., fols. 46va, 55rb, 59va, 77ra, 136ra)</item>
                            <item>
-                              <abbr>ቡ፡/ቡራ፡</abbr> for <expan>ቡራኬ፡ </expan> (e.g., fols. 149vb, 152ra).</item>
+                              <abbr>ቡ፡/ቡራ፡</abbr> for
+                                                  <expan>ቡራኬ፡ </expan> (e.g., fols. 149vb, 152ra).</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">fols. 1ra-162ra;</handNote>
-                     <handNote xml:id="h3" script="Ethiopic">fols. 162ra-163vb, characterized by right-sloping letters.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a: fols. 1ra-162ra;<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b: fols. 162ra-163vb, characterized by right-sloping letters.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;">Fols. 164va-165rb: Prayer of the Blessing of the Women.</span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:&#10;" unicode=""></span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 164va: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4705;&#4651;&#4780;&#4961; &#4824;&#4768;&#4757;&#4661;&#4725;&#4961; &#4616;&#4824;&#4768;&#4821;&#4648;&#4936;&#4725;&#4961; &#4819;&#4632;&#4725;&#4776;&#4961; &#4773;&#4872;&#4618;&#4725;&#4961; &#4632;&#4624;&#4651;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4808;&#4720;&#4640;&#4611;&#4619;&#4961; &#4808;&#4923;&#4637;&#4651;&#4961; &#4637;&#4661;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span style="line-height: 115%; font-family: Arial, sans-serif;">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><p>&#160;<span style="font-family: Arial, sans-serif; font-size: 10pt;"><locus target="#164va">Fols. 164va-165</locus>rb: Prayer of the Blessing of the Women.</span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:&#10;" unicode=""></span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 164va: </span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4705;&#4651;&#4780;&#4961; &#4824;&#4768;&#4757;&#4661;&#4725;&#4961; &#4616;&#4824;&#4768;&#4821;&#4648;&#4936;&#4725;&#4961; &#4819;&#4632;&#4725;&#4776;&#4961; &#4773;&#4872;&#4618;&#4725;&#4961; &#4632;&#4624;&#4651;&#4961; &#4773;&#4877;&#4826;&#4774;&#4961; &#4808;&#4720;&#4640;&#4611;&#4619;&#4961; &#4808;&#4923;&#4637;&#4651;&#4961; &#4637;&#4661;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961;</span></span><span lang="AMH" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span style="line-height: 115%; font-family: Arial, sans-serif;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a mediocre hand, characterized by thick letters. The title of the prayer is also written in blue pen in the upper margin of fol. 164v. Nomina sacra, two lines on the incipit page, the word ʾǝgäli and elements of the punctuation signs are rubricated.</p>
                         </item>
@@ -245,7 +268,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0165DSM">Däbrä Sahǝl Qǝddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
+                        <placeName corresp="INS0165DSM">Däbrä Sahәl Qәddus Mikaʾel Bet Mäḵaʿ / DSM</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th cent. (?)</origDate>
                   </origin>
@@ -281,8 +304,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of Sǝbuḥ ʾAmlak is written in the main hand in red ink in the supplication formulas, e.g., on fols. 16va, 18rb, 37rb, 160va.&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of Sǝbuḥ ʾAmlak is written in the main hand in red ink in the supplication formulas, e.g., on fols. 16va, 18rb, 37rb, 160va.&#xD;
 The names of several individuals, among whom Wäldä Maryam and ʾAmätä Maryam, are written interlineally in a secondary hand in strong fuchsia ink(s. Varia).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -306,9 +329,9 @@ The names of several individuals, among whom Wäldä Maryam and ʾAmätä Maryam
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-14">registered</change>
-         <change who="MV" when="2015-04-13">created</change>
-         <change who="MV" when="2015-04-15">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MV" when="2015-04-13T09:28:38.304Z">created</change>
+         <change who="MV" when="2015-04-15T09:41:34.443Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

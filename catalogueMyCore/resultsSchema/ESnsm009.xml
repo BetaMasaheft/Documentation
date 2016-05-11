@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-11-21</date>
+            <date>2013-11-21T10:42:10.229Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0113NSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>NSM-009</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">38.0</measure> folios, in <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">38.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-v, 2r-v, 35v, 36r-v, 37r-v, 38r-v, in
+                                                  <measure unit="quire">7.0</measure> quires (A+5+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">16.0</height>
                               <width unit="cm">12.0</width>
@@ -104,7 +107,7 @@ Some fols. stained with water (esp. fols. 10-14).</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -132,16 +135,15 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fols. 34v-35r: Excommunication against those who read the book in transgressing the faith.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#34v">Fols. 34v-35</locus>r: Excommunication against those who read the book in transgressing the faith.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in a crude hand.</p>
                         </item>
-                        <item xml:id="e1">- Crude recent ownership note mentioning the church of Mikaʾ Nǝhǝb: fol. 35r.</item>
+                        <item xml:id="e1">- Crude recent ownership note mentioning the church of Mikaʾ Nәhәb: fol. 35r.</item>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -155,7 +157,7 @@ Two pairs of sewing stations.</decoNote>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0113NSM">Nǝḥbi Qǝddus Mikaʾel / NSM</placeName>
+                        <placeName corresp="INS0113NSM">Nәḥbi Qәddus Mikaʾel / NSM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent.</origDate>
                   </origin>
@@ -191,11 +193,6 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -215,9 +212,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-25">registered</change>
-         <change who="SA" when="2013-11-21">created</change>
-         <change who="SD" when="2014-09-10">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-11-21T10:42:10.229Z">created</change>
+         <change who="SD" when="2014-09-10T10:02:38.583Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

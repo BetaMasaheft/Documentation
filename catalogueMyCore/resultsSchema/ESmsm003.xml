@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-09-23</date>
+            <date>2011-09-23T12:56:57.850Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0050MSM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MSM-003</idno>
                </msIdentifier>
                <msContents>
@@ -46,6 +46,11 @@ A few groups of lines (alternating with black lines)on the incipit page of Texts
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The text of the Vita represents the first of the two sub-types of the Däbrä Libanos recension of the Gädlä Täklä Haymanot (close, but not identical to the published text of the Vita, s. E.A.W. BUDGE (ed., tr.), The Life and Miracles of Takla Hâymânôt in the Version of Dabra Lîbânôs..., London 1906).</note>
+                     <note>- The miracles are apparently taken from different sets of miracles.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -53,7 +58,10 @@ A few groups of lines (alternating with black lines)on the incipit page of Texts
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">110.0</measure> folios, in <measure unit="quire">15.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">110.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1rv, 2rv, 108v, 109rv, 110rv, in
+                                                  <measure unit="quire">15.0</measure> quires (A+14). 
                                                 <dimensions type="outer">
                               <height unit="cm">28.5</height>
                               <width unit="cm">23.5</width>
@@ -62,6 +70,8 @@ A few groups of lines (alternating with black lines)on the incipit page of Texts
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Decorated quire marks are written twice: in the the left corner and in the middle of the upper margin of fols. 11r, 19r, 27r, 35r (in red), 43r (in red), 51r, 59r, 65r, 73r, 81r, 89r, 97r, 105r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -128,7 +138,7 @@ A few groups of lines (alternating with black lines)on the incipit page of Texts
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible (s. fol. 99r).</ab>
@@ -151,8 +161,7 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 108rb: <span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-family: Arial"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">Fol. 108rb:</span><span lang="EN-GB" style="line-height: 115%; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial"> </span></span></span><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">&#4829;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">&#4632;{</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">&#4925;}&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4824;&#4708;&#4725;&#4961; &#4758;&#4704;&#4845;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4611;&#4961; &#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4770;&#4725;&#4653;&#4661;&#4821;&#4811;&#4961; &#4969;&#4969;&#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4961; &#4704;&#4874;&#4828;&#4961; &#4768;&#4757;<font face="Nyala">&#4704;</font>&#4709;&#4781;&#4814;&#4961; &#4848;&#4674;&#4672;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4819;&#4706;&#4845;&#4961; &#4808;&#4757;&#4817;&#4661;&#4964; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#108rb">Fol. 108rb</locus>: <span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Donation note.</span></span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-family: Arial"><span style="font-size: small"><span lang="EN-GB" style="line-height: 115%; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">Fol. 108rb:</span><span lang="EN-GB" style="line-height: 115%; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial"> </span></span></span><span style="font-size: large"><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">&#4829;</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: EN-GB; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">&#4632;{</span><span lang="AMH" style="line-height: 115%; font-family: Nyala; mso-fareast-font-family: 'Arial Unicode MS'; mso-ansi-language: AMH; mso-fareast-language: DE; mso-bidi-language: AR-SA; mso-bidi-font-family: Arial">&#4925;}&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4824;&#4708;&#4725;&#4961; &#4758;&#4704;&#4845;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4709;&#4653;&#4611;&#4757;&#4961; &#4808;&#4709;&#4773;&#4658;&#4611;&#4961; &#4808;&#4621;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4755;&#4961; &#4632;&#4653;&#4624;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4770;&#4725;&#4653;&#4661;&#4821;&#4811;&#4961; &#4969;&#4969;&#4768;&#4705;&#4752;&#4961; &#4824;&#4704;&#4656;&#4635;&#4843;&#4725;&#4961; &#4704;&#4874;&#4828;&#4961; &#4768;&#4757;<font face="Nyala">&#4704;</font>&#4709;&#4781;&#4814;&#4961; &#4848;&#4674;&#4672;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4819;&#4706;&#4845;&#4961; &#4808;&#4757;&#4817;&#4661;&#4964; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961;</span></span></p></q>
                            <q xml:lang="en"><p style="text-align: justify"><span style="font-size: small"><span lang="EN-GB" unicode="" style="line-height: 115%; font-family: ">Fol. 108rb: This is the book which W&#228;l&#228;tt&#228; B&#601;rhan and her husband W&#228;ld&#228; M&#228;d&#7723;&#601;n donated to &#704;abun&#228; T&#228;kl&#228; Haymanot of Bet Nob&#228;yt so that it might be for her&#160;the guide to the Kingdom of Heaven. Do not forget her&#160;(to recite for her) each of you, the Paternoster when you read it, children of the sanctuary, big and small. For ever and ever.</span></span></p></q>
                            <p>The note is written in a recent, well-trained hand. The same hand added (partly rubricated) the names of the donor and her family members into the supplication formulas throughout the Ms. The note states that Wälättä Bǝrhan donated the Ms. to the church of ʾabunä Täklä Haymanot of Bet Nobäyt. Her husband, Wäldä Mädḫǝn, is also mentioned.</p>
                         </item>
@@ -160,7 +169,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -170,13 +179,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 5 tools were used: triple line fillet, double circle, double square, double sine wave, interlaced line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0050MSM">Mänäbäyti Ṣǝyon Maryam/ MSM</placeName>
+                        <placeName corresp="INS0050MSM">Mänäbäyti Ṣәyon Maryam/ MSM</placeName>
                      </origPlace>
                      <origDate notBefore="1870" notAfter="1920">Late 19th-early 20th century.</origDate>
                   </origin>
@@ -212,8 +222,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, the Ms. was donated by Wälättä Bǝrhan. Her name, her husband's, Wäldä Mädḫǝn, and the names of her family members: Wäldä ʾAmlak, Zämädä Maryam (her mother ?), Gäbrä Ṣadǝq, Wälättä Yoḥannǝs are written in the supplication formulas (e.g., on fols. 4ra, 25vb, 83vb, 100vb), added later by a secondary hand.&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms. was donated by Wälättä Bǝrhan. Her name, her husband's, Wäldä Mädḫǝn, and the names of her family members: Wäldä ʾAmlak, Zämädä Maryam (her mother ?), Gäbrä Ṣadǝq, Wälättä Yoḥannǝs are written in the supplication formulas (e.g., on fols. 4ra, 25vb, 83vb, 100vb), added later by a secondary hand.&#xD;
 Second components of the names are written in vermilion.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
@@ -237,9 +247,9 @@ Second components of the names are written in vermilion.</persName>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-08">registered</change>
-         <change who="IF" when="2011-09-23">created</change>
-         <change who="AA" when="2014-06-12">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2011-09-23T12:56:57.850Z">created</change>
+         <change who="AA" when="2014-06-12T12:57:50.839Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

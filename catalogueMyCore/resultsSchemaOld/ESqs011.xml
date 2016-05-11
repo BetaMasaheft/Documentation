@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESqs011"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Täʾamrä ʾIyäsus “Miracles of Jesus”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2015-02-26</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0198QS"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>QS-011</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; four groups of lines alternating with black lines on the incipit page of Text I); two groups of lines alternating with black lines on the incipit page of Text II); incipit lines of the parts of the Text I-1); the word ʔǝsäggǝd; name of the ruling King; name of the donor; elements of the punctuation signs and Ethiopic numbers.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;">Fol. 4rab: </span><span style="font-size: large;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961; &#4808;&#4808;&#4621;&#4853;&#4961; &#4808;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4969;&#4768;&#4637;&#4619;&#4781;&#4961; &#4757;&#4808;&#4901;&#4757;&#4961; &#4632;&#4925;&#4624;&#4936;&#4961; &#4720;&#4768;&#4637;&#4650;&#4609;&#4961; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961; &#4808;&#4768;&#4637;&#4619;&#4781;&#4752;&#4961; &#4808;&#4632;&#4853;&#4739;&#4754;&#4752;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726; &#4661;&#4962; &#4704;&#4984;&#4808;&#4970;&#4987;&#4980; &#4808;&#4768;&#4634;&#4649;&#4961; &#4819;&#4632;&#4720;&#4961; &#4819;&#4616;&#4637;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4617;&#4675;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4768;&#4632;&#4961; &#4979;&#4808;&#4973; &#4616;&#4632;&#4661;&#4776;&#4648;&#4637;&#4961; &#4704;&#4640;&#4653;&#4672;&#4961; &#4620;&#4618;&#4725;&#4961; &#4808;&#4972;&#4704;&#4640;&#4653;&#4672;&#4961; &#4632;&#4819;&#4621;&#4725;&#4961; &#4704;&#4821;&#4616;&#4720;&#4961; &#4819;&#4653;&#4709;&#4961; &#4808;&#4704;</span><span style="font-size: large;">&#4976;&#4721;&#4961; &#4819;&#4632;&#4720;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4616;&#4757;&#4873;&#4640;&#4961; &#4752;&#4872;&#4645;&#4725;&#4961; &#4874;&#4875;&#4653;&#4961;&#160;&#4824;&#4720;&#4656;&#4637;&#4840;&#4961;&#160;&#4704;&#4920;&#4875;&#4961;&#160;&#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961;&#160;&#4643;&#4613;&#4617;&#4961;&#160;&#4808;&#4637;&#4629;&#4648;&#4721;&#4961;&#160;&#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#4961;&#160;&#4808;&#4768;&#4637;&#4619;&#4781;&#4752;&#4961;&#160;&#4808;&#4632;&#4853;&#4739;&#4754;&#4752;&#4961;&#160;&#4770;&#4840;&#4657;&#4661;&#4961;&#160;&#4781;&#4653;&#4661;&#4726;&#4661;&#4961;&#160;&#4808;&#4661;&#4773;&#4616;&#4720;&#4961;&#160;&#4773;&#4633;&#4961;&#160;&#4840;&#4608;&#4617;&#4961;&#160;&#4637;&#4661;&#4616;&#4961;&#160;&#4768;&#4632;&#4721;&#4961;&#160;&#4808;&#4616;&#4720;&#4961;&#160;&#4925;&#4846;&#4757;&#4961;&#160;&#4616;&#4819;&#4616;&#4632;&#4961;&#160;&#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p><foreign xml:lang="en"/>
+                        <note>A note on the beginning the book of “Miracles of Jesus” on the year 7230 from the creation of the world on the 8th year of the reign of the emperor Gigar.</note>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">121.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">16.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">28.0</height>
+                              <width unit="cm">21.4</width>
+                              <depth unit="cm">5.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="1r" to="3v"/>A(3/s.l.: 3, stub before 1; fols. 1r-3v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="4r" to="11v"/> ፩I(8/fols. 4r-11v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">6</dim>
+                                 <locus from="12r" to="19v"/>
+                                 <locus from="20r" to="27v"/>
+                                 <locus from="28r" to="35v"/>
+                                 <locus from="36r" to="43v"/>
+                                 <locus from="44r" to="51v"/>
+                                 <locus from="52r" to="59v"/>
+                                 <locus from="60r" to="67v"/>
+                                 <locus from="68r" to="75v"/>
+                                 <locus from="76r" to="83v"/>
+                                 <locus from="84r" to="91v"/>
+                                 <locus from="92r" to="99v"/>
+                                 <locus from="100r" to="107v"/>
+                                 <locus from="108r" to="115v"/>
+                                 <locus from="116r" to="121v"/> ፪II(8/s.l.: 3, stub before 6; 6, stub before 3; fols. 12r-19v) - ፫III(8/fols. 20r-27v) - ፬IV(8/fols. 28r-35v) - ፭V(8/fols. 36r-43v) - ፮VI(8/fols. 44r-51v) - ፯VII(8/fols. 52r-59v) - ፰VIII(8/fols. 60r-67v) - ፱IX(8/fols. 68r-75v) - ፲X(8/fols. 76r-83v) - ፲፩XI(8/fols. 84r-91v) - ፲፪XII(8/fols. 92r-99v) - ፲፫XIII(8/fols. 100r-107v) - ፲፬XIV(8/fols. 108r-115v) - ፲፭(6/fols. 116r-121v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good">Tears have been carefully mended on fol. 41, 48, 50, 88, 95, 96, 121</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="21">
+                           <dimensions unit="mm">
+                              <height>175</height>
+                              <width>167</width>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">38</dim>
+                              <dim type="bottom">60</dim>
+                              <dim type="right">37</dim>
+                              <dim type="left">10</dim>
+                              <dim type="intercolumn">15</dim>
+                           </dimensions>
+                           <note>All data are for fol. 18r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are mostly visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are mostly visible.</ab>
+                           <ab type="pricking">
+Structural pricks are mostly visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre</ab>
+                        <seg type="ink">Black; red (moderate scarlet)</seg>
+                        <persName role="scribe" corresp="PRS00000">Gäbrä Ṣadǝq or Gäbrä Maryam</persName>In Additio 3, Gäbrä Ṣadǝq is mentioned as the scribe. Throughout the manuscript, the name Gäbrä Maryam appears (fols. 4ra, 24vb, 25vb etc.), written possibly in the main hand and preceded by the erased (but still partly legible) word “scribe” (but on fols. 35ra, 41rb, the word “his son” is written over erasure). The aim of the erasure was probably to make the name identifiable with the name of the son of the donor, Gäbrä Maryam (or with Gäbrä Maryam mentioned in Additio 3, fol. 121rb?).<date>1650-1750</date>
+                        <list type="abbreviations">
+                           <item>
+                              <abbr>እሰ፡ ለመ፡</abbr> for <expan>እሰግድ፡ ለመለኮትከ፡ </expan> (fols. 119v, 120r, 120v)</item>
+                           <item>
+                              <abbr>እግ፡</abbr> for <expan>እግዚአብሔር </expan> (fol. 120vb, 121ra)</item>
+                           <item>
+                              <abbr>እግዚ፡</abbr> for <expan>እግዚአብሔር </expan> (fol. 121rb)</item>
+                        </list>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic">fol. 4ra-119rb</handNote>
+                     <handNote xml:id="h3" script="Ethiopic">119rb-121rb</handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p><span style="font-size: small;">Fol. 1vb: a list of names of priests.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 1vb:</span> <span style="font-size: large;">&#4676;&#4661;&#4961; &#4720;&#4661;&#4939;... &#4676;&#4661;&#4961; &#4720;&#4661;&#4939;&#4961; &#4925;&#4846;&#4757;&#4961; &#4709;&#4853;&#4629;&#4653;&#4769; &#4676;&#4661;&#4961; &#4632;&#4616;&#4661;&#4961; &#4709;&#4853;&#4629;&#4653;&#4769; &#4676;&#4661;&#4961; &#4779;&#4629;&#4659;&#4845;&#4961; &#4676;&#4661;&#4961; &#4768;&#4653;&#4768;&#4843;&#4961; &#4709;&#4853; &#4676;&#4661;&#4961; &#4656;&#4709;&#4628;&#4961; &#4709;&#4853;&#4629;&#4653;&#4769; &#4676;&#4661; &#4627;&#4880;&#4961; &#4676;&#4661;&#4961; &#4624;&#4845;&#4617; </span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in a secondary hand</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p><span style="font-size: small;">Fol. 3vb: Mostly illegible; the meaning is obscure. Priest G&#228;br&#228; &#704;&#398;gzi&#704;ab&#601;&#7717;er is mentioned.</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 3vb: </span><span style="font-size: large;">&#4676;&#4661;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4669;&#4721;&#4961; &#4896;&#4635;&#4616;&#4813;&#4961; &#4664;&#4810;&#4720; ??? &#4845;&#4725; ???</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in a secondary hand</p>
+                        </item>
+                        <item xml:id="a3">
+                           <locus/><p><span style="font-size: small;">Fol. 121rb: A supplication prayer containing the names of abun&#228; &#7722;ayl&#228; Maryam, &#8220;his son&#8221; G&#228;br&#228; Maryam and his scribe W&#228;ld&#228; &#7778;ad&#601;q</span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 121rb: </span><span style="font-size: large;">&#4774;&#4773;&#4877;&#4826;&#4774;&#4961; &#4704;&#4829;&#4757;&#4721;&#4961; &#4675;&#4616;&#4961; &#4632;&#4616;&#4782;&#4725;&#4776;&#4961; &#4768;&#4853;&#4741;&#4758;&#4961; &#4616;&#4768;&#4705;&#4752;&#4961; &#4739;&#4845;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4808;&#4616;&#4808;&#4621;&#4849;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843; &#4637;&#4661;&#4616;&#4961; &#4920;&#4624;&#4938;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4923;&#4853;&#4677;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in hand b)</p>
+                        </item>
+                        <item xml:id="e1">Scribbles: fols. 1r, 1v, 2r, 3r, 23ra, 34r, &#xD;
+Corrections through blotting out and writing interlineally (in recent hand, in blue ink): fols. 11va, 11vb&#xD;
+Omitted words written interlineally (in recent hand, in blue ink): fol. 97va</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered with dark brown leather.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head and one close to the tail of the codex.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0198QS">Qälaqǝl Maryam Ṣǝyon /QS</placeName>
+                     </origPlace>
+                     <origDate notBefore="1828" notAfter="1828">On fol. 4rb, the 8th year of the reign of Emperor Gigar (r. 1821-26, 1826-30) is mentioned as the date of the writing of the manuscript. The date 7230 from the Creation of the World, 25th of Mäskäräm (= 1737 A.D., 5th of October), given on fol. 4ra, is possibly copied from the model-manuscript.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">The blank spaces, originally left in the supplication formulas for the name of the donor, were later filled with the name of Zä-Mänfäs Qǝddus (the baptismal name of däǧǧazmač Säbagadis), as well as of his father Wäldä Lǝʿul, his mother Wälättä Ṣǝyon, his brother Gäbrä Samuʔel and his son Gäbrä Maryam, all written in a secondary hand (fols. 4ra, 4rb, 13ra, 20va, 23va, 25vb, 28ra etc.). The name Säba Gadǝs (i.e. Säbagadis), written in a secondary hand, appears in the supplication formula on fol. 20rb.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Gäbrä Ṣadǝq or Gäbrä Maryam</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Apocrypha/Pseudoepigrapha"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2011-12-02">registered</change>
+         <change who="MB" when="2015-02-26">created</change>
+         <change who="MB" when="2015-04-09">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

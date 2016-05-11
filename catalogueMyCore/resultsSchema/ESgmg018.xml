@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-12-12</date>
+            <date>2013-12-12T15:07:26.734Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0115GMG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GMG-018</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The Ms. contains two Homilies in the name of St. Jacob of Sarug.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +55,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">109.0</measure> folios, in <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">109.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r-v, in
+                                                  <measure unit="quire">13.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">30.5</height>
                               <width unit="cm">24.5</width>
@@ -60,6 +67,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Quire marks are written in the upper left corner of fols. 2r, 10r, 18r, 26r, 34r, 42r, 50r, 58r, 66r, 74r, 82r, 90r, 100r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">9</dim>
@@ -129,7 +138,7 @@ Fol. 109 is of half size.</condition>
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -150,28 +159,31 @@ The bottom line is written above the ruling.</ab>
                         <date>18th century</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 21ra, 23ra, 25ra)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 21ra, 23ra, 25ra)</item>
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 21ra, 23ra, 25ra)</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 21ra, 23ra, 25ra)</item>
                            <item>
-                              <abbr>ሕዝ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (e.g., fols. 21rb, 23ra, 25ra)</item>
+                              <abbr>ሕዝ፡</abbr> for
+                                                  <expan>ይበል፡ ሕዝብ፡ </expan> (e.g., fols. 21rb, 23ra, 25ra)</item>
                            <item>
-                              <abbr>ፍቱ፡</abbr> for <expan>ፍቱሐ፡ ወንጹሐ </expan> (fol. 30rb)</item>
+                              <abbr>ፍቱ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ወንጹሐ </expan> (fol. 30rb)</item>
                            <item>
-                              <abbr>ፍ፡ ወ፡ ረ፡ ለዝ፡ በ፡</abbr> for <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 31vb, 33rb, 34rb)</item>
+                              <abbr>ፍ፡ ወ፡ ረ፡ ለዝ፡ በ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ወንጹሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 31vb, 33rb, 34rb)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 109r: Genealogy of G&#228;br&#228; &#704;&#398;gzi&#704;ab&#7717;er (?)</p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 109r:</span><span style="line-height: 115%;"> </span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="line-height: 115%;">&#4736;&#4709;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4661;&#4637;&#4822;&#4757;&#4961; &#4808;&#4616;&#4854;&#4961; &#4661;&#4637;&#4822;&#4757;&#4961; &#4736;&#4709;&#4720;&#4961; &#4621;&#4817;&#4621;&#4961; &#4808;&#4616;&#4854;&#4961;&#4736;&#4709;&#4720;&#4961; &#4621;&#4817;&#4621;&#4961; &#4854;&#4707;&#4661;&#4961; &#4808;&#4616;&#4854;&#4961;</span></span></span><span style="line-height: 115%; font-size: 14pt;"><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span><br /> </span></p></q>
+                        <item xml:id="a1"><p><locus target="#109r">Fol. 109r</locus>: Genealogy of G&#228;br&#228; &#704;&#398;gzi&#704;ab&#7717;er (?)</p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;"><span style="line-height: 115%;">Fol. 109r:</span><span style="line-height: 115%;"> </span></span></span><span style="font-size: large;"><span style="line-height: 115%;"><span style="line-height: 115%;">&#4736;&#4709;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4661;&#4637;&#4822;&#4757;&#4961; &#4808;&#4616;&#4854;&#4961; &#4661;&#4637;&#4822;&#4757;&#4961; &#4736;&#4709;&#4720;&#4961; &#4621;&#4817;&#4621;&#4961; &#4808;&#4616;&#4854;&#4961;&#4736;&#4709;&#4720;&#4961; &#4621;&#4817;&#4621;&#4961; &#4854;&#4707;&#4661;&#4961; &#4808;&#4616;&#4854;&#4961;</span></span></span><span style="line-height: 115%; font-size: 14pt;"><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span><br /> </span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written in red, partly illegible.
 It lists several names, some of these names are mentioned in the supplication formulas throughout the Ms.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 109r (bottom): Donation note (?)</p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 109r (bottom):</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; </span></span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></p></q>
+                        <item xml:id="a2"><p><locus target="#109r">Fol. 109r</locus>(bottom): Donation note (?)</p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 109r (bottom):</span></span><span style="line-height: 115%; font-size: 14pt;"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; </span></span><span style="font-size: small;"><span style="line-height: 115%;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written in red, partly legible.
 It mentions the names Gäbrä Mädḫǝn and the church of (tabot) Maryam &lt;…&gt; of Gänaḥti.</p>
@@ -194,13 +206,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, close to the head and the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover of poor quality (at least 3 tools were used: single line fillet, double line fillet, triple line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0115GMG">Gänaḥti Qǝddǝst Maryam / GMG</placeName>
+                        <placeName corresp="INS0115GMG">Gänaḥti Qәddәst Maryam / GMG</placeName>
                      </origPlace>
                      <origDate notBefore="1779" notAfter="1800">King Täklä Giyorgis (r. 1779-1800, ruled for six distinct periods) (fols. 28rb, 39ra) and Metropolitan Yosab (in tenure 1770-1803) (fols. 23rb, 38vb) are mentioned.</origDate>
                   </origin>
@@ -236,8 +249,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The names Gäbrä Mädḫǝn, Wälättä Maryam, Wäldä ʾAbiyä ʾƎgziʾ, Gäbrä ʾƎgziʾabǝḥer, ʿAmätä Maryam, Wälättä Muse, Wälättä Bǝrhan and Wälättä Mikaʾel are added in a secondary hand to supplication formulas (s. also Additio 1).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The names Gäbrä Mädḫǝn, Wälättä Maryam, Wäldä ʾAbiyä ʾƎgziʾ, Gäbrä ʾƎgziʾabǝḥer, ʿAmätä Maryam, Wälättä Muse, Wälättä Bǝrhan and Wälättä Mikaʾel are added in a secondary hand to supplication formulas (s. also Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -260,9 +273,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-27">registered</change>
-         <change who="AA" when="2013-12-12">created</change>
-         <change who="SH" when="2014-09-10">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-12-12T15:07:26.734Z">created</change>
+         <change who="SH" when="2014-09-10T09:57:19.764Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

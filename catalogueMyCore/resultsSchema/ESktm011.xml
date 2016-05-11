@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-08-21</date>
+            <date>2013-08-21T15:16:30.543Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0137KTM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>KTM-011</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,10 @@ On the incipit page of Text I (fol. 2r), two lines are rubricated (alternating w
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I is called Mäṣḥafä ṭәmqät in fols. 2r and 3v.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +56,10 @@ On the incipit page of Text I (fol. 2r), two lines are rubricated (alternating w
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">40.0</measure> folios, in <measure unit="quire">5.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">40.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  fols. 1r, 1v, 40v, in
+                                                  <measure unit="quire">5.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">14.5</height>
                               <width unit="cm">10.5</width>
@@ -61,6 +68,9 @@ On the incipit page of Text I (fol. 2r), two lines are rubricated (alternating w
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>Quire marks for quires III-V (fols. 20r, 28r, 38r).</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">11</dim>
@@ -101,7 +111,7 @@ On the incipit page of Text I (fol. 2r), two lines are rubricated (alternating w
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are partly visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -131,8 +141,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 40r: Donation note.</p><q xml:lang="gez"><p>Fol. 40r: <span style="font-size: large;">&#4824;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4726;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;</span><span style="font-size: large;"><span style="font-size: large;">&#4776;</span>&#4850;&#4613;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><locus target="#40r">Fol. 40r</locus>: Donation note.</p><q xml:lang="gez"><p>Fol. 40r: <span style="font-size: large;">&#4824;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4768;&#4726;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;</span><span style="font-size: large;"><span style="font-size: large;">&#4776;</span>&#4850;&#4613;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4961; &#4632;&#4853;&#4739;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>Written in the main hand. The note mentions the name of the commissioner and donor, ʾato Täklä Haymanot.</p>
                         </item>
@@ -141,7 +150,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -149,13 +158,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0137KTM">Kädiḥ Däbrä Täwaḥǝdo Qǝddǝst Maryam / KTM</placeName>
+                        <placeName corresp="INS0137KTM">Kädiḥ Däbrä Täwaḥәdo Qәddәst Maryam / KTM</placeName>
                      </origPlace>
                      <origDate notBefore="1850" notAfter="1900">Second half of the 19th cent.</origDate>
                   </origin>
@@ -191,8 +201,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Täklä Haymanot (s. Additio 1); he and Nǝgǝśtä Maryam are also mentioned in the supplication formula on fol. 39v.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Täklä Haymanot (s. Additio 1); he and Nәgәśtä Maryam are also mentioned in the supplication formula on fol. 39v.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -215,9 +225,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-17">registered</change>
-         <change who="SA" when="2013-08-21">created</change>
-         <change who="SA" when="2014-09-08">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-08-21T15:16:30.543Z">created</change>
+         <change who="SA" when="2014-09-08T13:57:00.901Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

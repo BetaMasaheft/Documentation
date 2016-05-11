@@ -92,23 +92,43 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
 
 
                                     <xsl:for-each select="//desccontent">
-                                        <xsl:sort order="descending" select="."/>
+                                        <xsl:sort select="position()"/>
                                         <msItem xml:id="{concat('ms_i',position())}">
                                             <xsl:if test="./folios">
-                                                <locus>
-                                                  <xsl:attribute name="from">
+                                                <xsl:choose><xsl:when test="contains(./folios, ';')"><xsl:for-each select="tokenize(./folios,';')"><locus>
+                                                 <xsl:choose><xsl:when test="contains(.,'-')"> <xsl:attribute name="from">
                                                   <xsl:value-of
-                                                  select="substring-before(normalize-space(./folios), '-')"
+                                                  select="substring-before(normalize-space(.), '-')"
                                                   />
                                                   </xsl:attribute>
 
                                                   <xsl:attribute name="to">
                                                   <xsl:value-of
-                                                  select="substring-after(normalize-space(./folios), '-')"
+                                                  select="substring-after(normalize-space(.), '-')"
                                                   />
                                                   </xsl:attribute>
-                                                  <xsl:value-of select="./folios"/>
-                                                </locus>
+                                                  <xsl:value-of select="."/></xsl:when>
+                                                 <xsl:otherwise><xsl:attribute name="target">
+                                                     <xsl:value-of select="concat('#',normalize-space(.))"/>
+                                                 </xsl:attribute></xsl:otherwise></xsl:choose>
+                                                </locus></xsl:for-each></xsl:when>
+                                                <xsl:otherwise>
+                                                    <locus>
+                                                        <xsl:attribute name="from">
+                                                            <xsl:value-of
+                                                                select="substring-before(normalize-space(./folios), '-')"
+                                                            />
+                                                        </xsl:attribute>
+                                                        
+                                                        <xsl:attribute name="to">
+                                                            <xsl:value-of
+                                                                select="substring-after(normalize-space(./folios), '-')"
+                                                            />
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="./folios"/>
+                                                    </locus>
+                                                </xsl:otherwise>
+                                                </xsl:choose>
                                             </xsl:if>
                                             <xsl:if test="./text">
                                                 <title>
@@ -122,8 +142,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                 <xsl:value-of select="//rubrication"/>
                                             </rubric>
                                             <incipit>
-                                                <xsl:value-of
-                                                  select="normalize-space(./incipit)"
+                                                <xsl:value-of select="normalize-space(./incipit)"
                                                   disable-output-escaping="yes"/>
                                                 <foreign xml:lang="en">
                                                   <xsl:value-of
@@ -133,8 +152,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                             </incipit>
                                             <explicit>
 
-                                                <xsl:value-of
-                                                  select="normalize-space(./explicit)"
+                                                <xsl:value-of select="normalize-space(./explicit)"
                                                   disable-output-escaping="yes"/>
                                                 <foreign xml:lang="en">
                                                   <xsl:value-of
@@ -172,12 +190,108 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                             </xsl:if>
 
                                             <note>
-                                                <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(./details, '&lt;p&gt;'), '&lt;/p&gt;'))"
+                                                <xsl:choose><xsl:when test="matches(./details, '((\w{2,3})(-)(\d{3}))')"><xsl:analyze-string select="./details" regex="((\w{{2,3}})(-)(\d{{3}}))">
+                                                  <xsl:matching-substring>
+                                                      <ref type="mss">
+                                                          <xsl:attribute name="corresp">
+                                                              <xsl:value-of select="concat('ES',lower-case(regex-group(2)),regex-group(4))"/>
+                                                          </xsl:attribute>
+                                                          <xsl:value-of select="regex-group(1)"/>
+                                                      </ref>
+                                                  </xsl:matching-substring>
+                                                  <xsl:non-matching-substring>
+                                                  <xsl:value-of select="normalize-space(.)"
                                                   disable-output-escaping="yes"/>
+                                                  </xsl:non-matching-substring>
+                                                </xsl:analyze-string></xsl:when>
+                                                <xsl:otherwise>
+                                                    <xsl:value-of select="normalize-space(./details)"
+                                                        disable-output-escaping="yes"/>
+                                                </xsl:otherwise></xsl:choose>
                                             </note>
+
+                                            <xsl:if test="./others"><note>
+                                                <xsl:choose><xsl:when test="matches(./others, '((\w{2,3})(-)(\d{3}))')"><xsl:analyze-string select="./others" regex="((\w{{2,3}})(-)(\d{{3}}))">
+                                                    <xsl:matching-substring>
+                                                        <ref type="mss">
+                                                            <xsl:attribute name="corresp">
+                                                                <xsl:value-of select="concat('ES',lower-case(regex-group(2)),regex-group(4))"/>
+                                                            </xsl:attribute>
+                                                            <xsl:value-of select="regex-group(1)"/>
+                                                        </ref>
+                                                    </xsl:matching-substring>
+                                                    <xsl:non-matching-substring>
+                                                        <xsl:value-of select="normalize-space(.)"
+                                                            disable-output-escaping="yes"/>
+                                                    </xsl:non-matching-substring>
+                                                </xsl:analyze-string></xsl:when>
+                                                    <xsl:otherwise>
+                                                        <xsl:value-of select="normalize-space(./others)"
+                                                            disable-output-escaping="yes"/>
+                                                    </xsl:otherwise></xsl:choose>
+                                            </note></xsl:if>
                                         </msItem>
                                     </xsl:for-each>
+                                    <xsl:if test="//otherdetails">
+                                        <xsl:for-each select="//otherdetail">
+                                            <xsl:comment>The data in the items below refers to other items. please remove this items and move the information to the appropriate place.</xsl:comment>
+
+                                            <msItem>
+                                                <xsl:variable name="contents"
+                                                  select="count(//desccontent)"/>
+                                                <xsl:attribute name="xml:id">
+                                                  <xsl:value-of
+                                                  select="concat('ms_i', position() + $contents)"/>
+                                                </xsl:attribute>
+                                                <xsl:choose>
+                                                  <xsl:when test="contains(., '&#13;')">
+                                                  <xsl:for-each select="tokenize(., '&#13;')">
+                                                  <note>
+                                                      <xsl:choose><xsl:when test="matches(., '((\w{2,3})(-)(\d{3}))')">
+                                                      <xsl:analyze-string select="." regex="((\w{{2,3}})(-)(\d{{3}}))">
+                                                          <xsl:matching-substring>
+                                                              <ref type="mss">
+                                                                  <xsl:attribute name="corresp">
+                                                                      <xsl:value-of select="concat('ES',lower-case(regex-group(2)),regex-group(4))"/>
+                                                                  </xsl:attribute>
+                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                              </ref>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
+                                                              <xsl:value-of select="normalize-space(.)"
+                                                                  disable-output-escaping="yes"/>
+                                                          </xsl:non-matching-substring>
+                                                      </xsl:analyze-string>
+                                                      </xsl:when>
+                                                          <xsl:otherwise>
+                                                          <xsl:value-of select="normalize-space(.)"
+                                                              disable-output-escaping="yes"/></xsl:otherwise>
+                                                      </xsl:choose>
+                                                  </note>
+                                                  </xsl:for-each>
+                                                  </xsl:when>
+                                                  <xsl:otherwise>
+                                                  <note>
+                                                      <xsl:analyze-string select="." regex="((\w{{2,3}})(-)(\d{{3}}))">
+                                                          <xsl:matching-substring>
+                                                              <ref type="mss">
+                                                                  <xsl:attribute name="corresp">
+                                                                      <xsl:value-of select="concat('ES',lower-case(regex-group(2)),regex-group(4))"/>
+                                                                  </xsl:attribute>
+                                                                  <xsl:value-of select="regex-group(1)"/>
+                                                              </ref>
+                                                          </xsl:matching-substring>
+                                                          <xsl:non-matching-substring>
+                                                              <xsl:value-of select="normalize-space(.)"
+                                                                  disable-output-escaping="yes"/>
+                                                          </xsl:non-matching-substring>
+                                                      </xsl:analyze-string>
+                                                  </note>
+                                                  </xsl:otherwise>
+                                                </xsl:choose>
+                                            </msItem>
+                                        </xsl:for-each>
+                                    </xsl:if>
 
                                     <!--                                        MISSING ELEMENT IN MYCORE SAMPLE : "OTHER IMPORTANT PASSAGES"-->
 
@@ -196,7 +310,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                 <locus>
                                                   <xsl:variable name="locus">
                                                   <xsl:value-of
-                                                  select="normalize-space(substring-before(substring-after(., '&lt;p&gt;'), ':'))"
+                                                  select="normalize-space(.)"
                                                   />
                                                   </xsl:variable>
                                                   <xsl:analyze-string select="$locus"
@@ -212,12 +326,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   </xsl:analyze-string>
                                                   <xsl:value-of select="$locus"/>
                                                 </locus>
-                                                <xsl:value-of
-                                                  select="normalize-space(.)"
+                                                <xsl:value-of select="normalize-space(.)"
                                                   disable-output-escaping="yes"/>
-                                                
-                                                <foreign xml:lang="en"><xsl:if test="following-sibling::tran"><xsl:value-of select="following-sibling::tran" disable-output-escaping="yes"/></xsl:if></foreign>
-                                                <note><xsl:value-of select="//colophon/det"/></note>
+
+                                                <foreign xml:lang="en">
+                                                  <xsl:if test="following-sibling::tran">
+                                                  <xsl:value-of select="following-sibling::tran"
+                                                  disable-output-escaping="yes"/>
+                                                  </xsl:if>
+                                                </foreign>
+                                                <note>
+                                                  <xsl:value-of select="//colophon/det"/>
+                                                </note>
                                             </colophon>
                                         </msItem>
                                     </xsl:for-each>
@@ -244,11 +364,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                             </support>
                                             <extent>Made of <measure unit="leaf"><xsl:value-of
                                                   select="//folio"/></measure> folios, <xsl:if
-                                                  test="//blankfolio">of which <measure unit="leaf"
-                                                  type="blank"><xsl:value-of select="//blankfolio"
-                                                  /></measure> blank, </xsl:if>in <measure
-                                                  unit="quire"><xsl:value-of select="//quire"
-                                                  /></measure> quires. <!-- each of the above information has a note field, the name of which is not yet known, which would need to be added in the statement-->
+                                                  test="//blankfolio or //txbfolio">of which
+                                                  <measure unit="leaf" type="blank"><xsl:value-of
+                                                  select="//blankfolio"/></measure> blank
+                                                  <xsl:value-of select="//txbfolio"/>, </xsl:if>in
+                                                  <measure unit="quire"><xsl:value-of
+                                                  select="//quire"/></measure> quires <xsl:if
+                                                  test="//txquire">(<xsl:value-of select="//txquire"
+                                                  />)</xsl:if>. <!-- each of the above information has a note field, the name of which is not yet known, which would need to be added in the statement-->
                                                 <dimensions type="outer">
                                                   <height unit="cm">
                                                   <xsl:value-of select="normalize-space(//mheights)"
@@ -269,6 +392,16 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
 
                                             <xsl:if test="//squire">
                                                 <collation>
+                                                  <xsl:if test="//cbquiremark">
+                                                  <signatures>
+                                                  <xsl:if test="//cbquiremarkdecor"> Decorated </xsl:if>
+                                                  <xsl:if test="//txquiremark">
+                                                  <note>
+                                                  <xsl:value-of select="//txquiremark"/>
+                                                  </note>
+                                                  </xsl:if>
+                                                  </signatures>
+                                                  </xsl:if>
                                                   <list>
                                                   <xsl:for-each
                                                   select="
@@ -383,26 +516,34 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   </ab>
                                                   <xsl:for-each
                                                   select="tokenize(./rl-info, '&#13;')">
-                                                  <ab><xsl:choose>
-                                                      <xsl:when test="contains(lower-case(.),'ruling') and contains(lower-case(.),'pattern')">
-                                                          <xsl:attribute name="type">ruling</xsl:attribute>
-                                                          <xsl:attribute name="subtype">patter</xsl:attribute>
-                                                          </xsl:when>
-                                                      
-                                                      <xsl:when test="contains(lower-case(.),'pricking') and contains(lower-case(.),'pattern')">
-                                                          <xsl:attribute name="type">pricking</xsl:attribute>
-                                                          <xsl:attribute name="subtype">patter</xsl:attribute>
-                                                      </xsl:when>
-                                                      
-                                                      <xsl:when test="contains(lower-case(.),'pricking') or contains(lower-case(.),'pricks')">
-                                                          <xsl:attribute name="type">pricking</xsl:attribute>
-                                                      </xsl:when>
-                                                      
-                                                      <xsl:when test="contains(lower-case(.),'ruling')">
-                                                          <xsl:attribute name="type">ruling</xsl:attribute>
-                                                      </xsl:when>
+                                                  <ab>
+                                                  <xsl:choose>
+                                                  <xsl:when
+                                                  test="contains(lower-case(.), 'ruling') and contains(lower-case(.), 'pattern')">
+                                                  <xsl:attribute name="type">ruling</xsl:attribute>
+                                                  <xsl:attribute name="subtype"
+                                                  >pattern</xsl:attribute>
+                                                  </xsl:when>
+
+                                                  <xsl:when
+                                                  test="contains(lower-case(.), 'pricking') and contains(lower-case(.), 'pattern')">
+                                                  <xsl:attribute name="type"
+                                                  >pricking</xsl:attribute>
+                                                  <xsl:attribute name="subtype"
+                                                  >pattern</xsl:attribute>
+                                                  </xsl:when>
+
+                                                  <xsl:when
+                                                  test="contains(lower-case(.), 'pricking') or contains(lower-case(.), 'pricks')">
+                                                  <xsl:attribute name="type"
+                                                  >pricking</xsl:attribute>
+                                                  </xsl:when>
+
+                                                  <xsl:when test="contains(lower-case(.), 'ruling')">
+                                                  <xsl:attribute name="type">ruling</xsl:attribute>
+                                                  </xsl:when>
                                                   </xsl:choose>
-                                                      <xsl:value-of select="."/>
+                                                  <xsl:value-of select="."/>
                                                   </ab>
                                                   </xsl:for-each>
                                                 </layout>
@@ -481,8 +622,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   <xsl:choose>
                                                   <xsl:when test="//pcruxansata = 'no'"
                                                   >no</xsl:when>
-                                                      <xsl:when test="//pcruxansata = 'none'"
-                                                          >no</xsl:when>
+                                                  <xsl:when test="//pcruxansata = 'none'"
+                                                  >no</xsl:when>
                                                   <xsl:otherwise>
                                                   <locus>
                                                   <xsl:attribute name="target">
@@ -576,23 +717,36 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                             <date>
                                                 <xsl:value-of select="//ptypeofscript"/>
                                             </date>
-                                            <xsl:if test="//abbreviation"><list type="abbreviations">
-                                            <xsl:for-each select="tokenize(//abbreviation, '&#13;')">
-    
-                                                <item><xsl:analyze-string select="normalize-space(.)" regex="(.+)(\s)(for)(\s)(.+)(\()">
-            <xsl:matching-substring><abbr><xsl:value-of select="regex-group(1)"/></abbr> for <expan><xsl:value-of select="regex-group(5)"/></expan> (</xsl:matching-substring>
-            <xsl:non-matching-substring><xsl:value-of select="."/></xsl:non-matching-substring>
-            
-        </xsl:analyze-string></item>
-   
-</xsl:for-each> </list></xsl:if>
+                                            <xsl:if test="//abbreviation">
+                                                <list type="abbreviations">
+                                                  <xsl:for-each
+                                                  select="tokenize(//abbreviation, '&#13;')">
+
+                                                  <item>
+                                                  <xsl:analyze-string select="normalize-space(.)"
+                                                  regex="(.+)(\s)(for)(\s)(.+)(\()">
+                                                  <xsl:matching-substring><abbr><xsl:value-of
+                                                  select="regex-group(1)"/></abbr> for
+                                                  <expan><xsl:value-of select="regex-group(5)"
+                                                  /></expan> (</xsl:matching-substring>
+                                                  <xsl:non-matching-substring>
+                                                  <xsl:value-of select="."/>
+                                                  </xsl:non-matching-substring>
+
+                                                  </xsl:analyze-string>
+                                                  </item>
+
+                                                  </xsl:for-each>
+                                                </list>
+                                            </xsl:if>
                                         </handNote>
 
                                         <xsl:for-each select="tokenize(//pchangeofhand, '&#13;')">
                                             <xsl:sort order="ascending" select="position()"/>
                                             <handNote xml:id="{concat('h',position() + 1)}"
                                                 script="{$id}">
-                                                <xsl:value-of select="substring-after(., ': ')"/>
+                                                <xsl:value-of select="."/>
+                                                <xsl:comment>The names of this hands need to be replaced by appropriate refs.</xsl:comment>
                                             </handNote>
                                         </xsl:for-each>
                                     </handDesc>
@@ -679,44 +833,51 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                                   <xsl:value-of select="concat('a', position())"/>
                                                   </xsl:attribute>
 
-                                                  <locus/>
-
-                                                  <!-- <xsl:analyze-string select="./cont"
-                                                      regex="(Fol\.\s)(\d{{1,3}}\w{{1,2}})(,\sl\.\s)?(\d{{1,3}})?(-\d{{1,3}})?">
+                                                 <xsl:for-each select="./cont"> 
+                                                     
+                                                     <xsl:choose><xsl:when test="matches(.,'(Fols?\.\s)(\d{1,3}\w{1,2})(,\sl\.\s?)?(\d{1,3})?(\-\d{1,3})?')"><xsl:analyze-string select="."
+                                                       regex="((Fols?\.\s)(\d{{1,3}}\w{{1,2}})(,\sl\.\s?)?(\d{{1,3}})?(\-\d{{1,3}})?)">
                                                   <xsl:matching-substring>
+                                                      <locus>
                                                   <xsl:attribute name="target">
-                                                  <xsl:value-of select="concat('#', regex-group(2))"
+                                                  <xsl:value-of select="concat('#', regex-group(3))"
                                                   />
                                                   </xsl:attribute>
-                                                      <xsl:attribute name="n">
-                                                          <xsl:value-of select="concat('#', regex-group(4))"
+                                                      <xsl:if test="regex-group(5)"><xsl:attribute name="n">
+                                                          <xsl:value-of select="concat('#', regex-group(5))"
                                                           />
-                                                      </xsl:attribute>
+                                                      </xsl:attribute></xsl:if>
+                                                          <xsl:value-of select="regex-group(1)"/>
+                                                      </locus>
                                                   </xsl:matching-substring>
                                                       <xsl:non-matching-substring>
-                                                          <xsl:attribute name="target">#00</xsl:attribute>
+                                                          <xsl:value-of select="normalize-space(.)"
+                                                              disable-output-escaping="yes"/>
                                                       </xsl:non-matching-substring>
-                                                     </xsl:analyze-string>-->
-
-                                                  <xsl:value-of
-                                                  select="normalize-space(./cont)"
-                                                  disable-output-escaping="yes"/>
+                                                     </xsl:analyze-string></xsl:when>
+                                                     <xsl:otherwise>
+                                                         <locus target="#00"/>
+                                                         <desc><xsl:value-of select="normalize-space(.)"
+                                                             disable-output-escaping="yes"/></desc>
+                                                     </xsl:otherwise>
+                                                     </xsl:choose>
+                                                 
+                                                 </xsl:for-each>
+                                                      
                                                   
+
                                                   <q xml:lang="gez">
-                                                  <xsl:value-of
-                                                  select="normalize-space(./add)"
+                                                  <xsl:value-of select="normalize-space(./add)"
                                                   disable-output-escaping="yes"/>
                                                   </q>
                                                   <!--language assumed-->
                                                   <q xml:lang="en">
-                                                  <xsl:value-of
-                                                  select="normalize-space(./tran)"
+                                                  <xsl:value-of select="normalize-space(./tran)"
                                                   disable-output-escaping="yes"/>
                                                   </q>
                                                   <!--translation-->
                                                   <p>
-                                                  <xsl:value-of
-                                                  select="./det"
+                                                  <xsl:value-of select="./det"
                                                   disable-output-escaping="yes"/>
                                                   </p>
                                                   </item>
@@ -771,6 +932,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                             <decoNote xml:id="b4" type="Other">
                                                 <xsl:value-of select="//bnother"/>
                                             </decoNote>
+                                            <xsl:for-each select="//bndecoration">
+                                                <xsl:sort select="position()"/>
+                                                <decoNote>
+                                                  <xsl:attribute name="xml:id">
+                                                  <xsl:value-of select="concat('b', position() + 4)"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:value-of select="."/>
+                                                </decoNote>
+                                            </xsl:for-each>
+
 
                                             <!--                                            elements in model for headband and tailband not known, might be used to fill this with a choose element falling back on Endbands-->
 
@@ -892,20 +1064,31 @@ Restoration :	none  rs[@type=restorations] in custodialHist
                     <profileDesc>
                         <particDesc>
                             <listPerson>
-                                <person>
-                                    <xsl:comment>donor</xsl:comment>
-                                    <persName corresp="PRS0000">
-                                        <xsl:value-of select="//donor"/>
-                                    </persName>
-                                    <xsl:comment>ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                <xsl:for-each select="//donor">
+                                    <person>
+                                        <persName role="owner" corresp="PRS0000">
+                                            <xsl:value-of select="."/>
+                                        </persName>
+                                        <xsl:comment>ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.</xsl:comment>
 
-                                </person>
+                                    </person>
+                                </xsl:for-each>
                                 <xsl:for-each select="//nmcopyist">
                                     <person>
                                         <persName role="scribe" corresp="PRS00000">
                                             <xsl:value-of select="."/>
                                         </persName>
+
+                                    </person>
+                                </xsl:for-each>
+                                <xsl:for-each select="//owner">
+                                    <person>
+                                        <persName role="owner" corresp="PRS0000">
+                                            <xsl:value-of select="."/>
+                                        </persName>
+                                        <xsl:comment>ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.</xsl:comment>
 
                                     </person>
                                 </xsl:for-each>

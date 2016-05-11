@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä krǝstǝnna “Book of the Christening”</title>
+            <title>Mäṣḥafä krәstәnna “Book of the Christening”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-04-29</date>
+            <date>2013-04-29T14:02:47.207Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0042MR"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MR-039</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,11 @@ On the incipit page of Text I (fols. 3r), two lines are rubricated (alternating 
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I is called Mäṣḥafä ṭәmqät in Additio 1 (fol. 33vb).</note>
+                     <note>- Text I contains the embedded colophon (fol. 34v) which states that the book was translated from Coptic and Arabic.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +57,10 @@ On the incipit page of Text I (fols. 3r), two lines are rubricated (alternating 
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">34.0</measure> folios, of which <measure unit="leaf" type="blank">2.0</measure> blank, in <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">34.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">2.0</measure> blank
+                                                  Fols. 1r-v, 34v., in
+                                                  <measure unit="quire">6.0</measure> quires (A+4+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">20.0</height>
                               <width unit="cm">13.0</width>
@@ -101,7 +109,7 @@ On the incipit page of Text I (fols. 3r), two lines are rubricated (alternating 
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -133,13 +141,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 33vb: Ownership note extended by an exhortation to the community.</p><q xml:lang="gez"><p>Fol. 33vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4901;&#4637;&#4672;&#4725;&#4961; &#4824;&#4632;&#4661;&#4901;&#4629;&#4961; &#4824;&#4768;&#4707;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4824;&#4768;&#4925;&#4624;&#4941;&#4811;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4720;&#4757;&#4643;&#4772;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4676;&#4661;&#4961; &#4770;&#4846;&#4768;&#4709;&#4961; &#4637;&#4752;&#4813;&#4961; &#4768;&#4707;&#4726;&#4732;&#4961; &#4808;&#4757;&#4853;&#4638;&#4732;&#4961; &#4704;&#4637;&#4757;&#4961; &#4752;&#4872;&#4653;&#4961; &#4725;&#4896;&#4617;&#4765;&#4961; &#4768;&#4619;&#4729;&#4613;&#4961; &#4768;&#4609;&#4757;&#4961; &#4768;&#4757;&#4853;&#4961; &#4673;&#4637;&#4752;&#4872;&#4653;&#4961; &#4659;&#4621;&#4656;&#4651;&#4961; &#4768;&#4621;&#4672;&#4653;&#4637;&#4961; &#4768;&#4725;&#4901;&#4617;&#4765;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><locus target="#33vb">Fol. 33vb</locus>: Ownership note extended by an exhortation to the community.</p><q xml:lang="gez"><p>Fol. 33vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4936;&#4961; &#4901;&#4637;&#4672;&#4725;&#4961; &#4824;&#4632;&#4661;&#4901;&#4629;&#4961; &#4824;&#4768;&#4707;&#4961; &#4618;&#4707;&#4758;&#4661;&#4961; &#4824;&#4768;&#4925;&#4624;&#4941;&#4811;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4720;&#4757;&#4643;&#4772;&#4961; &#4808;&#4676;&#4661;&#4961; &#4872;&#4704;&#4829;&#4961; &#4768;&#4705;&#4752;&#4961; &#4676;&#4661;&#4961; &#4770;&#4846;&#4768;&#4709;&#4961; &#4637;&#4752;&#4813;&#4961; &#4768;&#4707;&#4726;&#4732;&#4961; &#4808;&#4757;&#4853;&#4638;&#4732;&#4961; &#4704;&#4637;&#4757;&#4961; &#4752;&#4872;&#4653;&#4961; &#4725;&#4896;&#4617;&#4765;&#4961; &#4768;&#4619;&#4729;&#4613;&#4961; &#4768;&#4609;&#4757;&#4961; &#4768;&#4757;&#4853;&#4961; &#4673;&#4637;&#4752;&#4872;&#4653;&#4961; &#4659;&#4621;&#4656;&#4651;&#4961; &#4768;&#4621;&#4672;&#4653;&#4637;&#4961; &#4768;&#4725;&#4901;&#4617;&#4765;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p>Written partly in Gǝʿǝz and Amharic, possibly by the same hand as the main text. The note mentions that the Ms. is owned by the church of Libanos of Mäsṭǝḥ (cp. Additio 1 in MR-041 and MR-037). It mentions also the name of the commissioners of the Ms., ʾabunä Wäldä Tänśaʾe and qes gäbäz ʾIyoʾab.</p>
+                           <p>Written partly in Gәʿәz and Amharic, possibly by the same hand as the main text. The note mentions that the Ms. is owned by the church of Libanos of Mäsṭәḥ (cp. Additio 1 in MR-041 and MR-037). It mentions also the name of the commissioners of the Ms., ʾabunä Wäldä Tänśaʾe and qes gäbäz ʾIyoʾab.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 34r: Excerpt from a liturgical hymn (unidentified).</p><q xml:lang="gez"><p>Fol. 34r: <span style="font-size: large;">&#4768;&#4653;&#4843;&#4637;&#4961; &#4672;&#4851;&#4636;&#4961; &#4828;&#4635;&#4962; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4768;&#4709;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4808;&#4621;&#4853;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4808;&#4616;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4962; &#4846;&#4624;&#4757;&#4661;&#4754;&#4961; &#4608;&#4622;&#4961; &#4843;&#4896;&#4637;&#4677;&#4961; &#4704;&#4612;&#4758;&#4757;&#4961; &#4704;&#4677;&#4649;&#4704;&#4961; &#4661;&#4620;&#4637;&#4961; &#4704;&#4635;&#4821;&#4854;&#4720;&#4961; &#4846;&#4653;&#4851;&#4758;&#4661;&#4961; &#4808;&#4709;&#4653;&#4611;&#4752;&#4961; &#4925;&#4853;&#4677;&#4656;&#4961; &#4813;&#4773;&#4721;&#4961; &#4770;&#4843;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962;</span></p></q>
+                        <item xml:id="a2"><p><locus target="#34r">Fol. 34r</locus>: Excerpt from a liturgical hymn (unidentified).</p><q xml:lang="gez"><p>Fol. 34r: <span style="font-size: large;">&#4768;&#4653;&#4843;&#4637;&#4961; &#4672;&#4851;&#4636;&#4961; &#4828;&#4635;&#4962; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4768;&#4709;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4616;&#4808;&#4621;&#4853;&#4961; &#4611;&#4620;&#4961; &#4617;&#4843;&#4961; &#4808;&#4616;&#4632;&#4757;&#4936;&#4661;&#4961; &#4677;&#4849;&#4661;&#4962; &#4846;&#4624;&#4757;&#4661;&#4754;&#4961; &#4608;&#4622;&#4961; &#4843;&#4896;&#4637;&#4677;&#4961; &#4704;&#4612;&#4758;&#4757;&#4961; &#4704;&#4677;&#4649;&#4704;&#4961; &#4661;&#4620;&#4637;&#4961; &#4704;&#4635;&#4821;&#4854;&#4720;&#4961; &#4846;&#4653;&#4851;&#4758;&#4661;&#4961; &#4808;&#4709;&#4653;&#4611;&#4752;&#4961; &#4925;&#4853;&#4677;&#4656;&#4961; &#4813;&#4773;&#4721;&#4961; &#4770;&#4843;&#4657;&#4661;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p/>
                         </item>
@@ -148,7 +154,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (the font board is broken and repaired).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -156,13 +162,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0042MR">Mǝdrä Ruba Sǝllase /MR</placeName>
+                        <placeName corresp="INS0042MR">Mәdrä Ruba Sәllase /MR</placeName>
                      </origPlace>
                      <origDate notBefore="1800" notAfter="1900">19th century.</origDate>
                   </origin>
@@ -198,8 +205,13 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ʾabunä Wäldä Tänśaʾe and qes gäbäz ʾIyoʾab are mentioned as commissioners in Additio 1.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ʾabunä Wäldä Tänśaʾe and qes gäbäz ʾIyoʾab are mentioned as commissioners in Additio 1.</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The Ms. was owned originally by the church of Libanos of Mäsṭәḥ (s. Additio 1; cp. Additio 1 in MR-041 and MR-037).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -222,9 +234,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-13">registered</change>
-         <change who="SA" when="2013-04-29">created</change>
-         <change who="SA" when="2014-09-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-04-29T14:02:47.207Z">created</change>
+         <change who="SA" when="2014-09-09T10:04:28.409Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

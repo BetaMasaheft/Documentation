@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Excerpt from the Gospel of John / Mäṣḥafä gǝṣṣǝw, Lectionary for the entire year</title>
+            <title>Excerpt from the Gospel of John / Mäṣḥafä gәṣṣәw, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-09-05</date>
+            <date>2013-09-05T10:14:04.673Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0111SSB"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>SSB-017</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key=""/>
                         </support>
-                        <extent>Made of <measure unit="leaf">46.0</measure> folios, in <measure unit="quire">6.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">46.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r, 47v., in
+                                                  <measure unit="quire">6.0</measure> quires (A+5). 
                                                 <dimensions type="outer">
                               <height unit="cm">21.0</height>
                               <width unit="cm">15.0</width>
@@ -60,6 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>Undecorated quire marks are written in the left upper corner of fols. 23r, 31r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -102,7 +108,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -125,12 +131,11 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">Fol. 46r l.6-19: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify;">Fol. 46r l.6: <span style="font-size: large;">&#4829;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4621;&#4869;&#4961; &#4877;&#4848;&#4845;&#4961; &#4635;&#4649;&#4961; &#4824;&#4661;&#4632;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4624;&#4811;&#4653;&#4843;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4676;&#4653;&#4678;&#4661;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4757;&#4961; &#4632;&#4653;&#4624;&#4961; &#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4675;&#4622;&#4633;&#4961; &#4616;&#4624;&#4811;&#4653;&#4843;&#4725;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><locus target="#46r">Fol. 46r</locus>l.6-19: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify;">Fol. 46r l.6: <span style="font-size: large;">&#4829;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4621;&#4869;&#4961; &#4877;&#4848;&#4845;&#4961; &#4635;&#4649;&#4961; &#4824;&#4661;&#4632;&#4961; &#4781;&#4653;&#4661;&#4725;&#4755;&#4609;&#4961; &#4872;&#4709;&#4648;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4661;&#4632;&#4961; &#4709;&#4773;&#4658;&#4721;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4661;&#4632;&#4961; &#4848;&#4674;&#4673;&#4961; &#4808;&#4768;&#4705;&#4609;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4616;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4624;&#4811;&#4653;&#4843;&#4961; &#4872;&#4709;&#4648;&#4961; &#4645;&#4619;&#4660;&#4961; &#4872;&#4709;&#4648;&#4961; &#4676;&#4653;&#4678;&#4661;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4819;&#4632;&#4720;&#4961; &#4645;&#4619;&#4660;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4872;&#4709;&#4648;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4720;&#4961; &#4770;&#4840;&#4657;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4872;&#4709;&#4648;&#4961; &#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4723;&#4710;&#4720;&#4961; &#4624;&#4811;&#4653;&#4843;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4777;&#4757;&#4961; &#4632;&#4653;&#4624;&#4961; &#4632;&#4757;&#4877;&#4645;&#4725;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4824;&#4961; &#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4675;&#4622;&#4633;&#4961; &#4616;&#4624;&#4811;&#4653;&#4843;&#4725;&#4962;</span></p></q>
                            <q xml:lang="en"/>
-                           <p>Written in the same hand as that of the main text. The note mentions the name of the donor, lǝğğ Gǝdäy Maru, his baptismal name and those of his wife, his parents and his children.</p>
+                           <p>Written in the same hand as that of the main text. The note mentions the name of the donor, lәğğ Gәdäy Maru, his baptismal name and those of his wife, his parents and his children.</p>
                         </item>
-                        <item xml:id="e1">- Title “ṭäḍǝwi” (?) written on the front board.</item>
+                        <item xml:id="e1">- Title “ṭäḍәwi” (?) written on the front board.</item>
                      </list>
                   </additions>
                   <bindingDesc>
@@ -142,6 +147,7 @@ One pair of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -150,7 +156,7 @@ One pair of sewing stations.</decoNote>
                      <origPlace>
                         <placeName corresp="INS0111SSB">Bet Ḥawaryat / SSB</placeName>
                      </origPlace>
-                     <origDate notBefore="1850" notAfter="1900">Lǝğğ Gǝdäy Maru may be däğğazmač Maru already mentioned in another Ms., in an additio dated to the time of Yoḥannǝs IV (s. Ms. SSB-004, Additio 2).</origDate>
+                     <origDate notBefore="1850" notAfter="1900">Lәğğ Gәdäy Maru may be däğğazmač Maru already mentioned in another Ms., in an additio dated to the time of Yoḥannәs IV (s. Ms. SSB-004, Additio 2).</origDate>
                   </origin>
                </history>
                <additional>
@@ -184,8 +190,8 @@ One pair of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">lǝğğ Gǝdäy Maru (baptismal name Gäbrä ʾƎgziʾabǝḥer) (s. Additio 1).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">lәğğ Gәdäy Maru (baptismal name Gäbrä ʾƎgziʾabәḥer) (s. Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -208,9 +214,9 @@ One pair of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-29">registered</change>
-         <change who="SA" when="2013-09-05">created</change>
-         <change who="MK" when="2014-09-09">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-09-05T10:14:04.673Z">created</change>
+         <change who="MK" when="2014-09-09T14:00:28.551Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

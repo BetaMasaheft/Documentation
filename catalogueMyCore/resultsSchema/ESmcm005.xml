@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2014-04-03</date>
+            <date>2014-04-03T12:33:48.405Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0147MCM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MCM-005</idno>
                </msIdentifier>
                <msContents>
@@ -52,7 +52,8 @@ On the incipit page of Text I-4 (fols. 176r), few lines are rubricated (alternat
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">198.0</measure> folios, in <measure unit="quire">19.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">198.0</measure> folios, in
+                                                  <measure unit="quire">19.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">22.0</height>
                               <width unit="cm">22.0</width>
@@ -93,7 +94,7 @@ Tears carefully amended on fols. 117, 130, 145, 156.</condition>
                            <note>All data for fol. 21r (for Texts I-III).</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -120,7 +121,7 @@ The bottom line is written above the ruling.</ab>
                            <note>All data for fol. 178r (for Text IV).</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -165,13 +166,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 166v: Unclear note.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#166v">Fol. 166v</locus>: Unclear note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
-                           <p>The note is written in Tǝgrǝñña in the inner margin of the folio, in a 19th-cent (?) hand. It mentions grazmač ʾAbrǝha.</p>
+                           <p>The note is written in Tǝgrǝñña in the inner margin of the folio, in a 19th-cent (?) hand. It mentions grazmač ʾAbrәha.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p>Fol. 196r: Ownership note.</p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><locus target="#196r">Fol. 196r</locus>: Ownership note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note mentions that the Ms. was owned by Täklä Haymanot.</p>
                         </item>
@@ -182,7 +181,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards (the back board is broken and repaired) covered with dark-brown untooled leather (missing on the front board and on the spine); textile inlays in the inner side of the front board.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -192,6 +191,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head, one close to the tail.</decoNote>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -234,8 +234,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Täklä Haymanot (s. Additio 1).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Täklä Haymanot (s. Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -259,9 +259,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-25">registered</change>
-         <change who="SA" when="2014-04-03">created</change>
-         <change who="VP" when="2015-02-26">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2014-04-03T12:33:48.405Z">created</change>
+         <change who="VP" when="2015-02-26T11:32:37.382Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESaqg002"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Täʾamrä ʾIyasus “Miracles of Jesus”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2012-07-31T10:38:32.605Z</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0097AQG"/>
+                  <collection>Ethio-Spare</collection>
+                  <idno>AQG-002</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; names of the donors; incipit of Text I-1) and its subsections; incipit of subsections of Text I-2); the words mәʿәraf, nägär and täʾamr; elements of the punctuation signs; Ethiopic numerals; in the incipit page of Text I, two lines are rubricated, alternating with black lines (s. fols. 3r).</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">158.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">4.0</measure> blank
+                                                  fols. 1, 2, 157, 158, in
+                                                  <measure unit="quire">18.0</measure> quires (A+16+B). 
+                                                <dimensions type="outer">
+                              <height unit="cm">23.5</height>
+                              <width unit="cm">17.0</width>
+                              <depth unit="cm">7.5</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <signatures> Decorated <note>Decorated quire mark on fol. 3r.</note>
+                           </signatures>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="3r" to="11v"/> ፩I(9; s.l. 5, stub after 4/fols. 3r-11v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="11"/>
+                                 <locus from="12r" to="22v"/>
+                                 <locus target="10"/>
+                                 <locus from="23r" to="32v"/> II(11; s.l. 7, stub after 4/fols. 12r-22v)- III(10/fols. 23r-32v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">11</dim>
+                                 <locus target="11"/>
+                                 <locus from="33r" to="43v"/> IV(11; s.l. 6, stub after 5/fols. 33r-43v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="44r" to="53v"/> V(10/fols. 44r-53v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="54r" to="63v"/> VI(10/fols. 54r-63v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="64r" to="73v"/> VII(10/fols. 64r-73v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">9</dim>
+                                 <locus from="74r" to="82v"/> VIII(9; s.l. 5, stub after 4/fols. 74r-82v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="83r" to="92v"/> IX(10/fols. 83r-92v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">11</dim>
+                                 <locus target="11"/>
+                                 <locus from="93r" to="103v"/> X(11; s.l. 6, stub after 5/fols. 93r-103v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="104r" to="111v"/> XI(8/fols. 104r-111v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">12</dim>
+                                 <locus target="12"/>
+                                 <locus from="112r" to="123v"/> XII(12/fols. 112r-123v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="124r" to="130v"/> XIII(7; s.l. 4, stub after 3/fols. 124r-130v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">13</dim>
+                                 <locus target="13"/>
+                                 <locus from="131r" to="143v"/> XIV(13; s.l. 7, stub after 7/fols. 131r-143v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="144r" to="153v"/> XV(10; s.l. 5, stub after 5; 6, stub after 4/fols. 144r-153v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">3</dim>
+                                 <locus from="154r" to="156v"/> XVI(3; s.l. 2, stub after 1/fols. 154r-156v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="157r" to="159v"/> B(2/fols. 157r-159v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">The original sewing was repaired with vegetal threads (Z-twist, s. fols. 27v-28r).&#xD;
+The headband was repaired.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="17">
+                           <dimensions unit="mm">
+                              <height>155</height>
+                              <width>130</width>
+                              <dim type="intercolumn">20</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">30</dim>
+                              <dim type="bottom">40</dim>
+                              <dim type="right">25</dim>
+                              <dim type="left">5</dim>
+                              <dim type="intercolumn">20</dim>
+                           </dimensions>
+                           <note>All data for fol. 4r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="pattern">
+Ruling pattern:</ab>
+                           <ab>
+1A-1A-1A1A/0-0/0-0/A.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Mediocre</ab>
+                        <seg type="ink">Black, red</seg>
+                        <persName role="scribe" corresp="PRS00000">Zä-Dәngәl</persName>Zä-Dәngәl is mentioned as the scribe in Additio 1 and in supplication formulas, fols. 15va, 24ra. (probably the same scribe who wrote MR-040).<date>First half of the 19th cent.</date>
+                     </handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Angular script.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                  </handDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus target="#156vb">Fol. 156vb</locus>: Donation note.<q xml:lang="gez">Fol. 156vb:  ዝንቱ፡ መጽሐፍ፡ ዘቅዱስ፡ ጊዮርጊስ፡ ዘአድ፡ ቌልቋል፡ ዘወኃቦ፡ መንፈቁ፡ ወልደ፡ ጊዮርጊስ፡ ለቅዱስ፡ ጊዮርጊስ፡ ወብእሲቱ፡ ቍስቋማዊት፡ ዘተጽሕፈ፡ በዘመነ፡ ጳጳስነ፡ አቡነ፡ ቂርሎስ፡ ወንጉሥነ፡ ሰብአ፡ ጋድስ፡ ወቄስ፡ ገበዙ፡ ክፍለ፡ ጊዮርጊስ። ወምስለ፡ ጸሐፊሐ፡ ኃጥእ፡ ዘንድግል፡[sic] ትኩኖሙ፡ ምርፋቅ፡ ምስለ፡ ኂሩያን፡ ደቂቅ፡ [n.l.]ኩድኖሙ፡ ልብሰ፡ ጽድቅ፡ ኅብረ፡ ሰን[n.l.]ቅ፡ ዘይትባደር፡ እምብሩር፡ ወወርቅ። ዘሰረቃ፡ ወዘፈተቃ፡ ውጉዘ፡ ለይኩን፡ በቃለ፡ ፻፫፲ወ፰ርቱዓነ፡ ሃይማኖት።</q>
+                           <q xml:lang="en"/>
+                           Mention of the donors, Wäldä Giyorgis and his wife Qwusqwamawit. The book was written during the time of Metropolitan Qerәllos [Qirәllos] (in tenure 1816-28), and däğğazmač Säbagadis [Säbʾa Gadis], governor of Tәgray from 1822 to 1831 (here called nәguś), and qes gäbäz Kәflä Giyorgis of Qǝddus Giyorgis ʿAddi Qolqwal [Qwelqwal] church (also mentioned in the supplication formulas throughout the text).
+                        </item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1">Two wooden boards covered with tooled dark-brown leather.&#xD;
+Overback made of reddish-brown leather.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">Blind tooled ornaments on the leather cover. For the spine cover, 3 different tools were used (double circles, single line fillets, wave forms). On the cover of the boards, 4 different tools were used (double circles, three horizontal lines, crescents, X-forms).</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0097AQG">Ë&#x81;Addi Qolqwal Giyorgis / AQG</placeName>
+                     </origPlace>
+                     <origDate notBefore="1822" notAfter="1828">Additio 1 mentions Metropolitan Qerәllos (in tenure 1816-28) and däğğazmač Säbagadis (Subagadis, Säbʾa Gadis), the ruler of Tәgray in 1822-31.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="ancient"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wäldä Giyorgis and his wife Qwusqwamawit (s. Additio 1); Kәflä Giyorgis (s, supplication formulas fols. 14va, 18vb, 29rb and passim.).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Zä-Dәngәl</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Apocrypha/Pseudoepigrapha"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-11-18">registered</change>
+         <change who="SA" when="2012-07-31T10:38:32.605Z">created</change>
+         <change who="DN" when="2015-03-06T15:17:38.879Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

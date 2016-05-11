@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gǝbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
+            <title>Mäṣḥafä gәbrä ḥǝmamat “Book of the Rite of the Holy Week”</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-04-08</date>
+            <date>2013-04-08T15:28:29.478Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0065AMQ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AMQ-003</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">209.0</measure> folios, in <measure unit="quire">28.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">209.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1rv, 208v., in
+                                                  <measure unit="quire">28.0</measure> quires (A+26+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">40.0</height>
                               <width unit="cm">35.0</width>
@@ -60,6 +63,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>- Quire marks (in the upper left margin): fols. 2r (decorated), 18r, 26r, 34r, 42r, 50r, 74r (simple).</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">1</dim>A(1 s.l: fol. 1) </item>
@@ -167,7 +172,7 @@ A square piece of parchment has been cut in the bottom margin of fol. 82.</condi
                            <note>All data are for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -188,32 +193,30 @@ The bottom line is written above the ruling.</ab>
                         <date>First half of the 19th century gwǝlḥ script.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ምል᎓/ ምልጠ᎓</abbr> for <expan>ምልጠን᎓ </expan> (only in Additio 4)</item>
+                              <abbr>ምል᎓/ ምልጠ᎓</abbr> for
+                                                  <expan>ምልጠን᎓ </expan> (only in Additio 4)</item>
                            <item>
-                              <abbr>ለዓ᎓</abbr> for <expan>ለዓለም᎓ </expan> (only in Additio 4)</item>
+                              <abbr>ለዓ᎓</abbr> for
+                                                  <expan>ለዓለም᎓ </expan> (only in Additio 4)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The handwriting shows tendency to rectangular letter shapes.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 206rb: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 206rb:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4632;&#4925;&#4624;&#4941;&#5011; &#4824;&#4768;&#4853;&#5011; &#4877;&#4651;&#4725;&#5011; &#4824;&#4632;&#4677;&#4848;&#4656;&#5011; &#4674;&#4653;&#4678;&#4661;&#5011; &#4808;&#4773;&#4633;&#4962; &#4770;&#4840;&#4617;&#4899;&#5011; &#4824;&#4656;&#4648;&#4678;&#5011; &#4808;&#4824;&#4936;&#4624;&#4678;&#5011; &#4813;&#4873;&#4824;&#5011; &#4845;&#4777;&#4757;&#5011; &#4704;&#4645;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962; &#4824;&#4720;&#4643;&#4840;&#4896;&#5011; &#4704;&#4752;&#4811;&#4841;&#5011; &#4848;&#4869;&#5011; &#4768;&#4829;&#4635;&#4733;&#5011; &#4779;&#4643;&#5011; &#4824;&#4813;&#4773;&#4721;&#5011; &#4720;&#4661;&#4939;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4776;&#4632;&#5011; &#4720;&#4789;&#4758;&#5011; &#4632;&#4853;&#4739;&#4754;&#4720;&#5011; &#4645;&#4875;&#5011; &#4808;&#4752;&#4941;&#4661;&#5011; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#5011; &#4656;&#4635;&#4845;&#5011; &#4624;&#4851;&#4661;&#4962; &#4637;&#4661;&#4616;&#5011; &#4768;&#4705;&#4609;&#5011; &#4824;&#4632;&#4757;&#4936;&#4661;&#5011; &#4677;&#4849;&#4661;&#5011; &#4808;&#4773;&#4633;&#5011; &#4768;&#4677;&#4618;&#4661;&#4843;&#4962; &#4616;&#4819;&#4616;&#4632;&#5011; &#4768;&#4616;&#4637;&#5011; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#206rb">Fol. 206rb</locus>: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 206rb:</span></span><span style="line-height: 115%; font-size: 14pt"> </span><span style="font-size: large"><span style="line-height: 115%">&#4829;&#4632;&#4925;&#4624;&#4941;&#5011; &#4824;&#4768;&#4853;&#5011; &#4877;&#4651;&#4725;&#5011; &#4824;&#4632;&#4677;&#4848;&#4656;&#5011; &#4674;&#4653;&#4678;&#4661;&#5011; &#4808;&#4773;&#4633;&#4962; &#4770;&#4840;&#4617;&#4899;&#5011; &#4824;&#4656;&#4648;&#4678;&#5011; &#4808;&#4824;&#4936;&#4624;&#4678;&#5011; &#4813;&#4873;&#4824;&#5011; &#4845;&#4777;&#4757;&#5011; &#4704;&#4645;&#4621;&#4899;&#4752;&#5011; &#4916;&#4901;&#4654;&#4661;&#5011; &#4808;&#4915;&#4813;&#4622;&#4661;&#4962; &#4824;&#4720;&#4643;&#4840;&#4896;&#5011; &#4704;&#4752;&#4811;&#4841;&#5011; &#4848;&#4869;&#5011; &#4768;&#4829;&#4635;&#4733;&#5011; &#4779;&#4643;&#5011; &#4824;&#4813;&#4773;&#4721;&#5011; &#4720;&#4661;&#4939;&#5011; &#4635;&#4653;&#4843;&#4637;&#5011; &#4776;&#4632;&#5011; &#4720;&#4789;&#4758;&#5011; &#4632;&#4853;&#4739;&#4754;&#4720;&#5011; &#4645;&#4875;&#5011; &#4808;&#4752;&#4941;&#4661;&#5011; &#4704;&#4632;&#4757;&#4877;&#4645;&#4720;&#5011; &#4656;&#4635;&#4845;&#5011; &#4624;&#4851;&#4661;&#4962; &#4637;&#4661;&#4616;&#5011; &#4768;&#4705;&#4609;&#5011; &#4824;&#4632;&#4757;&#4936;&#4661;&#5011; &#4677;&#4849;&#4661;&#5011; &#4808;&#4773;&#4633;&#5011; &#4768;&#4677;&#4618;&#4661;&#4843;&#4962; &#4616;&#4819;&#4616;&#4632;&#5011; &#4768;&#4616;&#4637;&#5011; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;" unicode="">Fol. 206rb:</span><span style="line-height: 115%;" unicode="">This (is) the book of &#704;Add Grat of the church of Cyricus and his mother Julitta.</span><span style="line-height: 115%;" unicode="">&#160;May the one who stole and who erased (it's text) be excommunicated by the authority of Peter and Paul. The one who bought it with his money (is) d&#228;&#287;&#287;azma&#269; Kasa who is T&#228;sfa Maryam, so that it might be for him the salvation of (his) body and soul in the new Kingdom of Heaven along with his father Z&#228;-M&#228;nf&#228;s Q&#477;ddus and his mother &#704;Aqlisya, forever and ever. Amen.</span></span></p></q>
                            <p>The note is written by the same hand which added the name Täsfa Maryam in the supplication formulas throughout the Ms. Written half in black, half in red ink. The note dates the time of däğğazmač Sǝba Gadis (1770-1831), father of däğğazmač Kasa, whose baptismal name is Zä-Mänfäs Qǝddus.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small">Fol. 206vab: Excerpt from a liturgical text (?).</span></p><q xml:lang="gez"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 206vab: </span><span style="font-size: large">&#4661;&#4637;&#4821;&#4814;&#4780;&#5011; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#5011; &#4789;&#4621;&#4781;&#4633;&#5011; &#4768;&#4709;&#4843;&#4720;&#5011; &#4781;&#4653;&#4661;&#4722;&#4843;&#4755;&#4725;&#5011; &#4776;&#4632;&#5011; &#4824;&#4768;&#4781;&#4704;&#4654;&#4633;&#5011; &#4616;&#4774;&#4650;&#4725;&#5011; &#4808;&#4616;&#4752;&#4706;&#4843;&#4725;&#5011; &#4704;&#4808;&#4757;&#4876;&#4616;&#5011; &#4632;&#4757;&#4877;&#4645;&#4725;&#5011; &#4773;&#4757;&#4824;&#5011; &#4845;&#4709;&#4621;&#5011; &#4781;&#4653;&#4661;&#4726;&#4661;&#5011; &#4808;&#4621;&#4848;&#5011; &#4851;&#4810;&#4725;&#5011; &#4768;&#4636;&#4757;&#5011;...&#160;&#160; </span></div></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><locus target="#206va">Fol. 206va</locus>b: Excerpt from a liturgical text (?).</span></p><q xml:lang="gez"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 206vab: </span><span style="font-size: large">&#4661;&#4637;&#4821;&#4814;&#4780;&#5011; &#4616;&#4773;&#4877;&#4826;&#4773;&#4752;&#5011; &#4789;&#4621;&#4781;&#4633;&#5011; &#4768;&#4709;&#4843;&#4720;&#5011; &#4781;&#4653;&#4661;&#4722;&#4843;&#4755;&#4725;&#5011; &#4776;&#4632;&#5011; &#4824;&#4768;&#4781;&#4704;&#4654;&#4633;&#5011; &#4616;&#4774;&#4650;&#4725;&#5011; &#4808;&#4616;&#4752;&#4706;&#4843;&#4725;&#5011; &#4704;&#4808;&#4757;&#4876;&#4616;&#5011; &#4632;&#4757;&#4877;&#4645;&#4725;&#5011; &#4773;&#4757;&#4824;&#5011; &#4845;&#4709;&#4621;&#5011; &#4781;&#4653;&#4661;&#4726;&#4661;&#5011; &#4808;&#4621;&#4848;&#5011; &#4851;&#4810;&#4725;&#5011; &#4768;&#4636;&#4757;&#5011;...&#160;&#160; </span></div></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span style="line-height: 115%;" unicode="">Fol. 206vab: Listen to our Lord, all you churches, for He is the one who glorified the &#704;Orit and the Prophets in the Gospel of the Kingdom saying, Kr&#477;stos son of David, &#8220;Amen&#8230;&#8221;</span></span></p></q>
                            <p>The hand is the same as that of Additio 3. Musical notation signs, along with numbers, are written interlineally and to the left from the text column.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 206vb-207va: &#7778;&#228;lot&#228; burake, Prayer of the Benediction of St. Basil.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fols. 206vb-207va:</span><span style="font-size: 14pt"> </span><span style="font-size: large">&#4920;&#4622;&#4720;&#5011; &#4705;&#4651;&#4780;&#5011; &#4774;&#4645;&#4617;&#4661;&#5011; &#4677;&#4849;&#4661;&#5011; &#4768;&#4709;&#5011; &#4808;&#4808;&#4621;&#4853;&#5011; &#4808;&#4632;&#4757;&#4936;&#4661;&#5011; &#4677;&#4849;&#4661;&#5011; &#4707;&#4653;&#4776;&#5011; &#4850;&#4704;&#5011; &#4629;&#4829;&#4704;&#4776;&#5011; &#4941;&#4673;&#4651;&#4757;&#5011; &#4781;&#4653;&#4661;&#4726;&#4659;&#4813;&#4843;&#4757;&#5011;&#8230;</span></div></q>
+                        <item xml:id="a3"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small"><locus target="#206vb">Fol. 206vb-207</locus>va: &#7778;&#228;lot&#228; burake, Prayer of the Benediction of St. Basil.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fols. 206vb-207va:</span><span style="font-size: 14pt"> </span><span style="font-size: large">&#4920;&#4622;&#4720;&#5011; &#4705;&#4651;&#4780;&#5011; &#4774;&#4645;&#4617;&#4661;&#5011; &#4677;&#4849;&#4661;&#5011; &#4768;&#4709;&#5011; &#4808;&#4808;&#4621;&#4853;&#5011; &#4808;&#4632;&#4757;&#4936;&#4661;&#5011; &#4677;&#4849;&#4661;&#5011; &#4707;&#4653;&#4776;&#5011; &#4850;&#4704;&#5011; &#4629;&#4829;&#4704;&#4776;&#5011; &#4941;&#4673;&#4651;&#4757;&#5011; &#4781;&#4653;&#4661;&#4726;&#4659;&#4813;&#4843;&#4757;&#5011;&#8230;</span></div></q>
                            <q xml:lang="en"><p><span style="line-height: 115%; font-size: 10pt" unicode="">Fol. 206vb-207va: Prayer of the blessing, oh Triune Holy, Father, Son and Holy Spirit (give your) bless on your lovely Christian people&#8230; </span></p></q>
                            <p>The hand is possibly the same as that of Additio 2. The note is separated from Additio 2 with a simple divider line.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fols. 207vb-208rb: Liturgical chant (unidentified).</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 207vb-208rb:</span><span style="font-size: 14pt"> </span><span style="font-size: large">&#4632;&#4829;&#4633;&#4653;&#5011; &#4720;&#4656;&#4677;&#4616;&#5011; &#4808;&#4624;&#4632;&#5011; &#4824;&#4773;&#4757;&#4704;&#4616;&#5011; &#4739;&#4898;&#4768;&#4725;&#5011; &#4720;&#4648;&#4877;&#4824;&#5011; &#4872;&#4710;&#4609;&#5011; &#4824;&#4773;&#4757;&#4704;&#4616;&#5011; &#4848;&#4812;&#5011; &#4773;&#4661;&#4632;&#5011; &#4632;&#4616;&#4782;&#4721;&#5011; &#4770;&#4624;&#4632;&#5011;...</span></div></q>
+                        <item xml:id="a4"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small"><locus target="#207vb">Fols. 207vb-208</locus>rb: Liturgical chant (unidentified).</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal; margin-bottom: 0pt"><span style="font-size: small">Fol. 207vb-208rb:</span><span style="font-size: 14pt"> </span><span style="font-size: large">&#4632;&#4829;&#4633;&#4653;&#5011; &#4720;&#4656;&#4677;&#4616;&#5011; &#4808;&#4624;&#4632;&#5011; &#4824;&#4773;&#4757;&#4704;&#4616;&#5011; &#4739;&#4898;&#4768;&#4725;&#5011; &#4720;&#4648;&#4877;&#4824;&#5011; &#4872;&#4710;&#4609;&#5011; &#4824;&#4773;&#4757;&#4704;&#4616;&#5011; &#4848;&#4812;&#5011; &#4773;&#4661;&#4632;&#5011; &#4632;&#4616;&#4782;&#4721;&#5011; &#4770;&#4624;&#4632;&#5011;...</span></div></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;">Fols. 207vb-208rb: Psalm. He was crucified and suffered without sin, His ribs was pierced without pain because His divinity did not suffer&#8230;</span></span></p></q>
                            <p>Musical notation signs are written interlineally.</p>
                         </item>
@@ -224,7 +227,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="no">
+                     <binding contemporary="false">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (partly missing); textile inlays. &#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -234,6 +237,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Rows of small holes, two close to the head and two close to the tail, are visible on the spine fold of the quires.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 9 tools were used: cross hatching, triple line fillet, double cirle, swirl, x-form, criss-cross, double sine wave with dots, corni form, small x).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -276,8 +280,13 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name(s) originally mentioned in the supplication formulas have been erased (e.g., fols. 11va l.15, 11vb l.16, 16ra l.24) and mostly replaced with the name Täsfa Maryam, written in a secondary hand (e.g., fols. 4rb l.2, 4va ls.12-13). Täsfa Maryam is the baptismal name of däğğazmač Kasa (s. Additio 1), a son of däğğazmač Subagadis (1770-1831).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name(s) originally mentioned in the supplication formulas have been erased (e.g., fols. 11va l.15, 11vb l.16, 16ra l.24) and mostly replaced with the name Täsfa Maryam, written in a secondary hand (e.g., fols. 4rb l.2, 4va ls.12-13). Täsfa Maryam is the baptismal name of däğğazmač Kasa (s. Additio 1), a son of däğğazmač Subagadis (1770-1831).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The church of ʿAddigrat Qirqos, according to Additio 1.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -300,9 +309,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-19">registered</change>
-         <change who="IR" when="2013-04-08">created</change>
-         <change who="DN" when="2015-02-05">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IR" when="2013-04-08T15:28:29.478Z">created</change>
+         <change who="DN" when="2015-02-05T16:20:54.152Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

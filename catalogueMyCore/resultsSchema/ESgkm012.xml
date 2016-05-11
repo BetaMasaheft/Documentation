@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-09-30</date>
+            <date>2013-09-30T11:20:27.294Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0108GKM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>GKM-012</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Many leaves are misplaced. The correct sequence would be:</note>
+                     <note>I-2) Homily: fols. 9rb-11vb, 40ra-41vb; miracle: fols. 41vb, 13ra-vb,12ra-rb</note>
+                     <note>I-3) Homily: fols. 12vb, 14ra-15vb, 17ra-18vb, 32ra-35vb, 19ra; miracle: fols. 19ra-vb, 16ra-rb</note>
+                     <note>I-4) Homily: fols. 16vb, 20ra-26rb</note>
+                     <note>I-5) Homily: fols. 27vb, 36ra-37vb, 28ra-31vb, 38ra; commemorative notice: fols. 38vb-39vb, 42ra.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +59,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">52.0</measure> folios, in <measure unit="quire">10.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">52.0</measure> folios, in
+                                                  <measure unit="quire">10.0</measure> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">22.5</height>
                               <width unit="cm">17.0</width>
@@ -121,7 +130,7 @@ Fol. 16 is damaged with the loss of text.</condition>
                            <note>All data are for fol. 2r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -152,13 +161,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 46vb</span><span unicode="" style="line-height: 115%">: </span><span style="line-height: 115%">Record of guarantee for borrowing the book of D&#601;rsan&#228; Mika&#704;el.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#46vb">Fol. 46vb</locus></span><span unicode="" style="line-height: 115%">: </span><span style="line-height: 115%">Record of guarantee for borrowing the book of D&#601;rsan&#228; Mika&#704;el.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The very recent note is crudely written in Tǝgrǝñña, in pen, and is followed by writing exercises. It states 1983 year of mercy (= 1990/91 A.D.) as the date of the conclusion of the contract.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small">Fol. 47ra: Unidentified text, incomplete.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 47ra</span><span style="line-height: 115%">: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4656;&#4811;&#4661;&#4813;&#4961; &#4752;&#4643;&#4774;&#4633;&#4961; &#4661;&#4752;&#4961; &#4637;&#4877;&#4707;&#4649;&#4961; &#4925;&#4849;&#4616;&#4961; &#4808;&#4757;&#4921;&#4624;&#4961; &#4901;&#4817;&#4637;&#4961; &#4632;&#4819;&#4824;&#4609;&#4961; &#4824;&#4845;&#4656;&#4621;&#4709;&#4961; &#4621;&#4704;&#4755;&#4961; &#4824;&#4824;&#4826;&#4768;&#4609;&#4961; &#4736;&#4704;&#4650;&#4609;&#4962;</span><span style="line-height: 115%">...</span></span></p></q>
+                        <item xml:id="a2"><p><span style="font-size: small"><locus target="#47ra">Fol. 47ra</locus>: Unidentified text, incomplete.</span></p><q xml:lang="gez"><p><span style="font-size: small"><span style="line-height: 115%">Fol. 47ra</span><span style="line-height: 115%">: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4656;&#4811;&#4661;&#4813;&#4961; &#4752;&#4643;&#4774;&#4633;&#4961; &#4661;&#4752;&#4961; &#4637;&#4877;&#4707;&#4649;&#4961; &#4925;&#4849;&#4616;&#4961; &#4808;&#4757;&#4921;&#4624;&#4961; &#4901;&#4817;&#4637;&#4961; &#4632;&#4819;&#4824;&#4609;&#4961; &#4824;&#4845;&#4656;&#4621;&#4709;&#4961; &#4621;&#4704;&#4755;&#4961; &#4824;&#4824;&#4826;&#4768;&#4609;&#4961; &#4736;&#4704;&#4650;&#4609;&#4962;</span><span style="line-height: 115%">...</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is probably written in the main hand.</p>
                         </item>
@@ -219,8 +226,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Maryam is mentioned as the commissioner (ʾaṣḥafiha) on fol. 38ra. Furthermore her name and the names of her father Gäbrä Solomon, her mother Wälättä Giyorgis and her sister Wälättä Mikaʾel are written in supplication formulas. In addition, several other persons are mentioned: Wälättä Yoḥannǝs (fol. 9rb), Ḫirutä Śǝllase (fol. 12vb), Wäldä ʾƎsṭifanos (fols. 12rb, 38ra), Wälättä Tǝnśaʾe (fol. 13ra), Gäbrä Maryam (fol. 16rb), Wäldä Maryam (fols. 16rb, 19ra), Ḫaylä Maryam (fol. 19ra-rb), Ḫarägä Wäyn (fol. 19rb), Täwäldä Mädḫǝn (fols. 38ra, 41vb), ʾabunä Ḫaylä Maryam (fol. 42ra).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Maryam is mentioned as the commissioner (ʾaṣḥafiha) on fol. 38ra. Furthermore her name and the names of her father Gäbrä Solomon, her mother Wälättä Giyorgis and her sister Wälättä Mikaʾel are written in supplication formulas. In addition, several other persons are mentioned: Wälättä Yoḥannǝs (fol. 9rb), Ḫirutä Śǝllase (fol. 12vb), Wäldä ʾƎsṭifanos (fols. 12rb, 38ra), Wälättä Tǝnśaʾe (fol. 13ra), Gäbrä Maryam (fol. 16rb), Wäldä Maryam (fols. 16rb, 19ra), Ḫaylä Maryam (fol. 19ra-rb), Ḫarägä Wäyn (fol. 19rb), Täwäldä Mädḫǝn (fols. 38ra, 41vb), ʾabunä Ḫaylä Maryam (fol. 42ra).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -248,9 +255,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-04">registered</change>
-         <change who="SH" when="2013-09-30">created</change>
-         <change who="EG" when="2014-11-06">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-09-30T11:20:27.294Z">created</change>
+         <change who="EG" when="2014-11-06T08:00:18.145Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

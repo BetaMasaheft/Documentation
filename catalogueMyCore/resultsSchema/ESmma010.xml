@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2015-02-09</date>
+            <date>2015-02-09T10:58:54.718Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0135MMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MMA-010</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">94.0</measure> folios, of which <measure unit="leaf" type="blank">8.0</measure> blank, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">94.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">8.0</measure> blank
+                                                  1r, 17r, 90v, 91r, 91v, 93v, 94r, 94v., in
+                                                  <measure unit="quire">14.0</measure> quires (A + 12 + B). 
                                                 <dimensions type="outer">
                               <height unit="cm">23.0</height>
                               <width unit="cm">17.8</width>
@@ -60,6 +63,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>- Undecorated quire marks are written in black ink in the upper margin in the main hand: fols. 10r: ፪ (in red ink), 18r: ፫, 26r: ፬, 34r: ፭, 42r: ፮, 50r: ፯, 58r: ፰, 66r: ፱, 74r: ፲, 80r: ፲፩, 86r: ፲፪.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">1</dim>
@@ -126,7 +132,7 @@ Cuts amended on fols. 12, 23, 34, 45, 47, 55, 81.</condition>
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling">The number varies from 19 to 21.</ab>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -152,23 +158,19 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 1v: Unclear note.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" unicode=""><locus target="#1v">Fol. 1v</locus>: Unclear note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is illegible due to erasure.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" unicode="">Fol. 90ra-b: Unclear note.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%;" unicode=""><locus target="#90ra">Fol. 90ra</locus>-b: Unclear note.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is illegible due to erasure. It is possibly a genealogy.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif;">Fols. 92ra-vb: Genealogy of the family of D&#228;mmo, note on bequeathing.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:" unicode=""></span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 92ra:</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;"> </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4813;&#4621;&#4853;&#4961; &#4840;&#4941;&#4677;&#4653;&#4961; <span style="font-size: small;">(!) </span>&#4848;&#4638;&#4961; &#4720;&#4808;&#4616;&#4848;&#4961; &#4848;&#4638;&#4637;&#4961; &#4676;&#4661;&#4961; &#4637;&#4773;&#4757;&#4726;&#4961; &#4808;&#4616;&#4848;&#4961; &#4676;&#4661;&#4961; &#4637;&#4773;&#4757;&#4726;&#4637;&#4961; &#4752;&#4635;&#4653;<span style="font-size: small;">[</span>&#4843;<span style="font-size: small;">]</span>&#4637;&#4961; &#4872;&#4616;&#4619;&#4810;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4840;&#4752;&#4826;&#4613;&#4961; &#4941;&#4878;&#4961; &#4768;&#4726;&#4961; &#4632;&#4757;&#4704;&#4649;&#4964; &#4752;&#4635;&#4653;&#4843;&#4637;&#4757;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961; &#4624;&#4709;&#4721;&#4961; &#4808;&#4621;&#4848;&#4961; &#4875;&#4709;&#4653;&#4961; &#4661;&#4705;&#4757;&#4961; &#4781;&#4653;&#4661;&#4726;&#4659;&#4810;&#4725;&#4961; &#4757;&#4877;&#4645;&#4722;&#4961; &#4808;&#4616;&#4848;&#4961; &#4840;&#4752;&#4826;&#4613;&#4961; &#4941;&#4878;&#4961; &#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4755;&#4757;&#4843;&#4962;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:Nyala;mso-fareast-font-family:&#10;" arial="" unicode=""> </span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
+                        <item xml:id="a3"><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif;"><locus target="#92ra">Fols. 92ra</locus>-vb: Genealogy of the family of D&#228;mmo, note on bequeathing.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:" unicode=""></span></p><q xml:lang="gez"><p><span style="font-size: small;">&#160;<span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 92ra:</span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;"> </span></span><span style="font-size: large;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4725;&#4813;&#4621;&#4853;&#4961; &#4840;&#4941;&#4677;&#4653;&#4961; <span style="font-size: small;">(!) </span>&#4848;&#4638;&#4961; &#4720;&#4808;&#4616;&#4848;&#4961; &#4848;&#4638;&#4637;&#4961; &#4676;&#4661;&#4961; &#4637;&#4773;&#4757;&#4726;&#4961; &#4808;&#4616;&#4848;&#4961; &#4676;&#4661;&#4961; &#4637;&#4773;&#4757;&#4726;&#4637;&#4961; &#4752;&#4635;&#4653;<span style="font-size: small;">[</span>&#4843;<span style="font-size: small;">]</span>&#4637;&#4961; &#4872;&#4616;&#4619;&#4810;&#4725;&#4961; &#4808;&#4616;&#4720;&#4961; &#4925;&#4846;&#4757;&#4961; &#4808;&#4616;&#4848;&#4961; &#4840;&#4752;&#4826;&#4613;&#4961; &#4941;&#4878;&#4961; &#4768;&#4726;&#4961; &#4632;&#4757;&#4704;&#4649;&#4964; &#4752;&#4635;&#4653;&#4843;&#4637;&#4757;</span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4961; &#4624;&#4709;&#4721;&#4961; &#4808;&#4621;&#4848;&#4961; &#4875;&#4709;&#4653;&#4961; &#4661;&#4705;&#4757;&#4961; &#4781;&#4653;&#4661;&#4726;&#4659;&#4810;&#4725;&#4961; &#4757;&#4877;&#4645;&#4722;&#4961; &#4808;&#4616;&#4848;&#4961; &#4840;&#4752;&#4826;&#4613;&#4961; &#4941;&#4878;&#4961; &#4768;&#4726;&#4961; &#4872;&#4709;&#4648;&#4961; &#4768;&#4755;&#4757;&#4843;&#4962;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:Nyala;mso-fareast-font-family:&#10;" arial="" unicode=""> </span><span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in Amharic; it explains the genealogy of the lineage of Dämmo (?). The second part of the Additio is a note on bequeathing. It mentions priest (qäsis) Täwäldä Mädḥǝn (the one who wrote the note), priest (qes) Täsfay, priest (qes) Gäbrä Ḥǝywät, and priest (qes) Wäldä ʾAbrǝha.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif;">Fol. 93rb: Donation note.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:" unicode=""></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 93rb:</span></span><span style="font-size: large;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961;</span><span style="font-size: small;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4781;&#4705;&#4653;&#4961; &#4808;&#4621;&#4817;&#4621;&#4961; &#4928;&#4611;&#4938;&#4768;&#4961; &#4808;&#4621;&#4848;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4853;&#4961; &#4632;&#4637;&#4629;&#4652;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4781;&#4705;&#4653;&#4961; &#4808;&#4621;&#4817;&#4621;&#4961; &#4632;&#4933;&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4705;&#4754;&#4961; &#4768;&#4710;&#4845;&#4961; &#4632;&#4637;&#4629;&#4652;&#4961; &#4629;&#4669;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:&#10;Nyala;mso-fareast-font-family:" arial="" unicode="">&#160;</span></p></q>
+                        <item xml:id="a4"><p><span style="font-size: small;">&#160;<span style="font-family: Arial, sans-serif;"><locus target="#93rb">Fol. 93rb</locus>: Donation note.</span></span></p> <p class="MsoNormal" style="margin-bottom: 0.0001pt;"><span lang="EN-GB" style="font-size:10.0pt;font-family:" unicode=""></span></p><q xml:lang="gez"><p>&#160;<span style="font-size: small;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;">Fol. 93rb:</span></span><span style="font-size: large;"><span lang="EN-GB" style="line-height: 115%; font-family: Arial, sans-serif;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4768;&#4709;&#4961;</span><span style="font-size: small;"><span lang="AMH" style="line-height: 115%; font-family: Nyala;"> </span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;">&#8230;</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala;"> </span><span lang="AMH" style="line-height: 115%; font-family: Nyala;">&#4704;&#4661;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4781;&#4705;&#4653;&#4961; &#4808;&#4621;&#4817;&#4621;&#4961; &#4928;&#4611;&#4938;&#4768;&#4961; &#4808;&#4621;&#4848;&#4961; &#4923;&#4853;&#4675;&#4757;&#4961; &#4808;&#4853;&#4961; &#4632;&#4637;&#4629;&#4652;&#4961; &#4872;&#4709;&#4648;&#4961; &#4632;&#4853;&#4741;&#4757;&#4961; &#4781;&#4705;&#4653;&#4961; &#4808;&#4621;&#4817;&#4621;&#4961; &#4632;&#4933;&#4624;&#4941;&#4961; &#4824;&#4808;&#4608;&#4705;&#4754;&#4961; &#4768;&#4710;&#4845;&#4961; &#4632;&#4637;&#4629;&#4652;&#4961; &#4629;&#4669;</span></span><span lang="AMH" style="font-size:10.0pt;line-height:115%;font-family:&#10;Nyala;mso-fareast-font-family:" arial="" unicode="">&#160;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note mentions mämḥǝre Gäbrä Mädḫǝn and mämḥǝre Ḥǝš (?). The ink is partly faded off. The scribe is Wäldä Ṣadǝqan.</p>
                         </item>
@@ -186,7 +188,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with brown tooled leather; textile inlays.&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -197,6 +199,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of the endband stitches at the spine cover.&#xD;
 Small holes are visible on the spine fold of the quires, close to the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover (at least 5 tools were used: triple circle, triple line fillet, cross hatching, wave form with dots, interlaced line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -239,8 +242,8 @@ Small holes are visible on the spine fold of the quires, close to the tail of th
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The donor is possibly Gäbrä Täklä Haymanot, mentioned in the supplication formulas (e.g., fols. 6vb, 38vb, 50vb, 63rb, 66ra, 90ra). Other names are also written in red ink, in the main hand, in the supplication formulas: Gäbrä Täklä Haymanot (e.g., fol. 6vb, 29ra, 45ra, 50vb, 57rb, 64rb, 84ra, 90ra), Täsfa Maryam (fols. 11va, 18vb, 42vb, 49vb, 52ra), Wälättä Maryam (fols. 29ra, 50vb), Nǝgǝśtä Maryam (e.g., fols. 36vb, 48va, 65ra, 81vb, 90ra).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The donor is possibly Gäbrä Täklä Haymanot, mentioned in the supplication formulas (e.g., fols. 6vb, 38vb, 50vb, 63rb, 66ra, 90ra). Other names are also written in red ink, in the main hand, in the supplication formulas: Gäbrä Täklä Haymanot (e.g., fol. 6vb, 29ra, 45ra, 50vb, 57rb, 64rb, 84ra, 90ra), Täsfa Maryam (fols. 11va, 18vb, 42vb, 49vb, 52ra), Wälättä Maryam (fols. 29ra, 50vb), Nǝgǝśtä Maryam (e.g., fols. 36vb, 48va, 65ra, 81vb, 90ra).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -266,9 +269,9 @@ Small holes are visible on the spine fold of the quires, close to the tail of th
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-15">registered</change>
-         <change who="MV" when="2015-02-09">created</change>
-         <change who="MV" when="2015-04-29">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MV" when="2015-02-09T10:58:54.718Z">created</change>
+         <change who="MV" when="2015-04-29T08:52:10.091Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

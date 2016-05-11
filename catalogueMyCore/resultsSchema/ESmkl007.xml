@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-09-10</date>
+            <date>2012-09-10T15:47:17.448Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0123MKL"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>MKL-007</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I is called Dǝrsan zä-mädḫǝn “Homily on the Redeemer” (fol. 5ra l.3-4).</note>
+                     <note>- Miracles 4-7 are numbered.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">50.0</measure> folios, of which <measure unit="leaf" type="blank">4.0</measure> blank, in <measure unit="quire">7.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">50.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">4.0</measure> blank
+                                                  1r, 2r, 3v, 4v, in
+                                                  <measure unit="quire">7.0</measure> quires (A+6). 
                                                 <dimensions type="outer">
                               <height unit="cm">24.0</height>
                               <width unit="cm">17.5</width>
@@ -105,7 +113,7 @@ Holes are carefully amended on fols. 6, 12, 23, 28.</condition>
                            <note>All data for fol. 6r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -135,13 +143,11 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 1v: List of guarantors (or genealogy of spiritual fathers?).</span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 1v: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4824;&#4848;&#4674;&#4672;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4752;&#4872;&#4648;&#4961; &#4725;&#4813;&#4621;&#4853;&#4961; &#4824;&#4811;&#4613;&#4659;&#4721;&#4961; &#4824;&#4656;&#4707;&#4651;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4811;&#4613;&#4657;&#4961; &#4824;&#4757;&#4873;&#4660;&#4961; &#4872;&#4704;&#4648;&#4613;&#4845;&#4808;&#4725;&#4961; &#4811;&#4613;&#4657;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
+                        <item xml:id="a1"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#1v">Fol. 1v</locus>: List of guarantors (or genealogy of spiritual fathers?).</span></div><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small"><span style="line-height: 115%">Fol. 1v: </span></span><span style="font-size: large"><span style="line-height: 115%">&#4824;&#4848;&#4674;&#4672;&#4961; &#4824;&#4808;&#4621;&#4848;&#4961; &#4635;&#4653;&#4843;&#4637;&#4962; &#4752;&#4872;&#4648;&#4961; &#4725;&#4813;&#4621;&#4853;&#4961; &#4824;&#4811;&#4613;&#4659;&#4721;&#4961; &#4824;&#4656;&#4707;&#4651;&#4961; &#4632;&#4757;&#4877;&#4645;&#4721;&#4961; &#4811;&#4613;&#4657;&#4961; &#4824;&#4757;&#4873;&#4660;&#4961; &#4872;&#4704;&#4648;&#4613;&#4845;&#4808;&#4725;&#4961; &#4811;&#4613;&#4657;</span><span style="line-height: 115%">&#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is crudely written in a posterior to the main hand.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 49v: Monastic genealogy of G&#228;br&#228; &#346;&#601;llase.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 49v: </span><span style="font-size: large">&#4632;&#4925;&#4624;&#4936;&#4961; &#4621;&#4848;&#4725;</span><span style="font-size: large">&#4961;</span><span style="font-size: large">&#4961;</span><span style="font-size: large"> &#4656;&#4653;&#4624;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4773;&#4757;&#4877;&#4851;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4757;&#4877;&#4851;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4840;&#4768;&#4706;&#4776;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; ...</span></div></q>
+                        <item xml:id="a2"><div style="text-align: justify; line-height: normal"><span style="font-size: small"><locus target="#49v">Fol. 49v</locus>: Monastic genealogy of G&#228;br&#228; &#346;&#601;llase.</span></div><q xml:lang="gez"><div style="text-align: justify; line-height: normal"><span style="font-size: small">Fol. 49v: </span><span style="font-size: large">&#4632;&#4925;&#4624;&#4936;&#4961; &#4621;&#4848;&#4725;</span><span style="font-size: large">&#4961;</span><span style="font-size: large">&#4961;</span><span style="font-size: large"> &#4656;&#4653;&#4624;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4616;&#4773;&#4757;&#4877;&#4851;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4773;&#4757;&#4877;&#4851;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; &#4808;&#4616;&#4848;&#4961; &#4840;&#4768;&#4706;&#4776;&#4961; &#4773;&#4877;&#4826;&#4773;&#4961; ...</span></div></q>
                            <q xml:lang="en"/>
                            <p>The genealogy mentions Gäbrä Śǝllase and his monastic father Fasilädäs. Both also appear in the supplication formulas throughout the Ms.</p>
                         </item>
@@ -159,13 +165,14 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endbands stitches at the spine cover. &#xD;
 Turn-ins are laced with cords.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the dark brown leather cover (1 tool was used: broad line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0123MKL">Läqay Kidanä Mǝḥrät / MKL</placeName>
+                        <placeName corresp="INS0123MKL">Läqay Kidanä Mәḥrät / MKL</placeName>
                      </origPlace>
                      <origDate notBefore="1700" notAfter="1800">18th cent. (?)</origDate>
                   </origin>
@@ -201,8 +208,8 @@ Turn-ins are laced with cords.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Gäbrä Śǝllase and his (monastic) father Fasilädäs are mentioned in the supplication formulas throughout the Ms. (e.g., fols. 14ra, 14vb, 20va).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Gäbrä Śǝllase and his (monastic) father Fasilädäs are mentioned in the supplication formulas throughout the Ms. (e.g., fols. 14ra, 14vb, 20va).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -226,9 +233,9 @@ Turn-ins are laced with cords.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-06-12">registered</change>
-         <change who="MK" when="2012-09-10">created</change>
-         <change who="DN" when="2015-02-18">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2012-09-10T15:47:17.448Z">created</change>
+         <change who="DN" when="2015-02-18T18:57:48.767Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

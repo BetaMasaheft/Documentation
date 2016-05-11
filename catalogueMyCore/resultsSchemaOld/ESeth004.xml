@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESeth004"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Gädlä Täklä Haymanot “Vita of Täklä Haymanot” / Mäṣḥafä fǝlsätu lä-ʾabunä Täklä Haymanot “Book of the Translation of ʾabunä Täklä Haymanot” / Täʾamrä Täklä Haymanot “Miracles of Täklä Haymanot”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2012-02-16</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0078ETH"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>ETH-004</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the protagonist and other saints; names of the donors; name of the scribe; name of the King; name of the monastery of Däbrä Libanos; incipits of Text I and its subsections (fols. 5r, 9rb, 14ra, 17va, 19rb, 21va, 28r, 33ra, 35ra, 44va, 47va, 48rb, 49r, 59va, 60ra, 66ra, 68v, 80rb, 95r, 120r, 120va, 132ra, 132va, 135ra, 136r, 138vb, 142rb); incipit of Text II and its subsections (fols. 148r, 153vb, 155vb, 156va, 157rb, 160rb, 161rb, 161vb, 162va, 163va, 165rb, 166rb, 167ra, passim.); elements of the punctuation signs; elements of Ethiopic numerals; elements of the quire marks.&#xD;
+On the incipit page of Text I and its subsections (fols. 5r, 28r, 49r, 68v, 95r, 120r, 136r) as well as on the incipit page of Text II and its subsections (fols. 148r, 177r, 192rb), a few lines are rubricated (alternating with black lines)</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">211.0</measure> folios, of which <measure unit="leaf" type="blank">3.0</measure> blank, in <measure unit="quire">22.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">29.0</height>
+                              <width unit="cm">20.5</width>
+                              <depth unit="cm">8.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="1r" to="4v"/>A(4/fols. 1r-4v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="5r" to="14v"/> I(10/fols. 5r-14v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="15r" to="24v"/> ፪II(10/fols. 15r-24v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="25r" to="34v"/> ፫III(10/fols. 25r-34v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="35r" to="44v"/> ፬IV(10/fols. 35r-44v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="45r" to="54v"/> ፭V(10/fols. 45r-54v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="55r" to="67v"/> ፮VI(10/fols. 55r-67v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="68r" to="77v"/> ፯VII(10/fols. 68r-77v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="78r" to="87v"/> ፰VIII(10/fols. 78r-87v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="88r" to="97v"/> ፱IX(10/fols. 88r-97v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="98r" to="107v"/> ፲X(10/fols. 98r-107v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="108r" to="117v"/> ፲፩XI(10/fols. 108r-117v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="118r" to="127v"/> ፲፪XII(10/fols. 118r-127v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="128r" to="137v"/> ፲፫XIII(10/fols. 128r-137v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="138r" to="147v"/> ፲፬XIV(10/fols. 138r-147v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="148r" to="157v"/> ፲፭XV(10/fols. 148r-157v) </item>
+                              <item xml:id="q17">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="158r" to="167v"/> ፲፮XVI(10/fols. 158r-167v) </item>
+                              <item xml:id="q18">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="168r" to="177v"/> ፲፯XVII(10; s.l. 8, stub after 2; 3, stub after 7/fols. 168r-177v) </item>
+                              <item xml:id="q19">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="178r" to="187v"/> ፲፰XVIII(10; s.l. 8, stub after 2; 3, stub after 7/fols. 178r-187v) </item>
+                              <item xml:id="q20">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="188r" to="197v"/> ፲፱XIX(10/fols. 188r-197v) </item>
+                              <item xml:id="q21">
+                                 <dim unit="leaf">10</dim>
+                                 <locus target="10"/>
+                                 <locus from="198r" to="207v"/> ፳XX(10/fols. 198r-207v) </item>
+                              <item xml:id="q22">
+                                 <dim unit="leaf">4</dim>
+                                 <locus from="208r" to="211v"/> XXI(4/fols. 208r-211v)</item>
+                           </list>
+                        </collation>
+                        <condition key="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="23">
+                           <dimensions unit="mm">
+                              <height>205</height>
+                              <width>170</width>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">30</dim>
+                              <dim type="bottom">60</dim>
+                              <dim type="right">30</dim>
+                              <dim type="left">15</dim>
+                              <dim type="intercolumn">10</dim>
+                           </dimensions>
+                           <note>All data for fol. 6r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible.</ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
+                           <ab type="pricking">
+Primary pricks are visible.</ab>
+                           <ab type="pricking">
+Ruling pricks are visible.</ab>
+                           <ab type="ruling">
+The upper line is written above the ruling.</ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Careful.</ab>
+                        <seg type="ink">Black; red.</seg>
+                        <persName role="scribe" corresp="PRS00000">Täklä Maryam from Baso (Goğğam)</persName>Täklä Maryam, a native of Baso (Goğğam) (s. Additio 1)<date>Second half of 19th cent.</date>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="miniature" xml:id="d1">
+                        <locus target="#2v">Fol. 2v: </locus>
+                        <desc>St. Gäbrä Mänfäs Qǝddus.</desc>
+                     </decoNote>
+                     <decoNote type="miniature" xml:id="d2">
+                        <locus target="#3r">Fol. 3r: </locus>
+                        <desc>St. Täklä Haymanot.</desc>
+                     </decoNote>
+                     <decoNote type="frame" xml:id="d3">
+                        <locus target="#5r">Fol. 5r: </locus>
+                        <desc>uncoloured ornamental band; Geometric motifs (interlaces).</desc>
+                     </decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><p>Fol. 135rb: Supplication for the scribe and the commissioner.</p><q xml:lang="gez"><p>Fol. 135rb, l.19: <span style="font-size: large">&#4616;&#4824;&#4920;&#4624;&#4942;&#4961; &#4739;&#4901;&#4773;&#4961; &#4808;&#4768;&#4707;&#4658;&#4961; &#4720;&#4781;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4941;&#4673;&#4649;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4824;&#4768;&#4757;&#4704;&#4710;&#4961; &#4808;&#4616;&#4824;&#4720;&#4653;&#4885;&#4638;&#4962; &#4808;&#4616;&#4824;&#4656;&#4637;&#4819;&#4961;</span> [fol. 136va] <span style="font-size: large">&#4675;&#4619;&#4722;&#4609;&#4961; &#4808;&#4616;&#4789;&#4621;&#4752;&#4961; &#4845;&#4637;&#4624;&#4648;&#4752;&#4961; &#4736;&#4705;&#4648;&#4961; &#4704;&#4770;&#4843;&#4661;&#4725;&#4726;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4752;&#4768;&#4789;&#4726;&#4962; &#4845;&#4920;&#4877;&#4808;&#4752;&#4961; &#4643;&#4613;&#4622;&#4961; &#4808;&#4637;&#4629;&#4648;&#4726;&#4962; &#4808;&#4843;&#4813;&#4653;&#4661;&#4752;&#4961; &#4632;&#4757;&#4877;&#4645;&#4726;&#4961; &#4704;&#4773;&#4757;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4782;&#4752;&#4725;&#4961; &#4808;&#4619;&#4850;&#4726;&#4962; &#4808;&#4704;&#4773;&#4757;&#4720;&#4961; &#4789;&#4622;&#4633;&#4961; &#4677;&#4849;&#4659;&#4757;&#4961; &#4773;&#4616;&#4961; &#4936;&#4920;&#4633;&#4961; &#4645;&#4637;&#4648;&#4726;&#4962; &#4616;&#4720;&#4781;&#4616;&#4961; &#4611;&#4845;&#4635;&#4758;&#4725;&#4961; &#4768;&#4705;&#4752;&#4961; &#4845;&#4781;&#4941;&#4616;&#4752;&#4961; &#4632;&#4757;&#4877;</span> [fol. 136vb] <span style="font-size: large">&#4645;&#4726;&#4961; &#4808;&#4653;&#4661;&#4726;&#4962; &#4808;&#4845;&#4781;&#4853;&#4752;&#4752;&#4961; &#4638;&#4872;&#4662;&#4961; &#4808;&#4768;&#4646;&#4726;&#4961; &#4808;&#4845;&#4672;&#4901;&#4677;&#4901;&#4961; &#4723;&#4629;&#4720;&#4961; &#4821;&#4872;&#4650;&#4752;&#4961; &#4656;&#4845;&#4899;&#4752;&#4961; &#4808;&#4640;&#4651;&#4810;&#4726;&#4962; &#4808;&#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4637;&#4754;&#4621;&#4781;&#4961; &#4843;&#4877;&#4653;&#4653;&#4961; &#4723;&#4629;&#4720;&#4961; &#4821;&#4872;&#4650;&#4609;&#4961; &#4928;&#4654;&#4961; &#4808;&#4920;&#4619;&#4821;&#4726;&#4962; &#4808;&#4845;&#4821;&#4672;&#4709;&#4961; &#4757;&#4877;&#4646;&#4961; &#4808;&#4640;&#4651;&#4810;&#4726;&#4961; &#4808;&#4616;&#4941;&#4673;&#4649;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;<span style="font-size: small;">[</span>&#4757;<span style="font-size: small;">]</span>&#4961; &#4808;&#4768;&#4636;&#4757;&#4962; &#4616;&#4845;&#4777;&#4757;&#4962;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Mentions of the names of the scribe Täklä Maryam, the commissioner Kidanä Maryam and King Mǝnilǝk II (r. 1889-1913).</p>
+                        </item>
+                        <item xml:id="a2">
+                           <locus/><p>Fol. 210rb: Supplication for the scribe, commissioner and reader.</p><q xml:lang="gez"><p>Fol. 210rb, l.8: <span style="font-size: large">&#4616;&#4824;&#4920;&#4624;&#4942;&#4961; &#4725;&#4773;&#4827;&#4825;&#4961; &#4824;&#4880;&#4867;&#4637;&#4961; &#4824;&#4845;&#4773;&#4722;&#4961; &#4707;&#4662;&#4962; &#4824;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4720;&#4781;&#4616;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4824;&#4768;&#4925;&#4624;&#4942;&#4961; &#4941;&#4673;&#4649;&#4961; &#4616;&#4824;&#4768;&#4757;</span><span style="font-size: large"><span style="font-size: large">&#4704;</span>&#4710;&#4961; &#4808;&#4616;&#4824;&#4656;&#4637;&#4819;&#4961; &#4675;&#4616;&#4722;&#4609;&#4961; &#4616;&#4789;&#4621;&#4752;&#4961; &#4845;&#4637;&#4624;&#4648;&#4752;&#4961; &#4704;&#4770;&#4768;&#4661;&#4725;&#4726;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4845;&#4920;&#4877;&#4808;&#4752;&#4961; &#4643;&#4613;&#4622;&#4961; &#4808;&#4637;&#4629;&#4648;&#4726;&#4962; &#4704;&#4773;&#4757;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4824;&#4782;&#4752;&#4725;&#4961; &#4808;&#4619;&#4850;&#4726;&#4962; &#4808;&#4704;&#4768;&#4757;&#4720;&#4961; &#4789;&#4622;&#4633;&#4961; &#4677;&#4849;&#4659;&#4757;&#4961; &#4773;&#4616;&#4961; &#4936;&#4920;&#4633;&#4961; &#4645;&#4637;&#4648;&#4726;&#4962; &#4616;&#4757;&#4873;&#4645;&#4752;&#4961; &#4637;&#4754;&#4621;&#4781;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4872;&#4709;&#4649;&#4961; &#4845;&#4781;&#4941;&#4622;&#4961; &#4653;&#4661;&#4726;&#4961; &#4808;&#4845;&#4781;&#4853;&#4758;&#4961; &#4638;&#4872;&#4662;&#4961; &#4808;&#4819;&#4646;&#4726;&#4961;</span> [fol. 210va] <span style="font-size: large">&#4808;&#4845;&#4672;&#4901;&#4677;&#4901;&#4961; &#4723;&#4629;&#4720;&#4961; &#4821;&#4872;&#4650;&#4609;&#4961; &#4656;&#4845;&#4899;&#4752;&#4961; &#4808;&#4640;&#4651;&#4810;&#4726;&#4962; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
+                           <q xml:lang="en"/>
+                           <p>The scribe Täklä Maryam (baptismal name) is indicated to be a native of Goğğam, Baso (s. EAE I, 502a-503b). King Mǝnilǝk II (r. 1889-1913) is mentioned too but the name of the commissioner is missing.</p>
+                        </item>
+                        <item xml:id="e1">- Stamps of ras Sǝbḥat ʾArägawi (1844-1914): fol. 5r, 68v, 95r, 120r, 148r.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding contemporary="yes">
+                        <decoNote xml:id="b1">Two wooden boards covered tooled reddish-brown leather, and by a recent textile secondary cover.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="textile"/>
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other"/>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0078ETH">Ë&#x81;Æ&#x8e;mbÃ¤yto TÃ¤klÃ¤ Haymanot / ETH</placeName>
+                     </origPlace>
+                     <origDate notBefore="1889" notAfter="1913">King Mǝnilǝk II (r. 1889-1913) is mentioned in Additio 1.</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Commissioned by Kidanä Maryam (s. Additio 1; the baptismal name of ras Sǝbḥat ʾArägawi). His sons Gäbrä Ḥǝywät, ʾArʿaya Śǝllase and Wäldä ʾArägawi are mentioned (s. supplication formulas on fols. 68ra, 94vb, 119vb, 128va, 147rb). A certain Wäldä Maryam is also mentioned (s. supplication formulas on fols. 155vb, 156rb, 156va, passim.). Fols. 5r, 68v, 95r, 120r, 148r bear the stamp of ras Sǝbḥat ʾArägawi (1844-1914).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName role="scribe" corresp="PRS00000">Täklä Maryam from Baso (Goğğam)</persName>
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Hagiography"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-11-19">registered</change>
+         <change who="SA" when="2012-02-16">created</change>
+         <change who="DN" when="2014-12-21">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

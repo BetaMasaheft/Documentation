@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-01-29</date>
+            <date>2013-01-29T08:27:17.835Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0105DD"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DD-014</idno>
                   <altIdentifier>
                      <idno>C3-IV-257 (fol. 2)</idno>
@@ -58,7 +58,8 @@ Rubrication is not executed on fols. 14vb-18rb, 29rb-35ra, 150ra-159rc.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">165.0</measure> folios, in <measure unit="quire">22.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">165.0</measure> folios, in
+                                                  <measure unit="quire">22.0</measure> quires (A+21). 
                                                 <dimensions type="outer">
                               <height unit="cm">40.0</height>
                               <width unit="cm">32.0</width>
@@ -183,7 +184,7 @@ and carefully repaired.</condition>
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are partly visible. </ab>
@@ -206,20 +207,17 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 191vab: Record concerning litigation over land holding.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#191va">Fol. 191va</locus>b: Record concerning litigation over land holding.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note, dated to 1923 year of mercy (=1930/31 A.D.), contains names of the judge, parties involved in the trial, witnesses and guarantors as well as the matter in dispute and the verdict. 
 It is written in Amharic, by a well-trained hand.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fols. 192r-193v: Land grant issued by King M&#601;nil&#601;k II for ras M&#228;ng&#228;&#353;a Yo&#7717;ann&#601;s&#8217; children.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#192r">Fols. 192r-193</locus>v: Land grant issued by King M&#601;nil&#601;k II for ras M&#228;ng&#228;&#353;a Yo&#7717;ann&#601;s&#8217; children.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The text runs as follows: 193r, 193v, 192r. The document, dated to 1889 years of mercy, gives a list of lands in various parts of Tǝgray (32 places) which King Mǝnilǝk II donated as gwǝlt and rǝst to ras Mängäša Yoḥannǝs’ two children after the battle of ʾAdwa (1896). In the beginning, it mentions the invasion of Italians and their defeat at ʿAdwa.
 It is written in Amharic, in a well-trained hand. There is a stamp of King Mǝnilǝk II on fol. 193r.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span style="line-height: 115%">Fol. 194rv: Record concerning reconciliation.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small"><span style="line-height: 115%"><locus target="#194rv">Fol. 194rv</locus>: Record concerning reconciliation.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note mentions involved parties and guarantors. It is written in Amharic, in a well-trained hand.</p>
                         </item>
@@ -239,6 +237,7 @@ Three pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather overback (at least 2 tools were used: double line fillet, triple line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -281,11 +280,6 @@ Three pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000"/>
-                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
-                                        Person/persName should only contain the person name, not all the paragraph.-->
-               </person>
                <person>
                   <persName corresp="PRS00000"/>
                   <!--other-->
@@ -306,9 +300,9 @@ Three pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-23">registered</change>
-         <change who="MK" when="2013-01-29">created</change>
-         <change who="SD" when="2014-09-16">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-01-29T08:27:17.835Z">created</change>
+         <change who="SD" when="2014-09-16T14:34:51.350Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

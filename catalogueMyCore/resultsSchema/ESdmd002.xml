@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-08-16</date>
+            <date>2013-08-16T13:56:14.614Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0129DMD"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMD-002</idno>
                </msIdentifier>
                <msContents>
@@ -46,7 +46,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="226vc">Fol. 226vc</locus><p>Fol. 226vc:</p><foreign xml:lang="en"><p>Fol. 226vc:</p></foreign>
+                        <locus target="226vc">&lt;p&gt;Fol. 226vc:&lt;/p&gt;</locus><p>Fol. 226vc:</p><foreign xml:lang="en"><p>Fol. 226vc:</p></foreign>
                         <note>The colophon is only partly readable, since the passages containing the names have been erased.</note>
                      </colophon>
                   </msItem>
@@ -57,7 +57,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">228.0</measure> folios, in <measure unit="quire">24.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">228.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 2r, 2v, 227r, 227v, 228r, 228v, in
+                                                  <measure unit="quire">24.0</measure> quires (A+22+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">36.0</height>
                               <width unit="cm">31.0</width>
@@ -186,7 +189,7 @@ Traces of one stitch repair on fols. 4, 5, 6, 7, 8 (?).</condition>
                            <note>All data for fol. 115r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1E-1E-1E1E-1E1E/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -206,86 +209,77 @@ The bottom line is written above the ruling.</ab>
                         <seg type="ink">Black, red (vermillion).</seg>
                         <date>Late 17th cent.</date>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The rubrics are written in a finer hand, very slim and slender.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 31vab: &#704;Arke-poem (for St. Mercury of Rome?).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#31va">Fol. 31va</locus>b: &#704;Arke-poem (for St. Mercury of Rome?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the upper margin, in a secondary hand (Additiones 1-11 written in the same hand).
 Rhymed ʾarke-poem of five lines ending in –a.
 A horse is mentioned, among other elements from St. Mercury of Rome’s commemorative notice on Ḫǝdar 25.</p>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 64va-c: Commemorative notice for St. Mercury (M&#228;rqorewos of Rome).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#64va">Fol. 64va</locus>-c: Commemorative notice for St. Mercury (M&#228;rqorewos of Rome).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Mentioning elements from St. Mercury's (of Rome) commemorative notice on Ḫǝdar 25.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 65ra-c: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem for G&#228;br&#228; &#704;Iy&#228;sus.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#65ra">Fol. 65ra</locus>-c: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem for G&#228;br&#228; &#704;Iy&#228;sus.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Rhymed ʾarke-poem of five lines ending in –tǝ.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 92va: </span><span unicode="" style="line-height: 115%; font-size: 10pt;">&#704;</span><span unicode="" style="line-height: 115%; font-size: 10pt;">Arke-poem for St. Mercury (M&#228;rqorewos of Rome).</span></p><q xml:lang="gez"/>
+                        <item xml:id="a4"><p><span unicode="" style="line-height: 115%; font-size: 10pt;"><locus target="#92va">Fol. 92va</locus>: </span><span unicode="" style="line-height: 115%; font-size: 10pt;">&#704;</span><span unicode="" style="line-height: 115%; font-size: 10pt;">Arke-poem for St. Mercury (M&#228;rqorewos of Rome).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Rhymed ʾarke-poem of five lines ending in –lo.
 Mentioning elements from St. Mercury's (of Rome) commemorative notice on Ḫǝdar 25.</p>
                         </item>
-                        <item xml:id="a5">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 93vab: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem on how G&#228;br&#228; &#704;Iy&#228;sus was killed by Yulyanos.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a5"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#93va">Fol. 93va</locus>b: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem on how G&#228;br&#228; &#704;Iy&#228;sus was killed by Yulyanos.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Rhymed ʾarke-poem of five lines ending in –zǝ.</p>
                         </item>
-                        <item xml:id="a6">
-                           <locus/><p><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 95va-c: </span><span unicode="" style="line-height: 115%; font-size: 10pt;">&#704;</span><span unicode="" style="line-height: 115%; font-size: 10pt;">Arke-poem for St. Mercury (M&#228;rqorewos of Rome).</span></p><q xml:lang="gez"/>
+                        <item xml:id="a6"><p><span unicode="" style="line-height: 115%; font-size: 10pt;"><locus target="#95va">Fol. 95va</locus>-c: </span><span unicode="" style="line-height: 115%; font-size: 10pt;">&#704;</span><span unicode="" style="line-height: 115%; font-size: 10pt;">Arke-poem for St. Mercury (M&#228;rqorewos of Rome).</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Rhymed ʾarke-poem of five lines ending in –sǝ.
 Mentioning elements from St. Mercury's (of Rome) commemorative notice on Ḫǝdar 25.</p>
                         </item>
-                        <item xml:id="a7">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 96ra-c: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a7"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#96ra">Fol. 96ra</locus>-c: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in the upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Rhymed ʾarke-poem of five lines ending in –re.
 Mentioning St. Mercury (of Rome), Dawit, Yaʿǝqob, and elements from St. Mercury's commemorative notice on Ḫǝdar 25</p>
                         </item>
-                        <item xml:id="a8">
-                           <locus/><p><span unicode="" style="line-height: 115%; font-size: 10pt;">Fol. 136va-c: </span><span unicode="" style="line-height: 115%; font-size: 10pt;">&#704;</span><span unicode="" style="line-height: 115%; font-size: 10pt;">Arke-poem for G&#228;br&#228; &#704;Iy&#228;sus.</span></p><q xml:lang="gez"/>
+                        <item xml:id="a8"><p><span unicode="" style="line-height: 115%; font-size: 10pt;"><locus target="#136va">Fol. 136va</locus>-c: </span><span unicode="" style="line-height: 115%; font-size: 10pt;">&#704;</span><span unicode="" style="line-height: 115%; font-size: 10pt;">Arke-poem for G&#228;br&#228; &#704;Iy&#228;sus.</span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in upper margin, in a secondary hand.
 Rhymed ʾarke-poem with five strophes ending in –kǝ.
 Mentioning Gäbrä ʾIyäsus and the angel Rufaʾel.</p>
                         </item>
-                        <item xml:id="a9">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 137ra-c: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem (for several Saints?).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a9"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#137ra">Fol. 137ra</locus>-c: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem (for several Saints?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Rhymed ʾarke-poem of five lines ending in –rä.
 Mentioning the black horse (of St. Mercury), Gäbrä ʾIyäsus, ʾElyas and Niqodemos.</p>
                         </item>
                         <item xml:id="a10">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol.181va-182rc: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem for St. Mercury (M&#228;rqorewos of Rome).</span></span></p><q xml:lang="gez"/>
+                           <locus target="#00"/>
+                           <desc><p><span style="font-size: small;"><span style="line-height: 115%;">Fol.181va-182rc: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem for St. Mercury (M&#228;rqorewos of Rome).</span></span></p></desc>
+                           <q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in upper margin, in a secondary hand (Additiones 1-11 written in the same hand).
 Rhymed ʾarke-poem of five lines ending in –nä
 Mentioning elements from St. Mercury's (of Rome) commemorative notice on Ḫǝdar 25.</p>
                         </item>
-                        <item xml:id="a11">
-                           <locus/><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 221vc-222rb: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem for G&#228;br&#228; &#704;Iy&#228;sus.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a11"><p><span style="font-size: small;"><span style="line-height: 115%;"><locus target="#221vc">Fol. 221vc-222</locus>rb: </span><span style="line-height: 115%;">&#704;</span><span style="line-height: 115%;">Arke-poem for G&#228;br&#228; &#704;Iy&#228;sus.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Written in upper margin, in a secondary hand (Additiones 1-11 written by the same hand).
 Rhymed ʾarke-poem of five lines ending in –bǝ.
 Mentioning Gäbrä ʾIyäsus.</p>
                         </item>
-                        <item xml:id="a12">
-                           <locus/><p><span style="font-size: small;">Fol. 226vb-c</span><span style="font-size: small;">: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 226vb-c:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4829;&#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4846;&#4627;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4853;&#4709;&#4619;&#4961; &#4824;&#4768;&#4901;&#4648;&#4845;&#4814;&#4961; &#4704;&#4757;&#4811;&#4846;&#4633;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[...]</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4849;&#4961; &#4768;&#4705;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; </span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4611;&#4845;&#4635;</span><span style="font-size: small;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4758;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4776;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[</span><span style="line-height: 115%;">226vc</span><span style="line-height: 115%;">]</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4758;&#4633;&#4961; &#4632;&#4653;&#4613;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4632;&#4659;&#4941;&#4757;&#4720;&#4752;&#4961; &#4651;&#4661;&#4961; &#4656;&#4709;&#4624;&#4725;&#4961; &#8230;</span></span></p></q>
+                        <item xml:id="a12"><p><span style="font-size: small;"><locus target="#226vb">Fol. 226vb</locus>-c</span><span style="font-size: small;">: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 226vb-c:</span></span><span style="font-size: large;"><span style="line-height: 115%;"> &#4829;&#4661;&#4757;&#4781;&#4659;&#4653;&#4961; &#4824;&#4723;&#4710;&#4720;&#4961; &#4677;&#4849;&#4661;&#4961; &#4846;&#4627;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4853;&#4709;&#4619;&#4961; &#4824;&#4768;&#4901;&#4648;&#4845;&#4814;&#4961; &#4704;&#4757;&#4811;&#4846;&#4633;&#4961; &#4768;&#4705;&#4752;&#4961; &#4808;&#4621;&#4848;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4616;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[...]</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4849;&#4961; &#4768;&#4705;&#4752;&#4961; &#4720;&#4781;&#4616;&#4961; </span><span style="font-size: small;"><span style="line-height: 115%;">[</span></span><span style="line-height: 115%;">&#4611;&#4845;&#4635;</span><span style="font-size: small;"><span style="line-height: 115%;">]</span></span><span style="line-height: 115%;">&#4758;&#4725;&#4961; &#4776;&#4632;&#4961; &#4845;&#4776;</span></span><span style="font-size: small;"><span style="line-height: 115%;">[</span><span style="line-height: 115%;">226vc</span><span style="line-height: 115%;">]</span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4758;&#4633;&#4961; &#4632;&#4653;&#4613;&#4961; &#4616;&#4632;&#4757;&#4877;&#4645;&#4720;&#4961; &#4656;&#4635;&#4843;&#4725;&#4961; &#4808;&#4632;&#4659;&#4941;&#4757;&#4720;&#4752;&#4961; &#4651;&#4661;&#4961; &#4656;&#4709;&#4624;&#4725;&#4961; &#8230;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is partly illegible. It is written over the decoration marks of the original scribe, and an older ownership note. The note was probably written by the same scribe who introduced the donor’s names throughout the Ms.
 
@@ -310,6 +304,7 @@ Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.&#xD;
 Short parchment guards are inserted in the centre fold of some quires (fols. 84-85, 85-86, 144-145, 154-155, 223-224, 227-228).</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (at least 6 tools were used: criss-cross, triple line fillet, double circle, interlaced line fillet, wave form with eye, x-from).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -353,8 +348,8 @@ Additio 12 mentions ras Sǝbḥat (ʾArägawi, governor of Tǝgray in the years 
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor Tälawe Krǝstos (fol. 226vb), has been erased throughout the Ms (sometimes the first letter of his name remained, e.g. fol. 69vb l.14).&#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor Tälawe Krǝstos (fol. 226vb), has been erased throughout the Ms (sometimes the first letter of his name remained, e.g. fol. 69vb l.14).&#xD;
 According to Additio 12, the Ms. was bought by priests ʾabunä Wäldä Mikaʾel and his son ʾabunä Täklä Haymanot and donated to the church of Yoḥannǝs Mäṭmǝq Dǝbla. The names of the donors, and other names (of their relatives?), are written in the supplication formulas in a recent hand: Wäldä Mikaʾel (e.g., fols. 4ra, 5rc, 5vc), Täklä Haymanot (fols. 3ra, 5va, 6rc), (ʾAmätä) Ṣädalä Maryam (fols. 6ra, 32ra, 57va), Wälättä Kidan (fols. 31va, 68vc, 172vc), Wäldä Yoḥannǝs (fols. 82ra, 87ra, 88rc), Gäbrä ʾArägawi (fols. 82ra, 91ra, 129vc), Gäbrä Yoḥannǝs (fols. 84rb), Mäzgäbä Śǝllase (fols. 151ra, 152rc, 156ra), Wäldä Giyorgis (fols. 172vb, 182rc, 191vb), Gäbrä ʾƎgziʾabǝḥer (fols. 198vc, 208ra, 209rc).&#xD;
 &#xD;
 The same names are indicated in Ms. DMD-009; some of the names are found in Ms. DMD-012.</persName>
@@ -380,9 +375,9 @@ The same names are indicated in Ms. DMD-009; some of the names are found in Ms. 
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-09">registered</change>
-         <change who="SD" when="2013-08-16">created</change>
-         <change who="MV" when="2015-01-28">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SD" when="2013-08-16T13:56:14.614Z">created</change>
+         <change who="MV" when="2015-01-28T15:58:41.194Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

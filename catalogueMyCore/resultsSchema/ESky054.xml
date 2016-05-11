@@ -10,7 +10,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>Mäṣḥafä gǝṣṣǝw, Lectionary for the entire year</title>
+            <title>Mäṣḥafä gәṣṣәw, Lectionary for the entire year</title>
             <editor key="DN"/>
             <editor role="generalEditor" key="AB"/>
          </titleStmt>
@@ -24,18 +24,18 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-02-21</date>
+            <date>2013-02-21T14:56:43.698Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0171KY"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>KY-054</idno>
                </msIdentifier>
                <msContents>
                   <msItem xml:id="ms_i1">
-                     <rubric>Nomina sacra; incipit of Texts I-1 and I-2 and their sections; names of the donors; directives to the ministers; abbreviations of the directives yǝbǝl kahǝn “the priest says”, yǝbǝl diyaqon “the deacon says”, yǝbǝl ḥǝzb “the people say”; titles of books to be read; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
+                     <rubric>Nomina sacra; incipit of Texts I-1 and I-2 and their sections; names of the donors; directives to the ministers; abbreviations of the directives yәbәl kahәn “the priest says”, yәbәl diyaqon “the deacon says”, yәbәl ḥәzb “the people say”; titles of books to be read; elements of the punctuation signs; elements of Ethiopic numerals.&#xD;
 On the incipit pages of Text I-1 and 1-2 (fols. 2r, 26r), a few lines are rubricated (alternating with black lines).</rubric>
                      <incipit>
                         <foreign xml:lang="en"/>
@@ -45,6 +45,10 @@ On the incipit pages of Text I-1 and 1-2 (fols. 2r, 26r), a few lines are rubric
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Cp. Mss.<ref type="mss" corresp="ESams011">AMS-011</ref>, S<ref type="mss" corresp="ESdgm007">DGM-007</ref>,<ref type="mss" corresp="ESgms015">GMS-015</ref>,<ref type="mss" corresp="ESdmd021">DMD-021</ref>.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -53,7 +57,10 @@ On the incipit pages of Text I-1 and 1-2 (fols. 2r, 26r), a few lines are rubric
                            <watermark>Watermark</watermark>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">55.0</measure> folios, in <measure unit="quire">8.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">55.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1rv, 55v, in
+                                                  <measure unit="quire">8.0</measure> quires (A+7). 
                                                 <dimensions type="outer">
                               <height unit="cm">17.5</height>
                               <width unit="cm">13.5</width>
@@ -62,6 +69,8 @@ On the incipit pages of Text I-1 and 1-2 (fols. 2r, 26r), a few lines are rubric
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures> Decorated <note>Decorated quire marks are written in the middle of the upper margin of fols. 2r, 10r, 18r, 34r, 42r, 50r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">1</dim>
@@ -111,7 +120,7 @@ Holes/tears carefully amended in fols. 22, 28, 32, 37, 38, 42.</condition>
                            <note>All data for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -143,8 +152,7 @@ The bottom line is written above the ruling.</ab>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small;"><span style="font-family: Arial;">Fol. 25vb: Donation note.</span></span></p><q xml:lang="gez"><p>Fol. 25vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4896;&#4726;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4808;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4708;&#4724;&#4621;&#4961; &#4782;&#4782;&#4622;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small;"><span style="font-family: Arial;"><locus target="#25vb">Fol. 25vb</locus>: Donation note.</span></span></p><q xml:lang="gez"><p>Fol. 25vb: <span style="font-size: large;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4808;&#4616;&#4720;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4896;&#4726;&#4961; &#4704;&#4757;&#4811;&#4843;&#4961; &#4808;&#4808;&#4608;&#4704;&#4726;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4824;&#4848;&#4709;&#4648;&#4961; &#4708;&#4724;&#4621;&#4961; &#4782;&#4782;&#4622;&#4961; &#4824;&#4640;&#4648;&#4678;&#4961; &#4808;&#4824;&#4936;&#4624;&#4678;&#4961; &#4813;&#4873;&#4830;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4768;&#4636;&#4757;&#4962;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in the main hand, in a small and thin script. It mentions the name of the donor, Wälättä Giyorgis, and of the church which received the Ms., Qǝddus Yoḥannǝs Däbrä Betel Koholo (here Kokolo).</p>
                         </item>
@@ -162,6 +170,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires, one close to the head and one close to the tail of the codex.</decoNote>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -204,8 +213,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Wälättä Giyorgis (s. Additio 1). The name of another individual, Wäldä Sämaʾt, is also mentioned in the supplication formula on fol. 9ra.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Wälättä Giyorgis (s. Additio 1). The name of another individual, Wäldä Sämaʾt, is also mentioned in the supplication formula on fol. 9ra.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -229,9 +238,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2011-05-04">registered</change>
-         <change who="SA" when="2013-02-21">created</change>
-         <change who="VP" when="2015-02-26">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2013-02-21T14:56:43.698Z">created</change>
+         <change who="VP" when="2015-02-26T10:18:50.633Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

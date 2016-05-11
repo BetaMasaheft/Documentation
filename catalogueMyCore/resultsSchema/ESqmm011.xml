@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-03</date>
+            <date>2013-07-03T12:08:43.193Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0178QMM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>QMM-011</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,8 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">96.0</measure> folios, in <measure unit="quire">12.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">96.0</measure> folios, in
+                                                  <measure unit="quire">12.0</measure> quires (A+11). 
                                                 <dimensions type="outer">
                               <height unit="cm">19.2</height>
                               <width unit="cm">19.0</width>
@@ -60,6 +61,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>Undecorated quire marks are written in the upper margin of fols.: 12r, 20r, 36r, 44r, 52r, 57r, 65r, 78r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">3</dim>
@@ -138,7 +142,7 @@ A hole carefully amended on fol. 31.</condition>
                            <note>All data for fol. 5r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -164,18 +168,18 @@ The bottom ruled line was not used by the scribe on fol. 55rv.</ab>
 Based on the paleographical and codicological comparison with Ms. UM-042 it might be assumed that the Ms. was copied by the same scribe, Zä-Wäldä Maryam.<date>Second half of the 18th century.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ሰ፡</abbr> for <expan>ሰላም፡ </expan> (Text III)</item>
+                              <abbr>ሰ፡</abbr> for
+                                                  <expan>ሰላም፡ </expan> (Text III)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"/>
+                     <handNote xml:id="h2" script="Ethiopic">The 6th order vowel marker of ጵ is attached to the upper vertical stroke at the left side (e.g., fols. 4vb, 51va).<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <decoDesc>
                      <decoNote type="frame" xml:id="d1">Fol. 4r (incipit of Text I): simple, coloured (red) ornamental bands; geometric and floral motifs.</decoNote>
                   </decoDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 89va: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 89va: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4704;&#4648;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4850;&#4961; &#4768;&#4708;&#4726;&#4961; &#4941;&#4645;&#4624;&#4961; &#4872;&#4651;&#4609;&#4813;&#4675;&#4653;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4877;&#4653;&#4961; &#4613;&#4851;&#4853;&#4961; &#4770;&#4725;&#4653;&#4661;&#4814;&#4961; &#4608;&#4704;&#4961; &#4824;&#4845;&#4725;&#4961; &#4752;&#4709;&#4709;&#4961; &#4768;&#4705;&#4752;&#4824;&#4704;&#4656;&#4635;&#4843;&#4725;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#89va">Fol. 89va</locus>: Donation note.</span></p><q xml:lang="gez"><p style="text-align: justify"><span style="font-size: small">Fol. 89va: </span><span style="font-size: large">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4872;&#4704;&#4648;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4808;&#4850;&#4961; &#4768;&#4708;&#4726;&#4961; &#4941;&#4645;&#4624;&#4961; &#4872;&#4651;&#4609;&#4813;&#4675;&#4653;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4634;&#4779;&#4772;&#4621;&#4961; &#4808;&#4877;&#4653;&#4961; &#4613;&#4851;&#4853;&#4961; &#4770;&#4725;&#4653;&#4661;&#4814;&#4961; &#4608;&#4704;&#4961; &#4824;&#4845;&#4725;&#4961; &#4752;&#4709;&#4709;&#4961; &#4768;&#4705;&#4752;&#4824;&#4704;&#4656;&#4635;&#4843;&#4725;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is very crudely written in the same hand that replaced the name of the original owner with that of Gäbrä Dǝngǝl. It is written over an erased text. It states that Gäbrä Dǝngǝl, the son of ʾabeto Fǝśśǝḥa Gärahuwǝqar(?), donated the Ms. to the church of Mikaʾel Wägr Hǝdad.</p>
                         </item>
@@ -192,13 +196,14 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Small holes are visible in the centre fold of the quires.</decoNote>
+                        <decoNote xml:id="b5">None</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
                <history>
                   <origin>
                      <origPlace>
-                        <placeName corresp="INS0178QMM">Qǝddus Mikaʾel  Märgaḥǝya / QMM</placeName>
+                        <placeName corresp="INS0178QMM">Qәddus Mikaʾel  Märgaḥәya / QMM</placeName>
                      </origPlace>
                      <origDate notBefore="1750" notAfter="1800">Second half of the 18th cent.</origDate>
                   </origin>
@@ -234,14 +239,19 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The name of the original donor, Gäbrä Krǝstos (s. fol. 86ra) has been erased from the supplication formulas on fols. 52rb, 77ra, 78rb, 82ra, 83rb and replaced, in a very crude hand, with the name Gäbrä Dǝngǝl (s. also  Additio 1, fols. 10ra, 18va, 35rb, 41ra, 44va, 48vb, 52rb, 63va, 74rb, 93vb, 94rb, 95vb. &#xD;
+               <person>
+                  <persName role="owner" corresp="PRS0000">The name of the original donor, Gäbrä Krǝstos (s. fol. 86ra) has been erased from the supplication formulas on fols. 52rb, 77ra, 78rb, 82ra, 83rb and replaced, in a very crude hand, with the name Gäbrä Dǝngǝl (s. also  Additio 1, fols. 10ra, 18va, 35rb, 41ra, 44va, 48vb, 52rb, 63va, 74rb, 93vb, 94rb, 95vb. &#xD;
 ʾAmätä Mikaʾel and Gäbrä Ṣǝyon are mentioned on fols. 84ra, 93vb, 94rb and on fol. 25ra, respectively.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
                   <persName role="scribe" corresp="PRS00000">Zä-Wäldä Maryam</persName>
+               </person>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms. was originally donated to the church of Mikaʾel Wägr Hǝdad (?).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
                </person>
                <person>
                   <persName corresp="PRS00000"/>
@@ -263,9 +273,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-08">registered</change>
-         <change who="MK" when="2013-07-03">created</change>
-         <change who="DN" when="2014-11-07">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="MK" when="2013-07-03T12:08:43.193Z">created</change>
+         <change who="DN" when="2014-11-07T19:17:34.426Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

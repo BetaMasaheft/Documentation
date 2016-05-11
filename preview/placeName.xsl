@@ -5,9 +5,9 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="xs"
     version="2.0">
-    <xsl:template match="t:placeName | t:region | t:country">
+    <xsl:template match="t:placeName | t:region | t:country | t:settlement">
       
-        <xsl:choose>
+        <xsl:choose><xsl:when test="@corresp"><xsl:choose>
             <xsl:when test="contains(@corresp, 'LOC')">
                 <xsl:choose>
                     <xsl:when test="document(concat('../../Places/', @corresp, '.xml'))//t:TEI">
@@ -57,12 +57,11 @@
                 </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
-    </xsl:template>
-    
-    <xsl:template match="t:settlement">
- <xsl:apply-templates/>   
+    </xsl:when>
+        <xsl:otherwise><xsl:apply-templates/></xsl:otherwise></xsl:choose>
         <xsl:if test="@when">
             (information recorded on: <xsl:value-of select="@when"/>)
         </xsl:if>
     </xsl:template>
+    
 </xsl:stylesheet>

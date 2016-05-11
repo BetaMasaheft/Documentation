@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-10-04</date>
+            <date>2013-10-04T09:33:00.268Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0097AQG"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>AQG-006</idno>
                </msIdentifier>
                <msContents>
@@ -44,9 +44,14 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- Text I-1 ends with an embedded colophon on the translation from Coptic and Arabic: fol. 96rb-va: ተተርጐመ[ት፡ ዛ]ቲ፡ መጽሐፍ፡ በልሳነ፡ ቅብጢ፡ ወዓረቢ፡ ኀበ፡ ነገረ፡ ግዕዝ፡ ስረዩ፡ ወባርኩኒ፡ ለጸሐፊሐ፡ ኀጥእ፡ ወአባሲ፡ በአንብሮ፡ ቆብዕ፡ ዘእመስል፡ ፈላሲ፤ ወልብየሰ፡ ምሉዓ፡ ጹግ፡ ከይሲ፡ ከመ፡ ይደምስስ፡ አበሳየ፡ ወአበሳክሙ፡ እግዚአብሔር፡ እምነግህ፡ እስከ፡ ይመሲ፡፡ ለዓ[ለ]መ፡ ዓለም፡ አሜን፡፡ ወአሜን፡፡</note>
+                     <note>- Text II is called Mäṣḥafä ṭǝmqät on fol. 74ra.</note>
+                  </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="12vb">Fol. 12vb</locus><p>Fol. 12vb: <span style="font-size: large;">&#4824;&#4920;&#4624;&#4939;&#4961; &#4757;&#4811;&#4845;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4739;&#4901;<span style="font-size: small;">[</span>&#4821;<span style="font-size: small;">]</span>&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4941;<span style="font-size: small;">[</span>&#4661;<span style="font-size: small;">]</span>&#4624;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#8230;</span></p><foreign xml:lang="en"/>
+                        <locus target="12vb">&lt;p&gt;Fol. 12vb: &lt;span style="font-size: large;"&gt;&amp;#4824;&amp;#4920;&amp;#4624;&amp;#4939;&amp;#4961; &amp;#4757;&amp;#4811;&amp;#4845;&amp;#4961; &amp;#4635;&amp;#4653;&amp;#4843;&amp;#4637;&amp;#4961; &amp;#4739;&amp;#4901;&lt;span style="font-size: small;"&gt;[&lt;/span&gt;&amp;#4821;&lt;span style="font-size: small;"&gt;]&lt;/span&gt;&amp;#4961; &amp;#4808;&amp;#4824;&amp;#4768;&amp;#4925;&amp;#4624;&amp;#4939;&amp;#4961; &amp;#4941;&lt;span style="font-size: small;"&gt;[&lt;/span&gt;&amp;#4661;&lt;span style="font-size: small;"&gt;]&lt;/span&gt;&amp;#4624;&amp;#4961; &amp;#4781;&amp;#4653;&amp;#4661;&amp;#4726;&amp;#4661;&amp;#4961; &amp;#8230;&lt;/span&gt;&lt;/p&gt;</locus><p>Fol. 12vb: <span style="font-size: large;">&#4824;&#4920;&#4624;&#4939;&#4961; &#4757;&#4811;&#4845;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4739;&#4901;<span style="font-size: small;">[</span>&#4821;<span style="font-size: small;">]</span>&#4961; &#4808;&#4824;&#4768;&#4925;&#4624;&#4939;&#4961; &#4941;<span style="font-size: small;">[</span>&#4661;<span style="font-size: small;">]</span>&#4624;&#4961; &#4781;&#4653;&#4661;&#4726;&#4661;&#4961; &#8230;</span></p><foreign xml:lang="en"/>
                         <note>The colophon mentions the name of the scribe Nǝway(ä) Maryam (the later hand a) and the commissioner Fǝssǝḥa Krǝstos (for quires I-II)</note>
                      </colophon>
                   </msItem>
@@ -57,7 +62,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">97.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">97.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r-v, 2r-v, 73v, in
+                                                  <measure unit="quire">14.0</measure> quires (13+A). 
                                                 <dimensions type="outer">
                               <height unit="cm">13.0</height>
                               <width unit="cm">13.0</width>
@@ -139,7 +147,7 @@ A cut repaired on fol. 32.</condition>
                            <note>(Hand a) all data for fol. 4r</note>
                            <ab type="ruling">quires I-II: 17</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -166,7 +174,7 @@ The bottom line is written above the ruling.</ab>
                            <note>(Hand b) all data for fol. 13r</note>
                            <ab type="ruling">quires I-II: 17</ab>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -187,20 +195,25 @@ The bottom line is written above the ruling.</ab>
                         <persName role="scribe" corresp="PRS00000">Nǝwayä Maryam</persName>The scribe Nǝway(ä) Maryam is mentioned in the colophon (the later hand a, quires I-II).<date>Hand a: 19th century. Hand b: 17th century.</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 10rb, 76ra, 77ra)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (e.g., fols. 10rb, 76ra, 77ra)</item>
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 10rb, 12ra, 75rb)</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (e.g., fols. 10rb, 12ra, 75rb)</item>
                            <item>
-                              <abbr>ይ፡ ሕ፡</abbr> for <expan>ይበል፡ ሕዝብ፡ </expan> (fol. 10rb)</item>
+                              <abbr>ይ፡ ሕ፡</abbr> for
+                                                  <expan>ይበል፡ ሕዝብ፡ </expan> (fol. 10rb)</item>
                            <item>
-                              <abbr>እስመ፡/ እስመ፡ ለ/ለዓለም፡</abbr> for <expan>እስመ፡ ለዓለም፡ ምሕረቱ፡ </expan> (e.g., fols. 65rb, 65vb, 66ra)</item>
+                              <abbr>እስመ፡/ እስመ፡ ለ/ለዓለም፡</abbr> for
+                                                  <expan>እስመ፡ ለዓለም፡ ምሕረቱ፡ </expan> (e.g., fols. 65rb, 65vb, 66ra)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic">irregular small letters of smaller size, thick strokes, weak shadings, half-opened rings,  </handNote>
-                     <handNote xml:id="h3" script="Ethiopic">broad, upright and round letter shapes.</handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Hand a (quires I-II): irregular small letters of smaller size, thick strokes, weak shadings, half-opened rings,  <!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h3" script="Ethiopic">
+Hand b (quires III-XIII): broad, upright and round letter shapes.<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with brown tooled leather (quarter cover).&#xD;
 Three sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -209,6 +222,7 @@ Three sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Two pairs of chains of endband stitches at the spine cover.</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the brown leather cover (at least 2 tools were used: Double circle, double line fillet).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -251,8 +265,8 @@ Three sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The colophon mentiones Fǝssǝḥa Krǝstos as the commissioner.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The colophon mentiones Fǝssǝḥa Krǝstos as the commissioner.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -278,9 +292,9 @@ Three sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-18">registered</change>
-         <change who="AA" when="2013-10-04">created</change>
-         <change who="DN" when="2014-11-06">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-10-04T09:33:00.268Z">created</change>
+         <change who="DN" when="2014-11-06T13:36:39.820Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

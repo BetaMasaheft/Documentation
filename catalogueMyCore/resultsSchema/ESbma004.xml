@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-08-23</date>
+            <date>2013-08-23T12:47:53.159Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0107BMA"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>BMA-004</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">105.0</measure> folios, in <measure unit="quire">14.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">105.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 103v, 104r, in
+                                                  <measure unit="quire">14.0</measure> quires (12+A+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">32.0</height>
                               <width unit="cm">23.0</width>
@@ -123,18 +126,23 @@ Cuts repaired on fols. 89.</condition>
                         <date>19th century?</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ይ፡ ካ፡</abbr> for <expan>ይበል፡ ካሕን፡ </expan> (fol. 27rb)</item>
+                              <abbr>ይ፡ ካ፡</abbr> for
+                                                  <expan>ይበል፡ ካሕን፡ </expan> (fol. 27rb)</item>
                            <item>
-                              <abbr>ይ፡ ዲ፡</abbr> for <expan>ይበል፡ ዲያቆን፡ </expan> (fols. 27rb, 28va)</item>
+                              <abbr>ይ፡ ዲ፡</abbr> for
+                                                  <expan>ይበል፡ ዲያቆን፡ </expan> (fols. 27rb, 28va)</item>
                            <item>
-                              <abbr>ፍ፡</abbr> for <expan>ፍቱሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 80va, 81rb, 81va)</item>
+                              <abbr>ፍ፡</abbr> for
+                                                  <expan>ፍቱሐ፡ ረስዮ፡ ለዝንቱ፡ በድን፡ </expan> (e.g., fols. 80va, 81rb, 81va)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus/><p><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;">F</span><span style="line-height: 115%;">ol. 2ra-rc: Excerpt from a miracle of ʾabunä Täklä Haymanot.</span></span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></p><q xml:lang="gez"><p><span style="font-size: large;"><span style="line-height: 115%;"><br /> </span></span></p></q>
+                           <locus target="#00"/>
+                           <desc><p><span unicode="" style="line-height: 115%;"><span style="line-height: 115%;">F</span><span style="line-height: 115%;">ol. 2ra-rc: Excerpt from a miracle of ʾabunä Täklä Haymanot.</span></span><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></p></desc>
+                           <q xml:lang="gez"><p><span style="font-size: large;"><span style="line-height: 115%;"><br /> </span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small;"><span unicode="" style="line-height: 115%;"><br /> </span></span></p></q>
                            <p>Written in the same hand as that of the main text.</p>
                         </item>
@@ -159,6 +167,7 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">No</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -201,8 +210,8 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Habtä ʾIyäsus is mentioned in the supplication formulas throughout the Ms (e.g., fols. 2rb, 18rb).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Habtä ʾIyäsus is mentioned in the supplication formulas throughout the Ms (e.g., fols. 2rb, 18rb).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -225,9 +234,9 @@ Two rows of small holes visible on the spinefolds of the quires, one close to th
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-11-20">registered</change>
-         <change who="AA" when="2013-08-23">created</change>
-         <change who="EG" when="2014-07-23">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="AA" when="2013-08-23T12:47:53.159Z">created</change>
+         <change who="EG" when="2014-07-23T12:52:14.174Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

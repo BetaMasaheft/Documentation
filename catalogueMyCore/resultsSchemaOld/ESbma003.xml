@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESbma003"
+     xml:lang="en"
+     type="mss">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Nägärä Maryam “The Story of Mary”</title>
+            <editor key="DN"/>
+            <editor role="generalEditor" key="AB"/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+                                multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                                    This file is licensed under the Creative Commons
+                                    Attribution-ShareAlike 4.0. </licence>
+            </availability>
+            <date>2014-07-30</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+               <msIdentifier>
+                  <repository corresp="INS0107BMA"/>
+                  <collection>Ethio-SPaRe</collection>
+                  <idno>BMA-003</idno>
+               </msIdentifier>
+               <msContents>
+                  <msItem xml:id="ms_i1">
+                     <rubric>Nomina sacra; name of the donor; two red and two black lines alternating on the incipit page of Text-I; two lines in the incipit of all readings; elements of the punctuation signs.</rubric>
+                     <incipit>
+                        <foreign xml:lang="en"/>
+                     </incipit>
+                     <explicit>
+                        <foreign xml:lang="en"/>
+                     </explicit>
+                     <note/>
+                  </msItem>
+                  <msItem xml:id="coloph1">
+                     <colophon>
+                        <locus>&lt;span style="font-size</locus><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 120va:</span></span><span unicode="" style="font-size:10.0pt;line-height:&#10;115%;Arial"> </span><span style="font-size: large;"><span style="line-height: 115%;">&#4720;&#4936;&#4920;&#4632;&#4961; &#4704;&#4656;&#4619;&#4632;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4808;&#4704;&#4920;&#4622;&#4723;&#4961; &#4616;&#4773;&#4877;&#4829;&#4773;&#4725;&#4752;&#4961; &#4677;&#4853;&#4661;&#4725;&#4961; &#4853;&#4757;&#4877;&#4621;&#4961; &#4704;&#4970;&#4635;&#4653;&#4843;&#4637;&#4962; &#4768;&#4632;&#4961; &#4978;&#4808;&#4969;&#4616;&#4877;&#4757;&#4710;&#4725;&#4961; &#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4653;&#4678;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4704;&#4978;&#4808;&#4977;&#4987;&#4978;&#4808;&#4976;&#4961; &#4819;&#4632;&#4720;&#4961; &#4637;&#4629;&#4648;&#4725;&#4961; &#4768;&#4636;&#4757;&#4968; &#4845;&#4725;&#4707;&#4648;&#4781;&#4961; &#4773;&#4877;&#4826;&#4768;&#4709;&#4628;&#4653;&#4961; &#4824;&#4768;&#4936;&#4920;&#4632;&#4754;&#4961; &#4704;&#4851;&#4741;&#4755;&#4961; &#4808;&#4704;&#4656;&#4619;&#4637;&#4968;</span></span></p><foreign xml:lang="en"/>
+                        <note>The manuscript was completed on Gǝnbot 11, 1918 A.M. (= May 6, 1926 A.D.) in the year of Mark the Evangelist.</note>
+                     </colophon>
+                  </msItem>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                        </support>
+                        <extent>Made of <measure unit="leaf">121.0</measure> folios, in <measure unit="quire">16.0</measure> quires. 
+                                                <dimensions type="outer">
+                              <height unit="cm">29.0</height>
+                              <width unit="cm">23.0</width>
+                              <depth unit="cm">6.0</depth>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation>
+                           <list>
+                              <item xml:id="q1">
+                                 <dim unit="leaf">2</dim>
+                                 <locus from="1r" to="2v"/>A(2/fols. 1r-2v) </item>
+                              <item xml:id="q2">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="3r" to="10v"/> ፩I(8/fols. 3r-10v) </item>
+                              <item xml:id="q3">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="11r" to="18v"/> ፪II(8/fols. 11r-18v) </item>
+                              <item xml:id="q4">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="19r" to="26v"/> ፫III(8/fols. 19r-26v) </item>
+                              <item xml:id="q5">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="27r" to="34v"/> ፬IV(8/fols. 27r-34v) </item>
+                              <item xml:id="q6">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="35r" to="42v"/> ፭V(8/fols. 35r-42v) </item>
+                              <item xml:id="q7">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="43r" to="50v"/> ፮VI(8/fols. 43r-50v) </item>
+                              <item xml:id="q8">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="51r" to="58v"/> ፯VII(8/fols. 51r-58v) </item>
+                              <item xml:id="q9">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="59r" to="66v"/> ፰VIII(8/fols. 59r-66v) </item>
+                              <item xml:id="q10">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="67r" to="74v"/> ፱IX(8/fols. 67r-74v) </item>
+                              <item xml:id="q11">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="75r" to="82v"/> ፲X(8/fols. 75r-82v) </item>
+                              <item xml:id="q12">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="83r" to="90v"/> ፲፩XI(8/fols. 83r-90v) </item>
+                              <item xml:id="q13">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="91r" to="98v"/> ፲፪XII(8/fols. 91r-98v) </item>
+                              <item xml:id="q14">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="99r" to="106v"/> ፲፫XIII(8/fols. 99r-106v) </item>
+                              <item xml:id="q15">
+                                 <dim unit="leaf">8</dim>
+                                 <locus from="107r" to="114v"/> ፲፬XIV(8/fols. 107r-114v) </item>
+                              <item xml:id="q16">
+                                 <dim unit="leaf">7</dim>
+                                 <locus from="115r" to="121v"/> ፲፭XV(7; s.l.: 3, stub after 5/fols. 115r-121v).</item>
+                           </list>
+                        </collation>
+                        <condition key="good">Cut carefully amended and decorated, fol. 96rv.&#xD;
+Leather cover damaged along the corners.</condition>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="22">
+                           <dimensions unit="mm">
+                              <height>220</height>
+                              <width>178</width>
+                              <dim type="intercolumn">17</dim>
+                           </dimensions>
+                           <dimensions type="margin">
+                              <dim type="top">20</dim>
+                              <dim type="bottom">56</dim>
+                              <dim type="right">40</dim>
+                              <dim type="left">18</dim>
+                              <dim type="intercolumn">17</dim>
+                           </dimensions>
+                           <note>All data for fol. 7r.</note>
+                           <ab type="ruling"/>
+                           <ab type="pricking">Pricking and ruling are visible. </ab>
+                           <ab type="ruling" subtype="patter">
+Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
+                           <ab type="pricking">
+Primary pricks are visible. </ab>
+                           <ab type="pricking">
+Ruling pricks are visible. </ab>
+                           <ab type="ruling">
+The upper line is written above the ruling. </ab>
+                           <ab type="ruling">
+The bottom line is written above the ruling.</ab>
+                        </layout>
+                        <layout/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc><!--ACHTUNG! first HandNote comes from writing system in Ethiospare. the others are one for each CHANGE OF HAND-->
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <ab type="script">Regular</ab>
+                        <seg type="ink">Black, red (vermillion).</seg>
+                        <date>20th cent.</date>
+                     </handNote>
+                  </handDesc>
+                  <decoDesc>
+                     <decoNote type="frame" xml:id="d1">Fol. 3r (incipit page): elaborate coloured (purple, yellow, red, pink, black) ornamental band, with one central and two lateral extensions reaching the bottom of the text; interlaces.</decoNote>
+                  </decoDesc>
+                  <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
+                     <list>
+                        <item xml:id="a1">
+                           <locus/><div style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:&#10;normal"><span style="font-size: small;">Fol. 120vb: Donation note.</span></div><q xml:lang="gez"><p><span style="font-size: small;"><span style="line-height: 115%;">Fol. 120vb: </span></span><span style="font-size: large;"><span style="line-height: 115%;">&#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4848;&#4867;&#4829;&#4635;&#4733;&#4961; &#4779;&#4643;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4616;&#4708;&#4725;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4616;&#4635;&#4653;&#4843;&#4637;&#4961; &#4709;&#4653;&#4611;&#4752;&#4961; &#4822;&#4851;&#4961; &#4808;&#4661;&#4632;&#4961; &#4901;&#4637;&#4672;&#4721;&#4961; &#4808;&#4621;&#4848;&#4961; &#4768;&#4648;&#4875;&#4810;&#4961; &#4808;&#4661;&#4632;&#4961; &#4768;&#4705;&#4609;&#4961; &#4778;&#4851;&#4752;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4661;&#4633;&#4961; &#4773;&#4633;&#4961; &#4808;&#4616;&#4720;&#4961; &#4846;&#4627;&#4757;&#4661;&#4961; &#4723;&#4853;&#4741;&#4758;&#4961; &#4773;&#4637;&#4781;&#4651;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4964;</span></span></p></q>
+                           <q xml:lang="en"/>
+                           <p>Written in the main hand. Däğğazmač Kaśa (later šum ʿagame) donated the manuscript to Bet Maryam. His baptismal name, Wäldä ʾArägawi, the baptismal names of his father is Kidanä Maryam (ras Sǝbḥat ʾArägawi) and his mother, Wälättä Yoḥannǝs, are also mentioned.</p>
+                        </item>
+                        <item xml:id="e1">- Note erased: fol. 120vb.&#xD;
+- The names of Gäbreʾel and Mikaʾel are written in alternating red and black letters: fol. 17vb.&#xD;
+- Omitted words or lines are written interlineally: fols. 22ra, 37rb, 37va, 43ra.</item>
+                     </list>
+                  </additions>
+                  <bindingDesc>
+                     <binding>
+                        <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather; textile inlays.&#xD;
+Two pairs of sewing stations.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="wood"/>
+                           <material key="leather"/>
+                           <material key="textile"/>
+                        </decoNote>
+                        <decoNote xml:id="b3" type="Endbands"/>
+                        <decoNote xml:id="b4" type="Other">Two rows of chains of the endband stitches at the spine cover, one close to the head and one close to the tail of the codex.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName corresp="INS0107BMA">ʿAddigrat Bet Marya / BMA</placeName>
+                     </origPlace>
+                     <origDate notBefore="1926" notAfter="1926">According to the colophon the Ms. was finished on Gǝnbot 11, 1918 A.M. (= May 6, 1926 A.D.)</origDate>
+                  </origin>
+               </history>
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl/>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restorations" subtype="none"/>
+                     </custodialHist>
+                  </adminInfo>
+                  <surrogates>
+                     <bibl/>
+                  </surrogates>
+                  <listBibl type="secondary">
+                     <bibl>Ms. previously unknown.</bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person><!--donor-->
+                  <persName corresp="PRS0000">Additio 1 mentions däğğazmač Kaśa (cp. Ms. BMA-002) as the donor. His baptismal name, Wäldä ʾArägawi, is inserted in the supplication formulas. His father is Kidanä Maryam (ras Sǝbḥat ʾArägawi, Additio 1, and fols. 54ra, 61ra), his mother is Wälättä Yoḥannǝs (Additio 1, and fols. 47ra, 51ra).</persName>
+                  <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
+                                        Person/persName should only contain the person name, not all the paragraph.-->
+               </person>
+               <person>
+                  <persName corresp="PRS00000"/>
+                  <!--other-->
+               </person>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords>
+               <term key="Apocrypha/Pseudoepigrapha"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="en">Inglese</language>
+            <language ident="it">Italiano</language>
+            <language ident="gez" xml:id="Lan05">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="DN" when="2010-11-20">registered</change>
+         <change who="SD" when="2014-07-30">created</change>
+         <change who="VP" when="2015-02-26">last edited</change>
+         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+                            P5</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <ab/>
+      </body>
+   </text>
+</TEI>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2010-09-23</date>
+            <date>2010-09-23T15:51:05.141Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0034DZ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DZ-003</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,11 @@ Two lines on the incipit page of Text I; several lines on the incipit page of Te
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>- The right sequence of Text II-4 is fols. 33-39 (miracles 1-8), 32 (miracle 8), 50 (miracles 8-10), 58-63 (miracles 10-14), 48 (miracles 14-15), 57 (miracles 15-16), 64-68 (miracles 16-22), 89 (miracles 23-25), 51-56 (miracles 26-31), 70 (miracles 31-32), 73-87 (miracles 32-51), 40-47 (miracles 51-61), 69 (miracles 61-62), 71 (miracles 62-63),<ref type="mss" corresp="ES112116">112-116</ref>(miracles 64-72), 72 (miracles 72-73),<ref type="mss" corresp="ES90111">90-111</ref>(miracles<ref type="mss" corresp="ES73103">73-103</ref>), 117 (miracle 103).</note>
+                     <note>- Miracles 6,<ref type="mss" corresp="ES101103">101-103</ref>are not numbered. Some numbers were not used: e.g., 86, 92, 95.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +57,10 @@ Two lines on the incipit page of Text I; several lines on the incipit page of Te
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">118.0</measure> folios, in <measure unit="quire"/> quires. 
+                        <extent>Made of <measure unit="leaf">118.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  1r, 1v, 20v, 26vb, 118r, 118v., in
+                                                  <measure unit="quire"/> quires . 
                                                 <dimensions type="outer">
                               <height unit="cm">25.0</height>
                               <width unit="cm">21.5</width>
@@ -97,7 +105,7 @@ Tear amended on fols. 20, 116.</condition>
                            <note>All data for fol. 3r.</note>
                            <ab type="ruling">The number varies from 25 to 28.</ab>
                            <ab type="pricking">Ruling and pricking are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -120,8 +128,7 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small">Fol. 20r: Ma<span style="line-height: 115%">&#7723;</span>b&#228;r&#228; m<span style="line-height: 115%">&#601;</span><span style="line-height: 115%">&#704;</span><span style="line-height: 115%">&#601;</span>m&#228;nan "Congregation of the Faithful" (ChRep 191, no. 17), incomplete (only the beginning).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 20r:</span>&#160; <span style="font-size: large;">&#4635;&#4741;&#4704;&#4648;&#4961;&#160; &#4637;&#4773;&#4632;&#4755;&#4757;&#4961; &#4808;&#4637;&#4773;&#4632;&#4755;&#4725;&#4961; &#4773;&#4616;&#4961; &#4778;&#4843;&#4776;&#4961; &#4720;&#4768;&#4637;&#4753;&#4961;...&#160;</span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><locus target="#20r">Fol. 20r</locus>: Ma<span style="line-height: 115%">&#7723;</span>b&#228;r&#228; m<span style="line-height: 115%">&#601;</span><span style="line-height: 115%">&#704;</span><span style="line-height: 115%">&#601;</span>m&#228;nan "Congregation of the Faithful" (ChRep 191, no. 17), incomplete (only the beginning).<br /> </span></p><q xml:lang="gez"><p><span style="font-size: small;">Fol. 20r:</span>&#160; <span style="font-size: large;">&#4635;&#4741;&#4704;&#4648;&#4961;&#160; &#4637;&#4773;&#4632;&#4755;&#4757;&#4961; &#4808;&#4637;&#4773;&#4632;&#4755;&#4725;&#4961; &#4773;&#4616;&#4961; &#4778;&#4843;&#4776;&#4961; &#4720;&#4768;&#4637;&#4753;&#4961;...&#160;</span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in a crude hand.</p>
                         </item>
@@ -136,7 +143,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (the front one is broken; the back one is broken and repaired). &#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -187,8 +194,8 @@ Fols. 108-110, 117 originate from a Ms. of later period.</origDate>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">Tabotä Wälda and Lahǝyä Dǝngǝl are mentioned in the supplication formulas, e.g., on fols. 102vb, 103ra. ʾAtnatewos is mentioned on fols. 108-110.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">Tabotä Wälda and Lahǝyä Dǝngǝl are mentioned in the supplication formulas, e.g., on fols. 102vb, 103ra. ʾAtnatewos is mentioned on fols. 108-110.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -212,9 +219,9 @@ Fols. 108-110, 117 originate from a Ms. of later period.</origDate>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-06">registered</change>
-         <change who="SA" when="2010-09-23">created</change>
-         <change who="MV" when="2015-05-21">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2010-09-23T15:51:05.141Z">created</change>
+         <change who="MV" when="2015-05-21T10:06:10.513Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

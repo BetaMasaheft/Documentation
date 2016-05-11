@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2011-10-19</date>
+            <date>2011-10-19T08:13:16.803Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0034DZ"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DZ-007</idno>
                </msIdentifier>
                <msContents>
@@ -51,7 +51,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">91.0</measure> folios, of which <measure unit="leaf" type="blank">1.0</measure> blank, in <measure unit="quire">13.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">91.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">1.0</measure> blank
+                                                  fols. 1., in
+                                                  <measure unit="quire">13.0</measure> quires (A+12). 
                                                 <dimensions type="outer">
                               <height unit="cm">24.5</height>
                               <width unit="cm">21.5</width>
@@ -121,7 +124,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            <note>All data for 3r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are visible.</ab>
@@ -146,8 +149,7 @@ The bottom line is written above the ruling.</ab>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p>Fol. 90va: Purchase note.</p><q xml:lang="gez"/>
+                        <item xml:id="a1"><p><locus target="#90va">Fol. 90va</locus>: Purchase note.</p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>The note is written in the same hand that wrote the names of the donor(s) in the text, over erasures.</p>
                         </item>
@@ -156,7 +158,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with leather (quarter cover?) only partly visible because of the recent textile secondary cover.&#xD;
 Two pairs of sewing stations.&#xD;
 Reinforcing parchment and leather strips for quires A and XII.</decoNote>
@@ -209,8 +211,8 @@ Reinforcing parchment and leather strips for quires A and XII.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">The names of original donor(s) have been erased throughout the Ms. Priest (qes) Wäldä Gäbrǝʾel is mentioned as the donor in  Additio 1. Besides, the names of his relatives Wälättä Giyorgis, Wälättä Muse, Ḍota Sǝllase and Ḫaylä Sǝllase are written over the erasures (also supplication formulas fols. 13ra, 16va, 19ra, 22vb, 39va, 41va, 46va, 53ra, 56vb, 60ra, 69ra, 75ra).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">The names of original donor(s) have been erased throughout the Ms. Priest (qes) Wäldä Gäbrǝʾel is mentioned as the donor in  Additio 1. Besides, the names of his relatives Wälättä Giyorgis, Wälättä Muse, Ḍota Sǝllase and Ḫaylä Sǝllase are written over the erasures (also supplication formulas fols. 13ra, 16va, 19ra, 22vb, 39va, 41va, 46va, 53ra, 56vb, 60ra, 69ra, 75ra).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -236,9 +238,9 @@ Reinforcing parchment and leather strips for quires A and XII.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-05-06">registered</change>
-         <change who="SA" when="2011-10-19">created</change>
-         <change who="EG" when="2014-04-25">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SA" when="2011-10-19T08:13:16.803Z">created</change>
+         <change who="EG" when="2014-04-25T08:52:41.549Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

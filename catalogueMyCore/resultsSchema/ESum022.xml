@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2013-07-30</date>
+            <date>2013-07-30T08:23:02.068Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0017UM"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>UM-022</idno>
                </msIdentifier>
                <msContents>
@@ -44,6 +44,11 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>The miracle given on fols. 10va-11ra (as part of Ḫǝdar) belongs to the month of Taḫśaś.</note>
+                     <note>The tailband has not been photographed.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -51,7 +56,10 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">66.0</measure> folios, in <measure unit="quire">9.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">66.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank"/> blank
+                                                  Fols. 1r-2v., in
+                                                  <measure unit="quire">9.0</measure> quires ((A+8)). 
                                                 <dimensions type="outer">
                               <height unit="cm">25.5</height>
                               <width unit="cm">19.5</width>
@@ -60,6 +68,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </extent>
                         <foliation/>
                         <collation>
+                           <signatures>
+                              <note>Quire marks are written in the upper margins, for quires I-VIII: fols. 3r, 11r, 19r, 27r, 35r, 43r, 51r, 59r.</note>
+                           </signatures>
                            <list>
                               <item xml:id="q1">
                                  <dim unit="leaf">2</dim>
@@ -111,7 +122,7 @@ The bottom margin of fol. 48 has been enlarged by sewing a piece of parchment on
                            <note>All data are for fol. 4r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible. </ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C. </ab>
                            <ab type="pricking">
 Primary pricks are visible. </ab>
@@ -132,14 +143,14 @@ The bottom line is written above the ruling.</ab>
                         <date>late 19th century</date>
                         <list type="abbreviations">
                            <item>
-                              <abbr>ለዓ፡ ዓለ፡ አሜ፡</abbr> for <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 7ra, 11a, 55va)</item>
+                              <abbr>ለዓ፡ ዓለ፡ አሜ፡</abbr> for
+                                                  <expan>ለዓለመ፡ ዓለም፡ አሜን፡ </expan> (e.g., fols. 7ra, 11a, 55va)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial">Fol. 66ra-rb: Donation and purchase note. </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span>Fol. 66ra: </span></span><span style="font-size: large;">&#4829;&#4853;&#4659;&#4757;<span style="font-size: small;">[sic]</span>&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4822;&#4651;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4822;&#4651;&#4961; &#4824;&#4720;&#4872;&#4829;&#4819;&#4725;&#4961;</span> <span style="font-size: large;">&#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4704;&#4925;&#4846;&#4757;&#4961; &#4768;&#4789;&#4657;&#4637;&#4961; &#4808;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4768;&#4705;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4872;&#4704;&#4829;&#4610;&#4961; &#4768;&#4705;&#4752;&#4961; &#4720;&#4808;&#4616;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4962;</span> <span style="font-size: small;"><span style="line-height: 115%;">[fol. 66rb]</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4720;&#4768;&#4637;&#4653;&#4961; &#4808;&#4853;&#4653;&#4659;&#4757;&#4961; &#4824;&#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4637;&#4661;&#4616;&#4961; &#4789;&#4622;&#4633;&#4961; &#4848;&#4674;&#4672;&#4961; &#4827;&#4722;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4848;&#4674;&#4673;&#4961; &#4616;&#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4619;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size:9.0pt;line-height:&#10;115%;Arial"><locus target="#66ra">Fol. 66ra</locus>-rb: Donation and purchase note. </span></p><q xml:lang="gez"><p><span style="font-size: small;"><span>Fol. 66ra: </span></span><span style="font-size: large;">&#4829;&#4853;&#4659;&#4757;<span style="font-size: small;">[sic]</span>&#4961; &#4824;&#4677;&#4849;&#4661;&#4961; &#4677;&#4849;&#4661;&#4961; &#4634;&#4779;&#4772;&#4621;&#4961; &#4822;&#4651;&#4961; &#4824;&#4808;&#4608;&#4710;&#4961; &#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4616;&#4677;&#4849;&#4661;&#4961; &#4674;&#4653;&#4678;&#4661;&#4961; &#4822;&#4651;&#4961; &#4824;&#4720;&#4872;&#4829;&#4819;&#4725;&#4961;</span> <span style="font-size: large;">&#4704;&#4824;&#4632;&#4752;&#4961; &#4635;&#4724;&#4814;&#4661;&#4961; &#4808;&#4757;&#4876;&#4619;&#4810;&#4961; &#4704;&#4925;&#4846;&#4757;&#4961; &#4768;&#4789;&#4657;&#4637;&#4961; &#4808;&#4757;&#4873;&#4645;&#4752;&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4808;&#4915;&#4915;&#4661;&#4752;&#4961; &#4768;&#4705;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4872;&#4704;&#4829;&#4610;&#4961; &#4768;&#4705;&#4752;&#4961; &#4720;&#4808;&#4616;&#4848;&#4961; &#4632;&#4853;&#4741;&#4757;&#4962;</span> <span style="font-size: small;"><span style="line-height: 115%;">[fol. 66rb]</span></span><span style="font-size: large;"><span style="line-height: 115%;"> </span><span style="line-height: 115%;">&#4829;&#4720;&#4768;&#4637;&#4653;&#4961; &#4808;&#4853;&#4653;&#4659;&#4757;&#4961; &#4824;&#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4720;&#4808;&#4621;&#4848;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4757;&#4811;&#4841;&#4961; &#4776;&#4632;&#4961; &#4725;&#4777;&#4758;&#4633;&#4961; &#4632;&#4853;&#4736;&#4754;&#4720;&#4961; &#4645;&#4875;&#4961; &#4808;&#4752;&#4941;&#4661;&#4961; &#4637;&#4661;&#4616;&#4961; &#4789;&#4622;&#4633;&#4961; &#4848;&#4674;&#4672;&#4961; &#4827;&#4722;&#4961; &#4632;&#4677;&#4848;&#4661;&#4961; &#4808;&#4637;&#4661;&#4616;&#4961; &#4848;&#4674;&#4673;&#4961; &#4616;&#4707;&#4629;&#4653;&#4961; &#4752;&#4875;&#4642;&#4961; &#4824;&#4640;&#4648;&#4675;&#4961; &#4808;&#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4720;&#4819;&#4872;&#4619;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"/>
                            <p>The note is written in an angular script in the same hand that added the names of Täwäldä Mädḫǝn and his wife Wälättä Mädḫǝn to the supplication formulas throughout the Ms., in red and black. 
 The note states that the Ms. was commissioned and donated by baḥr nägaśi Täwäldä Mädḫǝn during the time of King Yoḥannǝs IV (r. 1872-89) and Metropolitan Ṗeṭros IV (in tenure 1881-1917).
@@ -151,7 +162,7 @@ The hand of the note is probably the same as that of the donation notes in UM-01
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards covered with reddish-brown tooled leather (partly missing). &#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -160,6 +171,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other">Traces of endband stitches are visible on the spine fold of the quires (small holes with remains of threads, close to the head and the tail of the codex).</decoNote>
+                        <decoNote xml:id="b5">Blind tooled ornament on the reddish-brown leather cover (poorly executed: at least 5 tools were used: single line fillet, small x, double sine wave with eye, criss-cross, corni-form).</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -202,8 +214,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">According to Additio 1, the Ms. was commissioned and donated by baḥr nägaśi Täwäldä Mädḫǝn. His name and the name of his wife Wälättä Mädḫǝn were added to the supplication formulas throughout the Ms. (in the same hand as Additio 1).</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">According to Additio 1, the Ms. was commissioned and donated by baḥr nägaśi Täwäldä Mädḫǝn. His name and the name of his wife Wälättä Mädḫǝn were added to the supplication formulas throughout the Ms. (in the same hand as Additio 1).</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -227,9 +239,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-04-28">registered</change>
-         <change who="SH" when="2013-07-30">created</change>
-         <change who="SH" when="2014-12-08">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="SH" when="2013-07-30T08:23:02.068Z">created</change>
+         <change who="SH" when="2014-12-08T16:00:34.266Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>

@@ -24,13 +24,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                                     This file is licensed under the Creative Commons
                                     Attribution-ShareAlike 4.0. </licence>
             </availability>
-            <date>2012-06-23</date>
+            <date>2012-06-23T10:28:26.046Z</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
                <msIdentifier>
                   <repository corresp="INS0129DMD"/>
-                  <collection>Ethio-SPaRe</collection>
+                  <collection>Ethio-Spare</collection>
                   <idno>DMD-005</idno>
                </msIdentifier>
                <msContents>
@@ -45,6 +45,10 @@ On fol. 1r, the two upper lines of each column are rubricated.</rubric>
                      </explicit>
                      <note/>
                   </msItem>
+                  <!--The data in the items below refers to other items. please remove this items and move the information to the appropriate place.-->
+                  <msItem xml:id="ms_i2">
+                     <note>Text I begins with Kidan zä-nägh.</note>
+                  </msItem>
                </msContents>
                <physDesc>
                   <objectDesc>
@@ -52,7 +56,10 @@ On fol. 1r, the two upper lines of each column are rubricated.</rubric>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">152.0</measure> folios, of which <measure unit="leaf" type="blank">3.5</measure> blank, in <measure unit="quire">23.0</measure> quires. 
+                        <extent>Made of <measure unit="leaf">152.0</measure> folios, of which
+                                                  <measure unit="leaf" type="blank">3.5</measure> blank
+                                                  149, 150r, 151, 152, in
+                                                  <measure unit="quire">23.0</measure> quires (22+B). 
                                                 <dimensions type="outer">
                               <height unit="cm">24.0</height>
                               <width unit="cm">20.5</width>
@@ -156,7 +163,7 @@ Leather covering is for the most part lost, and preserved only on the inner face
                            <note>All data are for fol. 2r.</note>
                            <ab type="ruling"/>
                            <ab type="pricking">Pricking and ruling are visible.</ab>
-                           <ab type="ruling" subtype="patter">
+                           <ab type="ruling" subtype="pattern">
 Ruling pattern: 1A-1A-1A1A/0-0/0-0/C.</ab>
                            <ab type="pricking">
 Primary pricks are not visible.</ab>
@@ -180,29 +187,26 @@ The bottom line is written above the ruling.</ab>
                            <item>ይ፡ ዲ፡ or ይዲ፡ for ይበል፡ ዲያቆን፡</item>
                            <item>ይ፡ ሕ፡ or ይሕ፡ for ይበል፡ ሕዝብ፡</item>
                            <item>
-                              <abbr>ሕዝ፡</abbr> for <expan>(ይበል፡) ሕዝብ፡ </expan> (s. fol. 10ra)</item>
+                              <abbr>ሕዝ፡</abbr> for
+                                                  <expan>(ይበል፡) ሕዝብ፡ </expan> (s. fol. 10ra)</item>
                         </list>
                      </handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
-                        <item xml:id="a1">
-                           <locus/><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%" arial="" unicode="">Fol. 63v: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: large"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">Fol. 63v: &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4808;&#4608;&#4704; </span><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4845;&#4821;&#4672;&#4710;&#4633;&#4961; &#4616;&#4768;&#4705;&#4609;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4720;&#4661;&#4939;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4872;&#4709;&#4649;&#4961; &#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
+                        <item xml:id="a1"><p><span style="font-size: small"><span lang="EN-US" style="line-height: 115%" arial="" unicode=""><locus target="#63v">Fol. 63v</locus>: Donation note.</span></span></p><q xml:lang="gez"><p><span style="font-size: large"><span lang="EN-US" style="line-height: 115%; font-family: Nyala">Fol. 63v: &#4827;&#4722;&#4961; &#4632;&#4925;&#4624;&#4941;&#4961; &#4824;&#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4824;&#4808;&#4608;&#4704; </span><span style="font-size: small;"><span lang="EN-US" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-US" style="line-height: 115%; font-family: Nyala">&#4961; &#4616;&#4846;&#4624;&#4757;&#4661;&#4961; &#4824;&#4720;&#4643;&#4840;&#4899;&#4961; &#4704;&#4808;&#4653;&#4673;&#4961; &#4920;&#4622;&#4721;&#4961; &#4808;&#4704;&#4648;&#4776;&#4721;&#4961; &#4845;&#4821;&#4672;&#4710;&#4633;&#4961; &#4616;&#4768;&#4705;&#4609;&#4961; &#4808;&#4616;&#4773;&#4633;&#4961; &#4720;&#4661;&#4939;&#4961; &#4874;&#4846;&#4653;&#4874;&#4661;&#4961; &#4808;&#4616;&#4720;&#4961; &#4635;&#4653;&#4843;&#4637;&#4961; &#4808;&#4616;&#4872;&#4709;&#4649;&#4961; &#4821;&#4673;&#4707;&#4961; &#4645;&#4619;&#4660;&#4961; &#4616;&#4819;&#4616;&#4632;&#4961; &#4819;&#4616;&#4637;&#4961; &#4768;&#4636;&#4757;&#4962;</span></span></p></q>
                            <q xml:lang="en"><p><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%">Fol. 63v: This is a book of </span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#705;</span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#398;quba &#346;&#477;llase who has donated it to (the church of) John </span><span lang="DE" unicode="" arial="" style="line-height: 115%">(the Baptist), who bought it for his own money. May [God&#8217;s] protection and blessing guard his father and his mother, T&#228;sfa Giyorgis [and] W&#228;l&#228;tt&#228; Maryam, and His servant </span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#705;</span><span lang="DE" unicode="" arial="" style="line-height: 115%">&#398;quba &#346;&#477;llase for ever and ever. Amen.</span></span></p></q>
                            <p/>
                         </item>
-                        <item xml:id="a2">
-                           <locus/><p><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%">Fols. 148va-149r: 1 Cor. 11:23-29.</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a2"><p><span style="font-size: small"><span lang="EN-US" unicode="" arial="" style="line-height: 115%"><locus target="#148va">Fols. 148va-149</locus>r: 1 Cor. 11:23-29.</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Crudely written. Parts of the same text, in the same hand, are repeated in fol. 150v.</p>
                         </item>
-                        <item xml:id="a3">
-                           <locus/><p><span style="font-size: small"><span lang="DE" unicode="" arial="" style="line-height: 115%">Fol. 149v: Ownership note (?).</span></span></p><q xml:lang="gez"/>
+                        <item xml:id="a3"><p><span style="font-size: small"><span lang="DE" unicode="" arial="" style="line-height: 115%"><locus target="#149v">Fol. 149v</locus>: Ownership note (?).</span></span></p><q xml:lang="gez"/>
                            <q xml:lang="en"/>
                            <p>Crudely written, part of the text poorly visible. The name of John the Baptist (patron saint of the church) can be discerned.</p>
                         </item>
-                        <item xml:id="a4">
-                           <locus/><p><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 150v: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">Fol. 150v: &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4848;&#4709;&#4648; </span><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4808;&#4640;&#4635;&#4821;&#4725;&#4962; &#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4656;&#4648;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></p></q>
+                        <item xml:id="a4"><p><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: "><locus target="#150v">Fol. 150v</locus>: Ownership note.</span></p><q xml:lang="gez"><p><span style="font-size: large"><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">Fol. 150v: &#4829;&#4632;&#4925;&#4624;&#4941;&#4961; &#4840;&#4848;&#4709;&#4648; </span><span style="font-size: small;"><span lang="EN-GB" unicode="" arial="" style="line-height: 115%;">[sic]</span></span><span lang="EN-GB" style="line-height: 115%; font-family: Nyala">&#4961; &#4846;&#4624;&#4757;&#4661;&#4961; &#4632;&#4901;&#4637;&#4677;&#4961; &#4808;&#4640;&#4635;&#4821;&#4725;&#4962; &#4824;&#4936;&#4624;&#4675;&#4961; &#4808;&#4824;&#4656;&#4648;&#4675;&#4961; &#4813;&#4873;&#4824;&#4961; &#4616;&#4845;&#4777;&#4757;&#4961; &#4704;&#4645;&#4621;&#4899;&#4752;&#4961; &#4916;&#4901;&#4654;&#4661;&#4961; &#4808;&#4915;&#4813;&#4622;&#4661;&#4961;</span></span></p></q>
                            <q xml:lang="en"><p><span lang="EN-GB" unicode="" arial="" style="line-height: 115%; font-family: ">Fol. 150v: This is a book of the church of John the Baptist and Martyr. He who erases [its text] and he who steals it shall be excommunicated by the authority of Peter and Paul.</span></p></q>
                            <p>The beginning of a pen trial is adjoined to the end of note.</p>
                         </item>
@@ -219,7 +223,7 @@ The bottom line is written above the ruling.</ab>
                      </list>
                   </additions>
                   <bindingDesc>
-                     <binding contemporary="yes">
+                     <binding contemporary="true">
                         <decoNote xml:id="b1">Two wooden boards (both broken and repaired) originally covered with reddish-brown leather (to the most part missing).&#xD;
 Two pairs of sewing stations.</decoNote>
                         <decoNote xml:id="b2" type="bindingMaterial">
@@ -228,6 +232,7 @@ Two pairs of sewing stations.</decoNote>
                         </decoNote>
                         <decoNote xml:id="b3" type="Endbands"/>
                         <decoNote xml:id="b4" type="Other"/>
+                        <decoNote xml:id="b5">None.</decoNote>
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -270,8 +275,8 @@ Two pairs of sewing stations.</decoNote>
       <profileDesc>
          <particDesc>
             <listPerson>
-               <person><!--donor-->
-                  <persName corresp="PRS0000">ʿƎquba Śǝllase (s. Additio 1 and supplication formulas within the main text). The donation note also mentions the names of the donor's parents, Täsfa Giyorgis and Wälättä Maryam.</persName>
+               <person>
+                  <persName role="owner" corresp="PRS0000">ʿƎquba Śǝllase (s. Additio 1 and supplication formulas within the main text). The donation note also mentions the names of the donor's parents, Täsfa Giyorgis and Wälättä Maryam.</persName>
                   <!--ACHTUNG! This is actually paragraphic information identifying the donor. 
                                         Person/persName should only contain the person name, not all the paragraph.-->
                </person>
@@ -294,9 +299,9 @@ Two pairs of sewing stations.</decoNote>
       </profileDesc>
       <revisionDesc>
          <change who="DN" when="2010-12-09">registered</change>
-         <change who="IF" when="2012-06-23">created</change>
-         <change who="SA" when="2014-11-29">last edited</change>
-         <change who="PL" when="2016-05-05">transformed from mycore to TEI
+         <change who="IF" when="2012-06-23T10:28:26.046Z">created</change>
+         <change who="SA" when="2014-11-29T18:45:02.569Z">last edited</change>
+         <change who="PL" when="2016-05-10+02:00">transformed from mycore to TEI
                             P5</change>
       </revisionDesc>
    </teiHeader>
