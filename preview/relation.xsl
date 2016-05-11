@@ -47,7 +47,12 @@
                             <xsl:otherwise><xsl:value-of select="$filename"/></xsl:otherwise></xsl:choose>
                     </xsl:variable> 
                         <xsl:variable name="path" select="
-                                if (starts-with($filename, 'PRS'))
+                            if ($filename = document('../../Authority-Files/taxonomy.xml')//t:catDesc)
+                            then
+                            ('Authority-Files')
+                            else
+                            (
+                            if (starts-with($filename, 'PRS'))
                                 then
                                     ('Persons')
                                 else
@@ -75,6 +80,7 @@
                                                 )
                                             )
                                         )
+                                    )
                                     )
                                 "/>
                         <xsl:variable name="label" select="document(concat('../../', $path, '/', $filename, '.xml'))//t:TEI"/>
@@ -106,7 +112,11 @@
                             </xsl:choose>
                         </xsl:variable>
                         <xsl:variable name="path" select="
-                                if (starts-with($filename, 'PRS'))
+                            if ($filename = document('../../Authority-Files/taxonomy.xml')//t:catDesc)
+                            then
+                            ('Authority-Files')
+                            else
+                            (if (starts-with($filename, 'PRS'))
                                 then
                                     ('Persons')
                                 else
@@ -134,6 +144,7 @@
                                                 )
                                             )
                                         )
+                                    )
                                     )
                                 "/>
                         <xsl:variable name="label" select="document(concat('../../', $path, '/', $filename, '.xml'))//t:TEI"/>
@@ -168,7 +179,12 @@
                         </xsl:choose>
                     </xsl:variable>
                     <xsl:variable name="path" select="
-                                if (starts-with($filename, 'PRS'))
+                        if ($filename = document('../../Authority-Files/taxonomy.xml')//t:catDesc)
+                        then
+                        ('Authority-Files')
+                        else
+                        ( 
+                        if (starts-with($filename, 'PRS'))
                                 then
                                     ('Persons')
                                 else
@@ -196,6 +212,7 @@
                                                 )
                                             )
                                         )
+                                    )
                                     )
                                 "/>
                     <xsl:variable name="label" select="document(concat('../../', $path, '/', $filename, '.xml'))//t:TEI"/>

@@ -31,7 +31,7 @@
                     <xsl:otherwise><i><xsl:value-of select="."/></i></xsl:otherwise></xsl:choose>
         <xsl:if test="@evidence"> (<xsl:value-of select="@evidence"/>)</xsl:if>
         <xsl:if test="@cert = 'low'"><xsl:text> ? </xsl:text></xsl:if>
-        <xsl:if test="@type"><xsl:text> </xsl:text><xsl:value-of select="@type"/></xsl:if>
+        <xsl:if test="@type"><xsl:text> [</xsl:text><xsl:value-of select="@type"/><xsl:text>] </xsl:text></xsl:if>
             
         
     </xsl:template>

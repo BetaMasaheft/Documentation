@@ -134,7 +134,15 @@
                     <xsl:when test="//t:TEI/@type='work'">
                         <xsl:call-template name="Work"/>
                     </xsl:when>
+                   
+                    <xsl:when test="//t:TEI/@type='nar'">
+                        <xsl:call-template name="nar"/>
+                    </xsl:when>
                     
+                    
+                    <xsl:when test="//t:TEI/@type='auth'">
+                        <xsl:call-template name="nar"/>
+                    </xsl:when>
                     
                     <xsl:otherwise><p style="font-size: xx-large; color:red;
                         text-align:center;">THIS FILE HAS NO TYPE! <br/>Please VALIDATE agains <a href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng">the schema</a> before attempting to Transform if you want to see something</p></xsl:otherwise>
@@ -157,6 +165,7 @@
     <xsl:include href="placeInstit.xsl"/> <!--includes leaflet javascript-->
     <xsl:include href="Person.xsl"/>
     <xsl:include href="Work.xsl"/>
+    <xsl:include href="nar.xsl"/>
     
     
 <!-- elements templates-->
