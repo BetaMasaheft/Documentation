@@ -37,8 +37,30 @@
                 <xsl:for-each select="//t:place/t:placeName">
                     <xsl:sort/>
                     <li>
-                        <xsl:value-of select="."/>
+                        <xsl:if test="@xml:id">
+                            <xsl:attribute name="id">
+                                <xsl:value-of select="@xml:id"/>
+                            </xsl:attribute>
+                        </xsl:if>
+                        <xsl:choose>
+                            <xsl:when test="@ref">
+                                <a href="{@ref}" target="_blank">
+                                    <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
+                                </a>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
+                            </xsl:otherwise>
+                        </xsl:choose>
                         <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
+                        <xsl:if test="@corresp">
+                            <sup>
+                                <a href="{@corresp}">
+                                    <xsl:value-of select="@xml:lang"/>
+                                    <xsl:text> tr.</xsl:text>
+                                </a>
+                            </sup>
+                        </xsl:if>
                     </li>
                 </xsl:for-each>
             </ul>

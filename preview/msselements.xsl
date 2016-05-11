@@ -136,7 +136,7 @@
     <xsl:template match="t:hi">
        <xsl:choose>
            <xsl:when test="@type = 'apices'">
-           <xsl:value-of select="."/>
+           <sup><xsl:value-of select="."/></sup>
        </xsl:when>
        <xsl:otherwise><xsl:copy/></xsl:otherwise></xsl:choose>
     </xsl:template>
