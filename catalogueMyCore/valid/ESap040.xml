@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ESap040" xml:lang="en" type="mss">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESap040"
+     xml:lang="en"
+     type="mss">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -55,7 +58,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="39vb">Fol. 39vb</locus>Fol.
+                        <locus target="39vb"/>Fol.
                         39vb: ዝመጽፍ[sic]፡ አስልጥ፡ ዘ፯ቱ፡ ዕለት፡ ዘአባ፡ ተክለ፡ ሃይማኖት፡ ወአቡሁ፡ ገብረ፡ ዮሐንስ፡ ወአሙ፡ ወለተ፡
                         ብርሃን፡ ዘአጥረያ፡ ንዋዩ[sic]፡ ከመ፡ ይኩኖ፡ መርሃ፡ ለመንግሥተ፡ ሰማያት፡ በ፲ወ፱፻፸ወ፪ቱ፡ ዓመተ፡ ምሕረት፡
                         በዘመነ፡ ዮሐንስ፡ ወንጌላዊ፡ ተጽሐፈ።<foreign xml:lang="en"/>
@@ -74,8 +77,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </support>
                         <extent>Made of <measure unit="leaf">31.0</measure> folios, of which
                               <measure unit="leaf" type="blank"/> blank Fols. 1r-v, 2r-v, 30r-v,
-                           31r-v., in <measure unit="quire">5.0</measure> quires (A+4). <dimensions
-                              type="outer">
+                           31r-v., in <measure unit="quire">5.0</measure> quires (A+4). <dimensions type="outer">
                               <height unit="cm">23.5</height>
                               <width unit="cm">19.0</width>
                               <depth unit="cm">3.0</depth>

@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ESakm010" xml:lang="en" type="mss">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESakm010"
+     xml:lang="en"
+     type="mss">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -46,7 +49,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="60r">Fol. 60r</locus>Fol.
+                        <locus target="60r"/>Fol.
                         60r: ተጽሕፈ፡ በ፲፱፻፵ወ፬ዓ፡ም፡ በ፫መስከረም፡ ዝመጽሐፍ፡ ዘተክለ፡ ሃይማኖት፡ እምነቱ፡ ዘወሀቦ፡ ለደብረ፡ ሊባኖስ፡
                         ሀገሩ፡ አንበሰት፡ ፍቃዳ፡ እዛ፡ መጽሐፍ፡ ንዕሽቶይ፡ ኮይና፡ ከይትረአየኩም፡ ዓባይ፡ መጽሐፍ፡ እያ፡ እሞ፡ አብ፡ ብራና፡
                         ከምቶውርሱዋ፡ ግበሩ። ሐደራኹም፡ እብለኩም፡ አነ፡ ቀ፡ ወልደ፡ ትንሣኤ፡ ጸሐፊኡ፡<foreign xml:lang="en"/>
@@ -136,8 +139,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#60v">Fol. 60v</locus>: Unclear note. <q xml:lang="gez"
-                              >Fol. 60v: ፲፻፵፯ዓመ እኔየ፡ ቄስ፡ ገብረዮሐንስ፡ ከህሰይ፡ ግብዝና፡ የሰጡጀ፡ አ[ም]በስት፡ መቅደሱ፡
+                           <locus target="#60v">Fol. 60v</locus>: Unclear note. <q xml:lang="gez">Fol. 60v: ፲፻፵፯ዓመ እኔየ፡ ቄስ፡ ገብረዮሐንስ፡ ከህሰይ፡ ግብዝና፡ የሰጡጀ፡ አ[ም]በስት፡ መቅደሱ፡
                               ደብረሊባኖስ፡ የከፈልኩበት፡ ጥለት፡ የንጉሥ፡ እሥራት፡ ፪ተ፡ ፻፸፯ብር፡ ፲፪ሳ[ን]ትም፡ የእትዮጵያ፡ ብር፡
                               …</q>
                            <q xml:lang="en"/> The note is crudely written in Amharic in blue ink

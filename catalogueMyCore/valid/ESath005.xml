@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ESath005" xml:lang="en" type="mss">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESath005"
+     xml:lang="en"
+     type="mss">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -47,7 +50,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="219vc"></locus>Fol.
+                        <locus target="219vc"/>Fol.
                         219vc: ለዛቲ፡ መጽሐፈ፡ ስንከሳር፡ ዜና፡ መላእከት፡ ትጉሃን፡ ወተዝካረ፡ ነቢያት፡ ቅዱሳን፡ ወስብሐተ፡ ሐዋርያት፡
                         ፍጹማን፡ ወገድለ፡ ሰማዕታት፡ መዋዕያን፡ ወተዝካረ፡ ኵሎሙ፡ ጻድቃን፡ ዘአጥረይክዎ፡ አነ፡ ክፍለ፡ ኢየሱስ፡ ለዘጸሐፈ፡
                         ወልደ፡ ኢየሱስ፡ እንዘ፡ እሴፎ፡ ረድኤተ፡ እምኀበ፡ እግዚአብሔር…<foreign xml:lang="en"/>
@@ -62,8 +65,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         <support>
                            <material key="parchment"/>
                         </support>
-                        <extent>Made of <measure unit="leaf">221.0</measure> folios, in <measure
-                              unit="quire">24.0</measure> quires (A+22+B). <dimensions type="outer">
+                        <extent>Made of <measure unit="leaf">221.0</measure> folios, in <measure unit="quire">24.0</measure> quires (A+22+B). <dimensions type="outer">
                               <height unit="cm">36.5</height>
                               <width unit="cm">32.6</width>
                               <depth unit="cm">9.7</depth>
@@ -208,8 +210,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
                         <item xml:id="a1">
-                           <locus target="#62vc">Fol. 62vc</locus>: Donation note (?).<q
-                              xml:lang="gez"/>
+                           <locus target="#62vc">Fol. 62vc</locus>: Donation note (?).<q xml:lang="gez"/>
                            <q xml:lang="en"/> The note, written in crude hand, partly in Tǝgrǝñña
                            (?), mentions Zä-Manäfäs Qǝddus (däğğazmač Säbagadis). </item>
                         <item xml:id="a2">

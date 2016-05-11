@@ -3,7 +3,10 @@
 schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
 type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="ESagm001" xml:lang="en" type="mss">
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="ESagm001"
+     xml:lang="en"
+     type="mss">
    <teiHeader>
       <fileDesc>
          <titleStmt>
@@ -48,30 +51,9 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                   </msItem>
                   <msItem xml:id="coloph1">
                      <colophon>
-                        <locus target="11">Fol.
-                           11&#4829;&#4632;&#4925;&#4624;&#4941;&#4961;
-                           &#4720;&#4925;&#4629;&#4936;&#4961;
-                           &#4704;&#4824;&#4632;&#4752;&#4961;
-                           &#4915;&#4915;&#4661;&#4752;&#4961;
-                           &#4768;&#4705;&#4752;&#4961;
-                           &#4676;&#4653;&#4622;&#4661;&#4961;
-                           &#4808;&#4757;&#4873;&#4645;&#4752;&#4961;
-                           &#4848;&#4834;&#4853;  &#4961;
-                           &#4656;&#4709;&#4768;&#4961;
-                           &#4875;&#4853;&#4661;&#4961;
-                           &#4808;&#4674;&#4661;&#4961;
-                           &#4872;&#4704;&#4825;&#4961;
-                           &#4720;&#4661;&#4939;&#4961;
-                           &#4925;&#4846;&#4757;&#4961;
-                           &#4632;&#4653;&#4848;&#4961;
-                           &#4781;&#4846;&#4661;&#4961;
-                           &#4808;&#4661;&#4632;&#4961;
-                           &#4632;&#4621;&#4776;&#4845;&#4755;&#4961;
-                           &#4877;&#4848;&#4961;
-                           &#4635;&#4653;&#4843;&#4637;&#4961;&#4961;</locus>Fol.
+                        <locus target="11"/>Fol.
                         116vb: ዝመጽሐፍ፡ ተጽሕፈ፡ በዘመነ፡ ጳጳስነ፡ አቡነ፡ ቄርሎስ፡ ወንጉሥነ፡ ደዢድ &lt;...&gt;፡ ሰብአ፡ ጋድስ፡
-                        ወቂስ፡ ገበዙ፡ ተስፋ፡ ጽዮን፡ መርደ፡ ክዮስ፡ ወስመ፡ መልከይና፡ ግደ፡ ማርያም፡፡<foreign xml:lang="en"
-                           >Fol. 116vb: This book has been written at the time of our bishop ʾabunä
+                        ወቂስ፡ ገበዙ፡ ተስፋ፡ ጽዮን፡ መርደ፡ ክዮስ፡ ወስመ፡ መልከይና፡ ግደ፡ ማርያም፡፡<foreign xml:lang="en">Fol. 116vb: This book has been written at the time of our bishop ʾabunä
                            Qerǝlos, our king [däğğazmač] Säbʾa Gadis, qes gäbäz Täsfa Ṣǝyon [and]
                            Märdä Kǝyos, and the name of mälkäyna is Gǝdä Maryam. </foreign>
                         <note/>
@@ -86,8 +68,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                         </support>
                         <extent>Made of <measure unit="leaf">118.0</measure> folios, of which
                               <measure unit="leaf" type="blank"/> blank 1r, 2v, 15v, 117r-v, 118r-v,
-                           in <measure unit="quire">15.0</measure> quires (13+A+B). <dimensions
-                              type="outer">
+                           in <measure unit="quire">15.0</measure> quires (13+A+B). <dimensions type="outer">
                               <height unit="cm">27.0</height>
                               <width unit="cm">23.0</width>
                               <depth unit="cm">5.5</depth>
@@ -211,8 +192,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                               61rb, 68vb)</item>
                         </list>
                      </handNote>
-                     <handNote xml:id="h2" script="Ethiopic"
-                        >Angular<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
+                     <handNote xml:id="h2" script="Ethiopic">Angular<!--The names of this hands need to be replaced by appropriate refs.--></handNote>
                   </handDesc>
                   <additions><!--THIS element in domlib CONTAINS ESCAPED HTML, thus it is not possible to reliably extract the information about pages. Please watch out.-->
                      <list>
@@ -225,8 +205,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
                            Täsfa Ṣǝyon, Märdä Kǝyos, Gǝdä Maryam and the name of the scribe
                            zä-Dǝngǝl. </item>
                         <item xml:id="a2">
-                           <locus target="#112rb">Fol. 112rb</locus>: Ownership note.<q
-                              xml:lang="gez">Fol. 112rb: ዛቲ፡ መጽሐፈ፡ ፍትሐት፡ ዘቅዱስ፡ ሚካኤል፡ ዘአጋምዮ፡ ዘሠረቃ፡
+                           <locus target="#112rb">Fol. 112rb</locus>: Ownership note.<q xml:lang="gez">Fol. 112rb: ዛቲ፡ መጽሐፈ፡ ፍትሐት፡ ዘቅዱስ፡ ሚካኤል፡ ዘአጋምዮ፡ ዘሠረቃ፡
                               ወዘፈሐቃ፡ ወዘተአገላ፡ ወዘአልሃላ፡ ውጉዘ፡ ለይኩን፡ በቃለ፡ ፫፻፲ወ፰ርቱዓነ፡ ሃይማኖት፡ ወፈድፋደ፡ ይኩን፡
                               መክፈልቱ፡ ምስለ፡ አርዮስ፡ ለዓለመ፡ ዓለም፡ አሜን፡፡</q>
                            <q xml:lang="en"/> Written in the main hand. The note mentions the church
