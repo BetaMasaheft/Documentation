@@ -7,7 +7,7 @@
     
     <xsl:output method="html" indent="yes"/>
     
-    <xsl:key name="decotype" match="//t:decoDesc//t:decoNote" use="@type"/>
+    <xsl:key name="decotype" match="//t:decoNote" use="@type"/>
     <xsl:key name="additiontype" match="//t:item[contains(@xml:id, 'a')]/t:desc" use="@type"/>
 
 

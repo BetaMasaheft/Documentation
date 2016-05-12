@@ -108,12 +108,6 @@
         </p>
     </xsl:template>
     
-    <xsl:template match="t:textLang">
-        <p>
-            <b>Language: </b>
-            <xsl:apply-templates/>
-        </p>
-    </xsl:template>
     
     <xsl:template match="t:rubric">
         <p>

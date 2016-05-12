@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:t="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.tei-c.org/ns/1.0" 
+    exclude-result-prefixes="xs" version="2.0">
 
     <xsl:template name="mss">
         <nav>
@@ -76,17 +78,20 @@
                 <p align="right" style="font-size:xx-large;">Dated</p>
             </xsl:if>
             <h2>General description</h2>
-            <xsl:if test="//t:history"><h3>origin</h3>
-            <p>
-                <xsl:apply-templates select="//t:history"/>
-            </p></xsl:if>
+            <xsl:if test="//t:history">
+                <h3>origin</h3>
+                <p>
+                    <xsl:apply-templates select="//t:history"/>
+                </p>
+            </xsl:if>
             <xsl:if test="//t:listPerson/t:person">
                 <h3>People</h3>
-            <xsl:for-each select="//t:listPerson/t:person">
-                <p>
-                    <xsl:apply-templates/>
-                </p>
-            </xsl:for-each></xsl:if>
+                <xsl:for-each select="//t:listPerson/t:person">
+                    <p>
+                        <xsl:apply-templates/>
+                    </p>
+                </xsl:for-each>
+            </xsl:if>
             <h3>State of preservation</h3>
             <p>
                 <b>
@@ -94,14 +99,18 @@
                 </b>
             </p>
 
-            <p><xsl:value-of select="//t:custEvent/@restorations"/> restorations :<xsl:value-of
-                    select="//t:custEvent/@subtype"/></p>
-           <xsl:if test="//t:condition"> <h4>Condition</h4>
+            <xsl:if test="//t:custEvent/@restorations">
+                <p><xsl:value-of select="//t:custEvent/@restorations"/> restorations :<xsl:value-of
+                        select="//t:custEvent/@subtype"/></p>
+            </xsl:if>
+            <xsl:if test="//t:condition">
+                <h4>Condition</h4>
 
-            <p>
+                <p>
 
-                <xsl:apply-templates select="//t:condition"/>
-            </p></xsl:if>
+                    <xsl:apply-templates select="//t:condition"/>
+                </p>
+            </xsl:if>
             <h3>Number of texts: <xsl:value-of select="count(//t:msItem[contains(@xml:id, 'i')])"
                 /></h3>
             <h3>Number of units: <xsl:choose>
@@ -201,13 +210,15 @@
                 </p>
             </xsl:if>
 
-            <h3>collation</h3>
-            <xsl:if test="//t:collation">
-                <p>
+           
+            <xsl:if test="//t:collation[node()]"> <h3>collation</h3>
+                
                     <xsl:if test="//t:signatures">
-                        <xsl:apply-templates select="//t:signatures"/>
+                        <p>
+                        <xsl:apply-templates select="//t:signatures"/>  
+                    </p>
                     </xsl:if>
-                </p>
+              
 
                 <div class="collation">
 
@@ -233,7 +244,7 @@
                                 </td>
                             </xsl:for-each>
                         </tr>
-                        <tr  style="background-color: lightgray;">
+                        <tr style="background-color: lightgray;">
                             <td class="headcol">leafs</td>
                             <xsl:for-each select="//t:collation//t:item">
                                 <xsl:sort select="position()"/>
@@ -260,7 +271,7 @@
                                 </td>
                             </xsl:for-each>
                         </tr>
-                        
+
                     </table>
                 </div>
             </xsl:if>
@@ -583,7 +594,7 @@
             <h2>Decoration</h2>
             <xsl:text>In this manuscript there are </xsl:text>
             <xsl:for-each
-                select="//t:decoDesc/t:decoNote[generate-id() = generate-id(key('decotype', @type)[1])]">
+                select="//t:decoNote[not(ancestor::t:binding)][generate-id() = generate-id(key('decotype', @type)[1])]">
                 <xsl:value-of select="concat(' ', count(key('decotype', ./@type)), ' ', ./@type)"/>
                 <xsl:choose>
                     <xsl:when test="not(position() = last()) and not(position() + 1 = last())">
@@ -596,7 +607,7 @@
                 </xsl:choose>
             </xsl:for-each>
             <ol>
-                <xsl:for-each select="//t:decoDesc/t:decoNote">
+                <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)]">
                     <li>
                         <xsl:attribute name="id">
                             <xsl:value-of select="@xml:id"/>
