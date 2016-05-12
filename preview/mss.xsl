@@ -62,16 +62,6 @@
         </nav>
         <section id="general">
 
-            <!--<b><xsl:value-of select="//t:msIdentifier/t:idno"/></b>
-                
-                <xsl:if test="//t:msIdentifier/t:altIdentifier">
-                    <xsl:text>, </xsl:text>
-                    <xsl:for-each select="//t:msIdentifier/t:altIdentifier">
-                        <xsl:sort/>
-                        <xsl:value-of select="concat(., ' ')"/>
-                    </xsl:for-each>
-                </xsl:if>
-                -->
             <xsl:apply-templates select="//t:msIdentifier"/>
 
             <p>Edited by <xsl:apply-templates
@@ -86,16 +76,17 @@
                 <p align="right" style="font-size:xx-large;">Dated</p>
             </xsl:if>
             <h2>General description</h2>
-            <h3>origin</h3>
+            <xsl:if test="//t:history"><h3>origin</h3>
             <p>
                 <xsl:apply-templates select="//t:history"/>
-            </p>
-            <h3>People</h3>
+            </p></xsl:if>
+            <xsl:if test="//t:listPerson/t:person">
+                <h3>People</h3>
             <xsl:for-each select="//t:listPerson/t:person">
                 <p>
                     <xsl:apply-templates/>
                 </p>
-            </xsl:for-each>
+            </xsl:for-each></xsl:if>
             <h3>State of preservation</h3>
             <p>
                 <b>
@@ -105,12 +96,12 @@
 
             <p><xsl:value-of select="//t:custEvent/@restorations"/> restorations :<xsl:value-of
                     select="//t:custEvent/@subtype"/></p>
-            <h4>Condition</h4>
+           <xsl:if test="//t:condition"> <h4>Condition</h4>
 
             <p>
 
                 <xsl:apply-templates select="//t:condition"/>
-            </p>
+            </p></xsl:if>
             <h3>Number of texts: <xsl:value-of select="count(//t:msItem[contains(@xml:id, 'i')])"
                 /></h3>
             <h3>Number of units: <xsl:choose>
@@ -259,16 +250,7 @@
                                     <xsl:apply-templates select="t:locus"/>
                                 </td>
                             </xsl:for-each>
-                        </tr><!--
-                        <tr  style="background-color: lightgray;">
-                            <td class="headcol">notes</td>
-                            <xsl:for-each select="//t:collation//t:item">
-                                <xsl:sort select="position()"/>
-                                <td>
-                                    <xsl:value-of select="t:note"/>
-                                </td>
-                            </xsl:for-each>
-                        </tr>-->
+                        </tr>
                         <tr>
                             <td class="headcol">description</td>
                             <xsl:for-each select="//t:collation//t:item">
