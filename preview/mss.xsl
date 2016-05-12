@@ -125,7 +125,8 @@
             <p>
                 <xsl:value-of select="//t:binding/t:decoNote[position() = 1]"/>
             </p>
-            <h3>Outer dimension</h3>
+           <xsl:if test="//t:dimensions[@type='outer']">
+               <h3>Outer dimension</h3>
 
             <p>H: <xsl:value-of select="//t:extent/t:dimensions/t:height"/> x W: <xsl:value-of
                     select="//t:extent/t:dimensions/t:width"/><xsl:if
@@ -135,7 +136,7 @@
                 />. </p>
             <p>(proportion height/width: <xsl:value-of
                     select="format-number(number(//t:extent/t:dimensions/t:height div //t:extent/t:dimensions/t:width), '#0.0###')"
-                /> ) </p>
+                /> ) </p></xsl:if>
             <xsl:if test="//t:extent/t:note">
                 <p>
                     <xsl:apply-templates select="//t:extent/t:note"/>

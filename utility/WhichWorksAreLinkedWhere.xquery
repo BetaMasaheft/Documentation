@@ -12,7 +12,7 @@ declare option output:media-type "text/html";
  <ul>
  
  {
-let $work := collection("../../test")//tei:TEI[@type='work']
+let $work := collection("../../Works")//tei:TEI[@type='work']
 let $manuscript := collection("../../test")//tei:TEI[@type='mss']
 for $workcited in collection("../../test")//tei:title
 let $id:= $workcited/@corresp
