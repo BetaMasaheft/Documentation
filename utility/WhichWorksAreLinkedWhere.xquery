@@ -12,30 +12,26 @@ declare option output:media-type "text/html";
  <ul>
  
  {
-let $work := collection("../../Works")//tei:TEI[@type='work']
-let $manuscript := collection("../../test")//tei:TEI[@type='mss']
-for $workcited in collection("../../test")//tei:title
-let $id:= $workcited/@corresp
-    return <li>{$work[@xml:id = $id]//tei:titleStmt/tei:title[1]}
-    
-    </li>
- }
- </ul>
- <ul>
  
- {
- 
-let $work := collection("../../test")//tei:TEI[@type='work']
- 
-for $manuscript in collection("../../test")//tei:TEI
-    return <li>{$manuscript/@xml:id}
+let $person := collection("../../Personstest")//tei:TEI
+let $manuscript := collection("../../test")//tei:TEI
+let $work := collection("../../workstest")//tei:TEI
+for $workcited in distinct-values($manuscript//tei:title/@corresp)
+    return <li>{
+        if ($work[@xml:id = $workcited])
+        then $work[@xml:id = $workcited]//tei:titleStmt/tei:title[1]/text()
+        else $workcited
+        }
+    cited by
     <ul>
-    {for $title in $manuscript//tei:title
-        return <li>{$title/@corresp}</li>
-    }
+    {for $citingmss in $manuscript[//tei:title/@corresp = $workcited]
+        return <li>{concat($citingmss//tei:titleStmt/tei:title[1]/text(),' (',$citingmss/@xml:id, ')')}</li>}
+    {for $citingmss in $person[//tei:title/@corresp = $workcited]
+        return <li>{concat($citingmss//tei:titleStmt/tei:title[1]/text(),' (',$citingmss/@xml:id, ')')}</li>}
     </ul>
     </li>
  }
  </ul>
+
 </body>
 </html>

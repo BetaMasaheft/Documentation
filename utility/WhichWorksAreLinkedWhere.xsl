@@ -7,6 +7,14 @@
     
     version="2.0">
 <!--    all works that have been linked to? with links to the mss / persons etc from where they are linked-->
-    
+    <xsl:variable name="collection" select="collection('../../Manuscripts')"/>
+    <xsl:template match="/">
+        <ul>
+            <xsl:for-each select="$collection//t:title">
+        <li><xsl:value-of select="@corresp"/></li>        
+        
+        </xsl:for-each>
+        </ul>
+    </xsl:template>
     
 </xsl:stylesheet>
