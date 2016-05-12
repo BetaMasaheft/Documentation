@@ -566,6 +566,8 @@
                     </li>
                 </xsl:for-each>
             </ol>
+            <h2>Catalogued in</h2>
+                <xsl:apply-templates select="//t:additional//t:listBibl"/>
             <h2>Keywords</h2>
             <ul>
                 <xsl:for-each select="//t:term">
