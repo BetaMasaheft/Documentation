@@ -406,6 +406,16 @@
                 </xsl:for-each>
             </ul></xsl:if>
             
+            <xsl:if test="//t:ab[@type != 'pricking' or 'ruling']"> 
+                <h3>Other</h3>
+                <ul>
+                    <xsl:for-each select="//t:ab[@type != 'pricking' or 'ruling']">
+                        <li>
+                            <xsl:value-of select="@type"/><xsl:text> </xsl:text><xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"/><xsl:text>) </xsl:text></xsl:if><xsl:text>: </xsl:text><xsl:value-of select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul></xsl:if>
+            
 <xsl:if test="//t:layout//t:ab[not(@type)]">
     <h3 style="color:red;">ab without type</h3>
     <ul>            <xsl:for-each select="//t:ab[not(@type)]">
@@ -435,8 +445,9 @@
                         </li>
                     </xsl:for-each>
                 </ul></xsl:if>
-                <b>Scribe</b>
-                <xsl:apply-templates select="child::node() except (t:list | t:ab | t:seg)"/>
+                <xsl:if test="t:persName[@role='scribe']"><b>Scribe</b>
+                <p><xsl:apply-templates select="t:persName[@role='scribe']"/></p></xsl:if>
+                <xsl:apply-templates select="child::node() except (t:list | t:ab[@type='script'] | t:seg)"/>
             </xsl:for-each>
             <h4>Punctuation</h4>
             <p>Executed: <xsl:value-of select="//t:ab[@subtype = 'Executed']"/></p>

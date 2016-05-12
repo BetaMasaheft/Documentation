@@ -151,5 +151,9 @@
        <xsl:otherwise><xsl:copy/></xsl:otherwise></xsl:choose>
     </xsl:template>
     
+    <xsl:template match="t:ab | t:desc[parent::t:handNote]">
+        <p><xsl:if test="@type"><b><xsl:value-of select="@type"/></b><xsl:text>: </xsl:text></xsl:if><xsl:value-of select="."/></p>
+        
+    </xsl:template>
     
 </xsl:stylesheet>
