@@ -595,7 +595,7 @@
             <xsl:text>In this manuscript there are </xsl:text>
             <xsl:for-each
                 select="//t:decoNote[not(ancestor::t:binding)][generate-id() = generate-id(key('decotype', @type)[1])]">
-                <xsl:value-of select="concat(' ', count(key('decotype', ./@type)), ' ', ./@type)"/>
+                <xsl:value-of select="concat(' ', count(key('decotype', ./@type)), ' notes about ', ./@type)"/>
                 <xsl:choose>
                     <xsl:when test="not(position() = last()) and not(position() + 1 = last())">
                         <xsl:text>,</xsl:text>
@@ -606,8 +606,24 @@
                     <xsl:otherwise>.</xsl:otherwise>
                 </xsl:choose>
             </xsl:for-each>
-            <ol>
-                <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)]">
+            <p><xsl:apply-templates select="//t:decoDesc/t:summary"/></p>
+            
+                <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type='frame']">
+                    <h3>Frame notes</h3>
+                    <ol>
+                        <li>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="concat(@type, ': ')"/>
+                        <xsl:apply-templates/>
+                    </li>
+                    </ol>
+                </xsl:for-each>
+            
+            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type='miniature']">
+                <h3>Miniature notes</h3>
+                <ol>
                     <li>
                         <xsl:attribute name="id">
                             <xsl:value-of select="@xml:id"/>
@@ -615,8 +631,20 @@
                         <xsl:value-of select="concat(@type, ': ')"/>
                         <xsl:apply-templates/>
                     </li>
-                </xsl:for-each>
-            </ol>
+                </ol>
+            </xsl:for-each>
+            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type != 'miniature' or 'frame']">
+                <h3>Other decorations</h3>
+                <ol>
+                    <li>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="concat(@type, ': ')"/>
+                        <xsl:apply-templates/>
+                    </li>
+                </ol>
+            </xsl:for-each>
             <h2>Catalogued in</h2>
             <xsl:apply-templates select="//t:additional//t:listBibl"/>
             <h2>Keywords</h2>
