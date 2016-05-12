@@ -35,7 +35,7 @@
         </xsl:choose>
             <xsl:if test="@n">
                 <xsl:text>, l.</xsl:text>
-                <xsl:value-of select="."/>
+                <xsl:value-of select="@n"/>
             </xsl:if></xsl:when>
             <xsl:otherwise>
                 <xsl:choose>

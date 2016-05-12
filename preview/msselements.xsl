@@ -156,4 +156,10 @@
         
     </xsl:template>
     
+    <xsl:template match="t:textLang">
+        <xsl:variable name="curlang" select="@mainLang"/>
+        <p><b>Language of text: </b><xsl:value-of select="//t:language[@ident = $curlang]"/></p>
+        
+    </xsl:template>
+    
 </xsl:stylesheet>

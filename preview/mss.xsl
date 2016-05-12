@@ -61,8 +61,8 @@
                 </xsl:for-each></ul>
         </nav>
         <section id="general">
-            
-                <!--<b><xsl:value-of select="//t:msIdentifier/t:idno"/></b>
+
+            <!--<b><xsl:value-of select="//t:msIdentifier/t:idno"/></b>
                 
                 <xsl:if test="//t:msIdentifier/t:altIdentifier">
                     <xsl:text>, </xsl:text>
@@ -72,8 +72,8 @@
                     </xsl:for-each>
                 </xsl:if>
                 -->
-                <xsl:apply-templates select="//t:msIdentifier"/>
-            
+            <xsl:apply-templates select="//t:msIdentifier"/>
+
             <p>Edited by <xsl:apply-templates
                     select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
                 <xsl:if test="//t:publicationStmt/t:date"><xsl:text> on </xsl:text><xsl:value-of
@@ -81,7 +81,8 @@
                 /></xsl:if></p>
         </section>
         <section id="description">
-            <xsl:if test="//t:date[@evidence='internal-date'] or //t:origDate[@evidence='internal-date']">
+            <xsl:if
+                test="//t:date[@evidence = 'internal-date'] or //t:origDate[@evidence = 'internal-date']">
                 <p align="right" style="font-size:xx-large;">Dated</p>
             </xsl:if>
             <h2>General description</h2>
@@ -92,20 +93,22 @@
             <h3>People</h3>
             <xsl:for-each select="//t:listPerson/t:person">
                 <p>
-                <xsl:apply-templates/>
-            </p>
+                    <xsl:apply-templates/>
+                </p>
             </xsl:for-each>
             <h3>State of preservation</h3>
             <p>
-                <b><xsl:value-of select="//t:condition/@key"/></b>
+                <b>
+                    <xsl:value-of select="//t:condition/@key"/>
+                </b>
             </p>
-            
+
             <p><xsl:value-of select="//t:custEvent/@restorations"/> restorations :<xsl:value-of
                     select="//t:custEvent/@subtype"/></p>
             <h4>Condition</h4>
-          
+
             <p>
-                
+
                 <xsl:apply-templates select="//t:condition"/>
             </p>
             <h3>Number of texts: <xsl:value-of select="count(//t:msItem[contains(@xml:id, 'i')])"
@@ -125,10 +128,14 @@
             <h3>Outer dimension</h3>
 
             <p>H: <xsl:value-of select="//t:extent/t:dimensions/t:height"/> x W: <xsl:value-of
-                select="//t:extent/t:dimensions/t:width"/><xsl:if test="//t:extent/t:dimensions/t:depth"> x D <xsl:value-of select="//t:extent/t:dimensions/t:depth"/> </xsl:if><xsl:text> </xsl:text><xsl:value-of select="//t:extent/t:dimensions/@unit"/>. </p>
+                    select="//t:extent/t:dimensions/t:width"/><xsl:if
+                    test="//t:extent/t:dimensions/t:depth"> x D <xsl:value-of
+                        select="//t:extent/t:dimensions/t:depth"/>
+                </xsl:if><xsl:text> </xsl:text><xsl:value-of select="//t:extent/t:dimensions/@unit"
+                />. </p>
             <p>(proportion height/width: <xsl:value-of
-                select="format-number(number(//t:extent/t:dimensions/t:height div //t:extent/t:dimensions/t:width), '#0.0###')"/>
-                ) </p>
+                    select="format-number(number(//t:extent/t:dimensions/t:height div //t:extent/t:dimensions/t:width), '#0.0###')"
+                /> ) </p>
             <xsl:if test="//t:extent/t:note">
                 <p>
                     <xsl:apply-templates select="//t:extent/t:note"/>
@@ -136,31 +143,36 @@
             </xsl:if>
 
             <h3>binding</h3>
-            <h4>endbands</h4>
-            <p>
-                <xsl:choose>
-                    <xsl:when test="//t:bindingDesc//t:decoDesc[@type = 'Endbands']">Yes</xsl:when>
-                    <xsl:otherwise>No</xsl:otherwise>
-                </xsl:choose>
-            </p>
-            <h4>headbands</h4>
-            <p>
-                <xsl:choose>
-                    <xsl:when test="//t:bindingDesc//t:decoDesc[@type = 'Headbands']">Yes</xsl:when>
-                    <xsl:otherwise>No</xsl:otherwise>
-                </xsl:choose>
-            </p>
-            <h4>tailbands</h4>
-            <p>
-                <xsl:choose>
-                    <xsl:when test="//t:bindingDesc//t:decoDesc[@type = 'Headbands']">Yes</xsl:when>
-                    <xsl:otherwise>No</xsl:otherwise>
-                </xsl:choose>
-            </p>
-            <h4>binding decoration</h4>
-            <p>
-                <xsl:value-of select="//t:binding/t:decoNote[@type = 'Other']"/>
-            </p>
+
+            <xsl:if test="//t:bindingDesc//t:decoDesc[@type = 'Endbands']">
+                <h4>endbands</h4>
+                <p> Yes </p>
+
+            </xsl:if>
+
+
+
+
+            <xsl:if test="//t:bindingDesc//t:decoDesc[@type = 'Headbands']">
+                <h4>headbands</h4>
+                <p> Yes </p>
+            </xsl:if>
+
+
+
+            <xsl:if test="//t:bindingDesc//t:decoDesc[@type = 'Headbands']">
+                <h4>tailbands</h4>
+                <p> Yes </p>
+            </xsl:if>
+
+
+
+            <xsl:if test="//t:binding/t:decoNote[@type = 'Other']">
+                <h4>binding decoration</h4>
+                <p>
+                    <xsl:value-of select="//t:binding/t:decoNote[@type = 'Other']"/>
+                </p>
+            </xsl:if>
             <h4> binding material</h4>
             <p>
                 <xsl:value-of
@@ -200,14 +212,16 @@
 
             <h3>collation</h3>
             <xsl:if test="//t:collation">
-                <p><xsl:if test="//t:signatures">
+                <p>
+                    <xsl:if test="//t:signatures">
                         <xsl:apply-templates select="//t:signatures"/>
-                    </xsl:if></p>
-                
+                    </xsl:if>
+                </p>
+
                 <div class="collation">
-                    
+
                     <table>
-                        <tr>
+                        <tr style="background-color: lightgray;">
                             <td class="headcol">position</td>
                             <xsl:for-each select="//t:collation//t:item">
                                 <xsl:sort select="position()"/>
@@ -220,6 +234,15 @@
                             </xsl:for-each>
                         </tr>
                         <tr>
+                            <td class="headcol">number</td>
+                            <xsl:for-each select="//t:collation//t:item">
+                                <xsl:sort select="position()"/>
+                                <td>
+                                    <xsl:apply-templates select="@n"/>
+                                </td>
+                            </xsl:for-each>
+                        </tr>
+                        <tr  style="background-color: lightgray;">
                             <td class="headcol">leafs</td>
                             <xsl:for-each select="//t:collation//t:item">
                                 <xsl:sort select="position()"/>
@@ -236,7 +259,16 @@
                                     <xsl:apply-templates select="t:locus"/>
                                 </td>
                             </xsl:for-each>
-                        </tr>
+                        </tr><!--
+                        <tr  style="background-color: lightgray;">
+                            <td class="headcol">notes</td>
+                            <xsl:for-each select="//t:collation//t:item">
+                                <xsl:sort select="position()"/>
+                                <td>
+                                    <xsl:value-of select="t:note"/>
+                                </td>
+                            </xsl:for-each>
+                        </tr>-->
                         <tr>
                             <td class="headcol">description</td>
                             <xsl:for-each select="//t:collation//t:item">
@@ -246,6 +278,7 @@
                                 </td>
                             </xsl:for-each>
                         </tr>
+                        
                     </table>
                 </div>
             </xsl:if>
@@ -257,13 +290,15 @@
             <h3>layout</h3>
             <xsl:for-each select="//t:layout[t:dimensions]">
                 <xsl:sort select="position()"/>
-                <h4><xsl:value-of select="position()"/></h4>
-                
-                
+                <h4>
+                    <xsl:value-of select="position()"/>
+                </h4>
+
+
                 <p>Number of columns : <xsl:value-of select="@columns"/></p>
-                
+
                 <p>Number of lines : <xsl:value-of select="@writtenLines"/></p>
-                
+
                 <table>
                     <tr>
                         <td>H</td>
@@ -288,8 +323,7 @@
                     <tr>
                         <td>Margins</td>
                         <td>Top: <xsl:value-of
-                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'top']"
-                            /></td>
+                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'top']"/></td>
                     </tr>
                     <tr>
                         <td/>
@@ -306,13 +340,15 @@
                     <tr>
                         <td/>
                         <td>Left: <xsl:value-of
-                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'left']"
-                            /></td>
+                                select="t:dimensions[@type = 'margin']/t:dim[@type = 'left']"/></td>
                     </tr>
                 </table>
-                <xsl:if test="t:note"><p><xsl:apply-templates select="t:note"
-                        /></p></xsl:if> 
-                    <xsl:variable name="topmargin"
+                <xsl:if test="t:note">
+                    <p>
+                        <xsl:apply-templates select="t:note"/>
+                    </p>
+                </xsl:if>
+                <xsl:variable name="topmargin"
                     select="
                         if (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'top'][1]/text()) then
                             (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'top'][1])
@@ -336,10 +372,8 @@
                             (t:dimensions[@type = 'margin'][1]/t:dim[@type = 'left'][1])
                         else
                             ('0')"/>
-                <xsl:variable name="textwidth"
-                    select="t:dimensions[not(@type)][1]/t:width[1]"/>
-                <xsl:variable name="heighText"
-                    select="t:dimensions[not(@type)][1]/t:height[1]"/>
+                <xsl:variable name="textwidth" select="t:dimensions[not(@type)][1]/t:width[1]"/>
+                <xsl:variable name="heighText" select="t:dimensions[not(@type)][1]/t:height[1]"/>
                 <xsl:variable name="totalHeight"
                     select="
                         if (//t:supportDesc/t:extent/t:dimensions[@type = 'outer']/t:height/text()) then
@@ -383,47 +417,62 @@
                                 <xsl:if test="number($totalwidth) = 0">object width </xsl:if>
                             </xsl:otherwise>
                         </xsl:choose></p>
-                </div></xsl:for-each>
-            <xsl:if test="//t:ab[@type = 'ruling']"> 
-                
-            <h3>ruling</h3>
-            <ul>
-                <xsl:for-each select="//t:ab[@type = 'ruling']">
-                    <li>
-                        <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"/><xsl:text>) </xsl:text></xsl:if><xsl:value-of select="."/>
-                    </li>
-                </xsl:for-each>
-               
-            </ul>
+                </div>
+            </xsl:for-each>
+            <xsl:if test="//t:ab[@type = 'ruling']">
+
+                <h3>ruling</h3>
+                <ul>
+                    <xsl:for-each select="//t:ab[@type = 'ruling']">
+                        <li>
+                            <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"
+                                /><xsl:text>) </xsl:text></xsl:if>
+                            <xsl:value-of select="."/>
+                        </li>
+                    </xsl:for-each>
+
+                </ul>
             </xsl:if>
-            <xsl:if test="//t:ab[@type = 'pricking']"> 
+            <xsl:if test="//t:ab[@type = 'pricking']">
                 <h3>pricking</h3>
-            <ul>
-                <xsl:for-each select="//t:ab[@type = 'pricking']">
-                    <li>
-                        <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"/><xsl:text>) </xsl:text></xsl:if><xsl:value-of select="."/>
-                    </li>
-                </xsl:for-each>
-            </ul></xsl:if>
-            
-            <xsl:if test="//t:ab[@type != 'pricking' or 'ruling']"> 
+                <ul>
+                    <xsl:for-each select="//t:ab[@type = 'pricking']">
+                        <li>
+                            <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"
+                                /><xsl:text>) </xsl:text></xsl:if>
+                            <xsl:value-of select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+
+            <xsl:if test="//t:ab[@type != 'pricking' or 'ruling']">
                 <h3>Other</h3>
                 <ul>
                     <xsl:for-each select="//t:ab[@type != 'pricking' or 'ruling']">
                         <li>
-                            <xsl:value-of select="@type"/><xsl:text> </xsl:text><xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"/><xsl:text>) </xsl:text></xsl:if><xsl:text>: </xsl:text><xsl:value-of select="."/>
+                            <xsl:value-of select="@type"/>
+                            <xsl:text> </xsl:text>
+                            <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"
+                                /><xsl:text>) </xsl:text></xsl:if>
+                            <xsl:text>: </xsl:text>
+                            <xsl:value-of select="."/>
                         </li>
                     </xsl:for-each>
-                </ul></xsl:if>
-            
-<xsl:if test="//t:layout//t:ab[not(@type)]">
-    <h3 style="color:red;">ab without type</h3>
-    <ul>            <xsl:for-each select="//t:ab[not(@type)]">
-                <li>
-                    <b style="color:red;">THIS ab element does not have a required type.</b>
-                    <xsl:value-of select="."/>
-                </li>
-            </xsl:for-each></ul></xsl:if>
+                </ul>
+            </xsl:if>
+
+            <xsl:if test="//t:layout//t:ab[not(@type)]">
+                <h3 style="color:red;">ab without type</h3>
+                <ul>
+                    <xsl:for-each select="//t:ab[not(@type)]">
+                        <li>
+                            <b style="color:red;">THIS ab element does not have a required type.</b>
+                            <xsl:value-of select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
             <h3>Palaeography</h3>
             <xsl:for-each select="//t:handNote">
                 <h4>
@@ -435,19 +484,23 @@
                     /></p>
                 <p>Ink: <xsl:value-of select="t:seg[@type = 'ink']"/></p>
                 <xsl:if test="t:list[@type = 'abbreviations']">
-                    <h4>
-                        Abbreviations
-                    </h4>
+                    <h4> Abbreviations </h4>
                     <ul>
-                    <xsl:for-each select="t:list[@type = 'abbreviations']/t:item">
-                        <li>
-                            <xsl:apply-templates select="."/>
-                        </li>
-                    </xsl:for-each>
-                </ul></xsl:if>
-                <xsl:if test="t:persName[@role='scribe']"><b>Scribe</b>
-                <p><xsl:apply-templates select="t:persName[@role='scribe']"/></p></xsl:if>
-                <xsl:apply-templates select="child::node() except (t:list | t:ab[@type='script'] | t:seg)"/>
+                        <xsl:for-each select="t:list[@type = 'abbreviations']/t:item">
+                            <li>
+                                <xsl:apply-templates select="."/>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </xsl:if>
+                <xsl:if test="t:persName[@role = 'scribe']">
+                    <b>Scribe</b>
+                    <p>
+                        <xsl:apply-templates select="t:persName[@role = 'scribe']"/>
+                    </p>
+                </xsl:if>
+                <xsl:apply-templates
+                    select="child::node() except (t:list | t:ab[@type = 'script'] | t:seg)"/>
             </xsl:for-each>
             <h4>Punctuation</h4>
             <p>Executed: <xsl:value-of select="//t:ab[@subtype = 'Executed']"/></p>
@@ -462,30 +515,23 @@
                     </li>
                 </xsl:for-each>
             </ul>
-            <h4>crux</h4>
-            <p>
-                <xsl:choose>
-                    <xsl:when test="//t:layout//t:ab[@type = 'CruxAnsata']">Yes <xsl:apply-templates
-                            select="//t:layout//t:ab[@type = 'CruxAnsata']"/></xsl:when>
-                    <xsl:otherwise>No</xsl:otherwise>
-                </xsl:choose>
-            </p>
-            <h4>coronis</h4>
-            <p>
-                <xsl:choose>
-                    <xsl:when test="//t:layout//t:ab[@type = 'coronis']">Yes <xsl:apply-templates
-                            select="//t:layout//t:ab[@type = 'coronis']"/></xsl:when>
-                    <xsl:otherwise>No</xsl:otherwise>
-                </xsl:choose>
-            </p>
-            <h4>chirho</h4>
-            <p>
-                <xsl:choose>
-                    <xsl:when test="//t:layout//t:ab[@type = 'ChiRho']">Yes <xsl:apply-templates
-                            select="//t:layout//t:ab[@type = 'ChiRho']"/></xsl:when>
-                    <xsl:otherwise>No</xsl:otherwise>
-                </xsl:choose>
-            </p>
+
+            <xsl:if test="//t:layout//t:ab[@type = 'CruxAnsata']">
+                <h4>crux</h4>
+                <p>Yes <xsl:apply-templates select="//t:layout//t:ab[@type = 'CruxAnsata']"/></p>
+            </xsl:if>
+
+            <xsl:if test="//t:layout//t:ab[@type = 'coronis']">
+                <h4>coronis</h4>
+                <p>Yes <xsl:apply-templates select="//t:layout//t:ab[@type = 'coronis']"/></p>
+            </xsl:if>
+
+
+            <xsl:if test="//t:layout//t:ab[@type = 'ChiRho']">
+                <h4>crux</h4>
+                <p>Yes <xsl:apply-templates select="//t:layout//t:ab[@type = 'ChiRho']"/></p>
+            </xsl:if>
+
         </section>
 
 
@@ -511,8 +557,9 @@
             <xsl:if test="//t:additions/t:note">
                 <p>
                     <xsl:apply-templates select="//t:additions/t:note"/>
-            </p>
-            </xsl:if><ol>
+                </p>
+            </xsl:if>
+            <ol>
                 <xsl:for-each select="//t:item[contains(@xml:id, 'a')]">
                     <li>
                         <xsl:attribute name="id">
@@ -578,7 +625,7 @@
                 </xsl:for-each>
             </ol>
             <h2>Catalogued in</h2>
-                <xsl:apply-templates select="//t:additional//t:listBibl"/>
+            <xsl:apply-templates select="//t:additional//t:listBibl"/>
             <h2>Keywords</h2>
             <ul>
                 <xsl:for-each select="//t:term">
