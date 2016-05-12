@@ -9,7 +9,9 @@
     
     
     <xsl:template match="t:msItem[parent::t:msContents]">
-        <div class="container">
+        <xsl:choose><xsl:when test=".[contains(@xml:id, 'coloph')]">
+            <xsl:call-template name="colophon"/>
+        </xsl:when><xsl:otherwise><div class="container">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
@@ -18,11 +20,13 @@
             
             <div id="item{@xml:id}" class="collapse"><xsl:apply-templates/></div>
         </div>
-        <hr/>
+        <hr/></xsl:otherwise></xsl:choose>
     </xsl:template>
     
     <xsl:template match="t:msItem[parent::t:msItem]">
-        
+        <xsl:choose><xsl:when test=".[contains(@xml:id, 'coloph')]">
+            <xsl:call-template name="colophon"/>
+        </xsl:when><xsl:otherwise>
         <div style="padding-left: 50px;">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
@@ -34,7 +38,32 @@
             
             <div><xsl:apply-templates/></div>
         </div>
+        </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
+    
+    
+    <xsl:template name="colophon">
+        <hr style="border-top: dotted 2px;" />
+        <h3>Colophon</h3>
+        <xsl:for-each select=".">
+            <p>
+                <xsl:apply-templates select="descendant::t:locus"/>
+            </p>
+            <p>
+                <xsl:value-of select="t:colophon/text()"/>
+            </p>
+            
+            <xsl:if test="t:colophon/t:foreign"><p>
+                <b>Translation <xsl:value-of select="t:colophon/t:foreign/@xml:lang"/>: </b><xsl:value-of select="t:colophon/t:foreign"/>
+            </p></xsl:if>
+            <xsl:if test="descendant::t:note"><p>
+                <xsl:apply-templates select="descendant::t:note"/>
+            </p></xsl:if>
+            
+        </xsl:for-each>
+    </xsl:template>
+    
     
     <xsl:template match="t:msPart[parent::t:sourceDesc]">
         <div>
@@ -109,25 +138,6 @@
     </xsl:template>
     
     
-    <xsl:template match="t:msItem[contains(@xml:id, 'coloph')]">
-        <h3>Colophon</h3>
-        <xsl:for-each select=".">
-            <p>
-                <xsl:apply-templates select="descendant::t:locus"/>
-            </p>
-            <p>
-                <xsl:value-of select="t:colophon/text()"/>
-            </p>
-            
-            <xsl:if test="t:colophon/t:foreign"><p>
-                <b>Translation <xsl:value-of select="t:colophon/t:foreign/@xml:lang"/>: </b><xsl:value-of select="t:colophon/t:foreign"/>
-            </p></xsl:if>
-            <xsl:if test="descendant::t:note"><p>
-                <xsl:apply-templates select="descendant::t:note"/>
-            </p></xsl:if>
-            
-        </xsl:for-each>
-    </xsl:template>
     
     <xsl:template match="t:measure[. != '']">
         <xsl:value-of select="."/><xsl:text> (</xsl:text><xsl:value-of select="@unit"/><xsl:text>) </xsl:text>
