@@ -579,6 +579,7 @@
                         <p>
                             <xsl:apply-templates select="t:note"/>
                         </p>
+                        <xsl:if test="t:listBibl"><xsl:apply-templates select="t:listBibl"/></xsl:if>
                     </li>
                 </xsl:for-each>
             </ol>

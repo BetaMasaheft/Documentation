@@ -13,7 +13,7 @@ declare option output:media-type "text/html";
  
  {
  
-let $person := collection("../../Personstest")//tei:TEI
+let $person := collection("../../personstest")//tei:TEI
 let $manuscript := collection("../../test")//tei:TEI
 let $work := collection("../../workstest")//tei:TEI
 for $workcited in distinct-values($manuscript//tei:title/@corresp)

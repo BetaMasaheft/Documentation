@@ -6,12 +6,24 @@
     
     exclude-result-prefixes="xs"
     version="2.0">
-    <xsl:template match="t:origDate">
+    <xsl:template match="t:origDate | t:floruit | t:birth | t:death">
         <p>
             <b>Date: </b>
             <xsl:choose>
                 <xsl:when test="@when">
                     <xsl:value-of select="@when"/>
+                </xsl:when>
+                <xsl:when test="@from |@to"><xsl:choose>
+                    <xsl:when test="@from and @to"> <xsl:value-of select="@from"/>
+                        <xsl:text>-</xsl:text>
+                        <xsl:value-of select="@to"/></xsl:when>
+                    <xsl:when test="@from and not(@to)">
+                        <xsl:text>Before </xsl:text> <xsl:value-of select="@to"/>
+                    </xsl:when>
+                    <xsl:when test="@to and not(@from)">
+                        <xsl:text>After </xsl:text> <xsl:value-of select="@from"/>
+                    </xsl:when>
+                </xsl:choose>
                 </xsl:when>
                 <xsl:otherwise><xsl:choose>
                     <xsl:when test="@notBefore and @notAfter"> <xsl:value-of select="@notBefore"/>
