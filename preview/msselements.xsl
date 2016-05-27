@@ -60,7 +60,9 @@
             <xsl:if test="descendant::t:note"><p>
                 <xsl:apply-templates select="descendant::t:note"/>
             </p></xsl:if>
-            
+            <xsl:if test="descendant::t:listBibl">
+                <xsl:apply-templates select="descendant::t:listBibl"/>
+            </xsl:if>
         </xsl:for-each>
     </xsl:template>
     
@@ -154,6 +156,10 @@
         <xsl:variable name="curlang" select="@mainLang"/>
         <p><b>Language of text: </b><xsl:value-of select="//t:language[@ident = $curlang]"/></p>
         
+    </xsl:template>
+    
+    <xsl:template match="t:desc[parent::t:handNote]">
+       <xsl:apply-templates/>
     </xsl:template>
     
 </xsl:stylesheet>

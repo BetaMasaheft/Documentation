@@ -635,7 +635,7 @@
                     </li>
                 </ol>
             </xsl:for-each>
-            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type != 'miniature' or 'frame']">
+            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type != 'miniature'][@type != 'frame']">
                 <h3>Other decorations</h3>
                 <ol>
                     <li>
