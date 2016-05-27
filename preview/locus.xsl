@@ -11,19 +11,19 @@
             <xsl:when test="@target">
                 <xsl:choose>
                     <xsl:when test="contains(@target,' ')">
-                    <xsl:text>Fols. </xsl:text>
+                    <xsl:text>ff. </xsl:text>
                         <xsl:for-each select="tokenize(@target,' ')">
                         <a href="{.}">
                             <xsl:value-of select="concat(substring-after(.,'#'), ' ')"/>
                         </a>   
                     </xsl:for-each>
                 </xsl:when><xsl:otherwise><a href="{@target}">
-                    <xsl:text>Fol. </xsl:text>
+                    <xsl:text>f. </xsl:text>
                     <xsl:value-of select="substring-after(@target,'#')"/>
                 </a></xsl:otherwise></xsl:choose>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:text>Fols. </xsl:text>
+                <xsl:text>ff. </xsl:text>
                 <a href="{@from}">
                     <xsl:value-of select="@from"/>
                 </a>

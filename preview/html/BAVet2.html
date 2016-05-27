@@ -169,11 +169,8 @@
          <p>h1: ;h2: ;</p>
          <h4>extent</h4>
          <p>
-            The extent is 164 (leaf)  leaves of which
-            1 (the last)   is blank (leaf) 
-            
             45 (leaf) 
-            2 (leaf) Blank fols: 4v, 45v.
+            2 (leaf) Blank fols.: 4v, 45v.
             7 (quire) 
             
             
@@ -297,10 +294,7 @@
          
          
          
-         
-         
-         
-         
+         It is the same hand as <a href="../../Manuscripts/BAVet1#h1">hand 1</a> (hand)  of <a href="../../Manuscripts/BAVet1">Four Gospels, Book of Hours, Missal, Prayers, Sinodos </a> (mss) .
          
          <h4>Punctuation</h4>
          <p>Executed: </p>
@@ -567,14 +561,6 @@
                <th> BAVet1#i6.10</th>
             </tr>
             
-            
-            
-            <tr>
-               <th>#h2</th>
-               <th>syriaca:possibly-identical</th>
-               <th>BAVet1#h1</th>
-            </tr>
-            
          </table>
          <div id="BetMesRelView"></div><script type="text/javascript">
             // create an array with nodes
@@ -595,9 +581,7 @@
             
             {from: "ms_i2.2", to: "i6.9" , label:"saws:isDirectCopyOf"},  
             
-            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"},  
-            
-            {from: "h2", to: "h1" , label:"syriaca:possibly-identical"}, 
+            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"}, 
             ]);
             
             
@@ -658,9 +642,7 @@
             
             {from: "ms_i2.2", to: "i6.9" , label:"saws:isDirectCopyOf"},  
             
-            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"},  
-            
-            {from: "h2", to: "h1" , label:"syriaca:possibly-identical"}, 
+            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"}, 
             ]);
             
             
@@ -721,9 +703,7 @@
             
             {from: "ms_i2.2", to: "i6.9" , label:"saws:isDirectCopyOf"},  
             
-            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"},  
-            
-            {from: "h2", to: "h1" , label:"syriaca:possibly-identical"}, 
+            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"}, 
             ]);
             
             
@@ -784,72 +764,7 @@
             
             {from: "ms_i2.2", to: "i6.9" , label:"saws:isDirectCopyOf"},  
             
-            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"},  
-            
-            {from: "h2", to: "h1" , label:"syriaca:possibly-identical"}, 
-            ]);
-            
-            
-            
-            // create a network
-            var container = document.getElementById('BetMesRelView');
-            var data = {
-            nodes: nodes,
-            edges: edges
-            };
-            var options = {
-            layout:{
-            improvedLayout:false
-            },
-            edges: {
-            smooth: {
-            enabled: false,
-            type: "dynamic",
-            //   roundness: 0.7
-            },
-            },
-            physics: {
-            stabilization: {
-            enabled: false,
-            iterations: 10000, // maximum number of iteration to stabilize
-            updateInterval: 5,
-            onlyDynamicEdges: false,
-            fit: true
-            },
-            }
-            };
-            options={
-            layout:{
-            improvedLayout:true
-            },
-            physics: {
-            stabilization: {
-            enabled: false}
-            }
-            };
-            var network = new vis.Network(container, data, options);
-        </script><div id="BetMesRelView"></div><script type="text/javascript">
-            // create an array with nodes
-            var nodes = new vis.DataSet([
-            {id:"h2", label:""},{id:"h1", label:""},
-           
-           
-            ]);
-            
-           
-            var edges = new vis.DataSet([
-            
-             
-            
-            {from: "ms_i1.2", to: "ms_i2.1" , label:"saws:isCloseTranslationOf"},  
-            
-            {from: "ms_i1.3", to: "ms_i2.3" , label:"saws:isCloseTranslationOf"},  
-            
-            {from: "ms_i2.2", to: "i6.9" , label:"saws:isDirectCopyOf"},  
-            
-            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"},  
-            
-            {from: "h2", to: "h1" , label:"syriaca:possibly-identical"}, 
+            {from: "ms_i2.4", to: "i6.10" , label:"saws:isDirectCopyOf"}, 
             ]);
             
             

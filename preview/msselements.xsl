@@ -136,7 +136,7 @@
     
     
     <xsl:template match="t:measure[. != '']">
-        <xsl:value-of select="."/><xsl:text> (</xsl:text><xsl:value-of select="@unit"/><xsl:text>) </xsl:text>
+        <xsl:value-of select="."/><xsl:text> (</xsl:text><xsl:value-of select="@unit"/><xsl:if test="@type"><xsl:text>, </xsl:text><xsl:value-of select="@type"/></xsl:if><xsl:text>) </xsl:text>
     </xsl:template>
     
     <xsl:template match="t:hi">
