@@ -171,7 +171,7 @@
                                                   test="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI">
                                                   <a href="../../Manuscripts/{.}">
                                                   <xsl:value-of
-                                                  select="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI//t:titleStmt/t:title[1]"
+                                                  select="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"
                                                   />
                                                   </a>
 
@@ -492,7 +492,7 @@
                                                   test="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI">
                                                   <a href="../../Manuscripts/{.}">
                                                   <xsl:value-of
-                                                  select="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI//t:titleStmt/t:title[1]"
+                                                      select="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"
                                                   />
                                                   </a>
 
@@ -643,7 +643,7 @@
                                                 test="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI">
                                                 <a href="../../Manuscripts/{@corresp}">
                                                   <xsl:value-of
-                                                  select="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI//t:titleStmt/t:title[1]"
+                                                      select="document(concat('../../Manuscripts/', $filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"
                                                   />
                                                 </a>
 
