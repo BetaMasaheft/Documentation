@@ -231,7 +231,7 @@
                         <title type="uniform" ref="https://www.betamasaheft.uni-hamburg.de/LIT3131">Ṣalot za-manfaqe lelit "Prayer of the middle of the night"</title>
                         <incipit xml:lang="gez">
                            <locus target="#134r"/>ጸሎተ፡ (sic) ዘመ(ን)ፈቀ፡ ሌሊት፤ ሃሌ፡ ሉያ፡ በስመ፡ አብ፡ ... ሰዳዴሆሙ፡ (sic) ለአጋንንት፡ ስድዶሙ፡ እግዚኦ፡ ለአጋንንት፡ እምየማንነ፡ ወ(እ)ምፀጋምነ፤</incipit>
-                        <note>The office contains the following prayers: for the sick, for the pilgrims, for the rain, Lk 7, 36-50, prayer to <persName corresp="PRS6819Mary">Our Lady Mary</persName>, for the fruits of the earth, for the water of the rivers, for the king, excerpts from an unidentified Psalm, Mt 25, 31-46, prayers for the sleepers, for the offerers, for the catechumens, for the peace, hymns to <persName corresp="PRS6819Mary">Our Lady Mary</persName>, Jn 19, 25-27, <title corresp="LIT2968RepCh249"/>, a hymn to Mary erroneously entitled <q xml:lang="gez">፩ተአምሪሃ፡ ለእግዚአትነ፡ (sic) ቅድስት፡ ድንግል፡ በክልኤ፨ ማርያም፡</q>, Lk 11, 5-13
+                        <note>The office contains the following prayers: for the sick, for the pilgrims, for the rain, Lk 7, 36-50, prayer to <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS6819Mary">Our Lady Mary</persName>, for the fruits of the earth, for the water of the rivers, for the king, excerpts from an unidentified Psalm, Mt 25, 31-46, prayers for the sleepers, for the offerers, for the catechumens, for the peace, hymns to <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS6819Mary">Our Lady Mary</persName>, Jn 19, 25-27, <title ref="https://www.betamasaheft.uni-hamburg.de/LIT2968RepCh249"/>, a hymn to Mary erroneously entitled <q xml:lang="gez">፩ተአምሪሃ፡ ለእግዚአትነ፡ (sic) ቅድስት፡ ድንግል፡ በክልኤ፨ ማርያም፡</q>, Lk 11, 5-13
               </note>
                      </msItem>
                   </msItem>
@@ -403,9 +403,9 @@
                   <msItem xml:id="ms_i9">
                      <locus from="214v" to="218r"/>
                      <title type="uniform" ref="https://www.betamasaheft.uni-hamburg.de/LIT3120Anapho"/>
-                     <note>Qǝddāse Yoḥannǝs ʾAfa Warq za-qwǝrbān "Anaphora of John Chrysostom on the offering". The text follows the text edited in <biblStruct xmlns:t="http://www.tei-c.org/ns/1.0" corresp="" type="">
+                     <note>Qǝddāse Yoḥannǝs ʾAfa Warq za-qwǝrbān "Anaphora of John Chrysostom on the offering". The text follows the text edited in <bibl xmlns:t="http://www.tei-c.org/ns/1.0">
                            <citedRange unit="page">51-56</citedRange>
-                        </biblStruct> up to <locus target="#216vb" n="4"/>, then few passages are added</note>
+                        </bibl> up to <locus target="#216vb" n="4"/>, then few passages are added</note>
                      <explicit xml:lang="gez">
                         <locus target="#218r"/>በላዓክሙ፡ (sic) ጸገብክሙ፡ ሰተይክሙ፡ ረወይክሙ፡ በሰላም፡ እትው፡ (sic) ውስተ፡ አብያቲክሙ፡ እግዚአብሔር፡ የሀሎ፡ (sic) መ(ስ)ሌክሙ፨ (sic)</explicit>
                   </msItem>
@@ -422,166 +422,168 @@
                </msContents>
           
                <physDesc>
-                  <objectDesc>
+                  <objectDesc form="codex">
                      <supportDesc>
                         <support>
                            <watermark/>
-                           <material key="parchment"/>
-                           <objectType>Codex</objectType>
+                           <material>parchment</material>
+<!--                           <objectType>Codex</objectType>-->
                         </support>
                         <extent>
-                           <measure unit="leaf">219</measure>
-                           <measure unit="leaf" type="blank">9</measure>
-                           <!-- Blank folios: 1v, 2rv, 10v, 11v, 12rv, 56v, 57rv, 211v, 218v -->
-                           <measure unit="quire">29</measure>
-                           <dimensions type="outer" unit="mm">
-                              <height>233</height>
-                              <width>325</width>
-                              <depth/>
+                           <measure type="composition" unit="leaf">219, 9 (1v, 2rv, 10v, 11v, 12rv, 56v, 57rv, 211v, 218v) blank</measure>
+                           
+                           <!--<measure unit="quire">29</measure>-->
+                           <dimensions>
+                              <height><measure unit="cm">23,3</measure></height>
+                              <width><measure unit="cm">32,5</measure></width>
+                              
+                              
                            </dimensions>
                         </extent>
                         <foliation/>
                         <collation>
                            <list>
                               <item xml:id="q1" n="A">
-                                 <dim unit="leaf">2</dim>
+                                 
+<!--                                 <note><measure unit="leaf">2</measure></note>-->
                                  <locus from="1r" to="2v"/>
                               </item>
                               <item xml:id="q2" n="1">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="3r" to="10v"/>
                               </item>
                               <item xml:id="q3" n="2">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="11r" to="18v"/>
                               </item>
                               <item xml:id="q4" n="3">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="19r" to="26v"/>
                               </item>
                               <item xml:id="q5" n="4">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="27r" to="34v"/>
                               </item>
                               <item xml:id="q6" n="5">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="35r" to="42v"/>
                               </item>
                               <item xml:id="q7" n="6">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="43r" to="50v"/>
                               </item>
                               <item xml:id="q8" n="7">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="51r" to="58v"/>
                               </item>
                               <item xml:id="q9" n="8">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="59r" to="66v"/>
                               </item>
                               <item xml:id="q10" n="9">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="67r" to="74v"/>
                               </item>
                               <item xml:id="q11" n="10">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="75r" to="82v"/>
                               </item>
                               <item xml:id="q12" n="11">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="83r" to="90v"/>
                               </item>
                               <item xml:id="q13" n="12">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="91r" to="98v"/>
                               </item>
                               <item xml:id="q14" n="13">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="99r" to="106v"/>
                               </item>
                               <item xml:id="q15" n="14">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="107r" to="114v"/>
                               </item>
                               <item xml:id="q16" n="15">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="115r" to="122v"/>
                               </item>
                               <item xml:id="q17" n="16">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="123r" to="130v"/>
                               </item>
                               <item xml:id="q18" n="17">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="131r" to="138v"/>
                               </item>
                               <item xml:id="q19" n="18">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="139r" to="146v"/>
                               </item>
                               <item xml:id="q20" n="19">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="147r" to="154v"/>
                               </item>
                               <item xml:id="q21" n="20">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="155r" to="162v"/>
                               </item>
                               <item xml:id="q22" n="21">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="163r" to="170v"/>
                               </item>
                               <item xml:id="q23" n="22I">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="171r" to="178v"/>
                               </item>
                               <item xml:id="q24" n="23">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="179r" to="186v"/>
                               </item>
                               <item xml:id="q25" n="24">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="187r" to="194v"/>
                               </item>
                               <item xml:id="q26" n="25">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="195r" to="202v"/>
                               </item>
                               <item xml:id="q27" n="26">
-                                 <dim unit="leaf">3</dim>
+<!--                                 <dim unit="leaf">3</dim>-->
                                  <locus from="203r" to="205v"/>
                                  <note/>s.l.: 3, stub before 1</item>
                               <item xml:id="q28" n="27">
-                                 <dim unit="leaf">6</dim>
+<!--                                 <dim unit="leaf">6</dim>-->
                                  <locus from="206r" to="211v"/>
                                  <note>XXVII</note>
                               </item>
                               <item xml:id="q29" n="28">
-                                 <dim unit="leaf">8</dim>
+<!--                                 <dim unit="leaf">8</dim>-->
                                  <locus from="212r" to="219v"/>
                               </item>
                            </list>
                         </collation>
-                        <condition key="good"/>
+                        <condition>good</condition>
                      </supportDesc>
                      <layoutDesc>
                         <layout columns="2" writtenLines="44"/>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote xml:id="h1" script="Ethiopic">
-                        <ab type="script">Mediocre.</ab>
+                     <handNote xml:id="h1" script="other"> <!--Ethiopic-->
+                        
+                        <seg type="script">Mediocre.</seg>
                         <seg type="ink">Black, red</seg>
                         <date/>
                         <desc>The numerals are written without dashes; ፮ has the loop open, looking like “compressed” ፯; ፪ has angular and not separated loops.</desc>
-                        <ab type="rubrication">Nomina sacra, titles, liturgical admonishments; elements of the text dividers; Ethiopic numerals.</ab>
+                        <seg type="rubrication">Nomina sacra, titles, liturgical admonishments; elements of the text dividers; Ethiopic numerals.</seg>
                      </handNote>
                   </handDesc>
             
                   <additions>
                      <list>
                         <item xml:id="a1">
-                           <desc type="ScribalNoteCompleting"/>
+<!--                           <desc type="ScribalNoteCompleting"/>-->
                            <locus target="#198r"/>
                            <q xml:lang="gez">ወተፈጸመ፡ ዝንቱ፡ ሴኖዶስ፡ በዋርኀ፡ ግንቦት፡ ፰፡ በሰርቀ፡ መልአት፡ ፫፡ በሰርቀ፡ ሌሌት። (sic) በመዋዕለ፡ ወን(ጌ)ላዊ፡ ማቴዎስ፡ ፮፼፡ (sic) ወ፭፻፡ ፹ወ፭፡ ዓመተ፡ አደም። (sic)</q>
                            <p>The note is written in red ink and states that the Sinodos was completed on 8 Gǝnbot in the year of the Creation 6585.</p>
@@ -590,7 +592,7 @@
                            <locus target="#1r"/>
                            <q xml:lang="lat">Missale; n° 1. Aduerte Lector hunc Codicem esse Vitiosissime scriptum ejusq(ue) autoritatem exigui valoris.</q>
                            <q xml:lang="en">"Missal; nr. 1. Be careful o reader, that this codex is very defective and its reliability is of low value".</q>
-                           <p>Note written by a later librarian and by <persName corresp="PRS10036Wansleb"/> on the reliability of the manuscript, probably in <date>1665</date>.</p>
+                           <p>Note written by a later librarian and by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> on the reliability of the manuscript, probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e2">
                            <locus target="#1r"/>
@@ -605,78 +607,78 @@
                         <item xml:id="e4">
                            <desc/>
                            <locus target="#11r"/>
-                           <p>Two lines containing the incipit of <title corresp="LIT1349Epistl">Letter of Eusebius to Carpianus</title>, as in <locus target="#3a">lines 3 እንዘ፡ - 7 እመትሎሆሙ፡</locus>.</p>
+                           <p>Two lines containing the incipit of <title ref="https://www.betamasaheft.uni-hamburg.de/LIT1349Epistl">Letter of Eusebius to Carpianus</title>, as in <locus target="#3a">lines 3 እንዘ፡ - 7 እመትሎሆሙ፡</locus>.</p>
                         </item>
                         <item xml:id="e5">
                            <desc>/</desc>
                            <locus target="#99r"/>
                            <q xml:lang="lat">Officium Abissinorum</q>
-                           <p>Note written on the upper margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the upper margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e6">
                            <desc/>
                            <locus target="#147r"/>
                            <q xml:lang="lat">Incipiunt Canones S. Clementis</q>
                            <date>17th century</date>
-                           <p>Note written on the upper margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the upper margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e7">
                            <locus target="#164r"/>
                            <q xml:lang="lat">Concil. Ancyranum</q>
-                           <p>Note written on the upper margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the upper margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e8">
                            <locus target="#168r"/>
                            <q xml:lang="lat">Concil. Ga(n)gerense</q>
-                           <p>Note written on the upper margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the upper margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e9">
                            <desc/>
                            <locus target="#147r"/>
                            <q xml:lang="lat">Nota b(ene) Maximum hic esse errore. confundit et miscet enim hic duo Concilia. Stulte idem error et jam est in Cod(ice) Magni Duc(is) Florentiae. Sed Cod(ex) Abiss(inoru)m et meus bene habent o(mn)ia notauit a(utem) Fr(ater) G(iovanni) M(ichahel) Vanslebius Ord. Praed.</q>
-                           <q xml:lang="en">"Nota bene: a serious error is here, as (the scribe) confuses and blends here two councils. The same error is also trivially attested in the Ms. of the grand duke of Florence (i.e, <ptr corresp="BMLor148"/>). However, the Ms. of the Ethiopians (i.e., of San Stefano dei Mori, (i.e, <ptr corresp="BAVborget2"/>) and mine display everything correctly. Brother Johann Michael Wansleben annotated (this)".</q>
-                           <p>Note written in the intercolum by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <q xml:lang="en">"Nota bene: a serious error is here, as (the scribe) confuses and blends here two councils. The same error is also trivially attested in the Ms. of the grand duke of Florence (i.e, <ref target="https://www.betamasaheft.uni-hamburg.de/BMLor148"/>). However, the Ms. of the Ethiopians (i.e., of San Stefano dei Mori, (i.e, <ref target="https://www.betamasaheft.uni-hamburg.de/BAVborget2"/>) and mine display everything correctly. Brother Johann Michael Wansleben annotated (this)".</q>
+                           <p>Note written in the intercolum by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e10">
                            <locus target="#172r"/>
                            <q xml:lang="lat">Concilii Laodiceni canones</q>
-                           <p>Note written on the outer upper margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the outer upper margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e11">
                            <locus target="#173r"/>
                            <q xml:lang="lat">Concil. Nicaenum</q>
-                           <p>Note written on the outer upper margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the outer upper margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e12">
                            <locus target="#176v"/>
                            <q xml:lang="lat">Concil. Nicaenum</q>
-                           <p>Note written on the outer margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the outer margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e13">
                            <locus target="#183v"/>
                            <q xml:lang="lat">Deest canon 56</q>
-                           <p>Note written on the outer margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the outer margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e14">
                            <locus target="#187v"/>
                            <q xml:lang="lat">Canones Petri Per S. Clementem</q>
-                           <p>Note written on the outer margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the outer margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e15">
                            <locus target="#192r"/>
                            <q xml:lang="lat">Concil. Antiochaenum</q>
-                           <p>Note written on the outer margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the outer margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e16">
                            <locus target="#195v"/>
                            <q xml:lang="lat">Concil. Laodicaenum</q>
-                           <p>Note written on the outer margin by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written on the outer margin by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e17">
                            <locus target="#197v"/>
                            <q xml:lang="lat">Aduerte Lector huc referri debere illos Canones quos scriptor supra ad conciliu(m) Gangerense annexuit.</q>
                            <q xml:lang="en">"Be careful o reader, that here you have to refer to those canons that the scribe previously appended to the council of Gangra".</q>
-                           <p>Note written by <persName corresp="PRS10036Wansleb"/> probably in <date>1665</date>.</p>
+                           <p>Note written by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb"/> probably in <date>1665</date>.</p>
                         </item>
                         <item xml:id="e18">
                            <locus target="#211r"/>
@@ -693,7 +695,7 @@
                      <binding contemporary="false" xml:id="binding">
                         <decoNote xml:id="b0"/>
                         <decoNote xml:id="b1" type="bindingMaterial">
-                           <material key="wood"> </material>
+                           <material>Wood</material>
                         </decoNote>
                         <decoNote xml:id="b2" type="Endbands">
                            <desc type="Headband"/>
@@ -708,7 +710,7 @@
                   <origin>
                      <origDate/>
                      <origPlace>
-                        <placeName corresp="PRS2222222"/>Rome</origPlace>
+                        <placeName ref="https://www.betamasaheft.uni-hamburg.de/PRS2222222"/>Rome</origPlace>
                   </origin>
                </history>
                <!-- Il codice pervenne alla Vaticana not after 1665 dopo essere stato già nel convento di Santo Stefano (cf. nota al f. 217v), cfr. bm:Bausi1989MssBNCF, p. 12, che ne ipotizza una origine gerosolimitana come per il ms. BMLor148 -->
@@ -724,7 +726,7 @@
                         </source>
                      </recordHist>
                      <custodialHist>
-                        <custEvent type="restoration" subtype="ancient"/>
+                        <custEvent subtype="ancient">restoration</custEvent>
                      </custodialHist>
                   </adminInfo>
                    <listBibl type="secondary">
@@ -742,15 +744,15 @@
          </projectDesc>
       </encodingDesc>
       <profileDesc>
-         <particDesc>
+         <!--<particDesc>
             <listPerson>
                <person role="donor"/>
                <person role="scribe"/>
                <person role="other"/>
             </listPerson>
-         </particDesc>
+         </particDesc>-->
          <textClass>
-            <keywords>
+            <keywords scheme="#ethioauthfile">
                <term key="NewTestament"/>
                <term key="Liturgy"/>
                <term key="Prayers"/>
@@ -759,7 +761,7 @@
             </keywords>
          </textClass>
          <langUsage>
-            <language ident="gez" corresp="Lan05">Gǝʿǝz</language>
+            <language ident="gez">Gǝʿǝz</language>
          </langUsage>
       </profileDesc>
       <revisionDesc>
@@ -771,7 +773,7 @@
       <body>
          <div type="bibliography">
             <listBibl type="relations">
-               <biblStruct xmlns:t="http://www.tei-c.org/ns/1.0" corresp="" type=""/>
+               <bibl xmlns:t="http://www.tei-c.org/ns/1.0"/>
                <relation ref="http://purl.org/saws/ontology#isDirectCopyOf"
                          active="#ms_i1"
                          passive="bm:Petrus1548Test"/>
