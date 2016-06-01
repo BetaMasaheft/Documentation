@@ -13,6 +13,11 @@
             <xsl:when test=". = 'MV'">Massimo Villa</xsl:when>
             <xsl:when test=". = 'SG'">Solomon Gebreye</xsl:when>
             <xsl:when test=". = 'PL'">Dr. Pietro Maria Liuzzo</xsl:when>
+            <xsl:when test=". = 'SA'">Dr Stéphane Ancel</xsl:when>
+            <xsl:when test=". = 'SD'">Sophia Dege</xsl:when>
+            <xsl:when test=". = 'VP'">Dr Vitagrazia Pisani</xsl:when>
+            <xsl:when test=". = 'IF'">Iosif Fridman</xsl:when>
+            <xsl:when test=". = 'SH'">Susanne Hummel</xsl:when>
             <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>

@@ -11,7 +11,9 @@
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
             <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
-        
+        <p>
+            <xsl:value-of select="//t:binding/t:decoNote[position() = 1]"/>
+        </p>
         <xsl:if test=".//t:decoDesc[@type = 'Endbands']">
             <h4>Endbands</h4>
             <p> Yes </p>

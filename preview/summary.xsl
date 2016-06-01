@@ -23,7 +23,7 @@
             </div>
             <div id="extracted"  class="tab-pane fade in active">
                 <ol><xsl:for-each select="//t:msItem">
-                    <xsl:sort/>
+                    <xsl:sort select="position()"/>
                     <ul><xsl:value-of select="@xml:id"/><xsl:text>, </xsl:text><xsl:apply-templates select=".//t:title"/></ul>
                 </xsl:for-each></ol>
             </div>

@@ -13,9 +13,7 @@
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
             <xsl:value-of select="$currentMsPart"/></xsl:if></h2>
-        <p>
-            <xsl:value-of select="//t:binding/t:decoNote[position() = 1]"/>
-        </p>
+        
         <h3>Outer dimension<xsl:if test="./ancestor::t:msPart"><xsl:variable
             name="currentMsPart">
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
