@@ -100,7 +100,8 @@
             
             <xsl:if test="//t:occupation">
                 <h2>Occupation: </h2>
-                <xsl:apply-templates select="//t:occupation"/>
+                <xsl:for-each select="//t:occupation"><xsl:apply-templates select="."/><xsl:text> (</xsl:text><xsl:value-of select="@type"/><xsl:text>)
+                </xsl:text></xsl:for-each>
             </xsl:if>
             <xsl:if test="//t:residence">
                 <h2>Residence: </h2>
