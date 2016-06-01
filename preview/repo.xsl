@@ -6,7 +6,7 @@
     
     exclude-result-prefixes="xs"
     version="2.0">
-    <xsl:template match="t:repository">
+    <xsl:template match="t:repository" mode="title">
         <xsl:choose>
             <xsl:when test="document(concat('../../Institutions/', @corresp, '.xml'))//t:TEI">
                 <a href="../../Institutions/{@corresp}">

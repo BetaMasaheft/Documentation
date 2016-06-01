@@ -95,6 +95,16 @@
                     padding-bottom: 1px;
                     padding-left: 5px;
                     }
+                    #narrow {
+                    float: right;
+                    width: 200px;
+                    background: lightblue;
+                    }
+                    #wide {
+                    float: left;
+                    width: calc(100% - 200px);
+                    background: lightgreen;
+                    }
                     .headcol{
                     position: absolute;
                     width: 5em;
