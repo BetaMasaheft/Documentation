@@ -16,10 +16,7 @@
                     padding:5px; 
                     }
                     nav {
-                    line-height:20px;
-                    background-color:#eeeeee;
                     width:20%;
-                    height: 500px;
                     overflow : scroll;
                     float:left;
                     padding:5px; 
@@ -69,26 +66,29 @@
          <h1>Jubilees, Enoch</h1>
       </header>
       <nav>
-         <ul> Navigate section 
-            <li><a href="#general">General</a></li>
-            <li><a href="#description">Description</a></li>
-            <li><a href="#physical">Physical desc</a></li>
-            <li><a href="#layout">Layout</a></li>
-            <li><a href="#contents">Contents</a></li>
-            <li><a href="#deco">Decoration</a></li>
-            <li><a href="#footer">Authors</a></li>
-         </ul>
-         <ul> Navigate by id 
-            <li><a href="#ms">msDesc</a></li>
-            <li><a href="#ms_i1">Content Item 1</a></li>
-            <li><a href="#ms_i2">Content Item 2</a></li>
-            <li><a href="#h1">Hand
-                  1</a></li>
-            <li><a href="#a1">Addition 1</a></li>
-            <li><a href="#binding">binding</a></li>
-            <li><a href="#b0">Binding 0</a></li>
-            <li><a href="#b2">Binding 2</a></li>
-         </ul>
+         <div>
+            <ul class="nav nav-pills nav-stacked">
+               <h3>Navigate section</h3>
+               <li><a href="#general">General</a></li>
+               <li><a href="#description">Description</a></li>
+               <li><a href="#generalphysical">Physical desc of ms</a></li>
+               <li><a href="#catalogue">Catalogue</a></li>
+               <li><a href="#keywords">Keywords</a></li>
+               <li><a href="#footer">Authors</a></li>
+            </ul>
+            <ul class="nav nav-pills nav-stacked">
+               <h3>Navigate by id</h3>
+               <li><a href="#ms">msDesc</a></li>
+               <li><a href="#ms_i1">Content Item 1</a></li>
+               <li><a href="#ms_i2">Content Item 2</a></li>
+               <li><a href="#h1">Hand
+                     1</a></li>
+               <li><a href="#a1">Addition 1</a></li>
+               <li><a href="#binding">binding</a></li>
+               <li><a href="#b0">Binding 0</a></li>
+               <li><a href="#b2">Binding 2</a></li>
+            </ul>
+         </div>
       </nav>
       <section id="general">
          <a href="../../Institutions/INS00001BL">British Library</a>
@@ -103,8 +103,8 @@
       </section>
       <section id="description">
          <h2>General description</h2>
-         <h3>Number of texts: 2</h3>
-         <h3>Number of units: 1</h3>
+         <h3>Number of Text units: 2</h3>
+         <h3>Number of Codicological units: 1</h3>
       </section>
       <section id="generalphysical">
          <div id="mshistory">
@@ -131,12 +131,12 @@
          <div id="msdimensions">
             
             
-            <h3>Writing material</h3>
+            <h3>Writing material </h3>
             <p>parchment</p>
             Codex
             
             
-            <h4>extent</h4>
+            <h4>Extent </h4>
             <p>
                190 (leaf) 
                
@@ -151,31 +151,30 @@
                
             </p>
             
-            <h3>foliation</h3>
+            <h3>Foliation </h3>
             <p>The leaves are numbered by the library.</p>
             
-            <h3>State of preservation</h3>
+            <h3>State of preservation </h3>
             <p><b>good</b></p>
             <h4>Condition</h4>
             <p></p>
             
          </div>
          <div id="msbinding">
-            <h3>Binding</h3>
-            <h4> binding material</h4>
+            <h3>Binding </h3>
+            <h4>Binding material</h4>
             <p>wood leather</p>
-            <h4>original binding</h4>
+            <h4>Original binding</h4>
             <p>true</p>
          </div>
          <div id="msdimensions">
-            <h3>Layout</h3>
-            <h3>Palaeography</h3>
+            <h3>Layout </h3>
+            <h3>Palaeography </h3>
             <h4>Punctuation</h4>
             <p>Executed: </p>
             <p>Usage: </p>
             <ul></ul>
          </div>
-         <div id="mshands"></div>
          <div id="mscontent">
             
             
@@ -206,7 +205,7 @@
          </div>
          <div id="msadditiones">
             <div id="additiones">
-               <h2>Additiones</h2>In this manuscript there are  1 OwnershipNote.
+               <h2>Additiones </h2>In this manuscript there are  1 OwnershipNote.
                <ol>
                   <li id="a1">
                      <p><a href="#5r">f. 5r</a> 
@@ -223,8 +222,6 @@
                      <p></p>
                   </li>
                </ol>
-               <h3>Extras</h3>
-               <ol></ol>
             </div>
          </div>
          <div id="msdecoration"></div>
@@ -246,6 +243,21 @@
             
             
          </div>
+      </section>
+      <section id="catalogue">
+         <h2>Catalogued in</h2>
+         <h4>catalogue Bibliography</h4>
+         <ul>
+            
+            <li><a href="https://archive.org/details/catalogueofethio00brituoft">Wright 1877, page 7</a></li>
+            
+         </ul>
+      </section>
+      <section id="keywords">
+         <h2>Keywords</h2>
+         <ul>
+            <li>Bible</li>
+         </ul>
       </section>
       <footer id="footer">
          <h2>Authors</h2>

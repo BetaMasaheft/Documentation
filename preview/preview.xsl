@@ -56,10 +56,7 @@
                     padding:5px; 
                     }
                     nav {
-                    line-height:20px;
-                    background-color:#eeeeee;
                     width:20%;
-                    height: 500px;
                     overflow : scroll;
                     float:left;
                     padding:5px; 
@@ -94,16 +91,6 @@
                     overflow-y: visible;
                     padding-bottom: 1px;
                     padding-left: 5px;
-                    }
-                    #narrow {
-                    float: right;
-                    width: 200px;
-                    background: lightblue;
-                    }
-                    #wide {
-                    float: left;
-                    width: calc(100% - 200px);
-                    background: lightgreen;
                     }
                     .headcol{
                     position: absolute;
