@@ -29,9 +29,9 @@
             </div>
         </xsl:if>
 
-        <xsl:if test="t:physDesc/t:handNote">
+        <xsl:if test="t:physDesc/t:handDesc">
             <div id="{@xml:id}hands">
-                <xsl:apply-templates select="t:physDesc/t:handNote"/>
+                <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
         </xsl:if>
 
@@ -97,7 +97,7 @@
             </div>
 
             <div id="{@xml:id}hands">
-                <xsl:apply-templates select="t:physDesc/t:handNote"/>
+                <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
 
             <div id="{@xml:id}content">
@@ -150,7 +150,7 @@
             </div>
             
             <div id="{@xml:id}hands">
-                <xsl:apply-templates select="t:physDesc/t:handNote"/>
+                <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
             
             <div id="{@xml:id}content">
@@ -205,7 +205,7 @@
             </div>
 
             <div id="{@xml:id}hands">
-                <xsl:apply-templates select="t:physDesc/t:handNote"/>
+                <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
 
             <div id="{@xml:id}content">
@@ -259,7 +259,7 @@
             </div>
             
             <div id="{@xml:id}hands">
-                <xsl:apply-templates select="t:physDesc/t:handNote"/>
+                <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
             
             <div id="{@xml:id}content">

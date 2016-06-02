@@ -6,15 +6,15 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:handNote[t:seg[@type = 'ink']]">
-        <h3>Ink <xsl:if test="./ancestor::t:msPart"><xsl:variable
+        <h3><xsl:value-of select="@xml:id"/><xsl:if test="./ancestor::t:msPart"><xsl:variable
             name="currentMsPart">
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
             <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
-        <p>
-            <xsl:for-each select=".">
-                <xsl:value-of select="concat(@xml:id, ': ', t:seg, ';')"/>
+        <p>Ink<xsl:for-each select=".">
+                <xsl:value-of select="concat( ': ', t:seg, ';')"/>
             </xsl:for-each>
         </p>
+        <p><xsl:apply-templates select="node() except t:seg[@type = 'ink']"/></p>
     </xsl:template>
 </xsl:stylesheet>

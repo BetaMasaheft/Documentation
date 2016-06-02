@@ -11,7 +11,8 @@
     
     
     <xsl:template match="t:handDesc">
-        <xsl:apply-templates/>
+        <h2>Hands</h2>
+        <div><xsl:apply-templates/></div>
     </xsl:template>
     
     
@@ -20,12 +21,6 @@
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
-    
-    
-    
-    
-    
     
     
     <xsl:template match="t:incipit">
