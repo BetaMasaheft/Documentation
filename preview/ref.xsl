@@ -163,6 +163,27 @@
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                         </xsl:when>
+                                        <xsl:when test="document('../../Authority-Files/taxonomy.xml')//t:catDesc[text() = $filename]">
+                                            <xsl:choose>
+                                                <xsl:when
+                                                    test="document(concat('../../Authority-Files/', $filename, '.xml'))//t:TEI">
+                                                    <a href="../../Authority-Files/{.}">
+                                                        <xsl:value-of
+                                                            select="document(concat('../../Authority-Files/', $filename, '.xml'))//t:TEI//t:titleStmt/t:title[1]"
+                                                        />
+                                                    </a>
+                                                    
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <b
+                                                        style="color:red;
+                                                        text-align:center;"
+                                                        >**This is not a valid entry for this value <xsl:value-of
+                                                            select="$filename"/>** = <xsl:value-of select="."
+                                                            /> **</b>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:when>
                                         <xsl:otherwise>
 
                                             <!--                                            assumes that if none of the above, the id must be of a manuscript-->
@@ -188,6 +209,8 @@
                                     </xsl:choose>
                                 </xsl:for-each>
                             </xsl:when>
+                            
+                            
                             <!--one entry, it does not loop, thus the attribute node containing the reference is named every time in the functions
                             the text of the reference is the one contained in the source file-->
                             <xsl:otherwise>
@@ -294,6 +317,25 @@
                                                   >**No record for Narrative Unit <xsl:value-of
                                                   select="@corresp"/>** = <xsl:value-of select="."/>
                                                   **</b>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:when>
+                                    <xsl:when test="document('../../Authority-Files/taxonomy.xml')//t:catDesc[text() = $filename]">
+                                        <xsl:choose>
+                                            <xsl:when
+                                                test="document(concat('../../Authority-Files/', $filename, '.xml'))//t:TEI">
+                                                <a href="../../Authority-Files/{@corresp}">
+                                                    <xsl:value-of select="."/>
+                                                </a>
+                                                
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <b
+                                                    style="color:red;
+                                                    text-align:center;"
+                                                    >**This is not a valid entry for this value <xsl:value-of
+                                                        select="@corresp"/>** = <xsl:value-of select="."
+                                                        /> **</b>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:when>
@@ -484,6 +526,27 @@
                                                 </xsl:otherwise>
                                             </xsl:choose>
                                         </xsl:when>
+                                        <xsl:when test="document('../../Authority-Files/taxonomy.xml')//t:catDesc[text() = $filename]">
+                                            <xsl:choose>
+                                                <xsl:when
+                                                    test="document(concat('../../Authority-Files/', $filename, '.xml'))//t:TEI">
+                                                    <a href="../../Authority-Files/{.}">
+                                                        <xsl:value-of
+                                                            select="document(concat('../../Authority-Files/', $filename, '.xml'))//t:TEI//t:titleStmt/t:title[1]"
+                                                        />
+                                                    </a>
+                                                    
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                    <b
+                                                        style="color:red;
+                                                        text-align:center;"
+                                                        >**This is not a valid entry for this value <xsl:value-of
+                                                            select="$filename"/>** = <xsl:value-of select="."
+                                                            /> **</b>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:when>
                                         <xsl:otherwise>
 
                                             <!--                                            assumes that if none of the above, the id must be of a manuscript-->
@@ -632,6 +695,26 @@
                                                     text-align:center;"
                                                   >**No record for Narrative Unit <xsl:value-of
                                                   select="$filename"/>**</b>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </xsl:when>
+                                    <xsl:when test="document('../../Authority-Files/taxonomy.xml')//t:catDesc[text() = $filename]">
+                                        <xsl:choose>
+                                            <xsl:when
+                                                test="document(concat('../../Authority-Files/', $filename, '.xml'))//t:TEI">
+                                                <a href="../../Authority-Files/{@corresp}">
+                                                    <xsl:value-of
+                                                        select="document(concat('../../Authority-Files/', $filename, '.xml'))//t:TEI//t:titleStmt/t:title[1]"
+                                                    />
+                                                </a>
+                                                
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <b
+                                                    style="color:red;
+                                                    text-align:center;"
+                                                    >**This is not a valid entry for this value <xsl:value-of
+                                                        select="$filename"/>**</b>
                                             </xsl:otherwise>
                                         </xsl:choose>
                                     </xsl:when>
