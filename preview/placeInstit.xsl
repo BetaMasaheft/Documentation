@@ -53,9 +53,9 @@
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
-                        <xsl:if test="@corresp">
+                        <xsl:if test="@ref">
                             <sup>
-                                <a href="{@corresp}">
+                                <a href="{@ref}">
                                     <xsl:value-of select="@xml:lang"/>
                                     <xsl:text> tr.</xsl:text>
                                 </a>

@@ -113,7 +113,7 @@
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="t:ab | t:desc[parent::t:handNote]">
+    <xsl:template match="t:ab | t:seg[@type='script'] | t:desc[parent::t:handNote] | t:seg[@type='rubrication']">
         <p>
             <xsl:if test="@type">
                 <b>

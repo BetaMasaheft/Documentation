@@ -5,57 +5,6 @@ select from list changes for both, produce schema to validate output (enrich-bet
 
 
 
-CHANGES TO THE CURRENT MODEL, templates and guidelines and editing schema
-
-* corresp in repository, title > ref CHANGE IN EDITING SCHEMA
-* use always @ref instead of @corresp CHANGE IN EDITING SCHEMA
-* pubPlace before authority in publicationStmt CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
-* p in licence CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
-* ab[@type=script] —> seg[@type=script]  CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
-* ab[@type=rubrication] —> seg[@type=rubrication] CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
-* q —> quote CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES, schema, preview
-* use <msIdentifier>
-<idno type="URI">http://syriaca.org/manuscript/124</idno>
-</msIdentifier> in minimanuscripts
-* Add suggestion to use @defective in msItems
-* colophon should just be colophon within its msItem, and not have its own msItem with xml:id coloph.
-esempio per guidelines 
-
-                           <colophon xml:lang="gez">
-                              
-                              <locus target="#92r"/>
-                              ተፈጸመ ፡ በዝየ ፡ ኦሪት ፡ ሰመንቱ ፡ ብሔር ፡ በሰላመ ፡ እግዚአ ብሔር ።
-                              <note>
-                                 Written in hand <ref target="#Hc" />, cp. also Additiones <ref target="#a1"/>, <ref target="#a4"/>, <ref target="#a8"/>, <ref target="#a10"/>, <ref target="#a12"/>. 
-                                 The note is written over erased punctuation sign.
-                              </note>
-                           </colophon>
-traduzione con foreign direttamente dentro
-RICHIEDE MODIFICA DELLA GESTIONE DI COLOPHON NELLA PREVIEW, 
-
-proposal for relations among manuscripts in `filiation`.
-
-<filiation>
-                           <listBibl type="relations"><bibl></bibl>
-                              <relation name="bm:brotherInLawOf">
-                                 <desc></desc>
-                              </relation>
-                           </listBibl>
-                        </filiation>
-
-RICHIEDE MODIFICA PER AGGIUNGERE FILIATION ALLA PREVIEW
-
-* use rubric for title as reported on Ms 
-* added values for title/@type from syriaca as optional usage 
-
-
-update preview to render in a sentence the use of columns and writtenLines in LayoutDesc
-
-* added syriaca values for decoNote/@type
-* decoNote in bindingDesc, not in binding. CHANGE OF PATH
-
-
-
 ACTIONS IN POSTPROCESSING
 * `publicationStmt/date` is added and contains date and time of upload. will constitute the first online publication date and be comparable to the last update stored in the `change` section
 * lists and drivers as canon, gazeteer, etc. should be updated starting from existing files
@@ -68,7 +17,6 @@ ACTIONS IN POSTPROCESSING
 * no intext biblStruct (from Zotero) only plain bibl POSTPROCESS
 * <material>parchment</material> not @key also in element binding POSTPROCESS
 * <condition key="good"/> —> <condition>good</condition> POSTPROCESS
-* no objectType but  @form="codex" in objectDesc. takes also scroll, leaf or other POSTPROCESS + BM-SCHEMA-DELTA for list of values
 * custEvent in element, not in type POSTPROCESS
 * element keyword require @scheme POSTPROCESS
 * no corresp in langUsage POSTPROCESS

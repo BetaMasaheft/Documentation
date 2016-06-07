@@ -5,21 +5,21 @@
     xmlns="http://www.tei-c.org/ns/1.0" 
     exclude-result-prefixes="xs"
     version="2.0">
-    <xsl:template name="colophon">
+    <xsl:template match="t:colophon">
         <hr style="border-top: dotted 2px;"/>
-        <h3>Colophon</h3>
-        <xsl:for-each select=".">
+        <h3 id="{@xml:id}">Colophon</h3>
+        
             <p>
                 <xsl:apply-templates select="descendant::t:locus"/>
             </p>
             <p>
-                <xsl:value-of select="t:colophon/text()"/>
+                <xsl:value-of select="text()"/>
             </p>
             
-            <xsl:if test="t:colophon/t:foreign">
+            <xsl:if test="t:foreign">
                 <p>
-                    <b>Translation <xsl:value-of select="t:colophon/t:foreign/@xml:lang"/>: </b>
-                    <xsl:value-of select="t:colophon/t:foreign"/>
+                    <b>Translation <xsl:value-of select="t:foreign/@xml:lang"/>: </b>
+                    <xsl:value-of select="t:foreign"/>
                 </p>
             </xsl:if>
             <xsl:if test="descendant::t:note">
@@ -30,6 +30,6 @@
             <xsl:if test="descendant::t:listBibl">
                 <xsl:apply-templates select="descendant::t:listBibl"/>
             </xsl:if>
-        </xsl:for-each>
+        
     </xsl:template>
 </xsl:stylesheet>

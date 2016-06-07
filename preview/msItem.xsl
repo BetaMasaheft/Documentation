@@ -6,11 +6,6 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:msItem[parent::t:msContents]">
-        <xsl:choose>
-            <xsl:when test=".[contains(@xml:id, 'coloph')]">
-                <xsl:call-template name="colophon"/>
-            </xsl:when>
-            <xsl:otherwise>
                 <div class="container">
                     <xsl:attribute name="id">
                         <xsl:value-of select="@xml:id"/>
@@ -21,20 +16,14 @@
                     
                     <div id="item{@xml:id}" class="collapse">
                         <xsl:apply-templates/>
+                        
                     </div>
                 </div>
                 <hr/>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:template>
     
     <xsl:template match="t:msItem[parent::t:msItem]">
-        <xsl:choose>
-            <xsl:when test=".[contains(@xml:id, 'coloph')]">
-                <xsl:call-template name="colophon"/>
-            </xsl:when>
-            <xsl:otherwise>
-                <div style="padding-left: 50px;">
+            <div style="padding-left: 50px;">
                     <xsl:attribute name="id">
                         <xsl:value-of select="@xml:id"/>
                     </xsl:attribute>
@@ -45,10 +34,9 @@
                     
                     <div>
                         <xsl:apply-templates/>
+                        
                     </div>
                 </div>
-            </xsl:otherwise>
-        </xsl:choose>
     </xsl:template>
     
 </xsl:stylesheet>

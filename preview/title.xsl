@@ -7,9 +7,9 @@
     version="2.0">
     <xsl:template match="t:title">
        
-                    <xsl:choose><xsl:when test="@corresp"><xsl:choose>
-                        <xsl:when test="document(concat('../../Works/', @corresp, '.xml'))//t:TEI">
-                            <a href="../../Works/{@corresp}">
+                    <xsl:choose><xsl:when test="@ref"><xsl:choose>
+                        <xsl:when test="document(concat('../../Works/', @ref, '.xml'))//t:TEI">
+                            <a href="../../Works/{@ref}">
                                 <xsl:choose>
                                     <xsl:when test="text()">
                                          <i><xsl:value-of select="."/></i>
@@ -17,14 +17,14 @@
                                     <xsl:otherwise>
                                         
                                         <i><xsl:value-of
-                                            select="document(concat('../../Works/', @corresp, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"
+                                            select="document(concat('../../Works/', @ref, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"
                                         /></i>
                                     </xsl:otherwise>
                                 </xsl:choose>
                             </a>
                         </xsl:when>
                         <xsl:otherwise><b style="color:red;
-                                text-align:center;">**No record for Work <xsl:value-of select="@corresp"
+                                text-align:center;">**No record for Work <xsl:value-of select="@ref"
                                 />** = <xsl:value-of select="."/> **</b>
                         </xsl:otherwise>
                     </xsl:choose></xsl:when>

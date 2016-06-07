@@ -6,6 +6,8 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:material">
+        <h3>Form of support</h3>
+        <p><xsl:value-of select="ancestor::t:objectDesc/@form"/></p>
         <h3>Writing material <xsl:if test="./ancestor::t:msPart"><xsl:variable
             name="currentMsPart">
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
@@ -14,5 +16,6 @@
         <p>
             <xsl:value-of select="@key"/>
         </p>
+        
     </xsl:template>
 </xsl:stylesheet>

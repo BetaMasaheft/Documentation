@@ -12,7 +12,7 @@
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
             <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
         <p>Ink<xsl:for-each select=".">
-                <xsl:value-of select="concat( ': ', t:seg, ';')"/>
+            <xsl:value-of select="concat( ': ', t:seg[@type = 'ink'], ';')"/>
             </xsl:for-each>
         </p>
         <p><xsl:apply-templates select="node() except t:seg[@type = 'ink']"/></p>

@@ -7,8 +7,8 @@
     version="2.0">
     <xsl:template match="t:persName">
         <xsl:choose>
-            <xsl:when test="document(concat('../../Persons/', @corresp, '.xml'))//t:TEI">
-                <a href="../../Persons/{@corresp}">
+            <xsl:when test="document(concat('../../Persons/', @ref, '.xml'))//t:TEI">
+                <a href="../../Persons/{@ref}">
                     <xsl:choose>
                         <xsl:when test="text()">
                             <xsl:value-of select="."/>
@@ -16,7 +16,7 @@
                         <xsl:otherwise>
                             
                             <xsl:value-of
-                                select="document(concat('../../Persons/', @corresp, '.xml'))//t:TEI//t:persName[not(@type = 'alt')]"
+                                select="document(concat('../../Persons/', @ref, '.xml'))//t:TEI//t:persName[not(@type = 'alt')]"
                             />
                         </xsl:otherwise>
                     </xsl:choose>
@@ -25,7 +25,7 @@
                 
             </xsl:when>
             <xsl:otherwise> <b style="color:red;
-                text-align:center;">**No record for Person <xsl:value-of select="@corresp"/>** = <xsl:value-of select="."/> **</b></xsl:otherwise>
+                text-align:center;">**No record for Person <xsl:value-of select="@ref"/>** = <xsl:value-of select="."/> **</b></xsl:otherwise>
         </xsl:choose>
         <xsl:if test="@evidence"><xsl:text> (</xsl:text><xsl:value-of select="@evidence"/><xsl:text>) </xsl:text></xsl:if>
         <xsl:if test="@cert = 'low'"><xsl:text> ? </xsl:text></xsl:if>

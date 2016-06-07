@@ -8,21 +8,21 @@
     version="2.0">
     <xsl:template match="t:repository" mode="title">
         <xsl:choose>
-            <xsl:when test="document(concat('../../Institutions/', @corresp, '.xml'))//t:TEI">
-                <a href="../../Institutions/{@corresp}">
+            <xsl:when test="document(concat('../../Institutions/', @ref, '.xml'))//t:TEI">
+                <a href="../../Institutions/{@ref}">
                     <xsl:choose>
                         <xsl:when test="text()">
                             <xsl:value-of select="."/>
                         </xsl:when>
                         <xsl:otherwise>
                             <xsl:value-of
-                                select="document(concat('../../Institutions/', @corresp, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
+                                select="document(concat('../../Institutions/', @ref, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
                             />
                         </xsl:otherwise>
                     </xsl:choose>
                 </a>
             </xsl:when>
-            <xsl:otherwise>No record for Institution <xsl:value-of select="@corresp"
+            <xsl:otherwise>No record for Institution <xsl:value-of select="@ref"
             /></xsl:otherwise>
         </xsl:choose>
     </xsl:template>

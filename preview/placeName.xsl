@@ -7,11 +7,11 @@
     version="2.0">
     <xsl:template match="t:placeName | t:region | t:country | t:settlement">
       
-        <xsl:choose><xsl:when test="@corresp"><xsl:choose>
-            <xsl:when test="contains(@corresp, 'LOC')">
+        <xsl:choose><xsl:when test="@ref"><xsl:choose>
+            <xsl:when test="contains(@ref, 'LOC')">
                 <xsl:choose>
-                    <xsl:when test="document(concat('../../Places/', @corresp, '.xml'))//t:TEI">
-                        <a href="../../Places/{@corresp}">
+                    <xsl:when test="document(concat('../../Places/', @ref, '.xml'))//t:TEI">
+                        <a href="../../Places/{@ref}">
                             <xsl:choose>
                                 <xsl:when test="text()">
                                     <xsl:value-of select="."/>
@@ -20,22 +20,22 @@
                                     <xsl:if test="@type = 'qušat'"><xsl:text>qušat </xsl:text></xsl:if>
                                     <xsl:if test="@type = 'waradā'"><xsl:text>waradā </xsl:text></xsl:if>
                                     <xsl:value-of
-                                        select="document(concat('../../Places/', @corresp, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
+                                        select="document(concat('../../Places/', @ref, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
                                     />
                                 </xsl:otherwise>
                             </xsl:choose>
                         </a>
                     </xsl:when>
                     <xsl:otherwise><b style="color:red;
-                        text-align:center;">No record for Place <xsl:value-of select="@corresp"
+                        text-align:center;">No record for Place <xsl:value-of select="@ref"
                         />** = <xsl:value-of select="."/> **</b></xsl:otherwise>
                 </xsl:choose>
             </xsl:when>
             <xsl:otherwise>
                 <xsl:choose>
                     <xsl:when
-                        test="document(concat('../../Institutions/', @corresp, '.xml'))//t:TEI">
-                        <a href="../../Institutions/{@corresp}">
+                        test="document(concat('../../Institutions/', @ref, '.xml'))//t:TEI">
+                        <a href="../../Institutions/{@ref}">
                             <xsl:choose>
                                 <xsl:when test="text()">
                                     <xsl:value-of select="."/>
@@ -45,14 +45,14 @@
                                     <xsl:if test="@type = 'waradā'"><xsl:text>waradā </xsl:text></xsl:if>
                                     
                                     <xsl:value-of
-                                        select="document(concat('../../Institutions/', @corresp, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
+                                        select="document(concat('../../Institutions/', @ref, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
                                     />
                                 </xsl:otherwise>
                             </xsl:choose>
                             
                         </a>
                     </xsl:when>
-                    <xsl:otherwise>No record for Institution <xsl:value-of select="@corresp"
+                    <xsl:otherwise>No record for Institution <xsl:value-of select="@ref"
                     /></xsl:otherwise>
                 </xsl:choose>
             </xsl:otherwise>

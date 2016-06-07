@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     type="pers"
+     xml:lang="en"
+     xml:id="PRS7102Minas">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Minās</title>
+            <author/>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            <date>2016-06-07T16:21:04.277+02:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Prosopography of Ethiopian Written tradition</p>
+            <p>A TEI file converted from the ETHIO-authority
+                                                  google spreadsheet</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="en">English</language>
+
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="PL" when="2016-04-28">batch updated according to requirements and issues.</change>
+         <change who="PL" when="2016-03-21"> Created file from
+                                                  google spreadsheet </change>
+         <change who="ES" when="2016-02-09">CREATED: person</change>
+         <change when="2016-05-12" who="SG">completed record</change>
+         <change when="2016-05-23" who="ES">revised record, name spelling corrected, biography completed, relations corrected, bibliography added</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <listPerson>
+            <person sex="1">
+
+               <persName xml:lang="gez" xml:id="n1" type="birthName">ሚናስ፡</persName>
+               <persName xml:lang="gez" ref="#n1" type="normalized">Minās</persName>
+               <persName>
+                  <roleName type="title">aṣe</roleName>
+               </persName>
+               <persName xml:lang="gez" xml:id="n2" type="birthName">ሜናስ፡</persName>
+               <persName xml:lang="gez" ref="#n2" type="normalized">Menās</persName>
+               <persName xml:lang="gez" xml:id="n3" type="regnalName">አድማስ፡ ሰገድ፡</persName>
+		             <persName xml:lang="gez" ref="n3" type="normalized">ʾAdmās Sagad</persName>
+
+		             <occupation type="ruler">Emperor</occupation>
+               <birth>1526</birth>
+               <floruit when="1559" evidence="internal">As a boy, Minās was prisoner of <persName ref="PRS1522Ahmadb">Aḥmad b. Ibrāhīm al-Ġāzī</persName>. He was then freed in a prisoner exchange in <date>1542</date>. He succeded his brother King <persName ref="PRS4428Galawdewos">Galāwdewos</persName>. </floruit>
+               <death when="1563" evidence="internal">1 February 1563</death> 
+            </person>
+            
+            
+            <listRelation>
+                     <relation name="snap:BrotherOf" mutual="#PRS7102Minas #PRS4428Galawdewos"/>
+               <relation name="snap:SonOf" active="#PRS7102Minas" passive="#PRS6229LebnaDe"/>
+               <relation name="snap:SonOf" active="#PRS7102Minas" passive="#PRS8275SablaD"/>
+               <relation name="snap:EmnityFor"
+                         active="#PRS7102Minas"
+                         passive="#PRS10343Yeshaq"/>
+               <relation name="snap:EmnityFor"
+                         active="#PRS7102Minas"
+                         passive="#PRS7692ozdemir"/>
+                  </listRelation>
+                     
+                  
+         </listPerson>
+         <listBibl type="editions">
+            <bibl>
+               <ptr target="bm:Pereira1888"/>
+            </bibl>
+            <bibl>
+               <ptr target="bm:Kropp1988"/>
+            </bibl>
+         </listBibl>
+         <listBibl type="secondary">
+            <bibl>
+               <ptr target="bm:Kleiner2007Minas"/>
+            </bibl>
+         </listBibl>
+      </body>
+   </text>
+</TEI>

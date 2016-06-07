@@ -22,8 +22,6 @@
         <xsl:apply-templates/>
     </xsl:template>
 
-    <xsl:template match="t:TEI/@type"/>
-
     <xsl:template match="t:publicationStmt">
         <xsl:copy>
             <xsl:copy-of select="t:pubPlace"/>
