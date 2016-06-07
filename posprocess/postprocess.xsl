@@ -22,54 +22,56 @@
         <xsl:apply-templates/>
     </xsl:template>
 
+<!--
+    
+    publicationStmt/date is added and contains date and time of upload. will constitute the first online publication date and be comparable to the last update stored in the change section
+    -->
+
+
     <xsl:template match="t:publicationStmt">
         <xsl:copy>
-            <xsl:copy-of select="t:pubPlace"/>
             <xsl:copy-of select="t:authority"/>
+            <xsl:copy-of select="t:pubPlace"/>
             <xsl:copy-of select="t:publisher"/>
-            <xsl:apply-templates select="t:availability"/>
+            <xsl:copy-of select="t:availability"/>
             <date>
                 <xsl:value-of select="current-dateTime()"/>
             </date>
         </xsl:copy>
     </xsl:template>
 
-    <xsl:template match="t:availability">
-        <xsl:copy>
-            <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
-                <p>
-                    <xsl:value-of select="t:licence"/>
-                </p>
-            </licence>
-        </xsl:copy>
-    </xsl:template>
 
+    <!--all uris to be expanded
+        all references to be exapnded
+        
+        ref/@ref with url temporary base url https://www.betamasaheft.uni-hamburg.de/
+-->
     <xsl:template
-        match="@corresp[parent::t:repository | parent::t:title | parent::t:persName | parent::t:placeName | parent::t:ref]">
+        match="@ref[parent::t:repository | parent::t:title | parent::t:persName | parent::t:placeName]">
         <xsl:attribute name="ref">
             <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"/>
         </xsl:attribute>
     </xsl:template>
+    
+    <xsl:template match="@corresp[parent::t:ref | parent::t:bibl | parent::t:witness]">
+        <xsl:attribute name="corresp">
+            <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"/>
+        </xsl:attribute>
+    </xsl:template>
+    
 
-
+<!--all names in meaningful items to be expanded-->
     <xsl:template match="t:title">
         <xsl:copy>
 
-            <xsl:apply-templates select="@corresp"/>
-            <xsl:choose>
-                <xsl:when test="@type = 'Complete'">
-                    <xsl:attribute name="type">uniform</xsl:attribute>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:attribute name="type">supplied</xsl:attribute>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:apply-templates select="@ref"/>
+            
             <xsl:choose>
                 <xsl:when
-                    test="document(concat('../../Works/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                    test="document(concat('../../Works/', @ref, '.xml'))/t:TEI//t:titleStmt">
                     <xsl:if test=".[not(text())]">
                         <xsl:value-of
-                            select="document(concat('../../Works/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            select="document(concat('../../Works/', @ref, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
                         />
                     </xsl:if>
                 </xsl:when>
@@ -79,6 +81,74 @@
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
+    
+    <xsl:template match="t:persName">
+        <xsl:copy>
+            
+            <xsl:apply-templates select="@ref"/>
+            
+            <xsl:choose>
+                <xsl:when
+                    test="document(concat('../../Persons/', @ref, '.xml'))/t:TEI//t:titleStmt">
+                    <xsl:if test=".[not(text())]">
+                        <xsl:value-of
+                            select="document(concat('../../Persons/', @ref, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                        />
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="t:placeName | t:repository">
+        <xsl:copy>
+            
+            <xsl:apply-templates select="@ref"/>
+            
+            <xsl:choose>
+                <xsl:when
+                    test="document(concat('../../Places/', @ref, '.xml'))/t:TEI//t:titleStmt">
+                    <xsl:if test=".[not(text())]">
+                        <xsl:value-of
+                            select="document(concat('../../Places/', @ref, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                        />
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
+    </xsl:template>
+    
+    
+    <xsl:template match="t:ref[@type='auth']">
+        <xsl:copy>
+            
+            <xsl:apply-templates select="@corresp"/>
+            
+            <xsl:choose>
+                <xsl:when
+                    test="document(concat('../../Authority-Files/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                    <xsl:if test=".[not(text())]">
+                        <xsl:value-of
+                            select="document(concat('../../Authority-Files/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                        />
+                    </xsl:if>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="."/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:copy>
+    </xsl:template>
+    
+    
+    
+<!--    relations need to have uris in a ref rather than @name-->
 
     <xsl:template match="t:relation">
         <xsl:copy>
@@ -161,6 +231,7 @@
     </xsl:template>
 
 
+    <!--bibliography should be pulled from Zotero in TEI BEFORE indexing, so the API call needs to happen between data entry and indexing in Exist. insert the TEI full record and then reapply style.-->
     <xsl:template match="t:bibl[not(parent::t:listBibl[@type = 'relations'])]">
 
         <xsl:choose>
@@ -217,12 +288,15 @@
 
     </xsl:template>
 
+
+<!--parchment not @key also in element binding-->
     <xsl:template match="t:material | t:condition">
         <xsl:copy>
             <xsl:value-of select="@key"/>
         </xsl:copy>
     </xsl:template>
     
+    <!--    custEvent in element, not in type-->
     <xsl:template match="t:custEvent">
         <xsl:copy>
             <xsl:value-of select="@type"/>
@@ -230,24 +304,60 @@
         </xsl:copy>
     </xsl:template>
     
-    <xsl:template match="t:objectType"/>
     
-    <xsl:template match="t:objectDesc">
+<!--    populate locus with text -->
+
+    <xsl:template match="t:locus">
         <xsl:copy>
-            <xsl:attribute name="form">
-                <xsl:value-of select="//t:objectType"/>
-            </xsl:attribute>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="@*"/>
+            <xsl:choose>
+            <xsl:when test="not(text())"><xsl:choose>
+                <xsl:when test="@target">
+                    <xsl:choose>
+                        <xsl:when test="contains(@target,' ')">
+                            <xsl:choose><xsl:when test="//t:extent/t:measure[@unit='page']">pp.</xsl:when><xsl:otherwise><xsl:text>ff. </xsl:text></xsl:otherwise></xsl:choose>
+                            <xsl:for-each select="tokenize(@target,' ')">
+                                    <xsl:value-of select="concat(substring-after(.,'#'), ' ')"/>
+  
+                            </xsl:for-each>
+                        </xsl:when><xsl:otherwise>
+                            <xsl:choose><xsl:when test="//t:extent/t:measure[@unit='page']">p.</xsl:when><xsl:otherwise><xsl:text>f. </xsl:text></xsl:otherwise></xsl:choose>
+                            <xsl:value-of select="substring-after(@target,'#')"/>
+                        </xsl:otherwise></xsl:choose>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:choose><xsl:when test="//t:extent/t:measure[@unit='page']">pp.</xsl:when><xsl:otherwise><xsl:text>ff. </xsl:text></xsl:otherwise></xsl:choose>
+                        <xsl:value-of select="@from"/>
+                    <xsl:text>-</xsl:text>
+                        <xsl:value-of select="@to"/>
+                </xsl:otherwise>
+            </xsl:choose>
+                <xsl:if test="@n">
+                    <xsl:text>, l.</xsl:text>
+                    <xsl:value-of select="@n"/>
+                </xsl:if></xsl:when>
+            <xsl:otherwise>
+                <xsl:choose>
+                    <xsl:when test="@target">
+                            <xsl:value-of select="."/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                    </xsl:otherwise>
+                </xsl:choose>
+                
+                
+            </xsl:otherwise></xsl:choose>
+        <xsl:text> </xsl:text>
         </xsl:copy>
     </xsl:template>
     
-<xsl:template match="t:keywords">
-<xsl:copy>
-    <xsl:attribute name="scheme">#ethioauthlist</xsl:attribute>
-    <xsl:apply-templates/>
-</xsl:copy>
-</xsl:template>    
+<!--    populate refs of all types with text -->
     
-    <xsl:template match="@corresp[parent::t:language]"/>
+<!--    populate bibl in listbibl type mss with idnos-->
+    
+<!--    populate witness with idnos-->
+    
+
     
 </xsl:stylesheet>
