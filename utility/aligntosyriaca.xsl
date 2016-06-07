@@ -2,28 +2,28 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
     xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="#all" version="2.0">
-
+    
     <xsl:output encoding="UTF-8" method="xml"/>
     <xsl:output indent="yes"/>
-
+    
     <xsl:template match="@* | node()">
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
-
+    
     <xsl:template match="//processing-instruction()"/>
-
+    
     <xsl:template match="/">
         <xsl:processing-instruction name="oxygen">
     <xsl:text>RNGSchema="enrich-betamesaheft.rnc" type="compact"</xsl:text>
 </xsl:processing-instruction>
-
+        
         <xsl:apply-templates/>
     </xsl:template>
-
+    
     <xsl:template match="t:TEI/@type"/>
-
+    
     <xsl:template match="t:publicationStmt">
         <xsl:copy>
             <xsl:copy-of select="t:pubPlace"/>
@@ -35,7 +35,7 @@
             </date>
         </xsl:copy>
     </xsl:template>
-
+    
     <xsl:template match="t:availability">
         <xsl:copy>
             <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
@@ -45,18 +45,18 @@
             </licence>
         </xsl:copy>
     </xsl:template>
-
+    
     <xsl:template
         match="@corresp[parent::t:repository | parent::t:title | parent::t:persName | parent::t:placeName | parent::t:ref]">
         <xsl:attribute name="ref">
             <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"/>
         </xsl:attribute>
     </xsl:template>
-
-
+    
+    
     <xsl:template match="t:title">
         <xsl:copy>
-
+            
             <xsl:apply-templates select="@corresp"/>
             <xsl:choose>
                 <xsl:when test="@type = 'Complete'">
@@ -81,7 +81,7 @@
             </xsl:choose>
         </xsl:copy>
     </xsl:template>
-
+    
     <xsl:template match="t:relation">
         <xsl:copy>
             <xsl:attribute name="name">
@@ -128,16 +128,16 @@
             <!--            need to be transformed into uris of the project-->
         </xsl:copy>
     </xsl:template>
-
-
+    
+    
     <xsl:template match="@active[parent::t:relation]"> </xsl:template>
-
+    
     <xsl:template match="@passive[parent::t:relation]">
         <xsl:attribute name="passive">
             <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"/>
         </xsl:attribute>
     </xsl:template>
-
+    
     <xsl:template match="@mutual[parent::t:relation]">
         <xsl:attribute name="mutual">
             <xsl:for-each select="tokenize(., ' ')">
@@ -145,8 +145,8 @@
             </xsl:for-each>
         </xsl:attribute>
     </xsl:template>
-
-
+    
+    
     <xsl:template match="t:editor/@key">
         <xsl:choose>
             <xsl:when test=". = 'AB'">Prof. Alessandro Bausi</xsl:when>
@@ -161,12 +161,12 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-
-
+    
+    
     <xsl:template match="t:bibl[not(parent::t:listBibl[@type = 'relations'])]">
-
+        
         <xsl:choose>
-
+            
             <xsl:when test="@corresp">
                 <xsl:copy>
                     <xsl:attribute name="corresp">
@@ -206,19 +206,19 @@
                         <xsl:copy-of select="$zotero//t:series"/>
                         <xsl:copy-of select="$zotero//t:biblScope"/>
                         <xsl:copy-of select="$zotero//t:note"/>
-
+                        
                         <xsl:if test="t:citedRange">
                             <xsl:copy-of select="t:citedRange"/>
                         </xsl:if>
                     </bibl>
                 </xsl:if>
-
+                
             </xsl:otherwise>
         </xsl:choose>
-
-
+        
+        
     </xsl:template>
-
+    
     <xsl:template match="t:material | t:condition">
         <xsl:copy>
             <xsl:value-of select="@key"/>
@@ -243,12 +243,12 @@
         </xsl:copy>
     </xsl:template>
     
-<xsl:template match="t:keywords">
-<xsl:copy>
-    <xsl:attribute name="scheme">#ethioauthlist</xsl:attribute>
-    <xsl:apply-templates/>
-</xsl:copy>
-</xsl:template>    
+    <xsl:template match="t:keywords">
+        <xsl:copy>
+            <xsl:attribute name="scheme">#ethioauthlist</xsl:attribute>
+            <xsl:apply-templates/>
+        </xsl:copy>
+    </xsl:template>    
     
     <xsl:template match="@corresp[parent::t:language]"/>
     

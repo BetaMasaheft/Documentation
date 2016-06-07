@@ -3,35 +3,96 @@ aim2: check for possible improvments to data entry schema
 
 select from list changes for both, produce schema to validate output (enrich-betamesaheft)
 
-* no @type in TEI
-* pubPlace before authority in publicationStmt
-* p in licence
-* corresp in repository, title > ref with url
-temporary base url https://www.betamasaheft.uni-hamburg.de/
-* in title type= Complete not accepted. Uniform or Supplied. check values.
-* use always @ref instead of @corresp
-* in element ref use target with full url
-* @evidence not supported in title
-* no intext biblStruct (from Zotero) only plain bibl
-* <material>parchment</material> not @key also in element binding
-* no objectType but  @form="codex" in objectDesc. takes also scroll, leaf or other
-* extent dimensions without type
-* measure with @unit into height, width, depth
-* unit allowed NOT mm but CM
-* no @type="blank"
-* leaves into a measure @type=‘composition’. ONLY 1
-* no support for measure unit quire.
-* no support for measure/ dim in items of collation. collation is given as a string in a paragraph
-* <condition key="good"/> —> 
-                        <condition>good</condition>
-* script Ethiopic not allowed, and use of language abbreviation in script. I think this is not correct, as assumes identity of language and script, and is project specific in the schema (plenty of syriac scripts, nothing else).
-* ab[@type=script] —> seg[@type=script]
-* ab[@type=rubrication] —> seg[@type=rubrication]
-* instead of type in desc, syriaca uses a project specifica attribute syriaca-tag in item, not in desc.
-* custEvent in element, not in type
-* particDesc not used by syriaca
-* element keyword require @scheme
-* no corresp in langUsage
-* decoNOte not supported into binding
-* listBibl needs bibl, not biblStruct from Zotero
-* no relations supported??
+
+
+CHANGES TO THE CURRENT MODEL, templates and guidelines and editing schema
+
+* corresp in repository, title > ref CHANGE IN EDITING SCHEMA
+* use always @ref instead of @corresp CHANGE IN EDITING SCHEMA
+* pubPlace before authority in publicationStmt CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
+* p in licence CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
+* ab[@type=script] —> seg[@type=script]  CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
+* ab[@type=rubrication] —> seg[@type=rubrication] CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES
+* q —> quote CHANGE IN EDITING SCHEMA AND IN GUIDELINES/TEMPLATES, schema, preview
+* use <msIdentifier>
+<idno type="URI">http://syriaca.org/manuscript/124</idno>
+</msIdentifier> in minimanuscripts
+* Add suggestion to use @defective in msItems
+* colophon should just be colophon within its msItem, and not have its own msItem with xml:id coloph.
+esempio per guidelines 
+
+                           <colophon xml:lang="gez">
+                              
+                              <locus target="#92r"/>
+                              ተፈጸመ ፡ በዝየ ፡ ኦሪት ፡ ሰመንቱ ፡ ብሔር ፡ በሰላመ ፡ እግዚአ ብሔር ።
+                              <note>
+                                 Written in hand <ref target="#Hc" />, cp. also Additiones <ref target="#a1"/>, <ref target="#a4"/>, <ref target="#a8"/>, <ref target="#a10"/>, <ref target="#a12"/>. 
+                                 The note is written over erased punctuation sign.
+                              </note>
+                           </colophon>
+traduzione con foreign direttamente dentro
+RICHIEDE MODIFICA DELLA GESTIONE DI COLOPHON NELLA PREVIEW, 
+
+proposal for relations among manuscripts in `filiation`.
+
+<filiation>
+                           <listBibl type="relations"><bibl></bibl>
+                              <relation name="bm:brotherInLawOf">
+                                 <desc></desc>
+                              </relation>
+                           </listBibl>
+                        </filiation>
+
+RICHIEDE MODIFICA PER AGGIUNGERE FILIATION ALLA PREVIEW
+
+* use rubric for title as reported on Ms 
+* added values for title/@type from syriaca as optional usage 
+
+
+update preview to render in a sentence the use of columns and writtenLines in LayoutDesc
+
+* added syriaca values for decoNote/@type
+* decoNote in bindingDesc, not in binding. CHANGE OF PATH
+
+
+
+ACTIONS IN POSTPROCESSING
+* `publicationStmt/date` is added and contains date and time of upload. will constitute the first online publication date and be comparable to the last update stored in the `change` section
+* lists and drivers as canon, gazeteer, etc. should be updated starting from existing files
+* bibliography should be pulled from Zotero in TEI BEFORE indexing, so the API call needs to happen between data entry and indexing in Exist. insert the TEI full record and then reapply style.
+* all uris to be expanded
+* all references to be exapnded
+* all names in meaningful items to be expanded
+* relations need to have uris in a ref rather than @name
+* ref/@ref with url temporary base url https://www.betamasaheft.uni-hamburg.de/ POSTPROCESS
+* no intext biblStruct (from Zotero) only plain bibl POSTPROCESS
+* <material>parchment</material> not @key also in element binding POSTPROCESS
+* <condition key="good"/> —> <condition>good</condition> POSTPROCESS
+* no objectType but  @form="codex" in objectDesc. takes also scroll, leaf or other POSTPROCESS + BM-SCHEMA-DELTA for list of values
+* custEvent in element, not in type POSTPROCESS
+* element keyword require @scheme POSTPROCESS
+* no corresp in langUsage POSTPROCESS
+* bibl from Zotero
+* expand titles, placeNames, persNames and refs and locus where they don’t have text in input
+ 
+
+
+
+BM-SCHEMA Differences from syriaca.org
+* no @type in TEI BM-SCHEMA-DELTA
+* in title type= Complete not accepted. Uniform or Supplied. check values. BM-SCHEMA-DELTA
+* @evidence not supported in title BM-SCHEMA-DELTA
+* extent dimensions without type BM-SCHEMA-DELTA
+* measure with @unit into height, width, depth BM-SCHEMA-DELTA
+* unit allowed NOT mm but CM BM-SCHEMA-DELTA
+* no @type="blank" BM-SCHEMA-DELTA
+* leaves into a measure @type=‘composition’. ONLY 1 BM-SCHEMA-DELTA
+* no support for measure unit quire. BM-SCHEMA-DELTA
+* no support for measure/ dim in items of collation. collation is given as a string in a paragraph BM-SCHEMA-DELTA
+* script Ethiopic not allowed, and use of language abbreviation in script. I think this is not correct, as assumes identity of language and script, and is project specific in the schema (plenty of syriac scripts, nothing else). BM-SCHEMA-DELTA
+* instead of type in desc, syriaca uses a project specifica attribute syriaca-tag in item, not in desc. BM-SCHEMA-DELTA
+* particDesc not used by syriaca  BM-SCHEMA-DELTA
+* decoNote not supported into binding, material can be expressed in binding/condition BM-SCHEMA-DELTA
+
+
+* no relations supported?? leave relation/@name ASKED. POSSIBLY BM-SCHEMA-DELTA, ASKED

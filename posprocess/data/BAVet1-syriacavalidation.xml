@@ -693,15 +693,10 @@
             
                   <bindingDesc>
                      <binding contemporary="false" xml:id="binding">
-                        <decoNote xml:id="b0"/>
-                        <decoNote xml:id="b1" type="bindingMaterial">
-                           <material>Wood</material>
-                        </decoNote>
-                        <decoNote xml:id="b2" type="Endbands">
-                           <desc type="Headband"/>
-                           <desc type="Tailband"/>
-                        </decoNote>
-                        <decoNote xml:id="b3" type="Other"> </decoNote>
+                       <condition>
+                          <material>Wood</material>
+                       </condition>
+                        
                      </binding>
                   </bindingDesc>
                </physDesc>
@@ -719,9 +714,9 @@
                      <recordHist>
                         <source>
                            <listBibl type="catalogue">
-                              <biblStruct xmlns:t="http://www.tei-c.org/ns/1.0" corresp="" type="">
+                              <bibl>
                                  <citedRange unit="page">1-11</citedRange>
-                              </biblStruct>
+                              </bibl>
                            </listBibl>
                         </source>
                      </recordHist>
@@ -730,9 +725,9 @@
                      </custodialHist>
                   </adminInfo>
                    <listBibl type="secondary">
-                     <biblStruct xmlns:t="http://www.tei-c.org/ns/1.0" corresp="" type="">
+                     <bibl>
                         <citedRange unit="page">12</citedRange>
-                     </biblStruct>
+                     </bibl>
                   </listBibl>
                </additional>
             </msDesc>
@@ -771,10 +766,9 @@
   <text>
     
       <body>
-         <div type="bibliography">
-            <listBibl type="relations">
-               <bibl xmlns:t="http://www.tei-c.org/ns/1.0"/>
-               <relation ref="http://purl.org/saws/ontology#isDirectCopyOf"
+         <div>
+           <!-- <ab><listRelation>
+               <relation name="r" ref="http://purl.org/saws/ontology#isDirectCopyOf"
                          active="#ms_i1"
                          passive="bm:Petrus1548Test"/>
                <relation ref="http://purl.org/saws/ontology#isDirectCopyOf"
@@ -786,7 +780,7 @@
                <relation ref="http://purl.org/saws/ontology#isDirectCopyOf"
                          active="#ms_i7"
                          passive="BMLor148"/>
-            </listBibl>
+            </listRelation></ab>-->
          </div>
       </body>
   </text>
