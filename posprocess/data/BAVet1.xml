@@ -56,8 +56,36 @@ schematypens="http://relaxng.org/ns/structure/1.0"
                         <title type="Complete" ref="LIT2705Introd">Introduction to the Gospels</title>
 
                         <msItem xml:id="ms_i1.1.1">
-                           <locus from="3r" to="unknown"/>
+                           <locus target="#45va #56rb"/>
                            <title type="Complete" ref="LIT2706Introd">Maqdǝma wangel, “Introduction to the Gospels”</title>
+                           <note><ref type="work" corresp="LIT1004AbbaNa"/><ref type="hand" corresp="BAVet2#h1"/><ref type="mss" corresp="BAVet2"/><ref type="deco" corresp="BAVet2"/><ref type="deco" corresp="BAVet2#d2"/><ref type="deco" corresp="BAVet2#d2">The name of this decoration</ref></note>
+                    <filiation>
+                       <listWit>
+                          
+                          <witness corresp="http://www.example.com/EMML11111" type="external"/>
+                          <witness corresp="ESum037">
+                             <idno></idno>
+                             <title></title>
+                          </witness>
+                       </listWit>
+                       <listBibl type="relations">
+                          <bibl/>
+                          <relation name="saws:AbstractManuscriptText" active="BAVet1#ms_i3" passive="BAVet2">
+                             <desc></desc>
+                          </relation>
+                          <relation name="saws:AbstractManuscriptText" active="BAVet1" passive="BAVet2#h3">
+                             <desc></desc>
+                          </relation>
+                       </listBibl>
+                    </filiation>
+                           <listBibl type="mss">
+                              <bibl corresp="ESum035"/>
+                              <bibl type="external" corresp="http://www.example.com"><ptr target="http://www.example.com"/></bibl>
+                              
+                              <bibl corresp="ESum033"/>
+                              
+                              <bibl corresp="ESum038"/>
+                           </listBibl>
                         </msItem>
                         <msItem xml:id="ms_i1.1.2">
                            <locus target="unknown"/>

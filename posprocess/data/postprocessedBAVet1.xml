@@ -23,7 +23,7 @@
             under the Creative Commons Attribution-ShareAlike 4.0. </p>
                </licence>
             </availability>
-            <date>2016-06-07T18:20:06.132+02:00</date>
+            <date>2016-06-08T16:03:14.626+02:00</date>
          </publicationStmt>
          <sourceDesc>
             <msDesc xml:id="ms">
@@ -44,7 +44,8 @@
                         <bibl/>
                         <relation name="saws:isDirectCopyOf"
                                   ref="http://purl.org/saws/ontology#isDirectCopyOf"
-                                  active="https://www.betamasaheft.uni-hamburg.de/"/>
+                                  active="https://www.betamasaheft.uni-hamburg.de/#ms_i1"
+                                  passive="https://www.betamasaheft.uni-hamburg.de/bm:Petrus1548Test"/>
                      </listBibl>
               
 
@@ -53,8 +54,63 @@
                         <title ref="https://www.betamasaheft.uni-hamburg.de/LIT2705Introd">Introduction to the Gospels</title>
 
                         <msItem xml:id="ms_i1.1.1">
-                           <locus from="3r" to="unknown">ff. 3r-unknown </locus>
+                           <locus target="#45va #56rb">ff. 45va 56rb  </locus>
                            <title ref="https://www.betamasaheft.uni-hamburg.de/LIT2706Introd">Maqdǝma wangel, “Introduction to the Gospels”</title>
+                           <note>
+                              <ref corresp="https://www.betamasaheft.uni-hamburg.de/LIT1004AbbaNa"
+                                   type="work">Abba Näfso</ref>
+                              <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2#h1" type="hand">Canons of the Council of Nicaea, h1</ref>
+                              <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2" type="mss">Canons of the Council of Nicaea</ref>
+                              <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2" type="deco">Canons of the Council of Nicaea</ref>
+                              <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2#d2" type="deco">Canons of the Council of Nicaea, d2</ref>
+                              <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2#d2" type="deco"/>
+                           </note>
+                           <filiation>
+                              <listWit>
+                          
+                                 <witness corresp="http://www.example.com/EMML11111"/>
+                                 <witness corresp="https://www.betamasaheft.uni-hamburg.de/ESum037">
+                                    <idno>UM-037</idno>
+                                    <title>Fragments of seven various manuscripts</title>
+                                    <idno/>
+                                    <title/>
+                                 </witness>
+                              </listWit>
+                              <listBibl type="relations">
+                                 <bibl/>
+                                 <relation name="saws:AbstractManuscriptText"
+                                           ref="http://purl.org/saws/ontology#AbstractManuscriptText"
+                                           active="https://www.betamasaheft.uni-hamburg.de/BAVet1#ms_i3"
+                                           passive="https://www.betamasaheft.uni-hamburg.de/BAVet2">
+                                    <desc/>
+                                 </relation>
+                                 <relation name="saws:AbstractManuscriptText"
+                                           ref="http://purl.org/saws/ontology#AbstractManuscriptText"
+                                           active="https://www.betamasaheft.uni-hamburg.de/BAVet1"
+                                           passive="https://www.betamasaheft.uni-hamburg.de/BAVet2#h3">
+                                    <desc/>
+                                 </relation>
+                              </listBibl>
+                           </filiation>
+                           <listBibl type="mss">
+                              <bibl corresp="https://www.betamasaheft.uni-hamburg.de/ESum035">
+                                 <idno>UM-035</idno>
+                                 <title>Yä-ʿUra Mäsqäl däbdabbe, Land-charter of ʿUra Mäsqäl</title>
+                              </bibl>
+                              <bibl type="external" corresp="http://www.example.com">
+                                 <ptr target="http://www.example.com"/>
+                              </bibl>
+                              
+                              <bibl corresp="https://www.betamasaheft.uni-hamburg.de/ESum033">
+                                 <idno>UM-033</idno>
+                                 <title>Fragments</title>
+                              </bibl>
+                              
+                              <bibl corresp="https://www.betamasaheft.uni-hamburg.de/ESum038">
+                                 <idno/>
+                                 <title/>
+                              </bibl>
+                           </listBibl>
                         </msItem>
                         <msItem xml:id="ms_i1.1.2">
                            <locus target="unknown">f.  </locus>
@@ -132,7 +188,8 @@
                         <bibl/>
                         <relation name="saws:isDirectCopyOf"
                                   ref="http://purl.org/saws/ontology#isDirectCopyOf"
-                                  active="https://www.betamasaheft.uni-hamburg.de/"/>
+                                  active="https://www.betamasaheft.uni-hamburg.de/#ms_i3"
+                                  passive="https://www.betamasaheft.uni-hamburg.de/bm:Petrus1548Test"/>
                      </listBibl>
 
                      <msItem xml:id="ms_i3.1">
@@ -260,7 +317,8 @@
                         <bibl/>
                         <relation name="saws:isDirectCopyOf"
                                   ref="http://purl.org/saws/ontology#isDirectCopyOf"
-                                  active="https://www.betamasaheft.uni-hamburg.de/"/>
+                                  active="https://www.betamasaheft.uni-hamburg.de/#ms_i6"
+                                  passive="https://www.betamasaheft.uni-hamburg.de/BMLor148"/>
                      </listBibl>
 
                      <msItem xml:id="ms_i6.1">
@@ -347,7 +405,9 @@
                         <bibl/>
                         <relation name="saws:isDirectCopyOf"
                                   ref="http://purl.org/saws/ontology#isDirectCopyOf"
-                                  active="https://www.betamasaheft.uni-hamburg.de/"/>
+                                  active="https://www.betamasaheft.uni-hamburg.de/#ms_i7"
+                                  passive="https://www.betamasaheft.uni-hamburg.de/BMLor148"
+                                  evidence="conjecture"/>
                      </listBibl>
               
                      <msItem xml:id="ms_i7.1">
@@ -573,8 +633,8 @@
                         <seg type="script">Mediocre.</seg>
                         <seg type="ink">Black, red</seg>
                         <date/>
-                        <desc> It is the same hand as <ref type="hand" corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2#h2">hand 2</ref>
-                           <ref type="mss" corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2"/>. 
+                        <desc> It is the same hand as <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2#h2" type="hand"/>
+                           <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVet2" type="mss">Canons of the Council of Nicaea</ref>. 
                            The numerals are written without dashes; ፮ has the loop open, looking like “compressed” ፯; ፪ has angular and not separated loops.</desc>
                         <seg type="rubrication">Nomina sacra, titles, liturgical admonishments; elements of the text dividers; Ethiopic numerals.</seg>
                      </handNote>
@@ -658,7 +718,7 @@
                         <item xml:id="e9">
                            <locus target="#147r">f. 147r </locus>
                            <quote xml:lang="la">Nota b(ene) Maximum hic esse errore. confundit et miscet enim hic duo Concilia. Stulte idem error et jam est in Cod(ice) Magni Duc(is) Florentiae. Sed Cod(ex) Abiss(inoru)m et meus bene habent o(mn)ia notauit a(utem) Fr(ater) G(iovanni) M(ichahel) Vanslebius Ord. Praed.</quote>
-                           <quote xml:lang="en">"Nota bene: a serious error is here, as (the scribe) confuses and blends here two councils. The same error is also trivially attested in the manuscript of the Grand Duke of Florence (i.e, <ref type="mss" corresp="https://www.betamasaheft.uni-hamburg.de/BMLor148"/>). However, the manuscript of the Ethiopians (i.e., of San Stefano dei Mori, (i.e, <ref type="mss" corresp="https://www.betamasaheft.uni-hamburg.de/BAVborget2"/>) and mine display everything correctly. Brother Johann Michael Wansleben annotated (this)".</quote>
+                           <quote xml:lang="en">"Nota bene: a serious error is here, as (the scribe) confuses and blends here two councils. The same error is also trivially attested in the manuscript of the Grand Duke of Florence (i.e, <ref corresp="https://www.betamasaheft.uni-hamburg.de/BMLor148" type="mss"/>). However, the manuscript of the Ethiopians (i.e., of San Stefano dei Mori, (i.e, <ref corresp="https://www.betamasaheft.uni-hamburg.de/BAVborget2" type="mss"/>) and mine display everything correctly. Brother Johann Michael Wansleben annotated (this)".</quote>
                            <note>Note written in the intercolum by <persName ref="https://www.betamasaheft.uni-hamburg.de/PRS10036Wansleb">Wansleben</persName> probably in <date>1665</date>.</note>
                         </item>
                         <item xml:id="e10">
@@ -735,7 +795,7 @@
                         <placeName ref="https://www.betamasaheft.uni-hamburg.de/LOC5374Rome">Rome</placeName>
                      </origPlace>
                      <origDate notBefore="1500" notAfter="1599"/>
-                     <p>An origin from <placeName ref="https://www.betamasaheft.uni-hamburg.de/LOC3957Jerusa">Jerusalem</placeName> has been conjectured, together with Ms. <ref type="mss" corresp="https://www.betamasaheft.uni-hamburg.de/BMLor148"/>, cp. <bibl corresp="http://zotero.org/groups/358366/items/RJFA2TG3"
+                     <p>An origin from <placeName ref="https://www.betamasaheft.uni-hamburg.de/LOC3957Jerusa">Jerusalem</placeName> has been conjectured, together with Ms. <ref corresp="https://www.betamasaheft.uni-hamburg.de/BMLor148" type="mss"/>, cp. <bibl corresp="http://zotero.org/groups/358366/items/RJFA2TG3"
                               type="journalArticle">
                            <title level="a">I manoscritti etiopici di J.M. Wansleben nella biblioteca nazionale centrale di Firenze</title>
                            <title level="j">Rassegna di Studi Etiopici</title>

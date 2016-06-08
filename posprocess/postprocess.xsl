@@ -53,12 +53,13 @@
         </xsl:attribute>
     </xsl:template>
     
-    <xsl:template match="@corresp[parent::t:ref | parent::t:bibl | parent::t:witness]">
+    <xsl:template match="@corresp[parent::t:ref | parent::t:bibl[not(@type='external')] | parent::t:witness[not(@type='external')]]">
         <xsl:attribute name="corresp">
             <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"/>
         </xsl:attribute>
     </xsl:template>
     
+    <xsl:template match="@type[parent::t:witness]"/>
 
 <!--all names in meaningful items to be expanded-->
     <xsl:template match="t:title">
@@ -125,24 +126,160 @@
     </xsl:template>
     
     
-    <xsl:template match="t:ref[@type='auth']">
+    <xsl:template match="t:ref">
         <xsl:copy>
             
             <xsl:apply-templates select="@corresp"/>
+            <xsl:apply-templates select="@type"/>
+            <xsl:apply-templates select="@target"/>
             
+            
+            <!--    populate refs of all types with text -->
+            
+            <xsl:if test=".[not(text())]">
+                
             <xsl:choose>
+                <xsl:when test="@type='auth'">
+                    <xsl:choose>
                 <xsl:when
                     test="document(concat('../../Authority-Files/', @corresp, '.xml'))/t:TEI//t:titleStmt">
-                    <xsl:if test=".[not(text())]">
                         <xsl:value-of
                             select="document(concat('../../Authority-Files/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
                         />
-                    </xsl:if>
                 </xsl:when>
                 <xsl:otherwise>
-                    <xsl:value-of select="."/>
+                    <xsl:value-of select="."/> 
+                    <!--this addes the reference identifier as text if the record does not yet exist-->
                 </xsl:otherwise>
             </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@type='title'">
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Works/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                                <xsl:value-of
+                                    select="document(concat('../../Works/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                                />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@type='work'">
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Works/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                            <xsl:value-of
+                                select="document(concat('../../Works/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@type='place'">
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Places/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                            <xsl:value-of
+                                select="document(concat('../../Places/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@type='ins'">
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Institutions/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                            <xsl:value-of
+                                select="document(concat('../../Institutions/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@type='pers'">
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Persons/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                            <xsl:value-of
+                                select="document(concat('../../Persons/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@type='group'">
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Persons/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                            <xsl:value-of
+                                select="document(concat('../../Persons/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                <xsl:when test="@type='author'">
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Persons/', @corresp, '.xml'))/t:TEI//t:titleStmt">
+                            <xsl:value-of
+                                select="document(concat('../../Persons/', @corresp, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            />
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                
+                <xsl:when test="@type='mss' or @type='hand'  or @type='mspart'  or @type='item'  or @type='quire'   or @type='binding'   or @type='deco' ">
+                    <xsl:variable name="filename" select="if (contains(@corresp, '#')) then (substring-before(@corresp, '#')) else (@corresp)"/>
+                    <xsl:variable name="id" select="if (contains(@corresp, '#')) then (substring-after(@corresp, '#')) else ('')"/>
+                    
+                    <xsl:choose>
+                        <xsl:when
+                            test="document(concat('../../Manuscripts/', $filename, '.xml'))/t:TEI//t:titleStmt">
+                            <xsl:value-of
+                                select="document(concat('../../Manuscripts/', $filename, '.xml'))/t:TEI//t:titleStmt/t:title[1]"
+                            /><xsl:if test="$id != ''"><xsl:text>, </xsl:text><xsl:value-of select="$id"/></xsl:if>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="."/>
+                            <!--this addes the reference identifier as text if the record does not yet exist-->
+                            
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:when>
+                
+            </xsl:choose>
+            </xsl:if>
         </xsl:copy>
     </xsl:template>
     
@@ -179,26 +316,19 @@
                     </xsl:when>
                 </xsl:choose>
             </xsl:attribute>
-            <xsl:attribute name="active">
-                <xsl:choose>
-                    <xsl:when test="starts-with(., '#')">
-                        <xsl:value-of
-                            select="concat('https://www.betamasaheft.uni-hamburg.de/', //t:TEI/@xml:id, .)"
-                        />
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"
-                        />
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:attribute>
+            <xsl:apply-templates select="@*"/>
+            
             <xsl:apply-templates/>
             <!--            need to be transformed into uris of the project-->
         </xsl:copy>
     </xsl:template>
 
 
-    <xsl:template match="@active[parent::t:relation]"> </xsl:template>
+    <xsl:template match="@active[parent::t:relation]"> 
+        <xsl:attribute name="active">
+            <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"/>
+        </xsl:attribute>
+    </xsl:template>
 
     <xsl:template match="@passive[parent::t:relation]">
         <xsl:attribute name="passive">
@@ -232,15 +362,18 @@
 
 
     <!--bibliography should be pulled from Zotero in TEI BEFORE indexing, so the API call needs to happen between data entry and indexing in Exist. insert the TEI full record and then reapply style.-->
-    <xsl:template match="t:bibl[not(parent::t:listBibl[@type = 'relations'])]">
+    
+    
+    <!--    populate bibl in listbibl type mss with idnos-->
+    
+    <!--    populate witness with idnos-->
+    <xsl:template match="t:bibl[not(parent::t:listBibl[@type = 'relations'])][not(@type='external')] | t:witness[not(@type='external')]">
 
         <xsl:choose>
 
             <xsl:when test="@corresp">
                 <xsl:copy>
-                    <xsl:attribute name="corresp">
-                        <xsl:value-of select="@corresp"/>
-                    </xsl:attribute>
+                    <xsl:apply-templates select="@corresp"/>
                     <xsl:variable name="filename">
                         <xsl:choose>
                             <xsl:when test="contains(@corresp, '#')">
@@ -252,7 +385,10 @@
                         </xsl:choose>
                     </xsl:variable>
                     <xsl:variable name="file"
-                        select="document(concat('../../Manuscript/', $filename, '.xml'))"/>
+                        select="document(concat('../../Manuscripts/', $filename, '.xml'))"/>
+                    <idno>
+                        <xsl:value-of select="$file//t:msIdentifier/t:idno"/>
+                    </idno>
                     <title>
                         <xsl:value-of select="$file//t:titleStmt/t:title"/>
                     </title>
@@ -351,12 +487,6 @@
         <xsl:text> </xsl:text>
         </xsl:copy>
     </xsl:template>
-    
-<!--    populate refs of all types with text -->
-    
-<!--    populate bibl in listbibl type mss with idnos-->
-    
-<!--    populate witness with idnos-->
     
 
     
