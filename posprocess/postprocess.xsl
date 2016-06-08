@@ -47,7 +47,7 @@
         ref/@ref with url temporary base url https://www.betamasaheft.uni-hamburg.de/
 -->
     <xsl:template
-        match="@ref[parent::t:repository | parent::t:title | parent::t:persName | parent::t:placeName]">
+        match="@ref[parent::t:country | parent::t:region | parent::t:settlement | parent::t:repository | parent::t:title | parent::t:persName | parent::t:placeName]">
         <xsl:attribute name="ref">
             <xsl:value-of select="concat('https://www.betamasaheft.uni-hamburg.de/', .)"/>
         </xsl:attribute>
