@@ -65,7 +65,7 @@
     <xsl:template match="t:title">
         <xsl:copy>
 
-            <xsl:apply-templates select="@ref"/>
+            <xsl:apply-templates select="@*"/>
             
             <xsl:choose>
                 <xsl:when
@@ -86,7 +86,7 @@
     <xsl:template match="t:persName">
         <xsl:copy>
             
-            <xsl:apply-templates select="@ref"/>
+            <xsl:apply-templates select="@*"/>
             
             <xsl:choose>
                 <xsl:when
@@ -107,7 +107,7 @@
     <xsl:template match="t:placeName | t:repository">
         <xsl:copy>
             
-            <xsl:apply-templates select="@ref"/>
+            <xsl:apply-templates select="@*"/>
             
             <xsl:choose>
                 <xsl:when
