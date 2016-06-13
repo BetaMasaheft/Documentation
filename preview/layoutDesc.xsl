@@ -11,7 +11,7 @@
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
             <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
-        <xsl:for-each select=".//t:layout[t:dimensions]">
+        <xsl:for-each select=".//t:layout">
             <xsl:sort select="position()"/>
             <h4>
                 <xsl:value-of select="position()"/>
@@ -22,7 +22,7 @@
             
             <p>Number of lines : <xsl:value-of select="@writtenLines"/></p>
             
-            <table>
+            <xsl:if test="t:dimensions"><table>
                 <tr>
                     <td>H</td>
                     <td>
@@ -136,7 +136,7 @@
                             <xsl:if test="number($totalwidth) = 0">object width </xsl:if>
                         </xsl:otherwise>
                     </xsl:choose></p>
-            </div>
+            </div></xsl:if>
         </xsl:for-each>
         <xsl:if test=".//t:ab[@type = 'ruling']">
             
