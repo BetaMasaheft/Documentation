@@ -444,10 +444,7 @@
                             
                         </xsl:for-each>
                         </xsl:for-each>
-                    </body>
-                </html>
-            </xsl:result-document>
-        
+                    
         
     </xsl:template>
 </xsl:stylesheet>
