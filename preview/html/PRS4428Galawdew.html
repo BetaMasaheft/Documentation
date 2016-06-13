@@ -110,8 +110,17 @@
          <div id="BetMesRelView"></div><script type="text/javascript">
             // create an array with nodes
             var nodes = new vis.DataSet([
-            {id:"PRS4428", label:"ገላውዴዎስ፡"},{id:"PRS7102", label:"Minas"},{id:"PRS6229", label:"Lǝbnä Dǝngǝl (Dawit Wänäg Sägäd)"},{id:"PRS8275", label:"Säblä Dǝngǝl"},{id:"LIT1252", label:"Confessio Claudii"},{id:"LIT3122", label:"Chronicle of Galāwdewos"},
-           
+            {id:"v0", label:""},
+{id:"v1", label:"ይሠርብ"},
+{id:"v2", label:"ገበርክ"},
+{id:"v3", label:"ገብርከ"},
+{id:"v4", label:"ገብርነ"},
+{id:"v5", label:"a red cat"},
+{id:"v6", label:"yellow "},
+{id:"v7", label:"black "},
+{id:"v8", label:"dog"},
+{id:"v9", label:"."},
+{id:"v10", label:""},
            
             ]);
             
@@ -120,19 +129,21 @@
             
              
             
-            {from: "PRS4428", to:
-                "PRS7102" , label:"snap:BrotherOf"}, {from: "PRS7102", to: "PRS4428" ,
-                label:"snap:BrotherOf"}, 
-            
-         
-            
-            {from: "PRS4428", to: "PRS6229" , label:"snap:SonOf"},  
-            
-            {from: "PRS4428", to: "PRS8275" , label:"snap:SonOf"},  
-            
-            {from: "PRS4428", to: "LIT1252" , label:"saws:isAttributedAuthorOf"},  
-            
-            {from: "PRS4428", to: "LIT3122" , label:"saws:P129i_is_subject_of"}, 
+           
+{from: "v0", to: "v1" , label:"W1"},
+{from: "v0", to: "v2" , label:"W2, W3"},
+{from: "v1", to: "v3" , label:"W1"},
+{from: "v2", to: "v3" , label:"W2, W3"},
+{from: "v3", to: "v4" , label:"W2, W3"},
+{from: "v3", to: "v5" , label:"W1"},
+{from: "v4", to: "v6" , label:"W3"},
+{from: "v4", to: "v7" , label:"W2"},
+{from: "v5", to: "v9" , label:"W1"},
+{from: "v6", to: "v8" , label:"W3"},
+{from: "v7", to: "v8" , label:"W2"},
+{from: "v8", to: "v9" , label:"W2"},
+{from: "v8", to: "v10" , label:"W3"},
+{from: "v9", to: "v10" , label:"W1, W2"},
             ]);
             
             

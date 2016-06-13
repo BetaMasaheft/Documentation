@@ -1,29 +1,3 @@
-aim 1 : produce document in good non abbreviated TEI
-aim2: check for possible improvments to data entry schema
-
-select from list changes for both, produce schema to validate output (enrich-betamesaheft)
-
-
-
-ACTIONS IN POSTPROCESSING
-* `publicationStmt/date` is added and contains date and time of upload. will constitute the first online publication date and be comparable to the last update stored in the `change` section
-* lists and drivers as canon, gazeteer, etc. should be updated starting from existing files
-* bibliography should be pulled from Zotero in TEI BEFORE indexing, so the API call needs to happen between data entry and indexing in Exist. insert the TEI full record and then reapply style.
-* all uris to be expanded
-* all references to be exapnded
-* all names in meaningful items to be expanded
-* relations need to have uris in a ref rather than @name
-* ref/@ref with url temporary base url https://www.betamasaheft.uni-hamburg.de/ POSTPROCESS
-* no intext biblStruct (from Zotero) only plain bibl POSTPROCESS
-* <material>parchment</material> not @key also in element binding POSTPROCESS
-* <condition key="good"/> —> <condition>good</condition> POSTPROCESS
-* custEvent in element, not in type POSTPROCESS
-* element keyword require @scheme POSTPROCESS
-* no corresp in langUsage POSTPROCESS
-* bibl from Zotero
-* expand titles, placeNames, persNames and refs and locus where they don’t have text in input
- 
-
 
 
 BM-SCHEMA Differences from syriaca.org

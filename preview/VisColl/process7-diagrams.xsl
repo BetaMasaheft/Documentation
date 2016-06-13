@@ -1,133 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema"
-    xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" 
-    exclude-result-prefixes="xs"
+    xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+    xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+    xmlns="http://www.schoenberginstitute.org/schema/collation" exclude-result-prefixes="ss"
     version="2.0">
-    <xsl:template match="t:collation">
-        <h3>Collation <xsl:if test="./ancestor::t:msPart"><xsl:variable
-            name="currentMsPart">
-            <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
-                select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
-            <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
-        
-        <xsl:if test=".//t:signatures">
-            <p>
-                <xsl:apply-templates select=".//t:signatures"/>
-            </p>
-        </xsl:if>
-        
-        
-<!--        formula-->
-        
-       <p>
-                            <xsl:for-each select="t:item">
-                                <!-- to be in the format 1(8, -4, +3) -->
-                                <xsl:variable name="quire-no" select="@n"/>
-                                <xsl:variable name="no-leaves" select="child::leaf[last()]/@n"/>
-                                <xsl:value-of select="$quire-no"/> (<xsl:value-of select="$no-leaves"
-                                /><xsl:for-each select="child::leaf[@mode='missing']">, -<xsl:value-of
-                                    select="@n"/></xsl:for-each><xsl:for-each select="child::leaf[@mode='added']">, +<xsl:value-of
-                                        select="@n"/></xsl:for-each><xsl:for-each select="child::leaf[@mode='replaced']">, leaf in position <xsl:value-of
-                                            select="@n"/> has been replaced</xsl:for-each>),<xsl:text> </xsl:text>
-                            </xsl:for-each>
-                        </p>
-                        <p>Formula 2: 
-                            <xsl:for-each select="t:item">
-                                <!-- to be in the format 1(8, leaf missing between fol. X and fol. Y, leaf added after fol. X) -->
-                                <xsl:variable name="quire-no" select="@n"/>
-                                <xsl:variable name="no-leaves" select="child::leaf[last()]/@n"/>
-                                <xsl:value-of select="$quire-no"/> (<xsl:value-of select="$no-leaves"
-                                />
-                                <xsl:for-each select="child::leaf[@mode='missing']"><xsl:choose>
-                                    <xsl:when test="preceding-sibling::leaf">, leaf missing after fol. <xsl:value-of
-                                        select="preceding-sibling::leaf[1]/@folio_number"/></xsl:when><xsl:otherwise>, first leaf is missing</xsl:otherwise></xsl:choose>
-                                </xsl:for-each>
-                                <xsl:for-each select="child::leaf[@mode='added']"><xsl:choose>
-                                    <xsl:when test="preceding-sibling::leaf">, leaf added after fol. <xsl:value-of
-                                        select="preceding-sibling::leaf[1]/@folio_number"/></xsl:when><xsl:otherwise>, first leaf is added</xsl:otherwise></xsl:choose>
-                                </xsl:for-each>
-                                <xsl:for-each select="child::leaf[@mode='replaced']"><xsl:choose><xsl:when test="preceding-sibling::leaf">, leaf replaced after fol. <xsl:value-of
-                                    select="preceding-sibling::leaf[1]/@folio_number"/></xsl:when><xsl:otherwise>, first leaf is replaced</xsl:otherwise></xsl:choose>
-                                </xsl:for-each>),<xsl:text> </xsl:text>
-                            </xsl:for-each>
-                       
-                        </p>
-        
-        <div class="collation">
-            
-            <table>
-                <tr style="background-color: lightgray;">
-                    <td class="headcol">position</td>
-                    <xsl:for-each select=".//t:item">
-                        <xsl:sort select="position()"/>
-                        <td>
-                            <xsl:attribute name="id">
-                                <xsl:value-of select="@xml:id"/>
-                            </xsl:attribute>
-                            <xsl:value-of select="position()"/>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-                <tr>
-                    <td class="headcol">number</td>
-                    <xsl:for-each select=".//t:item">
-                        <xsl:sort select="position()"/>
-                        <td>
-                            <xsl:apply-templates select="@n"/>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-                <tr style="background-color: lightgray;">
-                    <td class="headcol">leafs</td>
-                    <xsl:for-each select=".//t:item">
-                        <xsl:sort select="position()"/>
-                        <td>
-                            <xsl:apply-templates select="t:dim[@unit = 'leaf']"/>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-                <tr>
-                    <td class="headcol">quires</td>
-                    <xsl:for-each select=".//t:item">
-                        <xsl:sort select="position()"/>
-                        <td>
-                            <xsl:apply-templates select="t:locus"/>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-                <tr>
-                    <td class="headcol">description</td>
-                    <xsl:for-each select=".//t:item">
-                        <xsl:sort select="position()"/>
-                        <td>
-                            <xsl:value-of select="text()"/>
-                        </td>
-                    </xsl:for-each>
-                </tr>
-                
-            </table>
-        </div>
-        
-<!--        visualization  -->
-        <xsl:variable name="idno" select="//t:msIDentifier/t:idno"/>
+
+    <xsl:output method="text"/>
+    <xsl:output method="html" indent="yes" name="html"/>
+
+
+    <xd:doc scope="stylesheet">
+        <xd:desc>
+            <xd:p><xd:b>Created on:</xd:b>July 2, 2014</xd:p>
+            <xd:p><xd:b>Author:</xd:b> Dot Porter</xd:p>
+            <xd:p><xd:b>Modified on:</xd:b>December 3, 2015</xd:p>
+            <xd:p><xd:b>Modified by:</xd:b> Dot Porter</xd:p>
+            <xd:p>This document takes as its input the output from process6.xsl.
+                It generates a single HTML document containing diagrams for each quire.
+                Note that although this document can handle quires containing up to 16 folios, the diagrams
+                for quires with 14 and 16 folios will be cut off at the bottom.
+                Congratulations! You are done!
+            </xd:p>
+        </xd:desc>
+    </xd:doc>
+    
+    <xsl:template match="/">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+
+    <xsl:template match="manuscript">
+        <xsl:variable name="idno" select="@idno"/>
+        <xsl:variable name="msname" select="@msname"/>
         <xsl:variable name="empty"/>
         <xsl:variable name="msurl">
             <xsl:value-of select="@msURL"/>
         </xsl:variable>
-        
-        <div id="listofquires"><span
+            <xsl:variable name="filename-diagrams" select="concat($idno,'-diagrams.html')"/>
+            <xsl:result-document href="{concat($idno,'/',$filename-diagrams)}" format="html">
+                <html xmlns="http://www.w3.org/1999/xhtml">
+                    <!--  -->
+                    <head>
+                        <title>Diagrams - <xsl:value-of select="$msname"/></title>
+                        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+                        <!-- Add jQuery library -->
+                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/lib/jquery-1.10.1.min.js"/>
+
+                        <!-- Add fancyBox main JS and CSS files -->
+                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.js?v=2.1.5"/>
+                        <link rel="stylesheet" type="text/css"
+                            href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen"/>
+                        <link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css" rel="stylesheet"
+                            type="text/css"/>
+                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/iframescript.js"/>
+
+                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/collation.js"/>
+                        <link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/css/collation.css" rel="stylesheet" type="text/css"/>
+                        <link href="diagrams_only.css" rel="stylesheet" type="text/css"/>
+                    </head>
+
+                    <body>
+                        <div id="divtop">
+                            <span class="topheader">
+                                <a href="http://www.library.upenn.edu" target="_blank">
+                                    <img src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/pennlogo.gif" width="28" height="27"
+                                        style="align:left;" alt="UPenn"/>
+                                </a>
+                                <xsl:text> </xsl:text>
+                                <a href="http://www.schoenberginstitute.org" target="blank"
+                                    ><xsl:text> </xsl:text><xsl:text> </xsl:text>Schoenberg
+                                    Institute for Manuscript Studies</a>, <a href="http://dorpdev.library.upenn.edu/collation/" target="blank">SIMS Manuscript Collation Project</a>
+                            </span>
+                        </div>
+                        <div id="listofquires"><span
                             class="mstitle"><a
                                 target="_blank">
-                                <xsl:attribute name="href"><xsl:value-of select="$msurl"/>
-                                </xsl:attribute>Collation diagrams for 
-                                <xsl:value-of select="$idno"/></a></span></div>
+                                <xsl:attribute name="href"><xsl:value-of select="$msurl"/></xsl:attribute>Collation diagrams for <xsl:value-of select="$msname"/>, <xsl:value-of select="$idno"/></a></span></div>
                         
-                        <xsl:for-each select="item">
+                        <xsl:for-each select="quire">
                         <xsl:variable name="quireNo" select="@n"/>
                         <xsl:variable name="positions" select="@positions"/>
                         
+                        <!--<br/> Quire <xsl:value-of select="$quireNo"/> (<xsl:value-of
+                            select="$positions"/>)<xsl:text> </xsl:text><xsl:text> </xsl:text><span
+                            class="showhideall"><a href="#"
+                                onclick="MM_changeProp('divset1','','height','auto','DIV');"
+                                >Show
+                            All</a></span><xsl:text> </xsl:text><xsl:text> </xsl:text><span
+                            class="showhideall"><a href="#"
+                                onclick="MM_changeProp('divset1','','height','0','DIV');"
+                                >Hide All</a></span>
+                        <br/>-->
                         <xsl:for-each select="units/unit[1]">
                             <xsl:comment>
                                 begin set
@@ -447,7 +411,6 @@
                     </body>
                 </html>
             </xsl:result-document>
-        
         
     </xsl:template>
 </xsl:stylesheet>

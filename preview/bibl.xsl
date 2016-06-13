@@ -109,4 +109,42 @@
             </xsl:choose>
         
     </xsl:template>
+    
+    <xsl:template match="t:bibl[not(parent::t:listBibl)]">
+        <xsl:choose>
+            <xsl:when test="not(@corresp) and not(t:ptr[@target])">
+                <b style="color:red;">THIS BIBLIOGRAPHIC RECORD IS WRONGLY ENCODED. Please check the schema error report to fix it.</b>
+                <xsl:value-of select="."/>
+            </xsl:when>
+            <xsl:when test="@corresp">
+                
+                <a href="{@corresp}"><xsl:value-of select="text()"/></a>
+                <xsl:if test="t:date"><xsl:apply-templates select="t:date"/></xsl:if>
+                <xsl:if test="t:note"><xsl:apply-templates select="t:note"/></xsl:if>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:if test="//t:ptr"> 
+                    <xsl:variable name="zotero"
+                        select="document(concat('https://api.zotero.org/groups/358366/items?tag=',t:ptr/@target, '&amp;format=tei'))"/>
+                    <xsl:variable name="url">
+                        <xsl:choose>
+                            <xsl:when test="$zotero//t:note[@type='url']"><xsl:value-of select="$zotero//t:note[@type='url']"/></xsl:when>
+                            <xsl:otherwise><xsl:value-of select="concat('https://www.zotero.org/groups/ethiostudies/items/tag/',t:ptr/@target)"/></xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:variable>
+                    <a href="{$url}">
+                        <xsl:value-of select="if ($zotero//t:author) then (if ($zotero//t:author/t:surname) then ($zotero//t:author/t:surname) else ($zotero//t:author)) else (if ($zotero//t:editor/t:surname) then ($zotero//t:editor/t:surname) else ($zotero//t:editor))"/>
+                        <xsl:text> </xsl:text>
+                        <xsl:value-of select="$zotero//t:date"/>
+                        <xsl:if test="t:citedRange"> <xsl:text>, </xsl:text>
+                            <xsl:value-of select="t:citedRange/@unit"/>
+                            <xsl:text> </xsl:text>
+                            <xsl:value-of select="t:citedRange"/>
+                        </xsl:if>
+                    </a>
+                </xsl:if>
+            </xsl:otherwise>
+        </xsl:choose>
+        
+    </xsl:template>
 </xsl:stylesheet>

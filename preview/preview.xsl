@@ -44,64 +44,10 @@
                     </style>
                     
                 </xsl:if>
-                <style>
-                    sup { 
-                    vertical-align: super;
-                    font-size: smaller;
-                    }
-                    header {
-                    background-color:black;
-                    color:white;
-                    text-align:center;
-                    padding:5px; 
-                    }
-                    nav {
-                    width:20%;
-                    overflow : scroll;
-                    float:left;
-                    padding:5px; 
-                    }
-                    section {
-                    width:75%;
-                    padding:20px; 
-                    float:right;
-                    }
-                    footer {
-                    background-color:black;
-                    color:white;
-                    clear:both;
-                    padding:5px; 
-                    }
-                    table{
-                        border-collapse: separate;
-                        border-top: 3px
-                    }
-                    td{
-                        margin: 0;
-                        border: 3px;
-                        border-top-width: 0px;
-                        white-space: nowrap;
-                    }
-                    div.report{
-                        background-color: red;
-                    }
-                    div.collation{
-                    overflow-x: scroll;
-                    margin-left: 5em;
-                    overflow-y: visible;
-                    padding-bottom: 1px;
-                    padding-left: 5px;
-                    }
-                    .headcol{
-                    position: absolute;
-                    width: 5em;
-                    left: 300;
-                    top: auto;
-                    border-right: 0px none black;
-                    border-top-width: 3px; /*only relevant for first row*/
-                    margin-top: -3px; /*compensate for top border*/
-                    }</style>
-
+                <link href="preview.css" rel="stylesheet" type="text/css" />
+                
+                <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/lib/jquery-1.10.1.min.js">x</script><script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.js?v=2.1.5">x</script><link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen"/><link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css"/><script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/iframescript.js">x</script><link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/css/collation.css" rel="stylesheet" type="text/css"/><script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/querys.js">x</script>
+                
             </head>
             <body>
                 <header><h1>
