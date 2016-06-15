@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-  exclude-result-prefixes="svg xlink xs" version="2.0">
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns:t="http://www.tei-c.org/ns/1.0"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+  xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
+  xmlns="http://www.tei-c.org/ns/1.0" 
+  exclude-result-prefixes="#all" version="2.0">
   
   <xd:doc scope="stylesheet">
     <xd:desc>
@@ -13,15 +17,9 @@
     </xd:desc>
   </xd:doc>
   
-  <xsl:template match="@*|node()|comment() " priority="-1" mode="#all">
-    <xsl:copy>
-      <xsl:apply-templates select="@*|node()|comment()"/>
-    </xsl:copy>
-  </xsl:template>
-  
-  <xsl:template match="manuscript">
-    <manuscript msname="{@msname}" msURL="{@msURL}" idno="{@idno}">
-      <xsl:for-each select="quire">
+  <xsl:template  name="step2">
+    <xsl:param name="step2ed" tunnel="yes"/>
+      <xsl:for-each select="t:quire">
         <quire>
           <xsl:attribute name="n">
             <xsl:value-of select="@n"/>
@@ -30,83 +28,85 @@
             <xsl:value-of select="@positions"/>
           </xsl:attribute>
           <units>
-            <xsl:apply-templates select="units"/>
+            <xsl:apply-templates select="t:units" mode="step1"/>
           </units>
         </quire>
       </xsl:for-each>
-    </manuscript>
   </xsl:template>
   
-  <xsl:template match="units">
-    <xsl:for-each select="unit">
+  
+  
+  <xsl:template match="t:units" mode="step1">
+    <xsl:for-each select="t:unit">
       <unit>
         <xsl:attribute name="n" select="@n"/>
         <inside>
-          <xsl:apply-templates select="inside"/>
+          <xsl:apply-templates select="t:inside" mode="step1"/>
         </inside>
         <outside>
-          <xsl:apply-templates select="outside"/>
+          <xsl:apply-templates select="t:outside" mode="step1"/>
         </outside>
       </unit>
     </xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="inside">
-    <xsl:apply-templates/>
+  <xsl:template match="t:inside" mode="step1">
+    <xsl:apply-templates mode="step1"/>
   </xsl:template>
   
-  <xsl:template match="outside">
-    <xsl:apply-templates/>
+  <xsl:template match="t:outside" mode="step1">
+    <xsl:apply-templates mode="step1"/>
   </xsl:template>
   
-  <xsl:template match="left">
+  <xsl:template match="t:left" mode="step1">
     <xsl:variable name="the_pos" select="@pos"/>
     <xsl:choose>
       <xsl:when
-        test="contains(ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number,'-')">
+        test="contains(ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number,'-')">
         <xsl:variable name="first_number"
-          select="tokenize(ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number,'-') [position() = 1]"/>
+          select="tokenize(ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number,'-') [position() = 1]"/>
         <xsl:variable name="second_number"
-          select="tokenize(ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number,'-') [position() = 2]"/>
+          select="tokenize(ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number,'-') [position() = 2]"/>
         <xsl:choose>
-          <xsl:when test="parent::inside">
+          <xsl:when test="parent::t:inside">
             <left>
               <xsl:if
-                test="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number">
+                test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number">
                 <xsl:attribute name="folNo">
                   <xsl:value-of select="$second_number"/>
                 </xsl:attribute>
                 <xsl:attribute name="mode">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode"
                   />
                 </xsl:attribute>
                 <xsl:attribute name="single">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@single"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@single"
                   />
                 </xsl:attribute>
               </xsl:if>
               <xsl:attribute name="pos">
                 <xsl:value-of select="@pos"/>
               </xsl:attribute>
+              THIS IS NOT WORKING
             </left>
           </xsl:when>
-          <xsl:when test="parent::outside">
+          <xsl:when test="parent::t:outside">
             <left>
               <xsl:if
-                test="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number">
+                test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number">
                 <xsl:attribute name="folNo">
                   <xsl:value-of select="$first_number"/>
                 </xsl:attribute>
                 <xsl:attribute name="mode">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode"
                   />
                 </xsl:attribute>
                 <xsl:attribute name="single">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@single"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@single"
                   />
                 </xsl:attribute>
               </xsl:if>
@@ -119,19 +119,21 @@
       </xsl:when>
       <xsl:otherwise>
         <left>
-          <xsl:if test="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number">
+          <xsl:if test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number">
             <xsl:attribute name="folNo">
               <xsl:value-of
-                select="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number"/>
-              <xsl:choose><xsl:when test="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode='missing'"/><xsl:otherwise><xsl:text>v</xsl:text></xsl:otherwise></xsl:choose>
+                select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number"/>
+              <xsl:choose>
+                <xsl:when test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode='missing'"/>
+                <xsl:otherwise><xsl:text>v</xsl:text></xsl:otherwise></xsl:choose>
             </xsl:attribute>
             <xsl:attribute name="mode">
               <xsl:value-of
-                select="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode"/>
+                select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode"/>
             </xsl:attribute>
             <xsl:attribute name="single">
               <xsl:value-of
-                select="ancestor::quire/leaves/leaf[@position=$the_pos]/@single"/>
+                select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@single"/>
             </xsl:attribute>
           </xsl:if>
           <xsl:attribute name="pos">
@@ -142,32 +144,32 @@
     </xsl:choose>
   </xsl:template>
   
-  <xsl:template match="right">
+  <xsl:template match="t:right" mode="step1">
     <xsl:variable name="the_pos" select="@pos"/>
     <xsl:choose>
       <xsl:when
-        test="contains(ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number,'-')">
+        test="contains(ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number,'-')">
         <xsl:variable name="first_number"
-          select="tokenize(ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number,'-') [position() = 1]"/>
+          select="tokenize(ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number,'-') [position() = 1]"/>
         <xsl:variable name="second_number"
-          select="tokenize(ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number,'-') [position() = 2]"/>
+          select="tokenize(ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number,'-') [position() = 2]"/>
         <xsl:choose>
-          <xsl:when test="parent::outside">
+          <xsl:when test="parent::t:outside">
             <right>
               <xsl:if
-                test="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number">
+                test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number">
                 <xsl:attribute name="folNo">
                   <xsl:value-of
                     select="$first_number"/>
                 </xsl:attribute>
                 <xsl:attribute name="mode">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode"
                   />
                 </xsl:attribute>
                 <xsl:attribute name="single">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@single"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@single"
                   />
                 </xsl:attribute>
               </xsl:if>
@@ -176,22 +178,22 @@
               </xsl:attribute>
             </right>
           </xsl:when>
-          <xsl:when test="parent::inside">
+          <xsl:when test="parent::t:inside">
             <right>
               <xsl:if
-                test="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number">
+                test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number">
                 <xsl:attribute name="folNo">
                   <xsl:value-of
                     select="$second_number"/>
                 </xsl:attribute>
                 <xsl:attribute name="mode">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode"
                   />
                 </xsl:attribute>
                 <xsl:attribute name="single">
                   <xsl:value-of
-                    select="ancestor::quire/leaves/leaf[@position=$the_pos]/@single"
+                    select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@single"
                   />
                 </xsl:attribute>
               </xsl:if>
@@ -204,19 +206,19 @@
       </xsl:when>
       <xsl:otherwise>
         <right>
-          <xsl:if test="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number">
+          <xsl:if test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number">
             <xsl:attribute name="folNo">
               <xsl:value-of
-                select="ancestor::quire/leaves/leaf[@position=$the_pos]/@folio_number"/>
-              <xsl:choose><xsl:when test="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode='missing'"/><xsl:otherwise><xsl:text>r</xsl:text></xsl:otherwise></xsl:choose>
+                select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@folio_number"/>
+              <xsl:choose><xsl:when test="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode='missing'"/><xsl:otherwise><xsl:text>r</xsl:text></xsl:otherwise></xsl:choose>
             </xsl:attribute>
             <xsl:attribute name="mode">
               <xsl:value-of
-                select="ancestor::quire/leaves/leaf[@position=$the_pos]/@mode"/>
+                select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@mode"/>
             </xsl:attribute>
             <xsl:attribute name="single">
               <xsl:value-of
-                select="ancestor::quire/leaves/leaf[@position=$the_pos]/@single"/>
+                select="ancestor::t:quire/t:leaves/t:leaf[@position=$the_pos]/@single"/>
             </xsl:attribute>
           </xsl:if>
           <xsl:attribute name="pos">

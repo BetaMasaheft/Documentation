@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:tei="http://www.tei-c.org/ns/1.0"
+  xmlns:t="http://www.tei-c.org/ns/1.0"
   xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
   xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-  exclude-result-prefixes="svg xlink xs tei" version="2.0">
+  xmlns="http://www.tei-c.org/ns/1.0" 
+  exclude-result-prefixes="#all" version="2.0">
   
   <xd:doc scope="stylesheet">
     <xd:desc>
@@ -18,18 +20,13 @@
     </xd:desc>
   </xd:doc>
   
-  <xsl:template match="@*|node()|comment() " priority="-1" mode="#all">
-    <xsl:copy>
-      <xsl:apply-templates select="@*|node()|comment()"/>
-    </xsl:copy>
-  </xsl:template>
   
-  <xsl:variable name="idno" select="manuscript/@idno"/>
+  <xsl:variable name="idno" select="t:msIdentifier/t:idno"/>
   
-  <xsl:template match="manuscript">
-    <manuscript idno="{$idno}" msname="{@msname}" msURL="{@msURL}">
+  <xsl:template name="step3">
+    <xsl:param name="step3ed" tunnel="yes"/>
       
-      <xsl:for-each select="quire">
+      <xsl:for-each select="t:quire">
         <quire>
           <xsl:attribute name="n">
             <xsl:value-of select="@n"/>
@@ -38,36 +35,36 @@
             <xsl:value-of select="@positions"/>
           </xsl:attribute>
           <units>
-            <xsl:apply-templates select="units"/>
+            <xsl:apply-templates select="t:units"/>
           </units>
         </quire>
       </xsl:for-each>
-    </manuscript>
+    
   </xsl:template>
   
-  <xsl:template match="units">
-    <xsl:for-each select="unit">
+  <xsl:template match="t:units">
+    <xsl:for-each select="t:unit">
       <unit>
         <xsl:attribute name="n" select="@n"/>
         <inside>
-          <xsl:apply-templates select="inside"/>
+          <xsl:apply-templates select="t:inside"/>
         </inside>
         <outside>
-          <xsl:apply-templates select="outside"/>
+          <xsl:apply-templates select="t:outside"/>
         </outside>
       </unit>
     </xsl:for-each>
   </xsl:template>
   
-  <xsl:template match="inside">
+  <xsl:template match="t:inside">
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="outside">
+  <xsl:template match="t:outside">
     <xsl:apply-templates/>
   </xsl:template>
   
-  <xsl:template match="//left">
+  <xsl:template match="//t:left">
     <left>
       <xsl:if test="@mode">
         <xsl:attribute name="mode">
@@ -83,10 +80,10 @@
       <xsl:variable name="the_folNo">
         <xsl:value-of select="@folNo"/>
       </xsl:variable>
-      <xsl:if test="document(concat('../',$idno,'-imageList.xml'))//tei:surface/@n=$the_folNo"> 
+      <xsl:if test="document(concat('../',$idno,'-imageList.xml'))//t:surface/@n=$the_folNo"> 
         <xsl:attribute name="url">
           <xsl:value-of
-            select="document(concat('../',$idno,'-imageList.xml'))//tei:surface[@n=$the_folNo]/tei:graphic/@url"/>
+            select="document(concat('../',$idno,'-imageList.xml'))//t:surface[@n=$the_folNo]/t:graphic/@url"/>
         </xsl:attribute>
       </xsl:if>
       <xsl:if test="@mode='missing'">
@@ -98,7 +95,7 @@
     </left>
   </xsl:template>
   
-  <xsl:template match="//right">
+  <xsl:template match="//t:right">
     <right>
       <xsl:if test="@mode">
         <xsl:attribute name="mode">
@@ -115,11 +112,11 @@
       <xsl:variable name="the_folNo">
         <xsl:value-of select="@folNo"/>
       </xsl:variable>
-      <xsl:if test="document(concat('../',$idno,'-imageList.xml'))//tei:surface/@n=$the_folNo"> 
+      <xsl:if test="document(concat('../',$idno,'-imageList.xml'))//t:surface/@n=$the_folNo"> 
         <xsl:attribute name="url">
           
           <xsl:value-of
-            select="document(concat('../',$idno,'-imageList.xml'))//tei:surface[@n=$the_folNo]/tei:graphic/@url"/>
+            select="document(concat('../',$idno,'-imageList.xml'))//t:surface[@n=$the_folNo]/t:graphic/@url"/>
         </xsl:attribute>
       </xsl:if>
       <xsl:if test="@mode='missing'">

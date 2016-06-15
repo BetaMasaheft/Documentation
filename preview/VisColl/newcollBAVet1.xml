@@ -1,0 +1,682 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?><?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en" xml:id="BAVet1" type="mss">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Four Gospels, Book of Hours, Missal, Prayers, Sinodos </title>
+            <editor key="MV"/>
+            <editor role="generalEditor" key="AB"/>
+            <funder>Akademie der Wissenschaften in Hamburg</funder>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <pubPlace>Hamburg</pubPlace>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine multimediale
+          Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p> This file is licensed
+            under the Creative Commons Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+            <date>2016-06-07T17:34:36.029+02:00</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc xml:id="ms">
+          
+               <msIdentifier>
+                  <repository ref="INS0003BAV"/>
+                  <collection>Aethiopici</collection>
+                  <idno>Vat. Aeth. 1</idno>
+               </msIdentifier>
+          
+               <msContents>
+                  <summary/>
+            
+                  <msItem xml:id="ms_i1">
+                     <locus from="3r" to="98v"/>
+                     <title type="Complete" ref="LIT1560Gospel"/>
+                     <listBibl type="relations">
+                        <bibl/>
+                        <relation name="saws:isDirectCopyOf" active="#ms_i1" passive="bm:Petrus1548Test"/>
+                     </listBibl>
+              
+
+                     <msItem xml:id="ms_i1.1">
+                        <locus from="3r" to="10v"/>
+                        <title type="Complete" ref="LIT2705Introd">Introduction to the Gospels</title>
+
+                        <msItem xml:id="ms_i1.1.1">
+                           <locus from="3r"/>
+                           <title type="Complete" ref="LIT2706Introd">Maqdǝma wangel, “Introduction to the Gospels”</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.1.2">
+                           <title type="Complete" ref="LIT1349Epistl">Letter of Eusebius to Carpianus</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.1.3">
+                           <locus from="4r" to="8v"/>
+                           <title type="Complete" ref="LIT1224Canons">Canon tables</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.1.4">
+                           <locus from="9r" to="10v"/>
+                           <title type="Complete" ref="LIT3132Synops" evidence="conjecture"/>
+                        </msItem>
+                     </msItem>
+              
+                     <msItem xml:id="ms_i1.2">
+                        <locus from="13r" to="33v"/>
+                        <title type="Complete" ref="LIT1558Matthew"/>
+
+                        <msItem xml:id="ms_i1.2.1">
+                           <locus from="13r" to="33v"/>
+                           <title type="Complete" ref="LIT2709Matthew">Bǝsrāta Mātewos “Gospel of Matthew”</title>
+                        </msItem>
+                     </msItem>
+            
+                     <msItem xml:id="ms_i1.3">
+                        <locus from="33v" to="48r"/>
+                        <title type="Complete" ref="LIT1882MarkGo"/>
+        
+                        <msItem xml:id="ms_i1.3.1">
+                           <locus target="33v"/>
+                           <title type="Complete" ref="LIT2710MkTitles">List of the “tituli” for the Gospel of Mark</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.3.2">
+                           <locus from="33v" to="48r"/>
+                           <title type="Complete" ref="LIT2711Mark">Bǝsrāta Mārqos “Gospel of Mark”</title>
+                        </msItem>
+              
+                     </msItem>
+            
+                     <msItem xml:id="ms_i1.4">
+                        <locus from="48r" to="78v"/>
+                        <title type="Complete" ref="LIT1812GospelLuke"/>
+
+                        <msItem xml:id="ms_i1.4.1">
+                           <locus target="48r"/>
+                           <title type="Complete" ref="LIT2712LkTitles">List of the "tituli" for the Gospel of Luke</title>
+                        </msItem>
+                        <msItem xml:id="ms_i1.4.2">
+                           <locus from="48v" to="78v"/>
+                           <title type="Complete" ref="LIT2713Luke">Bǝsrāta Luqās "Gospel of Luke"</title>
+                        </msItem>
+                     </msItem>
+            
+                     <msItem xml:id="ms_i1.5">
+                        <locus from="79r" to="98v"/>
+                        <title type="Complete" ref="LIT1693John"/>
+
+                        <msItem xml:id="ms_i1.5.1">
+                           <locus from="79r" to="98v"/>
+                           <title type="Complete" ref="LIT2715John">Bǝsrāta Yoḥannǝs "Gospel of John"</title>
+                        </msItem>
+                     </msItem>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i2">
+                     <locus from="99r" to="110r"/>
+                     <title type="Complete" ref="LIT1961Mashaf"/>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i3">
+                     <locus from="110v" to="125"/>
+                     <title type="Incomplete" ref="LIT1960Mashaf"/>
+                     <listBibl type="relations">
+                        <bibl/>
+                        <relation name="saws:isDirectCopyOf" active="#ms_i3" passive="bm:Petrus1548Test"/>
+                     </listBibl>
+
+                     <msItem xml:id="ms_i3.1">
+                        <locus from="110v" to="118v"/>
+                        <title type="" ref="LIT2347serata">Śǝrʿāta qǝddāse "Ordinary of the Mass"</title>
+                     </msItem>
+                     <msItem xml:id="ms_i3.2">
+                        <locus from="119r" to="120r"/>
+                        <title type="Incomplete" ref="LIT1100Anapho">Anaphora of Our Lord Jesus Christ</title>
+                     </msItem>
+                     <msItem xml:id="ms_i3.3">
+                        <locus from="121v" to="124v"/>
+                        <title type="Incomplete" ref="LIT1099Anapho" evidence="conjecture">Anaphora of Our Lady by St. Cyriacus of Behnesa</title>
+                     </msItem>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i4">
+                     <locus from="125r" to="144v"/>
+                     <title type="Complete">Prayers</title>
+              
+                     <msItem xml:id="ms_i4.1">
+                        <locus from="125r"/>
+                        <title type="Complete" ref="LIT3125Saatat">Saʿātāt za-nagh</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#125r"/>ወአዘዙ፡ ሐዋርያት፡ በሲኖዶሶሙ፡ እንዘ፡ ይብሉ፡ ነግሀ፡ ይጼልዩ፡ ባቲ፡ ለሰሚአ፡ ተምሕርት፡ (sic) ወተዓተቦ፡ (sic) ፍጽመ፡ መስቀል፡ ኵሎ(ሙ)፡ ምእምናን፡ ወምእምናት፤ ተንሢኦሙ፡ ነግሀ፡ እንዘ፡ ኢይገብሩ፡ ወኢምንተኒ፡ መፍቅዶሙ፡ ይትኀፀቡ፡ እደዊሆሙ፡ ወይጸልዩ፡ ኀበ፡ እግዚአብሔር።</incipit>
+                        <explicit xml:lang="gez">ስማዕ፡ እግዚኦ፡ ቃልየ፡ ወለቡ፡ ጽራሕየ፨ ተወከፈኒ፡ ጸሎትየ፡ ከመ፡ ዕጣን፡ በቅድሜከ፡ ዘይሰማዕ፡ ግበር፡ ሊተ፡ ምሕረትከ፡ (sic) በጽብሕ። (sic)</explicit>
+                     </msItem>
+                     <msItem xml:id="ms_i4.2">
+                        <locus from="125" to="126v"/>
+                        <title type="Complete" ref="LIT1807Litonz">Liṭān za-nagh</title>
+                        <incipit xml:lang="gez">ወካዕበ፡ ናስተበቍዕ፡ ዘኵሎ፡ ይእኅዝ፡ እግዚአብሔር፡ (አቡሁ፡) ለእግዚእ፡ ወመድኀኒነ፡ ኢየሱስ፡ ክርስቶስ፨ እንዘ፡ ነአኵቶ፡ (sic) እስመ፡ ዓቀበነ፡ በኑኅ፡ (sic) ሌሊት፡ ወአብጽኀነ፡ እምጽልመት፡ ውስተ፡ ብርሃን፡ እሙስና፡ ውስተ፡ ዘኢይማሥን፡ እም፡ ኢይእምሮ፡ (sic) ውስተ፡ አእምሮ፡ አማን፨</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#126v"/>ሰላም፡ ለኪ፡ ዳግሚት፡ ሰማይ፡ ሰላም፡ ለኪ፡ ሙጻአ፡ ጸሓይ፨ ሰላም፡ ለከ፡ (sic) ዓንቀጸ፡ መድኀኒት፤ ሰላም፡ ለኪ፡ ሙዳየ፡ ዕፍረት፤ ሰላም፡ ለኪ፡ እመ፡ እግዚአብሔር፤ ሰላም፡ ለኪ፡ ዘምስለ፡ ሰጊድ፡ ንኤምሐኪ፡ ለባርኮተነ፡ (sic) ስፍሒ፡ እዴኪ፨</explicit>
+                     </msItem>
+                     <msItem xml:id="ms_i4.3">
+                        <locus from="126v" to="128r"/>
+                        <title type="Complete" ref="LIT3126Prayer">Prayer of the third hour</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#126v"/>በ፫፡ ሰዓት፡ መዝሙር፡ በ፮፨ ይቤ እግዚእ፡ ሊቀ፡ ከህናት፡ (sic) ዘቦአ፡ ውሣጤ፡ መን(ጦ)ላዕት፡ ... ጸሎት፡ በ፫፡ ሰዓት፡ በ፭፨ መኑ፡ ደመሮ፡ ለጸልመት፡ (sic) ምስለ፡ ብርሃን፡ ወለጽድቅ፡ ምስለ፡ ኀጢአት፨</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#128r"/>ሰላም፡ ለኪ፡ ሐመረ፡ ብዕልነ፨ ሰ(ላም፡ ለኪ)፨ መዝገበ፡ ወርቅነ፡ ሰ፨ አስከሬ(ነ)፡ ሰርጕነ፡ ሰ፨ ቀፀላ፡ ርእስነ፡ ሰ፨ ታቦተ፡ ኅግነ፡ ሰ፨ ድንግለ፡ እስራኤል፡ ጠባብ፡ ሰ፨ ዘምስለ፡ ሰጊድ፡ ንኤምሐኪ፡ ለባርኮተነ፡ (sic) ስፍሒ፡ እዴኪ፨</explicit>
+                     </msItem>
+                     <msItem xml:id="ms_i4.4">
+                        <locus from="128r" to="129r"/>
+                        <title type="Complete" ref="LIT3127Prayer">Prayer of the sixth hour</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#128r"/>ጸሎት፡ በ፮፡ ሰዓት፡ በ፫፨ ከመ፡ ዝ፡ ይቤ፡ ጰውሎስ፡ ለብሔረ፡ ሮሜ፡ በምንትኑ፡ እንከ፡ አኀውየ፡ ጸሎትነ፡ ለእመ፡ ኢና(አ)ምር፡ ተስፋነ፨ ወባሕቱ፡ መንፈስ። ቅዱስ፡ ይትዋቅሥ፡ (sic) በእንቲአነ፡ በጸሎት፡ ዘኢይትአመር፨</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#129r"/>ሰላም፡ ለከ፡ (sic) አትሮንሰ፡ መለኮት፡ ሰላም፡ ለከ፨ (sic) መንበረ፡ ስብሐት፡ ሰለም፡ (sic) ለከ፨ (sic) ደብተራ፡ ብርሃን፡ ስፍሐት፡ ሰላም፡ ለከ፨ (sic) ንግሥተ፡ ይሁዳ፡ ሰላም፡ ለከ፨ (sic) ጸሐየ፡ መርመዳ፡ ሰላም፡ ለከ፨ (sic) ድንግልናዊት፡ እም፡ ሰላም፡ ለኪ፨ ዘምስለ፡ ሰጊድ፡ ንኤምኀኪ፡ ለባርኮተነ፡ (sic) ስፍሒ፡ እዴኪ፨</explicit>
+                     </msItem>
+                     <msItem xml:id="ms_i4.5">
+                        <locus from="129r" to="130v"/>
+                        <title type="Complete" ref="LIT3128Prayer">Prayer of the ninth hour</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#129r"/>ጸሎ(ት፡) በ፱ ሰዓት፡ በ፪፨ መዝሙር፡ ሃሌ፡ ሉያ፡ ሃሌ፡ ሉያ፡ ይቤሎ፡ (sic) ሐዋርያት፡ በዲድስቅልያ፡ ገስጾሙኬ፡ ኤጲስ፡ ቆጰስ፡ (sic) ለሕዝብከ፡ ወአዝዞሙ፡ ይምጽኡ፡ ቤተ፡ ክርስቲያን፨ መዓልተ፡ ወሌሊተ፡ ወግሞራ፡ (sic) ኢይርሐቁ፡ እምኔሁ፡ (sic)</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#130v"/>በከመ፡ ተሠጠ፡ መንጦላዕተ፡ ቤተ፡ መቅድስ፡ (sic) ጊዜ፡ ተሱዓት፡ አመ፡ ፀአተ፡ ነፍስከ፨ ሥጥጥ፡ መጽሐፈ፡ ዕዳነ፡ በሕማመ፡ ሞትከ፤ ወጽሐፍ፡ (sic) አስማቲነ፡ ውስተ፡ ጕንደ፡ መስቀልከ፡ በቀለመ፡ ደምለ፨ ከመ፡ አንተ፡ በአብ፡ ወአብ፡ ብከ፨ ረስየኒ፡ ሱቱፋነ፡ ምስለ፡ አርዳኢከ፨ ወዝራእ፡ ውስተ፡ ልብነ፡ ወንጌለ፡ ፀጋከ፡ ጊዜ፡ ምሴት፡ ጸግወነ፡ ሰላምከ፤ (sic) እግዚኦ፡ መሐረነ፡ ክርስቶስ፨ ፲፪፡ ጊዜ፡ ወአቡነ፡ ዘበሰማያት፨ =፨</explicit>
+                     </msItem>
+                     <msItem xml:id="ms_i4.6">
+                        <locus from="130v" to="132v"/>
+                        <title type="Complete" ref="LIT1716Kidanz"/>
+                     </msItem>
+                     <msItem xml:id="ms_i4.7">
+                        <locus from="132v" to="133r"/>
+                        <title type="Complete" ref="LIT3129Prayer">Ṣalota 12saʿāt ba-gize sark "Prayer of the twelfth hour, for the time of the twilight"</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#132v"/>በ፭። ህየነ፡ (sic) እዴከ፡ ትመርሀኒ፡ ወታነብረኒ፡ የማነከ። (sic) አይቴኑ፡ አኀውር፡ እመንፈስከ፡ ወአይቴኑ፡ እጐይይ፡ እምቅድመ፡ ገፅከ፡ ብጹዕ፡ ዘኀረይኮ፡ ወዘተ(ወ)ከፍኮ፡ ወዘአሕደርኮ፡ ውስተ፡ አዕፃዲከ፨</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#133r"/>ሰላም፡ ለኪ። ሐመረ፡ አድኅኖ፡ ዘጽድቅ፡ ሰለም፡ ለኪ። አስከሬነ፡ ወርቅ፡ ሰላም፡ ለኪ። ኮለ፡ ኢያሪኮ፡ ዘሐይቅ፡ ሰላም፡ ለኪ። ኖኅተ፡ ምሥራቅ፡ ሰላም፡ ለኪ። ሀገሪተ፡ ዕንቍ፡ ሰላም፡ ለኪ። ሐዳስ፡ ንድቅ፡ መደበለ፡ (sic) ማሕበር፡ ጽፉቅ፡ ሰለም፡ (sic) ለኪ። ዘምስለ፡ ሰጊድ፡ ንኤምኀኪ፡ ሱላሜ፡ እንተ፡ ሰርክ፡ ንትወፈይ፡ ሕዝብኪ፨</explicit>
+                     </msItem>
+                     <msItem xml:id="ms_i4.8">
+                        <locus from="133r" to="134r"/>
+                        <title type="Complete" ref="LIT3130Prayer">Ṣalota 3saʿāt lelit ba-gize nǝwām "Prayer of the third hour, for the time of the sleep"</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#133r"/>ሃሌ፡ ሉያ፡ ሃሌ፡ ሉያ፡ መኑ፡ ይትዔረዮ፡ ለእግዚአብሔር፡ በደመናት። ወመኑ፡ ይመስሎ፡ እምደቂቀ፡ አማልክት፡ መኑ፡ ሥሉጥ፡ በሩጸተ፡ ነፋ(ሳ)ት፡ ወበነኰርኳረ፡ መባርቀት፡ (sic) </incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#134r"/>ሰላም፡ ለኪ፡ መዝገ(በ)፡ ስርናይ፤ ሰ(ላም፡ ለኪ)፡ እመ፡ አዶናይ፨ ሰ፡ ዕንቆ፡ (sic) ባሕርይ፨ ሰ፡ ዓጸደ፡ ተክህኖ፨ ሰ፡ ዓንቀጸ፡ አድኅኖ፨ ሰ፡ ወለተ፡ ብርሃን፨ ሰ፡ ዘምስለ፡ ሰጊድ፡ ንኤመኃኪ፡ (sic) ለበርኮትነ፡ (sic) ስፍሕ፡ (sic) እዴኪ፨</explicit>
+                     </msItem>
+                     <msItem xml:id="ms_i4.9">
+                        <locus from="134r" to="144v"/>
+                        <title type="Complete" ref="LIT3131">Ṣalot za-manfaqe lelit "Prayer of the middle of the night"</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#134r"/>ጸሎተ፡ (sic) ዘመ(ን)ፈቀ፡ ሌሊት፤ ሃሌ፡ ሉያ፡ በስመ፡ አብ፡ ... ሰዳዴሆሙ፡ (sic) ለአጋንንት፡ ስድዶሙ፡ እግዚኦ፡ ለአጋንንት፡ እምየማንነ፡ ወ(እ)ምፀጋምነ፤</incipit>
+                        <note>The office contains the following prayers: for the sick, for the pilgrims, for the rain, Lk 7, 36-50, prayers to <persName ref="PRS6819Mary">Our Lady Mary</persName>, for the fruits of the earth, for the water of the rivers, for the king, excerpts from an unidentified Psalm, Mt 25, 31-46, prayers for the sleepers, for the offerers, for the catechumens, for the peace, hymns to <persName ref="PRS6819Mary">Our Lady Mary</persName>, Jn 19, 25-27, <title ref="LIT2968RepCh249"/>, a hymn to Mary erroneously entitled <quote xml:lang="gez">፩ተአምሪሃ፡ ለእግዚአትነ፡ (sic) ቅድስት፡ ድንግል፡ በክልኤ፨ ማርያም፡</quote>, Lk 11, 5-13
+              </note>
+                     </msItem>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i5">
+                     <locus from="144v" to="146v"/>
+                     <title type="Complete">Hymns in honour of Our Lady Mary</title> 
+                     <msItem xml:id="ms_i5.1">
+                        <locus from="144v" to="145r"/>
+                        <title type="Complete" ref="LIT3124HymnMary"/>
+                        <incipit xml:lang="gez">
+                           <locus target="#144v"/>ሰላም፡ ሰለም፡ (sic) አመደ፡ (sic) ህርይ(ት፡) ዘኢትጽንን፡ ሰ(ላም)። ሐመረ፡ ቅዱሳን፡ ማርያም፡ ሰ። በሰጊድ፡ ንብለኪ፡ ንኤምሐኪ፡ ሀመረ፡ ክርስቲያን፡ ማርያም፡</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#145r"/>ሰ(ላም)፡ አብ፡ ወወልድ፡ ወመንፈስ፡ ቅዱስ። ለዝክርክሙ፡ ሕይወት። ሶበ፡ ከናፍ(ር)የ፡ እከስት፤ ስመ፡ ዚአክሙ፡ በኵሉ፡ ሰዓት። ይሰማዕ፡ እምአፉየ፡ ወይደንግጽ፡ ሞት፨</explicit>
+                        <note>Hymn to Our Lady Mary</note>
+                     </msItem>
+                     <msItem xml:id="ms_i5.2">
+                        <locus from="145r" to="145v"/>
+                        <title type="Complete" ref="LIT3023RepCh303"/>
+                        <incipit xml:lang="gez">
+                           <locus target="#145r"/>ተፈሥሒ፡ ማርያም፡ ድንግልተ፡ ሥጋ፡ ወህሊና፡ ተፈሥሒ፡ ማርያም፡ ወለተ፡ ኢያቄም፡ ውሐና፨ ጳጦስ፡ አንቲ፡ ዘአስተርአይከ፡ በደብረ፡ ሲና፨</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#145v"/>ምንተ፡ አዓስየኪ፡ እሴኪ፡ (sic) በእንተ፡ ኵሉ፡ ዘገበርኪ፡ ሊተ፡ ማርያም፡ ድንግል፡ ዘታፈቅሪ፡ ምኅረተ። ሶበሰ፡ ትትዓቀቢ፡ ዘዚአየ፡ ኀጢአት። (sic) እመ፡ ኢሐየ(ወ)ክ፡ አሓተ፡ ሰዓተ፨</explicit>
+                        <note>Hymn to Our Lady Mary</note>
+                     </msItem>
+                     <msItem xml:id="ms_i5.3">
+                        <locus from="145v" to="146v"/>
+                        <title type="Complete" ref="LIT3023RepCh218"/>
+                        <incipit xml:lang="gez">
+                           <locus target="#145v"/>ሰላም፡ ሰላም፡ አብል፡ (sic) ለኵሎን፡ መልክዕኪ። እመ፡ እግዚአብሔር፡ እምየ፡ እግዝእትየ፡ ማርያም፤ ዓዲ፡ ሰላም፡ ለክልኤ፡ ማኅተመ፡ ድንግልናኪ፡</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#146v"/>ኦድንግል፡ ወለቱ፡ ለእስራኤል፡ ጽጌ፡ ከርስኪ፡ ልዑል፡ ኣማኑኤል፡ ጽጌ፡ ከርስኪ፡ ልዑል፡ ኣማኑኤል፨ (ሰ)ላም፡ ለድንግልና፡</explicit>
+                        <note>Hymn to Our Lady Mary</note>
+                     </msItem>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i6">
+                     <locus from="147r" to="198r"/>
+                     <title type="Incomplete" ref="LIT2317Senodo"/>
+                     <listBibl type="relations">
+                        <bibl/>
+                        <relation name="saws:isDirectCopyOf" active="#ms_i6" passive="BMLor148"/>
+                     </listBibl>
+
+                     <msItem xml:id="ms_i6.1">
+                        <locus from="147r" to="151r"/>
+                        <title type="Complete" ref="LIT2673CanonsAscension"/>
+                        <note>Canons of the Apostles, 30 in number</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.2">
+                        <locus from="151r" to="157v"/>
+                        <title type="Complete" ref="LIT2679ACAbt2"/>
+                        <note>Canons of Clement, 81 in number.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.3">
+                        <locus from="157v" to="163v"/>
+                        <title type="Complete" ref="LIT2639CanonsSimon1"/>
+                        <note>Canons of the Apostles, few in number.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.4">
+                        <locus target="#163v"/>
+                        <title type="Complete" ref="LIT2672SenodosInMe"/>
+                        <note>Melkite Index</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.5">
+                        <locus from="163v" to="166v"/>
+                        <title type="Complete" ref="LIT2662Ancyra"/>
+                        <note>Canons of Ancyra, 24 in number.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.6">
+                        <locus from="166v" to="168r"/>
+                        <title type="Complete" ref="LIT2661Canons"/>
+                        <note>Canons of Neocesarea, 14 in number.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.7">
+                        <locus from="168r" to="169vb" n="13"/>
+                        <title type="Incomplete" ref="LIT2651CanonsCouncils"/>
+                        <note>Canons of Gangra, 20 in number: the text breaks off after Canon 18, on <locus target="#169vb" n="13"/>.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.8">
+                        <locus from="169vb" n="13" to="173r"/>
+                        <title type="Incomplete" ref="LIT2686CanonsLao"/>
+                        <note>Canons of Laodicea, canons 19-59. It is the continuation of <ref target="#ms_i6.14"/>.</note>
+                        <incipit xml:lang="gez">
+                           <locus target="#169vb" n="13"/>በእንተ፡ በዓል፡ ይጸውዖሙ፡ ለንኡስ፡ ክርስቲያን፡</incipit>
+                     </msItem>
+                     <msItem xml:id="ms_i6.9">
+                        <locus from="173r" to="176v"/>
+                        <title type="Complete" ref="LIT2650CanonsNicaea1"/>
+                        <note>Canons of Nicea, 20 in number</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.10">
+                        <locus from="176v" to="187v"/>
+                        <title type="Complete" ref="LIT2688CanonsNicaea2"/>
+                        <note>Canons of Nicea, 84 in number</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.11">
+                        <locus from="187v" to="189v"/>
+                        <title type="Complete" ref="LIT2680ClemPeter"/>
+                        <note>Canons of Clement, which he received in a letter from St. Peter.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.12">
+                        <locus from="189v" to="192r"/>
+                        <title type="Complete" ref="LIT2652CanonsCouncils"/>
+                        <note>Canons of Sardes, 21 in number</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.13">
+                        <locus from="192r" to="195v"/>
+                        <title type="Complete" ref="LIT2653CanonsCouncils"/>
+                        <note>Canons of Antioch, 25 in number</note>
+                     </msItem>
+                     <msItem xml:id="ms_i6.14">
+                        <locus from="195v" to="197v"/>
+                        <title type="Incomplete" ref="LIT2686CanonsLao"/>
+                        <note>Canons of Laodicea, canons 1-19. It continuates as <ref target="#ms_i6.8"/>.</note>
+                        <explicit xml:lang="gez">
+                           <locus target="#197v"/>በእንተ፡ ጸሎት፡ ... ወይደልዎሙ፡ ለኤጲስ፡ ቆጶስ፡ ሶበ፡ ነበረ፡</explicit>
+                     </msItem>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i7">
+                     <locus from="198r" to="210v"/>
+                     <title type="Complete"/>
+                     <note>On the computation of time.</note>
+                     <listBibl type="relations">
+                        <bibl/>
+                        <relation name="saws:isDirectCopyOf" active="#ms_i7" passive="BMLor148" evidence="conjecture"/>
+                     </listBibl>
+              
+                     <msItem xml:id="ms_i7.1">
+                        <locus from="198r" to="199r"/>
+                        <title type="Complete" ref="LIT3139Epact"/>
+                        <incipit xml:lang="gez">
+                           <locus target="#198r"/>ወካዕበ፡ ለእመ፡ ጽህቀ፡ ታእምር፡ ለረኪበ፡ አበቅጤ። አሐዱ፡ በእንተ፡ ዘይኀድጉ፡ (sic) እስመ፡ ቀዳሜሁ፡ (sic) ለዓመት፡ ኣልቦ፡ (sic) ኣጳቅቴ፤</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#199r"/>በከመ፡ ይቤ፡ ሰሎሞን፡ ወልድየ፡ ለእመ፡ ጠበብከ፡ ለርእስከ፡ ትጠብብ፡ ወለቢጽከ፡ ወይከውነከ፡ መዝገባ፡ ለምንግሥተ፡ ሰማያት፡ ወዲበ፡ ኰኵሕ፡ ቀዊመ፡ ታጽንዕ፡ ዘውእቱ፡ በእእምሮ፡ (sic) እንተ፡ ቅዱስ፡ ጴጥሮስ፡</explicit>
+                        <note>On the epact and the way to determine the moveable feasts in the 19-year cycle.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i7.2">
+                        <locus from="199v" to="202r"/>
+                        <title type="Complete" ref="LIT3140Comput"/>
+                        <incipit xml:lang="gez">
+                           <locus target="#199v"/>በስመ፡ አብ፡ ወውልድ፡ ወመንፈስ፡ ቅዱስ፡ ጸሐፍነ፡ ተዝከረ፡ (sic) አወደ፡ (sic) ዓመታተ፡ (sic) እምቀዳሚ፡ ኵነኔ፡ እስከ፡ ዕዝራ፡ ፶፻፡ ዓመታት፡ (sic) ወእምዕዝራ፡ እስከ፡ ልደተ፡ መድኀኒነ፡ ፭፻፡ ፺፫፡ ዓመት፡ ወእምልደቱ፡ እስከ፡ ጥምቀቱ፡ ለመድኀኒነ፡ ፴፡ ዓመት፡ ወእምጥምቀቱ፡ እስከ፡ ቅትለቱ፡ ፬፡ ዓመት፡ ወእምትንሣኤሁ፡ እስከ፡ ዓመተ፡ ድዮቅልጠያኖስ፨ (sic) ፪፻፡ ፹፭፡ ዓመት፡ ወእምድዮቅልጠ(ያ)ኖስ፡ እስከ፡ ሠርዓተ፡ (sic) ቅዱስ፨ ፫፻፡ ፲፰፡ ፵፩፡ ዓመት፡ ወኮነ፡ ኵሉ፡ ድሙር፡ እምቀዳሚ፡ ኵነኔ፡ እስከ፡ ዓመተ፡ ድዮቅልጠ(ያ)ኖስ፤ ፶፻፰፻፶፫፡</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#202r"/>ወአመ፡ ፰አመቱ፡ ለዮናታን፡ ንጉሠ፡ ይሁዳ፡ እስከ፡ ፭፻፡ ወ፴ወ፪፡ ዓመቱ፡ ለድዮቅልጥያኖስ፡ ዓመተ፡ ፲፻፡ ወ፭(፻)፡ ወ፺ወ፮፡ ወአመ፡ ፭፻፡ ወ፴ወ፫፡ ዓመተ፡ ድዮቅልጥ(ያ)ኖስ፡ እስከ፡ ፲፻፡ ወ፷ወ፭፡ ዓመቱ፡ ለድዮቅልጥ(ያ)ኖስ፡ ዓመተ፤ ፭፻፡ ወ፴፬፡ ወኮነ፡ ኵሉ፡ ድሙሩ፡ ዘእምቀዳማይ፡ ዓመቱ፡ ለአዳም፡ እስከ፡ ፲፻፡ ወ፷ወ፮፡ ለድዮቅልጥ(ያ)ኖስ፡ ይከውን፡ ፷፻፡ ወ፱፻፡ ፲ወ፮፨</explicit>
+                        <note>Computation of the cycles of years according to several calendars (i.e., the Greek and Enoch systems) and chronological calculations.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i7.3">
+                        <locus from="202v" to="209r"/>
+                        <title type="Complete" ref="LIT3141Hassab">Maṣḥafa ḥassāb</title>
+                        <incipit xml:lang="gez">
+                           <locus target="#202v"/>መጽሐፍ፡ (sic) ሐሰብ። (sic) ቀዳሜሁ፡ (sic) ውእቱ፡ ቃል፡ ወውእቱ፡ ቃል፡ እምኀበ፡ እግዚ(አ)ብሔር፡ ወእግዚአብሔር፡ ውእቱ፡ ቃል፡ ... በቀደሚ፡ (sic) ገብረ፡ እግዚአብሔር፡ ሰማየ፡ ወምድርሰ፡ ሀለወት፡ እምትካት፡ ወኢተስተርኢ፡ (sic) ወኢከነት፡ (sic) ድሉት፡ ወጽልመት፡ መልዕልተ፡ ቃላይ፡ (sic)</incipit>
+                        <explicit xml:lang="gez">
+                           <locus target="#209r"/>ወለእመ፡ ፈቀድከ፡ ታአምር፡ (sic) በ(እ)ንተ፡ ዘያአቱ፡ ፪፡ ዕለተ፡ ለረኪቦተ፡ ዕለተ፡ ዮሓንስ፡ እስመ፡ ቀዳሚሁ፡ ለዓመት፡ (sic) ዲዮቅልጥ(ያ)ኖስ፡ ዐርብ፡ መለረኪበ፡ (sic) ሰንበተ፡ ክርስቲያን፡ ያአቱ፡ ፪፡ ዓርብ፡ ወሰንበተ፡ አይሁ(ድ)፡ ወይብልዋ፡ ኪያሃ፡ አሐቲ፡ አለት፡ (sic) ቅድመ፡ ሰንበተ፡ ክርስቲያን፨</explicit>
+                        <note>The text is preceded by a number of tables for determination of the year of indiction, the number of the epagomenal days, the epact and the ṭǝntyon since the origin of the world.</note>
+                     </msItem>
+                     <msItem xml:id="ms_i7.4">
+                        <locus from="209v" to="210v"/>
+                        <title type="Complete" ref="LIT3142Tables"/>
+                        <note>Tables for determination of the moveable feasts.</note>
+                     </msItem>
+                  </msItem>
+
+                  <msItem xml:id="ms_i8">
+                     <locus from="212r" to="214v"/>
+                     <title type="Complete" ref="LIT3123Calend"/>
+                     <note>Calendar of saints, arranged according to their feast day.</note>
+                     <incipit xml:lang="gez">
+                        <locus target="#212r"/>በስመ፡ አብ፡ ወወልደ፡ ወመንፈስ፡ ቅዱስ፡ በዘ፡ ንጽሕፍ፡ አርእስት፡ በዓላ(ት፡) በወርሐ፡ መስከረም። ፩ዮሐንስ፡ መጥምቅ፡ ወበርተሎሚወስ፡ (sic) ሐዋርያ፡ ወራጎኤል፡ (sic) &lt;ሊቀ፡&gt; መላእክ &lt;ት&gt;፡ ወኢዮብ፡ ጸድቅ፨ (sic) ውስተ፡ ኵሉ፡ ምድር፡ ወጽአ፡ ነገሮሙ፨ </incipit>
+                     <explicit xml:lang="gez">
+                        <locus target="#214v"/>ኣመ፡ ፬፡ በአማን። (sic) አመ፡ ፭፡ አበ፡ (sic) መግደር፡ ኪየከ፡ (sic) ተወከሉ፡ አበዊነ፨</explicit>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i9">
+                     <locus from="214v" to="218r"/>
+                     <title type="Complete" ref="LIT3120Anapho"/>
+                     <note>Qǝddāse Yoḥannǝs ʾAfa Warq za-q<hi rend="apices">w</hi>ǝrbān "Anaphora of John Chrysostom on the offering". The text follows the text edited in <bibl>
+                           <ptr target="bm:Dillmann1866Chrestomathia"/>
+                           <citedRange unit="page">51-56</citedRange>
+                        </bibl> up to <locus target="#216vb" n="4"/>, then few passages are added.</note>
+                     <explicit xml:lang="gez">
+                        <locus target="#218r"/>በላዓክሙ፡ (sic) ጸገብክሙ፡ ሰተይክሙ፡ ረወይክሙ፡ በሰላም፡ እትው፡ (sic) ውስተ፡ አብያቲክሙ፡ እግዚአብሔር፡ የሀሎ፡ (sic) መ(ስ)ሌክሙ፨ (sic)</explicit>
+                  </msItem>
+            
+                  <msItem xml:id="ms_i10">
+                     <locus target="#218v"/>
+                     <title type="Incomplete" ref="LIT3121HymnMary"/>
+                     <note>Hymn to Our Lady Mary with a commemoration of the Apostles.</note>
+                     <incipit xml:lang="gez">
+                        <locus target="#218v"/>ተዘኪረኪ፡ ማርያም፡ ስቅለተ፡ ጴጥሮስ፡ አምደ፡ ሮሜ፡ ኰኵ(ሕ)፡ ብሂል፡ ዘበትርጓሜ(ሁ፡)</incipit>
+                     <explicit xml:lang="gez">
+                        <locus target="#218v"/>፰ተዘኪረኪ፡ ማርያም፡ ዘአስጠምዎ፡ ውስተ፡ ባሕር፡ ለበርተሎሜዎ(ስ)፡ ምምሕር፡ (sic)</explicit>
+                  </msItem>
+               </msContents>
+          
+               <physDesc>
+                  <objectDesc form="Codex">
+                     <supportDesc>
+                        <support>
+                           <material key="parchment"/>
+                           
+                        </support>
+                        <extent>
+                           <measure unit="leaf">219</measure>
+                           <measure unit="leaf" type="blank">9</measure>Blank ff.: 1v, 2rv, 10v, 11v, 12rv, 56v, 57rv, 211v, 218v.
+                  <measure unit="quire">29</measure>
+                           <dimensions type="outer" unit="mm">
+                              <height>325</height>
+                              <width>233</width>
+                              <depth/>
+                           </dimensions>
+                        </extent>
+                        <foliation/>
+                        <collation><quire xml:id="q1" n="1"><leaf single="false" mode="original" n="1" folio_number="1" conjoin="2" position="1"/><leaf single="false" mode="original" n="2" folio_number="2" conjoin="1" position="2"/></quire><quire xml:id="q2" n="2"><leaf single="false" mode="original" n="1" folio_number="3" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="4" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="5" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="6" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="7" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="8" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="9" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="10" conjoin="1" position="8"/></quire><quire xml:id="q3" n="3"><leaf single="false" mode="original" n="1" folio_number="11" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="12" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="13" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="14" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="15" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="16" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="17" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="18" conjoin="1" position="8"/></quire><quire xml:id="q4" n="4"><leaf single="false" mode="original" n="1" folio_number="19" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="20" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="21" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="22" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="23" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="24" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="25" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="26" conjoin="1" position="8"/></quire><quire xml:id="q5" n="5"><leaf single="false" mode="original" n="1" folio_number="27" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="28" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="29" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="30" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="31" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="32" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="33" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="34" conjoin="1" position="8"/></quire><quire xml:id="q6" n="6"><leaf single="false" mode="original" n="1" folio_number="35" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="36" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="37" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="38" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="39" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="40" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="41" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="42" conjoin="1" position="8"/></quire><quire xml:id="q7" n="7"><leaf single="false" mode="original" n="1" folio_number="43" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="44" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="45" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="46" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="47" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="48" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="49" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="50" conjoin="1" position="8"/></quire><quire xml:id="q8" n="8"><leaf single="false" mode="original" n="1" folio_number="51" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="52" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="53" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="54" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="55" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="56" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="57" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="58" conjoin="1" position="8"/></quire><quire xml:id="q9" n="9"><leaf single="false" mode="original" n="1" folio_number="59" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="60" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="61" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="62" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="63" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="64" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="65" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="66" conjoin="1" position="8"/></quire><quire xml:id="q10" n="10"><leaf single="false" mode="original" n="1" folio_number="67" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="68" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="69" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="70" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="71" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="72" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="73" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="74" conjoin="1" position="8"/></quire><quire xml:id="q11" n="11"><leaf single="false" mode="original" n="1" folio_number="75" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="76" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="77" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="78" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="79" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="80" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="81" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="82" conjoin="1" position="8"/></quire><quire xml:id="q12" n="12"><leaf single="false" mode="original" n="1" folio_number="83" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="84" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="85" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="86" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="87" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="88" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="89" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="90" conjoin="1" position="8"/></quire><quire xml:id="q13" n="13"><leaf single="false" mode="original" n="1" folio_number="91" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="92" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="93" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="94" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="95" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="96" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="97" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="98" conjoin="1" position="8"/></quire><quire xml:id="q14" n="14"><leaf single="false" mode="original" n="1" folio_number="99" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="100" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="101" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="102" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="103" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="104" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="105" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="106" conjoin="1" position="8"/></quire><quire xml:id="q15" n="15"><leaf single="false" mode="original" n="1" folio_number="107" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="108" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="109" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="110" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="111" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="112" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="113" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="114" conjoin="1" position="8"/></quire><quire xml:id="q16" n="16"><leaf single="false" mode="original" n="1" folio_number="115" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="116" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="117" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="118" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="119" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="120" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="121" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="122" conjoin="1" position="8"/></quire><quire xml:id="q17" n="17"><leaf single="false" mode="original" n="1" folio_number="123" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="124" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="125" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="126" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="127" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="128" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="129" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="130" conjoin="1" position="8"/></quire><quire xml:id="q18" n="18"><leaf single="false" mode="original" n="1" folio_number="131" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="132" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="133" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="134" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="135" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="136" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="137" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="138" conjoin="1" position="8"/></quire><quire xml:id="q19" n="19"><leaf single="false" mode="original" n="1" folio_number="139" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="140" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="141" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="142" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="143" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="144" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="145" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="146" conjoin="1" position="8"/></quire><quire xml:id="q20" n="20"><leaf single="false" mode="original" n="1" folio_number="147" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="148" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="149" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="150" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="151" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="152" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="153" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="154" conjoin="1" position="8"/></quire><quire xml:id="q21" n="21"><leaf single="false" mode="original" n="1" folio_number="155" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="156" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="157" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="158" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="159" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="160" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="161" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="162" conjoin="1" position="8"/></quire><quire xml:id="q22" n="22"><leaf single="false" mode="original" n="1" folio_number="163" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="164" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="165" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="166" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="167" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="168" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="169" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="170" conjoin="1" position="8"/></quire><quire xml:id="q23" n="23"><leaf single="false" mode="original" n="1" folio_number="171" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="172" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="173" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="174" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="175" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="176" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="177" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="178" conjoin="1" position="8"/></quire><quire xml:id="q24" n="24"><leaf single="false" mode="original" n="1" folio_number="179" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="180" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="181" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="182" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="183" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="184" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="185" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="186" conjoin="1" position="8"/></quire><quire xml:id="q25" n="25"><leaf single="false" mode="original" n="1" folio_number="187" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="188" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="189" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="190" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="191" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="192" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="193" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="194" conjoin="1" position="8"/></quire><quire xml:id="q26" n="26"><leaf single="false" mode="original" n="1" folio_number="195" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="196" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="197" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="198" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="199" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="200" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="201" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="202" conjoin="1" position="8"/></quire>
+
+<quire xml:id="q27" n="27">
+<leaf conjoin="3" position="1"/>
+<leaf single="false" mode="original" n="1" folio_number="203" conjoin="3" position="2"/>
+<leaf single="false" mode="original" n="2" folio_number="204" conjoin="2" position="3"/>
+<leaf single="true" mode="original" n="3" folio_number="206" position="4"/>
+</quire>
+<quire xml:id="q28" n="28"><leaf single="false" mode="original" n="1" folio_number="206" conjoin="6" position="1"/><leaf single="false" mode="original" n="2" folio_number="207" conjoin="5" position="2"/><leaf single="false" mode="original" n="3" folio_number="208" conjoin="4" position="3"/><leaf single="false" mode="original" n="4" folio_number="209" conjoin="3" position="4"/><leaf single="false" mode="original" n="5" folio_number="210" conjoin="2" position="5"/><leaf single="false" mode="original" n="6" folio_number="211" conjoin="1" position="6"/></quire><quire xml:id="q29" n="29"><leaf single="false" mode="original" n="1" folio_number="212" conjoin="8" position="1"/><leaf single="false" mode="original" n="2" folio_number="213" conjoin="7" position="2"/><leaf single="false" mode="original" n="3" folio_number="214" conjoin="6" position="3"/><leaf single="false" mode="original" n="4" folio_number="215" conjoin="5" position="4"/><leaf single="false" mode="original" n="5" folio_number="216" conjoin="4" position="5"/><leaf single="false" mode="original" n="6" folio_number="217" conjoin="3" position="6"/><leaf single="false" mode="original" n="7" folio_number="218" conjoin="2" position="7"/><leaf single="false" mode="original" n="8" folio_number="219" conjoin="1" position="8"/></quire></collation>
+                        <condition key="good"/>
+                     </supportDesc>
+                     <layoutDesc>
+                        <layout columns="2" writtenLines="44"/>
+                     </layoutDesc>
+                  </objectDesc>
+                  <handDesc>
+                     <handNote xml:id="h1" script="Ethiopic">
+                        <seg type="script">Mediocre.</seg>
+                        <seg type="ink">Black, red</seg>
+                        <date/>
+                        <desc> It is the same hand as <ref type="hand" corresp="BAVet2#h2">hand 2</ref>
+                           <ref type="mss" corresp="BAVet2"/>. 
+                           The numerals are written without dashes; ፮ has the loop open, looking like “compressed” ፯; ፪ has angular and not separated loops.</desc>
+                        <seg type="rubrication">Nomina sacra, titles, liturgical admonishments; elements of the text dividers; Ethiopic numerals.</seg>
+                     </handNote>
+                  </handDesc>
+            
+                  <additions>
+                     <list>
+                        <item xml:id="a1">
+                           <desc type="Invocation"/>
+                           <quote xml:lang="ar">اذكر يا رب عبدك الخاطي المسكين قسيس غبريال المصري قاصد البطرك الاسكندراني وراهب دير العذرى مريم جبل الطير واذكر يا رب كاللذين يذكرنا من الابهات الحبش</quote>
+                           <quote xml:lang="en">"Remember, o my Lord, your servant, the poor sinner priest Ġabriyāl the Egyptian, delegate of the Alexandrine patriarch and monk of the Monastery of the Virgin Mary of Ǧabal al-Ṭayr; and remember, o Lord, those who will commemorate us amongst the Ethiopian fathers".</quote>
+                           <note>The note is written in Arabic on the front board on its inner side. It was drawn up by the Egyptian priest <persName ref="PRS10777Gabriyal">Ġabriyāl</persName>.</note>
+                        </item>
+                        <item xml:id="a2">
+                           <desc type="ScribalNoteCompleting"/>
+                           <locus target="#198r"/>
+                           <quote xml:lang="gez">ወተፈጸመ፡ ዝንቱ፡ ሴኖዶስ፡ በዋርኀ፡ ግንቦት፡ ፰፡ በሰርቀ፡ መልአት፡ ፫፡ በሰርቀ፡ ሌሌት። (sic) በመዋዕለ፡ ወን(ጌ)ላዊ፡ ማቴዎስ፡ ፮፼፡ (sic) ወ፭፻፡ ፹ወ፭፡ ዓመተ፡ አደም። (sic)</quote>
+                           <note>The note is written in red ink and states that the Sinodos was completed on the 8th of Gǝnbot in the year of Adam 6585, year of Matthew.
+                    The date can not be assessed with certainty: it might correspond to 1593 AD or be incorrect.</note>
+                        </item>
+                        <item xml:id="a3">
+                           <desc type="Record"/>
+                           <locus target="#217v"/>
+                           <quote xml:lang="gez"/>
+                           <note>Historical note on the monastic community of <placeName ref="INS0302SanStefano"/>.</note>
+                        </item>
+                        <item xml:id="a4">
+                           <desc type="CalendaricNote"/>
+                           <locus target="#219r"/>
+                           <quote xml:lang="gez">፷፼ወ፮፻፲ወ፮ዓምት። (sic) ሰረቀ፡ (sic) መስከረም፡ እሁድ፡ ሰረቀ፡ ጥቅምት፡ ሰሉስ። ኅዳር፡ ሐሙስ፡ ትሕሳስ፡ (sic) ቀደሚ፡ (sic) ሰንበት። ጥር፡ ሰኑይ። የካቲት፡ ረቡዕ። መጋቢተ፡ ዓርብ። ሚያዚያ፡ (sic) እሁድ። ግንቦት፡ ሰሉስ። ሰኔ፡ ሐሙስ። ሐምሌ፡ ቀዳሚ፡ ሰንበት፡ ነሐሴ፡ ሰነይ። (sic) ጳጉሜን፡ (sic) ረቡዕ፡ በዘመነ፡ ዮሐንስ።</quote>
+                           <note>The note refers to the year 6616, year of John. The date can not be assessed with certainty; it might correspond to 1624 AD or be incorrect.</note>
+                        </item>
+                        <item xml:id="a5">
+                           <desc type="Unclear"/>
+                           <locus target="#219v"/>
+                           <quote xml:lang="gez">እምኀበ፡ ለአከ፡ ... ማⶂⶂሮአም፡ (?) ዘሮማ፡ ትብጸሕ፡ (sic) ኢ(የ)ሩሰሌ(ም፡)</quote>
+                           <note>The note is hardly legible because of the faded ink. It mentions Rome and Jerusalem.</note>
+                        </item>
+                        <item xml:id="e1">
+                           <locus target="#1r"/>
+                           <quote xml:lang="lat">Missale; n° 1. Aduerte Lector hunc Codicem esse Vitiosissime scriptum ejusq(ue) autoritatem exigui valoris.</quote>
+                           <quote xml:lang="en">"Missal; nr. 1. Be careful o reader, that this codex is very defective and its reliability is of low value".</quote>
+                           <note>Note written by a later librarian and by <persName ref="PRS10036Wansleb"/> concerning the reliability of the manuscript. The note was probably written in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e2">
+                           <locus target="#1r"/>
+                           <quote xml:lang="it">Etiopico.</quote>
+                           <date>19th century.</date>
+                           <note>Note written by a later librarian.</note>
+                        </item>
+                        <item xml:id="e3">
+                           <locus target="#1r"/>
+                           <quote xml:lang="gez">በስመ አብ ወውልድ ወመንፈስ ቅዱስ</quote>
+                        </item>
+                        <item xml:id="e4">
+                           <locus target="#11r"/>
+                           <note>Two lines containing the incipit of <title ref="LIT1349Epistl">Letter of Eusebius to Carpianus</title>, as in <locus target="#3a">lines 3 እንዘ፡ - 7 እመትሎሆሙ፡</locus>.</note>
+                        </item>
+                        <item xml:id="e5">
+                           <desc/>
+                           <locus target="#99r"/>
+                           <quote xml:lang="la">Officium Abissinorum.</quote>
+                           <note>Note written on the upper margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e6">
+                           <desc/>
+                           <locus target="#147r"/>
+                           <quote xml:lang="la">Incipiunt Canones S. Clementis.</quote>
+                           <note>Note written on the upper margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e7">
+                           <locus target="#164r"/>
+                           <quote xml:lang="la">Concil. Ancyranum.</quote>
+                           <note>Note written on the upper margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e8">
+                           <locus target="#168r"/>
+                           <quote xml:lang="la">Concil. Ga(n)gerense.</quote>
+                           <note>Note written on the upper margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e9">
+                           <locus target="#147r"/>
+                           <quote xml:lang="la">Nota b(ene) Maximum hic esse errore. confundit et miscet enim hic duo Concilia. Stulte idem error et jam est in Cod(ice) Magni Duc(is) Florentiae. Sed Cod(ex) Abiss(inoru)m et meus bene habent o(mn)ia notauit a(utem) Fr(ater) G(iovanni) M(ichahel) Vanslebius Ord. Praed.</quote>
+                           <quote xml:lang="en">"Nota bene: a serious error is here, as (the scribe) confuses and blends here two councils. The same error is also trivially attested in the manuscript of the Grand Duke of Florence (i.e, <ref type="mss" corresp="BMLor148"/>). However, the manuscript of the Ethiopians (i.e., of San Stefano dei Mori, (i.e, <ref type="mss" corresp="BAVborget2"/>) and mine display everything correctly. Brother Johann Michael Wansleben annotated (this)".</quote>
+                           <note>Note written in the intercolum by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e10">
+                           <locus target="#172r"/>
+                           <quote xml:lang="la">Concilii Laodiceni canones.</quote>
+                           <note>Note written on the outer upper margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e11">
+                           <locus target="#173r"/>
+                           <quote xml:lang="la">Concil. Nicaenum.</quote>
+                           <note>Note written on the outer upper margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e12">
+                           <locus target="#176v"/>
+                           <quote xml:lang="la">Concil. Nicaenum.</quote>
+                           <note>Note written on the outer margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e13">
+                           <locus target="#183v"/>
+                           <quote xml:lang="la">Deest canon 56.</quote>
+                           <note>Note written on the outer margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e14">
+                           <locus target="#187v"/>
+                           <quote xml:lang="la">Canones Petri Per S. Clementem.</quote>
+                           <note>Note written on the outer margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e15">
+                           <locus target="#192r"/>
+                           <quote xml:lang="la">Concil. Antiochaenum.</quote>
+                           <note>Note written on the outer margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e16">
+                           <locus target="#195v"/>
+                           <quote xml:lang="la">Concil. Laodicaenum.</quote>
+                           <note>Note written on the outer margin by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e17">
+                           <locus target="#197v"/>
+                           <quote xml:lang="la">Aduerte Lector huc referri debere illos Canones quos scriptor supra ad conciliu(m) Gangerense annexuit.</quote>
+                           <quote xml:lang="en">"Be careful o reader, that here you have to refer to those canons that the scribe previously appended to the council of Gangra".</quote>
+                           <note>Note written by <persName ref="PRS10036Wansleb"/> probably in <date>1665</date>.</note>
+                        </item>
+                        <item xml:id="e18">
+                           <locus target="#211r"/>
+                           <desc>Doodles.</desc>
+                        </item>
+                        <item xml:id="e19">
+                           <locus target="#217r"/>
+                           <desc>Doodles.</desc>
+                        </item>
+                        <item xml:id="e20">
+                           <quote>"Salve Regina... ladi zet chgrafi uin nero agua materi guortelo eledo uiniga po pais do uai".</quote>
+                           <note>The note is written on the back board on its inner side, probably in a Vulgar language. The meaning is poorly understandable.</note>
+                        </item>
+                        <item xml:id="e21">Quires are numbered with Arabic numerals on the lower outer margin of the first folio of each quire. Most of them are abraded.</item>
+                     </list>
+                  </additions>
+            
+                  <bindingDesc>
+                     <binding contemporary="true">
+                        <decoNote xml:id="b1">Two boards covered with reddish-brown tooled leather.</decoNote>
+                        <decoNote xml:id="b2" type="bindingMaterial">
+                           <material key="leather"/>
+                        </decoNote>
+                        <decoNote xml:id="b4" type="Other">Blind tooled ornament on the reddish-brown leather cover.</decoNote>
+                     </binding>
+                  </bindingDesc>
+               </physDesc>
+          
+               <history>
+                  <origin>
+                     <origPlace>
+                        <placeName ref="LOC5374Rome"/>
+                     </origPlace>
+                     <origDate notBefore="1500" notAfter="1599"/>
+                     <p>An origin from <placeName ref="LOC3957Jerusa"/> has been conjectured, together with Ms. <ref type="mss" corresp="BMLor148"/>, cp. <bibl>
+                           <ptr target="bm:Bausi1989MssBNCF"/>
+                           <citedRange unit="page">12</citedRange>
+                        </bibl>
+                        <bibl>
+                           <ptr target="bm:Bausi2015Wansleben"/>
+                           <citedRange unit="page">215-216</citedRange>
+                        </bibl>.
+                The Ms. had been preserved in <placeName ref="INS0302SanStefano"/> (cp. <ref target="#a2"/>) before being incorporated into the <placeName ref="INS0003BAV"/>.</p>
+                  </origin>
+               </history>
+          
+               <additional>
+                  <adminInfo>
+                     <recordHist>
+                        <source>
+                           <listBibl type="catalogue">
+                              <bibl>
+                                 <ptr target="bm:GrebTiss1935Codices"/>
+                                 <citedRange unit="page">1-11</citedRange>
+                              </bibl>
+                              <listBibl type="secondary">
+                                 <bibl>
+                                    <ptr target="bm:Bausi1989MssBNCF"/>
+                                    <citedRange unit="page">12</citedRange>
+                                 </bibl>
+                              </listBibl>
+                           </listBibl>
+                        </source>
+                     </recordHist>
+                     <custodialHist>
+                        <custEvent type="restoration" subtype="ancient"/>
+                     </custodialHist>
+                  </adminInfo>
+               </additional>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Encoded according to TEI P5 Guidelines.</p>
+         </projectDesc>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person role="donor"/>
+               <person role="scribe" corresp="BAVet2#h1"/>
+               <person role="other"/>
+            </listPerson>
+         </particDesc>
+         <textClass>
+            <keywords scheme="#ethioauthlist">
+               <term key="NewTestament"/>
+               <term key="Liturgy"/>
+               <term key="Prayers"/>
+               <term key="Missal"/>
+               <term key="CanonLaw"/>
+            </keywords>
+         </textClass>
+         <langUsage>
+            <language ident="gez">Gǝʿǝz</language>
+         </langUsage>
+      </profileDesc>
+      <revisionDesc>
+         <change who="MV" when="2016-04-29">Created catalogue entry</change>
+      </revisionDesc>
+  </teiHeader>
+  <text>
+    
+      <body>
+         <ab/>
+      </body>
+    
+  </text>
+</TEI>

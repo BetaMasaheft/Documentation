@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:t="http://www.tei-c.org/ns/1.0"
     xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-    xmlns="http://www.schoenberginstitute.org/schema/collation" exclude-result-prefixes="ss"
+    xmlns="http://www.schoenberginstitute.org/schema/collation" 
+    exclude-result-prefixes="#all"
     version="2.0">
-
-    <xsl:output method="text"/>
-    <xsl:output method="html" indent="yes" name="html"/>
 
 
     <xd:doc scope="stylesheet">
@@ -24,115 +23,68 @@
         </xd:desc>
     </xd:doc>
     
-    <xsl:template match="/">
-        <xsl:apply-templates/>
-    </xsl:template>
-    
-
-    <xsl:template match="manuscript">
+    <xsl:template name="visColl">
+        <xsl:param name="Finalvisualization" tunnel="yes"/>
         <xsl:variable name="idno" select="@idno"/>
-        <xsl:variable name="msname" select="@msname"/>
+        <xsl:variable name="msname" select="t:idno"/>
         <xsl:variable name="empty"/>
         <xsl:variable name="msurl">
             <xsl:value-of select="@msURL"/>
         </xsl:variable>
             <xsl:variable name="filename-diagrams" select="concat($idno,'-diagrams.html')"/>
-            <xsl:result-document href="{concat($idno,'/',$filename-diagrams)}" format="html">
-                <html xmlns="http://www.w3.org/1999/xhtml">
-                    <!--  -->
-                    <head>
-                        <title>Diagrams - <xsl:value-of select="$msname"/></title>
-                        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-
-                        <!-- Add jQuery library -->
-                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/lib/jquery-1.10.1.min.js"/>
-
-                        <!-- Add fancyBox main JS and CSS files -->
-                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.js?v=2.1.5"/>
-                        <link rel="stylesheet" type="text/css"
-                            href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen"/>
-                        <link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css" rel="stylesheet"
-                            type="text/css"/>
-                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/iframescript.js"/>
-
-                        <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/collation.js"/>
-                        <link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/css/collation.css" rel="stylesheet" type="text/css"/>
-                        <link href="diagrams_only.css" rel="stylesheet" type="text/css"/>
-                    </head>
-
-                    <body>
-                        <div id="divtop">
-                            <span class="topheader">
-                                <a href="http://www.library.upenn.edu" target="_blank">
-                                    <img src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/pennlogo.gif" width="28" height="27"
-                                        style="align:left;" alt="UPenn"/>
-                                </a>
-                                <xsl:text> </xsl:text>
-                                <a href="http://www.schoenberginstitute.org" target="blank"
-                                    ><xsl:text> </xsl:text><xsl:text> </xsl:text>Schoenberg
-                                    Institute for Manuscript Studies</a>, <a href="http://dorpdev.library.upenn.edu/collation/" target="blank">SIMS Manuscript Collation Project</a>
-                            </span>
-                        </div>
-                        <div id="listofquires"><span
-                            class="mstitle"><a
-                                target="_blank">
-                                <xsl:attribute name="href"><xsl:value-of select="$msurl"/></xsl:attribute>Collation diagrams for <xsl:value-of select="$msname"/>, <xsl:value-of select="$idno"/></a></span></div>
-                        
-                        <xsl:for-each select="quire">
+            
+            
+        <button type="button" class="btn btn-info" data-toggle="collapse"
+            data-target="#quirediagrams">Diagrams</button>
+                 <div class="container quires collapse" id="quirediagrams">    
+                     <h3>Collation diagrams</h3>
+                     
+                     <xsl:for-each select="t:quire">
                         <xsl:variable name="quireNo" select="@n"/>
                         <xsl:variable name="positions" select="@positions"/>
                         
-                        <!--<br/> Quire <xsl:value-of select="$quireNo"/> (<xsl:value-of
-                            select="$positions"/>)<xsl:text> </xsl:text><xsl:text> </xsl:text><span
-                            class="showhideall"><a href="#"
-                                onclick="MM_changeProp('divset1','','height','auto','DIV');"
-                                >Show
-                            All</a></span><xsl:text> </xsl:text><xsl:text> </xsl:text><span
-                            class="showhideall"><a href="#"
-                                onclick="MM_changeProp('divset1','','height','0','DIV');"
-                                >Hide All</a></span>
-                        <br/>-->
-                        <xsl:for-each select="units/unit[1]">
-                            <xsl:comment>
-                                begin set
-                            </xsl:comment>
+                        <br/> Quire <xsl:value-of select="$quireNo"/> (<xsl:value-of
+                            select="$positions"/>)
+                        <br/>
+                        <xsl:for-each select="t:units/t:unit[1]">
+                            
                             <!-- This sets up the pairs -->
                             <!--Variables set for the left and right positions, inside-->
-                            <xsl:variable name="bi1" select="inside/left/@pos"/>
-                            <xsl:variable name="bi2" select="inside/right/@pos"/>
+                            <xsl:variable name="bi1" select="t:inside/t:left/@pos"/>
+                            <xsl:variable name="bi2" select="t:inside/t:right/@pos"/>
                             <!--Variable setting the URL to the "X" image-->
                             <xsl:variable name="imgX"
                                 >https://cdn.rawgit.com/leoba/VisColl/master/data/support/images/x.jpg</xsl:variable>
                             <!-- Variables grabbing the image URLs for all four sides in the unit -->
                             <xsl:variable name="insideLeftImgTest"
-                                select="inside/left/@url"/>
+                                select="t:inside/t:left/@url"/>
                             <xsl:variable name="insideRightImgTest"
-                                select="inside/right/@url"/>
+                                select="t:inside/t:right/@url"/>
                             <xsl:variable name="outsideLeftImgTest"
-                                select="outside/left/@url"/>
+                                select="t:outside/t:left/@url"/>
                             <xsl:variable name="outsideRightImgTest"
-                                select="outside/right/@url"/>
+                                select="t:outside/t:right/@url"/>
                             <!-- Variables checking when image URLs are empty and mode is missing, and replacing them with X image if they are -->
                             <xsl:variable name="insideLeftImg"><xsl:choose>
-                                <xsl:when test="$insideLeftImgTest = $empty"><xsl:choose><xsl:when test="inside/left/@mode='missing'"><xsl:value-of
+                                <xsl:when test="$insideLeftImgTest = $empty"><xsl:choose><xsl:when test="t:inside/t:left/@mode='missing'"><xsl:value-of
                                             select="$imgX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$insideLeftImgTest"
                                         /></xsl:otherwise>
                                 </xsl:choose></xsl:variable>
                             <xsl:variable name="insideRightImg"><xsl:choose>
-                                <xsl:when test="$insideRightImgTest = $empty"><xsl:choose><xsl:when test="inside/right/@mode='missing'"><xsl:value-of
+                                <xsl:when test="$insideRightImgTest = $empty"><xsl:choose><xsl:when test="t:inside/t:right/@mode='missing'"><xsl:value-of
                                     select="$imgX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$insideRightImgTest"
                                         /></xsl:otherwise>
                                 </xsl:choose></xsl:variable>
                             <xsl:variable name="outsideLeftImg"><xsl:choose>
-                                <xsl:when test="$outsideLeftImgTest = $empty"><xsl:choose><xsl:when test="outside/left/@mode='missing'"><xsl:value-of
+                                <xsl:when test="$outsideLeftImgTest = $empty"><xsl:choose><xsl:when test="t:outside/t:left/@mode='missing'"><xsl:value-of
                                     select="$imgX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$outsideLeftImgTest"
                                         /></xsl:otherwise>
                                 </xsl:choose></xsl:variable>
                             <xsl:variable name="outsideRightImg"><xsl:choose>
-                                <xsl:when test="$outsideRightImgTest = $empty"><xsl:choose><xsl:when test="outside/right/@mode='missing'"><xsl:value-of
+                                <xsl:when test="$outsideRightImgTest = $empty"><xsl:choose><xsl:when test="t:outside/t:right/@mode='missing'"><xsl:value-of
                                     select="$imgX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$outsideRightImgTest"
                                         /></xsl:otherwise>
@@ -141,37 +93,37 @@
                             <xsl:variable name="folNoX">X</xsl:variable>
                             <!-- Variables setting the folio numbers (including r and v), used as checks in the next bunch of variables -->
                             <xsl:variable name="insideLeftFolNoTest"
-                                select="inside/left/@folNo"/>
+                                select="t:inside/t:left/@folNo"/>
                             <xsl:variable name="insideRightFolNoTest"
-                                select="inside/right/@folNo"/>
+                                select="t:inside/t:right/@folNo"/>
                             <xsl:variable name="outsideLeftFolNoTest"
-                                select="outside/left/@folNo"/>
+                                select="t:outside/t:left/@folNo"/>
                             <xsl:variable name="outsideRightFolNoTest"
-                                select="outside/right/@folNo"/>
+                                select="t:outside/t:right/@folNo"/>
                             <!-- Variables checking when folio number variables are empty, and replacing them with X if they are -->
                                 <xsl:variable name="insideLeftFolNo"><xsl:choose>
-                                    <xsl:when test="not($insideLeftFolNoTest)"><xsl:choose><xsl:when test="inside/left/@mode='missing'"><xsl:value-of
+                                    <xsl:when test="not($insideLeftFolNoTest)"><xsl:choose><xsl:when test="t:inside/t:left/@mode='missing'"><xsl:value-of
                                             select="$folNoX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$insideLeftFolNoTest"
                                         /></xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
                             <xsl:variable name="insideRightFolNo"><xsl:choose>
-                                <xsl:when test="not($insideRightFolNoTest)"><xsl:choose><xsl:when test="inside/right/@mode='missing'"><xsl:value-of
+                                <xsl:when test="not($insideRightFolNoTest)"><xsl:choose><xsl:when test="t:inside/t:right/@mode='missing'"><xsl:value-of
                                     select="$folNoX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$insideRightFolNoTest"
                                         /></xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
                             <xsl:variable name="outsideLeftFolNo"><xsl:choose>
-                                <xsl:when test="not($outsideLeftFolNoTest)"><xsl:choose><xsl:when test="outside/left/@mode='missing'"><xsl:value-of
+                                <xsl:when test="not($outsideLeftFolNoTest)"><xsl:choose><xsl:when test="t:outside/t:left/@mode='missing'"><xsl:value-of
                                     select="$folNoX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$outsideLeftFolNoTest"
                                         /></xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
                             <xsl:variable name="outsideRightFolNo"><xsl:choose>
-                                <xsl:when test="not($outsideRightFolNoTest)"><xsl:choose><xsl:when test="outdide/right/@mode='missing'"><xsl:value-of
+                                <xsl:when test="not($outsideRightFolNoTest)"><xsl:choose><xsl:when test="t:outside/t:right/@mode='missing'"><xsl:value-of
                                     select="$folNoX"/></xsl:when><xsl:otherwise/></xsl:choose></xsl:when>
                                     <xsl:otherwise><xsl:value-of select="$outsideRightFolNoTest"
                                         /></xsl:otherwise>
@@ -227,20 +179,9 @@
                                     <xsl:otherwise><xsl:value-of select="$rightFol"/></xsl:otherwise>
                                 </xsl:choose>
                             </xsl:variable>
-                            
-                            
-                            
-                            <div class="bititles">Quire
-                                    <xsl:value-of select="$quireNo"/><!--, Unit <xsl:value-of
-                                    select="$leftFol"/>, <xsl:value-of select="$rightFol"/>-->
-                                <xsl:text> </xsl:text><xsl:text> </xsl:text><a href="#"
-                                    onclick="MM_changeProp('divset{$quireNo}','','height','auto','DIV')"><img
-                                        src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/images/open.gif" alt="Open" class="openimage"/></a><a
-                                    href="#"
-                                    onclick="MM_changeProp('divset{$quireNo}','','height','10px','DIV')"><img
-                                        src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/images/close.gif" alt="Close" class="closeimage"
-                                /></a></div>
-                            <div class="divset">
+                            <button type="button" class="btn btn-info" data-toggle="collapse"
+                                    data-target="#divset{$quireNo}">expand/collapse</button>
+                            <div class="divset collapse">
                                 <xsl:attribute name="id">divset<xsl:value-of select="$quireNo"
                                     /></xsl:attribute>
                                 <!--<div class="bif">-->
@@ -268,7 +209,7 @@
     
     
     
-    <xsl:for-each select="ancestor::quire">
+    <xsl:for-each select="ancestor::t:quire">
         <xsl:variable name="positions" select="@positions"/>
         <xsl:for-each select="1 to $positions">
             <!--<text>
@@ -292,13 +233,13 @@
     </xsl:for-each>
 
     <svg x="0" y="0">
-        <xsl:for-each select="parent::units">
-            <xsl:variable name="positions" select="parent::quire/@positions"/>
+        <xsl:for-each select="parent::t:units">
+            <xsl:variable name="positions" select="parent::t:quire/@positions"/>
             
-            <xsl:for-each select="unit"><desc>Unit #<xsl:value-of select="@n"/></desc>
+            <xsl:for-each select="t:unit"><desc>Unit #<xsl:value-of select="@n"/></desc>
                 
-                <xsl:variable name="leftPos" select="inside/left/@pos"/>
-                <xsl:variable name="rightPos" select="inside/right/@pos"/>
+                <xsl:variable name="leftPos" select="t:inside/t:left/@pos"/>
+                <xsl:variable name="rightPos" select="t:inside/t:right/@pos"/>
                 <xsl:variable name="path1-left">
                     <xsl:value-of select="9 + 6*($leftPos - 1)"/>
                 </xsl:variable>
@@ -346,7 +287,7 @@
                 </xsl:variable>
                 <g>
                     <g>
-                        <xsl:attribute name="class">leaf<xsl:if test="inside/left[not(@mode)]"> empty</xsl:if><xsl:if test="inside/left[@mode='missing']"> missing</xsl:if><xsl:if test="inside/left[@mode='added']"> added</xsl:if><xsl:if test="inside/left[@mode='replaced']"> replaced</xsl:if></xsl:attribute>
+                        <xsl:attribute name="class">leaf<xsl:if test="t:inside/t:left[not(@mode)]"> empty</xsl:if><xsl:if test="t:inside/t:left[@mode='missing']"> missing</xsl:if><xsl:if test="t:inside/t:left[@mode='added']"> added</xsl:if><xsl:if test="t:inside/t:left[@mode='replaced']"> replaced</xsl:if></xsl:attribute>
                         <path stroke-linecap="round">
                             <xsl:attribute name="d"><xsl:value-of select="$M-path1"/>,<xsl:value-of select="$path1-left"/> A<xsl:value-of select="$path2"/>,<xsl:value-of select="$path2"/> 0 0,0 <xsl:value-of select="$path3"/>,<xsl:value-of select="$path4"/></xsl:attribute>
                         </path>
@@ -355,7 +296,7 @@
                         </path>
                     </g>
                     <g>
-                        <xsl:attribute name="class">leaf<xsl:if test="inside/right[not(@mode)]"> empty</xsl:if><xsl:if test="inside/right[@mode='missing']"> missing</xsl:if><xsl:if test="inside/right[@mode='added']"> added</xsl:if><xsl:if test="inside/right[@mode='replaced']"> replaced</xsl:if></xsl:attribute>
+                        <xsl:attribute name="class">leaf<xsl:if test="t:inside/t:right[not(@mode)]"> empty</xsl:if><xsl:if test="t:inside/t:right[@mode='missing']"> missing</xsl:if><xsl:if test="t:inside/t:right[@mode='added']"> added</xsl:if><xsl:if test="t:inside/t:right[@mode='replaced']"> replaced</xsl:if></xsl:attribute>
                         <path stroke-linecap="round">
                             <xsl:attribute name="d"><xsl:value-of select="$M-path1"/>,<xsl:value-of select="$path1-right"/> A<xsl:value-of select="$path2"/>,<xsl:value-of select="$path2"/> 0 0,1 <xsl:value-of select="$path3"/>,<xsl:value-of select="$path4"/></xsl:attribute>
                         </path>
@@ -378,39 +319,10 @@
                                 
                                 
                                 </div>
-                                
-                                <!--<div class="img1">
-                                    <a class="fancybox fancybox.iframe" rel="set{@n}"
-                                        title="(Quire {$quireNo}, Unit {$leftFol}.{$rightFol}, inside)"
-                                        href="units/{$leftFolFileName}.{$rightFolFileName}.i.html">
-                                        <xsl:choose><xsl:when test="contains($insideLeftImg,'.')"><img height="250" src="{$insideLeftImg}"
-                                            alt="{$insideLeftFolNo}"/></xsl:when><xsl:otherwise/></xsl:choose>
-                                        <xsl:choose><xsl:when test="contains($insideRightImg,'.')"><img height="250" src="{$insideRightImg}"
-                                            alt="{$insideRightFolNo}"/></xsl:when><xsl:otherwise/></xsl:choose></a>
-                                    <br/><xsl:value-of select="$insideLeftFolNo"/><xsl:if test="contains($insideRightImg,'.') and contains($insideLeftImg,'.')"><span
-                                        class="spacer"><xsl:text> </xsl:text></span></xsl:if><xsl:value-of
-                                        select="$insideRightFolNo"/>
-                                </div>
-                                <div class="img2">
-                                    <a class="fancybox fancybox.iframe" rel="set{@n}"
-                                        title="(Quire {$quireNo}, Unit {$leftFol}.{$rightFol}, outside)"
-                                        href="units/{$leftFolFileName}.{$rightFolFileName}.o.html">
-                                        <xsl:choose><xsl:when test="contains($outsideLeftImg,'.')"><img height="250" src="{$outsideLeftImg}"
-                                            alt="{$outsideLeftFolNo}"/></xsl:when><xsl:otherwise/></xsl:choose>
-                                        <xsl:choose><xsl:when test="contains($outsideRightImg,'.')"><img height="250" src="{$outsideRightImg}" 
-                                            alt="{$outsideRightFolNo}"
-                                        /></xsl:when><xsl:otherwise/></xsl:choose></a>
-                                    <br/><xsl:value-of select="$outsideLeftFolNo"/><xsl:if test="contains($outsideLeftImg,'.') and contains($outsideRightImg,'.')"><span
-                                        class="spacer"><xsl:text> </xsl:text></span></xsl:if><xsl:value-of
-                                        select="$outsideRightFolNo"/>
-                                </div>-->
-                            <!--</div>-->
                             
                         </xsl:for-each>
                         </xsl:for-each>
-                    </body>
-                </html>
-            </xsl:result-document>
+                 </div>
         
     </xsl:template>
 </xsl:stylesheet>

@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:svg="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:t="http://www.tei-c.org/ns/1.0"
+    xmlns:xlink="http://www.w3.org/1999/xlink" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
-    exclude-result-prefixes="svg xlink xs" version="2.0">
+    xmlns="http://www.tei-c.org/ns/1.0" 
+    exclude-result-prefixes="#all" version="2.0">
     
     <xd:doc scope="stylesheet">
         <xd:desc>
@@ -20,23 +23,22 @@
         </xd:desc>
     </xd:doc>
     
-    
-    <xsl:template match="@*|node()|comment() " priority="-1" mode="#all">
+    <xsl:template match="@*|node()">
         <xsl:copy>
-            <xsl:apply-templates select="@*|node()|comment()"/>
+            <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
     </xsl:template>
-    <xsl:template match="manuscript">
-        <xsl:variable name="idno" select="translate(shelfmark,' ','')"/>
-        <xsl:variable name="msname" select="title"/>
-        <xsl:variable name="msURL" select="url"/>
-        <manuscript idno="{$idno}" msname="{$msname}" msURL="{$msURL}">
-            <xsl:for-each select="//quire">
+    
+    <xsl:template  name="step1">
+        <xsl:param name="step1ed" tunnel="yes"/>
+            <xsl:for-each select="//t:quire">
                 <quire>
                     <xsl:attribute name="n">
                         <xsl:value-of select="@n"/>
                     </xsl:attribute>
-                    <xsl:variable name="positions" select="child::leaf[last()]/@position"/>
+                    
+                    <xsl:variable name="positions" select="child::t:leaf[last()]/@position"/>
+                    
                     <xsl:attribute name="positions">
                         <xsl:value-of select="$positions"/>
                     </xsl:attribute>
@@ -56,22 +58,22 @@
                     </xsl:variable>
                     
                     <xsl:variable name="missing1">
-                        <xsl:value-of select="leaf[not(@mode)][1]/@position"/>
+                        <xsl:value-of select="t:leaf[not(@mode)][1]/@position"/>
                     </xsl:variable>
                     <xsl:variable name="missing2">
-                        <xsl:value-of select="leaf[not(@mode)][2]/@position"/>
+                        <xsl:value-of select="t:leaf[not(@mode)][2]/@position"/>
                     </xsl:variable>
                     <xsl:variable name="missing3">
-                        <xsl:value-of select="leaf[not(@mode)][3]/@position"/>
+                        <xsl:value-of select="t:leaf[not(@mode)][3]/@position"/>
                     </xsl:variable>
                     <xsl:variable name="missing4">
-                        <xsl:value-of select="leaf[not(@mode)][4]/@position"/>
+                        <xsl:value-of select="t:leaf[not(@mode)][4]/@position"/>
                     </xsl:variable>
                     <xsl:variable name="missing5">
-                        <xsl:value-of select="leaf[not(@mode)][5]/@position"/>
+                        <xsl:value-of select="t:leaf[not(@mode)][5]/@position"/>
                     </xsl:variable>
                     <xsl:variable name="missing6">
-                        <xsl:value-of select="leaf[not(@mode)][6]/@position"/>
+                        <xsl:value-of select="t:leaf[not(@mode)][6]/@position"/>
                     </xsl:variable>
                     <units>
                         <xsl:for-each select="0 to $div2">
@@ -124,11 +126,10 @@
                     </units>
                 </quire>
             </xsl:for-each>
-        </manuscript>
         
     </xsl:template>
     
-    <xsl:template name="test" match="//quire">
+    <xsl:template name="test" match="//t:quire">
         <xsl:for-each select=".">
             <xsl:apply-templates/>
         </xsl:for-each>

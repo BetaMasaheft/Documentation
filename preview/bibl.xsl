@@ -13,7 +13,7 @@
         </ul>
     </xsl:template>
     
-    <xsl:template match="t:bibl[not(parent::t:listBibl[@type='relations'])]">
+    <xsl:template match="t:bibl[parent::t:listBibl[not(@type='relations')]]">
         <li>
             <xsl:choose>
                 <xsl:when test="not(@corresp) and not(t:ptr[@target])">
