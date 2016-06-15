@@ -25,7 +25,8 @@
         </xsl:if><xsl:text> </xsl:text><xsl:value-of select="@unit"/>. </p>
         <p>(proportion height/width: <xsl:value-of
             select="format-number(number(t:height div t:width), '#0.0###')"/> ) </p>
-         <xsl:apply-templates/>
+        
+         <xsl:apply-templates select="node() except (t:height | t:width | t:depth)"/>
         
         
     </xsl:template>
