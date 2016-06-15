@@ -10,7 +10,10 @@
     </xsl:template>
     
     <xsl:template match="t:note">
-       <p> <xsl:apply-templates/></p>
+        <xsl:choose>
+            <xsl:when test="t:p"><xsl:apply-templates/></xsl:when>
+       <xsl:otherwise><p> <xsl:apply-templates/></p></xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
     
@@ -26,6 +29,12 @@
         </div>
     </xsl:template>
     
+    <xsl:template match="t:filiation">
+        <p>
+            <b>Filiation: </b>
+            <xsl:apply-templates/>
+        </p>
+    </xsl:template>
     
     <xsl:template match="t:incipit">
         <p>
