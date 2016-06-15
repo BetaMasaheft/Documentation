@@ -6,9 +6,10 @@ This repo is for workflow and development subprojects. None of this is guarantee
 The posprocess transformation takes data entered which validates to an editing schema and populates all relevant elements.
 
 The preview transformation, meant only for testing and internal review uses school-basic html and:
-- some bootstrap for layout
-- Leaflet and Mapbox for maps
-- VisColl https://github.com/leoba/VisColl for the collation visualization
+* some bootstrap for layout
+* Leaflet and Mapbox for maps
+* Vis.js https://github.com/almende/vis for the relations graphs
+* VisColl https://github.com/leoba/VisColl for the collation visualization
 
 The catalogueMyCore contains a transformation to convert data from a previous project.
 
