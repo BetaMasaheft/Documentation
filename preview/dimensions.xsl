@@ -25,12 +25,7 @@
         </xsl:if><xsl:text> </xsl:text><xsl:value-of select="@unit"/>. </p>
         <p>(proportion height/width: <xsl:value-of
             select="format-number(number(t:height div t:width), '#0.0###')"/> ) </p>
-        <xsl:if test="//t:extent/t:note">
-            <p>
-                <xsl:apply-templates select="//t:extent/t:note"/>
-            </p>
-        </xsl:if>
-        <xsl:apply-templates/>
+         <xsl:apply-templates/>
         
         
     </xsl:template>

@@ -9,6 +9,10 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="t:note">
+       <p> <xsl:apply-templates/></p>
+    </xsl:template>
+    
     
     <xsl:template match="t:handDesc">
         <h2>Hands</h2>
@@ -102,7 +106,7 @@
     
     <xsl:template match="t:hi">
         <xsl:choose>
-            <xsl:when test="@type = 'apices'">
+            <xsl:when test="@rend = 'apices'">
                 <sup>
                     <xsl:value-of select="."/>
                 </sup>

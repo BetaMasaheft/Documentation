@@ -11,8 +11,8 @@
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
             <xsl:value-of select="$currentMsPart"/></xsl:if></h4>
-        <p>
+        <div>
             <xsl:apply-templates/>
-        </p>
+        </div>
     </xsl:template>
 </xsl:stylesheet>
