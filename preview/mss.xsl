@@ -146,8 +146,11 @@
 
         <xsl:if test="//t:additional//t:listBibl">
             <section id="catalogue">
-                <h2>Catalogued in</h2>
-                <xsl:apply-templates select="//t:additional//t:listBibl"/>
+                <xsl:for-each select="//t:additional//t:listBibl"><h2><xsl:if test="./ancestor::t:msPart"><xsl:variable
+                    name="currentMsPart"><xsl:value-of
+                        select="./ancestor::t:msPart/@xml:id"/></xsl:variable>
+                    <xsl:value-of select="$currentMsPart"/></xsl:if> Catalogued in</h2>
+                <xsl:apply-templates select="."/></xsl:for-each>
             </section>
         </xsl:if>
 

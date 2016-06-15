@@ -15,7 +15,7 @@
                 <xsl:value-of select="$currentMsPart"/></xsl:if></h2>
             <xsl:text>In this manuscript there are </xsl:text>
             <xsl:for-each
-                select="//t:item/t:desc[generate-id() = generate-id(key('additiontype', @type)[1])]">
+                select=".//t:item/t:desc[generate-id() = generate-id(key('additiontype', @type)[1])]">
                 <xsl:value-of
                     select="concat(' ', count(key('additiontype', ./@type)), ' ', ./@type)"/>
                 <xsl:choose>
@@ -34,7 +34,7 @@
                 </p>
             </xsl:if>
             <ol>
-                <xsl:for-each select="//t:item[contains(@xml:id, 'a')]">
+                <xsl:for-each select=".//t:item[contains(@xml:id, 'a')]">
                     <li>
                         <xsl:attribute name="id">
                             <xsl:value-of select="@xml:id"/>
@@ -65,7 +65,7 @@
                     </li>
                 </xsl:for-each>
             </ol>
-            <xsl:if test="//t:item[contains(@xml:id, 'e')]">
+            <xsl:if test=".//t:item[contains(@xml:id, 'e')]">
                 <h3>Extras <xsl:if test="./ancestor::t:msPart"><xsl:variable
                     name="currentMsPart">
                     <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
