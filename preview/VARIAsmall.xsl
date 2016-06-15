@@ -9,6 +9,21 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="t:additional">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="t:adminInfo">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="t:recordHist">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="t:source">
+        <xsl:apply-templates select="* except t:listBibl[@type='catalogue']"/>
+    </xsl:template>
+    
     <xsl:template match="t:note">
         <xsl:choose>
             <xsl:when test="t:p"><xsl:apply-templates/></xsl:when>
