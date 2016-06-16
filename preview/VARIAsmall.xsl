@@ -9,6 +9,13 @@
         <xsl:apply-templates/>
     </xsl:template>
     
+    <xsl:template match="t:provenance">
+       
+            <b>Provenance:</b>
+             <p><xsl:apply-templates/></p>
+       
+    </xsl:template>
+    
     <xsl:template match="t:additional">
         <xsl:apply-templates/>
     </xsl:template>

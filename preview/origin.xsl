@@ -7,9 +7,8 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:origDate | t:floruit | t:birth | t:death">
-        <p>
-            <b>Date: </b>
-            <xsl:choose>
+        <b>Date: </b>
+            <p><xsl:choose>
                 <xsl:when test="@when">
                     <xsl:value-of select="@when"/>
                 </xsl:when>
@@ -52,7 +51,13 @@
             <b>Original Location: </b>
             <xsl:apply-templates/>
         </p>
+
+<p>
+    <xsl:apply-templates select="parent::t:origin/t:provenance"/>
+</p>
+        
     </xsl:template>
+    
     <xsl:template match="t:origin">
         <xsl:apply-templates/>
     </xsl:template>
