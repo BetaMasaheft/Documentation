@@ -180,10 +180,10 @@
                                 </xsl:choose>
                             </xsl:variable>
                             <button type="button" class="btn btn-info" data-toggle="collapse"
-                                    data-target="#divset{$quireNo}">expand/collapse</button>
+                                data-target="#divset{$quireNo}{$randomnumber}">expand/collapse</button>
                             <div class="divset collapse">
                                 <xsl:attribute name="id">divset<xsl:value-of select="$quireNo"
-                                    /></xsl:attribute>
+                                /><xsl:value-of select="$randomnumber"/></xsl:attribute>
                                 <!--<div class="bif">-->
                                     
                                     
