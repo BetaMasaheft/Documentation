@@ -6,6 +6,12 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:collation">
+        
+        <xsl:variable
+            name="mspartID">
+            <xsl:if test="./ancestor::t:msPart"><xsl:value-of
+                select="./ancestor::t:msPart/@xml:id"/></xsl:if></xsl:variable>
+        
         <h3>Collation <xsl:if test="./ancestor::t:msPart"><xsl:variable
             name="currentMsPart">
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
@@ -21,8 +27,8 @@
         
      <div class="container allCollation">   
          <button type="button" class="btn btn-info" data-toggle="collapse"
-             data-target="#collation">Quires Table</button>
-        <div class="collation collapse" id="collation">
+             data-target="#collation{$mspartID}">Quires Table</button>
+        <div class="collation collapse" id="collation{$mspartID}">
             
             <table>
                 <tr style="background-color: lightgray;">
@@ -89,8 +95,8 @@
         <!--        formula-->
          
          <button type="button" class="btn btn-info" data-toggle="collapse"
-             data-target="#collationFormula">Collation Formula </button>
-      <div id="collationFormula" class="collapse">  <p>Formula: 
+             data-target="#collationFormula{$mspartID}">Collation Formula </button>
+         <div id="collationFormula{$mspartID}" class="collapse">  <p>Formula: 
         <xsl:for-each select=".//t:item">
             <xsl:sort select="position()"/>
            <xsl:apply-templates select="t:locus"/> <xsl:value-of select="text()"/><xsl:text>; </xsl:text>

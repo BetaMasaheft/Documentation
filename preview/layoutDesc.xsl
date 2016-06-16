@@ -172,15 +172,30 @@
                 </xsl:for-each>
             </ul>
         </xsl:if>
-        
-        <xsl:if test=".//t:ab[@type != 'pricking' or 'ruling']">
+        <xsl:if test=".//t:ab[@type = 'punctuation']">
+            <h3>Punctuation <xsl:if test="./ancestor::t:msPart"><xsl:variable
+                name="currentMsPart">
+                <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
+                    select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
+                <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
+            <ul>
+                <xsl:for-each select=".//t:ab[@type = 'punctuation']">
+                    <li>
+                        <xsl:if test="@subtype">(Subtype: <xsl:value-of select="@subtype"
+                        /><xsl:text>) </xsl:text></xsl:if>
+                        <xsl:value-of select="."/>
+                    </li>
+                </xsl:for-each>
+            </ul>
+        </xsl:if>
+        <xsl:if test=".//t:ab[@type != 'pricking'][@type !=   'ruling'][@type !=  'punctuation']">
             <h3>Other <xsl:if test="./ancestor::t:msPart"><xsl:variable
                 name="currentMsPart">
                 <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                     select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
                 <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
             <ul>
-                <xsl:for-each select=".//t:ab[@type != 'pricking' or 'ruling']">
+                <xsl:for-each select=".//t:ab[@type != 'pricking'][@type !=   'ruling'][@type !=  'punctuation']">
                     <li>
                         <xsl:value-of select="@type"/>
                         <xsl:text> </xsl:text>

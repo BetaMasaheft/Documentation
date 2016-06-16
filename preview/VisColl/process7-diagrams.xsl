@@ -33,10 +33,10 @@
         </xsl:variable>
             <xsl:variable name="filename-diagrams" select="concat($idno,'-diagrams.html')"/>
             
-            
+        <xsl:variable name="randomnumber" select="generate-id()"/>
         <button type="button" class="btn btn-info" data-toggle="collapse"
-            data-target="#quirediagrams">Diagrams</button>
-                 <div class="container quires collapse" id="quirediagrams">    
+            data-target="#quirediagrams{$randomnumber}">Diagrams</button>
+        <div class="container quires collapse" id="quirediagrams{$randomnumber}">    
                      <h3>Collation diagrams</h3>
                      
                      <xsl:for-each select="t:quire">
