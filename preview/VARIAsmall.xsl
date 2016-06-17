@@ -76,7 +76,7 @@
     
     <xsl:template match="t:rubric">
         <p>
-            <b>Rubrication: </b>
+            <b>Rubric: </b>
             <xsl:apply-templates/>
         </p>
     </xsl:template>

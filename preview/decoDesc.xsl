@@ -31,6 +31,19 @@
                 <xsl:apply-templates select="//t:decoDesc/t:summary"/>
             </p>
             
+            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type = 'rubrication']">
+                <h3>Rubrication</h3>
+                <ol>
+                    <li>
+                        <xsl:attribute name="id">
+                            <xsl:value-of select="@xml:id"/>
+                        </xsl:attribute>
+                        <xsl:value-of select="concat(@type, ': ')"/>
+                        <xsl:apply-templates/>
+                    </li>
+                </ol>
+            </xsl:for-each>
+            
             <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type = 'frame']">
                 <h3>Frame notes</h3>
                 <ol>
@@ -57,7 +70,7 @@
                 </ol>
             </xsl:for-each>
             <xsl:for-each
-                select="//t:decoNote[not(ancestor::t:binding)][@type != 'miniature'][@type != 'frame']">
+                select="//t:decoNote[not(ancestor::t:binding)][@type != 'rubrication'][@type != 'miniature'][@type != 'frame']">
                 <h3>Other decorations</h3>
                 <ol>
                     <li>

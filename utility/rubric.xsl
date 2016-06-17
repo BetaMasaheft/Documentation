@@ -16,12 +16,45 @@
         </xsl:copy>
     </xsl:template>
    
-    <xsl:template match="t:handNote">
+    <xsl:template match="t:physDesc">
         <xsl:copy>
-            <xsl:apply-templates select="@*|node()"/>
-            <ab type="rubrication"><xsl:value-of select="//t:rubric"/></ab>
+            
+            <xsl:choose>
+                <!--if there is content in rubric-->
+                <xsl:when test="//t:rubric/text()">
+                    <xsl:choose>
+<!--                        if a decoNote already exists-->
+                <xsl:when test="./t:decoDesc">
+<!--                    call template which copies all and add a deconote with the content of rubric-->
+                    <xsl:apply-templates/>
+                </xsl:when>
+                <xsl:otherwise> 
+<!--                    if a decoNote does not exist, create one and copy in it rubric-->
+                    <xsl:apply-templates/>
+                    <decoDesc>
+                        <decoNote type="rubrication" xml:id="d0"><xsl:value-of select="//t:rubric"/></decoNote>
+                       
+                    </decoDesc>
+                </xsl:otherwise>
+            </xsl:choose>
+            </xsl:when>
+<!--                if none of the above, copy all-->
+            <xsl:otherwise>
+                <xsl:apply-templates/>
+            </xsl:otherwise>
+            </xsl:choose>
         </xsl:copy>
     </xsl:template>
-   <xsl:template match="t:rubric"/>
+    
+    
+    <xsl:template match="t:decoDesc">
+        <xsl:copy>
+    <decoNote type="rubrication" xml:id="d0"><xsl:value-of select="//t:rubric"/></decoNote>
+    <xsl:apply-templates/>
+        </xsl:copy>
+        
+    </xsl:template>
+
+    <xsl:template match="t:rubric"/>
     
 </xsl:stylesheet>

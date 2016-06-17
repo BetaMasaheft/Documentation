@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" 
+schematypens="http://relaxng.org/ns/structure/1.0"
+?>
+<?xml-model href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+     xml:id="LIT2699Kings"
+     xml:lang="en"
+     type="work">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                <date/>
+                </title>
+                <title xml:id="t1">Book of Kings 3</title>
+                <title>ነገሥት፡ ሣልሳዊ፡</title>
+                <title xml:id="t2">Nagaśt śālǝsāwi</title>
+                <title xml:id="t2">Book of Kings 1</title>
+            </titleStmt>
+            <publicationStmt>
+            <authority>Hiob Ludolf Zentrum für Äthiopistik</authority>
+            <publisher>Die Schriftkultur des christlichen Äthiopiens: Eine
+            multimediale Forschungsumgebung / beta maṣāḥǝft</publisher>
+            <pubPlace>Hamburg</pubPlace>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                  <p>
+                This file is licensed under the Creative Commons
+                Attribution-ShareAlike 4.0. </p>
+               </licence>
+            </availability>
+         </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness corresp="Bladd16185#i3"/>
+                </listWit>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+                <p>A digital born TEI file</p>
+            </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="ar">Arabic</language>
+                <language ident="it">Italian</language>
+                <language ident="gez">Gǝʿǝz</language>
+            </langUsage>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2016-04-26">Created work</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+        <div type="bibliography">
+            <listBibl type="editions">
+                <bibl>
+                  <ptr target="bm:Dillmann1871VetTest"/>
+                  <citedRange unit="page">1-51</citedRange>
+               </bibl>
+            </listBibl>
+        </div>
+            <div type="edition">
+                <ab/>
+            </div>
+            <div type="translation" xml:lang="en">
+                <ab/>
+            </div>
+        </body>
+    </text>
+</TEI>
