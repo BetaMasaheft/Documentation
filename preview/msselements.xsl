@@ -47,9 +47,9 @@
             </div>
         </xsl:if>
 
-        <xsl:if test="t:physDesc//t:decoNote">
+        <xsl:if test="t:physDesc/t:decoDesc">
             <div id="{@xml:id}decoration">
-                <xsl:apply-templates select="t:physDesc/t:decoNote"/>
+                <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
         </xsl:if>
 
@@ -109,7 +109,7 @@
             </div>
 
             <div id="{@xml:id}decoration">
-                <xsl:apply-templates select="t:physDesc/t:decoNote"/>
+                <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
 
             <div id="{@xml:id}additionals">
@@ -162,7 +162,7 @@
             </div>
             
             <div id="{@xml:id}decoration">
-                <xsl:apply-templates select="t:physDesc/t:decoNote"/>
+                <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
             
             <div id="{@xml:id}additionals">
@@ -217,7 +217,7 @@
             </div>
 
             <div id="{@xml:id}decoration">
-                <xsl:apply-templates select="t:physDesc/t:decoNote"/>
+                <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
 
             <div id="{@xml:id}additionals">
@@ -271,7 +271,7 @@
             </div>
             
             <div id="{@xml:id}decoration">
-                <xsl:apply-templates select="t:physDesc/t:decoNote"/>
+                <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
             
             <div id="{@xml:id}additionals">
