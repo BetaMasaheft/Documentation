@@ -12,7 +12,7 @@
                 <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                     select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
                 <xsl:value-of select="$currentMsPart"/></xsl:if></h2>
-            <xsl:text>In this manuscript there are </xsl:text>
+            <xsl:text>In this manuscript there are in total </xsl:text>
             <xsl:for-each
                 select="//t:decoNote[not(ancestor::t:binding)][generate-id() = generate-id(key('decotype', @type)[1])]">
                 <xsl:value-of
@@ -31,7 +31,7 @@
                 <xsl:apply-templates select="//t:decoDesc/t:summary"/>
             </p>
             
-            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type = 'rubrication']">
+            <xsl:for-each select="t:decoNote[not(ancestor::t:binding)][@type = 'rubrication']">
                 <h3>Rubrication</h3>
                 <ol>
                     <li>
@@ -44,7 +44,7 @@
                 </ol>
             </xsl:for-each>
             
-            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type = 'frame']">
+            <xsl:for-each select="t:decoNote[not(ancestor::t:binding)][@type = 'frame']">
                 <h3>Frame notes</h3>
                 <ol>
                     <li>
@@ -57,7 +57,7 @@
                 </ol>
             </xsl:for-each>
             
-            <xsl:for-each select="//t:decoNote[not(ancestor::t:binding)][@type = 'miniature']">
+            <xsl:for-each select="t:decoNote[not(ancestor::t:binding)][@type = 'miniature']">
                 <h3>Miniature notes</h3>
                 <ol>
                     <li>
@@ -70,7 +70,7 @@
                 </ol>
             </xsl:for-each>
             <xsl:for-each
-                select="//t:decoNote[not(ancestor::t:binding)][@type != 'rubrication'][@type != 'miniature'][@type != 'frame']">
+                select="t:decoNote[not(ancestor::t:binding)][@type != 'rubrication'][@type != 'miniature'][@type != 'frame']">
                 <h3>Other decorations</h3>
                 <ol>
                     <li>
