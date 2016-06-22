@@ -66,7 +66,7 @@
                 </xsl:for-each>
             </ol>
             <xsl:if test=".//t:item[contains(@xml:id, 'e')]">
-                <h3>Extras <xsl:if test="./ancestor::t:msPart"><xsl:variable
+                <h3  id="{@xml:id}">Extras <xsl:if test="./ancestor::t:msPart"><xsl:variable
                     name="currentMsPart">
                     <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                         select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of

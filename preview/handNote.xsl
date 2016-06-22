@@ -6,7 +6,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:handNote[t:seg[@type = 'ink']]">
-        <h3><xsl:value-of select="@xml:id"/><xsl:if test="./ancestor::t:msPart"><xsl:variable
+        <h3 id="{@xml:id}"><xsl:value-of select="@xml:id"/><xsl:if test="./ancestor::t:msPart"><xsl:variable
             name="currentMsPart">
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of

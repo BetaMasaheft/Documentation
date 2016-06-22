@@ -11,11 +11,11 @@
             <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
                 select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
             <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
-        <p>
+        <p  id="{//t:binding/t:decoNote[position() = 1]/@xml:id}">
             <xsl:value-of select="//t:binding/t:decoNote[position() = 1]"/>
         </p>
         <xsl:if test=".//t:decoDesc[@type = 'Endbands']">
-            <h4>Endbands</h4>
+            <h4 id="{.//t:decoDesc[@type = 'Endbands']/@xml:id}">Endbands</h4>
             <p> Yes </p>
             
         </xsl:if>
@@ -24,26 +24,26 @@
         
         
         <xsl:if test=".//t:decoDesc[@type = 'Headbands']">
-            <h4>Headbands</h4>
+            <h4 id="{.//t:decoDesc[@type = 'Headbands']/@xml:id}">Headbands</h4>
             <p> Yes </p>
         </xsl:if>
         
         
         
-        <xsl:if test=".//t:decoDesc[@type = 'Headbands']">
-            <h4>Tailbands</h4>
+        <xsl:if test=".//t:decoDesc[@type = 'Tailbands']">
+            <h4 id="{.//t:decoDesc[@type = 'Tailbands']/@xml:id}">Tailbands</h4>
             <p> Yes </p>
         </xsl:if>
         
         
         
         <xsl:if test="t:binding/t:decoNote[@type = 'Other']">
-            <h4>Binding decoration</h4>
+            <h4 id="{t:binding/t:decoNote[@type = 'Other']/@xml:id}">Binding decoration</h4>
             <p>
                 <xsl:value-of select="t:binding/t:decoNote[@type = 'Other']"/>
             </p>
         </xsl:if>
-        <h4>Binding material</h4>
+        <h4 id="{t:binding/t:decoNote[@type = 'bindingMaterial']/@xml:id}">Binding material</h4>
         <p>
             <xsl:value-of select="t:binding/t:decoNote[@type = 'bindingMaterial']/t:material/@key"/>
         </p>
