@@ -6,8 +6,18 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:persName">
+        <xsl:variable name="filename">
+            <xsl:choose>
+                <xsl:when test="contains(@ref, '#')">
+                    <xsl:value-of select="substring-before(@ref, '#')"/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="@ref"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         <xsl:choose>
-            <xsl:when test="document(concat('../../Persons/', @ref, '.xml'))//t:TEI">
+            <xsl:when test="document(concat('../../Persons/', $filename, '.xml'))//t:TEI">
                 <a href="../../Persons/{@ref}">
                     <xsl:choose>
                         <xsl:when test="text()">
@@ -16,7 +26,7 @@
                         <xsl:otherwise>
                             
                             <xsl:value-of
-                                select="document(concat('../../Persons/', @ref, '.xml'))//t:TEI//t:persName[not(@type = 'alt')]"
+                                select="document(concat('../../Persons/', $filename, '.xml'))//t:TEI//t:persName[not(@type = 'alt')]"
                             />
                         </xsl:otherwise>
                     </xsl:choose>

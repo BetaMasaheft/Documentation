@@ -7,10 +7,21 @@
     version="2.0">
     <xsl:template match="t:placeName | t:region | t:country | t:settlement">
       
-        <xsl:choose><xsl:when test="@ref"><xsl:choose>
+        <xsl:choose><xsl:when test="@ref">
+            <xsl:variable name="filename">
+                <xsl:choose>
+                    <xsl:when test="contains(@ref, '#')">
+                        <xsl:value-of select="substring-before(@ref, '#')"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="@ref"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
+            <xsl:choose>
             <xsl:when test="contains(@ref, 'LOC')">
                 <xsl:choose>
-                    <xsl:when test="document(concat('../../Places/', @ref, '.xml'))//t:TEI">
+                    <xsl:when test="document(concat('../../Places/',$filename, '.xml'))//t:TEI">
                         <a href="../../Places/{@ref}">
                             <xsl:choose>
                                 <xsl:when test="text()">
@@ -20,7 +31,7 @@
                                     <xsl:if test="@type = 'qušat'"><xsl:text>qušat </xsl:text></xsl:if>
                                     <xsl:if test="@type = 'waradā'"><xsl:text>waradā </xsl:text></xsl:if>
                                     <xsl:value-of
-                                        select="document(concat('../../Places/', @ref, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
+                                        select="document(concat('../../Places/', $filename, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
                                     />
                                 </xsl:otherwise>
                             </xsl:choose>
@@ -34,7 +45,7 @@
             <xsl:otherwise>
                 <xsl:choose>
                     <xsl:when
-                        test="document(concat('../../Institutions/', @ref, '.xml'))//t:TEI">
+                        test="document(concat('../../Institutions/', $filename, '.xml'))//t:TEI">
                         <a href="../../Institutions/{@ref}">
                             <xsl:choose>
                                 <xsl:when test="text()">
@@ -45,7 +56,7 @@
                                     <xsl:if test="@type = 'waradā'"><xsl:text>waradā </xsl:text></xsl:if>
                                     
                                     <xsl:value-of
-                                        select="document(concat('../../Institutions/', @ref, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
+                                        select="document(concat('../../Institutions/', $filename, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
                                     />
                                 </xsl:otherwise>
                             </xsl:choose>
