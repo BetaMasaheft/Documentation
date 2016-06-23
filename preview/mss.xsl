@@ -5,7 +5,8 @@
 
     <xsl:template name="mss">
         <nav>
-            <div> <ul  class="nav nav-pills nav-stacked"> <h3>Navigate section</h3> <li><a href="#general">General</a></li>
+            <div> 
+                <ul  class="nav nav-pills nav-stacked"> <h3>Navigate section</h3> <li><a href="#general">General</a></li>
                 <li><a href="#description">Description</a></li>
                 <li><a href="#generalphysical">Physical desc of ms</a></li>
                 <xsl:if test="//t:msPart">

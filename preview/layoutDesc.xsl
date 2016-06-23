@@ -17,7 +17,7 @@
                 <xsl:value-of select="position()"/>
             </h4>
             
-            
+            <xsl:apply-templates select="t:locus"/>
             <p>Number of columns : <xsl:value-of select="@columns"/></p>
             
             <p>Number of lines : <xsl:value-of select="@writtenLines"/></p>

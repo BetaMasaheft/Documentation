@@ -32,6 +32,9 @@
                                         <xsl:value-of
                                             select="document(concat('../../Works/', $filename, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"
                                         />
+                                        <xsl:if test="contains(@ref, '#')">
+                                            <xsl:value-of select="concat(', ',substring-after(@ref, '#'))"/>
+                                        </xsl:if>
                                     </i>
                                 </xsl:otherwise>
                             </xsl:choose>

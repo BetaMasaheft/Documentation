@@ -28,6 +28,9 @@
                             <xsl:value-of
                                 select="document(concat('../../Institutions/', $filename, '.xml'))//t:TEI//t:placeName[not(@type = 'alt')]"
                             />
+                            <xsl:if test="contains(@ref, '#')">
+                                <xsl:value-of select="concat(', ',substring-after(@ref, '#'))"/>
+                            </xsl:if>
                         </xsl:otherwise>
                     </xsl:choose>
                 </a>
