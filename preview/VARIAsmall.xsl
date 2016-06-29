@@ -59,8 +59,7 @@
     </xsl:template>
     
     <xsl:template match="t:incipit">
-        <p>
-            <b>Incipit: </b>
+        <p>    <b>Incipit <xsl:value-of select="@xml:lang"/>: </b>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -68,7 +67,7 @@
     
     <xsl:template match="t:explicit">
         <p>
-            <b>Explicit: </b>
+            <b>Explicit <xsl:value-of select="@xml:lang"/>: </b>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -76,7 +75,7 @@
     
     <xsl:template match="t:rubric">
         <p>
-            <b>Rubric: </b>
+            <b>Rubric <xsl:value-of select="@xml:lang"/>: </b>
             <xsl:apply-templates/>
         </p>
     </xsl:template>
@@ -169,5 +168,36 @@
         </p>
         
     </xsl:template>
+    
+    <!--lb-->
+    <xsl:template match="t:lb">
+        <xsl:variable name="line">
+            <xsl:if test="@n">
+                <xsl:value-of select="@n"/>
+            </xsl:if>
+        </xsl:variable>
+<br/> <!--hard coded carriage return would not be recognized-->
+ <xsl:choose>
+     <xsl:when test="number(@n) and @n mod number(5) = 0 and not(@n = 0)">
+         <xsl:call-template name="margin-num"/>
+     </xsl:when>
+     <xsl:otherwise>  <xsl:call-template name="line-numbering-tab" /></xsl:otherwise>
+ </xsl:choose>
+      
+    </xsl:template>
+    
+    <xsl:template name="margin-num">
+        <xsl:value-of select="@n"/>
+        <!-- template »line-numbering-tab« found in txt-tpl-linenumberingtab.xsl respectively odf-tpl-linenumberingtab.xsl -->
+        <xsl:call-template name="line-numbering-tab" />
+    </xsl:template>
+    
+    <!-- $Id: txt-tpl-linenumberingtab.xsl 1543 2011-08-31 15:47:37Z ryanfb $ -->
+       <xsl:template name="line-numbering-tab">
+           <!--<xsl:text>&#x9;&#x9;</xsl:text>-->
+           <span style="padding-left: 5em;"/> <!--double tab would look much better but would not be recognized in browser-->
+        </xsl:template>
+        
+    
     
 </xsl:stylesheet>
