@@ -6,6 +6,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="t:locus">
+        <xsl:if test="parent::t:ab"><xsl:text>(Excerpt from </xsl:text></xsl:if>
         <xsl:choose>
             <xsl:when test="not(text())"><xsl:choose>
             <xsl:when test="@target">
@@ -54,5 +55,6 @@
                 
             </xsl:otherwise></xsl:choose>
         <xsl:text> </xsl:text>
+        <xsl:if test="parent::t:ab"><xsl:text>)</xsl:text> <br/></xsl:if>
     </xsl:template>
 </xsl:stylesheet>

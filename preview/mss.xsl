@@ -5,100 +5,150 @@
 
     <xsl:template name="mss">
         <nav>
-            <div> 
-                <ul  class="nav nav-pills nav-stacked"> <h3>Navigate section</h3> <li><a href="#general">General</a></li>
-                <li><a href="#description">Description</a></li>
-                <li><a href="#generalphysical">Physical desc of ms</a></li>
-                <xsl:if test="//t:msPart">
-                    <ul>
-                        <xsl:for-each select="//t:msPart">
-                            <li><a href="#{@xml:id}">Part <xsl:value-of select="@xml:id"/></a>
-                            </li>
-                        </xsl:for-each></ul>
-                </xsl:if>
-                <xsl:if test="//t:additional//t:listBibl"><li><a href="#catalogue"
-                        >Catalogue</a></li></xsl:if>
-                <xsl:if test="//t:term"><li><a href="#keywords">Keywords</a></li></xsl:if>
-                <xsl:if test="//t:listBibl[@type = 'relations']"><li><a href="#reletions"
-                            >Relations</a></li></xsl:if>
-                <li><a href="#footer">Authors</a></li>
-            </ul>
-                <ul  class="nav nav-pills nav-stacked"> <h3>Navigate by id</h3> <xsl:for-each select="//*[not(self::t:TEI)][@xml:id]">
-                    <xsl:sort select="position()"/>
-                    <li><a href="#{@xml:id}">
-                            <xsl:choose>
-                                <xsl:when
-                                    test="contains(@xml:id, 't') and matches(@xml:id, '\w\d+')"
-                                    >Title <xsl:value-of select="substring-after(@xml:id, 't')"
-                                    /><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when
-                                    test="contains(@xml:id, 'b') and matches(@xml:id, '\w\d+')"
-                                    >Binding <xsl:value-of select="substring-after(@xml:id, 'b')"
-                                    /><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when
-                                    test="contains(@xml:id, 'a') and matches(@xml:id, '\w\d+')"
-                                    >Addition <xsl:value-of select="substring-after(@xml:id, 'a')"
-                                    /><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when
-                                    test="contains(@xml:id, 'e') and matches(@xml:id, '\w\d+')"
-                                    >Extra <xsl:value-of select="substring-after(@xml:id, 'e')"
-                                    /><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when
-                                    test="contains(@xml:id, 'i') and matches(@xml:id, '_\w\d+')"
-                                    >Content Item <xsl:value-of
-                                        select="substring-after(@xml:id, 'i')"/><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                            name="currentMsPart"><xsl:value-of
-                                                select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                            <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when
-                                    test="contains(@xml:id, 'q') and matches(@xml:id, '\w\d+')"
-                                    >Quire <xsl:value-of select="substring-after(@xml:id, 'q')"
-                                    /><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when test="contains(@xml:id, 'coloph')">Colophon <xsl:value-of
-                                    select="substring-after(@xml:id, 'coloph')"/><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when
-                                    test="contains(@xml:id, 'h') and matches(@xml:id, '\w\d+')">Hand
-                                        <xsl:value-of select="substring-after(@xml:id, 'h')"
-                                        /><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                            name="currentMsPart"><xsl:value-of
-                                                select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                            <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when test="contains(@xml:id, 'div')">Divider <xsl:value-of
-                                    select="substring-after(@xml:id, 'div')"/><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:when
-                                    test="contains(@xml:id, 'd') and matches(@xml:id, '\w\d+')"
-                                    >Decoration <xsl:value-of select="substring-after(@xml:id, 'd')"
-                                    /><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                                        name="currentMsPart"><xsl:value-of
-                                            select="./ancestor::t:msPart/@xml:id"/></xsl:variable> of
-                                        <xsl:value-of select="$currentMsPart"/></xsl:if></xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:value-of select="name()"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </a></li>
-                </xsl:for-each></ul></div>
+            <div>
+                <ul class="nav nav-pills nav-stacked">
+                    <h3>Navigate section</h3>
+                    <li>
+                        <a href="#general">General</a>
+                    </li>
+                    <li>
+                        <a href="#description">Description</a>
+                    </li>
+                    <li>
+                        <a href="#generalphysical">Physical desc of ms</a>
+                    </li>
+                    <xsl:if test="//t:msPart">
+                        <ul>
+                            <xsl:for-each select="//t:msPart">
+                                <li>
+                                    <a href="#{@xml:id}">Part <xsl:value-of select="@xml:id"/></a>
+                                </li>
+                            </xsl:for-each>
+                        </ul>
+                    </xsl:if>
+                    <xsl:if test="//t:additional//t:listBibl">
+                        <li>
+                            <a href="#catalogue">Catalogue</a>
+                        </li>
+                    </xsl:if>
+                    <xsl:if test="//t:term">
+                        <li>
+                            <a href="#keywords">Keywords</a>
+                        </li>
+                    </xsl:if>
+                    <xsl:if test="//t:body[t:div]">
+                        <li>
+                            <a href="#transcription">Transcription </a>
+                        </li>
+                    </xsl:if>
+                    <xsl:if test="//t:listBibl[@type = 'relations']">
+                        <li>
+                            <a href="#relations">Relations</a>
+                        </li>
+                    </xsl:if>
+                    <li>
+                        <a href="#footer">Authors</a>
+                    </li>
+                </ul>
+                <ul class="nav nav-pills nav-stacked">
+                    <h3>Navigate by id</h3>
+                    <xsl:for-each select="//*[not(self::t:TEI)][@xml:id]">
+                        <xsl:sort select="position()"/>
+                        <li>
+                            <a href="#{@xml:id}">
+                                <xsl:choose>
+                                    <xsl:when
+                                        test="contains(@xml:id, 't') and matches(@xml:id, '\w\d+')"
+                                        >Title <xsl:value-of select="substring-after(@xml:id, 't')"
+                                            /><xsl:if test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when
+                                        test="contains(@xml:id, 'b') and matches(@xml:id, '\w\d+')"
+                                        >Binding <xsl:value-of
+                                            select="substring-after(@xml:id, 'b')"/><xsl:if
+                                            test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when
+                                        test="contains(@xml:id, 'a') and matches(@xml:id, '\w\d+')"
+                                        >Addition <xsl:value-of
+                                            select="substring-after(@xml:id, 'a')"/><xsl:if
+                                            test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when
+                                        test="contains(@xml:id, 'e') and matches(@xml:id, '\w\d+')"
+                                        >Extra <xsl:value-of select="substring-after(@xml:id, 'e')"
+                                            /><xsl:if test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when
+                                        test="contains(@xml:id, 'i') and matches(@xml:id, '_\w\d+')"
+                                        >Content Item <xsl:value-of
+                                            select="substring-after(@xml:id, 'i')"/><xsl:if
+                                            test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when
+                                        test="contains(@xml:id, 'q') and matches(@xml:id, '\w\d+')"
+                                        >Quire <xsl:value-of select="substring-after(@xml:id, 'q')"
+                                            /><xsl:if test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when test="contains(@xml:id, 'coloph')">Colophon
+                                            <xsl:value-of
+                                            select="substring-after(@xml:id, 'coloph')"/><xsl:if
+                                            test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when
+                                        test="contains(@xml:id, 'h') and matches(@xml:id, '\w\d+')"
+                                        >Hand <xsl:value-of select="substring-after(@xml:id, 'h')"
+                                            /><xsl:if test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when test="contains(@xml:id, 'div')">Divider <xsl:value-of
+                                            select="substring-after(@xml:id, 'div')"/><xsl:if
+                                            test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:when
+                                        test="contains(@xml:id, 'd') and matches(@xml:id, '\w\d+')"
+                                        >Decoration <xsl:value-of
+                                            select="substring-after(@xml:id, 'd')"/><xsl:if
+                                            test="./ancestor::t:msPart"><xsl:variable
+                                                name="currentMsPart"><xsl:value-of
+                                                  select="./ancestor::t:msPart/@xml:id"
+                                                /></xsl:variable> of <xsl:value-of
+                                                select="$currentMsPart"/></xsl:if></xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:value-of select="name()"/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                            </a>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </div>
         </nav>
         <section id="general">
 
@@ -108,7 +158,7 @@
                     select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
                 <xsl:if test="//t:publicationStmt/t:date"><xsl:text> on </xsl:text><xsl:value-of
                         select="format-dateTime(//t:publicationStmt/t:date, '[D].[M].[Y]')"
-                /></xsl:if></p>
+                    /></xsl:if></p>
         </section>
         <section id="description">
             <xsl:if
@@ -128,8 +178,8 @@
             </xsl:if>
 
 
-            <h3>Number of Text units: <xsl:value-of select="count(//t:msItem[contains(@xml:id, 'i')])"
-                /></h3>
+            <h3>Number of Text units: <xsl:value-of
+                    select="count(//t:msItem[contains(@xml:id, 'i')])"/></h3>
             <h3>Number of Codicological units: <xsl:choose>
                     <xsl:when test="//t:msPart"><xsl:value-of select="count(//t:msPart)"/>
                     </xsl:when>
@@ -147,14 +197,21 @@
 
         <xsl:if test="//t:additional//t:listBibl">
             <section id="catalogue">
-                <xsl:for-each select="//t:additional//t:listBibl"><h2><xsl:if test="./ancestor::t:msPart"><xsl:variable
-                    name="currentMsPart"><xsl:value-of
-                        select="./ancestor::t:msPart/@xml:id"/></xsl:variable>
-                    <xsl:value-of select="$currentMsPart"/></xsl:if> Catalogued in</h2>
-                <xsl:apply-templates select="."/></xsl:for-each>
+                <xsl:for-each select="//t:additional//t:listBibl">
+                    <h2><xsl:if test="./ancestor::t:msPart"><xsl:variable name="currentMsPart"
+                                    ><xsl:value-of select="./ancestor::t:msPart/@xml:id"
+                                /></xsl:variable>
+                            <xsl:value-of select="$currentMsPart"/></xsl:if> Catalogued in</h2>
+                    <xsl:apply-templates select="."/>
+                </xsl:for-each>
             </section>
         </xsl:if>
 
+        <xsl:if test="//t:body[t:div]">
+            <section id="transcription">
+                <xsl:apply-templates select="//t:text"/>
+            </section>
+        </xsl:if>
 
         <xsl:if test="//t:term">
             <section id="keywords">

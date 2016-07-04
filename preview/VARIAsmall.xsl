@@ -169,8 +169,40 @@
         
     </xsl:template>
     
+    <xsl:template match="t:text">
+        <h2>Transcription</h2>
+        <xsl:apply-templates/>        
+    </xsl:template>
+    
+    <xsl:template match="t:body">
+
+    <xsl:apply-templates/> 
+    </xsl:template>
+    
+    <xsl:template match="t:div[ancestor::t:body]">
+        <div class="row" id="{@xml:id}" style="padding-left: 50px;">
+    <a href="{@corresp}"><xsl:value-of select="replace(substring-after(@corresp, '#'), '_', ' ')"/><xsl:text>, </xsl:text><xsl:value-of select="@subtype"/><xsl:text>: </xsl:text><xsl:value-of select="@n"/></a><br/>
+        <xsl:apply-templates/>        
+</div>
+        <br/>
+    </xsl:template>
+    
+    <xsl:template match="t:ab">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="t:l">
+        <sup><xsl:value-of select="@n"/></sup>
+        <xsl:value-of select="."/>
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    
     <!--lb-->
-    <xsl:template match="t:lb">
+    <xsl:template match="t:lb[parent::t:ab]">
+        <xsl:text> | </xsl:text>
+    </xsl:template>
+    <xsl:template match="t:lb[not(parent::t:ab)]">
         <xsl:variable name="line">
             <xsl:if test="@n">
                 <xsl:value-of select="@n"/>
