@@ -181,7 +181,7 @@
     
     <xsl:template match="t:div[ancestor::t:body]">
         <div class="row" id="{@xml:id}" style="padding-left: 50px;">
-    <a href="{@corresp}"><xsl:value-of select="replace(substring-after(@corresp, '#'), '_', ' ')"/><xsl:text>, </xsl:text><xsl:value-of select="@subtype"/><xsl:text>: </xsl:text><xsl:value-of select="@n"/></a><br/>
+            <head><a href="{@corresp}"><xsl:value-of select="replace(substring-after(@corresp, '#'), '_', ' ')"/><xsl:text>, </xsl:text><xsl:value-of select="@subtype"/><xsl:text>: </xsl:text><xsl:value-of select="@n"/></a></head><br/>
         <xsl:apply-templates/>        
 </div>
         <br/>
