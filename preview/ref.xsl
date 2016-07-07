@@ -375,18 +375,19 @@
                         <xsl:choose>
                             <!--                            multiple entries-->
                             <xsl:when test="contains(@target, ' ')">
-                                <xsl:text>nos. </xsl:text>
+                                <xsl:if test="not(contains(@target, 'http'))"><xsl:text>nos. </xsl:text></xsl:if>
                                 <xsl:for-each select="tokenize(@target, ' ')">
                                     <a href="{.}">
-                                        <xsl:value-of select="concat(substring-after(., '#'), ' ')"
+                                        <xsl:value-of select="concat(if (contains(., '#')) then substring-after(., '#') else ., ' ')"
                                         />
                                     </a>
                                 </xsl:for-each>
                             </xsl:when>
                             <!-- one entry-->
                             <xsl:otherwise>
-                                <a href="{@target}">n. <xsl:value-of
-                                        select="substring-after(@target, '#')"/></a>
+                                <xsl:if test="not(contains(@target, 'http'))">n.<xsl:text>nos. </xsl:text></xsl:if> 
+                                    <a href="{@target}"><xsl:value-of
+                                        select="if (contains(@target, '#')) then substring-after(@target, '#') else @target"/></a>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
