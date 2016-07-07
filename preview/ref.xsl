@@ -22,7 +22,7 @@
                             </xsl:when>
                             <!-- one entry-->
                             <xsl:otherwise>
-                                <a href="{@target}"><xsl:value-of select="."/> (<xsl:value-of select="substring-after(@target,'#')"/>)</a>
+                                <a href="{@target}"><xsl:value-of select="."/> (<xsl:value-of select="if (contains(@target, '#')) then substring-after(@target, '#') else @target"/>)</a>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
