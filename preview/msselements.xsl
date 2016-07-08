@@ -1,72 +1,72 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
+    xmlns="http://www.w3.org/1999/xhtml"  exclude-result-prefixes="#all" version="2.0">
 
     <xsl:template match="t:msDesc">
         <xsl:if test="t:history">
-            <div id="{@xml:id}history">
+            <div class="row-fluid" id="{@xml:id}history">
 
                 <xsl:apply-templates select="t:history"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:physDesc//t:objectDesc/t:supportDesc">
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:supportDesc"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:physDesc//t:bindingDesc">
-            <div id="{@xml:id}binding">
+            <div class="row-fluid" id="{@xml:id}binding">
                 <xsl:apply-templates select="t:physDesc//t:bindingDesc"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:physDesc//t:objectDesc/t:layoutDesc">
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:layoutDesc"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:physDesc/t:handDesc">
-            <div id="{@xml:id}hands">
+            <div class="row-fluid" id="{@xml:id}hands">
                 <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:msContents">
-            <div id="{@xml:id}content">
+            <div class="row-fluid" id="{@xml:id}content">
                 <xsl:apply-templates select="t:msContents"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:physDesc/t:additions">
-            <div id="{@xml:id}additiones">
+            <div class="row-fluid" id="{@xml:id}additiones">
                 <xsl:apply-templates select="t:physDesc/t:additions"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:physDesc/t:decoDesc">
-            <div id="{@xml:id}decoration">
+            <div class="row-fluid" id="{@xml:id}decoration">
                 <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:additional">
-            <div id="{@xml:id}additionals">
+            <div class="row-fluid" id="{@xml:id}additionals">
                 <xsl:apply-templates select="t:additional"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:msPart">
-            <div id="{@xml:id}parts">
+            <div class="row-fluid" id="{@xml:id}parts">
                 <xsl:apply-templates select="t:msPart"/>
             </div>
         </xsl:if>
 
         <xsl:if test="t:msFrag">
-            <div id="{@xml:id}fragments">
+            <div class="row-fluid" id="{@xml:id}fragments">
                 <xsl:apply-templates select="t:msFrag"/>
             </div>
         </xsl:if>
@@ -76,51 +76,51 @@
     
 
     <xsl:template match="t:msPart[parent::t:sourceDesc or parent::t:msDesc]">
-        <div>
+        <div class="row-fluid">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
-            <div id="{@xml:id}history">
+            <div class="row-fluid" id="{@xml:id}history">
                 <xsl:apply-templates select="t:history"/>
             </div>
 
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:supportDesc"/>
             </div>
 
-            <div id="{@xml:id}binding">
+            <div class="row-fluid" id="{@xml:id}binding">
                 <xsl:apply-templates select="t:physDesc//t:bindingDesc"/>
             </div>
 
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:layoutDesc"/>
             </div>
 
-            <div id="{@xml:id}hands">
+            <div class="row-fluid" id="{@xml:id}hands">
                 <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
 
-            <div id="{@xml:id}content">
+            <div  class="row-fluid" id="{@xml:id}content">
                 <xsl:apply-templates select="t:msContents"/>
             </div>
 
-            <div id="{@xml:id}additiones">
+            <div class="row-fluid" id="{@xml:id}additiones">
                 <xsl:apply-templates select="t:physDesc/t:additions"/>
             </div>
 
-            <div id="{@xml:id}decoration">
+            <div class="row-fluid" id="{@xml:id}decoration">
                 <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
 
-            <div id="{@xml:id}additionals">
+            <div class="row-fluid" id="{@xml:id}additionals">
                 <xsl:apply-templates select="t:additional"/>
             </div>
 
-            <div id="{@xml:id}parts">
+            <div class="row-fluid" id="{@xml:id}parts">
                 <xsl:apply-templates select="t:msPart"/>
             </div>
 
-            <div id="{@xml:id}fragments">
+            <div class="row-fluid" id="{@xml:id}fragments">
                 <xsl:apply-templates select="t:msFrag"/>
             </div>
 
@@ -129,51 +129,51 @@
     </xsl:template>
 
     <xsl:template match="t:msFrag[parent::t:sourceDesc or parent::t:msFrag]">
-        <div>
+        <div class="row-fluid">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
-            <div id="{@xml:id}history">
+            <div  class="row-fluid" id="{@xml:id}history">
                 <xsl:apply-templates select="t:history"/>
             </div>
             
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:supportDesc"/>
             </div>
             
-            <div id="{@xml:id}binding">
+            <div class="row-fluid" id="{@xml:id}binding">
                 <xsl:apply-templates select="t:physDesc//t:bindingDesc"/>
             </div>
             
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:layoutDesc"/>
             </div>
             
-            <div id="{@xml:id}hands">
+            <div class="row-fluid" id="{@xml:id}hands">
                 <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
             
-            <div id="{@xml:id}content">
+            <div class="row-fluid" id="{@xml:id}content">
                 <xsl:apply-templates select="t:msContents"/>
             </div>
             
-            <div id="{@xml:id}additiones">
+            <div class="row-fluid" id="{@xml:id}additiones">
                 <xsl:apply-templates select="t:physDesc/t:additions"/>
             </div>
             
-            <div id="{@xml:id}decoration">
+            <div class="row-fluid" id="{@xml:id}decoration">
                 <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
             
-            <div id="{@xml:id}additionals">
+            <div class="row-fluid" id="{@xml:id}additionals">
                 <xsl:apply-templates select="t:additional"/>
             </div>
             
-            <div id="{@xml:id}parts">
+            <div class="row-fluid" id="{@xml:id}parts">
                 <xsl:apply-templates select="t:msPart"/>
             </div>
             
-            <div id="{@xml:id}fragments">
+            <div class="row-fluid" id="{@xml:id}fragments">
                 <xsl:apply-templates select="t:msFrag"/>
             </div>
             
@@ -182,53 +182,53 @@
     </xsl:template>
 
     <xsl:template match="t:msPart[parent::t:msPart]">
-        <div style="padding-left: 50px;">
+        <div class="row-fluid">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
             <hr style="border-top: dotted 1px;"/>
 
-            <div id="{@xml:id}history">
+            <div class="row-fluid" id="{@xml:id}history">
                 <xsl:apply-templates select="t:history"/>
             </div>
 
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:supportDesc"/>
             </div>
 
-            <div id="{@xml:id}binding">
+            <div class="row-fluid" id="{@xml:id}binding">
                 <xsl:apply-templates select="t:physDesc//t:bindingDesc"/>
             </div>
 
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:layoutDesc"/>
             </div>
 
-            <div id="{@xml:id}hands">
+            <div class="row-fluid" id="{@xml:id}hands">
                 <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
 
-            <div id="{@xml:id}content">
+            <div class="row-fluid" id="{@xml:id}content">
                 <xsl:apply-templates select="t:msContents"/>
             </div>
 
-            <div id="{@xml:id}additiones">
+            <div class="row-fluid" id="{@xml:id}additiones">
                 <xsl:apply-templates select="t:physDesc/t:additions"/>
             </div>
 
-            <div id="{@xml:id}decoration">
+            <div class="row-fluid" id="{@xml:id}decoration">
                 <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
 
-            <div id="{@xml:id}additionals">
+            <div class="row-fluid" id="{@xml:id}additionals">
                 <xsl:apply-templates select="t:additional"/>
             </div>
 
-            <div id="{@xml:id}parts">
+            <div class="row-fluid" id="{@xml:id}parts">
                 <xsl:apply-templates select="t:msPart"/>
             </div>
 
-            <div id="{@xml:id}fragments">
+            <div class="row-fluid" id="{@xml:id}fragments">
                 <xsl:apply-templates select="t:msFrag"/>
             </div>
 
@@ -236,53 +236,53 @@
     </xsl:template>
     
     <xsl:template match="t:msFrag[parent::t:msFrag]">
-        <div style="padding-left: 50px;">
+        <div class="row-fluid" style="padding-left: 50px;">
             <xsl:attribute name="id">
                 <xsl:value-of select="@xml:id"/>
             </xsl:attribute>
             <hr style="border-top: dotted 1px;"/>
             
-            <div id="{@xml:id}history">
+            <div class="row-fluid" id="{@xml:id}history">
                 <xsl:apply-templates select="t:history"/>
             </div>
             
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:supportDesc"/>
             </div>
             
-            <div id="{@xml:id}binding">
+            <div class="row-fluid" id="{@xml:id}binding">
                 <xsl:apply-templates select="t:physDesc//t:bindingDesc"/>
             </div>
             
-            <div id="{@xml:id}dimensions">
+            <div class="row-fluid" id="{@xml:id}dimensions">
                 <xsl:apply-templates select="t:physDesc//t:objectDesc/t:layoutDesc"/>
             </div>
             
-            <div id="{@xml:id}hands">
+            <div class="row-fluid" id="{@xml:id}hands">
                 <xsl:apply-templates select="t:physDesc/t:handDesc"/>
             </div>
             
-            <div id="{@xml:id}content">
+            <div class="row-fluid" id="{@xml:id}content">
                 <xsl:apply-templates select="t:msContents"/>
             </div>
             
-            <div id="{@xml:id}additiones">
+            <div class="row-fluid" id="{@xml:id}additiones">
                 <xsl:apply-templates select="t:physDesc/t:additions"/>
             </div>
             
-            <div id="{@xml:id}decoration">
+            <div class="row-fluid" id="{@xml:id}decoration">
                 <xsl:apply-templates select="t:physDesc/t:decoDesc"/>
             </div>
             
-            <div id="{@xml:id}additionals">
+            <div class="row-fluid" id="{@xml:id}additionals">
                 <xsl:apply-templates select="t:additional"/>
             </div>
             
-            <div id="{@xml:id}parts">
+            <div class="row-fluid" id="{@xml:id}parts">
                 <xsl:apply-templates select="t:msPart"/>
             </div>
             
-            <div id="{@xml:id}fragments">
+            <div class="row-fluid" id="{@xml:id}fragments">
                 <xsl:apply-templates select="t:msFrag"/>
             </div>
             

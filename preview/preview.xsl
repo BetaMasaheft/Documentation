@@ -2,10 +2,10 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" 
     xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" 
-    exclude-result-prefixes="xs" version="2.0">
+    xmlns="http://www.w3.org/1999/xhtml" 
+    exclude-result-prefixes="#all" version="2.0">
     
-    <xsl:output method="html" indent="yes"/>
+    <xsl:output method="html" indent="yes" />
     
     <xsl:key name="decotype" match="//t:decoNote" use="@type"/>
     <xsl:key name="additiontype" match="//t:item[contains(@xml:id, 'a')]/t:desc" use="@type"/>
@@ -14,11 +14,10 @@
     <xsl:template match="/">
         <html>
             <head>
-                <meta http-equiv="Content-Type" content="text/html"/>
-                <meta charset="utf-8"/>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
                 <meta name="viewport" content="width=device-width, initial-scale=1"/>
                     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
-                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+                        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
                         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
                 <title>
                     <xsl:value-of select="//t:titleStmt/t:title"/>
@@ -35,25 +34,18 @@
                     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.js"></script>
                     <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.12.0/vis.min.css" rel="stylesheet" type="text/css" />
                     
-                    <style type="text/css">
-                        #BetMesRelView {
-                        width: 100%;
-                        height: 1000px;
-                        border: 1px solid lightgray;
-                        }
-                    </style>
                     
                 </xsl:if>
                 <link href="preview.css" rel="stylesheet" type="text/css" />
                 
-                <script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/lib/jquery-1.10.1.min.js">x</script><script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.js?v=2.1.5">x</script><link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css?v=2.1.5" media="screen"/><link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/jquery.fancybox.css" rel="stylesheet" type="text/css"/><script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/source/iframescript.js">x</script><link href="https://cdn.rawgit.com/leoba/VisColl/master/data/support/css/collation.css" rel="stylesheet" type="text/css"/><script type="text/javascript" src="https://cdn.rawgit.com/leoba/VisColl/master/data/support/fancybox/querys.js">x</script>
                 
             </head>
             <body>
-                <header><h1>
+                <div class="jumbotron text-center"><h1>
                         <xsl:value-of
                             select="//t:titleStmt/t:title[1]"/>
-                    </h1></header>
+                    </h1></div>
+                <div class="container-fluid" id="contents" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
                 <xsl:choose>
                     
                     <xsl:when test="//t:TEI/@type='mss'">
@@ -89,7 +81,7 @@
                     
                     <xsl:otherwise><p style="font-size: xx-large; color:red;
                         text-align:center;">THIS FILE HAS NO TYPE! <br/>Please VALIDATE agains <a href="https://raw.githubusercontent.com/SChAth/schema/master/tei-betamesaheft.rng">the schema</a> before attempting to Transform if you want to see something</p></xsl:otherwise>
-                </xsl:choose>
+                </xsl:choose></div>
             </body>
         </html>
     </xsl:template>

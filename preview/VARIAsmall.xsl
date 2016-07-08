@@ -2,8 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" 
-    exclude-result-prefixes="xs"
+    xmlns="http://www.w3.org/1999/xhtml"  
+    exclude-result-prefixes="#all"
     version="2.0">
     <xsl:template match="t:support">
         <xsl:apply-templates/>
@@ -141,13 +141,23 @@
                     <xsl:value-of select="."/>
                 </sup>
             </xsl:when>
+            <xsl:when test="@rend = 'underline'">
+                <u>
+                    <xsl:value-of select="."/>
+                </u>
+            </xsl:when>
+            <xsl:when test="@rend = 'rubric'">
+                <span class="rubric">
+                    <xsl:value-of select="."/>
+                </span>
+            </xsl:when>
             <xsl:otherwise>
                 <xsl:copy/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     
-    <xsl:template match="t:ab | t:seg[@type='script'] | t:desc[parent::t:handNote] | t:seg[@type='rubrication']">
+    <xsl:template match="t:ab[not(ancestor::t:body)] | t:seg[@type='script'] | t:desc[parent::t:handNote] | t:seg[@type='rubrication']">
         <p>
             <xsl:if test="@type">
                 <b>
@@ -180,7 +190,7 @@
     </xsl:template>
     
     <xsl:template match="t:div[ancestor::t:body]">
-        <div class="row" id="{@xml:id}" style="padding-left: 50px;">
+        <div class="row-fluid" id="{@type}">
             <head><a href="{@corresp}"><xsl:value-of select="replace(substring-after(@corresp, '#'), '_', ' ')"/><xsl:text>, </xsl:text><xsl:value-of select="@subtype"/><xsl:text>: </xsl:text><xsl:value-of select="@n"/></a></head><br/>
         <xsl:apply-templates/>        
 </div>
@@ -188,7 +198,9 @@
     </xsl:template>
     
     <xsl:template match="t:ab">
-        <xsl:apply-templates/>
+        <div class="container-fluid">
+            <xsl:apply-templates/>
+        </div>
     </xsl:template>
     
     <xsl:template match="t:l">
@@ -230,6 +242,79 @@
            <span style="padding-left: 5em;"/> <!--double tab would look much better but would not be recognized in browser-->
         </xsl:template>
         
+    
+    <xsl:template match="t:pb">
+        <hr id="{@n}"/>
+        <p><xsl:value-of select="@n"/></p>
+        
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="t:cb">
+        
+        <xsl:text>|</xsl:text><sup id="{preceding-sibling::t:pb[1]/@n}{@n}"><xsl:value-of select="@n"/></sup>
+        
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="t:handShift">
+        <sub><a href="{@new}"><xsl:value-of select="substring-after(@new, '#')"/></a></sub>
+    </xsl:template>
+    
+    <xsl:template match="t:gap[@reason='illegible']">
+        <xsl:variable name="quantity" select="@quantity"/>
+        <xsl:for-each select="1 to $quantity">
+            <xsl:text>+</xsl:text>
+        </xsl:for-each>
+    </xsl:template>  
+    
+    <xsl:template match="t:subst">
+        <xsl:apply-templates/>
+    </xsl:template>
+    
+    <xsl:template match="t:unclear">
+        <xsl:value-of select="."/><xsl:text>?</xsl:text>
+    </xsl:template>
+    
+    <xsl:template match="t:orig">
+        <span class="undeciphrable"><xsl:value-of select="."/></span>
+    </xsl:template>
+    
+    <xsl:template match="t:add">
+        <xsl:variable name="id" select="generate-id()"/>
+        <xsl:choose>
+<!--            has hand and place-->
+            <xsl:when test="@hand and @place">
+                <a href="#{$id}" data-toggle="popover" title="Added Text Position" 
+                    data-content="Note added {
+                    if(@hand) 
+                    then concat('by ',substring-after(@hand, '#')) else ''} 
+                    at {upper-case(@place)} according to TEI definitions"><xsl:value-of select="."/></a>
+                
+            </xsl:when>
+<!--            has place overstrike-->
+<xsl:when test="@place='overstrike' and preceding-sibling::t:del">
+    <xsl:text>{</xsl:text><xsl:value-of select="."/><xsl:text>}</xsl:text>
+</xsl:when>
+            
+<!--            has only hand-->
+            <xsl:when test="@hand and not(@place)">
+                <xsl:text>/</xsl:text>
+                <a href="#{$id}" data-toggle="popover" title="Correction author" 
+                    data-content="Note added { concat('by ',substring-after(@hand, '#')) }"><xsl:value-of select="."/></a>
+                <xsl:text>/</xsl:text>
+            </xsl:when>
+
+           <!-- it has only place-->
+            <xsl:otherwise> 
+                <a href="#{$id}" data-toggle="popover" title="Added Text Position" 
+                    data-content="Note added 
+                    at {upper-case(@place)} according to TEI definitions"><xsl:value-of select="."/></a>
+                
+              </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     
     
 </xsl:stylesheet>

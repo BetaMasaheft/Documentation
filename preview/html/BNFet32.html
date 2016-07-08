@@ -1,0 +1,1175 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script><title>Gospels</title><script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js" type="text/javascript"></script><script src="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js" type="text/javascript"></script><link href="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css" rel="stylesheet"></link>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"></link><script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js" type="text/javascript"></script><link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet"></link>
+      <link href="preview.css" rel="stylesheet" type="text/css"></link>
+   </head>
+   <body>
+      <div class="jumbotron text-center">
+         <h1>Gospels</h1>
+      </div>
+      <div class="container-fluid" id="contents" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+         <nav class="col-md-2">
+            <ul class="nav nav-pills nav-stacked" id="navig">
+               <li class="active">
+                  <h3>Navigate section</h3>
+                  <ul class="nav nav-pills nav-stacked" id="myScrollspy">
+                     <li class="active"><a href="#general">General</a></li>
+                     <li><a href="#description">Description</a></li>
+                     <li><a href="#generalphysical">Physical desc of ms</a></li>
+                     <li><a href="#catalogue">Catalogue</a></li>
+                     <li><a href="#keywords">Keywords</a></li>
+                     <li><a href="#transcription">Transcription </a></li>
+                     <li><a href="#footer">Authors</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <h3>Navigate by id</h3>
+                  <ul class="nav nav-pills nav-stacked">
+                     <li><a href="#ms">msDesc</a></li>
+                     <li><a href="#ms_i1">Content Item 1</a></li>
+                     <li><a href="#ms_i2">Content Item 2</a></li>
+                     <li><a href="#ms_i3">Content Item 3</a></li>
+                     <li><a href="#ms_i4">Content Item 4</a></li>
+                     <li><a href="#ms_i4.1.1">Content Item 4.1.1</a></li>
+                     <li><a href="#ms_i4.1.2">Content Item 4.1.2</a></li>
+                     <li><a href="#ms_i4.2.1">Content Item 4.2.1</a></li>
+                     <li><a href="#ms_i4.2.2">Content Item 4.2.2</a></li>
+                     <li><a href="#ms_i4.3.1">Content Item 4.3.1</a></li>
+                     <li><a href="#ms_i4.3.2">Content Item 4.3.2</a></li>
+                     <li><a href="#ms_i4.4.1">Content Item 4.4.1</a></li>
+                     <li><a href="#ms_i4.4.2">Content Item 4.4.2</a></li>
+                     <li><a href="#h1">Hand 1</a></li>
+                     <li><a href="#h2">Hand 2</a></li>
+                     <li><a href="#h3">Hand 3</a></li>
+                     <li><a href="#h4">Hand 4</a></li>
+                     <li><a href="#a1">Addition 1</a></li>
+                     <li><a href="#a2">Addition 2</a></li>
+                     <li><a href="#a3">Addition 3</a></li>
+                     <li><a href="#a4">Addition 4</a></li>
+                     <li><a href="#a5">Addition 5</a></li>
+                     <li><a href="#a6">Addition 6</a></li>
+                     <li><a href="#a7">Addition 7</a></li>
+                     <li><a href="#a8">Addition 8</a></li>
+                     <li><a href="#a9">Addition 9</a></li>
+                     <li><a href="#a10">Addition 10</a></li>
+                     <li><a href="#a11">Addition 11</a></li>
+                     <li><a href="#a12">Addition 12</a></li>
+                     <li><a href="#a13">Addition 13</a></li>
+                     <li><a href="#a14">Addition 14</a></li>
+                     <li><a href="#a15">Addition 15</a></li>
+                     <li><a href="#a16">Addition 16</a></li>
+                     <li><a href="#a17">Addition 17</a></li>
+                     <li><a href="#a18">Addition 18</a></li>
+                     <li><a href="#a19">Addition 19</a></li>
+                     <li><a href="#a20">Addition 20</a></li>
+                     <li><a href="#a21">Addition 21</a></li>
+                     <li><a href="#a22">Addition 22</a></li>
+                     <li><a href="#a23">Addition 23</a></li>
+                     <li><a href="#a24">Addition 24</a></li>
+                     <li><a href="#a25">Addition 25</a></li>
+                     <li><a href="#Mt1">Title 1</a></li>
+                     <li><a href="#Mt19">Title 19</a></li>
+                     <li><a href="#Lu1">div</a></li>
+                     <li><a href="#Jo8">div</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+         <div class="container-fluid col-md-10">
+            <div class="row-fluid" id="general">
+               <a href="../../Institutions/INS0303BNF">Bibliothèque nationale de France</a>
+               <b>Collection: Manuscrits orientaux</b>
+               <b>Collection: Fonds éthiopien</b>
+               
+               <h1>Éth. 22</h1>
+               
+               <p>Other identifiers: Saint-Germain 512. Séguier </p>
+               
+               <p>Edited by Dorothea Reule</p>
+            </div>
+            <div class="row-fluid" id="description">
+               <h2>General description</h2>
+               <h3>People</h3>
+               <p> <a href="../../Persons/PRS8595SayfaAr">
+                     
+                     Säyfä Arʿad
+                     </a> (donor) 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10814Maqares** =  **</b> 
+               </p>
+               <p> <a href="../../Persons/PRS8700Seguier">
+                     Pierre
+                     Séguier
+                     </a> (owner) 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10940Bakimes** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10932Zaras** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10935Zakarya** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10936Yohannes** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10937Mikael** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10938Hasab** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10939Melah** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10934Qozmos** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10933GabraH** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10930Rufael** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10927Makfalta** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10928Bakwr** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10924Sämärä** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10929TasfaHa** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10925Tomas** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10923Anqitos** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10922Tasfsase** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10917Bartinos** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10921Pawlos** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10815ZaraA** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10920Yohanna** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10919Tewodros** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10926Giyorgis** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10816Tatamqa** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person PRS10931Agaton** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person ** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person ** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person ** =  **</b> 
+               </p>
+               <p> <b style="color:red;                 text-align:center;">**No record for Person ** =  **</b> 
+               </p>
+               <h3>Number of Text units: 12</h3>
+               <h3>Number of Codicological units: 1</h3>
+            </div>
+            <div class="row-fluid" id="generalphysical">
+               <div class="row-fluid" id="mshistory">
+                  <h2>Origin </h2>
+                  <p>
+                     
+                     <b>Date: </b><p></p>
+                     <p>Dated to the 13th century by the cataloguer.</p>
+                     
+                     <b>Provenance:</b><p>Belonged to <a href="../../Persons/PRS8700Seguier">Pierre Séguier</a>, after whose death it was kept at the library of <a href="../../Institutions/INS0305SGP">the Abbey of Saint-Germain-des-Prés</a> and came to the <a href="../../Institutions/INS0303BNF">BNF</a> during the French Revolution 1790-1795
+                     </p>
+                     
+                  </p>
+               </div>
+               <div class="row-fluid" id="msdimensions">
+                  <supportDesc xmlns="http://www.tei-c.org/ns/1.0">
+                     
+                     
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">Form of support</h3>
+                     <p xmlns="http://www.w3.org/1999/xhtml">Codex</p>
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">Writing material </h3>
+                     <p xmlns="http://www.w3.org/1999/xhtml">parchment</p>
+                     
+                     
+                     <h4 xmlns="http://www.w3.org/1999/xhtml">Extent </h4>
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        207 (leaf) 
+                        
+                        <h2>Physical description</h2>
+                        <h3>Outer dimension</h3>
+                        <p>H: 293 x W: 184 x D  mm. </p>
+                        <p>(proportion height/width: 1.5924 ) </p>
+                        
+                        
+                        
+                        
+                        
+                     </div>
+                     
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">State of preservation </h3>
+                     <p xmlns="http://www.w3.org/1999/xhtml"><b>deficient</b></p>
+                     <h4 xmlns="http://www.w3.org/1999/xhtml">Condition</h4>
+                     <p xmlns="http://www.w3.org/1999/xhtml">One folio is missing between n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#105">105</a> and n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#106">106</a> as well as between n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#206">206</a> and n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#207">207</a>.
+                     </p>
+                     
+                  </supportDesc>
+               </div>
+               <div class="row-fluid" id="msdimensions">
+                  <h3>Layout </h3>
+                  <h4>1</h4>
+                  <p>Number of columns : 2</p>
+                  <p>Number of lines : 27</p>
+                  <h3>Palaeography </h3>
+                  <h4>Punctuation</h4>
+                  <p>Executed: </p>
+                  <p>Usage: </p>
+                  <ul></ul>
+               </div>
+               <div class="row-fluid" id="mshands">
+                  <h2>Hands</h2>
+                  <div>
+                     
+                     <h4 id="h1">Hand 1</h4>
+                     <p>Ethiopic</p>
+                     Dated to the 13th century by the cataloguer
+                     
+                     
+                     
+                     <h4 id="h2">Hand 2</h4>
+                     <p>Ethiopic</p>
+                     <a href="#1v">f. 1v</a> 
+                     <b style="color:red;                 text-align:center;">**No record for Person PRS10815ZaraA** =  **</b>
+                     
+                     
+                     
+                     <h4 id="h3">Hand 3</h4>
+                     <p>Ethiopic</p>
+                     <a href="#1v">f. 1v</a> 
+                     
+                     <p>Different from n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#h2">h2</a></p>
+                     
+                     
+                     
+                     <h4 id="h4">Hand 4</h4>
+                     <p>Ethiopic</p>
+                     <a href="#11v">f. 11v</a> 
+                     
+                     <p>Different from the hand of n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#a6">a6</a></p>
+                     
+                     
+                     
+                  </div>
+               </div>
+               <div class="row-fluid" id="mscontent">
+                  <msContents xmlns="http://www.tei-c.org/ns/1.0">
+                     
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">Summary</h3>
+                     <ul xmlns="http://www.w3.org/1999/xhtml" class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#extracted">Extracted summary of contents</a></li>
+                        <li><a data-toggle="tab" href="#given">Given summary of contents</a></li>
+                     </ul>
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="tab-content">
+                        <div id="given" class="tab-pane fade"> </div>
+                        <div id="extracted" class="tab-pane fade in active">
+                           <ol>
+                              <ul>ms_i1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT1349Epistl** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i2, <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT1224Canons"><i>Canons of Eusebios,Canon tables</i></a> [Complete] 
+                              </ul>
+                              <ul>ms_i3, <i xmlns:t="http://www.tei-c.org/ns/1.0">ግጻዌ ፡ ሥርዐት ፡ በእንተ ፡ ኅብረተ ፡ ቃላት ፡ ዘአርባዕቱ ፡ ወንጌላት ።</i> [Complete] 
+                              </ul>
+                              <ul>ms_i4, <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT1560Gospel"><i>Gospels Four Gospels; Qǝddus Wängel</i></a> [Incomplete] 
+                              </ul>
+                              <ul>ms_i4.1.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2708MtTitles** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i4.1.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2709Matthew** = ወንገል ፡ ዘማቴዎስ ። **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i4.2.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2710MkTitles** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i4.2.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2711Mark** = ወንገል ፡ ዘማርቆስ ። **</b> [Incomplete] 
+                              </ul>
+                              <ul>ms_i4.3.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2712LkTitles** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i4.3.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2713Luke** = ወንገል ፡ ዘሉቃስ ። **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i4.4.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2714JnTitles** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i4.4.2, <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT2715John"><i>ወንገል ፡ ዘዮሐንስ ።</i></a> [Complete] 
+                              </ul>
+                           </ol>
+                        </div>
+                     </div>
+                     
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="row" id="ms_i1"><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#itemms_i1">expand/collapse</button><h3>Item ms_i1</h3>
+                        <div id="itemms_i1" class="collapse">
+                           ff. <a href="1">1</a>-<a href="unknown">unknown</a> 
+                           <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT1349Epistl** =  **</b> [Complete] 
+                           
+                           <p><b>Language of text: </b></p>
+                           
+                        </div>
+                     </div>
+                     <hr xmlns="http://www.w3.org/1999/xhtml"></hr>
+                     
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="row" id="ms_i2"><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#itemms_i2">expand/collapse</button><h3>Item ms_i2</h3>
+                        <div id="itemms_i2" class="collapse">
+                           <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT1224Canons"><i>Canons of Eusebios,Canon tables</i></a> [Complete] 
+                           
+                           <p><b>Language of text: </b></p>
+                           
+                        </div>
+                     </div>
+                     <hr xmlns="http://www.w3.org/1999/xhtml"></hr>
+                     
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="row" id="ms_i3"><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#itemms_i3">expand/collapse</button><h3>Item ms_i3</h3>
+                        <div id="itemms_i3" class="collapse">
+                           ff. <a href="unknown">unknown</a>-<a href="11">11</a> 
+                           <i xmlns:t="http://www.tei-c.org/ns/1.0">ግጻዌ ፡ ሥርዐት ፡ በእንተ ፡ ኅብረተ ፡ ቃላት ፡ ዘአርባዕቱ ፡ ወንጌላት ።</i> [Complete] 
+                           
+                           <p><b>Language of text: </b></p>
+                           
+                        </div>
+                     </div>
+                     <hr xmlns="http://www.w3.org/1999/xhtml"></hr>
+                     
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="row" id="ms_i4"><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#itemms_i4">expand/collapse</button><h3>Item ms_i4</h3>
+                        <div id="itemms_i4" class="collapse">
+                           ff. <a href="12">12</a>-<a href="205v">205v</a> 
+                           <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT1560Gospel"><i>Gospels Four Gospels; Qǝddus Wängel</i></a> [Incomplete] 
+                           
+                           <p><b>Language of text: </b></p>
+                           
+                           <p><b>Rubric : </b>The entire text is divided in 217 sections, which correspond more or less to
+                              the old τίτλοι.
+                           </p>
+                           
+                           This text has the first recension of the Gospels, made from a Greek original (Alexandrinan
+                           recension). This is shown by the following indications:
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">The proper names have all kept their Greek form, often even with case endings, for
+                              example:
+                           </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ሄሮድያዳ ፡ Ἡροδιάδα, Matthew 14, 3</p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">   ሲዶና ፡ Σιδῶνα, Mark 3, 8</p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">ቴዎፍሊ ፡ Θεόφιλε, Luke 1, 3</p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">    ዘጌርጌሴኖን ፡ Γερασηνῶν, Luke 8, 37</p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">  ጥብርያዶስ ፡ Τιβεριάδος, John 6, 1 and 23; John 21, 1</p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> etc.</p>
+                           
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">Several Greek words haven't been translated, for example: </p>
+                           ስናፔ ፡ σίναπι, Matthew 13, 31; Mark 4, 31; Luke 13, 19; Luke 17, 6
+                           ስለን ፡ σέλινον, Matthew 23, 23
+                           ቀራንዮ ፡ κρανίιυ (τόπος), Matthew 27, 33; Mark 15, 22; Luke 23, 33; John 19, 17
+                           ስፍንገ ፡ σπόγγος, Matthew 27, 48; Marc 15, 26; John 19, 29
+                           ቆድራጢስ ፡ κοδράντης, Mark 12, 42
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ናርዱ ፡ νάρδος, Mark 14, 3 </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ስጴራ ፡ σπεῖρα, Mark 15, 16 </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ሰበን ፡ σάβανον, Luke 19, 20; John 11, 44; John 20, 7 </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ጰስጥቂስ ፡ πιστική, John 12, 3 </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ሊቶስጥሮስ ፡ λιθόστρωτον, John 19, 13 </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> etc</p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">Some misunderstandings can only be explained by a Greek original, for example: </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ἤδη at Matthew 3, 10; Matthew 14, 15 is translated by ናሁ ፡ (ἴδε) </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> εύνοῶν at Matthew 5, 25 is translated by ጠቢብ ፡ (ἐννοῶν) </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ὁροποιεῖν at Mark 2, 23 is translyted by ወይጺሑ ፡ ሎቱ ፡ ፍኖቶ ፡ </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ἀποδοκιμασθῆναι at Mark 8, 31; Luke 9, 22 and Luke 17, 25 is translated by ያመክርዎ
+                              ፡ or ታሜክሮ ፡ (δοκιμάζειν) 
+                           </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> μετά at Mark 13, 24 is translated by ምስለ ፡ </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0">ἐξ ἐφημερίας Ἀβιά at Luke 1, 5 are translated by በመዋዕለ ፡ አብያ ፡ (ἐν ἡμέραις Ἀβιά; at
+                              Luke 1, 8 the translator omitted the words ἐξ ἐφημερίας) 
+                           </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> πέδαις Φυλασσόμενος  at Luke 8, 29 are translated by ወየዐክብዎ ፡ ደቀ ፡ (παιδίοις) </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> ἔξοδον αὐτοῦ  at Luke 9, 31 are translated by ስብሐቲሁ ፡  (δόξαν) </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> καὶ τὰ σκύλα αὐτοῦ  διαδώσει at Luke 11, 22 are translated by ንዋየ ፡ ሐቅል ፡(τὰ σκεύη)
+                              
+                           </p>
+                           
+                           <p xmlns="http://www.tei-c.org/ns/1.0"> etc.</p>
+                           
+                           
+                           
+                           <div class="row" id="ms_i4.1.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.1.1</h4>
+                              <div>
+                                 ff. <a href="12">12</a>-<a href="unknown">unknown</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2708MtTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i4.1.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.1.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href="68r">68r</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2709Matthew** = ወንገል ፡ ዘማቴዎስ ። **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                                 <p><b>Rubric : </b>The text is divided in 67 (or 68) sections, which correspond more or less to
+                                    the old τίτλοι.
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The titles from <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i4.1.1">the table of the sections (ms_i4.1.1)</a> are also indicated at the top of the pages. 
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The pericopes, the chapters of Ammonius and the 355 canons of <a href="../../Persons/PRS3912Eusebius">Eusebios</a> are indicated in the margins.
+                                 </p>
+                                 
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i4.2.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.2.1</h4>
+                              <div>
+                                 ff. <a href="69">69</a>-<a href="unknown">unknown</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2710MkTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i4.2.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.2.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href="104">104</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2711Mark** = ወንገል ፡ ዘማርቆስ ። **</b> [Incomplete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                                 <p><b>Rubric : </b>The text is divided in 47 (or 48) sections, which correspond more or less to
+                                    the old τίτλοι.
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The titles from <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i4.2.1">the table of the sections (ms_i4.2.1)</a> are also indicated at the top of the pages. 
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The pericopes, the chapters of Ammonius and the 235 canons of <a href="../../Persons/PRS3912Eusebius">Eusebios</a> are indicated in the margins.
+                                 </p>
+                                 
+                                 <p>One folio is missing between n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#105">105</a> and n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#106">106</a>, Mark 1, 19b-39b.
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           
+                           <div class="row" id="ms_i4.3.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.3.1</h4>
+                              <div>
+                                 ff. <a href="105">105</a>-<a href="unknown">unknown</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2712LkTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i4.3.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.3.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href="162">162</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2713Luke** = ወንገል ፡ ዘሉቃስ ። **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                                 <p><b>Rubric : </b>The text is divided in 85 (or 83) sections, which correspond more or less to
+                                    the old τίτλοι.
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The titles from <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i4.3.1">the table of the sections (ms_i4.3.1)</a> are also indicated at the top of the pages. 
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The pericopes, the chapters of Ammonius and the 343 canons of <a href="../../Persons/PRS3912Eusebius">Eusebios</a> are indicated in the margins.
+                                 </p>
+                                 
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i4.4.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.4.1</h4>
+                              <div>
+                                 ff. <a href="163">163</a>-<a href="unknown">unknown</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2714JnTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i4.4.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i4.4.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href="205v">205v</a> 
+                                 <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT2715John"><i>ወንገል ፡ ዘዮሐንስ ።</i></a> [Complete] 
+                                 
+                                 <p><b>Language of text: </b></p>
+                                 
+                                 <p><b>Rubric : </b>The text is divided in 20 (or 19) sections, which correspond more or less to
+                                    the old τίτλοι.
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The titles from <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i4.4.1">the table of the sections (ms_i4.4.1)</a> are also indicated at the top of the pages. 
+                                 </p>
+                                 
+                                 <p><b>Rubric : </b>The pericopes, the chapters of Ammonius and the 232 canons of <a href="../../Persons/PRS3912Eusebius">Eusebios</a> are indicated in the margins.
+                                 </p>
+                                 
+                                 
+                              </div>
+                           </div>
+                           
+                        </div>
+                     </div>
+                     <hr xmlns="http://www.w3.org/1999/xhtml"></hr>
+                     
+                     
+                  </msContents>
+               </div>
+               <div class="row-fluid" id="msadditiones">
+                  <div id="additiones">
+                     <h2>Additiones </h2>In this manuscript there are  1 ScribalNoteCompleting, 11 DonationNote, 8 Unclear, 1 Record, 2 Condemnation, 1 RecordTransaction and 1 Exhortation.
+                     <ol>
+                        <li id="a1">
+                           <p><a href="#205v">f. 205v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="ScribalNoteCompleting"></desc> (Type: ScribalNoteCompleting)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a2">
+                           <p><a href="#1">f. 1</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note from the king <a xmlns="http://www.w3.org/1999/xhtml" href="../../Persons/PRS8595SayfaAr">Säyfä Arʿad</a> , son of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Persons/PRS1854Amdase">ʿAmdä Ṣǝyon I</a>,
+                                 by which he donates this Gospel to the No record for Institution INS0308DQ at
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2600Dayral">Däbrä Qwǝsqwam</a> 
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a3">
+                           <p><a href="#1v">f. 1v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">Note stating that at this time, there were 30 priests, 
+                                 diacons and monks at the No record for Institution INS0308DQ at <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2600Dayral">Däbrä Qwǝsqwam</a> and that <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10814Maqares** = Mäqarǝs **</b> was its abbot
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              . 
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a4">
+                           <p><a href="#1v">f. 1v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note from a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10815ZaraA** = Zärʾa Abrǝham **</b>, 
+                                 who gave the No record for Institution INS0308DQ at
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2600Dayral">Däbrä Qwǝsqwam</a> an altar cloth.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a5">
+                           <p><a href="#1v">f. 1v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Record">Note about several sacred objects.</desc> (Type: Record)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a6">
+                           <p><a href="#11">f. 11</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note stating that at the time of the metropolitan <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person ** = Yoḥannǝs **</b> and the king <a xmlns="http://www.w3.org/1999/xhtml" href="../../Persons/PRS10626ZaraY">Zärʾa Yaʿǝqob</a>, when <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10816Tatamqa** = 
+                                    Täṭämqä Mädhǝn **</b>was abbot of the No record for Institution INS0308DQ, a priest called<b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10946GabraM** =  Gäbrä Mikaʾel  **</b>gave to the No record for Institution INS0308DQ
+                                 a cow in remembrance  of the four heavenly animals. 
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a7">
+                           <p><a href="#11v">f. 11v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note written at the time of <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10917Bartinos** = Bartinos **</b>, abbot of the No record for Institution INS0308DQ,
+                                 in remembrance of the donation of n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" href="#a6">a6</a>, but written in another hand.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a8">
+                           <p><a href="#11v">f. 11v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note about a cross given to the No record for Institution INS0308DQ by a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person ** = Mercurius **</b>.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a9">
+                           <p><a href="#68">f. 68</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Condemnation">Excommuniaction by the monks of No record for Institution INS0308DQ 
+                                 at the time of the abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10919Tewodros** = Tewodros **</b>
+                                 of an administrator of the church called <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10920Yohanna** = Yoḥannā **</b> for having taken this manuscrit out of the church and sold it.
+                              </desc> (Type: Condemnation)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a10">
+                           <p><a href="#104">f. 104</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note stating that at the time of the abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10917Bartinos** = Bartinos **</b>, a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10921Pawlos** = Ṗawlos **</b> gave the
+                                 No record for Institution INS0308DQ a black cow, 
+                                 its calf and a red heifer.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a11">
+                           <p><a href="#104">f. 104</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note stating that at the time of the abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10923Anqitos** = Anqiṭos **</b>, a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10922Tasfsase** = Tasfa Ṣǝyon **</b> gave the
+                                 No record for Institution INS0308DQ a  cow. 
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a12">
+                           <p><a href="#104v">f. 104v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="RecordTransaction">Note about a decision taken by the monks of the No record for Institution INS0308DQ
+                                 at the time of the abbot  <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10924Sämärä** = Śamara ʾAb **</b></desc> (Type: RecordTransaction)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a13">
+                           <p><a href="#162">f. 162</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">Note about a decision taken by the monks of the No record for Institution INS0308DQ, at the time of the abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10945Tewodros** = Tewodros **</b>
+                                 and the administrator <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10925Tomas** = Tomās **</b></desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a14">
+                           <p><a href="#162">f. 162</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">List of objects to be delivered to the No record for Institution INS0308DQ,
+                                 for a ceremony of adjuration.
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a15">
+                           <p><a href="#162v">f. 162v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Partly erased note about diverse donations made to the No record for Institution INS0308DQ
+                                 by <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10927Makfalta** = Makfalta Māryām **</b>,
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10928Bakwr** = Bakwra Giyorgis **</b> and 
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10929TasfaHa** = Tasfā Ḥawāryā **</b> at the time of the abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10926Giyorgis** = Giyorgis **</b> 
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a16">
+                           <p><a href="#162v">f. 162v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Exhortation">Note about a benefactor called <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10930Rufael** = Rufāʾel **</b> 
+                              </desc> (Type: Exhortation)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a17">
+                           <p><a href="#162v">f. 162v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note about a donation by the monks of the No record for Institution , 
+                                 in the year of grace 172 (1512 AD)
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a18">
+                           <p><a href="#205v">f. 205v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Condemnation">Interdiction to sell this manuscript, made by the monks of 
+                                 the No record for Institution INS0308DQ in a full assembly
+                                 in the year of grace 84 (1424 CE), when <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10944Tomas** = Tomās **</b> was abbot, under the reign of <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person ** = Dāwit **</b>, son of <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person ** =  Dāwit **</b> and at the time of the metroppolitan
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person ** = Yoḥannǝs **</b>.
+                              </desc> (Type: Condemnation)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a19">
+                           <p><a href="#206">f. 206</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">Some rules of communal life and punitions of offenses at the No record for Institution INS0308DQ,
+                                 made in the Year of Grace 10 (1350 CE), when <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10941Tasabka** = Tasabka Madḫǝn **</b> was abbot, 
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10943Tomas** = Tomās **</b> qessa gabaz and <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10942Fiqitor** = Fiqiṭor **</b> administrator. 
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p>
+                              <p>This note has probably been copied from an older manuscript.</p>
+                           </p>
+                        </li>
+                        <li id="a20">
+                           <p><a href="#206v">f. 206v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">Other rules for punitions of offenses at the No record for Institution INS0308DQ, at the time of
+                                 the abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10932Zaras** = Zarʾā Ṣǝyon **</b> and the administrator <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10931Agaton** = Agaton **</b></desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p>
+                              <p>This note fills the entire page, but the end is missing.</p>
+                           </p>
+                        </li>
+                        <li id="a21">
+                           <p><a href="#207">f. 207</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">Note about <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10931Agaton** = Agaton **</b>, the administrator 
+                                 of the No record for Institution INS0308DQ. 
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a22">
+                           <p><a href="#207">f. 207</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Partly eradicated note about donations made to the No record for Institution INS0308DQ by the abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10932Zaras** = Zarʾā Ṣǝyon **</b>
+                                 and by a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10933GabraH** = Gabra Ḥawāryāt **</b> and his father.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a23">
+                           <p><a href="#207">f. 207</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note about a donation to the No record for Institution INS0308DQ by the abbot
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10934Qozmos** = Qozmos **</b>.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a24">
+                           <p><a href="#207v">f. 207v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear"> Note by which the abbots <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10940Bakimes** = Bakimǝs **</b>and <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10932Zaras** = Zarʾā Ṣǝyon **</b>
+                                 declare that a house at the eastern side of the church belongs to a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10935Zakarya** = Zakāryās **</b>, 
+                                 his wife <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10939Melah** = Mǝlāḥ **</b>and
+                                 his children <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10936Yohannes** = Yoḥānnǝs **</b>, <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10937Mikael** = Mikāʾel **</b> and <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10938Hasab** = 
+                                    Ḥasab Allāh **</b>. The note is dated to the Year of Grace 41 (1381 CE). 
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a25">
+                           <p><a href="#207v">f. 207v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">Arabic note about the same matter as n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" xmlns="http://www.w3.org/1999/xhtml" href="#a24">a24</a>, with more details.  
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                     </ol>
+                  </div>
+               </div>
+               <div class="row-fluid" id="msadditionals">
+                  
+                  <surrogates xmlns="http://www.tei-c.org/ns/1.0">
+                     
+                     <h4 xmlns="http://www.w3.org/1999/xhtml">catalogue Bibliography</h4>
+                     <ul xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <li><a href="https://archive.org/details/manuscritsorient00bibl">Zotenberg 1877, page 24-29</a></li>
+                        
+                     </ul>
+                     
+                     <h4 xmlns="http://www.w3.org/1999/xhtml">secondary Bibliography</h4>
+                     <ul xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <li><a href="https://www.zotero.org/groups/ethiostudies/items/tag/bm:Silvestre1850Paleography">Silvestre 1850, page 72-73</a></li>
+                        
+                        <li><a href="https://www.zotero.org/groups/ethiostudies/items/tag/bm:Platt1823Catalogue">Platt 1823, page 11-12</a></li>
+                        
+                     </ul>
+                     
+                  </surrogates>
+                  
+               </div>
+            </div>
+            <div class="row-fluid" id="catalogue">
+               <h2> Catalogued in</h2>
+               <h4>catalogue Bibliography</h4>
+               <ul>
+                  
+                  <li><a href="https://archive.org/details/manuscritsorient00bibl">Zotenberg 1877, page 24-29</a></li>
+                  
+               </ul>
+               <h2> Catalogued in</h2>
+               <h4>secondary Bibliography</h4>
+               <ul>
+                  
+                  <li><a href="https://www.zotero.org/groups/ethiostudies/items/tag/bm:Silvestre1850Paleography">Silvestre 1850, page 72-73</a></li>
+                  
+                  <li><a href="https://www.zotero.org/groups/ethiostudies/items/tag/bm:Platt1823Catalogue">Platt 1823, page 11-12</a></li>
+                  
+               </ul>
+            </div>
+            <div class="row-fluid well" id="transcription">
+               <h2>Transcription</h2>
+               
+               
+               <div class="row-fluid" id="textpart">
+                  <head><a href="#ms_i4.1.2">ms i4.1.2, chapter: 1</a></head><br></br>
+                  
+                  <div class="container-fluid">
+                     (Excerpt from <a href="#12v">f. 12v</a> )<br></br>
+                     <sup>18</sup>ወከመዝ ፡ ውእቱ ፡ ልደቱ ፡ ለኢየሱስ ፡ ክርስቶስ ፡ ተፍሕረት ፡ እሙ ፡ ማርያ ፡
+                     ለዮሴፍ ፡ ወዘእንበለ ፡ ይትቃረብ ፡ ተረክበት ፡ እንዘባ ፡ ውስተ ፡ ማኅፀና ፡ እምንፈስቅዱስ ፡ወከመዝ ፡ ውእቱ ፡ ልደቱ ፡ ለኢየሱስ ፡ ክርስቶስ ፡ ተፍሕረት ፡ እሙ ፡ ማርያ ፡
+                     ለዮሴፍ ፡ ወዘእንበለ ፡ ይትቃረብ ፡ ተረክበት ፡ እንዘባ ፡ ውስተ ፡ ማኅፀና ፡ እምንፈስቅዱስ ፡ 
+                     <sup>19</sup>ወእስመ ፡ ጻድቅ ፡ 
+                     ውእቱ ፡ ዮሴፍ ፡ ብእሲሃ ፡ this word has been effaced ለማርያ ፡ ኢፈቀደ ፡ ያስተዋድያ ፡ አብደረ ፡ ይኅድጋ ፡
+                     ጽምሚተ ።ወእስመ ፡ ጻድቅ ፡ 
+                     ውእቱ ፡ ዮሴፍ ፡ ብእሲሃ ፡ 
+                     <p>this word has been effaced</p> ለማርያ ፡ ኢፈቀደ ፡ ያስተዋድያ ፡ አብደረ ፡ ይኅድጋ ፡
+                     ጽምሚተ ። 
+                     <sup>20</sup>   ዘንተ ፡ እንከ ፡ እንየ ፡ ይኄሊ ፡ ናሁ ፡ አስተርእዮ ፡ መልአከ ፡ እግዚኣብሔር ፡ ለዮሴፍ ፡ በሕልም ፡ ወይቤሎ ፡ ዮሴፍ
+                     ፡
+                     ወልደ ፡ ዳዊት ፡ ኢርፍራህ ፡ ነሢኦታ ፡ ለማርያ ፡ ፍኅርትከ ፡ እስመ ፡ ዘይትወለድ ፡ እምላዕሌሃ ፡ እመንፈስ ፡ ቅዱስ ፡ ውእቱ
+                     ።    ዘንተ ፡ እንከ ፡ እንየ ፡ ይኄሊ ፡ ናሁ ፡ አስተርእዮ ፡ መልአከ ፡ እግዚኣብሔር ፡ ለዮሴፍ ፡ በሕልም ፡ ወይቤሎ ፡ ዮሴፍ
+                     ፡
+                     ወልደ ፡ ዳዊት ፡ ኢርፍራህ ፡ ነሢኦታ ፡ ለማርያ ፡ ፍኅርትከ ፡ እስመ ፡ ዘይትወለድ ፡ እምላዕሌሃ ፡ እመንፈስ ፡ ቅዱስ ፡ ውእቱ
+                     ።  
+                     <sup>21</sup>ወትወልድ ፡ ወልድ ፡ ወትሰምዮ ፡ ስሞ ፡ ኢየሱስ ፡ እስመ ፡ ውእቱ ፡ ያድኅኖሙ ፡ ለሕዝብ ፡ እምኀጢአቶሙ ።ወትወልድ ፡ ወልድ ፡ ወትሰምዮ ፡ ስሞ ፡ ኢየሱስ ፡ እስመ ፡ ውእቱ ፡ ያድኅኖሙ ፡ ለሕዝብ ፡ እምኀጢአቶሙ ። 
+                     <sup>22</sup>  ወዝንቱ ፡ ኵሉ ፡ ኮነ ፡ ከመ ፡ ይትፈጸም ፡ ቃለ ፡ እግዚኣብሔር ፡ ዘይቤ ፡ በነቢይ ፤  ወዝንቱ ፡ ኵሉ ፡ ኮነ ፡ ከመ ፡ ይትፈጸም ፡ ቃለ ፡ እግዚኣብሔር ፡ ዘይቤ ፡ በነቢይ ፤ 
+                     <sup>23</sup> ናሁ ፡ ድንግል ፡ ትፀንስ ፡ ወትወልድ ፡
+                     ወልደ ፡ ወይሠምይዎ ፡ ስሞ ፡ ዓማኑኤል ፡ ዘበትርጓሜሁ ፡ ይብል ፡ እግዚአብሔር ፡ ምስሌነ ።  ናሁ ፡ ድንግል ፡ ትፀንስ ፡ ወትወልድ ፡
+                     ወልደ ፡ ወይሠምይዎ ፡ ስሞ ፡ ዓማኑኤል ፡ ዘበትርጓሜሁ ፡ ይብል ፡ እግዚአብሔር ፡ ምስሌነ ።  
+                     <sup>24</sup> ወነቂሆ ፡ ዮሴፍ ፡ እምንዋም ፡ ገብረ ፡ በከመ ፡ አዘዞ ፡ መልአለ ፡ እግዚኣብሔር ፡ ወነሥኣ ፡ ለማርያ ፡ ፍኅርቱ ፡ this
+                     word has later been substituted for another ወነቂሆ ፡ ዮሴፍ ፡ እምንዋም ፡ ገብረ ፡ በከመ ፡ አዘዞ ፡ መልአለ ፡ እግዚኣብሔር ፡ ወነሥኣ ፡ ለማርያ ፡ ፍኅርቱ ፡ 
+                     <p>this word has later been substituted for another</p> 
+                     <sup>25</sup>   ወኢያእመራ ፡ እስከ ፡ ወለደት ፡ ወልደ ፡ ዘበኵራ ፡ ወሰመይዎ ፡ ሥሞ ፡ ኢየሱስ ።    ወኢያእመራ ፡ እስከ ፡ ወለደት ፡ ወልደ ፡ ዘበኵራ ፡ ወሰመይዎ ፡ ሥሞ ፡ ኢየሱስ ።  
+                     
+                  </div>
+                  
+               </div><br></br> 
+               
+               
+               <div class="row-fluid" id="textpart">
+                  <head><a href="#ms_i4.1.2">ms i4.1.2, chapter: 19</a></head><br></br>
+                  
+                  <div class="container-fluid">
+                     (Excerpt from <a href="#45v">f. 45v</a> )<br></br>
+                     <sup>13</sup> ወአምጽኡ ፡ ኀቤሁ ፡ ሕፃናተ ፡ ከመ ፡ ይግሥሶሙ ፡ ወይጸሊ ፡ ዲቤሆሙ ፡ ወገሠጾዎሙ ፡ አርዳኢሁ ። ወአምጽኡ ፡ ኀቤሁ ፡ ሕፃናተ ፡ ከመ ፡ ይግሥሶሙ ፡ ወይጸሊ ፡ ዲቤሆሙ ፡ ወገሠጾዎሙ ፡ አርዳኢሁ ።
+                     <sup>14</sup> ወይቤሎሙ ፡ ኅድጉ ፡ ሕፃናተ ፡ ይምጽኡ ፡ ኀቤየ ፡ ወኢትክልእዎሙ ፡ እስመ ፡ ለዘከመ ፡ እሉ ፡ ይእቲ ፡
+                     መንግሥተ ፡ ሰማያት ።  ወይቤሎሙ ፡ ኅድጉ ፡ ሕፃናተ ፡ ይምጽኡ ፡ ኀቤየ ፡ ወኢትክልእዎሙ ፡ እስመ ፡ ለዘከመ ፡ እሉ ፡ ይእቲ ፡
+                     መንግሥተ ፡ ሰማያት ። 
+                     <sup>15</sup>ወገሰሶሙ ፡ ወሖረ ፡ እምህየ ፡ ወገሰሶሙ ፡ ወሖረ ፡ እምህየ ፡ 
+                     <sup>16</sup>ወመጽአ ፡ አሐዱ ፡ ወይቤሎ ፡ ሊቅ ፡ ሔር ፡ ምንተ ፡ ገቢርየ ፡ እወርስ ፡
+                     ሕይወተ ፡ ዘለዓለም ።ወመጽአ ፡ አሐዱ ፡ ወይቤሎ ፡ ሊቅ ፡ ሔር ፡ ምንተ ፡ ገቢርየ ፡ እወርስ ፡
+                     ሕይወተ ፡ ዘለዓለም ።
+                     <sup>17</sup>     ወይቤሎ ፡ ኢየሱስ ፡ ምንተ ፡ ትብለኒ ፡ ኄር ፡ አልቦ ፡ ኀር (sic) ዘእንበለ ፡ አሐዱ ፡ እግዚኣብሔር ፡ ወእመሰ ፡
+                     ትፈቅድ ፡ ትባእ ፡ ውስተ ፡ ሕይወት ፡ ዕቀብ ፡ ትእዛዞ ።     ወይቤሎ ፡ ኢየሱስ ፡ ምንተ ፡ ትብለኒ ፡ ኄር ፡ አልቦ ፡ ኀር (sic) ዘእንበለ ፡ አሐዱ ፡ እግዚኣብሔር ፡ ወእመሰ ፡
+                     ትፈቅድ ፡ ትባእ ፡ ውስተ ፡ ሕይወት ፡ ዕቀብ ፡ ትእዛዞ ።
+                     <sup>18</sup>   ወይቤሎ ፡ ኣይኑ ፡ ወይቤሎ ፡ ኢየሱስ ፡ ኢትቅትል ፡ ነፍሰ ፡ ወኢትሖር ፡ ብእሲተ ፡ ብእሲ ፡ ወኢትስርቅ ፡ ወኢትኵን ፡
+                     ስምዐ ፡ በኀሰት ፡    ወይቤሎ ፡ ኣይኑ ፡ ወይቤሎ ፡ ኢየሱስ ፡ ኢትቅትል ፡ ነፍሰ ፡ ወኢትሖር ፡ ብእሲተ ፡ ብእሲ ፡ ወኢትስርቅ ፡ ወኢትኵን ፡
+                     ስምዐ ፡ በኀሰት ፡ 
+                     <sup>19</sup>   ወአክብር ፡ አቡከ ፡ ወእምከ ፡ ወአፍቅር ፡ ቢጽከ ፡ ከመ ፡ ነፍስከ ።   ወአክብር ፡ አቡከ ፡ ወእምከ ፡ ወአፍቅር ፡ ቢጽከ ፡ ከመ ፡ ነፍስከ ።
+                     <sup>20</sup>ወይቤሎ ፡ ውእቱ ፡ ወሬዛ ፡ ዘንተሰ ፡ ኵሎ ፡ ዐቀብኩ ፡ እምንእስየ ፡ ምንተ ፡ ተረፈኒ ። ወይቤሎ ፡ ውእቱ ፡ ወሬዛ ፡ ዘንተሰ ፡ ኵሎ ፡ ዐቀብኩ ፡ እምንእስየ ፡ ምንተ ፡ ተረፈኒ ። 
+                     <sup>21</sup>ወይቤሎ ፡ ኢየሱስ ፡ እመሰ ፡ ትፈቅድ ፡ ፍጹመ ፡ ትኩን ፡ ሖር ፡ ሤጥ ፡ ንዋየከ ፡ ወሃብ ፡ ምጽዋተ ፡ ለነዳይ ፡
+                     ወታጠሪ ፡ ለከ ፡ መዝገበ ፡ ዘሰማያት ፡ ወነዐ ፡ ትልወኒ ።ወይቤሎ ፡ ኢየሱስ ፡ እመሰ ፡ ትፈቅድ ፡ ፍጹመ ፡ ትኩን ፡ ሖር ፡ ሤጥ ፡ ንዋየከ ፡ ወሃብ ፡ ምጽዋተ ፡ ለነዳይ ፡
+                     ወታጠሪ ፡ ለከ ፡ መዝገበ ፡ ዘሰማያት ፡ ወነዐ ፡ ትልወኒ ።
+                     <sup>22</sup>ወሰሚዖ ፡ ውእቱ ፡ ወሬዛ ፡ ዘንተ ፡ ነገረ ፡ ሖረ ፡ ትኩዙ ፡ እስመ ፡ ባዕል ፡ ውእቱ ፡ ወብዙኅ ፡ ጥሬቱ ።ወሰሚዖ ፡ ውእቱ ፡ ወሬዛ ፡ ዘንተ ፡ ነገረ ፡ ሖረ ፡ ትኩዙ ፡ እስመ ፡ ባዕል ፡ ውእቱ ፡ ወብዙኅ ፡ ጥሬቱ ።
+                     <sup>23</sup>ወይቤሎሙ ፡ ኢየሱስ ፡ ለአርዳኢሁ ፡ አማን ፡ እብለክሙ ፡ እምዕፁብ ፡ ይበውእ ፡ ባዕል ፡ መንግሥተ ፡ ሰማያት ።ወይቤሎሙ ፡ ኢየሱስ ፡ ለአርዳኢሁ ፡ አማን ፡ እብለክሙ ፡ እምዕፁብ ፡ ይበውእ ፡ ባዕል ፡ መንግሥተ ፡ ሰማያት ።
+                     <sup>24</sup>  እንለክሙ ፡ ይቀልል ፡ ይኅልፍ ፡ ገመል ፡ እንተ ፡ ስቍረተ ፡ መርፍእ ፡ እምነ ፡ ባዕል ፡ ይባእ ፡ መንግሥተ ፡ ሰማያት ።  እንለክሙ ፡ ይቀልል ፡ ይኅልፍ ፡ ገመል ፡ እንተ ፡ ስቍረተ ፡ መርፍእ ፡ እምነ ፡ ባዕል ፡ ይባእ ፡ መንግሥተ ፡ ሰማያት ።
+                     
+                  </div>
+                  
+               </div><br></br>
+               
+               
+               <div class="row-fluid" id="textpart">
+                  <head><a href="#ms_i4.3.2">ms i4.3.2, chapter: 1</a></head><br></br>
+                  
+                  <div class="container-fluid">
+                     (Excerpt from <a href="#105">f. 105</a> )<br></br>
+                     <sup>1</sup>እስመ ፡ ብዙኃን ፡ እለ ፡ አኀዙ ፡ ወጠኑ ፡ ይግበሩ ፡ ወይምህሩ ፡ በእንተ ፡ ግብር ፡ ዘአምኑ ፡ በላዕሌነ ፡ እስመ ፡ ብዙኃን ፡ እለ ፡ አኀዙ ፡ ወጠኑ ፡ ይግበሩ ፡ ወይምህሩ ፡ በእንተ ፡ ግብር ፡ ዘአምኑ ፡ በላዕሌነ ፡ 
+                     <sup>2</sup>&gt;በከመ ፡ መሀሩነ ፡ እለ ፡ ቀደሙነ ፡ ርእዮቶ ፡ ወተልእክዎ ፡ በቃሉ ።&gt;በከመ ፡ መሀሩነ ፡ እለ ፡ ቀደሙነ ፡ ርእዮቶ ፡ ወተልእክዎ ፡ በቃሉ ።
+                     <sup>3</sup>ወረትዐኒ ፡ ሊተኒ ፡ እትልዎ ፡ እምጥንቱ ፡ ወእጠይቆ ፡ ለኵሉ ፡ በበ ፡ መትልው ። እጽኅፍ ፡ ለከ ፡ ዐዚዝ ፡ ቴዎፍሊ ፡ ለኣኃዜ
+                     ፡  ወረትዐኒ ፡ ሊተኒ ፡ እትልዎ ፡ እምጥንቱ ፡ ወእጠይቆ ፡ ለኵሉ ፡ በበ ፡ መትልው ። እጽኅፍ ፡ ለከ ፡ ዐዚዝ ፡ ቴዎፍሊ ፡ ለኣኃዜ
+                     ፡  
+                     <sup>4</sup>ከመ ፡ ታእምር ፡ ጥዩቀ ፡ በእንተ ፡ ኵሉ ፡ ኀይለ ፡ ነገር ፡ ትምህርተ ፡ ዘተመሀርከ ።ከመ ፡ ታእምር ፡ ጥዩቀ ፡ በእንተ ፡ ኵሉ ፡ ኀይለ ፡ ነገር ፡ ትምህርተ ፡ ዘተመሀርከ ።
+                     
+                  </div>
+                  
+               </div><br></br>
+               
+               
+               <div class="row-fluid" id="textpart">
+                  <head><a href="#ms_i4.4.2">ms i4.4.2, chapter: 8</a></head><br></br>
+                  
+                  <div class="container-fluid">
+                     (Excerpt from <a href="#178">f. 178</a> )<br></br>
+                     <sup>3</sup>ወአምጽኡ ፡ ኃቤሁ ፡ (sic) ጸሐፍት ፡ ወፈረሳዊያን ፡ ብእሲት ፡ እስርት ፡ እንተ ፡ ተረክበት ፡ በዝሙት ። 
+                     ወኣብእዋ ፡ ውስጠ ፡ ወኣቀምዋ ፡ ቅድመ ፡ ኢየሱስ ፡ ወአምጽኡ ፡ ኃቤሁ ፡ (sic) ጸሐፍት ፡ ወፈረሳዊያን ፡ ብእሲት ፡ እስርት ፡ እንተ ፡ ተረክበት ፡ በዝሙት ። 
+                     ወኣብእዋ ፡ ውስጠ ፡ ወኣቀምዋ ፡ ቅድመ ፡ ኢየሱስ ፡ 
+                     <sup>4</sup> ወይቤልዎ ፡ ኦመምህር ፡ ረከብናሃ ፡ ለዛቲ ፡ ብእሲት ፡ በዝሙት ፡ ወይቤልዎ ፡ ኦመምህር ፡ ረከብናሃ ፡ ለዛቲ ፡ ብእሲት ፡ በዝሙት ፡
+                     <sup>5</sup>ወበሕግነ ፡ ሠርዐ ፡ ሙሴ ፡ ከመ ፡ ትትወገር ፡ ወአንተ ፡ እንከ ፡ ምንተ ፡ ትኤዝዝ ፡ ናሁ ፡ ተረክበት ፡ በዝሙት ።ወበሕግነ ፡ ሠርዐ ፡ ሙሴ ፡ ከመ ፡ ትትወገር ፡ ወአንተ ፡ እንከ ፡ ምንተ ፡ ትኤዝዝ ፡ ናሁ ፡ ተረክበት ፡ በዝሙት ።
+                     <sup>6</sup> ወዘንተ ፡ ነገር ፡ ተስአልዎ ፡ እንዘ ፡ ያሜክርዎ ፡ ከመ ፡ ይርከብ ፡ ምክንያተ ፡ በላዕሊሃ ።
+                     ወኢየሱስ ፡ አትሐተ ፡ ለትሕተ ፡ ኣዕይንቲሁ ፡ ለምድር ፡ እንዘ ፡ ይጽሕፍ ፡ በአጻብዒሁ ፡ ወዘንተ ፡ ነገር ፡ ተስአልዎ ፡ እንዘ ፡ ያሜክርዎ ፡ ከመ ፡ ይርከብ ፡ ምክንያተ ፡ በላዕሊሃ ።
+                     ወኢየሱስ ፡ አትሐተ ፡ ለትሕተ ፡ ኣዕይንቲሁ ፡ ለምድር ፡ እንዘ ፡ ይጽሕፍ ፡ በአጻብዒሁ ፡
+                     <sup>7</sup>ወሶቤ ፡ ቆሙ ፡ ብዙኃን ፡ ተስእልዎ ፡
+                     ካዕበ ፡ ወአንሥአ ፡ ኣዕይንቲሁ ፡ ኀቤሆሙ ፡ ወነጸረ ።
+                     ወይቤሎሙ ፡ ዘአልቦ ፡ ኀጢአተ ፡ እምውስቴትክሙ ፡ ለይገራ ፡ ቀዲሙ ።ወሶቤ ፡ ቆሙ ፡ ብዙኃን ፡ ተስእልዎ ፡
+                     ካዕበ ፡ ወአንሥአ ፡ ኣዕይንቲሁ ፡ ኀቤሆሙ ፡ ወነጸረ ።
+                     ወይቤሎሙ ፡ ዘአልቦ ፡ ኀጢአተ ፡ እምውስቴትክሙ ፡ ለይገራ ፡ ቀዲሙ ።
+                     <sup>8</sup> ወዳግመ ፡ ካዕበ ፡ ደነነ ፡ እንዘ ፡ ይጽሕፍ ፡ በአጻብዒሁ ። ወዳግመ ፡ ካዕበ ፡ ደነነ ፡ እንዘ ፡ ይጽሕፍ ፡ በአጻብዒሁ ።
+                     
+                  </div>
+                  
+               </div><br></br>
+               
+               
+            </div>
+            <div class="row-fluid" id="keywords">
+               <h2>Keywords</h2>
+               <ul>
+                  <li>Bible</li>
+                  <li>NewTestament</li>
+               </ul>
+            </div>
+         </div><script>
+            $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+            });
+        </script><footer id="footer" class="col-md-12">
+            <h2>Authors</h2>
+            <ul>
+               <li>Dorothea Reule Changes 5.7.2016</li>
+               <li>Dorothea Reule Created catalogue entry 30.6.2016</li>
+            </ul>
+         </footer>
+      </div>
+   </body>
+</html>

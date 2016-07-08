@@ -2,11 +2,11 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" 
-    exclude-result-prefixes="xs"
+    xmlns="http://www.w3.org/1999/xhtml"  
+    exclude-result-prefixes="#all"
     version="2.0">
     <xsl:template match="t:msItem[parent::t:msContents]">
-                <div class="container">
+                <div class="row">
                     <xsl:attribute name="id">
                         <xsl:value-of select="@xml:id"/>
                     </xsl:attribute>
@@ -23,7 +23,7 @@
     </xsl:template>
     
     <xsl:template match="t:msItem[parent::t:msItem]">
-            <div style="padding-left: 50px;">
+            <div class="row">
                     <xsl:attribute name="id">
                         <xsl:value-of select="@xml:id"/>
                     </xsl:attribute>

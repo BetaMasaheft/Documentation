@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="xs" version="2.0">
+    xmlns="http://www.w3.org/1999/xhtml"  exclude-result-prefixes="#all" version="2.0">
 
     <xsl:template name="mss">
-        <nav>
-            <div>
-                <ul class="nav nav-pills nav-stacked">
-                    <h3>Navigate section</h3>
-                    <li>
+        
+        <nav class="col-md-2">
+            <ul class="nav nav-pills nav-stacked"  id="navig">
+                <li class="active"><h3>Navigate section</h3><ul class="nav nav-pills nav-stacked" id="myScrollspy">
+                    <li class="active">
                         <a href="#general">General</a>
                     </li>
                     <li>
@@ -48,11 +48,12 @@
                     </xsl:if>
                     <li>
                         <a href="#footer">Authors</a>
-                    </li>
-                </ul>
-                <ul class="nav nav-pills nav-stacked">
-                    <h3>Navigate by id</h3>
-                    <xsl:for-each select="//*[not(self::t:TEI)][@xml:id]">
+                    </li></ul></li>
+                
+                
+                
+                    <li><h3>Navigate by id</h3>
+                        <ul class="nav nav-pills nav-stacked" >                    <xsl:for-each select="//*[not(self::t:TEI)][@xml:id]">
                         <xsl:sort select="position()"/>
                         <li>
                             <a href="#{@xml:id}">
@@ -147,10 +148,11 @@
                             </a>
                         </li>
                     </xsl:for-each>
+                </ul></li>
                 </ul>
-            </div>
-        </nav>
-        <section id="general">
+            </nav>
+        <div  class="container-fluid col-md-10">
+            <div class="row-fluid"  id="general">
 
             <xsl:apply-templates select="//t:msIdentifier" mode="title"/>
 
@@ -159,8 +161,8 @@
                 <xsl:if test="//t:publicationStmt/t:date"><xsl:text> on </xsl:text><xsl:value-of
                         select="format-dateTime(//t:publicationStmt/t:date, '[D].[M].[Y]')"
                     /></xsl:if></p>
-        </section>
-        <section id="description">
+        </div>
+            <div class="row-fluid" id="description">
             <xsl:if
                 test="//t:date[@evidence = 'internal-date'] or //t:origDate[@evidence = 'internal-date']">
                 <p align="right" style="font-size:xx-large;">Dated</p>
@@ -185,18 +187,18 @@
                     </xsl:when>
                     <xsl:otherwise>1</xsl:otherwise>
                 </xsl:choose></h3>
-        </section>
+        </div>
 
 
-        <section id="generalphysical">
+            <div class="row-fluid"  id="generalphysical">
             <xsl:apply-templates select="//t:msDesc"/>
 
-        </section>
+        </div>
 
 
 
         <xsl:if test="//t:additional//t:listBibl">
-            <section id="catalogue">
+            <div class="row-fluid"  id="catalogue">
                 <xsl:for-each select="//t:additional//t:listBibl">
                     <h2><xsl:if test="./ancestor::t:msPart"><xsl:variable name="currentMsPart"
                                     ><xsl:value-of select="./ancestor::t:msPart/@xml:id"
@@ -204,17 +206,17 @@
                             <xsl:value-of select="$currentMsPart"/></xsl:if> Catalogued in</h2>
                     <xsl:apply-templates select="."/>
                 </xsl:for-each>
-            </section>
+            </div>
         </xsl:if>
 
         <xsl:if test="//t:body[t:div]">
-            <section id="transcription">
+            <div class="row-fluid well" id="transcription">
                 <xsl:apply-templates select="//t:text"/>
-            </section>
+            </div>
         </xsl:if>
 
         <xsl:if test="//t:term">
-            <section id="keywords">
+            <div class="row-fluid"  id="keywords">
                 <h2>Keywords</h2>
                 <ul>
                     <xsl:for-each select="//t:term">
@@ -223,12 +225,12 @@
                         </li>
                     </xsl:for-each>
                 </ul>
-            </section>
+            </div>
         </xsl:if>
 
 
         <xsl:if test="//t:listBibl[@type = 'relations']">
-            <section id="relations">
+            <div class="row-fluid"  id="relations">
                 <table>
                     <caption>Relations of this Entity with other entities</caption>
                     <thead>
@@ -242,9 +244,14 @@
                     />
                 </table>
                 <xsl:apply-templates mode="graph" select="//t:listBibl[@type = 'relations']"/>
-            </section>
-        </xsl:if>
-        <footer id="footer">
+            </div>
+        </xsl:if></div>
+        <script>
+            $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+            });
+        </script>
+        <footer id="footer" class="col-md-12">
             <h2>Authors</h2>
             <ul>
                 <xsl:apply-templates select="//t:revisionDesc"/>
