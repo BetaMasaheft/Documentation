@@ -29,6 +29,7 @@
             // create an array with nodes
             var nodes = new vis.DataSet([
             <xsl:variable name="list">
+                
                 <xsl:for-each select="t:relation">
 <!--                    this needs to stay here in order to process all the relation nodes in one time, sequence them and remove doubles-->
 
@@ -84,14 +85,14 @@
                                     )
                                 "/>
                         <xsl:variable name="label" select="document(concat('../../', $path, '/', $filename, '.xml'))//t:TEI"/>
-                        <temp>{id:"<xsl:value-of select="$id"/>", label:"<xsl:choose>
+                        <li>{id:"<xsl:value-of select="$id"/>", label:"<xsl:choose>
                             <xsl:when test="starts-with($filename, 'PRS')"><xsl:value-of select="normalize-space($label//t:person/t:persName[1])"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'LOC')"><xsl:value-of select="normalize-space($label//t:place/t:placeName[1])"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'INS')"><xsl:value-of select="normalize-space($label//t:place/t:placeName[1])"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'LIT')"><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[@xml:id = 't1'], '&quot;', ' '))"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'NAR')"><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[1], '&quot;', ' '))"/></xsl:when>
                             <xsl:otherwise><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[1], '&quot;', ' '))"/></xsl:otherwise>
-                        </xsl:choose>"},</temp> 
+                        </xsl:choose>"},</li> 
                 </xsl:for-each>
        
        
@@ -148,14 +149,14 @@
                                     )
                                 "/>
                         <xsl:variable name="label" select="document(concat('../../', $path, '/', $filename, '.xml'))//t:TEI"/>
-                        <temp>{id:"<xsl:value-of select="$id"/>", label:"<xsl:choose>
+                        <li>{id:"<xsl:value-of select="$id"/>", label:"<xsl:choose>
                             <xsl:when test="starts-with($filename, 'PRS')"><xsl:value-of select="normalize-space($label//t:person/t:persName[1])"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'LOC')"><xsl:value-of select="normalize-space($label//t:place/t:placeName[1])"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'INS')"><xsl:value-of select="normalize-space($label//t:place/t:placeName[1])"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'LIT')"><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[@xml:id = 't1'], '&quot;', ' '))"/></xsl:when>
                             <xsl:when test="starts-with($filename, 'NAR')"><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[1], '&quot;', ' '))"/></xsl:when>
                             <xsl:otherwise><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[1], '&quot;', ' '))"/></xsl:otherwise>
-                        </xsl:choose>"},</temp> 
+                        </xsl:choose>"},</li> 
                     </xsl:for-each>
                 
                 
@@ -216,23 +217,23 @@
                                     )
                                 "/>
                     <xsl:variable name="label" select="document(concat('../../', $path, '/', $filename, '.xml'))//t:TEI"/>
-                    <temp>{id:"<xsl:value-of select="$id"/>", label:"<xsl:choose>
+                    <li>{id:"<xsl:value-of select="$id"/>", label:"<xsl:choose>
                         <xsl:when test="starts-with($filename, 'PRS')"><xsl:value-of select="normalize-space($label//t:person/t:persName[1])"/></xsl:when>
                         <xsl:when test="starts-with($filename, 'LOC')"><xsl:value-of select="normalize-space($label//t:place/t:placeName[1])"/></xsl:when>
                         <xsl:when test="starts-with($filename, 'INS')"><xsl:value-of select="normalize-space($label//t:place/t:placeName[1])"/></xsl:when>
                         <xsl:when test="starts-with($filename, 'LIT')"><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[@xml:id = 't1'], '&quot;', ' '))"/></xsl:when>
                         <xsl:when test="starts-with($filename, 'NAR')"><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[1], '&quot;', ' '))"/></xsl:when>
                         <xsl:otherwise><xsl:value-of select="normalize-space(replace($label//t:titleStmt/t:title[1], '&quot;', ' '))"/></xsl:otherwise>
-                    </xsl:choose>"},</temp> 
+                    </xsl:choose>"},</li> 
                 </xsl:for-each>
                 </xsl:for-each>
+                
             </xsl:variable>
             
 <!--            prints each of the strings above with id and label only once-->
-               <xsl:for-each select="distinct-values($list/t:temp)">
-                   <xsl:value-of select="."/>
-               </xsl:for-each>
            
+            <xsl:for-each select="distinct-values($list/t:li)"><xsl:value-of select="."/></xsl:for-each>
+               
            
             ]);
             

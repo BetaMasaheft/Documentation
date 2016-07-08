@@ -4,23 +4,24 @@
     xmlns="http://www.w3.org/1999/xhtml"  exclude-result-prefixes="xs" version="2.0">
 
     <xsl:template name="placeInstit">
-        <nav>
-            <ul> Navigate section <li><a href="#general">General</a></li>
+        <nav class="col-md-2">
+            <ul class="nav nav-pills nav-stacked"  id="navig">Navigate section <li><a href="#general">General</a></li>
                 <li><a href="#description">Description</a></li>
                 <li><a href="#map">Map</a></li>
             </ul>
         </nav>
-        <section id="general">
+        <div  class="container-fluid col-md-10">
+            <div class="row-fluid"   id="general">
             <p> </p>
             <p>Edited by <xsl:apply-templates
                     select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
                 <xsl:if test="//t:publicationStmt/t:date">on <xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
                 /></xsl:if></p>
-        </section>
-        <section id="description">
+        </div>
+            <div class="row-fluid"   id="description">
             <xsl:if test="//t:place[@subtype = 'institution']">
-                <p align="right" style="font-size:xx-large;">Institution</p>
+                <h1><span class="label label-success">Institution</span></h1>
             </xsl:if>
 
             <xsl:if test="//t:place/@type">
@@ -113,9 +114,9 @@
             <p>
                 <xsl:apply-templates select="//t:ab[@type = 'description']"/>
             </p>
-        </section>
+        </div>
 
-        <section id="map">
+            <div class="row-fluid"  id="map">
             <xsl:if test="matches(//t:geo/text(), '\d+')">
                 <div id="map" style="width: 100%; height: 400px"/>
                 <script type="text/javascript">
@@ -130,10 +131,11 @@
                         L.marker([<xsl:value-of select="substring-before(//t:geo, ' ')"/>, <xsl:value-of select="substring-after(//t:geo, ' ')"/>]).addTo(mymap).bindPopup("<xsl:value-of select="//t:placeName[not(@type)]"/>, altitude: <xsl:value-of select="//t:height"/>m").openPopup();
                     </script>
             </xsl:if>
-        </section>
-        <section>
+        </div>
+            <div class="row-fluid"  >
             <xsl:apply-templates select="//t:listRelation" mode="graph"/>
-        </section>
+            </div>
+        </div>
         <footer id="footer">
             <h2>Authors</h2>
             <ul>

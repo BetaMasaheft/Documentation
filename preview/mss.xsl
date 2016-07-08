@@ -165,7 +165,7 @@
             <div class="row-fluid" id="description">
             <xsl:if
                 test="//t:date[@evidence = 'internal-date'] or //t:origDate[@evidence = 'internal-date']">
-                <p align="right" style="font-size:xx-large;">Dated</p>
+                <h1><span class="label label-primary">Dated</span></h1>
             </xsl:if>
             <h2>General description</h2>
 

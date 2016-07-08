@@ -4,16 +4,17 @@
     xmlns="http://www.w3.org/1999/xhtml"  exclude-result-prefixes="xs" version="2.0">
 
     <xsl:template name="person">
-        <nav>
-            <ul> Navigate section <li><a href="#general">general</a></li>
+        <nav class="col-md-2">
+            <ul class="nav nav-pills nav-stacked"  id="navig"> Navigate section <li><a href="#general">general</a></li>
                 <li><a href="#description">Description</a></li>
                 <li><a href="#history">History</a></li>
                 <li><a href="#relations">Relations</a></li>
                 <li><a href="#bibliography">Bibliography</a></li>
             </ul>
 
-        </nav>
-        <section id="general">
+        </nav><div  class="container-fluid col-md-10">
+            
+            <div class="row-fluid"   id="general">
             <p>
                 <xsl:if test="//t:msIdentifier/t:altIdentifier">
                     <xsl:for-each select="//t:msIdentifier/t:altIdentifier">
@@ -27,13 +28,13 @@
                     test="//t:publicationStmt/t:date">on <xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
                 /></xsl:if></p>
-        </section>
+        </div>
 
 
-        <section id="description">
+            <div class="row-fluid"   id="description">
             <h2>Names</h2>
             <xsl:choose><xsl:when test="//t:personGrp">
-                <p align="right" style="font-size:xx-large;">Group</p>
+                <h1><span class="label label-secondary">Group</span></h1>
                 <xsl:for-each select="//t:personGrp/t:persName">
                     <xsl:sort/>
                     <li>
@@ -111,9 +112,9 @@
                 <h2>Faith: </h2>
                 <xsl:apply-templates select="//t:faith"/>
             </xsl:if>
-        </section>
+        </div>
 
-        <section id="history"> 
+            <div class="row-fluid"   id="history"> 
         
             <xsl:if test="//t:birth[node()]">
                 <h2>Birth: 
@@ -134,19 +135,19 @@
                 <xsl:apply-templates select="//t:floruit"/>
                 
             </xsl:if>
-        </section>
+        </div>
 
         <xsl:if test="//t:listRelation">
-            <section id="relations">
+            <div class="row-fluid"   id="relations">
                 <xsl:apply-templates mode="graph" select="//t:listRelation"/>
-            </section>
+            </div>
         </xsl:if>
 
 
-        <section id="bibliography">
+            <div class="row-fluid"   id="bibliography">
             <xsl:apply-templates select="//t:listBibl"/>
-        </section>
-
+        </div>
+        </div>
 
 
         <footer id="footer">

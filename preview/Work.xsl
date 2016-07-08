@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:t="http://www.tei-c.org/ns/1.0"
-    xmlns="http://www.w3.org/1999/xhtml"  exclude-result-prefixes="xs" version="2.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:t="http://www.tei-c.org/ns/1.0"
+    xmlns="http://www.w3.org/1999/xhtml"  
+    exclude-result-prefixes="xs" version="2.0">
 
     <xsl:template name="Work">
-        <nav>
-            <ul> Navigate section <li><a href="#general">General</a></li>
+        <nav class="col-md-2">
+            <ul class="nav nav-pills nav-stacked"  id="navig">
+               Navigate section <li><a href="#general">General</a></li>
                 <li><a href="#description">Description</a></li>
                 <xsl:if test="//t:body[t:div]">
                     <li><a href="#transcription">Transcription
@@ -16,14 +19,15 @@
             </ul>
 
         </nav>
-        <section id="general">
+        <div  class="container-fluid col-md-10">
+            <div class="row-fluid"   id="general">
             <h1>
                 <xsl:if test="//t:titleStmt/t:author">
                     <a href="#{@corresp}">
                         <xsl:value-of select="//t:titleStmt/t:author"/>
                     </a>
-                </xsl:if>
                 <xsl:text>, </xsl:text>
+                </xsl:if>
                 <i>
                     <xsl:if test="//t:titleStmt/t:title">
                         <xsl:value-of select="//t:titleStmt/t:title[@xml:id = 't1']"/>
@@ -35,9 +39,9 @@
                 <xsl:if test="//t:publicationStmt/t:date">on <xsl:value-of
                         select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
                 /></xsl:if></p>
-        </section>
+        </div>
 
-        <section id="description">
+            <div class="row-fluid"   id="description">
             <h2>General description</h2>
             <p>
                 <xsl:apply-templates select="//t:abstract"/>
@@ -72,15 +76,15 @@
             <h2>Bibliography</h2>
             <xsl:apply-templates select="//t:listBibl"/>
 
-        </section>
+        </div>
 
         <xsl:if test="//t:body[t:div]">
-            <section id="transcription">
+            <div class="row-fluid well"   id="transcription">
                 <xsl:apply-templates select="//t:text"/>
-            </section>
+            </div>
         </xsl:if>
 
-        <section id="relations">
+            <div class="row-fluid"   id="relations">
 
 
             <table>
@@ -95,7 +99,8 @@
                 <xsl:apply-templates mode="reltable" select="//t:listBibl[@type = 'relations']"/>
             </table>
             <xsl:apply-templates select="//t:listBibl[@type = 'relations']" mode="graph"/>
-        </section>
+        </div>
+        </div>
         <footer id="footer">
             <h2>Authors</h2>
             <ul>
