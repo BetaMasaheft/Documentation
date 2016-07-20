@@ -55,6 +55,8 @@
                 
             </xsl:otherwise></xsl:choose>
         <xsl:text> </xsl:text>
+        <xsl:if test="@cert = 'low'"><xsl:text>(?)</xsl:text></xsl:if>
         <xsl:if test="parent::t:ab"><xsl:text>)</xsl:text> <br/></xsl:if>
+        
     </xsl:template>
 </xsl:stylesheet>
