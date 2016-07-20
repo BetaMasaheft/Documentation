@@ -23,7 +23,11 @@
                 <xsl:apply-templates select=".//t:signatures"/>
             </p>
         </xsl:if>
-        
+        <xsl:if test=".//t:note">
+            <p>
+                <xsl:apply-templates select=".//t:note"/>
+            </p>
+        </xsl:if>
         
      <div class="container allCollation">   
          <button type="button" class="btn btn-info" data-toggle="collapse"
