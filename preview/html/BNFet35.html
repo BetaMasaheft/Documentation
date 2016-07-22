@@ -1,0 +1,958 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"></link><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script><script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script><title> Canon Tables, Gospels</title><script src="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js" type="text/javascript"></script><script src="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.js" type="text/javascript"></script><link href="https://api.mapbox.com/mapbox.js/v2.3.0/mapbox.css" rel="stylesheet"></link>
+      <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css"></link><script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js" type="text/javascript"></script><link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet"></link>
+      <link href="preview.css" rel="stylesheet" type="text/css"></link>
+   </head>
+   <body>
+      <div class="jumbotron text-center">
+         <h1> Canon Tables, Gospels</h1>
+      </div>
+      <div class="container-fluid" id="contents" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+         <nav class="col-md-2">
+            <ul class="nav nav-pills nav-stacked" id="navig">
+               <li class="active">
+                  <h3>Navigate section</h3>
+                  <ul class="nav nav-pills nav-stacked" id="myScrollspy">
+                     <li class="active"><a href="#general">General</a></li>
+                     <li><a href="#description">Description</a></li>
+                     <li><a href="#generalphysical">Physical desc of ms</a></li>
+                     <li><a href="#catalogue">Catalogue</a></li>
+                     <li><a href="#keywords">Keywords</a></li>
+                     <li><a href="#transcription">Transcription </a></li>
+                     <li><a href="#footer">Authors</a></li>
+                  </ul>
+               </li>
+               <li>
+                  <h3>Navigate by id</h3>
+                  <ul class="nav nav-pills nav-stacked">
+                     <li><a href="#ms">msDesc</a></li>
+                     <li><a href="#ms_i1">Content Item 1</a></li>
+                     <li><a href="#coloph1">Colophon
+                           1</a></li>
+                     <li><a href="#ms_i1.1">Content Item 1.1</a></li>
+                     <li><a href="#ms_i1.1.1">Content Item 1.1.1</a></li>
+                     <li><a href="#ms_i1.1.2">Content Item 1.1.2</a></li>
+                     <li><a href="#ms_i1.2.1">Content Item 1.2.1</a></li>
+                     <li><a href="#ms_i1.2.2">Content Item 1.2.2</a></li>
+                     <li><a href="#ms_i1.3.1">Content Item 1.3.1</a></li>
+                     <li><a href="#ms_i1.3.2">Content Item 1.3.2</a></li>
+                     <li><a href="#ms_i1.4.1">Content Item 1.4.1</a></li>
+                     <li><a href="#ms_i1.4.2">Content Item 1.4.2</a></li>
+                     <li><a href="#ms_i1.5.1">Content Item 1.5.1</a></li>
+                     <li><a href="#ms_i1.5.2">Content Item 1.5.2</a></li>
+                     <li><a href="#h1">Hand 1</a></li>
+                     <li><a href="#a1">Addition 1</a></li>
+                     <li><a href="#a2">Addition 2</a></li>
+                     <li><a href="#a3">Addition 3</a></li>
+                     <li><a href="#a4">Addition 4</a></li>
+                     <li><a href="#a5">Addition 5</a></li>
+                     <li><a href="#a6">Addition 6</a></li>
+                     <li><a href="#a7">Addition 7</a></li>
+                     <li><a href="#a8">Addition 8</a></li>
+                     <li><a href="#a9">Addition 9</a></li>
+                     <li><a href="#a10">Addition 10</a></li>
+                     <li><a href="#a11">Addition 11</a></li>
+                     <li><a href="#a12">Addition 12</a></li>
+                     <li><a href="#a13">Addition 13</a></li>
+                     <li><a href="#a14">Addition 14</a></li>
+                     <li><a href="#a15">Addition 15</a></li>
+                     <li><a href="#a16">Addition 16</a></li>
+                     <li><a href="#a17">Addition 17</a></li>
+                     <li><a href="#a18">Addition 18</a></li>
+                     <li><a href="#a19">Addition 19</a></li>
+                     <li><a href="#a20">Addition 20</a></li>
+                     <li><a href="#a21">Addition 21</a></li>
+                     <li><a href="#a22">Addition 22</a></li>
+                     <li><a href="#a23">Addition 23</a></li>
+                     <li><a href="#a24">Addition 24</a></li>
+                     <li><a href="#a25">Addition 25</a></li>
+                     <li><a href="#a26">Addition 26</a></li>
+                     <li><a href="#Mt19">Title 19</a></li>
+                     <li><a href="#Lu1">div</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+         <div class="container-fluid col-md-10">
+            <div class="row-fluid" id="general">
+               <a href="../../Institutions/INS0303BNF">Bibliothèque nationale de France</a>
+               <b>Collection: Manuscrits orientaux</b>
+               <b>Collection: Fonds éthiopien</b>
+               
+               <h1>Éth. 21</h1>
+               
+               <p>Other identifiers: Saint-Germain 19. Séguier </p>
+               
+               <p>Edited by Dorothea Reule</p>
+            </div>
+            <div class="row-fluid" id="description">
+               <h2>General description</h2>
+               <h3>People</h3>
+               <p>
+                  <b style="color:red;                 text-align:center;">**No record for Person ** =  **</b>
+                  
+               </p>
+               <h3>Number of Text units: 12</h3>
+               <h3>Number of Codicological units: 1</h3>
+            </div>
+            <div class="row-fluid" id="generalphysical">
+               <div class="row-fluid" id="mshistory">
+                  <h2>Origin </h2>
+                  <p>
+                     
+                     <b>Date: </b><p>1400-1499</p>
+                     <p></p>
+                     
+                     <b>Provenance:</b><p></p>
+                     
+                  </p>
+               </div>
+               <div class="row-fluid" id="msdimensions">
+                  <supportDesc xmlns="http://www.tei-c.org/ns/1.0">
+                     
+                     
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">Form of support</h3>
+                     <p xmlns="http://www.w3.org/1999/xhtml">Codex</p>
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">Writing material </h3>
+                     <p xmlns="http://www.w3.org/1999/xhtml">parchment</p>
+                     
+                     
+                     <h4 xmlns="http://www.w3.org/1999/xhtml">Extent </h4>
+                     <div xmlns="http://www.w3.org/1999/xhtml">
+                        202 (leaf) 
+                        
+                        <h2>Physical description</h2>
+                        <h3>Outer dimension</h3>
+                        <p>H: 335 x W: 230 x D  mm. </p>
+                        <p>(proportion height/width: 1.4565 ) </p>
+                        
+                        
+                        
+                        
+                        
+                     </div>
+                     
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">State of preservation </h3>
+                     <p xmlns="http://www.w3.org/1999/xhtml"><b>good</b></p>
+                     <h4 xmlns="http://www.w3.org/1999/xhtml">Condition</h4>
+                     <p xmlns="http://www.w3.org/1999/xhtml"></p>
+                     
+                  </supportDesc>
+               </div>
+               <div class="row-fluid" id="msdimensions">
+                  <h3>Layout </h3>
+                  <h4>1</h4>
+                  <p>Number of columns : 2</p>
+                  <p>Number of lines : 27 28</p>
+                  <h3>Palaeography </h3>
+                  <h4>Punctuation</h4>
+                  <p>Executed: </p>
+                  <p>Usage: </p>
+                  <ul></ul>
+               </div>
+               <div class="row-fluid" id="mshands">
+                  <h2>Hands</h2>
+                  <div>
+                     
+                     <h4 id="h1">Hand 1</h4>
+                     <p>Ethiopic</p>
+                     1400-1499
+                     
+                     
+                  </div>
+               </div>
+               <div class="row-fluid" id="mscontent">
+                  <msContents xmlns="http://www.tei-c.org/ns/1.0">
+                     
+                     <h3 xmlns="http://www.w3.org/1999/xhtml">Summary</h3>
+                     <ul xmlns="http://www.w3.org/1999/xhtml" class="nav nav-tabs">
+                        <li class="active"><a data-toggle="tab" href="#extracted">Extracted summary of contents</a></li>
+                        <li><a data-toggle="tab" href="#given">Given summary of contents</a></li>
+                     </ul>
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="tab-content">
+                        <div id="given" class="tab-pane fade"> </div>
+                        <div id="extracted" class="tab-pane fade in active">
+                           <ol>
+                              <ul>ms_i1, <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT1560Gospel"><i>Gospels Four Gospels; Qǝddus Wängel</i></a> [Complete] 
+                              </ul>
+                              <ul>ms_i1.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2705** =  **</b> [Incomplete] 
+                              </ul>
+                              <ul>ms_i1.1.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT1349Epistl** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.1.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT3132Synops** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.2.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2709Matthew** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.2.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2708MtTitles** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.3.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2711Mark** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.3.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2710MkTitles** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.4.1, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2713Luke** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.4.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2712LkTitles** =  **</b> [Complete] 
+                              </ul>
+                              <ul>ms_i1.5.1, <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT2715John"><i>Gospel of John (Bǝsrāta Yoḥannǝs)</i></a> [Complete] 
+                              </ul>
+                              <ul>ms_i1.5.2, <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2714JnTitles** =  **</b> [Complete] 
+                              </ul>
+                           </ol>
+                        </div>
+                     </div>
+                     
+                     
+                     
+                     
+                     <div xmlns="http://www.w3.org/1999/xhtml" class="row" id="ms_i1"><button type="button" class="btn btn-info" data-toggle="collapse" data-target="#itemms_i1">expand/collapse</button><h3>Item ms_i1</h3>
+                        <div id="itemms_i1" class="collapse">
+                           ff. <a href="1r">1r</a>-<a href="197r">197r</a> 
+                           <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT1560Gospel"><i>Gospels Four Gospels; Qǝddus Wängel</i></a> [Complete] 
+                           
+                           <p><b>Rubric : </b>Chapter titles from n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i1.2.2">ms_i1.2.2</a>, n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i1.3.2">ms_i1.3.2</a>,
+                              n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i1.4.2">ms_i1.4.2</a> and n.nos. <a xmlns:t="http://www.tei-c.org/ns/1.0" href="#ms_i1.5.2">ms_i1.5.2</a> are also marked on the
+                              top of pages.
+                           </p>
+                           
+                           <p><b>Rubric : </b>Pericopes and small chapters are marked in the margins.
+                           </p>
+                           
+                           <p>The text of this manuscript usually has the older version but occasionally also
+                              combinations of the older and revised version. <a href="https://archive.org/details/bub_gb_DigVAAAAQAAJ">Dillmann 1851, part Annotationes, page 1</a></p>
+                           
+                           
+                           <hr style="border-top: dotted 2px;"></hr>
+                           <h3 id="coloph1">Colophon</h3>
+                           <p><a href="#197r">f. 197r</a> 
+                           </p>
+                           <p>
+                              
+                              
+                              በአኰቴተ ፡ አብ ፡ ...ተጽሕፈት ፡ ዛቲ ፡ ወንጌለ ፡ መንግሥት ፡ ...
+                              ፡  ፡  ወእንዘ ፡ ክቡር ፡ ሊቀ ፡ ጳጳስነ ፡ አብ ፡ ዐቢይ ፡ አባ ፡  ፡ ወንጉሥነ ፡  ፡
+                              ዘተሰምየ ፡ በጸጋ ፡ እግዚአብሔር ፡ ቈስጠንጢኖስ ፡ ወተፍጻሚቱሰ ፡ ፡ አመ ፡ ሰዱሱ ፡ ለመዐልት ፡ ወአመ ፡ ኀሙሱ ፡ ለሌሊት
+                              ፡ ወስብሐት ፡
+                              ለእግዚአብሔር ፡ ለዓለም ፡ አሜን ። 
+                           </p>
+                           <p>
+                              <p> The colophon indicates that the manuscript was produced in the <a href="../../Places/LOC4555MarJir">church of Mār Ǧirǧis</a> in <a href="../../Places/LOC3790HaratZ">Ḥarat Zawīla</a> in <a href="../../Places/LOC2085Cairo">Cairo</a>, at the time of the metropolitan <b style="color:red;                 text-align:center;">**No record for Person ** = Yoḥānnǝs **</b> and the king of Ethiopia <a href="../../Persons/PRS3874eskender">ʾƎskǝndǝr</a>. It was completed in Maskaram 143 Year of Grace
+                                 (1483 CE).
+                              </p>
+                           </p>
+                           
+                           
+                           <div class="row" id="ms_i1.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.1</h4>
+                              <div>
+                                 ff. <a href="1r">1r</a>-<a href="6v">6v</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2705** =  **</b> [Incomplete] 
+                                 
+                                 
+                                 <div class="row" id="ms_i1.1.1">
+                                    <hr style="border-top: dotted 1px;"></hr>
+                                    <h4>Item ms_i1.1.1</h4>
+                                    <div>
+                                       ff. <a href="1r">1r</a>-<a href="unknown">unknown</a> 
+                                       <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT1349Epistl** =  **</b> [Complete] 
+                                       
+                                       <p><b>Language of text: </b>Gǝʿǝz
+                                       </p>
+                                       
+                                    </div>
+                                 </div>
+                                 
+                                 
+                                 <div class="row" id="ms_i1.1.2">
+                                    <hr style="border-top: dotted 1px;"></hr>
+                                    <h4>Item ms_i1.1.2</h4>
+                                    <div>
+                                       ff. <a href="unknown">unknown</a>-<a href="6v">6v</a> 
+                                       <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT3132Synops** =  **</b> [Complete] 
+                                       
+                                       <p><b>Language of text: </b>Gǝʿǝz
+                                       </p>
+                                       
+                                    </div>
+                                 </div>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           
+                           <div class="row" id="ms_i1.2.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.2.1</h4>
+                              <div>
+                                 ff. <a href="7r">7r</a>-<a href="unknown">unknown</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2709Matthew** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i1.2.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.2.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href="62v">62v</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2708MtTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i1.3.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.3.1</h4>
+                              <div>
+                                 ff. <a href="63r">63r</a>-<a href="unknown">unknown</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2711Mark** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           
+                           <div class="row" id="ms_i1.3.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.3.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href="95v">95v</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2710MkTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           
+                           <div class="row" id="ms_i1.4.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.4.1</h4>
+                              <div>
+                                 ff. <a href="96r">96r</a>-<a href="unknown">unknown</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2713Luke** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           <div class="row" id="ms_i1.4.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.4.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href="152v">152v</a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2712LkTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           
+                           <div class="row" id="ms_i1.5.1">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.5.1</h4>
+                              <div>
+                                 ff. <a href="153r">153r</a>-<a href="unknown">unknown</a> 
+                                 <a xmlns:t="http://www.tei-c.org/ns/1.0" href="../../Works/LIT2715John"><i>Gospel of John (Bǝsrāta Yoḥannǝs)</i></a> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                           
+                           
+                           <div class="row" id="ms_i1.5.2">
+                              <hr style="border-top: dotted 1px;"></hr>
+                              <h4>Item ms_i1.5.2</h4>
+                              <div>
+                                 ff. <a href="unknown">unknown</a>-<a href=""></a> 
+                                 <b xmlns:t="http://www.tei-c.org/ns/1.0" style="color:red;                                 text-align:center;">**No record for Work LIT2714JnTitles** =  **</b> [Complete] 
+                                 
+                                 <p><b>Language of text: </b>Gǝʿǝz
+                                 </p>
+                                 
+                              </div>
+                           </div>
+                           
+                        </div>
+                     </div>
+                     <hr xmlns="http://www.w3.org/1999/xhtml"></hr>
+                     
+                     
+                  </msContents>
+               </div>
+               <div class="row-fluid" id="msadditiones">
+                  <div id="additiones">
+                     <h2>Additiones </h2>In this manuscript there are  1 ScribalNoteCommissioning, 4 DonationNote, 11 , 2 Unclear, 7 Inventory and 1 Record.
+                     <ol>
+                        <li id="a1">
+                           <p></p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="ScribalNoteCommissioning">Note stating that the manuscript was
+                                 commissioned by <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10952Tatamqa** = Taṭamqa Madḫǝn **</b>, abbot
+                                 of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">the Convent of Jerusalem</a>. 
+                              </desc> (Type: ScribalNoteCommissioning)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a2">
+                           <p><a href="#198r">f. 198r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Note dated to Hātūr 1206 Era of the Martyrs
+                                 stating that <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10952Tatamqa** = Taṭamqa Madḫǝn **</b>, who
+                                 commissioned this manuscript, which was written by the priest <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10955Uklawdiyus** = Uklawdīyūs **</b>, gave it to the <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC4555MarJir">church of Mār Ǧirǧis</a>. The note was written by
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10956Yohann** = Yoḥānnā (?) **</b> of the No record for Institution INS0311CM
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a3">
+                           <p><a href="#1r">f. 1r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Excommunication made by the members of the Convent, five priests,
+                                 two diacons, and two laymen against abbā <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10958Yosef** = Yosef **</b>, who has spoken ill of the metropolitan <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person ** = Yoḥānnǝs **</b>. The abbot was <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10957Asq** = ʿĀṣqe
+                                    Dǝngǝl **</b>. The punishment was 8000 whiplashes and a year of exile in
+                                 the <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC6126WadinN">Scetis</a> or a payment of twenty
+                                 gold pieces to the <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">Ethiopian Convent of
+                                    Jerusalem</a>. This note shows that the residents of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥarat Zawīla</a>, No record for Institution INS0308DQ and
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">Dayr as-Sulṭān</a> made up one community. 
+                              </desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a4">
+                           <p><a href="#1r">f. 1r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Other sentence by the residents of the convent of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥarat Zawīla</a>, made up of twelve priests, seven
+                                 diacons and two laymen. The abbot was abbā <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10960Giyorgis** = Giyorgis **</b> and the administrator (?)<b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10961Dim** = Dimos (Didimos?) **</b>. The sentence is pronounced against abbā
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10962GabraM** = Gabra Masqal **</b>, son of <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10963Halelo** = Halelo **</b> for having spoken ill of the
+                                 metropolitan, whose name has been effaced and the abbot abbā <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10960Giyorgis** = Giyorgis **</b>. The note is dated to the year
+                                 1292 Era of the Martyrs.
+                              </desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a5">
+                           <p><a href="#1v">f. 1v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Partly effaced note written by a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10964Salib** = Salib **</b></desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a6">
+                           <p><a href="#1v">f. 1v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Excommunication by the residents of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">the convent of Jerusalem</a> of a certain <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10965ZaSellase** = Za-Śǝllāse **</b> of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2488Damot">Dāmot</a>.
+                              </desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a7">
+                           <p><a href="#2r">f. 2r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Donation note of diverse objects given to the Convent of
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥarat Zawīla</a> by <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10966BakwraS** = Bakwra Ṣǝyon  **</b>and
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10967TaklaA** = Takla Abrǝhām **</b>. The abbot was
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10968Tewogolos** = Tewogolos **</b>.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a8">
+                           <p><a href="#2r">f. 2r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Punitions for diverse offences established by the residents of
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥarat Zawīla</a>.
+                              </desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a9">
+                           <p><a href="#2r">f. 2r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Continuation of these resolutions, written at the time of the abbot
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10969FereK** = Fǝre Krǝstos **</b>. 
+                              </desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a10">
+                           <p><a href="#152v">f. 152v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Collective excommunication of several priests.</desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a11">
+                           <p><a href="#152v">f. 152v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">At the top of the page, the name of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Persons/PRS6229LebnaDe">Lǝbna Dǝngǝl</a> is added.
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a12">
+                           <p><a href="#197v">f. 197v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Another resolution on discipline.</desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a13">
+                           <p><a href="#198v">f. 198v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Inventory">Inventory of cult objects belonging to the <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">Ethiopian Church at Jerusalem</a>.
+                              </desc> (Type: Inventory)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a14">
+                           <p><a href="#198v">f. 198v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type=""></desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a15">
+                           <p><a href="#198v">f. 198v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Sentence against <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10972Estifanos** = ʾƎsṭifānos **</b>, son of <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10973Yaqob** = Yāʿqob **</b></desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a16">
+                           <p><a href="#199r">f. 199r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Inventory">Inventory of objects belonging to the church of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC4555MarJir">St. Georges</a> in <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat Zawīla</a>, given to abbā <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10976FeqraD** = Fǝqra
+                                    Dǝngǝl **</b> and written down after the death of abbā <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10975FethaD** = Fǝtḥa Dǝngǝl **</b>.
+                              </desc> (Type: Inventory)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a17">
+                           <p><a href="#199r">f. 199r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Unclear">Resolution stating that any cross belonging to the abbots
+                                 (ረይስ ፡) of the Convents of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">Jerusalem</a>
+                                 or <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat Zawīla</a>, or to the director
+                                 (ቀይም ፡) of the monastery of No record for Institution INS0308DQ should belong after their
+                                 death to the Convent of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">Jerusalem</a>.
+                                 The note is dated to 207 Year of Grace (1547 CE), while <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10977HabtaM** = Habta Māryām **</b> was abbot and <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10978Yosef** = Yosef (?) **</b> the director of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat Zawīla</a>. 
+                              </desc> (Type: Unclear)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a18">
+                           <p><a href="#199v">f. 199v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Record">Note stating that the church of<a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC4555MarJir">St. Georges</a> in <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat
+                                    Zawīla</a> possessed 33 volumes.
+                              </desc> (Type: Record)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a19">
+                           <p><a href="#199v">f. 199v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Inventory">Inventory of objects belonging to the Church of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat Zawīla</a> at the time of the abbot
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10979Didimos** = Didimos (?Didyme) **</b>.
+                              </desc> (Type: Inventory)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a20">
+                           <p><a href="#200r">f. 200r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Inventory">Inventory of objects belonging to the Church of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat Zawīla</a>, written down at the time of the
+                                 abbot <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10957Asq** = ʿĀṣqa Dǝngǝl **</b> and the director
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10978Yosef** = Yosef **</b> ? .
+                              </desc> (Type: Inventory)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a21">
+                           <p><a href="#200r">f. 200r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Act of donation of a paten and a chalice in memory of
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Persons/PRS8974Stephen">St. Stephen</a> by a monk called
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10982AmmehaS** = ʾAmmǝḫa Ṣǝyon **</b> , who had been to
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC5374Rome">Rome</a>.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a22">
+                           <p><a href="#200v">f. 200v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="DonationNote">Act of donation of several cult objects for the church
+                                 of<a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC4555MarJir">St. Georges</a> by <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10984TaklaY** = Takla Yoḥannǝs **</b>.
+                              </desc> (Type: DonationNote)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a23">
+                           <p><a href="#200v">f. 200v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Inventory">Inventory of objects belonging to the church of<a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC4555MarJir">St. Georges</a>, (partly?) donated by to monks,
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10985Abib** = ʾAbib **</b> and <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10986Filemona** = Filemonā **</b> at the time of the abbot abbā
+                                 <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10987Samuel** = Sāmuʾel **</b>.
+                              </desc> (Type: Inventory)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a24">
+                           <p><a href="#201v">f. 201v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="">Sentence of the monks dated to 1290 Era of the Martyrs
+                                 against <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10990FequraD** = Fǝqura Dǝngǝl **</b> for having
+                                 beaten another monk, <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10991GabraM** = Gabra Masqal **</b>. The
+                                 superior of the convent at this time was abbā <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10960Giyorgis** = Giyorgis **</b>, the administrator (?)<b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10961Dim** = Dimos
+                                    (Didimos?) **</b>.
+                              </desc> (Type: )
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a25">
+                           <p><a href="#202r">f. 202r</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Inventory">Inventory of cult objects belonging to the convents of
+                                 <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">Jerusalem</a>, <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat Zawīla</a> and No record for Institution INS0308DQ
+                                 written down by abbā <b xmlns="http://www.w3.org/1999/xhtml" style="color:red;                 text-align:center;">**No record for Person PRS10992Giyorgis** = Giyorgis **</b>,
+                                 superior of the Convent of <a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC2606Dayras">Jerusalem</a>
+                                 in the year 1289 Era of the Martyrs. 
+                              </desc> (Type: Inventory)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                        <li id="a26">
+                           <p><a href="#202v">f. 202v</a> 
+                           </p>
+                           <p>
+                              <desc xmlns="http://www.tei-c.org/ns/1.0" type="Inventory">Undated inventory, maybe of the church of<a xmlns="http://www.w3.org/1999/xhtml" href="../../Places/LOC3790HaratZ">Ḥārat Zawīla</a>. It mentions 13 books. 
+                              </desc> (Type: Inventory)
+                           </p>
+                           <p>
+                              
+                              
+                              
+                              
+                           </p>
+                           <p></p>
+                        </li>
+                     </ol>
+                  </div>
+               </div>
+               <div class="row-fluid" id="msadditionals">
+                  
+                  <surrogates xmlns="http://www.tei-c.org/ns/1.0">
+                     
+                     <h4 xmlns="http://www.w3.org/1999/xhtml">catalogue Bibliography</h4>
+                     <ul xmlns="http://www.w3.org/1999/xhtml">
+                        
+                        <li><a href="https://archive.org/details/manuscritsorient00bibl">Zotenberg 1877, page 32-36</a></li>
+                        
+                        <li><a href="https://www.zotero.org/groups/ethiostudies/items/tag/bm:Platt1823Catalogue">Platt 1823, page 32-34</a></li>
+                        
+                     </ul>
+                     
+                  </surrogates>
+                  
+               </div>
+            </div>
+            <div class="row-fluid" id="catalogue">
+               <h2> Catalogued in</h2>
+               <h4>catalogue Bibliography</h4>
+               <ul>
+                  
+                  <li><a href="https://archive.org/details/manuscritsorient00bibl">Zotenberg 1877, page 32-36</a></li>
+                  
+                  <li><a href="https://www.zotero.org/groups/ethiostudies/items/tag/bm:Platt1823Catalogue">Platt 1823, page 32-34</a></li>
+                  
+               </ul>
+            </div>
+            <div class="row-fluid well" id="transcription">
+               <h2>Transcription</h2>
+               
+               
+               <div class="row-fluid" id="textpart">
+                  <head><a href="#ms_i1.2.1">ms i1.2.1, chapter: 19</a></head><br></br>
+                  
+                  <div class="container-fluid"> 
+                     <sup>13</sup>   ወእምዝ፡ አምጽኡ፡ ሎቱ፡ ኀቤሁ፡ ደቀ፡ ወሕፃናተ፡ ከመ፡ ይግሥሶሙ፡ ወያንብር፡ እዴሁ፡ ላዕሌሆሙ፡ ወይጼሊ፡ ዲቤሆሙ፡ ወገሠጽዎሙ፡
+                     አርዳኢሁ፡
+                     ወከልእዎሙ።   ወእምዝ፡ አምጽኡ፡ ሎቱ፡ ኀቤሁ፡ ደቀ፡ ወሕፃናተ፡ ከመ፡ ይግሥሶሙ፡ ወያንብር፡ እዴሁ፡ ላዕሌሆሙ፡ ወይጼሊ፡ ዲቤሆሙ፡ ወገሠጽዎሙ፡
+                     አርዳኢሁ፡
+                     ወከልእዎሙ።
+                     <sup>14</sup>ወይቤሎሙ፡ ኢየሱሰ፡ ኅድግዎሙ፡ ደቂቀ፡ ወሕፃናት፡ ይምጽኡ፡ ኀቤየ፡ ወኢትክልዎሙ፡ እስመ፡ ለዘ፡ ከመ፡ እሉ፡ ይእቲ፡ መንግሥተ፡ ሰማያት።ወይቤሎሙ፡ ኢየሱሰ፡ ኅድግዎሙ፡ ደቂቀ፡ ወሕፃናት፡ ይምጽኡ፡ ኀቤየ፡ ወኢትክልዎሙ፡ እስመ፡ ለዘ፡ ከመ፡ እሉ፡ ይእቲ፡ መንግሥተ፡ ሰማያት።
+                     <sup>15</sup> ወገሰሶሙ፡ ወአንበረ፡ እዴሁ፡ ላዕሌሆሙ፡ ወሖረ፡ ወኀለፈ፡ እምህየ። ወገሰሶሙ፡ ወአንበረ፡ እዴሁ፡ ላዕሌሆሙ፡ ወሖረ፡ ወኀለፈ፡ እምህየ።
+                     <sup>16</sup> ወውእተ፡ አሚረ፡ ናሁ፡ አሐዱ፡ ወሬዛ፡ መጽአ፡ ኀበ፡ ኢየሱስ፡ እንዘ፡ ይስግድ፡ ሎቱ፡ ወይቤሎ፡ ሊቅ፡ ኄር፡ ምንተኑ፡ ዘእምገበርኩ፡
+                     እምኂሩት፡ ሕይወተ፡ ዘለዓለም፡  በዘ፡ እወርስ።  ወውእተ፡ አሚረ፡ ናሁ፡ አሐዱ፡ ወሬዛ፡ መጽአ፡ ኀበ፡ ኢየሱስ፡ እንዘ፡ ይስግድ፡ ሎቱ፡ ወይቤሎ፡ ሊቅ፡ ኄር፡ ምንተኑ፡ ዘእምገበርኩ፡
+                     እምኂሩት፡ ሕይወተ፡ ዘለዓለም፡  በዘ፡ እወርስ። 
+                     <sup>17</sup> ወይቤሎ፡ ኢየሱስ፡ ምንተ፡ ትሴአለኒ፡ እንተ፡ ኄር። አልቦ፡ ኄር፡ ዘእንበለ፡ አሐዱ፡ እግዚአብሔር። ወእመሰ፡ ትፈቅድ፡ ትባእ፡ ሙስተ፡
+                     ሕይወት፡ ዕቀብ፡ ትእዛዞ፡ ለእግዚአብሔር። ወይቤሎ፡ ኢየሱስ፡ ምንተ፡ ትሴአለኒ፡ እንተ፡ ኄር። አልቦ፡ ኄር፡ ዘእንበለ፡ አሐዱ፡ እግዚአብሔር። ወእመሰ፡ ትፈቅድ፡ ትባእ፡ ሙስተ፡
+                     ሕይወት፡ ዕቀብ፡ ትእዛዞ፡ ለእግዚአብሔር።
+                     <sup>18</sup>ወይቤሎ፡ አያተ፡ ወይቤሎ፡ ኢየሱስ፡ ኢትቅትል፡ ነፍስ። ኢተማሕዞ፡ ወኢትሖር፡ ብእሲተ፡ ብእሲ። ወኢትስርቅ፡ ወኢትኩን፡ ስምዐ፡ በሐሰት።ወይቤሎ፡ አያተ፡ ወይቤሎ፡ ኢየሱስ፡ ኢትቅትል፡ ነፍስ። ኢተማሕዞ፡ ወኢትሖር፡ ብእሲተ፡ ብእሲ። ወኢትስርቅ፡ ወኢትኩን፡ ስምዐ፡ በሐሰት።
+                     <sup>19</sup>ወአክብር፡ አባከ፡ ወእመከ። ወአፍቅር፡ ቢጸከ፡ ከመ፡ ነፍስከ። ወአክብር፡ አባከ፡ ወእመከ። ወአፍቅር፡ ቢጸከ፡ ከመ፡ ነፍስከ። 
+                     <sup>20</sup>ወይቤሎ፡ ውእቱ፡ ወሬዛ፡ ዘንተሰ፡ ኵሎ፡ ዐቀብኩ፡ እምንእስየ፡ እስከ፡ ይእዜ፡ ምንተ፡ እንከ፡ ዘተረፈኒ። ወይቤሎ፡ ውእቱ፡ ወሬዛ፡ ዘንተሰ፡ ኵሎ፡ ዐቀብኩ፡ እምንእስየ፡ እስከ፡ ይእዜ፡ ምንተ፡ እንከ፡ ዘተረፈኒ። 
+                     <sup>21</sup>ወነጸሮ፡ ወአፍቀሮ፡ ኢየሱስ፡ ወይቤሎ፡ አሐቲ፡ ተረፈተከ፡ ወእመሰ፡ ትፈቅድ፡ ፍጹመ፡ ትኩን፡ ሖር፡ ወሢጥ፡ ጥሪተከ፡ወኵሎ፡ ንዋየከ፡
+                     ወሀብ፡ ምጽዋተ፡ ለነዳያን፡ ወለምስኪናን፡ ወተጣሪ፡ ለከ፡ መዝገበ፡ ዘበሰማያት፡ ወነዓ፡ ትልወኒ። ወነጸሮ፡ ወአፍቀሮ፡ ኢየሱስ፡ ወይቤሎ፡ አሐቲ፡ ተረፈተከ፡ ወእመሰ፡ ትፈቅድ፡ ፍጹመ፡ ትኩን፡ ሖር፡ ወሢጥ፡ ጥሪተከ፡ወኵሎ፡ ንዋየከ፡
+                     ወሀብ፡ ምጽዋተ፡ ለነዳያን፡ ወለምስኪናን፡ ወተጣሪ፡ ለከ፡ መዝገበ፡ ዘበሰማያት፡ ወነዓ፡ ትልወኒ። 
+                     <sup>22</sup> ወሰሚዖ፡ ውእቱ፡ ወሬዛ፡ ዘንተ፡ ነገረ፡ ሖረ፡ ወኀለፈ፡ ትኩዙ፡ እስመ፡ ባዕል፡ ውእቱ፡ ወብዙኅ፡ ጥሪቱ።  ወሰሚዖ፡ ውእቱ፡ ወሬዛ፡ ዘንተ፡ ነገረ፡ ሖረ፡ ወኀለፈ፡ ትኩዙ፡ እስመ፡ ባዕል፡ ውእቱ፡ ወብዙኅ፡ ጥሪቱ። 
+                     
+                  </div>
+                  
+               </div><br></br>
+               
+               
+               <div class="row-fluid" id="textpart">
+                  <head><a href="#ms_i1.4.1">ms i1.4.1, chapter: 1</a></head><br></br>
+                  
+                  <div class="container-fluid">
+                     <sup>1</sup>እስመ፡ ብዙኃን፡ እለ፡ አኀዙ፡ ይውጥኑ፡ ወይጽሐፉ፡ ይንግሩ፡ ወይግበሩ፡ በእንተ፡ ግብር፡ ዘአምኑ፡ በላዕሌነ፡ በእንተ፡ ነገር፡ ዘንሕነ፡
+                     
+                     ጠየቅናሁ፡ በከመ፡ አይድዑነ፡ ወመሀሩነ፡ እለ፡ ቀደሙነ፡ ወኮኑ፡ እምቅድም፡ ርእዮቶ፡ ይርአዩ፡ ኲሎ፡ ዘኮነ፡ ወይትለአክዎ፡ በቃሉ፡
+                     ረትዓኒ፡ ሊተኒ፡ 
+                     ወፈቀድኩ፡ እነ፡ እትልዎ፡ ካዕበ፡ እምጥንቱ፡ እስመ። ነበርኩ፡ እነ፡ እንዘ፡ እተሉ፡ በበ፡ መትልው፡ ወእጠይቆ፡ በጥይቅና፡ ከመ፡
+                     እጽሐፍ፡ ለከ፡ አዓዚዝ፡ 
+                     ቴዎፈሊ፡ ለአኀዚ፡ ከመ፡ ታእምር፡ ጥዩቀ፡ በእንተ፡ ኲሉ፡ ኀይለ፡ ነገር፡ ትምህርተ፡ ዘመሀርከ፡ ዘአማነ። እስመ፡ ብዙኃን፡ እለ፡ አኀዙ፡ ይውጥኑ፡ ወይጽሐፉ፡ ይንግሩ፡ ወይግበሩ፡ በእንተ፡ ግብር፡ ዘአምኑ፡ በላዕሌነ፡ በእንተ፡ ነገር፡ ዘንሕነ፡
+                     
+                     ጠየቅናሁ፡ በከመ፡ አይድዑነ፡ ወመሀሩነ፡ እለ፡ ቀደሙነ፡ ወኮኑ፡ እምቅድም፡ ርእዮቶ፡ ይርአዩ፡ ኲሎ፡ ዘኮነ፡ ወይትለአክዎ፡ በቃሉ፡
+                     ረትዓኒ፡ ሊተኒ፡ 
+                     ወፈቀድኩ፡ እነ፡ እትልዎ፡ ካዕበ፡ እምጥንቱ፡ እስመ። ነበርኩ፡ እነ፡ እንዘ፡ እተሉ፡ በበ፡ መትልው፡ ወእጠይቆ፡ በጥይቅና፡ ከመ፡
+                     እጽሐፍ፡ ለከ፡ አዓዚዝ፡ 
+                     ቴዎፈሊ፡ ለአኀዚ፡ ከመ፡ ታእምር፡ ጥዩቀ፡ በእንተ፡ ኲሉ፡ ኀይለ፡ ነገር፡ ትምህርተ፡ ዘመሀርከ፡ ዘአማነ። 
+                     
+                     <!--          I am not sure where the versets begin and end, there are no ። other than the last one...-->
+                     
+                  </div>
+                  
+               </div><br></br>
+               
+               
+            </div>
+            <div class="row-fluid" id="keywords">
+               <h2>Keywords</h2>
+               <ul>
+                  <li>Bible</li>
+                  <li>NewTestament</li>
+               </ul>
+            </div>
+         </div><script>
+            $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+            });
+        </script><footer id="footer" class="col-md-12">
+            <h2>Authors</h2>
+            <ul>
+               <li>Dr. Pietro Maria Liuzzo Added text #Mt19 from catalogue 21.7.2016</li>
+               <li>Dorothea Reule Changes 15.7.2016</li>
+               <li>Dorothea Reule Changes 13.7.2016</li>
+               <li>Dorothea Reule Created catalogue entry 11.7.2016</li>
+            </ul>
+         </footer>
+      </div>
+   </body>
+</html>

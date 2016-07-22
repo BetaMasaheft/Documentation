@@ -56,10 +56,14 @@
                           <xsl:value-of select="if ($zotero//t:author) then (if ($zotero//t:author/t:surname) then ($zotero//t:author/t:surname) else ($zotero//t:author)) else (if ($zotero//t:editor/t:surname) then ($zotero//t:editor/t:surname) else ($zotero//t:editor))"/>
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="$zotero//t:date"/>
-                       <xsl:if test="t:citedRange"> <xsl:text>, </xsl:text>
-                        <xsl:value-of select="t:citedRange/@unit"/>
+                       <xsl:if test="t:citedRange"> 
+                           <xsl:for-each select="t:citedRange">
+                               <xsl:sort select="position()"/>
+                               <xsl:text>, </xsl:text>
+                        <xsl:value-of select="@unit"/>
                         <xsl:text> </xsl:text>
-                        <xsl:value-of select="t:citedRange"/></xsl:if>
+                        <xsl:value-of select="."/></xsl:for-each>
+                       </xsl:if>
                     </a></xsl:if>
                     <xsl:if test="t:note"><xsl:text> </xsl:text><xsl:apply-templates select="t:note"/></xsl:if>
                 </xsl:otherwise>
@@ -98,11 +102,14 @@
                             <xsl:value-of select="if ($zotero//t:author) then (if ($zotero//t:author/t:surname) then ($zotero//t:author/t:surname) else ($zotero//t:author)) else (if ($zotero//t:editor/t:surname) then ($zotero//t:editor/t:surname) else ($zotero//t:editor))"/>
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="$zotero//t:date"/>
-                        <xsl:if test="t:citedRange"> <xsl:text>, </xsl:text>
-                        <xsl:value-of select="t:citedRange/@unit"/>
-                        <xsl:text> </xsl:text>
-                        <xsl:value-of select="t:citedRange"/>
-                        </xsl:if>
+                            <xsl:if test="t:citedRange"> 
+                                <xsl:for-each select="t:citedRange">
+                                    <xsl:sort select="position()"/>
+                                    <xsl:text>, </xsl:text>
+                                    <xsl:value-of select="@unit"/>
+                                    <xsl:text> </xsl:text>
+                                    <xsl:value-of select="."/></xsl:for-each>
+                            </xsl:if>
                     </a>
                     </xsl:if>
                 </xsl:otherwise>
@@ -136,10 +143,13 @@
                         <xsl:value-of select="if ($zotero//t:author) then (if ($zotero//t:author/t:surname) then ($zotero//t:author/t:surname) else ($zotero//t:author)) else (if ($zotero//t:editor/t:surname) then ($zotero//t:editor/t:surname) else ($zotero//t:editor))"/>
                         <xsl:text> </xsl:text>
                         <xsl:value-of select="$zotero//t:date"/>
-                        <xsl:if test="t:citedRange"> <xsl:text>, </xsl:text>
-                            <xsl:value-of select="t:citedRange/@unit"/>
-                            <xsl:text> </xsl:text>
-                            <xsl:value-of select="t:citedRange"/>
+                        <xsl:if test="t:citedRange"> 
+                            <xsl:for-each select="t:citedRange">
+                                <xsl:sort select="position()"/>
+                                <xsl:text>, </xsl:text>
+                                <xsl:value-of select="@unit"/>
+                                <xsl:text> </xsl:text>
+                                <xsl:value-of select="."/></xsl:for-each>
                         </xsl:if>
                     </a>
                 </xsl:if>
