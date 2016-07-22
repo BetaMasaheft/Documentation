@@ -7,12 +7,18 @@
     version="2.0">
 
 <xsl:template match="t:handNote">
-    <h4 id="{@xml:id}">Hand <xsl:value-of select="substring-after(@xml:id, 'h')"/>
+    <xsl:choose><xsl:when test="@corresp">
+        <a href="{@corresp}"><h4 id="{@xml:id}">Hand <xsl:value-of select="substring-after(@xml:id, 'h')"/>
+        <xsl:if test="./ancestor::t:msPart"><xsl:variable
+            name="currentMsPart">
+            <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
+                select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
+            <xsl:value-of select="$currentMsPart"/></xsl:if></h4></a></xsl:when><xsl:otherwise><h4 id="{@xml:id}">Hand <xsl:value-of select="substring-after(@xml:id, 'h')"/>
         <xsl:if test="./ancestor::t:msPart"><xsl:variable
         name="currentMsPart">
         <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
             select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
-        <xsl:value-of select="$currentMsPart"/></xsl:if></h4>
+        <xsl:value-of select="$currentMsPart"/></xsl:if></h4></xsl:otherwise></xsl:choose>
     <p><xsl:value-of select="@script"/><xsl:if test="t:ab[@type = 'script']">: <xsl:value-of select="t:ab[@type = 'script']"/></xsl:if></p>
     <xsl:if test="t:seg[@type = 'ink']"><p>Ink: <xsl:value-of select="t:seg[@type = 'ink']"/></p></xsl:if>
     <xsl:if test="t:list[@type = 'abbreviations']">
