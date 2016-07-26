@@ -250,6 +250,9 @@
             $(document).ready(function(){
             $('[data-toggle="popover"]').popover();
             });
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip(); 
+            });
         </script>
         <footer id="footer" class="col-md-12">
             <h2>Authors</h2>

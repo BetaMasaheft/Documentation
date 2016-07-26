@@ -316,5 +316,10 @@
     </xsl:template>
     
     
+    <xsl:template match="t:gap[@reason='omitted']">
+        <xsl:variable name="author" select="document(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+        <a href="#" data-toggle="tooltip" title="Omission by {$author}">. . . . .</a>
+
+    </xsl:template>
     
 </xsl:stylesheet>
