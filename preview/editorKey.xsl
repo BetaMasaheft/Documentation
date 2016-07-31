@@ -12,7 +12,7 @@
             <xsl:when test=". = 'DN'">Dr. Denis Nosnitsin</xsl:when>
             <xsl:when test=". = 'MV'">Massimo Villa</xsl:when>
             <xsl:when test=". = 'DR'">Dorothea Reule</xsl:when>
-            <xsl:when test=". = 'SG'">Solomon Gebreye</xsl:when>
+            <xsl:when test=". = 'SG'">Solomon Gebreyes</xsl:when>
             <xsl:when test=". = 'PL'">Dr. Pietro Maria Liuzzo</xsl:when>
             <xsl:when test=". = 'SA'">Dr Stéphane Ancel</xsl:when>
             <xsl:when test=". = 'SD'">Sophia Dege</xsl:when>
