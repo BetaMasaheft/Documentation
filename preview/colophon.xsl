@@ -13,7 +13,7 @@
                 <xsl:apply-templates select="descendant::t:locus"/>
             </p>
             <p>
-                <xsl:value-of select="text()"/>
+                <xsl:apply-templates select="node() except (t:note | t:foreign | t:listBibl)"/>
             </p>
             
             <xsl:if test="t:foreign">
