@@ -47,7 +47,7 @@
                             <xsl:if test="t:desc/@type"> (Type: <xsl:value-of select="t:desc/@type"
                             />)</xsl:if>
                         </p>
-                        <xsl:for-each select="t:quote">
+                        <xsl:for-each select="t:q">
                             <p>
                                 <xsl:value-of select="concat('(', @xml:lang, ') ')"/>
                                 <xsl:apply-templates select="."/>
