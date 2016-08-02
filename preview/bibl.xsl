@@ -7,7 +7,11 @@
     exclude-result-prefixes="#all"
     version="2.0">
     <xsl:template match="t:listBibl[not(@type='relations')]">
-        <h4><xsl:value-of select="concat(@type, ' Bibliography')"/></h4>
+        <h4><xsl:value-of select="concat(concat(upper-case(substring(@type,1,1)),
+            substring(@type, 2),
+            ' '[not(last())]
+            ), ' Bibliography')
+            "/></h4>
         <ul>
             <xsl:apply-templates/>
         </ul>
