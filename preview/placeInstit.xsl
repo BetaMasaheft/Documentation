@@ -28,7 +28,7 @@
                 <h2>Type</h2>
                 <p>
                     <xsl:for-each select="//t:place/@type">
-                        <xsl:value-of select="replace(.,' ',', ')"/>
+                        <xsl:value-of select="upper-case(replace(.,' ',', '))"/>
                     </xsl:for-each>
                 </p>
             </xsl:if>
