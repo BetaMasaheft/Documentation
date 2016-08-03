@@ -71,7 +71,7 @@
             </p>
             <p>
                  <xsl:if test="//t:region">
-                         <xsl:text>Region: </xsl:text><xsl:apply-templates select="//t:region"/>
+                         <xsl:text>Federal State: </xsl:text><xsl:apply-templates select="//t:region"/>
                        
                     </xsl:if>
             </p>
