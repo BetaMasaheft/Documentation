@@ -86,9 +86,9 @@
 
         </div>
 
-        <xsl:if test="//t:body[t:div]">
+        <xsl:if test="//t:body[t:div//t:ab]">
             <div class="row-fluid well"   id="transcription">
-                <xsl:apply-templates select="//t:text"/>
+                <xsl:apply-templates select="//t:text/t:body/t:ab"/>
             </div>
         </xsl:if>
 
