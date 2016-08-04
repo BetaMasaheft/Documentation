@@ -30,8 +30,9 @@
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <a href="../../Works/{@ref}"  target="_blank">
+                                        <xsl:variable name="titles" select="document(concat('../../Works/', $filename, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"/>
                                         <xsl:apply-templates
-                                            select="document(concat('../../Works/', $filename, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"
+                                            select="if($titles/@xml:id) then $titles[@xml:id='t1'] else $titles[1]"
                                         />
                                         <xsl:if test="contains(@ref, '#')">
                                             <xsl:value-of select="concat(', ',substring-after(@ref, '#'))"/>

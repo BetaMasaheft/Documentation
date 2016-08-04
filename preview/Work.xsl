@@ -42,6 +42,14 @@
         </div>
 
             <div class="row-fluid"   id="description">
+                <xsl:if test="count(//t:titleStmt/t:title) gt 1">
+                    <h2>Titles</h2>
+                    <ul>
+                        <xsl:for-each select="//t:titleStmt/t:title">
+                            <li> <xsl:apply-templates/></li>
+                        </xsl:for-each>
+                    </ul>
+                </xsl:if>
             <h2>General description</h2>
             <p>
                 <xsl:apply-templates select="//t:abstract"/>
