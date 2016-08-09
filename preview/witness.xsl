@@ -14,26 +14,32 @@
                 </xsl:variable>
                 <xsl:choose>
                     <xsl:when test="document(concat('../../Manuscripts/',$filename, '.xml'))">
-                        <a href="{@corresp}">
+                        
                             <xsl:choose>
                                 <xsl:when test="text()">
+                                    <a href="{@corresp}"><xsl:if test="contains(@corresp, '#')">
+                                        <xsl:value-of select="concat('Item ',substring-after(@corresp, '#'))"/>
+                                        <xsl:text> of </xsl:text> 
+                                    </xsl:if>  
+                                    <xsl:value-of select="document(concat('../../Manuscripts/',$filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"/></a>
+                                    <xsl:text>:  </xsl:text>
                                     <xsl:apply-templates/>
-                                    <xsl:text>  </xsl:text>
-                                    <span class="glyphicon glyphicon-share"/>
+                                    <!--<xsl:text>  </xsl:text>
+                                    <span class="glyphicon glyphicon-share"/>-->
                                 </xsl:when>
                                 <xsl:otherwise>
-                                    <xsl:value-of select="document(concat('../../Manuscripts/',$filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"/>
+                                    <a href="{@corresp}"><xsl:value-of select="document(concat('../../Manuscripts/',$filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"/>
                                     <xsl:text> </xsl:text>
                                     <xsl:if test="contains(@corresp, '#')">
                                         <xsl:value-of select="concat(', ',substring-after(@corresp, '#'))"/>
-                                    </xsl:if>
+                                    </xsl:if></a>
                                 </xsl:otherwise>
                             </xsl:choose>
-                        </a>
+                        
                         <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:value-of select="@corresp"/>
+                        <xsl:value-of select="@corresp"/><xsl:text>:  </xsl:text>
                         <xsl:apply-templates/>
                     </xsl:otherwise>
                 </xsl:choose>
