@@ -118,6 +118,7 @@
     <xsl:include href="placeName.xsl"/><!-- includes also region, country and settlement-->
     <xsl:include href="title.xsl"/>
     <xsl:include href="repo.xsl"/>
+    <xsl:include href="witness.xsl"/>
     <xsl:include href="relation.xsl"/> <!--produces also the javascript for graph-->
     
 

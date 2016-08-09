@@ -67,17 +67,7 @@
             <ul>
                 <xsl:for-each select="//t:witness">
                     <li>
-                        <a href="{@corresp}">
-                            <xsl:choose>
-                                <xsl:when test="text()">
-                                    <xsl:value-of select="text()"/>
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    <xsl:value-of select="substring-after(@corresp, '#')"/>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </a>
-                        <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
+                        <xsl:apply-templates select="."/>
                     </li>
                 </xsl:for-each>
             </ul>
