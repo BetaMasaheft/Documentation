@@ -17,15 +17,14 @@
                         
                             <xsl:choose>
                                 <xsl:when test="text()">
-                                    <a href="{@corresp}"><xsl:if test="contains(@corresp, '#')">
+                                    <a href="{@corresp}">
+                                        <xsl:if test="contains(@corresp, '#')">
                                         <xsl:value-of select="concat('Item ',substring-after(@corresp, '#'))"/>
                                         <xsl:text> of </xsl:text> 
                                     </xsl:if>  
                                     <xsl:value-of select="document(concat('../../Manuscripts/',$filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"/></a>
                                     <xsl:text>:  </xsl:text>
                                     <xsl:apply-templates/>
-                                    <!--<xsl:text>  </xsl:text>
-                                    <span class="glyphicon glyphicon-share"/>-->
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <a href="{@corresp}"><xsl:value-of select="document(concat('../../Manuscripts/',$filename, '.xml'))//t:TEI//t:msIdentifier/t:idno"/>
