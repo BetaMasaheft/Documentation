@@ -36,7 +36,7 @@
             <h2>Names</h2>
             <ul>
                 <xsl:for-each select="//t:place/t:placeName">
-                    <xsl:sort/>
+                    <xsl:sort select="if (@xml:id) then @xml:id else @xml:lang"/>
                     <li>
                         <xsl:if test="@xml:id">
                             <xsl:attribute name="id">
@@ -50,13 +50,13 @@
                                 </a>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
+                                <xsl:apply-templates select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
                             </xsl:otherwise>
                         </xsl:choose>
                         <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
-                        <xsl:if test="@ref">
+                        <xsl:if test="@corresp">
                             <sup>
-                                <a href="{@ref}">
+                                <a href="{@corresp}">
                                     <xsl:value-of select="@xml:lang"/>
                                     <xsl:text> tr.</xsl:text>
                                 </a>
