@@ -15,7 +15,11 @@
             "/> <xsl:if test="./ancestor::t:msPart"><xsl:variable name="currentMsPart">
                 <xsl:value-of select="./ancestor::t:msPart/@xml:id"/>
             </xsl:variable>
-            <xsl:value-of select="$currentMsPart"/></xsl:if></h4>
+            <xsl:value-of select="$currentMsPart"/></xsl:if>
+        <xsl:if test="@corresp">
+            <xsl:value-of select="concat('(',@corresp,')')"/>
+        </xsl:if>
+        </h4>
         <ul>
             <xsl:apply-templates/>
         </ul>
