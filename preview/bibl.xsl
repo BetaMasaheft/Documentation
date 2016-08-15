@@ -7,11 +7,15 @@
     exclude-result-prefixes="#all"
     version="2.0">
     <xsl:template match="t:listBibl[not(@type='relations')]">
-        <h4><xsl:value-of select="concat(concat(upper-case(substring(@type,1,1)),
+        <h4><xsl:if test="@type ='catalogue'"><xsl:attribute name="id">catalogue</xsl:attribute></xsl:if>
+            <xsl:value-of select="concat(concat(upper-case(substring(@type,1,1)),
             substring(@type, 2),
             ' '[not(last())]
             ), ' Bibliography')
-            "/></h4>
+            "/> <xsl:if test="./ancestor::t:msPart"><xsl:variable name="currentMsPart">
+                <xsl:value-of select="./ancestor::t:msPart/@xml:id"/>
+            </xsl:variable>
+            <xsl:value-of select="$currentMsPart"/></xsl:if></h4>
         <ul>
             <xsl:apply-templates/>
         </ul>

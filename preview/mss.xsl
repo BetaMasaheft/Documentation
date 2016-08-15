@@ -212,7 +212,7 @@
 
 
 
-            <xsl:if test="//t:additional//t:listBibl">
+            <!--<xsl:if test="//t:additional//t:listBibl">
                 <div class="row-fluid" id="catalogue">
                     <xsl:for-each select="//t:additional//t:listBibl">
                         <xsl:if test="./ancestor::t:msPart">
@@ -226,7 +226,7 @@
                         <xsl:apply-templates select="."/>
                     </xsl:for-each>
                 </div>
-            </xsl:if>
+            </xsl:if>-->
 
             <xsl:if test="//t:body[t:div]">
                 <div class="row-fluid well" id="transcription">

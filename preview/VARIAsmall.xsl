@@ -27,8 +27,9 @@
     <xsl:template match="t:recordHist">
         <xsl:apply-templates/>
     </xsl:template>
+    
     <xsl:template match="t:source">
-        <xsl:apply-templates select="* except t:listBibl[@type='catalogue']"/>
+        <xsl:apply-templates select="*"/>
     </xsl:template>
     
     <xsl:template match="t:note">
