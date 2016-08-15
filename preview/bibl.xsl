@@ -17,7 +17,7 @@
             </xsl:variable>
             <xsl:value-of select="$currentMsPart"/></xsl:if>
         <xsl:if test="@corresp">
-            <xsl:value-of select="concat('(',@corresp,')')"/>
+            <xsl:value-of select="concat(' (',@corresp,')')"/>
         </xsl:if>
         </h4>
         <ul>
