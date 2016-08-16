@@ -65,7 +65,7 @@
                     </li>
                 </xsl:for-each>
             </ul>
-            <h2>Adminstrative position</h2>
+            <h2>Administrative position</h2>
             <p>
                 <xsl:apply-templates select="//t:settlement"/>
             </p>
