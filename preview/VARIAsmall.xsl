@@ -323,4 +323,34 @@
 
     </xsl:template>
     
+    
+    <xsl:template match="t:choice[t:sic and t:corr]">
+        <xsl:variable name="sic" select="t:sic"/>
+        <xsl:variable name="resp">
+            <xsl:choose>
+                <xsl:when test="starts-with(@resp,'PRS')"><xsl:value-of select="document(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/></xsl:when>
+                <xsl:when test="@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
+                <xsl:when test="@resp = 'ES'">Eugenia Sokolinski</xsl:when>
+                <xsl:when test="@resp = 'DN'">Dr. Denis Nosnitsin</xsl:when>
+                <xsl:when test="@resp = 'MV'">Massimo Villa</xsl:when>
+                <xsl:when test="@resp = 'DR'">Dorothea Reule</xsl:when>
+                <xsl:when test="@resp = 'SG'">Solomon Gebreyes</xsl:when>
+                <xsl:when test="@resp = 'PL'">Dr. Pietro Maria Liuzzo</xsl:when>
+                <xsl:when test="@resp = 'SA'">Dr Stéphane Ancel</xsl:when>
+                <xsl:when test="@resp = 'SD'">Sophia Dege</xsl:when>
+                <xsl:when test="@resp = 'VP'">Dr Vitagrazia Pisani</xsl:when>
+                <xsl:when test="@resp = 'IF'">Iosif Fridman</xsl:when>
+                <xsl:when test="@resp = 'SH'">Susanne Hummel</xsl:when>
+                <xsl:when test="@resp = 'FP'">Francesca Panini</xsl:when>                
+
+            </xsl:choose>
+        </xsl:variable>
+        <a href="#" data-toggle="tooltip" title="Corrected {if ($resp) then concat('by ', $resp) else ()} from {$sic}"><xsl:value-of select="t:corr"/></a>
+    </xsl:template>
+    
+    <xsl:template match="t:sic">
+        <xsl:value-of select="."/><xsl:text> (sic)</xsl:text>
+    </xsl:template>
+    
+    
 </xsl:stylesheet>
