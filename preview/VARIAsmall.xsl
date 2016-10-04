@@ -177,35 +177,47 @@
             <b>Language of text: </b>
             <xsl:value-of select="//t:language[@ident = $curlang]"/>
         </p>
-        
     </xsl:template>
-    
     <xsl:template match="t:text">
         <h2>Transcription</h2>
-        <xsl:apply-templates/>        
+        <xsl:apply-templates/>
     </xsl:template>
-    
     <xsl:template match="t:body">
-
-    <xsl:apply-templates/> 
+        <xsl:apply-templates/>
     </xsl:template>
-    
-    <xsl:template match="t:div[ancestor::t:body]">
+    <xsl:template match="t:div[parent::t:body]">
         <div class="row-fluid" id="{@type}">
-            <head><a href="{@corresp}"><xsl:value-of select="replace(substring-after(@corresp, '#'), '_', ' ')"/><xsl:text>, </xsl:text><xsl:value-of select="@subtype"/><xsl:text>: </xsl:text><xsl:value-of select="@n"/></a></head><br/>
-        <xsl:apply-templates/>        
-</div>
+            <head>
+                <a href="{@corresp}">
+                    <xsl:value-of select="replace(substring-after(@corresp, '#'), '_', ' ')"/>
+                    <xsl:text>, </xsl:text>
+                    <xsl:value-of select="@subtype"/>
+                    <xsl:text>: </xsl:text>
+                    <xsl:value-of select="@n"/>
+                </a>
+            </head>
+            <br/>
+            <xsl:apply-templates/>
+        </div>
         <br/>
     </xsl:template>
-    
+    <xsl:template match="t:div[parent::t:div[@type='textpart']]">
+        <a href="{if (@corresp) then @corresp else '#mscontent'}">
+            <xsl:value-of select="@subtype"/>
+            <xsl:text>: </xsl:text>
+            <xsl:value-of select="@n"/>
+        </a>
+        <xsl:apply-templates/>
+    </xsl:template>
     <xsl:template match="t:ab">
         <div class="container-fluid">
             <xsl:apply-templates/>
         </div>
     </xsl:template>
-    
     <xsl:template match="t:l">
-        <sup><xsl:value-of select="@n"/></sup>
+        <sup>
+            <xsl:value-of select="@n"/>
+        </sup>
         <xsl:value-of select="."/>
         <xsl:apply-templates/>
     </xsl:template>
@@ -221,137 +233,135 @@
                 <xsl:value-of select="@n"/>
             </xsl:if>
         </xsl:variable>
-<br/> <!--hard coded carriage return would not be recognized-->
- <xsl:choose>
-     <xsl:when test="number(@n) and @n mod number(5) = 0 and not(@n = 0)">
-         <xsl:call-template name="margin-num"/>
-     </xsl:when>
-     <xsl:otherwise>  <xsl:call-template name="line-numbering-tab" /></xsl:otherwise>
- </xsl:choose>
-      
+        <br/> <!--hard coded carriage return would not be recognized-->
+        <xsl:choose>
+            <xsl:when test="number(@n) and @n mod number(5) = 0 and not(@n = 0)">
+                <xsl:call-template name="margin-num"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:call-template name="line-numbering-tab"/>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
-    
     <xsl:template name="margin-num">
         <xsl:value-of select="@n"/>
         <!-- template »line-numbering-tab« found in txt-tpl-linenumberingtab.xsl respectively odf-tpl-linenumberingtab.xsl -->
-        <xsl:call-template name="line-numbering-tab" />
+        <xsl:call-template name="line-numbering-tab"/>
     </xsl:template>
     
     <!-- $Id: txt-tpl-linenumberingtab.xsl 1543 2011-08-31 15:47:37Z ryanfb $ -->
-       <xsl:template name="line-numbering-tab">
-           <!--<xsl:text>&#x9;&#x9;</xsl:text>-->
-           <span style="padding-left: 5em;"/> <!--double tab would look much better but would not be recognized in browser-->
-        </xsl:template>
-        
-    
+    <xsl:template name="line-numbering-tab">
+        <!--<xsl:text>		</xsl:text>-->
+        <span style="padding-left: 5em;"/> <!--double tab would look much better but would not be recognized in browser-->
+    </xsl:template>
     <xsl:template match="t:pb">
         <hr id="{@n}"/>
-        <p><xsl:value-of select="@n"/></p>
-        
+        <p>
+            <xsl:value-of select="@n"/>
+        </p>
         <xsl:apply-templates/>
     </xsl:template>
-    
     <xsl:template match="t:cb">
-        
-        <xsl:text>|</xsl:text><sup id="{preceding-sibling::t:pb[1]/@n}{@n}"><xsl:value-of select="@n"/></sup>
-        
+        <xsl:text>|</xsl:text>
+        <sup id="{preceding-sibling::t:pb[1]/@n}{@n}">
+            <xsl:value-of select="@n"/>
+        </sup>
         <xsl:apply-templates/>
     </xsl:template>
-    
     <xsl:template match="t:handShift">
-        <sub><a href="{@new}"><xsl:value-of select="substring-after(@new, '#')"/></a></sub>
+        <sub>
+            <a href="{@new}">
+                <xsl:value-of select="substring-after(@new, '#')"/>
+            </a>
+        </sub>
     </xsl:template>
-    
     <xsl:template match="t:gap[@reason='illegible']">
         <xsl:variable name="quantity" select="@quantity"/>
         <xsl:for-each select="1 to $quantity">
             <xsl:text>+</xsl:text>
         </xsl:for-each>
-    </xsl:template>  
-    
+    </xsl:template>
     <xsl:template match="t:subst">
         <xsl:apply-templates/>
     </xsl:template>
-    
     <xsl:template match="t:unclear">
-        <xsl:value-of select="."/><xsl:text>?</xsl:text>
+        <xsl:value-of select="."/>
+        <xsl:text>?</xsl:text>
     </xsl:template>
-    
     <xsl:template match="t:orig">
-        <span class="undeciphrable"><xsl:value-of select="."/></span>
+        <span class="undeciphrable">
+            <xsl:value-of select="."/>
+        </span>
     </xsl:template>
-    
     <xsl:template match="t:add">
         <xsl:variable name="id" select="generate-id()"/>
         <xsl:choose>
-<!--            has hand and place-->
+            <!--            has hand and place-->
             <xsl:when test="@hand and @place">
-                <a href="#{$id}" data-toggle="popover" title="Added Text Position" 
-                    data-content="Note added {
-                    if(@hand) 
-                    then concat('by ',substring-after(@hand, '#')) else ''} 
-                    at {upper-case(@place)} according to TEI definitions"><xsl:value-of select="."/></a>
-                
+                <a href="#{$id}" data-toggle="popover" title="Added Text Position" data-content="Note added {                     if(@hand)                      then concat('by ',substring-after(@hand, '#')) else ''}                      at {upper-case(@place)} according to TEI definitions">
+                    <xsl:apply-templates/>
+                </a>
             </xsl:when>
-<!--            has place overstrike-->
-<xsl:when test="@place='overstrike' and preceding-sibling::t:del">
-    <xsl:text>{</xsl:text><xsl:value-of select="."/><xsl:text>}</xsl:text>
-</xsl:when>
+            <!--            has place overstrike-->
+            <xsl:when test="@place='overstrike' and preceding-sibling::t:del">
+                <xsl:text>{</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>}</xsl:text>
+            </xsl:when>
             
-<!--            has only hand-->
+            <!--            has only hand-->
             <xsl:when test="@hand and not(@place)">
                 <xsl:text>/</xsl:text>
-                <a href="#{$id}" data-toggle="popover" title="Correction author" 
-                    data-content="Note added { concat('by ',substring-after(@hand, '#')) }"><xsl:value-of select="."/></a>
+                <a href="#{$id}" data-toggle="popover" title="Correction author" data-content="Note added { concat('by ',substring-after(@hand, '#')) }">
+                    <xsl:apply-templates/>
+                </a>
                 <xsl:text>/</xsl:text>
             </xsl:when>
-
-           <!-- it has only place-->
-            <xsl:otherwise> 
-                <a href="#{$id}" data-toggle="popover" title="Added Text Position" 
-                    data-content="Note added 
-                    at {upper-case(@place)} according to TEI definitions"><xsl:value-of select="."/></a>
-                
-              </xsl:otherwise>
+            
+            <!-- it has only place-->
+            <xsl:otherwise>
+                <a href="#{$id}" data-toggle="popover" title="Added Text Position" data-content="Note added                      at {upper-case(@place)} according to TEI definitions">
+                    <xsl:apply-templates/>
+                </a>
+            </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-    
-    
     <xsl:template match="t:gap[@reason='omitted']">
-        <xsl:variable name="author" select="document(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+        <xsl:variable name="author" select="doc(concat('http://betamasaheft.aai.uni-hamburg.de/persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
         <a href="#" data-toggle="tooltip" title="Omission by {$author}">. . . . .</a>
-
     </xsl:template>
-    
-    
     <xsl:template match="t:choice[t:sic and t:corr]">
         <xsl:variable name="sic" select="t:sic"/>
         <xsl:variable name="resp">
             <xsl:choose>
-                <xsl:when test="starts-with(@resp,'PRS')"><xsl:value-of select="document(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/></xsl:when>
-                <xsl:when test="@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
-                <xsl:when test="@resp = 'ES'">Eugenia Sokolinski</xsl:when>
-                <xsl:when test="@resp = 'DN'">Dr. Denis Nosnitsin</xsl:when>
-                <xsl:when test="@resp = 'MV'">Massimo Villa</xsl:when>
-                <xsl:when test="@resp = 'DR'">Dorothea Reule</xsl:when>
-                <xsl:when test="@resp = 'SG'">Solomon Gebreyes</xsl:when>
-                <xsl:when test="@resp = 'PL'">Dr. Pietro Maria Liuzzo</xsl:when>
-                <xsl:when test="@resp = 'SA'">Dr Stéphane Ancel</xsl:when>
-                <xsl:when test="@resp = 'SD'">Sophia Dege</xsl:when>
-                <xsl:when test="@resp = 'VP'">Dr Vitagrazia Pisani</xsl:when>
-                <xsl:when test="@resp = 'IF'">Iosif Fridman</xsl:when>
-                <xsl:when test="@resp = 'SH'">Susanne Hummel</xsl:when>
-                <xsl:when test="@resp = 'FP'">Francesca Panini</xsl:when>                
-
+                <xsl:when test="starts-with(t:corr/@resp,'PRS')">
+                    <xsl:value-of select="doc(concat('http://betamasaheft.aai.uni-hamburg.de/persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                </xsl:when>
+                <xsl:when test="t:corr/@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
+                <xsl:when test="t:corr/@resp = 'ES'">Eugenia Sokolinski</xsl:when>
+                <xsl:when test="t:corr/@resp = 'DN'">Dr. Denis Nosnitsin</xsl:when>
+                <xsl:when test="t:corr/@resp = 'MV'">Massimo Villa</xsl:when>
+                <xsl:when test="t:corr/@resp = 'DR'">Dorothea Reule</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SG'">Solomon Gebreyes</xsl:when>
+                <xsl:when test="t:corr/@resp = 'PL'">Dr. Pietro Maria Liuzzo</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SA'">Dr Stéphane Ancel</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SD'">Sophia Dege</xsl:when>
+                <xsl:when test="t:corr/@resp = 'VP'">Dr Vitagrazia Pisani</xsl:when>
+                <xsl:when test="t:corr/@resp = 'IF'">Iosif Fridman</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SH'">Susanne Hummel</xsl:when>
+                <xsl:when test="t:corr/@resp = 'FP'">Francesca Panini</xsl:when>
             </xsl:choose>
         </xsl:variable>
-        <a href="#" data-toggle="tooltip" title="Corrected {if ($resp) then concat('by ', $resp) else ()} from {$sic}"><xsl:value-of select="t:corr"/></a>
+        <a href="#" data-toggle="tooltip" title="Corrected {if ($resp) then concat('by ', $resp) else ()} from {$sic}">
+            <xsl:value-of select="t:corr"/>
+        </a>
     </xsl:template>
-    
     <xsl:template match="t:sic">
         <xsl:variable name="resp">
             <xsl:choose>
-                <xsl:when test="starts-with(@resp,'PRS')"><xsl:value-of select="document(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/></xsl:when>
+                <xsl:when test="starts-with(@resp,'PRS')">
+                    <xsl:value-of select="document(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                </xsl:when>
                 <xsl:when test="@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
                 <xsl:when test="@resp = 'ES'">Eugenia Sokolinski</xsl:when>
                 <xsl:when test="@resp = 'DN'">Dr. Denis Nosnitsin</xsl:when>
@@ -364,13 +374,56 @@
                 <xsl:when test="@resp = 'VP'">Dr Vitagrazia Pisani</xsl:when>
                 <xsl:when test="@resp = 'IF'">Iosif Fridman</xsl:when>
                 <xsl:when test="@resp = 'SH'">Susanne Hummel</xsl:when>
-                <xsl:when test="@resp = 'FP'">Francesca Panini</xsl:when>                
-                
+                <xsl:when test="@resp = 'FP'">Francesca Panini</xsl:when>
             </xsl:choose>
         </xsl:variable>
         <a href="#" data-toggle="tooltip" title="Marked as incorrect {if ($resp) then concat('by ', $resp) else ()}">
-            <xsl:value-of select="."/><xsl:text> (sic)</xsl:text>
+            <xsl:value-of select="."/>
+            <xsl:text> (sic)</xsl:text>
         </a>
+    </xsl:template>
+    <xsl:template match="t:desc[not(parent::t:relation)][not(parent::t:handNote)]">
+        <xsl:apply-templates/>
+    </xsl:template>
+    <xsl:template match="t:q">
+        <p>
+            <xsl:choose>
+                <xsl:when test="text()">
+                    <xsl:value-of select="concat('(', @xml:lang, ') ')"/>
+                    <xsl:apply-templates/>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:variable name="lang" select="@xml:lang"/>
+                    <xsl:text>Text in </xsl:text>
+                    <xsl:value-of select="ancestor::t:TEI/t:teiHeader/t:profileDesc/t:langUsage/t:language[@ident = $lang]/text()"/>
+                </xsl:otherwise>
+            </xsl:choose>
+        </p>
+    </xsl:template>
+    <xsl:template match="t:signatures">
+        <xsl:value-of select="text()"/>
+        <xsl:if test="t:note">
+            <xsl:text> - </xsl:text>
+            <xsl:value-of select="t:note"/>
+        </xsl:if>
+    </xsl:template>
+    
+    
+    
+    <xsl:template match="t:supplied">
+        
+        <xsl:choose>
+            <xsl:when test="@reason = 'lost'">
+                <xsl:text>[</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>]</xsl:text>
+            </xsl:when>
+            <xsl:when test="@reason = 'omitted'">
+                <xsl:text>&lt;</xsl:text>
+                <xsl:apply-templates/>
+                <xsl:text>&gt;</xsl:text>
+            </xsl:when>
+        </xsl:choose>
     </xsl:template>
     
 </xsl:stylesheet>
