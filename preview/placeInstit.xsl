@@ -35,35 +35,76 @@
 
             <h2>Names</h2>
             <ul>
-                <xsl:for-each select="//t:place/t:placeName">
-                    <xsl:sort select="if (@xml:id) then @xml:id else @xml:lang"/>
+                <xsl:for-each select="//t:place/t:placeName[@xml:id]">
+                    <xsl:sort select="if (@xml:id) then @xml:id else text()"/>
+                    <xsl:variable name="id" select="@xml:id"/>
                     <li>
                         <xsl:if test="@xml:id">
                             <xsl:attribute name="id">
                                 <xsl:value-of select="@xml:id"/>
                             </xsl:attribute>
                         </xsl:if>
+                        <xsl:if test="@type">
+                            <xsl:value-of select="concat(@type, ': ')"/>
+                        </xsl:if>
                         <xsl:choose>
                             <xsl:when test="@ref">
                                 <a href="{@ref}" target="_blank">
-                                    <xsl:value-of select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
+                                    <xsl:value-of select="."/>
                                 </a>
                             </xsl:when>
                             <xsl:otherwise>
-                                <xsl:apply-templates select="."/> <xsl:if test="@xml:lang"> (<xsl:value-of select="@xml:lang"/>)</xsl:if>
+                                <xsl:value-of select="."/>
                             </xsl:otherwise>
                         </xsl:choose>
-                        <xsl:if test="@type"> (<xsl:value-of select="@type"/>)</xsl:if>
-                        <xsl:if test="@corresp">
+                        <xsl:if test="@xml:lang">
                             <sup>
-                                <a href="{@corresp}">
-                                    <xsl:value-of select="@xml:lang"/>
-                                    <xsl:text> tr.</xsl:text>
-                                </a>
+                                <xsl:value-of select="@xml:lang"/>
                             </sup>
+                        </xsl:if>
+                        <xsl:if test="//t:place/t:placeName[@corresp]">
+                            <xsl:text> (</xsl:text>
+                            <xsl:for-each select="//t:place/t:placeName[substring-after(@corresp, '#') = $id]">
+                                <xsl:sort/>
+                                <xsl:value-of select="."/>
+                                <xsl:if test="@xml:lang">
+                                    <sup>
+                                        <xsl:value-of select="@xml:lang"/>
+                                    </sup>
+                                </xsl:if>
+                                <xsl:if test="position() != last()">
+                                    <xsl:text>, </xsl:text>
+                                </xsl:if>
+                            </xsl:for-each>
+                            <xsl:text>)</xsl:text>
                         </xsl:if>
                     </li>
                 </xsl:for-each>
+                <xsl:if test="//t:place/t:placeName[not(@xml:id or @corresp)]">
+                    <xsl:for-each select="//t:place/t:placeName[not(@xml:id or @corresp)]">
+                        <xsl:sort/>
+                        <li>
+                            <xsl:if test="@type">
+                                <xsl:value-of select="concat(@type, ': ')"/>
+                            </xsl:if>
+                            <xsl:choose>
+                                <xsl:when test="@ref">
+                                    <a href="{@ref}" target="_blank">
+                                        <xsl:value-of select="."/>
+                                    </a>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:value-of select="."/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="@xml:lang">
+                                <sup>
+                                    <xsl:value-of select="@xml:lang"/>
+                                </sup>
+                            </xsl:if>
+                        </li>
+                    </xsl:for-each>
+                </xsl:if>
             </ul>
             <h2>Administrative position</h2>
             <p>
@@ -143,4 +184,5 @@
             </ul>
         </footer>
     </xsl:template>
+
 </xsl:stylesheet>

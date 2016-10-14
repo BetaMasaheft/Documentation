@@ -39,8 +39,24 @@
             <xsl:otherwise> <b style="color:red;
                 text-align:center;">**No record for Person <xsl:value-of select="@ref"/>** = <xsl:value-of select="."/> **</b></xsl:otherwise>
         </xsl:choose>
-        <xsl:if test="@evidence"><xsl:text> (</xsl:text><xsl:value-of select="@evidence"/><xsl:text>) </xsl:text></xsl:if>
-        <xsl:if test="@cert = 'low'"><xsl:text> ? </xsl:text></xsl:if>
-        <xsl:if test="t:note"><xsl:apply-templates select="t:note"/></xsl:if>
+        <xsl:if test="@evidence">
+            <xsl:text> (</xsl:text>
+            <xsl:value-of select="@evidence"/>
+            <xsl:text>) </xsl:text>
+        </xsl:if>
+        <xsl:if test="@cert = 'low'">
+            <xsl:text> ? </xsl:text>
+        </xsl:if>
+        <xsl:if test="t:note">
+            <xsl:apply-templates select="t:note"/>
+        </xsl:if>
+        <xsl:if test="t:roleName">
+            <xsl:apply-templates select="t:roleName"/>
+        </xsl:if>
+    </xsl:template>
+    <xsl:template match="t:roleName">
+        <a href="#" data-toggle="tooltip" title="role: {@type}">
+            <xsl:value-of select="concat(., ' ')"/>
+        </a>
     </xsl:template>
 </xsl:stylesheet>

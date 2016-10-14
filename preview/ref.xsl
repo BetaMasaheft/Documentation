@@ -15,14 +15,14 @@
                             <!--                            multiple entries-->
                             <xsl:when test="contains(@target, ' ')">
                                 <xsl:for-each select="tokenize(@target, ' ')">
-                                    <a href="{.}">
+                                    <a href="{if (contains(., '#')) then substring-after(., '#') else .}">
                                         <xsl:value-of select="."/>
                                     </a>
                                 </xsl:for-each>
                             </xsl:when>
                             <!-- one entry-->
                             <xsl:otherwise>
-                                <a href="{@target}"><xsl:value-of select="."/> (<xsl:value-of select="if (contains(@target, '#')) then substring-after(@target, '#') else @target"/>)</a>
+                                <a href="{if (contains(@target, '#')) then substring-after(@target, '#') else @target}"><xsl:value-of select="."/> (<xsl:value-of select="if (contains(@target, '#')) then substring-after(@target, '#') else @target"/>)</a>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
@@ -33,7 +33,6 @@
 
                             <!--                            multiple entries, assumes there is no text inside ref any way.-->
                             <xsl:when test="contains(@corresp, ' ')">
-
                                 <xsl:for-each select="tokenize(@corresp, ' ')">
                                     <xsl:variable name="filename">
                                         <xsl:choose>
@@ -377,7 +376,7 @@
                             <xsl:when test="contains(@target, ' ')">
                                 <xsl:if test="not(contains(@target, 'http'))"><xsl:text>nos. </xsl:text></xsl:if>
                                 <xsl:for-each select="tokenize(@target, ' ')">
-                                    <a href="{.}">
+                                    <a href="{if (contains(., '#')) then substring-after(., '#') else .}">
                                         <xsl:value-of select="concat(if (contains(., '#')) then substring-after(., '#') else ., ' ')"
                                         />
                                     </a>
@@ -385,9 +384,12 @@
                             </xsl:when>
                             <!-- one entry-->
                             <xsl:otherwise>
-                                <xsl:if test="not(contains(@target, 'http'))">n.<xsl:text>nos. </xsl:text></xsl:if> 
-                                    <a href="{@target}"><xsl:value-of
-                                        select="if (contains(@target, '#')) then substring-after(@target, '#') else @target"/></a>
+                                <xsl:if test="not(contains(@target, 'http'))">
+                                    <xsl:text>n. </xsl:text>
+                                </xsl:if>
+                                <a href="{if (contains(@target, '#')) then substring-after(@target, '#') else @target}"><xsl:value-of
+                                        select="if (contains(@target, '#')) then substring-after(@target, '#') else @target"/>
+                                </a>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>

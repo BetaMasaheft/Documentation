@@ -6,7 +6,7 @@
     exclude-result-prefixes="#all"
     version="2.0">
     <xsl:template match="t:colophon">
-        <hr style="border-top: dotted 2px;"/>
+        <hr class="colophon"/>
         <h3 id="{@xml:id}">Colophon</h3>
         
             <p>

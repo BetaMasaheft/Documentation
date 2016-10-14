@@ -103,25 +103,46 @@
     <xsl:include href="nar.xsl"/>
     
     
-<!-- elements templates-->
+    <xsl:include href="certainty.xsl"/>
     <xsl:include href="locus.xsl"/>
     <xsl:include href="bibl.xsl"/>
     <xsl:include href="origin.xsl"/>
     <xsl:include href="date.xsl"/>
-    <xsl:include href="editorKey.xsl"/>
-    <xsl:include href="change.xsl"/>
-    <xsl:include href="msselements.xsl"/> <!--includes a series of small templates for elements in manuscript entities-->
+    <xsl:include href="msselements.xsl"/>
+    <xsl:include href="dimensions.xsl"/>
+    <xsl:include href="extent.xsl"/>
+    <xsl:include href="foliation.xsl"/>
+    <xsl:include href="material.xsl"/>
+    <xsl:include href="handNote.xsl"/>
+    <xsl:include href="bindingDesc.xsl"/>
+    <xsl:include href="summary.xsl"/>
+    <xsl:include href="msItem.xsl"/>
+    <xsl:include href="colophon.xsl"/>
+    <xsl:include href="condition.xsl"/>
+    <xsl:include href="layoutDesc.xsl"/>
+    <xsl:include href="additions.xsl"/>
+    <xsl:include href="decoDesc.xsl"/>
+    <xsl:include href="collation.xsl"/>
+    <xsl:include href="collationstep1.xsl"/>
+    <xsl:include href="collationstep2.xsl"/>
+    <xsl:include href="collationstep3.xsl"/>
+    <xsl:include href="collationstep4.xsl"/>
+    <xsl:include href="collationdiagrams.xsl"/>
+    <xsl:include href="VARIAsmall.xsl"/>
+    <xsl:include href="faith.xsl"/>
+    <xsl:include href="provenance.xsl"/>
+    <xsl:include href="handDesc.xsl"/>
+    <xsl:include href="msContents.xsl"/>
+    <xsl:include href="history.xsl"/>
+    <xsl:include href="divEdition.xsl"/>
     
-<!--    elements with references-->
+    <!--        elements with references-->
     <xsl:include href="ref.xsl"/>
     <xsl:include href="persName.xsl"/>
-    <xsl:include href="placeName.xsl"/><!-- includes also region, country and settlement-->
+    <xsl:include href="placeName.xsl"/>
+    <!-- includes also region, country and settlement-->
     <xsl:include href="title.xsl"/>
     <xsl:include href="repo.xsl"/>
-    <xsl:include href="witness.xsl"/>
-    <xsl:include href="relation.xsl"/> <!--produces also the javascript for graph-->
-    
-
 
 
 

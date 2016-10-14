@@ -20,85 +20,129 @@
 
         </nav>
         <div  class="container-fluid col-md-10">
-            <div class="row-fluid"   id="general">
-            <h1>
-                <xsl:if test="//t:titleStmt/t:author">
-                    <a href="#{@corresp}">
-                        <xsl:value-of select="//t:titleStmt/t:author"/>
-                    </a>
-                <xsl:text>, </xsl:text>
-                </xsl:if>
-                <i>
-                    <xsl:if test="//t:titleStmt/t:title">
-                        <xsl:value-of select="//t:titleStmt/t:title[@xml:id = 't1']"/>
-                    </xsl:if>
-                </i>
-            </h1>
-            <p>Edited by <xsl:apply-templates
-                    select="//t:titleStmt/t:editor[not(@role = 'generalEditor')]/@key"/>
-                <xsl:if test="//t:publicationStmt/t:date">on <xsl:value-of
-                        select="format-date(//t:publicationStmt/t:date, '[D].[M].[Y]')"
-                /></xsl:if></p>
-        </div>
-
-            <div class="row-fluid"   id="description">
-                <xsl:if test="count(//t:titleStmt/t:title) gt 1">
-                    <h2>Titles</h2>
-                    <ul>
-                        <xsl:for-each select="//t:titleStmt/t:title">
-                            <li> <xsl:apply-templates/></li>
+            <div id="description">
+            <xsl:if test="count(//t:titleStmt/t:title) gt 1">
+                <h2>Titles</h2>
+                <ul>
+                    <xsl:for-each select="//t:titleStmt/t:title[@xml:id]">
+                        <xsl:sort select="if (@xml:id) then @xml:id else text()"/>
+                        <xsl:variable name="id" select="@xml:id"/>
+                        <li>
+                            <xsl:if test="@xml:id">
+                                <xsl:attribute name="id">
+                                    <xsl:value-of select="@xml:id"/>
+                                </xsl:attribute>
+                            </xsl:if>
+                            <xsl:if test="@type">
+                                <xsl:value-of select="concat(@type, ': ')"/>
+                            </xsl:if>
+                            <xsl:choose>
+                                <xsl:when test="@ref">
+                                    <a href="{@ref}" target="_blank">
+                                        <xsl:value-of select="."/>
+                                    </a>
+                                </xsl:when>
+                                <xsl:otherwise>
+                                    <xsl:apply-templates/>
+                                </xsl:otherwise>
+                            </xsl:choose>
+                            <xsl:if test="@xml:lang">
+                                <sup>
+                                    <xsl:value-of select="@xml:lang"/>
+                                </sup>
+                            </xsl:if>
+                            <xsl:if test="//t:titleStmt/t:title[@corresp]">
+                                <xsl:text> (</xsl:text>
+                                <xsl:for-each select="//t:titleStmt/t:title[substring-after(@corresp, '#') = $id]">
+                                    <xsl:sort/>
+                                    <xsl:value-of select="."/>
+                                    <xsl:if test="@xml:lang">
+                                        <sup>
+                                            <xsl:value-of select="@xml:lang"/>
+                                        </sup>
+                                    </xsl:if>
+                                    <xsl:if test="position() != last()">
+                                        <xsl:text>, </xsl:text>
+                                    </xsl:if>
+                                </xsl:for-each>
+                                <xsl:text>)</xsl:text>
+                            </xsl:if>
+                        </li>
+                    </xsl:for-each>
+                    <xsl:if test="//t:titleStmt/t:title[not(@xml:id or @corresp)]">
+                        <xsl:for-each select="//t:titleStmt/t:title[not(@xml:id or @corresp)]">
+                            <xsl:sort/>
+                            <li>
+                                <xsl:if test="@type">
+                                    <xsl:value-of select="concat(@type, ': ')"/>
+                                </xsl:if>
+                                <xsl:choose>
+                                    <xsl:when test="@ref">
+                                        <a href="{@ref}" target="_blank">
+                                            <xsl:value-of select="."/>
+                                        </a>
+                                    </xsl:when>
+                                    <xsl:otherwise>
+                                        <xsl:apply-templates/>
+                                    </xsl:otherwise>
+                                </xsl:choose>
+                                <xsl:if test="@xml:lang">
+                                    <sup>
+                                        <xsl:value-of select="@xml:lang"/>
+                                    </sup>
+                                </xsl:if>
+                            </li>
                         </xsl:for-each>
-                    </ul>
-                </xsl:if>
-            <h2>General description</h2>
-            <p>
-                <xsl:apply-templates select="//t:abstract"/>
-            </p>
-
-            <h2>Date</h2>
-            <p>
-                <xsl:apply-templates select="//t:creation"/>
-                <xsl:if test="//t:creation/@evidence">(<xsl:value-of select="//t:creation/@evidence"
-                    />)</xsl:if>
-            </p>
-
-            <h2>Witnesses</h2>
-            <p>This edition is based on the following manuscripts</p>
-            <ul>
-                <xsl:for-each select="//t:witness">
-                    <li>
-                        <xsl:apply-templates select="."/>
-                    </li>
-                </xsl:for-each>
-            </ul>
-            <h2>Bibliography</h2>
-            <xsl:apply-templates select="//t:listBibl"/>
-
-        </div>
-
-        <xsl:if test="//t:body[t:div//t:ab]">
-            <div class="row-fluid well"   id="transcription">
-                <xsl:apply-templates select="//t:text/t:body/t:ab"/>
-            </div>
-        </xsl:if>
-
-            <div class="row-fluid"   id="relations">
-
-
-            <table>
-                <caption>Relations of this Entity with other entities</caption>
-                <thead>
-                    <tr>
-                        <th>Subject</th>
-                        <th>Relation</th>
-                        <th>Object</th>
-                    </tr>
-                </thead>
-                <xsl:apply-templates mode="reltable" select="//t:listBibl[@type = 'relations']"/>
-            </table>
-            <xsl:apply-templates select="//t:listBibl[@type = 'relations']" mode="graph"/>
+                    </xsl:if>
+                </ul>
+            </xsl:if>
+            <xsl:if test="//t:author">
+                <h2>Author</h2>
+                <ul>
+                    <xsl:for-each select="//t:author">
+                        <li>
+                            <xsl:apply-templates/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+            <xsl:if test="//t:abstract">
+                <h2>General description</h2>
+                <p>
+                    <xsl:apply-templates select="//t:abstract"/>
+                </p>
+            </xsl:if>
+            <xsl:if test="//t:creation">
+                <h2>Date</h2>
+                <p>
+                    <xsl:apply-templates select="//t:creation"/>
+                    <xsl:if test="//t:creation/@evidence">(<xsl:value-of select="//t:creation/@evidence"/>)</xsl:if>
+                </p>
+            </xsl:if>
+            <xsl:if test="//t:listWit">
+                <h2>Witnesses</h2>
+                <p>This edition is based on the following manuscripts</p>
+                <ul>
+                    <xsl:for-each select="//t:witness">
+                        <li>
+                            <xsl:apply-templates select="."/>
+                        </li>
+                    </xsl:for-each>
+                </ul>
+            </xsl:if>
+            <xsl:if test="//t:listBibl[not(@type='relations')]">
+                <div id="bibliography">
+                    <xsl:apply-templates select="//t:listBibl[not(@type='relations')]"/>
+                </div>
+            </xsl:if>
+            <xsl:if test="//t:body[t:div[@type='edition'][t:ab or t:div[@type='textpart']]]">
+                <div class="row-fluid well" id="transcription">
+                    <xsl:apply-templates select="//t:text/t:body/t:div[@type='edition']"/>
+                </div>
+            </xsl:if>
         </div>
         </div>
+
         <footer id="footer">
             <h2>Authors</h2>
             <ul>
@@ -106,4 +150,6 @@
             </ul>
         </footer>
     </xsl:template>
+
+
 </xsl:stylesheet>

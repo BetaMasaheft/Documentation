@@ -47,12 +47,7 @@
                             <xsl:if test="t:desc/@type"> (Type: <xsl:value-of select="t:desc/@type"
                             />)</xsl:if>
                         </p>
-                        <xsl:for-each select="t:q">
-                            <p>
-                                <xsl:value-of select="concat('(', @xml:lang, ') ')"/>
-                                <xsl:apply-templates select="."/>
-                            </p>
-                        </xsl:for-each>
+                        <xsl:apply-templates select="t:q"/>
                         <p>
                             <xsl:value-of select="./text()"/>
                         </p>
@@ -69,7 +64,7 @@
                 <h3  id="{@xml:id}">Extras <xsl:if test="./ancestor::t:msPart"><xsl:variable
                     name="currentMsPart">
                     <a href="{./ancestor::t:msPart/@xml:id}"><xsl:value-of
-                        select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of
+                        select="./ancestor::t:msPart/@xml:id"/></a></xsl:variable> of codicological unit
                     <xsl:value-of select="$currentMsPart"/></xsl:if></h3>
                 <ol>
                     <xsl:for-each select="//t:item[contains(@xml:id, 'e')]">

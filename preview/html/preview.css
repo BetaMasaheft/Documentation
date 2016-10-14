@@ -1,26 +1,112 @@
 @charset "utf-8";
-/* CSS Document */
-/* visited link */
-a:visited {
-    color: green;
+/* Application styles could go here */
+
+html body {
+    font-family: "Noto Sans", "Noto Sans Ethiopic", "Noto Arabic", "Noto Sans Georgian", "Noto Sans Armenian", "Noto Sans Old South Arabian", "Noto Sans Coptic", sans-serif;
 }
 
-/* mouse over link */
-a:hover {
-    color: hotpink;
+h1, h2, h3, h4, h5, h6 {font-weight: bold; font-family: "Noto Sans", "Noto Sans Ethiopic", "Noto Arabic", "Noto Sans Georgian", "Noto Sans Armenian", "Noto Sans Old South Arabian", "Noto Sans Coptic", sans-serif;} 
+
+h2 {font-size : 28px}
+h3 {font-size : 25px}
+h4 {font-size : 22px}
+h5 {font-size : 20px}
+
+#showcase, #lifespan {
+	margin: 0 20px;
+}
+#slider, #LifeSlider {
+	margin: 0 auto 30px;
+}
+#value-span, #dates-input,
+#value-input {
+	width: 50%;
+	float: left;
+	display: block;
+	text-align: center;
+	margin: 0;
 }
 
-/* selected link */
-a:active {
-    color: blue;
+footer .poweredby { float: right; margin: 33px 10px 0 0;}
+footer .poweredby img { width: 120px; }
+
+.row:nth-child(odd) 
+  {
+    background: #e0e0e0;
+      
+  }
+  
+ 
+  
+span.hi { border: thin solid black; font-weight: bold;}
+span.previous { font-style: italic; }
+span.following { font-style: italic; }
+
+
+.QuiresTable{
+width:100%;height:200px;
+overflow-x:scroll;
+overflow-y:scroll;}
+ 
+.quireTableHeaders { 
+position: relative;
+list-style-type: none;
+font-weight: bold;
+list-style:none;
+padding-left:0;}
+   
+.QuiresTableHoriz
+{
+position:relative;
 }
-#BetMesRelView {
-                        width: 100%;
-                        height: 1000px;
-                        border: 1px solid lightgray;
-                        }
-                        
-div > div.row {padding-left: 30px;}
+.quire
+{
+  
+    vertical-align: top;
+    height:100px;
+}
+
+
+.list-inline {
+  white-space:nowrap;
+}
+
+
+
+.quireTableQuire{
+    list-style-type: none;
+    vertical-align: top;
+    margin-top:0;
+}
+             
+li> .quire {
+height:20px;
+overflow-x:scroll;
+overflow-y:scroll;
+}
+   
+   
+   
+
+#BetMasRelView {
+       width: 100%;
+      height: 1000px;
+      border: 1px solid lightgray;}
+      
+      
+      
+                                
+div > div[id*=ms].row {padding-left: 30px;}
+
+div > div[id*=transcription].row {padding-left: 30px;}
+
+div.subtextpart {padding-left: 30px;}
+
+div.msPart div.msFrag  {padding-left: 50px;}
+
+
+hr.msParts {border-top: dotted 1px;}
+hr.colophon {border-top: dotted 2px;}
 
 body {position:relative;}
 
@@ -30,9 +116,6 @@ sup{
 }
 
 
-ul#navig {
-      position: fixed;
-  }
 
 span.rubric{color:red;}
 span.undeciphrable{color:grey;}
@@ -45,28 +128,14 @@ td{
     margin: 0;
     border: 3px;
     border-top-width: 0px;
-    white-space: nowrap;
+
 }
 div.report{
     background-color: red;
 }
-div.collation{
-    overflow-x: scroll;
-    margin-left: 5em;
-    overflow-y: visible;
-    padding-bottom: 
-    1px;
-    padding-left: 5px;
-}
-.headcol{
-    position: absolute;
-    width: 5em;
-    left: 300;
-    top: auto;
-    border-right: 0px none black;
-    border-top-width: 3px; /*only relevant for first row*/
-    margin-top: -3px; /*compensate for top border*/
-}
+
+
+
 .bif{
     font-family: Arial, Helvetica, 
 sans-serif;
@@ -406,4 +475,116 @@ sans-serif;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 14px;
     color: #333;
+}
+
+/*!
+ * Start Bootstrap - Simple Sidebar (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+
+/* Toggle Styles */
+
+#wrapperone {
+    padding-left: 0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+
+#wrapperone.toggledone {
+    padding-left: 250px;
+}
+
+#sidebar-wrapper {
+    z-index: 1000;
+    position: fixed;
+    right: 250px;
+    width: 0;
+    height: 100%;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #b3ecff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#wrapperone.toggledone #sidebar-wrapper {
+    width: 250px;
+}
+
+#page-content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding: 15px;
+}
+
+#wrapperone.toggledone #page-content-wrapper {
+    position: absolute;
+    margin-left: -250px;
+}
+
+
+.summary { list-style: none;}
+
+/* Sidebar Styles */
+
+.sidebar-nav {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+@media(min-width:768px) {
+    #wrapperone {
+        padding-right: 250px;
+    }
+
+    #wrapperone.toggledone {
+        padding-right: 0;
+    }
+
+    #sidebar-wrapper {
+        width: 250px;
+    }
+
+    #wrapperone.toggledone #sidebar-wrapper {
+        width: 0;
+    }
+
+    #page-content-wrapper {
+        padding: 20px;
+        position: relative;
+    }
+
+    #wrapperone.toggledone #page-content-wrapper {
+        position: relative;
+        margin-left: 0;
+    }
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
 }

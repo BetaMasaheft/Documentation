@@ -77,6 +77,14 @@
         <xsl:if test="@when">
             (information recorded on: <xsl:value-of select="@when"/>)
         </xsl:if>
+        <xsl:if test="@notBefore">
+            <xsl:text> After: </xsl:text>
+            <xsl:value-of select="@notBefore"/>
+        </xsl:if>
+        <xsl:if test="@notAfter">
+            <xsl:text> Before: </xsl:text>
+            <xsl:value-of select="@notAfter"/>
+        </xsl:if>
     </xsl:template>
     
 </xsl:stylesheet>

@@ -68,4 +68,5 @@
                 <xsl:apply-templates select="//t:revisionDesc"/>
             </ul></footer>
     </xsl:template>
+ 
 </xsl:stylesheet>
