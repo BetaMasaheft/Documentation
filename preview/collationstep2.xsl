@@ -17,11 +17,11 @@
             </xd:p>
         </xd:desc>
     </xd:doc>
-    <xsl:template match="@*|node()">
+   <!-- <xsl:template match="@*|node()">
         <xsl:copy>
             <xsl:apply-templates select="@*|node()"/>
         </xsl:copy>
-    </xsl:template>
+    </xsl:template>-->
     <xsl:template name="step1">
         <xsl:param name="step1ed" tunnel="yes"/>
         <xsl:for-each select="//t:quire">
