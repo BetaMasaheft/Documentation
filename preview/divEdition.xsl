@@ -6,7 +6,7 @@
     <xsl:template match="t:body">
         <xsl:apply-templates/>
     </xsl:template>
-    <xsl:template match="t:div[parent::t:body]">
+    <xsl:template match="t:div[parent::t:body][not(@type='apparatus')]">
         <div class="row-fluid" id="{@type}">
             <head>
                 <xsl:if test="@corresp">
@@ -40,14 +40,21 @@
                 </a>
             </xsl:if>
             <xsl:if test="@corresp">
-                <span class="label label-default">
-                    <xsl:variable name="titles" select="doc(concat('http://betamasaheft.aai.uni-hamburg.de/works/',@corresp, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"/>
-                    <xsl:apply-templates select="if($titles/@corresp) then $titles[@corresp='#t1' and @type='normalized'] else if($titles/@xml:id) then $titles[@xml:id='t1'] else $titles[1]"/>
+                <xsl:choose>
+                        <xsl:when test="starts-with(@corresp, '#')">
+                            <xsl:text> </xsl:text><a href="{@corresp}"><xsl:value-of select="substring-after(@corresp, '#')"/></a>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <span class="label label-default">
+                    
+                            <xsl:variable name="titles" select="doc(concat('../Works/',@corresp, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"/>
+                        <xsl:apply-templates select="if($titles/@corresp) then $titles[@corresp='#t1' and @type='normalized'] else if($titles/@xml:id) then $titles[@xml:id='t1'] else $titles[1]"/>
                 </span>
                 <a href="{@corresp}">
                     <xsl:text>  </xsl:text>
                     <span class="glyphicon glyphicon-share"/>
                 </a>
+                        </xsl:otherwise></xsl:choose>
             </xsl:if>
             <xsl:apply-templates/>
         </div>
@@ -175,7 +182,7 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="t:gap[@reason='omitted']">
-        <xsl:variable name="author" select="doc(concat('http://betamasaheft.aai.uni-hamburg.de/persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+        <xsl:variable name="author" select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
         <a href="#" data-toggle="tooltip" title="Omission by {$author}">. . . . .</a>
     </xsl:template>
     <xsl:template match="t:choice[t:sic and t:corr]">
@@ -183,7 +190,7 @@
         <xsl:variable name="resp">
             <xsl:choose>
                 <xsl:when test="starts-with(t:corr/@resp,'PRS')">
-                    <xsl:value-of select="doc(concat('http://betamasaheft.aai.uni-hamburg.de/persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                    <xsl:value-of select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
                 </xsl:when>
                 <xsl:when test="t:corr/@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
                 <xsl:when test="t:corr/@resp = 'ES'">Eugenia Sokolinski</xsl:when>
@@ -208,7 +215,7 @@
         <xsl:variable name="resp">
             <xsl:choose>
                 <xsl:when test="starts-with(@resp,'PRS')">
-                    <xsl:value-of select="document(concat('http://betamasaheft.aai.uni-hamburg.de/persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                    <xsl:value-of select="document(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
                 </xsl:when>
                 <xsl:when test="@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
                 <xsl:when test="@resp = 'ES'">Eugenia Sokolinski</xsl:when>
@@ -244,4 +251,65 @@
             </xsl:when>
         </xsl:choose>
     </xsl:template>
+    
+    <xsl:template match="t:div[@type='apparatus']">
+       <div class="row-fluid" id="apparatus"> 
+           <hr/>
+           
+        <xsl:for-each select="t:app">
+            <xsl:sort select="position()"/>
+            <a href="{@from}"><xsl:value-of select="concat(substring-after(@from, '#'), ', ', @loc, ' ')"/></a>
+            <xsl:apply-templates/><xsl:if test="not(position() = last())"><xsl:text> | </xsl:text></xsl:if>
+        </xsl:for-each></div>
+    </xsl:template>
+    
+    <xsl:template match="t:lem">
+        <xsl:variable name="resp">
+            <xsl:choose>
+                <xsl:when test="starts-with(@resp,'PRS')">
+                    <xsl:value-of select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                </xsl:when>
+                <xsl:when test="t:corr/@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
+                <xsl:when test="t:corr/@resp = 'ES'">Eugenia Sokolinski</xsl:when>
+                <xsl:when test="t:corr/@resp = 'DN'">Dr. Denis Nosnitsin</xsl:when>
+                <xsl:when test="t:corr/@resp = 'MV'">Massimo Villa</xsl:when>
+                <xsl:when test="t:corr/@resp = 'DR'">Dorothea Reule</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SG'">Solomon Gebreyes</xsl:when>
+                <xsl:when test="t:corr/@resp = 'PL'">Dr. Pietro Maria Liuzzo</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SA'">Dr Stéphane Ancel</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SD'">Sophia Dege</xsl:when>
+                <xsl:when test="t:corr/@resp = 'VP'">Dr Vitagrazia Pisani</xsl:when>
+                <xsl:when test="t:corr/@resp = 'IF'">Iosif Fridman</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SH'">Susanne Hummel</xsl:when>
+                <xsl:when test="t:corr/@resp = 'FP'">Francesca Panini</xsl:when>
+            </xsl:choose>
+        </xsl:variable>
+        <a href="#" data-toggle="tooltip" title="Reading of {@wit} by {$resp}">
+        <xsl:apply-templates/>
+        </a><xsl:text>: </xsl:text>
+    </xsl:template>
+    <xsl:template match="t:rdg">
+        <xsl:variable name="resp">
+            <xsl:choose>
+                <xsl:when test="starts-with(@resp,'PRS')">
+                    <xsl:value-of select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                </xsl:when>
+                <xsl:when test="t:corr/@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
+                <xsl:when test="t:corr/@resp = 'ES'">Eugenia Sokolinski</xsl:when>
+                <xsl:when test="t:corr/@resp = 'DN'">Dr. Denis Nosnitsin</xsl:when>
+                <xsl:when test="t:corr/@resp = 'MV'">Massimo Villa</xsl:when>
+                <xsl:when test="t:corr/@resp = 'DR'">Dorothea Reule</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SG'">Solomon Gebreyes</xsl:when>
+                <xsl:when test="t:corr/@resp = 'PL'">Dr. Pietro Maria Liuzzo</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SA'">Dr Stéphane Ancel</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SD'">Sophia Dege</xsl:when>
+                <xsl:when test="t:corr/@resp = 'VP'">Dr Vitagrazia Pisani</xsl:when>
+                <xsl:when test="t:corr/@resp = 'IF'">Iosif Fridman</xsl:when>
+                <xsl:when test="t:corr/@resp = 'SH'">Susanne Hummel</xsl:when>
+                <xsl:when test="t:corr/@resp = 'FP'">Francesca Panini</xsl:when>
+            </xsl:choose>
+        </xsl:variable>
+        <b><xsl:choose><xsl:when test="@wit"><a href="{@wit}" data-toggle="tooltip" title="Reading by {$resp}"><xsl:value-of select="@wit"/></a></xsl:when></xsl:choose></b><xsl:if test="@xml:lang"><xsl:text> Cfr. </xsl:text><xsl:value-of select="@xml:lang"/></xsl:if><xsl:text>, </xsl:text><xsl:text> </xsl:text><xsl:apply-templates/>
+    </xsl:template>
+    
 </xsl:stylesheet>
