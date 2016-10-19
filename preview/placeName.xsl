@@ -8,6 +8,17 @@
     <xsl:template match="t:placeName | t:region | t:country | t:settlement">
       
         <xsl:choose><xsl:when test="@ref">
+            <xsl:choose>
+                <xsl:when test="contains(@ref, 'gn:')">
+                    <xsl:variable name="id" select="substring-after(@ref, 'gn:')"/>
+                    <a href="http://www.geonames.org/{$id}">
+                        <xsl:value-of select="document(concat('http://api.geonames.org/get?geonameId=',$id,'&amp;username=betamasaheft'))//toponymName"/> 
+                        <!--
+                           if there is nothing still try a geonames look up for a link
+                           -->
+                    </a>
+                </xsl:when>
+                <xsl:otherwise>
             <xsl:variable name="filename">
                 <xsl:choose>
                     <xsl:when test="contains(@ref, '#')">
@@ -72,6 +83,8 @@
                 </xsl:choose>
             </xsl:otherwise>
         </xsl:choose>
+                </xsl:otherwise>
+            </xsl:choose>
     </xsl:when>
         <xsl:otherwise><xsl:apply-templates/></xsl:otherwise></xsl:choose>
         <xsl:if test="@when">
