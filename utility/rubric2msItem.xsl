@@ -22,7 +22,7 @@
     </xsl:template>
     
     <xsl:template match="t:rubric[t:title]">
-        <xsl:variable name="parentID" select="ancestor::t:msItem/@xml:id"/>
+        <xsl:variable name="parentID" select="ancestor::t:msItem[1]/@xml:id"/>
         <msItem xml:id="{$parentID}.{count(preceding-sibling::t:rubric) +1}">
                 <xsl:apply-templates select="@*|node()"/>
             </msItem>
