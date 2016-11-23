@@ -47,6 +47,13 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                     </sourceDesc>
                 </fileDesc>
                 <profileDesc>
+                    <xsl:if test="td[4]">
+                        <abstract>
+                            <p>
+                                <xsl:value-of select="td[4]"/>
+                            </p>
+                        </abstract>
+                    </xsl:if>
                     <langUsage>
                         <language ident="en">English</language>
                         <language ident="ar">Arabic</language>
@@ -55,35 +62,59 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                     </langUsage>
                 </profileDesc>
                 <revisionDesc>
-                    <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+                    <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
                 </revisionDesc>
             </teiHeader>
             <text>
                 <body>
-                    <xsl:choose><xsl:when test="td[3]/text()">
+                    
                         <div type="bibliography">
-                    <xsl:choose><xsl:when test="contains(td[3], 'Chaine')">
+                            <xsl:choose><xsl:when test="contains(td[3], 'Chaine') or contains(td[3], 'Budge')">
                     
                         <listBibl type="editions">
                             
+                            <xsl:if test="contains(td[3], 'Chaine')">
                                 <bibl><ptr target="bm:Chaine1913Rep"/><citedRange unit="item"><xsl:value-of 
                                     select="substring-after(td[3], 'Répertoire Chaine, n. ')"/></citedRange></bibl>
-                           
+                           </xsl:if>
+                            <xsl:if test="contains(td[3], 'Budge')">
+                                <bibl><ptr target="bm:Budge1923Miracles"/><citedRange unit="item"><xsl:value-of 
+                                    select="substring-after(td[3], 'Budge ')"/></citedRange></bibl>
+                            </xsl:if>
+                            <xsl:comment><xsl:value-of select="td[3]"/></xsl:comment>
                         </listBibl>
                     </xsl:when>
-                    <xsl:when test="td[3]/text() and not(contains(td[3], 'Chaine')) and contains(td[3], 'art of LIT')">
+                        
+                                <xsl:when test="td[3]/text() or td[10]/text() or td[11]/text() or td[12]/text()">
                         <listBibl type="relations">
                             <bibl/>
-                            <relation name="saws:formsPartOf" active="{normalize-space(td[1])}" passive="{substring-after(td[3], 'art of ')}">
+                            <xsl:if test="td[3]/text()">
+                                <relation name="saws:formsPartOf" active="{normalize-space(td[1])}" passive="{
+                                if (contains(td[3], 'art of '))
+                                then substring-after(td[3], 'art of ') 
+                                else ()
+                                }">
+                                <xsl:comment><xsl:value-of select="td[3]"/></xsl:comment>
                                 
-                            </relation>
-                            
+                            </relation></xsl:if>
+                            <xsl:if test="td[10]/text() or td[11]/text()"><relation name="saws:isAttributedAuthorOf" active="{normalize-space(td[11])}" passive="{td[1]}">
+                                <xsl:comment><xsl:value-of select="td[10]"/></xsl:comment>
+                                
+                            </relation></xsl:if>
+                            <xsl:if test="td[12]/text()">
+                                <relation name="lawd:hasAttestation" active="{td[1]}" passive="{normalize-space(td[12])}">
+                                    <xsl:comment><xsl:value-of select="td[12]"/></xsl:comment>
+                                    
+                                </relation></xsl:if>
                         </listBibl>
                         
                     </xsl:when> 
                             <xsl:otherwise><xsl:comment><xsl:value-of select="td[3]"/></xsl:comment></xsl:otherwise></xsl:choose>
-                    </div></xsl:when>
-                    <xsl:otherwise><ab/></xsl:otherwise></xsl:choose>
+                    </div>
+                    <xsl:if test="contains(td[3],'Inc') or td[13]/text() "><div type="edition"><ab>
+                        <xsl:if test="contains(td[3],'Inc')"><xsl:value-of select="td[3]"/> <xsl:comment>TO BE MARKEDUP!</xsl:comment></xsl:if>
+                        <xsl:if test="td[13]/text()"><xsl:value-of select="td[13]"/> <xsl:comment>TO BE MARKEDUP!</xsl:comment></xsl:if>
+                    </ab></div></xsl:if>
                    
                 </body>
             </text>

@@ -47,7 +47,7 @@
                         <xsl:otherwise>
                             <span class="label label-default">
                     
-                            <xsl:variable name="titles" select="doc(concat('../Works/',@corresp, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"/>
+                            <xsl:variable name="titles" select="doc(concat('../../Works/',@corresp, '.xml'))//t:TEI//t:titleStmt//t:title[not(@type = 'alt')]"/>
                         <xsl:apply-templates select="if($titles/@corresp) then $titles[@corresp='#t1' and @type='normalized'] else if($titles/@xml:id) then $titles[@xml:id='t1'] else $titles[1]"/>
                 </span>
                 <a href="{@corresp}">
@@ -182,15 +182,22 @@
         </xsl:choose>
     </xsl:template>
     <xsl:template match="t:gap[@reason='omitted']">
-        <xsl:variable name="author" select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+        <xsl:variable name="author" select="doc(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
         <a href="#" data-toggle="tooltip" title="Omission by {$author}">. . . . .</a>
     </xsl:template>
     <xsl:template match="t:choice[t:sic and t:corr]">
         <xsl:variable name="sic" select="t:sic"/>
         <xsl:variable name="resp">
             <xsl:choose>
-                <xsl:when test="starts-with(t:corr/@resp,'PRS')">
-                    <xsl:value-of select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                <xsl:when test="contains(t:corr/@resp,'PRS')">
+                    <xsl:for-each select="tokenize(normalize-space(t:corr/@resp), ' ')">
+                        <xsl:choose>
+                            <xsl:when test="doc-available(concat('../../Persons/', ., '.xml'))">
+                            <xsl:value-of select="doc(concat('../../Persons/', ., '.xml'))//t:TEI//t:persName[1]"/>
+                            </xsl:when>
+                            <xsl:otherwise><xsl:value-of select="."/> (of which there is no record yet)</xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:for-each>
                 </xsl:when>
                 <xsl:when test="t:corr/@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
                 <xsl:when test="t:corr/@resp = 'ES'">Eugenia Sokolinski</xsl:when>
@@ -215,7 +222,7 @@
         <xsl:variable name="resp">
             <xsl:choose>
                 <xsl:when test="starts-with(@resp,'PRS')">
-                    <xsl:value-of select="document(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                    <xsl:value-of select="document(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
                 </xsl:when>
                 <xsl:when test="@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
                 <xsl:when test="@resp = 'ES'">Eugenia Sokolinski</xsl:when>
@@ -267,7 +274,7 @@
         <xsl:variable name="resp">
             <xsl:choose>
                 <xsl:when test="starts-with(@resp,'PRS')">
-                    <xsl:value-of select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                    <xsl:value-of select="doc(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
                 </xsl:when>
                 <xsl:when test="t:corr/@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
                 <xsl:when test="t:corr/@resp = 'ES'">Eugenia Sokolinski</xsl:when>
@@ -292,7 +299,7 @@
         <xsl:variable name="resp">
             <xsl:choose>
                 <xsl:when test="starts-with(@resp,'PRS')">
-                    <xsl:value-of select="doc(concat('../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
+                    <xsl:value-of select="doc(concat('../../Persons/', @resp, '.xml'))//t:TEI//t:persName[1]"/>
                 </xsl:when>
                 <xsl:when test="t:corr/@resp = 'AB'">Prof. Alessandro Bausi</xsl:when>
                 <xsl:when test="t:corr/@resp = 'ES'">Eugenia Sokolinski</xsl:when>

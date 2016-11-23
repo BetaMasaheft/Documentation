@@ -55,7 +55,7 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                             </langUsage>
                         </profileDesc>
                         <revisionDesc>
-                            <change who="PL" when="2016-07-26">Created XML record from Ethio authority google spreadsheet</change>
+                            <change who="PL" when="2016-11-17">Created XML record from Ethio authority google spreadsheet</change>
                         </revisionDesc>
                     </teiHeader>
                     <text>
@@ -75,9 +75,17 @@ type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"</xsl:
                                     <xsl:if test="td[6]/text()"><persName><xsl:value-of select="td[6]"/></persName></xsl:if>
                                     <xsl:if test="td[8]/text()"><nationality><xsl:value-of select="td[8]"/></nationality></xsl:if>
                                     <xsl:if test="td[9]/text()"><faith><xsl:value-of select="td[9]"/></faith></xsl:if>
-                                    <xsl:if test="td[13]/text()"><floruit><xsl:value-of select="td[13]"/></floruit><xsl:comment>From Time field!</xsl:comment></xsl:if>
+                                    <xsl:if test="td[13]/text()"><floruit><xsl:value-of select="td[13]"/></floruit><xsl:comment>From Time field, to be changed into DEATH, BIRTH, or whatever is actually relevant!</xsl:comment></xsl:if>
                                    <xsl:if test="td[11]/text()"><occupation><xsl:value-of select="td[11]"/></occupation></xsl:if>
+                                    <xsl:if test="td[12]/text()"><note><xsl:value-of select="td[12]"/></note></xsl:if>
                                 </person>
+                                <xsl:if test="td[10]/text() or td[14]/text()or td[16]/text()">
+                                    <listRelation>
+                                        <xsl:if test="td[10]/text()"><relation><xsl:value-of select="td[10]"/></relation></xsl:if>
+                                        <xsl:if test="td[14]/text()"><relation name="syriaca:has-relation-to-place" active="{td[1]}"><xsl:value-of select="td[14]"/></relation></xsl:if>
+                                        <xsl:if test="td[16]/text()"><relation name="lawd:hasAttestation" active="{td[1]}" passive="{td[16]}"><xsl:comment>Please fix the relation of this item with <xsl:value-of select="td[16]"/></xsl:comment></relation></xsl:if>
+                                    </listRelation>
+                                </xsl:if>
                             </listPerson>
                             
                         </body>
