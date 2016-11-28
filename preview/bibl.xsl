@@ -9,7 +9,7 @@
                 <xsl:if test="./ancestor::t:msPart">
                     <xsl:variable name="currentMsPart">
                         <a href="{./ancestor::t:msPart/@xml:id}">
-                            <xsl:value-of select="substring-after(./ancestor::t:msPart/@xml:id, 'p')"/>
+                            <xsl:value-of select="substring-after(./ancestor::t:msPart[1]/@xml:id, 'p')"/>
                         </a>
                     </xsl:variable> of codicological unit
                 <xsl:value-of select="$currentMsPart"/>
@@ -17,7 +17,7 @@
                 <xsl:if test="./ancestor::t:msItem">
                     <xsl:variable name="currentMsItem">
                         <a href="{./ancestor::t:msItem/@xml:id}">
-                            <xsl:value-of select="substring-after(./ancestor::t:msItem/@xml:id, 'i')"/>
+                            <xsl:value-of select="substring-after(./ancestor::t:msItem[1]/@xml:id, 'i')"/>
                         </a>
                     </xsl:variable>, item 
                     <xsl:value-of select="$currentMsItem"/>
