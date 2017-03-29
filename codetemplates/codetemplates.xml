@@ -6,6 +6,34 @@
 			<codeTemplateItem-array>
 				<codeTemplateItem>
 					<field name="contentType">
+						<String>text/any</String>
+					</field>
+					<field name="unparsedInsertString">
+						<String>&lt;listBibl type="clavis">
+    &lt;bibl corresp="#t1" type="CC">&lt;ptr target="bm:CC"/>&lt;citedRange unit="item">123&lt;/citedRange>&lt;/bibl>
+    &lt;bibl corresp="#t1" type="CPG">&lt;ptr target="bm:CPG"/>&lt;citedRange unit="item">123&lt;/citedRange>&lt;/bibl>
+    &lt;bibl corresp="#t1" type="BHO">&lt;ptr target="bm:BHO"/>&lt;citedRange unit="item">123&lt;/citedRange>&lt;/bibl>
+    &lt;bibl corresp="#t1" type="CANT">&lt;ptr target="bm:CANT"/>&lt;citedRange unit="item">123&lt;/citedRange>&lt;/bibl>
+    &lt;bibl corresp="#t1" type="CAVT">&lt;ptr target="bm:CAVT"/>&lt;citedRange unit="item">123&lt;/citedRange>&lt;/bibl>
+    &lt;bibl corresp="#t1" type="BHL">&lt;ptr target="bm:BHL"/>&lt;citedRange unit="item">123&lt;/citedRange>&lt;/bibl>
+    &lt;bibl corresp="#t1" type="syriaca">&lt;ptr target="bm:syriaca"/>&lt;citedRange unit="item">123&lt;/citedRange>&lt;/bibl>
+&lt;/listBibl></String>
+					</field>
+					<field name="descriptionString">
+						<String></String>
+					</field>
+					<field name="renderString">
+						<String>clavis</String>
+					</field>
+					<field name="enabled">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="accelerator">
+						<null/>
+					</field>
+				</codeTemplateItem>
+				<codeTemplateItem>
+					<field name="contentType">
 						<String>text/css</String>
 					</field>
 					<field name="unparsedInsertString">
@@ -3408,6 +3436,26 @@ Expansion is enabled by default.&lt;/li>&lt;/ul> &lt;br/> Template: &lt;br/>&lt;
 					</field>
 					<field name="renderString">
 						<String>little w</String>
+					</field>
+					<field name="enabled">
+						<Boolean>true</Boolean>
+					</field>
+					<field name="accelerator">
+						<null/>
+					</field>
+				</codeTemplateItem>
+				<codeTemplateItem>
+					<field name="contentType">
+						<String>text/xml</String>
+					</field>
+					<field name="unparsedInsertString">
+						<String>ms_i</String>
+					</field>
+					<field name="descriptionString">
+						<String></String>
+					</field>
+					<field name="renderString">
+						<String>msitemsIDs</String>
 					</field>
 					<field name="enabled">
 						<Boolean>true</Boolean>
