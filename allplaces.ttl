@@ -6424,6 +6424,21 @@ lawd:hasName [ lawd:variantForm "Bara ʾAǧam"@gez ];
                 
                  
              
+             <http://betamasaheft.aai.uni-hamburg.de/places/LOC6873BaraArab> a lawd:Place ;
+  rdfs:label "Bara ʿArab"@gez;
+ dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC6873BaraArab.xml> ;
+ dcterms:description "A place in Ethiopia"@en ;
+ dcterms:temporal <http://n2t.net/ark:/99152/p03tcssvm7f>;
+ 
+lawd:hasName [ lawd:primaryForm "በረ፡ ዓረብ"@gez ]; 
+ 
+lawd:hasName [ lawd:variantForm "Bara ʿArab"@gez ]; 
+ foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC6873BaraArab/main> ;
+                
+                .
+                
+                 
+             
              <http://betamasaheft.aai.uni-hamburg.de/places/LOC1767Barahs> a lawd:Place ;
   rdfs:label "Barahseri";
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC1767Barahs.xml> ;
@@ -8801,21 +8816,6 @@ lawd:hasName [ lawd:variantForm "Bora" ];
  
 lawd:hasName [ lawd:variantForm "Bora ʿAli" ]; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC1970BoraAl/main> ;
-                
-                .
-                
-                 
-             
-             <http://betamasaheft.aai.uni-hamburg.de/places/LOC6860borderland> a lawd:Place ;
-  rdfs:label "Border land"@gez;
- dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC6860borderland.xml> ;
- dcterms:description "A place in Ethiopia"@en ;
- dcterms:temporal <http://n2t.net/ark:/99152/p03tcssvm7f>;
- 
-lawd:hasName [ lawd:primaryForm "ጽንፍ፡"@gez ]; 
- 
-lawd:hasName [ lawd:variantForm "Border land"@gez ]; 
- foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC6860borderland/main> ;
                 
                 .
                 
@@ -12176,11 +12176,10 @@ lawd:hasName [ lawd:primaryForm "Dabra Fiqtor" ];
   rdfs:label "Dabra Libānos";
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC2297DabraL.xml> ;
  dcterms:description "A place in Ethiopia"@en ;
-  skos:exactMatch <http://betamasaheft.aai.uni-hamburg.de/institutions/INS0341DL> ;
-
+ 
 lawd:hasName [ lawd:variantForm "Dabra Libānos" ]; 
  
-lawd:hasName [ lawd:variantForm "ʿAsbo" ];
+lawd:hasName [ lawd:variantForm "ʿAsbo" ]; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC2297DabraL/main> ;
                 
                 .
@@ -12346,6 +12345,21 @@ geo:location [ geo:lat 11.3388 ;  geo:long 39.6976 ] ;
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/INS0327DHE/main> ;
                 dcterms:isPartOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC6572SouthWallo>; 
 
+                .
+                
+                 
+             
+             <http://betamasaheft.aai.uni-hamburg.de/places/INS0369DabraSabaot> a lawd:Place ;
+  rdfs:label "Dabra Ṣabāʿot";
+ dcterms:source <http://betamasaheft.aai.uni-hamburg.de/INS0369DabraSabaot.xml> ;
+ dcterms:description "A place in Ethiopia"@en ;
+ dcterms:temporal <http://n2t.net/ark:/99152/p03tcssvm7f>;
+ 
+lawd:hasName [ lawd:primaryForm "ደብረ፡ ጸባዖት፡"@gez ]; 
+ 
+lawd:hasName [ lawd:variantForm "Dabra Ṣabāʿot" ]; 
+ foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/INS0369DabraSabaot/main> ;
+                
                 .
                 
                  
@@ -29444,6 +29458,7 @@ lawd:hasName [ lawd:variantForm "Ifat" ];
 lawd:hasName [ lawd:variantForm "Ifāt; Awfat" ]; 
  
 lawd:hasName [ lawd:variantForm "Wifat; Yǝfat" ];
+geo:location [ geo:lat  ;  geo:long  ] ; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC3921Ifat/main> ;
                 
                 .
@@ -38203,6 +38218,28 @@ lawd:hasName [ lawd:variantForm "Maṭbeya" ];
                 
                  
              
+             <http://betamasaheft.aai.uni-hamburg.de/places/LOC4545Maqala> a lawd:Place ;
+  rdfs:label "Maala"@ti;
+ dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC4545Maqala.xml> ;
+ dcterms:description "A place in Ethiopia"@en ;
+ dcterms:temporal <http://n2t.net/ark:/99152/p03tcssvtwm>;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q332319> ;
+
+lawd:hasName [ lawd:primaryForm "መቐለ፡"@ti ]; 
+ 
+lawd:hasName [ lawd:variantForm "Maala"@ti ]; 
+ 
+lawd:hasName [ lawd:variantForm "መቀሌ፡"@am ]; 
+ 
+lawd:hasName [ lawd:variantForm "Maqalle"@am ];
+geo:location [ geo:lat 13.4833 ;  geo:long 39.4666 ] ; 
+ foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC4545Maqala/main> ;
+                dcterms:isPartOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC5932Tegray>;
+
+                .
+                
+                 
+             
              <http://betamasaheft.aai.uni-hamburg.de/places/LOC4737Mecca> a lawd:Place ;
   rdfs:label "Mecca";
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC4737Mecca.xml> ;
@@ -39246,33 +39283,6 @@ lawd:hasName [ lawd:variantForm "Moqärär" ];
  
 lawd:hasName [ lawd:variantForm "Mora" ]; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC4864Mora/main> ;
-                
-                .
-                
-                 
-             
-             <http://betamasaheft.aai.uni-hamburg.de/places/INS0369DabraSabaot> a lawd:Place ;
-  rdfs:label "More then 1 INS0369DabraSabaot";
- dcterms:source <http://betamasaheft.aai.uni-hamburg.de/INS0369DabraSabaot.xml> ;
- dcterms:description "A place in Ethiopia"@en ;
- dcterms:temporal <http://n2t.net/ark:/99152/p03tcssvm7f>;
- 
-lawd:hasName [ lawd:primaryForm "ደብረ፡ ጸባዖት፡"@gez ]; 
- 
-lawd:hasName [ lawd:variantForm "Dabra Ṣabāʿot" ]; 
- foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/INS0369DabraSabaot/main> ;
-                
-                .
-                
-                 
-             
-             <http://betamasaheft.aai.uni-hamburg.de/places/INS0369DabraSabaot> a lawd:Place ;
-  rdfs:label "More then 1 INS0369DabraSabaot";
- dcterms:source <http://betamasaheft.aai.uni-hamburg.de/INS0369DabraSabaot.xml> ;
- dcterms:description "A place in Ethiopia"@en ;
- 
-lawd:hasName [ lawd:variantForm "Dabra Ṣabāʿot" ]; 
- foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/INS0369DabraSabaot/main> ;
                 
                 .
                 
@@ -41356,18 +41366,6 @@ lawd:hasName [ lawd:variantForm "Mäqi Giyorgis" ];
  
 lawd:hasName [ lawd:variantForm "Mäqi Mikaʾel" ]; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC4553MaqiMi/main> ;
-                
-                .
-                
-                 
-             
-             <http://betamasaheft.aai.uni-hamburg.de/places/LOC4545Maqala> a lawd:Place ;
-  rdfs:label "Mäqälä";
- dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC4545Maqala.xml> ;
- dcterms:description "A place in Ethiopia"@en ;
- 
-lawd:hasName [ lawd:variantForm "Mäqälä" ]; 
- foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC4545Maqala/main> ;
                 
                 .
                 
@@ -48656,12 +48654,12 @@ geo:location [ geo:lat -14.33333 ;  geo:long 28.5 ] ;
   rdfs:label "Republic of Zimbabwe"@en;
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC6488Zimbab.xml> ;
  dcterms:description "A place in Ethiopia"@en ;
-  skos:exactMatch <http://sws.geonames.org/878675> ;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q954> ;
 
 lawd:hasName [ lawd:primaryForm "Republic of Zimbabwe"@en ]; 
  
 lawd:hasName [ lawd:variantForm "Republic of Rhodesia"@en ];
-geo:location [ geo:lat -19 ;  geo:long 29.75 ] ; 
+geo:location [ geo:lat -19.016667 ;  geo:long 30.016667 ] ; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC6488Zimbab/main> ;
                 
                 .
@@ -48722,9 +48720,8 @@ geo:location [ geo:lat 36.44288 ;  geo:long 28.22654 ] ;
   rdfs:label "Rhodesia";
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC5347Rhodes.xml> ;
  dcterms:description "A place in Ethiopia"@en ;
-  skos:exactMatch <http://betamasaheft.aai.uni-hamburg.de/places/LOC6488Zimbab> ;
-
-lawd:hasName [ lawd:variantForm "Rhodesia" ];
+ 
+lawd:hasName [ lawd:variantForm "Rhodesia" ]; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC5347Rhodes/main> ;
                 
                 .
@@ -51820,6 +51817,21 @@ lawd:hasName [ lawd:variantForm "" ];
                 
                  
              
+             <http://betamasaheft.aai.uni-hamburg.de/places/LOC6860borderland> a lawd:Place ;
+  rdfs:label "Southern borderland of the Christian kingdom"@gez;
+ dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC6860borderland.xml> ;
+ dcterms:description "A place in Ethiopia"@en ;
+ dcterms:temporal <http://n2t.net/ark:/99152/p03tcssvm7f>;
+ 
+lawd:hasName [ lawd:primaryForm "ጽንፍ፡"@gez ]; 
+ 
+lawd:hasName [ lawd:variantForm "Southern borderland of the Christian kingdom"@gez ]; 
+ foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC6860borderland/main> ;
+                
+                .
+                
+                 
+             
              <http://betamasaheft.aai.uni-hamburg.de/places/LOC6565Sowit> a lawd:Place ;
   rdfs:label "Sowit";
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC6565Sowit.xml> ;
@@ -53637,13 +53649,12 @@ lawd:hasName [ lawd:variantForm "ተከዚ" ];
   rdfs:label "Takkaze Mǝllaš"@ti;
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC5865Takkaz.xml> ;
  dcterms:description "A place in Ethiopia"@en ;
-  skos:exactMatch <http://betamasaheft.aai.uni-hamburg.de/places/LOC6569Tegray> ;
-
+ 
 lawd:hasName [ lawd:primaryForm "ተከዜ፡ ምላሽ፡"@ti ]; 
  
 lawd:hasName [ lawd:variantForm "Takkaze Mǝllaš"@ti ]; 
  
-lawd:hasName [ lawd:variantForm "beyond the Takkaze"@en ];
+lawd:hasName [ lawd:variantForm "beyond the Takkaze"@en ]; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC5865Takkaz/main> ;
                 
                 .
@@ -74419,13 +74430,23 @@ lawd:hasName [ lawd:variantForm "Ḥawrān" ];
                  
              
              <http://betamasaheft.aai.uni-hamburg.de/places/LOC3826Hawzen> a lawd:Place ;
-  rdfs:label "Ḥawzen";
+  rdfs:label "Ḥawzen"@gez;
  dcterms:source <http://betamasaheft.aai.uni-hamburg.de/LOC3826Hawzen.xml> ;
  dcterms:description "A place in Ethiopia"@en ;
+ dcterms:temporal <http://n2t.net/ark:/99152/p03tcssvtwm>;
+  skos:exactMatch <https://www.wikidata.org/wiki/Q3128790 Q3128788> ;
+
+lawd:hasName [ lawd:primaryForm "ሐውዜን፡"@gez ]; 
  
-lawd:hasName [ lawd:variantForm "Ḥawzen" ]; 
+lawd:hasName [ lawd:variantForm "Ḥawzen"@gez ]; 
+ 
+lawd:hasName [ lawd:variantForm "ሐውዜና፡ This place name is mentioned in two land-granting documents of the Liber Axumae"@gez ]; 
+ 
+lawd:hasName [ lawd:variantForm "Ḥawzena"@gez ];
+geo:location [ geo:lat 14.0000 ;  geo:long 39.3333 ] ; 
  foaf:primaryTopicOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC3826Hawzen/main> ;
-                
+                dcterms:isPartOf <http://betamasaheft.aai.uni-hamburg.de/places/LOC6583WestTegray>; 
+
                 .
                 
                  
