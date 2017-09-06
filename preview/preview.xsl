@@ -102,7 +102,7 @@
     <xsl:include href="Work.xsl"/>
     <xsl:include href="nar.xsl"/>
     
-    
+    <!--
     <xsl:include href="certainty.xsl"/>
     <xsl:include href="locus.xsl"/>
     <xsl:include href="bibl.xsl"/>
@@ -121,10 +121,10 @@
     <xsl:include href="condition.xsl"/>
     <xsl:include href="layoutDesc.xsl"/>
     <xsl:include href="additions.xsl"/>
-    <xsl:include href="decoDesc.xsl"/>
+    <xsl:include href="decoDesc.xsl"/>-->
     <xsl:include href="collation.xsl"/>
     <xsl:include href="collationstep1.xsl"/>
-    <xsl:include href="collationstep2.xsl"/>
+    <!--<xsl:include href="collationstep2.xsl"/>
     <xsl:include href="collationstep3.xsl"/>
     <xsl:include href="collationstep4.xsl"/>
     <xsl:include href="collationdiagrams.xsl"/>
@@ -134,16 +134,16 @@
     <xsl:include href="handDesc.xsl"/>
     <xsl:include href="msContents.xsl"/>
     <xsl:include href="history.xsl"/>
-    <xsl:include href="divEdition.xsl"/>
+    <xsl:include href="divEdition.xsl"/>-->
     
     <!--        elements with references-->
-    <xsl:include href="ref.xsl"/>
+   <!-- <xsl:include href="ref.xsl"/>
     <xsl:include href="persName.xsl"/>
     <xsl:include href="placeName.xsl"/>
-    <!-- includes also region, country and settlement-->
+    <!-\- includes also region, country and settlement-\->
     <xsl:include href="title.xsl"/>
     <xsl:include href="repo.xsl"/>
-
+-->
 
 
 

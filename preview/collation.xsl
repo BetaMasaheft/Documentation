@@ -133,14 +133,13 @@
             </div>
 <!--             TESTING THING -->
                 <div><xsl:copy-of select="$visColl"/></div>
-            <xsl:variable name="step1">
+           <!-- <xsl:variable name="step1">
                 <xsl:for-each select="$visColl">
                     <xsl:call-template name="step1">
                         <xsl:with-param name="step1ed" tunnel="yes" select="."/>
                     </xsl:call-template>
                 </xsl:for-each>
-            </xsl:variable>
-            <xsl:copy-of select="$step1"/>
+            </xsl:variable>-->
             <!--<xsl:variable name="step2">
                 <xsl:for-each select="$step1">
                     <xsl:call-template name="step2">
