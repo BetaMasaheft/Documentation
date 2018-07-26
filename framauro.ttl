@@ -1,0 +1,37 @@
+@prefix ns0: <http://www.w3.org/ns/oa#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix ns1: <http://www.w3.org/2011/content#> .
+
+<https://recogito.pelagios.org/document/xlidop0zvdwwwt#3c72210b-91f4-4f8b-8f1d-5d81dea8cde3>
+  a <http://www.w3.org/ns/oa#Annotation> ;
+  ns0:hasBody [
+    a ns0:Tag ;
+    dc:created "2017-04-05T08:40:52+00:00" ;
+    dc:creator "Pietro" ;
+    ns1:chars "Ethiopia"
+  ] ;
+  ns0:hasTarget <https://recogito.pelagios.org/document/xlidop0zvdwwwt> .
+
+<https://recogito.pelagios.org/document/xlidop0zvdwwwt>
+  a <http://pelagios.github.io/vocab/terms#AnnotatedThing> ;
+  dc:title "Fra Mauro map" .
+
+<https://recogito.pelagios.org/document/xlidop0zvdwwwt#40182fe8-04f9-4125-8745-d9e3aa1c31ed>
+  a ns0:Annotation ;
+  ns0:hasBody <http://sws.geonames.org/130758> ;
+  ns0:hasTarget <https://recogito.pelagios.org/document/xlidop0zvdwwwt> .
+
+<https://recogito.pelagios.org/document/xlidop0zvdwwwt#f7e95a8a-d947-4e0d-8960-b3952a61ca4d>
+  a ns0:Annotation ;
+  ns0:hasBody <http://pleiades.stoa.org/places/775>, [
+    a ns0:Tag ;
+    dc:created "2017-04-05T08:45:46+00:00" ;
+    dc:creator "Pietro" ;
+    ns1:chars "Ethiopia"
+  ] ;
+  ns0:hasTarget <https://recogito.pelagios.org/document/xlidop0zvdwwwt> .
+
+<https://recogito.pelagios.org/document/xlidop0zvdwwwt#c7f0432e-3208-4544-a74a-ca3d727e8b98>
+  a ns0:Annotation ;
+  ns0:hasBody <http://betamasaheft.eu/places/LOC5671Semen> ;
+  ns0:hasTarget <https://recogito.pelagios.org/document/xlidop0zvdwwwt> .
