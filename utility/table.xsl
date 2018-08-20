@@ -49,7 +49,8 @@
                 <th>attestation</th>
                 <th>identification</th>
             </tr>
-            <xsl:for-each select="//t:placeName">
+            <xsl:for-each select="//t:placeName[not(ancestor::t:app)]">
+                <xsl:variable name="id" select="@xml:id"/>
                 <xsl:variable name="mainencodedURL" select="local:encodedURI(@ref)"/>
             <tr>
                 <td>
@@ -73,6 +74,14 @@
                         <td><xsl:copy-of select="if(@resp) then local:respBibl(@resp, $file//t:bibl[@xml:id= substring-after(@resp,'#')]/t:ptr/@target) else ancestor-or-self::t:TEI//t:editor/@key"/></td>
                         <td><xsl:if test="@ref"><a href="http://peripleo.pelagios.org/ui#selected={$mainencodedURL}">Peripleo</a></xsl:if></td>
                     </tr>
+                        <xsl:if test="@xml:id"><xsl:for-each select="following::t:app[contains(@corresp,$id)]">
+                            <tr>
+                                <td><xsl:for-each select="descendant::t:placeName/@ref"><xsl:copy-of select="local:IDlink(.)"/></xsl:for-each></td>
+                                <td><xsl:apply-templates select="t:note"/></td>
+                                <td>scholion</td>
+                                <td><xsl:for-each select="descendant::t:placeName/@ref"><a href="http://peripleo.pelagios.org/ui#selected={local:encodedURI(.)}">Peripleo</a></xsl:for-each></td>
+                            </tr>
+                        </xsl:for-each></xsl:if>
                     <xsl:for-each select="t:certainty">
                         <xsl:variable name="encodedURL" select="local:encodedURI(@assertedValue)"/>
                         <xsl:variable name="r" select="substring-after(@resp,'#')"></xsl:variable>
@@ -98,6 +107,9 @@
         <a><xsl:attribute name="href"><xsl:value-of select="concat($zotero,t:ptr/@target)"/></xsl:attribute>
         <xsl:value-of select="t:ptr/@target"/>
         </a>
+    </xsl:template>
+    <xsl:template match="t:placeName">
+        <xsl:value-of select="."/>
     </xsl:template>
     <xsl:template match="t:ref">
         <a><xsl:attribute name="href"><xsl:value-of select="@target"/></xsl:attribute>
