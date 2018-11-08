@@ -1,4 +1,4 @@
-# ScAthiop
+# Beta maṣāḥǝft: Manuscripts of Ethiopia and Eritrea
 Die Schriftkultur des christlichen Äthiopiens: Eine multimediale Forschungsumgebung
 
 This repo is for workflow and development subprojects. None of this is guaranteed or released, but feel free to reuse it if you find anything interesting to you.
