@@ -16,5 +16,5 @@
     <script type="text/javascript" src="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/resources/js/PointsHere.js"></script>
 </html>
     </xsl:template>
-    <xsl:include href="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/xslt/mss.xsl"/>
+    <!--<xsl:include href="https://raw.githubusercontent.com/BetaMasaheft/BetMas/master/BetMas/xslt/mss.xsl"/>-->
 </xsl:stylesheet>
