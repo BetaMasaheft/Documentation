@@ -48,6 +48,11 @@ that are not aligned to this Code of Conduct, or to ban temporarily or
 permanently any contributor for other behaviors that they deem inappropriate,
 threatening, offensive, or harmful.
 
+## Communication and comments
+We think it is better to refrain from using irony, rhetorical questions and exaggerations in these contexts. They are often hard to get in purely written form, especially considering that communication here also takes place between persons who do not know each other personally.
+Comments are much more pleasing to read when they respect conventions of orthography and punctuation.
+
+
 ## Scope
 
 This Code of Conduct applies both within project spaces and in public spaces
@@ -70,6 +75,8 @@ Further details of specific enforcement policies may be posted separately.
 Project maintainers who do not follow or enforce the Code of Conduct in good
 faith may face temporary or permanent repercussions as determined by other
 members of the project's leadership.
+
+You can signal an inappropriate post using the thumbs down emoji for example. This is fairly straight forward signal that something is not right.
 
 ## Attribution
 
