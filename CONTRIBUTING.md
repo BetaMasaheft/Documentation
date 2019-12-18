@@ -17,6 +17,25 @@ Remember that the persons interacting here are all, as you, real people and wish
 
 When in doubt about which kinds of behaviour (in editing, answering, commenting, reviewing...) are appropriate, just ask!  
 
+# Who does what
+
+* Everyone (= every member of the organization) can comment and read comments
+* Everyone can propose changes
+* Everyone can use the data
+* Everyone can make a branch
+* Everyone can commit changes to their branch
+* Only the team members can commit to master but are discouraged to do so
+* Only the tech lead can commit to master
+* Everyone can create a Pull Request
+* Everyone can be asked to review a Pull Request
+* Team Members have to review a Pull Request if asked
+* Other Members can decline to review or ignore the request to review
+* Only team members can merge a Pull Request which has been reviewed
+* Team members can merge a Pull Request even if it has not been reviewed, but this is bad practice and is discouraged
+* No one, ever should use the Force Push option unless adviced to do so by the teach lead of the project
+* Everyone can open issues, comment and contribute to the conversaions
+
+
 # Creating good issues 
 Always make sure you are familiar with the [Code of conduct](CODE_OF_CONDUCT.md).
 Please use one of the templates. Try to be as clear as possible
