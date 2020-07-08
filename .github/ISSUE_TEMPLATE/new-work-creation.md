@@ -2,7 +2,7 @@
 name: New work creation template
 about: This issue is for discussing the creation of a new work record
 title: New work record for
-labels: works
+labels: works, Text Identification
 assignees: ''
 
 ---
