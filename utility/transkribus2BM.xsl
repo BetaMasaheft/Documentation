@@ -55,7 +55,7 @@
     <xsl:copy>
         <div xmlns="http://www.tei-c.org/ns/1.0" 
             type="edition" xml:id="Transkribus" subtype="transkribus">
-            <xsl:for-each select="1 to xs:integer($totalfolia)">
+            <xsl:for-each select="1 to xs:integer(ceiling($totalfolia))">
                 <xsl:variable name="imagenumber" select="."/>
 <!--                <xsl:message><xsl:value-of select="$imagenumber"/></xsl:message>-->
                 <xsl:variable name="folio" 
