@@ -17,22 +17,32 @@
     <!--    opening or singleSide    -->
     <xsl:param name="imagetype">opening</xsl:param>
     
-    <xsl:template match="@* | text()">
+    <xsl:template match="@*">
         <xsl:copy>
-            <xsl:apply-templates select="@* | text()"/>
+            <xsl:apply-templates select="@*"/>
         </xsl:copy>
     </xsl:template>
     
     <xsl:template match="t:TEI">
         <transkribus2BM>
-            <xsl:apply-templates/>
+            <facsimile xml:id="transkribus{.//t:title[@type='main']}">
+                <xsl:apply-templates select="//t:surface"/>
+            </facsimile>
+            <xsl:apply-templates select="t:text"/>
         </transkribus2BM>
     </xsl:template>
     <xsl:template match="t:teiHeader"/>
     
-    <xsl:template match="t:facsimile| t:surface | t:graphic  | t:zone">
+    <xsl:template match="t:graphic  | t:zone">
         <xsl:copy>
             <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+    
+    <xsl:template match="t:surface">
+        <xsl:copy>
+            <xsl:attribute name="xml:id"><xsl:value-of select="parent::t:facsimile/@xml:id"/></xsl:attribute>
+            <xsl:apply-templates/>
         </xsl:copy>
     </xsl:template>
     
@@ -80,10 +90,10 @@
 <!--                <xsl:message><xsl:copy-of select="$versoPB"/></xsl:message>-->
                 <xsl:variable name="versoPBnext" 
                     select="$versoPB/following-sibling::t:pb[1]"/>
-                <xsl:message><xsl:copy-of select="$versoPBnext"/></xsl:message>
+<!--                <xsl:message><xsl:copy-of select="$versoPBnext"/></xsl:message>-->
                 <xsl:variable name="colVersoPB" 
                     select="$versoPB/following-sibling::t:p[. &lt;&lt; $versoPBnext]"/>
-                <xsl:message><xsl:copy-of select="$colVersoPB"/></xsl:message>
+<!--                <xsl:message><xsl:copy-of select="$colVersoPB"/></xsl:message>-->
                 <xsl:variable name="countcolsV" select="count($colVersoPB)"/>
                <xsl:if test="$folio ge 1"> <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="folio" n="{$folio}">
                     <xsl:comment>image n.<xsl:value-of select="$imagenumber"/>  folio n.<xsl:value-of select="$folio"/> </xsl:comment>
@@ -156,7 +166,7 @@
     
     <xsl:template match="t:p">
         <xsl:param name="col"/>
-        <xsl:message><xsl:value-of select="$col"></xsl:value-of><xsl:copy-of select="."></xsl:copy-of></xsl:message>
+<!--        <xsl:message><xsl:value-of select="$col"></xsl:value-of><xsl:copy-of select="."></xsl:copy-of></xsl:message>-->
         <cb xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:copy-of select="@facs"/>
             <xsl:attribute name="n">
@@ -171,8 +181,20 @@
             <xsl:copy-of select="@facs"/>
             <xsl:attribute name="n" 
                 select="format-number(xs:integer(substring-after(@n, 'N')), '###')"/>
+            <xsl:if test="not(matches(preceding-sibling::text()[1], '[፡።፨፤]\s*$'))"><xsl:attribute name="break">no</xsl:attribute></xsl:if>
         </xsl:copy>
         
+    </xsl:template>
+    
+    <xsl:template match="text()">
+        <xsl:choose> 
+         <xsl:when test="matches(., '[፡።፨፤]\s*$')">
+            <xsl:value-of select="."/>
+        </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="replace(., '\s+$', '')"></xsl:value-of>
+        </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
     
 </xsl:stylesheet>
