@@ -9,10 +9,8 @@
 <!--       total number of foliated leaves-->
    </xsl:param>
     
-    <xsl:param name="emptyimagesbeginning">
-<!--        number of protective sheets to be left out of foliation count-->
-    </xsl:param>
-   
+    <!--        number of protective sheets to be left out of foliation count-->
+    <xsl:param name="emptyimagesbeginning">0</xsl:param>
     
     <!--    opening or singleSide    -->
     <xsl:param name="imagetype">opening</xsl:param>
@@ -66,34 +64,38 @@
         <div xmlns="http://www.tei-c.org/ns/1.0" 
             type="edition" xml:id="Transkribus" subtype="transkribus">
             <xsl:for-each select="1 to xs:integer(ceiling($totalfolia))">
+<!--                stores the image number as a value in a sequence from 1 to the total-->
                 <xsl:variable name="imagenumber" select="."/>
-<!--                <xsl:message><xsl:value-of select="$imagenumber"/></xsl:message>-->
+                <xsl:message>image number <xsl:value-of select="$imagenumber"/></xsl:message>
+<!--                removing from the total folia the empty protective leaves we have the current folio-->
                 <xsl:variable name="folio" 
                     select="$imagenumber - $emptyimagesbeginning"/>
-<!--                <xsl:message><xsl:value-of select="$folio"/></xsl:message>-->
+                <xsl:message>folio <xsl:value-of select="$folio"/></xsl:message>
+<!--                select the pb relevant for the current folio. if it is an image of an opening takes page breaks with 
+                    @n equal to the image number, otherwise multiplies by 2 and removes one to get only the recto-->
                 <xsl:variable name="rectoPB" 
                     select="if($imagetype = 'opening') 
                                     then $this//t:pb[@n=$imagenumber] 
                                     else $this//t:pb[@n=(($imagenumber*2) -1)]"/>
-<!--                 <xsl:message><xsl:copy-of select="$rectoPB"/></xsl:message>-->
+                 <xsl:message> recto pb <xsl:value-of select="$rectoPB/@facs"/></xsl:message>
                 <xsl:variable name="rectoPBnext" 
                   select="$rectoPB/following-sibling::t:pb[1]"/>
-<!--                <xsl:message><xsl:copy-of select="$rectoPBnext"/></xsl:message>-->
+                <xsl:message>next of recto pb<xsl:value-of select="$rectoPBnext/@facs"/></xsl:message>
                 <xsl:variable name="colRectoPB" 
                     select="$rectoPB/following-sibling::t:p[. &lt;&lt; $rectoPBnext]"/>
-<!--                <xsl:message><xsl:copy-of select="$colRectoPB"/></xsl:message>-->
+                <xsl:message> col recto pb <xsl:value-of select="$colRectoPB/@facs"/></xsl:message>
                 <xsl:variable name="countcolsR" select="count($colRectoPB)"/>
                 <xsl:variable name="versoPB" 
                     select="if($imagetype = 'opening') 
                                     then $this//t:pb[@n=($imagenumber +1)] 
                                     else $this//t:pb[@n=($imagenumber*2)]"/>
-<!--                <xsl:message><xsl:copy-of select="$versoPB"/></xsl:message>-->
+                <xsl:message>verso pb <xsl:value-of select="$versoPB/@facs"/></xsl:message>
                 <xsl:variable name="versoPBnext" 
                     select="$versoPB/following-sibling::t:pb[1]"/>
-<!--                <xsl:message><xsl:copy-of select="$versoPBnext"/></xsl:message>-->
+                <xsl:message>next of verso pb <xsl:value-of select="$versoPBnext/@facs"/></xsl:message>
                 <xsl:variable name="colVersoPB" 
                     select="$versoPB/following-sibling::t:p[. &lt;&lt; $versoPBnext]"/>
-<!--                <xsl:message><xsl:copy-of select="$colVersoPB"/></xsl:message>-->
+                <xsl:message>col verso pb <xsl:value-of select="$colVersoPB/@facs"/></xsl:message>
                 <xsl:variable name="countcolsV" select="count($colVersoPB)"/>
                <xsl:if test="$folio ge 1"> <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="folio" n="{$folio}">
                     <xsl:comment>image n.<xsl:value-of select="$imagenumber"/>  folio n.<xsl:value-of select="$folio"/> </xsl:comment>
@@ -103,14 +105,17 @@
                             <xsl:with-param name="folio" select="$folio"/>
                             <xsl:with-param name="side">r</xsl:with-param>
                         </xsl:apply-templates>
-                        <xsl:for-each select="$colRectoPB[position() = (
-                                                            ((if($countcolsR gt 2) then xs:integer(ceiling($countcolsR div 2))
-                                                            else 1) + (if($folio=1) then 0 else 1)) 
-                                                            to $countcolsR)]">
-                            <!--<xsl:message>
+                        <xsl:message>count cols R = <xsl:value-of select="$countcolsR"/></xsl:message>
+                        <xsl:variable name="from" select="(
+                            if($countcolsR = 2) then 1 else
+                            if($countcolsR gt 2) then xs:integer(ceiling($countcolsR div 2))
+                            else 1) + ( if($countcolsR = 2) then 0 else if($folio=1) then 0 else 1)"/>
+                        <xsl:message>from : <xsl:value-of select="$from"/></xsl:message>
+                        <xsl:for-each select="$colRectoPB[position() = ($from to $countcolsR)]">
+                            <xsl:message>
                                 facs <xsl:value-of select="@facs"/> ; 
                                 position <xsl:value-of select="position()"/> . 
-                            </xsl:message>-->
+                            </xsl:message>
                             <xsl:apply-templates select=".">
                             <!-- this selects p-->
                             <xsl:with-param name="col">
@@ -153,7 +158,7 @@
     <xsl:template match="t:pb">
        <xsl:param name="folio"/>
         <xsl:param name="side"/>
-<!--        <xsl:message>got to pb</xsl:message>-->
+        <xsl:message>adding pb <xsl:value-of select="$folio"/><xsl:value-of select="$side"/></xsl:message>
         <xsl:copy>
             <xsl:copy-of select="@facs"/>
 <!--     copying this generates double xml:ids when dealing with openings! 
@@ -166,7 +171,7 @@
     
     <xsl:template match="t:p">
         <xsl:param name="col"/>
-<!--        <xsl:message><xsl:value-of select="$col"></xsl:value-of><xsl:copy-of select="."></xsl:copy-of></xsl:message>-->
+        <xsl:message>adding col <xsl:value-of select="$col"/><xsl:value-of select="./@facs"></xsl:value-of></xsl:message>
         <cb xmlns="http://www.tei-c.org/ns/1.0">
             <xsl:copy-of select="@facs"/>
             <xsl:attribute name="n">
