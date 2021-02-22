@@ -97,19 +97,30 @@
                     select="$versoPB/following-sibling::t:p[. &lt;&lt; $versoPBnext]"/>
                 <xsl:message>col verso pb <xsl:value-of select="$colVersoPB/@facs"/></xsl:message>
                 <xsl:variable name="countcolsV" select="count($colVersoPB)"/>
+<!--                for each folio makes a div-->
                <xsl:if test="$folio ge 1"> <div xmlns="http://www.tei-c.org/ns/1.0" type="textpart" subtype="folio" n="{$folio}">
+<!--                   adds a comment with the image number and the current folio-->
                     <xsl:comment>image n.<xsl:value-of select="$imagenumber"/>  folio n.<xsl:value-of select="$folio"/> </xsl:comment>
+<!--                   make an ab to hold pb, cb, lb s-->
                     <ab>
+<!--                        apply templates to the pb for the recto (produces only a pb element copying the correct one selected)-->
                         <xsl:apply-templates select="$rectoPB">
                             <!-- this selects pb-->
                             <xsl:with-param name="folio" select="$folio"/>
                             <xsl:with-param name="side">r</xsl:with-param>
                         </xsl:apply-templates>
+<!--                        select which columns to take. given the total of possible columns for the recto, we need the second half of them, 
+                            ASSUMING THEY ARE EVEN, i.e. the same number of columns occurrs on each side.-->
                         <xsl:message>count cols R = <xsl:value-of select="$countcolsR"/></xsl:message>
+<!--                        start from 2 if there are 2 (will take 2), 
+                               from 3 if there are 4 (will take columns at position 3 and 4), 
+                               from 4 if there are 6 (will take columns at position 4, 5 and 6), 
+                        etc. to do this count, make a ceiling and add 1 -->
                         <xsl:variable name="from" select="(
                             if($countcolsR = 2) then 1 else
                             if($countcolsR gt 2) then xs:integer(ceiling($countcolsR div 2))
                             else 1) + ( if($countcolsR = 2) then 0 else if($folio=1) then 0 else 1)"/>
+                        
                         <xsl:message>from : <xsl:value-of select="$from"/></xsl:message>
                         <xsl:for-each select="$colRectoPB[position() = ($from to $countcolsR)]">
                             <xsl:message>
