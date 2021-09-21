@@ -1,8 +1,8 @@
-This repository contains a series of libraries and applications devoloped and run in [exist-db](http://exist-db.org/) The packages are maintained here with this notes on how to set up the research environment for transparency and version tracking purposes. Once the new version is ready and online, the code is updated here and the release note going with it explains what has changed. This is the code used by the app displaying the data of the project. All js dependencies typically stored under resources in each application are not copied in this repo.
+This repository contains a series of libraries and applications developed and run in [exist-db](http://exist-db.org/) The packages are maintained here with this notes on how to set up the research environment for transparency and version tracking purposes. Once the new version is ready and online, the code is updated here and the release note going with it explains what has changed. This is the code used by the app displaying the data of the project. All js dependencies typically stored under resources in each application are not copied in this repo.
 
 # Bet Mas Research Environment Split applications release process
 
-This documentation is intended for the Tech Lead of the Beta Masaheft project and details the entire setup of the data and applications, their relations to one another and practical implications and procedural steps. It was written when upgrading the research environment from version 4 to version 5.2, which implied a lot of splitting up of data and applications, refactoring etc. to meet needs of speed, increased indexing requirements and maintainability.
+This documentation is intended for the Tech Lead of the Beta maṣāḥǝft project and details the entire setup of the data and applications, their relations to one another and practical implications and procedural steps. It was written when upgrading the research environment from version 4 to version 5.2, which implied a lot of splitting up of data and applications, refactoring etc. to meet needs of speed, increased indexing requirements and maintainability.
 Before going into process and details, here is an overview of what we have here.
 
 ## The data and applications in the GitHub repositories
@@ -11,34 +11,39 @@ All data is maintained in the same organization with this applications. We try t
 ### The Beta Masaheft Organization
 The [Beta Masaheft organization](https://github.com/BetaMasaheft) hosts a number of repositories related to the Beta Masaheft research environment.
 
+Issues are only kept in this repository also when they relate to others. Exception is made for Bibliography, Guidelines, Dillmann and traces-related repositories which, belonging to different project are reported in their own repositories.
+
+For any questions on use of the application, data entry, use of these repositories, please consider using the DISCUSSIONS.
+
 Application repositories
-- BetMas . This repository
-- Dillmann . The exist-db app serving the Online Lexicon Linguae Aethiopicae at https://betamasheft.eu/Dillmann
-- guidelinesApp
+- _BetMas_ : The repository where all the applications related to Beta maṣāḥǝft and the support libraries are stored
+- _Dillmann_ : The exist-db app serving the Online Lexicon Linguae Aethiopicae at https://betamasheft.eu/Dillmann
+- _guidelinesApp_ : The application that runs the website of the Guidelines, a separate project about the ways in which data is edited.
+- _alpheios2fs_ : a simple library with a transformation from the json format exported by Alpheios Alignment tools to the TEI  feature structure model with the values defined by the TraCES project.
 
-data repositories
-- Manuscripts
-- Works
-- Authority files
-- Persons
-- Places
-- Institutions
-- Narratives
-- Studies
-- RDF
-- Schema
-- Guidelines
-- alpheiosannotations
-- traces
-- DomLib
-- coordinates
+Data repositories
+- Manuscripts : TEI records for individual Ethiopian and Eritrean Manuscripts
+- Works : TEI records for texts of the Ethiopian Literature
+- Authority files : TEI records for each of the keywords used in the descriptions of Manuscripts, Works, Person, Places, Studies, Narratives and other Authority files.
+- Persons : TEI records for persons and ethnic groups relevant for Ethiopian Manuscript Studies
+- Places : TEI records for places relevant for Ethiopian Manuscript Studies
+- Institutions : TEI records for repositories where some Manuscripts have been or are stored. This will include many churches, but should not be confused with them, as that of a repository is a different abstract notion
+- Narratives : TEI records describing units of text without  a fixed word sequence
+- Studies : TEI records for secondary literature works related to Ethiopian Studies
+- RDF : resources like ontologies and RDF datasets for the parallel RDF serialization of the TEI XML data
+- Schema : the Beta Masaheft schema, a TEI customization used to validate all types of files above.
+- Guidelines : the repository of the text of the guidelines, collaboratively edited and pushed to the _guidelinesApp_ together with the Schema to provide all needed guidance and training to contributors of Beta Masaheft and other projects willing to use the same models
+- alpheiosannotations :  a repository to store alignment exported from the Alpheios Alignment tool as json. These are pushed to the alpheios2fs application
+- traces : the TEI exports of the annotations done by the TraCES project with the GeTa tool by Cristina Vertan.
+- DomLib : the export of the data from the mycore instance where the EthioSpaRe catalogue data was stored. This was used as a basis to produce the collection ES into Manuscripts
+- coordinates : a set of coordinates for places in Ethiopia inehrited from the Encyclopaedia Aethiopica
 
-utility repositories
-- Documentation
-- bibliography
-- styles
-- makePDF
-- SyntaxeDuCodex
+Utility repositories
+- Documentation : This repository, where all una tantum scripts, and especially the ISSUES are kept. All issues are listed here.
+- bibliography : this repository contains a githubpages website which gives initial guidance on the management of the bibliography for colleages at the HLCEES.
+- styles : a fork of the CSL Styles repository for the maintainance of the HLCEES styles
+- makePDF : a repository with an oxygen project set up with guidance to produce a PDF output from a set of manuscript records and related resources using the style of Aethiopica.
+- SyntaxeDuCodex : contains the ontology designed for the representatio of structural relationships within a manuscript.
 - Editor
 
 
@@ -105,11 +110,12 @@ Once configurations are applied, data can be added with a decent indexing time.
 #### Compile derivate datasets.
 Here you will use the _BetMasService_ library. This step is needed only locally.
 
-1. compile bibliography.xml within _lists_  with `makeFormattedBibliography.xql` which calls `generateFormattedBibliography.xqm` and following the formatting and adjustment instructions into that file. This can take two hours more or less.
+1. compile bibliography.xml within _lists_  with `makeFormattedBibliography.xql` which calls `generateFormattedBibliography.xqm` and following the formatting and adjustment instructions into that file. This can take two hours more or less. It is advisable to run this instead of updating the existing bibliography (which is done by gitsync whenever a file is merged into a repository) because this will spot wrong pointers and return logs with the errors. If the bibliography.xml previously in use has been edited, then before replacing it with the new one, perhaps consider a filldiff importing the changes from the new production into the edited bibliography file.
 2. update `canonicaltaxonomy.xml`. With this the lists will be all at the latest possible update status.
 3. make sure to make the files readable so that they are also indexed for the transformations to take place as quickly as possible. use permissions.xql into the _BetMasService_ library.
 4. populate `expanded` with `makeExpand.xql` which calls `expand.xqm` and stores files to the `expanded` collection with the right permissions. this will use the lists, the _EthioStudies_ library and the _BetMasData_ library. Make sure they are indexed or the performance will be horrible. Run authority-lists with profiling on in monex, to check.
     - check that split files which need to be in parts to come through from GitHub have been remerged taking into consideration Xinclude statements. This should be the default behaviour.
+    - this takes quite some time (16.9.21 it took, only for manuscripts 7468.928 seconds, so a bit more than 2 hours). To run an the entire data including IHA it takes really a lot. I usually run the smaller collections (narratives, authority-files, Institutions, Studies) and then let the biggest go overnight. I skip corpora and the choniajki dataset, these do not need expansion. you can check that all has been transformed with `tryout.xql` which will simply count resources in the subcollections so that you can see where there is something missing. If numbers do not match, update permissions and try again. eventually export the data and compare with oxygen diff directories to see what is missing.
 
 #### Store related applications datasets
 
@@ -178,3 +184,11 @@ collatex
 ### applications
 
 ## DONE!
+
+# References
+
+- Liuzzo, P. M. 2021. ‘Linked Open Data based on La syntaxe du codex for Manuscripts in Beta maṣāḥǝft’, in S. Bond, P. Dilley, and R. Horne, eds, Linked Ancient World Data: An Open Access Cookbook, ISAW Papers (New  York: 2021).
+- Liuzzo, P. M., Solomon Gebreyes, and D. Reule 2020. ‘Beta maṣāḥǝft TEI-XML Data’, UHH Data Notes, 1 (2020) (DOI: http://dx.doi.org/10.25592/DANO-01-001).
+- Liuzzo, P. M. 2019. Digital Approaches to Ethiopian and Eritrean Studies, Supplement to Aethiopica, 8 (2019) (DOI: http://dx.doi.org/10.2307/j.ctvrnfr3q).
+- Liuzzo, P., D. Reule, E. Sokolinski, Solomon Gebreyes, D. Elagina, D. Nosnistin, E. Dal Sasso, and J. Gnisci Beta maṣāḥǝft Guidelines (2018) <http://betamasaheft.eu/Guidelines/>, accessed 30 April 2018 (DOI: http://dx.doi.org/10.25592/BetaMasaheft.Guidelines).
+- Reule, D. 2018. ‘Beta maṣāḥǝft: Manuscripts of Ethiopia and Eritrea’, in A. Bausi, P. Buzi, P. M. Liuzzo, and E. Sokolinski, eds, COMSt Bulletin, 4/1 presented at the workshop Linking Manuscripts from the Coptic, Ethiopian, and Syriac Domain: Present and Future Synergy Strategies, Hamburg, 23 and 24 February 2018 (2018), 13–27  (DOI: http://dx.doi.org/10.25592/uhhfdm.247).
