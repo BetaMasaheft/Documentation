@@ -21,13 +21,16 @@
         </xsl:copy>
     </xsl:template>
     
+<!--    the input is the result of exporting TEI from Transkribus, output are two documents, one with a copy of the facsimile, the other the text with pointer to the facimile elements, reorganized-->
     <xsl:template match="t:TEI">
-        <transkribus2BM>
-            <facsimile xml:id="transkribus{.//t:title[@type='main']}">
+        <xsl:result-document method="xml" href="facsimile.xml">
+            <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="transkribus{.//t:title[@type='main']}">
                 <xsl:apply-templates select="//t:surface"/>
             </facsimile>
-            <xsl:apply-templates select="t:text"/>
-        </transkribus2BM>
+        </xsl:result-document> 
+        <xsl:result-document method="xml" href="transkribusText.xml">
+                  <xsl:apply-templates select="t:text"/>
+        </xsl:result-document>
     </xsl:template>
     <xsl:template match="t:teiHeader"/>
     
