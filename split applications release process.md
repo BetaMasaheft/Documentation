@@ -73,16 +73,16 @@ I move data usually from the oXygen data source explorer, not from the file mana
 The reference data includes bibliography, autority-files, the data from GitHub and the additional data stored in BM.
 
 #### Store indexes configurations
-Prepare the collections needed and the relative collection.xconf files into system/configuration/db. Copies of these files are kept in the GitHub Repository `BetMas`.
+Prepare the collections needed and the relative collection.xconf files into system/configuration/db. Copies of these files are kept in the GitHub Repository `BetMas` in the same collection organization in which they are in the db structure into exist-db.
 
-- _EthioStudies_
-- _lists_
-- _BetMasData_
-- _expanded_
-- _DillmannData_
-- _TracesData_
+- _EthioStudies_ indexes the TEI XML export from Zotero
+- _lists_ indexes the authority lists and titles
+- _BetMasData_ indexes the data mirrored from GitHub to speed up the expansion process
+- _expanded_ indexes the expanded data for searches and views in the web application
+- _DillmannData_ indexes the TEI Dictionary data from Dillmann
+- _TracesData_ indexes the TEI Feature Structures from the TraCES project and from _alpheios2fs_
 
-Configurations should be applied WITHIN EXIDE. Make a change and apply configuration when asked after clicking SAVE.
+Configurations should be applied WITHIN EXIDE before uploading the data. Make a change and apply configuration when asked after clicking SAVE.
 Make sure permissions are ok (rwxrwxr-x) on the colllection.xconf and on the target collections
 
 #### Store reference data
@@ -116,6 +116,24 @@ Here you will use the _BetMasService_ library. This step is needed only locally.
 4. populate `expanded` with `makeExpand.xql` which calls `expand.xqm` and stores files to the `expanded` collection with the right permissions. this will use the lists, the _EthioStudies_ library and the _BetMasData_ library. Make sure they are indexed or the performance will be horrible. Run authority-lists with profiling on in monex, to check.
     - check that split files which need to be in parts to come through from GitHub have been remerged taking into consideration Xinclude statements. This should be the default behaviour.
     - this takes quite some time (16.9.21 it took, only for manuscripts 7468.928 seconds, so a bit more than 2 hours). To run an the entire data including IHA it takes really a lot. I usually run the smaller collections (narratives, authority-files, Institutions, Studies) and then let the biggest go overnight. I skip corpora and the choniajki dataset, these do not need expansion. you can check that all has been transformed with `tryout.xql` which will simply count resources in the subcollections so that you can see where there is something missing. If numbers do not match, update permissions and try again. eventually export the data and compare with oxygen diff directories to see what is missing.
+5. update data in Fuseki
+    - make sure a collection exists called /rdf into /db . This should already contain subcollections for each item type, without subfolders
+    - make sure Fuseki is running on localhost:3030 (see below),
+    - make sure the triplestore is configured correctly and the betamasaheft graph is active and contains
+            - _betamasaheftnew2.owl_ the ontology
+            - _snap.rdf_ the SNAP ontology
+            - _saws.rdf_ the SAWS ontology
+            - _lawd.rdf_ the LAWD ontology
+            - _equivalences.rdf_ a set of additional owl:sameAs statements.
+            [actually, the reasoner is giving issues in the query. some errors in the ontologies are present which multiply instances, so, it is commented out from the configuration at the moment]
+    - run `makeRDF.xql` changing the collection path for each of the main collections.  This will store in the collection into existdb the data and also update Fuseki. This will also take sometime (transformed to RDF and stored in Fuseki 179 file(s) in 13.996 seconds.
+transformed to RDF and stored in Fuseki 8947 file(s) in 603.324 seconds.
+transformed to RDF and stored in Fuseki 18003 file(s) in 2768.371 seconds.
+transformed to RDF and stored in Fuseki 6619 file(s) in 964.014 seconds.
+transformed to RDF and stored in Fuseki 16548 file(s) in 2348.666 seconds.) and not all file will end up in the triplestore. You can avoid this if you have a dump from the previous version from Fuseki. There are several steps in the TEI , in the transformation to RDF, and from XML to turtle that will have to be tackled but are minor at the moment. the most reasonable way to deal with them at the moment is to see when they cause errors.
+    - add also the _EthioStudies.rdf_ export into the graph.
+
+
 
 #### Store related applications datasets
 
@@ -124,7 +142,9 @@ Here you will use the _BetMasService_ library. This step is needed only locally.
 
 ### Store applications
 
-The release needs the following applications to be installed. These are all packaged and stored in GitHub repositories.
+The release needs the following applications to be installed. These are all packaged and stored in GitHub repositories and their xar are also in the _BetMas_ repository in the xars directory where some of the applications are maintained.
+
+- w3.css needs to be stored in /db/shared-resources/resources/css
 
 - dependency applications from exist-db Repository
      - eXide
@@ -159,6 +179,48 @@ it contains all the javascript and css needed by the application in the browser 
 - _guidelines_
 - _parser_
 - _alpheiosannotations_
+
+## test rooting via proxy
+install nginx with brew on mac.
+copy the configurations from the server and run nginx
+````
+brew services start nginx
+````
+This should allow to test that the calls are directed correctly.
+
+However, I have never really been able to run nginx on mac without conflicts, so I have httpd set up on mac.
+
+To update the configuration I do
+
+````
+cd /private/etc/apache2/extra
+sudo nano httpd-vhosts.conf
+````
+and make sure things like the following are There
+
+````
+<VirtualHost *:80>
+ProxyRequests off
+ServerName bet.mas
+ProxyPass / http://localhost:8080/exist/apps/BetMasWeb/
+ProxyPassReverse / http://localhost:8080/exist/apps/BetMasWeb/
+ProxyPassReverseCookieDomain localhost bet.mas
+ProxyPassReverseCookiePath /exist /
+RewriteEngine on
+RewriteRule         ^/(.*)$     /$1   [PT]
+</VirtualHost>
+````
+
+which means that if I go to bet.mas in the browser it will open that application.
+to save the configuration run
+```
+apachectl configtest
+```
+and if it is OK
+```
+sudo apachectl graceful
+```
+which will reload the configuration.
 
 ## server application steps
 In theory, you should be able to make a backup of the local database, restore that on the server and all should be good. In practice it is not necessarily true. So, do it step by step.
