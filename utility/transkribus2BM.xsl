@@ -24,7 +24,7 @@
 <!--    the input is the result of exporting TEI from Transkribus, output are two documents, one with a copy of the facsimile, the other the text with pointer to the facimile elements, reorganized-->
     <xsl:template match="t:TEI">
         <xsl:result-document method="xml" href="facsimile.xml">
-            <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="transkribus{.//t:title[@type='main']}">
+            <facsimile xmlns="http://www.tei-c.org/ns/1.0" xml:id="transkribus{replace(.//t:title[@type='main'], '[\s\.\)\(\-]', '')}">
                 <xsl:apply-templates select="//t:surface"/>
             </facsimile>
         </xsl:result-document> 
