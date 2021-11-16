@@ -60,10 +60,10 @@ The data is stored in repositories in this group and is pushed to the live app v
 
 ### External applications used by the project  and integrated into our workflow
 - Zotero
-- Alpheios
+- Alpheios Annotation
 -
 
-## local application steps
+## Local application steps
 
 Set up a new exist-db instance locally. Possibly, this should happen during a data freeze, to avoid that data is updated while the application  and the relative lists and authority files are being reset.
 Keep eXide and monex open to check things.
@@ -145,6 +145,7 @@ transformed to RDF and stored in Fuseki 16548 file(s) in 2348.666 seconds.) and 
 The release needs the following applications to be installed. These are all packaged and stored in GitHub repositories and their xar are also in the _BetMas_ repository in the xars directory where some of the applications are maintained.
 
 - w3.css needs to be stored in /db/shared-resources/resources/css
+- font awesome package to be stored under resources in the _BetMasWeb_ application
 
 - dependency applications from exist-db Repository
      - eXide
