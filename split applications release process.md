@@ -5,6 +5,20 @@ This repository contains a series of libraries and applications developed and ru
 This documentation is intended for the Tech Lead of the Beta maṣāḥǝft project and details the entire setup of the data and applications, their relations to one another and practical implications and procedural steps. It was written when upgrading the research environment from version 4 to version 5.2, which implied a lot of splitting up of data and applications, refactoring etc. to meet needs of speed, increased indexing requirements and maintainability.
 Before going into process and details, here is an overview of what we have here.
 
+## Quick steps to restore local development set up.
+- install most up-to-date exist-db (currently 5.3)
+- update conf.xml with pooling to 200, nodebuffer to -1, default permissions 775, preserve-white-space yes
+- back up server data
+- restore from server backup into new local version (takes hours)
+- run repair:repair
+- upload from GitHub repository development apps
+- reindex data collections
+- run makeFormattedBibliography on BetMasData
+- run makeExpand on BetMasData to repopulate expanded dataset
+- restart changing stuff and seeing what happens
+
+
+
 ## The data and applications in the GitHub repositories
 All data is maintained in the same organization with this applications. We try to link issues and commits, PRs etc. so that we can make our way back in the history of the application.
 
