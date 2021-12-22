@@ -75,7 +75,7 @@ The data is stored in repositories in this group and is pushed to the live app v
 ### External applications used by the project  and integrated into our workflow
 - Zotero
 - Alpheios Annotation
--
+- Transkribus
 
 ## Local application steps
 
@@ -150,7 +150,7 @@ transformed to RDF and stored in Fuseki 16548 file(s) in 2348.666 seconds.) and 
 
 
 #### Store related applications datasets
-
+The following should be copied from the current live application, or left to stay where they are already if the db is not upgraded.
 1. _DillmannData_
 2. _TracesData_
 
@@ -238,16 +238,16 @@ sudo apachectl graceful
 which will reload the configuration.
 
 ## server application steps
-In theory, you should be able to make a backup of the local database, restore that on the server and all should be good. In practice it is not necessarily true. So, do it step by step.
+In theory, you should be able to make a backup of the local database, restore that on the server and all should be good. In practice it is not necessarily true. So, do it step by step. Also, most datasets are going to be more up-to-date in the synced version live, so, often upgrading selectively is much faster.
 
 
-## other applications on web server
+## relevant applications on web server
 nginx
 systmctl services
-exist  config.xml
+iipimage server
+exist  
 fuseki
-tomcat
-collatex
+tomcat + collatex
 
 ### Fuseki and RDF datasets
 
@@ -273,7 +273,7 @@ To upgrade to a new version or restore from backup, for every dataset:
 ### collatex
 
 Collatex runs as a war file into Tomcat.
-tomcat@9, supported by Ubuntu 18, is installed using brew. an environment variable $TOMCAT_H leads to the distribution.
+tomcat@9, supported by Ubuntu 18, is installed using brew. 
 starting tomcat (sudo bin/catalina start) will make available the collatex war at /collatex/
 
 ### Image server
@@ -281,10 +281,8 @@ the IIPI image server is installed with sudo apt-get and is proxyed and redirect
 
 
 ## update long term storage (FDMR)
-### datasets
-### applications
+Datasets and applications should be stored periodically, especially in occasion of (hence, after a) a successful release.
 
-## DONE!
 
 # References
 
