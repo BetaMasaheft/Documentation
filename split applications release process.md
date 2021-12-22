@@ -245,15 +245,39 @@ In theory, you should be able to make a backup of the local database, restore th
 nginx
 systmctl services
 exist  config.xml
+fuseki
 tomcat
 collatex
 
 ### Fuseki and RDF datasets
 
+Since the log4j2 CVE, our instance of the latest Fuseki runs as a standalone server and resides in /media/add together with the corresponding Apache Jena distribution.
+
+This is started with fuseki.service and is enabled at reboot.
+
+To upgrade to a new version or restore from backup, for every dataset:
+- make sure a recent backup is available, store it locally
+- save the configurations in an accessible location
+- download and unpack the distribution
+- chown them to the user fusekirunner
+- start Fuseki (with systemctl start fuseki)
+- stop Fuseki (with systemctl stop fuseki)
+- copy the configurations for the databases in the fuseki distribution under configuration
+- start Fuseki (with systemctl start fuseki)
+- this will run on port 3030, and this port is proxied by /fuseki/ in the nginx sites-available configuration
+- open the nginx configuration and uncomment the client_max_body_size to allow more than the default 1Mb upload.
+- reload nginx configuration (sudo service nginx reload)
+- use the fuseki interface to upload the compressed backups of the data
+
+
 ### collatex
 
-### Image server
+Collatex runs as a war file into Tomcat.
+tomcat@9, supported by Ubuntu 18, is installed using brew. an environment variable $TOMCAT_H leads to the distribution.
+starting tomcat (sudo bin/catalina start) will make available the collatex war at /collatex/
 
+### Image server
+the IIPI image server is installed with sudo apt-get and is proxyed and redirected in the nginx configuration
 
 
 ## update long term storage (FDMR)
