@@ -107,7 +107,7 @@ Once configurations are applied, data can be added with a decent indexing time.
     1. Download it from the _server_ into the `BetMas` GitHub repository (export from oXygen data source explorer view)
     2. commit that to `BetMas`
     3. upload from GitHub to the new _local_ instance.
-    4. open and format the lists, they will be massy from the update operations.
+    4. open and format the lists, they will be untidy due to the xquery update operations adding and not formatting.
 3. _EthioStudies_ : The data here is a collection-by-collection export in TEI from the Zotero library. This takes about half hour.
      1. Generate the files from Zotero, selecting `export tags` and `generate xml:id` from the dialogue
      2. store them into the `BetMas` GitHub repository,
@@ -124,12 +124,12 @@ Once configurations are applied, data can be added with a decent indexing time.
 #### Compile derivate datasets.
 Here you will use the _BetMasService_ library. This step is needed only locally.
 
-1. compile bibliography.xml within _lists_  with `makeFormattedBibliography.xql` which calls `generateFormattedBibliography.xqm` and following the formatting and adjustment instructions into that file. This can take two hours more or less. It is advisable to run this instead of updating the existing bibliography (which is done by gitsync whenever a file is merged into a repository) because this will spot wrong pointers and return logs with the errors. If the bibliography.xml previously in use has been edited, then before replacing it with the new one, perhaps consider a filldiff importing the changes from the new production into the edited bibliography file.
-2. update `canonicaltaxonomy.xml`. With this the lists will be all at the latest possible update status.
+1. compile bibliography.xml within _lists_  with `makeFormattedBibliography.xql` which calls `generateFormattedBibliography.xqm` and following the formatting and adjustment instructions into that file. This can take two hours more or less. It is advisable to run this instead of updating the existing bibliography (which is done by gitsync whenever a file is merged into a repository) because this will spot wrong pointers and return logs with the errors. If the bibliography.xml previously in use has been edited, then before replacing it with the new one, perhaps consider a filediff importing the changes from the new production into the edited bibliography file.
+2. update `canonicaltaxonomy.xml`. With this the lists will be all at the latest possible update status. If you want to do this newly, open the latest taxonomy.xml into _authority-files_ and run canonicaltaxonomy.xslt, from the XSLT collection into _BetMasService_ on it this will prompt a new canonical taxonomy with expanded names, which may be fixed before use.
 3. make sure to make the files readable so that they are also indexed for the transformations to take place as quickly as possible. use permissions.xql into the _BetMasService_ library.
 4. populate `expanded` with `makeExpand.xql` which calls `expand.xqm` and stores files to the `expanded` collection with the right permissions. this will use the lists, the _EthioStudies_ library and the _BetMasData_ library. Make sure they are indexed or the performance will be horrible. Run authority-lists with profiling on in monex, to check.
     - check that split files which need to be in parts to come through from GitHub have been remerged taking into consideration Xinclude statements. This should be the default behaviour.
-    - this takes quite some time (16.9.21 it took, only for manuscripts 7468.928 seconds, so a bit more than 2 hours). To run an the entire data including IHA it takes really a lot. I usually run the smaller collections (narratives, authority-files, Institutions, Studies) and then let the biggest go overnight. I skip corpora and the choniajki dataset, these do not need expansion. you can check that all has been transformed with `tryout.xql` which will simply count resources in the subcollections so that you can see where there is something missing. If numbers do not match, update permissions and try again. eventually export the data and compare with oxygen diff directories to see what is missing.
+    - this takes quite some time (16.9.21 it took, only for manuscripts 7468.928 seconds, so a bit more than 2 hours). To run an the entire data including IHA it takes really a lot. I usually run the smaller collections (narratives, authority-files, Institutions, Studies) and then let the biggest go overnight. I skip corpora and the choniajki dataset, these do not need expansion. you can check that all has been transformed with `tryout.xql` which will simply count resources in the subcollections so that you can see where there is something missing. If numbers do not match, update permissions and try again. Eventually export the data and compare with oxygen diff directories to see what is missing.
 5. update data in Fuseki
     - make sure a collection exists called /rdf into /db . This should already contain subcollections for each item type, without subfolders
     - make sure Fuseki is running on localhost:3030 (see below),
@@ -188,8 +188,7 @@ The release needs the following applications to be installed. These are all pack
   - views generated with the model template system, based on html templates
   - views generated as RESTXQ responses to requests
 it contains all the javascript and css needed by the application in the browser and also a limited data entry interface for creating new records for logged editors.
-- _BetMasAPIs_
-- _BetMasPreview_
+- _BetMasAPI_
 - _gez-en_
 - _guidelines_
 - _parser_
@@ -270,19 +269,24 @@ To upgrade to a new version or restore from backup, for every dataset:
 - use the fuseki interface to upload the compressed backups of the data
 
 
-### collatex
+### Collatex
 
 Collatex runs as a war file into Tomcat.
-tomcat@9, supported by Ubuntu 18, is installed using brew. 
+tomcat@9, supported by Ubuntu 18, is installed using brew.
 starting tomcat (sudo bin/catalina start) will make available the collatex war at /collatex/
 
 ### Image server
 the IIPI image server is installed with sudo apt-get and is proxyed and redirected in the nginx configuration
 
 
-## update long term storage (FDMR)
+## Update long term storage (FDMR)
 Datasets and applications should be stored periodically, especially in occasion of (hence, after a) a successful release.
 
+
+## Monitoring
+- Amplify NGINX : you need to follow [this instructions](https://www.nginx.com/blog/setting-up-nginx-amplify-in-10-minutes/) to see the server and monitor ingoing requests and other parameters. This will require changing an API key, linked to your account in the server. This is used to see how the server in general is doing.
+- Monex : you need an admin account on exist-db, keep it open and see what happens. This is used to check how the DB (exist-db) is behaving.
+- Google pages : this has been deactivated by commenting out the relevant lines in the html templates because results are unchanging and add up time to page loading. This was used to have an idea of the usage of the html views of the website.
 
 # References
 
