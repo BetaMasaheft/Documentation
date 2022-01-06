@@ -7,7 +7,7 @@ Before going into process and details, here is an overview of what we have here.
 
 ## Quick steps to restore local development set up.
 - install most up-to-date exist-db (currently 5.3)
-- update conf.xml with pooling to 200, nodebuffer to -1, default permissions 775, preserve-white-space yes
+- update conf.xml with pooling to 200, nodebuffer to -1, default permissions 775
 - back up server data
 - restore from server backup into new local version (takes hours)
 - run repair:repair
@@ -250,7 +250,7 @@ tomcat + collatex
 
 ### Fuseki and RDF datasets
 
-Since the log4j2 CVE, our instance of the latest Fuseki runs as a standalone server and resides in /media/add together with the corresponding Apache Jena distribution.
+Since the log4j2 CVE in December 2021, our instance of the latest Fuseki runs as a standalone server and resides in /media/add together with the corresponding Apache Jena distribution.
 
 This is started with fuseki.service and is enabled at reboot.
 
