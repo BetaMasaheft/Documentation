@@ -139,13 +139,13 @@ Here you will use the _BetMasService_ library. This step is needed only locally.
             - _saws.rdf_ the SAWS ontology
             - _lawd.rdf_ the LAWD ontology
             - _equivalences.rdf_ a set of additional owl:sameAs statements.
-            [actually, the reasoner is giving issues in the query. some errors in the ontologies are present which multiply instances, so, it is commented out from the configuration at the moment]
+            [actually, the reasoner is giving issues in the query and has been commented out in the configuration. Some errors in the ontologies are present which multiply instances and make queries impossible]
     - run `makeRDF.xql` changing the collection path for each of the main collections.  This will store in the collection into existdb the data and also update Fuseki. This will also take sometime (transformed to RDF and stored in Fuseki 179 file(s) in 13.996 seconds.
 transformed to RDF and stored in Fuseki 8947 file(s) in 603.324 seconds.
 transformed to RDF and stored in Fuseki 18003 file(s) in 2768.371 seconds.
 transformed to RDF and stored in Fuseki 6619 file(s) in 964.014 seconds.
 transformed to RDF and stored in Fuseki 16548 file(s) in 2348.666 seconds.) and not all file will end up in the triplestore. You can avoid this if you have a dump from the previous version from Fuseki. There are several steps in the TEI , in the transformation to RDF, and from XML to turtle that will have to be tackled but are minor at the moment. the most reasonable way to deal with them at the moment is to see when they cause errors.
-    - add also the _EthioStudies.rdf_ export into the graph.
+    - add also the _EthioStudies.rdf_ export into the graph. This RDF export should be in the Bibliontology RDF, not the Zotero RDF.
 
 
 
