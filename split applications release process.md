@@ -2,25 +2,28 @@ This repository contains a series of libraries and applications developed and ru
 
 # Bet Mas Research Environment Split applications release process
 
-This documentation is intended for the Tech Lead of the Beta maṣāḥǝft project and details the entire setup of the data and applications, their relations to one another and practical implications and procedural steps. It was written when upgrading the research environment from version 4 to version 5.2, which implied a lot of splitting up of data and applications, refactoring etc. to meet needs of speed, increased indexing requirements and maintainability.
+This documentation is intended for the Tech Lead of the Beta maṣāḥǝft project and details the entire setup of the data and applications, their relations to one another and practical implications and procedural steps. It was written when upgrading the research environment from version 4 to version 5.2, and amended when upgrading to version 6.4.0 which implied a lot of splitting up of data and applications, refactoring etc. to meet needs of speed, increased indexing requirements and maintainability.
 Before going into process and details, here is an overview of what we have here.
 
 ## Quick steps to restore local development set up.
-- install most up-to-date exist-db (currently 5.3)
-- update conf.xml with pooling to 200, nodebuffer to -1, default permissions 775
-- back up server data
-- restore from server backup into new local version (takes hours)
-- run repair:repair
-- upload from GitHub repository development apps
-- reindex data collections
-- run makeFormattedBibliography on BetMasData
-- run makeExpand on BetMasData to repopulate expanded dataset
-- restart changing stuff and seeing what happens
-
+- clone the betmas project
+- Generate a github PAT with read access to the betamasaheft organization
+- Place it in a file `github-token.txt` in the root of the betamasaheft project
+- Run:
+```sh
+docker run -it -p 8080:8080 `GIT_AUTH_TOKEN=$(cat github-token.txt) docker build --secret id="GIT_AUTH_TOKEN" --build-arg GITHUB_ID=drrataplan -f ./Dockerfile.expand -q .
+```
+- Wait a while
+- Open the app on http://localhost:8080/
 
 
 ## The data and applications in the GitHub repositories
 All data is maintained in the same organization with this applications. We try to link issues and commits, PRs etc. so that we can make our way back in the history of the application.
+
+## Tuttle
+Data repositories are synced to the server using tuttle. Available on http://ml-s-betmas.ad.uni-hamburg.de:8081/exist/apps/tuttle/. Log in and press `incremental` on all repos that are out of date. This is described in more detail in the file tuttle.md.
+
+
 
 ### The Beta Masaheft Organization
 The [Beta Masaheft organization](https://github.com/BetaMasaheft) hosts a number of repositories related to the Beta Masaheft research environment.
@@ -36,21 +39,25 @@ Application repositories
 - _alpheios2fs_ : a simple library with a transformation from the json format exported by Alpheios Alignment tools to the TEI  feature structure model with the values defined by the TraCES project.
 
 Data repositories
-- Manuscripts : TEI records for individual Ethiopian and Eritrean Manuscripts
-- Works : TEI records for texts of the Ethiopian Literature
-- Authority files : TEI records for each of the keywords used in the descriptions of Manuscripts, Works, Person, Places, Studies, Narratives and other Authority files.
-- Persons : TEI records for persons and ethnic groups relevant for Ethiopian Manuscript Studies
-- Places : TEI records for places relevant for Ethiopian Manuscript Studies
-- Institutions : TEI records for repositories where some Manuscripts have been or are stored. This will include many churches, but should not be confused with them, as that of a repository is a different abstract notion
-- Narratives : TEI records describing units of text without  a fixed word sequence
-- Studies : TEI records for secondary literature works related to Ethiopian Studies
-- RDF : resources like ontologies and RDF datasets for the parallel RDF serialization of the TEI XML data
-- Schema : the Beta Masaheft schema, a TEI customization used to validate all types of files above.
-- Guidelines : the repository of the text of the guidelines, collaboratively edited and pushed to the _guidelinesApp_ together with the Schema to provide all needed guidance and training to contributors of Beta Masaheft and other projects willing to use the same models
-- alpheiosannotations :  a repository to store alignment exported from the Alpheios Alignment tool as json. These are pushed to the alpheios2fs application
-- traces : the TEI exports of the annotations done by the TraCES project with the GeTa tool by Cristina Vertan.
-- DomLib : the export of the data from the mycore instance where the EthioSpaRe catalogue data was stored. This was used as a basis to produce the collection ES into Manuscripts
-- coordinates : a set of coordinates for places in Ethiopia inehrited from the Encyclopaedia Aethiopica
+- The following are updated using tuttle:
+  - Manuscripts : TEI records for individual Ethiopian and Eritrean Manuscripts
+  - Works : TEI records for texts of the Ethiopian Literature
+  - Authority files : TEI records for each of the keywords used in the descriptions of Manuscripts, Works, Person, Places, Studies, Narratives and other Authority files.
+  - Persons : TEI records for persons and ethnic groups relevant for Ethiopian Manuscript Studies
+  - Places : TEI records for places relevant for Ethiopian Manuscript Studies
+  - Institutions : TEI records for repositories where some Manuscripts have been or are stored. This will include many churches, but should not be confused with them, as that of a repository is a different abstract notion
+  - Narratives : TEI records describing units of text without  a fixed word sequence
+  - Studies : TEI records for secondary literature works related to Ethiopian Studies
+  - Schema : the Beta Masaheft schema, a TEI customization used to validate all types of files above.
+  - Guidelines : the repository of the text of the guidelines, collaboratively edited and pushed to the _guidelinesApp_ together with the Schema to provide all needed guidance and training to
+  - Corpora
+- The following are not:
+  - RDF : resources like ontologies and RDF datasets for the parallel RDF serialization of the TEI XML data
+contributors of Beta Masaheft and other projects willing to use the same models
+	- alpheiosannotations :  a repository to store alignment exported from the Alpheios Alignment tool as json. These are pushed to the alpheios2fs application
+   - traces : the TEI exports of the annotations done by the TraCES project with the GeTa tool by Cristina Vertan.
+   - DomLib : the export of the data from the mycore instance where the EthioSpaRe catalogue data was stored. This was used as a basis to produce the collection ES into Manuscripts
+   - coordinates : a set of coordinates for places in Ethiopia inehrited from the Encyclopaedia Aethiopica
 
 Utility repositories
 - Documentation : This repository, where all una tantum scripts, and especially the ISSUES are kept. All issues are listed here.
